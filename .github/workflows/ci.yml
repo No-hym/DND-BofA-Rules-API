@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-go@v7
+        with:
+          go-version: '1.27.4'
+          cache: false
+      - name: Generate OpenAPI Chi contract types
+        run: |
+          go install github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen@v2.9.0
+          make generate-openapi
+      - name: Generate type-safe SQL accessors
+        run: |
+          go install github.com/sqlc-dev/sqlc/cmd/sqlc@v1.31.1
+          sqlc generate
+      - name: Resolve and lock dependencies
+        run: go mod tidy
+      - name: Format Go sources
+        run: gofmt -w $(find cmd internal -name '*.go' -type f)
+      - name: Static checks
+        run: go vet ./...
+      - name: Validate catalog and JSON Schema
+        run: go run ./cmd/rules validate --dir data/catalog
+      - name: Unit and Testcontainers tests
+        run: go test -race ./...
+      - uses: golangci/golangci-lint-action@v9
+        with:
+          version: v2.15.0
+          args: --timeout=5m
+      - name: Build container
+        run: docker build -t dnd-bofa-rules-api:ci .

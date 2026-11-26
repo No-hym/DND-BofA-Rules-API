@@ -1,0 +1,99 @@
+openapi: 3.1.0
+info:
+  title: DND-BofA Rules API
+  version: 1.0.0
+  description: Versioned bilingual rules content with per-record source and license metadata.
+  license: {name: MIT, url: https://opensource.org/license/mit/}
+security: []
+servers:
+  - url: /api/v1
+paths:
+  /entities:
+    get:
+      operationId: listEntities
+      summary: Search/filter catalog entities
+      parameters:
+        - {name: lang, in: query, schema: {type: string, enum: [en, ru], default: en}}
+        - {name: q, in: query, schema: {type: string, maxLength: 200}}
+        - {name: category, in: query, schema: {type: string}}
+        - {name: edition, in: query, schema: {type: string, enum: ["2014", "2024"]}}
+        - {name: publisher, in: query, schema: {type: string}}
+        - {name: book, in: query, schema: {type: string}}
+        - {name: limit, in: query, schema: {type: integer, minimum: 1, maximum: 500, default: 100}}
+        - {name: offset, in: query, schema: {type: integer, minimum: 0, default: 0}}
+        - {name: sort, in: query, schema: {type: string, enum: [name, updated], default: name}}
+      responses:
+        '200': {description: Paged entities, content: {application/json: {schema: {$ref: '#/components/schemas/EntityPage'}}}}
+        '400': {$ref: '#/components/responses/BadRequest'}
+  /entities/{id}:
+    get:
+      operationId: getEntity
+      summary: Fetch a stable-ID entity
+      parameters:
+        - {name: id, in: path, required: true, schema: {type: string}}
+        - {name: lang, in: query, schema: {type: string, enum: [en, ru], default: en}}
+      responses:
+        '200': {description: Entity, content: {application/json: {schema: {$ref: '#/components/schemas/Entity'}}}}
+        '404': {$ref: '#/components/responses/NotFound'}
+  /export:
+    get:
+      operationId: exportEntities
+      summary: Bulk export (up to 5000 records)
+      parameters:
+        - {name: lang, in: query, schema: {type: string, enum: [en, ru], default: en}}
+        - {name: q, in: query, schema: {type: string, maxLength: 200}}
+        - {name: category, in: query, schema: {type: string}}
+        - {name: edition, in: query, schema: {type: string, enum: ["2014", "2024"]}}
+        - {name: publisher, in: query, schema: {type: string}}
+        - {name: book, in: query, schema: {type: string}}
+        - {name: limit, in: query, schema: {type: integer, minimum: 1, maximum: 5000, default: 5000}}
+      responses:
+        '200': {description: Export page, content: {application/json: {schema: {type: object, properties: {data: {type: array, items: {$ref: '#/components/schemas/Entity'}}, truncated: {type: boolean}, limit: {type: integer}}}}}}
+        '400': {$ref: '#/components/responses/BadRequest'}
+  /editions:
+    get:
+      operationId: listEditions
+      summary: List editions in enabled books
+      responses:
+        '200': {description: Enabled editions, content: {application/json: {schema: {type: object, properties: {data: {type: array, items: {type: string}}}}}}}
+        '404': {$ref: '#/components/responses/NotFound'}
+  /categories:
+    get:
+      operationId: listCategories
+      summary: List categories in enabled books
+      responses:
+        '200': {description: Available categories, content: {application/json: {schema: {type: object, properties: {data: {type: array, items: {type: string}}}}}}}
+        '404': {$ref: '#/components/responses/NotFound'}
+components:
+  schemas:
+    Entity:
+      type: object
+      required: [id, category, edition, publisher_id, book_id, source, license, version, language, name, description, translation_status, attribution, mechanics]
+      properties:
+        id: {type: string, description: Permanent identifier}
+        category: {type: string}
+        edition: {type: string, enum: ["2014", "2024"]}
+        publisher_id: {type: string}
+        book_id: {type: string}
+        source: {type: string}
+        license: {type: string}
+        version: {type: string}
+        language: {type: string, enum: [en, ru]}
+        name: {type: string}
+        description: {type: string}
+        translation_status: {type: string, enum: [source, machine, reviewed, outdated]}
+        attribution: {type: string}
+        mechanics: {type: object, additionalProperties: true}
+    EntityPage:
+      type: object
+      required: [data, pagination]
+      properties:
+        data: {type: array, items: {$ref: '#/components/schemas/Entity'}}
+        pagination: {type: object, properties: {limit: {type: integer}, offset: {type: integer}, count: {type: integer}, has_more: {type: boolean}}}
+    Error:
+      type: object
+      required: [error, message]
+      properties: {error: {type: string}, message: {type: string}}
+  responses:
+    BadRequest: {description: Invalid parameters, content: {application/json: {schema: {$ref: '#/components/schemas/Error'}}}}
+    NotFound: {description: Entity not found, content: {application/json: {schema: {$ref: '#/components/schemas/Error'}}}}
