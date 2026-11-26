@@ -33,7 +33,7 @@ func TestPostgresAPIIntegration(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	dsn := fmt.Sprintf("postgres://rules:rules@%s/%s?sslmode=disable", host, port.Port())
+	dsn := fmt.Sprintf("postgres://rules:rules@%s:%s/rules?sslmode=disable", host, port.Port())
 	db, err := sql.Open("pgx", dsn)
 	if err != nil {
 		t.Fatal(err)
