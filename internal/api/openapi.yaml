@@ -64,8 +64,45 @@ paths:
       responses:
         '200': {description: Available categories, content: {application/json: {schema: {type: object, properties: {data: {type: array, items: {type: string}}}}}}}
         '404': {$ref: '#/components/responses/NotFound'}
+  /catalog:
+    get:
+      operationId: getCatalogMetadata
+      summary: Version, coverage and source licenses of the pinned catalog (no database access)
+      responses:
+        '200': {description: Catalog metadata, content: {application/json: {schema: {$ref: '#/components/schemas/CatalogMetadata'}}}}
+  /sources:
+    get:
+      operationId: listSources
+      summary: Registered content sources and licenses (same payload as /catalog)
+      responses:
+        '200': {description: Catalog metadata, content: {application/json: {schema: {$ref: '#/components/schemas/CatalogMetadata'}}}}
 components:
   schemas:
+    CatalogMetadata:
+      type: object
+      required: [version, primary_edition, entities, by_edition, by_category, by_source, translated, sources]
+      properties:
+        version: {type: string, description: Versioned catalog release consumed by DND-BofA}
+        primary_edition: {type: string, enum: ["2024"]}
+        entities: {type: integer}
+        translated: {type: integer, description: Records with an exact, attributable Russian description}
+        by_edition: {type: object, additionalProperties: {type: integer}}
+        by_category: {type: object, additionalProperties: {type: integer}}
+        by_source: {type: object, additionalProperties: {type: integer}}
+        by_book: {type: object, additionalProperties: {type: integer}}
+        dedupe: {type: object, additionalProperties: {type: integer}}
+        sources:
+          type: array
+          items:
+            type: object
+            required: [id, title, url, role]
+            properties:
+              id: {type: string}
+              title: {type: string}
+              url: {type: string, format: uri}
+              license: {type: string}
+              role: {type: string}
+              commit: {type: string}
     Entity:
       type: object
       required: [id, category, edition, publisher_id, book_id, source, license, version, language, name, description, translation_status, attribution, mechanics]

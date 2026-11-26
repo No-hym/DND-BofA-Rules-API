@@ -78,6 +78,8 @@ func (h *Handler) Routes() http.Handler {
 		r.Get("/export", h.export)
 		r.Get("/editions", h.editions)
 		r.Get("/categories", h.categories)
+		r.Get("/catalog", h.catalogMetadata)
+		r.Get("/sources", h.catalogMetadata)
 	})
 	return r
 }

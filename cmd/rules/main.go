@@ -153,13 +153,22 @@ func importData(args []string) error {
 	for _, id := range bookIDs {
 		record := books[id]
 		title := strings.ReplaceAll(id, "-", " ")
+		sourceURL := "https://api.open5e.com/"
+		if document, ok := record.Mechanics["source_document"].(map[string]any); ok {
+			if value, ok := document["title"].(string); ok && strings.TrimSpace(value) != "" {
+				title = value
+			}
+			if value, ok := document["permalink"].(string); ok && strings.TrimSpace(value) != "" {
+				sourceURL = value
+			}
+		}
 		if id == "srd-5.2.1" {
 			title = "System Reference Document 5.2.1"
 		}
 		_, err = tx.ExecContext(ctx, `INSERT INTO books(id,publisher_id,title,edition,license_id,source_url)
 			VALUES($1,$2,$3,$4,$5,$6) ON CONFLICT(id) DO UPDATE SET publisher_id=EXCLUDED.publisher_id,
 			title=EXCLUDED.title,edition=EXCLUDED.edition,license_id=EXCLUDED.license_id,source_url=EXCLUDED.source_url,updated_at=now()`,
-			id, record.PublisherID, title, record.Edition, record.License, "https://api.open5e.com/")
+			id, record.PublisherID, title, record.Edition, record.License, sourceURL)
 		if err != nil {
 			return fmt.Errorf("upsert book %s: %w", id, err)
 		}

@@ -12,3 +12,11 @@ coverage.html
 .idea/
 .vscode/
 .DS_Store
+
+# ETL snapshots and packaged release artifacts are reproducible, not source of truth.
+data/original/
+dist/
+catalog-v*.tar.gz
+
+__pycache__/
+*.pyc
