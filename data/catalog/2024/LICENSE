@@ -1,24 +1,19 @@
-Creative Commons Attribution 4.0 International (CC BY 4.0)
+This work includes material from the System Reference Document 5.2.1 ("SRD 5.2.1") by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.
 
-This data is derived from the D&D System Reference Document v5.2.1,
-© Wizards of the Coast LLC, licensed under CC BY 4.0.
+## Structured English SRD data
 
-Source data was fetched from the Open5e API (https://api.open5e.com/),
-document slug: wotc-srd. Open5e re-publishes the SRD under CC BY 4.0.
+- Source: [bankenichi/5etools-srd at commit `3b26955ea5394fde43a1e33b2a878b42cebbe51c`](https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c), files `data/bestiary/bestiary-srd521.json` and `data/conditionsdiseases.json`.
+- The source repository identifies this content as SRD 5.2.1, CC BY 4.0, and provides the required Wizards of the Coast attribution in its `ATTRIBUTION.md`.
 
-You are free to:
-  Share — copy and redistribute the material in any medium or format
-  Adapt — remix, transform, and build upon the material for any purpose, even commercially
+## Russian translations
 
-Under the following terms:
-  Attribution — You must give appropriate credit, provide a link to the license,
-  and indicate if changes were made. You may do so in any reasonable manner,
-  but not in any way that suggests the licensor endorses you or your use.
+- Monster names and stat blocks: Petr Radilov (OmnisGM), CC BY 4.0. Imported from [my-git-store/nastolka-dnd-reference at commit `547fc77f31649f69ff67c97699125d491f2f9209`](https://github.com/my-git-store/nastolka-dnd-reference/tree/547fc77f31649f69ff67c97699125d491f2f9209).
+- Conditions, items/equipment, spells, feats, backgrounds, and species: Petr Radilov (OmnisGM), CC BY 4.0. Source: [OmnisGM-App/OmnisGM-Rules at commit `1f7192be159e84f2db7212565866747094e3b9de`](https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru); the source repository's SRD 5.2.1 `LICENSE-RU.md` identifies the translation terms. Some item records have no exact Russian source section; for those records, RU description is empty and the English name is a fallback, not a Russian translation.
 
-Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+Translation texts are redistributed under CC BY 4.0 as indicated by the respective source repositories; license text: https://creativecommons.org/licenses/by/4.0/legalcode.
 
-TASL attribution for this dataset:
-  Title:   D&D System Reference Document v5.2.1
-  Author:  Wizards of the Coast LLC
-  Source:  https://www.dndbeyond.com/sources/dnd/srd-5.2.1
-  License: https://creativecommons.org/licenses/by/4.0/
+## Changes made in this repository
+
+The SRD source data is included in this API's JSON catalog with complete original structures retained under `mechanics.source_data`. Russian text is attached only where an exact source heading/name match was found. `status: source` means the text is sourced and attributed; it does not imply independent proofreading. 170 item/equipment records (137 `item`, 33 `equipment`) have no matched Russian description and retain the English name as a fallback with an empty description and no translation status.
+
+This is an independent project and is not affiliated with or endorsed by Wizards of the Coast LLC.
