@@ -121,7 +121,11 @@ func importData(args []string) error {
 	if err != nil {
 		return err
 	}
-	defer db.Close()
+	defer func() {
+		if closeErr := db.Close(); closeErr != nil {
+			log.Printf("close database: %v", closeErr)
+		}
+	}()
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Minute)
 	defer cancel()
 	if err = db.PingContext(ctx); err != nil {
@@ -131,7 +135,11 @@ func importData(args []string) error {
 	if err != nil {
 		return err
 	}
-	defer tx.Rollback()
+	defer func() {
+		if rollbackErr := tx.Rollback(); rollbackErr != nil && !errors.Is(rollbackErr, sql.ErrTxDone) {
+			log.Printf("rollback import transaction: %v", rollbackErr)
+		}
+	}()
 
 	books := make(map[string]content.Record)
 	for _, record := range records {
@@ -220,7 +228,11 @@ func book(args []string) error {
 	if err != nil {
 		return err
 	}
-	defer db.Close()
+	defer func() {
+		if closeErr := db.Close(); closeErr != nil {
+			log.Printf("close database: %v", closeErr)
+		}
+	}()
 	enabled := args[0] == "enable"
 	result, err := db.Exec(`UPDATE books SET enabled=$1,updated_at=now() WHERE id=$2`, enabled, args[1])
 	if err != nil {

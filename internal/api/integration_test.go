@@ -38,7 +38,11 @@ func TestPostgresAPIIntegration(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	defer db.Close()
+	t.Cleanup(func() {
+		if err := db.Close(); err != nil {
+			t.Errorf("close database: %v", err)
+		}
+	})
 	if err = goose.SetDialect("postgres"); err != nil {
 		t.Fatal(err)
 	}

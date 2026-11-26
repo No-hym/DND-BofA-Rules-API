@@ -15,7 +15,7 @@ func atomicWriteFile(path string, data []byte, mode os.FileMode) error {
 		return err
 	}
 	tempName := temporary.Name()
-	defer os.Remove(tempName)
+	defer func() { _ = os.Remove(tempName) }()
 	if _, err = temporary.Write(data); err != nil {
 		_ = temporary.Close()
 		return err
