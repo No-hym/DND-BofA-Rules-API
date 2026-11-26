@@ -27,8 +27,10 @@ jobs:
           sqlc generate
       - name: Resolve and lock dependencies
         run: go mod tidy
-      - name: Format Go sources
-        run: gofmt -w $(find cmd internal -name '*.go' -type f)
+      - name: Format Go sources and remove unused generated imports
+        run: |
+          go install golang.org/x/tools/cmd/goimports@v0.53.0
+          goimports -w $(find cmd internal -name '*.go' -type f)
       - name: Static checks
         run: go vet ./...
       - name: Validate catalog and JSON Schema
