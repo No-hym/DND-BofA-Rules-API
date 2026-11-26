@@ -24,11 +24,18 @@
 
 Каждая запись возвращает неизменяемый `id`, `category`, `edition`, `publisher_id`, `book_id`, `source`, `license`, `version`, `language`, `translation_status`, полную `attribution`, `name`, `description` и структурированные `mechanics`.
 
+## Метаданные каталога
+
+- `GET /catalog` — версия каталога, основная редакция, число записей по редакциям/категориям/источникам/книгам, число переведённых записей, статистика дедупликации и список источников с лицензиями. Отдаётся из встроенного `catalog_meta.json`: не обращается ни к PostgreSQL, ни к внешним сайтам.
+- `GET /sources` — тот же документ, удобен для проверки происхождения и лицензий конкретного sourced-а.
+
 ## Справочные/системные маршруты
 
 - `GET /categories`, `GET /editions` — только включённые книги.
 - `GET /healthz` — процесс жив.
 - `GET /readyz` — БД отвечает.
 - `GET /openapi.yaml` — спецификация OpenAPI 3.1.
+
+Формат ответов `/catalog` и `/sources` описан схемой `CatalogMetadata` в OpenAPI. Если запись не имеет RU-перевода, `/entities?lang=ru` возвращает английский текст с `language: en` — не пустое RU-поле.
 
 Контрактные Go-модели/Chi интерфейсы генерируются `oapi-codegen` (`make generate-openapi`) из `docs/openapi.yaml`.

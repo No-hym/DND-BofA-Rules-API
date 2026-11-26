@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "primary_edition": "2024",
+  "policy": {
+    "unknown_license": "skip",
+    "allow_private_content": false,
+    "note": "Content is published only when the document carries an explicit open license in the upstream license registry. Per-document author, publisher, permalink and license are copied to every record."
+  },
+  "sources": [
+    {
+      "id": "open5e-api",
+      "kind": "open5e_fixtures",
+      "title": "Open5e v1/v2 structured data",
+      "url": "https://github.com/open5e/open5e-api",
+      "schema_url": "https://api.open5e.com/schema/",
+      "api_url": "https://api.open5e.com/v2/",
+      "commit": "1253adb7e58dde6cae556c6bd3515dcb521b723e",
+      "code_license": "MIT (modified; third-party SRD content excluded)",
+      "content_license_registry": "data/v2/License.json",
+      "role": "primary structured content: all v1/v2 categories and additional books",
+      "adapter": "open5e"
+    },
+    {
+      "id": "5esrd",
+      "kind": "website",
+      "title": "5e SRD / Open Gaming Network",
+      "url": "https://www.5esrd.com/",
+      "license": "OGL-1.0a",
+      "license_url": "https://www.5esrd.com/legal-information/",
+      "role": "section index, third-party OGC references and cross-links",
+      "adapter": "site5esrd",
+      "entry_points": [
+        "https://www.5esrd.com/",
+        "https://www.5esrd.com/database/class",
+        "https://www.5esrd.com/database/spell",
+        "https://www.5esrd.com/database/creature",
+        "https://www.5esrd.com/database/magicitem",
+        "https://www.5esrd.com/database/feats",
+        "https://www.5esrd.com/database/background",
+        "https://www.5esrd.com/database/race"
+      ]
+    },
+    {
+      "id": "a5esrd",
+      "kind": "website",
+      "title": "A5E System Reference Document (EN Publishing)",
+      "url": "https://a5esrd.com/a5esrd",
+      "license": "CC-BY-4.0; OGL-1.0a; ORC",
+      "license_url": "https://a5esrd.com/a5esrd",
+      "attribution": "A5E System Reference Document (A5ESRD), © EN Publishing, www.a5esrd.com; based on Level Up: Advanced 5th Edition, www.levelup5e.com. Licensed under CC BY 4.0.",
+      "role": "Advanced 5e sections/PDF index; structured A5E content is imported from the open5e-api a5e-* documents",
+      "adapter": "sitea5esrd",
+      "entry_points": [
+        "https://a5esrd.com/a5esrd"
+      ]
+    },
+    {
+      "id": "omnigm",
+      "kind": "translation",
+      "title": "OmnisGM Rules (Russian SRD 5.1/5.2)",
+      "url": "https://github.com/OmnisGM-App/OmnisGM-Rules",
+      "commit": "1f7192be159e84f2db7212565866747094e3b9de",
+      "license": "CC-BY-4.0",
+      "translator": "Petr Radilov",
+      "role": "Russian translation memory for SRD 5.1 and 5.2.1",
+      "adapter": "translation_memory"
+    },
+    {
+      "id": "srd-ru",
+      "kind": "translation",
+      "title": "SRD 5.1 RU (Киборги и Чародеи)",
+      "url": "https://github.com/palikhov/srd-dnd-5e-ru",
+      "commit": "07425b6e88e41e8b72868b87fccbd42c5bb2711d",
+      "license": "CC-BY-SA-4.0",
+      "translator": "Антон Палихов (Palant), Featona, Damir, Mongo, xattttta",
+      "role": "Additional Russian translation memory for SRD 5.1",
+      "adapter": "translation_memory"
+    },
+    {
+      "id": "dnd-bofa-legacy",
+      "kind": "translation",
+      "title": "Existing DND-BofA bilingual catalog (snapshot)",
+      "url": "https://github.com/No-hym/DND-BofA-Rules-API",
+      "license": "CC-BY-4.0 (translations attributed in data/catalog/2024/LICENSE)",
+      "role": "Preserve already published RU translations and stable IDs across catalog rebuilds",
+      "adapter": "legacy_catalog"
+    }
+  ],
+  "editions": {
+    "5e-2024": "2024",
+    "5e-2014": "2014",
+    "a5e": "2014"
+  },
+  "license_map": {
+    "cc-by-40": "CC-BY-4.0",
+    "ogl-10a": "OGL-1.0a",
+    "cc0": "CC0-1.0",
+    "open gaming license": "OGL-1.0a",
+    "creative commons attribution 4.0 international license": "CC-BY-4.0",
+    "cc by 4.0": "CC-BY-4.0",
+    "orc license": "ORC-1.0"
+  }
+}

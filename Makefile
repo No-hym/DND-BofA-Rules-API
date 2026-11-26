@@ -1,6 +1,6 @@
 GO ?= go
 
-.PHONY: fmt test lint build validate generate-openapi dev-up dev-down
+.PHONY: fmt test lint build validate generate-openapi dev-up dev-down sync-fetch sync-build sync-verify
 fmt:
 	gofmt -w $$(find cmd internal -name '*.go' -type f)
 
@@ -17,6 +17,19 @@ build:
 
 validate:
 	$(GO) run ./cmd/rules validate --dir data/catalog
+
+sync-fetch:
+	python3 scripts/sync_sources.py fetch
+
+sync-build:
+	python3 scripts/sync_sources.py build
+	python3 scripts/sync_sources.py verify
+	python3 -m unittest discover -s scripts/tests
+	cp data/api/catalog-meta.json internal/api/catalog_meta.json
+
+sync-verify:
+	python3 scripts/sync_sources.py verify
+	python3 -m unittest discover -s scripts/tests
 
 # Generate contract models and Chi server interfaces from the OpenAPI source.
 generate-openapi:

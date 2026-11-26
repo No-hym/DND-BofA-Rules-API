@@ -1,9 +1,13 @@
 # Лицензии и атрибуция
 
-1. **Код:** MIT, см. корневой `LICENSE`.
-2. **SRD 5.2.1 JSON:** CC BY 4.0. Полный текст лицензии и указание TASL (`Title`, `Author`, `Source`, `License`) сохранены в `data/catalog/2024/LICENSE`; атрибуция также прикреплена к каждой записи в `attribution` и сохраняется в БД/API.
-3. **Переводы:** переводы открытого SRD остаются производным материалом с той же атрибуцией/лицензионной оговоркой. Источники текста перевода/статус фиксируются отдельно; машинный перевод не означает редакторского одобрения.
-4. **Остальные данные:** у каждой сущности и книги свой `license_id`. Код импортера не подразумевает, что запись можно публиковать. Нельзя импортировать закрытый текст в открытый Git-набор только потому, что его можно скачать.
-5. Для других лицензий соблюдайте требуемые notices, share-alike, ограничения на базы данных и attribution. Не смешивайте источники с несовместимыми условиями в одном экспортируемом наборе без анализа.
+1. **Код:** MIT, см. корневой `LICENSE`. Утилиты ETL — часть кода и распространяются на тех же условиях.
+2. **Структурированные данные Open5e:** лицензия определяется per-document в `data/v2/License.json` upstream: CC BY 4.0, OGL 1.0a или CC0. `sync_sources.py` пропускает документы без лицензии. Для каждой записи сохраняются автор, издатель, название книги, permalink, редакция правил и идентификатор лицензии (`license`) + URL (`mechanics.license_url`) + полный TASL (`attribution`).
+3. **Содержимое Wotc SRD 5.2:** CC BY 4.0, © Wizards of the Coast LLC. Атрибуция: «This work includes material from the System Reference Document 5.2.1 ("SRD 5.2.1") by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode».
+4. **Русские переводы OmnisGM:** CC BY 4.0, Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules). Являются производным материалом SRD и сохраняют атрибуцию оригинала.
+5. **Русские тексты SRD 5.1 RU:** CC BY-SA 4.0, сообщество «Киборги и Чародеи», Антон Палихов (Palant), Featona, Damir, Mongo, xattttta (https://github.com/palikhov/srd-dnd-5e-ru). Производные от этих RU-текстов материалы должны распространяться на условиях CC BY-SA 4.0; исходный SRD остаётся CC BY 4.0. Источник перевода фиксируется в `mechanics.translation_provenance` каждой записи.
+6. **5esrd:** OGL 1.0a с большим списком per-product copyright notices. В каталог попадают только ссылки/названия разделов; полная копия контента сайта не распространяется. Полный текст уведомлений: https://www.5esrd.com/legal-information/.
+7. **A5ESRD:** CC BY 4.0 + OGL 1.0a + ORC. Обязательная атрибуция: «A5E System Reference Document (A5ESRD), © EN Publishing, www.a5esrd.com; based on Level Up: Advanced 5th Edition, www.levelup5e.com». См. https://a5esrd.com/a5esrd.
+8. **Машинный перевод:** при явном вызове `sync_sources.py translate` результат помечается `status: machine`; он не считается вычитанным и не должен публиковаться без ревью. originating English всегда сохраняется в `translations.en`.
+9. **A5E/сторонние системы:** в каталоге хранится как данные с `mechanics.original_system` и `compatibility`;DND-BofA не заявляет совместимость с коммерческими книгами, не входящими в SRD/OGL/CC набора.
 
-Перед публичным выпуском новой редакции или стороннего набора требуется человеческая юридическая проверка условий конкретного источника. Эта документация не является юридической консультацией.
+Перед публичным выпуском нового источника или книги требуется человеческая юридическая проверка. Эта документация не является юридической консультацией.
