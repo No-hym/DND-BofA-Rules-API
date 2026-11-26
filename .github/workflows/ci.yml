@@ -36,7 +36,18 @@ jobs:
       - name: Validate catalog and JSON Schema
         run: go run ./cmd/rules validate --dir data/catalog
       - name: Unit and Testcontainers tests
-        run: go test -race ./...
+        shell: bash
+        run: |
+          set +e
+          go test -race -v ./... > /tmp/go-test.log 2>&1
+          status=$?
+          if [ "$status" -ne 0 ]; then
+            tail -n 60 /tmp/go-test.log
+            detail=$(tail -n 25 /tmp/go-test.log | tr '\n' ' ' | cut -c1-900)
+            echo "::error title=go-test failure::$detail"
+            exit "$status"
+          fi
+          cat /tmp/go-test.log
       - uses: golangci/golangci-lint-action@v9
         with:
           version: v2.15.0
