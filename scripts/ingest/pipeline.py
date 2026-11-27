@@ -123,6 +123,17 @@ def build(snapshot_root: Path, legacy_root: Path | None = None,
             entity.aliases.add(legacy_id)
         apply(memory, entity, "v1")
 
+    # Structured sub-entities (class features, monster traits/actions, ...)
+    # are copied verbatim from upstream and were never covered by the
+    # entity-level translations above; give every nested payload a Russian
+    # rendering (curated/memory/template/derived, marked per item).
+    from .subtranslate import load_curated_features, translate_subentities
+    curated_features = load_curated_features(DATA / "translations" / "curated-features.json")
+    subentity_stats: Counter = Counter()
+    for entity in entities:
+        subentity_stats.update(translate_subentities(memory, entity, curated_features))
+    adapter_stats["subentity_translations"] = dict(subentity_stats)
+
     # Records with empty prose but complete structured mechanics (most v2
     # monsters/attacks) receive a derived RU rendering of their own mechanics,
     # explicitly marked machine translation. Real prose is never replaced.

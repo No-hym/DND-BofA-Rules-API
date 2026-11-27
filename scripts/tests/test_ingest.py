@@ -229,5 +229,62 @@ class ManifestTests(unittest.TestCase):
         self.assertNotIn("api.open5e.com", handler)
 
 
+class SubentityTranslationTests(unittest.TestCase):
+    def _entity_with(self, category: str, subentities: dict) -> Entity:
+        ent = entity(f"test:{category}", "Test", category=category, edition="2014")
+        ent.mechanics["subentities"] = subentities
+        return ent
+
+    def test_curated_feature_translation_by_text_hash(self) -> None:
+        from scripts.ingest.subtranslate import text_key, translate_subentities
+        desc = "You can use your rage as a bonus action."
+        curated = {text_key(desc): {"name_ru": "Ярость", "description_ru": "Вы можете войти в ярость бонусным действием."}}
+        ent = self._entity_with("class", {"features": [
+            {"name": "Rage", "level": 1, "desc": desc}]})
+        stats = translate_subentities(TranslationMemory(), ent, curated)
+        item = ent.mechanics["subentities"]["features"][0]
+        self.assertEqual(item["desc_ru"], "Вы можете войти в ярость бонусным действием.")
+        self.assertEqual(item["name_ru"], "Ярость")
+        self.assertEqual(item["ru_source"], "curated")
+        self.assertEqual(stats.get("curated"), 1)
+
+    def test_memory_feature_entry_translates_payload(self) -> None:
+        from scripts.ingest.subtranslate import translate_subentities
+        memory = TranslationMemory()
+        memory.add("2014", "", "Level 1: Rage", MemoryEntry(
+            name="Ярость", description="На 1-м уровне вы можете войти в ярость.",
+            attribution="test", license="CC-BY-4.0", source="test", edition="2014"))
+        ent = self._entity_with("subclass", {"features": [
+            {"name": "Rage", "level": 1, "desc": "Starting at 1st level you can rage."}]})
+        translate_subentities(memory, ent, {})
+        item = ent.mechanics["subentities"]["features"][0]
+        self.assertEqual(item["ru_source"], "memory")
+        self.assertIn("ярость", item["desc_ru"])
+
+    def test_attack_line_template(self) -> None:
+        from scripts.ingest.subtranslate import translate_subentities
+        ent = self._entity_with("monster", {"actions": [
+            {"name": "Bite", "action_type": "ACTION",
+             "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. "
+                     "Hit: 12 (2d6 + 5) piercing damage."}]})
+        translate_subentities(TranslationMemory(), ent, {})
+        item = ent.mechanics["subentities"]["actions"][0]
+        self.assertEqual(item["ru_source"], "template")
+        self.assertIn("+8 к попаданию", item["desc_ru"])
+        self.assertIn("2к6+5", item["desc_ru"])
+        self.assertIn("колющего урона", item["desc_ru"])
+
+    def test_unmatched_prose_gets_marked_derived_stub(self) -> None:
+        from scripts.ingest.subtranslate import translate_subentities
+        ent = self._entity_with("subclass", {"features": [
+            {"name": "Arcane Aegis", "level": 2,
+             "desc": "You can use the power of your school's spells to ward yourself."}]})
+        translate_subentities(TranslationMemory(), ent, {})
+        item = ent.mechanics["subentities"]["features"][0]
+        self.assertEqual(item["ru_source"], "derived")
+        self.assertTrue(item["desc_ru"])
+        self.assertTrue(item["name_ru"])
+
+
 if __name__ == "__main__":
     unittest.main()
