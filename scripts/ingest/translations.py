@@ -333,7 +333,33 @@ def apply(memory: TranslationMemory, entity: Entity, glossary_version: str) -> b
         return False
     description = entry.description
     assembled_features = 0
-    if entity.category == "subclass":
+    complete_curated = False
+    if entity.category == "subclass" and entity.description:
+        # A curated entry may hold a complete translation of a long full-text
+        # record (e.g. an Open5e v1 archetype) next to a short intro entry for
+        # its v2 variant. Pick the shortest curated text that is still a
+        # complete translation of *this* record, so the short intro keeps
+        # serving the v2 variant and the full text serves the v1 record.
+        other = "2014" if entity.edition == "2024" else "2024"
+        name_slug = slug(entity.name.lower())
+        candidates = [
+            candidate
+            for key in ((entity.edition, entity.category, name_slug),
+                        (entity.edition, "", name_slug),
+                        (other, entity.category, name_slug),
+                        (other, "", name_slug),
+                        ("", entity.category, name_slug),
+                        ("", "", name_slug))
+            for candidate in memory.by_key.get(key, [])
+            if candidate.source == "dnd-bofa-curated" and candidate.description
+        ]
+        complete = [candidate for candidate in candidates
+                    if len(candidate.description) >= 0.4 * len(entity.description)]
+        if complete:
+            entry = min(complete, key=lambda candidate: len(candidate.description))
+            description = entry.description
+            complete_curated = len(description) >= 0.4 * len(entity.description)
+    if entity.category == "subclass" and not complete_curated:
         # The subclass description in the corpora is the intro section only;
         # the feature texts live in separate "Level N: <Feature>" sections.
         # Assemble the complete RU subclass text from those licensed sections,

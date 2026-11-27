@@ -159,6 +159,26 @@ class SubclassTests(unittest.TestCase):
         self.assertIsNotNone(found)
         self.assertEqual(found.name, "Чемпион")
 
+    def test_complete_curated_subclass_translation_is_published(self) -> None:
+        memory = TranslationMemory()
+        memory.add("2014", "subclass", "Ancient Dragons",
+                   MemoryEntry(name="Древние драконы", description="Короткое вступление.",
+                               source="dnd-bofa-curated", status="machine"))
+        memory.add("2014", "subclass", "Ancient Dragons",
+                   MemoryEntry(name="Древние драконы",
+                               description="Полный перевод текста подкласса. " * 200,
+                               source="dnd-bofa-curated", status="machine"))
+        long_item = entity("subclass:dragons-v1", "Ancient Dragons", category="subclass", edition="2014")
+        long_item.description = "Full text. " * 500
+        long_item.translations["en"].description = long_item.description
+        self.assertTrue(apply(memory, long_item, "v1"))
+        self.assertTrue(long_item.translations["ru"].description.startswith("Полный перевод"))
+        short_item = entity("subclass:dragons-v2", "Ancient Dragons", category="subclass", edition="2014")
+        short_item.description = "Intro."
+        short_item.translations["en"].description = short_item.description
+        self.assertTrue(apply(memory, short_item, "v1"))
+        self.assertEqual(short_item.translations["ru"].description, "Короткое вступление.")
+
     def test_partial_subclass_translation_is_not_published(self) -> None:
         memory = TranslationMemory()
         memory.add("2014", "subclass", "Ancient Dragons",
