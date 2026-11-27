@@ -13,8 +13,9 @@ from .dedupe import deduplicate
 from .model import Entity, Translation, from_record, slug
 from .open5e import Open5eAdapter
 from .sites import attach_references, site_5esrd, site_a5esrd
-from .translations import (TranslationMemory, apply, from_legacy_catalog,
-                           from_markdown_corpus, from_russian_only_corpus)
+from .translations import (TranslationMemory, apply, from_curated_file,
+                           from_legacy_catalog, from_markdown_corpus,
+                           from_russian_only_corpus)
 
 REPO = Path(__file__).resolve().parents[2]
 DATA = REPO / "data"
@@ -53,6 +54,7 @@ def build_memory(config: dict[str, Any], snapshot_root: Path, legacy_root: Path)
         memory = TranslationMemory.from_json(json.loads(memory_path.read_text(encoding="utf-8")))
     counts: dict[str, int] = {}
     counts["legacy_catalog"] = from_legacy_catalog(legacy_root, memory)
+    counts["curated"] = from_curated_file(DATA / "translations" / "curated.json", memory)
     for source in config["sources"]:
         if source["kind"] != "translation" or source["id"] == "dnd-bofa-legacy":
             continue
@@ -115,15 +117,25 @@ def build(snapshot_root: Path, legacy_root: Path | None = None,
 
     memory, memory_counts = build_memory(config, snapshot_root, legacy_root)
     adapter_stats["translation_memory"] = memory_counts
-    translated = 0
     for entity in entities:
         legacy_id = legacy_ids.get((entity.edition, entity.category, slug(entity.name.lower())))
         if legacy_id and legacy_id != entity.id:
             entity.aliases.add(legacy_id)
-        if apply(memory, entity, "v1") and entity.translations["ru"].description.strip():
-            translated += 1
+        apply(memory, entity, "v1")
+
+    # Records with empty prose but complete structured mechanics (most v2
+    # monsters/attacks) receive a derived RU rendering of their own mechanics,
+    # explicitly marked machine translation. Real prose is never replaced.
+    from .derived import apply_derived
+    adapter_stats["derived_translations"] = {
+        "count": sum(1 for entity in entities if apply_derived(entity)),
+    }
 
     entities, dedupe_report = deduplicate(entities)
+    # Count translations on the records that are actually published, after
+    # exact duplicates carrying the same RU text have been collapsed.
+    translated = sum(1 for entity in entities
+                     if "ru" in entity.translations and entity.translations["ru"].description.strip())
     adapter_stats["dedupe"] = dedupe_report["counts"]
 
     # Layer 1: normalized English records (no translations applied).

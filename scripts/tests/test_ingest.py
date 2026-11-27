@@ -4,6 +4,7 @@ import unittest
 from pathlib import Path
 
 from scripts.ingest.dedupe import deduplicate
+from scripts.ingest.derived import apply_derived
 from scripts.ingest.model import Entity, Translation
 from scripts.ingest.open5e import Open5eAdapter
 from scripts.ingest.pipeline import load_config
@@ -120,6 +121,79 @@ class ValidationTests(unittest.TestCase):
             problems = validate_dirs(root)
             self.assertTrue(any("duplicate id" in problem for problem in problems))
             self.assertTrue(any("RU name is not translated" in problem for problem in problems))
+
+
+class SubclassTests(unittest.TestCase):
+    def test_v2_subclass_of_rows_become_subclass_category(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            doc_dir = root / "data" / "v2" / "wizards-of-the-coast" / "srd-test"
+            doc_dir.mkdir(parents=True)
+            (doc_dir / "Document.json").write_text(json.dumps([{
+                "model": "api_v2.document", "pk": "srd-test",
+                "fields": {"name": "Test SRD", "author": "Wizards of the Coast",
+                           "publisher": "wizards-of-the-coast", "gamesystem": "5e-2024",
+                           "licenses": ["cc-by-40"], "permalink": "https://example.invalid/srd"},
+            }]), encoding="utf-8")
+            (doc_dir / "CharacterClass.json").write_text(json.dumps([
+                {"model": "api_v2.characterclass", "pk": "srd-test_fighter",
+                 "fields": {"name": "Fighter", "document": "srd-test", "hit_dice": "1d10"}},
+                {"model": "api_v2.characterclass", "pk": "srd-test_champion",
+                 "fields": {"name": "Champion", "document": "srd-test",
+                            "subclass_of": "srd-test_fighter", "desc": "Intro."}},
+            ]), encoding="utf-8")
+            adapter = Open5eAdapter(load_config(), root / "data")
+            records = {record.name: record for record in adapter.build("v2")}
+            self.assertEqual(records["Fighter"].category, "class")
+            self.assertEqual(records["Champion"].category, "subclass")
+            relations = records["Champion"].mechanics["relations"]
+            self.assertTrue(any(item["type"] == "subclass_of"
+                                and item["target_id"] == "srd-test_fighter" for item in relations))
+
+    def test_subclass_alias_and_cross_edition_lookup(self) -> None:
+        memory = TranslationMemory()
+        memory.add("2024", "", "Fighter Subclass: Champion",
+                   MemoryEntry(name="Подкласс воина: Чемпион",
+                               description="Архетипичный Чемпион сосредоточен на физической мощи."))
+        found = memory.lookup("2014", "subclass", "Champion")
+        self.assertIsNotNone(found)
+        self.assertEqual(found.name, "Чемпион")
+
+    def test_partial_subclass_translation_is_not_published(self) -> None:
+        memory = TranslationMemory()
+        memory.add("2014", "subclass", "Ancient Dragons",
+                   MemoryEntry(name="Древние драконы", description="Короткое вступление."))
+        item = entity("subclass:dragons", "Ancient Dragons", category="subclass", edition="2014")
+        item.description = "Full text. " * 500
+        item.translations["en"].description = item.description
+        self.assertFalse(apply(memory, item, "v1"))
+        self.assertNotIn("ru", item.translations)
+
+
+class DerivedTests(unittest.TestCase):
+    def test_name_only_match_still_gets_derived_description(self) -> None:
+        item = entity("monster:dragon", "Adult Black Dragon", category="monster", edition="2014",
+                      normalized={"size": "huge", "type": "dragon", "alignment": "chaotic evil",
+                                  "challenge_rating": 14, "hit_points": 195, "armor_class": 19,
+                                  "damage_resistances": ["necrotic"],
+                                  "condition_immunities": ["charmed"]})
+        item.description = ""
+        item.translations["en"].description = ""
+        item.translations["ru"] = Translation(name="Взрослый чёрный дракон", description="")
+        self.assertTrue(apply_derived(item))
+        ru = item.translations["ru"]
+        self.assertEqual(ru.name, "Взрослый чёрный дракон")
+        self.assertIn("Огромный дракон", ru.description)
+        self.assertIn("очарование", ru.description)
+        self.assertNotIn("from nonmagical", ru.description)
+
+    def test_false_description_counts_as_empty_prose(self) -> None:
+        item = entity("monster:spirit", "Chernomoi", category="monster", edition="2014",
+                      normalized={"size": "medium", "type": "fiend", "challenge_rating": 3, "hit_points": 45, "armor_class": 13})
+        item.description = "False"
+        item.translations["en"].description = "False"
+        self.assertTrue(apply_derived(item))
+        self.assertIn("Среднее исчадие", item.translations["ru"].description)
 
 
 class ManifestTests(unittest.TestCase):

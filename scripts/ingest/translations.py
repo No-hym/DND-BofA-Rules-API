@@ -17,6 +17,11 @@ from typing import Any, Iterable
 from .model import Entity, Translation, slug
 
 CYRILLIC = re.compile(r"[\u0400-\u04ff]")
+# Corpus headings name SRD subclasses as "<Class> Subclass: <Name>" in English
+# and "Подкласс <родит. класса>: <Имя>" in Russian. Catalog entities use the
+# bare subclass name, so both forms are indexed as aliases of each other.
+SUBCLASS_EN = re.compile(r"^.+?\s+Subclass:?\s+(.+)$", re.I)
+SUBCLASS_RU = re.compile(r"^Подкласс\s+[^:]+:\s*(.+)$")
 PAREN_EN = re.compile(r"\(([A-Za-z][A-Za-z0-9'’\- ,\.]+)\)\s*$")
 HEADING = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
 EN_SENTENCE = re.compile(r"\b(?:the|and|you|with|that|this|of|in|for|when|from|creature|damage)\b", re.I)
@@ -41,6 +46,16 @@ class TranslationMemory:
         self.glossary: dict[str, dict[str, str]] = {"2014": {}, "2024": {}}
 
     def add(self, edition: str, category: str, name_en: str, entry: MemoryEntry) -> None:
+        # Index "<Class> Subclass: <Name>" corpus headings under the bare
+        # subclass name as well (skipping "[...]" change-note entries).
+        subclass_match = SUBCLASS_EN.match(name_en.strip())
+        if subclass_match and "[" not in entry.name:
+            ru_match = SUBCLASS_RU.match(entry.name.strip())
+            if ru_match:
+                self.add(edition, category, subclass_match.group(1).strip(), MemoryEntry(
+                    name=ru_match.group(1).strip(), description=entry.description,
+                    attribution=entry.attribution, license=entry.license,
+                    source=entry.source, status=entry.status, edition=entry.edition))
         name_key = (edition, slug(name_en.lower()))
         if CYRILLIC.search(entry.name):
             key = (edition, category, slug(name_en.lower()))
@@ -58,12 +73,27 @@ class TranslationMemory:
 
     def _find(self, field: dict[tuple[str, str], MemoryEntry], edition: str, name_en: str) -> MemoryEntry | None:
         key = slug(name_en.lower())
-        return field.get((edition, key)) or field.get(("", key))
+        # Exact edition first, then the other edition: an SRD name translated
+        # for 2014 remains the established RU term for 2024 and vice versa.
+        for candidate in (edition, "2024", "2014", ""):
+            found = field.get((candidate, key))
+            if found is not None:
+                return found
+        return None
+
+    def feature_entry(self, edition: str, level: int | None, feature_name: str) -> MemoryEntry | None:
+        """Licensed RU text of a class feature gained at an exact level."""
+        if level is None:
+            return None
+        return self._find(self.descriptions, edition, f"Level {level}: {feature_name}")
 
     def lookup(self, edition: str, category: str, name_en: str) -> MemoryEntry | None:
         named: MemoryEntry | None = None
+        other = "2014" if edition == "2024" else "2024"
         for key in ((edition, category, slug(name_en.lower())),
                     (edition, "", slug(name_en.lower())),
+                    (other, category, slug(name_en.lower())),
+                    (other, "", slug(name_en.lower())),
                     ("", category, slug(name_en.lower())),
                     ("", "", slug(name_en.lower()))):
             entries = self.by_key.get(key, [])
@@ -126,6 +156,29 @@ def _load_json(path: Path) -> list[dict[str, Any]]:
     except (OSError, json.JSONDecodeError):
         return []
     return data if isinstance(data, list) else []
+
+
+def from_curated_file(path: Path, memory: TranslationMemory) -> int:
+    """Load hand/machine-reviewed translations kept in the repository.
+
+    Entries live in ``data/translations/curated.json`` so a catalog rebuild
+    never loses them; their status (``machine`` until independently reviewed)
+    and attribution are preserved on every record they translate.
+    """
+    if not path.is_file():
+        return 0
+    data = json.loads(path.read_text(encoding="utf-8"))
+    count = 0
+    for raw in data.get("entries", []):
+        if not raw.get("name_en") or not raw.get("name_ru"):
+            continue
+        memory.add(raw.get("edition", ""), raw.get("category", ""), raw["name_en"], MemoryEntry(
+            name=raw["name_ru"], description=raw.get("description_ru", ""),
+            attribution=raw.get("attribution", "DND-BofA curated translation"),
+            license=raw.get("license", ""), source=raw.get("source", "dnd-bofa-curated"),
+            status=raw.get("status", "machine"), edition=raw.get("edition", "")))
+        count += 1
+    return count
 
 
 def from_legacy_catalog(root: Path, memory: TranslationMemory) -> int:
@@ -279,6 +332,27 @@ def apply(memory: TranslationMemory, entity: Entity, glossary_version: str) -> b
     if not entry:
         return False
     description = entry.description
+    assembled_features = 0
+    if entity.category == "subclass":
+        # The subclass description in the corpora is the intro section only;
+        # the feature texts live in separate "Level N: <Feature>" sections.
+        # Assemble the complete RU subclass text from those licensed sections,
+        # matched by the exact level at which the feature is gained.
+        parts = [description] if description else []
+        features = entity.mechanics.get("subentities", {}).get("features", [])
+        for feature in sorted(features, key=lambda item: (item.get("level") or 0, str(item.get("name", "")))):
+            feature_text = memory.feature_entry(entity.edition, feature.get("level"),
+                                                str(feature.get("name", "")))
+            if feature_text and feature_text.description:
+                parts.append(f"### {feature_text.name}\n\n{feature_text.description}")
+                assembled_features += 1
+        if assembled_features:
+            description = "\n\n".join(parts)
+        elif description and len(description) < 0.4 * len(entity.description):
+            # A short intro must not masquerade as the translation of a long
+            # full-text subclass record (e.g. an Open5e v1 archetype whose
+            # feature texts are not available as licensed RU sections).
+            return False
     # Prefer the upstream EN description when the corpus section is only a
     # heading/table, but never invent text: an empty RU description is explicit.
     entity.translations["ru"] = Translation(
@@ -294,6 +368,7 @@ def apply(memory: TranslationMemory, entity: Entity, glossary_version: str) -> b
         "attribution": entry.attribution,
         "edition": entry.edition,
         "exact_match": entity.name,
+        **({"assembled_features": assembled_features} if assembled_features else {}),
     }
     entity.attribution += f"; RU translation: {entry.attribution} ({entry.license})"
     return True

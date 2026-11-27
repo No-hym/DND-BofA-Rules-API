@@ -2,7 +2,7 @@
 
 Открытая двуязычная база правил D&D с REST API, PostgreSQL и инструментами управления контентом. Код распространяется по MIT; лицензия каждого набора данных задаётся отдельно и возвращается в API.
 
-> **Текущий объём (каталог `v20261126`):** 12 694 записей из 26 книг и 5 источников: SRD 5.2 (2024), SRD 5.1 (2014), дополнительные книги EN Publishing (A5E), Kobold Press, Green Ronin, Open5e и Somanyrobots, а также индексы разделов 5esrd/A5ESRD. Полный русский текст (название + описание, точное совпадение с лицензированным корпусом) — у 1 056 записей. 8 871 дубликат свёрнут, 2 651 уникальный вариант сохранён. Подробности и причины пропусков: [docs/catalog-stats.md](docs/catalog-stats.md), [docs/limitations.md](docs/limitations.md).
+> **Текущий объём (каталог `v20261128`):** 12 703 записи из 26 книг и 5 источников: SRD 5.2 (2024), SRD 5.1 (2014), дополнительные книги EN Publishing (A5E), Kobold Press (включая Black Flag SRD), Green Ronin, Open5e и Somanyrobots, а также индексы разделов 5esrd/A5ESRD. Подклассы выделены в отдельную категорию `subclass`: 247 записей (2024: 12 из 12 с полным русским текстом; 2014: 235), каждый со связью `subclass_of` на родительский класс и уровнями умений. Русский текст (название + описание) — у 9 853 записей (77,6%): лицензированные корпуса, курируемые машинные переводы из `data/translations/curated.json` и производный рендеринг структурированных механик для записей без прозы у источника (оба машинных слоя помечены `machine` и требуют редакторской вычитки). Подробности и причины пропусков: [docs/catalog-stats.md](docs/catalog-stats.md), [docs/limitations.md](docs/limitations.md).
 
 ## Быстрый старт (Docker)
 
@@ -50,10 +50,10 @@ ETL написан на Python (стандартная библиотека) п�
 
 ```sh
 python3 scripts/sync_sources.py fetch                    # только ETL: загрузка зафиксированных snapshot-ов
-python3 scripts/sync_sources.py build --version 20261126 # сборка слоёв и отчёта
+python3 scripts/sync_sources.py build --version 20261128 # сборка слоёв и отчёта
 python3 scripts/sync_sources.py verify                   # валидация слоёв
 python3 -m unittest discover -s scripts/tests
-python3 scripts/package_release.py --version 20261126 --out /tmp/catalog.tar.gz
+python3 scripts/package_release.py --version 20261128 --out /tmp/catalog.tar.gz
 cp data/api/catalog-meta.json internal/api/catalog_meta.json   # метаданные для /api/v1/catalog
 go run ./cmd/rules validate --dir data/catalog
 ```
@@ -64,7 +64,7 @@ go run ./cmd/rules validate --dir data/catalog
 
 ## Переводы
 
-Русские тексты берутся только из лицензированных корпусов с точным совпадением английского названия: OmnisGM SRD 5.1/5.2 (CC BY 4.0, Petr Radilov), SRD 5.1 RU (CC BY-SA 4.0, сообщество «Киборги и Чародеи») и ранее опубликованный каталог DND-BofA. Английский fallback не считается переводом: если нет полного RU-описания, RU-поле в каталоге отсутствует, а API отдаёт en с `language: en`.
+Русские тексты берутся из лицензированных корпусов с точным совпадением английского названия: OmnisGM SRD 5.1/5.2 (CC BY 4.0, Petr Radilov), SRD 5.1 RU (CC BY-SA 4.0, сообщество «Киборги и Чародеи») и ранее опубликованный каталог DND-BofA. Дополнительно: курируемые машинные переводы (`data/translations/curated.json`, на запись — книга, лицензия и атрибуция) и производные тексты из собственных структурированных механик записи (`derived-from-structured-mechanics`) для записей, у которых у источника нет прозаического описания; оба слоя имеют статус `machine`. Английский fallback не считается переводом: если нет полного RU-описания, RU-поле в каталоге отсутствует, а API отдаёт en с `language: en`.
 
 Для закрытия пробелов предусмотрен явный LLM-перевод (не вызывается автоматически):
 

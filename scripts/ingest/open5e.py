@@ -38,7 +38,9 @@ NORMALIZE_KEYS: dict[str, tuple[str, ...]] = {
                 "ability_score_strength", "ability_score_dexterity", "ability_score_constitution",
                 "ability_score_intelligence", "ability_score_wisdom", "ability_score_charisma"),
     "class": ("hit_dice", "primary_abilities", "saving_throws", "caster_type", "subclass_of"),
+    "subclass": ("subclass_of", "caster_type"),
     "species": ("subspecies_of",),
+    "subspecies": ("subspecies_of",),
     "magic-item": ("category", "rarity", "requires_attunement", "cost", "weight", "size"),
     "equipment": ("category", "cost", "weight", "size", "weapon", "armor", "damage_immunities",
                   "damage_resistances", "damage_vulnerabilities"),
@@ -270,19 +272,40 @@ class Open5eAdapter:
         by_pk: dict[tuple[str, str], tuple[Entity, dict[str, Any]]] = {}
         children: list[tuple[dict[str, Any], str, str]] = []
 
+        # ClassFeatureItem rows carry the level at which a class/subclass
+        # feature is gained. They are consumed here to annotate the folded
+        # feature payloads instead of being reported as orphan children.
+        feature_levels: dict[str, int] = {}
+        for row in rows:
+            if row["model"].rsplit(".", 1)[-1].lower() != "classfeatureitem":
+                continue
+            fields = row["fields"] or {}
+            parent_pk, level = str(fields.get("parent") or ""), fields.get("level")
+            if parent_pk and isinstance(level, int):
+                feature_levels[parent_pk] = min(level, feature_levels.get(parent_pk, level))
+
         for row in rows:
             model = row["model"].rsplit(".", 1)[-1]
             model_key = model.lower()
             if model_key in V2_META_MODELS or model_key in ("license", "gamesystem", "publisher"):
                 continue
-            if model_key in ("crossreference", "monsterspell"):
-                continue  # folded into relations below
+            if model_key in ("crossreference", "monsterspell", "classfeatureitem"):
+                continue  # folded into relations/feature levels
             category = CATEGORY_MAP_LOWER.get(model_key)
             if not category:
                 self._skip(f"unmapped model {model}", f"open5e:{version}", str(row.get("pk")))
                 continue
             if category == "source-document":
                 continue
+            # Open5e v2 models subclasses as CharacterClass rows whose
+            # `subclass_of` points at the parent class, and subspecies as
+            # Species rows with `subspecies_of`. Publish them under their real
+            # categories so clients can query subclasses directly.
+            row_fields = row["fields"] or {}
+            if model_key == "characterclass" and row_fields.get("subclass_of"):
+                category = "subclass"
+            elif model_key == "species" and row_fields.get("subspecies_of"):
+                category = "subspecies"
             if model_key in CHILD_MODELS_LOWER:
                 children.append((row, model, category))
                 continue
@@ -331,11 +354,18 @@ class Open5eAdapter:
             parent, _ = by_pk[parent_key]
             bucket, _ = CHILD_MODELS_LOWER[model.lower()]
             payload = {"external_id": str(row["pk"]), **compact(fields)}
+            if bucket == "features" and str(row["pk"]) in feature_levels:
+                payload["level"] = feature_levels[str(row["pk"])]
             parent.mechanics["subentities"][bucket].append(payload)
             self.stats["folded"] += 1
 
         for entity in primary.values():
-            entity.mechanics["subentities"] = dict(entity.mechanics["subentities"])
+            subentities = entity.mechanics["subentities"]
+            if subentities.get("features"):
+                subentities["features"].sort(
+                    key=lambda item: (item.get("level") is None, item.get("level") or 0,
+                                      str(item.get("name", ""))))
+            entity.mechanics["subentities"] = dict(subentities)
 
         # Cross references become typed relations on the source entity.
         for row in rows:
