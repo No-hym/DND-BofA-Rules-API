@@ -12,6 +12,7 @@ so editors can prioritize it for review.
 
 from __future__ import annotations
 
+import json
 import re
 from typing import Any
 
@@ -103,6 +104,18 @@ TYPE_GENDER = {
     "aberration": "f", "beast": "m", "celestial": "m", "construct": "m",
     "dragon": "m", "elemental": "m", "fey": "f", "fiend": "n", "giant": "m",
     "humanoid": "m", "monstrosity": "n", "ooze": "f", "plant": "n", "undead": "f",
+}
+WEAPON_CATEGORY_RU = {
+    "simple melee weapons": "простое оружие ближнего боя",
+    "simple ranged weapons": "простое оружие дальнего боя",
+    "martial melee weapons": "боевое оружие ближнего боя",
+    "martial ranged weapons": "боевое оружие дальнего боя",
+}
+WEAPON_PROPERTY_RU = {
+    "ammunition": "боеприпас", "finesse": "фехтовальное", "heavy": "тяжёлое",
+    "light": "лёгкое", "loading": "заряжаемое", "range": "дальнобойное",
+    "reach": "досягаемое", "special": "особое", "thrown": "бросковое",
+    "two-handed": "двуручное", "versatile": "универсальное",
 }
 COND_RU = {
     "blinded": "ослепление", "charmed": "очарование", "deafened": "глухота",
@@ -314,6 +327,32 @@ def derived_description(entity: Entity) -> str | None:
         if data.get("range") is not None:
             parts.append(f"Дистанция: {_num(data['range'])}"
                          + (f"/{_num(data['long_range'])}" if data.get("long_range") else "") + " фт.")
+        weapon_category = WEAPON_CATEGORY_RU.get(str(data.get("category", "")).strip().lower())
+        if weapon_category:
+            parts.append(f"Категория: {weapon_category}.")
+        properties = _list_values(data.get("properties"))
+        if not properties and data.get("properties_json"):
+            try:
+                properties = _list_values(json.loads(str(data["properties_json"])))
+            except (ValueError, TypeError):
+                properties = []
+        if properties:
+            rendered = []
+            for prop in properties:
+                text = str(prop).strip()
+                match = re.match(r"^(.+?)\s*\((.+)\)$", text)
+                base = (match.group(1) if match else text).lower()
+                label = WEAPON_PROPERTY_RU.get(base, base)
+                if match:
+                    detail = re.sub(r"^range\s+", "дистанция ", match.group(2))
+                    rendered.append(f"{label} ({detail})")
+                else:
+                    rendered.append(label)
+            parts.append("Свойства: " + _join(rendered) + ".")
+        if data.get("cost"):
+            parts.append(f"Стоимость: {str(data['cost']).replace(' gp', ' зм').replace(' sp', ' см').replace(' cp', ' мм')}.")
+        if data.get("weight"):
+            parts.append(f"Вес: {str(data['weight']).replace(' lb.', ' фнт').replace(' lb', ' фнт')}.")
         return " ".join(parts) if len(parts) > 1 else None
 
     if category == "armor":
