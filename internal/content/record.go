@@ -50,18 +50,9 @@ func LoadDir(root string) ([]Record, error) {
 		if err != nil {
 			return err
 		}
-		var batch []Record
-		dec := json.NewDecoder(bytes.NewReader(b))
-		dec.DisallowUnknownFields()
-		if err := dec.Decode(&batch); err != nil {
+		batch, err := decodeRecords(b)
+		if err != nil {
 			return fmt.Errorf("%s: %w", path, err)
-		}
-		var trailing any
-		if err := dec.Decode(&trailing); err != io.EOF {
-			if err == nil {
-				return fmt.Errorf("%s: unexpected trailing JSON value", path)
-			}
-			return fmt.Errorf("%s: trailing JSON: %w", path, err)
 		}
 		for i := range batch {
 			if err := batch[i].Validate(); err != nil {
@@ -75,6 +66,37 @@ func LoadDir(root string) ([]Record, error) {
 		return nil, err
 	}
 	return records, nil
+}
+
+// decodeRecords accepts either a JSON array of records (legacy aggregated
+// catalog files) or a single record object (one file per record, a "card").
+func decodeRecords(b []byte) ([]Record, error) {
+	trimmed := bytes.TrimSpace(b)
+	if len(trimmed) == 0 {
+		return nil, fmt.Errorf("empty JSON document")
+	}
+	dec := json.NewDecoder(bytes.NewReader(b))
+	dec.DisallowUnknownFields()
+	var batch []Record
+	if trimmed[0] == '{' {
+		var single Record
+		if err := dec.Decode(&single); err != nil {
+			return nil, err
+		}
+		batch = []Record{single}
+	} else {
+		if err := dec.Decode(&batch); err != nil {
+			return nil, err
+		}
+	}
+	var trailing any
+	if err := dec.Decode(&trailing); err != io.EOF {
+		if err == nil {
+			return nil, fmt.Errorf("unexpected trailing JSON value")
+		}
+		return nil, fmt.Errorf("trailing JSON: %w", err)
+	}
+	return batch, nil
 }
 
 func (r Record) Validate() error {

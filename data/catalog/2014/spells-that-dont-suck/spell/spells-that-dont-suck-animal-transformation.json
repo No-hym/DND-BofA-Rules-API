@@ -1,0 +1,193 @@
+{
+  "attribution": "Title: Spells That Don't Suck; Author: Ben Somers / somanyrobots, Omega Ankh; Publisher: somanyrobots; Source: https://www.somanyrobots.com/s/Spells-That-Dont-Suck-compressed.pdf; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "spells-that-dont-suck",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "spells-that-dont-suck_animal-transformation",
+  "id": "o5e:spells-that-dont-suck:spell:spells-that-dont-suck-animal-transformation",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "8fa9b71573d35a87420fc9e494af50cd17f0515d56fb1423388b17dd87b7d51b",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_druid",
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 hour",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": 0,
+      "material_specified": "a lump of clay",
+      "range": 60,
+      "range_text": "60 ft",
+      "range_unit": "ft",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": "1",
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "classes",
+        "value": [
+          "srd_bard",
+          "srd_druid",
+          "srd_sorcerer",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_druid",
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "desc": "You gesture at a creature you can see within range, magically molding them into a new form. The spell has no effect on a creature with 0 hit points. An unwilling creature must make a Charisma saving throw or be transformed. At the end of each of its turns, an affected target can repeat the save, ending the spell on a success.\n\nThe transformation lasts for the duration, or until the target drops to 0 hit points. The new form can be any beast whose challenge rating is equal to or less than the target’s challenge rating or level, but no greater than 4. The target’s game statistics are replaced by the statistics of the chosen beast. It retains its alignment, personality, allegiances, and broad plan of action.\n\nThe target assumes the hit points of its new form. When it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form.\n\nThe creature is limited in the actions it can perform by the nature of its new form, and it can’t speak, cast spells, or take any other action that requires hands or speech. Its items meld into the new form, and the creature can’t activate, use, wield, or otherwise benefit from any of it.",
+      "document": "spells-that-dont-suck",
+      "duration": "1 hour",
+      "higher_level": "When you cast this spell using a spell slot of 5th level or higher, the new form’s maximum challenge rating increases by 1 for each slot level above 4th.",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": 0,
+      "material_specified": "a lump of clay",
+      "name": "Animal Transformation",
+      "range": 60,
+      "range_text": "60 ft",
+      "range_unit": "ft",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": "1",
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Ben Somers / somanyrobots, Omega Ankh",
+      "key": "spells-that-dont-suck",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://www.somanyrobots.com/s/Spells-That-Dont-Suck-compressed.pdf",
+      "publication_date": "2025-03-30T00:00:00",
+      "publisher": "somanyrobots",
+      "title": "Spells That Don't Suck"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "10688",
+          "parent": "spells-that-dont-suck_animal-transformation",
+          "type": "default"
+        },
+        {
+          "desc": "Maximum CR increases by 1.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10689",
+          "parent": "spells-that-dont-suck_animal-transformation",
+          "ru_source": "derived",
+          "type": "slot_level_5"
+        },
+        {
+          "desc": "Maximum CR increases by 2.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10690",
+          "parent": "spells-that-dont-suck_animal-transformation",
+          "ru_source": "derived",
+          "type": "slot_level_6"
+        },
+        {
+          "desc": "Maximum CR increases by 3.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10691",
+          "parent": "spells-that-dont-suck_animal-transformation",
+          "ru_source": "derived",
+          "type": "slot_level_7"
+        },
+        {
+          "desc": "Maximum CR increases by 4.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10692",
+          "parent": "spells-that-dont-suck_animal-transformation",
+          "ru_source": "derived",
+          "type": "slot_level_8"
+        },
+        {
+          "desc": "Maximum CR increases by 5.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10693",
+          "parent": "spells-that-dont-suck_animal-transformation",
+          "ru_source": "derived",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Animal Transformation",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "somanyrobots",
+  "source": "open5e:v2:spells-that-dont-suck",
+  "translations": {
+    "en": {
+      "description": "You gesture at a creature you can see within range, magically molding them into a new form. The spell has no effect on a creature with 0 hit points. An unwilling creature must make a Charisma saving throw or be transformed. At the end of each of its turns, an affected target can repeat the save, ending the spell on a success.\n\nThe transformation lasts for the duration, or until the target drops to 0 hit points. The new form can be any beast whose challenge rating is equal to or less than the target’s challenge rating or level, but no greater than 4. The target’s game statistics are replaced by the statistics of the chosen beast. It retains its alignment, personality, allegiances, and broad plan of action.\n\nThe target assumes the hit points of its new form. When it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form.\n\nThe creature is limited in the actions it can perform by the nature of its new form, and it can’t speak, cast spells, or take any other action that requires hands or speech. Its items meld into the new form, and the creature can’t activate, use, wield, or otherwise benefit from any of it.",
+      "name": "Animal Transformation",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы жестикулируете видимому существу в пределах дистанции, магически лепя его в новую форму. Заклинание не имеет эффекта на существо с 0 хитов. Несогласное существо должно совершить спасбросок Харизмы, иначе будет трансформировано. В конце каждого своего хода затронутая цель может повторить спасбросок, при успехе завершая заклинание.\n\nТрансформация длится срок действия или пока хиты цели не опустятся до 0. Новая форма может быть любым зверем, чей показатель опасности равен или меньше показателя опасности или уровня цели, но не больше 4. Игровая статистика цели заменена статистикой выбранного зверя. Она сохраняет её мировоззрение, личность, привязанности и общий план действий.\n\nЦель принимает хиты её новой формы. Когда она возвращается в её нормальную форму, существо возвращается к количеству хитов, которое у неё было до того, как оно трансформировалось. Если оно возвращается в результате того, что его хиты опустились до 0, любой избыточный урон переносится на его нормальную форму.\n\nСущество ограничено в действиях, которые оно может выполнять, природой её новой формы, и оно не может говорить, творить заклинания или совершать любое другое действие, которое требует рук или речи. Его предметы сливаются в новую форму, и существо не может активировать, использовать, владеть или иным образом получать пользу от любого из них.",
+      "glossary_version": "v1",
+      "name": "Трансформация в животное",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

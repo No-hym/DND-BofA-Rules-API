@@ -1,0 +1,162 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode)",
+  "book_id": "bfrd",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "bfrd_acolyte_radiant-bolt_radiant-bolt-attack",
+  "id": "o5e:bfrd:creatureactionattack:bfrd-acolyte-radiant-bolt-radiant-bolt-attack",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:creatureactionattack:bfrd-acolyte-radiant-bolt-radiant-bolt-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-planetar-radiant-bolt-radiant-bolt-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-emerald-order-cult-leader-radiant-bolt-radiant-bolt-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-fidele-angel-radiant-bolt-radiant-bolt-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-valkyrie-radiant-bolt-radiant-bolt-attack",
+      "o5e:tob2:creatureactionattack:tob2-mead-archon-radiant-bolt-radiant-bolt-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f1e09a193f53c482b37e5f2a8a9277c90ec05da94cb9ed69d6552ed8365145e8",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "SPELL",
+      "damage_bonus": 4,
+      "damage_die_count": 1,
+      "damage_die_type": "D4",
+      "damage_type": "radiant",
+      "extra_damage_bonus": null,
+      "extra_damage_die_count": null,
+      "extra_damage_die_type": null,
+      "extra_damage_type": null,
+      "long_range": null,
+      "range": 60,
+      "reach": null,
+      "to_hit_mod": 6
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "f1e09a193f53c482b37e5f2a8a9277c90ec05da94cb9ed69d6552ed8365145e8",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-acolyte-radiant-bolt-radiant-bolt-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "8c5689cf19ae80d6ec7df40e28a9d565f02c2b0d29d8fa7f04bd708b54e083bc",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-planetar-radiant-bolt-radiant-bolt-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "240b98f9c62896ab96865e23bd012220830ab223f618e774bb4142a610905e63",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-mead-archon-radiant-bolt-radiant-bolt-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "bfb18e1cda281c2db807be218b2b457b368dfab61cf1240df1922686207b671a",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-valkyrie-radiant-bolt-radiant-bolt-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "3c9512d5a67231951eecc13893901cd6929fe9a759722a1a8e7ebb6756bc5a50",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-fidele-angel-radiant-bolt-radiant-bolt-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "3017187934f3e95562f39c0cead3da6335cc56700e100d2fa3b1e71f37effebf",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-emerald-order-cult-leader-radiant-bolt-radiant-bolt-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "bfrd_acolyte_radiant-bolt",
+        "type": "parent",
+        "value": "bfrd_acolyte_radiant-bolt"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "SPELL",
+      "damage_bonus": 4,
+      "damage_die_count": 1,
+      "damage_die_type": "D4",
+      "damage_type": "radiant",
+      "name": "Radiant Bolt attack",
+      "parent": "bfrd_acolyte_radiant-bolt",
+      "range": 60,
+      "target_creature_only": false,
+      "to_hit_mod": 6
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Radiant Bolt attack",
+      "license": "CC-BY-4.0",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Radiant Bolt attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака заклинанием: +6 к попаданию. Зона: дистанция 60 фт., одна цель. Попадание: 1к4 + 4 излучением урона.",
+      "glossary_version": "derived-v1",
+      "name": "Светлый Болт",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

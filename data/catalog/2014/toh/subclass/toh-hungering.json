@@ -1,0 +1,158 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_hungering",
+  "id": "o5e:toh:characterclass:toh-hungering",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-hungering"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "43978a1627c87a181f12824c9aa6d3d7b9855cc528b08a60cb52e256576b8361",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_sorcerer"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "43978a1627c87a181f12824c9aa6d3d7b9855cc528b08a60cb52e256576b8361",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-hungering",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_sorcerer",
+        "type": "subclass_of",
+        "value": "srd_sorcerer"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Your innate magic comes from a deep, primal source of hunger and craving. Perhaps your line was cursed for its greed by a god of plenty or generosity. Perhaps one of your forebears was marked by the hungering undead. Sorcerers with this origin have an unyielding appetite for arcana and go to nearly any length to satiate their desire to increase their magical power.",
+      "document": "toh",
+      "name": "Hungering",
+      "subclass_of": "srd_sorcerer"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "At 1st level, you can sense when a creature is nearing death. You know if a creature you can see that isn't undead or a construct within 30 feet of you is below half its hit point maximum. Your spell attacks ignore half cover and three-quarters cover when targeting creatures you sense with this feature.",
+          "desc_ru": "На 1-м уровне вы можете чувствовать, когда существо приближается к смерти. Вы знаете, если существо, которое вы можете видеть и которое не является нежитью или конструктом, в пределах 30 футов от вас ниже половины его максимума очков хитов. Ваши атаки заклинаниями игнорируют половину укрытия и три четверти укрытия при нацеливании на существ, которых вы чувствуете этой особенностью.",
+          "document": "toh",
+          "external_id": "toh_hungering_hungry-eyes",
+          "level": 1,
+          "name": "Hungry Eyes",
+          "name_ru": "Голодные глаза",
+          "parent": "toh_hungering",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Beginning at 1st level, when you reduce a hostile creature to 0 hit points, you regain hit points equal to your sorcerer level + your Charisma modifier (minimum of 1). This feature can restore you to no more than half your hit point maximum.",
+          "desc_ru": "Начиная с 1-го уровня, когда вы уменьшаете враждебное существо до 0 очков хитов, вы восстанавливаете очки хитов, равные вашему уровню чародея + ваш модификатор Харизмы (минимум 1). Эта особенность может восстановить вам не более половины вашего максимума очков хитов.",
+          "document": "toh",
+          "external_id": "toh_hungering_thirsty-soul",
+          "level": 1,
+          "name": "Thirsty Soul",
+          "name_ru": "Жаждущая душа",
+          "parent": "toh_hungering",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 6th level, when you reduce one or more hostile creatures to 0 hit points with one spell of 1st level or higher, you regain 1 spent sorcery point.",
+          "desc_ru": "Начиная с 6-го уровня, когда вы уменьшаете одно или нескольких враждебных существ до 0 очков хитов одним заклинанием 1-го уровня или выше, вы восстанавливаете 1 потраченное очко чародейства.",
+          "document": "toh",
+          "external_id": "toh_hungering_feast-of-arcana",
+          "level": 6,
+          "name": "Feast of Arcana",
+          "name_ru": "Пир арканы",
+          "parent": "toh_hungering",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 14th level, you can use your reaction to intentionally fail a saving throw against a spell that deals damage and that was cast by a hostile creature. If you do so, you regain a number of spent sorcery points equal to half your Charisma modifier (minimum of 1).",
+          "desc_ru": "Начиная с 14-го уровня вы можете реакцией намеренно провалить спасбросок против заклинания, которое наносит урон и которое было сотворено враждебным существом. Если вы делаете это, вы восстанавливаете количество потраченных очков чародейства, равное половине вашего модификатора Харизмы (минимум 1).",
+          "document": "toh",
+          "external_id": "toh_hungering_glutton-for-punishment",
+          "level": 14,
+          "name": "Glutton for Punishment",
+          "name_ru": "Обжора наказания",
+          "parent": "toh_hungering",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 18th level, when you spend sorcery points to create spell slots or use metamagic, you reduce the cost by 1 sorcery point (this can't reduce the cost below 1).",
+          "desc_ru": "На 18-м уровне, когда вы тратите очки чародейства, чтобы создать ячейки заклинаний или использовать метамагию, вы уменьшаете стоимость на 1 очко чародейства (это не может уменьшить стоимость ниже 1).",
+          "document": "toh",
+          "external_id": "toh_hungering_greedy-heart",
+          "level": 18,
+          "name": "Greedy Heart",
+          "name_ru": "Жадное сердце",
+          "parent": "toh_hungering",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Hungering",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "Your innate magic comes from a deep, primal source of hunger and craving. Perhaps your line was cursed for its greed by a god of plenty or generosity. Perhaps one of your forebears was marked by the hungering undead. Sorcerers with this origin have an unyielding appetite for arcana and go to nearly any length to satiate their desire to increase their magical power.",
+      "name": "Hungering",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Ваша врождённая магия исходит из глубокого, первобытного источника голода и вожделения. Возможно, ваша линия была проклята за свою жадность богом изобилия или щедрости. Возможно, один из ваших предков был отмечен голодной нежитью. Чародеи с этим происхождением имеют непреклонный аппетит к магии и идут почти на всё, чтобы утолить своё желание увеличить свою магическую силу.",
+      "glossary_version": "v1",
+      "name": "Голодный",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

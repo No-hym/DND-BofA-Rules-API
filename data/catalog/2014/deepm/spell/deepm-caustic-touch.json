@@ -1,0 +1,280 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_caustic-touch",
+  "id": "o5e:deepm:spell:deepm-caustic-touch",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-caustic-touch",
+      "o5e:dmag:spell:caustic-touch"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f6d1e4eb80be28e102ac9f268ef4dfedf4dba8bb012ecfa499212bb9832f8c0e",
+    "formulas": [
+      {
+        "expression": "1d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "acid"
+      ],
+      "duration": "instantaneous",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "f6d1e4eb80be28e102ac9f268ef4dfedf4dba8bb012ecfa499212bb9832f8c0e",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-caustic-touch",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "d547fe7a697fb944b9c183e83f953c86223270356f709083a2ffe42d6bd4c405",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:caustic-touch",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "acid"
+      ],
+      "desc": "Your hand sweats profusely and becomes coated in a film of caustic slime. Make a melee spell attack against a creature you touch. On a hit, the target takes 1d8 acid damage. If the target was concentrating on a spell, it has disadvantage on its Constitution saving throw to maintain concentration.",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "higher_level": "This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "name": "Caustic Touch",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2656",
+          "parent": "deepm_caustic-touch",
+          "type": "default"
+        },
+        {
+          "damage_roll": "1d8",
+          "external_id": "2657",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_1"
+        },
+        {
+          "damage_roll": "1d8",
+          "external_id": "2658",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_2"
+        },
+        {
+          "damage_roll": "1d8",
+          "external_id": "2659",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_3"
+        },
+        {
+          "damage_roll": "1d8",
+          "external_id": "2660",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_4"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "2661",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_5"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "2662",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_6"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "2663",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_7"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "2664",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_8"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "2665",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_9"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "2666",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_10"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "2667",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_11"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "2668",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_12"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "2669",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_13"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "2670",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_14"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "2671",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_15"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "2672",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_16"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "2673",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_17"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "2674",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_18"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "2675",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_19"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "2676",
+          "parent": "deepm_caustic-touch",
+          "type": "player_level_20"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Caustic Touch",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "Your hand sweats profusely and becomes coated in a film of caustic slime. Make a melee spell attack against a creature you touch. On a hit, the target takes 1d8 acid damage. If the target was concentrating on a spell, it has disadvantage on its Constitution saving throw to maintain concentration.",
+      "name": "Caustic Touch",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Ваша рука обильно потеет и становится покрытой плёнкой едкой слизи. Совершите рукопашную атаку заклинанием против существа, которого вы касаетесь. При попадании цель получает 1к8 урона кислотой. Если цель концентрировалась на заклинании, она имеет помеху на её спасбросок Телосложения, чтобы поддержать концентрацию.",
+      "glossary_version": "v1",
+      "name": "Едкое касание",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,165 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_reincarnate",
+  "id": "o5e:srd-2014:spell:srd-reincarnate-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-reincarnate",
+      "o5e:wotc-srd:spell:reincarnate"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "a37e86d2dc505e2765a0c5d2bfd34cb723e982e92a7aeeecd5a4490168cdfb38",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1hour",
+      "classes": [
+        "srd_druid"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 5,
+      "material": true,
+      "material_consumed": true,
+      "material_cost": "1000.00",
+      "material_specified": "Rare oils and unguents worth at least 1,000 gp, which the spell consumes.",
+      "range": 0.1,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "a37e86d2dc505e2765a0c5d2bfd34cb723e982e92a7aeeecd5a4490168cdfb38",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-reincarnate",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "d33e1c5f6a894fb653e4fcc8a919630c3fde2caaeeb2e28c52f806e20938eb40",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:reincarnate",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_druid",
+        "type": "classes",
+        "value": [
+          "srd_druid"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1hour",
+      "classes": [
+        "srd_druid"
+      ],
+      "concentration": false,
+      "desc": "You touch a dead humanoid or a piece of a dead humanoid. Provided that the creature has been dead no longer than 10 days, the spell forms a new adult body for it and then calls the soul to enter that body. If the target's soul isn't free or willing to do so, the spell fails. The magic fashions a new body for the creature to inhabit, which likely causes the creature's race to change. The DM rolls a d 100 and consults the following table to determine what form the creature takes when restored to life, or the DM chooses a form.\n\n**01-04** Dragonborn **05-13** Dwarf, hill **14-21** Dwarf, mountain **22-25** Elf, dark **26-34** Elf, high **35-42** Elf, wood **43-46** Gnome, forest **47-52** Gnome, rock **53-56** Half-elf **57-60** Half-orc **61-68** Halfling, lightfoot **69-76** Halfling, stout **77-96** Human **97-00** Tiefling \nThe reincarnated creature recalls its former life and experiences. It retains the capabilities it had in its original form, except it exchanges its original race for the new one and changes its racial traits accordingly.",
+      "document": "srd-2014",
+      "duration": "instantaneous",
+      "level": 5,
+      "material": true,
+      "material_consumed": true,
+      "material_cost": "1000.00",
+      "material_specified": "Rare oils and unguents worth at least 1,000 gp, which the spell consumes.",
+      "name": "Reincarnate",
+      "range": 0.1,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5924",
+          "parent": "srd_reincarnate",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Reincarnate",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:a5e-ag:spell:a5e-ag-reincarnate"
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You touch a dead humanoid or a piece of a dead humanoid. Provided that the creature has been dead no longer than 10 days, the spell forms a new adult body for it and then calls the soul to enter that body. If the target's soul isn't free or willing to do so, the spell fails. The magic fashions a new body for the creature to inhabit, which likely causes the creature's race to change. The DM rolls a d 100 and consults the following table to determine what form the creature takes when restored to life, or the DM chooses a form.\n\n**01-04** Dragonborn **05-13** Dwarf, hill **14-21** Dwarf, mountain **22-25** Elf, dark **26-34** Elf, high **35-42** Elf, wood **43-46** Gnome, forest **47-52** Gnome, rock **53-56** Half-elf **57-60** Half-orc **61-68** Halfling, lightfoot **69-76** Halfling, stout **77-96** Human **97-00** Tiefling \nThe reincarnated creature recalls its former life and experiences. It retains the capabilities it had in its original form, except it exchanges its original race for the new one and changes its racial traits accordingly.",
+      "name": "Reincarnate",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Преобразование 5-го уровня (Друид)*\n\n**Время накладывания:** 1 час\n\n**Дистанция:** Касание\n\n**Компоненты:** В, С, М (редкие масла и мази стоимостью не менее 1 000 зм, расходуемые заклинанием)\n\n**Длительность:** Мгновенная\n\nВы касаетесь мёртвого гуманоида или части мёртвого гуманоида. При условии, что существо мертво не более 10 дней, заклинание формирует для него новое взрослое тело, а затем призывает душу войти в это тело.\n\nЕсли душа цели не свободна или не желает этого, заклинание проваливается.\n\nМагия создаёт новое тело для существа, что, вероятно, изменит его расу. Мастер бросает к100 и сверяется со следующей таблицей, чтобы определить, какую форму примет существо, возвращённое к жизни, или Мастер выбирает форму.\n\nТаблица: Раса при перерождении\n\n| к100  | Раса                |\n|---|---|\n| 01-04 | Драконорождённый    |\n| 05-13 | Дварф, холмовой     |\n| 14-21 | Дварф, горный       |\n| 22-25 | Эльф, тёмный        |\n| 26-34 | Эльф, высший        |\n| 35-42 | Эльф, лесной        |\n| 43-46 | Гном, лесной        |\n| 47-52 | Гном, скальный      |\n| 53-56 | Полуэльф            |\n| 57-60 | Полуорк             |\n| 61-68 | Полурослик, лёгконогий |\n| 69-76 | Полурослик, коренастый |\n| 77-96 | Человек             |\n| 97-00 | Тифлинг             |\n\nПерерождённое существо помнит свою прежнюю жизнь и опыт. Оно сохраняет способности, которыми обладало в первоначальной форме, но заменяет свою прежнюю расу новой и соответственно меняет расовые черты.",
+      "glossary_version": "v1",
+      "name": "Реинкарнация",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

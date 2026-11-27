@@ -1,0 +1,137 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "bloodsapper",
+  "id": "o5e:tob2:monster:bloodsapper-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:bloodsapper"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5771e2947bb58b96f615336f523a62c0a2ae7a8f0bf951a4c99939b19d1172fa",
+    "formulas": [
+      {
+        "expression": "12d8+36",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic evil",
+      "armor_class": 14,
+      "challenge_rating": "3",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "12d8+36",
+      "hit_points": 90,
+      "languages": "understands Common but can’t speak",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "5771e2947bb58b96f615336f523a62c0a2ae7a8f0bf951a4c99939b19d1172fa",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:bloodsapper",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Claw\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.\", \"attack_bonus\": 5, \"damage_dice\": \"1d6+3\"}, {\"name\": \"Draining Tongue\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: 12 (2d8 + 3) piercing damage, and the bloodsapper attaches to the target. While attached, the bloodsapper doesn't attack. Instead, at the start of each of the bloodsapper's turns, the target loses 12 (2d8 + 3) hp due to blood loss. The bloodsapper can detach itself from a target by spending 5 feet of its movement, which it does once it has drained 25 hp from the target or the target dies. A creature, including the target, can take its action to detach the bloodsapper's tongue by succeeding on a DC 14 Strength check. Alternatively, the bloodsapper's tongue can be attacked and severed (AC 12; hp 20). The bloodsapper regrows a severed tongue when it completes a long rest or when it reduces a creature to 0 hp.\", \"attack_bonus\": 5, \"damage_dice\": \"2d8+3\"}, {\"name\": \"Bloody Breath (Recharge Special)\", \"desc\": \"The bloodsapper can expel a 15-foot cone of acrid gas and blood from its bladder. Each creature in the area must make a DC 13 Constitution saving throw. On a failure, a creature takes 14 (4d6) acid damage and is poisoned for 1 minute. On a success, a creature takes half the damage and isn't poisoned. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once a bloodsapper uses its Bloody Breath, it can't use Bloody Breath again until it has drained at least 25 hp of blood from a creature.\"}]",
+      "alignment": "chaotic evil",
+      "armor_class": 14,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "3",
+      "charisma": 7,
+      "constitution": 16,
+      "constitution_save": 5,
+      "cr": 3.0,
+      "desc": "This hairless, dog-like creature has pale skin, an enormous bladder underneath its throat, and a conical head with two deepset, black eyes. A long, thick red tongue, ending in a hollow spike, flicks from its shrew-like mouth._  \n**Ravenous Blood Eaters.** The bloodsapper is a vampiric creature with an unrelenting thirst for blood. While it can drink the blood of animals and wild beasts, it vastly prefers the blood of sapient bipedal creatures, such as giants and humanoids. When it catches prey, it uses its long, spiked tongue to impale and drain them until they are little more than husks. Due to its appetite, the bloodsapper frequently comes into conflict with other creatures reliant on blood such as Open Game License",
+      "dexterity": 14,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "12d8+36",
+      "hit_points": 90,
+      "intelligence": 5,
+      "languages": "understands Common but can’t speak",
+      "legendary_actions_json": "null",
+      "name": "Bloodsapper",
+      "page_no": 44,
+      "perception": 3,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 13",
+      "size": "Medium",
+      "skills_json": "{\"perception\": 3, \"stealth\": 4, \"survival\": 3}",
+      "special_abilities_json": "[{\"name\": \"Blood Scent\", \"desc\": \"A bloodsapper can smell blood within 240 feet of it. It can determine whether the blood is fresh or old and what type of creature shed the blood. In addition, the bloodsapper has advantage on Wisdom (Perception) and Wisdom (Survival) checks to find or track a creature that doesn't have all its hp.\"}]",
+      "speed_json": "{\"walk\": 40, \"climb\": 20}",
+      "spells_json": "null",
+      "strength": 16,
+      "type": "Aberration",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Bloodsapper",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-bloodsapper"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "This hairless, dog-like creature has pale skin, an enormous bladder underneath its throat, and a conical head with two deepset, black eyes. A long, thick red tongue, ending in a hollow spike, flicks from its shrew-like mouth._  \n**Ravenous Blood Eaters.** The bloodsapper is a vampiric creature with an unrelenting thirst for blood. While it can drink the blood of animals and wild beasts, it vastly prefers the blood of sapient bipedal creatures, such as giants and humanoids. When it catches prey, it uses its long, spiked tongue to impale and drain them until they are little more than husks. Due to its appetite, the bloodsapper frequently comes into conflict with other creatures reliant on blood such as Open Game License",
+      "name": "Bloodsapper",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Это безволосое, похожее на собаку существо имеет бледную кожу, огромный мочевой пузырь под его горлом и коническую голову с двумя глубоко посаженными, чёрными глазами. Длинный, толстый красный язык, заканчивающийся полым шипом, щелкает из его рта, похожего на землеройку.",
+      "glossary_version": "v1",
+      "name": "Кровосос",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

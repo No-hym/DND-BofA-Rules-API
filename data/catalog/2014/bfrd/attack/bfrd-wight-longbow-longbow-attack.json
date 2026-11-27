@@ -1,0 +1,478 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode)",
+  "book_id": "bfrd",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "bfrd_wight_longbow_longbow-attack",
+  "id": "o5e:bfrd:creatureactionattack:bfrd-wight-longbow-longbow-attack",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:creatureactionattack:bfrd-centaur-longbow-longbow-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-erinyes-longbow-longbow-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-feral-hunter-longbow-longbow-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-hobgoblin-commander-longbow-longbow-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-hobgoblin-longbow-longbow-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-medusa-longbow-longbow-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-orc-warlord-longbow-longbow-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-wight-longbow-longbow-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-alchemist-archer-longbow-longbow-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-centaur-chieftain-longbow-longbow-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-deathsworn-elf-longbow-longbow-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-dracotaur-longbow-longbow-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-gnoll-slaver-longbow-longbow-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-pattern-dancer-longbow-longbow-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-shadow-fey-poisoner-longbow-longbow-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-trollking-grunt-longbow-longbow-attack",
+      "o5e:srd-2014:creatureactionattack:srd-centaur-longbow-longbow-attack",
+      "o5e:srd-2014:creatureactionattack:srd-drider-longbow-longbow-attack",
+      "o5e:srd-2014:creatureactionattack:srd-erinyes-longbow-longbow-attack",
+      "o5e:srd-2014:creatureactionattack:srd-gnoll-longbow-longbow-attack",
+      "o5e:srd-2014:creatureactionattack:srd-hobgoblin-longbow-longbow-attack",
+      "o5e:srd-2014:creatureactionattack:srd-medusa-longbow-longbow-attack",
+      "o5e:srd-2014:creatureactionattack:srd-scout-longbow-longbow-attack",
+      "o5e:srd-2014:creatureactionattack:srd-weretiger-longbow-longbow-attack",
+      "o5e:srd-2014:creatureactionattack:srd-wight-longbow-longbow-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-elvish-veteran-archer-longbow-longbow-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-forest-hunter-longbow-longbow-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-lord-of-the-hunt-longbow-longbow-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-ravenfolk-scout-longbow-longbow-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-ravenfolk-warrior-longbow-longbow-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-tosculi-elite-bow-raider-longbow-longbow-attack",
+      "o5e:tob2:creatureactionattack:tob2-fey-revenant-longbow-longbow-attack",
+      "o5e:tob2:creatureactionattack:tob2-glacial-corrupter-longbow-longbow-attack",
+      "o5e:tob2:creatureactionattack:tob2-mountain-nymph-longbow-longbow-attack",
+      "o5e:tob2:creatureactionattack:tob2-yathon-longbow-longbow-attack",
+      "o5e:tob:creatureactionattack:tob-ancient-titan-longbow-longbow-attack",
+      "o5e:tob:creatureactionattack:tob-duskthorn-dryad-longbow-longbow-attack",
+      "o5e:tob:creatureactionattack:tob-elvish-veteran-archer-longbow-longbow-attack",
+      "o5e:tob:creatureactionattack:tob-shadow-fey-forest-hunter-longbow-longbow-attack",
+      "o5e:tob:creatureactionattack:tob-tosculi-elite-bow-raider-longbow-longbow-attack",
+      "o5e:tob:creatureactionattack:tob-vaettir-longbow-longbow-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b401d6a87c9347ffc9e3a011760cf0d9b3fd1ff2e940d8a6eb39cc14845acfc0",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "WEAPON",
+      "damage_bonus": 2,
+      "damage_die_count": 2,
+      "damage_die_type": "D8",
+      "damage_type": "piercing",
+      "extra_damage_bonus": null,
+      "extra_damage_die_count": null,
+      "extra_damage_die_type": null,
+      "extra_damage_type": null,
+      "long_range": 600,
+      "range": 150,
+      "reach": null,
+      "to_hit_mod": 4
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "b401d6a87c9347ffc9e3a011760cf0d9b3fd1ff2e940d8a6eb39cc14845acfc0",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-wight-longbow-longbow-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "tob",
+        "content_hash": "cbe74aa216769aac8f945a1c9937a41c00674dca8bc5dcf697f9fe7ff92be97c",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-vaettir-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "00970b7eb5a65a6cbbec8097d0ff16380168acfaaec0a6652d4569aa53a19c90",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-medusa-longbow-longbow-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "d04c5fee75f1315e5a1acd69fc2be1e986353c3a7ed383581cf1a08ae38fa1ca",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-yathon-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "624b97ed6c451575965c036a7ad575a04751b7225b8b99ca19342caf1fe41eec",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-centaur-longbow-longbow-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "a7084287eb7d5d9c6b0422d9462f65df9d9f024224ec82d3228aa2e2746dd73b",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-erinyes-longbow-longbow-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "7a51b3286b868caf4308620bd3e24fb68efe0cca41eacb17e49ca8fcfc3bef76",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-gnoll-longbow-longbow-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "30182a7767608eeb2b903f87f65f542a1309ff8a865003cb7399b90648ec1e9b",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-scout-longbow-longbow-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "0a3db977e93f0ff91f3cfddabc96348252d1416ccf1cc3e7ecd18988addc28fa",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-wight-longbow-longbow-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "08e22ae4a709beaa359b249c261ea05ae90bb974609a79ada90aecb2c3f4ac87",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-hobgoblin-longbow-longbow-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "7dace9d0b0c9eed686ef283161096a414106fc4685010a727dfa3a77f0ae0ac9",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-dracotaur-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "33ff2d8d9f6fd0e3e42acc1db87721b43f1e6202d43a5cdc258dc065b9724fad",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-drider-longbow-longbow-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "a45915564cb36049b39ca2dc8d56ffe6349b1848ff6f6fc2f49134228ec3a6cd",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-medusa-longbow-longbow-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "b4473c88bf6e10d78405b9a6c7b0e749e755829c9b2c9372d836b980d29e7c90",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-centaur-longbow-longbow-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "361ffa96f337d3c37edefa7339c9f5c09f954f85a360f77601529dc1ac220e12",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-erinyes-longbow-longbow-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "6148eefcda6b1896f355b130d28d02ebfe49a53c2446fc21b14472bc3927cce5",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-orc-warlord-longbow-longbow-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "tob",
+        "content_hash": "9e0a475d8dde05876344f60684e7d3dacc7f2930460692a5873ebc347f436bea",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-ancient-titan-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "0954b93ec63f1391e4b98516859abc6fc4ba6d9fecb6bc2548123d42a12c9e15",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-feral-hunter-longbow-longbow-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "9a6d0baa066ba3c295cef11b9d5a0b6e8cf7d3009b36eaf2cee14177a856ba06",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-gnoll-slaver-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "239e6c0ef01a32d408039ce7b49967cffc2ca5176f588f12d670a453f118f9e9",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-hobgoblin-longbow-longbow-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "6576573ab6eb1af71b9d08717aa13b8f7cad6be5da0ceabb0a1744b6bf2e6d64",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-weretiger-longbow-longbow-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "d5b6d5e391ccb03069242c767b8db97a7190b8e3f80f12a1e197f1d42d0429a6",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-fey-revenant-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "70eec08219d66b8970cd4c03b793d40a6e1cf81390fe86bb3724b86754c24b7b",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-duskthorn-dryad-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "66fa83e2189d20b16da8a02b754422480870f079001b7b4c97e1e980b94a1c73",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-deathsworn-elf-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "5cef5233dc13c7170732f3b2cc8ebe3e554e1ce74bdb91d0315a95d4cf163701",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-pattern-dancer-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "58d2360e1460ce907e7190c1cba853025c0f9a83c7a688a62baf59419d25ab0a",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-mountain-nymph-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "6d95081bbfda60a135f3ff91fbe32925b79e5d95e157bebe62963f14c755e77d",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-trollking-grunt-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "1a69b4a2e61853e3ab0a9fe794ca59870d927ad8483f02a567c2d511ce89f2b8",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-alchemist-archer-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "bded1fb29b4595cd62894ad0ca447dd4b8363f2867d5ac374f9b6abc7e07be08",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-centaur-chieftain-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "7d6b8f585e8b943b5bd8eae017c9ee54ea96aa99ea7d630a79810d12a214d008",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-glacial-corrupter-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "befa527d78e7bf4efbc06f244f0838c3bc13cceb61cfeaf8023e414d438a61e0",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-hobgoblin-commander-longbow-longbow-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "06b8711f3aef334ef01c13eb105d58915fba18e45f7ee88b532ff85152a9f09b",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-shadow-fey-poisoner-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "tob",
+        "content_hash": "167b9f44ad18db48b90f9c1b815b24da24ebbd6a62f4159475406cd8d28a63f7",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-elvish-veteran-archer-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "bf441df8f196b7499e7233647a938d9e1b88cef138f5243df3c2150a17a25ae4",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-forest-hunter-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob",
+        "content_hash": "37e93cbb53da014223617ff71fb1eb86e38accd550a16966fee7c472f5a6796d",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-shadow-fey-forest-hunter-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "53e1d4d478746910bbf829317a56cefd184248f4328ef89c5cc5451ff9375d04",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-tosculi-elite-bow-raider-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "22a03cf033cce71e5f3ca9887e002b012cb7fff16d71eaa6f295602446b9feb5",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-ravenfolk-scout-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "ec303d137000203b74ccc23d169e27b122ce548239205f87aa313e0b848a05a1",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-lord-of-the-hunt-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "5fac4b124d1b7d3536987e1f82363f9deb524e1c12877249584076ba64778ca6",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-ravenfolk-warrior-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "974ec2e0a581aa37939828ad763d3ab772c75f5ca26a9026b7b9017f34470969",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-elvish-veteran-archer-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "9553ddc45d527fff425865115fc690d422bf7e54e61a3a82da94fa7a893c115e",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-tosculi-elite-bow-raider-longbow-longbow-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "bfrd_wight_longbow",
+        "type": "parent",
+        "value": "bfrd_wight_longbow"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "WEAPON",
+      "damage_bonus": 2,
+      "damage_die_count": 2,
+      "damage_die_type": "D8",
+      "damage_type": "piercing",
+      "long_range": 600,
+      "name": "Longbow attack",
+      "parent": "bfrd_wight_longbow",
+      "range": 150,
+      "target_creature_only": false,
+      "to_hit_mod": 4
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Longbow attack",
+      "license": "CC-BY-4.0",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Longbow attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака оружием: +4 к попаданию. Зона: дистанция 150/600 фт., одна цель. Попадание: 2к8 + 2 колющего урона.",
+      "glossary_version": "derived-v1",
+      "name": "Длинный лук",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

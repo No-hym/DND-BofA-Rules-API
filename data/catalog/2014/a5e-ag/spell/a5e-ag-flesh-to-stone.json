@@ -1,0 +1,172 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_flesh-to-stone",
+  "id": "o5e:a5e-ag:spell:a5e-ag-flesh-to-stone",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-flesh-to-stone",
+      "o5e:a5e:spell:flesh-to-stone-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "80c45400599e54178011eed031142d2fd3b22cb50b5f93f73bb5ee1d649817f0",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 6,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": false
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "80c45400599e54178011eed031142d2fd3b22cb50b5f93f73bb5ee1d649817f0",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-flesh-to-stone",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "d30d023545036ea5ebea7ad4fb968f95fc69c5e111972d02b7254f4326771d11",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:flesh-to-stone-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "The target becomes restrained as it begins to turn to stone. On a successful saving throw, the target is instead slowed until the end of its next turn and the spell ends.\n\nA creature restrained by this spell makes a second saving throw at the end of its turn. On a success, the spell ends. On a failure, the target is petrified for the duration. If you maintain concentration for the maximum duration of the spell, this petrification is permanent.\n\nAny pieces removed from a petrified creature are missing when the petrification ends.",
+      "document": "a5e-ag",
+      "duration": "1 minute",
+      "higher_level": "Target one additional creature when you cast this spell with an 8th-level spell slot.",
+      "level": 6,
+      "material": true,
+      "material_consumed": false,
+      "name": "Flesh to Stone",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": false
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "1220",
+          "parent": "a5e-ag_flesh-to-stone",
+          "type": "default"
+        },
+        {
+          "external_id": "1222",
+          "parent": "a5e-ag_flesh-to-stone",
+          "target_count": 2,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "1223",
+          "parent": "a5e-ag_flesh-to-stone",
+          "target_count": 3,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "1224",
+          "parent": "a5e-ag_flesh-to-stone",
+          "target_count": 4,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Flesh to Stone",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "The target becomes restrained as it begins to turn to stone. On a successful saving throw, the target is instead slowed until the end of its next turn and the spell ends.\n\nA creature restrained by this spell makes a second saving throw at the end of its turn. On a success, the spell ends. On a failure, the target is petrified for the duration. If you maintain concentration for the maximum duration of the spell, this petrification is permanent.\n\nAny pieces removed from a petrified creature are missing when the petrification ends.",
+      "name": "Flesh to Stone",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Преобразование 6-го уровня (Колдун, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В, С, М (щепотка извести, вода и земля)\n\n**Длительность:** Концентрация, вплоть до 1 минуту\n\nВы пытаетесь превратить одно существо, которое видите в пределах дистанции, в камень. Если тело цели состоит из плоти, существо должно совершить спасбросок Телосложения. При провале оно опутано, так как его плоть начинает твердеть. При успехе существо не подвергается действию.\n\nСущество, опутанное этим заклинанием, должно совершить ещё один спасбросок Телосложения в конце каждого своего хода. Если оно трижды успешно спасётся от этого заклинания, заклинание оканчивается. Если оно трижды провалит спасбросок, оно превращается в камень и подвергается состоянию окаменения на время действия заклинания. Успехи и провалы не обязаны быть последовательными; отслеживайте и те, и другие, пока цель не наберёт три одного вида.\n\nЕсли существо физически повреждено, будучи окаменевшим, оно страдает от аналогичных деформаций, если возвращается в исходное состояние.\n\nЕсли вы поддерживаете концентрацию на этом заклинании в течение всей возможной длительности, существо превращается в камень, пока эффект не будет снят.",
+      "glossary_version": "v1",
+      "name": "Окаменение",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

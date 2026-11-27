@@ -1,0 +1,226 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_cryoceros",
+  "id": "o5e:tob2:creature:tob2-cryoceros",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-cryoceros"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "11ce0c8f3ca3c3f0eca9154cdd2d12989bcbc8241eac91fc82720313513e7258",
+    "formulas": [
+      {
+        "expression": "14d10+56",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 11,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 13,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "6.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [
+        "bludgeoning",
+        "cold"
+      ],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "14d10+56",
+      "hit_points": 133,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 40
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "11ce0c8f3ca3c3f0eca9154cdd2d12989bcbc8241eac91fc82720313513e7258",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-cryoceros",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 11,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 13,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "6.000",
+      "damage_resistances": [
+        "bludgeoning",
+        "cold"
+      ],
+      "damage_resistances_display": "bludgeoning, cold",
+      "document": "tob2",
+      "hit_dice": "14d10+56",
+      "hit_points": 133,
+      "hover": false,
+      "name": "Cryoceros",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "size": "large",
+      "skill_bonus_athletics": 7,
+      "type": "monstrosity",
+      "walk": 40,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 13 (2d8 + 4) piercing damage plus 9 (2d8) cold damage.",
+          "desc_ru": "Атака оружием ближнего боя: +7 к попаданию, досягаемость 10 фт., одно существо. Попадание: 13 (2к8+4) колющего урона плюс 9 (2к8) холодного урона.",
+          "external_id": "tob2_cryoceros_gore",
+          "name": "Gore",
+          "name_ru": "Горе",
+          "order_in_statblock": 0,
+          "parent": "tob2_cryoceros",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The cryoceros exhales razor-sharp ice in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 10 (3d6) cold damage and 10 (3d6) piercing damage on a failed save, or half as much on a successful one.",
+          "desc_ru": "Действие «Шардс ледяной»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_cryoceros_shards-of-ice",
+          "name": "Shards of Ice",
+          "name_ru": "Шардс ледяной",
+          "order_in_statblock": 2,
+          "parent": "tob2_cryoceros",
+          "ru_source": "derived",
+          "uses_param": 4,
+          "uses_type": "RECHARGE_ON_ROLL"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one prone creature. Hit: 20 (3d10 + 4) bludgeoning damage.",
+          "desc_ru": "Действие «Стомп»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_cryoceros_stomp",
+          "name": "Stomp",
+          "name_ru": "Стомп",
+          "order_in_statblock": 1,
+          "parent": "tob2_cryoceros",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The cryoceros has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.",
+          "desc_ru": "Особенность «Снов Камоуфлаге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_cryoceros_snow-camouflage",
+          "name": "Snow Camouflage",
+          "name_ru": "Снов Камоуфлаге",
+          "parent": "tob2_cryoceros",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "If the cryoceros moves at least 20 feet straight toward a target and then hits it with its gore attack on the same turn, the target must succeed on a DC 15 Strength saving throw or be knocked prone. If the target is prone, the cryoceros can make one stomp attack against it as a bonus action.",
+          "desc_ru": "Особенность «Трамплинг Чарге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_cryoceros_trampling-charge",
+          "name": "Trampling Charge",
+          "name_ru": "Трамплинг Чарге",
+          "parent": "tob2_cryoceros",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Cryoceros",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Cryoceros",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Это огромное приземистое животное имеет лохматую шкуру льда. Два полупрозрачных рога выступают из его морды, передний из которых похож на ятаган.\n\n**Носорог, тронутый стихией.** Криоцерос напоминает шерстистого носорога из льда. Его толстая замороженная шкура защищает мягкую плоть в её ядре, и слой льда образуется поверх его уже огромных, кератиновых рогов. Тело существа эффективно в передаче теплоты его мясистых внутренностей; огонь всё ещё вредит криоцеросу, но его ледяная форма не будет излишне повреждена пламенными атаками. Криоцерос имеет второй желудок, который хранит лёд, который потребляет. В качестве защитного механизма криоцерос может выплёвывать жгучий измельчённый лёд из этого альтернативного желудка.\n\n**Медленный метаболизм.** Криоцеросы выживают на карликовых травах и других растениях, которые процветают в тундре, а также льде и снегу, чтобы пополнить свои ледяные внешность. Несмотря на их размер, они не требуют большого количества пропитания, и они сохраняют свою энергию медленно пасясь на замёрзших равнинах. Их трудоёмкое движение обманывает неосторожных полагать, что расстояние равен безопасности. Действительно, криоцеросы переживают много провокаций, прежде чем они решили действовать, но они бегут на и пронзают или давят тех, кто их раздражает. Как только их гнев вверх, они редко отказываются от преследования источник их гнева; только покинув обширные территории можно надеяться на спасение от них.\n\n**Сварливые скакуны.** Нежность и регулярный источник пищи временно зарабатывает доверие криоцеросов, а терпеливые гуманоиды могут управлять подготовкой существ принимать наездников. Это работает для удобства гораздо больше, чем для боя, поскольку криоцеросы не борются с грузами на спинах. Криоцерос в бою с наездником или стоит на месте до его наездник спешивается или, хуже, перекатывается, чтобы бросить своего наездника, часто давя наездника в процессе. Из-за этого, большинство племён, которые обучают криоцеросов используют существ как вьючных животных, а не боевых коней.",
+      "glossary_version": "v1",
+      "name": "Криоцерос",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

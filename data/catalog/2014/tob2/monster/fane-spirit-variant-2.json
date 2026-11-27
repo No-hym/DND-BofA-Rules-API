@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "fane-spirit",
+  "id": "o5e:tob2:monster:fane-spirit-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:fane-spirit"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "cb403a34b95733b80c954207cbe8bde70cac658120e9c87c958e45c65417a45c",
+    "formulas": [
+      {
+        "expression": "7d8+21",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "any lawful alignment",
+      "armor_class": 13,
+      "challenge_rating": "3",
+      "condition_immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+      "damage_immunities": "poison, psychic",
+      "damage_resistances": "acid, cold, fire, lightning, necrotic, thunder; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+      "damage_vulnerabilities": "",
+      "hit_dice": "7d8+21",
+      "hit_points": 52,
+      "languages": "any languages it knew in life",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "cb403a34b95733b80c954207cbe8bde70cac658120e9c87c958e45c65417a45c",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:fane-spirit",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Touch of Forgetfulness\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) psychic damage. A target hit by this attack must succeed on a DC 13 Wisdom saving throw or forget any or all events that happened up to 5 minutes prior to this attack, as if affected by the modify memory spell. The GM decides how this affects the target.\", \"attack_bonus\": 5, \"damage_dice\": \"2d8+3\"}]",
+      "alignment": "any lawful alignment",
+      "armor_class": 13,
+      "bonus_actions_json": "null",
+      "challenge_rating": "3",
+      "charisma": 17,
+      "condition_immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+      "constitution": 16,
+      "cr": 3.0,
+      "damage_immunities": "poison, psychic",
+      "damage_resistances": "acid, cold, fire, lightning, necrotic, thunder; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+      "desc": "As the sun gently dips below the horizon, the priest undergoes a startling transformation, his benevolent form replaced by the ghastly countenance of death._  \n**Temple Ghosts.** When a lawful individual dies defending a place of worship such as a temple, shrine, or other holy site, it sometimes rises as a fane spirit bound to the site, protecting it even in death. Most fane spirits were formerly clerics, though druids, paladins, and even lay worshippers can become fane spirits under the right circumstances. Fane spirits are lawful and typically only attack those who discover their undead nature or who try to harm their place of worship.  \n**Welcoming Priests.** During daylight hours, fane spirits appear to be living creatures, carrying on the same tasks they did when they were alive. Normal methods for detecting undead creatures do not work on them, and, unless attacked or injured, they show no outward signs of their true nature. This deception extends to the fane spirit itself, as it does not have any recollection of dying or of its time in its undead form. When this deception is revealed, the fane spirit becomes enraged with suffering and lashes out at those who made it remember.  \n**Undead Nature.** The fane spirit doesn’t require air, food, drink, or sleep.",
+      "dexterity": 16,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "7d8+21",
+      "hit_points": 52,
+      "intelligence": 10,
+      "languages": "any languages it knew in life",
+      "legendary_actions_json": "null",
+      "name": "Fane Spirit",
+      "page_no": 141,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 14",
+      "size": "Medium",
+      "skills_json": "{\"deception\": 5, \"religion\": 4}",
+      "special_abilities_json": "[{\"name\": \"Incorporeal Movement\", \"desc\": \"The fane spirit can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.\"}, {\"name\": \"Veil of the Living\", \"desc\": \"During the day a fane spirit appears much as it did in life and loses its Incorporeal Movement trait, its Touch of Forgetfulness action, and its immunity to being grappled and restrained. It retains all other statistics. While in this form, it has a Strength score of 10. If attacked in this form, it relies on its spells to defend itself, but it reverts to its undead form as soon as it takes any damage.\\n\\nWhen the sun sets or when it takes any damage, the fane spirit assumes its undead form, and it has all of its listed statistics. Any creature witnessing this transformation must succeed on a DC 13 Wisdom saving throw or become frightened until the end of its next turn. A fane spirit reverts to its living form in the morning, though creatures witnessing this don't need to make saving throws.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"The fane spirit's innate spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\\nAt will: chill touch, spare the dying\\n3/day each: cure wounds, inflict wounds, shield of faith\\n1/day each: augury, hold person, lesser restoration\"}]",
+      "speed_json": "{\"walk\": 20, \"hover\": true, \"fly\": 40}",
+      "spells_json": "null",
+      "strength": 7,
+      "type": "Undead",
+      "wisdom": 18,
+      "wisdom_save": 6
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Fane Spirit",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-fane-spirit"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "As the sun gently dips below the horizon, the priest undergoes a startling transformation, his benevolent form replaced by the ghastly countenance of death._  \n**Temple Ghosts.** When a lawful individual dies defending a place of worship such as a temple, shrine, or other holy site, it sometimes rises as a fane spirit bound to the site, protecting it even in death. Most fane spirits were formerly clerics, though druids, paladins, and even lay worshippers can become fane spirits under the right circumstances. Fane spirits are lawful and typically only attack those who discover their undead nature or who try to harm their place of worship.  \n**Welcoming Priests.** During daylight hours, fane spirits appear to be living creatures, carrying on the same tasks they did when they were alive. Normal methods for detecting undead creatures do not work on them, and, unless attacked or injured, they show no outward signs of their true nature. This deception extends to the fane spirit itself, as it does not have any recollection of dying or of its time in its undead form. When this deception is revealed, the fane spirit becomes enraged with suffering and lashes out at those who made it remember.  \n**Undead Nature.** The fane spirit doesn’t require air, food, drink, or sleep.",
+      "name": "Fane Spirit",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Когда солнце мягко опускается за горизонт, жрец претерпевает поразительную трансформацию, его доброжелательная форма заменена ужасным обликом смерти.\n\n**Храмовые призраки.** Когда законный человек умирает, защищая место поклонения, такое как храм, святилище или другое святое место, он иногда поднимается как дух святилища, связанная с местом, защищая его даже в смерти. Большинство духов святилища ранее были клириками, хотя друиды, паладины и даже миряне могут стать духами святилища при правильных обстоятельствах. Духи святилища законны и обычно атакуют только тех, кто обнаруживает их неживную природу или кто пытается повредить их место поклонения.\n\n**Приветствующие жрецы.** В дневные часы духи святилища кажутся живыми существами, продолжая те же задачи, которые они выполняли, когда были живы. Обычные методы обнаружения неживых существ не работают на них, и, если они не атакованы или не ранены, они не показывают внешних признаков своей истинной природы. Этот обман распространяется и на самого духа святилища, поскольку он не имеет воспоминаний о смерти или о своём времени в неживой форме. Когда этот обман раскрывается, дух святилища становится взбешённым страданием и набрасывается на тех, кто заставил его вспомнить.\n\n**Природа нежити.** Духу святилища не нужен воздух, еда, питьё или сон.",
+      "glossary_version": "v1",
+      "name": "Дух святилища",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

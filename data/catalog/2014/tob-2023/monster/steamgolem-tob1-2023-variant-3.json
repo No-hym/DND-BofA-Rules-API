@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: Tome of Beasts 2023; Author: Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur; Publisher: tob-2023; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. 2023 Open Design LLC. All rights reserved.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob-2023",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "steamgolem-tob1-2023",
+  "id": "o5e:tob-2023:monster:steamgolem-tob1-2023-variant-3",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:monster:steamgolem-tob1-2023"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "145875f1ba3f93897bc129c3daad7543477a8083ff5dc419af454fe0e2684a97",
+    "formulas": [
+      {
+        "expression": "18d10 + 72",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "Unaligned",
+      "armor_class": 18,
+      "challenge_rating": "13",
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "damage_immunities": "fire, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
+      "damage_resistances": "False",
+      "damage_vulnerabilities": "False",
+      "hit_dice": "18d10 + 72",
+      "hit_points": 171,
+      "languages": "understands the languages of its creator but can’t speak",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob-2023",
+        "content_hash": "145875f1ba3f93897bc129c3daad7543477a8083ff5dc419af454fe0e2684a97",
+        "edition": "2014",
+        "id": "o5e:tob-2023:monster:steamgolem-tob1-2023",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The steam golem makes one Axe Arm attack and one Long Axe attack.\"}, {\"name\": \"Axe Arm\", \"desc\": \"Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 22 (4d6 + 8) slashing damage plus 18 (4d8) fire damage.\"}, {\"name\": \"Long Axe\", \"desc\": \"Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 26 (4d8 + 8) slashing damage plus 18 (4d8) fire damage.\"}, {\"name\": \"Steam Blast (Recharge 5-6)\", \"desc\": \"The steam golem releases a blast of steam in a 30-foot cone or in a 10-foot-radius cloud that extends from it, spreading around corners. Each creature in the area must make a DC 17 Dexterity saving throw, taking 54 (12d8) fire damage on a failed save, or half as much damage on a successful one.\"}]",
+      "alignment": "Unaligned",
+      "armor_class": 18,
+      "armor_desc": "natural armor",
+      "challenge_rating": "13",
+      "charisma": 1,
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "constitution": 18,
+      "cr": 13.0,
+      "damage_immunities": "fire, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
+      "damage_resistances": "False",
+      "damage_vulnerabilities": "False",
+      "desc": "False",
+      "dexterity": 12,
+      "document": 47,
+      "group": "null",
+      "hit_dice": "18d10 + 72",
+      "hit_points": 171,
+      "intelligence": 3,
+      "languages": "understands the languages of its creator but can’t speak",
+      "name": "Steam Golem",
+      "page_no": 220,
+      "perception": 10,
+      "reactions_json": "[{\"name\": \"Whistle (Recharge 4-6)\", \"desc\": \"When a creature the steam golem can see within 30 feet of it casts a spell, the steam golem emits a shriek from its twin steam whistles. The spellcaster must succeed on a DC 17 Constitution saving throw or the spell fails and has no effect.\"}]",
+      "route": "monsters/",
+      "senses": "darkvision 120 ft., passive Perception 10",
+      "size": "Large",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Boiler Weakness\", \"desc\": \"If the steam golem starts its turn immersed in water, or if it was soaked with at least 20 gallons of water on its previous turn, it risks losing steam pressure in its boiler. The steam golem must succeed on a DC 20 Constitution saving throw or its internal fire is extinguished. Until its internal fire is relit, the golem's speed is halved, its AC is reduced by 2, and it must repeat the saving throw at the start of each of its turns. On a failure, it stops repeating this saving throw and becomes dormant, effectively dead until the fire is relit. A Medium or smaller creature within 5 feet of the golem can take an action to relight the golem's internal fire, making it active again.\"}, {\"name\": \"Construct Nature\", \"desc\": \"The golem doesn't require air, food, drink, or sleep.\"}, {\"name\": \"Heated Weapons\", \"desc\": \"The steam golem's weapon attacks are magical. When the golem hits with any weapon, the weapon deals an extra 4d8 fire damage (included in the attack).\"}, {\"name\": \"Immutable Form\", \"desc\": \"The golem is immune to any spell or effect that would alter its form.\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The golem has advantage on saving throws against spells and other magical effects.\"}]",
+      "speed_json": "{\"walk\": 40}",
+      "spells_json": "null",
+      "strength": 26,
+      "type": "Construct",
+      "wisdom": 10
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur",
+      "key": "tob-2023",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+      "publication_date": "",
+      "publisher": "tob-2023",
+      "title": "Tome of Beasts 2023"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Steam Golem",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-steam-golem"
+  },
+  "publisher_id": "tob-2023",
+  "source": "open5e:v1:tob-2023",
+  "translations": {
+    "en": {
+      "description": "False",
+      "name": "Steam Golem",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "С злыми топора лезвиями, прикреплёнными вдоль её рук и бронзовыми рунами, инкрустированными на его бронированных торса, паровой голем машина смерти, работающая гладко.\n\n**Волшебное оружие.** Оружие голем атак является волшебным.\n\n**Котлы и гидравлики.** Паровой голем построен вокруг центрального котла с заводными шестернями и гидравлическими цилиндрами, питающими ноги и руками. Большинство паровых големов имеют топоровые клинки, приваренные на каждой из их руки и много может продлить одну руку в один топор с длинной ручкой для дополнительного охвата. Они возвышаются на 10 футов роста, а их ноги часто построены с обращёнными коленями суставов для большего рычагов, когда они двигаются. Глаза парового голема светятся оранжевым или красным от своих внутренних огней.\n\n**Паровой свисток.** У парового голема имеет четыре-шесть отверстий для выхода пара. Эти свистки установленные через плечи их можно услышать на расстоянии до мили в открытой местности.\n\n**Топлива, необходимого.** Махины из парового голема потребляет 30 фунтов. каменного угля и 100 литров воды в день при этом участвует в течение более краткой боя. Когда отдыхаете или стоит на страже, паровой голем нуждается именно в одной трети из этих сумм.\n\n**Сконструированный характер.** голем не требует воздуха, продуктов питания, напитков, или спать.",
+      "glossary_version": "v1",
+      "name": "Паровой голем",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

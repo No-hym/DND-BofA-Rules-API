@@ -1,0 +1,180 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "monster",
+  "edition": "2024",
+  "external_id": "srd-2024_basilisk",
+  "id": "o5e:srd-2024:creature:srd-2024-basilisk",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "a2c8e98b9037a2500dd5a2a9ea46eeb4cd152df8a774f6bfe974f78a4e16b365",
+    "formulas": [
+      {
+        "expression": "8d8 + 16",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 15,
+      "ability_score_dexterity": 8,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 16,
+      "ability_score_wisdom": 8,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "3.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "8d8 + 16",
+      "hit_points": 52,
+      "initiative_bonus": -1,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 9,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": -2,
+      "saving_throw_constitution": 2,
+      "saving_throw_dexterity": -1,
+      "saving_throw_intelligence": -4,
+      "saving_throw_strength": 3,
+      "saving_throw_wisdom": -1,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 20
+    },
+    "original_system": "5e-2024",
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 15,
+      "ability_score_dexterity": 8,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 16,
+      "ability_score_wisdom": 8,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "3.000",
+      "darkvision_range": 60,
+      "document": "srd-2024",
+      "hit_dice": "8d8 + 16",
+      "hit_points": 52,
+      "hover": false,
+      "initiative_bonus": -1,
+      "name": "Basilisk",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 9,
+      "saving_throw_charisma": -2,
+      "saving_throw_constitution": 2,
+      "saving_throw_dexterity": -1,
+      "saving_throw_intelligence": -4,
+      "saving_throw_strength": 3,
+      "saving_throw_wisdom": -1,
+      "size": "medium",
+      "type": "monstrosity",
+      "walk": 20,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Attack Roll: +5, reach 5 ft. 10 (2d6 + 3) Piercing damage plus 7 (2d6) Poison damage.",
+          "desc_ru": "Действие «Укус»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd-2024_basilisk_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 0,
+          "parent": "srd-2024_basilisk",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "Constitution Saving Throw: DC 12, each creature in a 30-foot Cone. If the basilisk sees its reflection within the Cone, the basilisk must make this save. First Failure The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure The target has the Petrified condition instead of the Restrained condition.",
+          "desc_ru": "Действие «Петрифйинг Газе (речарге 4-6)»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd-2024_basilisk_petrifying-gaze-recharge-4-6",
+          "name": "Petrifying Gaze (Recharge 4-6)",
+          "name_ru": "Петрифйинг Газе (речарге 4-6)",
+          "order_in_statblock": 0,
+          "parent": "srd-2024_basilisk",
+          "ru_source": "derived",
+          "uses_param": 4,
+          "uses_type": "RECHARGE"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Basilisk",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Basilisk",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Среднее Чудовище, Без мировоззрения*\n\n- **Класс Доспеха:** 15 (природный доспех)\n- **Хиты:** 52 (8к8 + 16)\n- **Скорость:** 20 фт.\n\n| СИЛ      | ЛОВ      | ТЕЛ      | ИНТ      | МДР      | ХАР      |\n|:---:|:---:|:---:|:---:|:---:|:---:|\n| 16 (+3)  | 8 (-1)   | 15 (+2)  | 2 (-4)   | 8 (-1)   | 7 (-2)   |\n\n- **Чувства:** тёмное зрение 60 фт.; Пассивная Внимательность 9\n- **Языки:** —\n- **Показатель опасности:** 3 (700 ОО)",
+      "glossary_version": "v1",
+      "name": "Василиск",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

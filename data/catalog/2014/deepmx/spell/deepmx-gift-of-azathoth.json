@@ -1,0 +1,217 @@
+{
+  "attribution": "Title: Deep Magic Extended; Author: Not sure.; Publisher: kobold-press; Source: https://koboldpress.com/deepmagic; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepmx",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepmx_gift-of-azathoth",
+  "id": "o5e:deepmx:spell:deepmx-gift-of-azathoth",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepmx:spell:deepmx-gift-of-azathoth",
+      "o5e:dmag-e:spell:gift-of-azathoth"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c0ac91f54a2974f60435ca2d1fba703a2e9a055ce5b4821b96f0ac316c929bf7",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_cleric",
+        "srd_druid",
+        "srd_ranger",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "24 hours or until the target attempts a third death saving throw",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepmx",
+        "content_hash": "c0ac91f54a2974f60435ca2d1fba703a2e9a055ce5b4821b96f0ac316c929bf7",
+        "edition": "2014",
+        "id": "o5e:deepmx:spell:deepmx-gift-of-azathoth",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepmx"
+      },
+      {
+        "book": "dmag-e",
+        "content_hash": "fb0694666767b0ad1e0a00a70a4f9e7fa95a7dde8b6b91a8d2703dc1230c3ea9",
+        "edition": "2014",
+        "id": "o5e:dmag-e:spell:gift-of-azathoth",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag-e"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "classes",
+        "value": [
+          "srd_bard",
+          "srd_cleric",
+          "srd_druid",
+          "srd_ranger",
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_cleric",
+        "srd_druid",
+        "srd_ranger",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "desc": "Deep Magic: void magic A willing creature you touch is imbued with the persistence of ultimate Chaos. Until the spell ends, the target has advantage on the first three death saving throws it attempts.",
+      "document": "deepmx",
+      "duration": "24 hours or until the target attempts a third death saving throw",
+      "higher_level": "When you cast this spell using a spell slot of 5th, 6th, or 7th level, the duration increases to 48 hours. When you cast this spell using a spell slot of 8th or 9th level, the duration increases to 72 hours.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Gift of Azathoth",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "enchantment",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Not sure.",
+      "key": "deepmx",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/deepmagic",
+      "publication_date": "2024-02-14T19:02:02",
+      "publisher": "kobold-press",
+      "title": "Deep Magic Extended"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4794",
+          "parent": "deepmx_gift-of-azathoth",
+          "type": "default"
+        },
+        {
+          "external_id": "4796",
+          "parent": "deepmx_gift-of-azathoth",
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "4797",
+          "parent": "deepmx_gift-of-azathoth",
+          "type": "slot_level_4"
+        },
+        {
+          "duration": "48 hours",
+          "external_id": "4798",
+          "parent": "deepmx_gift-of-azathoth",
+          "type": "slot_level_5"
+        },
+        {
+          "duration": "48 hours",
+          "external_id": "4799",
+          "parent": "deepmx_gift-of-azathoth",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "48 hours",
+          "external_id": "4800",
+          "parent": "deepmx_gift-of-azathoth",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "72 hours",
+          "external_id": "4801",
+          "parent": "deepmx_gift-of-azathoth",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "72 hours",
+          "external_id": "4802",
+          "parent": "deepmx_gift-of-azathoth",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Gift of Azathoth",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepmx",
+  "translations": {
+    "en": {
+      "description": "Deep Magic: void magic A willing creature you touch is imbued with the persistence of ultimate Chaos. Until the spell ends, the target has advantage on the first three death saving throws it attempts.",
+      "name": "Gift of Azathoth",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Глубокая магия: магия пустоты. Существу, которого вы касаетесь, по его согласию придаётся стойкость предельного Хаоса. Пока заклинание не закончится, цель имеет преимущество на первые три спасброска от смерти, которые она предпринимает.",
+      "glossary_version": "v1",
+      "name": "Дар Азатота",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

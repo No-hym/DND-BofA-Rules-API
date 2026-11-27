@@ -1,0 +1,185 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_legion-of-rabid-squirrels",
+  "id": "o5e:deepm:spell:deepm-legion-of-rabid-squirrels",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-legion-of-rabid-squirrels",
+      "o5e:dmag:spell:legion-of-rabid-squirrels"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "017030e4aff8def0e9a61fc5e1918517032fd454179e28ae359b08187f072164",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "an acorn or nut",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "017030e4aff8def0e9a61fc5e1918517032fd454179e28ae359b08187f072164",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-legion-of-rabid-squirrels",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "2477a024ae80c2056a469cb2244a51adc94b8bc5536e176182aec170c31d1908",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:legion-of-rabid-squirrels",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "While in a forest, you call a legion of rabid squirrels to descend from the nearby trees at a point you can see within range. The squirrels form into a swarm that uses the statistics of a [swarm of poisonous snakes](https://api.open5e.com/monsters/swarm-of-poisonous-snakes), except it has a climbing speed of 30 feet rather than a swimming speed. The legion of squirrels is friendly to you and your companions. Roll initiative for the legion, which has its own turns. The legion of squirrels obeys your verbal commands (no action required by you). If you don’t issue any commands to the legion, it defends itself from hostile creatures but otherwise takes no actions. If you command it to move farther than 60 feet from you, the spell ends and the legion disperses back into the forest. A canid, such as a dog, wolf, fox, or worg, has disadvantage on attack rolls against targets other than the legion of rabid squirrels while the swarm is within 60 feet of the creature. When the spell ends, the squirrels disperse back into the forest.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the legion’s poison damage increases by 1d6 for each slot level above 3rd.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "an acorn or nut",
+      "name": "Legion of Rabid Squirrels",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3693",
+          "parent": "deepm_legion-of-rabid-squirrels",
+          "type": "default"
+        },
+        {
+          "external_id": "3695",
+          "parent": "deepm_legion-of-rabid-squirrels",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "3696",
+          "parent": "deepm_legion-of-rabid-squirrels",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "3697",
+          "parent": "deepm_legion-of-rabid-squirrels",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3698",
+          "parent": "deepm_legion-of-rabid-squirrels",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3699",
+          "parent": "deepm_legion-of-rabid-squirrels",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3700",
+          "parent": "deepm_legion-of-rabid-squirrels",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Legion of Rabid Squirrels",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "While in a forest, you call a legion of rabid squirrels to descend from the nearby trees at a point you can see within range. The squirrels form into a swarm that uses the statistics of a [swarm of poisonous snakes](https://api.open5e.com/monsters/swarm-of-poisonous-snakes), except it has a climbing speed of 30 feet rather than a swimming speed. The legion of squirrels is friendly to you and your companions. Roll initiative for the legion, which has its own turns. The legion of squirrels obeys your verbal commands (no action required by you). If you don’t issue any commands to the legion, it defends itself from hostile creatures but otherwise takes no actions. If you command it to move farther than 60 feet from you, the spell ends and the legion disperses back into the forest. A canid, such as a dog, wolf, fox, or worg, has disadvantage on attack rolls against targets other than the legion of rabid squirrels while the swarm is within 60 feet of the creature. When the spell ends, the squirrels disperse back into the forest.",
+      "name": "Legion of Rabid Squirrels",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Находясь в лесу, вы призываете легион бешеных белок спуститься с близлежащих деревьев в точку, которую вы видите в пределах дистанции. Белки формируются в рой, который использует характеристики роя ядовитых змей, за исключением того, что у него скорость лазания 30 футов вместо скорости плавания. Легион белок дружелюбен к вам и вашим спутникам. Бросьте инициативу за легион, у которого есть свои собственные ходы. Легион белок подчиняется вашим словесным командам (действия от вас не требуется). Если вы не отдаёте легиону никаких команд, он защищается от враждебных существ, но в остальном не предпринимает действий. Если вы приказываете ему переместиться дальше, чем на 60 футов от вас, заклинание заканчивается и легион рассеивается обратно в лес. Псовые, такие как собака, волк, лиса или ворг, совершают с помехой броски атаки против целей, кроме легиона бешеных белок, пока рой находится в пределах 60 футов от существа. Когда заклинание заканчивается, белки рассеиваются обратно в лес.",
+      "glossary_version": "v1",
+      "name": "Легион бешеных белок",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,184 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_vitriolic-sphere",
+  "id": "o5e:srd-2024:spell:srd-2024-vitriolic-sphere",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "ee39a6f41946057bf8298b89b3919f708cc3ce0bc97684cf15ec21745074ab4c",
+    "formulas": [
+      {
+        "expression": "10d4",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_sorcerer",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "10d4",
+      "damage_types": [
+        "acid"
+      ],
+      "duration": "instantaneous",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a drop of bile",
+      "range": 150,
+      "range_text": "150 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": 20,
+      "shape_size_unit": "feet",
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_sorcerer",
+        "type": "classes",
+        "value": [
+          "srd-2024_sorcerer",
+          "srd-2024_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_sorcerer",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "10d4",
+      "damage_types": [
+        "acid"
+      ],
+      "desc": "You point at a location within range, and a glowing, 1-foot-diameter ball of acid streaks there and explodes in a 20-foot-radius Sphere. Each creature in that area makes a Dexterity saving throw. On a failed save, a creature takes 10d4 Acid damage and another 5d4 Acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage only.",
+      "document": "srd-2024",
+      "duration": "instantaneous",
+      "higher_level": "The initial damage increases by 2d4 for each spell slot level above 4.",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a drop of bile",
+      "name": "Vitriolic Sphere",
+      "range": 150,
+      "range_text": "150 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": 20,
+      "shape_size_unit": "feet",
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "damage_roll": "12d4",
+          "external_id": "10569",
+          "parent": "srd-2024_vitriolic-sphere",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "14d4",
+          "external_id": "10570",
+          "parent": "srd-2024_vitriolic-sphere",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "16d4",
+          "external_id": "10571",
+          "parent": "srd-2024_vitriolic-sphere",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "18d4",
+          "external_id": "10572",
+          "parent": "srd-2024_vitriolic-sphere",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "20d4",
+          "external_id": "10573",
+          "parent": "srd-2024_vitriolic-sphere",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Vitriolic Sphere",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "You point at a location within range, and a glowing, 1-foot-diameter ball of acid streaks there and explodes in a 20-foot-radius Sphere. Each creature in that area makes a Dexterity saving throw. On a failed save, a creature takes 10d4 Acid damage and another 5d4 Acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage only.",
+      "name": "Vitriolic Sphere",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 4-го уровня (Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 150 футов\n\n**Компоненты:** В, С, М (капля желчи)\n\n**Длительность:** Мгновенная\n\nВы указываете на точку в пределах дистанции, и светящийся шар кислоты диаметром 1 фут устремляется туда и взрывается в сфере радиусом 20 футов. Каждое существо в этой области совершает спасбросок Ловкости. При провале существо получает 10d4 урона кислотой и ещё 5d4 урона кислотой в конце своего следующего хода. При успехе существо получает только половину начального урона.\n\n**_Использование ячейки более высокого уровня._** Начальный урон увеличивается на 2d4 за каждый уровень ячейки выше 4-го.",
+      "glossary_version": "v1",
+      "name": "Сфера кислоты",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,186 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_potency-of-the-pack",
+  "id": "o5e:deepm:spell:deepm-potency-of-the-pack",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-potency-of-the-pack",
+      "o5e:dmag:spell:potency-of-the-pack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f9a66a38a4fe0772ca785d9235d356b3d7f381ce739666d2f311588b11b85274",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a few hairs from a wolf",
+      "range": 25,
+      "range_text": "25 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "f9a66a38a4fe0772ca785d9235d356b3d7f381ce739666d2f311588b11b85274",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-potency-of-the-pack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "3b2101248bacf7f83c2dff5d02eab4ddd84a037c9efb30f1fdcba128377f329c",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:potency-of-the-pack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "You bestow lupine traits on a group of living creatures that you designate within range. Choose one of the following benefits to be gained by all targets for the duration:\n\n* ***Thick Fur.*** Each target sprouts fur over its entire body, giving it a +2 bonus to Armor Class.\n* ***Keen Hearing and Smell.*** Each target has advantage on Wisdom (Perception) checks that rely on hearing or smell.\n* ***Pack Tactics.*** Each affected creature has advantage on an attack roll against a target if at least one of the attacker’s allies (also under the effect of this spell) is within 5 feet of the target of the attack and the ally isn’t incapacitated.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the duration increases by 1 minute for each slot level above 3rd.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a few hairs from a wolf",
+      "name": "Potency of the Pack",
+      "range": 25,
+      "range_text": "25 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3893",
+          "parent": "deepm_potency-of-the-pack",
+          "type": "default"
+        },
+        {
+          "duration": "2 minutes",
+          "external_id": "3895",
+          "parent": "deepm_potency-of-the-pack",
+          "type": "slot_level_4"
+        },
+        {
+          "duration": "3 minutes",
+          "external_id": "3896",
+          "parent": "deepm_potency-of-the-pack",
+          "type": "slot_level_5"
+        },
+        {
+          "duration": "4 minutes",
+          "external_id": "3897",
+          "parent": "deepm_potency-of-the-pack",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "5 minutes",
+          "external_id": "3898",
+          "parent": "deepm_potency-of-the-pack",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "6 minutes",
+          "external_id": "3899",
+          "parent": "deepm_potency-of-the-pack",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "7 minutes",
+          "external_id": "3900",
+          "parent": "deepm_potency-of-the-pack",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Potency of the Pack",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You bestow lupine traits on a group of living creatures that you designate within range. Choose one of the following benefits to be gained by all targets for the duration:\n\n* ***Thick Fur.*** Each target sprouts fur over its entire body, giving it a +2 bonus to Armor Class.\n* ***Keen Hearing and Smell.*** Each target has advantage on Wisdom (Perception) checks that rely on hearing or smell.\n* ***Pack Tactics.*** Each affected creature has advantage on an attack roll against a target if at least one of the attacker’s allies (also under the effect of this spell) is within 5 feet of the target of the attack and the ally isn’t incapacitated.",
+      "name": "Potency of the Pack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы даруете черты Волковых группе живых существ, которые вы выбираете в пределах дистанции. Выберите одну из следующих преимуществ, которые можно получить всем целям в течение длительности:\n\n* ***Густой мех.*** Каждая цель прорастает мех по всему своему телу, давая ей бонус +2 к Классу Доспехов.\n* ***Острый слух и запах.*** У каждой цели есть преимущество в Мудрости (Восприятие) проверки, основывающиеся на слух или обоняние.\n* ***Тактика стаи.*** Каждое пораженное существо имеет преимущество на бросок атаки против цели, если по крайней мере один из союзников атакующего (также под влиянием этого заклинания) находится в пределах 5 футов от цели атаки и союзник не является недееспособными.",
+      "glossary_version": "v1",
+      "name": "Сила стаи",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

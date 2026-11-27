@@ -1,0 +1,158 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_sapper",
+  "id": "o5e:toh:characterclass:toh-sapper",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-sapper"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b20463978a14b8e9d81dfe1e514b92c056747ab9317f34d0c929c3b7fa78e385",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_rogue"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "b20463978a14b8e9d81dfe1e514b92c056747ab9317f34d0c929c3b7fa78e385",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-sapper",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_rogue",
+        "type": "subclass_of",
+        "value": "srd_rogue"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "You focus as much on identifying the weak points of structures as on the weak points of creatures. Sappers are deployed with the soldiery to dig trenches, build bridges, and breach defenses. When troops move into a heavily defended area, it's your job to make it happen as efficiently as possible.",
+      "document": "toh",
+      "name": "Sapper",
+      "subclass_of": "srd_rogue"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you select this archetype at 3rd level, you gain proficiency in alchemist's supplies, carpenter's tools, mason's tools, and tinker's tools. Using these tools, you can do or create the following.\n\n***Alchemical Bomb.*** As an action, you can mix together volatile chemicals into an explosive compound and throw it at a point you can see within 30 feet of you. Each creature within 10 feet of that point must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + your Intelligence modifier), taking 1d6 force damage on a failed save, or half as much damage on a successful one. Alchemical bombs lose their potency and become inert 1 minute after they are created.\n  If a construct fails the saving throw or if you throw the bomb at a structure or an object that isn't being worn or carried, your bomb also deals your Sneak Attack damage to the target.\n  When you reach certain levels in this class, the bomb's damage increases: at 5th level (2d6), 11th level (3d6), and 17th level (4d6).\n\n***Jury Rig Fortification.*** You are adept at creating fortifications with whatever materials are at hand. With 1 minute of work, you can create one of the following. Your ability to use this option might be limited by the available building materials or if the ground is too hard to work, at the GM's discretion. \n* Create a low wall that is large enough to provide half cover to a Medium creature. \n* Dig a 5-foot-long, 3-foot-wide trench to a depth of 3 feet. \n* Build a 5-foot-long, 3-foot-wide ladder. Each additional minute spent on this option increases the length of the ladder by 5 feet. The ladder is sturdy enough to be used as a bridge.\n\n***Hastily Trap an Area.*** You can create and set some types of traps quickly. The Creating Traps table indicates the timeframes required to build and deploy commonly used traps. At the GM's discretion, you can use this feature to make and use other types of traps.\n\n**Creating Traps (table)**\n| Type of Trap        | Time Required to Build Trap                             | Time Required to Set Trap              | \n|---------------------|---------------------------------------------------------|----------------------------------------| \n| **Collapsing Roof** | 5 minutes for each 5-foot-by-5-foot section             | When you finish building this trap, it is considered set. | \n| **Falling Net**     | 1 minute                                                | 1 action                               | \n| **Hunting Trap**    | 1 minute                                                | 1 bonus action                         | \n| **Pit**             | 5 minutes for a 5-foot-wide, 10-foot-deep simple pit<br/>15 minutes for a 5-foot-wide, 10-foot-deep hidden pit<br/>1 hour for a 5-foot-wide, 10-foot-deep locking pit;<br/>to add spikes to a pit, increase the time by 1 minute.     | When you finish building this trap, it is considered set.<br/>It requires 1 bonus action to reset a simple pit or locking pit<br/>1 action to reset a hidden pit.|",
+          "desc_ru": "Когда вы выбираете этот архетип на 3-м уровне, вы получаете владение принадлежностями алхимика, инструментами плотника, инструментами калёвщика и инструментами медника. Используя эти инструменты, вы можете делать или создавать следующее.\n\nАлхимическая бомба. действием вы можете смешать летучие химикаты во взрывное соединение и бросить его в точку, которую вы можете видеть, в пределах 30 футов от вас. Каждое существо в пределах 10 футов от этой точки должно совершить спасбросок Ловкости (Сл равна 8 + ваш бонус мастерства + ваш модификатор Интеллекта), получая 1к6 урона силовым полем при проваленном спасброске, или половину урона при успешном. Алхимические бомбы теряют их силу и становятся инертными через 1 минуту после их создания.\nЕсли конструкт проваливает спасбросок или если вы бросаете бомбу в сооружение или предмет, который не носится и не несётся, ваша бомба также наносит ваш урон Скрытой атаки цели.\nКогда вы достигаете определённых уровней в этом классе, урон бомбы увеличивается: на 5-м уровне (2к6), 11-м уровне (3к6) и 17-м уровне (4к6).\n\nНаскоро сооружённое укрепление. Вы искусны в создании укреплений из любых материалов под рукой. За 1 минуту работы вы можете создать одно из следующих. Ваша способность использовать этот вариант может быть ограничена доступными строительными материалами или если земля слишком твёрдая для работы, по усмотрению Мастера. \n* Создать низкую стену, которая достаточно большая, чтобы предоставить половину укрытия Среднему существу. \n* Выкопать траншею длиной 5 футов, шириной 3 фута до глубины 3 футов. \n* Построить лестницу длиной 5 футов, шириной 3 фута. Каждая дополнительная минута, потраченная на этот вариант, увеличивает длину лестницы на 5 футов. Лестница достаточно прочная, чтобы использоваться как мост.\n\nНаскоро установить ловушку в области. Вы можете создавать и устанавливать некоторые типы ловушек быстро. Таблица Создание ловушек указывает временные рамки, требуемые для постройки и развёртывания обычно используемых ловушек. По усмотрению Мастера, вы можете использовать эту особенность, чтобы делать и использовать другие типы ловушек.\n\nСоздание ловушек (таблица)\n| Тип ловушки | Время, требуемое для постройки ловушки | Время, требуемое для установки ловушки |\n|---|---|---|\n| Обрушивающаяся крыша | 5 минут за каждую секцию 5 на 5 футов | Когда вы заканчиваете постройку этой ловушки, она считается установленной. |\n| Падающая сеть | 1 минута | 1 действие |\n| Охотничья ловушка | 1 минута | 1 бонусное действие |\n| Яма | 5 минут за простую яму шириной 5 футов, глубиной 10 футов<br/>15 минут за скрытую яму шириной 5 футов, глубиной 10 футов<br/>1 час за запирающуюся яму шириной 5 футов, глубиной 10 футов;<br/>чтобы добавить шипы в яму, увеличьте время на 1 минуту. | Когда вы заканчиваете постройку этой ловушки, она считается установленной.<br/>Требуется 1 бонусное действие, чтобы сбросить простую яму или запирающуюся яму<br/>1 действие, чтобы сбросить скрытую яму. |",
+          "document": "toh",
+          "external_id": "toh_sapper_combat-engineer",
+          "level": 3,
+          "name": "Combat Engineer",
+          "name_ru": "Боевой инженер",
+          "parent": "toh_sapper",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 3rd level, when you throw your alchemical bomb, you can choose for the bomb to not deal damage. If you do so, the area within 10 feet of the point of impact becomes difficult terrain. You don't need advantage on the attack roll to use your Sneak Attack against a creature, if the creature is within the difficult terrain created by your alchemical bomb.",
+          "desc_ru": "На 3-м уровне, когда вы бросаете вашу алхимическую бомбу, вы можете выбрать, чтобы бомба не наносила урон. Если вы делаете это, область в пределах 10 футов от точки удара становится труднопроходимой местностью. Вам не нужно преимущество на бросок атаки, чтобы использовать вашу Скрытую атаку против существа, если существо находится в труднопроходимой местности, созданной вашей алхимической бомбой.",
+          "document": "toh",
+          "external_id": "toh_sapper_sculpt-terrain",
+          "level": 3,
+          "name": "Sculpt Terrain",
+          "name_ru": "Слепить местность",
+          "parent": "toh_sapper",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 9th level, when you hit a structure or an object that isn't being worn or carried, your attack treats the structure or object as if its damage threshold is 5 lower. For example, if you hit a door that has a damage threshold of 10, its damage threshold is considered 5 when determining if your attack's damage meets or exceeds its threshold. If a structure or object doesn't have a damage threshold or if this feature would allow you to treat its damage threshold as 0 or lower, your attack also deals your Sneak Attack damage to the target.\n  When you reach certain levels in this class, the damage threshold your attacks can ignore increases: at 13th level (10) and 17th level (15).",
+          "desc_ru": "Начиная с 9-го уровня, когда вы попадаете по сооружению или предмету, который не носят и не несут, ваша атака считает сооружение или предмет, как если бы его порог урона был на 5 ниже. Например, если вы попадаете по двери, у которой порог урона 10, её порог урона считается 5 при определении того, достигает или превышает урон вашей атаки её порог. Если сооружение или предмет не имеет порога урона или если эта особенность позволила бы вам считать его порог урона 0 или ниже, ваша атака также наносит ваш урон Скрытой атаки цели.\nКогда вы достигаете определённых уровней в этом классе, порог урона, который ваши атаки могут игнорировать, увеличивается: на 13-м уровне (10) и 17-м уровне (15).",
+          "document": "toh",
+          "external_id": "toh_sapper_breach-defenses",
+          "level": 9,
+          "name": "Breach Defenses",
+          "name_ru": "Проломить оборону",
+          "parent": "toh_sapper",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 13th level, you have advantage on checks to disarm traps. If you fail a check made to disarm a trap, the trap doesn't trigger even if its description states otherwise. In addition, you can disarm a trap as a bonus action.",
+          "desc_ru": "На 13-м уровне вы совершаете с преимуществом проверки обезвреживания ловушек. Если вы проваливаете проверку обезвреживания ловушки, ловушка не срабатывает, даже если её описание гласит иное. Кроме того, вы можете обезвредить ловушку бонусным действием.",
+          "document": "toh",
+          "external_id": "toh_sapper_clear-the-path",
+          "level": 13,
+          "name": "Clear the Path",
+          "name_ru": "Расчистить путь",
+          "parent": "toh_sapper",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Beginning at 17th level, you can use an action to declare a 50-foot-square area safe for travel for 1 minute. Mechanical and magical traps in the area don't trigger for the duration. In addition, difficult terrain in the area doesn't cost you or any creatures you designate who can see or hear you extra movement when moving through it. Once you use this feature, you can't use it again until you finish a short or long rest.",
+          "desc_ru": "Начиная с 17-го уровня вы можете действием объявить область квадрата 50 футов безопасной для путешествия на 1 минуту. Механические и магические ловушки в области не срабатывают на время длительности. Кроме того, труднопроходимая местность в области не стоит вам или любым существам, которых вы обозначаете и которые могут видеть или слышать вас, дополнительного перемещения при перемещении через неё. Использовав эту особенность, вы не можете использовать её снова, пока не закончите короткий или продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_sapper_all-clear",
+          "level": 17,
+          "name": "All Clear",
+          "name_ru": "Всё чисто",
+          "parent": "toh_sapper",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Sapper",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You focus as much on identifying the weak points of structures as on the weak points of creatures. Sappers are deployed with the soldiery to dig trenches, build bridges, and breach defenses. When troops move into a heavily defended area, it's your job to make it happen as efficiently as possible.",
+      "name": "Sapper",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы сосредотачиваетесь столько же на выявлении слабых мест сооружений, сколько и на слабых местах существ. Сапёры развёртываются с солдатами, чтобы рыть траншеи, строить мосты и прорывать оборону. Когда войска движутся в сильно защищённую область, это ваша работа — сделать это как можно эффективнее.",
+      "glossary_version": "v1",
+      "name": "Сапёр",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

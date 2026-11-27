@@ -1,0 +1,236 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob_sandwyrm",
+  "id": "o5e:tob:creature:tob-sandwyrm",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creature:tob-2023-sandwyrm",
+      "o5e:tob:creature:tob-sandwyrm"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5ada60f4b333afe06002b65f4ff5629bcbc145719a3a7c89ede5f2718de140c5",
+    "formulas": [
+      {
+        "expression": "15d10+60",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 5,
+      "ability_score_strength": 20,
+      "ability_score_wisdom": 13,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": 40,
+      "category": "Monsters",
+      "challenge_rating": "6.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [
+        "desert"
+      ],
+      "fly": null,
+      "hit_dice": "15d10+60",
+      "hit_points": 142,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 17,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 20
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "5ada60f4b333afe06002b65f4ff5629bcbc145719a3a7c89ede5f2718de140c5",
+        "edition": "2014",
+        "id": "o5e:tob:creature:tob-sandwyrm",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "8d75a87e305a06395508907fc54df95b682578b0e6c52c5a3ab54661619f7db4",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creature:tob-2023-sandwyrm",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 5,
+      "ability_score_strength": 20,
+      "ability_score_wisdom": 13,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "burrow": 40,
+      "category": "Monsters",
+      "challenge_rating": "6.000",
+      "darkvision_range": 60,
+      "document": "tob",
+      "environments": [
+        "desert"
+      ],
+      "hit_dice": "15d10+60",
+      "hit_points": 142,
+      "hover": false,
+      "name": "Sandwyrm",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 17,
+      "size": "large",
+      "skill_bonus_perception": 7,
+      "skill_bonus_stealth": 4,
+      "tremorsense_range": 120,
+      "type": "dragon",
+      "walk": 20,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 12 (2d6 + 5) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +8 к попаданию, досягаемость 5 фт., одно существо. Попадание: 12 (2к6+5) колющего урона.",
+          "external_id": "tob_sandwyrm_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "tob_sandwyrm",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 11 (1d12 + 5) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +8 к попаданию, досягаемость 10 фт., одна цель. Попадание: 11 (1к12+5) колющего урона.",
+          "external_id": "tob_sandwyrm_gore",
+          "name": "Gore",
+          "name_ru": "Горе",
+          "order_in_statblock": 2,
+          "parent": "tob_sandwyrm",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The sandwyrm makes one bite attack and one stinger attack. It can gore in place of the bite attack.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_sandwyrm_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob_sandwyrm",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit: 12 (2d6 + 5) piercing damage plus 24 (7d6) poison damage, or half as much poison damage with a successful DC 15 Constitution saving throw. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned and paralyzed for 1 hour. Regaining hit points doesn't end the poisoning or paralysis.",
+          "desc_ru": "Действие «Стингер»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_sandwyrm_stinger",
+          "name": "Stinger",
+          "name_ru": "Стингер",
+          "order_in_statblock": 3,
+          "parent": "tob_sandwyrm",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "When underground with its spines exposed, the sandwyrm can snap its spines closed on one Large, two Medium, or four Small or Tiny creatures above it. Each creature must make a successful DC 15 Dexterity saving throw or be restrained. A restrained creature can use its action to make a DC 15 Strength check to free itself or another restrained creature, ending the effect on a success. Creatures restrained by this trait move with the sandwyrm. The sandwyrm's stinger attack has advantage against creatures restrained by this trait.",
+          "desc_ru": "Особенность «Спине Трап». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_sandwyrm_spine-trap",
+          "name": "Spine Trap",
+          "name_ru": "Спине Трап",
+          "parent": "tob_sandwyrm",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Sandwyrm",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Sandwyrm",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Хотя они имитируют выбеленные кости пустынного существа, костяные украшения вдоль их спин — часть их своеобразного сплава кости и чешуи.\n\n**Скрытые песком.** Эти летаргические рогатые ящерицы с жёлтой чешуёй проводят большую часть их жизней под землёй, в ожидании под пустынным песком с их громадами с длинной шеей и колючим хвостом, скрытыми под поверхностью, и только длинные зазубренные кости, выстилающие их спины, выставлены. Эти кости так совершенно напоминают выбеленный солнцем каркас, что привлекают птиц-падальщиков — и любопытных путешественников. Когда добыча проходит между «рёбрами», песчаный змей щёлкает рядами костей крепко над его добычей. Как только его жертва опутана, песчаный змей парализует его пищу повторными укусами перед тем, как унести её.\n\n**Торпидные и медленные.** Песчаные змеи иногда ждут неделями в оцепенелом оцепенении перед тем, как шаги на песке оповестят его о свежей пище, приближающейся. Чтобы оградить себя от постных недель, песчаные змеи хранят избыточную добычу в подземных логовах. Они не гнушаются есть падаль, если свежее мясо недоступно. Когда превзойдён в бою, песчаные змеи отступают в свои логова с их парализованной добычей.\n\n**Своеобразные дракончики.** Песчаные змеи эволюционировали как ответвление от дракончиков или виверн, а не от настоящих драконов; их анатомия предполагает, что они были первоначально четырёхконечностными существами и что их предплечья — недавние дополнения к телу животного. Кости на их спинах могли когда-то быть крыльями, так что песчаные змеи — останки некоторых первобытных крылатых рептилий, которые мигрировали в глубокие пустыни.",
+      "glossary_version": "v1",
+      "name": "Песчаный змей",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

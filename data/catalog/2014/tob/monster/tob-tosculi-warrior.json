@@ -1,0 +1,248 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob_tosculi-warrior",
+  "id": "o5e:tob:creature:tob-tosculi-warrior",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creature:tob-2023-tosculi-warrior",
+      "o5e:tob:creature:tob-tosculi-warrior"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "6ea4c0d30961a497ed8b2bd8cea3201dc4ec7bce146432d222e5a3161d715014",
+    "formulas": [
+      {
+        "expression": "9d6+27",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 12,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 20,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 12,
+      "ability_score_wisdom": 12,
+      "alignment": "lawful evil",
+      "armor_class": 15,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "2.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [
+        "desert",
+        "grassland",
+        "hills"
+      ],
+      "fly": 60,
+      "hit_dice": "9d6+27",
+      "hit_points": 58,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "Tosculi",
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "small",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 20
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "6ea4c0d30961a497ed8b2bd8cea3201dc4ec7bce146432d222e5a3161d715014",
+        "edition": "2014",
+        "id": "o5e:tob:creature:tob-tosculi-warrior",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "13705d561073eab88ad079ff7c746fa1376c02425759cb36d60797b3fe2c451c",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creature:tob-2023-tosculi-warrior",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 12,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 20,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 12,
+      "ability_score_wisdom": 12,
+      "alignment": "lawful evil",
+      "armor_class": 15,
+      "category": "Monsters",
+      "challenge_rating": "2.000",
+      "darkvision_range": 60,
+      "document": "tob",
+      "environments": [
+        "desert",
+        "grassland",
+        "hills"
+      ],
+      "fly": 60,
+      "hit_dice": "9d6+27",
+      "hit_points": 58,
+      "hover": false,
+      "languages_desc": "Tosculi",
+      "name": "Tosculi Warrior",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "size": "small",
+      "type": "monstrosity",
+      "walk": 20,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 7 (1d4 + 5) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +7 к попаданию, досягаемость 5 фт., одно существо. Попадание: 7 (1к4+5) колющего урона.",
+          "external_id": "tob_tosculi-warrior_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "tob_tosculi-warrior",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d4 + 5) slashing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +7 к попаданию, досягаемость 5 фт., одна цель. Попадание: 10 (2к4+5) рубящего урона.",
+          "external_id": "tob_tosculi-warrior_claws",
+          "name": "Claws",
+          "name_ru": "Когти",
+          "order_in_statblock": 2,
+          "parent": "tob_tosculi-warrior",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The tosculi warrior makes one bite attack, one claws attack, and one stinger attack.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_tosculi-warrior_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob_tosculi-warrior",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one paralyzed creature. Hit: 10 (2d4 + 5) piercing damage, and the target is paralyzed for 8 hours. The paralysis can be ended with a successful DC 20 Wisdom (Medicine) check or by a spell or magical effect that cures disease. (Because only paralyzed creatures can be targeted, a hit by this attack is automatically a critical hit; bonus damage is included in the damage listing.)",
+          "desc_ru": "Действие «Препаре Хост»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_tosculi-warrior_prepare-host",
+          "name": "Prepare Host",
+          "name_ru": "Препаре Хост",
+          "order_in_statblock": 4,
+          "parent": "tob_tosculi-warrior",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 7 (1d4 + 5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw against poison or be paralyzed for 1 minute. A paralyzed target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+          "desc_ru": "Действие «Стингер»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_tosculi-warrior_stinger",
+          "name": "Stinger",
+          "name_ru": "Стингер",
+          "order_in_statblock": 3,
+          "parent": "tob_tosculi-warrior",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "Up to two tosculi can share the same space at one time. The tosculi has advantage on attack rolls while sharing its space with another tosculi that isn't incapacitated.",
+          "desc_ru": "Особенность «Скиттеринг». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_tosculi-warrior_skittering",
+          "name": "Skittering",
+          "name_ru": "Скиттеринг",
+          "parent": "tob_tosculi-warrior",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Tosculi Warrior",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Tosculi Warrior",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Тоскули — раса осиного народа, которая разделяет Золотую Песнь улья, которая объединяет их под командованием и железным правлением их королевы. У каждого улья есть своя собственная песнь, и большинство ульев тоскули — хищные, опасные места, быстро обращающиеся к бандитизму, краже скота и набегам на маленькие деревни.\n\nТе немногие тоскули, которые не слышат Золотую Песнь своей королевы, являются Безульевыми, изгнанными из объятий улья, чтобы пытаться выжить самостоятельно.\n\nВоины тоскули — надзиратели рабочих бригад и боевых групп трутней, направляющие деятельность и передающие команды сверху из разума улья. Они полностью подчиняются приказам королевы улья, но если им приказано действовать независимо или следовать своему собственному наилучшему суждению, они способны делать это. Воинов почти никогда не встречают без трутней, и они возвышаются над ними. Они стоят от 4 до 5 футов в высоту и весят до 70 фунтов.\n\n**Искатели хозяев.** Самая важная роль воинов в улье, однако, — добывание живых хозяев для яиц тоскули, чтобы вылупляться в них. Существ, парализованных воинами, приносят в покои королевы, чтобы имплантировать в них яйца. Яйцо вылупляется через 1к6 недель, и прожорливая личинка пожирает своего всё ещё живого (но милосердно без сознания) хозяина.",
+      "glossary_version": "v1",
+      "name": "Воин тоскули",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

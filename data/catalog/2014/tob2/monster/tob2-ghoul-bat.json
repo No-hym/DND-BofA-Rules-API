@@ -1,0 +1,210 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_ghoul-bat",
+  "id": "o5e:tob2:creature:tob2-ghoul-bat",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-ghoul-bat"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "a5076a1965074fb3d45dcc3fded241ad9b2def481ce120c05d7599ba78f5cb16",
+    "formulas": [
+      {
+        "expression": "4d6",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 10,
+      "ability_score_constitution": 11,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 8,
+      "ability_score_strength": 6,
+      "ability_score_wisdom": 12,
+      "alignment": "neutral evil",
+      "armor_class": 13,
+      "armor_detail": "",
+      "blindsight_range": 60,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": null,
+      "condition_immunities": [
+        "charmed",
+        "exhaustion",
+        "poisoned"
+      ],
+      "damage_immunities": [
+        "poison"
+      ],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": 30,
+      "hit_dice": "4d6",
+      "hit_points": 14,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "small",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 5
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "a5076a1965074fb3d45dcc3fded241ad9b2def481ce120c05d7599ba78f5cb16",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-ghoul-bat",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 10,
+      "ability_score_constitution": 11,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 8,
+      "ability_score_strength": 6,
+      "ability_score_wisdom": 12,
+      "alignment": "neutral evil",
+      "armor_class": 13,
+      "blindsight_range": 60,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "condition_immunities": [
+        "charmed",
+        "exhaustion",
+        "poisoned"
+      ],
+      "condition_immunities_display": "charmed, exhaustion, poisoned",
+      "damage_immunities": [
+        "poison"
+      ],
+      "damage_immunities_display": "poison",
+      "document": "tob2",
+      "fly": 30,
+      "hit_dice": "4d6",
+      "hit_points": 14,
+      "hover": false,
+      "name": "Ghoul Bat",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "size": "small",
+      "type": "undead",
+      "walk": 5,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage. If the target is a creature other than an undead, it must succeed on a DC 10 Constitution saving  throw or be paralyzed until the end of its next turn.",
+          "desc_ru": "Действие «Укус»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_ghoul-bat_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 0,
+          "parent": "tob2_ghoul-bat",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The ghoul bat can’t use its blindsight while deafened.",
+          "desc_ru": "Особенность «Ечолокатион». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_ghoul-bat_echolocation",
+          "name": "Echolocation",
+          "name_ru": "Ечолокатион",
+          "parent": "tob2_ghoul-bat",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The ghoul bat has advantage on Wisdom (Perception) checks that rely on hearing. Undead Nature. Ghoul bats don’t require air, food, drink, or sleep.",
+          "desc_ru": "Особенность «Кеен Хеаринг». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_ghoul-bat_keen-hearing",
+          "name": "Keen Hearing",
+          "name_ru": "Кеен Хеаринг",
+          "parent": "tob2_ghoul-bat",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Ghoul Bat",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Ghoul Bat",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "У этой летучей мыши истощённое, трёхфутовой длины туловище и голова, которая выглядит как кожа, натянутая на кость. Её челюсти неестественно растянуты, и её рот полон игольчатых зубов. Летучие мыши-гули — популярные посланники и домашние животные среди дарахулов и могут быть найдены как в колониях, так и в одиночку по всему подземному миру.",
+      "glossary_version": "v1",
+      "name": "Летучая мышь-гуль",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

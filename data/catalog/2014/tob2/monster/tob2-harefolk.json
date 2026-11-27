@@ -1,0 +1,251 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_harefolk",
+  "id": "o5e:tob2:creature:tob2-harefolk",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-harefolk"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5c8b45732711327a42b5c3f33dd6bea39639d086600eb8adc8e5ccdbb9b31333",
+    "formulas": [
+      {
+        "expression": "4d6+4",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 13,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 15,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 10,
+      "ability_score_wisdom": 12,
+      "alignment": "chaotic good",
+      "armor_class": 13,
+      "armor_detail": "leather armor",
+      "blindsight_range": null,
+      "burrow": 10,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "4d6+4",
+      "hit_points": 18,
+      "initiative_bonus": null,
+      "languages": [
+        "common"
+      ],
+      "languages_desc": "Common",
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "small",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "5c8b45732711327a42b5c3f33dd6bea39639d086600eb8adc8e5ccdbb9b31333",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-harefolk",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 13,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 15,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 10,
+      "ability_score_wisdom": 12,
+      "alignment": "chaotic good",
+      "armor_class": 13,
+      "armor_detail": "leather armor",
+      "burrow": 10,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "document": "tob2",
+      "hit_dice": "4d6+4",
+      "hit_points": 18,
+      "hover": false,
+      "languages": [
+        "common"
+      ],
+      "languages_desc": "Common",
+      "name": "Harefolk",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "size": "small",
+      "skill_bonus_perception": 3,
+      "skill_bonus_survival": 3,
+      "type": "humanoid",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +4 к попаданию, досягаемость 5 фт., одно существо. Попадание: 4 (1к4+2) колющего урона.",
+          "external_id": "tob2_harefolk_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 0,
+          "parent": "tob2_harefolk",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +4 к попаданию, досягаемость 5 фт., одна цель. Попадание: 5 (1к6+2) колющего урона.",
+          "external_id": "tob2_harefolk_shortsword",
+          "name": "Shortsword",
+          "name_ru": "Короткий меч",
+          "order_in_statblock": 1,
+          "parent": "tob2_harefolk",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.",
+          "desc_ru": "Атака оружием дальнего боя: +4 к попаданию, дистанция 30/120 фт., одна цель. Попадание: 4 (1к4+2) дробящего урона.",
+          "external_id": "tob2_harefolk_sling",
+          "name": "Sling",
+          "name_ru": "Праща",
+          "order_in_statblock": 2,
+          "parent": "tob2_harefolk",
+          "ru_source": "template"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The harefolk has advantage on Wisdom (Perception) checks that rely on smell.",
+          "desc_ru": "Совершает проверки Мудрости (Восприятие) с преимуществом, если они полагаются на обоняние.",
+          "external_id": "tob2_harefolk_keen-smell",
+          "name": "Keen Smell",
+          "name_ru": "Кеен Смелл",
+          "parent": "tob2_harefolk",
+          "ru_source": "template"
+        },
+        {
+          "desc": "The harefolk can’t be surprised, and it has advantage on initiative rolls if it isn’t incapacitated or unconscious.",
+          "desc_ru": "Особенность «Реадй Фор Троубле». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_harefolk_ready-for-trouble",
+          "name": "Ready for Trouble",
+          "name_ru": "Реадй Фор Троубле",
+          "parent": "tob2_harefolk",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The harefolk has advantage on Intelligence (Investigation) and Wisdom (Insight) checks to determine if a creature is a shapechanger. It automatically succeeds when the shapechanger is a werewolf. In addition, the harefolk has advantage on its first attack roll each turn against a creature with the Shapechanger trait or Change Shape action, regardless of whether the harefolk was previously aware of the shapechanger’s nature.",
+          "desc_ru": "Особенность «Оборотень Сенситивитй». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_harefolk_shapechanger-sensitivity",
+          "name": "Shapechanger Sensitivity",
+          "name_ru": "Оборотень Сенситивитй",
+          "parent": "tob2_harefolk",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The harefolk has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.",
+          "desc_ru": "Особенность «Снов Камоуфлаге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_harefolk_snow-camouflage",
+          "name": "Snow Camouflage",
+          "name_ru": "Снов Камоуфлаге",
+          "parent": "tob2_harefolk",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The harefolk can move across icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost it extra movement.",
+          "desc_ru": "Особенность «Снов Валкер». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_harefolk_snow-walker",
+          "name": "Snow Walker",
+          "name_ru": "Снов Валкер",
+          "parent": "tob2_harefolk",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Harefolk",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Harefolk",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "То, что кажется полярным зайцем, получившим гуманоидную форму, одето в кожаный доспех и стоит с коротким мечом наготове. Его яркие глаза вбирают всё, в то время как его нос дёргается в поисках хищников.",
+      "glossary_version": "v1",
+      "name": "Заячий народ",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

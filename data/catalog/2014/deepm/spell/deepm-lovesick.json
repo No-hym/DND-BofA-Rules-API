@@ -1,0 +1,183 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_lovesick",
+  "id": "o5e:deepm:spell:deepm-lovesick",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-lovesick",
+      "o5e:dmag:spell:lovesick"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "18380e1b35c8f2ffb036a5d0184df45f17b9189844eab7dfe6717547596cc6f8",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a handful of red rose petals",
+      "range": 90,
+      "range_text": "90 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "shape_size": 10,
+      "shape_size_unit": null,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "18380e1b35c8f2ffb036a5d0184df45f17b9189844eab7dfe6717547596cc6f8",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-lovesick",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "bd50b9a286891804150ded0e491b550f63330c1607f87f1e70af31bc6ae7c4b0",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:lovesick",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "This spell causes creatures to behave unpredictably, as they randomly experience the full gamut of emotions of someone who has fallen head over heels in love. Each creature in a 10-foot-radius sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it.\n\nAn affected target can’t take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.\n\n| d10 | Behavior |\n|---|---|\n| 1-3 | The creature spends its turn moping like a lovelorn teenager; it doesn’t move or take actions. |\n| 4–5 | The creature bursts into tears, takes the Dash action, and uses all its movement to run off in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. |\n| 6 | The creature uses its action to remove one item of clothing or piece of armor. Each round spent removing pieces of armor reduces its AC by 1. |\n| 7–8 | The creature drops anything it is holding in its hands and passionately embraces a randomly determined creature. Treat this as a grapple attempt which uses the Attack action. |\n| 9 | The creature flies into a jealous rage and uses its action to make a melee attack against a randomly determined creature. |\n| 10 | The creature can act and move normally. |\n\nAt the end of each of its turns, an affected target can make a Wisdom saving throw, ending the effect on itself on a successful save.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot level above 4th.",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a handful of red rose petals",
+      "name": "Lovesick",
+      "range": 90,
+      "range_text": "90 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "shape_size": 10,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3739",
+          "parent": "deepm_lovesick",
+          "type": "default"
+        },
+        {
+          "external_id": "3741",
+          "parent": "deepm_lovesick",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "3742",
+          "parent": "deepm_lovesick",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3743",
+          "parent": "deepm_lovesick",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3744",
+          "parent": "deepm_lovesick",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3745",
+          "parent": "deepm_lovesick",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Lovesick",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "This spell causes creatures to behave unpredictably, as they randomly experience the full gamut of emotions of someone who has fallen head over heels in love. Each creature in a 10-foot-radius sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it.\n\nAn affected target can’t take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.\n\n| d10 | Behavior |\n|---|---|\n| 1-3 | The creature spends its turn moping like a lovelorn teenager; it doesn’t move or take actions. |\n| 4–5 | The creature bursts into tears, takes the Dash action, and uses all its movement to run off in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. |\n| 6 | The creature uses its action to remove one item of clothing or piece of armor. Each round spent removing pieces of armor reduces its AC by 1. |\n| 7–8 | The creature drops anything it is holding in its hands and passionately embraces a randomly determined creature. Treat this as a grapple attempt which uses the Attack action. |\n| 9 | The creature flies into a jealous rage and uses its action to make a melee attack against a randomly determined creature. |\n| 10 | The creature can act and move normally. |\n\nAt the end of each of its turns, an affected target can make a Wisdom saving throw, ending the effect on itself on a successful save.",
+      "name": "Lovesick",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Это заклинание заставляет существа вести себя непредсказуемо, поскольку они случайным образом испытывают всю гамму эмоций человека, который влюбился без памяти. Каждое существо в сфере радиуса 10 футов, сосредоточенное на точке, которую вы выбрали в пределах диапазона, должно преуспеть в броске защиты Мудрости, когда вы создаете это заклинание или будете подвержены его действия.\n\nЗатронутая цель не может реагировать и должна бросить d10 в начале каждого её поворота, чтобы определить её поведение для этого хода.\n\n1-3: Существо проводит свой ход хандря как влюблённый подросток; он не двигается или предпринимает действий.\n4-5: Существо разрыдалось, предприняв действие Рывок, и использует всё своё движение, чтобы убежать в случайном направлении. Чтобы определить направление, бросить d8 и присвоить направление каждой грани умереть.\n6: Существо использует свое действие, чтобы снять один предмет одежды или доспехов. Каждый раунд, потраченный на снятие доспехов, уменьшает её АС на 1.\n7-8: Существо бросает все, что держит в руках и страстно обнимает случайно определённое существо. Рассматривайте это как попытку захвата, использующую действие Атака.\n9: Существо впадает в ревнивую ярость и использует свое действие, чтобы осуществить атаку оружием против случайно определяемого существа.\n10: Существо может действовать и двигаться нормально.\n\nВ конце каждого из своих поворотов, затронутая цель может сделать Мудрости спасбросок, заканчивая эффект на себе на успешной экономии.",
+      "glossary_version": "v1",
+      "name": "Любовно больной",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

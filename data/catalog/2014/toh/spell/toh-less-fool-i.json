@@ -1,0 +1,205 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_less-fool-i",
+  "id": "o5e:toh:spell:toh-less-fool-i",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:less-fool-i",
+      "o5e:toh:spell:toh-less-fool-i"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "965b28266b4b75b670b444f97215e3a32082671941891977015e5acf53b6b257",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "10 minutes",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "divination",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "965b28266b4b75b670b444f97215e3a32082671941891977015e5acf53b6b257",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-less-fool-i",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "49749323d9e9617c54e2b6bd9bd9d1f4b23feb1b97ec54697c10c62aab17e735",
+        "edition": "2014",
+        "id": "o5e:toh:spell:less-fool-i",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "A creature you touch becomes less susceptible to lies and magical influence. For the duration, other creatures have disadvantage on Charisma checks to influence the protected creature, and the creature has advantage on spells that cause it to become charmed or frightened.",
+      "document": "toh",
+      "duration": "10 minutes",
+      "higher_level": "If you cast this spell using a spell slot of 3rd level or higher, the duration is concentration, up to 1 hour. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the duration is 1 year. Using a spell slot of 5th level or higher grants a duration that doesn't require concentration.",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Less Fool, I",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "divination",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "171",
+          "parent": "toh_less-fool-i",
+          "type": "default"
+        },
+        {
+          "external_id": "173",
+          "parent": "toh_less-fool-i",
+          "type": "slot_level_2"
+        },
+        {
+          "duration": "1 hour",
+          "external_id": "174",
+          "parent": "toh_less-fool-i",
+          "type": "slot_level_3"
+        },
+        {
+          "duration": "1 hour",
+          "external_id": "175",
+          "parent": "toh_less-fool-i",
+          "type": "slot_level_4"
+        },
+        {
+          "concentration": false,
+          "duration": "8 hours",
+          "external_id": "176",
+          "parent": "toh_less-fool-i",
+          "type": "slot_level_5"
+        },
+        {
+          "concentration": false,
+          "duration": "8 hours",
+          "external_id": "177",
+          "parent": "toh_less-fool-i",
+          "type": "slot_level_6"
+        },
+        {
+          "concentration": false,
+          "duration": "24 hours",
+          "external_id": "178",
+          "parent": "toh_less-fool-i",
+          "type": "slot_level_7"
+        },
+        {
+          "concentration": false,
+          "duration": "24 hours",
+          "external_id": "179",
+          "parent": "toh_less-fool-i",
+          "type": "slot_level_8"
+        },
+        {
+          "concentration": false,
+          "duration": "1 year",
+          "external_id": "180",
+          "parent": "toh_less-fool-i",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Less Fool, I",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "A creature you touch becomes less susceptible to lies and magical influence. For the duration, other creatures have disadvantage on Charisma checks to influence the protected creature, and the creature has advantage on spells that cause it to become charmed or frightened.",
+      "name": "Less Fool, I",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Существо, которого вы касаетесь, становится менее восприимчивым ко лжи и магическому влиянию. На длительность другие существа имеют помеху на проверки Харизмы, чтобы повлиять на защищённое существо, и существо имеет преимущество на заклинания, которые заставляют его стать очарованным или испуганным.",
+      "glossary_version": "v1",
+      "name": "Меньший дурак, I",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,137 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "anzu",
+  "id": "o5e:tob2:monster:anzu-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:anzu"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "d015da4b9459b179a4ebdda0449e643282997fe9896e5286a1b688170bd6645e",
+    "formulas": [
+      {
+        "expression": "16d10+64",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral",
+      "armor_class": 16,
+      "challenge_rating": "9",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "fire, lightning",
+      "damage_vulnerabilities": "",
+      "hit_dice": "16d10+64",
+      "hit_points": 152,
+      "languages": "Common, Primordial",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "d015da4b9459b179a4ebdda0449e643282997fe9896e5286a1b688170bd6645e",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:anzu",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The anzu makes three attacks: one with its bite and two with its talons.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage plus 7 (2d6) lightning damage.\", \"attack_bonus\": 9, \"damage_dice\": \"2d8+5\"}, {\"name\": \"Talons\", \"desc\": \"Melee Weapon Attack: +9 to hit, reach 5ft., one target. Hit: 12 (2d6 + 5) slashing damage.\", \"attack_bonus\": 9, \"damage_dice\": \"2d6+5\"}, {\"name\": \"Breath Weapons (Recharge 5-6)\", \"desc\": \"The anzu uses one of the following breath weapons: \\n* Fire Breath. The anzu exhales fire in a 60-foot cone. Each creature in that area must make a DC 16 Dexterity saving throw, taking 45 (10d8) fire damage on a failed save, or half as much damage on a successful one. \\n* Water Breath. The anzu exhales a wave of water in a 60-foot cone. Each creature in that area must make a DC 16 Dexterity saving throw. On a failure, a creature takes 38 (11d6) bludgeoning damage and is pushed up to 30 feet away from the anzu and knocked prone. On a success, a creature takes half as much damage and isn't pushed or knocked prone.\"}, {\"name\": \"Lightning Relocation\", \"desc\": \"The anzu teleports up to 60 feet to an unoccupied space it can see. When it does, it briefly transforms into a bolt of lightning, flashes upwards, then crashes down unharmed at its destination. Each creature within 5 feet of the anzu's starting location or destination must succeed on a DC 16 Dexterity saving throw, taking 14 (4d6) lightning damage on a failed save, or half as much on a successful one. A creature within 5 feet of both locations makes this saving throw only once.\"}]",
+      "alignment": "neutral",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "9",
+      "charisma": 10,
+      "constitution": 18,
+      "cr": 9.0,
+      "damage_resistances": "fire, lightning",
+      "desc": "A giant raptor roars out its fury in spouts of fire and scalding water while lightning crackles through its feathers._  \n**Territorial.** Anzu are fierce and territorial predators, claiming ranges along the edges of deserts, wide grasslands, or high mountains. Extremely long-lived, they mate for life, producing two or three eggs every decade.  \n**Elemental Birthright.** Offspring of a wind god or primordial wind spirit, anzu are the personification of the south wind, lightning, and the driving monsoon. Uniquely tied to the elements of fire, water, and wind, they react poorly to weather-altering magic.",
+      "dexterity": 14,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "16d10+64",
+      "hit_points": 152,
+      "intelligence": 7,
+      "languages": "Common, Primordial",
+      "legendary_actions_json": "null",
+      "name": "Anzu",
+      "page_no": 26,
+      "perception": 6,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 90 ft., passive Perception 16",
+      "size": "Large",
+      "skills_json": "{\"perception\": 6}",
+      "special_abilities_json": "[{\"name\": \"Keen Sight\", \"desc\": \"The anzu has advantage on Wisdom (Perception) checks that rely on sight.\"}]",
+      "speed_json": "{\"fly\": 80, \"walk\": 40}",
+      "spells_json": "null",
+      "strength": 20,
+      "type": "Monstrosity",
+      "wisdom": 15
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Anzu",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-anzu"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "A giant raptor roars out its fury in spouts of fire and scalding water while lightning crackles through its feathers._  \n**Territorial.** Anzu are fierce and territorial predators, claiming ranges along the edges of deserts, wide grasslands, or high mountains. Extremely long-lived, they mate for life, producing two or three eggs every decade.  \n**Elemental Birthright.** Offspring of a wind god or primordial wind spirit, anzu are the personification of the south wind, lightning, and the driving monsoon. Uniquely tied to the elements of fire, water, and wind, they react poorly to weather-altering magic.",
+      "name": "Anzu",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Гигантский хищник ревёт свою ярость в струях огня и обжигающей воды, в то время как молния потрескивает через его перья.\n\n**Территориальный.** Анзу — свирепые и территориальные хищники, заявляющие территории вдоль краёв пустынь, широких травяных земель или высоких гор. Чрезвычайно долгоживущие, они спариваются на всю жизнь, производя два или три яйца каждое десятилетие.\n\n**Стихийное право рождения.** Потомки бога ветра или первобытного духа ветра, анзу — олицетворение южного ветра, молнии и движущего муссона. Уникально связанные со стихиями огня, воды и ветра, они плохо реагируют на магию, изменяющую погоду.",
+      "glossary_version": "v1",
+      "name": "Анзу",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

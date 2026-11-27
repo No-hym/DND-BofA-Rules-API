@@ -1,0 +1,222 @@
+{
+  "attribution": "Title: Deep Magic Extended; Author: Not sure.; Publisher: kobold-press; Source: https://koboldpress.com/deepmagic; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepmx",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepmx_extract-foyson",
+  "id": "o5e:deepmx:spell:deepmx-extract-foyson",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepmx:spell:deepmx-extract-foyson",
+      "o5e:dmag-e:spell:extract-foyson"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "bd0d2771977bca3f4543092085f436174069f880f5e0960608dd9f7c3149cb70",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "ritual",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [
+        "srd_bard",
+        "srd_druid",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "permanent",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepmx",
+        "content_hash": "bd0d2771977bca3f4543092085f436174069f880f5e0960608dd9f7c3149cb70",
+        "edition": "2014",
+        "id": "o5e:deepmx:spell:deepmx-extract-foyson",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepmx"
+      },
+      {
+        "book": "dmag-e",
+        "content_hash": "97f69d9aa41f9b34d500bbfc31d1fcb6f1475b6bc116113d488b732c8ee612bb",
+        "edition": "2014",
+        "id": "o5e:dmag-e:spell:extract-foyson",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag-e"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "classes",
+        "value": [
+          "srd_bard",
+          "srd_druid",
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [
+        "srd_bard",
+        "srd_druid",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "desc": "You extract the goodness in food, pulling all the nutrition out of three days' worth of meals and concentrating it into about a tablespoon of bland, flourlike powder. The flour can be mixed with liquid and drunk or baked into elven bread. Foyson used in this way still imparts all the nutritional value of the original food, for the amount consumed. The original food appears unchanged and though it's still filling, it has no nutritional value. Someone eating nothing but foyson-free food will eventually starve.",
+      "document": "deepmx",
+      "duration": "permanent",
+      "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, an additional three meals' worth of food can be extracted for each slot level above 1st. Ritual Focus. If you expend your ritual focus, you can choose to have each day's worth of foyson take the form of a slice of delicious elven bread.",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "name": "Extract Foyson",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Not sure.",
+      "key": "deepmx",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/deepmagic",
+      "publication_date": "2024-02-14T19:02:02",
+      "publisher": "kobold-press",
+      "title": "Deep Magic Extended"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4781",
+          "parent": "deepmx_extract-foyson",
+          "type": "default"
+        },
+        {
+          "external_id": "4782",
+          "parent": "deepmx_extract-foyson",
+          "type": "ritual"
+        },
+        {
+          "external_id": "4784",
+          "parent": "deepmx_extract-foyson",
+          "type": "slot_level_2"
+        },
+        {
+          "external_id": "4785",
+          "parent": "deepmx_extract-foyson",
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "4786",
+          "parent": "deepmx_extract-foyson",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "4787",
+          "parent": "deepmx_extract-foyson",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "4788",
+          "parent": "deepmx_extract-foyson",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "4789",
+          "parent": "deepmx_extract-foyson",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "4790",
+          "parent": "deepmx_extract-foyson",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "4791",
+          "parent": "deepmx_extract-foyson",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Extract Foyson",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepmx",
+  "translations": {
+    "en": {
+      "description": "You extract the goodness in food, pulling all the nutrition out of three days' worth of meals and concentrating it into about a tablespoon of bland, flourlike powder. The flour can be mixed with liquid and drunk or baked into elven bread. Foyson used in this way still imparts all the nutritional value of the original food, for the amount consumed. The original food appears unchanged and though it's still filling, it has no nutritional value. Someone eating nothing but foyson-free food will eventually starve.",
+      "name": "Extract Foyson",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы извлекаете доброту в пище, вытягивая всё питание из трёх дней пищи и концентрируя его в примерно столовую ложку безвкусного, похожего на муку порошка. Мука может быть смешана с жидкостью и выпита или испечена в эльфийский хлеб. Фойсон, использованный таким образом, всё ещё передаёт всю пищевую ценность оригинальной пищи, за количество потреблённого. Оригинальная пища кажется неизменной и, хотя она всё ещё сытна, она не имеет пищевой ценности. Кто-то, едящий только пищу без фойсона, в конечном счёте умрёт от голода.",
+      "glossary_version": "v1",
+      "name": "Извлечь фойсон",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

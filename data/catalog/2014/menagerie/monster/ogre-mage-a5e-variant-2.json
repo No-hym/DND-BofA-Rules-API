@@ -1,0 +1,132 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "ogre-mage-a5e",
+  "id": "o5e:menagerie:monster:ogre-mage-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:ogre-mage-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b431db13a51fc8b3888378d7b61b335b2a843c90f314795c15e195ea3b5c899b",
+    "formulas": [
+      {
+        "expression": "12d10+36",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 16,
+      "challenge_rating": "7",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "12d10+36",
+      "hit_points": 102,
+      "languages": "Common, Giant",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "b431db13a51fc8b3888378d7b61b335b2a843c90f314795c15e195ea3b5c899b",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:ogre-mage-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The ogre makes two melee attacks.\"}, {\"name\": \"Claw (Ogre Mage Form Only)\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.\"}, {\"name\": \"Iron Club\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 17 (2d12 + 4) bludgeoning damage  or 10 (1d12 + 4) bludgeoning damage in Small or Medium form. When the ogre hits or touches a target with its club  it can end any spell on the target that was cast with a 3rd-level or lower spell slot.\"}, {\"name\": \"Read Scroll (1/Day)\", \"desc\": \"The ogre casts a spell from a magical scroll without expending the scrolls magic.\"}, {\"name\": \"Darkness (2nd-Level; V, S, Concentration)\", \"desc\": \"Magical darkness spreads from a point within 30 feet of the ogre  filling a 15-foot-radius sphere and spreading around corners. It remains for 1 minute. A creature with darkvision can't see through this darkness  and nonmagical light can't illuminate it.\"}, {\"name\": \"Hold Person (2nd-Level; V, S, Concentration)\", \"desc\": \"One humanoid the ogre can see within 60 feet makes a DC 14 Wisdom saving throw. On a failure  the target is paralyzed for 1 minute  repeating the saving throw at the end of each of its turns  ending the effect on a success.\"}, {\"name\": \"Invisibility (2nd-Level; V, S, Concentration)\", \"desc\": \"The ogre is invisible for 1 hour. The spell ends if the ogre attacks or casts a spell.\"}, {\"name\": \"Gaseous Form (3rd-Level; V, S, Concentration)\", \"desc\": \"The ogre and its gear becomes a hovering cloud of gas for 1 hour. Its Speed is 0  and its fly speed is 30. It can't attack  use or drop objects  talk  or cast spells. It can enter another creatures space and pass through small holes and cracks but can't pass through liquid. It is resistant to nonmagical damage  has advantage on Strength  Dexterity and Constitution saving throws  and can't fall.\"}, {\"name\": \"Cone of Cold (5th-Level; V, S)\", \"desc\": \"Frost blasts from the ogre in a 60-foot cone. Each creature in the area makes a DC 14 Constitution saving throw  taking 36 (8d8) cold damage on a failure or half damage on a success.\"}]",
+      "armor_class": 16,
+      "bonus_actions_json": "[{\"name\": \"Shapeshift\", \"desc\": \"The ogre changes its form into a Small or Medium humanoid, or back into its true form, which is a Large giant. Other than its size, its statistics are the same in each form. Its iron club, armor, and clothing change size with it. It reverts to its true form when it dies.\"}]",
+      "challenge_rating": "7",
+      "charisma": 16,
+      "constitution": 16,
+      "cr": 7.0,
+      "dexterity": 10,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "12d10+36",
+      "hit_points": 102,
+      "intelligence": 14,
+      "languages": "Common, Giant",
+      "legendary_actions_json": "null",
+      "name": "Ogre Mage",
+      "page_no": 348,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 14",
+      "size": "Large",
+      "skills_json": "{\"arcana\": 5, \"deception\": 6, \"perception\": 4, \"stealth\": 3}",
+      "special_abilities_json": "[{\"name\": \"Innate Spellcasting\", \"desc\": \"The ogres innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no material components: At will: darkness, invisibility, 1/day: charm person, cone of cold, gaseous form, hold person\"}]",
+      "speed_json": "{\"walk\": 30, \"fly\": 30}",
+      "spells_json": "null",
+      "strength": 18,
+      "type": "Giant",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Ogre Mage",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-ogre-mage"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Ogre Mage",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крупный великан. Класс доспеха: 16. Хиты: 102 (12к10+36). Показатель опасности: 7.",
+      "glossary_version": "derived-v1",
+      "name": "Огре маг",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

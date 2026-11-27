@@ -1,0 +1,170 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "srd_oath-of-devotion",
+  "id": "o5e:srd-2014:characterclass:srd-oath-of-devotion",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:characterclass:srd-oath-of-devotion"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "0586b502378d352bcd1abcea17f89eb119fb961ca1e1143381d581f15a09cc6a",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_paladin"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "0586b502378d352bcd1abcea17f89eb119fb961ca1e1143381d581f15a09cc6a",
+        "edition": "2014",
+        "id": "o5e:srd-2014:characterclass:srd-oath-of-devotion",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_paladin",
+        "type": "subclass_of",
+        "value": "srd_paladin"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "document": "srd-2014",
+      "name": "Oath of Devotion",
+      "subclass_of": "srd_paladin"
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you take this oath at 3rd level, you gain the following two Channel Divinity options.\r\n\r\n**Sacred Weapon.** As an action, you can imbue one weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (with a minimum bonus of +1). The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that. If the weapon is not already magical, it becomes magical for the duration.\r\n\r\nYou can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.\r\n\r\n**Turn the Unholy.** As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.\r\n\r\nA turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.",
+          "desc_ru": "Вы можете направлять божественную энергию непосредственно из Внешних Планов, используя её для создания магических эффектов. Изначально у вас есть один такой эффект: Божественное чувство, описанный ниже. Другие умения паладина дают дополнительные варианты эффектов Божественного канала. Каждый раз, когда вы используете Божественный канал этого класса, вы выбираете, какой эффект этого класса создать.\n\nВы можете использовать Божественный канал этого класса дважды. Вы восстанавливаете одно потраченное использование, когда заканчиваете короткий отдых, и восстанавливаете все потраченные использования, когда заканчиваете долгий отдых. Вы получаете дополнительное использование, когда достигаете 11-го уровня паладина.\n\nЕсли эффект Божественного канала требует спасброска, СЛ равна СЛ спасброска заклинаний из умения Сотворение заклинаний этого класса.\n\n**Божественное чувство.** Как Бонусное действие, вы можете открыть своё сознание для обнаружения небожителей, исчадий и нежити. В течение следующих 10 минут или пока вы не получите состояние Недееспособный, вы знаете местоположение любого существа этих типов в пределах 60 футов от себя и знаете его тип существа. В том же радиусе вы также обнаруживаете присутствие любого места или предмета, который был освящён или осквернён, как заклинанием *Освящение*.\n\n> ### Нарушение клятвы\n>\n> Паладин старается придерживаться высочайших стандартов поведения, но даже самые преданные способны ошибаться. Иногда паладин нарушает свою клятву.\n>\n> Паладин, нарушивший обет, обычно ищет отпущения грехов, проводя ночное бдение в знак покаяния или постясь. После обряда прощения паладин начинает с чистого листа.\n>\n> Если ваш паладин нераскаянно нарушает клятву, поговорите с Мастером. Вашему паладину, вероятно, следует выбрать более подходящий подкласс или даже отказаться от класса и перейти в другой.",
+          "document": "srd-2014",
+          "external_id": "srd_oath-of-devotion_channel-divinity",
+          "level": 3,
+          "name": "Channel Divinity",
+          "name_ru": "Божественный канал",
+          "parent": "srd_oath-of-devotion",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain oath spells at the paladin levels listed.\r\n\r\n### Oath of Devotion Spells\r\n| Paladin Level | Spells |\r\n| --- | --- |\r\n| 3rd | protection from evil and good, sanctuary |\r\n| 5th | lesser restoration, zone of truth |\r\n| 9th | beacon of hope, dispel magic |\r\n| 13th | freedom of movement, guardian of faith |\r\n| 17th | commune, flame strike |",
+          "desc_ru": "Вы получаете заклинания клятвы на указанных уровнях паладина.\n\nТаблица: Заклинания Клятвы преданности\n\n| Уровень | Заклинания паладина                          |\n|---|---|\n| 3       | защита от добра и зла, святилище             |\n| 5       | малое восстановление, зона правды            |\n| 9       | маяк надежды, рассеивание магии              |\n| 13      | свобода перемещения, страж веры              |\n| 17      | причастие, небесный огонь                    |",
+          "document": "srd-2014",
+          "external_id": "srd_oath-of-devotion_oath-spells",
+          "level": 3,
+          "name": "Oath Spells",
+          "name_ru": "Заклинания клятвы",
+          "parent": "srd_oath-of-devotion",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Though the exact words and strictures of the Oath of Devotion vary, paladins of this oath share these tenets.\r\n\r\n*Honesty.* Don't lie or cheat. Let your word be your promise.\r\n\r\n*Courage.* Never fear to act, though caution is wise.\r\n\r\n*Compassion.* Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.\r\n\r\n*Honor.* Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible while causing the least amount of harm.\r\n\r\n*Duty.* Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you.",
+          "desc_ru": "Хотя точные слова и ограничения Клятвы преданности различаются, паладины этой клятвы разделяют следующие принципы.\n\n**_Честность._** Не лги и не обманывай. Пусть твоё слово будет твоим обещанием.\n\n**_Мужество._** Никогда не бойся действовать, хотя осторожность мудра.\n\n**_Сострадание._** Помогай другим, защищай слабых и наказывай тех, кто им угрожает. Проявляй милосердие к врагам, но умеряй его мудростью.\n\n**_Честь._** Относись к другим справедливо, и пусть твои почётные деяния будут для них примером. Делай как можно больше добра, причиняя как можно меньше вреда.\n\n**_Долг._** Неси ответственность за свои поступки и их последствия, защищай тех, кто вверен твоей заботе, и повинуйся тем, кто имеет над тобой справедливую власть.",
+          "document": "srd-2014",
+          "external_id": "srd_oath-of-devotion_tenets-of-devotion",
+          "level": 3,
+          "name": "Tenets of Devotion",
+          "name_ru": "Принципы преданности",
+          "parent": "srd_oath-of-devotion",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Starting at 7th level, you and friendly creatures within 10 feet of you can't be charmed while you are conscious.\r\n\r\nAt 18th level, the range of this aura increases to 30 feet.",
+          "desc_ru": "Вы и ваши союзники получаете иммунитет к состоянию Очарованный, пока находитесь в вашей Ауре защиты. Если Очарованный союзник входит в ауру, это состояние не действует на союзника, пока он там находится.",
+          "document": "srd-2014",
+          "external_id": "srd_oath-of-devotion_aura-of-devotion",
+          "level": 7,
+          "name": "Aura of Devotion",
+          "name_ru": "Аура преданности",
+          "parent": "srd_oath-of-devotion",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Beginning at 15th level, you are always under the effects of a *protection from evil and good* spell.",
+          "desc_ru": "Начиная с 15-го уровня, вы постоянно находитесь под действием заклинания *защита от добра и зла*.",
+          "document": "srd-2014",
+          "external_id": "srd_oath-of-devotion_purity-of-spirit",
+          "level": 15,
+          "name": "Purity of Spirit",
+          "name_ru": "Чистота духа",
+          "parent": "srd_oath-of-devotion",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "At 20th level, as an action, you can emanate an aura of sunlight. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that.\r\n\r\nWhenever an enemy creature starts its turn in the bright light, the creature takes 10 radiant damage.\r\n\r\nIn addition, for the duration, you have advantage on saving throws against spells cast by fiends or undead.\r\n\r\nOnce you use this feature, you can't use it again until you finish a long rest.",
+          "desc_ru": "На 20-м уровне вы можете действием излучать ауру солнечного света. На 1 минуту яркий свет сияет от вас в радиусе 30 фт., и тусклый свет — ещё на 30 фт. за его пределами.\n\nКаждый раз, когда враждебное существо начинает свой ход в области яркого света, оно получает 10 урона излучением.\n\nКроме того, на время действия эффекта вы совершаете с преимуществом спасброски от заклинаний, сотворённых исчадиями или нежитью.\n\nИспользовав это умение, вы не можете использовать его снова, пока не завершите долгий отдых.\n\n>**Нарушение клятвы**\n>\n>Паладин стремится следовать высочайшим стандартам поведения, но даже самый добродетельный паладин не застрахован от ошибок. Иногда правильный путь оказывается слишком тяжёлым, иногда ситуация требует выбрать меньшее из двух зол, а иногда жар эмоций заставляет паладина нарушить свою клятву.\n>\n>Паладин, нарушивший обет, обычно ищет отпущения у жреца, разделяющего его веру, или у другого паладина того же ордена. Паладин может провести всю ночь в бдении и молитве в знак раскаяния или предпринять пост или подобный акт самоотречения. После обряда исповеди и прощения паладин начинает заново.\n>\n>Если паладин умышленно нарушает свою клятву и не выказывает раскаяния, последствия могут быть более серьёзными. По решению МИ нераскаявшийся паладин может быть вынужден покинуть этот класс и принять другой.",
+          "document": "srd-2014",
+          "external_id": "srd_oath-of-devotion_holy-nimbus",
+          "level": 20,
+          "name": "Holy Nimbus",
+          "name_ru": "Священный нимб",
+          "parent": "srd_oath-of-devotion",
+          "ru_source": "memory"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "assembled_features": 6,
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "Oath of Devotion",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Oath of Devotion",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Стать паладином означает принести обеты, которые привязывают паладина к делу праведности, к активному пути борьбы со злом. Последняя клятва, принесённая по достижении 3-го уровня, является кульминацией всей подготовки паладина. Некоторые персонажи этого класса не считают себя истинными паладинами, пока не достигнут 3-го уровня и не принесут эту клятву. Для других сама церемония клятвы — лишь формальность, официальная печать на том, что всегда было истиной в сердце паладина.\n\nКлятва преданности связывает паладина с высочайшими идеалами справедливости, добродетели и порядка. Иногда называемые кавалерами, белыми рыцарями или святыми воителями, эти паладины воплощают идеал рыцаря в сияющих доспехах, действуя с честью в стремлении к справедливости и всеобщему благу. Они предъявляют к себе высочайшие требования, и некоторые, к лучшему или к худшему, предъявляют те же требования ко всему остальному миру. Многие из тех, кто приносит эту клятву, преданы богам закона и добра и руководствуются заповедями своих богов как мерилом своей преданности. Они считают ангелов — совершенных слуг добра — своим идеалом и украшают шлемы или гербы изображениями ангельских крыльев.\n\n### Уровень 3: Божественный канал\n\nВы можете направлять божественную энергию непосредственно из Внешних Планов, используя её для создания магических эффектов. Изначально у вас есть один такой эффект: Божественное чувство, описанный ниже. Другие умения паладина дают дополнительные варианты эффектов Божественного канала. Каждый раз, когда вы используете Божественный канал этого класса, вы выбираете, какой эффект этого класса создать.\n\nВы можете использовать Божественный канал этого класса дважды. Вы восстанавливаете одно потраченное использование, когда заканчиваете короткий отдых, и восстанавливаете все потраченные использования, когда заканчиваете долгий отдых. Вы получаете дополнительное использование, когда достигаете 11-го уровня паладина.\n\nЕсли эффект Божественного канала требует спасброска, СЛ равна СЛ спасброска заклинаний из умения Сотворение заклинаний этого класса.\n\n**Божественное чувство.** Как Бонусное действие, вы можете открыть своё сознание для обнаружения небожителей, исчадий и нежити. В течение следующих 10 минут или пока вы не получите состояние Недееспособный, вы знаете местоположение любого существа этих типов в пределах 60 футов от себя и знаете его тип существа. В том же радиусе вы также обнаруживаете присутствие любого места или предмета, который был освящён или осквернён, как заклинанием *Освящение*.\n\n> ### Нарушение клятвы\n>\n> Паладин старается придерживаться высочайших стандартов поведения, но даже самые преданные способны ошибаться. Иногда паладин нарушает свою клятву.\n>\n> Паладин, нарушивший обет, обычно ищет отпущения грехов, проводя ночное бдение в знак покаяния или постясь. После обряда прощения паладин начинает с чистого листа.\n>\n> Если ваш паладин нераскаянно нарушает клятву, поговорите с Мастером. Вашему паладину, вероятно, следует выбрать более подходящий подкласс или даже отказаться от класса и перейти в другой.\n\n### Уровень 3: Заклинания клятвы\n\nВы получаете заклинания клятвы на указанных уровнях паладина.\n\nТаблица: Заклинания Клятвы преданности\n\n| Уровень | Заклинания паладина                          |\n|---|---|\n| 3       | защита от добра и зла, святилище             |\n| 5       | малое восстановление, зона правды            |\n| 9       | маяк надежды, рассеивание магии              |\n| 13      | свобода перемещения, страж веры              |\n| 17      | причастие, небесный огонь                    |\n\n### Уровень 3: Принципы преданности\n\nХотя точные слова и ограничения Клятвы преданности различаются, паладины этой клятвы разделяют следующие принципы.\n\n**_Честность._** Не лги и не обманывай. Пусть твоё слово будет твоим обещанием.\n\n**_Мужество._** Никогда не бойся действовать, хотя осторожность мудра.\n\n**_Сострадание._** Помогай другим, защищай слабых и наказывай тех, кто им угрожает. Проявляй милосердие к врагам, но умеряй его мудростью.\n\n**_Честь._** Относись к другим справедливо, и пусть твои почётные деяния будут для них примером. Делай как можно больше добра, причиняя как можно меньше вреда.\n\n**_Долг._** Неси ответственность за свои поступки и их последствия, защищай тех, кто вверен твоей заботе, и повинуйся тем, кто имеет над тобой справедливую власть.\n\n### Уровень 7: Аура преданности\n\nВы и ваши союзники получаете иммунитет к состоянию Очарованный, пока находитесь в вашей Ауре защиты. Если Очарованный союзник входит в ауру, это состояние не действует на союзника, пока он там находится.\n\n### Уровень 15: Чистота духа\n\nНачиная с 15-го уровня, вы постоянно находитесь под действием заклинания *защита от добра и зла*.\n\n### Уровень 20: Священный нимб\n\nНа 20-м уровне вы можете действием излучать ауру солнечного света. На 1 минуту яркий свет сияет от вас в радиусе 30 фт., и тусклый свет — ещё на 30 фт. за его пределами.\n\nКаждый раз, когда враждебное существо начинает свой ход в области яркого света, оно получает 10 урона излучением.\n\nКроме того, на время действия эффекта вы совершаете с преимуществом спасброски от заклинаний, сотворённых исчадиями или нежитью.\n\nИспользовав это умение, вы не можете использовать его снова, пока не завершите долгий отдых.\n\n>**Нарушение клятвы**\n>\n>Паладин стремится следовать высочайшим стандартам поведения, но даже самый добродетельный паладин не застрахован от ошибок. Иногда правильный путь оказывается слишком тяжёлым, иногда ситуация требует выбрать меньшее из двух зол, а иногда жар эмоций заставляет паладина нарушить свою клятву.\n>\n>Паладин, нарушивший обет, обычно ищет отпущения у жреца, разделяющего его веру, или у другого паладина того же ордена. Паладин может провести всю ночь в бдении и молитве в знак раскаяния или предпринять пост или подобный акт самоотречения. После обряда исповеди и прощения паладин начинает заново.\n>\n>Если паладин умышленно нарушает свою клятву и не выказывает раскаяния, последствия могут быть более серьёзными. По решению МИ нераскаявшийся паладин может быть вынужден покинуть этот класс и принять другой.",
+      "glossary_version": "v1",
+      "name": "Клятва преданности",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

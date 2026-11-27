@@ -1,0 +1,239 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_chameleon-hydra",
+  "id": "o5e:tob2:creature:tob2-chameleon-hydra",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-chameleon-hydra"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f8273f70821ed25056a9a85b172206352e10f39e0e828a0b2da4ada2e51d1881",
+    "formulas": [
+      {
+        "expression": "16d12+80",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 20,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 4,
+      "ability_score_strength": 20,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "10.000",
+      "climb": 40,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "16d12+80",
+      "hit_points": 184,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 16,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "huge",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 20
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "f8273f70821ed25056a9a85b172206352e10f39e0e828a0b2da4ada2e51d1881",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-chameleon-hydra",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 20,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 4,
+      "ability_score_strength": 20,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "10.000",
+      "climb": 40,
+      "darkvision_range": 60,
+      "document": "tob2",
+      "hit_dice": "16d12+80",
+      "hit_points": 184,
+      "hover": false,
+      "name": "Chameleon Hydra",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 16,
+      "size": "huge",
+      "skill_bonus_perception": 8,
+      "skill_bonus_stealth": 11,
+      "type": "monstrosity",
+      "walk": 20,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +9 к попаданию, досягаемость 10 фт., одна цель. Попадание: 10 (1к10+5) колющего урона.",
+          "external_id": "tob2_chameleon-hydra_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "tob2_chameleon-hydra",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The chameleon hydra makes as many bite attacks as it has heads. It can use its Sticky Tongue or Reel in place of a bite attack.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_chameleon-hydra_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_chameleon-hydra",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The hydra pulls a creature grappled by it up to 25 feet straight toward it.",
+          "desc_ru": "Действие «Реел»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_chameleon-hydra_reel",
+          "name": "Reel",
+          "name_ru": "Реел",
+          "order_in_statblock": 3,
+          "parent": "tob2_chameleon-hydra",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +9 to hit, reach 50 ft., one target. Hit: The target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the hydra can't use the same sticky tongue on another target.",
+          "desc_ru": "Действие «Стикй Тонгуе»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_chameleon-hydra_sticky-tongue",
+          "name": "Sticky Tongue",
+          "name_ru": "Стикй Тонгуе",
+          "order_in_statblock": 2,
+          "parent": "tob2_chameleon-hydra",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The chameleon hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious. Whenever the chameleon hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the chameleon hydra dies. At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The hydra regains 10 hit points for each head regrown in this way.",
+          "desc_ru": "Особенность «Мултипле Хеадс». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_chameleon-hydra_multiple-heads",
+          "name": "Multiple Heads",
+          "name_ru": "Мултипле Хеадс",
+          "parent": "tob2_chameleon-hydra",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "While the chameleon hydra remains motionless, it has advantage on Dexterity (Stealth) checks made to hide. In addition, the chameleon hydra can hide even while a creature can see it.",
+          "desc_ru": "Особенность «Супериор Камоуфлаге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_chameleon-hydra_superior-camouflage",
+          "name": "Superior Camouflage",
+          "name_ru": "Супериор Камоуфлаге",
+          "parent": "tob2_chameleon-hydra",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "While the chameleon hydra sleeps, at least one of its heads is awake.",
+          "desc_ru": "Особенность «Вакефул». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_chameleon-hydra_wakeful",
+          "name": "Wakeful",
+          "name_ru": "Вакефул",
+          "parent": "tob2_chameleon-hydra",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Chameleon Hydra",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Chameleon Hydra",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крупный хамелеон высовывает голову под полог. Вскоре ещё четыре идентичные головы выглядывают из-под верхушек деревьев. Массивное тело сопровождает головы, показывая, что все они принадлежат одному существу. Странные ноги существа и длинный закрученный хвост с лёгкостью переносят его с дерева на дерево, а его липкие языки позволяют ему поглощать добычу на лесной подстилке, когда оно проходит мимо.\n\nГидра-хамелеон процветает в густых лесистых областях, где она делает гнёзда в пологах больших деревьев. Она питается добычей как над пологом, так и под ним, используя свои липкие языки, чтобы хватать ничего не подозревающую добычу.\n\n**Высшие хищники-засадники.** У гидр-хамелеонов чешуя, которая реагирует на свет и позволяет гидрам сливаться с окружением. Они чрезвычайно терпеливы, ожидая наиболее подходящего времени, чтобы ударить с безопасной выгодной позиции. Гидры-хамелеоны в основном едят птиц и гигантских насекомых, но известно, что они обедают беспечными путешественниками, если другой добычи мало.\n\n**Любопытные и красочные.** Изучение молодых гидр-хамелеонов показывает, что у них любознательный ум и что они чередуют свою чешую красочными узорами, когда рядом другие подобные существа. Учёные полагают, что они используют эти изменения цвета как рудиментарную форму общения.",
+      "glossary_version": "v1",
+      "name": "Гидра-хамелеон",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

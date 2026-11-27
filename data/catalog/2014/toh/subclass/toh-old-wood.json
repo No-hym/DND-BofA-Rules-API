@@ -1,0 +1,179 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_old-wood",
+  "id": "o5e:toh:characterclass:toh-old-wood",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-old-wood"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "3f9f4df74f02eed86be5827be95eb5e0c544b82e95fab666d3a3e054455d6440",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_warlock"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "3f9f4df74f02eed86be5827be95eb5e0c544b82e95fab666d3a3e054455d6440",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-old-wood",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_warlock",
+        "type": "subclass_of",
+        "value": "srd_warlock"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "You have made a pact with the ancient intelligence of a primeval forest. Before the rise of human civilization, before the time of the elves, before even the dragons, there were the forests. Empires rise and fall around them, but the forests remain as a testament to nature's endurance.\n\nHowever, times are changing, and the unchecked growth of civilization threatens the green. The intelligences that imbue the antediluvian forests seek emissaries in the world that can act beyond their boughs, and one has heard your call for power. You are a guardian of the Old Wood, a questing branch issuing from a vast, slumbering intelligence sent to act on its behalf, perhaps even to excise these lesser beings from its borders.",
+      "document": "toh",
+      "name": "Old Wood",
+      "subclass_of": "srd_warlock"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "At 1st level, your patron gifts you with the skills necessary to defend it. You gain proficiency with shields, and you learn the *shillelagh* cantrip. *Shillelagh* counts as a warlock cantrip for you, but it doesn't count against your number of cantrips known.",
+          "desc_ru": "На 1-м уровне ваш покровитель дарует вам навыки, необходимые для его защиты. Вы получаете владение щитами и изучаете заговор шиллелах. Шиллелах считается для вас заговором чернокнижника, но не учитывается в количестве известных вам заговоров.",
+          "document": "toh",
+          "external_id": "toh_old-wood_forests-defender",
+          "level": 1,
+          "name": "Forest's Defender",
+          "name_ru": "Защитник леса",
+          "parent": "toh_old-wood",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 1st level, your patron bestows upon you the ability to absorb magic from nearby spellcasting. When a creature casts a spell of a level you can cast or lower within 30 feet of you, you can use your reaction to synthesize the magic. The spell resolves as normal, but you have a 25% chance of regaining hit points equal to your warlock level + your Charisma modifier (minimum of 1 hit point).",
+          "desc_ru": "На 1-м уровне ваш покровитель дарует вам способность поглощать магию из ближайшего сотворения заклинаний. Когда существо творит заклинание уровня, который вы можете творить, или ниже в пределах 30 футов от вас, вы можете реакцией синтезировать магию. Заклинание разрешается как обычно, но у вас есть 25% шанс восстановить очки хитов, равные вашему уровню чернокнижника + ваш модификатор Харизмы (минимум 1 очко хитов).",
+          "document": "toh",
+          "external_id": "toh_old-wood_sap-magic",
+          "level": 1,
+          "name": "Sap Magic",
+          "name_ru": "Высасывать магию",
+          "parent": "toh_old-wood",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you select your pact boon at 3rd level, it is altered by your patron in the following ways:\n\n***Pact of the Chain.*** When you conjure your familiar or change its form, you can choose the form of an awakened shrub or child of the briar (see *Tome of Beasts*) in addition to the usual familiar choices.\n\n***Pact of the Blade.*** The blade of the Old Wood is a weapon made of wood and thorns and grows out of your palm. When you cast *shillelagh*, your Pact Blade is affected by the spell, regardless of the form your Pact Blade takes.\n\n***Pact of the Tome.*** The Old Wood grows a tome for you. The tome's cover is hardened bark from the forest's native trees, and its pages are leaves whose color changes with the seasons. If you want to add a new spell to your book, you must first plant it in the ground. After 1 hour, the book emerges from the soil with the new spell inscribed on its leaves. If your tome is lost or destroyed, you must return to your patron forest for it to grow you a new one.",
+          "desc_ru": "Когда вы выбираете ваш дар договора на 3-м уровне, он изменяется вашим покровителем следующими способами.\n\nДоговор цепи. Когда вы призываете вашего фамильяра или изменяете его форму, вы можете выбрать форму пробуждённого кустарника или дитя терновника (см. Книгу зверей) в дополнение к обычным вариантам фамильяра.\n\nДоговор клинка. Клинок Старого леса — оружие, сделанное из дерева и шипов, и растёт из вашей ладони. Когда вы творите дубинку, ваш Клинок договора затрагивается заклинанием, независимо от формы, которую принимает ваш Клинок договора.\n\nДоговор тома. Старый лес выращивает том для вас. Обложка тома — закалённая кора из родных деревьев леса, и его страницы — листья, чей цвет меняется с сезонами. Если вы хотите добавить новое заклинание в вашу книгу, вы должны сначала посадить его в землю. Через 1 час книга появляется из почвы с новым заклинанием, начертанным на её листьях. Если ваш том потерян или уничтожен, вы должны вернуться в ваш покровительственный лес, чтобы он вырастил вам новый.",
+          "document": "toh",
+          "external_id": "toh_old-wood_the-old-wood-and-your-pact-boons",
+          "level": 3,
+          "name": "The Old Wood and Your Pact Boons",
+          "name_ru": "Старый лес и ваши дары договора",
+          "parent": "toh_old-wood",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 6th level, you are able to cast *pass without trace* without expending a spell slot. Once you use this feature, you can't use it again until you finish a short or long rest. In addition, difficult terrain caused by roots, underbrush, and other natural forest terrain costs you no extra movement. You can pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.",
+          "desc_ru": "Начиная с 6-го уровня вы способны творить бесследное движение, не расходуя ячейку заклинаний. Использовав эту особенность, вы не можете использовать её снова, пока не закончите короткий или продолжительный отдых. Кроме того, труднопроходимая местность, вызванная корнями, подлеском и другой естественной лесной местностью, не стоит вам дополнительного перемещения. Вы можете проходить через немагические растения, не замедляясь ими и не получая от них урона, если у них есть шипы, колючки или похожая опасность.",
+          "document": "toh",
+          "external_id": "toh_old-wood_predatory-grace",
+          "level": 6,
+          "name": "Predatory Grace",
+          "name_ru": "Хищная грация",
+          "parent": "toh_old-wood",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 10th level, your patron has suffused your body with a portion of its ability to withstand harmful magic. You gain resistance to damage from spells of a level you can cast or lower.",
+          "desc_ru": "На 10-м уровне ваш покровитель наполнил ваше тело частью его способности выдерживать вредную магию. Вы получаете сопротивление урону от заклинаний уровня, который вы можете творить, или ниже.",
+          "document": "toh",
+          "external_id": "toh_old-wood_natures-endurance",
+          "level": 10,
+          "name": "Nature's Endurance",
+          "name_ru": "Выносливость природы",
+          "parent": "toh_old-wood",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 14th level, you can channel the power of the forest to physically transform, taking on many of its aspects. Your legs, arms, and torso elongate, your body becomes covered in thick, dark bark, and branches sprout from your head as your hair recedes. You can transform as a bonus action and the transformation lasts 1 minute. While transformed, you gain the following benefits: \n* Your Armor Class is 16 plus your Dexterity modifier. \n* You gain tremorsense with a radius of 30 feet, and your attacks can reach 5 feet further. \n* Your hands become branch-like claws, and you can use the Attack action to attack with the claws. You are proficient with the claws, and the claws count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. You add your Charisma modifier to your attack and damage rolls with the claws. The damage is slashing and the damage die is a d6. If you have the Pact of the Blade feature, your claw attack benefits from your invocations as if it was a pact weapon. \n* Your Sap Magic feature changes to Arcasynthesis: When a spell of 5th level or lower is cast within 60 feet of you, you can use your reaction to synthesize the magic. The spell resolves as normal, but you have a 50 percent chance of regaining 1d10 hp per level of the spell cast.\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+          "desc_ru": "Начиная с 14-го уровня вы можете направить силу леса, чтобы физически трансформироваться, принимая многие из его аспектов. Ваши ноги, руки и торс удлиняются, ваше тело становится покрыто толстой тёмной корой, и ветви прорастают из вашей головы, когда ваши волосы отступают. Вы можете трансформироваться бонусным действием, и трансформация длится 1 минуту. Пока трансформированы, вы получаете следующие преимущества: \n* Ваш Класс доспеха — 16 плюс ваш модификатор Ловкости. \n* Вы получаете чувство вибрации радиусом 30 футов, и ваши атаки могут достигать на 5 футов дальше. \n* Ваши руки становятся ветвеподобными когтями, и вы можете использовать действие Атака, чтобы атаковать когтями. Вы владеете когтями, и когти считаются магическими для цели преодоления сопротивления и иммунитета к немагическим атакам и урону. Вы добавляете ваш модификатор Харизмы к вашим броскам атаки и урона когтями. Урон рубящий, и кость урона — к6. Если у вас есть особенность Договор клинка, ваша атака когтем получает пользу от ваших воззваний, как если бы это было оружие договора. \n* Ваша особенность Магия сока изменяется на Аркасинтез: Когда заклинание 5-го уровня или ниже творится в пределах 60 футов от вас, вы можете реакцией синтезировать магию. Заклинание разрешается как обычно, но у вас есть 50 процентов шанса восстановить 1к10 ОХ за уровень сотворённого заклинания.\nИспользовав эту особенность, вы не можете использовать её снова, пока не закончите короткий или продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_old-wood_avatar-of-the-wood",
+          "level": 14,
+          "name": "Avatar of the Wood",
+          "name_ru": "Аватар леса",
+          "parent": "toh_old-wood",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your connection to the forest allows you to choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\n**Old Wood Expanded Spells (table)**\n| Spell Level   | Spells                                      | \n|---------------|---------------------------------------------| \n| 1st           | *animal friendship*, *faerie fire*          | \n| 2nd           | *animal messenger*, *spike growth*          | \n| 3rd           | *conjure animals*, *protection from energy* | \n| 4th           | *conjure woodland beings*, *giant insect*   | \n| 5th           | *greater restoration*, *tree stride*        |",
+          "desc_ru": "Ваша связь с лесом позволяет вам выбирать из расширенного списка заклинаний, когда вы изучаете заклинание чернокнижника. Следующие заклинания добавляются к списку заклинаний чернокнижника для вас.\n\nРасширенные заклинания Старого леса (таблица)\n| Уровень заклинания | Заклинания |\n|---|---|\n| 1-й | Дружба с животными, Волшебный огонь |\n| 2-й | Животный посланник, Рост шипов |\n| 3-й | Призыв животных, Защита от энергии |\n| 4-й | Призыв лесных существ, Гигантское насекомое |\n| 5-й | Большее восстановление, Длинный шаг по деревьям |",
+          "document": "toh",
+          "external_id": "toh_old-wood_expanded-spell-list",
+          "name": "Expanded Spell List",
+          "name_ru": "Расширенный список заклинаний",
+          "parent": "toh_old-wood",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Old Wood",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You have made a pact with the ancient intelligence of a primeval forest. Before the rise of human civilization, before the time of the elves, before even the dragons, there were the forests. Empires rise and fall around them, but the forests remain as a testament to nature's endurance.\n\nHowever, times are changing, and the unchecked growth of civilization threatens the green. The intelligences that imbue the antediluvian forests seek emissaries in the world that can act beyond their boughs, and one has heard your call for power. You are a guardian of the Old Wood, a questing branch issuing from a vast, slumbering intelligence sent to act on its behalf, perhaps even to excise these lesser beings from its borders.",
+      "name": "Old Wood",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы заключили договор с древним разумом первобытного леса. До подъёма человеческой цивилизации, до времени эльфов, даже до драконов были леса. Империи поднимаются и падают вокруг них, но леса остаются как свидетельство выносливости природы.\n\nОднако времена меняются, и неконтролируемый рост цивилизации угрожает зелени. Разумы, которые наполняют допотопные леса, ищут эмиссаров в мире, которые могут действовать за пределами их ветвей, и один услышал ваш призыв к силе. Вы — страж Старого Леса, ищущая ветвь, исходящая из огромного, дремлющего разума, посланная действовать от его имени, возможно, даже чтобы вырезать этих меньших существ из его границ.",
+      "glossary_version": "v1",
+      "name": "Старый лес",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

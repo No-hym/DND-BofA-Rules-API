@@ -1,0 +1,139 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "feat",
+  "edition": "2014",
+  "external_id": "srd_grappler",
+  "id": "o5e:srd-2014:feat:srd-grappler",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:feat:srd-grappler",
+      "o5e:wotc-srd:feat:grappler"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "a535d3a1eddead655da57675b603f9aa55ab2e7d3280e0087afb3684bf142c93",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "prerequisite": "Strength 13 or higher",
+      "type": "GENERAL"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "a535d3a1eddead655da57675b603f9aa55ab2e7d3280e0087afb3684bf142c93",
+        "edition": "2014",
+        "id": "o5e:srd-2014:feat:srd-grappler",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "5a70d2ce296b6573a9f96039b23234fe8d34ed838d1bbbd4cf899ea768e40870",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:feat:grappler",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "anchor": "Grappling",
+        "required": false,
+        "target_id": "srd_attacking_grappling",
+        "type": "cross-reference"
+      },
+      {
+        "anchor": "Skills",
+        "required": false,
+        "target_id": "srd_abilities_skills",
+        "type": "cross-reference"
+      }
+    ],
+    "requirements": [
+      {
+        "type": "prerequisite",
+        "value": "Strength 13 or higher"
+      }
+    ],
+    "resources": [],
+    "source_data": {
+      "desc": "You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:",
+      "document": "srd-2014",
+      "name": "Grappler",
+      "prerequisite": "Strength 13 or higher",
+      "type": "GENERAL"
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "benefits": [
+        {
+          "desc": "You have advantage on attack rolls against a creature you are grappling.",
+          "desc_ru": "Преимущество. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_grappler_1",
+          "parent": "srd_grappler",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "You can use your action to try to pin a creature grappled by you. The creature makes a Strength or Dexterity saving throw against your maneuver DC. On a failure, you and the creature are both restrained until the grapple ends.",
+          "desc_ru": "Преимущество. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_grappler_2",
+          "parent": "srd_grappler",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Grappler",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:",
+      "name": "Grappler",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Общая черта (Требование: Уровень 4+, Сила или Ловкость 13+)*\n\nВы получаете следующие преимущества.\n\n**Увеличение характеристики.** Увеличьте вашу Силу или Ловкость на 1, до максимума 20.\n\n**Удар и захват.** Когда вы попадаете по существу безоружным ударом как часть действия Атака в свой ход, вы можете использовать и опцию Урон, и опцию Захват. Вы можете использовать это преимущество только один раз в ход.\n\n**Преимущество в атаке.** Вы совершаете с преимуществом броски атаки против существа, Схваченного вами.\n\n**Быстрый борец.** Вам не нужно тратить дополнительное перемещение, чтобы переместить Схваченное вами существо, если это существо вашего размера или меньше.",
+      "glossary_version": "v1",
+      "name": "Борец",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

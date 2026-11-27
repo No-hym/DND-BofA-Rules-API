@@ -1,0 +1,236 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob_titanoboa",
+  "id": "o5e:tob:creature:tob-titanoboa",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creature:tob-2023-titanoboa",
+      "o5e:tob:creature:tob-titanoboa"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "25af24cf8eb195268032ecff5c95df2dcf901d8af664bd31024c46dc6c8fe8e4",
+    "formulas": [
+      {
+        "expression": "15d20+75",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 3,
+      "ability_score_constitution": 20,
+      "ability_score_dexterity": 10,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 26,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "blindsight_range": 10,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "12.000",
+      "climb": 40,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [
+        "forest"
+      ],
+      "fly": null,
+      "hit_dice": "15d20+75",
+      "hit_points": 232,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": 10560,
+      "passive_perception": 15,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": 5,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": 5,
+      "size": "gargantuan",
+      "skill_bonus_acrobatics": null,
+      "swim": 40,
+      "walk": 40
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "25af24cf8eb195268032ecff5c95df2dcf901d8af664bd31024c46dc6c8fe8e4",
+        "edition": "2014",
+        "id": "o5e:tob:creature:tob-titanoboa",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "2015f88e935accc2f5d7dd8b1374249ca3f6bacfe4449734e5b42ebca1cb20bd",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creature:tob-2023-titanoboa",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 3,
+      "ability_score_constitution": 20,
+      "ability_score_dexterity": 10,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 26,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "blindsight_range": 10,
+      "category": "Monsters",
+      "challenge_rating": "12.000",
+      "climb": 40,
+      "document": "tob",
+      "environments": [
+        "forest"
+      ],
+      "hit_dice": "15d20+75",
+      "hit_points": 232,
+      "hover": false,
+      "languages_desc": "-",
+      "name": "Titanoboa",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 15,
+      "saving_throw_dexterity": 5,
+      "saving_throw_wisdom": 5,
+      "size": "gargantuan",
+      "skill_bonus_perception": 5,
+      "swim": 40,
+      "type": "beast",
+      "walk": 40,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage. If the target is a Huge or smaller creature, it must succeed on a DC 18 Dexterity saving throw or be swallowed by the titanoboa. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the snake, and takes 21 (6d6) acid damage at the start of each of the titanoboa's turns. If the titanoboa takes 30 damage or more on a single turn from a creature inside it, the titanoboa must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the titanoboa. If the titanoboa dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.",
+          "desc_ru": "Действие «Укус»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_titanoboa_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "tob_titanoboa",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 27 (3d12 + 8) bludgeoning damage, and the target is grappled (escape DC 18). Until this grapple ends, the target is restrained, and the titanoboa can't constrict another target.",
+          "desc_ru": "Действие «Констрикт»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_titanoboa_constrict",
+          "name": "Constrict",
+          "name_ru": "Констрикт",
+          "order_in_statblock": 2,
+          "parent": "tob_titanoboa",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The titanoboa makes one bite attack and one constrict attack.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_titanoboa_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob_titanoboa",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "If the titanoboa hasn't eaten a Huge creature in the last 24 hours, it can move through a space as narrow as 10 feet wide without squeezing, or 5 feet while squeezing.",
+          "desc_ru": "Особенность «Слитер». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_titanoboa_slither",
+          "name": "Slither",
+          "name_ru": "Слитер",
+          "parent": "tob_titanoboa",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The titanoboa's scales refract light in iridescent cascades that are hypnotic to gaze upon. If the titanoboa is in bright light, a creature within 30 feet that looks at it must make a successful DC 17 Wisdom saving throw or be stunned until the end of its next turn. Unless surprised, a creature can avoid the saving throw by choosing to avert its eyes at the start of its turn. A creature that averts its eyes can't see the titanoboa until the start of its next turn, when it can choose to avert its eyes again. If the creature looks at the titanoboa in the meantime, it must immediately make the saving throw.",
+          "desc_ru": "Особенность «Спарклинг Скалес». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_titanoboa_sparkling-scales",
+          "name": "Sparkling Scales",
+          "name_ru": "Спарклинг Скалес",
+          "parent": "tob_titanoboa",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Titanoboa",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Titanoboa",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Титанический зелёный змей может поднимать свою огромную голову достаточно высоко, высотой до 20 футов. Его тело простирается в казалось бы бесконечных катушках.\n\n**Территориальные и агрессивные.** Территориальный и прожорливый, редкий титанобoa пожирает всех нарушителей границ в своём домене. Сильнее и быстрее гигантской анаконды, настоящий король тропического леса также более упрямый, отбиваясь от целых групп охотников и браконьеров. Когда выслеживают добычу, эти великие змеи удар из засады, заглатывая даже многих динозавров одним укусом.\n\n**Ослепляющие чешуйки.** Группы против врагов, титанобоа доверяют в своей способности ослепить противников светом, отражающимся от их чешуи, используют это отвлечение внимания к клубок ошеломил врагов в дробильных катушках.\n\n**Медленно пара.** Титанобоа редко размножаются. Они живут сотни лет и никогда не перестают расти, что делает потребность в размножении менее актуальной. Когда два титанобоа гнездо, результатом является выводок полдюжины небольших змей (гигантские змеи-констрикторы). Взрослый титанобoa имеет как минимум 80 футов в длину и весит 6000 фунтов. или больше.",
+      "glossary_version": "v1",
+      "name": "Титанобоа",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

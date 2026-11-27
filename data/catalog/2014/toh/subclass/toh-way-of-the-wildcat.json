@@ -1,0 +1,158 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_way-of-the-wildcat",
+  "id": "o5e:toh:characterclass:toh-way-of-the-wildcat",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-way-of-the-wildcat"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "09068e0f94488eb98df196265a6e83e51d4593202236f7a83bce5814496e5fb2",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_monk"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "09068e0f94488eb98df196265a6e83e51d4593202236f7a83bce5814496e5fb2",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-way-of-the-wildcat",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_monk",
+        "type": "subclass_of",
+        "value": "srd_monk"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Monks of the Wildcat train relentlessly to incorporate speed, acrobatics, and precision strikes to exert control over the field of battle and foes alike. They learn techniques that emulate the grace and agility of felines, including reflexively avoiding blows and bounding between opponents with ease. Embodying the Way of the Wildcat requires intense devotion, endless practice, and no small amount of daring.",
+      "document": "toh",
+      "name": "Way of the Wildcat",
+      "subclass_of": "srd_monk"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you choose this tradition at 3rd level, you gain proficiency in the Acrobatics skill if you don't already have it. When you move at least 10 feet on your turn, you have advantage on the next Dexterity (Acrobatics) check you make before the start of your next turn.",
+          "desc_ru": "Когда вы выбираете эту традицию на 3-м уровне, вы получаете владение навыком Акробатика, если у вас его ещё нет. Когда вы перемещаетесь как минимум на 10 футов в ваш ход, вы совершаете с преимуществом следующую проверку Ловкости (Акробатика), которую вы совершаете до начала вашего следующего хода.",
+          "document": "toh",
+          "external_id": "toh_way-of-the-wildcat_enhanced-agility",
+          "level": 3,
+          "name": "Enhanced Agility",
+          "name_ru": "Улучшенная ловкость",
+          "parent": "toh_way-of-the-wildcat",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Also at 3rd level, the inner power infusing your reflexes augments your nimbleness and makes it harder to hit you. When a creature you can see misses you with an attack, the next attack against you before the start of your next turn is made with disadvantage. This can happen only once each turn. If you spend 2 ki points when a creature you can see misses you with an attack, you can take the Dodge action as a reaction instead.\n  You can't benefit from this feature if your speed is 0.",
+          "desc_ru": "Также на 3-м уровне внутренняя сила, наполняющая ваши рефлексы, усиливает вашу ловкость и затрудняет попадание по вам. Когда существо, которое вы можете видеть, промахивается по вам атакой, следующая атака против вас до начала вашего следующего хода совершается с помехой. Это может происходить только один раз каждый ход. Если вы тратите 2 очка ки, когда существо, которое вы можете видеть, промахивается по вам атакой, вы можете вместо этого выполнить действие Уклонение реакцией.\nВы не можете получить пользу от этой особенности, если ваша скорость 0.",
+          "document": "toh",
+          "external_id": "toh_way-of-the-wildcat_feline-reflexes",
+          "level": 3,
+          "name": "Feline Reflexes",
+          "name_ru": "Кошачьи рефлексы",
+          "parent": "toh_way-of-the-wildcat",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 6th level, when you move at least 10 feet straight toward a creature and hit it with an attack on the same turn, you can spend 1 ki point to channel your momentum into your attack, dealing extra damage or pushing the target (your choice). If dealing extra damage, the attack deals extra damage of the weapon's type equal to a roll of your Martial Arts die + your Wisdom modifier. If pushing the target, the target must succeed on a Strength saving throw or be pushed up to 10 feet away from you. If you used Step of the Wind to Dash before making the attack, the target has disadvantage on the saving throw.\n  You can use this feature only once per turn.",
+          "desc_ru": "Начиная с 6-го уровня, когда вы перемещаетесь как минимум на 10 футов прямо к существу и попадаете по нему атакой в тот же ход, вы можете потратить 1 очко ки, чтобы направить ваш импульс в вашу атаку, нанося дополнительный урон или отталкивая цель (на ваш выбор). Если наносится дополнительный урон, атака наносит дополнительный урон типа оружия, равный броску вашей кости Боевых искусств + ваш модификатор Мудрости. Если отталкивается цель, цель должна успешно пройти спасбросок Силы или быть оттолкнута до 10 футов от вас. Если вы использовали шаг ветра, чтобы совершить Рывок перед совершением атаки, цель совершает спасбросок с помехой.\nВы можете использовать эту особенность только один раз за ход.",
+          "document": "toh",
+          "external_id": "toh_way-of-the-wildcat_springing-pounce",
+          "level": 6,
+          "name": "Springing Pounce",
+          "name_ru": "Пружинистый прыжок",
+          "parent": "toh_way-of-the-wildcat",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 11th level, when you take no damage after succeeding on a Dexterity saving throw as a result of the Evasion monk class feature, you can use your reaction to move up to half your speed toward the source of the effect, such as the dragon or spellcaster that exhaled the lightning or cast the *fireball* that you avoided. If you end this movement within 5 feet of the source, you can spend 3 ki points to make one unarmed strike against it.",
+          "desc_ru": "Начиная с 11-го уровня, когда вы не получаете урона после успешного прохождения спасброска Ловкости в результате классовой особенности монаха Уклонение, вы можете реакцией переместиться до половины вашей скорости к источнику эффекта, такому как дракон или заклинатель, который выдохнул молнию или сотворил огненный шар, которого вы избежали. Если вы заканчиваете это перемещение в пределах 5 футов от источника, вы можете потратить 3 очка ки, чтобы совершить один безоружный удар против него.",
+          "document": "toh",
+          "external_id": "toh_way-of-the-wildcat_improved-feline-reflexes",
+          "level": 11,
+          "name": "Improved Feline Reflexes",
+          "name_ru": "Улучшенные кошачьи рефлексы",
+          "parent": "toh_way-of-the-wildcat",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 17th level, you can use your Springing Pounce feature as many times each turn as you want, provided you have the movement and attacks to do so. You must still spend 1 ki point each time you channel your momentum into your attack. Each time you move after hitting a creature in this way, you don't provoke opportunity attacks. If you miss an attack, further movement provokes opportunity attacks as normal.\n  If you use Flurry of Blows with Springing Pounce and hit a different creature with each attack, you can make one additional Springing Pounce attack without spending ki, provided you have the movement to do so.",
+          "desc_ru": "На 17-м уровне вы можете использовать вашу особенность Пружинистый прыжок столько раз каждый ход, сколько вы хотите, при условии, что у вас есть перемещение и атаки, чтобы сделать это. Вы по-прежнему должны тратить 1 очко ки каждый раз, когда вы направляете ваш импульс в вашу атаку. Каждый раз, когда вы перемещаетесь после попадания по существу этим способом, вы не провоцируете внеочередные атаки. Если вы промахиваетесь атакой, дальнейшее перемещение провоцирует внеочередные атаки как обычно.\nЕсли вы используете Шквал ударов с Пружинистым прыжком и попадаете по другому существу каждой атакой, вы можете совершить одну дополнительную атаку Пружинистым прыжком, не тратя ки, при условии, что у вас есть перемещение, чтобы сделать это.",
+          "document": "toh",
+          "external_id": "toh_way-of-the-wildcat_hundred-step-strike",
+          "level": 17,
+          "name": "Hundred Step Strike",
+          "name_ru": "Удар ста шагов",
+          "parent": "toh_way-of-the-wildcat",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Way of the Wildcat",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "Monks of the Wildcat train relentlessly to incorporate speed, acrobatics, and precision strikes to exert control over the field of battle and foes alike. They learn techniques that emulate the grace and agility of felines, including reflexively avoiding blows and bounding between opponents with ease. Embodying the Way of the Wildcat requires intense devotion, endless practice, and no small amount of daring.",
+      "name": "Way of the Wildcat",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Монахи Дикой кошки неустанно тренируются, чтобы включить скорость, акробатику и точные удары, чтобы осуществлять контроль над полем боя и врагами в равной степени. Они изучают техники, которые эмулируют грацию и ловкость кошачьих, включая рефлексивное избегание ударов и прыжки между противниками с лёгкостью. Воплощение Пути Дикой кошки требует интенсивной преданности, бесконечной практики и немалой смелости.",
+      "glossary_version": "v1",
+      "name": "Путь дикой кошки",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,141 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "astral-devourer",
+  "id": "o5e:tob2:monster:astral-devourer-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:astral-devourer"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "6be82749bafa1e74842a57bd9ae64ae8920d7c93dd63ba2d8e45cb807da07858",
+    "formulas": [
+      {
+        "expression": "12d8+36",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic evil",
+      "armor_class": 16,
+      "challenge_rating": "8",
+      "condition_immunities": "grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
+      "damage_immunities": "poison, psychic",
+      "damage_resistances": "bludgeoning, piercing, slashing",
+      "damage_vulnerabilities": "",
+      "hit_dice": "12d8+36",
+      "hit_points": 90,
+      "languages": "Deep Speech, Void Speech",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "6be82749bafa1e74842a57bd9ae64ae8920d7c93dd63ba2d8e45cb807da07858",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:astral-devourer",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The astral devourer makes two melee attacks.\"}, {\"name\": \"Hungering Serpents\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 0 ft., one target in the swarm's space. Hit: 8 (2d8) piercing damage, or 4 (1d8) piercing damage if the swarm has half of its hit points or fewer, plus 14 (4d6) poison damage.\", \"attack_bonus\": 7, \"damage_dice\": \"2d8\"}, {\"name\": \"Serpent Spray (Recharge 6)\", \"desc\": \"The astral devourer flings biting astral serpents outward. Each creature within 20 feet of the astral devourer must make a DC 16 Dexterity saving throw, taking 14 (4d6) piercing damage and 14 (4d6) poison damage on a failed save, or half as much damage on a successful one. The astral devourer regains hp equal to the single highest amount of piercing damage dealt by this spray.\"}]",
+      "alignment": "chaotic evil",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "8",
+      "charisma": 12,
+      "condition_immunities": "grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
+      "constitution": 17,
+      "cr": 8.0,
+      "damage_immunities": "poison, psychic",
+      "damage_resistances": "bludgeoning, piercing, slashing",
+      "desc": "A swarm of strange, faceless gray snakes flies through the air—wingless, as if through water. Their mouths are rasping irises of gnashing fangs, and the sides of each snake are lined with milky, unblinking eyes._  \nWhen enough serpents on the Astral Plane gather, they form a collective creature called an astral devourer. The astral devourer has a hive mind made up of all the minds of its component creatures and possesses a great cunning that makes it more adept at hunting.  \n**All for the Whole.** The individual astral serpents that make up the astral devourer have no thoughts or wills of their own, and the collective freely uses the individuals as weapons. The astral devourer often flings serpents at hard-to-reach prey to consume it. The flung serpents return to the astral devourer, bringing the consumed life force back to the collective. When food is particularly scarce or the devourer is in danger, it can split into subgroups of the main collective, feeding the individuals while keeping the whole safely dispersed.  \n**Planar Hunters.** Hunger constantly drives astral devourers. They love the taste of sentient planar travelers, and they roam the multiverse, favoring desolate landscapes. Reports indicate they’re adept at finding portals between worlds and relentlessly hunt prey through these portals.",
+      "dexterity": 16,
+      "dexterity_save": 6,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "12d8+36",
+      "hit_points": 90,
+      "intelligence": 14,
+      "intelligence_save": 5,
+      "languages": "Deep Speech, Void Speech",
+      "legendary_actions_json": "null",
+      "name": "Astral Devourer",
+      "page_no": 30,
+      "perception": 6,
+      "reactions_json": "[{\"name\": \"Divide\", \"desc\": \"When an astral devourer that is Small or larger takes bludgeoning, piercing, or slashing damage, it can split into two new astral devourers if it has at least 10 hp. Each new devourer has hp equal to half the original creature, rounded down. New astral devourers are one size smaller than the original. While within 1 mile of each other, the new astral devourers share one collective mind.\"}, {\"name\": \"Recombine\", \"desc\": \"When one or more astral devourers that are Small or smaller and share a collective mind are within 5 feet of each other, they can combine into a new astral devourer. The new astral devourer is one size larger than the largest original creature, and it has hp equal to the combined total of the original creatures. The new astral devourer's hp can't exceed the normal hp maximum of a Medium astral devourer.\"}]",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 16",
+      "size": "Medium",
+      "skills_json": "{\"perception\": 6, \"stealth\": 6}",
+      "special_abilities_json": "[{\"name\": \"Collective Mind\", \"desc\": \"The astral devourer's individual serpents are connected via a hive mind. It can telepathically communicate with any of its individual serpents within 1 mile of it, and it can't be surprised.\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The astral devourer has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Swarm\", \"desc\": \"The astral devourer can occupy another creature's space and vice versa, and the devourer can move through any opening large enough for a Tiny serpent. Except via Serpent Spray and Recombine, the astral devourer can't regain hp or gain temporary hp.\"}]",
+      "speed_json": "{\"fly\": 30, \"hover\": true, \"walk\": 30}",
+      "spells_json": "null",
+      "strength": 13,
+      "type": "Aberration",
+      "wisdom": 16
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Astral Devourer",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-astral-devourer"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "A swarm of strange, faceless gray snakes flies through the air—wingless, as if through water. Their mouths are rasping irises of gnashing fangs, and the sides of each snake are lined with milky, unblinking eyes._  \nWhen enough serpents on the Astral Plane gather, they form a collective creature called an astral devourer. The astral devourer has a hive mind made up of all the minds of its component creatures and possesses a great cunning that makes it more adept at hunting.  \n**All for the Whole.** The individual astral serpents that make up the astral devourer have no thoughts or wills of their own, and the collective freely uses the individuals as weapons. The astral devourer often flings serpents at hard-to-reach prey to consume it. The flung serpents return to the astral devourer, bringing the consumed life force back to the collective. When food is particularly scarce or the devourer is in danger, it can split into subgroups of the main collective, feeding the individuals while keeping the whole safely dispersed.  \n**Planar Hunters.** Hunger constantly drives astral devourers. They love the taste of sentient planar travelers, and they roam the multiverse, favoring desolate landscapes. Reports indicate they’re adept at finding portals between worlds and relentlessly hunt prey through these portals.",
+      "name": "Astral Devourer",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Рой странных безлицых серых змей летит по воздуху — без крыльев, как сквозь воду. Их рты — тёрки радужек грызущих клыков, а бока каждой змеи выложены молочными немигающими глазами.\n\nКогда достаточно змей на Астральном Плане собираются, они формируют коллективное существо, называемое астральным пожирателем. У астрального пожирателя есть разум улья, состоящий из всех разумов его составляющих существ и обладающий большой хитростью, которая делает его более искусным в охоте.\n\n**Всё для целого.** Отдельные астральные змеи, которые составляют астрального пожирателя, не имеют собственных мыслей или воли, и коллектив свободно использует отдельных особей как оружие. Астральный пожиратель часто швыряет змей в труднодоступную добычу, чтобы поглотить её. Швырнутые змеи возвращаются к астральному пожирателю, принося поглощённую жизненную силу обратно коллективу. Когда пища особенно скудна или пожиратель в опасности, он может разделиться на подгруппы главного коллектива, кормя отдельных особей, сохраняя целое безопасно рассеянным.\n\n**Планарные охотники.** Голод постоянно движет астральными пожирателями. Они любят вкус разумных планарных путешественников, и они бродят по мультивселенной, предпочитая пустынные ландшафты. Сообщения указывают, что они искусны в нахождении порталов между мирами и безжалостно охотятся на добычу через эти порталы.",
+      "glossary_version": "v1",
+      "name": "Астральный пожиратель",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,166 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_conjure-greater-spectral-dead",
+  "id": "o5e:deepm:spell:deepm-conjure-greater-spectral-dead",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-conjure-greater-spectral-dead",
+      "o5e:dmag:spell:conjure-greater-spectral-dead"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "6111bed8cb2c865b7f3ba4f4d5d60e2f3a551c0b1651db5dd646ea42d3b3a63c",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 hour",
+      "level": 7,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": "100.00",
+      "material_specified": "a handful of bone dust, a crystal prism worth at least 100 gp, and a platinum coin",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "6111bed8cb2c865b7f3ba4f4d5d60e2f3a551c0b1651db5dd646ea42d3b3a63c",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-conjure-greater-spectral-dead",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "9fb730872bd8dd5a522f4965bb76c838208e39e70c831e13273e9fb68c7b079f",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:conjure-greater-spectral-dead",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "concentration": true,
+      "desc": "You summon an incorporeal undead creature that appears in an unoccupied space you can see within range. You choose one of the following options for what appears:\n* One [wraith](https://api.open5e.com/monsters/wraith)\n* One [spectral guardian](https://api.open5e.com/monsters/spectral-guardian)\n* One [wolf spirit swarm](https://api.open5e.com/monsters/wolf-spirit-swarm)\nSummoned creatures disappear when they drop to 0 hit points or when the spell ends.\n\nThe summoned creature doesn’t attack you or your companions for the duration. Roll initiative for the summoned creature, which has its own turns. The creature attacks your enemies and tries to stay within 60 feet of you, but it otherwise controls its own actions. The summoned creature despises being bound and might harm or impede you and your companions by any means at its disposal other than direct attacks if the opportunity arises. At the beginning of the creature’s turn, you can use your reaction to verbally command it. The creature obeys your commands for that turn, and you take 1d6 psychic damage at the end of the turn. If your concentration is broken, the creature doesn’t disappear. Instead, you can no longer command it, it becomes hostile to you and your companions, and it attacks you and your allies if it believes it has a chance to win the fight or to inflict meaningful harm; otherwise it flees. You can’t dismiss the uncontrolled creature, but it disappears 1 hour after you summoned it.\n",
+      "document": "deepm",
+      "duration": "1 hour",
+      "higher_level": "When you cast this spell using a 9th‐level spell slot, you summon a [deathwisp](https://api.open5e.com/monsters/deathwisp) or two [ghosts](https://api.open5e.com/monsters/ghost) instead.",
+      "level": 7,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": "100.00",
+      "material_specified": "a handful of bone dust, a crystal prism worth at least 100 gp, and a platinum coin",
+      "name": "Conjure Greater Spectral Dead",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2828",
+          "parent": "deepm_conjure-greater-spectral-dead",
+          "type": "default"
+        },
+        {
+          "external_id": "2830",
+          "parent": "deepm_conjure-greater-spectral-dead",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2831",
+          "parent": "deepm_conjure-greater-spectral-dead",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Conjure Greater Spectral Dead",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You summon an incorporeal undead creature that appears in an unoccupied space you can see within range. You choose one of the following options for what appears:\n* One [wraith](https://api.open5e.com/monsters/wraith)\n* One [spectral guardian](https://api.open5e.com/monsters/spectral-guardian)\n* One [wolf spirit swarm](https://api.open5e.com/monsters/wolf-spirit-swarm)\nSummoned creatures disappear when they drop to 0 hit points or when the spell ends.\n\nThe summoned creature doesn’t attack you or your companions for the duration. Roll initiative for the summoned creature, which has its own turns. The creature attacks your enemies and tries to stay within 60 feet of you, but it otherwise controls its own actions. The summoned creature despises being bound and might harm or impede you and your companions by any means at its disposal other than direct attacks if the opportunity arises. At the beginning of the creature’s turn, you can use your reaction to verbally command it. The creature obeys your commands for that turn, and you take 1d6 psychic damage at the end of the turn. If your concentration is broken, the creature doesn’t disappear. Instead, you can no longer command it, it becomes hostile to you and your companions, and it attacks you and your allies if it believes it has a chance to win the fight or to inflict meaningful harm; otherwise it flees. You can’t dismiss the uncontrolled creature, but it disappears 1 hour after you summoned it.",
+      "name": "Conjure Greater Spectral Dead",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы вызываете бестелесное бессмертное существо, которое появляется в незанятом пространстве, которое вы можете видеть в пределах диапазона. Вы выбираете один из следующих вариантов того, что появится:\n\n* Один призрак\n* Один спектральный страж\n* Один рой волчьих духов\n\nПризванные существа исчезают, когда они опускаются до 0 попаданий или когда заклинание заканчивается.\n\nПризванное существо не нападает на вас или ваших спутников на продолжительность. Бросьте инициативу для призванного существа, которое имеет свои собственные повороты. Существо атакует ваших врагов и старается остаться в пределах 60 футов от вас, но в остальном контролирует свои собственные действия. Призванное существо презирает быть связанным и может повредить или препятствовать вам и вашим компаньонам любыми средствами, имеющимися в его распоряжении, кроме прямых нападений, если представляется возможность. В начале хода существа, вы можете использовать вашу реакцию, чтобы устно командовать им. Существо подчиняется вашим командам для этого поворота, и вы получаете 1d6 психического урона в конце хода. Если ваша концентрация нарушена, существо не исчезнет. Вместо этого вы больше не можете командовать им, она становится враждебной по отношению к вам и вашим спутникам, и она атакует вас и ваших союзников, если она верит, что у неё есть шанс выиграть бой или нанести значимый вред; в противном случае она бежит. Вы не можете отклонить неконтролируемое существо, но оно исчезает через 1 час после того, как вы его вызвали.",
+      "glossary_version": "v1",
+      "name": "Призвать больших спектральных мёртвых",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

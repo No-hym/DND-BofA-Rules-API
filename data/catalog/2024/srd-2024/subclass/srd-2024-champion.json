@@ -1,0 +1,156 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "srd-2024",
+  "category": "subclass",
+  "edition": "2024",
+  "external_id": "srd-2024_champion",
+  "id": "o5e:srd-2024:characterclass:srd-2024-champion",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "8f1812a17c3a49fda8580711d7ad1b57783f54e82e91be4baa30743e87d9373e",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "NONE",
+      "subclass_of": "srd-2024_fighter"
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_fighter",
+        "type": "subclass_of",
+        "value": "srd-2024_fighter"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "NONE",
+      "desc": "*Pursue Physical Excellence in Combat*\n\nA Champion focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor.",
+      "document": "srd-2024",
+      "name": "Champion",
+      "subclass_of": "srd-2024_fighter"
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 19 or 20 on the d20.",
+          "desc_ru": "Начиная с выбора этого архетипа на 3-м уровне, ваши атаки оружием наносят критическое попадание при выпадении 19 или 20.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_champion_improved-critical",
+          "level": 3,
+          "name": "Improved Critical",
+          "name_ru": "Улучшенный критический удар",
+          "parent": "srd-2024_champion",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Thanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks.",
+          "desc_ru": "Благодаря вашему атлетизму вы получаете преимущество на броски инициативы и проверки Силы (Атлетика).\n\nКроме того, сразу после нанесения критического попадания вы можете переместиться на расстояние до половины вашей скорости, не провоцируя Провоцированные атаки.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_champion_remarkable-athlete",
+          "level": 3,
+          "name": "Remarkable Athlete",
+          "name_ru": "Выдающийся атлет",
+          "parent": "srd-2024_champion",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain another Fighting Style feat of your choice.",
+          "desc_ru": "Вы получаете ещё одну черту Боевой стиль на свой выбор.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_champion_additional-fighting-style",
+          "level": 7,
+          "name": "Additional Fighting Style",
+          "name_ru": "Дополнительный боевой стиль",
+          "parent": "srd-2024_champion",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Inspiration whenever you start your turn without it.",
+          "desc_ru": "Острые ощущения битвы ведут вас к победе. Во время боя вы можете дать себе Героическое вдохновение каждый раз, когда начинаете свой ход без него.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_champion_heroic-warrior",
+          "level": 10,
+          "name": "Heroic Warrior",
+          "name_ru": "Героический воин",
+          "parent": "srd-2024_champion",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your attack rolls with weapons and Unarmed Strikes can now score a Critical Hit on a roll of 18–20 on the d20.",
+          "desc_ru": "Ваши броски атаки оружием и безоружными ударами теперь могут нанести критическое попадание при результате 18–20 на d20.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_champion_superior-critical",
+          "level": 15,
+          "name": "Superior Critical",
+          "name_ru": "Превосходный критический удар",
+          "parent": "srd-2024_champion",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You attain the pinnacle of resilience in battle, giving you these benefits.\n\n**Defy Death**. You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.\n\n**Heroic Rally**. At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point.",
+          "desc_ru": "Вы достигли вершины стойкости в бою, получая следующие преимущества.\n\n**Противостояние смерти.** Вы получаете преимущество на спасброски от смерти. Более того, когда вы выбрасываете 18–20 на спасброске от смерти, вы получаете преимущество, как если бы выбросили 20.\n\n**Героическое восстановление.** В начале каждого вашего хода вы восстанавливаете количество хитов, равное 5 + ваш модификатор Телосложения, если вы окровавлены и имеете как минимум 1 хит.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_champion_survivor",
+          "level": 18,
+          "name": "Survivor",
+          "name_ru": "Выживший",
+          "parent": "srd-2024_champion",
+          "ru_source": "memory"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Champion",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "*Pursue Physical Excellence in Combat*\n\nA Champion focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor.",
+      "name": "Champion",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Архетипичный Чемпион сосредотачивается на развитии грубой физической силы, отточенной до смертельного совершенства. Те, кто моделируют себя по этому архетипу, сочетают строгую тренировку с физическим превосходством, чтобы наносить разрушительные удары.\n\n##### Улучшенное критическое попадание\nНачиная, когда вы выбираете этот архетип на 3-м уровне, ваши атаки оружием получают критическое попадание при броске 19 или 20.\n\n##### Замечательный атлет\nНачиная с 7-го уровня, вы можете добавить половину вашего бонуса мастерства (округлить вверх) к любой проверки Силы, Ловкости или Телосложения, которую вы совершаете, которая уже не использует ваш бонус мастерства.\n\nКроме того, когда вы совершаете продолжительный прыжок с разбега, дистанция, которую вы можете покрыть, увеличивается на количество футов, равное вашему модификатору Силы.\n\n##### Дополнительный стиль боя\nНа 10-м уровне, вы можете выбрать второй вариант из способности класса Стиль боя.\n\n##### Превосходное критическое попадание\nНачиная с 15-го уровня, ваши атаки оружием получают критическое попадание при броске 18-20.\n\n##### Выживальщик\nНа 18-м уровне, вы достигаете вершины стойкости в бою. В начале каждого вашего хода вы восстанавливаете очки хитов, равные 5 + ваш модификатор Телосложения, если у вас не более половины ваших очков хитов осталось. Вы не получаете этого преимущества, если у вас 0 очков хитов.",
+      "glossary_version": "v1",
+      "name": "Чемпион",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

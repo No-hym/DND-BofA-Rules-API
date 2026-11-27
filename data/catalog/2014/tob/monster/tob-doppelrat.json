@@ -1,0 +1,242 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob_doppelrat",
+  "id": "o5e:tob:creature:tob-doppelrat",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creature:tob-2023-doppelrat",
+      "o5e:tob:creature:tob-doppelrat"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "822c3c89439ddf9240f1b190028f48ca6e5590bbb955b7a0518096221af4d25a",
+    "formulas": [
+      {
+        "expression": "5d4+10",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 2,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 17,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 2,
+      "ability_score_wisdom": 13,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "2.000",
+      "climb": 15,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [
+        "caves",
+        "ruins",
+        "underworld",
+        "urban"
+      ],
+      "fly": null,
+      "hit_dice": "5d4+10",
+      "hit_points": 22,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": 5,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "tiny",
+      "skill_bonus_acrobatics": null,
+      "swim": 15,
+      "walk": 15
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "822c3c89439ddf9240f1b190028f48ca6e5590bbb955b7a0518096221af4d25a",
+        "edition": "2014",
+        "id": "o5e:tob:creature:tob-doppelrat",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "ebb4d07742b292b099fc60c1cccc296df23d7dcad75087baf13d58a7a735365c",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creature:tob-2023-doppelrat",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 2,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 17,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 2,
+      "ability_score_wisdom": 13,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "category": "Monsters",
+      "challenge_rating": "2.000",
+      "climb": 15,
+      "darkvision_range": 60,
+      "document": "tob",
+      "environments": [
+        "caves",
+        "ruins",
+        "underworld",
+        "urban"
+      ],
+      "hit_dice": "5d4+10",
+      "hit_points": 22,
+      "hover": false,
+      "languages_desc": "-",
+      "name": "Doppelrat",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "saving_throw_dexterity": 5,
+      "size": "tiny",
+      "skill_bonus_stealth": 5,
+      "swim": 15,
+      "type": "monstrosity",
+      "walk": 15,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "A doppelrat under duress creates clones of itself at the beginning of its turn. Each round for 4 rounds, the number of live doppelrats quadruples but never exceeds 20. For example, when the doppelrat triggers arcane doubling, 1 rat becomes 4; at the start of the rat's next turn, those 4 become 16; and at the start of the rat's third turn, those 16 become 20, the maximum allowed. If one of the duplicates was destroyed between the original doppelrat's 1st and 2nd turns, then the surviving 3 would become 12, and so on. Each duplicate appears in the same space as any other rat, can either move or take an action the round it appears, and has 4 hit points and AC 13. Any surviving duplicates perish 1 minute (10 rounds) after the first ones were created. If the original doppelrat dies, its clones stop duplicating but the preexisting clones remain until their time expires. A creature can identify the original doppelrat from its duplicates as an action by making a successful DC 15 Intelligence (Nature) or Wisdom (Perception) check.",
+          "desc_ru": "Действие «Аркане Доублинг»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_doppelrat_arcane-doubling",
+          "name": "Arcane Doubling",
+          "name_ru": "Аркане Доублинг",
+          "order_in_statblock": 1,
+          "parent": "tob_doppelrat",
+          "ru_source": "derived",
+          "uses_param": 144,
+          "uses_type": "PER_DAY"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.",
+          "desc_ru": "Действие «Укус»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_doppelrat_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 0,
+          "parent": "tob_doppelrat",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "At the end of a dopplerat encounter, every creature bitten by a doppelrat or its duplicates must succeed on a DC 12 Constitution saving throw or contract the degenerate cloning disease. During each long rest, the diseased creature grows and sloughs off a stillborn clone. The doppeling process leaves the diseased creature incapacitated for 1 hour, unable to move and barely able to speak (spellcasting is impossible in this state). When the incapacitation wears off, the creature makes a DC 12 Constitution saving throw; it recovers from the disease when it makes its second successful save. Humanoid clones created by the disease cannot be brought to life in any manner.",
+          "desc_ru": "Действие «Доппелинг Дисеасе»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_doppelrat_doppeling-disease",
+          "name": "Doppeling Disease",
+          "name_ru": "Доппелинг Дисеасе",
+          "order_in_statblock": 2,
+          "parent": "tob_doppelrat",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The doppelrat has advantage on Wisdom (Perception) checks that rely on smell.",
+          "desc_ru": "Совершает проверки Мудрости (Восприятие) с преимуществом, если они полагаются на обоняние.",
+          "external_id": "tob_doppelrat_keen-smell",
+          "name": "Keen Smell",
+          "name_ru": "Кеен Смелл",
+          "parent": "tob_doppelrat",
+          "ru_source": "template"
+        },
+        {
+          "desc": "The hardest part of this monster is the sheer volume of attacks they generate. To model this, run them in groups of 4 for attack purposes and have those groups all use the same +5 to attack and do 1d4 damage. That way you need not roll 20 times for all of them, and you reduce the number of rolls required by a factor of 4.",
+          "desc_ru": "Особенность «Руннинг Доппелрац». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_doppelrat_running-doppelrats",
+          "name": "Running Doppelrats",
+          "name_ru": "Руннинг Доппелрац",
+          "parent": "tob_doppelrat",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Doppelrat",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Doppelrat",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Эта крыса вздрогнула в тот момент, когда поняла, что её увидели. В течение секунд одна крыса стала четырьмя, а затем четыре быстро умножились до шестнадцати крыс.",
+      "glossary_version": "v1",
+      "name": "Доппелькрыса",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

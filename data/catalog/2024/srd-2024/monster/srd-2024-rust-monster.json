@@ -1,0 +1,222 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "monster",
+  "edition": "2024",
+  "external_id": "srd-2024_rust-monster",
+  "id": "o5e:srd-2024:creature:srd-2024-rust-monster",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "851557eee84850923ca684e49572d2e59f9561b235312243546646e2191b6af2",
+    "formulas": [
+      {
+        "expression": "6d8 + 6",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 13,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 13,
+      "ability_score_wisdom": 13,
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "6d8 + 6",
+      "hit_points": 33,
+      "initiative_bonus": 1,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": -2,
+      "saving_throw_constitution": 1,
+      "saving_throw_dexterity": 1,
+      "saving_throw_intelligence": -4,
+      "saving_throw_strength": 1,
+      "saving_throw_wisdom": 1,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 40
+    },
+    "original_system": "5e-2024",
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 13,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 13,
+      "ability_score_wisdom": 13,
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "darkvision_range": 60,
+      "document": "srd-2024",
+      "hit_dice": "6d8 + 6",
+      "hit_points": 33,
+      "hover": false,
+      "initiative_bonus": 1,
+      "name": "Rust Monster",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "saving_throw_charisma": -2,
+      "saving_throw_constitution": 1,
+      "saving_throw_dexterity": 1,
+      "saving_throw_intelligence": -4,
+      "saving_throw_strength": 1,
+      "saving_throw_wisdom": 1,
+      "size": "medium",
+      "type": "monstrosity",
+      "walk": 40,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "The rust monster targets one nonmagical metal object—armor or a weapon—worn or carried by a creature within 5 feet of itself. Dexterity Saving Throw: DC 11, the creature with the object. Failure: The object takes a -1 penalty to the AC it offers (armor) or to its attack rolls (weapon). Armor is destroyed if the penalty reduces its AC to 10, and a weapon is destroyed if its penalty reaches -5. The penalty can be removed by casting the Mending spell on the armor or weapon.",
+          "desc_ru": "Действие «Антеннае»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd-2024_rust-monster_antennae",
+          "name": "Antennae",
+          "name_ru": "Антеннае",
+          "order_in_statblock": 2,
+          "parent": "srd-2024_rust-monster",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Attack Roll: +3, reach 5 ft. 5 (1d8 + 1) Piercing damage.",
+          "desc_ru": "Действие «Укус»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd-2024_rust-monster_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "srd-2024_rust-monster",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The rust monster touches a nonmagical metal object within 5 feet of itself that isn't being worn or carried. The touch destroys a 1-foot Cube [Area of Effect]|XPHB|Cube of the object.",
+          "desc_ru": "Действие «Дестрой Метал»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd-2024_rust-monster_destroy-metal",
+          "name": "Destroy Metal",
+          "name_ru": "Дестрой Метал",
+          "order_in_statblock": 3,
+          "parent": "srd-2024_rust-monster",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The rust monster makes one Bite attack and uses Antennae twice.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd-2024_rust-monster_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "srd-2024_rust-monster",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "REACTION",
+          "desc": "_Trigger:_ An attack roll hits the rust monster. _Response:_ The rust monster uses **Antennae**.",
+          "desc_ru": "Действие «Рефлексиве Антеннае»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd-2024_rust-monster_reflexive-antennae",
+          "name": "Reflexive Antennae",
+          "name_ru": "Рефлексиве Антеннае",
+          "order_in_statblock": 0,
+          "parent": "srd-2024_rust-monster",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The rust monster can pinpoint the location of ferrous metal within 30 feet of itself.",
+          "desc_ru": "Особенность «Железный Скент». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd-2024_rust-monster_iron-scent",
+          "name": "Iron Scent",
+          "name_ru": "Железный Скент",
+          "parent": "srd-2024_rust-monster",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Rust Monster",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Rust Monster",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Среднее Чудовище, Без мировоззрения*\n\n- **Класс Доспеха:** 14 (природный доспех)\n- **Хиты:** 27 (5к8 + 5)\n- **Скорость:** 40 фт.\n\n| СИЛ      | ЛОВ      | ТЕЛ      | ИНТ      | МДР      | ХАР      |\n|:---:|:---:|:---:|:---:|:---:|:---:|\n| 13 (+1)  | 12 (+1)  | 13 (+1)  | 2 (-4)   | 13 (+1)  | 6 (-2)   |\n\n- **Чувства:** тёмное зрение 60 фт.; Пассивная Внимательность 11\n- **Языки:** -\n- **Показатель опасности:** 1/2 (100 ОО)",
+      "glossary_version": "v1",
+      "name": "Ржавник",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,136 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "light-drake",
+  "id": "o5e:tob2:monster:light-drake-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:light-drake"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "dfe2ce762367b2a393e7a369abf0429b2eb30a14148ffaed96c1acd9d0410c78",
+    "formulas": [
+      {
+        "expression": "7d4+7",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral good",
+      "armor_class": 13,
+      "challenge_rating": "1/2",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "radiant",
+      "damage_vulnerabilities": "",
+      "hit_dice": "7d4+7",
+      "hit_points": 24,
+      "languages": "Common, Draconic",
+      "size": "Tiny"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "dfe2ce762367b2a393e7a369abf0429b2eb30a14148ffaed96c1acd9d0410c78",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:light-drake",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.\", \"attack_bonus\": 5, \"damage_dice\": \"1d6+3\"}, {\"name\": \"Breath Weapon (Recharge 6)\", \"desc\": \"A light drake can breathe a 30-foot line of brilliant white light. Each creature in that line must make a DC 13 Dexterity saving throw. On a failure, a creature takes 5 (2d4) radiant damage and is blinded for 1 minute. On a success, a creature takes half the damage and isn't blinded. A blinded creature can make a DC 13 Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.\"}]",
+      "alignment": "neutral good",
+      "armor_class": 13,
+      "bonus_actions_json": "null",
+      "challenge_rating": "1/2",
+      "charisma": 14,
+      "constitution": 13,
+      "cr": 0.5,
+      "damage_resistances": "radiant",
+      "desc": "The light drake is a small, bulky dragon with two legs and two wings. It has glowing yellow eyes, and light reflects easily off its golden scales._  \n**Light Bringers.** Light drakes are obsessed with bringing light into dark places, and often inhabit the darkest parts of the world. They use their light to aid lost travelers and defeat the denizens of the darkest parts of the world. They are regularly hunted by such denizens, who offer large rewards for their golden hides.  \n**Social Trinket-Collectors.** Light drakes are social creatures that live in small, glowing colonies in deep caverns. Like their larger cousins, they enjoy collecting trinkets, though they prefer objects made of bright metals or iridescent stones. They often adorn themselves with such trinkets and use their light magic to make the trinkets shine. Light drakes tend to sleep together in piles for warmth and light in the cold darkness, which has led to many a thief inadvertently stumbling into a colony of the jewelry-coated sleeping drakes after mistaking them for a pile of glittering treasure.  \n**Undead Slayers.** Light drakes despise undead and any creatures that use light, or the absence of light, to prey on innocents. They have a particularly strong hatred for Open Game License",
+      "dexterity": 16,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "7d4+7",
+      "hit_points": 24,
+      "intelligence": 8,
+      "languages": "Common, Draconic",
+      "legendary_actions_json": "null",
+      "name": "Light Drake",
+      "page_no": 231,
+      "perception": 3,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 13",
+      "size": "Tiny",
+      "skills_json": "{\"acrobatics\": 5, \"perception\": 3}",
+      "special_abilities_json": "[{\"name\": \"Reflective Scales\", \"desc\": \"When a light drake is within 5 feet of a source of light, that source of light sheds bright light and dim light for an additional 10 feet. While the light drake wears or carries an object that sheds light from the daylight spell, the light within 10 feet of the drake is sunlight.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"The light drake's innate spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\\nAt will: dancing lights, light, guiding star, starburst\\n3/day each: color spray, faerie fire\"}]",
+      "speed_json": "{\"fly\": 60, \"walk\": 20, \"hover\": true}",
+      "spells_json": "null",
+      "strength": 7,
+      "type": "Dragon",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Light Drake",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-light-drake"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "The light drake is a small, bulky dragon with two legs and two wings. It has glowing yellow eyes, and light reflects easily off its golden scales._  \n**Light Bringers.** Light drakes are obsessed with bringing light into dark places, and often inhabit the darkest parts of the world. They use their light to aid lost travelers and defeat the denizens of the darkest parts of the world. They are regularly hunted by such denizens, who offer large rewards for their golden hides.  \n**Social Trinket-Collectors.** Light drakes are social creatures that live in small, glowing colonies in deep caverns. Like their larger cousins, they enjoy collecting trinkets, though they prefer objects made of bright metals or iridescent stones. They often adorn themselves with such trinkets and use their light magic to make the trinkets shine. Light drakes tend to sleep together in piles for warmth and light in the cold darkness, which has led to many a thief inadvertently stumbling into a colony of the jewelry-coated sleeping drakes after mistaking them for a pile of glittering treasure.  \n**Undead Slayers.** Light drakes despise undead and any creatures that use light, or the absence of light, to prey on innocents. They have a particularly strong hatred for Open Game License",
+      "name": "Light Drake",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Световой дрейк — маленький коренастый дракон с двумя ногами и двумя крыльями. У него светящиеся жёлтые глаза, а свет легко отражается от его золотых чешуй.\n\n**Несущие свет.** Световые дрейки одержимы принесением света в тёмные места и часто населяют самые тёмные части мира. Они используют свой свет, чтобы помогать потерянным путешественникам и побеждать обитателей самых тёмных частей мира. На них регулярно охотятся такие обитатели, которые предлагают большие награды за их золотые шкуры.\n\n**Социальные коллекционеры безделушек.** Световые дрейки — социальные существа, которые живут в маленьких светящихся колониях в глубоких пещерах. Как и их более крупные кузены, они наслаждаются коллекционированием безделушек, хотя предпочитают предметы, сделанные из ярких металлов или переливающихся камней. Они часто украшают себя такими безделушками и используют свою световую магию, чтобы заставить безделушки сиять. Световые дрейки склонны спать вместе в кучах для тепла и света в холодной тьме, что привело ко многим ворам, непреднамеренно спотыкающимся о колонию покрытых драгоценностями спящих дрейков после того, как они ошибочно приняли их за кучу сверкающих сокровищ.\n\n**Убийцы нежити.** Световые дрейки презирают нежить и любых существ, которые используют свет или отсутствие света, чтобы охотиться на невинных.",
+      "glossary_version": "v1",
+      "name": "Световой дрейк",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,197 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_jagged-forcelance",
+  "id": "o5e:toh:spell:toh-jagged-forcelance",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:jagged-forcelance",
+      "o5e:toh:spell:toh-jagged-forcelance"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "953d30f0d8cda1c98c6bde1ff7f8c5a82cab1056a475c3571ba86fd5e57a6a64",
+    "formulas": [
+      {
+        "expression": "3d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "3d6",
+      "damage_types": [
+        "force"
+      ],
+      "duration": "instantaneous",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "strength",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "953d30f0d8cda1c98c6bde1ff7f8c5a82cab1056a475c3571ba86fd5e57a6a64",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-jagged-forcelance",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "8b4258df7017568391b97dc9750ef6de495a959678f3af9931eca2e6f4d7f997",
+        "edition": "2014",
+        "id": "o5e:toh:spell:jagged-forcelance",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "3d6",
+      "damage_types": [
+        "force"
+      ],
+      "desc": "You create a magical tether of pulsing, golden force between two willing creatures you can see within range. The two creatures must be within 15 feet of each other. The tether remains as long as each tethered creature ends its turn within 15 feet of the other tethered creature. If a tethered creature ends its turn more than 15 feet away from its tethered partner, the spell ends. Though the tether appears as a thin line, its effect extends the full height of the tethered creatures and can affect prone or hovering creatures, provided the hovering creature hovers no higher than the tallest tethered creature.\n  Any creature that touches the tether or ends its turn in a space the tether passes through must make a Strength saving throw. On a failure, a creature takes 3d6 force damage and is knocked prone. On a success, a creature takes half as much damage and isn't knocked prone. A creature that makes this saving throw, whether it succeeds or fails, can't be affected by the tether again until the start of your next turn.",
+      "document": "toh",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the maximum distance between the tethered creatures increases by 5 feet, and the damage increases by 1d6 for each slot level above 3rd.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "name": "Jagged Forcelance",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "strength",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "161",
+          "parent": "toh_jagged-forcelance",
+          "type": "default"
+        },
+        {
+          "damage_roll": "8d6",
+          "external_id": "163",
+          "parent": "toh_jagged-forcelance",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "13d6",
+          "external_id": "164",
+          "parent": "toh_jagged-forcelance",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "18d6",
+          "external_id": "165",
+          "parent": "toh_jagged-forcelance",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "23d6",
+          "external_id": "166",
+          "parent": "toh_jagged-forcelance",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "28d6",
+          "external_id": "167",
+          "parent": "toh_jagged-forcelance",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "33d6",
+          "external_id": "168",
+          "parent": "toh_jagged-forcelance",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Jagged Forcelance",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You create a magical tether of pulsing, golden force between two willing creatures you can see within range. The two creatures must be within 15 feet of each other. The tether remains as long as each tethered creature ends its turn within 15 feet of the other tethered creature. If a tethered creature ends its turn more than 15 feet away from its tethered partner, the spell ends. Though the tether appears as a thin line, its effect extends the full height of the tethered creatures and can affect prone or hovering creatures, provided the hovering creature hovers no higher than the tallest tethered creature.\n  Any creature that touches the tether or ends its turn in a space the tether passes through must make a Strength saving throw. On a failure, a creature takes 3d6 force damage and is knocked prone. On a success, a creature takes half as much damage and isn't knocked prone. A creature that makes this saving throw, whether it succeeds or fails, can't be affected by the tether again until the start of your next turn.",
+      "name": "Jagged Forcelance",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы создаёте магическую связь пульсирующей золотой силы между двумя согласными существами, которых вы видите в пределах дистанции. Два существа должны быть в пределах 15 футов друг от друга. Связь остаётся, пока каждое связанное существо заканчивает свой ход в пределах 15 футов от другого связанного существа. Если связанное существо заканчивает свой ход более чем в 15 футах от своего связанного партнёра, заклинание заканчивается. Хотя связь кажется тонкой линией, её эффект простирается на полную высоту связанных существ и может воздействовать на лежащих ничком или парящих существ, при условии, что парящее существо парит не выше самого высокого связанного существа.\n\nЛюбое существо, которое касается связи или заканчивает свой ход в пространстве, через которое проходит связь, должно совершить спасбросок Силы. При провале существо получает 3к6 урона силовым полем и сбито с ног. При успехе существо получает половину урона и не сбито с ног. Существо, которое совершает этот спасбросок, независимо от того, преуспевает оно или проваливает, не может быть затронуто связью снова до начала вашего следующего хода.",
+      "glossary_version": "v1",
+      "name": "Зазубренное силовое копьё",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

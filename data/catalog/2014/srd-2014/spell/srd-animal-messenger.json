@@ -1,0 +1,223 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_animal-messenger",
+  "id": "o5e:srd-2014:spell:srd-animal-messenger",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-animal-messenger",
+      "o5e:wotc-srd:spell:animal-messenger"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "3b5b5c96721ae8684503838f27cd2c8544e3d03bc131a122f1670c9ad1b69588",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "ritual",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_druid",
+        "srd_ranger"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "24 hours",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "A morsel of food.",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "saving_throw_ability": "",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "3b5b5c96721ae8684503838f27cd2c8544e3d03bc131a122f1670c9ad1b69588",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-animal-messenger",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "f3753085aef7a81a3d0658f7f80475d5e6263930804b14e3e7d1aa24df012014",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:animal-messenger",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "classes",
+        "value": [
+          "srd_bard",
+          "srd_druid",
+          "srd_ranger"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_druid",
+        "srd_ranger"
+      ],
+      "concentration": false,
+      "desc": "By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as \"a man or woman dressed in the uniform of the town guard\" or \"a red-haired dwarf wearing a pointed hat.\" You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals. \n\nWhen the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell.",
+      "document": "srd-2014",
+      "duration": "24 hours",
+      "higher_level": "If you cast this spell using a spell slot of 3rd level or higher, the duration of the spell increases by 48 hours for each slot level above 2nd.",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "A morsel of food.",
+      "name": "Animal Messenger",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "school": "enchantment",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5057",
+          "parent": "srd_animal-messenger",
+          "type": "default"
+        },
+        {
+          "external_id": "5058",
+          "parent": "srd_animal-messenger",
+          "type": "ritual"
+        },
+        {
+          "duration": "3 days",
+          "external_id": "5060",
+          "parent": "srd_animal-messenger",
+          "type": "slot_level_3"
+        },
+        {
+          "duration": "5 days",
+          "external_id": "5061",
+          "parent": "srd_animal-messenger",
+          "type": "slot_level_4"
+        },
+        {
+          "duration": "7 days",
+          "external_id": "5062",
+          "parent": "srd_animal-messenger",
+          "type": "slot_level_5"
+        },
+        {
+          "duration": "9 days",
+          "external_id": "5063",
+          "parent": "srd_animal-messenger",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "11 days",
+          "external_id": "5064",
+          "parent": "srd_animal-messenger",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "13 days",
+          "external_id": "5065",
+          "parent": "srd_animal-messenger",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "15 days",
+          "external_id": "5066",
+          "parent": "srd_animal-messenger",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Animal Messenger",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as \"a man or woman dressed in the uniform of the town guard\" or \"a red-haired dwarf wearing a pointed hat.\" You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals. \n\nWhen the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell.",
+      "name": "Animal Messenger",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Очарование 2-го уровня (Бард, Друид, Следопыт)*\n\n**Время накладывания:** Действие или Ритуал\n\n**Дистанция:** 30 футов\n\n**Компоненты:** В, С, М (кусочек еды)\n\n**Длительность:** 24 часов\n\nС помощью этого заклинания вы используете животное для доставки послания. Выберите Крошечного зверя, которого видите в пределах дистанции, например белку, сойку или летучую мышь. Вы указываете место назначения, которое должны были посещать, и получателя, соответствующего общему описанию, например «мужчина или женщина в форме городской стражи» или «рыжий дварф в остроконечной шляпе». Вы также произносите послание длиной до двадцати пяти слов. Зверь-цель перемещается на время действия заклинания к указанному месту, преодолевая около 50 миль за 24 часа для летающего посланника или 25 миль для других животных.\n\nКогда посланник прибывает, он передаёт ваше послание описанному вами существу, воспроизводя звук вашего голоса. Посланник обращается только к существу, соответствующему вашему описанию. Если посланник не достигнет цели до окончания заклинания, послание теряется, и зверь возвращается туда, где вы сотворили заклинание.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 3-го уровня или выше, длительность заклинания увеличивается на 48 часов за каждый уровень ячейки выше 2-го.",
+      "glossary_version": "v1",
+      "name": "Животный посланник",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

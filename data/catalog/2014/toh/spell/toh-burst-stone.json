@@ -1,0 +1,197 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_burst-stone",
+  "id": "o5e:toh:spell:toh-burst-stone",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:burst-stone",
+      "o5e:toh:spell:toh-burst-stone"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "99d49198949d55c8d85efbfe0d38bf33348ae7f7d727eb14f6f61dbbc007b283",
+    "formulas": [
+      {
+        "expression": "4d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "4d8",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "duration": "instantaneous",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "99d49198949d55c8d85efbfe0d38bf33348ae7f7d727eb14f6f61dbbc007b283",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-burst-stone",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "465fe0ee96e6cf215e90dfe7f3f746f938a49a328ccbaa01b643d2da25fead5e",
+        "edition": "2014",
+        "id": "o5e:toh:spell:burst-stone",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "4d8",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "desc": "You cause the ground at a point you can see within range to explode. The ground must be sand, earth, or unworked rock. Each creature within 10 feet of that point must make a Dexterity saving throw. On a failed save, the creature takes 4d8 bludgeoning damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone. The area then becomes difficult terrain with a 5-foot-deep pit centered on the point you chose.",
+      "document": "toh",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "name": "Burst Stone",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "46",
+          "parent": "toh_burst-stone",
+          "type": "default"
+        },
+        {
+          "damage_roll": "5d8",
+          "external_id": "48",
+          "parent": "toh_burst-stone",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "6d8",
+          "external_id": "49",
+          "parent": "toh_burst-stone",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "7d8",
+          "external_id": "50",
+          "parent": "toh_burst-stone",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "8d8",
+          "external_id": "51",
+          "parent": "toh_burst-stone",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "9d8",
+          "external_id": "52",
+          "parent": "toh_burst-stone",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "10d8",
+          "external_id": "53",
+          "parent": "toh_burst-stone",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Burst Stone",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You cause the ground at a point you can see within range to explode. The ground must be sand, earth, or unworked rock. Each creature within 10 feet of that point must make a Dexterity saving throw. On a failed save, the creature takes 4d8 bludgeoning damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone. The area then becomes difficult terrain with a 5-foot-deep pit centered on the point you chose.",
+      "name": "Burst Stone",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы заставляете землю в точке, которую вы можете видеть в пределах дистанции, взрываться. Земля должна быть песком, землёй или необработанной скалой. Каждое существо в пределах 10 футов от этой точки должно совершить спасбросок Ловкости. При проваленном спасброске существо получает 4к8 дробящего урона и сбито с ног. При успешном спасброске существо получает половину урона и не сбито с ног. Область затем становится труднопроходимой местностью с ямой глубиной 5 футов, центрированной на точке, которую вы выбрали.",
+      "glossary_version": "v1",
+      "name": "Взорвать камень",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,182 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_magic-circle",
+  "id": "o5e:srd-2024:spell:srd-2024-magic-circle",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "341d029bcd31535af5d8aaa8ce6c1ab0a3ced45716cfca307dee9803ffc70dc4",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "1minute",
+      "classes": [
+        "srd-2024_cleric",
+        "srd-2024_paladin",
+        "srd-2024_warlock",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 hour",
+      "level": 3,
+      "material": true,
+      "material_consumed": true,
+      "material_cost": null,
+      "material_specified": "salt and powdered silver worth 100+ GP, which the spell consumes",
+      "range": 10,
+      "range_text": "10 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_cleric",
+        "type": "classes",
+        "value": [
+          "srd-2024_cleric",
+          "srd-2024_paladin",
+          "srd-2024_warlock",
+          "srd-2024_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "1minute",
+      "classes": [
+        "srd-2024_cleric",
+        "srd-2024_paladin",
+        "srd-2024_warlock",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "desc": "You create a 10-foot-radius, 20-foot-tall Cylinder of magical energy centered on a point on the ground that you can see within range. Glowing runes appear wherever the Cylinder intersects with the floor or other surface. Choose one or more of the following types of creatures: Celestials, Elementals, Fey, Fiends, or Undead. The circle affects a creature of the chosen type in the following ways:\n\n- The creature can't willingly enter the Cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw.\n- The creature has Disadvantage on attack rolls against targets within the Cylinder.\n- Targets within the Cylinder can't be possessed by or gain the Charmed or Frightened condition from the creature. Each time you cast this spell, you can cause its magic to operate in the reverse direction, preventing a creature of the specified type from leaving the Cylinder and protecting targets outside it.",
+      "document": "srd-2024",
+      "duration": "1 hour",
+      "higher_level": "The duration increases by 1 hour for each spell slot level above 3.",
+      "level": 3,
+      "material": true,
+      "material_consumed": true,
+      "material_specified": "salt and powdered silver worth 100+ GP, which the spell consumes",
+      "name": "Magic Circle",
+      "range": 10,
+      "range_text": "10 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "duration": "2 hours",
+          "external_id": "10405",
+          "parent": "srd-2024_magic-circle",
+          "type": "slot_level_4"
+        },
+        {
+          "duration": "3 hours",
+          "external_id": "10406",
+          "parent": "srd-2024_magic-circle",
+          "type": "slot_level_5"
+        },
+        {
+          "duration": "4 hours",
+          "external_id": "10407",
+          "parent": "srd-2024_magic-circle",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "5 hours",
+          "external_id": "10408",
+          "parent": "srd-2024_magic-circle",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "6 hours",
+          "external_id": "10409",
+          "parent": "srd-2024_magic-circle",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "7 hours",
+          "external_id": "10410",
+          "parent": "srd-2024_magic-circle",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Magic Circle",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "You create a 10-foot-radius, 20-foot-tall Cylinder of magical energy centered on a point on the ground that you can see within range. Glowing runes appear wherever the Cylinder intersects with the floor or other surface. Choose one or more of the following types of creatures: Celestials, Elementals, Fey, Fiends, or Undead. The circle affects a creature of the chosen type in the following ways:\n\n- The creature can't willingly enter the Cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw.\n- The creature has Disadvantage on attack rolls against targets within the Cylinder.\n- Targets within the Cylinder can't be possessed by or gain the Charmed or Frightened condition from the creature. Each time you cast this spell, you can cause its magic to operate in the reverse direction, preventing a creature of the specified type from leaving the Cylinder and protecting targets outside it.",
+      "name": "Magic Circle",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Ограждение 3-го уровня (Жрец, Паладин, Колдун, Волшебник)*\n\n**Время накладывания:** 1 минута\n\n**Дистанция:** 10 футов\n\n**Компоненты:** В, С, М (святая вода или порошковое серебро и железо стоимостью не менее 100 зм, расходуемые заклинанием)\n\n**Длительность:** 1 час\n\nВы создаёте цилиндр магической энергии радиусом 10 футов и высотой 20 футов с центром в точке на земле, которую видите в пределах дистанции. Светящиеся руны появляются везде, где цилиндр пересекается с полом или другой поверхностью.\n\nВыберите один или несколько из следующих видов существ: исчадия, небожители, нежить, феи или элементали. Круг воздействует на существо выбранного вида следующим образом:\n\n- Существо не может добровольно войти в цилиндр немагическими средствами. Если существо пытается использовать телепортацию или межпланарное перемещение для этого, оно сначала должно преуспеть в спасброске Харизмы.\n- Существо совершает с помехой броски атаки по целям внутри цилиндра.\n- Цели внутри цилиндра не могут быть очарованы, испуганы или одержимы существом.\n\nСотворяя это заклинание, вы можете решить, что его магия действует в обратном направлении, не позволяя существу указанного вида покинуть цилиндр и защищая цели за его пределами.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 4-го уровня или выше, длительность увеличивается на 1 час за каждый уровень ячейки выше 3-го.",
+      "glossary_version": "v1",
+      "name": "Магический круг",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

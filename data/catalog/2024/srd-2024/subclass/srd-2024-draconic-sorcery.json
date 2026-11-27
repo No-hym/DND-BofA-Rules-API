@@ -1,0 +1,146 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "subclass",
+  "edition": "2024",
+  "external_id": "srd-2024_draconic-sorcery",
+  "id": "o5e:srd-2024:characterclass:srd-2024-draconic-sorcery",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "130fb3bd8bb4731c58b54a6f826882207fd0145e7157784ff2f78f64083790aa",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "NONE",
+      "subclass_of": "srd-2024_sorcerer"
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_sorcerer",
+        "type": "subclass_of",
+        "value": "srd-2024_sorcerer"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "NONE",
+      "desc": "*Breathe the Magic of Dragons*\n\nYour innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons' power. Or perhaps you handled a treasure taken from a dragon's hoard that was steeped in draconic power. Or you might have a dragon for an ancestor.",
+      "document": "srd-2024",
+      "name": "Draconic Sorcery",
+      "subclass_of": "srd-2024_sorcerer"
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "The magic in your body manifests physical traits of your draconic gift. Your Hit Point maximum increases by 3, and it increases by 1 whenever you gain another Sorcerer level.\n\nParts of you are also covered by dragon-like scales. While you aren't wearing armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers.",
+          "desc_ru": "Магия в вашем теле проявляет физические черты вашего драконьего дара. Ваш максимум хитов увеличивается на 3 и увеличивается на 1 каждый раз, когда вы получаете ещё один уровень чародея.\n\nЧасти вашего тела также покрыты чешуёй, похожей на драконью. Пока вы не носите доспехи, ваш базовый Класс Доспеха равен 10 + ваш модификатор Ловкости + ваш модификатор Харизмы.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_sorcerer_draconic-sorcery_draconic-resilience",
+          "level": 3,
+          "name": "Draconic Resilience",
+          "name_ru": "Драконья стойкость",
+          "parent": "srd-2024_draconic-sorcery",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared.\n\nTable: Draconic Spells\n\n|Sorcerer Level|Spells|\n|---|---|\n|3|Alter Self, Chromatic Orb, Command, Dragon's Breath|\n|5|Fear, Fly|\n|7|Arcane Eye, Charm Monster|\n|9|Legend Lore, Summon Dragon|",
+          "desc_ru": "Когда вы достигаете уровня чародея, указанного в таблице Драконьи заклинания, у вас с этого момента всегда подготовлены перечисленные заклинания.\n\nТаблица: Драконьи заклинания\n\n| Уровень чародея | Заклинания                                                |\n|---|---|\n| 3               | Смена обличья, Хроматическая сфера, Приказ, Драконье дыхание |\n| 5               | Страх, Полёт                                              |\n| 7               | Арканный глаз, Чары чудовища                      |\n| 9               | Знание легенд, Призыв дракона                                   |",
+          "document": "srd-2024",
+          "external_id": "srd-2024_sorcerer_draconic-sorcery_draconic-spells",
+          "level": 3,
+          "name": "Draconic Spells",
+          "name_ru": "Драконьи заклинания",
+          "parent": "srd-2024_draconic-sorcery",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your draconic magic has an affinity with a damage type associated with dragons. Choose one of those types: Acid, Cold, Fire, Lightning, or Poison.\n\nYou have Resistance to that damage type, and when you cast a spell that deals damage of that type, you can add your Charisma modifier to one damage roll of that spell.",
+          "desc_ru": "Ваша драконья магия имеет близость с типом урона, связанным с драконами. Выберите один из этих типов: Кислота, Холод, Огонь, Электричество или Яд.\n\nВы получаете сопротивление к этому типу урона, и когда вы творите заклинание, наносящее урон этого типа, вы можете добавить свой модификатор Харизмы к одному броску урона этого заклинания.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_sorcerer_draconic-sorcery_elemental-affinity",
+          "level": 6,
+          "name": "Elemental Affinity",
+          "name_ru": "Стихийная близость",
+          "parent": "srd-2024_draconic-sorcery",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "As a Bonus Action, you can cause draconic wings to appear on your back. The wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest unless you spend 3 Sorcery Points (no action required) to restore your use of it.",
+          "desc_ru": "На 14-м уровне вы получаете способность отращивать пару драконьих крыльев из спины, получая скорость полёта, равную вашей текущей скорости. Вы можете создать эти крылья бонусным действием в свой ход. Они существуют, пока вы не уберёте их бонусным действием в свой ход.\n\nВы не можете проявить свои крылья, нося доспех, если доспех не приспособлен для них, а одежда, не приспособленная для ваших крыльев, может быть уничтожена, когда вы их проявляете.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_sorcerer_draconic-sorcery_dragon-wings",
+          "level": 14,
+          "name": "Dragon Wings",
+          "name_ru": "Крылья дракона",
+          "parent": "srd-2024_draconic-sorcery",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You can cast *Summon Dragon* without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.\n\nWhenever you start casting the spell, you can modify it so that it doesn't require Concentration. If you do so, the spell's duration becomes 1 minute for that casting.",
+          "desc_ru": "Вы можете сотворить Призыв дракона без Материального компонента. Вы также можете сотворить его один раз без ячейки заклинаний, и вы восстанавливаете способность творить его этим способом, когда заканчиваете Продолжительный отдых.\n\nКаждый раз, когда вы начинаете творить заклинание, вы можете изменить его так, чтобы оно не требовало Концентрации. Если вы делаете это, длительность заклинания становится 1 минута для этого сотворения.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_sorcerer_draconic-sorcery_dragon-companion",
+          "level": 19,
+          "name": "Dragon Companion",
+          "name_ru": "Дракон-компаньон",
+          "parent": "srd-2024_draconic-sorcery",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "assembled_features": 4,
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "Draconic Sorcery",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "*Breathe the Magic of Dragons*\n\nYour innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons' power. Or perhaps you handled a treasure taken from a dragon's hoard that was steeped in draconic power. Or you might have a dragon for an ancestor.",
+      "name": "Draconic Sorcery",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Дышите магией драконов*\n\nВаша врождённая магия происходит от дара дракона. Возможно, древний дракон перед смертью завещал часть своей магической силы вам или вашему предку. Вы могли впитать магию из места, пропитанного силой драконов. Или, возможно, вы держали в руках сокровище из драконьего клада, насыщенное драконьей силой. Или у вас может быть дракон в числе предков.\n\n### Уровень 3: Драконья стойкость\n\nМагия в вашем теле проявляет физические черты вашего драконьего дара. Ваш максимум хитов увеличивается на 3 и увеличивается на 1 каждый раз, когда вы получаете ещё один уровень чародея.\n\nЧасти вашего тела также покрыты чешуёй, похожей на драконью. Пока вы не носите доспехи, ваш базовый Класс Доспеха равен 10 + ваш модификатор Ловкости + ваш модификатор Харизмы.\n\n### Уровень 3: Драконьи заклинания\n\nКогда вы достигаете уровня чародея, указанного в таблице Драконьи заклинания, у вас с этого момента всегда подготовлены перечисленные заклинания.\n\nТаблица: Драконьи заклинания\n\n| Уровень чародея | Заклинания                                                |\n|---|---|\n| 3               | Смена обличья, Хроматическая сфера, Приказ, Драконье дыхание |\n| 5               | Страх, Полёт                                              |\n| 7               | Арканный глаз, Чары чудовища                      |\n| 9               | Знание легенд, Призыв дракона                                   |\n\n### Уровень 6: Стихийная близость\n\nВаша драконья магия имеет близость с типом урона, связанным с драконами. Выберите один из этих типов: Кислота, Холод, Огонь, Электричество или Яд.\n\nВы получаете сопротивление к этому типу урона, и когда вы творите заклинание, наносящее урон этого типа, вы можете добавить свой модификатор Харизмы к одному броску урона этого заклинания.\n\n### Уровень 14: Крылья дракона\n\nНа 14-м уровне вы получаете способность отращивать пару драконьих крыльев из спины, получая скорость полёта, равную вашей текущей скорости. Вы можете создать эти крылья бонусным действием в свой ход. Они существуют, пока вы не уберёте их бонусным действием в свой ход.\n\nВы не можете проявить свои крылья, нося доспех, если доспех не приспособлен для них, а одежда, не приспособленная для ваших крыльев, может быть уничтожена, когда вы их проявляете.",
+      "glossary_version": "v1",
+      "name": "Драконье чародейство",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

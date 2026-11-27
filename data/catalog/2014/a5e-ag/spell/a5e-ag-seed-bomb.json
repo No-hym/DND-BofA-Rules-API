@@ -1,0 +1,202 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_seed-bomb",
+  "id": "o5e:a5e-ag:spell:a5e-ag-seed-bomb",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-seed-bomb",
+      "o5e:a5e:spell:seed-bomb-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "38f23c5128852fe995335368336f8040f725456b5cc75b63cd6bbd8af87773a2",
+    "formulas": [
+      {
+        "expression": "4d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "4d6",
+      "damage_types": [
+        "piercing"
+      ],
+      "duration": "1 minute",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0.0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": false
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "38f23c5128852fe995335368336f8040f725456b5cc75b63cd6bbd8af87773a2",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-seed-bomb",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "3e5ef07ad13f5f546c6149d5e5444303509dde549c4c23d3f77cb2bdec8f9c87",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:seed-bomb-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "4d6",
+      "damage_types": [
+        "piercing"
+      ],
+      "desc": "Up to four seeds appear in your hand and are infused with magic for the duration. As an action, a creature can throw one of these seeds at a point up to 60 feet away. Each creature within 5 feet of that point makes a Dexterity saving throw or takes 4d6 piercing damage. Depending on the material component used, a seed bomb also causes one of the following additional effects: Pinecone. Seed shrapnel explodes outward.\n\nA creature in the area of the exploding seed bomb makes a Constitution saving throw or it is blinded until the end of its next turn.\n\nSunflower. Seeds enlarge into a blanket of pointy needles. The area affected by the exploding seed bomb becomes difficult terrain for the next minute.\n\nTumbleweed. The weeds unravel to latch around creatures. A creature in the area of the exploding seed bomb makes a Dexterity saving throw or it becomes grappled until the end of its next turn.",
+      "document": "a5e-ag",
+      "duration": "1 minute",
+      "higher_level": "The damage increases by 1d6 for each slot level above 2nd.",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "name": "Seed Bomb",
+      "range": 0.0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": false
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "1902",
+          "parent": "a5e-ag_seed-bomb",
+          "type": "default"
+        },
+        {
+          "damage_roll": "5d6",
+          "external_id": "1904",
+          "parent": "a5e-ag_seed-bomb",
+          "type": "slot_level_3"
+        },
+        {
+          "damage_roll": "6d6",
+          "external_id": "1905",
+          "parent": "a5e-ag_seed-bomb",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "7d6",
+          "external_id": "1906",
+          "parent": "a5e-ag_seed-bomb",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "8d6",
+          "external_id": "1907",
+          "parent": "a5e-ag_seed-bomb",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "9d6",
+          "external_id": "1908",
+          "parent": "a5e-ag_seed-bomb",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "10d6",
+          "external_id": "1909",
+          "parent": "a5e-ag_seed-bomb",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "11d6",
+          "external_id": "1910",
+          "parent": "a5e-ag_seed-bomb",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Seed Bomb",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "Up to four seeds appear in your hand and are infused with magic for the duration. As an action, a creature can throw one of these seeds at a point up to 60 feet away. Each creature within 5 feet of that point makes a Dexterity saving throw or takes 4d6 piercing damage. Depending on the material component used, a seed bomb also causes one of the following additional effects: Pinecone. Seed shrapnel explodes outward.\n\nA creature in the area of the exploding seed bomb makes a Constitution saving throw or it is blinded until the end of its next turn.\n\nSunflower. Seeds enlarge into a blanket of pointy needles. The area affected by the exploding seed bomb becomes difficult terrain for the next minute.\n\nTumbleweed. The weeds unravel to latch around creatures. A creature in the area of the exploding seed bomb makes a Dexterity saving throw or it becomes grappled until the end of its next turn.",
+      "name": "Seed Bomb",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "В вашей руке появляются до четырёх семян и наполняются магией на срок действия. Действием существо может бросить одно из этих семян в точку на расстояние до 60 футов. Каждое существо в пределах 5 футов от этой точки совершает спасбросок Ловкости, иначе получает 4к6 колющего урона. В зависимости от использованного материального компонента, семенная бомба также вызывает один из следующих дополнительных эффектов:\n\n**Сосновая шишка.** Осколки семени взрываются наружу. Существо в области взрывающейся семенной бомбы совершает спасбросок Телосложения, иначе будет ослеплено до конца своего следующего хода.\n\n**Подсолнух.** Семена увеличиваются в одеяло острых игл. Область, затронутая взрывающейся семенной бомбой, становится труднопроходимой местностью на следующую минуту.\n\n**Перекати-поле.** Растения распутываются, чтобы обхватить существ. Существо в области взрывающейся семенной бомбы совершает спасбросок Ловкости, иначе станет схваченным до конца своего следующего хода.",
+      "glossary_version": "v1",
+      "name": "Семенная бомба",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

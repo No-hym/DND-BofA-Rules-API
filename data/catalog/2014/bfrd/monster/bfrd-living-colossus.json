@@ -1,0 +1,296 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode)",
+  "book_id": "bfrd",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "bfrd_living-colossus",
+  "id": "o5e:bfrd:creature:bfrd-living-colossus",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:creature:bfrd-living-colossus",
+      "o5e:blackflag:monster:living-colossus-bf"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e4a7de9f2ada0a1e285b9aa9f45a69644c892615e3594131267fe4d64143c314",
+    "formulas": [
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 22,
+      "ability_score_constitution": 30,
+      "ability_score_dexterity": 8,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 30,
+      "ability_score_wisdom": 14,
+      "alignment": "chaotic evil",
+      "armor_class": 18,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "15.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [
+        "slashing"
+      ],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 120,
+      "environments": [],
+      "fly": null,
+      "hit_dice": null,
+      "hit_points": 261,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "any languages the animating spirit knew in life",
+      "normal_sight_range": 10560,
+      "passive_perception": 12,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": 6,
+      "saving_throw_constitution": 10,
+      "saving_throw_dexterity": -1,
+      "saving_throw_intelligence": 0,
+      "saving_throw_strength": 10,
+      "saving_throw_wisdom": 2,
+      "size": "gargantuan",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 60
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "e4a7de9f2ada0a1e285b9aa9f45a69644c892615e3594131267fe4d64143c314",
+        "edition": "2014",
+        "id": "o5e:bfrd:creature:bfrd-living-colossus",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "blackflag",
+        "content_hash": "3c45bfe1c20e8f1d25e6b33cd783204b66b7033937e2d6d1d237e1bfc6a11d12",
+        "edition": "2014",
+        "id": "o5e:blackflag:monster:living-colossus-bf",
+        "license": "ORC-1.0",
+        "source": "open5e:v1:blackflag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 22,
+      "ability_score_constitution": 30,
+      "ability_score_dexterity": 8,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 30,
+      "ability_score_wisdom": 14,
+      "alignment": "chaotic evil",
+      "armor_class": 18,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "15.000",
+      "damage_immunities_display": "Construct Resilience",
+      "damage_resistances": [
+        "slashing"
+      ],
+      "damage_resistances_display": "slashing",
+      "darkvision_range": 120,
+      "document": "bfrd",
+      "hit_points": 261,
+      "hover": false,
+      "languages_desc": "any languages the animating spirit knew in life",
+      "name": "Living Colossus",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 12,
+      "saving_throw_charisma": 6,
+      "saving_throw_constitution": 10,
+      "saving_throw_dexterity": -1,
+      "saving_throw_intelligence": 0,
+      "saving_throw_strength": 10,
+      "saving_throw_wisdom": 2,
+      "size": "gargantuan",
+      "type": "construct",
+      "walk": 60,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "REACTION",
+          "desc": "When a friendly creature the living colossus can see within 60 feet of it, other than itself, takes damage, the living colossus can share some of the life force of the spirit animating it with that friendly creature. The target gains 14 (4d6) temporary HP for 1 minute. If the target would take enough damage to reduce it to 0 HP, it instead regains 14 (4d8) HP.",
+          "desc_ru": "Действие «Болстеринг Спирит»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_living-colossus_bolstering-spirit",
+          "name": "Bolstering Spirit",
+          "name_ru": "Болстеринг Спирит",
+          "order_in_statblock": 0,
+          "parent": "bfrd_living-colossus",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The living colossus makes three Slam attacks, or it makes four Spirit Blast attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_living-colossus_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "bfrd_living-colossus",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "The living colossus strikes the ground with its foot. Each creature within 30 feet of the living colossus must succeed on a DC 18 STR save or be knocked prone and have the air knocked from its lungs, if it is a breathing creature, until the start of the living colossus's next turn. A creature with the air knocked from its lungs can't speak or cast spells with verbal components. If a creature fails the save by 5 or more, it is also stunned until the start of the living colossus's next turn.",
+          "desc_ru": "Действие «Кваке»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_living-colossus_quake",
+          "name": "Quake",
+          "name_ru": "Кваке",
+          "order_in_statblock": 0,
+          "parent": "bfrd_living-colossus",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "_Melee Weapon Attack:_ +15 to hit, reach 5 ft., one target. _Hit:_ 32 (4d10+10) bludgeoning damage.",
+          "desc_ru": "Атака оружием ближнего боя: +15 к попаданию, досягаемость 5 фт., одна цель. Попадание: 32 (4к10+10) дробящего урона.",
+          "external_id": "bfrd_living-colossus_slam",
+          "name": "Slam",
+          "name_ru": "Удар",
+          "order_in_statblock": 1,
+          "parent": "bfrd_living-colossus",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "_Ranged Spell Attack:_ +11 to hit, range 120 ft., one target. _Hit:_ 24 (4d8+6) psychic damage.",
+          "desc_ru": "Атака заклинанием дальнего боя: +11 к попаданию, дистанция 120 фт., одна цель. Попадание: 24 (4к8+6) психического урона.",
+          "external_id": "bfrd_living-colossus_spirit-blast",
+          "name": "Spirit Blast",
+          "name_ru": "Спирит Бласт",
+          "order_in_statblock": 2,
+          "parent": "bfrd_living-colossus",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The living colossus slams its hands together, creating a thunderous wave in a 30-foot cone. Each creature in that area must make a DC 18 CON save, taking 59 (17d6) thunder damage on a failed save, or half as much damage on a successful one.",
+          "desc_ru": "Действие «Тундероус Клап»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_living-colossus_thunderous-clap",
+          "name": "Thunderous Clap",
+          "name_ru": "Тундероус Клап",
+          "order_in_statblock": 3,
+          "parent": "bfrd_living-colossus",
+          "ru_source": "derived",
+          "uses_param": 5,
+          "uses_type": "RECHARGE_ON_ROLL"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The living colossus doesn't require air, food, drink, or sleep.",
+          "desc_ru": "Особенность «Конструкт Натуре». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_living-colossus_construct-nature",
+          "name": "Construct Nature",
+          "name_ru": "Конструкт Натуре",
+          "parent": "bfrd_living-colossus",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The living colossus is immune to poison and psychic damage, and it is immune to exhaustion and the charmed, frightened, paralyzed, petrified, and poisoned conditions.",
+          "desc_ru": "Особенность «Конструкт Ресилиенке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_living-colossus_construct-resilience",
+          "name": "Construct Resilience",
+          "name_ru": "Конструкт Ресилиенке",
+          "parent": "bfrd_living-colossus",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "While the living colossus remains motionless, it is indistinguishable from a normal statue or monument of the individual it represents.",
+          "desc_ru": "Особенность «Фалсе Аппеаранке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_living-colossus_false-appearance",
+          "name": "False Appearance",
+          "name_ru": "Фалсе Аппеаранке",
+          "parent": "bfrd_living-colossus",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The living colossus is immune to any spell or effect that would alter its form.",
+          "desc_ru": "Иммунитет к любым заклинаниям и эффектам, которые изменили бы его форму.",
+          "external_id": "bfrd_living-colossus_immutable-form",
+          "name": "Immutable Form",
+          "name_ru": "Иммутабле форме",
+          "parent": "bfrd_living-colossus",
+          "ru_source": "template"
+        },
+        {
+          "desc": "The living colossus deals double damage to objects and structures.",
+          "desc_ru": "Особенность «Сиеге Монстер». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_living-colossus_siege-monster",
+          "name": "Siege Monster",
+          "name_ru": "Сиеге Монстер",
+          "parent": "bfrd_living-colossus",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Living Colossus",
+      "license": "CC-BY-4.0",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Living Colossus",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Гигантский конструкт, мировоззрение: хаотично-злое. Класс доспеха: 18 (природный доспех). Хиты: 261. Скорость: ходьба 60 фт.. Характеристики: СИЛ 30, ЛОВ 8, ТЕЛ 30, ИНТ 10, МУД 14, ХАР 22. Сопротивление урону: рубящего. Чувства: тёмное зрение 120 фт., пассивное Восприятие 12. Показатель опасности: 15. Структурированные механики записи: особенностей: 5, действий: 6.",
+      "glossary_version": "derived-v1",
+      "name": "Ливинг Колоссус",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

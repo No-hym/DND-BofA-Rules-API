@@ -1,0 +1,184 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_kiss-of-the-succubus",
+  "id": "o5e:deepm:spell:deepm-kiss-of-the-succubus",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-kiss-of-the-succubus",
+      "o5e:dmag:spell:kiss-of-the-succubus"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "cc887b5d057acac106c105d159614ab1929f1ff7cb441b4ec9a0343797e049ff",
+    "formulas": [
+      {
+        "expression": "5d10",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "5d10",
+      "damage_types": [
+        "psychic"
+      ],
+      "duration": "instantaneous",
+      "level": 5,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": false
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "cc887b5d057acac106c105d159614ab1929f1ff7cb441b4ec9a0343797e049ff",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-kiss-of-the-succubus",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "abb44611e805efbfc5ba8a6667ea7ccf1fad4bd4832cd3ce89872fc70f1d94ce",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:kiss-of-the-succubus",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "5d10",
+      "damage_types": [
+        "psychic"
+      ],
+      "desc": "You kiss a willing creature or one you have charmed or held spellbound through spells or abilities such as [dominate person](https://api.open5e.com/spells/dominate-person). The target must make a Constitution saving throw. A creature takes 5d10 psychic damage on a failed save, or half as much damage on a successful one. The target’s hit point maximum is reduced by an amount equal to the damage taken; this reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.\n",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.",
+      "level": 5,
+      "material": false,
+      "material_consumed": false,
+      "name": "Kiss of the Succubus",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": false
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3652",
+          "parent": "deepm_kiss-of-the-succubus",
+          "type": "default"
+        },
+        {
+          "damage_roll": "6d10",
+          "external_id": "3654",
+          "parent": "deepm_kiss-of-the-succubus",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "7d10",
+          "external_id": "3655",
+          "parent": "deepm_kiss-of-the-succubus",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "8d10",
+          "external_id": "3656",
+          "parent": "deepm_kiss-of-the-succubus",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "9d10",
+          "external_id": "3657",
+          "parent": "deepm_kiss-of-the-succubus",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Kiss of the Succubus",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You kiss a willing creature or one you have charmed or held spellbound through spells or abilities such as [dominate person](https://api.open5e.com/spells/dominate-person). The target must make a Constitution saving throw. A creature takes 5d10 psychic damage on a failed save, or half as much damage on a successful one. The target’s hit point maximum is reduced by an amount equal to the damage taken; this reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+      "name": "Kiss of the Succubus",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы целуете согласное существо или то, которое вы очаровали или удержали заворожённым через заклинания или способности, такие как доминирование над личностью. Цель должна совершить спасбросок Телосложения. Существо получает 5к10 психического урона при проваленном спасброске, или половину урона при успешном. Максимум хитов цели уменьшается на количество, равное полученному урону; это уменьшение длится, пока цель не закончит длинный отдых. Цель умирает, если этот эффект уменьшает его максимум хитов до 0.",
+      "glossary_version": "v1",
+      "name": "Поцелуй суккуба",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

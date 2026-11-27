@@ -1,0 +1,175 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_mammons-due",
+  "id": "o5e:deepm:spell:deepm-mammons-due",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-mammons-due",
+      "o5e:dmag:spell:mammons-due"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c484dcf46a1a9593f281ec1789ffdd04a7a4eb40dc275342680467286e8eec86",
+    "formulas": [
+      {
+        "expression": "10d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      },
+      {
+        "type": "ritual",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1hour",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "10d6",
+      "damage_types": [
+        "fire"
+      ],
+      "duration": "1 minute",
+      "level": 9,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "11 gilded human skulls worth 150 gp each, which are consumed by the spell",
+      "range": 500,
+      "range_text": "500 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "saving_throw_ability": "strength",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "c484dcf46a1a9593f281ec1789ffdd04a7a4eb40dc275342680467286e8eec86",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-mammons-due",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "e120cfa0c5dda283dfff17bc1e37468bf5f7d2768f807d57f8b7087a8e124336",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:mammons-due",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1hour",
+      "concentration": true,
+      "damage_roll": "10d6",
+      "damage_types": [
+        "fire"
+      ],
+      "desc": "You summon a cylindrical sinkhole filled with burning ash and grasping arms made of molten metal at a point on the ground you can see within range. The sinkhole is 20 feet deep and 50 feet in diameter, and is difficult terrain. A creature that’s in the area when the spell is cast, or that begins its turn in the area or enters it during its turn, takes 10d6 fire damage and must make a Strength or Dexterity (creature’s choice) saving throw. On a failed save, the creature is restrained by the molten arms, which try to drag it below the surface of the ash.\n\nA creature that’s restrained by the arms at the start of your turn must make a successful Strength saving throw or be pulled 5 feet farther down into the ash. A creature pulled below the surface is blinded, deafened, and can’t breathe. To escape, a creature must use an action to make a successful Strength or Dexterity check against your spell save DC. On a successful check, the creature is no longer restrained and can move through the difficult terrain of the ash pit. It doesn’t need to make a Strength or Dexterity saving throw this turn to not be grabbed by the arms again, but it must make the saving throw as normal if it’s still in the ash pit at the start of its next turn.\n\nThe diameter of the ash pit increases by 10 feet at the start of each of your turns for the duration of the spell. The ash pit remains after the spell ends, but the grasping arms disappear and restrained creatures are freed automatically. As the ash slowly cools, it deals 1d6 less fire damage for each hour that passes after the spell ends.",
+      "document": "deepm",
+      "duration": "1 minute",
+      "level": 9,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "11 gilded human skulls worth 150 gp each, which are consumed by the spell",
+      "name": "Mammon’s Due",
+      "range": 500,
+      "range_text": "500 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "saving_throw_ability": "strength",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3749",
+          "parent": "deepm_mammons-due",
+          "type": "default"
+        },
+        {
+          "external_id": "3750",
+          "parent": "deepm_mammons-due",
+          "type": "ritual"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Mammon’s Due",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You summon a cylindrical sinkhole filled with burning ash and grasping arms made of molten metal at a point on the ground you can see within range. The sinkhole is 20 feet deep and 50 feet in diameter, and is difficult terrain. A creature that’s in the area when the spell is cast, or that begins its turn in the area or enters it during its turn, takes 10d6 fire damage and must make a Strength or Dexterity (creature’s choice) saving throw. On a failed save, the creature is restrained by the molten arms, which try to drag it below the surface of the ash.\n\nA creature that’s restrained by the arms at the start of your turn must make a successful Strength saving throw or be pulled 5 feet farther down into the ash. A creature pulled below the surface is blinded, deafened, and can’t breathe. To escape, a creature must use an action to make a successful Strength or Dexterity check against your spell save DC. On a successful check, the creature is no longer restrained and can move through the difficult terrain of the ash pit. It doesn’t need to make a Strength or Dexterity saving throw this turn to not be grabbed by the arms again, but it must make the saving throw as normal if it’s still in the ash pit at the start of its next turn.\n\nThe diameter of the ash pit increases by 10 feet at the start of each of your turns for the duration of the spell. The ash pit remains after the spell ends, but the grasping arms disappear and restrained creatures are freed automatically. As the ash slowly cools, it deals 1d6 less fire damage for each hour that passes after the spell ends.",
+      "name": "Mammon’s Due",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы вызываете цилиндрическую воронку заполненной горящим пеплом и хватающими руками, сделанными из расплавленного металла в точке на земле, которую можете видеть в пределах диапазона. Воды глубиной 20 футов и 50 футов в диаметре, и является трудной местностью. Существо, которое находится в районе, когда создаётся заклинание, или которое начало свой ход в районе или входит в него во время его хода, получает 10d6 повреждений огнём и должно сделать Сила или Ловкость (выбор существа) сохранение спасброска. На неудавшейся экономии существо сдержано рукотворными руками, которые пытаются затянуть его ниже поверхности пепла.\n\nСущество, которое сдерживается руками в начале вашего хода, должно сделать успешную сохранность Силы или быть вытянутым на 5 футов дальше в пепел. Существо, вытянутое ниже поверхности, ослепло, оглохло и не может дышать. Чтобы убежать, существо должно использовать действие для успешной проверки Силы или Ловкости против спасброска заклинаний. При успешной проверке существо больше не сдерживается и может двигаться через трудную местность золы ямы. Он не должен делать спасбросок Силы или Ловкости в этом ходе, чтобы не быть схваченным руками снова, но он должен сделать спасбросок как обычно, если он все ещё находится в зольном яме в начале следующего хода.\n\nДиаметр ямы пепла увеличивается на 10 футов в начале каждого из ваших поворотов на продолжительность заклинания. Яма золы останется после того, как заклинание закончится, но хватающие руки исчезнут, и сдержанные существа будут освобождены автоматически. По мере того как зола медленно остывает, она наносит на 1d6 меньше урона от огня за каждый час, прошедшего после окончания заклинания.",
+      "glossary_version": "v1",
+      "name": "Долг Маммона",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

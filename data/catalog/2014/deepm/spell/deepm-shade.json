@@ -1,0 +1,195 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_shade",
+  "id": "o5e:deepm:spell:deepm-shade",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-shade",
+      "o5e:dmag:spell:shade"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "a817420b27891b53d7acbb5efe10b6be2e47aa1f2d1385b4ac8d2e1ac87679eb",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "10 minutes",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "a817420b27891b53d7acbb5efe10b6be2e47aa1f2d1385b4ac8d2e1ac87679eb",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-shade",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "63aff0f43c09dfc7edd631e3d810087bc48f32dd0a50f66629b302c1a9eaa618",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:shade",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "You create a magical screen across your eyes. While the screen remains, you are immune to blindness caused by visible effects, such as [color spray](https://api.open5e.com/spells/color-spray). The spell doesn’t alleviate blindness that’s already been inflicted on you. If you normally suffer penalties on attacks or ability checks while in sunlight, those penalties don’t apply while you’re under the effect of this spell.\n",
+      "document": "deepm",
+      "duration": "10 minutes",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the duration of the spell increases by 10 minutes for each slot level above 2nd.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Shade",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4062",
+          "parent": "deepm_shade",
+          "type": "default"
+        },
+        {
+          "duration": "20 minutes",
+          "external_id": "4064",
+          "parent": "deepm_shade",
+          "type": "slot_level_3"
+        },
+        {
+          "duration": "30 minutes",
+          "external_id": "4065",
+          "parent": "deepm_shade",
+          "type": "slot_level_4"
+        },
+        {
+          "duration": "40 minutes",
+          "external_id": "4066",
+          "parent": "deepm_shade",
+          "type": "slot_level_5"
+        },
+        {
+          "duration": "50 minutes",
+          "external_id": "4067",
+          "parent": "deepm_shade",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "60 minutes",
+          "external_id": "4068",
+          "parent": "deepm_shade",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "70 minutes",
+          "external_id": "4069",
+          "parent": "deepm_shade",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "80 minutes",
+          "external_id": "4070",
+          "parent": "deepm_shade",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Shade",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You create a magical screen across your eyes. While the screen remains, you are immune to blindness caused by visible effects, such as [color spray](https://api.open5e.com/spells/color-spray). The spell doesn’t alleviate blindness that’s already been inflicted on you. If you normally suffer penalties on attacks or ability checks while in sunlight, those penalties don’t apply while you’re under the effect of this spell.",
+      "name": "Shade",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "У вашего персонажа-тени есть ряд черт, которые возникают от того, что он является тенью, а также несколько черт, взятых из жизни.",
+      "glossary_version": "v1",
+      "name": "Тень",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

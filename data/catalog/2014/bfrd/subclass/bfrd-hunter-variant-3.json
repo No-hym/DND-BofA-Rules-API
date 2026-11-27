@@ -1,0 +1,170 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "bfrd",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "bfrd_hunter",
+  "id": "o5e:bfrd:characterclass:bfrd-hunter-variant-3",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:characterclass:bfrd-hunter"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "90f98d9adde2b6077783db144b134b3ca83f1024bbaf56cf8feebb15a72ef37e",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "bfrd_ranger"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "90f98d9adde2b6077783db144b134b3ca83f1024bbaf56cf8feebb15a72ef37e",
+        "edition": "2014",
+        "id": "o5e:bfrd:characterclass:bfrd-hunter",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "bfrd_ranger",
+        "type": "subclass_of",
+        "value": "bfrd_ranger"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Rangers who heed the calling of the Hunter are no mere trappers or furriers. They are the last line of defense between the natural and the supernatural world. Hunters seek, stalk, and slay monstrous predators like outsiders, fiends, and undead who devastate populations with their malign magic.",
+      "document": "bfrd",
+      "name": "Hunter",
+      "subclass_of": "bfrd_ranger"
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "You gain calling spells at the ranger levels listed in the Hunter Calling Spells table. See the Ranger Subclass class feature for how these spells work.\n\n|Ranger Level|Spells|\n|---|---|\n|3rd|protection from evil and good|\n|5th|misty step|\n|9th|nondetection|\n|13th|banishment|\n|17th|greater hold|",
+          "desc_ru": "Вы получаете заклинания призвания на уровнях следопыта, перечисленных в соответствующей таблице. См. классовую особенность «Подкласс следопыта» о том, как эти заклинания работают.\n\n| Уровень следопыта | Заклинания |\n|---|---|\n| 3-й | Защита от добра и зла |\n| 5-й | Туманный шаг |\n| 9-й | Необнаружение |\n| 13-й | Изгнание |\n| 17-й | Большее удержание |",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger-hunter_hunter-calling-spells",
+          "level": 3,
+          "name": "Hunter Calling Spells",
+          "name_ru": "Заклинания призвания охотника",
+          "parent": "bfrd_hunter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "As a bonus action, choose a creature within 60 feet of you that you can see. You immediately learn the creature's immunities, resistances, and vulnerabilities, or you learn if it has none. This feature doesn't function if the target is magically concealed by a nondetection spell or similar effect that counters divination magic.\n\nYou can use this feature a number of times equal to your PB and regain all uses of it when you finish a long rest.",
+          "desc_ru": "бонусным действием выберите существо в пределах 60 футов от вас, которое вы можете видеть. Вы немедленно узнаёте иммунитеты, сопротивления и уязвимости существа, или вы узнаёте, если у него их нет. Эта особенность не функционирует, если цель магически скрыта заклинанием необнаружение или похожим эффектом, который противодействует магии прорицания.\n\nВы можете использовать эту особенность количество раз, равное вашему бонусу мастерства, и восстанавливаете все использования её, когда заканчиваете продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger-hunter_killer-instinct",
+          "level": 3,
+          "name": "Killer Instinct",
+          "name_ru": "Инстинкт убийцы",
+          "parent": "bfrd_hunter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your tenacity wears down even potent foes. When you hit a creature with a weapon attack, you deal extra damage if the target is below its hit point maximum. The extra damage is equal to the amount your Mystic Mark feature deals at your level and is of the same damage type as the weapon. You can deal this extra damage only once per turn.",
+          "desc_ru": "Ваша упорность изматывает даже мощных врагов. Когда вы попадаете по существу атакой оружием, вы наносите дополнительный урон, если цель ниже её максимума очков хитов. Дополнительный урон равен величине, которую ваша особенность Мистическая метка наносит на вашем уровне, и того же типа урона, что и оружие. Вы можете наносить этот дополнительный урон только один раз за ход.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger-hunter_relentless-pursuit",
+          "level": 3,
+          "name": "Relentless Pursuit",
+          "name_ru": "Неустанное преследование",
+          "parent": "bfrd_hunter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "As part of a long rest, you can spend time reviewing your research and preparing to face a specific type of monster. Choose a type of enemy: Aberration, Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend, Giant, Monstrosity, Ooze, Plant, or Undead. For 24 hours, creatures of that type have disadvantage on attack rolls against you. You also have advantage on saves against being charmed, frightened, or possessed by them.\n\nAt the end of your next long rest, you can choose the same type of creature or a different creature type as your Favored Foe.",
+          "desc_ru": "Как часть продолжительного отдыха вы можете потратить время на обзор вашего исследования и подготовку к встрече с конкретным типом монстра. Выберите тип врага: Аберрация, Зверь, Небожитель, Конструкт, Дракон, Элементаль, Фея, Исчадие, Великан, Монстр, Слизь, Растение или Нежить. На 24 часа существа этого типа совершают с помехой броски атаки против вас. Вы также совершаете с преимуществом спасброски против состояния очарованности, напуганности или одержимости ими.\n\nВ конце вашего следующего продолжительного отдыха вы можете выбрать тот же тип существа или другой тип существа как вашего Избранного врага.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger-hunter_favored-foe",
+          "level": 7,
+          "name": "Favored Foe",
+          "name_ru": "Избранный враг",
+          "parent": "bfrd_hunter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When a creature marked by your mystic mark attempts to move, you can use your reaction to magically teleport up to 30 feet. If you teleport to a space within your weapon's reach of the target, you can immediately make an opportunity attack as part of the same reaction.",
+          "desc_ru": "Когда существо, отмеченное вашей мистической меткой, пытается переместиться, вы можете реакцией магически телепортироваться до 30 футов. Если вы телепортируетесь в пространство в пределах досягаемости вашего оружия до цели, вы можете немедленно совершить внеочередную атаку как часть той же реакции.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger-hunter_no-escape",
+          "level": 11,
+          "name": "No Escape",
+          "name_ru": "Нет побега",
+          "parent": "bfrd_hunter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you take damage from a creature you can see, you can use your reaction to supernaturally ward yourself against that creature for a short time. You have resistance to all damage dealt by the target for 1 minute, including resistance to the damage dealt by the triggering attack. This effect ends early if you become incapacitated.\n\nOnce used, this feature can't be used again until you finish a long rest.",
+          "desc_ru": "Когда вы получаете урон от существа, которое вы можете видеть, вы можете реакцией сверхъестественно защитить себя от этого существа на короткое время. Вы имеете сопротивление всему урону, нанесённому целью, на 1 минуту, включая сопротивление урону, нанесённому вызвавшей атакой. Этот эффект заканчивается рано, если вы становитесь недееспособным.\n\nИспользовав, эту особенность нельзя использовать снова, пока вы не закончите продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger-hunter_predators-shield",
+          "level": 15,
+          "name": "Predator's Shield",
+          "name_ru": "Щит хищника",
+          "parent": "bfrd_hunter",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Hunter",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:srd-2014:characterclass:srd-hunter"
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "Rangers who heed the calling of the Hunter are no mere trappers or furriers. They are the last line of defense between the natural and the supernatural world. Hunters seek, stalk, and slay monstrous predators like outsiders, fiends, and undead who devastate populations with their malign magic.",
+      "name": "Hunter",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Подражание архетипу Охотника означает принятие вашего места как бастиона между цивилизацией и ужасами дикой природы. Когда вы идете по пути Охотника, вы изучаете специализированные техники для борьбы с угрозами, с которыми вы сталкиваетесь, от бесчинствующих огров и орд орков до возвышающихся гигантов и ужасающих драконов.\n\n##### Добыча охотника\nНа 3-м уровне, вы получаете одну из следующих способностей по вашему выбору.\n\n**_Убийца колоссов._** Ваша упорность может износить самых мощных врагов. Когда вы поражаете существо атакой оружием, существо получает дополнительные 1к8 урона, если он ниже его максимума очков хитов. Вы можете наносить этот дополнительный урон только один раз за ход.\n\n**_Убийца гигантов._** Когда Большое или большее существо в пределах 5 футов от вас поражает или промахивается по вам атакой, вы можете использовать вашу реакцию, чтобы атаковать это существо немедленно после его атаки, при условии, что вы можете видеть существо.\n\n**_Разрыватель орд._** Один раз на каждый из ваших ходов, когда вы совершаете атаку оружием, вы можете совершить другую атаку с тем же оружием против другого существа, которое в пределах 5 футов от первоначальной цели и в диапазоне вашего оружия.\n\n##### Оборонительные тактики\nНа 7-м уровне, вы получаете одну из следующих способностей по вашему выбору.\n\n**_Побег из орды._** Внеочередные атаки против вас совершаются с помехой.\n\n**_Защита от множественных атак._** Когда существо поражает вас атакой, вы получаете бонус +4 к КД против всех последующих атак, совершённых этим существом на остаток хода.\n\n**_Стальная воля._** Вы совершаете с преимуществом на спасброски против испуга.\n\n##### Мультиатака\nНа 11-м уровне, вы получаете одну из следующих способностей по вашему выбору.\n\n**_Залп._** Вы можете использовать ваше действие, чтобы совершить атаку дальнего боя против любого количества существ в пределах 10 футов от точки, которую вы можете видеть в пределах диапазона вашего оружия. У вас должны быть боеприпасы для каждой цели, как обычно, и вы совершаете отдельный бросок атаки для каждой цели.\n\n**_Вихревая атака._** Вы можете использовать ваше действие, чтобы совершить атаку ближнего боя против любого количества существ в пределах 5 футов от вас, с отдельным броском атаки для каждой цели.\n\n##### Превосходная защита охотника\nНа 15-м уровне, вы получаете одну из следующих способностей по вашему выбору.\n\n**_Уклонение._** Когда вы подвергаетесь эффекту, например, огненное дыхание красного дракона или заклинание молния, которое позволяет вам совершить спасбросок Ловкости, чтобы получить только половину урона, вы вместо этого не получаете урона, если успешно проходите спасбросок, и только половину урона, если проваливаете.\n\n**_Стой против прилива._** Когда враждебное существо промахивается по вам атакой ближнего боя, вы можете использовать вашу реакцию, чтобы заставить это существо повторить ту же атаку против другого существа (кроме себя) по вашему выбору.\n\n**_Неестественное уклонение._** Когда атакующий, которого вы можете видеть, поражает вас атакой, вы можете использовать вашу реакцию, чтобы уполовинить урон атаки против вас.",
+      "glossary_version": "v1",
+      "name": "Охотник",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

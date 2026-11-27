@@ -1,0 +1,139 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "subspecies",
+  "edition": "2014",
+  "external_id": "srd_rock-gnome",
+  "id": "o5e:srd-2014:species:srd-rock-gnome",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:species:srd-rock-gnome",
+      "o5e:wotc-srd:subrace:rock-gnome"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "21a47db0d687f09a16be8d5ede32524be8da4755bb7f5700d49e60b47f670d31",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "subspecies_of": "srd_gnome"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "21a47db0d687f09a16be8d5ede32524be8da4755bb7f5700d49e60b47f670d31",
+        "edition": "2014",
+        "id": "o5e:srd-2014:species:srd-rock-gnome",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "7b3ed9f5de63e1d9ff55a15eadb3a8e61503b832b4cc959473065a3462f62755",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:subrace:rock-gnome",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_gnome",
+        "type": "subspecies_of",
+        "value": "srd_gnome"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "As a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes.",
+      "document": "srd-2014",
+      "name": "Rock Gnome",
+      "subspecies_of": "srd_gnome"
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "traits": [
+        {
+          "desc": "Your Constitution score increases by 1.",
+          "desc_ru": "Каждая раса увеличивает одну или несколько характеристик персонажа.",
+          "external_id": "srd_rock-gnome_ability-score-increase",
+          "name": "Ability Score Increase",
+          "name_ru": "Увеличение характеристик",
+          "parent": "srd_rock-gnome",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.",
+          "desc_ru": "Особенность «Артификер'с Лоре». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_rock-gnome_artificers-lore",
+          "name": "Artificer's Lore",
+          "name_ru": "Артификер'с Лоре",
+          "parent": "srd_rock-gnome",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.\r\n\r\nWhen you create a device, choose one of the following options:\r\n* _Clockwork Toy._ This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.\r\n* _Fire Starter._ The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.\r\n* _Music Box._ When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.",
+          "desc_ru": "Особенность «Тинкер». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_rock-gnome_tinker",
+          "name": "Tinker",
+          "name_ru": "Тинкер",
+          "parent": "srd_rock-gnome",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "Rock Gnome",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "As a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes.",
+      "name": "Rock Gnome",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Как скальный гном, вы обладаете природной изобретательностью и выносливостью, превышающими таковые у других гномов.\n\n**_Увеличение характеристик._** Ваше значение Телосложения увеличивается на 1.\n\n**_Знание ремесленника._** Каждый раз, когда вы совершаете проверку Интеллекта (История), связанную с магическими предметами, алхимическими объектами или технологическими устройствами, вы можете добавить удвоенный бонус мастерства вместо обычного.\n\n**_Мастер на все руки._** Вы владеете ремесленными инструментами (инструменты ремонтника). Используя эти инструменты, вы можете потратить 1 час и материалы стоимостью 10 зм для создания Крошечного заводного устройства (КД 5, 1 хит). Устройство перестаёт работать через 24 часа (если вы не потратите 1 час на его починку), или когда вы действием его разберёте; в этот момент вы можете вернуть материалы, использованные для его создания. У вас может быть до трёх таких активных устройств одновременно.\n\nСоздавая устройство, выберите один из следующих вариантов:\n\n**_Заводная игрушка._** Эта игрушка - заводное животное, монстр или человечек, такой как лягушка, мышь, птица, дракон или солдатик. Когда её ставят на землю, игрушка перемещается на 5 футов по земле в каждый ваш ход в случайном направлении. Она издаёт звуки, соответствующие изображаемому существу.\n\n**_Огниво._** Устройство производит миниатюрное пламя, которым можно зажечь свечу, факел или костёр. Использование устройства требует действия.\n\n**_Музыкальная шкатулка._** При открытии эта музыкальная шкатулка играет одну мелодию на умеренной громкости. Шкатулка прекращает играть, когда мелодия заканчивается или когда её закрывают.",
+      "glossary_version": "v1",
+      "name": "Скальный гном",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

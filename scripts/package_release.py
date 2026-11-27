@@ -46,7 +46,7 @@ def package(version: str, output: Path) -> Path:
         meta = {
             "version": version,
             "packaged_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-            "entrypoint": "catalog/<edition>/<category>.json",
+            "entrypoint": "catalog/<edition>/<book>/<category>/<card>.json",
             "manifest": f"releases/v{version}.json",
             "aliases": "releases/aliases.json",
             "primary_edition": manifest["primary_edition"],

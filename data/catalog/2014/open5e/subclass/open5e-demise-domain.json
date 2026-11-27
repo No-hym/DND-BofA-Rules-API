@@ -1,0 +1,180 @@
+{
+  "attribution": "Title: Open5e Originals; Author: Ean Moody, Various; Publisher: open5e; Source: https://open5e.com/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "open5e",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "open5e_demise-domain",
+  "id": "o5e:open5e:characterclass:open5e-demise-domain",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:open5e:characterclass:open5e-demise-domain"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "0c51f5eabfbcfc801254c481866054d7d147dbe62c6d6ec23a307e49c034dfbb",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_cleric"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "open5e",
+        "content_hash": "0c51f5eabfbcfc801254c481866054d7d147dbe62c6d6ec23a307e49c034dfbb",
+        "edition": "2014",
+        "id": "o5e:open5e:characterclass:open5e-demise-domain",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:open5e"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "subclass_of",
+        "value": "srd_cleric"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "*Compare to the core book’s Death Domain*\n\nWhile deities oversee all realms of nature and the cosmos, perhaps none is more important to mortals than their purveyance over the afterlife. The demise domain covers both gods who rule over kingdoms of the dead, such as Arawn, Ereshkigal, Mictlāntēcutli, Hades, Hel, and Osiris; it is also held by deities who oversee conflict and the actual moment of one’s demise, for instance the Morrigan and Nergal, and deities of suffering (Kiputytto) and disease (Loviatar). It includes many winter deities like Hel and Marzanna that oversee the metaphorical death of spring, and patrons of the undead like Koschei the Deathless are also served by clerics of the demise domain. The domain is often favored by evil deities like Erlik, but is not exclusive to them; noble judges of souls like Anubis and helpful psychopomps like Xolotl also have the demise domain in their portfolio. Similarly, while the demise domain is often favored by evil cultists, clerics who seek to comfort the dying or uphold the natural progression of the afterlife may also select this domain.\n\nNote: this subclass is primarily for NPCs, but a player can choose it at their Game Master’s discretion.",
+      "document": "open5e",
+      "name": "Demise Domain",
+      "subclass_of": "srd_cleric"
+    },
+    "source_document": {
+      "author": "Ean Moody, Various",
+      "key": "open5e",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://open5e.com/",
+      "publication_date": "2024-02-15T02:15:19",
+      "publisher": "open5e",
+      "title": "Open5e Originals"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you choose this domain at 1st level, you gain the martial weapon proficiency.",
+          "desc_ru": "Когда вы выбираете этот домен на 1-м уровне, вы получаете владение тяжёлыми доспехами.",
+          "document": "open5e",
+          "external_id": "open5e_demise-domain_bonus-proficiency",
+          "level": 1,
+          "name": "Bonus Proficiency",
+          "name_ru": "Дополнительное владение",
+          "parent": "open5e_demise-domain",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Cleric Level | Spells                                  |\r\n|--------------|-----------------------------------------|\r\n| 1st          | false life, ray of sickness             |\r\n| 3rd          | blindness/deafness, ray of enfeeblement |\r\n| 5th          | animate dead, vampiric touch            |\r\n| 7th          | blight, death ward                      |\r\n| 9th          | antilife shell, cloudkill               |",
+          "desc_ru": "| Уровень жреца | Заклинания |\n|--------------|-----------------------------------------|\n| 1-й | Псевдожизнь, Луч болезни |\n| 3-й | Слепота/Глухота, Луч ослабления |\n| 5-й | Оживление мёртвых, Прикосновение вампира |\n| 7-й | Гниль, Защита от смерти |\n| 9-й | Барьер жизни, Облако убийства |",
+          "document": "open5e",
+          "external_id": "open5e_demise-domain_death-domain-spells-table",
+          "level": 1,
+          "name": "Death Domain Spells (table)",
+          "name_ru": "Заклинания домена смерти",
+          "parent": "open5e_demise-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your connection to death means that your necromantic powers can cut through more foes. You learn an additional cantrip of the necromancy school from any class spell list. When you cast any necromancy cantrip that targets a single creature, you can target a second creature within the spell’s range if it is within 5 feet of the first target.",
+          "desc_ru": "Ваша связь со смертью означает, что ваши некромантические силы могут разрезать больше врагов. Вы изучаете дополнительный заговор школы некромантии из списка заклинаний любого класса. Когда вы творите любой заговор некромантии, который нацелена на одно существо, вы можете нацелить второе существо в пределах дистанции заклинания, если оно в пределах 5 футов от первой цели.",
+          "document": "open5e",
+          "external_id": "open5e_demise-domain_deaths-cut",
+          "level": 1,
+          "name": "Death’s Cut",
+          "name_ru": "Разрез смерти",
+          "parent": "open5e_demise-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Beginning at 2nd level, when one of your melee attacks hit a creature, you can make use of your Channel Divinity to add necrotic damage equal to your cleric level times two, plus 5.",
+          "desc_ru": "Начиная со 2-го уровня, когда одна из ваших атак ближнего боя попадает по существу, вы можете использовать ваш Божественный канал, чтобы добавить некротический урон, равный вашему уровню жреца, умноженному на два, плюс 5.",
+          "document": "open5e",
+          "external_id": "open5e_demise-domain_channel-divinity-killing-touch",
+          "level": 2,
+          "name": "Channel Divinity: Killing Touch",
+          "name_ru": "Божественный канал: убийственное касание",
+          "parent": "open5e_demise-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Just as death comes for all creatures, at 6th level your deathly powers affect even those who could normally withstand them. You ignore a creature’s necrotic resistance when you deal damage via spells or your Channel Divinity.",
+          "desc_ru": "Подобно тому, как смерть приходит за всеми существами, на 6-м уровне ваши смертные силы действуют даже на тех, кто обычно мог бы им противостоять. Вы игнорируете сопротивление некротическому урону существа, когда наносите урон заклинаниями или вашим Божественным каналом.",
+          "document": "open5e",
+          "external_id": "open5e_demise-domain_death-comes-for-all",
+          "level": 6,
+          "name": "Death Comes for All",
+          "name_ru": "Смерть приходит за всеми",
+          "parent": "open5e_demise-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 necrotic damage to the target. When you reach 14th level, the extra damage increases to 2d8.",
+          "desc_ru": "На 8-м уровне вы получаете способность наполнять удары оружием божественной энергией. Один раз в каждый ваш ход, когда вы попадаете по существу атакой оружием, вы можете причинить цели дополнительно 1к8 урона излучением. Когда вы достигаете 14-го уровня, дополнительный урон увеличивается до 2к8.",
+          "document": "open5e",
+          "external_id": "open5e_demise-domain_divine-strike",
+          "level": 8,
+          "name": "Divine Strike",
+          "name_ru": "Божественный удар",
+          "parent": "open5e_demise-domain",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Beginning at 17th level, your Death’s Cut feature can apply to spells of the necromancy school of up to 5th-level in addition to cantrips. However, you must double the amount of material components used if the spell calls for them.",
+          "desc_ru": "Начиная с 17-го уровня ваша особенность Разрез смерти может применяться к заклинаниям школы некромантии до 5-го уровня в дополнение к заговорам. Однако вы должны удвоить количество используемых материальных компонентов, если заклинание их требует.",
+          "document": "open5e",
+          "external_id": "open5e_demise-domain_improved-deaths-cut",
+          "level": 17,
+          "name": "Improved Death’s Cut",
+          "name_ru": "Улучшенный разрез смерти",
+          "parent": "open5e_demise-domain",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Demise Domain",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "open5e",
+  "source": "open5e:v2:open5e",
+  "translations": {
+    "en": {
+      "description": "*Compare to the core book’s Death Domain*\n\nWhile deities oversee all realms of nature and the cosmos, perhaps none is more important to mortals than their purveyance over the afterlife. The demise domain covers both gods who rule over kingdoms of the dead, such as Arawn, Ereshkigal, Mictlāntēcutli, Hades, Hel, and Osiris; it is also held by deities who oversee conflict and the actual moment of one’s demise, for instance the Morrigan and Nergal, and deities of suffering (Kiputytto) and disease (Loviatar). It includes many winter deities like Hel and Marzanna that oversee the metaphorical death of spring, and patrons of the undead like Koschei the Deathless are also served by clerics of the demise domain. The domain is often favored by evil deities like Erlik, but is not exclusive to them; noble judges of souls like Anubis and helpful psychopomps like Xolotl also have the demise domain in their portfolio. Similarly, while the demise domain is often favored by evil cultists, clerics who seek to comfort the dying or uphold the natural progression of the afterlife may also select this domain.\n\nNote: this subclass is primarily for NPCs, but a player can choose it at their Game Master’s discretion.",
+      "name": "Demise Domain",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Сравните с Доменом смерти из основной книги*\n\nХотя божества наблюдают за всеми областями природы и космоса, возможно, ни одна не является более важной для смертных, чем их надзор за загробной жизнью. Домен кончины охватывает как богов, которые правят королевствами мёртвых, таких как Араун, Эрешкигаль, Миктлантекутли, Аид, Хель и Осирис; его также держат божества, которые наблюдают за конфликтом и фактическим моментом чьей-то кончины, например, Морриган и Нергал, и божества страдания (Кипутитто) и болезней (Ловиатар). Он включает многих зимних божеств, таких как Хель и Марзанна, которые наблюдают за метафорической смертью весны, и покровители нежити, такие как Кощей Бессмертный, также обслуживаются жрецами домена кончины. Домен часто предпочитают злые божества, такие как Эрлик, но он не является их исключительной прерогативой; благородные судьи душ, такие как Анубис, и полезные психопомпы, такие как Шолотль, также имеют домен кончины в своём портфеле. Точно так же, хотя домен кончины часто предпочитают злые культисты, жрецы, которые стремятся утешать умирающих или поддерживать естественный ход загробной жизни, также могут выбрать этот домен.\n\nПримечание: этот подкласс в первую очередь предназначен для НИП, но игрок может выбрать его по усмотрению Мастера игры.",
+      "glossary_version": "v1",
+      "name": "Домен кончины",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

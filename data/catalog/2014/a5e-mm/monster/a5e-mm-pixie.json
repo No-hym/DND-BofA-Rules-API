@@ -1,0 +1,316 @@
+{
+  "attribution": "Title: Monstrous Menagerie; Author: Paul Hughes; Publisher: en-publishing; Source: https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "a5e-mm",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "a5e-mm_pixie",
+  "id": "o5e:a5e-mm:creature:a5e-mm-pixie",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-mm:creature:a5e-mm-pixie"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "94009c486acec2a40cbb701c252984cf4910a14e2578816dcff0d0713e449248",
+    "formulas": [
+      {
+        "expression": "1d4",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 14,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 20,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 2,
+      "ability_score_wisdom": 12,
+      "alignment": "chaotic evil",
+      "armor_class": 15,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "1.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": 30.0,
+      "hit_dice": "1d4",
+      "hit_points": 2,
+      "initiative_bonus": null,
+      "languages": [
+        "sylvan"
+      ],
+      "languages_desc": "Sylvan",
+      "normal_sight_range": 10560.0,
+      "passive_perception": 13,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "tiny",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 10.0
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-mm",
+        "content_hash": "94009c486acec2a40cbb701c252984cf4910a14e2578816dcff0d0713e449248",
+        "edition": "2014",
+        "id": "o5e:a5e-mm:creature:a5e-mm-pixie",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:a5e-mm"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 14,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 20,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 2,
+      "ability_score_wisdom": 12,
+      "alignment": "chaotic evil",
+      "armor_class": 15,
+      "category": "Monsters",
+      "challenge_rating": "1.000",
+      "document": "a5e-mm",
+      "fly": 30.0,
+      "hit_dice": "1d4",
+      "hit_points": 2,
+      "hover": false,
+      "languages": [
+        "sylvan"
+      ],
+      "languages_desc": "Sylvan",
+      "name": "Pixie",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560.0,
+      "passive_perception": 13,
+      "size": "tiny",
+      "skill_bonus_perception": 3,
+      "skill_bonus_stealth": 7,
+      "type": "fey",
+      "walk": 10.0,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "a5e-mm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e",
+      "publication_date": "2021-12-12T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Monstrous Menagerie"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "The pixie targets a willing creature within 30 feet. The target gains one of the following abilities for 1 hour:",
+          "desc_ru": "Действие «Фаерие Блессинг»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_pixie_faerie-blessing",
+          "name": "Faerie Blessing",
+          "name_ru": "Фаерие Блессинг",
+          "order_in_statblock": 1,
+          "parent": "a5e-mm_pixie",
+          "ru_source": "derived",
+          "uses_param": 3,
+          "uses_type": "PER_DAY"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The pixie targets a creature within 30 feet not already under a Faerie Curse. The target makes a DC 12 Wisdom saving throw. On a failure  the target is subjected to a special magical curse for 1 hour. The curse ends if the pixie dies or is incapacitated  the pixie or one of its allies deals damage to the target  or the pixie spends an action to end the curse. Spells such as remove curse  dispel magic  and lesser restoration also end the curse. If a creature makes its saving throw or the condition ends for it  it is immune to any Faerie Curse for the next 24 hours.",
+          "desc_ru": "Действие «Фаерие Курсе»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_pixie_faerie-curse",
+          "name": "Faerie Curse",
+          "name_ru": "Фаерие Курсе",
+          "order_in_statblock": 5,
+          "parent": "a5e-mm_pixie",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "It wakes if it is shaken awake as an action or if it takes damage.",
+          "desc_ru": "Действие «Иф Таргет Ис Алреадй Чармед Бй Пиксие Таргет Фаллс Аслееп»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_pixie_if-the-target-is-already-charmed-by-the-pixie-the-target-falls-asleep",
+          "name": "If the target is already charmed by the pixie, the target falls asleep",
+          "name_ru": "Иф Таргет Ис Алреадй Чармед Бй Пиксие Таргет Фаллс Аслееп",
+          "order_in_statblock": 9,
+          "parent": "a5e-mm_pixie",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "The pixie and any equipment it wears or carries magically turns invisible until the pixie attacks, casts a spell, becomes incapacitated, or uses a bonus action to become visible.",
+          "desc_ru": "Действие «Инвисибилитй»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_pixie_invisibility",
+          "name": "Invisibility",
+          "name_ru": "Инвисибилитй",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_pixie",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc_ru": "Действие «Таргет Гаинс Бенефит Пиксиес Магик Ресистанке Траит»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_pixie_the-target-gains-the-benefit-of-the-pixies-magic-resistance-trait",
+          "name": "The target gains the benefit of the pixies Magic Resistance trait",
+          "name_ru": "Таргет Гаинс Бенефит Пиксиес Магик Ресистанке Траит",
+          "order_in_statblock": 3,
+          "parent": "a5e-mm_pixie",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc_ru": "Действие «Таргет Гаинс Труесигхт Оут То А Ранге 120 Феет»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_pixie_the-target-gains-truesight-out-to-a-range-of-120-feet",
+          "name": "The target gains truesight out to a range of 120 feet",
+          "name_ru": "Таргет Гаинс Труесигхт Оут То А Ранге 120 Феет",
+          "order_in_statblock": 2,
+          "parent": "a5e-mm_pixie",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc_ru": "Действие «Таргет Ис Блиндед»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_pixie_the-target-is-blinded",
+          "name": "The target is blinded",
+          "name_ru": "Таргет Ис Блиндед",
+          "order_in_statblock": 7,
+          "parent": "a5e-mm_pixie",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc_ru": "Действие «Таргет Ис Чармед Бй Пиксие»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_pixie_the-target-is-charmed-by-the-pixie",
+          "name": "The target is charmed by the pixie",
+          "name_ru": "Таргет Ис Чармед Бй Пиксие",
+          "order_in_statblock": 8,
+          "parent": "a5e-mm_pixie",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc_ru": "Действие «Таргет Спеакс Сйлван»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_pixie_the-target-speaks-sylvan",
+          "name": "The target speaks Sylvan",
+          "name_ru": "Таргет Спеакс Сйлван",
+          "order_in_statblock": 4,
+          "parent": "a5e-mm_pixie",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The targets statistics dont change  but the target can no longer speak; it can only make animal noises.",
+          "desc_ru": "Действие «Таргец Хеад Такес Он Аппеаранке А Беасц Хеад (донкей, волф, етк)»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_pixie_the-targets-head-takes-on-the-appearance-of-a-beasts-head-donkey-wolf-etc",
+          "name": "The targets head takes on the appearance of a beasts head (donkey, wolf, etc)",
+          "name_ru": "Таргец Хеад Такес Он Аппеаранке А Беасц Хеад (донкей, волф, етк)",
+          "parent": "a5e-mm_pixie",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 10/30 ft., one target. Hit: 1 piercing damage.",
+          "desc_ru": "Действие «Торн кинжал»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_pixie_thorn-dagger",
+          "name": "Thorn Dagger",
+          "name_ru": "Торн кинжал",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_pixie",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc_ru": "Действие «Вхен Таргет Фаилс Иц Савинг Тров Агаинст Тис Еффект Пиксие Чоосес Оне Фолловинг Еффекц То Импосе Он Таргет»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_pixie_when-the-target-fails-its-saving-throw-against-this-effect-the-pixie-chooses-one-of-the-following-effects-to-impose-on-the-target",
+          "name": "When the target fails its saving throw against this effect, the pixie chooses one of the following effects to impose on the target",
+          "name_ru": "Вхен Таргет Фаилс Иц Савинг Тров Агаинст Тис Еффект Пиксие Чоосес Оне Фолловинг Еффекц То Импосе Он Таргет",
+          "order_in_statblock": 6,
+          "parent": "a5e-mm_pixie",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "As a bonus action, the pixie can cast dim light for 30 feet, or extinguish its glow.",
+          "desc_ru": "Особенность «Фаерие Лигхт». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_pixie_faerie-light",
+          "name": "Faerie Light",
+          "name_ru": "Фаерие Лигхт",
+          "parent": "a5e-mm_pixie",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The pixie has advantage on saving throws against spells and magical effects.",
+          "desc_ru": "Особенность «Магик Ресистанке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_pixie_magic-resistance",
+          "name": "Magic Resistance",
+          "name_ru": "Магик Ресистанке",
+          "parent": "a5e-mm_pixie",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Pixie",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-mm",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Pixie",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крошечная фея, мировоззрение: хаотично-злое. Класс доспеха: 15. Хиты: 2 (1к4). Скорость: ходьба 10 фт., полёт 30 фт.. Характеристики: СИЛ 2, ЛОВ 20, ТЕЛ 10, ИНТ 10, МУД 12, ХАР 14. Чувства: пассивное Восприятие 13. Показатель опасности: 1. Структурированные механики записи: особенностей: 2, действий: 12.",
+      "glossary_version": "derived-v1",
+      "name": "Пиксие",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

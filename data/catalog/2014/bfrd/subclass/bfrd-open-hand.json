@@ -1,0 +1,145 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "bfrd_open-hand",
+  "id": "o5e:bfrd:characterclass:bfrd-open-hand",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "21a2fbd9248f995936579a5f885c1566b47a34534e68c622afb103b0933d2c23",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "bfrd_monk"
+    },
+    "original_system": "5e-2014",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "bfrd_monk",
+        "type": "subclass_of",
+        "value": "bfrd_monk"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Monks of the Open Hand hone their bodies to physical perfection. They learn techniques to push and trip their opponents, practice advanced meditation to protect them from harm, and develop secret techniques to transform their bodies into the ultimate weapon.",
+      "document": "bfrd",
+      "name": "Open Hand",
+      "subclass_of": "bfrd_monk"
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you or a creature within 5 feet of you makes an ability check or attack roll, you can use your reaction to roll your martial arts die. The target gains a bonus or a penalty (your choice) to its roll equal to the number you rolled.\n\nYou can use this feature a number of times equal to your WIS modifier. You regain all expended uses when you finish a long rest.",
+          "desc_ru": "Когда вы или существо в пределах 5 футов от вас совершает проверку характеристики или бросок атаки, вы можете реакцией бросить вашу кость боевых искусств. Цель получает бонус или штраф (на ваш выбор) к её броску, равный выпавшему вами числу.\n\nВы можете использовать эту особенность количество раз, равное вашему модификатору Мудрости. Вы восстанавливаете все потраченные использования, когда заканчиваете продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk-open-hand_focus-intent",
+          "level": 3,
+          "name": "Focus Intent",
+          "name_ru": "Сосредоточить намерение",
+          "parent": "bfrd_open-hand",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You can manipulate your enemy's energy with your own. When you hit a creature with one of the attacks granted by your Flurry of Blows technique, you can impose one of the following effects on that target:\n- It can't take reactions until the end of your next turn.\n- It must succeed on a DEX save or be knocked prone.\n- It must succeed on a STR save or be pushed up to 15 feet away from you.",
+          "desc_ru": "Начиная с выбора этой традиции на 3-м уровне, вы можете управлять Ки врага, когда используете собственную. Каждый раз, когда вы попадаете по существу одной из атак, предоставляемых вашим Шквалом ударов, вы можете наложить один из следующих эффектов на эту цель:\n\n- Она должна преуспеть в спасброске Ловкости, иначе будет сбита с ног.\n- Она должна совершить спасбросок Силы. При провале вы можете оттолкнуть её на расстояние до 15 футов от вас.\n- Она не может совершать реакции до конца вашего следующего хода.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk-open-hand_open-hand-technique",
+          "level": 3,
+          "name": "Open Hand Technique",
+          "name_ru": "Техника открытой ладони",
+          "parent": "bfrd_open-hand",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "When you roll initiative and have at least 1 hit point, you regain a number of hit points equal to your CON modifier + your monk level.",
+          "desc_ru": "Когда вы бросаете инициативу и у вас есть как минимум 1 очко хитов, вы восстанавливаете количество очков хитов, равное вашему модификатору Телосложения + ваш уровень монаха.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk-open-hand_wholeness-of-body",
+          "level": 7,
+          "name": "Wholeness of Body",
+          "name_ru": "Целостность тела",
+          "parent": "bfrd_open-hand",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You have learned the way of war, so you may better walk the world in peace. As an action, you can spend 3 technique points to cast the sanctuary spell on yourself. The spell lasts until the end of your next short or long rest (or it can end early as normal).",
+          "desc_ru": "Вы изучили путь войны, чтобы лучше ходить по миру в мире. Действием вы можете потратить 3 очка техники, чтобы сотворить заклинание святилище на себя. Заклинание длится до конца вашего следующего короткого или продолжительного отдыха (или может закончиться рано как обычно).",
+          "document": "bfrd",
+          "external_id": "bfrd_monk-open-hand_tranquil-soul",
+          "level": 11,
+          "name": "Tranquil Soul",
+          "name_ru": "Спокойная душа",
+          "parent": "bfrd_open-hand",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "As an action, you can make a single unarmed strike against a creature. On a hit, you can spend 4 technique points to fill that creature with potentially lethal vibrations that last for a number of days equal to your monk level.\n\nFor the duration, so long as you and the target are on the same plane, you can use an action to end the vibrations, ripping the creature apart. When you do, the target must make a CON save. On a failure, the target takes force damage equal to 5 × your monk level and is paralyzed until the end of your next turn. On a success, the target is stunned for 1 minute, and at the end of each of their turns, and each time they take damage, the target can repeat the save, ending the effect on a success. A target that fails the save by 5 or more instantly dies.\n\nEach time you use this feature after the first, the technique cost to use it increases by 2. When you finish a long rest, the cost resets. This feature can affect only one target at a time.",
+          "desc_ru": "Действием вы можете совершить одиночный безоружный удар против существа. При попадании вы можете потратить 4 очка техники, чтобы наполнить это существо потенциально смертельными вибрациями, которые длятся количество дней, равное вашему уровню монаха.\n\nНа время длительности, пока вы и цель на том же плане, вы можете действием закончить вибрации, разрывая существо на части. Когда вы делаете это, цель должна совершить спасбросок Телосложения. При провале цель получает урон силовым полем, равный 5 × ваш уровень монаха, и парализована до конца вашего следующего хода. При успехе цель ошеломлена на 1 минуту, и в конце каждого их хода, и каждый раз, когда они получают урон, цель может повторить спасбросок, заканчивая эффект при успехе. Цель, которая проваливает спасбросок на 5 или более, мгновенно умирает.\n\nКаждый раз, когда вы используете эту особенность после первого, стоимость техники для её использования увеличивается на 2. Когда вы заканчиваете продолжительный отдых, стоимость сбрасывается. Эта особенность может воздействовать только на одну цель одновременно.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk-open-hand_quivering-palm",
+          "level": 15,
+          "name": "Quivering Palm",
+          "name_ru": "Дрожащая ладонь",
+          "parent": "bfrd_open-hand",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Open Hand",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "Monks of the Open Hand hone their bodies to physical perfection. They learn techniques to push and trip their opponents, practice advanced meditation to protect them from harm, and develop secret techniques to transform their bodies into the ultimate weapon.",
+      "name": "Open Hand",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Монахи Открытой ладони оттачивают свои тела до физического совершенства. Они изучают техники, чтобы толкать и сбивать с ног своих противников, практикуют продвинутую медитацию, чтобы защитить их от вреда, и разрабатывают секретные техники, чтобы превратить свои тела в высшее оружие.",
+      "glossary_version": "v1",
+      "name": "Открытая ладонь",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

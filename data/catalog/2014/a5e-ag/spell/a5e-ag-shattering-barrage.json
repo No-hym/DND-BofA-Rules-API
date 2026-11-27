@@ -1,0 +1,203 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_shattering-barrage",
+  "id": "o5e:a5e-ag:spell:a5e-ag-shattering-barrage",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-shattering-barrage",
+      "o5e:a5e:spell:shattering-barrage-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "a3f48fff6374721c45cc532c15d47f85843986e9fccd4af4863ae2ac868bc4a2",
+    "formulas": [
+      {
+        "expression": "2d4",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "2d4",
+      "damage_types": [
+        "slashing"
+      ],
+      "duration": "instantaneous",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "a3f48fff6374721c45cc532c15d47f85843986e9fccd4af4863ae2ac868bc4a2",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-shattering-barrage",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "c272734002c65f2a56db6e59198173df4fd5a311d82831370727ad1e578dd0a9",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:shattering-barrage-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "2d4",
+      "damage_types": [
+        "slashing"
+      ],
+      "desc": "You create three orbs of jagged broken glass and hurl them at targets within range. You can hurl them at one target or several.\n\nMake a ranged spell attack for each orb. On a hit, the target takes 2d4 slashing damage and the shards of broken glass remain suspended in midair, filling the area they occupy (or 5 feet of the space they occupy if the creature is Large-sized or larger) with shards of suspended broken glass. Whenever a creature enters an area of broken glass for the first time or starts its turn there, it must succeed on a Dexterity saving throw or take 2d4 slashing damage.\n\nThe shards of broken glass dissolve into harmless wisps of sand and blow away after 1 minute.",
+      "document": "a5e-ag",
+      "duration": "instantaneous",
+      "higher_level": "You create one additional orb for each slot level above 2nd.",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "name": "Shattering Barrage",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "1924",
+          "parent": "a5e-ag_shattering-barrage",
+          "type": "default"
+        },
+        {
+          "external_id": "1926",
+          "parent": "a5e-ag_shattering-barrage",
+          "target_count": 2,
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "1927",
+          "parent": "a5e-ag_shattering-barrage",
+          "target_count": 3,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "1928",
+          "parent": "a5e-ag_shattering-barrage",
+          "target_count": 4,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "1929",
+          "parent": "a5e-ag_shattering-barrage",
+          "target_count": 5,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "1930",
+          "parent": "a5e-ag_shattering-barrage",
+          "target_count": 6,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "1931",
+          "parent": "a5e-ag_shattering-barrage",
+          "target_count": 7,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "1932",
+          "parent": "a5e-ag_shattering-barrage",
+          "target_count": 8,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Shattering Barrage",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "You create three orbs of jagged broken glass and hurl them at targets within range. You can hurl them at one target or several.\n\nMake a ranged spell attack for each orb. On a hit, the target takes 2d4 slashing damage and the shards of broken glass remain suspended in midair, filling the area they occupy (or 5 feet of the space they occupy if the creature is Large-sized or larger) with shards of suspended broken glass. Whenever a creature enters an area of broken glass for the first time or starts its turn there, it must succeed on a Dexterity saving throw or take 2d4 slashing damage.\n\nThe shards of broken glass dissolve into harmless wisps of sand and blow away after 1 minute.",
+      "name": "Shattering Barrage",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы создаёте три сферы из зазубренного битого стекла и швыряете их по целям в пределах дистанции. Вы можете швырнуть их в одну цель или несколько.\n\nСовершите заклинание дистанции атаки для каждого шара. При попадании цель получает 2к4 режущего урона, а осколки разбитого стекла остаются подвешенными в воздухе, заполняя область, которую они занимают (или 5 футов от пространства, которую они занимают, если существо большого размера или больше) осколками взвешенные разбитым стеклом. Когда существо входит в зону разбитого стекла впервые и стартует свой ход там, он должен преуспеть в спасброске Ловкости или получить 2к4 режущих урона.\n\nОсколки разбитого стекла растворяются в безвредные клочья песка и уносит после 1 минуты.",
+      "glossary_version": "v1",
+      "name": "Дробная баррикада",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

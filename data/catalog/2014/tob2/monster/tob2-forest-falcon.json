@@ -1,0 +1,196 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_forest-falcon",
+  "id": "o5e:tob2:creature:tob2-forest-falcon",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-forest-falcon"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7c727cabb64f670c9aed0a8ae44e4f092fb9bfaef27c96a872902ef29bc6fec5",
+    "formulas": [
+      {
+        "expression": "3d6+3",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 5,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 6,
+      "ability_score_wisdom": 14,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": 60,
+      "hit_dice": "3d6+3",
+      "hit_points": 13,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 14,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": 5,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": 4,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 20
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "7c727cabb64f670c9aed0a8ae44e4f092fb9bfaef27c96a872902ef29bc6fec5",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-forest-falcon",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 5,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 6,
+      "ability_score_wisdom": 14,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "document": "tob2",
+      "fly": 60,
+      "hit_dice": "3d6+3",
+      "hit_points": 13,
+      "hover": false,
+      "name": "Forest Falcon",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 14,
+      "saving_throw_dexterity": 5,
+      "saving_throw_wisdom": 4,
+      "size": "medium",
+      "skill_bonus_perception": 4,
+      "type": "beast",
+      "walk": 20,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +5 к попаданию, досягаемость 5 фт., одна цель. Попадание: 8 (2к4+3) колющего урона.",
+          "external_id": "tob2_forest-falcon_beak",
+          "name": "Beak",
+          "name_ru": "Клюв",
+          "order_in_statblock": 0,
+          "parent": "tob2_forest-falcon",
+          "ru_source": "template"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "If the falcon is flying and dives at least 20 feet straight toward a target, it has advantage on the next attack roll it makes against that target before the end of its turn. If the attack hits, it deals an extra 2 (1d4) damage to the target.",
+          "desc_ru": "Особенность «Фалкон Диве». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_forest-falcon_falcon-dive",
+          "name": "Falcon Dive",
+          "name_ru": "Фалкон Диве",
+          "parent": "tob2_forest-falcon",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The falcon has advantage on Wisdom (Perception) checks that rely on sight.",
+          "desc_ru": "Совершает проверки Мудрости (Восприятие) с преимуществом, если они полагаются на зрение.",
+          "external_id": "tob2_forest-falcon_keen-sight",
+          "name": "Keen Sight",
+          "name_ru": "Кеен Сигхт",
+          "parent": "tob2_forest-falcon",
+          "ru_source": "template"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Forest Falcon",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Forest Falcon",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Лесной сокол — большой, быстрый хищник, приспособленный к ловкому полёту через густой полог, а не к всплескам скорости на открытом воздухе. Он предпочитает высокий насест, наблюдая за движением добычи на лесной подстилке. Сокол наносит удар в пикирующей засаде и может даже преследовать добычу пешком.",
+      "glossary_version": "v1",
+      "name": "Лесной сокол",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

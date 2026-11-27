@@ -1,0 +1,215 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_alarm",
+  "id": "o5e:a5e-ag:spell:a5e-ag-alarm",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-alarm",
+      "o5e:a5e:spell:alarm-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "bca6216b6b12723218c532f55828b54942d588f44fd3d4dfc4ce3d43a72253f1",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "ritual",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "8 hours",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "saving_throw_ability": "",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "bca6216b6b12723218c532f55828b54942d588f44fd3d4dfc4ce3d43a72253f1",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-alarm",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "794c5b0e13ac8687b802d5774336aa4896c31b43827f7b3c6535e3da33407b53",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:alarm-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "concentration": false,
+      "desc": "You set an alarm against unwanted intrusion that alerts you whenever a creature of size Tiny or larger touches or enters the warded area. When you cast the spell, choose any number of creatures. These creatures don't set off the alarm.\n\nChoose whether the alarm is silent or audible. The silent alarm is heard in your mind if you are within 1 mile of the warded area and it awakens you if you are sleeping. An audible alarm produces a loud noise of your choosing for 10 seconds within 60 feet.",
+      "document": "a5e-ag",
+      "duration": "8 hours",
+      "higher_level": "You may create an additional alarm for each slot level above 1st. The spell's range increases to 600 feet, but you must be familiar with the locations you ward, and all alarms must be set within the same physical structure. Setting off one alarm does not activate the other alarms.\n\nYou may choose one of the following effects in place of creating an additional alarm. The effects apply to all alarms created during the spell's casting.\n\nIncreased Duration. The spell's duration increases to 24 hours.\n\nImproved Audible Alarm. The audible alarm produces any sound you choose and can be heard up to 300 feet away.\n\nImproved Mental Alarm. The mental alarm alerts you regardless of your location, even if you and the alarm are on different planes of existence.",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "name": "Alarm",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "459",
+          "parent": "a5e-ag_alarm",
+          "type": "default"
+        },
+        {
+          "external_id": "460",
+          "parent": "a5e-ag_alarm",
+          "type": "ritual"
+        },
+        {
+          "external_id": "462",
+          "parent": "a5e-ag_alarm",
+          "range": "600 feet",
+          "target_count": 2,
+          "type": "slot_level_2"
+        },
+        {
+          "external_id": "463",
+          "parent": "a5e-ag_alarm",
+          "range": "600 feet",
+          "target_count": 3,
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "464",
+          "parent": "a5e-ag_alarm",
+          "range": "600 feet",
+          "target_count": 4,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "465",
+          "parent": "a5e-ag_alarm",
+          "range": "600 feet",
+          "target_count": 5,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "466",
+          "parent": "a5e-ag_alarm",
+          "range": "600 feet",
+          "target_count": 6,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "467",
+          "parent": "a5e-ag_alarm",
+          "range": "600 feet",
+          "target_count": 7,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "468",
+          "parent": "a5e-ag_alarm",
+          "range": "600 feet",
+          "target_count": 8,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "469",
+          "parent": "a5e-ag_alarm",
+          "range": "600 feet",
+          "target_count": 9,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Alarm",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "You set an alarm against unwanted intrusion that alerts you whenever a creature of size Tiny or larger touches or enters the warded area. When you cast the spell, choose any number of creatures. These creatures don't set off the alarm.\n\nChoose whether the alarm is silent or audible. The silent alarm is heard in your mind if you are within 1 mile of the warded area and it awakens you if you are sleeping. An audible alarm produces a loud noise of your choosing for 10 seconds within 60 feet.",
+      "name": "Alarm",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Ограждение 1-го уровня (Следопыт, Волшебник)*\n\n**Время накладывания:** 1 минута или Ритуал\n\n**Дистанция:** 30 футов\n\n**Компоненты:** В, С, М (крошечный колокольчик и кусочек тонкой серебряной проволоки)\n\n**Длительность:** 8 часов\n\nВы устанавливаете сигнализацию против нежелательного вторжения. Выберите дверь, окно или область в пределах дистанции, не превышающую 20-футовый куб. Пока заклинание не закончится, сигнализация предупреждает вас, когда Крошечное или большее существо касается защищённой области или входит в неё. При сотворении заклинания вы можете указать существ, которые не будут активировать сигнализацию. Вы также выбираете, будет ли сигнализация мысленной или звуковой.\n\nМысленная сигнализация оповещает вас мысленным звоном, если вы находитесь в пределах 1 мили от защищённой области. Этот звон пробуждает вас, если вы спите.\n\nЗвуковая сигнализация издаёт звук ручного колокольчика в течение 10 секунд в радиусе 60 футов.",
+      "glossary_version": "v1",
+      "name": "Тревога",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

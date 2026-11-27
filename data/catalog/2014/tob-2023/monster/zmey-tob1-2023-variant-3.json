@@ -1,0 +1,142 @@
+{
+  "attribution": "Title: Tome of Beasts 2023; Author: Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur; Publisher: tob-2023; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. 2023 Open Design LLC. All rights reserved.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob-2023",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "zmey-tob1-2023",
+  "id": "o5e:tob-2023:monster:zmey-tob1-2023-variant-3",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:monster:zmey-tob1-2023"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "a15b50075871a97623ee83dfe03bb32e6d6e446e78481b1e339f5bcb791fef46",
+    "formulas": [
+      {
+        "expression": "18d12 + 72",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "Chaotic Evil",
+      "armor_class": 18,
+      "challenge_rating": "15",
+      "condition_immunities": "paralyzed, unconscious",
+      "damage_immunities": "False",
+      "damage_resistances": "cold, fire",
+      "damage_vulnerabilities": "False",
+      "hit_dice": "18d12 + 72",
+      "hit_points": 189,
+      "languages": "Common, Draconic, Elvish, Sylvan",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob-2023",
+        "content_hash": "a15b50075871a97623ee83dfe03bb32e6d6e446e78481b1e339f5bcb791fef46",
+        "edition": "2014",
+        "id": "o5e:tob-2023:monster:zmey-tob1-2023",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The zmey makes two Claw attacks and as many Bite attacks as it has heads.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 19 (2d12 + 6) piercing damage.\"}, {\"name\": \"Claw\", \"desc\": \"Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 20 (4d6 + 6) slashing damage.\"}, {\"name\": \"Fire Breath (Recharge 5-6)\", \"desc\": \"The zmey exhales fire in a 30-foot cone out of each of its heads. Each creature in a cone must make a DC 17 Dexterity saving throw, taking 49 (14d6) fire damage on a failed save, or half as much damage on a successful one. If the cones overlap, each creature in the overlapping cones must make one saving throw with disadvantage against only one of the cones rather than one saving throw for each cone. The zmey can choose for this breath to not harm plants or Plant creatures.\"}]",
+      "alignment": "Chaotic Evil",
+      "armor_class": 18,
+      "armor_desc": "natural armor",
+      "challenge_rating": "15",
+      "charisma": 12,
+      "charisma_save": 6,
+      "condition_immunities": "paralyzed, unconscious",
+      "constitution": 19,
+      "constitution_save": 9,
+      "cr": 15.0,
+      "damage_immunities": "False",
+      "damage_resistances": "cold, fire",
+      "damage_vulnerabilities": "False",
+      "desc": "False",
+      "dexterity": 13,
+      "document": 47,
+      "group": "null",
+      "hit_dice": "18d12 + 72",
+      "hit_points": 189,
+      "intelligence": 16,
+      "languages": "Common, Draconic, Elvish, Sylvan",
+      "legendary_actions_json": "[{\"name\": \"Move\", \"desc\": \"The zmey moves up to its speed, or flies up to half its flying speed, without provoking opportunity attacks.\"}, {\"name\": \"Tail Whip\", \"desc\": \"The zmey whips its tail around it. Each creature within 15 feet of the zmey must succeed on a DC 17 Dexterity saving throw or be knocked prone.\"}, {\"name\": \"Tripartite Roar (Costs 2 Actions)\", \"desc\": \"The zmey's heads exhale a three-part roar, one a deafening shriek, one a frightful screech, and one a stunning bellow, in a 30-foot cone. Each creature in that area must succeed on a DC 17 Wisdom saving throw or suffer the effects of the roars until the end of its next turn. The effects depend upon the number of heads the zmey has remaining: deafened for only one head, deafened and frightened for two heads, or stunned for three heads.\"}]",
+      "legendary_desc": "The zmey can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The zmey regains spent legendary actions at the start of its turn.",
+      "name": "Zmey",
+      "page_no": 403,
+      "perception": 18,
+      "route": "monsters/",
+      "senses": "blindsight 60 ft., darkvision 90 ft., passive Perception 18",
+      "size": "Huge",
+      "skills_json": "{\"Perception\": 8}",
+      "special_abilities_json": "[{\"name\": \"Amphibious\", \"desc\": \"The zmey can breathe air and water.\"}, {\"name\": \"Legendary Resistance (3/Day)\", \"desc\": \"If the zmey fails a saving throw, it can choose to succeed instead.\"}, {\"name\": \"Regeneration\", \"desc\": \"The zmey regains 15 hp at the start of its turn. If the zmey takes acid or fire damage, this trait doesn't function at the start of the zmey's next turn. The zmey dies if it starts its turn with 0 hp and doesn't regenerate.\"}, {\"name\": \"Three Heads\", \"desc\": \"The zmey has three heads. While it has more than one head, the zmey has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious. Whenever the zmey takes 40 damage or more in a single turn, one of its heads is severed. If it has only one head remaining, dealing 40 damage or more to it doesn't sever the final head. It regrows any severed heads when it finishes a long rest.\"}]",
+      "speed_json": "{\"walk\": 30, \"fly\": 30}",
+      "spells_json": "null",
+      "strength": 22,
+      "type": "Dragon",
+      "wisdom": 16,
+      "wisdom_save": 8
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur",
+      "key": "tob-2023",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+      "publication_date": "",
+      "publisher": "tob-2023",
+      "title": "Tome of Beasts 2023"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Zmey",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-zmey"
+  },
+  "publisher_id": "tob-2023",
+  "source": "open5e:v1:tob-2023",
+  "translations": {
+    "en": {
+      "description": "False",
+      "name": "Zmey",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Проносясь сквозь лес, этот трёхглавый дракон стоит прямо, его шипастый хвост хлещет из стороны в сторону, когда он ходит. Свирепая пасть, выложенная блестящими зубами, украшает каждую голову, а его зелёная чешуя блестит в мимолётном солнечном свете.\n\nОхотясь под пологом леса, скрываясь под поверхностями озёр и охраняя пещеры, скрывающие великие сокровища и тайны, змей имеет две роли — свирепый ужас и защитник природы.\n\n**Когти леса.** Односторонне разрушительный, змей держит сердце леса свободным от нарушителей. Слухи предполагают, что само сердце древнего леса может контролировать действия этих зверей, в то время как другие верят, что у них есть пакт с некоторыми лесными друидами. Конечно, они достаточно умны, часто разрушая мосты, дамбы или лесозаготовительные лагеря, посягающие на их территорию.\n\n**Одинокие охотники.** Змеи избегают их собственного рода, ища изолированные охотничьи угодья. Они едят любую органическую материю, но они предпочитают свежее мясо больших птиц и млекопитающих. Чем умнее добыча, тем лучше, поскольку змеи верят, что интеллект ароматизирует мясо. Они считают алсеидов, полуросликов и гномов особенно сочными.\n\n**Трёхглавая ярость.** Пятнистая чёрная и зелёная чешуя покрывает этого огромного зверя, а его три возвышающиеся шеи длинные и могущественные. Каждая шея увенчана идентичной угрожающей головой, и каждая голова окружена колючими оборчатыми мембранами. Раздвоенный язык мерцает через длинные бледные зубы, а шесть пар глаз горят красным от ярости.\n\nКогда змей стоит прямо, он имеет размер 25 футов от рыла до хвоста. Зверь весит более 9000 фунтов.",
+      "glossary_version": "v1",
+      "name": "Змей",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

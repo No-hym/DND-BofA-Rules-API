@@ -1,0 +1,142 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "elemental-locus",
+  "id": "o5e:tob:monster:elemental-locus-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:elemental-locus"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "26eb9ea1bf67d8dc4758cf0f76eda92e59cf6be40ba1804a21b26875f7aada7c",
+    "formulas": [
+      {
+        "expression": "20d20+80",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral",
+      "armor_class": 16,
+      "challenge_rating": "17",
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, unconscious",
+      "damage_immunities": "acid, cold, fire, lightning, poison, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_resistances": "bludgeoning, piercing, and slashing",
+      "damage_vulnerabilities": "",
+      "hit_dice": "20d20+80",
+      "hit_points": 290,
+      "languages": "Primordial",
+      "size": "Gargantuan"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "26eb9ea1bf67d8dc4758cf0f76eda92e59cf6be40ba1804a21b26875f7aada7c",
+        "edition": "2014",
+        "id": "o5e:tob:monster:elemental-locus",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The elemental locus makes two slam attacks.\"}, {\"name\": \"Slam\", \"desc\": \"Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 36 (6d8 + 9) bludgeoning damage. If the target is a creature, it must succeed on a DC 23 Strength saving throw or be knocked prone.\", \"attack_bonus\": 15, \"damage_dice\": \"6d8\"}]",
+      "alignment": "neutral",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "17",
+      "charisma": 11,
+      "charisma_save": 6,
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, unconscious",
+      "constitution": 18,
+      "cr": 17.0,
+      "damage_immunities": "acid, cold, fire, lightning, poison, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_resistances": "bludgeoning, piercing, and slashing",
+      "desc": "_The ground ripples and tears as rocks fall, jets of flame erupt, and howling winds rage around an elemental locus. The land is angry._  \n**Spirit of the Land.** Elemental loci are living spirits inhabiting or embodying tracts of land and geographical features. They are the ultimate personification of nature—the land itself come to life—varying in size from small hills to entire ridge lines, with no discernible pattern to where they take root.  \n**Stubborn Nature.** Elemental loci are fiercely protective of their chosen location. They tolerate no interference in the natural order and challenge all who despoil the land, be they mortal, monster, or god.  \n**Elemental Nature.** An elemental locus doesn’t require air, food, drink, or sleep.",
+      "dexterity": 1,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "20d20+80",
+      "hit_points": 290,
+      "intelligence": 10,
+      "intelligence_save": 6,
+      "languages": "Primordial",
+      "legendary_actions_json": "null",
+      "name": "Elemental Locus",
+      "page_no": 169,
+      "perception": 6,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 120 ft., tremorsense 120 ft., passive Perception 16",
+      "size": "Gargantuan",
+      "skills_json": "{\"nature\": 6, \"perception\": 6}",
+      "special_abilities_json": "[{\"name\": \"Magic Resistance\", \"desc\": \"The elemental locus has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Immortal\", \"desc\": \"The elemental locus does not age and does not die when it drops to 0 hit points. If the elemental locus drops to 0 hit points, it falls into a quiescent state for 25 weeks before returning to activity with full hit points. Its spawned elementals continue fighting whatever enemies attacked the elemental locus; if no enemies are present, they defend the locus's area.\"}, {\"name\": \"Massive\", \"desc\": \"The elemental locus is larger than most Gargantuan creatures, occupying a space of 60 by 60 feet. Its movement is not affected by difficult terrain or by Huge or smaller creatures. Other creatures can enter and move through the elemental locus's space, but they must make a successful DC 20 Strength (Athletics) check after each 10 feet of movement. Failure indicates they fall prone and can move no farther that turn.\"}, {\"name\": \"Spawn Elementals\", \"desc\": \"As a bonus action, the elemental locus loses 82 hit points and spawns an air, earth, fire, or water elemental to serve it. Spawned elementals answer to their creator's will and are not fully independent. The types of elementals the locus can spawn depend on the terrain it embodies; for example, an elemental locus of the desert can spawn earth, fire, and air elementals, but not water.\"}, {\"name\": \"Siege Monster\", \"desc\": \"The elemental locus deals double damage to objects and structures.\"}]",
+      "speed_json": "{\"walk\": 5}",
+      "spells_json": "null",
+      "strength": 28,
+      "type": "Elemental",
+      "wisdom": 11,
+      "wisdom_save": 6
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Elemental Locus",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-elemental-locus"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_The ground ripples and tears as rocks fall, jets of flame erupt, and howling winds rage around an elemental locus. The land is angry._  \n**Spirit of the Land.** Elemental loci are living spirits inhabiting or embodying tracts of land and geographical features. They are the ultimate personification of nature—the land itself come to life—varying in size from small hills to entire ridge lines, with no discernible pattern to where they take root.  \n**Stubborn Nature.** Elemental loci are fiercely protective of their chosen location. They tolerate no interference in the natural order and challenge all who despoil the land, be they mortal, monster, or god.  \n**Elemental Nature.** An elemental locus doesn’t require air, food, drink, or sleep.",
+      "name": "Elemental Locus",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Земля рябит и разрывается, когда камни падают, струи пламени извергаются, и воющие ветры ярости вокруг стихийного локуса. Земля гневна.\n\n**Дух земли.** Стихийные локусы — живые духи, населяющие или воплощающие участки земли и географические черты. Они — окончательное олицетворение природы — сама земля, пришедшая к жизни — варьирующиеся по размеру от маленьких холмов до целых горных хребтов, без различимой закономерности, где они берут корень.\n\n**Упрямая природа.** Стихийные локусы свирепо защищают их выбранное местоположение. Они не терпят вмешательства в естественный порядок и бросают вызов всем, кто оскверняет землю, будь они смертными, чудовищами или богами.\n\n**Стихийная природа.** Стихийный локус не требует воздуха, пищи, питья или сна.",
+      "glossary_version": "v1",
+      "name": "Стихийный локус",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

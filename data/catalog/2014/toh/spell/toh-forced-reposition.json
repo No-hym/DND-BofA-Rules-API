@@ -1,0 +1,180 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_forced-reposition",
+  "id": "o5e:toh:spell:toh-forced-reposition",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:forced-reposition",
+      "o5e:toh:spell:toh-forced-reposition"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7454008e13d80c25f6c584f5efefb7594e66c28712d6dfbdc7fd5e0a488dcb1c",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 4,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "7454008e13d80c25f6c584f5efefb7594e66c28712d6dfbdc7fd5e0a488dcb1c",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-forced-reposition",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "6822166435e6b1959e76680998459d5d2a8275e4affa50d284d9e507b9a382b9",
+        "edition": "2014",
+        "id": "o5e:toh:spell:forced-reposition",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "One creature of your choice that you can see within range is teleported to an unoccupied space you can see up to 60 feet above you. The space can be open air or a balcony, ledge, or other surface above you. An unwilling creature that succeeds on a Constitution saving throw is unaffected. A creature teleported to open air immediately falls, taking falling damage as normal, unless it can fly or it has some other method of catching itself or preventing a fall. A creature can't be teleported into a solid object.",
+      "document": "toh",
+      "duration": "instantaneous",
+      "higher_level": "If you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The targets must be within 30 feet of each other when you target them, but they don't need to be teleported to the same locations.",
+      "level": 4,
+      "material": false,
+      "material_consumed": false,
+      "name": "Forced Reposition",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "122",
+          "parent": "toh_forced-reposition",
+          "type": "default"
+        },
+        {
+          "external_id": "124",
+          "parent": "toh_forced-reposition",
+          "target_count": 2,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "125",
+          "parent": "toh_forced-reposition",
+          "target_count": 3,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "126",
+          "parent": "toh_forced-reposition",
+          "target_count": 4,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "127",
+          "parent": "toh_forced-reposition",
+          "target_count": 5,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "128",
+          "parent": "toh_forced-reposition",
+          "target_count": 6,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Forced Reposition",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "One creature of your choice that you can see within range is teleported to an unoccupied space you can see up to 60 feet above you. The space can be open air or a balcony, ledge, or other surface above you. An unwilling creature that succeeds on a Constitution saving throw is unaffected. A creature teleported to open air immediately falls, taking falling damage as normal, unless it can fly or it has some other method of catching itself or preventing a fall. A creature can't be teleported into a solid object.",
+      "name": "Forced Reposition",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Одно существо по вашему выбору, которое вы можете видеть в пределах дистанции, телепортировано в незанятое пространство, которое вы можете видеть до 60 футов выше вас. Пространство может быть открытым воздухом или балконом, уступом или другой поверхностью выше вас. Несогласное существо, которое преуспевает в спасброске Телосложения, не поражено. Существо, телепортированное в открытый воздух, немедленно падает, получая урон от падения, как обычно, если оно не может летать или не имеет какого-либо другого метода поймать себя или предотвратить падение. Существо не может быть телепортировано в твёрдый объект.",
+      "glossary_version": "v1",
+      "name": "Принудительное перемещение",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

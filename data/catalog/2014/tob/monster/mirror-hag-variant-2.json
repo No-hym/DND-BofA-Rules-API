@@ -1,0 +1,137 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "mirror-hag",
+  "id": "o5e:tob:monster:mirror-hag-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:mirror-hag"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "1a3426881b28c595db85bf72c49b301bc2e2881f5921c24d4e69292ae7c7a750",
+    "formulas": [
+      {
+        "expression": "16d8+96",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic neutral",
+      "armor_class": 16,
+      "challenge_rating": "6",
+      "condition_immunities": "charmed, frightened",
+      "damage_immunities": "",
+      "damage_resistances": "thunder",
+      "damage_vulnerabilities": "",
+      "hit_dice": "16d8+96",
+      "hit_points": 168,
+      "languages": "Common",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "1a3426881b28c595db85bf72c49b301bc2e2881f5921c24d4e69292ae7c7a750",
+        "edition": "2014",
+        "id": "o5e:tob:monster:mirror-hag",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"A mirror hag can use its Reconfiguring Curse and make one melee attack.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 21 (4d8 + 3) piercing damage, or 39 (8d8 + 3) piercing damage against a stunned target.\", \"attack_bonus\": 6, \"damage_dice\": \"4d8\"}, {\"name\": \"Quarterstaff\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.\", \"attack_bonus\": 5, \"damage_dice\": \"1d6\"}, {\"name\": \"Reconfiguring Curse\", \"desc\": \"The mirror hag curses a living creature within 60 feet, giving it beastly or hideous features. The target of the reconfiguring curse must succeed on a DC 15 Constitution saving throw or take 1d6 Charisma damage. A successful save renders the target immune to further uses of that hag's curse for 24 hours.\"}]",
+      "alignment": "chaotic neutral",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "6",
+      "charisma": 19,
+      "condition_immunities": "charmed, frightened",
+      "constitution": 22,
+      "cr": 6.0,
+      "damage_resistances": "thunder",
+      "desc": "_A mirror hag forces an unsuspecting creature to reflect on its own superficiality by gazing into the hag’s horrible face._  \n**Hideous Hex.** Until a creature can see past the hag’s deformities, it suffers the pain of a disfigured life. Some mirror hags do this for the betterment of all, but most do it because causing pain amuses them.  \n**Warped Features.** Mirror hags are hunchbacked, with growths and lesions covering their skin. Their joints misalign, and the extremities of their bones press against their skin. However, it is their faces that inspire legends: the blackest moles sprouting long white hairs, noses resembling half-eaten carrots, and eyes mismatched in size, color, and alignment. If a creature recoils from a mirror hag’s looks, she bestows her reconfiguring curse on it.  \n**Mirror Covens.** Mirror hags can form a coven with two other hags. Generally, mirror hags only form covens with other mirror hags, but from time to time a mirror hag will join a coven of witches or green hags.",
+      "dexterity": 16,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "16d8+96",
+      "hit_points": 168,
+      "intelligence": 12,
+      "languages": "Common",
+      "legendary_actions_json": "null",
+      "name": "Mirror Hag",
+      "page_no": 243,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 12",
+      "size": "Medium",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Innate Spellcasting\", \"desc\": \"the hag's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). She can innately cast the following spells, requiring no material components:\\n\\nat will: disguise self, inflict wounds (4d10), message, ray of enfeeblement\\n\\n1/day each: detect thoughts, dispel magic, lightning bolt, locate creature, shillelagh, stinking cloud, teleport\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The hag has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Confounding Ugliness\", \"desc\": \"When confronting a mirror hag at any range, a creature must make a choice at the start of each of its turns: either avert its eyes so that it has disadvantage on attack rolls against the hag until the start of its next turn, or look at the hag and make a DC 15 Constitution saving throw. Failure on the saving throw leaves the character stunned until the start of its next turn.\"}]",
+      "speed_json": "{\"walk\": 30, \"fly\": 10}",
+      "spells_json": "null",
+      "strength": 15,
+      "type": "Fey",
+      "wisdom": 14
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Mirror Hag",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-mirror-hag"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_A mirror hag forces an unsuspecting creature to reflect on its own superficiality by gazing into the hag’s horrible face._  \n**Hideous Hex.** Until a creature can see past the hag’s deformities, it suffers the pain of a disfigured life. Some mirror hags do this for the betterment of all, but most do it because causing pain amuses them.  \n**Warped Features.** Mirror hags are hunchbacked, with growths and lesions covering their skin. Their joints misalign, and the extremities of their bones press against their skin. However, it is their faces that inspire legends: the blackest moles sprouting long white hairs, noses resembling half-eaten carrots, and eyes mismatched in size, color, and alignment. If a creature recoils from a mirror hag’s looks, she bestows her reconfiguring curse on it.  \n**Mirror Covens.** Mirror hags can form a coven with two other hags. Generally, mirror hags only form covens with other mirror hags, but from time to time a mirror hag will join a coven of witches or green hags.",
+      "name": "Mirror Hag",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Зеркальная ведьма заставляет ничего не подозревающее существо задуматься о своей собственной поверхности, всматриваясь в ужасное лицо карги.\n\n**Отвратительное проклятие.** Пока существо не может видеть мимо уродства карги, она страдает от боли уродливой жизни. Некоторые зеркальные ведьмы делают это на благо всех, но большинство делает это потому, что причинять боль их развлекает.\n\n**Искажённые черты.** Зеркальные ведьмы сгорблены, с наростами и поражениями, покрывающими их кожу. Их суставы не совпадают, а конечности костей давят на кожу. Однако, это их лица вдохновили легенды: чернейшие родинки, отращиваются длинные белые волосы, носы, напоминающие обгрызанную морковь, и глаза неподходящего размера, цвет, согласованных действий. Если существо отшатнется от взглядов зеркальной карги, она дарует ей реконфигурации проклятие на неё.\n\n**Зеркальные ковены.** Зеркальные ведьмы могут образовывать ковены с двумя другими ведьмами. Как правило, зеркальные ведьмы только образуют ковены с другими зеркальными ведьмами, но время от времени зеркальная ведьма присоединится ковен ведьм или зелёных ведьм.",
+      "glossary_version": "v1",
+      "name": "Зеркальная ведьма",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

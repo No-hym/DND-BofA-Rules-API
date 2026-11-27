@@ -1,0 +1,180 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_bitter-chains",
+  "id": "o5e:deepm:spell:deepm-bitter-chains",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-bitter-chains",
+      "o5e:dmag:spell:bitter-chains"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b0bf29a9d6333f41ecb2a042ea8df62a1dea18536107c4a2f66e9fbb60cb6a0d",
+    "formulas": [
+      {
+        "expression": "3d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "3d6",
+      "damage_types": [
+        "piercing"
+      ],
+      "duration": "1 minute",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a spiked metal ring",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "b0bf29a9d6333f41ecb2a042ea8df62a1dea18536107c4a2f66e9fbb60cb6a0d",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-bitter-chains",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "d8876e61458e7c973f74520414077d9283cd1bdf421784baa5cf69685e360faf",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:bitter-chains",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_sorcerer",
+        "type": "classes",
+        "value": [
+          "srd_sorcerer",
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "3d6",
+      "damage_types": [
+        "piercing"
+      ],
+      "desc": "The spiked ring in your hand expands into a long, barbed chain to ensnare a creature you touch. Make a melee spell attack against the target. On a hit, the target is bound in metal chains for the duration. While bound, the target can move only at half speed and has disadvantage on attack rolls, saving throws, and Dexterity checks. If it moves more than 5 feet during a turn, it takes 3d6 piercing damage from the barbs.\n\nThe creature can escape from the chains by using an action and making a successful Strength or Dexterity check against your spell save DC, or if the chains are destroyed. The chains have AC 18 and 20 hit points.",
+      "document": "deepm",
+      "duration": "1 minute",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a spiked metal ring",
+      "name": "Bitter Chains",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2446",
+          "parent": "deepm_bitter-chains",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Bitter Chains",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "The spiked ring in your hand expands into a long, barbed chain to ensnare a creature you touch. Make a melee spell attack against the target. On a hit, the target is bound in metal chains for the duration. While bound, the target can move only at half speed and has disadvantage on attack rolls, saving throws, and Dexterity checks. If it moves more than 5 feet during a turn, it takes 3d6 piercing damage from the barbs.\n\nThe creature can escape from the chains by using an action and making a successful Strength or Dexterity check against your spell save DC, or if the chains are destroyed. The chains have AC 18 and 20 hit points.",
+      "name": "Bitter Chains",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Шипастое кольцо в вашей руке расширяется в длинные, колючие оковы, чтобы заманить существо, которого вы касаетесь. Сделайте атаку заклинанием ближнего боя против цели. При поражении цель связана металлическими цепями на время действия. В то время как граничит, цель может передвигаться только с половинной скоростью и имеет недостаток на броски атаки, спасброски и проверку Ловкости. Если она движется более 5 футов за ход, она получает 3к6 прокалывающего урона от шипов.\n\nСущество может вырваться из цепей, используя действия и сделав успешную проверку Силы или проверка Ловкости против вашей Сл Спасброска Заклинаний, или если цепи будут разрушены. Цепи имеют КД 18 и 20 хитов.",
+      "glossary_version": "v1",
+      "name": "Горькие оковы",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

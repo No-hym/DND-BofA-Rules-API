@@ -1,0 +1,228 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_pale-screamer",
+  "id": "o5e:tob2:creature:tob2-pale-screamer",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-pale-screamer"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "cbf0fbb3d5d90d55f26cd7b893c3338998881ce5fa10ae970424018e4a7c76c5",
+    "formulas": [
+      {
+        "expression": "7d8+21",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 17,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 7,
+      "ability_score_strength": 16,
+      "ability_score_wisdom": 13,
+      "alignment": "neutral evil",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "3.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [
+        "bludgeoning",
+        "cold",
+        "force"
+      ],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 90,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "7d8+21",
+      "hit_points": 52,
+      "initiative_bonus": null,
+      "languages": [
+        "deep-speech"
+      ],
+      "languages_desc": "Deep Speech",
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": 30,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "cbf0fbb3d5d90d55f26cd7b893c3338998881ce5fa10ae970424018e4a7c76c5",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-pale-screamer",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 17,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 7,
+      "ability_score_strength": 16,
+      "ability_score_wisdom": 13,
+      "alignment": "neutral evil",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "3.000",
+      "damage_resistances": [
+        "bludgeoning",
+        "cold",
+        "force"
+      ],
+      "damage_resistances_display": "bludgeoning, cold, force",
+      "darkvision_range": 90,
+      "document": "tob2",
+      "hit_dice": "7d8+21",
+      "hit_points": 52,
+      "hover": false,
+      "languages": [
+        "deep-speech"
+      ],
+      "languages_desc": "Deep Speech",
+      "name": "Pale Screamer",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "size": "medium",
+      "skill_bonus_athletics": 5,
+      "skill_bonus_perception": 3,
+      "swim": 30,
+      "type": "aberration",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "The pale screamer makes two tentacle attacks. If both attacks hit the same target, the target must succeed on a DC 13 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_pale-screamer_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_pale-screamer",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The pale screamer unleashes an alien screech in a 30-foot cone. Each creature in that area must make a DC 14 Constitution saving throw. On a failure, a creature takes 10 (3d6) thunder damage and is deafened until the end of its next turn. On a success, a creature takes half the damage and isn't deafened.",
+          "desc_ru": "Действие «Скреам Дееп»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_pale-screamer_scream-of-the-deep",
+          "name": "Scream of the Deep",
+          "name_ru": "Скреам Дееп",
+          "order_in_statblock": 2,
+          "parent": "tob2_pale-screamer",
+          "ru_source": "derived",
+          "uses_param": 6,
+          "uses_type": "RECHARGE_ON_ROLL"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.",
+          "desc_ru": "Атака оружием ближнего боя: +5 к попаданию, досягаемость 10 фт., одна цель. Попадание: 8 (2к4+3) дробящего урона.",
+          "external_id": "tob2_pale-screamer_tentacle",
+          "name": "Tentacle",
+          "name_ru": "Щупальце",
+          "order_in_statblock": 1,
+          "parent": "tob2_pale-screamer",
+          "ru_source": "template"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The pale screamer can breathe air and water.",
+          "desc_ru": "Может дышать как воздухом, так и водой.",
+          "external_id": "tob2_pale-screamer_amphibious",
+          "name": "Amphibious",
+          "name_ru": "Амфибиоус",
+          "parent": "tob2_pale-screamer",
+          "ru_source": "template"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Pale Screamer",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Pale Screamer",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Это ужасное молочно-белое существо имеет нижнее тело измождённого гуманоида и верхнее тело склизкой медузы. Тёмно-синие глазки покрывают его верхнее тело, и длинные оборчатые прозрачные щупальца тянутся из его тела подобно бахроме.\n\n**Вопли в глубинах.** Искатели приключений, путешествующие глубоко под землёй или в океанских глубинах, иногда слышат нечестивый звук, эхом доносящийся к ним из черноты, за которым следует вид существа, которое не человек и не медуза. Это обычно их первая и последняя встреча с бледным крикуном, существом, которое преследует пещеры и водные пути, ища жертв, чтобы поглотить или транспортировать обратно в логова их ужасных чужеродных хозяев. Бледный крикун преследует свою миссию со злобной радостью и наслаждается пожиранием своей добычи заживо, часто перед парализованными спутниками своих жертв.\n\n**Злые цветки.** Хотя бледные крикуны — искусственные существа и не размножаются естественным образом, их хозяева иногда формируют их в цветки из двух или более для взаимного сотрудничества и защиты. Эти бледные крикуны учатся общаться друг с другом, изменяя окраску своих глазков, позволяя им передавать информацию молча и лучше устраивать засады или вводить в заблуждение своих врагов.\n\n**Бывшие люди.** Бледные крикуны создаются смешиванием человеческих и похожих на медуз существ вместе, используя искривлённую магическую хирургию.",
+      "glossary_version": "v1",
+      "name": "Бледный крикун",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

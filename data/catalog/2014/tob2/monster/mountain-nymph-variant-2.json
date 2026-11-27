@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "mountain-nymph",
+  "id": "o5e:tob2:monster:mountain-nymph-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:mountain-nymph"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "1fe923e5ddcab5af818f88b61368c8420f0ef2346940b23fcf8ea3b00710cbdc",
+    "formulas": [
+      {
+        "expression": "15d8+45",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic neutral",
+      "armor_class": 15,
+      "challenge_rating": "6",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "15d8+45",
+      "hit_points": 112,
+      "languages": "Common, Elvish, Sylvan",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "1fe923e5ddcab5af818f88b61368c8420f0ef2346940b23fcf8ea3b00710cbdc",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:mountain-nymph",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The mountain nymph makes three longbow attacks.\"}, {\"name\": \"Longbow\", \"desc\": \"Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage.\", \"attack_bonus\": 7, \"damage_dice\": \"1d8+4\"}]",
+      "alignment": "chaotic neutral",
+      "armor_class": 15,
+      "armor_desc": "leather armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "6",
+      "charisma": 14,
+      "constitution": 16,
+      "cr": 6.0,
+      "desc": "The pitiless eyes of this elven creature are black as pitch with neither white nor iris._  \n**Born to Hunt.** Mountain nymphs claim to be the children of gods associated with hunting and the moon. Whether this is true or not is unknown, but they are renowned as being some of the best stalkers and trappers among the fey. Newly created mountain nymphs, wearing leathers and carrying yew bows, form on the mountainside, fully-grown. The nymphs carry no arrows; every time they put a finger to any bowstring, a nocked arrow appears.  \n**Despoilers of Despoilers.** Mountain nymphs despise mortals who disrupt the natural order. Those who take or use more natural resources than they need while in a mountain nymph’s territory risk becoming the target of her wrath. The raising of a settlement in a mountain nymph’s territory will attract her immediate attention. The ruins of a failed mountain settlement may be the work of a mountain nymph that has taken umbrage at the community’s excessive use of the local timber and ore.  \n**Relentless Stalkers.** Little can be done to deter a mountain nymph once it has set its sights on a quarry. They have been known to track their prey far from their native mountains, across continents and into mortal cities. When a nymph catches up to her mark, she harries it without mercy or remorse. A nymph’s mark, assuming it has done nothing to offend or harm the nymph, can throw the nymph off its tail by exiting her territory and leaving tribute of freshly hunted meat and strong drink.",
+      "dexterity": 18,
+      "dexterity_save": 7,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "15d8+45",
+      "hit_points": 112,
+      "intelligence": 10,
+      "languages": "Common, Elvish, Sylvan",
+      "legendary_actions_json": "null",
+      "name": "Mountain Nymph",
+      "page_no": 261,
+      "perception": 7,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 90 ft., passive Perception 17",
+      "size": "Medium",
+      "skills_json": "{\"perception\": 7, \"stealth\": 7, \"survival\": 7}",
+      "special_abilities_json": "[{\"name\": \"Hunter's Foresight\", \"desc\": \"The mountain nymph can see the immediate future of a creature affected by her hunter's mark spell. While hunter's mark is active on a creature, the mountain nymph has advantage on attack rolls against the creature and on saving throws against the creature's spells and special abilities.\"}, {\"name\": \"Mountain Walk\", \"desc\": \"The mountain nymph can move across and climb rocky surfaces without needing to make an ability check. Additionally, difficult terrain composed of rocks or rocky debris doesn't cost her extra movement.\"}, {\"name\": \"Point Blank Hunter\", \"desc\": \"When the mountain nymph makes a ranged attack with a bow, she doesn't have disadvantage on the attack roll from being within 5 feet of a hostile creature, though she may still have disadvantage from other sources.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"The mountain nymph's innate spellcasting ability is Wisdom (spell save DC 15). It can innately cast the following spells, requiring no material components:\\nAt will: hunter's mark\\n3/day each: misty step, spike growth\\n1/day: pass without trace\"}]",
+      "speed_json": "{\"walk\": 30, \"climb\": 30}",
+      "spells_json": "null",
+      "strength": 12,
+      "type": "Fey",
+      "wisdom": 18,
+      "wisdom_save": 7
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Mountain Nymph",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-mountain-nymph"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "The pitiless eyes of this elven creature are black as pitch with neither white nor iris._  \n**Born to Hunt.** Mountain nymphs claim to be the children of gods associated with hunting and the moon. Whether this is true or not is unknown, but they are renowned as being some of the best stalkers and trappers among the fey. Newly created mountain nymphs, wearing leathers and carrying yew bows, form on the mountainside, fully-grown. The nymphs carry no arrows; every time they put a finger to any bowstring, a nocked arrow appears.  \n**Despoilers of Despoilers.** Mountain nymphs despise mortals who disrupt the natural order. Those who take or use more natural resources than they need while in a mountain nymph’s territory risk becoming the target of her wrath. The raising of a settlement in a mountain nymph’s territory will attract her immediate attention. The ruins of a failed mountain settlement may be the work of a mountain nymph that has taken umbrage at the community’s excessive use of the local timber and ore.  \n**Relentless Stalkers.** Little can be done to deter a mountain nymph once it has set its sights on a quarry. They have been known to track their prey far from their native mountains, across continents and into mortal cities. When a nymph catches up to her mark, she harries it without mercy or remorse. A nymph’s mark, assuming it has done nothing to offend or harm the nymph, can throw the nymph off its tail by exiting her territory and leaving tribute of freshly hunted meat and strong drink.",
+      "name": "Mountain Nymph",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Безжалостные глаза этого эльфийского существа чёрны как смоль, без белка и радужки.\n\n**Рождённые охотиться.** Горные нимфы утверждают, что они дети богов, связанных с охотой и луной. Истинно ли это или нет, неизвестно, но они известны как одни из лучших преследователей и охотников среди фей. Недавно созданные горные нимфы, носящие кожу и несущие тисовые луки, формируются на склоне горы, полностью выросшими. Нимфы не несут стрел; каждый раз, когда они прикладывают палец к любой тетиве, появляется приложенная стрела.\n\n**Расхитители расхитителей.** Горные нимфы презирают смертных, которые нарушают естественный порядок. Те, кто берёт или использует больше природных ресурсов, чем им нужно, будучи на территории горной нимфы, рискуют стать целью её гнева. Возведение поселения на территории горной нимфы привлечёт её немедленное внимание. Руины неудавшегося горного поселения могут быть работой горной нимфы, которая оскорбилась чрезмерным использованием сообществом местной древесины и руды.\n\n**Неустанные преследователи.** Мало что может быть сделано, чтобы сдержать горную нимфу, как только она навела взгляд на добычу. Они, как известно, выслеживают их добычу далеко от их родных гор, через континенты и в смертные города. Когда нимфа догоняет её добычу, она преследует её без милости или раскаяния. Добыча нимфы, предполагая, что она не сделала ничего, чтобы оскорбить или повредить нимфе, может сбросить нимфу с её хвоста, покинув её территорию и оставив дань свежезаохоченного мяса и крепкого питья.",
+      "glossary_version": "v1",
+      "name": "Горная нимфа",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

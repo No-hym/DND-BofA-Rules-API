@@ -1,0 +1,231 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "class",
+  "edition": "2014",
+  "external_id": "bfrd_fighter",
+  "id": "o5e:bfrd:characterclass:bfrd-fighter",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:characterclass:bfrd-fighter",
+      "o5e:srd-2014:characterclass:srd-fighter"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "043bbd060cf6c39dcc997d518be8bcc400df69665c0ea29473dbf8eea0b87926",
+    "formulas": [
+      {
+        "expression": "D10",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "NONE",
+      "hit_dice": "D10",
+      "primary_abilities": [],
+      "saving_throws": [
+        "str",
+        "con"
+      ],
+      "subclass_of": null
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "043bbd060cf6c39dcc997d518be8bcc400df69665c0ea29473dbf8eea0b87926",
+        "edition": "2014",
+        "id": "o5e:bfrd:characterclass:bfrd-fighter",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "83680146165e19311c1a4838d92536084129e46aca58e7b1d0a9e7aeff9a0627",
+        "edition": "2014",
+        "id": "o5e:srd-2014:characterclass:srd-fighter",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "NONE",
+      "document": "bfrd",
+      "hit_dice": "D10",
+      "name": "Fighter",
+      "saving_throws": [
+        "str",
+        "con"
+      ]
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you take damage that would reduce your hit points to less than half your hit point maximum (rounded down), you can use your reaction to spend hit dice, up to a number equal to your PB. Immediately roll those hit dice. You regain hit points equal to the sum of all dice rolled + your CON modifier.",
+          "desc_ru": "Когда вы получаете урон, который уменьшил бы ваши очки хитов до менее чем половины вашего максимума очков хитов (округляя вниз), вы можете реакцией потратить кости хитов в количестве до вашего бонуса мастерства. Немедленно бросьте эти кости хитов. Вы восстанавливаете очки хитов, равные сумме всех брошенных костей + ваш модификатор Телосложения.",
+          "document": "bfrd",
+          "external_id": "bfrd_fighter_last-stand",
+          "level": 1,
+          "name": "Last Stand",
+          "name_ru": "Последний рубеж",
+          "parent": "bfrd_fighter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your tactical expertise allows you to act quickly on the battlefield. You can take a bonus action on each of your turns in combat to perform a weapon option or one of the martial actions granted by this feature.\n\nChoose one of the following martial actions that you know.\n\n## Aim\n\n*Requires Wielding a Ranged or Thrown Weapon*\n\nAs a bonus action, you take the time to increase the effectiveness of your next ranged weapon attack. Select one target you can see. If you make a ranged weapon attack against that target before the end of your turn, double your PB for the first attack roll.\n\n## Guard\n\n*Requires Wielding a Shield*\n\nAs a bonus action, you raise your shield to intercept incoming attacks. Select one enemy creature within 5 feet of you. That creature has disadvantage on the first attack roll it makes against you or an ally within 5 feet of you before the start of your next turn.\n\n## Quick Strike\n\n*Requires Wielding Two Light Weapons*\n\nAfter you take the Attack action on your turn and attack with a Light melee weapon that you're holding in one hand, you can use a bonus action to make two attacks with a different Light melee weapon that you're holding in the other hand—instead of the one attack typically granted by two-weapon fighting. Don't add your ability modifier to the damage of these additional attacks unless the modifier is negative.\n\n## Wind Up\n\n*Requires Wielding a Heavy or a Versatile Melee Weapon with Both Hands*\n\nAs a bonus action, you ready a powerful attack against a nearby target. Select one target you can see within 10 feet of you. If you hit that target with a melee weapon attack before the end of your turn, the first such attack deals extra damage equal to your PB (of the same damage type as the weapon).",
+          "desc_ru": "Ваш тактический опыт позволяет вам быстро действовать на поле боя. Вы можете совершать бонусное действие в каждый ваш ход в бою, чтобы выполнить вариант оружия или одно из воинских действий, дарованных этой особенностью.\n\nВыберите одно из следующих воинских действий, которое вы знаете.\n\n## Прицеливание\n\nТребуется владение оружием дальнего боя или метательным оружием\n\nбонусным действием вы уделяете время, чтобы повысить эффективность вашей следующей атаки оружием дальнего боя. Выберите одну цель, которую вы можете видеть. Если вы совершите атаку оружием дальнего боя против этой цели до конца вашего хода, удвойте ваш бонус мастерства для первого броска атаки.\n\n## Стража\n\nТребуется владение щитом\n\nбонусным действием вы поднимаете ваш щит, чтобы перехватить входящие атаки. Выберите одно вражеское существо в пределах 5 футов от вас. Это существо совершает с помехой первый бросок атаки, который оно совершает против вас или союзника в пределах 5 футов от вас до начала вашего следующего хода.\n\n## Быстрый удар\n\nТребуется владение двумя лёгкими оружиями\n\nПосле того как вы выполняете действие Атака в ваш ход и атакуете лёгким оружием ближнего боя, которое вы держите в одной руке, вы можете бонусным действием совершить две атаки другим лёгким оружием ближнего боя, которое вы держите в другой руке, — вместо одной атаки, обычно даруемой боем двумя оружиями. Не добавляйте ваш модификатор характеристики к урону этих дополнительных атак, если модификатор не отрицательный.\n\n## Замах\n\nТребуется владение тяжёлым или универсальным оружием ближнего боя обеими руками\n\nбонусным действием вы готовите мощную атаку против ближайшей цели. Выберите одну цель, которую вы можете видеть в пределах 10 футов от вас. Если вы попадаете по этой цели атакой оружием ближнего боя до конца вашего хода, первая такая атака наносит дополнительный урон, равный вашему бонусу мастерства (того же типа урона, что и оружие).",
+          "document": "bfrd",
+          "external_id": "bfrd_fighter_martial-action",
+          "level": 1,
+          "name": "Martial Action",
+          "name_ru": "Воинское действие",
+          "parent": "bfrd_fighter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_fighter_proficiency-bonus",
+          "feature_type": "PROFICIENCY_BONUS",
+          "level": 1,
+          "name": "Proficiency Bonus",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_fighter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When the need is great, you push your body to its absolute limit. On your turn, you can activate this feature to gain another action—in addition to the action and possible bonus action you regularly get on your turn.\n\nOnce you use this feature, you must complete a short or long rest before you can use it again. Starting at 13th level, you can use it twice before a rest but only once on the same turn. At 18th level, you can use it three times before a rest but only once on the same turn.",
+          "desc_ru": "Начиная со 2-го уровня, вы можете на мгновение выйти за пределы своих обычных возможностей. В свой ход вы можете совершить одно дополнительное действие помимо обычного действия и возможного бонусного действия.\n\nИспользовав это умение, вы должны завершить короткий или долгий отдых, прежде чем сможете использовать его снова. Начиная с 17-го уровня, вы можете использовать его дважды перед отдыхом, но только один раз в один и тот же ход.",
+          "document": "bfrd",
+          "external_id": "bfrd_fighter_action-surge",
+          "level": 2,
+          "name": "Action Surge",
+          "name_ru": "Всплеск действий",
+          "parent": "bfrd_fighter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Choose a subclass that reflects your role in battle, either Spell Blade or Weapon Master (detailed at the end of this class). Your choice grants you features at 3rd, 7th, 11th, and 15th level.",
+          "desc_ru": "Вы получаете подкласс воина на свой выбор. Подкласс Чемпион описан после описания этого класса. Подкласс — это специализация, которая даёт вам умения на определённых уровнях воина. До конца вашей карьеры вы получаете каждое умение своего подкласса, которое соответствует вашему уровню воина или ниже.",
+          "document": "bfrd",
+          "external_id": "bfrd_fighter_fighter-subclass",
+          "level": 3,
+          "name": "Fighter Subclass",
+          "name_ru": "Подкласс воина",
+          "parent": "bfrd_fighter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Choose one of the following improvements (ability scores can't be raised above 20 with this feature):\n- Increase a single ability score by 2.\n- Increase two different ability scores by 1 each.\n- Increase one ability score by 1 and select a talent from the martial talents list.",
+          "desc_ru": "Выберите одно из следующих улучшений (этой особенностью показатели характеристик нельзя поднять выше 20):\n- Увеличить один показатель характеристики на 2.\n- Увеличить два разных показателя характеристик на 1 каждый.\n- Увеличить один показатель характеристики на 1 и выбрать талант из списка боевых талантов.",
+          "document": "bfrd",
+          "external_id": "bfrd_fighter_improvement",
+          "level": 4,
+          "name": "Improvement",
+          "name_ru": "Улучшение",
+          "parent": "bfrd_fighter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your physical prowess has grown. On your turn, you can make two attacks when you take the Attack action.\n\nStarting at 9th level, you can make three attacks when you take the Attack action. At 17th level, you can make four.",
+          "desc_ru": "Ваша физическая мощь выросла. В свой ход вы можете совершить две атаки, когда выполняете действие Атака.\n\nНачиная с 9-го уровня вы можете совершать три атаки, когда выполняете действие Атака. На 17-м уровне вы можете совершать четыре.",
+          "document": "bfrd",
+          "external_id": "bfrd_fighter_multiattack",
+          "level": 5,
+          "name": "Multiattack",
+          "name_ru": "Мультиатака",
+          "parent": "bfrd_fighter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your commitment to the fighter's path grants you a powerful new ability. Choose one of the following heroic boons:\n- **Defiant.** When you fail a save, you can instead choose to succeed on the save. You can use this feature once and regain the use of it when you finish a long rest. You can use it twice before a long rest at 13th level, and three times at 17th.\n- **Unstoppable.** When you start your turn, you can choose to end one of the following conditions affecting you: blinded, charmed, frightened, incapacitated, paralyzed, or stunned. You can use this feature a number of times equal to your PB, and you regain all expended uses when you finish a long rest.",
+          "desc_ru": "Ваша приверженность пути воина даёт вам мощную новую способность. Выберите один из следующих героических даров:\n- Непокорный. Когда вы проваливаете спасбросок, вы можете вместо этого выбрать успешно пройти спасбросок. Вы можете использовать эту особенность один раз и восстанавливаете её использование, когда заканчиваете продолжительный отдых. Вы можете использовать её дважды перед продолжительным отдыхом на 13-м уровне и три раза на 17-м.\n- Неостановимый. Когда вы начинаете ваш ход, вы можете выбрать закончить одно из следующих состояний, действующих на вас: ослеплённость, очарованность, напуганность, недееспособность, парализованность или ошеломлённость. Вы можете использовать эту особенность количество раз, равное вашему бонусу мастерства, и вы восстанавливаете все потраченные использования, когда заканчиваете продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_fighter_heroic-boon",
+          "level": 10,
+          "name": "Heroic Boon",
+          "name_ru": "Героический дар",
+          "parent": "bfrd_fighter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your commitment to the fighter's path grants you a powerful new ability. You gain the following epic boon:\n- **Turn the Tide.** Once on each of your turns, when you hit a creature or object with a weapon attack on your turn, you can cause the attack to deal additional damage (of the same damage type as the weapon) equal to your STR or DEX score (your choice). The attack's damage ignores resistance and immunity, and it can't be reduced or avoided by any means.",
+          "desc_ru": "Ваша приверженность пути воина дарует вам мощную новую способность. Вы получаете следующий эпический дар:\n- **Обратить ход.** Один раз в каждый ваш ход, когда вы попадаете по существу или объекту атакой оружием в ваш ход, вы можете сделать так, чтобы атака нанесла дополнительный урон (того же типа, что и оружие), равный вашему показателю Силы или Ловкости (ваш выбор). Урон атаки игнорирует сопротивление и иммунитет и не может быть уменьшен или избегнут никакими средствами.",
+          "document": "bfrd",
+          "external_id": "bfrd_fighter_epic-boon",
+          "level": 20,
+          "name": "Epic Boon",
+          "name_ru": "Эпический дар",
+          "parent": "bfrd_fighter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "|||\n|---|---|\n|Hit Point Die|D10 per Fighter level|\n|Saving Throw Proficiencies|Strength and Constitution|\n|Skill Proficiencies|Choose 2: Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, Survival|\n|Weapon Proficiencies|Simple weapons, martial weapons|\n|Tool Proficiencies|None|\n|Armor Training|All armor and shields|\n|Starting Equipment|Choose A or B for each: (A) chain mail or (B) leather armor, longbow, and 20 arrows; (A) a martial weapon and a shield or (B) two martial weapons; (A) a light crossbow and 20 bolts or (B) two handaxes; (A) a dungeoneer's pack or (B) an explorer's pack|",
+          "desc_ru": "|||\n|---|---|\n|Кость хитов|К10 за уровень воина|\n|Владение спасбросками|Сила и Телосложение|\n|Владение навыками|Выберите 2: Акробатика, Уход за животными, Атлетика, История, Проницательность, Запугивание, Восприятие, Выживание|\n|Владение оружием|Простое оружие, боевое оружие|\n|Владение инструментами|Нет|\n|Тренировка доспехов|Все доспехи и щиты|\n|Начальное снаряжение|Выберите А или Б для каждого: (А) кольчуга или (Б) кожаный доспех, длинный лук и 20 стрел; (А) боевое оружие и щит или (Б) два боевых оружия; (А) лёгкий арбалет и 20 болтов или (Б) два ручных топора; (А) набор исследователя подземелий или (Б) набор путешественника|",
+          "document": "bfrd",
+          "external_id": "bfrd_fighter_core-traits",
+          "feature_type": "CORE_TRAITS_TABLE",
+          "name": "Core Fighter Traits",
+          "name_ru": "Основные черты воина",
+          "parent": "bfrd_fighter",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Fighter",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Fighter",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Таблица: Основные черты воина\n\n|                            |                                                                                                                                       |\n|---|---|\n| Основная характеристика    | Сила или Ловкость                                                                                                                     |\n| Кость Хитов                | d10 за каждый уровень воина                                                                                                           |\n| Владение спасбросками      | Сила и Телосложение                                                                                                                   |\n| Владение навыками          | Выберите 2: Акробатика, Уход за животными, Атлетика, История, Проницательность, Запугивание, Убеждение, Внимательность или Выживание |\n| Владение оружием           | Простое и воинское оружие                                                                                                             |\n| Владение доспехами         | Лёгкие, Средние и Тяжёлые доспехи, щиты                                                                                               |\n| Начальное снаряжение       | Выберите А, Б или В: (А) Кольчуга, двуручный меч, цеп, 8 дротиков, набор исследователя подземелий и 4 зм; (Б) Проклёпанный кожаный доспех, скимитар, короткий меч, длинный лук, 20 стрел, колчан, набор исследователя подземелий и 11 зм; или (В) 155 зм |",
+      "glossary_version": "v1",
+      "name": "Воин",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

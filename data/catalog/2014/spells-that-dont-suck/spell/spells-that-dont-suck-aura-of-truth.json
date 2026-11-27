@@ -1,0 +1,202 @@
+{
+  "attribution": "Title: Spells That Don't Suck; Author: Ben Somers / somanyrobots, Omega Ankh; Publisher: somanyrobots; Source: https://www.somanyrobots.com/s/Spells-That-Dont-Suck-compressed.pdf; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "spells-that-dont-suck",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "spells-that-dont-suck_aura-of-truth",
+  "id": "o5e:spells-that-dont-suck:spell:spells-that-dont-suck-aura-of-truth",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "17d03a8f7ef676cb66ff228bceb08c19c64cf3f414901ba29996d8880bf4cd6d",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_cleric",
+        "srd_paladin"
+      ],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "10 minutes",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "enchantment",
+      "somatic": true,
+      "target_count": null,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "classes",
+        "value": [
+          "srd_bard",
+          "srd_cleric",
+          "srd_paladin"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_cleric",
+        "srd_paladin"
+      ],
+      "concentration": true,
+      "desc": "You radiate a compulsion for honesty in an aura with a 15-foot radius. Until the spell ends, the aura moves with you, centered on you. The first time a creature ends its turn within the area, it must make a Charisma saving throw. On a failed save, it cannot intentionally lie while in the aura. A creature can choose to fail its save, and you know if a creature succeeds or fails. An affected creature is aware of the spell and can answer evasively.\n\nAs an action, you can focus the spell to compel answers. You may ask up to two yes-or-no questions, each directed at an affected creature, who must answer truthfully. The spell then ends.",
+      "document": "spells-that-dont-suck",
+      "duration": "10 minutes",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the aura’s radius increases by 5 feet for each slot level above 2nd. Additionally, the number of compelled questions you can ask increases by 1 for each slot level above 2nd.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Aura of Truth",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "enchantment",
+      "somatic": true,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Ben Somers / somanyrobots, Omega Ankh",
+      "key": "spells-that-dont-suck",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://www.somanyrobots.com/s/Spells-That-Dont-Suck-compressed.pdf",
+      "publication_date": "2025-03-30T00:00:00",
+      "publisher": "somanyrobots",
+      "title": "Spells That Don't Suck"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "10711",
+          "parent": "spells-that-dont-suck_aura-of-truth",
+          "type": "default"
+        },
+        {
+          "desc": "Radius increases by 5 feet. Compelled questions increase by 1.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10712",
+          "parent": "spells-that-dont-suck_aura-of-truth",
+          "ru_source": "derived",
+          "type": "slot_level_3"
+        },
+        {
+          "desc": "Radius increases by 10 feet. Compelled questions increase by 2.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10713",
+          "parent": "spells-that-dont-suck_aura-of-truth",
+          "ru_source": "derived",
+          "type": "slot_level_4"
+        },
+        {
+          "desc": "Radius increases by 15 feet. Compelled questions increase by 3.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10714",
+          "parent": "spells-that-dont-suck_aura-of-truth",
+          "ru_source": "derived",
+          "type": "slot_level_5"
+        },
+        {
+          "desc": "Radius increases by 20 feet. Compelled questions increase by 4.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10715",
+          "parent": "spells-that-dont-suck_aura-of-truth",
+          "ru_source": "derived",
+          "type": "slot_level_6"
+        },
+        {
+          "desc": "Radius increases by 25 feet. Compelled questions increase by 5.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10716",
+          "parent": "spells-that-dont-suck_aura-of-truth",
+          "ru_source": "derived",
+          "type": "slot_level_7"
+        },
+        {
+          "desc": "Radius increases by 30 feet. Compelled questions increase by 6.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10717",
+          "parent": "spells-that-dont-suck_aura-of-truth",
+          "ru_source": "derived",
+          "type": "slot_level_8"
+        },
+        {
+          "desc": "Radius increases by 35 feet. Compelled questions increase by 7.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10718",
+          "parent": "spells-that-dont-suck_aura-of-truth",
+          "ru_source": "derived",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Aura of Truth",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "somanyrobots",
+  "source": "open5e:v2:spells-that-dont-suck",
+  "translations": {
+    "en": {
+      "description": "You radiate a compulsion for honesty in an aura with a 15-foot radius. Until the spell ends, the aura moves with you, centered on you. The first time a creature ends its turn within the area, it must make a Charisma saving throw. On a failed save, it cannot intentionally lie while in the aura. A creature can choose to fail its save, and you know if a creature succeeds or fails. An affected creature is aware of the spell and can answer evasively.\n\nAs an action, you can focus the spell to compel answers. You may ask up to two yes-or-no questions, each directed at an affected creature, who must answer truthfully. The spell then ends.",
+      "name": "Aura of Truth",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы излучаете принуждение к честности в Ауре с радиусом 15 футов. До тех пор, пока не закончится заклинание, Аура движется вместе с вами, в центре вас. В первый раз, когда существо заканчивает свой поворот в пределах области, оно должно совершить спасбросок харизмы. При неудачном спасброске, оно не может намеренно лежать в то время как в Ауре. Существо может не выбрать свой олимп, и вы знаете, если существо будет делать успехи, или не удастся. Пострадавшее существо осведомлено о заклинании и может ответить уклончиво.\n\nКак действие, вы можете осуществить заклинание, чтобы заставить ответы. Вы можете задать до двух да или нет вопросов, каждый из которых направлен на пострадавшее существо, который должен ответить правдиво. Тогда заклинание заканчивается.",
+      "glossary_version": "v1",
+      "name": "Аура истины",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

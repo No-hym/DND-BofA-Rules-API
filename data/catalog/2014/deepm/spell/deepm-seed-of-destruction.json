@@ -1,0 +1,171 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_seed-of-destruction",
+  "id": "o5e:deepm:spell:deepm-seed-of-destruction",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-seed-of-destruction",
+      "o5e:dmag:spell:seed-of-destruction"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "15c3d47f6b5948474efd4a34df9576077ceeab208fa5df554eed06b0ebd8e86d",
+    "formulas": [
+      {
+        "expression": "5d4",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "ritual",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "5d4",
+      "damage_types": [
+        "slashing"
+      ],
+      "duration": "1 hour",
+      "level": 8,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "five teeth from a still-living humanoid and a vial of the caster’s blood",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "saving_throw_ability": "constitution",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "15c3d47f6b5948474efd4a34df9576077ceeab208fa5df554eed06b0ebd8e86d",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-seed-of-destruction",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "2941df394c54350b0fb7f40d16b02018e71f09973c6c1b0730f03f1c9be93908",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:seed-of-destruction",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "5d4",
+      "damage_types": [
+        "slashing"
+      ],
+      "desc": "This spell impregnates a living creature with a rapidly gestating [hydra](https://api.open5e.com/spells/hydra) that consumes the target from within before emerging to wreak havoc on the world. Make a ranged spell attack against a living creature within range that you can see. On a hit, you implant a five‑headed embryonic growth into the creature. Roll 1d3 + 1 to determine how many rounds it takes the embryo to mature.\n\nDuring the rounds when the embryo is gestating, the affected creature takes 5d4 slashing damage at the start of its turn, or half the damage with a successful Constitution saving throw.\n\nWhen the gestation period has elapsed, a tiny hydra erupts from the target’s abdomen at the start of your turn. The hydra appears in an unoccupied space adjacent to the target and immediately grows into a full-size Huge aberration. Nearby creatures are pushed away to clear a sufficient space as the hydra grows. This creature is a standard hydra, but with the ability to cast [bane](https://api.open5e.com/spells/bane) as an action (spell save DC 11) requiring no spell components. Roll initiative for the hydra, which takes its own turns. It obeys verbal commands that you issue to it (no action required by you). If you don’t give it a command or it can’t follow your command, the hydra attacks the nearest living creature.\n\nAt the end of each of the hydra’s turns, you must make a DC 15 Charisma saving throw. On a successful save, the hydra remains under your control and friendly to you and your companions. On a failed save, your control ends, the hydra becomes hostile to all creatures, and it attacks the nearest creature to the best of its ability.\n\nThe hydra disappears at the end of the spell’s duration, or its existence can be cut short with a [wish](https://api.open5e.com/spells/wish) spell or comparable magic, but nothing less. The embryo can be destroyed before it reaches maturity by using a [dispel magic](https://api.open5e.com/spells/dispel-magic) spell under the normal rules for dispelling high-level magic.",
+      "document": "deepm",
+      "duration": "1 hour",
+      "level": 8,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "five teeth from a still-living humanoid and a vial of the caster’s blood",
+      "name": "Seed of Destruction",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "saving_throw_ability": "constitution",
+      "school": "enchantment",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4057",
+          "parent": "deepm_seed-of-destruction",
+          "type": "default"
+        },
+        {
+          "external_id": "4058",
+          "parent": "deepm_seed-of-destruction",
+          "type": "ritual"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Seed of Destruction",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "This spell impregnates a living creature with a rapidly gestating [hydra](https://api.open5e.com/spells/hydra) that consumes the target from within before emerging to wreak havoc on the world. Make a ranged spell attack against a living creature within range that you can see. On a hit, you implant a five‑headed embryonic growth into the creature. Roll 1d3 + 1 to determine how many rounds it takes the embryo to mature.\n\nDuring the rounds when the embryo is gestating, the affected creature takes 5d4 slashing damage at the start of its turn, or half the damage with a successful Constitution saving throw.\n\nWhen the gestation period has elapsed, a tiny hydra erupts from the target’s abdomen at the start of your turn. The hydra appears in an unoccupied space adjacent to the target and immediately grows into a full-size Huge aberration. Nearby creatures are pushed away to clear a sufficient space as the hydra grows. This creature is a standard hydra, but with the ability to cast [bane](https://api.open5e.com/spells/bane) as an action (spell save DC 11) requiring no spell components. Roll initiative for the hydra, which takes its own turns. It obeys verbal commands that you issue to it (no action required by you). If you don’t give it a command or it can’t follow your command, the hydra attacks the nearest living creature.\n\nAt the end of each of the hydra’s turns, you must make a DC 15 Charisma saving throw. On a successful save, the hydra remains under your control and friendly to you and your companions. On a failed save, your control ends, the hydra becomes hostile to all creatures, and it attacks the nearest creature to the best of its ability.\n\nThe hydra disappears at the end of the spell’s duration, or its existence can be cut short with a [wish](https://api.open5e.com/spells/wish) spell or comparable magic, but nothing less. The embryo can be destroyed before it reaches maturity by using a [dispel magic](https://api.open5e.com/spells/dispel-magic) spell under the normal rules for dispelling high-level magic.",
+      "name": "Seed of Destruction",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Это заклинание оплодотворяет живое существо быстро созревающей гидрой, которая потребляет цель изнутри перед тем, как появиться, чтобы сеять хаос в мире. Совершите дальнобойную атаку заклинанием против живого существа в пределах дистанции, которое вы видите. При попадании вы вживляете пятиглавый зародышевый рост в существо. Бросьте 1к3 + 1, чтобы определить, сколько раундов займёт созревание зародыша.\n\nВо время раундов, когда зародыш созревает, затронутое существо получает 5к4 рубящего урона в начале его хода или половину урона при успешном спасброске Телосложения.\n\nКогда период созревания истёк, крошечная гидра извергается из живота цели в начале вашего хода. Гидра появляется в незанятом пространстве, прилегающем к цели, и немедленно вырастает в полноценную Огромную аберрацию. Близлежащие существа оттолкнуты, чтобы очистить достаточное пространство, когда гидра растёт. Это существо — стандартная гидра, но со способностью творить погибель действием (Сл спасброска от заклинаний 11), не требуя компонентов заклинания. Бросьте инициативу за гидру, у которой есть свои ходы. Она подчиняется словесным командам, которые вы ей отдаёте (действие от вас не требуется). Если вы не дадите ей команду или она не может следовать вашей команде, гидра атакует ближайшее живое существо.\n\nВ конце каждого хода гидры вы должны совершить спасбросок Харизмы Сл 15. При успешном спасброске гидра остаётся под вашим контролем и дружелюбна к вам и вашим спутникам. При провале спасброска ваш контроль заканчивается, гидра становится враждебной ко всем существам, и она атакует ближайшее существо в меру своих способностей.\n\nГидра исчезает в конце срока действия заклинания, или её существование может быть сокращено заклинанием желания или сопоставимой магией, но ничем меньшим. Зародыш может быть уничтожен до того, как он достигнет зрелости, используя заклинание рассеивания магии по обычным правилам рассеивания магии высокого уровня.",
+      "glossary_version": "v1",
+      "name": "Семя разрушения",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,207 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_burning-hands",
+  "id": "o5e:a5e-ag:spell:a5e-ag-burning-hands",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-burning-hands",
+      "o5e:a5e:spell:burning-hands-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "cba9c1edf2cdf3be335d4bbfdf50ef8a899b79898ee49f2e6df0693e38f554c0",
+    "formulas": [
+      {
+        "expression": "3d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "3d6",
+      "damage_types": [
+        "fire"
+      ],
+      "duration": "instantaneous",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0.0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "cba9c1edf2cdf3be335d4bbfdf50ef8a899b79898ee49f2e6df0693e38f554c0",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-burning-hands",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "9b40ca7cb8723b688705525d0d0fff3b225bbc2636700dca9fc1c73a66a5d4b4",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:burning-hands-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "3d6",
+      "damage_types": [
+        "fire"
+      ],
+      "desc": "A thin sheet of flames shoots forth from your outstretched hands. Each creature in the area takes 3d6 fire damage. The fire ignites any flammable unattended objects in the area.",
+      "document": "a5e-ag",
+      "duration": "instantaneous",
+      "higher_level": "The damage increases by 1d6 for each slot level above 1st.",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Burning Hands",
+      "range": 0.0,
+      "range_text": "Self",
+      "ritual": false,
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "688",
+          "parent": "a5e-ag_burning-hands",
+          "type": "default"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "690",
+          "parent": "a5e-ag_burning-hands",
+          "type": "slot_level_2"
+        },
+        {
+          "damage_roll": "5d6",
+          "external_id": "691",
+          "parent": "a5e-ag_burning-hands",
+          "type": "slot_level_3"
+        },
+        {
+          "damage_roll": "6d6",
+          "external_id": "692",
+          "parent": "a5e-ag_burning-hands",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "7d6",
+          "external_id": "693",
+          "parent": "a5e-ag_burning-hands",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "8d6",
+          "external_id": "694",
+          "parent": "a5e-ag_burning-hands",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "9d6",
+          "external_id": "695",
+          "parent": "a5e-ag_burning-hands",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "10d6",
+          "external_id": "696",
+          "parent": "a5e-ag_burning-hands",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "11d6",
+          "external_id": "697",
+          "parent": "a5e-ag_burning-hands",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Burning Hands",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "A thin sheet of flames shoots forth from your outstretched hands. Each creature in the area takes 3d6 fire damage. The fire ignites any flammable unattended objects in the area.",
+      "name": "Burning Hands",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 1-го уровня (Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** На себя (15-футовый конус)\n\n**Компоненты:** В, С\n\n**Длительность:** Мгновенная\n\nСведя руки так, чтобы большие пальцы соприкасались, а пальцы были растопырены, вы выпускаете тонкую пелену пламени из кончиков пальцев. Каждое существо в 15-футовом конусе должно совершить спасбросок Ловкости. При провале существо получает 3к6 урона огнём, а при успехе — половину этого урона.\n\nОгонь поджигает все горючие предметы в области, которые никто не несёт и не носит.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 2-го уровня или выше, урон увеличивается на 1к6 за каждый уровень ячейки выше 1-го.",
+      "glossary_version": "v1",
+      "name": "Огненные руки",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

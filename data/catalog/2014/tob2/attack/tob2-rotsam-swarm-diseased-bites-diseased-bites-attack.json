@@ -1,0 +1,129 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob2",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "tob2_rotsam-swarm_diseased-bites_diseased-bites-attack",
+  "id": "o5e:tob2:creatureactionattack:tob2-rotsam-swarm-diseased-bites-diseased-bites-attack",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creatureactionattack:tob2-pestilence-swarm-diseased-bites-diseased-bites-attack",
+      "o5e:tob2:creatureactionattack:tob2-rotsam-swarm-diseased-bites-diseased-bites-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f89d94095b69cc30c9189a50d085e699992ea5943ab258fd618ead35127077c5",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "WEAPON",
+      "damage_bonus": null,
+      "damage_die_count": 4,
+      "damage_die_type": "D4",
+      "damage_type": "piercing",
+      "extra_damage_bonus": 0,
+      "extra_damage_die_count": 6,
+      "extra_damage_die_type": "D6",
+      "extra_damage_type": "necrotic",
+      "long_range": null,
+      "range": null,
+      "reach": 0,
+      "to_hit_mod": 7
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "f89d94095b69cc30c9189a50d085e699992ea5943ab258fd618ead35127077c5",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-rotsam-swarm-diseased-bites-diseased-bites-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "7c6f88667719b69806db7604da6a040b81f55a3932ec45ce87b34c19983fce4c",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-pestilence-swarm-diseased-bites-diseased-bites-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "tob2_rotsam-swarm_diseased-bites",
+        "type": "parent",
+        "value": "tob2_rotsam-swarm_diseased-bites"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "WEAPON",
+      "damage_die_count": 4,
+      "damage_die_type": "D4",
+      "damage_type": "piercing",
+      "extra_damage_bonus": 0,
+      "extra_damage_die_count": 6,
+      "extra_damage_die_type": "D6",
+      "extra_damage_type": "necrotic",
+      "name": "Diseased Bites attack",
+      "parent": "tob2_rotsam-swarm_diseased-bites",
+      "reach": 0,
+      "target_creature_only": false,
+      "to_hit_mod": 7
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Diseased Bites attack",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Diseased Bites attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака оружием: +7 к попаданию. Зона: досягаемость 0 фт., одна цель. Попадание: 4к4 колющего урона. Дополнительный урон: 6к6 некротической энергией.",
+      "glossary_version": "derived-v1",
+      "name": "Дисеасед Битес",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

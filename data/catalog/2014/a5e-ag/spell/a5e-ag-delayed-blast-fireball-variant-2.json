@@ -1,0 +1,179 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_delayed-blast-fireball",
+  "id": "o5e:a5e-ag:spell:a5e-ag-delayed-blast-fireball-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-delayed-blast-fireball",
+      "o5e:a5e:spell:delayed-blast-fireball-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "f417cabed57a31843d7b91e52cd9a43b67b3344db82b071eaa90e292c675c2cb",
+    "formulas": [
+      {
+        "expression": "12d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "12d6",
+      "damage_types": [
+        "fire"
+      ],
+      "duration": "1 minute",
+      "level": 7,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "f417cabed57a31843d7b91e52cd9a43b67b3344db82b071eaa90e292c675c2cb",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-delayed-blast-fireball",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "896a19baeebfc2756ae3be58981090448148b971c94297bea2eef2ff38bcddb8",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:delayed-blast-fireball-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "12d6",
+      "damage_types": [
+        "fire"
+      ],
+      "desc": "A glowing bead of yellow light flies from your finger and lingers at a point at the center of the area until you end the spell—either because your concentration is broken or because you choose to end it—and the bead detonates. Each creature in the area takes 12d6 fire damage. If at the end of your turn the bead has not yet detonated, the damage increases by 1d6.\n\nIf touched before the spell ends, the creature touching the bead makes a Dexterity saving throw or the bead detonates. On a successful save, the creature can use an action to throw the bead up to 40 feet, moving the area with it. If the bead strikes a creature or solid object, the bead detonates.\n\nThe fire spreads around corners, and it damages and ignites any flammable unattended objects in the area.",
+      "document": "a5e-ag",
+      "duration": "1 minute",
+      "higher_level": "The damage increases by 1d6 for each slot level above 7th.",
+      "level": 7,
+      "material": true,
+      "material_consumed": false,
+      "name": "Delayed Blast Fireball",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "985",
+          "parent": "a5e-ag_delayed-blast-fireball",
+          "type": "default"
+        },
+        {
+          "damage_roll": "13d6",
+          "external_id": "987",
+          "parent": "a5e-ag_delayed-blast-fireball",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "14d6",
+          "external_id": "988",
+          "parent": "a5e-ag_delayed-blast-fireball",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Delayed Blast Fireball",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:srd-2014:spell:srd-delayed-blast-fireball"
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "A glowing bead of yellow light flies from your finger and lingers at a point at the center of the area until you end the spell—either because your concentration is broken or because you choose to end it—and the bead detonates. Each creature in the area takes 12d6 fire damage. If at the end of your turn the bead has not yet detonated, the damage increases by 1d6.\n\nIf touched before the spell ends, the creature touching the bead makes a Dexterity saving throw or the bead detonates. On a successful save, the creature can use an action to throw the bead up to 40 feet, moving the area with it. If the bead strikes a creature or solid object, the bead detonates.\n\nThe fire spreads around corners, and it damages and ignites any flammable unattended objects in the area.",
+      "name": "Delayed Blast Fireball",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 7-го уровня (Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 150 футов\n\n**Компоненты:** В, С, М (крошечный шарик из помёта летучей мыши и серы)\n\n**Длительность:** Концентрация, вплоть до 1 минуту\n\nЛуч жёлтого света вылетает из вашего указательного пальца, а затем конденсируется и зависает в выбранной точке в пределах дистанции в виде светящейся бусины на время действия заклинания. Когда заклинание оканчивается, либо потому что ваша концентрация прервана, либо потому что вы решили его завершить, бусина расцветает с глухим рёвом во взрыв пламени, который огибает углы. Каждое существо в сфере радиусом 20 футов с центром в этой точке должно совершить спасбросок Ловкости. Существо получает урон огнём, равный общему накопленному урону, при провале, или половину этого урона при успехе.\n\nБазовый урон заклинания составляет 12к6. Если в конце вашего хода бусина ещё не взорвалась, урон увеличивается на 1к6.\n\nЕсли до истечения времени к светящейся бусине прикоснётся существо, это существо должно совершить спасбросок Ловкости. При провале заклинание немедленно оканчивается, и бусина взрывается пламенем. При успехе существо может бросить бусину на расстояние до 40 футов. Если она попадает в существо или твёрдый предмет, заклинание оканчивается и бусина взрывается.\n\nОгонь наносит урон предметам в области и воспламеняет горючие предметы, которые никто не несёт и не носит.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 8-го уровня или выше, базовый урон увеличивается на 1к6 за каждый уровень ячейки выше 7-го.",
+      "glossary_version": "v1",
+      "name": "Замедленный огненный шар",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

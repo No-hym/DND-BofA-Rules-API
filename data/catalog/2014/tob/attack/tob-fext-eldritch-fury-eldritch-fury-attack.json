@@ -1,0 +1,135 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "tob_fext_eldritch-fury_eldritch-fury-attack",
+  "id": "o5e:tob:creatureactionattack:tob-fext-eldritch-fury-eldritch-fury-attack",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creatureactionattack:tob-2023-fext-eldritch-fury-eldritch-fury-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-noctiny-eldritch-fury-eldritch-fury-attack",
+      "o5e:tob:creatureactionattack:tob-fext-eldritch-fury-eldritch-fury-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e924c679bff95cf7e44f6c935fab750632fad9fa71e291762860c9f518c74401",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "WEAPON",
+      "damage_bonus": null,
+      "damage_die_count": 4,
+      "damage_die_type": "D10",
+      "damage_type": "force",
+      "extra_damage_bonus": null,
+      "extra_damage_die_count": null,
+      "extra_damage_die_type": null,
+      "extra_damage_type": null,
+      "long_range": 200,
+      "range": 60,
+      "reach": null,
+      "to_hit_mod": 6
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "e924c679bff95cf7e44f6c935fab750632fad9fa71e291762860c9f518c74401",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-fext-eldritch-fury-eldritch-fury-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "9b4b683431afa84bd5d1968327ddad494efb7c368790cf40a42b1e2ea88b1144",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-fext-eldritch-fury-eldritch-fury-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "d7316b680e6bd30aa02f63069ef0710acd2829967be4b2c8dd78c56874d9b87f",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-noctiny-eldritch-fury-eldritch-fury-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "tob_fext_eldritch-fury",
+        "type": "parent",
+        "value": "tob_fext_eldritch-fury"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "WEAPON",
+      "damage_die_count": 4,
+      "damage_die_type": "D10",
+      "damage_type": "force",
+      "long_range": 200,
+      "name": "Eldritch Fury attack",
+      "parent": "tob_fext_eldritch-fury",
+      "range": 60,
+      "target_creature_only": false,
+      "to_hit_mod": 6
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Eldritch Fury attack",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Eldritch Fury attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака оружием: +6 к попаданию. Зона: дистанция 60/200 фт., одна цель. Попадание: 4к10 силового поля урона.",
+      "glossary_version": "derived-v1",
+      "name": "Елдритч Фурй",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

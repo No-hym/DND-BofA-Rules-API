@@ -1,0 +1,195 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_staff-of-violet-fire",
+  "id": "o5e:deepm:spell:deepm-staff-of-violet-fire",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-staff-of-violet-fire",
+      "o5e:dmag:spell:staff-of-violet-fire"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f5c8ba4a809281457f7302c5535ab634646c13c958e5b1e0d4954ddb9893d024",
+    "formulas": [
+      {
+        "expression": "5d10",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "5d10",
+      "damage_types": [
+        "necrotic"
+      ],
+      "duration": "special",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "mummy dust",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "f5c8ba4a809281457f7302c5535ab634646c13c958e5b1e0d4954ddb9893d024",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-staff-of-violet-fire",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "f6499a4cd614730a83c941ed941bb205babdc46a0f963e66abec719f92774bd2",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:staff-of-violet-fire",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "concentration": true,
+      "damage_roll": "5d10",
+      "damage_types": [
+        "necrotic"
+      ],
+      "desc": "You create a quarterstaff of pure necrotic energy that blazes with intense purple light; it appears in your chosen hand. If you let it go, it disappears, though you can evoke it again as a bonus action if you have maintained concentration on the spell.\n\nThis staff is an extremely unstable and impermanent magic item; it has 10 charges and does not require attunement. The wielder can use one of three effects:\n\n* By using your action to make a melee attack and expending 1 charge, you can attack with it. On a hit, the target takes 5d10 necrotic damage.\n* By expending 2 charges, you can release bolts of necrotic fire against up to 3 targets as ranged attacks for 1d8+4 necrotic damage each.\n\nThe staff disappears and the spell ends when all the staff's charges have been expended or if you stop concentrating on the spell.\n",
+      "document": "deepm",
+      "duration": "special",
+      "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the melee damage increases by 1d10 for every two slot levels above 4th, or you add one additional ranged bolt for every two slot levels above 4th.",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "mummy dust",
+      "name": "Staff of Violet Fire",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4224",
+          "parent": "deepm_staff-of-violet-fire",
+          "type": "default"
+        },
+        {
+          "damage_roll": "5d10",
+          "external_id": "4226",
+          "parent": "deepm_staff-of-violet-fire",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "6d10",
+          "external_id": "4227",
+          "parent": "deepm_staff-of-violet-fire",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "6d10",
+          "external_id": "4228",
+          "parent": "deepm_staff-of-violet-fire",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "7d10",
+          "external_id": "4229",
+          "parent": "deepm_staff-of-violet-fire",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "7d10",
+          "external_id": "4230",
+          "parent": "deepm_staff-of-violet-fire",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Staff of Violet Fire",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You create a quarterstaff of pure necrotic energy that blazes with intense purple light; it appears in your chosen hand. If you let it go, it disappears, though you can evoke it again as a bonus action if you have maintained concentration on the spell.\n\nThis staff is an extremely unstable and impermanent magic item; it has 10 charges and does not require attunement. The wielder can use one of three effects:\n\n* By using your action to make a melee attack and expending 1 charge, you can attack with it. On a hit, the target takes 5d10 necrotic damage.\n* By expending 2 charges, you can release bolts of necrotic fire against up to 3 targets as ranged attacks for 1d8+4 necrotic damage each.\n\nThe staff disappears and the spell ends when all the staff's charges have been expended or if you stop concentrating on the spell.",
+      "name": "Staff of Violet Fire",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы создаёте боевой посох чистой некротической энергии, который пылает интенсивным фиолетовым светом; он появляется в выбранной вами руке. Если вы его отпустите, он исчезает, хотя вы можете вызвать его снова бонусным действием, если вы поддерживали концентрацию на заклинании.\n\nЭтот посох — чрезвычайно нестабильный и непостоянный магический предмет; у него 10 зарядов и он не требует настройки. Владелец может использовать один из трёх эффектов:\n\n* Используя ваше действие, чтобы совершить рукопашную атаку и потратив 1 заряд, вы можете атаковать им. При попадании цель получает 5к10 некротического урона.\n* Потратив 2 заряда, вы можете выпустить болты некротического огня против вплоть до 3 целей как дальнобойные атаки по 1к8+4 некротического урона каждая.\n\nПосох исчезает и заклинание заканчивается, когда все заряды посоха потрачены или если вы перестанете концентрироваться на заклинании.",
+      "glossary_version": "v1",
+      "name": "Посох фиолетового огня",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

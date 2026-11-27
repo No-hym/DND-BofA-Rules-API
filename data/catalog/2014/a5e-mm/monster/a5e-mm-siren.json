@@ -1,0 +1,212 @@
+{
+  "attribution": "Title: Monstrous Menagerie; Author: Paul Hughes; Publisher: en-publishing; Source: https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "a5e-mm",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "a5e-mm_siren",
+  "id": "o5e:a5e-mm:creature:a5e-mm-siren",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-mm:creature:a5e-mm-siren"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "ce5096828706b3afc2a82738683977fbf0a7ddf9cf63ff9ab51dd64c66582653",
+    "formulas": [
+      {
+        "expression": "7d8+7",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 14,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 12,
+      "ability_score_wisdom": 10,
+      "alignment": "chaotic evil",
+      "armor_class": 11,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "1.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "7d8+7",
+      "hit_points": 38,
+      "initiative_bonus": null,
+      "languages": [
+        "common"
+      ],
+      "languages_desc": "Common",
+      "normal_sight_range": 10560.0,
+      "passive_perception": 10,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": 2,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": 40.0,
+      "walk": 20.0
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-mm",
+        "content_hash": "ce5096828706b3afc2a82738683977fbf0a7ddf9cf63ff9ab51dd64c66582653",
+        "edition": "2014",
+        "id": "o5e:a5e-mm:creature:a5e-mm-siren",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:a5e-mm"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 14,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 12,
+      "ability_score_wisdom": 10,
+      "alignment": "chaotic evil",
+      "armor_class": 11,
+      "category": "Monsters",
+      "challenge_rating": "1.000",
+      "document": "a5e-mm",
+      "hit_dice": "7d8+7",
+      "hit_points": 38,
+      "hover": false,
+      "languages": [
+        "common"
+      ],
+      "languages_desc": "Common",
+      "name": "Siren",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560.0,
+      "passive_perception": 10,
+      "saving_throw_wisdom": 2,
+      "size": "medium",
+      "swim": 40.0,
+      "type": "monstrosity",
+      "walk": 20.0,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "a5e-mm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e",
+      "publication_date": "2021-12-12T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Monstrous Menagerie"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +3 к попаданию, досягаемость 5 фт., одна цель. Попадание: 4 (1к6+1) рубящего урона.",
+          "external_id": "a5e-mm_siren_claw",
+          "name": "Claw",
+          "name_ru": "Коготь",
+          "order_in_statblock": 1,
+          "parent": "a5e-mm_siren",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "The harpy sings a magical song. Each humanoid and giant within 300 feet that can hear it makes a DC 12 Wisdom saving throw. On a failure, a creature becomes charmed until the harpy fails to use its bonus action to continue the song. While charmed by the harpy, a creature is incapacitated and ignores other harpy songs. On each of its turns, the creature moves towards the harpy by the most direct route, not avoiding opportunity attacks or hazards. The creature repeats its saving throw whenever it is damaged and before it enters damaging terrain such as lava. If a saving throw is successful or the effect ends on it, it is immune to any harpys song for the next 24 hours.",
+          "desc_ru": "Действие «Луринг Сонг»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_siren_luring-song",
+          "name": "Luring Song",
+          "name_ru": "Луринг Сонг",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_siren",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The harpy attacks twice with its claw.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_siren_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_siren",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The sirencan breathe and sing both in air and underwater.",
+          "desc_ru": "Особенность «Амфибиоус». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_siren_amphibious",
+          "name": "Amphibious",
+          "name_ru": "Амфибиоус",
+          "parent": "a5e-mm_siren",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Siren",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-mm",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Siren",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Среднее чудовище, мировоззрение: хаотично-злое. Класс доспеха: 11. Хиты: 38 (7к8+7). Скорость: ходьба 20 фт., плавание 40 фт.. Характеристики: СИЛ 12, ЛОВ 12, ТЕЛ 12, ИНТ 10, МУД 10, ХАР 14. Чувства: пассивное Восприятие 10. Показатель опасности: 1. Структурированные механики записи: особенностей: 1, действий: 3.",
+      "glossary_version": "derived-v1",
+      "name": "Сирен",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

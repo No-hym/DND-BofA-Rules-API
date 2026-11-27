@@ -1,0 +1,219 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_arcane-hand",
+  "id": "o5e:srd-2014:spell:srd-arcane-hand",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-arcane-hand",
+      "o5e:wotc-srd:spell:arcane-hand"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "3ecafd10108a0686eb56dec1f9001cbb5c0d01374a6794f32dca0455ab93b7b5",
+    "formulas": [
+      {
+        "expression": "4d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "4d8",
+      "damage_types": [
+        "force",
+        "bludgeoning"
+      ],
+      "duration": "1 minute",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "An eggshell and a snakeskin glove.",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "3ecafd10108a0686eb56dec1f9001cbb5c0d01374a6794f32dca0455ab93b7b5",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-arcane-hand",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "5acad8dd63833441bc726ccbca705318c04130d65e4e0d0a35b430e2ea731057",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:arcane-hand",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_wizard",
+        "type": "classes",
+        "value": [
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "4d8",
+      "damage_types": [
+        "force",
+        "bludgeoning"
+      ],
+      "desc": "You create a Large hand of shimmering, translucent force in an unoccupied space that you can see within range. The hand lasts for the spell's duration, and it moves at your command, mimicking the movements of your own hand. The hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hit points, the spell ends. It has a Strength of 26 (+8) and a Dexterity of 10 (+0). The hand doesn't fill its space. When you cast the spell and as a bonus action on your subsequent turns, you can move the hand up to 60 feet and then cause one of the following effects with it.\n\n**Clenched Fist.** The hand strikes one creature or object within 5 feet of it. Make a melee spell attack for the hand using your game statistics. On a hit, the target takes 4d8 force damage.\n\n**Forceful Hand.** The hand attempts to push a creature within 5 feet of it in a direction you choose. Make a check with the hand's Strength contested by the Strength (Athletics) check of the target. If the target is Medium or smaller, you have advantage on the check. If you succeed, the hand pushes the target up to 5 feet plus a number of feet equal to five times your spellcasting ability modifier. The hand moves with the target to remain within 5 feet of it.\n\n**Grasping Hand.** The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand's Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage on the check. While the hand is grappling the target, you can use a bonus action to have the hand crush it. When you do so, the target takes bludgeoning damage equal to 2d6 + your spellcasting ability modifier\n\n **Interposing Hand.** The hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with half cover against the target. The target can't move through the hand's space if its Strength score is less than or equal to the hand's Strength score. If its Strength score is higher than the hand's Strength score, the target can move toward you through the hand's space, but that space is difficult terrain for the target.",
+      "document": "srd-2014",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the damage from the clenched fist option increases by 2d8 and the damage from the grasping hand increases by 2d6 for each slot level above 5th.",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "An eggshell and a snakeskin glove.",
+      "name": "Arcane Hand",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5086",
+          "parent": "srd_arcane-hand",
+          "type": "default"
+        },
+        {
+          "damage_roll": "6d8",
+          "desc": "The damage from the grasping hand increases by 2d6.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10770",
+          "parent": "srd_arcane-hand",
+          "ru_source": "derived",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "8d8",
+          "desc": "The damage from the grasping hand increases by 4d6.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10771",
+          "parent": "srd_arcane-hand",
+          "ru_source": "derived",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "10d8",
+          "desc": "The damage from the grasping hand increases by 6d6.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10772",
+          "parent": "srd_arcane-hand",
+          "ru_source": "derived",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "12d8",
+          "desc": "The damage from the grasping hand increases by 8d6.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10773",
+          "parent": "srd_arcane-hand",
+          "ru_source": "derived",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Arcane Hand",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You create a Large hand of shimmering, translucent force in an unoccupied space that you can see within range. The hand lasts for the spell's duration, and it moves at your command, mimicking the movements of your own hand. The hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hit points, the spell ends. It has a Strength of 26 (+8) and a Dexterity of 10 (+0). The hand doesn't fill its space. When you cast the spell and as a bonus action on your subsequent turns, you can move the hand up to 60 feet and then cause one of the following effects with it.\n\n**Clenched Fist.** The hand strikes one creature or object within 5 feet of it. Make a melee spell attack for the hand using your game statistics. On a hit, the target takes 4d8 force damage.\n\n**Forceful Hand.** The hand attempts to push a creature within 5 feet of it in a direction you choose. Make a check with the hand's Strength contested by the Strength (Athletics) check of the target. If the target is Medium or smaller, you have advantage on the check. If you succeed, the hand pushes the target up to 5 feet plus a number of feet equal to five times your spellcasting ability modifier. The hand moves with the target to remain within 5 feet of it.\n\n**Grasping Hand.** The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand's Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage on the check. While the hand is grappling the target, you can use a bonus action to have the hand crush it. When you do so, the target takes bludgeoning damage equal to 2d6 + your spellcasting ability modifier\n\n **Interposing Hand.** The hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with half cover against the target. The target can't move through the hand's space if its Strength score is less than or equal to the hand's Strength score. If its Strength score is higher than the hand's Strength score, the target can move toward you through the hand's space, but that space is difficult terrain for the target.",
+      "name": "Arcane Hand",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 5-го уровня (Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 120 футов\n\n**Компоненты:** В, С, М (яичная скорлупа и перчатка из змеиной кожи)\n\n**Длительность:** Концентрация, вплоть до 1 минуту\n\nВы создаёте Большую руку из мерцающей полупрозрачной силы в свободном пространстве, которое видите в пределах дистанции. Рука существует на время действия заклинания и перемещается по вашей команде, повторяя движения вашей собственной руки.\n\nРука — это предмет с КД 20 и хитами, равными вашему максимуму хитов. Если хиты руки опускаются до 0, заклинание оканчивается. У неё Сила 26 (+8) и Ловкость 10 (+0). Рука не заполняет своё пространство.\n\nПри сотворении заклинания и бонусным действием в последующие ходы вы можете переместить руку на расстояние до 60 футов, а затем вызвать один из следующих эффектов.\n\n**_Сжатый кулак._** Рука наносит удар одному существу или предмету в пределах 5 футов от неё. Совершите рукопашную атаку заклинанием за руку, используя ваши игровые параметры. При попадании цель получает 4к8 урона силовым полем.\n\n**_Мощная ладонь._** Рука пытается толкнуть существо в пределах 5 футов от неё в выбранном вами направлении.\n\nСовершите проверку Силы руки в состязании с проверкой Силы (Атлетика) цели. Если цель Средняя или меньше, вы совершаете проверку с преимуществом. При успехе рука толкает цель на расстояние до 5 футов плюс число футов, равное пятикратному модификатору вашей характеристики заклинателя. Рука перемещается вместе с целью, чтобы оставаться в пределах 5 футов от неё.\n\n**_Хватающая ладонь._** Рука пытается схватить Огромное или меньшее существо в пределах 5 футов от неё. Вы используете значение Силы руки для разрешения захвата. Если цель Средняя или меньше, вы совершаете проверку с преимуществом. Пока рука удерживает цель в захвате, вы можете бонусным действием заставить руку сдавить её. При этом цель получает дробящий урон, равный 2к6 + модификатор вашей характеристики заклинателя.\n\n**_Заграждающая ладонь._** Рука встаёт между вами и выбранным вами существом, пока вы не отдадите руке другую команду. Рука перемещается, чтобы оставаться между вами и целью, предоставляя вам укрытие на половину от цели. Цель не может перемещаться через пространство руки, если её значение Силы меньше или равно значению Силы руки. Если значение Силы цели выше, чем у руки, цель может перемещаться к вам через пространство руки, но это пространство является для неё труднопроходимой местностью.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 6-го уровня или выше, урон от сжатого кулака увеличивается на 2к8, а урон от хватающей ладони увеличивается на 2к6 за каждый уровень ячейки выше 5-го.",
+      "glossary_version": "v1",
+      "name": "Арканная рука",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

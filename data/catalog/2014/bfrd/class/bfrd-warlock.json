@@ -1,0 +1,372 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "class",
+  "edition": "2014",
+  "external_id": "bfrd_warlock",
+  "id": "o5e:bfrd:characterclass:bfrd-warlock",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:characterclass:bfrd-warlock",
+      "o5e:srd-2014:characterclass:srd-warlock"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c45bce7347d406d09f0f8ad094e89e0112c4f27df980a04cdd4c9d817ecb6b96",
+    "formulas": [
+      {
+        "expression": "D8",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "HALF",
+      "hit_dice": "D8",
+      "primary_abilities": [],
+      "saving_throws": [
+        "wis",
+        "cha"
+      ],
+      "subclass_of": null
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "c45bce7347d406d09f0f8ad094e89e0112c4f27df980a04cdd4c9d817ecb6b96",
+        "edition": "2014",
+        "id": "o5e:bfrd:characterclass:bfrd-warlock",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "e6de6c21d3cb413c68bf996c137a8b4c0943e8ae5b7ab5d85b1d690eea6324fb",
+        "edition": "2014",
+        "id": "o5e:srd-2014:characterclass:srd-warlock",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "HALF",
+      "document": "bfrd",
+      "hit_dice": "D8",
+      "name": "Warlock",
+      "saving_throws": [
+        "wis",
+        "cha"
+      ]
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_cantrips-known",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Cantrips Known",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "As a result of binding yourself to otherworldly powers, you can conjure a baleful magical energy. As an action, you can send a beam of crackling eldritch power toward a creature within 120 feet of you. When you do so, make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.\n\nUpon achieving higher levels of warlock, you can create more than one beam: two beams at 5th level, three at 9th, and four at 14th. You can direct the beams at the same or different target. You make a separate attack roll for each beam.",
+          "desc_ru": "В результате связывания себя с потусторонними силами вы можете призывать зловещую магическую энергию. Действием вы можете послать луч трескучей жуткой силы к существу в пределах 120 футов от вас. Когда вы делаете это, совершите атаку заклинанием дальнего боя против цели. При попадании цель получает 1к10 урона силовым полем.\n\nПри достижении более высоких уровней чернокнижника вы можете создавать более одного луча: два луча на 5-м уровне, три на 9-м и четыре на 14-м. Вы можете направлять лучи на одну и ту же или разные цели. Вы совершаете отдельный бросок атаки для каждого луча.",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_eldritch-blast",
+          "level": 1,
+          "name": "Eldritch Blast",
+          "name_ru": "Мистический заряд",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_invocations-known",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Invocations Known",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "The initial pact that grants you your warlock powers is sealed with the gift of a Pact Boon. You gain one of the following boons of your choice.\n\n## Pact of the Blade\n\nYou can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You have proficiency with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. When you attack with the weapon, you can use your CHA modifier, instead of STR or DEX, for attack and damage rolls.\n\nYour pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.\n\nYou can transform an existing melee weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short or long rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears when you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.\n\n## Pact of the Chain\n\nYou learn a more potent version of the find familiar ritual and can cast it without the need for any material components. The spell doesn't count against your number of spells known. A familiar summoned with this feature has the following differences from a standard familiar summoned by the spell:\n- When you cast the spell, you can choose one of the normal familiar forms or one of the following special forms: blink dog, imp, pseudodragon, or quasit.\n- You can telepathically communicate or see through your familiar's eyes as long as it is on the same plane as you, ignoring the standard 100-foot range restriction. In addition, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.\n- Your familiar can attack. In combat, your familiar shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any commands, it takes the Dodge action and uses its move to avoid danger.\n\n## Pact of the Tome\n\nYou receive an eldritch grimoire called a Book of Shadows. You can use your Book of Shadows as a spellcasting focus for your spells. When you gain this feature, choose three cantrips from any source spell list (they don't have to be from the same list). While the book is on your person, you can cast those cantrips. These cantrips count as Wyrd spells for you.\n\nIf your Book of Shadows is lost or destroyed, you can perform a 1-hour ceremony to create a replacement. The replacement contains any spells previously transcribed within it. This ceremony can be performed as part of a short or long rest, and it destroys the previous grimoire—if it still exists. The book is unreadable by anyone but you, and it is instantly destroyed when you die.",
+          "desc_ru": "Первоначальный договор, который даёт вам ваши силы чернокнижника, скрепляется даром Дара договора. Вы получаете один из следующих даров на ваш выбор.\n\n## Договор клинка\n\nВы можете действием создать оружие договора в вашей пустой руке. Вы можете выбирать форму, которую принимает это оружие ближнего боя, каждый раз, когда вы создаёте его. Вы владеете им, пока вы его держите. Это оружие считается магическим для цели преодоления сопротивления и иммунитета к немагическим атакам и урону. Когда вы атакуете оружием, вы можете использовать ваш модификатор Харизмы вместо Силы или Ловкости для бросков атаки и урона.\n\nВаше оружие договора исчезает, если оно находится более чем в 5 футах от вас 1 минуту или более. Оно также исчезает, если вы используете эту особенность снова, если вы отпускаете оружие (действие не требуется) или если вы умираете.\n\nВы можете трансформировать существующее оружие ближнего боя в ваше оружие договора, выполнив особый ритуал, пока вы держите оружие. Вы выполняете ритуал в течение 1 часа, что может быть сделано во время короткого или продолжительного отдыха. Затем вы можете отпустить оружие, отправив его в внепространственное пространство, и оно появляется, когда вы создаёте ваше оружие договора после этого. Вы не можете воздействовать на артефакт или разумное оружие этим способом. Оружие перестаёт быть вашим оружием договора, если вы умираете, если вы выполняете 1-часовой ритуал на другом оружии или если вы используете 1-часовой ритуал, чтобы разорвать вашу связь с ним. Оружие появляется у ваших ног, если оно находится во внепространственном пространстве, когда связь разрывается.\n\n## Договор цепи\n\nВы изучаете более мощную версию ритуала поиск фамильяра и можете творить его без необходимости в любых материальных компонентах. Заклинание не учитывается в количестве известных вам заклинаний. Фамильяр, призванный этой особенностью, имеет следующие отличия от стандартного фамильяра, призванного заклинанием:\n- Когда вы творите заклинание, вы можете выбрать одну из обычных форм фамильяра или одну из следующих особых форм: мигающая собака, бес, псевдодракон или квазит.\n- Вы можете телепатически общаться или видеть глазами вашего фамильяра, пока он находится на том же плане, что и вы, игнорируя стандартное ограничение дистанции 100 футов. Кроме того, воспринимая через чувства вашего фамильяра, вы также можете говорить через вашего фамильяра вашим собственным голосом, даже если ваш фамильяр обычно неспособен к речи.\n- Ваш фамильяр может атаковать. В бою ваш фамильяр делит ваш счёт инициативы, но он совершает свой ход сразу после вашего. Он подчиняется вашим вербальным командам (действие с вашей стороны не требуется). Если вы не отдаёте никаких команд, он выполняет действие Уклонение и использует его перемещение, чтобы избежать опасности.\n\n## Договор тома\n\nВы получаете жуткий гримуар, называемый Книгой теней. Вы можете использовать вашу Книгу теней как заклинательную фокусировку для ваших заклинаний. Когда вы получаете эту особенность, выберите три заговора из списка заклинаний любого источника (они не должны быть из одного списка). Пока книга находится на вас, вы можете творить эти заговоры. Эти заговоры считаются для вас заклинаниями Вирда.\n\nЕсли ваша Книга теней потеряна или уничтожена, вы можете выполнить 1-часовую церемонию, чтобы создать замену. Замена содержит любые заклинания, ранее переписанные в ней. Эта церемония может быть выполнена как часть короткого или продолжительного отдыха, и она уничтожает предыдущий гримуар — если он всё ещё существует. Книга нечитаема никем, кроме вас, и она мгновенно уничтожается, когда вы умираете.",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_pact-boon",
+          "level": 1,
+          "name": "Pact Boon",
+          "name_ru": "Дар договора",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_proficiency-bonus",
+          "feature_type": "PROFICIENCY_BONUS",
+          "level": 1,
+          "name": "Proficiency Bonus",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_spells-known",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Spells Known",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_slots-1st",
+          "feature_type": "SPELL_SLOTS",
+          "level": 2,
+          "name": "1st",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "This section lists the eldritch invocations available for warlocks to learn. If an invocation has prerequisites, you must meet them to learn it. You can learn the invocation at the same time that you meet its prerequisites.\n\nIf a prerequisite lists a level requirement, that is the minimum warlock level required (you can take it at higher warlock levels).\n\nInvocation options appear in alphabetical order.\n\n### Agonizing Blast\n\n*Prerequisite: None*\n\nWhen you use your Eldritch Blast feature, add your CHA modifier to the damage each beam deals on a successful hit.\n\n### Armor of Shadows\n\n*Prerequisite: None*\n\nWhile you aren't wearing armor or wielding a shield, your AC becomes 13 + your CHA modifier. This effect is suppressed while you are unconscious or in an area affected by an antimagic field spell.\n\n### Ascendant Step\n\n*Prerequisite: 9th Level*\n\nYou can cast the levitate spell on yourself as often as you wish, without expending a spell slot or material components.\n\n### Bewitching Whispers\n\n*Prerequisite: 7th Level*\n\nYou can cast the compulsion spell once without expending a spell slot or material components. You can't do so again until you finish a long rest.\n\n### Beyond Sight\n\n*Prerequisite: None*\n\nYou can see in dim light, darkness, and magical darkness as though it were bright light, to a range of 120 feet.\n\n### Boon Savant\n\n*Prerequisite: 7th-Level Warlock, Second Boon*\n\nYour second Pact Boon becomes more powerful, gaining the benefits detailed in your Enhanced Boon feature.\n\n### Chains of Carceri\n\n*Prerequisite: 15th Level*\n\nYou can cast the greater hold spell without expending a spell slot or material components. You can't do so again until you finish a long rest.\n\n### Dreadful Word\n\n*Prerequisite: 7th Level*\n\nYou can cast the confusion spell once without expending a spell slot or material components. You can't do so again until you finish a long rest.\n\n### Eldritch Burst\n\n*Prerequisite: None*\n\nYou gain the following benefits when you use your Eldritch Blast feature:\n- You don't have disadvantage on ranged spell attack rolls to hit a prone target if it is more than 5 feet away from you.\n- You don't have disadvantage on ranged spell attack rolls if you are within 5 feet of a hostile creature who can see you and who isn't incapacitated.\n\n### Eldritch Sight\n\n*Prerequisite: None*\n\nYou can cast the detect magic spell as often as you wish, without expending a spell slot.\n\n### Eldritch Spear\n\n*Prerequisite: None*\n\nWhen you use your Eldritch Blast feature, you can now target creatures within 300 feet of you.\n\n### Fiendish Vigor\n\n*Prerequisite: None*\n\nYou can cast the false life spell on yourself as often as you wish, without expending a spell slot or material components. You can cast it at the highest circle you have a Wyrd spell slot for (see Warlock Progression table).\n\n### Gaze of Two Minds\n\n*Prerequisite: None*\n\nYou can use your action to touch a willing Humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings.\n\n### Lifedrinker\n\n*Prerequisite: 11th Level*\n\nWhen you hit a creature with a weapon attack, the creature takes additional necrotic damage equal to your CHA modifier (minimum of 1).\n\n### Mask of Many Faces\n\n*Prerequisite: None*\n\nYou can cast the disguise self spell as often as you wish, without expending a spell slot.\n\n### Mire the Mind\n\n*Prerequisite: 5th Level*\n\nYou can cast the slow spell without expending a spell slot or material components. You can't do so again until you finish a long rest.\n\n### Misty Visions\n\n*Prerequisite: None*\n\nYou can cast the silent image spell as often as you wish, without expending a spell slot or material components.\n\n### Mystic Arcanum\n\n*Prerequisite: 11th Level*\n\nYour patron bestows a magical secret called an arcanum. Choose one non-ritual spell from the Wyrd spell list as this arcanum. The highest circle spell you can choose is determined by your current warlock level, as shown in the Maximum Circle by Level table.\n\nYou can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can cast it in this way again. Alternatively, if your arcanum is of a circle for which you have spell slots, you can expend a spell slot to cast it as you would a standard spell.\n\nYou can take this invocation multiple times, choosing a different spell each time.\n\n|Warlock Level|Maximum Spell Circle of Arcanum|\n|---|---|\n|11th|6th Circle|\n|13th|7th Circle|\n|15th|8th Circle|\n|17th|9th Circle|\n\n### One with Shadows\n\n*Prerequisite: 5th Level*\n\nWhen you are in an area of dim light, darkness, or magical darkness, you can use your action to become invisible until you move or take an action or a reaction.\n\n### Otherworldly Leap\n\n*Prerequisite: 9th Level*\n\nYou can cast the longstrider spell on yourself as often as you wish, without expending a spell slot or material components.\n\n### Patron's Anchor\n\n*Prerequisite: None*\n\nWhen you make a CON save to maintain concentration on a Wyrd spell or a spell cast with an Eldritch Invocation, you can choose to make a CHA save instead. In addition, you have advantage on the first concentration save you make each round.\n\n### Repelling Blast\n\n*Prerequisite: None*\n\nWhen you successfully hit a creature with one or more beams created by your Eldritch Blast feature, you can push the creature up to 10 feet per beam away from you in a straight line (in addition to dealing damage). If this movement is interrupted by the target encountering a solid surface (such as being pushed into a stone wall), the target also takes 1d6 bludgeoning damage for each 10-foot increment it moved.\n\n### Sculptor of Flesh\n\n*Prerequisite: 7th Level*\n\nYou can cast the polymorph spell without expending a spell slot or material components. You can't do so again until you finish a long rest.\n\n### Second Boon\n\n*Prerequisite: 5th Level*\n\nYou gain the benefits of a second boon from the options described in the 1st level feature Pact Boon: Pact of the Blade, Pact of the Chain, or Pact of the Tome.\n\n### Sign of Ill Omen\n\n*Prerequisite: 5th Level*\n\nYou can cast the bestow curse spell without expending a spell slot or material components. You can't do so again until you finish a long rest.\n\n### Spirit Translator\n\n*Prerequisite: None*\n\nYou can cast the comprehend languages spell on yourself as often as you wish, without expending a spell slot or material components.\n\n### Stolen Knowledge\n\n*Prerequisite: None*\n\nYou gain proficiency in any two skills or tools of your choice (in any combination).\n\nYou can take this invocation multiple times, choosing different proficiencies each time.\n\n### Thief of Five Fates\n\n*Prerequisite: None*\n\nYou can cast bane as a 1st-circle spell as often as you wish, without expending a spell slot or material components.\n\n### Visions of Distant Realms\n\n*Prerequisite: 15th Level*\n\nYou can cast the arcane eye spell as often as you wish, without expending a spell slot or material components.\n\n### Whispers of the Grave\n\n*Prerequisite: 9th Level*\n\nYou can perform the speak with dead ritual as often as you wish, without a ritual book or material components.\n\n### Witch Sight\n\n*Prerequisite: 15th-Level*\n\nYou can see the true form of any creature with the Shapechanger tag or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.",
+          "desc_ru": "В этом разделе перечислены жуткие воззвания, доступные чернокнижникам для изучения. Если воззвание имеет предпосылки, вы должны выполнить их, чтобы изучить его. Вы можете изучить воззвание в то же время, когда выполняете его предпосылки.\n\nЕсли предпосылка указывает требование уровня, это минимальный требуемый уровень чернокнижника (вы можете взять его на более высоких уровнях чернокнижника).\n\nВарианты воззваний представлены в алфавитном порядке.\n\n### Мучительный заряд\n\nПредпосылка: нет\n\nКогда вы используете вашу особенность Мистический заряд, добавьте ваш модификатор Харизмы к урону, который наносит каждый луч при успешном попадании.\n\n### Доспех теней\n\nПредпосылка: нет\n\nПока вы не носите доспех и не владеете щитом, ваш КД становится 13 + ваш модификатор Харизмы. Этот эффект подавляется, пока вы без сознания или в области, затронутой заклинанием антимагическое поле.\n\n### Восходящий шаг\n\nПредпосылка: 9-й уровень\n\nВы можете творить заклинание левитация на себя так часто, как пожелаете, не расходуя ячейку заклинаний или материальные компоненты.\n\n### Чарующий шёпот\n\nПредпосылка: 7-й уровень\n\nВы можете сотворить заклинание принуждение один раз, не расходуя ячейку заклинаний или материальные компоненты. Вы не можете сделать это снова, пока не закончите продолжительный отдых.\n\n### Запредельное зрение\n\nПредпосылка: нет\n\nВы можете видеть в тусклом свете, тьме и магической тьме, как если бы это был яркий свет, на дистанции 120 футов.\n\n### Знаток даров\n\nПредпосылка: чернокнижник 7-го уровня, Второй дар\n\nВаш второй Дар договора становится мощнее, получая преимущества, подробно описанные в вашей особенности Усиленный дар.\n\n### Цепи Карцери\n\nПредпосылка: 15-й уровень\n\nВы можете сотворить заклинание большее удержание, не расходуя ячейку заклинаний или материальные компоненты. Вы не можете сделать это снова, пока не закончите продолжительный отдых.\n\n### Ужасное слово\n\nПредпосылка: 7-й уровень\n\nВы можете сотворить заклинание замешательство один раз, не расходуя ячейку заклинаний или материальные компоненты. Вы не можете сделать это снова, пока не закончите продолжительный отдых.\n\n### Жуткий взрыв\n\nПредпосылка: нет\n\nВы получаете следующие преимущества, когда используете вашу особенность Мистический заряд:\n- Вы не совершаете с помехой броски атаки заклинанием дальнего боя, чтобы попасть по лежащей цели, если она более чем в 5 футах от вас.\n- Вы не совершаете с помехой броски атаки заклинанием дальнего боя, если вы в пределах 5 футов от враждебного существа, которое может видеть вас и которое не недееспособно.\n\n### Жуткое зрение\n\nПредпосылка: нет\n\nВы можете творить заклинание обнаружение магии так часто, как пожелаете, не расходуя ячейку заклинаний.\n\n### Жуткое копьё\n\nПредпосылка: нет\n\nКогда вы используете вашу особенность Мистический заряд, теперь вы можете нацеливаться на существ в пределах 300 футов от вас.\n\n### Исчадийская бодрость\n\nПредпосылка: нет\n\nВы можете творить заклинание ложная жизнь на себя так часто, как пожелаете, не расходуя ячейку заклинаний или материальные компоненты. Вы можете творить его на высшем круге, для которого у вас есть ячейка заклинаний Вирда (см. таблицу Прогрессии чернокнижника).\n\n### Взор двух разумов\n\nПредпосылка: нет\n\nВы можете действием коснуться согласного Гуманоида и воспринимать через его чувства до конца вашего следующего хода. Пока существо находится на том же плане, что и вы, вы можете действием в последующие ходы поддерживать эту связь, продлевая длительность до конца вашего следующего хода. Воспринимая через чувства другого существа, вы получаете пользу от любых особых чувств, которыми обладает это существо, и вы ослеплены и оглушены к вашему собственному окружению.\n\n### Питие жизни\n\nПредпосылка: 11-й уровень\n\nКогда вы попадаете по существу атакой оружием, существо получает дополнительный некротический урон, равный вашему модификатору Харизмы (минимум 1).\n\n### Маска многих лиц\n\nПредпосылка: нет\n\nВы можете творить заклинание маскировка так часто, как пожелаете, не расходуя ячейку заклинаний.\n\n### Замедлить разум\n\nПредпосылка: 5-й уровень\n\nВы можете сотворить заклинание замедление, не расходуя ячейку заклинаний или материальные компоненты. Вы не можете сделать это снова, пока не закончите продолжительный отдых.\n\n### Туманные видения\n\nПредпосылка: нет\n\nВы можете творить заклинание безмолвный образ так часто, как пожелаете, не расходуя ячейку заклинаний или материальные компоненты.\n\n### Мистический арканум\n\nПредпосылка: 11-й уровень\n\nВаш покровитель дарует магический секрет, называемый арканумом. Выберите одно неритуальное заклинание из списка заклинаний Вирда как этот арканум. Высший круг заклинания, который вы можете выбрать, определяется вашим текущим уровнем чернокнижника, как показано в таблице Максимальный круг по уровню.\n\nВы можете сотворить ваше заклинание арканума один раз, не расходуя ячейку заклинаний. Вы должны закончить продолжительный отдых, прежде чем сможете сотворить его этим способом снова. В качестве альтернативы, если ваш арканум круга, для которого у вас есть ячейки заклинаний, вы можете потратить ячейку заклинаний, чтобы сотворить его, как стандартное заклинание.\n\nВы можете брать это воззвание несколько раз, выбирая другое заклинание каждый раз.\n\n|Уровень чернокнижника|Максимальный круг заклинаний арканума|\n|---|---|\n|11-й|6-й круг|\n|13-й|7-й круг|\n|15-й|8-й круг|\n|17-й|9-й круг|\n\n### Единый с тенями\n\nПредпосылка: 5-й уровень\n\nКогда вы в области тусклого света, тьмы или магической тьмы, вы можете действием стать невидимым, пока не переместитесь или не совершите действие или реакцию.\n\n### Потусторонний прыжок\n\nПредпосылка: 9-й уровень\n\nВы можете творить заклинание прыжок на себя так часто, как пожелаете, не расходуя ячейку заклинаний или материальные компоненты.\n\n### Якорь покровителя\n\nПредпосылка: нет\n\nКогда вы совершаете спасбросок Телосложения, чтобы поддержать концентрацию на заклинании Вирда или заклинании, сотворённом Жутким воззванием, вы можете выбрать вместо этого совершить спасбросок Харизмы. Кроме того, вы совершаете с преимуществом первый спасбросок концентрации, который вы совершаете каждый раунд.\n\n### Отталкивающий заряд\n\nПредпосылка: нет\n\nКогда вы успешно попадаете по существу одним или несколькими лучами, созданными вашей особенностью Мистический заряд, вы можете оттолкнуть существо до 10 футов за луч от вас по прямой линии (в дополнение к нанесению урона). Если это перемещение прерывается тем, что цель встречает твёрдую поверхность (например, её толкают в каменную стену), цель также получает 1к6 дробящего урона за каждый пройденный прирост в 10 футов.\n\n### Скульптор плоти\n\nПредпосылка: 7-й уровень\n\nВы можете сотворить заклинание поли морф, не расходуя ячейку заклинаний или материальные компоненты. Вы не можете сделать это снова, пока не закончите продолжительный отдых.\n\n### Второй дар\n\nПредпосылка: 5-й уровень\n\nВы получаете преимущества второго дара из вариантов, описанных в особенности 1-го уровня Дар договора: Договор клинка, Договор цепи или Договор тома.\n\n### Знак дурного предзнаменования\n\nПредпосылка: 5-й уровень\n\nВы можете сотворить заклинание наложить проклятие, не расходуя ячейку заклинаний или материальные компоненты. Вы не можете сделать это снова, пока не закончите продолжительный отдых.\n\n### Переводчик духов\n\nПредпосылка: нет\n\nВы можете творить заклинание понимание языков на себя так часто, как пожелаете, не расходуя ячейку заклинаний или материальные компоненты.\n\n### Украденное знание\n\nПредпосылка: нет\n\nВы получаете владение любыми двумя навыками или инструментами на ваш выбор (в любой комбинации).\n\nВы можете брать это воззвание несколько раз, выбирая другие владения каждый раз.\n\n### Вор пяти судеб\n\nПредпосылка: нет\n\nВы можете творить порчу как заклинание 1-го круга так часто, как пожелаете, не расходуя ячейку заклинаний или материальные компоненты.\n\n### Видения далёких миров\n\nПредпосылка: 15-й уровень\n\nВы можете творить заклинание магический глаз так часто, как пожелаете, не расходуя ячейку заклинаний или материальные компоненты.\n\n### Шёпот могилы\n\nПредпосылка: 9-й уровень\n\nВы можете выполнять ритуал разговор с мёртвыми так часто, как пожелаете, без ритуальной книги или материальных компонентов.\n\n### Зрение ведьмы\n\nПредпосылка: 15-й уровень\n\nВы можете видеть истинную форму любого существа с тегом Перевёртыш или существа, скрытого магией иллюзии или преобразования, пока существо в пределах 30 футов от вас и в пределах прямой видимости.",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_eldritch-invocation-options",
+          "feature_type": "CLASS_FEATURE_OPTION_LIST",
+          "level": 2,
+          "name": "Eldritch Invocation Options",
+          "name_ru": "Варианты жутких воззваний",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "In your study of occult lore, you have unearthed eldritch invocations. These fragments of forbidden knowledge imbue you with magical abilities that abide beyond any mere spell duration.\n\nYou gain two eldritch invocations of your choice, though you must meet any prerequisites. Invocation options are detailed at the end of the class description. At certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock Progression table.\n\nIn addition, when you gain a level in this class, you can choose one invocation you know and replace it with another invocation that you meet the prerequisites for.",
+          "desc_ru": "Изучая оккультные знания, вы раскрыли таинственные воззвания — фрагменты запретного знания, наделяющие вас постоянной магической способностью.\n\nНа 2-м уровне вы получаете два таинственных воззвания по вашему выбору. Доступные варианты воззваний подробно описаны в конце описания класса. Когда вы достигаете определённых уровней колдуна, вы получаете дополнительные воззвания по вашему выбору, как показано в столбце «Известные воззвания» таблицы колдуна.\n\nКроме того, когда вы получаете уровень в этом классе, вы можете выбрать одно из известных вам воззваний и заменить его другим воззванием, которое вы могли бы изучить на этом уровне.",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_eldritch-invocations",
+          "level": 2,
+          "name": "Eldritch Invocations",
+          "name_ru": "Таинственные воззвания",
+          "parent": "bfrd_warlock",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your eldritch power deepens, giving you the ability to cast Wyrd spells.\n\n**Cantrips.** At 2nd level, choose two cantrips from the Wyrd spell list to learn. You choose more Wyrd cantrips to learn at higher levels, as shown in the Cantrips Known column of the Warlock Progression table.\n\n**Casting Spells.** You know a small number of spells and can cast any of them by using a Wyrd spell slot of the spell's circle or higher. You don't need to prepare spells ahead of time.\n\nThe Warlock Progression table shows how many spells you know and how many spell slots you have per day at a given level. For example, at 5th level, you have four 1st-circle slots and two 2nd-circle slots. If you know the 1st-circle spell bane and have a 1st-circle and a 2nd-circle spell slot available, you can cast bane using either slot. If you use a 1st-circle slot, you have three 1st-circle slots remaining.\n\nYou regain all used spell slots when you finish a long rest.\n\n**Spells Known of 1st-Circle and Higher.** At 2nd level, choose two 1st-circle spells from the Wyrd spell list to learn.\n\nThe Spells Known column of the Warlock Progression table shows when you learn additional Wyrd spells. Each spell you choose must be from a circle for which you have Wyrd spell slots. For instance, when you reach 5th level as a warlock, you can learn one new Wyrd spell of 1st or 2nd circle.\n\nWhen you gain a level of warlock, you can choose one Wyrd spell you know and replace it with another spell of your choice from the Wyrd spell list. The replacement spell must be of a circle for which you have Wyrd spell slots.\n\n**Spellcasting Ability.** Charisma (CHA) is your spellcasting ability. Your CHA modifier determines the save DC or the attack modifier for certain spells you cast:\n- Spell save DC = 8 + your proficiency bonus (PB) + your CHA modifier\n- Spell attack modifier = your proficiency bonus (PB) + your CHA modifier\n\n**Spellcasting Focus.** You can use a wyrd focus as a spellcasting focus for your Wyrd spells.",
+          "desc_ru": "К тому моменту, как вы достигнете 2-го уровня, вы научились использовать магическую сущность природы для сотворения заклинаний, подобно друиду. Смотрите общие правила сотворения заклинаний и список заклинаний следопыта.",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_spellcasting",
+          "level": 2,
+          "name": "Spellcasting",
+          "name_ru": "Сотворение заклинаний",
+          "parent": "bfrd_warlock",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "**Pact Spells.** Each warlock subclass has a list of pact spells that you can access as soon as you can cast spells of that circle (as shown in the Warlock Progression table). Once you gain such a spell, it is always on your list of known spells and doesn't count against the number of spells you know. However, casting a pact spell still expends a Wyrd spell slot as normal. If one of these spells isn't on the Wyrd spell list, it still counts as a Wyrd spell for you. You can't replace pact spells when you gain a level of warlock.\n\n**Pact Magic.** Your patron gives you access to a special reservoir of power called Pact Magic. You can expend one use of Pact Magic to cast any Pact Spell you know without expending a spell slot, though they are always treated as cast at the highest-circle warlock spell slot you can access (see Warlock Progression).\n\nYou can use this feature twice, whether casting the same or different spells from your Pact Spells. You gain additional uses of Pact Magic at higher warlock levels: at 13th level, you can use it three times between rests, and at 17th level, you can use it four times between rests.\n\nYou regain all expended uses of Pact Magic when you finish a short or long rest.",
+          "desc_ru": "Заклинания договора. Каждый подкласс чернокнижника имеет список заклинаний договора, к которым вы можете получить доступ, как только сможете творить заклинания этого круга (как показано в таблице Прогрессии чернокнижника). Получив такое заклинание, оно всегда находится в вашем списке известных заклинаний и не учитывается в количестве известных вам заклинаний. Однако сотворение заклинания договора по-прежнему расходует ячейку заклинаний Вирда как обычно. Если одно из этих заклинаний не входит в список заклинаний Вирда, оно всё равно считается для вас заклинанием Вирда. Вы не можете заменять заклинания договора при получении уровня чернокнижника.\n\nМагия договора. Ваш покровитель даёт вам доступ к особому резерву силы, называемому Магией договора. Вы можете потратить одно использование Магии договора, чтобы сотворить любое известное вам Заклинание договора, не расходуя ячейку заклинаний, хотя они всегда считаются сотворёнными на ячейке заклинаний чернокнижника высшего круга, к которой вы можете получить доступ (см. Прогрессию чернокнижника).\n\nВы можете использовать эту особенность дважды, творя одни и те же или разные заклинания из ваших Заклинаний договора. Вы получаете дополнительные использования Магии договора на более высоких уровнях чернокнижника: на 13-м уровне вы можете использовать её три раза между отдыхами, а на 17-м уровне вы можете использовать её четыре раза между отдыхами.\n\nВы восстанавливаете все потраченные использования Магии договора, когда заканчиваете короткий или продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_pact-magic",
+          "level": 3,
+          "name": "Pact Magic",
+          "name_ru": "Магия договора",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Choose a subclass that reflects the type of entity that becomes your patron, either Fiend or Reaper (detailed at the end of this class). Your choice grants you spells and other features at 3rd, 7th, 11th, and 15th level.",
+          "desc_ru": "Вы получаете подкласс колдуна на свой выбор. Подкласс Покровитель: Исчадие описан после описания этого класса. Подкласс — это специализация, которая даёт вам умения на определённых уровнях колдуна. До конца вашей карьеры вы получаете каждое умение своего подкласса, которое соответствует вашему уровню колдуна или ниже.",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_warlock-subclass",
+          "level": 3,
+          "name": "Warlock Subclass",
+          "name_ru": "Подкласс колдуна",
+          "parent": "bfrd_warlock",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Choose one of the following improvements (ability scores can't be raised above 20 with this feature):\n- Increase a single ability score by 2.\n- Increase two different ability scores by 1 each.\n- Increase one ability score by 1 and select a talent from the magic talents list.",
+          "desc_ru": "Выберите одно из следующих улучшений (этой особенностью показатели характеристик нельзя поднять выше 20):\n- Увеличить один показатель характеристики на 2.\n- Увеличить два разных показателя характеристик на 1 каждый.\n- Увеличить один показатель характеристики на 1 и выбрать талант из списка магических талантов.",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_improvement",
+          "level": 4,
+          "name": "Improvement",
+          "name_ru": "Улучшение",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_slots-2nd",
+          "feature_type": "SPELL_SLOTS",
+          "level": 5,
+          "name": "2nd",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your patron enhances your Pact Boon as a reward for your service. You gain one of the following enhancements as determined by your chosen Pact Boon. If you have more than one Pact Boon, choose which one is enhanced.\n\n## Pact of the Blade\n\nYou can attack with your pact weapon twice, instead of once, when you take the Attack action on your turn.\n\n## Pact of the Chain\n\nWhen you complete a short or long rest, your familiar gains temporary hit points equal to your PB + your CHA modifier. In addition, when you make an attack against a creature within 5 feet of your familiar, your familiar can use its reaction to give you advantage on the attack roll.\n\n## Pact of the Tome\n\nYou can now inscribe rituals into your Book of Shadows. Choose two rituals of 1st or 2nd circle (in any combination) from the Wyrd ritual list. The rituals appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen rituals.\n\nOn your adventures, you can add other Wyrd rituals you find to your Book of Shadows if a ritual's circle is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each circle of the ritual, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.",
+          "desc_ru": "Ваш покровитель усиливает ваш Дар договора в награду за вашу службу. Вы получаете одно из следующих усилений, определяемых вашим выбранным Даром договора. Если у вас более одного Дара договора, выберите, какой усилен.\n\n## Договор клинка\n\nВы можете атаковать вашим оружием договора дважды, вместо одного раза, когда вы выполняете действие Атака в ваш ход.\n\n## Договор цепи\n\nКогда вы заканчиваете короткий или продолжительный отдых, ваш фамильяр получает временные очки хитов, равные вашему бонусу мастерства + ваш модификатор Харизмы. Кроме того, когда вы совершаете атаку против существа в пределах 5 футов от вашего фамильяра, ваш фамильяр может реакцией дать вам преимущество на бросок атаки.\n\n## Договор тома\n\nТеперь вы можете вписывать ритуалы в вашу Книгу теней. Выберите два ритуала 1-го или 2-го круга (в любой комбинации) из списка ритуалов Вирда. Ритуалы появляются в книге и не учитываются в количестве известных вам заклинаний. С вашей Книгой теней в руке вы можете творить выбранные ритуалы.\n\nВ ваших приключениях вы можете добавлять другие найденные вами ритуалы Вирда в вашу Книгу теней, если круг ритуала равен или меньше половины вашего уровня чернокнижника (округлённой вверх) и если вы можете уделить время, чтобы переписать заклинание. За каждый круг ритуала процесс переписки занимает 2 часа и стоит 50 зм за редкие чернила, необходимые для его вписывания.",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_enhanced-boon",
+          "level": 6,
+          "name": "Enhanced Boon",
+          "name_ru": "Усиленный дар",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_slots-3rd",
+          "feature_type": "SPELL_SLOTS",
+          "level": 9,
+          "name": "3rd",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your commitment to the warlock's path grants you a powerful new ability. Choose one of the following heroic boons:\n- **Echoes of Knowledge.** You learn one 1st-circle and one 2nd-circle spell of your choice from any spell list, they count as Wyrd spells for you. The chosen spells can't be rituals, and they don't count against your total spells known. These spells are added to your list of Pact Spells and can be cast by expending a use of Pact Magic or by expending Wyrd spell slots as normal.\n- **Echoes of Power.** When you successfully hit with one of your Eldritch Blast beams and roll a 10 on the damage die, you can roll the d10 again and add the number rolled to the result as extra force damage dealt by that beam.",
+          "desc_ru": "Ваша приверженность пути чернокнижника даёт вам мощную новую способность. Выберите один из следующих героических даров:\n- Отголоски знания. Вы изучаете одно заклинание 1-го круга и одно заклинание 2-го круга на ваш выбор из любого списка заклинаний, они считаются для вас заклинаниями Вирда. Выбранные заклинания не могут быть ритуалами и не учитываются в вашем общем количестве известных заклинаний. Эти заклинания добавляются к вашему списку Заклинаний договора и могут твориться расходованием использования Магии договора или расходованием ячеек заклинаний Вирда как обычно.\n- Отголоски силы. Когда вы успешно попадаете одним из ваших лучей Мистического заряда и выбрасываете 10 на кости урона, вы можете бросить к10 снова и добавить выпавшее число к результату как дополнительный урон силовым полем, нанесённый этим лучом.",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_heroic-boon",
+          "level": 10,
+          "name": "Heroic Boon",
+          "name_ru": "Героический дар",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_slots-4th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 13,
+          "name": "4th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_slots-5th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 17,
+          "name": "5th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You can call upon your patron's power by expending a use of your Pact Magic feature to cast any spell you know of 5th-circle or lower from any spell list.",
+          "desc_ru": "Вы можете призвать силу вашего покровителя, потратив использование вашей особенности Магия договора, чтобы сотворить любое известное вам заклинание 5-го круга или ниже из любого списка заклинаний.",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_patrons-favor",
+          "level": 18,
+          "name": "Patron's Favor",
+          "name_ru": "Благосклонность покровителя",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your commitment to the warlock's path grants you a powerful new ability. You gain the following epic boon:\n- **Eldritch Master.** If you start your turn with no uses of Pact Magic remaining, you can beseech your patron to immediately restore all expended uses (no action required). You must finish a long rest before you can use this feature again.",
+          "desc_ru": "Ваша приверженность пути чернокнижника дарует вам мощную новую способность. Вы получаете следующий эпический дар:\n- **Мистический мастер.** Если вы начинаете свой ход без оставшихся использований Магии договора, вы можете умолять вашего покровителя немедленно восстановить все потраченные использования (действие не требуется). Вы должны закончить продолжительный отдых, прежде чем сможете использовать эту особенность снова.",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_epic-boon",
+          "level": 20,
+          "name": "Epic Boon",
+          "name_ru": "Эпический дар",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "|||\n|---|---|\n|Hit Point Die|D8 per Warlock level|\n|Saving Throw Proficiencies|Wisdom and Charisma|\n|Skill Proficiencies|Choose 2: Arcana, Deception, History, Intimidation, Investigation, Nature, Religion|\n|Weapon Proficiencies|Simple weapons|\n|Tool Proficiencies|None|\n|Armor Training|Light armor, medium armor, shields|\n|Starting Equipment|Choose A or B for each: (A) a light crossbow and 20 bolts or (B) any simple weapon; (A) a component pouch or (B) a wyrd focus; (A) a scholar's pack or (B) a dungeoneer's pack; plus Leather armor, any simple weapon, and two daggers|",
+          "desc_ru": "|||\n|---|---|\n|Кость хитов|К8 за уровень чернокнижника|\n|Владение спасбросками|Мудрость и Харизма|\n|Владение навыками|Выберите 2: Магия, Обман, История, Запугивание, Расследование, Природа, Религия|\n|Владение оружием|Простое оружие|\n|Владение инструментами|Нет|\n|Тренировка доспехов|Лёгкие доспехи, средние доспехи, щиты|\n|Начальное снаряжение|Выберите А или Б для каждого: (А) лёгкий арбалет и 20 болтов или (Б) любое простое оружие; (А) мешочек с компонентами или (Б) вирда-фокусировка; (А) набор учёного или (Б) набор исследователя подземелий; плюс Кожаный доспех, любое простое оружие и два кинжала|",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock_core-traits",
+          "feature_type": "CORE_TRAITS_TABLE",
+          "name": "Core Warlock Traits",
+          "name_ru": "Основные черты чернокнижника",
+          "parent": "bfrd_warlock",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Warlock",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Warlock",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Таблица: Основные черты колдуна\n\n|                            |                                                                                                      |\n|---|---|\n| Основная характеристика    | Харизма                                                                                              |\n| Кость Хитов                | d8 за каждый уровень колдуна                                                                         |\n| Владение спасбросками      | Мудрость и Харизма                                                                                   |\n| Владение навыками          | Выберите 2: Магия, Обман, История, Запугивание, Анализ, Природа или Религия                          |\n| Владение оружием           | Простое оружие                                                                                       |\n| Владение доспехами         | Лёгкие доспехи                                                                                       |\n| Начальное снаряжение       | Выберите А или Б: (А) Кожаные доспехи, серп, 2 кинжала, магический фокус (сфера), книга (оккультные знания), набор учёного и 15 зм; или (Б) 100 зм |",
+      "glossary_version": "v1",
+      "name": "Колдун",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,187 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_compelled-movement",
+  "id": "o5e:deepm:spell:deepm-compelled-movement",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-compelled-movement",
+      "o5e:dmag:spell:compelled-movement"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b6a34cd226fc08adba0e6cf9fb5760e40d1bd030df68a92a24c6af50f82900c7",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": "50.00",
+      "material_specified": "the embalmed body of a millipede with its right legs removed, worth at least 50 gp",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "b6a34cd226fc08adba0e6cf9fb5760e40d1bd030df68a92a24c6af50f82900c7",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-compelled-movement",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "0a37447c415b5bae45d75b485a0a93ce6c5a71745cf65964901a382440f47792",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:compelled-movement",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "Choose two living creatures (not constructs or undead) you can see within range. Each must make a Charisma saving throw. On a failed save, a creature is compelled to use its movement to move toward the other creature. Its route must be as direct as possible, but it avoids dangerous terrain and enemies. If the creatures are within 5 feet of each other at the end of either one’s turn, their bodies fuse together. Fused creatures still take their own turns, but they can’t move, can’t use reactions, and have disadvantage on attack rolls, Dexterity saving throws, and Constitution checks to maintain concentration.\n\nA fused creature can use its action to make a Charisma saving throw. On a success, the creature breaks free and can move as it wants. It can become fused again, however, if it’s within 5 feet of a creature that’s still under the spell’s effect at the end of either creature’s turn.\n\n**Compelled movement** doesn’t affect a creature that can’t be charmed or that is incorporeal.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 5th level or higher, the number of creatures you can affect increases by one for every two slot levels above 3rd.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": "50.00",
+      "material_specified": "the embalmed body of a millipede with its right legs removed, worth at least 50 gp",
+      "name": "Compelled Movement",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "enchantment",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2791",
+          "parent": "deepm_compelled-movement",
+          "type": "default"
+        },
+        {
+          "external_id": "2793",
+          "parent": "deepm_compelled-movement",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "2794",
+          "parent": "deepm_compelled-movement",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "2795",
+          "parent": "deepm_compelled-movement",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "2796",
+          "parent": "deepm_compelled-movement",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "2797",
+          "parent": "deepm_compelled-movement",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2798",
+          "parent": "deepm_compelled-movement",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Compelled Movement",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "Choose two living creatures (not constructs or undead) you can see within range. Each must make a Charisma saving throw. On a failed save, a creature is compelled to use its movement to move toward the other creature. Its route must be as direct as possible, but it avoids dangerous terrain and enemies. If the creatures are within 5 feet of each other at the end of either one’s turn, their bodies fuse together. Fused creatures still take their own turns, but they can’t move, can’t use reactions, and have disadvantage on attack rolls, Dexterity saving throws, and Constitution checks to maintain concentration.\n\nA fused creature can use its action to make a Charisma saving throw. On a success, the creature breaks free and can move as it wants. It can become fused again, however, if it’s within 5 feet of a creature that’s still under the spell’s effect at the end of either creature’s turn.\n\n**Compelled movement** doesn’t affect a creature that can’t be charmed or that is incorporeal.",
+      "name": "Compelled Movement",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Выберите двух живых существ (не конструктов или нежить), которых вы видите в пределах дистанции. Каждое должно совершить спасбросок Харизмы. При провале существо вынуждено использовать своё перемещение, чтобы двигаться к другому существу. Его маршрут должен быть как можно более прямым, но оно избегает опасной местности и врагов. Если существа находятся в пределах 5 футов друг от друга в конце хода любого из них, их тела сливаются вместе. Слившиеся существа всё ещё делают свои собственные ходы, но они не могут перемещаться, не могут использовать реакции и совершают с помехой броски атаки, спасброски Ловкости и проверки Телосложения для поддержания концентрации.\n\nСлившееся существо может действием совершить спасбросок Харизмы. При успехе существо освобождается и может перемещаться как хочет. Однако оно может снова слиться, если оно находится в пределах 5 футов от существа, которое всё ещё под эффектом заклинания в конце хода любого существа.\n\nЭто заклинание не воздействует на существо, которое нельзя очаровать или которое бестелесно.",
+      "glossary_version": "v1",
+      "name": "Вынужденное перемещение",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

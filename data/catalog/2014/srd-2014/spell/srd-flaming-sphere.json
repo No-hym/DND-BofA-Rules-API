@@ -1,0 +1,232 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_flaming-sphere",
+  "id": "o5e:srd-2014:spell:srd-flaming-sphere",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-flaming-sphere",
+      "o5e:wotc-srd:spell:flaming-sphere"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "aa90b114a25ec9676aed475c8805e75f34ff9cca32c90bc35d3eaca47e99dff8",
+    "formulas": [
+      {
+        "expression": "2d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_druid",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "fire"
+      ],
+      "duration": "1 minute",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "A bit of tallow, a pinch of brimstone, and a dusting of powdered iron.",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "shape_size": 20.0,
+      "shape_size_unit": null,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "aa90b114a25ec9676aed475c8805e75f34ff9cca32c90bc35d3eaca47e99dff8",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-flaming-sphere",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "be1a114ddca1fe9c723bef698a66bd6e1565af6b615ade99f6c325a7fe4e008d",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:flaming-sphere",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric",
+          "srd_druid",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_druid",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "fire"
+      ],
+      "desc": "A 5-foot-diameter sphere of fire appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a dexterity saving throw. The creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one. As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere's damage, and the sphere stops moving this turn. When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.",
+      "document": "srd-2014",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "A bit of tallow, a pinch of brimstone, and a dusting of powdered iron.",
+      "name": "Flaming Sphere",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "shape_size": 20.0,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5499",
+          "parent": "srd_flaming-sphere",
+          "type": "default"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "5501",
+          "parent": "srd_flaming-sphere",
+          "type": "slot_level_3"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "5502",
+          "parent": "srd_flaming-sphere",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "5d6",
+          "external_id": "5503",
+          "parent": "srd_flaming-sphere",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "6d6",
+          "external_id": "5504",
+          "parent": "srd_flaming-sphere",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "7d6",
+          "external_id": "5505",
+          "parent": "srd_flaming-sphere",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "8d6",
+          "external_id": "5506",
+          "parent": "srd_flaming-sphere",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "9d6",
+          "external_id": "5507",
+          "parent": "srd_flaming-sphere",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Flaming Sphere",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "A 5-foot-diameter sphere of fire appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a dexterity saving throw. The creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one. As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere's damage, and the sphere stops moving this turn. When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.",
+      "name": "Flaming Sphere",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Вызов 2-го уровня (Друид, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В, С, М (кусочек жира, щепотка серы и немного железного порошка)\n\n**Длительность:** Концентрация, вплоть до 1 минуту\n\nОгненная сфера диаметром 5 футов появляется в свободном пространстве по вашему выбору в пределах дистанции и существует на время действия заклинания. Любое существо, заканчивающее свой ход в пределах 5 футов от сферы, должно совершить спасбросок Ловкости. При провале существо получает 2к6 урона огнём, а при успехе — половину этого урона.\n\nБонусным действием вы можете переместить сферу на расстояние до 30 футов. Если вы направите сферу на существо, оно должно совершить спасбросок против урона сферы, и сфера прекращает перемещение в этот ход.\n\nКогда вы перемещаете сферу, вы можете направить её через преграды высотой до 5 футов и перебрасывать через ямы шириной до 10 футов. Сфера поджигает горючие предметы, которые никто не несёт и не носит, и излучает яркий свет в радиусе 20 футов и тусклый свет в дополнительном радиусе 20 футов.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 3-го уровня или выше, урон увеличивается на 1к6 за каждый уровень ячейки выше 2-го.",
+      "glossary_version": "v1",
+      "name": "Пылающая сфера",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

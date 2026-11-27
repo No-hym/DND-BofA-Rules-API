@@ -1,0 +1,197 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_anticipate-arcana",
+  "id": "o5e:deepm:spell:deepm-anticipate-arcana",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-anticipate-arcana",
+      "o5e:dmag:spell:anticipate-arcana"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "97d5fb8f5231f0c8b18dbc9f17405f361846d67f6fd433f2a5e7ad27b1fa681f",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "reaction",
+      "classes": [
+        "srd_cleric",
+        "srd_sorcerer",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "divination",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "97d5fb8f5231f0c8b18dbc9f17405f361846d67f6fd433f2a5e7ad27b1fa681f",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-anticipate-arcana",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "ce7b555c67ab0832e45a6a4606dcea0b1c89992ea56521c43da30f94adcdac4c",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:anticipate-arcana",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric",
+          "srd_sorcerer",
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "reaction",
+      "classes": [
+        "srd_cleric",
+        "srd_sorcerer",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "desc": "Your foresight gives you an instant to ready your defenses against a magical attack. When you cast **anticipate arcana**, you have advantage on saving throws against spells and other magical effects until the start of your next turn.",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "name": "Anticipate Arcana",
+      "range": 0,
+      "range_text": "Self",
+      "reaction_condition": "which you take when an enemy you can see casts a spell",
+      "ritual": false,
+      "school": "divination",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2373",
+          "parent": "deepm_anticipate-arcana",
+          "type": "default"
+        }
+      ],
+      "descriptions": [
+        {
+          "desc": "Arcana measures a character's knowledge of magic and magical creatures. It can also be used to sense whether an area has magical qualities. The most commonly used ability score is Intelligence. A character might use Dexterity to trace a complicated magical rune, or Wisdom to read very carefully and protect their sanity while interpreting forbidden eldritch secrets.\nSpecialties: aberrations, constructs, detection, dragons, elementals, fey, forbidden knowledge, monstrosities, oozes, the planes.",
+          "desc_ru": "Описание. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "describes": "arcana",
+          "document": "a5e-ag",
+          "external_id": "a5e-ag_arcana",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.",
+          "desc_ru": "Описание. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "describes": "arcana",
+          "document": "srd-2014",
+          "external_id": "srd-2014_arcana",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Recall lore about spells, magic items, and the planes of existence.",
+          "desc_ru": "Описание. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "describes": "arcana",
+          "document": "srd-2024",
+          "external_id": "srd-2024_arcana",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Anticipate Arcana",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "Your foresight gives you an instant to ready your defenses against a magical attack. When you cast **anticipate arcana**, you have advantage on saving throws against spells and other magical effects until the start of your next turn.",
+      "name": "Anticipate Arcana",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Ваше предвидение даёт вам мгновение, чтобы подготовить вашу защиту против магической атаки. Когда вы творите **предвидеть магию**, вы имеете преимущество на спасброски против заклинаний и других магических эффектов до начала вашего следующего хода.",
+      "glossary_version": "v1",
+      "name": "Предвидеть магию",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

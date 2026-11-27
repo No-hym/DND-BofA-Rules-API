@@ -1,0 +1,140 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "balor-general-a5e",
+  "id": "o5e:menagerie:monster:balor-general-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:balor-general-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e7adc643863332218fd95a18f96b1568545c94f97ed9652fd305ee52433d3878",
+    "formulas": [
+      {
+        "expression": "33d12+165",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 19,
+      "challenge_rating": "24",
+      "condition_immunities": "poisoned",
+      "damage_immunities": "fire, poison",
+      "damage_resistances": "cold, lightning; damage from nonmagical weapons",
+      "damage_vulnerabilities": "",
+      "hit_dice": "33d12+165",
+      "hit_points": 379,
+      "languages": "Abyssal, telepathy 120 ft.",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "e7adc643863332218fd95a18f96b1568545c94f97ed9652fd305ee52433d3878",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:balor-general-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The balor attacks with its lightning sword and its fire whip.\"}, {\"name\": \"Lightning Sword\", \"desc\": \"Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) slashing damage plus 18 (4d8) lightning damage.\"}, {\"name\": \"Fire Whip\", \"desc\": \"Melee Weapon Attack: +14 to hit, reach 45 ft., one target. Hit: 18 (3d6 + 8) slashing damage plus 14 (4d6) fire damage  and the target makes a DC 19 Strength saving throw. On a failure  it is pulled up to 40 feet towards the balor.\"}, {\"name\": \"Whip Crack (1/Day)\", \"desc\": \"A 90-foot cone of thunderous flame emanates from the balor. Each creature in the area makes a DC 19 Constitution saving throw  taking 28 (8d6) fire damage and 28 (8d6) thunder damage and falling prone on a failed save or taking half damage on a successful one.\"}, {\"name\": \"Teleport\", \"desc\": \"The balor magically teleports to a space within 120 feet that it can see.\"}]",
+      "armor_class": 19,
+      "bonus_actions_json": "null",
+      "challenge_rating": "24",
+      "charisma": 22,
+      "charisma_save": 12,
+      "condition_immunities": "poisoned",
+      "constitution": 20,
+      "constitution_save": 11,
+      "cr": 24.0,
+      "damage_immunities": "fire, poison",
+      "damage_resistances": "cold, lightning; damage from nonmagical weapons",
+      "dexterity": 18,
+      "dexterity_save": 10,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "33d12+165",
+      "hit_points": 379,
+      "intelligence": 20,
+      "languages": "Abyssal, telepathy 120 ft.",
+      "legendary_actions_json": "null",
+      "name": "Balor General",
+      "page_no": 66,
+      "reactions_json": "[{\"name\": \"Avenging Sword\", \"desc\": \"When damaged by a melee weapon attack, the balor attacks with its lightning sword.\"}, {\"name\": \"Hunters Whip\", \"desc\": \"When damaged by a ranged weapon attack, spell, area effect, or magical effect, the balor uses Teleport and then attacks with its fire whip.\"}, {\"name\": \"Avenging Bolt (1/Day\", \"desc\": \"When damaged by a ranged weapon attack, spell, or magical effect, a 100-foot-long, 5-foot-wide lightning bolt springs from the balors extended sword. Each creature in the area makes a DC 19 Dexterity saving throw, taking 42 (12d6) lightning damage on a failed save or half damage on a success.\"}]",
+      "route": "monsters/",
+      "senses": "truesight 120 ft., passive Perception 21",
+      "size": "Huge",
+      "skills_json": "{\"intimidation\": 12, \"perception\": 11}",
+      "special_abilities_json": "[{\"name\": \"Chaotic Evil\", \"desc\": \"The balor radiates a Chaotic and Evil aura.\"}, {\"name\": \"Death Throes\", \"desc\": \"When the balor dies, it explodes. Each creature within 30 feet makes a DC 19 Dexterity saving throw, taking 52 (15d6) fire damage on a failed save or half damage on a success.\"}, {\"name\": \"Fire Aura\", \"desc\": \"At the start of the balors turn, each creature within 10 feet takes 10 (3d6) fire damage. A creature that touches the balor or hits it with a melee attack takes 10 (3d6) fire damage.\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The balor has advantage on saving throws against spells and magical effects.\"}, {\"name\": \"Legendary Resistance (2/Day)\", \"desc\": \"If the balor general fails a saving throw, it can choose to succeed instead. When it does so, it wards itself with its sword. The lightning that wreathes the sword winks out. The lightning reappears at the beginning of the balors next turn. Until then, the balors lightning sword deals no lightning damage, and the balor can't use Avenging Bolt.\"}, {\"name\": \"Fast Reflexes\", \"desc\": \"The balor general may take two reactions per round, but not more than one per turn.\"}]",
+      "speed_json": "{\"walk\": 40, \"fly\": 80}",
+      "spells_json": "null",
+      "strength": 26,
+      "strength_save": 14,
+      "type": "Fiend",
+      "wisdom": 20,
+      "wisdom_save": 11
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Balor General",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-balor-general"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Balor General",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Огромное исчадие. Класс доспеха: 19. Хиты: 379 (33к12+165). Сопротивление урону: холодом, электричеством, damage from nonmagical weapons. Иммунитет к урону: огнём, ядом. Иммунитет к состояниям: отравление. Показатель опасности: 24.",
+      "glossary_version": "derived-v1",
+      "name": "Балор Генерал",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

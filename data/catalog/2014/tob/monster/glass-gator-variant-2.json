@@ -1,0 +1,136 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "glass-gator",
+  "id": "o5e:tob:monster:glass-gator-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:glass-gator"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "bc78f96f07f03772a97c3342ec61d4a61b5b807fb6f9bbcbb7c650e95751aa00",
+    "formulas": [
+      {
+        "expression": "7d10+7",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "challenge_rating": "1",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "7d10+7",
+      "hit_points": 45,
+      "languages": "-",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "bc78f96f07f03772a97c3342ec61d4a61b5b807fb6f9bbcbb7c650e95751aa00",
+        "edition": "2014",
+        "id": "o5e:tob:monster:glass-gator",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Claws\", \"desc\": \"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained and the glass gator can't attack a different target.\", \"attack_bonus\": 4, \"damage_dice\": \"2d4\"}, {\"name\": \"Constrict\", \"desc\": \"One creature that's already grappled by the glass gator takes 7 (2d4 + 2) bludgeoning damage plus 7 (2d6) poison damage, or half as much poison damage with a successful DC 11 Constitution saving throw.\"}]",
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "1",
+      "charisma": 5,
+      "constitution": 12,
+      "cr": 1.0,
+      "desc": "_So called by some watermen because of its method of hunting, the glass gator is a nearly-transparent ambush hunter. It usually strikes from a bed of water, either stagnant or flowing. The transparency of the creature, combined with its jet of silt and poisonous sting, make it an effective hunter._  \n**Strange Anatomy.** The body of a glass gator is most similar to a centipede, but with four oversized forelimbs and a more distinct head. The forelimbs are used to attack, but they tire easily, forcing the glass gator to use its powerful lunge attack sparingly.  \nOnce the glass gator gets hold of prey, it wraps its body around the victim and squeezes, like a constrictor snake. Unlike a serpent, however, which uses powerful muscles to crush and suffocate its prey, the glass gator is only trying to bring its underbelly into contact with the prey. The glass gator’s belly is lined with hundreds of stingers that deliver a virulent nerve toxin.  \n**Transparency.** The glass gator’s transparency isn’t total. Its digestive tract usually is visible, especially for a few hours after it eats. The creature sometimes uses this limited visibility as bait, making itself appear as a wriggling snake or eel. It is most vulnerable just after eating, when it’s lethargic; if encountered in its lair shortly after a meal, the DM may give the glass gator disadvantage on initiative.  \n**Larval Form.** Subterranean variants—including some with bioluminescence—have been reported in caverns. It’s been postulated that the glass gator may be the larval form of a larger creature, but what that larger creature might be is unknown.",
+      "dexterity": 14,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "7d10+7",
+      "hit_points": 45,
+      "intelligence": 4,
+      "languages": "-",
+      "legendary_actions_json": "null",
+      "name": "Glass Gator",
+      "page_no": 228,
+      "perception": 2,
+      "reactions_json": "[{\"name\": \"Silt Cloud (Recharges after a Short or Long Rest)\", \"desc\": \"After taking damage while in water, the glass gator thrashes to stir up a 10-foot-radius cloud of silt around itself. The area inside the sphere is heavily obscured for 1 minute (10 rounds) in still water or 5 (2d4) rounds in a strong current. After stirring up the silt, the glass gator can move its speed.\"}]",
+      "route": "monsters/",
+      "senses": "Blindsight 30 ft., passive Perception 12",
+      "size": "Large",
+      "skills_json": "{\"perception\": 2, \"stealth\": 4}",
+      "special_abilities_json": "[{\"name\": \"Amphibious\", \"desc\": \"The glass gator can breathe air and water.\"}, {\"name\": \"Lunge\", \"desc\": \"When the glass gator leaps at least 10 feet toward a creature and hits that creature with a claws attack on the same turn, it can immediately constrict the target as a bonus action.\"}, {\"name\": \"Transparency\", \"desc\": \"The glass gator has advantage on Dexterity (Stealth) checks while underwater or in dim light.\"}, {\"name\": \"Standing Leap\", \"desc\": \"The glass gator can long jump up to 15 feet from water or up to 10 feet on land, with or without a running start.\"}]",
+      "speed_json": "{\"walk\": 30, \"swim\": 50}",
+      "spells_json": "null",
+      "strength": 15,
+      "type": "Beast",
+      "wisdom": 10
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Glass Gator",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-glass-gator"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_So called by some watermen because of its method of hunting, the glass gator is a nearly-transparent ambush hunter. It usually strikes from a bed of water, either stagnant or flowing. The transparency of the creature, combined with its jet of silt and poisonous sting, make it an effective hunter._  \n**Strange Anatomy.** The body of a glass gator is most similar to a centipede, but with four oversized forelimbs and a more distinct head. The forelimbs are used to attack, but they tire easily, forcing the glass gator to use its powerful lunge attack sparingly.  \nOnce the glass gator gets hold of prey, it wraps its body around the victim and squeezes, like a constrictor snake. Unlike a serpent, however, which uses powerful muscles to crush and suffocate its prey, the glass gator is only trying to bring its underbelly into contact with the prey. The glass gator’s belly is lined with hundreds of stingers that deliver a virulent nerve toxin.  \n**Transparency.** The glass gator’s transparency isn’t total. Its digestive tract usually is visible, especially for a few hours after it eats. The creature sometimes uses this limited visibility as bait, making itself appear as a wriggling snake or eel. It is most vulnerable just after eating, when it’s lethargic; if encountered in its lair shortly after a meal, the DM may give the glass gator disadvantage on initiative.  \n**Larval Form.** Subterranean variants—including some with bioluminescence—have been reported in caverns. It’s been postulated that the glass gator may be the larval form of a larger creature, but what that larger creature might be is unknown.",
+      "name": "Glass Gator",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Так называемый некоторыми водниками из-за его метода охоты, стеклянный аллигатор — почти прозрачный засадный охотник. Он обычно наносит удар из ложа воды, либо стоячей, либо текущей. Прозрачность существа, комбинированная с его струёй ила и ядовитым жалом, делает его эффективным охотником.\n\n**Странная анатомия.** Тело стеклянного аллигатора наиболее подобно многоножке, но с четырьмя крупными передними конечностями и более отчётливой головой. Передние конечности используются для атаки, но они легко устают, заставляя стеклянного аллигатора использовать его могущественную атаку выпадом экономно. Как только стеклянный аллигатор удерживает добычу, он обёртывает его тело вокруг жертвы и сжимает, как змея-констриктор. В отличие от змеи, однако, которая использует могущественные мускулы, чтобы раздавить и задушить её добычу, стеклянный аллигатор только пытается привести его нижнюю часть живота в контакт с добычей. Живот стеклянного аллигатора выложен сотнями жал, которые доставляют вирулентный нервный токсин.\n\n**Прозрачность.** Прозрачность стеклянного аллигатора не полная. Его пищеварительный тракт обычно виден, особенно в течение нескольких часов после того, как он ест. существо иногда использует эту ограниченную видимость как приманку, делая себя кажущимся извивающейся змеёй или угрём. Он наиболее уязвим сразу после еды, когда он летаргичен; если встречен в его логове вскоре после еды, Мастер может дать стеклянному аллигатору помеху на инициативу.\n\n**Личиночная форма.** Подземные варианты — включая некоторых с биолюминесценцией — были сообщены в пещерах. Было постулировано, что стеклянный аллигатор может быть личиночной формой большего существа, но что это большее существо может быть, неизвестно.",
+      "glossary_version": "v1",
+      "name": "Стеклянный аллигатор",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

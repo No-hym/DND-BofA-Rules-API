@@ -1,0 +1,234 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_peat-mammoth",
+  "id": "o5e:tob2:creature:tob2-peat-mammoth",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-peat-mammoth"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5eadaf70933a72fa5b40adfc0665d8e8dd166484cb327159a11536205be9f797",
+    "formulas": [
+      {
+        "expression": "15d12+75",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 3,
+      "ability_score_constitution": 21,
+      "ability_score_dexterity": 6,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 24,
+      "ability_score_wisdom": 8,
+      "alignment": "neutral",
+      "armor_class": 16,
+      "armor_detail": "natural armor",
+      "blindsight_range": 120,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "10.000",
+      "climb": null,
+      "condition_immunities": [
+        "blinded",
+        "deafened",
+        "frightened"
+      ],
+      "damage_immunities": [],
+      "damage_resistances": [
+        "fire",
+        "necrotic"
+      ],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "15d12+75",
+      "hit_points": 172,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": null,
+      "passive_perception": 9,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "huge",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "5eadaf70933a72fa5b40adfc0665d8e8dd166484cb327159a11536205be9f797",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-peat-mammoth",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 3,
+      "ability_score_constitution": 21,
+      "ability_score_dexterity": 6,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 24,
+      "ability_score_wisdom": 8,
+      "alignment": "neutral",
+      "armor_class": 16,
+      "armor_detail": "natural armor",
+      "blindsight_range": 120,
+      "category": "Monsters",
+      "challenge_rating": "10.000",
+      "condition_immunities": [
+        "blinded",
+        "deafened",
+        "frightened"
+      ],
+      "condition_immunities_display": "blinded, deafened, frightened",
+      "damage_resistances": [
+        "fire",
+        "necrotic"
+      ],
+      "damage_resistances_display": "fire, necrotic",
+      "document": "tob2",
+      "hit_dice": "15d12+75",
+      "hit_points": 172,
+      "hover": false,
+      "name": "Peat Mammoth",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "passive_perception": 9,
+      "size": "huge",
+      "skill_bonus_stealth": 6,
+      "type": "plant",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "The peat mammoth moves up to its speed. While doing so, it can enter Large or smaller creatures' spaces. Whenever the mammoth enters a creature's space, the creature must make a DC 17 Dexterity saving throw.\n\nOn a successful save, the creature can choose to be pushed 5 feet back or to the side of the mammoth. A creature that chooses not to be pushed suffers the consequences of a failed saving throw.\n\nOn a failed save, the mammoth enters the creature's space, and the creature takes 22 (5d8) necrotic damage and is engulfed. The engulfed creature can't breathe, is restrained, and takes 22 (5d8) necrotic damage at the start of each of the mammoth's turns. When the mammoth moves, engulfed creatures move with it.\n\nAn engulfed creature can try to escape by taking an action to make a DC 17 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the mammoth. The mammoth can engulf up to two Large or smaller creatures at a time.",
+          "desc_ru": "Действие «Енгулф»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_peat-mammoth_engulf",
+          "name": "Engulf",
+          "name_ru": "Енгулф",
+          "order_in_statblock": 2,
+          "parent": "tob2_peat-mammoth",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The peat mammoth makes two slam attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_peat-mammoth_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_peat-mammoth",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one creature. Hit: 20 (3d8 + 7) bludgeoning damage. If the peat mammoth is on fire, the target also takes 7 (2d6) fire damage.",
+          "desc_ru": "Действие «Удар»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_peat-mammoth_slam",
+          "name": "Slam",
+          "name_ru": "Удар",
+          "order_in_statblock": 1,
+          "parent": "tob2_peat-mammoth",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "When the peat mammoth takes fire damage, it catches fire. If the peat mammoth starts its turn on fire, it takes 5 (1d10) fire damage. The mammoth’s saturated body douses the fire at the end of the peat mammoth’s turn. Creatures engulfed by the mammoth don’t take fire damage from this effect.\n\nIf the peat mammoth dies while it is on fire, it explodes in a burst of fire and flaming peat. Each creature within 15 feet of the peat mammoth must make a DC 17 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one. If a creature is engulfed by the mammoth when it dies in this way, the creature has disadvantage on the saving throw.",
+          "desc_ru": "Особенность «Слов Бурн». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_peat-mammoth_slow-burn",
+          "name": "Slow Burn",
+          "name_ru": "Слов Бурн",
+          "parent": "tob2_peat-mammoth",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The peat mammoth has advantage on Dexterity (Stealth) checks made to hide in swampy terrain.",
+          "desc_ru": "Особенность «Свамп Камоуфлаге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_peat-mammoth_swamp-camouflage",
+          "name": "Swamp Camouflage",
+          "name_ru": "Свамп Камоуфлаге",
+          "parent": "tob2_peat-mammoth",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Peat Mammoth",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Peat Mammoth",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Эта куча гниющего растительного вещества имеет форму, похожую на шерстистого мамонта, без бивней. Растения, формирующие его шкуру, свисают до земли.\n\n**Слоноподобный растительный холм.** Торфяной мамонт — мобильное торфяное болото на четырёх коротких ногах. Растения, свисающие с него, придают ему лохматый вид шерстистого мамонта. Он может выдавливать части своего растительного холма, чтобы ударять врагов, но в основном он переваливается через добычу, поглощая её в свою массу.\n\n**Наполненный духами.** Торфяные мамонты — холмы растительного материала, населённые и движимые душами разумных существ, которые умерли в торфяных болотах. Беспокойные духи управляют движениями мамонта, но мешанина пойманных душ оставляет мамонта без настоящего пилота или цели. Таким образом, растительная масса ковыляет дальше, поглощая существ и растения на своём пути, движимая энергией духов, ищущих освобождения, но неспособных его найти.\n\n**Опасность болотного газа.** Гниющий растительный и животный материал, содержащийся в массе торфяного мамонта, выделяет горючие болотные газы. Насыщенное тело мамонта даёт ему меру защиты от огня, но газы, улетучивающиеся из него, легко загораются. В редких случаях атака мамонта огнём приводит к ужасному взрыву.",
+      "glossary_version": "v1",
+      "name": "Торфяной мамонт",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

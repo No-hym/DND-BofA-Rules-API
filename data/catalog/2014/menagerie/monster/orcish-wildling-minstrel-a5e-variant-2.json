@@ -1,0 +1,134 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "orcish-wildling-minstrel-a5e",
+  "id": "o5e:menagerie:monster:orcish-wildling-minstrel-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:orcish-wildling-minstrel-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "aeca2a109a80289c4bf3218a66a3fdf18d96fb31cf1a0ef620edd0032860c770",
+    "formulas": [
+      {
+        "expression": "5d8+10",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 15,
+      "challenge_rating": "2",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "5d8+10",
+      "hit_points": 32,
+      "languages": "any three",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "aeca2a109a80289c4bf3218a66a3fdf18d96fb31cf1a0ef620edd0032860c770",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:orcish-wildling-minstrel-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Rapier\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.\"}, {\"name\": \"Vicious Mockery (Cantrip; V)\", \"desc\": \"A creature within 60 feet that can hear the minstrel makes a DC 14 Wisdom saving throw. On a failure  it takes 7 (2d6) psychic damage and has disadvantage on the first attack roll it makes before the end of its next turn.\"}, {\"name\": \"Invisibility (2nd-Level; V, S, M, Concentration)\", \"desc\": \"The minstrel or a creature they touch is invisible for 1 hour. The spell ends if the invisible creature attacks or casts a spell.\"}, {\"name\": \"Shatter (2nd-Level; V, S, M)\", \"desc\": \"An ear-splitting ringing sound fills a 10-foot-radius sphere emanating from a point the minstrel can see within 60 feet. Creatures in the area make a DC 14 Constitution saving throw  taking 13 (3d8) thunder damage on a failed save or half damage on a success. A creature made of stone  metal  or other inorganic material has disadvantage on its saving throw. Unattended objects in the area also take the damage.\"}, {\"name\": \"Hypnotic Pattern (3rd-Level; S, M, Concentration)\", \"desc\": \"A swirling pattern of light appears at a point within 120 feet. Each creature within 10 feet of the pattern that can see it makes a DC 14 Wisdom saving throw. On a failure  the creature is charmed for 1 minute. While charmed  the creature is incapacitated and its Speed is 0. The effect ends on a creature if it takes damage or if another creature uses an action to shake it out of its daze.\"}]",
+      "armor_class": 15,
+      "bonus_actions_json": "[{\"name\": \"Martial Encouragement\", \"desc\": \"Until the beginning of the minstrels next turn, one creature within 30 feet that can hear the minstrel deals an extra 3 (1d6) damage whenever it deals weapon damage.\"}, {\"name\": \"Healing Word (1st-Level; V)\", \"desc\": \"The minstrel or a living creature within 60 feet regains 5 (1d4 + 3) hit points. The minstrel can't cast this spell and a 1st-level or higher spell on the same turn.\"}, {\"name\": \"Many orc tribes use song to preserve a communal memory of history\", \"desc\": \"Minstrels are the keepers of the tribes wisdom and identity.\"}]",
+      "challenge_rating": "2",
+      "charisma": 16,
+      "charisma_save": 5,
+      "constitution": 14,
+      "cr": 2.0,
+      "dexterity": 16,
+      "dexterity_save": 5,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "5d8+10",
+      "hit_points": 32,
+      "intelligence": 12,
+      "languages": "any three",
+      "legendary_actions_json": "null",
+      "name": "Orcish Wildling Minstrel",
+      "page_no": 484,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "passive Perception 11",
+      "size": "Medium",
+      "skills_json": "{\"deception\": 5, \"performance\": 5, \"persuasion\": 5, \"history\": 3, \"nature\": 3, \"survival\": 3}",
+      "special_abilities_json": "[{\"name\": \"Legend lore\", \"desc\": \"Once every 30 days, the orcish wilding minstrel can innately cast legend lore with no material component.\"}, {\"name\": \"Spellcasting\", \"desc\": \"The minstrel is a 5th level spellcaster. Their spellcasting ability is Charisma (spell save DC 13\\n +5 to hit with spell attacks). They have the following bard spells prepared:\\n Cantrips (at will): light\\n mage hand\\n minor illusion\\n vicious mockery\\n 1st-level (4 slots): charm person\\n disguise self\\n healing word\\n 2nd-level (3 slots): enthrall\\n invisibility\\n shatter\\n 3rd-level (2 slots): hypnotic pattern\\n major image\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 10,
+      "type": "Humanoid",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Orcish Wildling Minstrel",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-orcish-wildling-minstrel"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Orcish Wildling Minstrel",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Средний гуманоид. Класс доспеха: 15. Хиты: 32 (5к8+10). Показатель опасности: 2.",
+      "glossary_version": "derived-v1",
+      "name": "Оркиш Вилдлинг Минстрел",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

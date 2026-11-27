@@ -1,0 +1,182 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_glacial-fog",
+  "id": "o5e:deepm:spell:deepm-glacial-fog",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-glacial-fog",
+      "o5e:dmag:spell:glacial-fog"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "6269dd06168740e6c1188d60a2f4c31372c274e0bd5b17acd9602b138041e652",
+    "formulas": [
+      {
+        "expression": "12d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "12d6",
+      "damage_types": [
+        "cold"
+      ],
+      "duration": "1 minute",
+      "level": 7,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": "25.00",
+      "material_specified": "crystalline statue of a polar bear worth at least 25 gp",
+      "range": 100,
+      "range_text": "100 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "shape_size": 30,
+      "shape_size_unit": null,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "6269dd06168740e6c1188d60a2f4c31372c274e0bd5b17acd9602b138041e652",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-glacial-fog",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "f5b1b7bbddb6809c8a896fdf0c5b2e28dd83df05bf6382fb7303b50729aa88f8",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:glacial-fog",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "12d6",
+      "damage_types": [
+        "cold"
+      ],
+      "desc": "As you cast this spell, a 30-foot-radius sphere centered on a point within range becomes covered in a frigid fog. Each creature that is in the area at the start of its turn while the spell remains in effect must make a Constitution saving throw. On a failed save, a creature takes 12d6 cold damage and gains one level of exhaustion, and it has disadvantage on Perception checks until the start of its next turn. On a successful save, the creature takes half the damage and ignores the other effects.\n\nStored devices and tools are all frozen by the fog: crossbow mechanisms become sluggish, weapons are stuck in scabbards, potions turn to ice, bag cords freeze together, and so forth. Such items require the application of heat for 1 round or longer in order to become useful again.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 8th level or higher, the damage increases by 1d6 for each slot level above 7th.",
+      "level": 7,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": "25.00",
+      "material_specified": "crystalline statue of a polar bear worth at least 25 gp",
+      "name": "Glacial Fog",
+      "range": 100,
+      "range_text": "100 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "shape_size": 30,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3364",
+          "parent": "deepm_glacial-fog",
+          "type": "default"
+        },
+        {
+          "damage_roll": "13d6",
+          "external_id": "3366",
+          "parent": "deepm_glacial-fog",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "14d6",
+          "external_id": "3367",
+          "parent": "deepm_glacial-fog",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Glacial Fog",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "As you cast this spell, a 30-foot-radius sphere centered on a point within range becomes covered in a frigid fog. Each creature that is in the area at the start of its turn while the spell remains in effect must make a Constitution saving throw. On a failed save, a creature takes 12d6 cold damage and gains one level of exhaustion, and it has disadvantage on Perception checks until the start of its next turn. On a successful save, the creature takes half the damage and ignores the other effects.\n\nStored devices and tools are all frozen by the fog: crossbow mechanisms become sluggish, weapons are stuck in scabbards, potions turn to ice, bag cords freeze together, and so forth. Such items require the application of heat for 1 round or longer in order to become useful again.",
+      "name": "Glacial Fog",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Когда вы творите это заклинание, сфера радиусом 30 футов с центром в точке в пределах дистанции покрывается морозным туманом. Каждое существо, которое находится в области в начале своего хода, пока заклинание остаётся в действии, должно совершить спасбросок Телосложения. При провале существо получает 12к6 урона холодом и получает один уровень истощения, и оно совершает с помехой проверки Восприятия до начала своего следующего хода. При успехе существо получает половину урона и игнорирует другие эффекты.\n\nХранящиеся устройства и инструменты все заморожены туманом: механизмы арбалетов становятся вялыми, оружие застревает в ножнах, зелья превращаются в лёд, шнуры сумок замерзают вместе и так далее. Такие предметы требуют применения тепла в течение 1 раунда или дольше, чтобы снова стать полезными.",
+      "glossary_version": "v1",
+      "name": "Ледниковый туман",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

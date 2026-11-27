@@ -1,0 +1,210 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_steam-gout",
+  "id": "o5e:toh:spell:toh-steam-gout",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:steam-gout",
+      "o5e:toh:spell:toh-steam-gout"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "4a8f88fadd86724759ccefa19df39a8a5597c73f01fc8c374fa001a9bb854ed0",
+    "formulas": [
+      {
+        "expression": "2d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "2d8",
+      "damage_types": [
+        "fire"
+      ],
+      "duration": "1 minute",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": 5,
+      "shape_size_unit": null,
+      "shape_type": "cylinder",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "4a8f88fadd86724759ccefa19df39a8a5597c73f01fc8c374fa001a9bb854ed0",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-steam-gout",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "2a22690a51b87a5344380104d5e063c2d94439198b6757c0a8cc57a3f56cfd2a",
+        "edition": "2014",
+        "id": "o5e:toh:spell:steam-gout",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "2d8",
+      "damage_types": [
+        "fire"
+      ],
+      "desc": "You create a gout of billowing steam in a 40-foottall cylinder with a 5-foot radius centered on a point on the ground you can see within range. Exposed flames in the area are doused. Each creature in the area when the gout first appears must make a Dexterity saving throw. On a failed save, the creature takes 2d8 fire damage and falls prone. On a successful save, the creature takes half as much damage and doesn't fall prone.\n  The gout then covers the area in a sheen of slippery water. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. On a failed save, it falls prone.",
+      "document": "toh",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8, and you can create one additional gout of steam for each slot level above 3rd. A creature in the area of more than one gout of steam is affected only once.",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "name": "Steam Gout",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": 5,
+      "shape_type": "cylinder",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "365",
+          "parent": "toh_steam-gout",
+          "type": "default"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "367",
+          "parent": "toh_steam-gout",
+          "target_count": 2,
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "368",
+          "parent": "toh_steam-gout",
+          "target_count": 3,
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "5d8",
+          "external_id": "369",
+          "parent": "toh_steam-gout",
+          "target_count": 4,
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "6d8",
+          "external_id": "370",
+          "parent": "toh_steam-gout",
+          "target_count": 5,
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "7d8",
+          "external_id": "371",
+          "parent": "toh_steam-gout",
+          "target_count": 6,
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "8d8",
+          "external_id": "372",
+          "parent": "toh_steam-gout",
+          "target_count": 7,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Steam Gout",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You create a gout of billowing steam in a 40-foottall cylinder with a 5-foot radius centered on a point on the ground you can see within range. Exposed flames in the area are doused. Each creature in the area when the gout first appears must make a Dexterity saving throw. On a failed save, the creature takes 2d8 fire damage and falls prone. On a successful save, the creature takes half as much damage and doesn't fall prone.\n  The gout then covers the area in a sheen of slippery water. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. On a failed save, it falls prone.",
+      "name": "Steam Gout",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы создаёте вспышку колыхущегося пара в 40-футовом высоком цилиндре с радиусом 5 футов по центру на точке на земле, которые вы можете видеть в пределах дистанции. Открытое пламя в этой области поливается водой. Каждое существо в области, когда волна появляется впервые должно сделать спасбросок Ловкости. При неудаче спасброска, существо получает 2к8 урона от огня и падает ничком. При успешном спасброске, существо получает половину урона и не падает ничком.\n  Тогда волна покрывает участки в блестк скользкой воды. Когда существо входит в зону заклинания впервые в пределах поворота или начинается его очередь там, он должен сделать спасбросок Ловкости. При неудаче спасброска он падает ничком.",
+      "glossary_version": "v1",
+      "name": "Столб пара",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

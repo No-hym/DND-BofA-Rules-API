@@ -1,0 +1,197 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_butterfly-effect",
+  "id": "o5e:toh:spell:toh-butterfly-effect",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:butterfly-effect",
+      "o5e:toh:spell:toh-butterfly-effect"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "61c49c1fdee158796d68fa4a52c490a66105c4c954b7456b0ca23e813c1ef92a",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "61c49c1fdee158796d68fa4a52c490a66105c4c954b7456b0ca23e813c1ef92a",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-butterfly-effect",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "c285928873d4c36f671fe36e7de150fba8767fea9e1b347e18567eddf4006043",
+        "edition": "2014",
+        "id": "o5e:toh:spell:butterfly-effect",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "You cause a cloud of illusory butterflies to swarm around a target you can see within range. The target must succeed on a Charisma saving throw or be charmed for the duration. While charmed, the target can't take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.\n\n| d10  | Behavior          |\n|------|-------------------|\n| 1    | The creature uses all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature doesn't take an action this turn. |\n| 2-6  | The creature doesn't take an action this turn. |\n| 7-8  | The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn. |\n| 9-10 | The creature can act and move normally. |\n\nAt the end of each of its turns, and each time it takes damage, the target can make another Charisma saving throw. On a success, the spell ends on the target.",
+      "document": "toh",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "name": "Butterfly Effect",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "enchantment",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "54",
+          "parent": "toh_butterfly-effect",
+          "type": "default"
+        },
+        {
+          "external_id": "56",
+          "parent": "toh_butterfly-effect",
+          "target_count": 2,
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "57",
+          "parent": "toh_butterfly-effect",
+          "target_count": 3,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "58",
+          "parent": "toh_butterfly-effect",
+          "target_count": 4,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "59",
+          "parent": "toh_butterfly-effect",
+          "target_count": 5,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "60",
+          "parent": "toh_butterfly-effect",
+          "target_count": 6,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "61",
+          "parent": "toh_butterfly-effect",
+          "target_count": 7,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "62",
+          "parent": "toh_butterfly-effect",
+          "target_count": 8,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Butterfly Effect",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You cause a cloud of illusory butterflies to swarm around a target you can see within range. The target must succeed on a Charisma saving throw or be charmed for the duration. While charmed, the target can't take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.\n\n| d10  | Behavior          |\n|------|-------------------|\n| 1    | The creature uses all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature doesn't take an action this turn. |\n| 2-6  | The creature doesn't take an action this turn. |\n| 7-8  | The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn. |\n| 9-10 | The creature can act and move normally. |\n\nAt the end of each of its turns, and each time it takes damage, the target can make another Charisma saving throw. On a success, the spell ends on the target.",
+      "name": "Butterfly Effect",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы заставляете облако иллюзорных бабочек роиться вокруг цели, которую вы видите в пределах дистанции. Цель должна преуспеть в спасброске Харизмы, иначе будет очарована на время действия. Будучи очарованной, цель не может совершать реакции и должна бросать к10 в начале каждого своего хода, чтобы определить своё поведение в этом ходу.\n\n1: Существо использует всё своё перемещение, чтобы двигаться в случайном направлении. Чтобы определить направление, бросьте к8 и назначьте направление каждой грани кости. Существо не совершает действия в этом ходу.\n\n2–6: Существо не совершает действия в этом ходу.\n\n7–8: Существо использует своё действие, чтобы совершить рукопашную атаку против случайно определённого существа в пределах его досягаемости. Если в пределах его досягаемости нет существа, существо ничего не делает в этом ходу.\n\n9–10: Существо может действовать и перемещаться как обычно.\n\nВ конце каждого своего хода и каждый раз, когда она получает урон, цель может совершить ещё один спасбросок Харизмы. При успехе заклинание заканчивается на цели.",
+      "glossary_version": "v1",
+      "name": "Эффект бабочки",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

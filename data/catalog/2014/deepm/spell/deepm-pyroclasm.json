@@ -1,0 +1,166 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_pyroclasm",
+  "id": "o5e:deepm:spell:deepm-pyroclasm",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-pyroclasm",
+      "o5e:dmag:spell:pyroclasm"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "66ab01c6832848a177a2b15c3fce7e3f32a3bc7a5788bc3b81009fad261c6d41",
+    "formulas": [
+      {
+        "expression": "10d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "10d8",
+      "damage_types": [
+        "fire"
+      ],
+      "duration": "1 minute",
+      "level": 9,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a shard of obsidian",
+      "range": 500,
+      "range_text": "500 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "66ab01c6832848a177a2b15c3fce7e3f32a3bc7a5788bc3b81009fad261c6d41",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-pyroclasm",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "a700defc4686c520d1c248e843d5f6852b120311f8c323123de97b4ed48d12a8",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:pyroclasm",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "10d8",
+      "damage_types": [
+        "fire"
+      ],
+      "desc": "You point toward an area of ground or a similar surface within range. A geyser of lava erupts from the chosen spot. The geyser is 5 feet in diameter and 40 feet high. Each creature in the cylinder when it erupts or at the start of your turn takes 10d8 fire damage, or half as much damage if it makes a successful Dexterity saving throw.\n\nThe geyser also forms a pool of lava at its base. Initially, the pool is the same size as the geyser, but at the start of each of your turns for the duration, the pool’s radius increases by 5 feet. A creature in the pool of lava (but not in the geyser) at the start of your turn takes 5d8 fire damage.\n\nWhen a creature leaves the pool of lava, its speed is reduced by half and it has disadvantage on Dexterity saving throws, caused by a hardening layer of lava. These penalties last until the creature uses an action to break the hardened stone away from itself.\n\nIf you maintain concentration on **pyroclasm** for a full minute, the lava geyser and pool harden into permanent, nonmagical stone. A creature in either area when the stone hardens is restrained until the stone is broken away.",
+      "document": "deepm",
+      "duration": "1 minute",
+      "level": 9,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a shard of obsidian",
+      "name": "Pyroclasm",
+      "range": 500,
+      "range_text": "500 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3936",
+          "parent": "deepm_pyroclasm",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Pyroclasm",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You point toward an area of ground or a similar surface within range. A geyser of lava erupts from the chosen spot. The geyser is 5 feet in diameter and 40 feet high. Each creature in the cylinder when it erupts or at the start of your turn takes 10d8 fire damage, or half as much damage if it makes a successful Dexterity saving throw.\n\nThe geyser also forms a pool of lava at its base. Initially, the pool is the same size as the geyser, but at the start of each of your turns for the duration, the pool’s radius increases by 5 feet. A creature in the pool of lava (but not in the geyser) at the start of your turn takes 5d8 fire damage.\n\nWhen a creature leaves the pool of lava, its speed is reduced by half and it has disadvantage on Dexterity saving throws, caused by a hardening layer of lava. These penalties last until the creature uses an action to break the hardened stone away from itself.\n\nIf you maintain concentration on **pyroclasm** for a full minute, the lava geyser and pool harden into permanent, nonmagical stone. A creature in either area when the stone hardens is restrained until the stone is broken away.",
+      "name": "Pyroclasm",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы указываете на область земли или подобную поверхность в пределах дистанции. Гейзер лавы извергается из выбранного места. Гейзер 5 футов в диаметре и 40 футов в высоту. Каждое существо в цилиндре, когда он извергается или в начале вашего хода, получает 10к8 урона огнём, или половину урона, если оно совершает успешный спасбросок Ловкости.\n\nГейзер также формирует бассейн лавы у его основания. Первоначально бассейн того же размера, что и гейзер, но в начале каждого вашего хода на время действия радиус бассейна увеличивается на 5 футов. Существо в бассейне лавы (но не в гейзере) в начале вашего хода получает 5к8 урона огнём.\n\nКогда существо покидает бассейн лавы, его скорость уменьшается вдвое и оно совершает с помехой спасброски Ловкости, вызванные затвердевающим слоем лавы. Эти штрафы длятся, пока существо не использует действие, чтобы сломать затвердевший камень от себя.\n\nЕсли вы поддерживаете концентрацию на этом заклинании в течение целой минуты, гейзер лавы и бассейн затвердевают в постоянный немагический камень. Существо в любой области, когда камень затвердевает, опутано, пока камень не будет сломан.",
+      "glossary_version": "v1",
+      "name": "Пироклазм",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

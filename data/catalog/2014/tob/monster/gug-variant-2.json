@@ -1,0 +1,143 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "gug",
+  "id": "o5e:tob:monster:gug-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:gug"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e12dc626a82c15b7f7ca79a9a6e75ffe79466ffa31471082f1e5ca0df834beaf",
+    "formulas": [
+      {
+        "expression": "20d12+140",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral evil",
+      "armor_class": 17,
+      "challenge_rating": "12",
+      "condition_immunities": "confusion, exhaustion, paralysis, poisoned",
+      "damage_immunities": "poison",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "20d12+140",
+      "hit_points": 270,
+      "languages": "Deep Speech, Giant, Undercommon",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "e12dc626a82c15b7f7ca79a9a6e75ffe79466ffa31471082f1e5ca0df834beaf",
+        "edition": "2014",
+        "id": "o5e:tob:monster:gug",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The gug makes two slam attacks, two stomp attacks, or one of each.\"}, {\"name\": \"Slam\", \"desc\": \"Melee Weapon Attack: +11 to hit, reach 10 ft., one creature. Hit: 16 (2d8 + 7) bludgeoning damage. If a creature is hit by this attack twice in the same turn, the target must make a successful DC 19 Constitution saving throw or gain one level of exhaustion.\", \"attack_bonus\": 11, \"damage_dice\": \"2d8\"}, {\"name\": \"Stomp\", \"desc\": \"Melee Weapon Attack. +11 to hit, reach 10 ft., one target. Hit: 20 (2d12 + 7) bludgeoning damage.\"}]",
+      "alignment": "neutral evil",
+      "armor_class": 17,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "12",
+      "charisma": 14,
+      "charisma_save": 6,
+      "condition_immunities": "confusion, exhaustion, paralysis, poisoned",
+      "constitution": 25,
+      "constitution_save": 11,
+      "cr": 12.0,
+      "damage_immunities": "poison",
+      "desc": "_The gugs are giants of the underworld, long since banished into dark realms for their worship of the eldest and foulest gods._  \n**Underworld Godlings.** Gugs enjoy smashing and devouring lesser creatures, and their burbling and grunting speech displays a surprising and malign intelligence to those few who can understand it. Gugs are occasionally worshipped by tribes of derro, and their strange underworld cities are filled with filled with esoteric monoliths and constructs.  \n**Nocturnal Raiders.** While gugs are banished into the underworld in mortal realms, they regularly flout this prohibition by raiding the surface by night. They also spend much time in the Dreamlands and the Ethereal plane; some gug warlocks and sorcerers are said to travel the planes with entourages of fext or noctiny.  \n**Prey on Ghouls.** Gugs devour ghouls and darakhul as their preferred foodstuffs. When these are not available, they seem to prefer carrion and particular varieties of psychotropic mushrooms, as well as something that is best described as candied bats.",
+      "dexterity": 10,
+      "dexterity_save": 4,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "20d12+140",
+      "hit_points": 270,
+      "intelligence": 10,
+      "languages": "Deep Speech, Giant, Undercommon",
+      "legendary_actions_json": "[{\"name\": \"Move\", \"desc\": \"The gug moves up to half its speed.\"}, {\"name\": \"Attack\", \"desc\": \"The gug makes one slam or stomp attack.\"}, {\"name\": \"Grab\", \"desc\": \"Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: the target is grappled (escape DC 17).\", \"attack_bonus\": 11, \"damage_dice\": \"0\"}, {\"name\": \"Swallow\", \"desc\": \"The gug swallows one creature it has grappled. The creature takes 26 (3d12 + 7) bludgeoning damage immediately plus 13 (2d12) acid damage at the start of each of the gug's turns. A swallowed creature is no longer grappled but is blinded and restrained, and has total cover against attacks and other effects from outside the gug. If the gug takes 75 points of damage in a single turn, the swallowed creature is expelled and falls prone next to the gug. When the gug dies, a swallowed creature can crawl from the corpse by using 10 feet of movement.\"}, {\"name\": \"Throw\", \"desc\": \"The gug throws one creature it has grappled. The creature is thrown a distance of 2d4 times 10 feet in the direction the gug chooses, and takes 20 (2d12 + 7) bludgeoning damage (plus falling damage if they are thrown into a chasm or off a cliff). A gug can throw a creature up to Large size. Small creatures are thrown twice as far, but the damage is the same.\"}]",
+      "legendary_desc": "A gug can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. A gug regains spent legendary actions at the start of its turn.",
+      "name": "Gug",
+      "page_no": 241,
+      "perception": 3,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 240 ft., passive Perception 13",
+      "size": "Huge",
+      "skills_json": "{\"athletics\": 11, \"perception\": 3, \"stealth\": 4}",
+      "special_abilities_json": "[{\"name\": \"Towering Strength\", \"desc\": \"A gug can lift items up to 4,000 pounds as a bonus action.\"}]",
+      "speed_json": "{\"walk\": 40}",
+      "spells_json": "null",
+      "strength": 24,
+      "strength_save": 12,
+      "type": "Giant",
+      "wisdom": 8
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Gug",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-gug"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_The gugs are giants of the underworld, long since banished into dark realms for their worship of the eldest and foulest gods._  \n**Underworld Godlings.** Gugs enjoy smashing and devouring lesser creatures, and their burbling and grunting speech displays a surprising and malign intelligence to those few who can understand it. Gugs are occasionally worshipped by tribes of derro, and their strange underworld cities are filled with filled with esoteric monoliths and constructs.  \n**Nocturnal Raiders.** While gugs are banished into the underworld in mortal realms, they regularly flout this prohibition by raiding the surface by night. They also spend much time in the Dreamlands and the Ethereal plane; some gug warlocks and sorcerers are said to travel the planes with entourages of fext or noctiny.  \n**Prey on Ghouls.** Gugs devour ghouls and darakhul as their preferred foodstuffs. When these are not available, they seem to prefer carrion and particular varieties of psychotropic mushrooms, as well as something that is best described as candied bats.",
+      "name": "Gug",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Гуги гиганты преисподней, давно изгнанные в тёмные обители своей преданности к старейшими и мерзейшими богам.\n\n**Боги подземного мира.** Гуги наслаждаются разбивая и пожирая меньших существ, и их бормоча и хрюкая речи отображает удивительный и злокачественный интеллект для тех немногих, кто может её понять. Гугов время от времени посещал племена дерро, и их странные подземные города заполнены эзотерическими монолитами и конструктами.\n\n**Ночные рейдеры.** В то время как Гуги сослан в подземном мире смертных миров, они регулярно пренебрегают этим запретом, совершая налёты на поверхность по ночам. Они также проводят много времени в Краю Снов и Эфирном плане; некоторые гугов чернокнижников и колдунов, как говорят, путешествовать по планам с свитами текст или ночной страны.\n\n**Охотятся на упырей.** Гуги пожирают упырей и дарахулов в качестве предпочтительной пищи. Когда они не доступны, они, кажется, предпочитают падаль и отдельные сорта психотропных грибов, а также то, что лучше всего можно описать как карамелизированные летучие мыши.",
+      "glossary_version": "v1",
+      "name": "Гуг",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

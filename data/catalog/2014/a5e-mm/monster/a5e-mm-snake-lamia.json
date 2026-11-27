@@ -1,0 +1,247 @@
+{
+  "attribution": "Title: Monstrous Menagerie; Author: Paul Hughes; Publisher: en-publishing; Source: https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "a5e-mm",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "a5e-mm_snake-lamia",
+  "id": "o5e:a5e-mm:creature:a5e-mm-snake-lamia",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-mm:creature:a5e-mm-snake-lamia"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "35fdf99a0f3e8d29ef4156a74229a8e446326607ca5da0f1ea06739ce6071c13",
+    "formulas": [
+      {
+        "expression": "10d10+30",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 18,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 14,
+      "ability_score_strength": 16,
+      "ability_score_wisdom": 16,
+      "alignment": "chaotic evil",
+      "armor_class": 13,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "4.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60.0,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "10d10+30",
+      "hit_points": 85,
+      "initiative_bonus": null,
+      "languages": [
+        "abyssal",
+        "common"
+      ],
+      "languages_desc": "Abyssal, Common",
+      "normal_sight_range": 10560.0,
+      "passive_perception": 15,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30.0
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-mm",
+        "content_hash": "35fdf99a0f3e8d29ef4156a74229a8e446326607ca5da0f1ea06739ce6071c13",
+        "edition": "2014",
+        "id": "o5e:a5e-mm:creature:a5e-mm-snake-lamia",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:a5e-mm"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 18,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 14,
+      "ability_score_strength": 16,
+      "ability_score_wisdom": 16,
+      "alignment": "chaotic evil",
+      "armor_class": 13,
+      "category": "Monsters",
+      "challenge_rating": "4.000",
+      "darkvision_range": 60.0,
+      "document": "a5e-mm",
+      "hit_dice": "10d10+30",
+      "hit_points": 85,
+      "hover": false,
+      "languages": [
+        "abyssal",
+        "common"
+      ],
+      "languages_desc": "Abyssal, Common",
+      "name": "Snake Lamia",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560.0,
+      "passive_perception": 15,
+      "size": "large",
+      "skill_bonus_deception": 6,
+      "skill_bonus_perception": 5,
+      "skill_bonus_stealth": 5,
+      "type": "monstrosity",
+      "walk": 30.0,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "a5e-mm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e",
+      "publication_date": "2021-12-12T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Monstrous Menagerie"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage  and the target is grappled (escape DC 13). Until this grapple ends  the lamia can't constrict a different target.",
+          "desc_ru": "Действие «Констрикт»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_snake-lamia_constrict",
+          "name": "Constrict",
+          "name_ru": "Констрикт",
+          "order_in_statblock": 1,
+          "parent": "a5e-mm_snake-lamia",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage  and the target makes a DC 13 Constitution saving throw. On a failure  the target takes 10 (3d6) poison damage and is poisoned for 1 hour.",
+          "desc_ru": "Действие «Кинжал»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_snake-lamia_dagger",
+          "name": "Dagger",
+          "name_ru": "Кинжал",
+          "order_in_statblock": 2,
+          "parent": "a5e-mm_snake-lamia",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Spell Attack: +6 to hit, reach 5 ft., one creature. Hit: The target is magically charmed for 1 hour or until it takes damage. While charmed in this way  it has disadvantage on Wisdom saving throws and ability checks.",
+          "desc_ru": "Действие «Диззйинг Тоуч»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_snake-lamia_dizzying-touch",
+          "name": "Dizzying Touch",
+          "name_ru": "Диззйинг Тоуч",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_snake-lamia",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "(3rd-Level; S, Concentration) A swirling pattern of light appears at a point within 120 feet. Each creature within 10 feet of the pattern that can see it makes a DC 14 Wisdom saving throw. On a failure  the creature is charmed for 1 minute. While charmed  the creature is incapacitated and its Speed is 0. The effect ends on a creature if it takes damage or if another creature uses an action to shake it out of its daze.",
+          "desc_ru": "Действие «Хйпнотик Паттерн»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_snake-lamia_hypnotic-pattern",
+          "name": "Hypnotic Pattern",
+          "name_ru": "Хйпнотик Паттерн",
+          "order_in_statblock": 3,
+          "parent": "a5e-mm_snake-lamia",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "(2nd-Level; V) The lamia teleports to an unoccupied space it can see within 30 feet. The lamia can't cast this spell and a 1st-level or higher spell on the same turn.",
+          "desc_ru": "Действие «Мистй Степ»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_snake-lamia_misty-step",
+          "name": "Misty Step",
+          "name_ru": "Мистй Степ",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_snake-lamia",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The lamia radiates a Chaotic and Evil aura.",
+          "desc_ru": "Особенность «Хаотично-злое». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_snake-lamia_chaotic-evil",
+          "name": "Chaotic Evil",
+          "name_ru": "Хаотично-злое",
+          "parent": "a5e-mm_snake-lamia",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The lamias innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no material components.\n\n- **At Will:** Charm Person, Disguise Self (humanoid form), Major Image, Misty Step\n- **1/Day Each:** Geas, Hallucinatory Terrain, Hypnotic Pattern, Scrying",
+          "desc_ru": "Особенность «Иннате Спеллкастинг». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_snake-lamia_innate-spellcasting",
+          "name": "Innate Spellcasting",
+          "name_ru": "Иннате Спеллкастинг",
+          "parent": "a5e-mm_snake-lamia",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Snake Lamia",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-mm",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Snake Lamia",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крупное чудовище, мировоззрение: хаотично-злое. Класс доспеха: 13. Хиты: 85 (10к10+30). Скорость: ходьба 30 фт.. Характеристики: СИЛ 16, ЛОВ 16, ТЕЛ 16, ИНТ 14, МУД 16, ХАР 18. Чувства: тёмное зрение 60 фт., пассивное Восприятие 15. Показатель опасности: 4. Структурированные механики записи: особенностей: 2, действий: 5.",
+      "glossary_version": "derived-v1",
+      "name": "Змея Ламиа",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

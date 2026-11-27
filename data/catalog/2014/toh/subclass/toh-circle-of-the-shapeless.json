@@ -1,0 +1,158 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_circle-of-the-shapeless",
+  "id": "o5e:toh:characterclass:toh-circle-of-the-shapeless",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-circle-of-the-shapeless"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7c49887bccc61bd894289cef091b010f235f2757148ba4dd81fbae1dee35daef",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_druid"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "7c49887bccc61bd894289cef091b010f235f2757148ba4dd81fbae1dee35daef",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-circle-of-the-shapeless",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_druid",
+        "type": "subclass_of",
+        "value": "srd_druid"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Druids of the Circle of the Shapeless believe that oozes, puddings, and jellies serve an important and integral role in the natural world, particularly in decomposition and in clearing detritus. Druids of this circle also admire the adaptability of these gelatinous creatures and study them to learn how to duplicate some of their abilities.\n\nThe sworn enemies of Circle of the Shapeless druids are the so-called ooze lords and their servants who pervert the natural order by controlling and weaponizing such creatures.",
+      "document": "toh",
+      "name": "Circle of the Shapeless",
+      "subclass_of": "srd_druid"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you join this circle at 2nd level, your connection with oozes grants you access to certain spells. At 2nd level, you learn the *acid splash* cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of the Shapeless Spells table. Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.\n\n**Circle of the Shapeless Spells**\n| Druid Level  | Spells                           | \n|--------------|----------------------------------| \n| 3rd          | *enlarge/reduce*, *spider climb* | \n| 5th          | *iron gut*, *meld into stone*    | \n| 7th          | *blight*, *freedom of movement*  | \n| 9th          | *contagion*, *seeming*           |",
+          "desc_ru": "Когда вы присоединяетесь к этому кругу на 2-м уровне, ваша связь со слизями дарует вам доступ к определённым заклинаниям. На 2-м уровне вы изучаете заговор брызги кислоты. На 3-м, 5-м, 7-м и 9-м уровнях вы получаете доступ к заклинаниям, перечисленным для этого уровня в таблице Заклинаний круга бесформенного. Когда вы получаете доступ к одному из этих заклинаний, у вас оно всегда подготовлено, и оно не учитывается в количестве заклинаний, которые вы можете подготовить каждый день. Если вы получаете доступ к заклинанию, которое не появляется в списке заклинаний друида, заклинание тем не менее является для вас заклинанием друида.\n\nЗаклинания круга бесформенного\n| Уровень друида | Заклинания |\n|---|---|\n| 3-й | Увеличить/уменьшить, Паучье карабканье |\n| 5-й | Железный желудок, Слиться с камнем |\n| 7-й | Увядание, Свобода перемещения |\n| 9-й | Зараза, Подобие |",
+          "document": "toh",
+          "external_id": "toh_circle-of-the-shapeless_circle-spells",
+          "level": 2,
+          "name": "Circle Spells",
+          "name_ru": "Заклинания круга",
+          "parent": "toh_circle-of-the-shapeless",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 2nd level, you learn to adopt an ooze form. You can use a bonus action to expend one use of your Wild Shape feature to take on an ooze-like form rather than transforming into a beast.\n  While in your ooze form, you retain your game statistics, but your body becomes less substantial and appears wet and slimy. Your skin may change in color and appearance, resembling other forms of ooze like black pudding, ochre jelly, gray ooze, or even translucent, like a gelatinous cube.\n  You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether it is practical for the equipment to move with you if you flow through particularly narrow spaces.\n  Your ooze form lasts for 10 minutes or until you dismiss it (no action required), are incapacitated, die, or use this feature again.\nWhile in ooze form, you gain the following benefits: \n* **Acid Weapons.** Your melee weapon attacks deal an extra 1d6 acid damage on a hit. \n* **Amorphous.** You can move through a space as narrow as 1 inch wide without squeezing. \n* **Climber.** You have a climbing speed of 20 feet. \n* **Oozing Form.** When a creature touches you or hits you with a melee attack while within 5 feet of you, you can use your reaction to deal 1d6 acid damage to that creature.",
+          "desc_ru": "Начиная со 2-го уровня вы учитесь принимать форму слизи. Вы можете бонусным действием потратить одно использование вашей особенности Дикий облик, чтобы принять слизеподобную форму вместо трансформации в зверя.\nПока в вашей форме слизи, вы сохраняете вашу игровую статистику, но ваше тело становится менее существенным и кажется мокрым и склизким. Ваша кожа может изменить цвет и внешний вид, напоминая другие формы слизи, такие как чёрный пудинг, охристое желе, серая слизь, или даже полупрозрачная, как желатиновый куб.\nВы выбираете, падает ли ваше снаряжение на землю в вашем пространстве, сливается с вашей новой формой или носится ею. Носимое снаряжение функционирует как обычно, но Мастер решает, практично ли для снаряжения перемещаться с вами, если вы течёте через особенно узкие пространства.\nВаша форма слизи длится 10 минут или пока вы не отпустите её (действие не требуется), не станете недееспособным, не умрёте или не используете эту особенность снова.\nПока в форме слизи, вы получаете следующие преимущества: \n* Кислотное оружие. Ваши атаки оружием ближнего боя наносят дополнительные 1к6 урона кислотой при попадании. \n* Аморфность. Вы можете перемещаться через пространство шириной всего 1 дюйм без протискивания. \n* Лазальщик. У вас есть скорость карабканья 20 футов. \n* Сочащаяся форма. Когда существо касается вас или попадает по вам атакой ближнего боя, находясь в пределах 5 футов от вас, вы можете реакцией нанести 1к6 урона кислотой этому существу.",
+          "document": "toh",
+          "external_id": "toh_circle-of-the-shapeless_ooze-form",
+          "level": 2,
+          "name": "Ooze Form",
+          "name_ru": "Форма слизи",
+          "parent": "toh_circle-of-the-shapeless",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 6th level, you can use a bonus action to cause an oozing pseudopod to erupt from your body for 1 minute or until you dismiss it as a bonus action. On the turn you activate this feature, and as a bonus action on each of your subsequent turns, you can make a melee spell attack with the pseudopod against a creature within 5 feet of you. On a hit, the target takes 1d6 acid damage.\n  You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest. When you reach 10th level in this class, the acid damage dealt by your pseudopod increases to 2d6.",
+          "desc_ru": "На 6-м уровне вы можете бонусным действием заставить сочащуюся псевдоподию вырваться из вашего тела на 1 минуту или пока вы не отпустите её бонусным действием. В ход, когда вы активируете эту особенность, и бонусным действием в каждый ваш последующий ход, вы можете совершить атаку заклинанием ближнего боя псевдоподией против существа в пределах 5 футов от вас. При попадании цель получает 1к6 урона кислотой.\nВы можете использовать эту особенность количество раз, равное вашему бонусу мастерства. Вы восстанавливаете все потраченные использования, когда заканчиваете продолжительный отдых. Когда вы достигаете 10-го уровня в этом классе, урон кислотой, нанесённый вашей псевдоподией, увеличивается до 2к6.",
+          "document": "toh",
+          "external_id": "toh_circle-of-the-shapeless_slimy-pseudopod",
+          "level": 6,
+          "name": "Slimy Pseudopod",
+          "name_ru": "Слизистая псевдоподия",
+          "parent": "toh_circle-of-the-shapeless",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 10th level, your ooze form becomes more powerful. It now lasts 1 hour, and the acid damage dealt by your Acid Weapons and Oozing Form increases to 2d6.",
+          "desc_ru": "На 10-м уровне ваша форма слизи становится мощнее. Теперь она длится 1 час, а урон кислотой от вашего Кислотного оружия и Сочащейся формы увеличивается до 2к6.",
+          "document": "toh",
+          "external_id": "toh_circle-of-the-shapeless_improved-ooze-form",
+          "level": 10,
+          "name": "Improved Ooze Form",
+          "name_ru": "Улучшенная форма слизи",
+          "parent": "toh_circle-of-the-shapeless",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 14th level, while in your ooze form, you can use an action to move into the space of a creature within 5 feet of you that is your size or smaller and try to engulf it. The target creature must make a Dexterity saving throw against your spell save DC.\n  On a successful save, the creature can choose to be pushed 5 feet away from you or to an unoccupied space within 5 feet of you. A creature that chooses not to be pushed suffers the consequences of a failed saving throw.\n  On a failed save, you enter the creature's space, and the creature takes 2d6 acid damage and is engulfed. The engulfed creature is restrained and has total cover against attacks and other effects outside of your body. The engulfed creature takes 4d6 acid damage at the start of each of your subsequent turns. When you move, the engulfed creature moves with you.\n  An engulfed creature can attempt to escape by taking an action to make a Strength (Athletics) check against your spell save DC. On a success, the creature escapes and enters a space of its choice within 5 feet of you.\n  Once you use this feature, you can't use it again until you finish a long rest, unless you expend a spell slot of 5th level or higher to try to engulf another creature.",
+          "desc_ru": "На 14-м уровне, находясь в вашей форме слизи, вы можете действием переместиться в пространство существа в пределах 5 футов от вас, которое вашего размера или меньше, и попытаться поглотить его. Целевое существо должно совершить спасбросок Ловкости против вашей Сл спасбросков от заклинаний.\nПри успешном спасброске существо может выбрать быть оттолкнутым на 5 футов от вас или в незанятое пространство в пределах 5 футов от вас. Существо, которое выбирает не быть оттолкнутым, страдает последствиями проваленного спасброска.\nПри проваленном спасброске вы входите в пространство существа, и существо получает 2к6 урона кислотой и поглощено. Поглощённое существо сдерживается и имеет полное укрытие против атак и других эффектов вне вашего тела. Поглощённое существо получает 4к6 урона кислотой в начале каждого вашего последующего хода. Когда вы перемещаетесь, поглощённое существо перемещается с вами.\nПоглощённое существо может попытаться сбежать, совершив действие для совершения проверки Силы (Атлетика) против вашей Сл спасбросков от заклинаний. При успехе существо сбегает и входит в пространство на его выбор в пределах 5 футов от вас.\nИспользовав эту особенность, вы не можете использовать её снова, пока не закончите продолжительный отдых, если вы не расходуете ячейку заклинаний 5-го уровня или выше, чтобы попытаться поглотить другое существо.",
+          "document": "toh",
+          "external_id": "toh_circle-of-the-shapeless_engulfing-embrace",
+          "level": 14,
+          "name": "Engulfing Embrace",
+          "name_ru": "Поглощающие объятия",
+          "parent": "toh_circle-of-the-shapeless",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Circle of the Shapeless",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "Druids of the Circle of the Shapeless believe that oozes, puddings, and jellies serve an important and integral role in the natural world, particularly in decomposition and in clearing detritus. Druids of this circle also admire the adaptability of these gelatinous creatures and study them to learn how to duplicate some of their abilities.\n\nThe sworn enemies of Circle of the Shapeless druids are the so-called ooze lords and their servants who pervert the natural order by controlling and weaponizing such creatures.",
+      "name": "Circle of the Shapeless",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Друиды Круга Бесформенных верят, что слизи, пудинги и желе служат важной и неотъемлемой роли в природном мире, особенно в разложении и очистке от детрита. Друиды этого круга также восхищаются приспособляемостью этих студенистых существ и изучают их, чтобы научиться дублировать некоторые из их способностей.\n\nЗаклятые враги друидов Круга Бесформенных — так называемые владыки слизи и их слуги, которые извращают естественный порядок, контролируя таких существ и превращая их в оружие.",
+      "glossary_version": "v1",
+      "name": "Круг бесформенных",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

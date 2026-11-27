@@ -1,0 +1,149 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_sacrifice-pawn",
+  "id": "o5e:toh:spell:toh-sacrifice-pawn",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:sacrifice-pawn",
+      "o5e:toh:spell:toh-sacrifice-pawn"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5feaf27bd51c9ef784b02e885e137b24259503da671c35dfa76d3104c62231cc",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "reaction",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 4,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "5feaf27bd51c9ef784b02e885e137b24259503da671c35dfa76d3104c62231cc",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-sacrifice-pawn",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "c58008be81a21323e3541531117688dcdbb4e3f2580975e9da94bc977088011c",
+        "edition": "2014",
+        "id": "o5e:toh:spell:sacrifice-pawn",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "reaction",
+      "concentration": false,
+      "desc": "Sometimes one must fall so others might rise. When a friendly creature you can see within range drops to 0 hit points, you can harness its escaping life energy to heal yourself. You regain hit points equal to the fallen creature's level (or CR for a creature without a level) + your spellcasting ability modifier.",
+      "document": "toh",
+      "duration": "instantaneous",
+      "level": 4,
+      "material": false,
+      "material_consumed": false,
+      "name": "Sacrifice Pawn",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "reaction_condition": "which you take when a friendly creature within 60 feet drops to 0 hit points",
+      "ritual": false,
+      "school": "necromancy",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "307",
+          "parent": "toh_sacrifice-pawn",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Sacrifice Pawn",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "Sometimes one must fall so others might rise. When a friendly creature you can see within range drops to 0 hit points, you can harness its escaping life energy to heal yourself. You regain hit points equal to the fallen creature's level (or CR for a creature without a level) + your spellcasting ability modifier.",
+      "name": "Sacrifice Pawn",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Иногда один должен пасть, чтобы другие могли подняться. Когда дружественное существо, которое вы можете видеть в пределах дистанции, падает до 0 хитов, вы можете использовать его уходящую жизненную энергию, чтобы исцелить себя. Вы восстанавливаете хиты, равные уровню падшего существа (или показателю опасности для существа без уровня) + ваш модификатор способности заклинаний.",
+      "glossary_version": "v1",
+      "name": "Жертвовать пешку",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

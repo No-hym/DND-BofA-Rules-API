@@ -1,0 +1,145 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "bfrd_conduit",
+  "id": "o5e:bfrd:characterclass:bfrd-conduit",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "349f476a2912857155d4fe8d8433f237c0a25d7fabf0f5504bf11ff5b3619894",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "bfrd_theurge"
+    },
+    "original_system": "5e-2014",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "bfrd_theurge",
+        "type": "subclass_of",
+        "value": "bfrd_theurge"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Theurges that embody the Conduit devotion, view all magic—regardless of source—as a natural extension of the life force that resides within all creatures. Conduits perceive the Arcane and Divine within themselves as readily as they feel their blood pumping through their veins, and they believe the deepest reserves of magical power lie within the soul. They translate these beliefs into practical applications, allowing them to exchange vitality for spellcasting potential and disrupt the magical energies within other creatures.",
+      "document": "bfrd",
+      "name": "Conduit",
+      "subclass_of": "bfrd_theurge"
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "Your mastery of magical power allows you to transfer raw energy in various ways.\n\n**Exchange Life.** You can convert your own life force into raw magical power. As a bonus action, you can expend Hit Dice to recover an expended spell slot. When you do so, expend a number of Hit Dice equal to the circle of the spell slot you are attempting to recover. Roll the expended Hit Dice and add your CON modifier to the roll. You immediately lose hit points equal to the result, and your hit point maximum is reduced by that amount until you finish a long rest. If you have at least 1 HP remaining after losing these hit points, you successfully recover the spell slot.\n\n**Exchange Power.** You can control the energy within magic items. As an action, you can expend a spell slot to restore charges to a magic item you are touching. When you do so, the magic item regains expended charges equal to the circle of the spell slot expended, up to the item's maximum charges. This feature can't restore charges to items that don't have charges, such as a ring of feather falling, and it can't restore charges to consumables or items that cease to be magical once all their charges or uses are expended, such as the gem of brightness or restorative ointment (see Player's Guide for all items).",
+          "desc_ru": "Ваше мастерство магической силы позволяет вам передавать сырую энергию различными способами.\n\nобмен жизнью. Вы можете преобразовать вашу собственную жизненную силу в сырую магическую силу. бонусным действием вы можете потратить кости хитов, чтобы восстановить потраченную ячейку заклинаний. Когда вы делаете это, потратьте количество Костей хитов, равное кругу ячейки заклинаний, которую вы пытаетесь восстановить. Бросьте потраченные кости хитов и добавьте ваш модификатор Телосложения к броску. Вы немедленно теряете очки хитов, равные результату, и ваш максимум очков хитов уменьшается на это количество, пока вы не закончите продолжительный отдых. Если у вас осталось как минимум 1 ОХ после потери этих очков хитов, вы успешно восстанавливаете ячейку заклинаний.\n\nобмен силой. Вы можете контролировать энергию внутри магических предметов. действием вы можете потратить ячейку заклинаний, чтобы восстановить заряды магическому предмету, которого вы касаетесь. Когда вы делаете это, магический предмет восстанавливает потраченные заряды, равные кругу потраченной ячейки заклинаний, вплоть до максимума зарядов предмета. Эта особенность не может восстанавливать заряды предметам, у которых нет зарядов, таким как кольцо падения пера, и она не может восстанавливать заряды расходуемым предметам или предметам, которые перестают быть магическими, когда все их заряды или использования потрачены, таким как камень яркости или восстанавливающая мазь (см. Руководство игрока для всех предметов).",
+          "document": "bfrd",
+          "external_id": "bfrd_theurge-conduit_energy-exchange",
+          "level": 3,
+          "name": "Energy Exchange",
+          "name_ru": "Обмен энергией",
+          "parent": "bfrd_conduit",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You can convert unspent magical energy into vitality. When you finish a long rest, you regain additional Hit Dice equal to half the number of unspent spell slots (rounded down) you had before finishing the long rest, up to your Hit Dice maximum (minimum of one Hit Die). For example, if you are a 6th-level theurge with three unspent spell slots, you would regain one additional expended Hit Die at the end of the long rest, in addition to the three Hit Dice you would normally recover after a long rest as a 6th-level character.",
+          "desc_ru": "Вы можете преобразовывать непотраченную магическую энергию в жизненность. Когда вы заканчиваете продолжительный отдых, вы восстанавливаете дополнительные кости хитов, равные половине количества непотраченных ячеек заклинаний (округлённой вниз), которые у вас были до окончания продолжительного отдыха, вплоть до вашего максимума костей хитов (минимум одна Кость хитов). Например, если вы теург 6-го уровня с тремя непотраченными ячейками заклинаний, вы восстановили бы одну дополнительную потраченную Кость хитов в конце продолжительного отдыха в дополнение к трём Костям хитов, которые вы обычно восстановили бы после продолжительного отдыха как персонаж 6-го уровня.",
+          "document": "bfrd",
+          "external_id": "bfrd_theurge-conduit_mystic-vitality",
+          "level": 3,
+          "name": "Mystic Vitality",
+          "name_ru": "Мистическая жизненность",
+          "parent": "bfrd_conduit",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "As a reaction when you suffer an instance of damage that isn't bludgeoning, piercing, or slashing, you can make a CON save. The DC for this save equals 10 or half the amount of damage you took, whichever number is higher. On a success, you store that energy potential within your body for up to 1 minute. Before the duration ends, you can expend this stored energy (no action required) as part of casting a 1st-circle or higher spell. When you do so, the spell is cast as if you expended a spell slot one circle higher than the slot used.\n\nYou can attempt to store magical energy in this way a number of times equal to your PB, but you can store only a single instance of energy potential at one time. You regain all expended uses when you finish a long rest.",
+          "desc_ru": "Реакцией, когда вы страдаете случай урона, который не является дробящим, колющим или рубящим, вы можете совершить спасбросок Телосложения. Сл этого спасброска равна 10 или половине количества урона, который вы получили, в зависимости от того, какое число выше. При успехе вы храните этот энергетический потенциал внутри вашего тела до 1 минуты. До окончания длительности вы можете потратить эту запасённую энергию (действие не требуется) как часть сотворения заклинания 1-го круга или выше. Когда вы делаете это, заклинание творится, как если бы вы потратили ячейку заклинаний на один круг выше использованной ячейки.\n\nВы можете попытаться хранить магическую энергию этим способом количество раз, равное вашему бонусу мастерства, но вы можете хранить только одиночный случай энергетического потенциала одновременно. Вы восстанавливаете все потраченные использования, когда заканчиваете продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_theurge-conduit_metabolize",
+          "level": 7,
+          "name": "Metabolize",
+          "name_ru": "Метаболизировать",
+          "parent": "bfrd_conduit",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you deal damage to a creature with an Arcane or Divine spell, you can expend one or more of your Hit Dice. Roll the expended dice and add your CON modifier. The creature takes additional damage of the spell's type equal to the result. If multiple creatures are damaged by the triggering spell, you choose which target takes the extra damage.",
+          "desc_ru": "Когда вы наносите урон существу мистическим или божественным заклинанием, вы можете потратить одну или несколько ваших Костей хитов. Бросьте потраченные кости и добавьте ваш модификатор Телосложения. Существо получает дополнительный урон типа заклинания, равный результату. Если несколько существ повреждены вызвавшим заклинанием, вы выбираете, какая цель получает дополнительный урон.",
+          "document": "bfrd",
+          "external_id": "bfrd_theurge-conduit_spell-surge",
+          "level": 11,
+          "name": "Spell Surge",
+          "name_ru": "Всплеск заклинания",
+          "parent": "bfrd_conduit",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "As an action, you can suppress the magical potential of one creature or magic item within 120 feet of you. The suppression lasts for 1 minute or until you start your turn more than 120 feet away from the target. The effect also ends early if you become incapacitated.\n\nIf the suppressed target is a creature, each time it attempts to cast a spell or make a spell attack, it must make a CON save against your spell save DC. On a success, the spell or attack happens normally. On a failure, the spell or attack fails, expending a spell slot or use of the feature (if limited use).\n\nIf the suppressed target is a magic item, it functions as a nonmagical item of its type for the duration of your suppression. This effect otherwise works like the magic items aspect of the antimagic field spell.\n\nOnce you use this feature, you can't do so again until you finish a long rest.",
+          "desc_ru": "Действием вы можете подавить магический потенциал одного существа или магического предмета в пределах 120 футов от вас. Подавление длится 1 минуту или пока вы не начнёте ваш ход более чем в 120 футах от цели. Эффект также заканчивается рано, если вы становитесь недееспособным.\n\nЕсли подавленная цель — существо, каждый раз, когда оно пытается сотворить заклинание или совершить атаку заклинанием, оно должно совершить спасбросок Телосложения против вашей Сл спасбросков от заклинаний. При успехе заклинание или атака происходит нормально. При провале заклинание или атака проваливается, расходуя ячейку заклинаний или использование особенности (если ограниченное использование).\n\nЕсли подавленная цель — магический предмет, он функционирует как немагический предмет его типа на время длительности вашего подавления. Этот эффект в остальном работает как аспект магических предметов заклинания антимагическое поле.\n\nИспользовав эту особенность, вы не можете использовать её снова, пока не закончите продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_theurge-conduit_nullify",
+          "level": 15,
+          "name": "Nullify",
+          "name_ru": "Аннулировать",
+          "parent": "bfrd_conduit",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Conduit",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "Theurges that embody the Conduit devotion, view all magic—regardless of source—as a natural extension of the life force that resides within all creatures. Conduits perceive the Arcane and Divine within themselves as readily as they feel their blood pumping through their veins, and they believe the deepest reserves of magical power lie within the soul. They translate these beliefs into practical applications, allowing them to exchange vitality for spellcasting potential and disrupt the magical energies within other creatures.",
+      "name": "Conduit",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Теурги, воплощающие преданность Проводника, рассматривают всю магию — независимо от источника — как естественное продолжение жизненной силы, которая находится внутри всех существ. Проводники воспринимают Мистическое и Божественное внутри себя так же легко, как они чувствуют, как их кровь качается по венам, и они верят, что самые глубокие резервы магической силы лежат внутри души. Они переводят эти убеждения в практические применения, позволяя им обменивать жизненную силу на заклинательный потенциал и нарушать магические энергии внутри других существ.",
+      "glossary_version": "v1",
+      "name": "Проводник",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

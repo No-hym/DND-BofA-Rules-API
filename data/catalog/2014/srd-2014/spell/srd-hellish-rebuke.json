@@ -1,0 +1,225 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_hellish-rebuke",
+  "id": "o5e:srd-2014:spell:srd-hellish-rebuke",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-hellish-rebuke",
+      "o5e:wotc-srd:spell:hellish-rebuke"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "a8c5c3453ef0559a6d3af6dccb8c29c2db0a7d23d32a581a19eb2846bc726747",
+    "formulas": [
+      {
+        "expression": "2d10",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "reaction",
+      "classes": [
+        "srd_warlock"
+      ],
+      "concentration": false,
+      "damage_roll": "2d10",
+      "damage_types": [
+        "fire"
+      ],
+      "duration": "instantaneous",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "a8c5c3453ef0559a6d3af6dccb8c29c2db0a7d23d32a581a19eb2846bc726747",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-hellish-rebuke",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "a739f211ecfe1507f9c07103d71e6c232e705f70c9577ea4f0793e2806529f91",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:hellish-rebuke",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_warlock",
+        "type": "classes",
+        "value": [
+          "srd_warlock"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "reaction",
+      "classes": [
+        "srd_warlock"
+      ],
+      "concentration": false,
+      "damage_roll": "2d10",
+      "damage_types": [
+        "fire"
+      ],
+      "desc": "You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes 2d10 fire damage on a failed save, or half as much damage on a successful one.",
+      "document": "srd-2014",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Hellish Rebuke",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "reaction_condition": "which you take in response to being damaged by a creature within 60 feet of you that you can see",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5610",
+          "parent": "srd_hellish-rebuke",
+          "type": "default"
+        },
+        {
+          "damage_roll": "3d10",
+          "external_id": "5612",
+          "parent": "srd_hellish-rebuke",
+          "type": "slot_level_2"
+        },
+        {
+          "damage_roll": "4d10",
+          "external_id": "5613",
+          "parent": "srd_hellish-rebuke",
+          "type": "slot_level_3"
+        },
+        {
+          "damage_roll": "5d10",
+          "external_id": "5614",
+          "parent": "srd_hellish-rebuke",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "6d10",
+          "external_id": "5615",
+          "parent": "srd_hellish-rebuke",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "7d10",
+          "external_id": "5616",
+          "parent": "srd_hellish-rebuke",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "8d10",
+          "external_id": "5617",
+          "parent": "srd_hellish-rebuke",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "9d10",
+          "external_id": "5618",
+          "parent": "srd_hellish-rebuke",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "10d10",
+          "external_id": "5619",
+          "parent": "srd_hellish-rebuke",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Hellish Rebuke",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes 2d10 fire damage on a failed save, or half as much damage on a successful one.",
+      "name": "Hellish Rebuke",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 1-го уровня (Колдун)*\n\n**Время накладывания:** Реакция, которую вы совершаете в ответ на получение урона от существа в пределах 60 футов от вас, которое вы можете видеть\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В, С\n\n**Длительность:** Мгновенная\n\nВы указываете пальцем, и существо, причинившее вам урон, на мгновение окутывается адским пламенем. Существо должно совершить спасбросок Ловкости. При провале оно получает 2к10 урона огнём, а при успехе — половину этого урона.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 2-го уровня или выше, урон увеличивается на 1к10 за каждый уровень ячейки выше 1-го.",
+      "glossary_version": "v1",
+      "name": "Адское возмездие",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

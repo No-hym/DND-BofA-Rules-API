@@ -1,0 +1,161 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_defile-healing",
+  "id": "o5e:deepm:spell:deepm-defile-healing",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-defile-healing",
+      "o5e:dmag:spell:defile-healing"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "788b858cc269e651a04f88bddbe241697c9b470c9ed31e1864d8ebc539c0648f",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "reaction",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 7,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "788b858cc269e651a04f88bddbe241697c9b470c9ed31e1864d8ebc539c0648f",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-defile-healing",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "77616dd4171c6e239f491eec68ff4c81a96fd26653eaa6dbcef690190f53f45c",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:defile-healing",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "reaction",
+      "concentration": false,
+      "desc": "You attempt to reverse the energy of a healing spell so that it deals damage instead of healing. If the healing spell is being cast with a spell slot of 5th level or lower, the slot is expended but the spell restores no hit points. In addition, each creature that was targeted by the healing spell takes necrotic damage equal to the healing it would have received, or half as much damage with a successful Constitution saving throw.\n",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 8th level, it can reverse a healing spell being cast using a spell slot of 6th level or lower. If you use a 9th-level spell slot, it can reverse a healing spell being cast using a spell slot of 7th level or lower.",
+      "level": 7,
+      "material": false,
+      "material_consumed": false,
+      "name": "Defile Healing",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "reaction_condition": "which you take when you see a creature cast a healing spell",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3030",
+          "parent": "deepm_defile-healing",
+          "type": "default"
+        },
+        {
+          "external_id": "3032",
+          "parent": "deepm_defile-healing",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3033",
+          "parent": "deepm_defile-healing",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Defile Healing",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You attempt to reverse the energy of a healing spell so that it deals damage instead of healing. If the healing spell is being cast with a spell slot of 5th level or lower, the slot is expended but the spell restores no hit points. In addition, each creature that was targeted by the healing spell takes necrotic damage equal to the healing it would have received, or half as much damage with a successful Constitution saving throw.",
+      "name": "Defile Healing",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы пытаетесь обратить энергию исцеляющего заклинания так, чтобы оно наносило урон вместо исцеления. Если исцеляющее заклинание творится с ячейкой заклинаний 5-го уровня или ниже, ячейка потрачена, но заклинание не восстанавливает хиты. Кроме того, каждое существо, которое было целью исцеляющего заклинания, получает некротический урон, равный исцелению, которое оно получило бы, или половину урона при успешном спасброске Телосложения.",
+      "glossary_version": "v1",
+      "name": "Осквернить исцеление",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

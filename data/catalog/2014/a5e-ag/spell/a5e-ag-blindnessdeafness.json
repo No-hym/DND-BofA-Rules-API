@@ -1,0 +1,191 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_blindnessdeafness",
+  "id": "o5e:a5e-ag:spell:a5e-ag-blindnessdeafness",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-blindnessdeafness",
+      "o5e:a5e:spell:blindnessdeafness-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "7507b07f1051e6476cc5e66cea7128e2e7d9d95f067f19f5a662f7994e029a03",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "7507b07f1051e6476cc5e66cea7128e2e7d9d95f067f19f5a662f7994e029a03",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-blindnessdeafness",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "55f342ca5808c25cb0469f71e88b87faec56432394e12d4737757def67db2db4",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:blindnessdeafness-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "Until the spell ends, the target is blinded or deafened (your choice). At the end of each of its turns the target can repeat its saving throw, ending the spell on a success.",
+      "document": "a5e-ag",
+      "duration": "1 minute",
+      "higher_level": "You target one additional creature for each slot level above 2nd.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Blindness/Deafness",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "necromancy",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "660",
+          "parent": "a5e-ag_blindnessdeafness",
+          "type": "default"
+        },
+        {
+          "external_id": "662",
+          "parent": "a5e-ag_blindnessdeafness",
+          "target_count": 2,
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "663",
+          "parent": "a5e-ag_blindnessdeafness",
+          "target_count": 3,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "664",
+          "parent": "a5e-ag_blindnessdeafness",
+          "target_count": 4,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "665",
+          "parent": "a5e-ag_blindnessdeafness",
+          "target_count": 5,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "666",
+          "parent": "a5e-ag_blindnessdeafness",
+          "target_count": 6,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "667",
+          "parent": "a5e-ag_blindnessdeafness",
+          "target_count": 7,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "668",
+          "parent": "a5e-ag_blindnessdeafness",
+          "target_count": 8,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Blindness/Deafness",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "Until the spell ends, the target is blinded or deafened (your choice). At the end of each of its turns the target can repeat its saving throw, ending the spell on a success.",
+      "name": "Blindness/Deafness",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Некромантия 2-го уровня (Бард, Жрец, Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 30 футов\n\n**Компоненты:** В\n\n**Длительность:** 1 минуту\n\nВы можете ослепить или оглушить противника. Выберите одно существо, которое видите в пределах дистанции, и оно должно совершить спасбросок Телосложения. При провале цель ослеплена или оглохла (по вашему выбору) на время действия заклинания. В конце каждого своего хода цель может совершить спасбросок Телосложения. При успехе заклинание оканчивается.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 3-го уровня или выше, вы можете нацелиться на одно дополнительное существо за каждый уровень ячейки выше 2-го.",
+      "glossary_version": "v1",
+      "name": "Слепота/Глухота",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,186 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_consult-the-storm",
+  "id": "o5e:deepm:spell:deepm-consult-the-storm",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-consult-the-storm",
+      "o5e:dmag:spell:consult-the-storm"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "046e479947bb196858e678919596e1c9dac5cf708225b987cd6e9f6cc2f3dc4a",
+    "formulas": [
+      {
+        "expression": "7d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "7d6",
+      "damage_types": [
+        "thunder"
+      ],
+      "duration": "instantaneous",
+      "level": 4,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 90,
+      "range_text": "90 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "divination",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "046e479947bb196858e678919596e1c9dac5cf708225b987cd6e9f6cc2f3dc4a",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-consult-the-storm",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "f6d79644f60431ff5e33fd2ed36293fdfdae41d61694b602f4f19178ae2ec420",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:consult-the-storm",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "7d6",
+      "damage_types": [
+        "thunder"
+      ],
+      "desc": "You ask a question of an entity connected to storms, such as an elemental, a deity, or a primal spirit, and the entity replies with destructive fury.\n\nAs part of the casting of the spell, you must speak a question consisting of fifteen words or fewer. Choose a point within range. A short, truthful answer to your question booms from that point. It can be heard clearly by any creature within 600 feet. Each creature within 15 feet of the point takes 7d6 thunder damage, or half as much damage with a successful Constitution saving throw.\n",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.",
+      "level": 4,
+      "material": false,
+      "material_consumed": false,
+      "name": "Consult the Storm",
+      "range": 90,
+      "range_text": "90 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "divination",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2861",
+          "parent": "deepm_consult-the-storm",
+          "type": "default"
+        },
+        {
+          "external_id": "2863",
+          "parent": "deepm_consult-the-storm",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "2864",
+          "parent": "deepm_consult-the-storm",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "2865",
+          "parent": "deepm_consult-the-storm",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "2866",
+          "parent": "deepm_consult-the-storm",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2867",
+          "parent": "deepm_consult-the-storm",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Consult the Storm",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You ask a question of an entity connected to storms, such as an elemental, a deity, or a primal spirit, and the entity replies with destructive fury.\n\nAs part of the casting of the spell, you must speak a question consisting of fifteen words or fewer. Choose a point within range. A short, truthful answer to your question booms from that point. It can be heard clearly by any creature within 600 feet. Each creature within 15 feet of the point takes 7d6 thunder damage, or half as much damage with a successful Constitution saving throw.",
+      "name": "Consult the Storm",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы задаёте вопрос существу, связанному с бурями, такие как элементаль, божество или первобытный дух, и существо отвечает с разрушительной яростью.\n\nКак часть творения заклинания, вы должны произнести вопрос, состоящий из пятнадцати слов или меньше. Выберите точку в пределах дистанции. Короткий, правдивый ответ на ваш вопрос гремит от той точки. Он может быть чётко слышан любым существом в пределах 600 футов. Каждое существо в пределах 15 футов от точки получает 7к6 урона громом, или половину урона при успешном спасброске Телосложения.",
+      "glossary_version": "v1",
+      "name": "Консультация с бурей",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

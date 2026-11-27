@@ -1,0 +1,164 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_mind-exchange",
+  "id": "o5e:deepm:spell:deepm-mind-exchange",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-mind-exchange",
+      "o5e:dmag:spell:mind-exchange"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "fb24e309c7adbc5ac650a1eead42fa9fef09aa7649c8b57adaf4c393ff02c3a3",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      },
+      {
+        "type": "ritual",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "8 hours",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a prism and silver coin",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "saving_throw_ability": "charisma",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "fb24e309c7adbc5ac650a1eead42fa9fef09aa7649c8b57adaf4c393ff02c3a3",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-mind-exchange",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "1ae3e623f0405128ba5b12735118b53ef69221f1e31021aafd5e153318d9d48c",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:mind-exchange",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "concentration": true,
+      "desc": "One humanoid of your choice that you can see within range must make a Charisma saving throw. On a failed save, you project your mind into the body of the target. You use the target’s statistics but don’t gain access to its knowledge, class features, or proficiencies, retaining your own instead. Meanwhile, the target’s mind is shunted into your body, where it uses your statistics but likewise retains its own knowledge, class features, and proficiencies.\n\nThe exchange lasts until either of the the two bodies drops to 0 hit points, until you end it as a bonus action, or until you are forced out of the target body by an effect such as a [dispel magic](https://api.open5e.com/spells/dispel-magic) or [dispel evil and good](https://api.open5e.com/spells/dispel-evil-and-good) spell (the latter spell defeats **mind exchange** even though possession by a humanoid isn’t usually affected by that spell). When the effect of this spell ends, both switched minds return to their original bodies. The target of the spell is immune to mind exchange for 24 hours after succeeding on the saving throw or after the exchange ends.\n\nThe effects of the exchange can be made permanent with a [wish](https://api.open5e.com/spells/wish) spell or comparable magic.",
+      "document": "deepm",
+      "duration": "8 hours",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a prism and silver coin",
+      "name": "Mind Exchange",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "saving_throw_ability": "charisma",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3790",
+          "parent": "deepm_mind-exchange",
+          "type": "default"
+        },
+        {
+          "external_id": "3791",
+          "parent": "deepm_mind-exchange",
+          "type": "ritual"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Mind Exchange",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "One humanoid of your choice that you can see within range must make a Charisma saving throw. On a failed save, you project your mind into the body of the target. You use the target’s statistics but don’t gain access to its knowledge, class features, or proficiencies, retaining your own instead. Meanwhile, the target’s mind is shunted into your body, where it uses your statistics but likewise retains its own knowledge, class features, and proficiencies.\n\nThe exchange lasts until either of the the two bodies drops to 0 hit points, until you end it as a bonus action, or until you are forced out of the target body by an effect such as a [dispel magic](https://api.open5e.com/spells/dispel-magic) or [dispel evil and good](https://api.open5e.com/spells/dispel-evil-and-good) spell (the latter spell defeats **mind exchange** even though possession by a humanoid isn’t usually affected by that spell). When the effect of this spell ends, both switched minds return to their original bodies. The target of the spell is immune to mind exchange for 24 hours after succeeding on the saving throw or after the exchange ends.\n\nThe effects of the exchange can be made permanent with a [wish](https://api.open5e.com/spells/wish) spell or comparable magic.",
+      "name": "Mind Exchange",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Один гуманоид по вашему выбору, которого вы видите в пределах дистанции, должен совершить спасбросок Харизмы. При провале вы проецируете ваш разум в тело цели. Вы используете характеристики цели, но не получаете доступа к её знанию, особенностям класса или навыкам, сохраняя вместо этого ваши собственные. Тем временем разум цели выталкивается в ваше тело, где он использует ваши характеристики, но также сохраняет своё собственное знание, особенности класса и навыки.\n\nОбмен длится, пока хиты любого из двух тел не опустятся до 0, пока вы не завершите его бонусным действием или пока вы не будете вытеснены из целевого тела эффектом, таким как заклинание рассеивания магии или рассеивания зла и добра (последнее заклинание побеждает это заклинание, хотя одержимость гуманоидом обычно не затронута этим заклинанием). Когда эффект этого заклинания заканчивается, оба обмененных разума возвращаются в их первоначальные тела. Цель заклинания невосприимчива к обмену разумами в течение 24 часов после преуспевания в спасброске или после окончания обмена.\n\nЭффекты обмена могут быть сделаны постоянными заклинанием желания или сопоставимой магией.",
+      "glossary_version": "v1",
+      "name": "Обмен разумами",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

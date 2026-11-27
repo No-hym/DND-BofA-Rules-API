@@ -1,0 +1,140 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "hverhuldra",
+  "id": "o5e:tob2:monster:hverhuldra-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:hverhuldra"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e7e299441aea1e056a7f44843f541fa515f539ff85f8ebcb818ec5ab266eafd3",
+    "formulas": [
+      {
+        "expression": "16d6+64",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral good",
+      "armor_class": 15,
+      "challenge_rating": "6",
+      "condition_immunities": "poisoned",
+      "damage_immunities": "fire, poison",
+      "damage_resistances": "cold",
+      "damage_vulnerabilities": "",
+      "hit_dice": "16d6+64",
+      "hit_points": 120,
+      "languages": "Aquan, Common, Sylvan",
+      "size": "Small"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "e7e299441aea1e056a7f44843f541fa515f539ff85f8ebcb818ec5ab266eafd3",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:hverhuldra",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The hverhuldra makes two steaming fist attacks.\"}, {\"name\": \"Steaming Fist\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) bludgeoning damage plus 7 (2d6) fire damage.\", \"attack_bonus\": 6, \"damage_dice\": \"2d8+3\"}, {\"name\": \"Scalding Stream (Recharge 5-6)\", \"desc\": \"The hverhuldra spits scalding water in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw. On a failed save, the target takes 21 (6d6) fire damage and is blinded for 1 minute. On a successful save, the target takes half the damage and isn't blinded. A blinded creature can make a DC 15 Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.\"}]",
+      "alignment": "neutral good",
+      "armor_class": 15,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "6",
+      "charisma": 18,
+      "charisma_save": 7,
+      "condition_immunities": "poisoned",
+      "constitution": 18,
+      "cr": 6.0,
+      "damage_immunities": "fire, poison",
+      "damage_resistances": "cold",
+      "desc": "Steam rises from the top of this bald, green-skinned humanoid with a snake-like torso. The creature sweats profusely, but it doesn’t seem uncomfortable._  \n**Protector of Hot Springs.** Geothermal springs are the only reliable source of warmth in the arctic region, and they often coincide with ley lines. A hverhuldra, an aquatic fey, enjoys the constant heat provided by such springs and is sensitive to the magic power flowing through them. It serves as guardian of these coveted locations, ensuring no particular creature or group takes control of them.  \n**Luxuriating Fey.** Hverhuldras are not stodgy protectors of their homes. They enjoy the feeling of warmth they experience and believe others should be able to revel in it as well. Provided no violence occurs, hverhuldras are gracious hosts to their hot springs. Some may even encourage visitors to engage in dalliances underwater, using their magic to accommodate those unable to breathe underwater.  \n**Inured to Cold.** Despite their preference for warm or hot water, hverhuldras are hardened against cold weather. Their bodies generate incredible heat, and they produce copious amounts of steam when they stand in the cold.",
+      "dexterity": 16,
+      "dexterity_save": 6,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "16d6+64",
+      "hit_points": 120,
+      "intelligence": 11,
+      "languages": "Aquan, Common, Sylvan",
+      "legendary_actions_json": "null",
+      "name": "Hverhuldra",
+      "page_no": 206,
+      "reactions_json": "[{\"name\": \"Steam Cloud\", \"desc\": \"When the hverhuldra takes cold damage, it uses the steam from the impact of the cold on its body to magically create a cloud of steam centered on a point it can see within 60 feet of it. This cloud works like the fog cloud spell, except the hverhuldra can dismiss it as a bonus action.\"}]",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 12",
+      "size": "Small",
+      "skills_json": "{\"athletics\": 4, \"intimidation\": 7, \"nature\": 3, \"survival\": 5}",
+      "special_abilities_json": "[{\"name\": \"Amphibious\", \"desc\": \"The hverhuldra can breathe air and water.\"}, {\"name\": \"Purify Water\", \"desc\": \"If the hverhuldra sits in a body of slow-flowing or standing water, such as a hot spring or a small creek, for at least 1 hour, the water becomes purified and rendered free of poison and disease. In slow-flowing water, this purification fades 1 hour after the hverhuldra leaves the water. In standing water, this purification lasts until a contaminant enters the water while the hverhuldra isn't in it.\"}, {\"name\": \"Quick Rescue\", \"desc\": \"As a bonus action, the hverhuldra gives one willing creature within 60 feet of it the ability to breathe water for 1 minute.\"}, {\"name\": \"Water Protection\", \"desc\": \"While the hverhuldra submerged in water, it has advantage on Dexterity (Stealth) checks, and it has resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks. If it takes cold damage, this trait doesn't function until the end of its next turn.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"The hverhuldra's innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no components:\\nAt will: create or destroy water, detect poison and disease, purify food and drink\\n1/day each: blindness/deafness, protection from poison\"}]",
+      "speed_json": "{\"swim\": 30, \"walk\": 30}",
+      "spells_json": "null",
+      "strength": 13,
+      "type": "Fey",
+      "wisdom": 15
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Hverhuldra",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-hverhuldra"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "Steam rises from the top of this bald, green-skinned humanoid with a snake-like torso. The creature sweats profusely, but it doesn’t seem uncomfortable._  \n**Protector of Hot Springs.** Geothermal springs are the only reliable source of warmth in the arctic region, and they often coincide with ley lines. A hverhuldra, an aquatic fey, enjoys the constant heat provided by such springs and is sensitive to the magic power flowing through them. It serves as guardian of these coveted locations, ensuring no particular creature or group takes control of them.  \n**Luxuriating Fey.** Hverhuldras are not stodgy protectors of their homes. They enjoy the feeling of warmth they experience and believe others should be able to revel in it as well. Provided no violence occurs, hverhuldras are gracious hosts to their hot springs. Some may even encourage visitors to engage in dalliances underwater, using their magic to accommodate those unable to breathe underwater.  \n**Inured to Cold.** Despite their preference for warm or hot water, hverhuldras are hardened against cold weather. Their bodies generate incredible heat, and they produce copious amounts of steam when they stand in the cold.",
+      "name": "Hverhuldra",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Пар поднимается из верхней части этого лысый, зеленокожий человек с ужиной верхней торса. Существо обильно потеет, но не кажется неудобным.\n\n**Протектор горячих источников.** Геотермальные источники являются единственным надёжным источником тепла в арктическом регионе, и они часто совпадают с линией лей. Хверхульдра, водная фея, наслаждается постоянным теплом, который обеспечивают такие источники и чувствительна к магической силе, протекающей через них. Он служит в качестве хранителя этих желанных местах, обеспечение нет конкретного существа или группы захватывает контроль над ними.\n\n**Роскошная фея.** Хверхульдры не являются однажды замурованными защитниками своих домов. Они получают удовольствие от ощущение тепла, и считают, что другие должны иметь возможность наслаждаться и ей. При условии, что насилие не происходит, Хверхульдры являются милостивыми хозяевами на своих горячих источников. Некоторые могут даже поощрять посетителей принять участие в интрижках под водой, применяя свою магию, чтобы приспособить те, кто не могут дышать под водой.\n\n**Привыкли к холоду.** Несмотря на их предпочтения для тёплой или горячей воде, Хверхульдры закалены против холодной погоды. Их тела производят невероятной жары, и они производят большое количество пара, когда они стоят в холоде.",
+      "glossary_version": "v1",
+      "name": "Хверхульдра",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

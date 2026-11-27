@@ -1,0 +1,206 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_mass-healing-word",
+  "id": "o5e:srd-2014:spell:srd-mass-healing-word",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-mass-healing-word",
+      "o5e:wotc-srd:spell:mass-healing-word"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "90ed4a3be29121cb7abea09b6ed44c41dd524abe5e803a324cc8ff2dcb19b1fd",
+    "formulas": [
+      {
+        "expression": "1d4",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "classes": [
+        "srd_cleric"
+      ],
+      "concentration": false,
+      "damage_roll": "1d4",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 6,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "90ed4a3be29121cb7abea09b6ed44c41dd524abe5e803a324cc8ff2dcb19b1fd",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-mass-healing-word",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "be880b35fdfaf2dac3489e0bc10caba669324f3bad53ad7203d138f780049ec2",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:mass-healing-word",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "classes": [
+        "srd_cleric"
+      ],
+      "concentration": false,
+      "damage_roll": "1d4",
+      "desc": "As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
+      "document": "srd-2014",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd.",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "name": "Mass Healing Word",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "evocation",
+      "somatic": false,
+      "target_count": 6,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5767",
+          "parent": "srd_mass-healing-word",
+          "type": "default"
+        },
+        {
+          "damage_roll": "2d4",
+          "external_id": "10854",
+          "parent": "srd_mass-healing-word",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "3d4",
+          "external_id": "10855",
+          "parent": "srd_mass-healing-word",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "4d4",
+          "external_id": "10856",
+          "parent": "srd_mass-healing-word",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "5d4",
+          "external_id": "10857",
+          "parent": "srd_mass-healing-word",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "6d4",
+          "external_id": "10858",
+          "parent": "srd_mass-healing-word",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "7d4",
+          "external_id": "10859",
+          "parent": "srd_mass-healing-word",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Mass Healing Word",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
+      "name": "Mass Healing Word",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 3-го уровня (Жрец)*\n\n**Время накладывания:** Бонусное действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В\n\n**Длительность:** Мгновенная\n\nПроизнося слова восстановления, вы возвращаете хиты до шести существам по вашему выбору, которых видите в пределах дистанции, в количестве, равном 1к4 + ваш модификатор базовой характеристики заклинателя. Это заклинание не действует на нежить и конструктов.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 4-го уровня или выше, исцеление увеличивается на 1к4 за каждый уровень ячейки выше 3-го.",
+      "glossary_version": "v1",
+      "name": "Массовое целебное слово",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

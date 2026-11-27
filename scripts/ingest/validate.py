@@ -24,6 +24,8 @@ def _records(path: Path) -> list[tuple[str, list[dict[str, Any]]]]:
         data = json.loads(file.read_text(encoding="utf-8"))
         if isinstance(data, list):
             result.append((str(file), data))
+        elif isinstance(data, dict):
+            result.append((str(file), [data]))
     return result
 
 

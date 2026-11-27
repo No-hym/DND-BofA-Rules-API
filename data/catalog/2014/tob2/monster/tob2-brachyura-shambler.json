@@ -1,0 +1,214 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_brachyura-shambler",
+  "id": "o5e:tob2:creature:tob2-brachyura-shambler",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-brachyura-shambler"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "294f6530e5257624c69a76c1d8407695b35690a5146bc00e780760405940632e",
+    "formulas": [
+      {
+        "expression": "11d8+22",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 15,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 6,
+      "ability_score_strength": 16,
+      "ability_score_wisdom": 12,
+      "alignment": "neutral evil",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "4.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [
+        "bludgeoning"
+      ],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "11d8+22",
+      "hit_points": 71,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "Brachyura",
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "294f6530e5257624c69a76c1d8407695b35690a5146bc00e780760405940632e",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-brachyura-shambler",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 15,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 6,
+      "ability_score_strength": 16,
+      "ability_score_wisdom": 12,
+      "alignment": "neutral evil",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "4.000",
+      "damage_resistances": [
+        "bludgeoning"
+      ],
+      "damage_resistances_display": "bludgeoning",
+      "darkvision_range": 60,
+      "document": "tob2",
+      "hit_dice": "11d8+22",
+      "hit_points": 71,
+      "hover": false,
+      "languages_desc": "Brachyura",
+      "name": "Brachyura Shambler",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "size": "medium",
+      "type": "monstrosity",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 11 (2d8 + 2) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +5 к попаданию, досягаемость 5 фт., одно существо. Попадание: 11 (2к8+2) колющего урона.",
+          "external_id": "tob2_brachyura-shambler_claw",
+          "name": "Claw",
+          "name_ru": "Коготь",
+          "order_in_statblock": 1,
+          "parent": "tob2_brachyura-shambler",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Ranged Weapon Attack: +3 to hit, range 20/60 ft., one creature. Hit: 7 (2d4 + 2) acid damage. The creature must succeed on a DC 11 Constitution saving throw or contract sewer plague. It takes 1d4 days for sewer plague's symptoms to manifest in an infected creature. Symptoms include fatigue and cramps. The infected creature suffers one level of exhaustion, and it regains only half the normal number of hp from spending Hit Dice and no hp from finishing a long rest. At the end of each long rest, an infected creature must make a DC 11 Constitution saving throw. On a failed save, the character gains one level of exhaustion. On a successful save, the character's exhaustion level decreases by 1 level. If a successful saving throw reduces the infected creature's level of exhaustion below 1, the creature recovers from the disease.",
+          "desc_ru": "Действие «Дисеасед Спит»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_brachyura-shambler_diseased-spit",
+          "name": "Diseased Spit",
+          "name_ru": "Дисеасед Спит",
+          "order_in_statblock": 2,
+          "parent": "tob2_brachyura-shambler",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The brachyura shambler makes two claw attacks. If both attacks hit a Medium or smaller target, the target is grappled (escape DC 13). Until this grapple ends, the target is restrained.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_brachyura-shambler_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_brachyura-shambler",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "A creature that starts its turn grappled by the brachyura shambler must succeed on a DC 13 Strength saving throw or take 7 (2d6) piercing damage.",
+          "desc_ru": "Особенность «Пунктуринг Когти». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_brachyura-shambler_puncturing-claws",
+          "name": "Puncturing Claws",
+          "name_ru": "Пунктуринг Когти",
+          "parent": "tob2_brachyura-shambler",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Brachyura Shambler",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Brachyura Shambler",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "У грубо гуманоидного существа продолговатая голова с парой глубоко посаженных чёрных глаз, парой усиков и хватающими челюстями. Существо покрыто хитиновым панцирем, который глубокий красный, почти чёрный по цвету. Когда оно движется, оно делает странный звук, как будто оно задаёт неразборчивые вопросы на тарабарщине.\n\n**Поставщики грязи.** Брахиура бродяги — гнусные, грубо гуманоидные, полу-интеллигентные существа, которые живут в грязи и прежде всего едят падаль. Они едят свежие убийства, когда они могут, но они находят легче есть то, что уже мертво. Из-за их грязных условий жизни и нездорового рациона они носят болезнь, которую они легко распространяют на тех, кого они встретят.",
+      "glossary_version": "v1",
+      "name": "Брахиура бродяга",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

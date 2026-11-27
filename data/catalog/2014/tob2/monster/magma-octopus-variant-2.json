@@ -1,0 +1,136 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "magma-octopus",
+  "id": "o5e:tob2:monster:magma-octopus-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:magma-octopus"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "3548cd728abfef003adc4a64d1bcfc62a88ec9259b66445098a719434da0d830",
+    "formulas": [
+      {
+        "expression": "14d10+70",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral",
+      "armor_class": 16,
+      "challenge_rating": "8",
+      "condition_immunities": "",
+      "damage_immunities": "fire",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "14d10+70",
+      "hit_points": 147,
+      "languages": "—",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "3548cd728abfef003adc4a64d1bcfc62a88ec9259b66445098a719434da0d830",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:magma-octopus",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The magma octopus makes four attacks with its tentacles.\"}, {\"name\": \"Tentacle\", \"desc\": \"Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit: 8 (1d6 + 5) bludgeoning damage plus 2 (1d4) fire damage. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and it takes 2 (1d4) fire damage at the start of each of its turns. The magma octopus can grapple up to two targets at a time.\", \"attack_bonus\": 8, \"damage_dice\": \"1d6+5\"}, {\"name\": \"Magma Blast (Recharge 6)\", \"desc\": \"The magma octopus sprays magma in a 30-foot cone. Each creature in that area must make a DC 16 Dexterity saving throw, taking 28 (8d6) fire damage on a failed save, or half as much damage on a successful one. If a creature fails the saving throw by 5 or more, it catches fire. Until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns.\"}]",
+      "alignment": "neutral",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "8",
+      "charisma": 7,
+      "constitution": 21,
+      "cr": 8.0,
+      "damage_immunities": "fire",
+      "desc": "Eight tentacles reach out from the scorched body of this unusual octopus-like creature. Glowing yellow, orange, and red patches smolder on its skin, like embers flaring to life._  \n**Elemental Bodies.** Magma octopuses are creatures that physically resemble the marine animals for which they are named, but they make their homes in lava, swimming through it as easily as aquatic octopuses swim through water. Born in the fiery seas of the Plane of Fire long ago, many magma octopuses wandered to the Material Plane through various portals and thinned barriers between the planes. They exist throughout the world, particularly in underground caverns with open lava flows, within the craters of some volcanoes, and swimming through underground networks of magma.  \n**Intelligent.** Magma octopuses live simple lives with a quiet intelligence that slightly surpasses that of aquatic octopuses. They have no language and cannot communicate verbally. They are known to recognize individuals from other species and remember individuals that might have caused them pain or helped them out of a bad situation. Magma octopuses only fight others if they are attacked first, but they can become extremely territorial if intruders tread too close to home. They have a fondness for fire-based magic and sometimes can be recruited to serve as guardians for wizards, efreeti, and other powerful, fiery creatures.  \n**Elemental Nature.** A magma octopus doesn’t require air, food, drink, or sleep.",
+      "dexterity": 17,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "14d10+70",
+      "hit_points": 147,
+      "intelligence": 5,
+      "languages": "—",
+      "legendary_actions_json": "null",
+      "name": "Magma Octopus",
+      "page_no": 251,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 9",
+      "size": "Large",
+      "skills_json": "{\"athletics\": 8, \"stealth\": 6}",
+      "special_abilities_json": "[{\"name\": \"Lava Bound\", \"desc\": \"The magma octopus can exist outside of lava for up to 1 hour each day. If it remains outside of lava for 1 minute or longer, its skin begins to dry and harden like rapidly-cooled magma. While its skin is hardened, it has a walking speed of 20 feet, an Armor Class of 18, and vulnerability to cold damage. If it remains outside of lava for 1 hour or longer, it becomes petrified, transforming into basalt. Its body returns to normal if it is submerged in lava for 1 round.\"}, {\"name\": \"Lava Swimmer\", \"desc\": \"While in lava, the magma octopus has a swimming speed of 60 feet and can move through the lava as if it were water.\"}]",
+      "speed_json": "{\"walk\": 40}",
+      "spells_json": "null",
+      "strength": 21,
+      "type": "Elemental",
+      "wisdom": 8
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Magma Octopus",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-magma-octopus"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "Eight tentacles reach out from the scorched body of this unusual octopus-like creature. Glowing yellow, orange, and red patches smolder on its skin, like embers flaring to life._  \n**Elemental Bodies.** Magma octopuses are creatures that physically resemble the marine animals for which they are named, but they make their homes in lava, swimming through it as easily as aquatic octopuses swim through water. Born in the fiery seas of the Plane of Fire long ago, many magma octopuses wandered to the Material Plane through various portals and thinned barriers between the planes. They exist throughout the world, particularly in underground caverns with open lava flows, within the craters of some volcanoes, and swimming through underground networks of magma.  \n**Intelligent.** Magma octopuses live simple lives with a quiet intelligence that slightly surpasses that of aquatic octopuses. They have no language and cannot communicate verbally. They are known to recognize individuals from other species and remember individuals that might have caused them pain or helped them out of a bad situation. Magma octopuses only fight others if they are attacked first, but they can become extremely territorial if intruders tread too close to home. They have a fondness for fire-based magic and sometimes can be recruited to serve as guardians for wizards, efreeti, and other powerful, fiery creatures.  \n**Elemental Nature.** A magma octopus doesn’t require air, food, drink, or sleep.",
+      "name": "Magma Octopus",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Восемь щупалец тянутся из обгоревшего тела этого необычного осьминога. Светящиеся жёлтые, оранжевые и красные пятна тлеют на её коже, словно угли вспыхивают жизнью.\n\n**Стихийные тела.** Магмовые осьминоги — существа, физически напоминающие морских животных, по которым они названы, но они делают свои дома в лаве, плавая по ней так же легко, как водные осьминоги плавают по воде. Родившиеся в огненных морях Плана Огня давным-давно, многие магмовые осьминоги забрели на Материальный План через различные порталы и истощённые барьеры между планами. Они существуют по всему миру, особенно в подземных пещерах с открытыми потоками лавы, внутри кратеров некоторых вулканов и плавая через подземные сети магмы.\n\n**Разумные.** Магмовые осьминоги живут простой жизнью с тихим разумом, который слегка превосходит разум водных осьминогов. У них нет языка, и они не могут общаться устно. Известно, что они узнают индивидов из других видов и помнят индивидов, которые могли причинить им боль или помогли им выбраться из плохой ситуации. Магмовые осьминоги сражаются с другими, только если они атакованы первыми, но они могут стать чрезвычайно территориальными, если нарушители наступят слишком близко к дому. У них слабость к магии, основанной на огне, и иногда могут быть набраны служить стражами для волшебников, ифритов и других могущественных огненных существ.\n\n**Стихийная природа.** Магмовому осьминогу не требуются воздух, пища, питьё или сон.",
+      "glossary_version": "v1",
+      "name": "Магмовый осьминог",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,217 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_flame-blade",
+  "id": "o5e:srd-2014:spell:srd-flame-blade-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-flame-blade",
+      "o5e:wotc-srd:spell:flame-blade"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "14910a03c99702c90dc3c500febb2a20f78fa5beef5107fe6cc9f24e3c52f21e",
+    "formulas": [
+      {
+        "expression": "3d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "bonus-action",
+      "classes": [
+        "srd_druid"
+      ],
+      "concentration": true,
+      "damage_roll": "3d6",
+      "damage_types": [
+        "fire"
+      ],
+      "duration": "10 minutes",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "Leaf of sumac.",
+      "range": 0.0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "14910a03c99702c90dc3c500febb2a20f78fa5beef5107fe6cc9f24e3c52f21e",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-flame-blade",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "6b7076da67d62dc6e7c822f4d3cea96c861bfcf7d5d74bfb416135ae46b7b348",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:flame-blade",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_druid",
+        "type": "classes",
+        "value": [
+          "srd_druid"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "bonus-action",
+      "classes": [
+        "srd_druid"
+      ],
+      "concentration": true,
+      "damage_roll": "3d6",
+      "damage_types": [
+        "fire"
+      ],
+      "desc": "You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action. You can use your action to make a melee spell attack with the fiery blade. On a hit, the target takes 3d6 fire damage. The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
+      "document": "srd-2014",
+      "duration": "10 minutes",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for every two slot levels above 2nd.",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "Leaf of sumac.",
+      "name": "Flame Blade",
+      "range": 0.0,
+      "range_text": "Self",
+      "ritual": false,
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5484",
+          "parent": "srd_flame-blade",
+          "type": "default"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "5487",
+          "parent": "srd_flame-blade",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "5488",
+          "parent": "srd_flame-blade",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "5d6",
+          "external_id": "5489",
+          "parent": "srd_flame-blade",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "5d6",
+          "external_id": "5490",
+          "parent": "srd_flame-blade",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "6d6",
+          "external_id": "5491",
+          "parent": "srd_flame-blade",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "6d6",
+          "external_id": "5492",
+          "parent": "srd_flame-blade",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Flame Blade",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:a5e-ag:spell:a5e-ag-flame-blade"
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action. You can use your action to make a melee spell attack with the fiery blade. On a hit, the target takes 3d6 fire damage. The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
+      "name": "Flame Blade",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 2-го уровня (Друид)*\n\n**Время накладывания:** Бонусное действие\n\n**Дистанция:** На себя\n\n**Компоненты:** В, С, М (лист сумаха)\n\n**Длительность:** Концентрация, вплоть до 10 минут\n\nВы вызываете огненный клинок в свободной руке. Клинок по размеру и форме похож на скимитар и существует на время действия заклинания. Если вы выпустите клинок, он исчезает, но вы можете вызвать его снова бонусным действием.\n\nВы можете действием совершить рукопашную атаку заклинанием огненным клинком. При попадании цель получает 3к6 урона огнём.\n\nПылающий клинок излучает яркий свет в радиусе 10 футов и тусклый свет в дополнительном радиусе 10 футов.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 4-го уровня или выше, урон увеличивается на 1к6 за каждые два уровня ячейки выше 2-го.",
+      "glossary_version": "v1",
+      "name": "Пылающий клинок",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

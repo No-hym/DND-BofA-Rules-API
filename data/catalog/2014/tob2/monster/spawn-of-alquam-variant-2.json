@@ -1,0 +1,140 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "spawn-of-alquam",
+  "id": "o5e:tob2:monster:spawn-of-alquam-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:spawn-of-alquam"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "2c202f2c2707a111c9408845f0263ae2f914585a6b304a03c595c95f4035c5c3",
+    "formulas": [
+      {
+        "expression": "12d10+48",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic evil",
+      "armor_class": 16,
+      "challenge_rating": "6",
+      "condition_immunities": "charmed, frightened, poisoned",
+      "damage_immunities": "poison",
+      "damage_resistances": "cold, fire, lightning",
+      "damage_vulnerabilities": "",
+      "hit_dice": "12d10+48",
+      "hit_points": 114,
+      "languages": "Abyssal, telepathy 60 ft.",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "2c202f2c2707a111c9408845f0263ae2f914585a6b304a03c595c95f4035c5c3",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:spawn-of-alquam",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The spawn of Alquam makes three attacks: two with its talons and one with its bite. It can use Gloomspittle in place of its bite attack.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) piercing damage.\", \"attack_bonus\": 6, \"damage_dice\": \"2d10+3\"}, {\"name\": \"Talon\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.\", \"attack_bonus\": 6, \"damage_dice\": \"1d8+3\"}, {\"name\": \"Gloomspittle\", \"desc\": \"Ranged Weapon Attack: +6 to hit, range 30 ft., one creature. Hit: 10 (2d6 + 3) necrotic damage, and the target must succeed on a DC 15 Dexterity saving throw or be blinded until the end of its next turn.\", \"attack_bonus\": 6, \"damage_dice\": \"2d6+3\"}]",
+      "alignment": "chaotic evil",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "6",
+      "charisma": 13,
+      "condition_immunities": "charmed, frightened, poisoned",
+      "constitution": 19,
+      "cr": 6.0,
+      "damage_immunities": "poison",
+      "damage_resistances": "cold, fire, lightning",
+      "desc": "This large creature exudes darkness and contempt. It has feathery wings, backswept horns set behind its wide eyes, a narrow, vicious-looking beak, and talon-like claws. Its body is thin and sinewy, and its skin is a sickly green._  \n**Demonic Servants.** These demons lurk in darkness, serving and protecting Alquam, the Demon Lord of Night. Alquam is known to send them to aid his cults, and he sometimes utilizes them to assassinate individuals who threaten his followers. Because the spawn are created by Alquam, many of his cults worship them as physical representations of the Demon Lord himself. The cults believe that offerings to the spawn are conveyed directly to their master in his planar abode.  \n**Kinship with Shadow.** When the spawn of Alquam venture to the Material Plane, they take care to move only in places that are cloaked in darkness. While direct light does not harm them, they find it uncomfortable and often flee from it.  \n**Lords of Birds.** Birds instinctively follow the mental commands of the spawn of Alquam, and sudden changes in bird behavior that can signal a spawn is nearby. Swarms of birds attack targets the spawn designates, act as the spawn’s messengers, and enact the spawn’s or Alquam’s will in whatever way either demon dictates.",
+      "dexterity": 17,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "12d10+48",
+      "hit_points": 114,
+      "intelligence": 14,
+      "languages": "Abyssal, telepathy 60 ft.",
+      "legendary_actions_json": "null",
+      "name": "Spawn of Alquam",
+      "page_no": 95,
+      "perception": 6,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 90 ft., passive Perception 16",
+      "size": "Large",
+      "skills_json": "{\"deception\": 4, \"perception\": 6, \"stealth\": 6}",
+      "special_abilities_json": "[{\"name\": \"Ambusher\", \"desc\": \"In the first round of combat, the spawn of Alquam has advantage on attack rolls against any creature it has surprised.\"}, {\"name\": \"Keen Sight\", \"desc\": \"The spawn of Alquam has advantage on Wisdom (Perception) checks that rely on sight.\"}, {\"name\": \"Shadow Stealth\", \"desc\": \"While in dim light or darkness, the spawn of Alquam can take the Hide action as a bonus action.\"}, {\"name\": \"Sneak Attack (1/Turn)\", \"desc\": \"The spawn of Alquam deals an extra 10 (3d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the spawn that isn't incapacitated and the spawn doesn't have disadvantage on the attack roll.\"}, {\"name\": \"Speak with Birds\", \"desc\": \"The spawn of Alquam can communicate with birds as if they shared a language.\"}]",
+      "speed_json": "{\"fly\": 60, \"walk\": 20}",
+      "spells_json": "null",
+      "strength": 12,
+      "subtype": "demon",
+      "type": "Fiend",
+      "wisdom": 16
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Spawn of Alquam",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-spawn-of-alquam"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "This large creature exudes darkness and contempt. It has feathery wings, backswept horns set behind its wide eyes, a narrow, vicious-looking beak, and talon-like claws. Its body is thin and sinewy, and its skin is a sickly green._  \n**Demonic Servants.** These demons lurk in darkness, serving and protecting Alquam, the Demon Lord of Night. Alquam is known to send them to aid his cults, and he sometimes utilizes them to assassinate individuals who threaten his followers. Because the spawn are created by Alquam, many of his cults worship them as physical representations of the Demon Lord himself. The cults believe that offerings to the spawn are conveyed directly to their master in his planar abode.  \n**Kinship with Shadow.** When the spawn of Alquam venture to the Material Plane, they take care to move only in places that are cloaked in darkness. While direct light does not harm them, they find it uncomfortable and often flee from it.  \n**Lords of Birds.** Birds instinctively follow the mental commands of the spawn of Alquam, and sudden changes in bird behavior that can signal a spawn is nearby. Swarms of birds attack targets the spawn designates, act as the spawn’s messengers, and enact the spawn’s or Alquam’s will in whatever way either demon dictates.",
+      "name": "Spawn of Alquam",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Это крупное существо источает тьму и презрение. У него пернатые крылья, отклонённые назад рога, установленные позади его широких глаз, узкий злобный клюв и когти, подобные талонам. Его тело тонкое и жилистое, а его кожа болезненно зелёная.\n\n**Демонические слуги.** Эти демоны скрываются во тьме, служа и защищая Алькуама, Владыку Демонов Ночи. Известно, что Алькуам посылает их помогать его культам, и он иногда использует их для убийства лиц, которые угрожают его последователям. Поскольку порождения созданы Алькуамом, многие его культы поклоняются им как физическим представлениям самого Владыки Демонов. Культы верят, что подношения порождениям передаются напрямую их хозяину в его планарной обители.\n\n**Родство с тенью.** Когда порождения Алькуама отправляются на Материальный План, они стараются перемещаться только в местах, которые окутаны тьмой. Хотя прямой свет им не вредит, они находят его неудобным и часто бегут от него.\n\n**Владыки птиц.** Птицы инстинктивно следуют мысленным командам порождения Алькуама, и внезапные изменения в поведении птиц могут сигнализировать, что порождение находится рядом. Рои птиц атакуют цели, которые порождение обозначает, действуют как посланники порождения и исполняют волю порождения или Алькуама любым способом, который диктует любой из демонов.",
+      "glossary_version": "v1",
+      "name": "Порождение Алькуама",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

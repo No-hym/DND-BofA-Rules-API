@@ -1,0 +1,201 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_hex",
+  "id": "o5e:srd-2024:spell:srd-2024-hex",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "5d53d1ee5c73628e26d99eaf9db0c577a46dd277c76add0f51a57fcb75990f8e",
+    "formulas": [
+      {
+        "expression": "1d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "bonus-action",
+      "classes": [
+        "srd-2024_warlock"
+      ],
+      "concentration": true,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "necrotic"
+      ],
+      "duration": "1 hour",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "the petrified eye of a newt",
+      "range": 90,
+      "range_text": "90 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_warlock",
+        "type": "classes",
+        "value": [
+          "srd-2024_warlock"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "bonus-action",
+      "classes": [
+        "srd-2024_warlock"
+      ],
+      "concentration": true,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "necrotic"
+      ],
+      "desc": "You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 Necrotic damage to the target whenever you hit it with an attack roll. Also, choose one ability when you cast the spell. The target has Disadvantage on ability checks made with the chosen ability. If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action on a later turn to curse a new creature.",
+      "document": "srd-2024",
+      "duration": "1 hour",
+      "higher_level": "Your Concentration can last longer with a spell slot of level 2 (up to 4 hours), 3–4 (up to 8 hours), or 5+ (24 hours).",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "the petrified eye of a newt",
+      "name": "Hex",
+      "range": 90,
+      "range_text": "90 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "enchantment",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "concentration": true,
+          "duration": "4 hours",
+          "external_id": "10329",
+          "parent": "srd-2024_hex",
+          "type": "slot_level_2"
+        },
+        {
+          "duration": "8 hours",
+          "external_id": "10649",
+          "parent": "srd-2024_hex",
+          "type": "slot_level_3"
+        },
+        {
+          "duration": "8 hours",
+          "external_id": "10650",
+          "parent": "srd-2024_hex",
+          "type": "slot_level_4"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "10651",
+          "parent": "srd-2024_hex",
+          "type": "slot_level_5"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "10652",
+          "parent": "srd-2024_hex",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "10653",
+          "parent": "srd-2024_hex",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "10654",
+          "parent": "srd-2024_hex",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "10655",
+          "parent": "srd-2024_hex",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Hex",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 Necrotic damage to the target whenever you hit it with an attack roll. Also, choose one ability when you cast the spell. The target has Disadvantage on ability checks made with the chosen ability. If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action on a later turn to curse a new creature.",
+      "name": "Hex",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Очарование 1-го уровня (Колдун)*\n\n**Время накладывания:** Бонусное действие\n\n**Дистанция:** 90 футов\n\n**Компоненты:** В, С, М (окаменевший глаз тритона)\n\n**Длительность:** Концентрация, до 1 часа\n\nВы накладываете проклятье на существо, которое видите в пределах дистанции. До окончания заклинания вы наносите дополнительно 1d6 урона некротической энергией цели каждый раз, когда попадаете по ней броском атаки. Также выберите одну характеристику при сотворении заклинания. Цель совершает с помехой проверки характеристики, использующие выбранную характеристику.\n\nЕсли хиты цели опускаются до 0 до окончания этого заклинания, вы можете совершить бонусное действие в последующий ход, чтобы проклясть новое существо.\n\n**_Использование ячейки более высокого уровня._** Ваша концентрация может длиться дольше с ячейкой 2-го уровня (до 4 часов), 3–4 уровня (до 8 часов) или 5-го+ (24 часа).",
+      "glossary_version": "v1",
+      "name": "Сглаз",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

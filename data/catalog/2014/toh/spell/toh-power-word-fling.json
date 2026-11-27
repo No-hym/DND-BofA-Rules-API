@@ -1,0 +1,196 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_power-word-fling",
+  "id": "o5e:toh:spell:toh-power-word-fling",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:power-word-fling",
+      "o5e:toh:spell:toh-power-word-fling"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7bb39b93b770e46e6faf5e3eadeb90515d61bb280eb6d8c4541d838099f83113",
+    "formulas": [
+      {
+        "expression": "3d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "3d6",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "duration": "1 minute",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "strength",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "7bb39b93b770e46e6faf5e3eadeb90515d61bb280eb6d8c4541d838099f83113",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-power-word-fling",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "a6897043faa8fe2af6d7658a21720cac90690093d733ce4749303a6bd7a135b4",
+        "edition": "2014",
+        "id": "o5e:toh:spell:power-word-fling",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "3d6",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "desc": "You mutter a word of power that causes a creature you can see within range to be flung vertically or horizontally. The creature must succeed on a Strength saving throw or be thrown up to 15 feet vertically or horizontally. If the target impacts a surface, such as a ceiling or wall, it stops moving and takes 3d6 bludgeoning damage. If the target was thrown vertically, it plummets to the ground, taking falling damage as normal, unless it has a flying speed or other method of preventing a fall. If the target impacts a creature, the target stops moving and takes 3d6 bludgeoning damage, and the creature the target hits must succeed on a Strength saving throw or be knocked prone. After the target is thrown horizontally or it falls from being thrown vertically, regardless of whether it impacted a surface, it is knocked prone.\n  As a bonus action on each of your subsequent turns, you can attempt to fling the same creature again. The target must succeed on another Strength saving throw or be thrown.",
+      "document": "toh",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the distance you can fling the target increases by 5 feet, and the damage from impacting a surface or creature increases by 1d6 for each slot level above 3rd.",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "name": "Power Word Fling",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "strength",
+      "school": "conjuration",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "259",
+          "parent": "toh_power-word-fling",
+          "type": "default"
+        },
+        {
+          "external_id": "261",
+          "parent": "toh_power-word-fling",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "262",
+          "parent": "toh_power-word-fling",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "263",
+          "parent": "toh_power-word-fling",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "264",
+          "parent": "toh_power-word-fling",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "265",
+          "parent": "toh_power-word-fling",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "266",
+          "parent": "toh_power-word-fling",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Power Word Fling",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You mutter a word of power that causes a creature you can see within range to be flung vertically or horizontally. The creature must succeed on a Strength saving throw or be thrown up to 15 feet vertically or horizontally. If the target impacts a surface, such as a ceiling or wall, it stops moving and takes 3d6 bludgeoning damage. If the target was thrown vertically, it plummets to the ground, taking falling damage as normal, unless it has a flying speed or other method of preventing a fall. If the target impacts a creature, the target stops moving and takes 3d6 bludgeoning damage, and the creature the target hits must succeed on a Strength saving throw or be knocked prone. After the target is thrown horizontally or it falls from being thrown vertically, regardless of whether it impacted a surface, it is knocked prone.\n  As a bonus action on each of your subsequent turns, you can attempt to fling the same creature again. The target must succeed on another Strength saving throw or be thrown.",
+      "name": "Power Word Fling",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы бормочете слово силы, которое заставляет видимое существо в пределах дистанции быть швырнутым вертикально или горизонтально. Существо должно преуспеть в спасброске Силы, иначе будет брошено на расстояние до 15 футов вертикально или горизонтально. Если цель ударяется о поверхность, такую как потолок или стена, она прекращает движение и получает 3к6 дробящего урона. Если цель была брошена вертикально, она падает на землю, получая урон от падения как обычно, если у неё нет скорости полёта или другого метода предотвращения падения. Если цель ударяется о существо, цель прекращает движение и получает 3к6 дробящего урона, а существо, по которому цель попадает, должно преуспеть в спасброске Силы, иначе будет сбито с ног. После того как цель брошена горизонтально или она падает от того, что была брошена вертикально, независимо от того, ударилась ли она о поверхность, она сбита с ног.\n\nБонусным действием в каждый ваш последующий ход вы можете попытаться снова швырнуть то же существо. Цель должна преуспеть в ещё одном спасброске Силы, иначе будет брошена.",
+      "glossary_version": "v1",
+      "name": "Слово силы: швырок",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

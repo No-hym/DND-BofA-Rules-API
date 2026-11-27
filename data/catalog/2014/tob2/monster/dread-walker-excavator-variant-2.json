@@ -1,0 +1,141 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "dread-walker-excavator",
+  "id": "o5e:tob2:monster:dread-walker-excavator-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:dread-walker-excavator"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "bb9a0622c09bada712239dffa4bda7a8f3fff4612f93aee3bbf3f3dc8e726154",
+    "formulas": [
+      {
+        "expression": "10d10+20",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral",
+      "armor_class": 16,
+      "challenge_rating": "5",
+      "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "damage_immunities": "poison, psychic",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "",
+      "hit_dice": "10d10+20",
+      "hit_points": 75,
+      "languages": "—",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "bb9a0622c09bada712239dffa4bda7a8f3fff4612f93aee3bbf3f3dc8e726154",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:dread-walker-excavator",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The excavator makes two foreleg attacks.\"}, {\"name\": \"Foreleg\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage.\", \"attack_bonus\": 7, \"damage_dice\": \"2d8+4\"}, {\"name\": \"Excavation Beam\", \"desc\": \"Ranged Weapon Attack: +7 to hit, range 30/60 ft., one target. Hit: 17 (5d6) force damage.\", \"attack_bonus\": 7, \"damage_dice\": \"5d6\"}]",
+      "alignment": "neutral",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "5",
+      "charisma": 12,
+      "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "constitution": 14,
+      "cr": 5.0,
+      "damage_immunities": "poison, psychic",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "desc": "These glyph-covered metal spiders slowly crawl over the cracked temples of beings beyond the minds of mortals._  \nDread walker excavators are spider-shaped constructs developed to protect and excavate ancient, magical ruins. Excavators are found deep underwater or in wastelands, crawling over monuments built hundreds of years ago.  \n**Alien Minds.** The minds of the excavators are completely mysterious, their instructions indecipherable. Excavators are able to communicate with one another, and supposedly with their masters, but the transmission path of this communication is unknown.  \n**Dread Eye.** The excavator’s central eye shines complicated diagrams atop the stonework of ancient ruins, imprinting alien glyphs atop those carved hundreds of years previously. Some believe the excavators contain vast knowledge of ancient magic and lost civilizations, and sages greatly desire destroyed excavators, hoping to extract this knowledge from their remains. None have yet been successful, and many have been driven mad by the attempt.  \n**Construct Nature.** A dread walker excavator doesn’t require air, food, drink, or sleep.",
+      "dexterity": 19,
+      "dexterity_save": 7,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "10d10+20",
+      "hit_points": 75,
+      "intelligence": 14,
+      "languages": "—",
+      "legendary_actions_json": "null",
+      "name": "Dread Walker Excavator",
+      "page_no": 129,
+      "perception": 6,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 16",
+      "size": "Large",
+      "skills_json": "{\"perception\": 6}",
+      "special_abilities_json": "[{\"name\": \"Arcane Instability\", \"desc\": \"When the excavator is reduced to half its maximum hp or fewer, unstable arcane energy begins to pour from its metal body. A creature that touches the unstable excavator or hits it with a melee attack while within 5 feet of it takes 3 (1d6) force damage.\"}, {\"name\": \"Spider Climb\", \"desc\": \"The excavator can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.\"}]",
+      "speed_json": "{\"climb\": 30, \"walk\": 30, \"swim\": 30}",
+      "spells_json": "null",
+      "strength": 18,
+      "type": "Construct",
+      "wisdom": 16,
+      "wisdom_save": 6
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Dread Walker Excavator",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-dread-walker-excavator"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "These glyph-covered metal spiders slowly crawl over the cracked temples of beings beyond the minds of mortals._  \nDread walker excavators are spider-shaped constructs developed to protect and excavate ancient, magical ruins. Excavators are found deep underwater or in wastelands, crawling over monuments built hundreds of years ago.  \n**Alien Minds.** The minds of the excavators are completely mysterious, their instructions indecipherable. Excavators are able to communicate with one another, and supposedly with their masters, but the transmission path of this communication is unknown.  \n**Dread Eye.** The excavator’s central eye shines complicated diagrams atop the stonework of ancient ruins, imprinting alien glyphs atop those carved hundreds of years previously. Some believe the excavators contain vast knowledge of ancient magic and lost civilizations, and sages greatly desire destroyed excavators, hoping to extract this knowledge from their remains. None have yet been successful, and many have been driven mad by the attempt.  \n**Construct Nature.** A dread walker excavator doesn’t require air, food, drink, or sleep.",
+      "name": "Dread Walker Excavator",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Эти покрытые глифами металлические пауки медленно ползают по потрескавшимся храмам существ, находящихся за пределами человеческих умов смертным.\n\nСтрашные ходоковых экскаваторы — паучьи конструкты, разработанные для защиты и раскопки древних, магических руины. экскаваторы находятся глубоко под водой или в пустоши, ползают по памятникам, построенным сотни лет назад.\n\n** Чужеродные ум.** Умы экскаваторов полностью загадочная, их инструкции нерасшифровываемы. Экскаваторы способны общаться друг с другом, и, предположительно их мастерам, но путь передачи этой связи неизвестен.\n\n**Устрашающий глаз.** Центральный глаз экскаватора светит сложные диаграммы на каменную кладку древних руин, отпечатывая чужеродные глифы на вершинах вырезанных сотни лет назад. Некоторые считают экскаваторы содержат обширные знания древней магии и исчезнувших цивилизаций, и мудрецы сильно желают уничтожили экскаваторы, надеясь извлечь эти знания из их останков. Ни одна из попыток до сих пор не увенчались успехом, а многие из них сводит с ума попытки.\n\n**Природа конструкта.** Ужасный экскаватор-шагоход не требует воздуха, пищи, питья или сна.",
+      "glossary_version": "v1",
+      "name": "Экскаватор Грозного Ходока",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

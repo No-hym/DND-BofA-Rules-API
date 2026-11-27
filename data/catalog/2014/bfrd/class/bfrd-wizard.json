@@ -1,0 +1,396 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "class",
+  "edition": "2014",
+  "external_id": "bfrd_wizard",
+  "id": "o5e:bfrd:characterclass:bfrd-wizard",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:characterclass:bfrd-wizard",
+      "o5e:srd-2014:characterclass:srd-wizard"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f6918d5643864a69b6e3f69760623fea82e5a13c816c5936448384ec7f10a5ac",
+    "formulas": [
+      {
+        "expression": "D6",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "FULL",
+      "hit_dice": "D6",
+      "primary_abilities": [],
+      "saving_throws": [
+        "int",
+        "wis"
+      ],
+      "subclass_of": null
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "f6918d5643864a69b6e3f69760623fea82e5a13c816c5936448384ec7f10a5ac",
+        "edition": "2014",
+        "id": "o5e:bfrd:characterclass:bfrd-wizard",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "f89c0982f4ef32821c426000579ea543c90d5e36cdd002671a90eafa3e269818",
+        "edition": "2014",
+        "id": "o5e:srd-2014:characterclass:srd-wizard",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "FULL",
+      "document": "bfrd",
+      "hit_dice": "D6",
+      "name": "Wizard",
+      "saving_throws": [
+        "int",
+        "wis"
+      ]
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_slots-1st",
+          "feature_type": "SPELL_SLOTS",
+          "level": 1,
+          "name": "1st",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You have learned to regain some of your magical energy by studying your spellbook. Once per day, when you finish a short rest, you can recover expended Arcane spell slots of your choice. Recovered spell slots can have a combined circle total equal to or less than half your wizard level (rounded up).\n\nFor example, if you're a 4th-level wizard, you can recover up to two circles' worth of spell slots. So you could choose to recover either a single 2nd-circle spell slot or two 1st-circle spell slots.",
+          "desc_ru": "Вы можете восстановить часть магической энергии, изучая книгу заклинаний. Когда вы заканчиваете короткий отдых, вы можете выбрать потраченные ячейки заклинаний для восстановления. Суммарный уровень ячеек заклинаний может быть не более половины вашего уровня волшебника (с округлением вверх), и ни одна из ячеек не может быть 6-го уровня или выше. Например, если вы волшебник 4-го уровня, вы можете восстановить до двух уровней ячеек заклинаний, восстанавливая либо одну ячейку 2-го уровня, либо две ячейки 1-го уровня.\n\nПосле использования этого умения вы не можете использовать его снова, пока не закончите долгий отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_arcane-recovery",
+          "level": 1,
+          "name": "Arcane Recovery",
+          "name_ru": "Магическое восстановление",
+          "parent": "bfrd_wizard",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_cantrips-known",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Cantrips Known",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_proficiency-bonus",
+          "feature_type": "PROFICIENCY_BONUS",
+          "level": 1,
+          "name": "Proficiency Bonus",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_rituals-known",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Rituals Known",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "As a student of Arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power.\n\n**Cantrips.** At 1st level, choose three cantrips from the Arcane spell list to learn. You choose more Arcane cantrips to learn at higher levels, as shown in the Cantrips Known column of the Wizard Progression table.\n\n**Spellbook.** At 1st level, your spellbook contains six 1st-circle Arcane spells of your choice. It is the repository of all the Arcane spells you know—except for your cantrips, which are so simple and well-rehearsed that you don't even need to write them down.\n\n**Preparing Spells.** You must prepare spells in advance before you can cast them. You can prepare any spell in your spellbook for which you have Arcane spell slots. (You determine which spell slots you can access by checking your level on the Wizard Progression table.) You can choose a number of spells equal to your INT modifier + your wizard level (minimum of one spell). This is your list of prepared spells from which you can cast.\n\nPreparing a new list of spells requires time studying your spellbook and re-memorizing incantations and gestures: at least 1 minute per spell circle for each spell you change. You can change your list of prepared spells as part of a long rest.\n\n**Casting Spells.** You have prepared a number of spells and can cast any of them by using an Arcane spell slot of the spell's circle or higher.\n\nThe Wizard Progression table shows how many Arcane spell slots you have at a given level. For example, at 3rd level, you have four 1st-circle and two 2nd-circle spell slots, and with a 16 INT, you can have six prepared spells of 1st or 2nd circle, in any combination. You only have two spell slots for 2nd-circle spells though, so if you prepare only 2nd-circle spells, you won't be able to use your 1st-circle spell slots at all.\n\nCasting a spell doesn't remove it from your list of prepared spells, it just uses up a spell slot. You regain all used spell slots when you finish a long rest.\n\n**Your Spellbook.** The spells you automatically add to your spellbook as you gain levels reflect the spell research you conduct on your own. However, you might find other spells during your adventures.\n\n*Copying a Spell into the Book.* When you find an Arcane spell of 1st circle or higher, you can add it to your spellbook if it is of a spell circle you can prepare and if you can make time to decipher and copy it. For each circle of the spell, the process takes 2 hours and costs 50 gp. Once you have spent this time and money, you can prepare the spell just like your other Arcane spells. Copying a spell from a scroll into your spellbook doesn't consume or destroy the scroll.\n\n*Replacing the Book.* You can copy a spell from your own spellbook into another book. This is faster and easier since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each circle of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the spells you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells, as normal.\n\n**Learning Spells of 1st Circle and Higher.** Each time you gain a wizard level, you can add two Arcane spells of your choice to your spellbook for free. Each spell must be of a circle for which you have Arcane spell slots, as shown on the Wizard Progression table. During your adventures, you might also find other Arcane spells to add to your spellbook.\n\n**Spellcasting Ability.** Intelligence (INT) is your spellcasting ability. Your INT modifier determines the save DC or the attack modifier for certain spells you cast:\n- Spell save DC = 8 + your proficiency bonus (PB) + your INT modifier\n- Spell attack modifier = your proficiency bonus (PB) + your INT modifier\n\n**Rituals.** You can also cast a type of long-form spell called a ritual. Rituals don't need to be prepared, and they don't use up spell slots.\n\nAt 1st level, choose one ritual from the Arcane ritual list. You learn more rituals at higher levels, as shown in the Rituals Known column of the Wizard Progression table, but only from a circle for which you have spell slots. Rituals you learn don't count against the number of spells you learn at each level.\n\nRituals are contained in your spellbook alongside your regular spells, and new rituals written on spell scrolls can be copied into your spellbook like normal Arcane spells.\n\n**Spellcasting Focus.** You can use an arcane focus as a spellcasting focus for your Arcane spells.",
+          "desc_ru": "Как ученик тайной магии, вы научились творить заклинания. Смотрите раздел «Заклинания» для правил использования заклинаний. Информация ниже описывает, как вы используете эти правила с заклинаниями волшебника, которые приведены в списке заклинаний волшебника далее в описании класса.\n\n**Заговоры.** Вы знаете три заговора волшебника на свой выбор. Рекомендуются *Свет*, *Волшебная рука* и *Луч холода*. Каждый раз, когда вы заканчиваете долгий отдых, вы можете заменить один из заговоров этого умения другим заговором волшебника на свой выбор.\n\nКогда вы достигаете 4-го и 10-го уровня волшебника, вы узнаёте ещё один заговор волшебника на свой выбор, как показано в столбце Заговоры таблицы Умения волшебника.\n\n**Книга заклинаний.** Ваше обучение волшебству завершилось созданием уникальной книги: вашей книги заклинаний. Это Крошечный предмет весом 3 фунта, содержащий 100 страниц, который может прочитать только вы или тот, кто творит *Опознание*. Вы определяете внешний вид и материалы книги, например том с позолоченными краями или связанный бечёвкой набор листов пергамента.\n\nКнига содержит заклинания 1-го уровня и выше, которые вы знаете. Она начинается с шести заклинаний волшебника 1-го уровня на ваш выбор. Рекомендуются *Обнаружение магии*, *Падение пёрышком*, *Доспехи мага*, *Магическая стрела*, *Усыпление* и *Волна грома*.\n\nКаждый раз, когда вы получаете уровень волшебника после 1-го, добавляйте два заклинания волшебника на свой выбор в книгу заклинаний. Каждое из этих заклинаний должно быть того уровня, для которого у вас есть ячейки заклинаний, как показано в таблице Умения волшебника. Заклинания — результат магических исследований, которые вы регулярно проводите.\n\n**Ячейки заклинаний.** Таблица Умения волшебника показывает, сколько у вас есть ячеек заклинаний для сотворения заклинаний 1-го уровня и выше. Вы восстанавливаете все потраченные ячейки, когда заканчиваете долгий отдых.\n\n**Подготовленные заклинания 1-го уровня и выше.** Вы подготавливаете список заклинаний 1-го уровня и выше, которые доступны вам для сотворения с помощью этого умения. Для этого выберите четыре заклинания из книги заклинаний. Выбранные заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний.\n\nКоличество заклинаний в вашем списке увеличивается по мере получения уровней волшебника, как показано в столбце Подготовленные заклинания таблицы Умения волшебника. Каждый раз, когда это число увеличивается, выбирайте дополнительные заклинания волшебника, пока количество заклинаний в вашем списке не сравняется с числом в таблице. Выбранные заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний. Например, если вы волшебник 3-го уровня, ваш список подготовленных заклинаний может включать шесть заклинаний 1-го и 2-го уровней в любой комбинации, выбранных из вашей книги заклинаний.\n\nЕсли другое умение волшебника даёт вам заклинания, которые вы всегда держите подготовленными, эти заклинания не учитываются в количестве заклинаний, которые вы можете подготовить с помощью этого умения, но в остальном считаются заклинаниями волшебника для вас.\n\n**Изменение подготовленных заклинаний.** Каждый раз, когда вы заканчиваете долгий отдых, вы можете изменить свой список подготовленных заклинаний, заменив любые заклинания заклинаниями из вашей книги заклинаний.\n\n**Базовая характеристика заклинаний.** Интеллект является вашей базовой характеристикой для заклинаний волшебника.\n\n**Заклинательный фокус.** Вы можете использовать магический фокус или книгу заклинаний в качестве заклинательного фокуса для заклинаний волшебника.",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_spellcasting",
+          "level": 1,
+          "name": "Spellcasting",
+          "name_ru": "Сотворение заклинаний",
+          "parent": "bfrd_wizard",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You learn to perceive magical workings. As an action, you can open your awareness to detect magical forces. Until the end of your next turn, you know the location of creatures with spellcasting ability, ongoing spell effects, or magic items within 30 feet of you. If the magical effect is the result of an ongoing spell, you learn which school of magic the spell belongs to.\n\nThis sense can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.\n\nYou can use this feature a number of times equal to your PB + 1. When you finish a long rest, you regain all uses.",
+          "desc_ru": "Вы учитесь воспринимать магические процессы. Действием вы можете открыть ваше восприятие для обнаружения магических сил. До конца вашего следующего хода вы знаете местоположение существ со способностью творить заклинания, текущих эффектов заклинаний или магических предметов в пределах 30 футов от вас. Если магический эффект — результат текущего заклинания, вы узнаёте, к какой школе магии принадлежит заклинание.\n\nЭто чувство может проникать через большинство барьеров, но блокируется 1 футом камня, 1 дюймом обычного металла, тонким листом свинца или 3 футами дерева или земли.\n\nВы можете использовать эту особенность количество раз, равное вашему бонусу мастерства + 1. Когда вы заканчиваете продолжительный отдых, вы восстанавливаете все использования.",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_magic-sense",
+          "level": 2,
+          "name": "Magic Sense",
+          "name_ru": "Магическое чувство",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_slots-2nd",
+          "feature_type": "SPELL_SLOTS",
+          "level": 3,
+          "name": "2nd",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Choose a subclass that reflects your specialized field of magical study, either Battle Mage or Cantrip Adept (detailed at the end of this class). Your choice grants you features at 3rd, 7th, 11th, and 15th level.",
+          "desc_ru": "Вы получаете подкласс волшебника на свой выбор. Подкласс Воплотитель описан после описания этого класса. Подкласс — это специализация, которая даёт вам умения на определённых уровнях волшебника. До конца вашей карьеры вы получаете каждое умение своего подкласса, которое соответствует вашему уровню волшебника или ниже.\n\n> ### Расширение и замена книги заклинаний\n>\n> Заклинания, которые вы добавляете в книгу заклинаний по мере получения уровней, отражают ваши текущие магические исследования, но вы можете найти другие заклинания во время приключений, которые можно добавить в книгу. Вы можете обнаружить заклинание волшебника на *Свитке заклинания*, например, и затем скопировать его в книгу заклинаний.\n>\n> **Копирование заклинания в книгу.** Когда вы находите заклинание волшебника 1-го уровня или выше, вы можете скопировать его в книгу заклинаний, если это заклинание того уровня, который вы можете подготовить, и если у вас есть время для копирования. За каждый уровень заклинания переписывание занимает 2 часа и стоит 50 зм. После этого вы можете подготовить заклинание как и другие заклинания в книге заклинаний.\n>\n> **Копирование книги.** Вы можете скопировать заклинание из книги заклинаний в другую книгу. Это похоже на копирование нового заклинания в книгу, но быстрее, поскольку вы уже знаете, как творить заклинание. Вам нужно потратить только 1 час и 10 зм за каждый уровень копируемого заклинания.\n>\n> Если вы потеряете книгу заклинаний, вы можете использовать ту же процедуру для переписывания подготовленных заклинаний волшебника в новую книгу заклинаний. Заполнение остальной части новой книги требует поиска новых заклинаний. По этой причине многие волшебники хранят запасную книгу заклинаний.",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_wizard-subclass",
+          "level": 3,
+          "name": "Wizard Subclass",
+          "name_ru": "Подкласс волшебника",
+          "parent": "bfrd_wizard",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Choose one of the following improvements (ability scores can't be raised above 20 with this feature):\n- Increase a single ability score by 2.\n- Increase two different ability scores by 1 each.\n- Increase one ability score by 1 and select a talent from the magic talents list.",
+          "desc_ru": "Выберите одно из следующих улучшений (этой особенностью показатели характеристик нельзя поднять выше 20):\n- Увеличить один показатель характеристики на 2.\n- Увеличить два разных показателя характеристик на 1 каждый.\n- Увеличить один показатель характеристики на 1 и выбрать талант из списка магических талантов.",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_improvement",
+          "level": 4,
+          "name": "Improvement",
+          "name_ru": "Улучшение",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_slots-3rd",
+          "feature_type": "SPELL_SLOTS",
+          "level": 5,
+          "name": "3rd",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your continued practice of spellcraft has honed your mind, allowing you to affix a limited number of spells—called rote spells—in your mind. Choose one 1st-circle Arcane spell from your spellbook, and that spell is now a rote spell. You always have a rote spell prepared, and it doesn't count against the number of spells you can prepare during a long rest. Casting a rote spell still uses a spell slot as normal.\n\nOver the course of 8 hours or as part of a long rest, you can exchange one rote spell for a different Arcane spell of the same circle contained in your spellbook.\n\nAt higher levels, you can select more rote spells: you choose a 2nd-circle Arcane spell to become a rote spell at 9th level, a 3rd-circle Arcane spell at 13th, and a 4th-circle Arcane spell at 17th.",
+          "desc_ru": "Ваша продолжающаяся практика заклинательства отточила ваш разум, позволяя вам закрепить ограниченное количество заклинаний — называемых заученными заклинаниями — в вашем разуме. Выберите одно мистическое заклинание 1-го круга из вашей книги заклинаний, и это заклинание теперь заученное заклинание. У вас всегда подготовлено заученное заклинание, и оно не учитывается в количестве заклинаний, которые вы можете подготовить во время продолжительного отдыха. Сотворение заученного заклинания по-прежнему использует ячейку заклинаний как обычно.\n\nВ течение 8 часов или как часть продолжительного отдыха вы можете обменять одно заученное заклинание на другое мистическое заклинание того же круга, содержащееся в вашей книге заклинаний.\n\nНа более высоких уровнях вы можете выбрать больше заученных заклинаний: вы выбираете мистическое заклинание 2-го круга, чтобы оно стало заученным заклинанием на 9-м уровне, мистическое заклинание 3-го круга на 13-м и мистическое заклинание 4-го круга на 17-м.",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_rote-spell",
+          "level": 5,
+          "name": "Rote Spell",
+          "name_ru": "Заученное заклинание",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you use your Arcane Recovery feature, you can choose to swap out a number of prepared Arcane spells with different Arcane spells from your spellbook—in addition to recovering Arcane spell slots. You can swap out a number of prepared spells equal to half your PB (rounded down) in this way.",
+          "desc_ru": "Когда вы используете вашу особенность Мистическое восстановление, вы можете выбрать обменять количество подготовленных мистических заклинаний на другие мистические заклинания из вашей книги заклинаний — в дополнение к восстановлению ячеек мистических заклинаний. Таким образом вы можете обменять количество подготовленных заклинаний, равное половине вашего бонуса мастерства (округляя вниз).",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_superior-recovery",
+          "level": 6,
+          "name": "Superior Recovery",
+          "name_ru": "Превосходное восстановление",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_slots-4th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 7,
+          "name": "4th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_slots-5th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 9,
+          "name": "5th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your commitment to the wizard's path grants you a powerful new ability. Choose one of the following heroic boons:\n- **Rite of the Ritualist.** When you learn a new ritual as part of gaining a level of wizard, you can choose it from any source of magic. In addition, you can now copy ritual spells from any source of magic into your spellbook. Any rituals gained in this way count as Arcane spells for you.\n- **Rite of the Source Master.** Choose the Divine, Primordial, or Wyrd source of magic. When you add new non-ritual spells to your spellbook as part of gaining a level of wizard (including the level you gain this feature), you can choose spells from the Arcane spell list or spells from your chosen source. Each spell must be a of a circle for which you have spell slots. In addition, you can now copy spells of your chosen source into your spellbook. Any spells gained in this way count as Arcane spells for you.",
+          "desc_ru": "Ваша приверженность пути волшебника даёт вам мощную новую способность. Выберите один из следующих героических даров:\n- Обряд ритуалиста. Когда вы изучаете новый ритуал как часть получения уровня волшебника, вы можете выбрать его из любого источника магии. Кроме того, теперь вы можете переписывать ритуальные заклинания из любого источника магии в вашу книгу заклинаний. Любые ритуалы, полученные этим способом, считаются для вас мистическими заклинаниями.\n- Обряд мастера источника. Выберите Божественный, Изначальный или Вирд источник магии. Когда вы добавляете новые неритуальные заклинания в вашу книгу заклинаний как часть получения уровня волшебника (включая уровень, на котором вы получаете эту особенность), вы можете выбирать заклинания из списка мистических заклинаний или заклинания из вашего выбранного источника. Каждое заклинание должно быть круга, для которого у вас есть ячейки заклинаний. Кроме того, теперь вы можете переписывать заклинания вашего выбранного источника в вашу книгу заклинаний. Любые заклинания, полученные этим способом, считаются для вас мистическими заклинаниями.",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_heroic-boon",
+          "level": 10,
+          "name": "Heroic Boon",
+          "name_ru": "Героический дар",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_slots-6th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 11,
+          "name": "6th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_slots-7th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 13,
+          "name": "7th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your knowledge of magic allows you to better assess the intentions and power of hostile spells and spell attacks, increasing your chance to avoid their effects. You have advantage on saves against spells and resistance to damage dealt by spells and spell attacks.",
+          "desc_ru": "Ваше знание магии позволяет вам лучше оценивать намерения и силу враждебных заклинаний и атак заклинаниями, увеличивая ваш шанс избежать их эффектов. Вы совершаете с преимуществом спасброски против заклинаний и имеете сопротивление урону, наносимому заклинаниями и атаками заклинаниями.",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_spellguard",
+          "level": 14,
+          "name": "Spellguard",
+          "name_ru": "Страж заклинаний",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_slots-8th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 15,
+          "name": "8th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_slots-9th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 17,
+          "name": "9th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You can cast each of your rote spells at their lowest circle once without expending a spell slot. Once you cast a rote spell, you can't cast that same spell in this way again until you finish a short or long rest.\n\nIf you want to cast any of your rote spells at a higher circle, you must expend an Arcane spell slot as normal.",
+          "desc_ru": "На 18-м уровне вы достигли такого мастерства в определённых заклинаниях, что можете сотворять их по желанию. Выберите одно заклинание волшебника 1-го уровня и одно заклинание волшебника 2-го уровня, которые записаны в вашей книге заклинаний. Вы можете сотворять эти заклинания на их базовом уровне, не тратя ячейку заклинания, если они у вас подготовлены. Если вы хотите сотворить одно из этих заклинаний на более высоком уровне, вы должны потратить ячейку заклинания как обычно.\n\nПотратив 8 часов на изучение, вы можете заменить одно или оба выбранных заклинания другими заклинаниями тех же уровней.",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_spell-mastery",
+          "level": 18,
+          "name": "Spell Mastery",
+          "name_ru": "Мастерство заклинаний",
+          "parent": "bfrd_wizard",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your commitment to the wizard's path grants you a powerful new ability. You gain the following epic boon:\n- **Archmage.** When you cast a spell of 1st circle or higher and that spell expends an Arcane spell slot, you can choose to roll a d10. If the number rolled is higher than the circle of the expended spell slot, you automatically recover that slot. For example, if you expend a 1st-circle spell slot, a roll of 2 or higher on the d10 means that you recover that 1st-circle spell slot. Once you successfully recover a spell slot in this way, you can't use this feature again until you complete a short rest.",
+          "desc_ru": "Ваша приверженность пути волшебника даёт вам мощную новую способность. Вы получаете следующий эпический дар:\n- Архимаг. Когда вы творите заклинание 1-го круга или выше и это заклинание расходует мистическую ячейку заклинаний, вы можете выбрать бросить к10. Если выпавшее число выше круга потраченной ячейки заклинаний, вы автоматически восстанавливаете эту ячейку. Например, если вы расходуете ячейку заклинаний 1-го круга, бросок 2 или выше на к10 означает, что вы восстанавливаете эту ячейку заклинаний 1-го круга. Успешно восстановив ячейку заклинаний этим способом, вы не можете использовать эту особенность снова, пока не закончите короткий отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_epic-boon",
+          "level": 20,
+          "name": "Epic Boon",
+          "name_ru": "Эпический дар",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "|||\n|---|---|\n|Hit Point Die|D6 per Wizard level|\n|Saving Throw Proficiencies|Intelligence and Wisdom|\n|Skill Proficiencies|Choose 2: Arcana, History, Insight, Investigation, Medicine, Religion|\n|Weapon Proficiencies|Simple weapons|\n|Tool Proficiencies|None|\n|Armor Training|None|\n|Starting Equipment|Choose A or B for each: (A) a quarterstaff or (B) a dagger; (A) a component pouch or (B) an arcane focus; (A) a scholar's pack or (B) an explorer's pack; plus a spellbook|",
+          "desc_ru": "|||\n|---|---|\n|Кость хитов|К6 за уровень волшебника|\n|Владения спасбросками|Интеллект и Мудрость|\n|Владения навыками|Выберите 2: Магия, История, Проницательность, Расследование, Медицина, Религия|\n|Владения оружием|Простое оружие|\n|Владения инструментами|Нет|\n|Подготовка доспехов|Нет|\n|Стартовое снаряжение|Выберите А или Б для каждого: (А) боевой посох или (Б) кинжал; (А) мешочек с компонентами или (Б) мистический фокус; (А) набор учёного или (Б) набор путешественника; плюс книга заклинаний|",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard_core-traits",
+          "feature_type": "CORE_TRAITS_TABLE",
+          "name": "Core Wizard Traits",
+          "name_ru": "Основные черты волшебника",
+          "parent": "bfrd_wizard",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Wizard",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Wizard",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Таблица: Основные черты волшебника\n\n|                            |                                                                                                      |\n|---|---|\n| Основная характеристика    | Интеллект                                                                                            |\n| Кость Хитов                | d6 за каждый уровень волшебника                                                                      |\n| Владение спасбросками      | Интеллект и Мудрость                                                                                 |\n| Владение навыками          | Выберите 2: Магия, История, Проницательность, Анализ, Медицина, Природа или Религия                  |\n| Владение оружием           | Простое оружие                                                                                       |\n| Владение доспехами         | Нет                                                                                                  |\n| Начальное снаряжение       | Выберите А или Б: (А) 2 кинжала, магический фокус (посох), мантия, книга заклинаний, набор учёного и 5 зм; или (Б) 55 зм |",
+      "glossary_version": "v1",
+      "name": "Волшебник",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

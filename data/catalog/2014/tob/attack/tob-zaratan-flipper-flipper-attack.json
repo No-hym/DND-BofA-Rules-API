@@ -1,0 +1,125 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "tob_zaratan_flipper_flipper-attack",
+  "id": "o5e:tob:creatureactionattack:tob-zaratan-flipper-flipper-attack",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creatureactionattack:tob2-timingila-flipper-flipper-attack",
+      "o5e:tob:creatureactionattack:tob-zaratan-flipper-flipper-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c7127f3cf737fdf5de1e9c9ba39e1337e92730d315ba68d89efa267b3a34dd53",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "WEAPON",
+      "damage_bonus": null,
+      "damage_die_count": 2,
+      "damage_die_type": "D8",
+      "damage_type": "bludgeoning",
+      "extra_damage_bonus": null,
+      "extra_damage_die_count": null,
+      "extra_damage_die_type": null,
+      "extra_damage_type": null,
+      "long_range": null,
+      "range": null,
+      "reach": 15,
+      "to_hit_mod": 18
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "c7127f3cf737fdf5de1e9c9ba39e1337e92730d315ba68d89efa267b3a34dd53",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-zaratan-flipper-flipper-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "1092e747fb23334c53d3c16b9f4dddd012730c9de05b2f0c26c93e6b1948692b",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-timingila-flipper-flipper-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "tob_zaratan_flipper",
+        "type": "parent",
+        "value": "tob_zaratan_flipper"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "WEAPON",
+      "damage_die_count": 2,
+      "damage_die_type": "D8",
+      "damage_type": "bludgeoning",
+      "name": "Flipper attack",
+      "parent": "tob_zaratan_flipper",
+      "reach": 15,
+      "target_creature_only": false,
+      "to_hit_mod": 18
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Flipper attack",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Flipper attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака оружием: +18 к попаданию. Зона: досягаемость 15 фт., одна цель. Попадание: 2к8 дробящего урона.",
+      "glossary_version": "derived-v1",
+      "name": "Флиппер",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

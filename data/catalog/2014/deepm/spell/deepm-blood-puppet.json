@@ -1,0 +1,175 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_blood-puppet",
+  "id": "o5e:deepm:spell:deepm-blood-puppet",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-blood-puppet",
+      "o5e:dmag:spell:blood-puppet"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "4ca05f0fffcd75cd5b576f2028134ef365be707b624a17829958f6b7d7e180b8",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a drop of blood from the target",
+      "range": 100,
+      "range_text": "100 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "4ca05f0fffcd75cd5b576f2028134ef365be707b624a17829958f6b7d7e180b8",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-blood-puppet",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "ae1fc6d87554fd325c084230475c259224f7fe217c9ec0a67d2506faabf94741",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:blood-puppet",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric",
+          "srd_sorcerer",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "desc": "With a sample of its blood, you are able to magically control a creature’s actions, like a marionette on magical strings. Choose a creature you can see within range whose blood you hold. The target must succeed on a Constitution saving throw, or you gain control over its physical activity (as long as you interact with the blood material component each round). As a bonus action on your turn, you can direct the creature to perform various activities. You can specify a simple and general course of action, such as, “Attack that creature,” “Run over there,” or, “Fetch that object.” If the creature completes the order and doesn’t receive further direction from you, it defends and preserves itself to the best of its ability. The target is aware of being controlled. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends.",
+      "document": "deepm",
+      "duration": "1 minute",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a drop of blood from the target",
+      "name": "Blood Puppet",
+      "range": 100,
+      "range_text": "100 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "transmutation",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2498",
+          "parent": "deepm_blood-puppet",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Blood Puppet",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "With a sample of its blood, you are able to magically control a creature’s actions, like a marionette on magical strings. Choose a creature you can see within range whose blood you hold. The target must succeed on a Constitution saving throw, or you gain control over its physical activity (as long as you interact with the blood material component each round). As a bonus action on your turn, you can direct the creature to perform various activities. You can specify a simple and general course of action, such as, “Attack that creature,” “Run over there,” or, “Fetch that object.” If the creature completes the order and doesn’t receive further direction from you, it defends and preserves itself to the best of its ability. The target is aware of being controlled. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends.",
+      "name": "Blood Puppet",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Имея образец её крови, вы способны магически контролировать действия существа, как марионетку на магических нитях. Выберите видимое существо в пределах дистанции, чью кровь вы держите. Цель должна преуспеть в спасброске Телосложения, иначе вы получите контроль над её физической активностью (пока вы взаимодействуете с материальным компонентом крови каждый раунд). Бонусным действием в ваш ход вы можете направить существо выполнять различные действия. Вы можете указать простой и общий курс действий, например: «Атакуй это существо», «Беги туда» или «Принеси этот предмет». Если существо завершает приказ и не получает дальнейших указаний от вас, оно защищается и сохраняет себя наилучшим образом, как может. Цель осознаёт, что её контролируют. В конце каждого своего хода цель может совершить ещё один спасбросок Телосложения. При успехе заклинание заканчивается.",
+      "glossary_version": "v1",
+      "name": "Кровяная марионетка",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

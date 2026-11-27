@@ -1,0 +1,1782 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "tob_dau_slam_slam-attack",
+  "id": "o5e:tob:creatureactionattack:tob-dau-slam-slam-attack",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:creatureactionattack:bfrd-animated-armor-slam-slam-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-awakened-tree-slam-slam-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-bloatblossom-slam-slam-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-clay-golem-slam-slam-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-doppelganger-slam-slam-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-earth-elemental-slam-slam-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-flesh-golem-slam-slam-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-guardian-naga-slam-slam-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-invisible-stalker-slam-slam-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-living-colossus-slam-slam-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-robot-drone-slam-slam-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-shambling-mound-slam-slam-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-skullbloom-slam-slam-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-stone-golem-slam-slam-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-treant-slam-slam-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-wood-herald-slam-slam-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-zombie-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-alabaster-tree-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-alchemical-golem-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-altar-flame-golem-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-armory-golem-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-bilwis-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-blood-elemental-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-blood-zombie-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-bronze-golem-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-cauldronborn-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-clockwork-servant-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-elophar-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-eye-of-the-gods-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-fear-liath-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-fleshpod-hornet-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-fractal-golem-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-goreling-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-grave-behemoth-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-keg-golem-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-lord-zombie-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-manastorm-golem-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-mold-zombie-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-mountain-giant-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-mud-golem-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-ring-servant-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-storm-lord-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-swolbold-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-vanara-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-vines-of-nemthyr-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-void-giant-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-war-machine-golem-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-wickerman-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-wood-golem-slam-slam-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-xenabsorber-slam-slam-attack",
+      "o5e:srd-2014:creatureactionattack:srd-air-elemental-slam-slam-attack",
+      "o5e:srd-2014:creatureactionattack:srd-animated-armor-slam-slam-attack",
+      "o5e:srd-2014:creatureactionattack:srd-awakened-tree-slam-slam-attack",
+      "o5e:srd-2014:creatureactionattack:srd-clay-golem-slam-slam-attack",
+      "o5e:srd-2014:creatureactionattack:srd-doppelganger-slam-slam-attack",
+      "o5e:srd-2014:creatureactionattack:srd-earth-elemental-slam-slam-attack",
+      "o5e:srd-2014:creatureactionattack:srd-flesh-golem-slam-slam-attack",
+      "o5e:srd-2014:creatureactionattack:srd-invisible-stalker-slam-slam-attack",
+      "o5e:srd-2014:creatureactionattack:srd-iron-golem-slam-slam-attack",
+      "o5e:srd-2014:creatureactionattack:srd-shambling-mound-slam-slam-attack",
+      "o5e:srd-2014:creatureactionattack:srd-stone-golem-slam-slam-attack",
+      "o5e:srd-2014:creatureactionattack:srd-treant-slam-slam-attack",
+      "o5e:srd-2014:creatureactionattack:srd-water-elemental-slam-slam-attack",
+      "o5e:srd-2014:creatureactionattack:srd-zombie-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-abominable-beauty-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-accursed-defiler-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-annelidast-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-ashwalker-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-berstuc-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-blemmyes-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-chronalmental-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-clockwork-abomination-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-clockwork-huntsman-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-clockwork-myrmidon-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-clockwork-watchman-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-clurichaun-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-corpse-mound-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-corrupting-ooze-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-dau-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-domovoi-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-dragonleaf-tree-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-elemental-locus-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-eye-golem-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-flab-giant-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-goat-man-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-hoard-golem-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-hulking-whelp-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-hundun-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-idolic-deity-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-kalke-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-lemurfolk-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-living-wick-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-loxoda-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-mirager-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-monolith-champion-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-pombero-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-possessed-pillar-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-putrid-haunt-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-ravenala-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-salt-golem-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-sand-silhouette-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-sap-demon-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-sarcophagus-slime-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-sathaq-worm-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-shoggoth-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-slow-storm-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-smaragdine-golem-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-son-of-fenris-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-tophet-slam-slam-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-weeping-treant-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-apaxrusl-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-bearing-golem-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-befouled-weird-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-brain-hood-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-butatsch-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-cackling-skeleton-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-caltrop-golem-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-cavefish-zombie-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-cherufe-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-chronomatic-enhancer-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-conjoined-queen-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-crimson-shambler-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-crystalline-monolith-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-fire-infused-water-elemental-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-fleshdreg-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-ghillie-dubh-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-harbinger-of-wrath-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-kelp-eel-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-kirikari-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-lava-keeper-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-magnetic-elemental-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-mangrove-treant-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-mountain-dryad-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-noth-norren-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-ogrepede-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-orphan-of-the-black-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-ortifex-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-peat-mammoth-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-pine-doom-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-righteous-sentinel-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-shiftshroom-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-sulsha-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-web-zombie-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-willowhaunt-slam-slam-attack",
+      "o5e:tob2:creatureactionattack:tob2-wood-ward-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-accursed-defiler-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-berstuc-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-blemmyes-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-chronalmental-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-clockwork-abomination-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-clockwork-huntsman-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-clockwork-myrmidon-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-clockwork-watchman-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-corpse-mound-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-corrupting-ooze-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-dau-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-domovoi-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-dragonleaf-tree-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-elemental-locus-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-eye-golem-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-firegeist-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-flab-giant-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-goat-man-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-gug-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-hoard-golem-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-hulking-whelp-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-hundun-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-idolic-deity-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-living-wick-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-mavka-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-mirager-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-monolith-champion-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-monolith-footman-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-possessed-pillar-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-putrid-haunt-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-ravenala-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-salt-golem-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-sand-silhouette-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-sap-demon-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-sarcophagus-slime-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-shoggoth-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-slow-storm-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-smaragdine-golem-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-son-of-fenris-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-temple-dog-slam-slam-attack",
+      "o5e:tob:creatureactionattack:tob-weeping-treant-slam-slam-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "ae2bb8140bb983e1e8e3084c110d507b8381e18adc7ab6c23e3afc2342d11cfe",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "WEAPON",
+      "damage_bonus": null,
+      "damage_die_count": 1,
+      "damage_die_type": "D6",
+      "damage_type": "bludgeoning",
+      "extra_damage_bonus": null,
+      "extra_damage_die_count": null,
+      "extra_damage_die_type": null,
+      "extra_damage_type": "necrotic",
+      "long_range": null,
+      "range": null,
+      "reach": 5,
+      "to_hit_mod": 5
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "ae2bb8140bb983e1e8e3084c110d507b8381e18adc7ab6c23e3afc2342d11cfe",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-dau-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "175e351b14a8989b05850ecf4a896b167c97725b0f074052d61ff8f69e898efd",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-gug-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "7b579a7d30ae0a618dfff48fe4744ba87bb91878408c36813437cdbef6ab9437",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-mavka-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "4757ee1bd2e8676e937e29c1b002761e8e1b5aa88b6d46c437282ca4ea302261",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-hundun-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "4a62c7b8a32edc3cef309d0e345b2b5b5607bfb0eeacdf954f32ed2f3907cb6d",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-berstuc-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "837fc03c97c1fe527ee017adfccb48424c82c48ab300f07277a7062ad28de4a6",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-domovoi-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "7e780a2bf23b567c6111a8448e797c4e42de247acf9d7d64fe1cdf7cf5d5ef7d",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-mirager-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "13089895b8b2d4875f21715288689943e67f81961803d283f48518eac32e1b7a",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-treant-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "c7b2b1c3fc092b239a633e43b1b5ff534197e7b1097d29b25e045e67f6769394",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-zombie-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "6f4ec08f2cfb38e1cab094c3e02871b0444d8e01b4eaee76b4bee0c476e099b2",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-bilwis-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "3098fe40e28d13cf420c5f81a1d4e3cebe1f9b64c86e2a748e2fb9892731f175",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-vanara-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "9d83e1e56ebfb56509f0f1f2ada8a5baab2bcfc6e1bade47036e3f9084c21984",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-sulsha-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "3ceff25476d5e8b7bea8e7dd89cacec40417cffe4dfdff4731dac04879889fd1",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-blemmyes-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "1f7a2b4e060038a5362db2309cfb947f5865d138d628bf5d8d0c29414ad0f8b6",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-goat-man-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "1d5d9f75299b798f8b77b460effd6b951c09e7c7a5f9a08eb217cec972b921fb",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-ravenala-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "e24ef5ff0bf45b2e2de8cf623b53e3272b135ace9c69e1560ac6363df1187edc",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-shoggoth-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "72a8a05028c65d9d66788c55a345561b33e25e72bf88eb7601f032b32942113b",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-elophar-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "338928e1935093ab0914e720a632cb404a4e4f8f7c9f13ab3604e34a3ef402eb",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-cherufe-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "83979b28f61ce3d473cf194ca5d8102d1be71dac05a177de765f6487edba88bd",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-ortifex-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "7753e3b51ec1198140ee21f10efcfcc934bfc603855b9c48a8a27f2c645ce2f8",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-eye-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "08928c3cadff5ce509a015eca1a3fb7949663494396e74bdbfd109f0399c85ae",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-firegeist-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "40772ae08e477675f286b882eea6e7ad7ff3951c288089e5f6b0bf5468bafc45",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-sap-demon-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "dc9785dc0b15f87ac13746fd483e2d446ed6a57df0353fc12cd2854cf5953358",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-goreling-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "6602a2f9d14db168ff8eedbe079ce1a9ef260751a276c8dd712b9c8612727dd2",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-swolbold-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "82e4fa7db470fc981e8dd7700c7eed6edd43238d15ba3f662a5d35e46b91b75c",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-apaxrusl-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "1b10ab8f769a5d71f565b182d959f883ef2681da9d44d28993f8641946a4d41b",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-butatsch-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "2c398136531bc3497ba0dea7dfe3372ffd059987920336a607579d32a62db5d5",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-kelp-eel-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "88e563e60cf1c8dc62c3bb4d69e5fa52f2261ac1656982d2bed633c91d8ecae5",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-kirikari-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "107b069e15aadd5d72f88cc5740658b9f98618eecdf01379ec35e1b495dc2e08",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-ogrepede-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "ccd072a167eade8809a025a4e80be1862de3e8ff7c7c2db7083883548076c363",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-flab-giant-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "bb0fc92b5c04dcccf9de8c229772724c5821ede5bf409063931ff56105fe7724",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-salt-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "3c8ba7601f52b429fa70d40f982fad0d35387625acc98eacbe9a9cd5dd3d428b",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-slow-storm-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "d4bed2f957413d1099646f9d86accf69f1ec019f08811b3016c6ddcfee8843d3",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-temple-dog-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "7298d2b6de8dc5b07ca27fb639b9029a1a718ab1bc96bde408279a2e3926000e",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-keg-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "cf7fe38126f51839cc2c419f39937b8fde7aa2cc69dbdb5b591b81b7cb5421ad",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-mud-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "df17fcd23e616a8761473a79b89b15a4f1d7fc79ed55ac1a95ce618bbbca540c",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-wickerman-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "af49fce48885c5ba0e31549420ac71ba62599a9bdca2b1bb8bd764b5d4a50a4e",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-treant-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "8d86c51b701b53eced2084927f4f319e8b59397a6df3e0b3e338c6be318f930e",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-zombie-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "855c31b8f6621efb0c45225a57c24a1829b78e97079ab11cd68b57073772b6d1",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-fleshdreg-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "b59babb2d60a3c6794b4021e2ada6d236b12288f416c220ea2db34d04e14d236",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-pine-doom-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "b32a38257983fc03b2e8815da9d4fd1a64f44827dd7a7252f6847e8e978445c6",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-wood-ward-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "01d5133868ab6bf8a1a2544e125ac5f7a1558f81f37f63f56c7cf1d8f531f962",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-hoard-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "274a3d2eb42bb1043b58c5609d1c36cfecdaf74a7e42dbf69e0ec4780bb8f86f",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-living-wick-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "d36197d8788f365199eb074f6f5d49a38336982b9b90b6aa9872112b1cdcfb14",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-clay-golem-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "f446c2480ed03e8d7c78d53cd045000910fc5bdda5520cf649549386e0aa2b8a",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-skullbloom-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "560367d4f662be8a5a76feb1e70aac0d78eddda0a672e9f20dc872568a638f27",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-fear-liath-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "2ad8064b3104db9cc4b88e2f5c00ea160aaf001b01b19b103330ffb675452910",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-storm-lord-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "3a5bf9f826a3fcb44d464a60712b784cd1fbd3e6f94a111ba7e59c103d9468f0",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-void-giant-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "1ae2226a056355232714e13ca7073ff98137e0f6e106582715336dea2ed85718",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-wood-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "da0bc93064881043a4325d38fef7aac3e027afabb584c570362e35b1b3ccc0f6",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-brain-hood-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "7cd2c80a82b7a87e83280c7d5fecef7442ff5c03be9ff1fac68c7a31f7df301a",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-web-zombie-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "51a4dc29a58c47fc12c9862eb2c3ccca4f48451e7f2b701cb9d3e7ca0a79c64f",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-corpse-mound-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "76aa9b57c236984e96e32626123086a4c28038abfca96b75ff869154274270e6",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-idolic-deity-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "8feb512e241d9a64af37a46de70cdca70f4eb39b6df5dd247ca8979c3ef31eae",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-putrid-haunt-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "96e3c478c5435aaae4b7d30eb992aff0631b30f6d43550dcbc0d5f509c1f58bb",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-flesh-golem-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "d75428c8226fc0a19a2849ad773aa5dc854281578c6f891e5ff750db1c3d59c1",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-robot-drone-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "f6381a3ac63a7cb971a0fc71ae204973e49e625a5f2ad4cf2d98ac07751e3f8a",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-stone-golem-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "bcbf436be5859f67b444fba0331c3f18ade50a44741cf6036a43831d6de81a01",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-wood-herald-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "17d06811ef7633294a4c7283e55f1a54ee60d2b42bfafb98ffc3af6ea945e672",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-lord-zombie-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "649140527287095a5c02880f935bb9317192c2ecebcbd0cfdecb5be0d9e21a23",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-mold-zombie-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "9b9ba473cbd6db4aeb8eb93d1a711d49fdb57cdb67914d0814864c2cc1c60417",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-xenabsorber-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "8a7c71565e779c59310f162ff7d698013e748c397ad98fcabcf9d6ff9853b02d",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-dau-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "57073adb4cea1f6db7c7cc2a574872ea4a486f2b2949433b747512b86c632bd4",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-lava-keeper-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "2feec36c256129c2aceedb40b796b88bac2ce8dfd28f996dd37a69acd10654e5",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-noth-norren-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "22ee246b8390d62c05db1cad63a306c0964417a0df0c4369dbfebdbf3ca68e68",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-shiftshroom-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "f345ee49715f2b79495f6cbf99827eed8430edc3734f8b3ca081d32c06abed95",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-willowhaunt-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "c75360f654f39bb814a6cec98bf5b0f0c963ff392d73ec8c568b0faf45e3f85c",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-chronalmental-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "b1f5ce3a311a65a34fa4ecc53339ef39a05875468e0810fcd3d27476443634be",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-hulking-whelp-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "5ab2467b8ded8cfdaad5b7f90ca9fd3c339c7fa42e2c91a34d090198fbece7dd",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-son-of-fenris-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "b5aa0c716ca039a67be18768a62bc16edecf77f06aab3ede3eb21658647f12cc",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-bloatblossom-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "f252e9831e67c41ee1e000a14104238e161098d29efe1d791c7114df239b1b0c",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-doppelganger-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "eea93194f961fc768c9694b7cb602510bcbaf5290f468f2fbd7eb4482436b990",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-armory-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "bfaccae98c37125ee922cb1d2a790636c0f8a995f56fff0f645ed64c0fdda1bc",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-blood-zombie-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "55e4c1d372c7e6831dd891c83c08a0d15eb11ff4a850319d9f5cd67770ea53be",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-bronze-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "e77a8a53aa0d2fe245d2511fa30cbc2bf7ce267c2f505fab890d3d1756ee162c",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-cauldronborn-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "b98dadf7e9a7bfbaaa98fdd68a63e8dc62d725e0b1a513e9d0b533b01d1491af",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-ring-servant-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "dcaa8f563faac59a0db138c0c957f07e8a97735dd77fa6fe0c60be489a33e482",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-ghillie-dubh-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "4967670108c3dd9f96a4095845b71f85009760d124fda6069ace619ef5d4a86b",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-peat-mammoth-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "d5b0998e3eb54c2a3d9b2b1e5e71fd6f8fb7f2b20835101f677f7c513c5def41",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-weeping-treant-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "5733a9a60605ff798bfcf6ea62d55b7087f9dd0f86494dd85dbfee3152b27fe0",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-awakened-tree-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "e34fd13d7df46c9238272d2561474cfa3e7ad8680b8589d05ec2fcac7566bd7a",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-guardian-naga-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "137f5f50edc09a6c9e2f77bfc1df3f6ec7272dde1a5e997856f73eed4bef1e62",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-fractal-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "67fe051333978dbf791cb9abef1822a34dfa6078c39b9bfc554f2b6325eb51ff",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-clay-golem-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "203c37f87dc46797314b4d7a1f8d62c26e3fca2a27581d0212fc76ed640663f5",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-iron-golem-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "86c62b4c6a74d782e20ba33d7c13d8a57e8b51e5c7e378d818d7d2847472310f",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-kalke-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "63e81de96d0451224224b2c671ec1ffcebeb3abe4cbcec5e2e353187a0db4887",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-bearing-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "0d834b409909f6132b303a8057de6083c1f423b7b582db675fc95d3290dc4c95",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-caltrop-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "080a0e37530dc5a9659317efc43d91233c1841d48d895632b4373dfef66d2a67",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-corrupting-ooze-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "aa2eb466951fe042f293c0f95e47c6f784e55bbdc2053674e92126d98ffa7f01",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-dragonleaf-tree-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "dbd782fd379cc523988d30a6286ecadd1c66300be8a7a018a1dad27a4d5a778c",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-elemental-locus-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "68d7ca638a69492077eba6c67ee43225053cd31a51495860972c573edb6b8df5",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-sand-silhouette-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "bca43bf3ef11f008f5df515b2f212449a51cef925c1cc0a5c1cb773a9d485b66",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-animated-armor-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "44e48b363a16d3ef19ebad8afcbbc649ce889bfdbe29e21f091e825e1861c458",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-alabaster-tree-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "cca2636394eb1d883064debf8df232a175932584c84516961ecd1806345825f9",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-grave-behemoth-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "35a0fc6c5d898432ad7b0d435f4da6e6b0160c5547bc2ac549db45ba6ae31fee",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-mountain-giant-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "550f6c0e721b473a25e50d4f497b20b1e4902817c8bbae6f9446aa072dba409d",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-flesh-golem-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "7231b783bc81927568c0afdab2a4a2510b209c61f0d5b79477ac6229daf3bd6e",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-stone-golem-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "899d9c7b9f3e8dcdf4e27ce2197f79b8f0570a900369f74560bfb1ccdd8f551c",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-hundun-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "d17c888fc70f4ae717e6f7f193903753dbd70b0b43087f589068e4d93e53b4b8",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-loxoda-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "99e8f86f9ee49a1b57ecbf6e23c4549ae12b53029ddb9d7411f413d7f3ad0422",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-tophet-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "96b5a2f8fe5fe969b99a4438400df98bf3cfec675cc6c13d1d9804689c6e8b32",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-befouled-weird-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "f83020f60a7f0ed2b10a74c9b02c36a2936a84045067cdf4b438bd3fd76a1a18",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-mountain-dryad-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "26f652e55e89a31c5d49abce770d489484d3fe052c482d8500914196130c6f7f",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-accursed-defiler-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "eb34f157c5edddf55a37b861dee1ba1867158e79c586a8319a618f73837be78d",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-monolith-footman-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "abed1a3d174a8d8c5be62a92755c58522ea2a03af6c68af836b4200adc69533e",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-possessed-pillar-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "2aad22cb631ae5f4ce7c3eda4c41e3d5d8732576e291bf1de6627f9da3becffe",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-smaragdine-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "ea739ab82717e21a446b36a1596d67c3bc67ebbad603c6b9e1bfa94b0cc95e4a",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-earth-elemental-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "80e95d5677b40cf4692406180d33108bcc0ef3f73139e231ddf21cdb6ee7d465",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-living-colossus-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "02734d752552560a1fb376b87abefe98a44688780eb109b8a34f8ef96cfa06dd",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-shambling-mound-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "388e9d35a235f070638ea52d5eb6ce57886ed01d2a5c3f241c6fcb35fd757c3f",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-blood-elemental-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "b11ea2e6c0321dc3102382f3d305b3998aea1eb82684770837b2e7ccac960dfc",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-eye-of-the-gods-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "de94357eb22aa19e66274408f803548dd6dfde5b8a05d59f85deebbcf9adf6ff",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-fleshpod-hornet-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "29459f45351efaf20699d6ac1085a98a4128059454d4fe25ae11d5a54cd67797",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-manastorm-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "bb528853e82e8abeef3fe0d5e961b3047fee986ecb1b98f67a98b49c90e0216c",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-doppelganger-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "5b724ed8cbdbe74d6b56ceb66ed5ddeda4b1b5dc38ddfdebc808a491911d431f",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-berstuc-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "18aeb4deb22296cac86d2a4bdf2d35253ff91f40baf99d72bcac9c91dee22dc0",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-domovoi-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "483896d010f9df71387ab46f3ed8359a9079f96f9ccec60077150c43f2dce526",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-mirager-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "0fbcabc00ddb53ad2cdb5b58a804c87f322534286ea6b28b06ef07e6b7399705",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-pombero-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "d758e81ff7840291145eea0075977c3c460cc8a8cedc80bd6d8196a16d0b9699",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-cavefish-zombie-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "2831f4a5e15c74509af29c95618149ee6e978ba4f77ef171bb0ebd82825770bb",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-conjoined-queen-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "bd9ef0598ef5c1dbe5cf2f4d1013554c090f8765b1a2b017e2222c607b113d2b",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-mangrove-treant-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "c2f9a7d27a4052336c7bf8f561ad427a2e24dc9dde66e848fe2fc4297c4bce91",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-monolith-champion-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "1fe1276e8659a5397195ed92c8650f2f2189ec0c95f4adb43c7c46971e621d65",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-sarcophagus-slime-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "31a160383a222f869b42de8fdff48c508c018e820b08530c23aacff6986a32a0",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-alchemical-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "3da488254faf419fae2c62e62937bf3f01f9ad7c7dd417af62d4cbb82499a1bb",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-vines-of-nemthyr-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "3de58ce1a16ae02ae4cca7306839fb9ff28d75af9e81b55768dcce07d9689fbd",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-air-elemental-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "0a9da745515b27bedebf3e799caab5552d6d164b1a1e8f8da6f8bcbaaaa11f55",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-awakened-tree-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "3ce5ec6eec521ffd0f50f192bc37c7971954ce34f96967f7a1419d39049445b3",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-blemmyes-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "6625fa00a4a7eea712fcf0f8bec6b074e29a9b88cd4d61234a93472ffbcda2a1",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-goat-man-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "02c66c3ed38ff4de8a262de80c4268001b5c7ca960719fdc2f7ede4290ed88f0",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-ravenala-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "cccce8b0d884bd138f84c4bb208bc0f22199b6d30fc5a5e17b32b52b32e70c7c",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-shoggoth-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "36106ded26a805048e33b7ef3f0c55ddea6ca844b683ad56241cb1db4153c0a5",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-crimson-shambler-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "6d72540d6ce3be5493ca0c3afcb1f998ad8c94685977ac82915735260405809a",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-clockwork-huntsman-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "2d0e4b07407b6ca9f5a825e0d5fe29e1f0c7aa1c9d43a458de6a341023222e6e",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-clockwork-myrmidon-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "7a88fe4a64e0e703d72f8418448d51ae08f7690ba8c74d793d4b9752db235e6c",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-clockwork-watchman-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "b14af275baa49f43813e879965dd1cde909389eeaa8ac1c158aa4ac5161e4d47",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-invisible-stalker-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "ce09790ae1a922b71e26bf690f008cedd80c1666470c1df60072b670603162d0",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-altar-flame-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "dac79dc32c590300038d8ca8f5fe799c8e37d1fce79ae6c9a7279c8e015539ae",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-clockwork-servant-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "aeddef84a70120a5482fc6ad33c2e61d8ff11456a94ea6be025bf6d85c882d82",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-war-machine-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "4c2fc12568a5f7c82a047bb68d26151c5aa826a108336faa93efa1eb031810e7",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-animated-armor-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "a5309cf95a6cca4a6e54b34ebcd2eb278ed949872d38c01fe731436832c73014",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-ashwalker-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "19c69ff25e0e75ccc5923ca625de63d26eb92ab746591dae8bb03094c455ad20",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-eye-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "392386e84b948e190d5706f66088bd70865f8767e119ef792833fd9c620a8181",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-lemurfolk-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "22804b58ffb023649034f69534fe04dfb48d6e7e3b931c704a940535f1fd0065",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-sap-demon-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "ede045c5fadbf081082369978b9e3769e2b9f10bc4bde46f07305612f89ae54e",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-cackling-skeleton-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "8831f11bc13e86f766020c341485a1c9d8afbb4110a0296344b9f6862c48daf8",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-earth-elemental-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "64cb22f8cf641be8a308118ac75f753afc9d16b93417ab19e51004fa944b1de8",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-shambling-mound-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "e07ecd498dac961b71e90044f777f5795f219e55b0d958193722b0fe5c0bb9f8",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-water-elemental-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "d3310114557f88eca0e41c84abe8480d50026c36e1812de8c1aa1338c8f4ec32",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-annelidast-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "5c004c4ce3761743223069a5bd5794b355deb1b6a3b5f9f75eb557ce162d52b4",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-clurichaun-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "663762c7c8fc0bc5f9298021932ab9325292330cc0257bb2efb74742bc61e822",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-flab-giant-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "814c217e997c6e900a03abf95e0f393c41ba718141f325cf0767bc9d1134838c",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-salt-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "780ee5013cc84e6a31d371d0369a7fb20f1d2a751944c088095b6970fb3e45d6",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-slow-storm-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "7f5afd0d5d61619a0cf3361958da07cd117258a4bcd56b736beba2351f12a447",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-harbinger-of-wrath-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "7a9ad918ca1a146f20480ac168108e78138a27ca4b21add3413a515b017ada9b",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-magnetic-elemental-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "bbe5f5aaf646d05d6dff2ff866cc7a7bfc1bb84187e30bbfaf4d136dda1b3a60",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-righteous-sentinel-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "74ce824938856b8657794b739c3db486b15f5753b9c3b053e6d0e0542a37f4be",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-hoard-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "943ac26131e0758d8270fd39acd530e0d409623ea3918c96f60a8a7c1c50819b",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-living-wick-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "7522e0bfe3ff60b5d73e51bca9fb77ffccc8fd311060a7ea7cde1f22882491ac",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-sathaq-worm-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "4b73a0c7db8e518b1a90e37874ce9080cccaa4e0db39a7c676fdb7e44af807a7",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-orphan-of-the-black-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "7b4c8d95abc86ede35809a0612b46f04cb6d906ade871a6d7b34738dc9480e2a",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-clockwork-abomination-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "a85dc95816259b854f07aaf855803e67588568289fa1ff55f2a6f79160001a75",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-invisible-stalker-slam-slam-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "d2c7047e14f42542be536177dc61d30be18a07588dc29463678c81acc1d6f370",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-corpse-mound-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "285814b0f212534ab117f9210d119a45a8a7e5cbaaa3b175123b45777a089e1f",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-idolic-deity-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "9fd642802d89c8d33e0c3f5d728480b0fb2523a9772bea9454e0e72cc4cc766c",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-putrid-haunt-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "89e19d62c33c3bf6d279c687226d6596ebfc73387983a9d25156f87818bf1f63",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-chronomatic-enhancer-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "828bc95e95f989ba57f2313d01f90c92863e15b8314fe2054fd63c7203ce8836",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-crystalline-monolith-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "59388ab1ecd6757875a7bc2915ca49ed25eab3862a95b4a08544ba1ebc9be1bd",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-chronalmental-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "3895942bd1efe7f2873f57465b5552e5ac0d2255fc76ae9723f9c13d94de9eb6",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-hulking-whelp-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "4ac972b92e573df1b29f73c181673a8e08bec2ef323d3fc7a8ba56f0995a470d",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-son-of-fenris-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "b8d6ea1e194625b67343294b299d6988863952f40b32b2c8540caafcc52e12f2",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-weeping-treant-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "e106ce330a00bf000e3a81d47f136975a2a137a2ab19f30927fd635cb2f364a3",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-corrupting-ooze-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "18017e594c8d9a186f2884c5ada243571eac23373223a6bfdc70a62bb624f856",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-dragonleaf-tree-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "eff3a545a65ad657c42daf197a87d2291d548043a55a4faccbb2666431f9c129",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-elemental-locus-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "0cafbad7acb8c31d04cab1d9ebd767d14b706144f99dc9fe892092a911323005",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-sand-silhouette-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "c886922b1ef896be255dacfaf37757ab90407dfc1e94c22b629be59090ee7030",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-accursed-defiler-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "b77d7a19ed5b0bf15ddac2b33ae71534d730f2d544caf5065b5bde4a817d9b38",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-possessed-pillar-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "6dc2d120a5414f248d649f895eeffbed4f537a9bf8f7fd9c7e79a94b19f323d7",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-smaragdine-golem-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "be7e74d5640337b71c766f17bf9f7bc79e446f14a5c14aaf4c8e9f8efd8851a5",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-abominable-beauty-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "481ce7abc2f81db0ab00089edd59af4f7d1d2dbbc11073289c9f2d67ae78ea1d",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-monolith-champion-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "fe16198a78ee62843af49aef7a32054608ee59753f00570acd4900d920ea2cd5",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-sarcophagus-slime-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "2f4d01b6b8de66b6cf2489ec397474fef111ab86b2a7258bb599ea5ca0943bb7",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-clockwork-huntsman-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "a376c82dfb925456a5f9f0b42c9b022ea51b2d1b2daf2ad3ebca787ee4f298ec",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-clockwork-myrmidon-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "66c27a79f3b1cd2b4f4645ab635bbd37a1e171d372b24e99483403653be5ac1f",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-clockwork-watchman-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "930a7dfc94dc154ede72365c59b8fd1bbb17d6168180adab4c61631f67d83aaf",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-fire-infused-water-elemental-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "c8a8c26b4c072f499be9aef22fc04247a3a2ff9238dc933ce2d1338c3d7268c2",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-clockwork-abomination-slam-slam-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "tob_dau_slam",
+        "type": "parent",
+        "value": "tob_dau_slam"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "WEAPON",
+      "damage_die_count": 1,
+      "damage_die_type": "D6",
+      "damage_type": "bludgeoning",
+      "extra_damage_type": "necrotic",
+      "name": "Slam attack",
+      "parent": "tob_dau_slam",
+      "reach": 5,
+      "target_creature_only": false,
+      "to_hit_mod": 5
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Slam attack",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Slam attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака оружием: +5 к попаданию. Зона: досягаемость 5 фт., одна цель. Попадание: 1к6 дробящего урона.",
+      "glossary_version": "derived-v1",
+      "name": "Удар",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

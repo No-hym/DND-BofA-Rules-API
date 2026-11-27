@@ -1,0 +1,197 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_command",
+  "id": "o5e:a5e-ag:spell:a5e-ag-command",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-command",
+      "o5e:a5e:spell:command-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "8d925b0c73159679b2f28b9dd9402747201380f5cd4710cb5871dd3f7436698f",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 round",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "8d925b0c73159679b2f28b9dd9402747201380f5cd4710cb5871dd3f7436698f",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-command",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "2c80383f9c543853e1967d861213bac2c4f03b2dc671c082e26a05608d9bcad4",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:command-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "You only require line of sight to the target (not line of effect). On its next turn the target follows a one-word command of your choosing. The spell fails if the target is undead, if it does not understand your command, or if the command is immediately harmful to it.\n\nBelow are example commands, but at the Narrator's discretion you may give any one-word command.\n\n* **Approach/Come/Here:** The target uses its action to take the Dash action and move toward you by the shortest route, ending its turn if it reaches within 5 feet of you.\n* **Bow/Grovel/Kneel:** The target falls prone and ends its turn.\n* **Drop:** The target drops anything it is holding and ends its turn.\n* **Flee/Run:** The target uses its action to Dash and moves away from you as far as it can.\n* **Halt:** The target remains where it is and takes no actions. A flying creature that cannot hover moves the minimum distance needed to remain aloft.",
+      "document": "a5e-ag",
+      "duration": "1 round",
+      "higher_level": "For each slot level above 1st, you affect one additional target that is within 30 feet of other targets.",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Command",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "enchantment",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "823",
+          "parent": "a5e-ag_command",
+          "type": "default"
+        },
+        {
+          "external_id": "825",
+          "parent": "a5e-ag_command",
+          "target_count": 2,
+          "type": "slot_level_2"
+        },
+        {
+          "external_id": "826",
+          "parent": "a5e-ag_command",
+          "target_count": 3,
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "827",
+          "parent": "a5e-ag_command",
+          "target_count": 4,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "828",
+          "parent": "a5e-ag_command",
+          "target_count": 5,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "829",
+          "parent": "a5e-ag_command",
+          "target_count": 6,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "830",
+          "parent": "a5e-ag_command",
+          "target_count": 7,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "831",
+          "parent": "a5e-ag_command",
+          "target_count": 8,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "832",
+          "parent": "a5e-ag_command",
+          "target_count": 9,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Command",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "You only require line of sight to the target (not line of effect). On its next turn the target follows a one-word command of your choosing. The spell fails if the target is undead, if it does not understand your command, or if the command is immediately harmful to it.\n\nBelow are example commands, but at the Narrator's discretion you may give any one-word command.\n\n* **Approach/Come/Here:** The target uses its action to take the Dash action and move toward you by the shortest route, ending its turn if it reaches within 5 feet of you.\n* **Bow/Grovel/Kneel:** The target falls prone and ends its turn.\n* **Drop:** The target drops anything it is holding and ends its turn.\n* **Flee/Run:** The target uses its action to Dash and moves away from you as far as it can.\n* **Halt:** The target remains where it is and takes no actions. A flying creature that cannot hover moves the minimum distance needed to remain aloft.",
+      "name": "Command",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Очарование 1-го уровня (Жрец, Паладин)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В\n\n**Длительность:** 1 раунд\n\nВы произносите однословную команду существу, которое видите в пределах дистанции. Цель должна преуспеть в спасброске Мудрости, иначе последует команде в свой следующий ход. Заклинание не действует, если цель — нежить, если она не понимает ваш язык или если ваша команда причинит ей прямой вред.\n\nНиже приведены типичные команды и их эффекты. Вы можете отдать команду, не описанную здесь. В этом случае Мастер определяет поведение цели. Если цель не может выполнить вашу команду, заклинание оканчивается.\n\n**_Подойди._** Цель движется к вам кратчайшим и наиболее прямым путём и заканчивает свой ход, если оказывается в пределах 5 футов от вас.\n\n**_Брось._** Цель роняет то, что держит, и затем заканчивает свой ход.\n\n**_Беги._** Цель тратит свой ход на то, чтобы удалиться от вас максимально быстрым доступным способом.\n\n**_Падай._** Цель получает состояние «лежащий» и затем заканчивает свой ход.\n\n**_Стой._** Цель не перемещается и не совершает действий.\n\nЛетающее существо остаётся в воздухе, если способно это делать. Если оно должно двигаться, чтобы оставаться в воздухе, оно пролетает минимальное расстояние, необходимое для этого.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 2-го уровня или выше, вы можете подействовать на одно дополнительное существо за каждый уровень ячейки выше 1-го. Существа должны находиться в пределах 30 футов друг от друга, когда вы нацеливаетесь на них.",
+      "glossary_version": "v1",
+      "name": "Приказ",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

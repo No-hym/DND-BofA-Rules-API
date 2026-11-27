@@ -1,0 +1,202 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_closing-in",
+  "id": "o5e:deepm:spell:deepm-closing-in",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-closing-in",
+      "o5e:dmag:spell:closing-in"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "aec3972e9101fc56a791cfa77982200820abb96b3c0258089cf1c5b4398a6a78",
+    "formulas": [
+      {
+        "expression": "2d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "psychic"
+      ],
+      "duration": "1 minute",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "illusion",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "aec3972e9101fc56a791cfa77982200820abb96b3c0258089cf1c5b4398a6a78",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-closing-in",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "8be28bcd4396f6ffa6e329519ae2cc8a4cb12b4cbbe199bf3c0c5c985fd764de",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:closing-in",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "psychic"
+      ],
+      "desc": "Choose a creature you can see within range. The target must succeed on a Wisdom saving throw, which it makes with disadvantage if it’s in an enclosed space. On a failed save, the creature believes the world around it is closing in and threatening to crush it. Even in open or clear terrain, the creature feels as though it is sinking into a pit, or that the land is rising around it. The creature has disadvantage on ability checks and attack rolls for the duration, and it takes 2d6 psychic damage at the end of each of its turns. An affected creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "name": "Closing In",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "illusion",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2773",
+          "parent": "deepm_closing-in",
+          "type": "default"
+        },
+        {
+          "external_id": "2775",
+          "parent": "deepm_closing-in",
+          "target_count": 2,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "2776",
+          "parent": "deepm_closing-in",
+          "target_count": 3,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "2777",
+          "parent": "deepm_closing-in",
+          "target_count": 4,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "2778",
+          "parent": "deepm_closing-in",
+          "target_count": 5,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "2779",
+          "parent": "deepm_closing-in",
+          "target_count": 6,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2780",
+          "parent": "deepm_closing-in",
+          "target_count": 7,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Closing In",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "Choose a creature you can see within range. The target must succeed on a Wisdom saving throw, which it makes with disadvantage if it’s in an enclosed space. On a failed save, the creature believes the world around it is closing in and threatening to crush it. Even in open or clear terrain, the creature feels as though it is sinking into a pit, or that the land is rising around it. The creature has disadvantage on ability checks and attack rolls for the duration, and it takes 2d6 psychic damage at the end of each of its turns. An affected creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "name": "Closing In",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Выбрать существо, которое можно увидеть в пределах дистанции. Цель должна преуспеть в спасброске Мудрости, который она делает с недостатком, если он находится в замкнутом пространстве. При неудачном спасброске существо считает, что мир вокруг него закрывался и угрозал раздавить его. Даже в открытой или прозрачной местности существо чувствует, как будто он погружается в яму, или земля поднимается вокруг него. Существо имеет недостаток на проверки способностей и броски атаки на время, и потребляет 2к6 психического урона в конце каждого её хода. Пострадавшее существо повторяет спасбросок в конце каждого её хода, завершать эффект на себе на успех.",
+      "glossary_version": "v1",
+      "name": "Смыкающиеся стены",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,140 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "mi-go",
+  "id": "o5e:tob:monster:mi-go-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:mi-go"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "a3db25d5bacc6cbb18caa9e15b2a3a011df054af6c0d8036fa766b22ad4b9b96",
+    "formulas": [
+      {
+        "expression": "8d8+40",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral evil",
+      "armor_class": 17,
+      "challenge_rating": "5",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "radiant, cold",
+      "damage_vulnerabilities": "",
+      "hit_dice": "8d8+40",
+      "hit_points": 76,
+      "languages": "Common, Mi-go, Void Speech",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "a3db25d5bacc6cbb18caa9e15b2a3a011df054af6c0d8036fa766b22ad4b9b96",
+        "edition": "2014",
+        "id": "o5e:tob:monster:mi-go",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The mi-go makes two attacks with its claws.\"}, {\"name\": \"Claw\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) slashing damage, and the target is grappled (escape DC 13). If both claw attacks strike the same target in a single turn, the target takes an additional 13 (2d12) psychic damage.\", \"attack_bonus\": 7, \"damage_dice\": \"3d6\"}]",
+      "alignment": "neutral evil",
+      "armor_class": 17,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "5",
+      "charisma": 13,
+      "charisma_save": 4,
+      "constitution": 21,
+      "constitution_save": 8,
+      "cr": 5.0,
+      "damage_resistances": "radiant, cold",
+      "desc": "_Mi-go have been described as “vaguely insectlike,” but the emphasis belongs on “vaguely.” They have stubby wings, multiple limbs, and nightmarish heads, but the resemblance ends there._  \nThe mi-go are a space-faring race of great skill and vast malevolence. They travel in large numbers between worlds, somehow folding space to cover astronomical distances in months rather than decades.  \n**Alien Technology.** Their technology includes mastery of living things, powerful techniques to implant mi-go elements and even minds in alien bodies (or to extract them), and an unparalleled mastery of living tissue in both plant and animal form. While they have their own secrets and goals, they also serve ancient powers from between the stars and carry on an interstellar effort to conquer and spread their species.  \n**World Colonizers.** The mi-go are devoted followers of Shub-Niggurath, the goddess of fecundity and growth, and take their evangelical mission extremely seriously. They colonize entire worlds in Shub-Niggurath’s name, and they plant and harvest entire species according to her will.  \n**Brain Cylinders.** One of the apexes of mi-go technology is the brain cylinder, a device that permits the extraction and maintenance of a living brain outside the body. Safely isolated in a mi-go cylinder, a human brain can be transported between the stars, sheltered—mostly—from the psyche-crushing effects of interstellar space. They deploy, fill, and retrieve these cylinders according to schedules and for purposes mysterious to others. Indeed, most of their technology appears either revolting or simply bizarre to humanoids (plant folk are less disquieted by their functioning).  \nMi-go merchants exchange psychic tools, surgical instruments, and engineered materials such as solar wings, illuminating lampfruit, and purple starvines (which induce sleep).",
+      "dexterity": 19,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "8d8+40",
+      "hit_points": 76,
+      "intelligence": 25,
+      "languages": "Common, Mi-go, Void Speech",
+      "legendary_actions_json": "null",
+      "name": "Mi-Go",
+      "page_no": 287,
+      "perception": 5,
+      "reactions_json": "[{\"name\": \"Spore Release\", \"desc\": \"When a mi-go dies, it releases its remaining spores. All living creatures within 10 feet take 14 (2d8 + 5) poison damage and become poisoned; a successful DC 16 Constitution saving throw halves the damage and prevents poisoning. A poisoned creature repeats the saving throw at the end of its turn, ending the effect on itself with a success.\"}]",
+      "route": "monsters/",
+      "senses": "blindsight 30 ft., darkvision 240 ft., passive Perception 15",
+      "size": "Medium",
+      "skills_json": "{\"arcana\": 10, \"deception\": 7, \"medicine\": 5, \"perception\": 5, \"stealth\": 7}",
+      "special_abilities_json": "[{\"name\": \"Astral Travelers\", \"desc\": \"Mi-go do not require air or heat to survive, only sunlight (and very little of that). They can enter a sporulated form capable of surviving travel through the void and returning to consciousness when conditions are right.\"}, {\"name\": \"Sneak Attack (1/Turn)\", \"desc\": \"The mi-go does an extra 7 (2d6) damage when it hits a target with a claw attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the mi-go that isn't incapacitated and the mi-go doesn't have disadvantage on the attack roll.\"}, {\"name\": \"Disquieting Technology\", \"desc\": \"The mi-go are a highly advanced race, and may carry items of powerful technology. Mi-go technology can be represented using the same rules as magic items, but their functions are very difficult to determine: identify is useless, but an hour of study and a successful DC 19 Arcana check can reveal the purpose and proper functioning of a mi-go item.\"}]",
+      "speed_json": "{\"walk\": 30, \"fly\": 60}",
+      "spells_json": "null",
+      "strength": 16,
+      "strength_save": 6,
+      "type": "Plant",
+      "wisdom": 15
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Mi-Go",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-mi-go"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_Mi-go have been described as “vaguely insectlike,” but the emphasis belongs on “vaguely.” They have stubby wings, multiple limbs, and nightmarish heads, but the resemblance ends there._  \nThe mi-go are a space-faring race of great skill and vast malevolence. They travel in large numbers between worlds, somehow folding space to cover astronomical distances in months rather than decades.  \n**Alien Technology.** Their technology includes mastery of living things, powerful techniques to implant mi-go elements and even minds in alien bodies (or to extract them), and an unparalleled mastery of living tissue in both plant and animal form. While they have their own secrets and goals, they also serve ancient powers from between the stars and carry on an interstellar effort to conquer and spread their species.  \n**World Colonizers.** The mi-go are devoted followers of Shub-Niggurath, the goddess of fecundity and growth, and take their evangelical mission extremely seriously. They colonize entire worlds in Shub-Niggurath’s name, and they plant and harvest entire species according to her will.  \n**Brain Cylinders.** One of the apexes of mi-go technology is the brain cylinder, a device that permits the extraction and maintenance of a living brain outside the body. Safely isolated in a mi-go cylinder, a human brain can be transported between the stars, sheltered—mostly—from the psyche-crushing effects of interstellar space. They deploy, fill, and retrieve these cylinders according to schedules and for purposes mysterious to others. Indeed, most of their technology appears either revolting or simply bizarre to humanoids (plant folk are less disquieted by their functioning).  \nMi-go merchants exchange psychic tools, surgical instruments, and engineered materials such as solar wings, illuminating lampfruit, and purple starvines (which induce sleep).",
+      "name": "Mi-Go",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Ми-го были описаны как «смутно насекомоподобные», но акцент принадлежит «смутно». У них короткие крылья, множественные конечности и кошмарные головы, но сходство на этом заканчивается.\n\nМи-го — это раса, путешествующая по космосу великого мастерства и огромной злобы. Они путешествуют в больших количествах между мирами, каким-то образом складывая пространство, чтобы покрыть астрономические расстояния за месяцы, а не десятилетия.\n\n**Чужие технологии.** Их технология включает мастерство живых существ, мощные методы имплантации элементов ми-го и даже умов в чужие тела (или извлечения их), и непревзойдённое мастерство живой ткани как в растительной, так и в животной форме. Хотя у них есть свои секреты и цели, они также служат древним силам из числа звёзд и осуществляют межзвёздные усилия по завоеванию и распространению их видов.\n\n**Колонизаторы миров.** Ми-го — преданные последователи Шуб-Ниггурат, богини плодородия и роста, и принимают их евангельскую миссию чрезвычайно серьёзно. Они колонизируют целые миры во имя Шуб-Ниггурат, и они сажают и собирают целые виды по её желанию.\n\n**Цилиндры для мозга.** Одним из апексов технологии ми-го является цилиндр для мозга, устройство, которое позволяет извлекать и поддерживать живой мозг вне тела. Безопасно изолированный в цилиндре ми-го, человеческий мозг может перевозиться между звёздами, защищённым — в основном — от эффектов межзвёздного пространства, разрушающих психику. Они развертывают, заполняют и извлекают эти цилиндры в соответствии с расписанием и для целей загадочных другим. Действительно, большая часть их технологий кажется либо отвратительной, либо просто причудливой для гуманоидов (растительные люди менее растревожены их функцией). Торговцы ми-го обменивают психические инструменты, хирургические инструменты и инженерные материалы, такие как солнечные крылья, осветительные лампы и фиолетовые усопшие (которые вызывают сон).",
+      "glossary_version": "v1",
+      "name": "Ми-го",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

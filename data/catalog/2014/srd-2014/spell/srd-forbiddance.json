@@ -1,0 +1,187 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_forbiddance",
+  "id": "o5e:srd-2014:spell:srd-forbiddance",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-forbiddance",
+      "o5e:wotc-srd:spell:forbiddance"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "d1bb84d751f8dd2fc1abdf845e8b26a1f8e96d2b4bfd4d051ead3a4a97aed72d",
+    "formulas": [
+      {
+        "expression": "5d10",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "ritual",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "10minutes",
+      "classes": [
+        "srd_cleric"
+      ],
+      "concentration": false,
+      "damage_roll": "5d10",
+      "damage_types": [
+        "necrotic",
+        "radiant"
+      ],
+      "duration": "24 hours",
+      "level": 6,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": "1000.00",
+      "material_specified": "A sprinkling of holy water, rare incense, and powdered ruby worth at least 1,000 gp.",
+      "range": 0.1,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": true,
+      "saving_throw_ability": "",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "d1bb84d751f8dd2fc1abdf845e8b26a1f8e96d2b4bfd4d051ead3a4a97aed72d",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-forbiddance",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "66478b2faf9558616c97ff09ec66f4be00d6622e3cbd750f3cb3f0f289585fa6",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:forbiddance",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "10minutes",
+      "classes": [
+        "srd_cleric"
+      ],
+      "concentration": false,
+      "damage_roll": "5d10",
+      "damage_types": [
+        "necrotic",
+        "radiant"
+      ],
+      "desc": "You create a ward against magical travel that protects up to 40,000 square feet of floor space to a height of 30 feet above the floor. For the duration, creatures can't teleport into the area or use portals, such as those created by the gate spell, to enter the area. The spell proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, Ethereal Plane, Feywild, Shadowfell, or the plane shift spell. In addition, the spell damages types of creatures that you choose when you cast it. Choose one or more of the following: celestials, elementals, fey, fiends, and undead. When a chosen creature enters the spell's area for the first time on a turn or starts its turn there, the creature takes 5d10 radiant or necrotic damage (your choice when you cast this spell). When you cast this spell, you can designate a password. A creature that speaks the password as it enters the area takes no damage from the spell. The spell's area can't overlap with the area of another forbiddance spell. If you cast forbiddance every day for 30 days in the same location, the spell lasts until it is dispelled, and the material components are consumed on the last casting.",
+      "document": "srd-2014",
+      "duration": "24 hours",
+      "level": 6,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": "1000.00",
+      "material_specified": "A sprinkling of holy water, rare incense, and powdered ruby worth at least 1,000 gp.",
+      "name": "Forbiddance",
+      "range": 0.1,
+      "range_text": "Touch",
+      "ritual": true,
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5529",
+          "parent": "srd_forbiddance",
+          "type": "default"
+        },
+        {
+          "external_id": "5530",
+          "parent": "srd_forbiddance",
+          "type": "ritual"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Forbiddance",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You create a ward against magical travel that protects up to 40,000 square feet of floor space to a height of 30 feet above the floor. For the duration, creatures can't teleport into the area or use portals, such as those created by the gate spell, to enter the area. The spell proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, Ethereal Plane, Feywild, Shadowfell, or the plane shift spell. In addition, the spell damages types of creatures that you choose when you cast it. Choose one or more of the following: celestials, elementals, fey, fiends, and undead. When a chosen creature enters the spell's area for the first time on a turn or starts its turn there, the creature takes 5d10 radiant or necrotic damage (your choice when you cast this spell). When you cast this spell, you can designate a password. A creature that speaks the password as it enters the area takes no damage from the spell. The spell's area can't overlap with the area of another forbiddance spell. If you cast forbiddance every day for 30 days in the same location, the spell lasts until it is dispelled, and the material components are consumed on the last casting.",
+      "name": "Forbiddance",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Ограждение 6-го уровня (Жрец)*\n\n**Время накладывания:** 10 минут или Ритуал\n\n**Дистанция:** Касание\n\n**Компоненты:** В, С, М (рубиновая пыль стоимостью 1000+ зм)\n\n**Длительность:** 1 день\n\nВы создаёте защиту от магических путешествий, которая защищает до 40 000 квадратных футов площади пола на высоту до 30 футов над полом. На время действия заклинания существа не могут телепортироваться в область или использовать порталы, такие как созданные заклинанием *Врата*, чтобы войти в область. Заклинание защищает область от планарных путешествий и, следовательно, не позволяет существам получить доступ к области через Астральный План, Эфирный План, Страну Фей, Царство Теней или заклинание *Уход в иной мир*.\n\nКроме того, заклинание наносит урон типам существ, которые вы выбираете при сотворении. Выберите один или несколько из следующих типов: аберрации, небожители, элементали, феи, исчадия и нежить. Когда существо выбранного типа входит в область заклинания впервые за ход или заканчивает там свой ход, существо получает 5d10 урона излучением или некротической энергией (на ваш выбор при сотворении этого заклинания).\n\nВы можете назначить пароль при сотворении заклинания. Существо, произносящее пароль при входе в область, не получает урона от заклинания.\n\nОбласть заклинания не может перекрываться с областью другого заклинания *Запрет*. Если вы сотворяете *Запрет* каждый день в течение 30 дней в одном месте, заклинание длится, пока не будет рассеяно, и материальные компоненты поглощаются при последнем сотворении.",
+      "glossary_version": "v1",
+      "name": "Запрет",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,232 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob_gerridae",
+  "id": "o5e:tob:creature:tob-gerridae",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creature:tob-2023-gerridae",
+      "o5e:tob:creature:tob-gerridae"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "67ae3801cf59f928344655df0928d8d8a275fa5169193d16f56325b9405b859a",
+    "formulas": [
+      {
+        "expression": "9d10+27",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 17,
+      "ability_score_dexterity": 15,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 16,
+      "ability_score_wisdom": 13,
+      "alignment": "neutral",
+      "armor_class": 14,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "1.000",
+      "climb": 10,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [
+        "ocean"
+      ],
+      "fly": null,
+      "hit_dice": "9d10+27",
+      "hit_points": 77,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": 80,
+      "walk": 10
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "67ae3801cf59f928344655df0928d8d8a275fa5169193d16f56325b9405b859a",
+        "edition": "2014",
+        "id": "o5e:tob:creature:tob-gerridae",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "cd7e573753673bbb0ad6978ef76852d8d948e1d353f43ff7748b588e6d9b52cd",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creature:tob-2023-gerridae",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 17,
+      "ability_score_dexterity": 15,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 16,
+      "ability_score_wisdom": 13,
+      "alignment": "neutral",
+      "armor_class": 14,
+      "category": "Monsters",
+      "challenge_rating": "1.000",
+      "climb": 10,
+      "darkvision_range": 60,
+      "document": "tob",
+      "environments": [
+        "ocean"
+      ],
+      "hit_dice": "9d10+27",
+      "hit_points": 77,
+      "hover": false,
+      "languages_desc": "-",
+      "name": "Gerridae",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "size": "large",
+      "swim": 80,
+      "type": "fey",
+      "walk": 10,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +5 к попаданию, досягаемость 5 фт., одна цель. Попадание: 6 (1к6+3) колющего урона.",
+          "external_id": "tob_gerridae_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "tob_gerridae",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) slashing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +5 к попаданию, досягаемость 5 фт., одна цель. Попадание: 5 (1к4+3) рубящего урона.",
+          "external_id": "tob_gerridae_claw",
+          "name": "Claw",
+          "name_ru": "Коготь",
+          "order_in_statblock": 2,
+          "parent": "tob_gerridae",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The gerridae makes one bite attack and one claw attack.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_gerridae_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob_gerridae",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "Gerridae do not take any penalties to their movement or speed due to encumbrance or carrying a single rider.",
+          "desc_ru": "Особенность «Бред То Саддле». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_gerridae_bred-to-the-saddle",
+          "name": "Bred to the Saddle",
+          "name_ru": "Бред То Саддле",
+          "parent": "tob_gerridae",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Any gerridae can run while on the surface of water, but not while on land or climbing. They treat stormy water as normal rather than difficult terrain. A gerridae takes one point of damage for every hour spent on dry land.",
+          "desc_ru": "Особенность «Ватерборне». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_gerridae_waterborne",
+          "name": "Waterborne",
+          "name_ru": "Ватерборне",
+          "parent": "tob_gerridae",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Gerridae",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Gerridae",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Эти большие насекомые водомерки напоминают странное помесь верблюдов и бескрылых, длинноногих саранчи. Всадник может удобно сидеть в большой полой в вогнутым их спины, даже на высокой скорости или на неспокойной воде. Всадники используют длинные петлевые усики геррид для рулевого управления.\n\n**Эльфийские вода кони.** Известно, что по их эльфийское название, то эти большие фей воде водомерки были заколдованы и выведены эльфами в прошлом веке, когда их исследователи бродили по миру. Эльфийские маги начали с нормальными водомерки и — посредством сложных магических процедур и сложных программ скрещивания — превращается обыденное водомерки на большой, ручные крепления. Они могут быстро пересекать большие водоёмы, когда нёс гуманоидного всадника, даже в ветреную условиях.\n\n**Крепкие крепления.** Геррида может нести до 300 фунтов гонщика и передач до отягощён, или 600 в то время как отягощённых.\n\n**Любит сладкие запахи.** Герриды иногда может отвлечься на привлекательные запахи, такие как яблони или свежее сено. Они также любят сырую утку и лебедь.",
+      "glossary_version": "v1",
+      "name": "Герриды",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

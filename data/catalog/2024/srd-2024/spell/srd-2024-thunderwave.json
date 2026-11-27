@@ -1,0 +1,206 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_thunderwave",
+  "id": "o5e:srd-2024:spell:srd-2024-thunderwave",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "2eab7a8aad7b365d973ec58f69749826e2e6b8283b47285500794b1613e380a6",
+    "formulas": [
+      {
+        "expression": "2d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_druid",
+        "srd-2024_sorcerer",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "2d8",
+      "damage_types": [
+        "thunder"
+      ],
+      "duration": "instantaneous",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "shape_size": 15,
+      "shape_size_unit": "feet",
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_bard",
+        "type": "classes",
+        "value": [
+          "srd-2024_bard",
+          "srd-2024_druid",
+          "srd-2024_sorcerer",
+          "srd-2024_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_druid",
+        "srd-2024_sorcerer",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "2d8",
+      "damage_types": [
+        "thunder"
+      ],
+      "desc": "You unleash a wave of thunderous energy. Each creature in a 15-foot Cube originating from you makes a Constitution saving throw. On a failed save, a creature takes 2d8 Thunder damage and is pushed 10 feet away from you. On a successful save, a creature takes half as much damage only.\n\nIn addition, unsecured objects that are entirely within the Cube are pushed 10 feet away from you, and a thunderous boom is audible within 300 feet.",
+      "document": "srd-2024",
+      "duration": "instantaneous",
+      "higher_level": "The damage increases by 1d8 for each spell slot level above 1.",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Thunderwave",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "shape_size": 15,
+      "shape_size_unit": "feet",
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "damage_roll": "3d8",
+          "external_id": "10550",
+          "parent": "srd-2024_thunderwave",
+          "type": "slot_level_2"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "10551",
+          "parent": "srd-2024_thunderwave",
+          "type": "slot_level_3"
+        },
+        {
+          "damage_roll": "5d8",
+          "external_id": "10552",
+          "parent": "srd-2024_thunderwave",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "6d8",
+          "external_id": "10553",
+          "parent": "srd-2024_thunderwave",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "7d8",
+          "external_id": "10554",
+          "parent": "srd-2024_thunderwave",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "8d8",
+          "external_id": "10555",
+          "parent": "srd-2024_thunderwave",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "9d8",
+          "external_id": "10556",
+          "parent": "srd-2024_thunderwave",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "10d8",
+          "external_id": "10557",
+          "parent": "srd-2024_thunderwave",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Thunderwave",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "You unleash a wave of thunderous energy. Each creature in a 15-foot Cube originating from you makes a Constitution saving throw. On a failed save, a creature takes 2d8 Thunder damage and is pushed 10 feet away from you. On a successful save, a creature takes half as much damage only.\n\nIn addition, unsecured objects that are entirely within the Cube are pushed 10 feet away from you, and a thunderous boom is audible within 300 feet.",
+      "name": "Thunderwave",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 1-го уровня (Бард, Друид, Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** На себя (15-футовый куб)\n\n**Компоненты:** В, С\n\n**Длительность:** Мгновенная\n\nВолна громовой силы вырывается из вас. Каждое существо в 15-футовом кубе, исходящем от вас, должно совершить спасбросок Телосложения. При провале существо получает 2к8 урона громом и отталкивается на 10 футов от вас. При успехе существо получает половину этого урона и не отталкивается.\n\nКроме того, незакреплённые предметы, полностью находящиеся в области действия, автоматически отталкиваются на 10 футов от вас эффектом заклинания, и заклинание издаёт громоподобный грохот, слышимый на расстоянии до 300 футов.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 2-го уровня или выше, урон увеличивается на 1к8 за каждый уровень ячейки выше 1-го.",
+      "glossary_version": "v1",
+      "name": "Волна грома",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

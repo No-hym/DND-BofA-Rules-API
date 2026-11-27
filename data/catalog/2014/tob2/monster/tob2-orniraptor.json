@@ -1,0 +1,212 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_orniraptor",
+  "id": "o5e:tob2:creature:tob2-orniraptor",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-orniraptor"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "de834be08017877b3cd8a6a8106e058e833dead644f94087a129e45abb1ec5fe",
+    "formulas": [
+      {
+        "expression": "3d6+6",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 13,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 10,
+      "ability_score_wisdom": 7,
+      "alignment": "unaligned",
+      "armor_class": 11,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "3d6+6",
+      "hit_points": 16,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 8,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "small",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "de834be08017877b3cd8a6a8106e058e833dead644f94087a129e45abb1ec5fe",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-orniraptor",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 13,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 10,
+      "ability_score_wisdom": 7,
+      "alignment": "unaligned",
+      "armor_class": 11,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "document": "tob2",
+      "hit_dice": "3d6+6",
+      "hit_points": 16,
+      "hover": false,
+      "name": "Orniraptor",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 8,
+      "size": "small",
+      "type": "monstrosity",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +3 к попаданию, досягаемость 5 фт., одна цель. Попадание: 4 (1к6+1) колющего урона.",
+          "external_id": "tob2_orniraptor_peck",
+          "name": "Peck",
+          "name_ru": "Пек",
+          "order_in_statblock": 0,
+          "parent": "tob2_orniraptor",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Ranged Weapon Attack: +3 to hit, range 20/60 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.",
+          "desc_ru": "Атака оружием дальнего боя: +3 к попаданию, дистанция 20/60 фт., одна цель. Попадание: 3 (1к4+1) дробящего урона.",
+          "external_id": "tob2_orniraptor_spit-stone",
+          "name": "Spit Stone",
+          "name_ru": "Спит каменный",
+          "order_in_statblock": 1,
+          "parent": "tob2_orniraptor",
+          "ru_source": "template"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "When a creature deals piercing or slashing damage to the orniraptor while within 5 feet of it, the creature must succeed on a DC 11 Dexterity saving throw or take 3 (1d6) acid damage as it is struck by the creature’s caustic blood.",
+          "desc_ru": "Особенность «Крови Спурт». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_orniraptor_blood-spurt",
+          "name": "Blood Spurt",
+          "name_ru": "Крови Спурт",
+          "parent": "tob2_orniraptor",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The orniraptor is aware of everything each other orniraptor within 20 feet of it notices.",
+          "desc_ru": "Особенность «Коллективе Перкептион». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_orniraptor_collective-perception",
+          "name": "Collective Perception",
+          "name_ru": "Коллективе Перкептион",
+          "parent": "tob2_orniraptor",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The orniraptor’s visual acuity is based on movement. A creature that didn’t move between the end of the orniraptor’s last turn and beginning of its current turn is invisible to the orniraptor. The creature is not invisible to the orniraptor if another orniraptor within 20 feet of it notices the creature.",
+          "desc_ru": "Особенность «Поор Висион». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_orniraptor_poor-vision",
+          "name": "Poor Vision",
+          "name_ru": "Поор Висион",
+          "parent": "tob2_orniraptor",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Orniraptor",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Orniraptor",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Неуклюжая бескрылая птица с коротким коническим клювом и без перьев и кожи смотрит тупо с её единственным глазом. Её органы проводятся на месте липкой прозрачной мембраной.\n\n**Почти безмозглые.** Орнирапторы существа чистого инстинкта и имеют больше общего с простыми паразитами, чем со животными. Они нападают на всё, что движется, и клюют куски добычи, как они охотятся, жадно кусая её, пока она спасается бегством.\n\n**Обеспокоющие вредители.** Орнирапторы, как правило, скорее назойливы, чем опасны из-за их настойчивости в нанесении ударов по всему, что движется. Однако существа способны делиться своим восприятием, когда близко друг к другу. Это делает их особенно опасными, когда один замечает что-то движется и десятки орнирататор внезапно сходятся на этой точке.\n\n**Тихие ещё громче.** Орнирапторы не имеют голосовых органов и просто пищат бесшумно, как они идут по своим делам. Их движения, как правило, неуклюжие, однако поэтому вполне слышны.",
+      "glossary_version": "v1",
+      "name": "Орнираптор",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

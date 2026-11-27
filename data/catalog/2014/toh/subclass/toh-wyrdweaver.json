@@ -1,0 +1,168 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_wyrdweaver",
+  "id": "o5e:toh:characterclass:toh-wyrdweaver",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-wyrdweaver"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "2db78be2b21b77de0170a9282e0147834f5200791a9eda56be61d36d76598d97",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_warlock"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "2db78be2b21b77de0170a9282e0147834f5200791a9eda56be61d36d76598d97",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-wyrdweaver",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_warlock",
+        "type": "subclass_of",
+        "value": "srd_warlock"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Your patron is probability itself, the personified wellspring of chance as embodied by chosen deities, entities, and eldritch beings across the planes. By binding yourself to the Wyrdweaver, you live by the roll of the dice and the flip of the coin, delighting in the randomness of life and the thrill of new experiences. You might find yourself driven to invade a lich's keep to ask it about its favorite song, or you might leap onto a dragon's back to have the right to call yourself a dragonrider. Life with a pact-bond to your patron might not be long, but it will be exciting.",
+      "document": "toh",
+      "name": "Wyrdweaver",
+      "subclass_of": "srd_warlock"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "At 1st level, you learn to shift the weaves of fate to aid allies and hinder foes. When a creature you can see within 60 feet of you makes an attack roll, ability check, or saving throw with advantage, you can use your reaction to expend one probability die and force that creature to make a Charisma saving throw against your spell save DC, adding the probability die to the DC. On a failed save, the creature loses advantage on that roll, and one friendly creature you can see within 60 feet has advantage on its next d20 roll of the same type the creature used (attack roll, ability check, or saving throw).",
+          "desc_ru": "На 1-м уровне вы учитесь сдвигать переплетения судьбы, чтобы помогать союзникам и затруднять врагов. Когда существо, которое вы можете видеть в пределах 60 футов от вас, совершает бросок атаки, проверку характеристики или спасбросок с преимуществом, вы можете реакцией потратить одну кость вероятности и заставить это существо совершить спасбросок Харизмы против вашей Сл спасбросков от заклинаний, добавляя кость вероятности к Сл. При проваленном спасброске существо теряет преимущество на этом броске, и одно дружественное существо, которое вы можете видеть в пределах 60 футов, совершает с преимуществом его следующий бросок к20 того же типа, который использовало существо (бросок атаки, проверка характеристики или спасбросок).",
+          "document": "toh",
+          "external_id": "toh_wyrdweaver_appropriate-advantage",
+          "level": 1,
+          "name": "Appropriate Advantage",
+          "name_ru": "Присвоить преимущество",
+          "parent": "toh_wyrdweaver",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 1st level, you gain the ability to manipulate probability. You have a pool of d6s that you spend to fuel your patron abilities. The number of probability dice in the pool equals 1 + your warlock level.\n  You can use these dice to turn the odds in your or your ally's favor. When you or a friendly creature you can see within 30 feet of you makes an attack roll, ability check, or saving throw, you can use your reaction to expend probability dice from the pool, rolling the dice and adding the total result to that roll. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die). Your pool regains all expended dice when you finish a long rest.\n  When you reach certain levels in this class, the size of your probability dice increases: at 5th level (d8), 11th level (d10), and 17th level (d12).",
+          "desc_ru": "Начиная с 1-го уровня вы получаете способность манипулировать вероятностью. У вас есть запас костей к6, которые вы тратите, чтобы питать ваши способности покровителя. Количество костей вероятности в запасе равно 1 + ваш уровень чернокнижника.\nВы можете использовать эти кости, чтобы склонить шансы в вашу пользу или пользу вашего союзника. Когда вы или дружественное существо, которое вы можете видеть в пределах 30 футов от вас, совершает бросок атаки, проверку характеристики или спасбросок, вы можете реакцией потратить кости вероятности из запаса, бросив кости и добавив общий результат к этому броску. Максимальное количество костей, которые вы можете потратить одновременно, равно вашему модификатору Харизмы (минимум одна кость). Ваш запас восстанавливает все потраченные кости, когда вы заканчиваете продолжительный отдых.\nКогда вы достигаете определённых уровней в этом классе, размер ваших костей вероятности увеличивается: на 5-м уровне (к8), 11-м уровне (к10) и 17-м уровне (к12).",
+          "document": "toh",
+          "external_id": "toh_wyrdweaver_probability-wellspring",
+          "level": 1,
+          "name": "Probability Wellspring",
+          "name_ru": "Источник вероятности",
+          "parent": "toh_wyrdweaver",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 6th level, you can channel dark power from your patron to empower your attacks and spells. Once on each of your turns, when you hit a creature with an attack, you can expend one or more probability dice, up to half your Charisma modifier (minimum of 1), and add the probability dice to the attack's damage roll.",
+          "desc_ru": "На 6-м уровне вы можете направлять тёмную силу от вашего покровителя, чтобы усилить ваши атаки и заклинания. Один раз в каждый ваш ход, когда вы попадаете по существу атакой, вы можете потратить одну или несколько костей вероятности, до половины вашего модификатора Харизмы (минимум 1), и добавить кости вероятности к броску урона атаки.",
+          "document": "toh",
+          "external_id": "toh_wyrdweaver_improbable-duplicate",
+          "level": 6,
+          "name": "Improbable Duplicate",
+          "name_ru": "Невероятный дубликат",
+          "parent": "toh_wyrdweaver",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 10th level, you learn to redirect magical energy, converting the power to restore your pool of probability dice. When a friendly creature you can see within 30 feet of you takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to take the damage instead. You halve the damage you take as your probability wellspring absorbs some of the magical energy. For every 10 damage prevented in this way, you regain one expended probability die. You can't regain more than half your maximum probability dice from this feature. Once you use this feature, you can't use it again until you finish a short or long rest.",
+          "desc_ru": "На 10-м уровне вы учитесь перенаправлять магическую энергию, преобразуя силу, чтобы восстановить ваш запас костей вероятности. Когда дружественное существо, которое вы можете видеть в пределах 30 футов от вас, получает урон кислотой, холодом, огнём, молнией или громом, вы можете реакцией принять урон вместо этого. Вы уменьшаете вдвое урон, который вы получаете, поскольку ваш источник вероятности поглощает часть магической энергии. За каждые 10 урона, предотвращённые этим способом, вы восстанавливаете одну потраченную кость вероятности. Вы не можете восстановить более половины вашего максимума костей вероятности от этой особенности. Использовав эту особенность, вы не можете использовать её снова, пока не закончите короткий или продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_wyrdweaver_inconceivable-channeling",
+          "level": 10,
+          "name": "Inconceivable Channeling",
+          "name_ru": "Непостижимое направление",
+          "parent": "toh_wyrdweaver",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 14th level, your very presence spins probability. When a creature you can see within 60 feet of you makes an attack roll, ability check, or saving throw with advantage, you can use your reaction to force the creature to make a Charisma saving throw against your spell save DC. On a failed save, the creature loses advantage on the roll and has disadvantage on it, and you have advantage on one d20 roll of your choice within the next minute. Once you use this feature, you can't use it again until you finish a short or long rest.",
+          "desc_ru": "Начиная с 14-го уровня само ваше присутствие крутит вероятность. Когда существо, которое вы можете видеть в пределах 60 футов от вас, совершает бросок атаки, проверку характеристики или спасбросок с преимуществом, вы можете реакцией заставить существо совершить спасбросок Харизмы против вашей Сл спасбросков от заклинаний. При проваленном спасброске существо теряет преимущество на бросок и совершает его с помехой, а вы совершаете с преимуществом один бросок к20 на ваш выбор в течение следующей минуты. Использовав эту особенность, вы не можете использовать её снова, пока не закончите короткий или продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_wyrdweaver_favored-soul",
+          "level": 14,
+          "name": "Favored Soul",
+          "name_ru": "Избранная душа",
+          "parent": "toh_wyrdweaver",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "The Wyrdweaver lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock list for you.\n\n**Wyrdweaver Expanded Spells (table)**\n| Spell Level   | Spells                             | \n|---------------|------------------------------------| \n| 1st           | *bane*, *faerie fire*              | \n| 2nd           | *blur*, *frenzied bolt*            | \n| 3rd           | *bestow curse*, *hypnotic pattern* | \n| 4th           | *compulsion*, *reset*              | \n| 5th           | *battle mind*, *mislead*           |",
+          "desc_ru": "Ткач Вирда позволяет вам выбирать из расширенного списка заклинаний, когда вы изучаете заклинание чернокнижника. Следующие заклинания добавляются к списку чернокнижника для вас.\n\nРасширенные заклинания Ткача Вирда (таблица)\n| Уровень заклинания | Заклинания |\n|---|---|\n| 1-й | Порча, Волшебный огонь |\n| 2-й | Размытие, Бешеный разряд |\n| 3-й | Наложить проклятие, Гипнотический узор |\n| 4-й | Принуждение, Сброс |\n| 5-й | Боевой разум, Ввести в заблуждение |",
+          "document": "toh",
+          "external_id": "toh_wyrdweaver_expanded-spell-list",
+          "name": "Expanded Spell List",
+          "name_ru": "Расширенный список заклинаний",
+          "parent": "toh_wyrdweaver",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Wyrdweaver",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "Your patron is probability itself, the personified wellspring of chance as embodied by chosen deities, entities, and eldritch beings across the planes. By binding yourself to the Wyrdweaver, you live by the roll of the dice and the flip of the coin, delighting in the randomness of life and the thrill of new experiences. You might find yourself driven to invade a lich's keep to ask it about its favorite song, or you might leap onto a dragon's back to have the right to call yourself a dragonrider. Life with a pact-bond to your patron might not be long, but it will be exciting.",
+      "name": "Wyrdweaver",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Ваш покровитель — сама вероятность, персонифицированный источник случая, как воплощённый выбранными божествами, сущностями и сверхъестественными существами по планам. Связывая себя с Ткачом Вирда, вы живёте броском костей и подбрасыванием монеты, наслаждаясь случайностью жизни и острыми ощущениями новых переживаний. Вы можете оказаться вынужденным вторгнуться в крепость лича, чтобы спросить его о его любимой песне, или вы можете прыгнуть на спину дракона, чтобы иметь право называть себя драконьим всадником. Жизнь со связью договора с вашим покровителем может не быть долгой, но она будет захватывающей.",
+      "glossary_version": "v1",
+      "name": "Ткач вирда",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

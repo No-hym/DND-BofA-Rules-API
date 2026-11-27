@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "empyrean-a5e",
+  "id": "o5e:menagerie:monster:empyrean-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:empyrean-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "d4e70cf6276964cd0c936be570777b211d05eacb02f170a1ba43068cab48f650",
+    "formulas": [
+      {
+        "expression": "16d20+160",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 21,
+      "challenge_rating": "22",
+      "condition_immunities": "",
+      "damage_immunities": "radiant; damage from nonmagical weapons",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "16d20+160",
+      "hit_points": 328,
+      "languages": "Celestial, Common, six more",
+      "size": "Gargantuan"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "d4e70cf6276964cd0c936be570777b211d05eacb02f170a1ba43068cab48f650",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:empyrean-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Maul\", \"desc\": \"Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 38 (8d6 + 10) bludgeoning damage plus 14 (4d6) radiant damage  and the target makes a DC 25 Strength saving throw. On a failure  the target is pushed up to 30 feet away and knocked prone.\"}, {\"name\": \"Lightning Bolt (3rd-Level; V, S)\", \"desc\": \"A bolt of lightning 5 feet wide and 100 feet long arcs from the empyrean. Each creature in the area makes a DC 23 Dexterity saving throw  taking 28 (8d6) lightning damage on a failure or half damage on a success.\"}, {\"name\": \"Flame Strike (5th-Level; V, S)\", \"desc\": \"A column of divine flame fills a 10-foot-radius  40-foot-high cylinder within 60 feet. Creatures in the area make a DC 23 Dexterity saving throw  taking 14 (4d6) fire damage and 14 (4d6) radiant damage on a failure or half damage on a success.\"}, {\"name\": \"Hold Monster (5th-Level; V, S, Concentration)\", \"desc\": \"One creature the empyrean can see within 60 feet makes a DC 23 Wisdom saving throw. On a failure  the target is paralyzed for 1 minute. The target repeats the saving throw at the end of each of its turns  ending the effect on a success.\"}]",
+      "armor_class": 21,
+      "bonus_actions_json": "[{\"name\": \"Immortal Form\", \"desc\": \"The empyrean magically changes its size between Gargantuan and Medium. While Medium, the empyrean has disadvantage on Strength checks. Its statistics are otherwise unchanged.\"}]",
+      "challenge_rating": "22",
+      "charisma": 26,
+      "charisma_save": 15,
+      "constitution": 30,
+      "constitution_save": 17,
+      "cr": 22.0,
+      "damage_immunities": "radiant; damage from nonmagical weapons",
+      "dexterity": 24,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "16d20+160",
+      "hit_points": 328,
+      "intelligence": 22,
+      "intelligence_save": 13,
+      "languages": "Celestial, Common, six more",
+      "legendary_actions_json": "[{\"name\": \"The empyrean can take 1 legendary action\", \"desc\": \"Only one legendary action can be used at a time and only at the end of another creatures turn. It regains spent legendary actions at the start of its turn.\"}, {\"name\": \"Attack\", \"desc\": \"The empyrean makes a weapon attack.\"}, {\"name\": \"Cast Spell\", \"desc\": \"The empyrean casts a spell. The empyrean can't use this option if it has cast a spell since the start of its last turn.\"}, {\"name\": \"Fly\", \"desc\": \"The empyrean flies up to half its fly speed.\"}, {\"name\": \"Shout (Recharge 5-6)\", \"desc\": \"Each creature within 120 feet that can hear the empyrean makes a DC 25 Constitution saving throw. On a failure, a creature takes 24 (7d6) thunder damage and is stunned until the end of the empyreans next turn. On a success, a creature takes half damage.\"}]",
+      "name": "Empyrean",
+      "page_no": 405,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "truesight 120 ft., passive Perception 17",
+      "size": "Gargantuan",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Divine Grace\", \"desc\": \"If the empyrean makes a saving throw against an effect that deals half damage on a success, it takes no damage on a success and half damage on a failure. Furthermore, while wearing medium armor, the empyrean adds its full Dexterity bonus to its Armor Class (already included).\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"The empyreans innate spellcasting ability is Charisma (spell save DC 23). It can innately cast the following spells, requiring no material components: At will: charm person, command, telekinesis, 3/day: flame strike, hold monster, lightning bolt, 1/day: commune, greater restoration, heroes feast, plane shift (self only, can't travel to or from the Material Plane)\"}]",
+      "speed_json": "{\"walk\": 60, \"fly\": 60}",
+      "spells_json": "null",
+      "strength": 30,
+      "strength_save": 17,
+      "type": "Celestial",
+      "wisdom": 24,
+      "wisdom_save": 14
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Empyrean",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-empyrean"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Empyrean",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Гигантский небожитель. Класс доспеха: 21. Хиты: 328 (16к20+160). Иммунитет к урону: излучением, damage from nonmagical weapons. Показатель опасности: 22.",
+      "glossary_version": "derived-v1",
+      "name": "Емпйреан",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

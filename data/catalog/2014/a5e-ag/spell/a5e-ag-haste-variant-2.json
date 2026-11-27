@@ -1,0 +1,192 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_haste",
+  "id": "o5e:a5e-ag:spell:a5e-ag-haste-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-haste",
+      "o5e:a5e:spell:haste-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "78b0193e3e76cb81b4b5a52048e73969bee56e9db55b20f491aaa1410475fa89",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "transformation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "78b0193e3e76cb81b4b5a52048e73969bee56e9db55b20f491aaa1410475fa89",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-haste",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "ea4dfdcef2c222b4a3d25942141cb92e8463e7bbb8c9170c1c9201b7d69f3930",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:haste-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "Until the spell ends, the target's Speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains one additional action on each of its turns. This action can be used to make a single weapon attack, or to take the Dash, Disengage, Hide, or Use an Object action.\n\nWhen the spell ends, the target is tired and cannot move or take actions until after its next turn.",
+      "document": "a5e-ag",
+      "duration": "1 minute",
+      "higher_level": "Target one additional creature for each slot level above 3rd. All targets of this spell must be within 30 feet of each other.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "name": "Haste",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "transformation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "1391",
+          "parent": "a5e-ag_haste",
+          "type": "default"
+        },
+        {
+          "external_id": "1393",
+          "parent": "a5e-ag_haste",
+          "target_count": 2,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "1394",
+          "parent": "a5e-ag_haste",
+          "target_count": 3,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "1395",
+          "parent": "a5e-ag_haste",
+          "target_count": 4,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "1396",
+          "parent": "a5e-ag_haste",
+          "target_count": 5,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "1397",
+          "parent": "a5e-ag_haste",
+          "target_count": 6,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "1398",
+          "parent": "a5e-ag_haste",
+          "target_count": 7,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Haste",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:srd-2014:spell:srd-haste"
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "Until the spell ends, the target's Speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains one additional action on each of its turns. This action can be used to make a single weapon attack, or to take the Dash, Disengage, Hide, or Use an Object action.\n\nWhen the spell ends, the target is tired and cannot move or take actions until after its next turn.",
+      "name": "Haste",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Преобразование 3-го уровня (Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 30 футов\n\n**Компоненты:** В, С, М (стружка корня солодки)\n\n**Длительность:** Концентрация, до 1 минуты\n\nВыберите согласное существо, которое вы видите в пределах дистанции. До окончания заклинания скорость цели удваивается, она получает бонус +2 к Классу доспеха, она совершает с преимуществом спасброски Ловкости, и она получает дополнительное действие в каждый свой ход. Это действие может быть использовано только для совершения действия Атака (только одна атака), Рывок, Отход, Укрытие или Использование.\n\nКогда заклинание заканчивается, цель становится Недееспособной и имеет скорость 0 до конца своего следующего хода, когда на неё накатывает волна вялости.",
+      "glossary_version": "v1",
+      "name": "Ускорение",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

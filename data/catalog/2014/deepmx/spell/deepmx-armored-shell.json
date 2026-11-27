@@ -1,0 +1,206 @@
+{
+  "attribution": "Title: Deep Magic Extended; Author: Not sure.; Publisher: kobold-press; Source: https://koboldpress.com/deepmagic; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepmx",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepmx_armored-shell",
+  "id": "o5e:deepmx:spell:deepmx-armored-shell",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepmx:spell:deepmx-armored-shell",
+      "o5e:dmag-e:spell:armored-shell"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "509971c970c744271f731efe75f6ebffb64d4bbd2711209acd245dcc19020a47",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 hour",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "strength",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepmx",
+        "content_hash": "509971c970c744271f731efe75f6ebffb64d4bbd2711209acd245dcc19020a47",
+        "edition": "2014",
+        "id": "o5e:deepmx:spell:deepmx-armored-shell",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepmx"
+      },
+      {
+        "book": "dmag-e",
+        "content_hash": "67d89b37c31a997a4e25f527756858d39aaae2d3cb1f7b13ad34e32c5a2cbf42",
+        "edition": "2014",
+        "id": "o5e:dmag-e:spell:armored-shell",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag-e"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_warlock",
+        "type": "classes",
+        "value": [
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "desc": "Deep Magic: clockwork This spell creates a suit of magical studded leather armor (AC 12). It does not grant you proficiency in its use. Casters without the appropriate armor proficiency suffer disadvantage on any ability check, saving throw, or attack roll that involves Strength or Dexterity and cannot cast spells.",
+      "document": "deepmx",
+      "duration": "1 hour",
+      "higher_level": "Casting armored shell using a higher-level spell slot creates stronger armor: a chain shirt (AC 13) at level 2, scale mail (AC 14) at level 3, chain mail (AC 16) at level 4, and plate armor (AC 18) at level 5.",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "name": "Armored Shell",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "strength",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Not sure.",
+      "key": "deepmx",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/deepmagic",
+      "publication_date": "2024-02-14T19:02:02",
+      "publisher": "kobold-press",
+      "title": "Deep Magic Extended"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4746",
+          "parent": "deepmx_armored-shell",
+          "type": "default"
+        },
+        {
+          "external_id": "4748",
+          "parent": "deepmx_armored-shell",
+          "type": "slot_level_2"
+        },
+        {
+          "external_id": "4749",
+          "parent": "deepmx_armored-shell",
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "4750",
+          "parent": "deepmx_armored-shell",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "4751",
+          "parent": "deepmx_armored-shell",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "4752",
+          "parent": "deepmx_armored-shell",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "4753",
+          "parent": "deepmx_armored-shell",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "4754",
+          "parent": "deepmx_armored-shell",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "4755",
+          "parent": "deepmx_armored-shell",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Armored Shell",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepmx",
+  "translations": {
+    "en": {
+      "description": "Deep Magic: clockwork This spell creates a suit of magical studded leather armor (AC 12). It does not grant you proficiency in its use. Casters without the appropriate armor proficiency suffer disadvantage on any ability check, saving throw, or attack roll that involves Strength or Dexterity and cannot cast spells.",
+      "name": "Armored Shell",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Глубокая магия: часовой механизм. Это заклинание создаёт комплект магического клепаного кожаного доспеха (КД 12). Оно не предоставляет вам владение его использованием. Заклинатели без соответствующего владения доспехами страдают помехой на любую проверку характеристики, спасбросок или бросок атаки, который включает Силу или Ловкость, и не могут творить заклинания.",
+      "glossary_version": "v1",
+      "name": "Бронированная оболочка",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

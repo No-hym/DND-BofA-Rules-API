@@ -1,0 +1,683 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode)",
+  "book_id": "srd-2024",
+  "category": "attack",
+  "edition": "2024",
+  "external_id": "srd-2024_wererat_bite-attack",
+  "id": "o5e:srd-2024:creatureactionattack:srd-2024-wererat-bite-attack",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2024:creatureactionattack:srd-2024-allosaurus-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-archelon-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-baboon-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-basilisk-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-behir-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-blink-dog-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-brown-bear-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-bulette-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-camel-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-chimera-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-constrictor-snake-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-couatl-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-crocodile-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-death-dog-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-dire-wolf-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-dragon-turtle-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-ettercap-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-ghast-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-ghoul-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-giant-badger-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-giant-bat-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-giant-centipede-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-giant-constrictor-snake-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-giant-crocodile-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-giant-frog-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-giant-hyena-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-giant-lizard-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-giant-spider-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-giant-toad-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-giant-venomous-snake-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-giant-weasel-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-giant-wolf-spider-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-gibbering-mouther-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-guardian-naga-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-hell-hound-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-hippopotamus-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-hydra-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-hyena-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-jackal-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-killer-whale-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-mastiff-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-merrow-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-otyugh-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-phase-spider-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-pit-fiend-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-plesiosaurus-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-pseudodragon-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-pteranodon-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-purple-worm-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-reef-shark-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-remorhaz-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-roper-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-rust-monster-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-spirit-naga-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-tarrasque-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-tyrannosaurus-rex-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-venomous-snake-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-werebear-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-wererat-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-winter-wolf-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-wolf-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-worg-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-wyvern-bite-bite-attack",
+      "o5e:srd-2024:creatureactionattack:srd-2024-xorn-bite-bite-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "eaf49444058b837cd976ab14022493b53c2085a24265f518eb7795e2fc487224",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "WEAPON",
+      "damage_bonus": 3,
+      "damage_die_count": 2,
+      "damage_die_type": "D4",
+      "damage_type": "piercing",
+      "extra_damage_bonus": null,
+      "extra_damage_die_count": null,
+      "extra_damage_die_type": null,
+      "extra_damage_type": null,
+      "long_range": null,
+      "range": null,
+      "reach": 5,
+      "to_hit_mod": 5
+    },
+    "original_system": "5e-2024",
+    "provenance": [
+      {
+        "book": "srd-2024",
+        "content_hash": "eaf49444058b837cd976ab14022493b53c2085a24265f518eb7795e2fc487224",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-wererat-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "29e00005ee7785c743c53f2ec877523a5aaa84188f3600dbd0a1e5bee64749d5",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-werebear-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "b74226dbc8f55a1b6347d162d06eda716d5c1a7374099ceae8979aff94dd0fa2",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-wolf-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "bb770d48dfaaf1df698825131bcd3f3f09aedc03f7e19a430826c4ce374d1b3f",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-worg-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "1df62d896a90f74117b43b988d24a35ad5d8414b8506f516957012baab1693bd",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-xorn-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "5dafbe87d320392773187d33402f5a92c369563cd207ea0edb9aa6c466b2ad83",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-behir-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "9c000bc602c6403c57c1ff2bf026fabc01306f06fe36e53ea19f46c4c2c8530d",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-camel-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "348494ba95c2832ef7d95f13727bdc59c22930b38573b06cb87d187be99ad2ef",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-ghast-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "ae889815e481c36c24ec2ed89e930b192df4a65af49dec02013ff9a008360395",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-ghoul-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "effa82c1d4efc4dd9414049d8d9cb2e70c6fde182cab1b7d19f4e5f48d7fadda",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-hydra-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "5dbe4192600e5253c7d0227f9fd2f028346bc5d2bf5020767033feb8d3e57cc7",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-hyena-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "0ae6936ebe276eaf67af9077a12b3e5b5b8240c04884ae98395410b21f3d8ad8",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-roper-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "b563722120d1e0c14837c7d74b121d9da869f33575bca1e41d72203510375538",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-baboon-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "6f8eae7dd380b74d6d7eddc45ef6ea0e088b4f244bd4f4b9d60b9c73d6f120fd",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-couatl-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "31aae08db10acdfb7783e1cc939bf29848f68165cb33e38971309006e856a8ee",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-jackal-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "4d7a2501b9fdf55a0ca71f9a6ec2e71084e403e11d65ce6ac6e387d7b62dacc5",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-merrow-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "49b3ff6117cec21da07ab8031ca3749f39b6effbdb5bbb4e197e10e65deb1744",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-otyugh-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "b6cac8f20c056f1846f68a17daff25b8d937d12e025fcddccfec28f80279f78e",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-wyvern-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "91d98477b9215af5f9d77bde20167210b152ac6b9c3c23fe5ff593dececf8514",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-bulette-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "e344e658c4bf236e366b29025ad7c0c28050adb0e25a0ff5f692c846e0b4f173",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-chimera-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "c2059deb39aa64fec710b856aa811bb79cd02fbde4173b7b402fb7e83cbf9146",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-mastiff-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "b065edfd644f492fcab683f7d67a1b982ee1d8b51b11c18ca8fdab7e7675ebe1",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-archelon-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "5d96213b119e5bd63be1a5dacc2a02aa2faa20cb53f90e064aaf68576cda457d",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-basilisk-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "f8337e84694f402c96c1c89bbe17dba0f83aae676a38d0ce4b5e5bb97a645e04",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-ettercap-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "cfe88c2a814976bac48de4e16917ec0ab237d8ef57bb4191c6a58c6533b6e65e",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-remorhaz-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "398afb19dbe6171858745788b08c6c5baa6b28bf72aef4890a5e4920f112a8a2",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-blink-dog-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "457249cea49bd587af874050354781665eea7455daa90ea2486ac58084f4b2db",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-crocodile-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "e16f239c981f89157a2326c887597bdd2d403e35896d14947464985c6cd1000f",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-death-dog-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "8262de2e5640f0c611826114a51fddb6d409bf10e7a86a7559caf1bd945a1270",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-dire-wolf-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "6ef5f0cdc9b1dae5ea881f43cd167f4896cea172834988bf3fd4297cff70239a",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-giant-bat-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "f45d52ca197beb42365cc6283ad5a341bb7274ee3390f85c67513356784b5b51",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-pit-fiend-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "6780b50420c0e1e6037f83a4c3e2c4e9fab82307fb36163844d8c73abb850429",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-tarrasque-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "171b15659778709fce37111259f1c14b85c0ad62614f656511e323201766367b",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-allosaurus-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "74740d54089ccbebceab660016858ba00ba6d8d348a7403bae0d916fdeed729d",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-brown-bear-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "576eac8bbdd41b9addb329b07d89d3cfa6487e7904f36b2af48f34274a326e8c",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-giant-frog-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "e7e1e9dd67d703c483c972b5c35a4f8a2a4b0151b26f521de860a3c7683b6eb4",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-giant-toad-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "72f23bbee72fba39fe68d07dbf2673fa07b73f28b6daf5dcd4232f5e0246089a",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-hell-hound-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "bebd3f0d68cdf33358ba5d6ebac3d2f666cd37679e5fd8c7bc3083f6faa7c41d",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-pteranodon-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "bdccb5b9c700504747d147814bb914c0b36cc80a1aa42d791addfd5d5eee9e13",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-reef-shark-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "6e78a8afd936343b394241365c3140b0311935064acbbf32e3d42785c496a42a",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-giant-hyena-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "6e691680f1645668b0dd7b9baabac27293d89518b8cd0f59ce5396544d7b6a69",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-purple-worm-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "a08f7dbca3cf5b16023e4edf091d14c10e0eb38f05ef0a56807195f3301f86fa",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-spirit-naga-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "3aad65de379433d5bcd797ea3a230f4f328676b8003aee25e8d4fa4968f48cc5",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-winter-wolf-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "b3f8325f5ecd388aa1a3185e78a74da9a26f9d891f80edd8591edc1adc807576",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-giant-badger-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "47c3ec4ccaf32ca648a023e49514b7eeedcdca01bbdf5d300d6633f017bd51d1",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-giant-lizard-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "99a5cafa1a7f042e3496dbf6e13dcd04675a7799be37321fd30befd919cb9d10",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-giant-spider-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "e34572ca41296ebdcf086602ad0bf876302b31b50b3d2f5a57d62b06c694fdfc",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-giant-weasel-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "d3868f5d786be52e0b87e51c88881d3291922e8d778c06a98e63b6e2932508dc",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-hippopotamus-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "3ecc82c458ae10b572891639e230b5333a1678599b8b37996f2bd758e669eaf4",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-killer-whale-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "78352d5305366b89322240431ca2f558660deaa4f0f5d859b38d86b28597c78e",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-phase-spider-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "ebc90b1877afef2218decb341d1a766ab419b64a7e08ae823aeb567277deabb9",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-plesiosaurus-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "a8d52b815ff3c662c58478033a7e74f4b9a3fb100af0c6a7ab36a8b152da7f2c",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-pseudodragon-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "5d6390ed96b9c82bcea2b98e52a9c1bbfeb349142a1c662d7687297f41d63896",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-rust-monster-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "9acee5ee2d1dd8aa5d3f53ae4d373f707cfbe0fe38af57b9e66dea5cdcd825b7",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-dragon-turtle-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "27e0c6015424614cbbdb3a11bc7f09d0eb89558744b100b59d6153633d667241",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-guardian-naga-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "f1c8842ea8381227994578870215b1bc69eeb403071779350681070678da0ba9",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-venomous-snake-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "7318052fad48134b96eca824606fb9dcdc4c0d899bfb700811420afe6a3f53b9",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-giant-centipede-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "07279f0d999fc90e4809eac3c8b0f7b318ccaf8413353afc574bd5860a6cc88d",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-giant-crocodile-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "9d0bb851c2aa917f45b70df4530145c8ec2b93d5ece8567cf509e0bd2114910e",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-constrictor-snake-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "08ad3da90560bd5e26b1166dadef0cacd3b469ad7325c3c2ceea9114b2e19025",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-giant-wolf-spider-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "bae589881c57121be3f121bc57b44b752cd2efa696cf25a944072f870b1d8187",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-gibbering-mouther-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "1059949547d72746f91d910fb1f51a7862962166d3b21079bbdc0c67edbc4c70",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-tyrannosaurus-rex-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "ea5bc41e9b754f7973d557e8c630d86cf091a2576a13b2a6700a5d284e013ecf",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-giant-venomous-snake-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      },
+      {
+        "book": "srd-2024",
+        "content_hash": "e62cd1a84da5e5fde2caa70cb5f290454ea13c5ca6dce78a9f763081a51bf33e",
+        "edition": "2024",
+        "id": "o5e:srd-2024:creatureactionattack:srd-2024-giant-constrictor-snake-bite-bite-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2024"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_wererat_bite",
+        "type": "parent",
+        "value": "srd-2024_wererat_bite"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "WEAPON",
+      "damage_bonus": 3,
+      "damage_die_count": 2,
+      "damage_die_type": "D4",
+      "damage_type": "piercing",
+      "name": "Bite attack",
+      "parent": "srd-2024_wererat_bite",
+      "reach": 5,
+      "target_creature_only": false,
+      "to_hit_mod": 5
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2024",
+      "exact_match": "Bite attack",
+      "license": "CC-BY-4.0",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Bite attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака оружием: +5 к попаданию. Зона: досягаемость 5 фт., одна цель. Попадание: 2к4 + 3 колющего урона.",
+      "glossary_version": "derived-v1",
+      "name": "Укус",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

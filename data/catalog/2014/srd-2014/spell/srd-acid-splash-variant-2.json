@@ -1,0 +1,276 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_acid-splash",
+  "id": "o5e:srd-2014:spell:srd-acid-splash-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-acid-splash",
+      "o5e:wotc-srd:spell:acid-splash"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "bc155efbf778320ae5834e0f4a7d78127e4a0f4e6ccb2a07ddcadeaeee57166d",
+    "formulas": [
+      {
+        "expression": "1d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "acid"
+      ],
+      "duration": "instantaneous",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "bc155efbf778320ae5834e0f4a7d78127e4a0f4e6ccb2a07ddcadeaeee57166d",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-acid-splash",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "3fb35d323595c486c33c9d08bc3975491912f9ca144ddbce5461874ce27486a5",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:acid-splash",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_sorcerer",
+        "type": "classes",
+        "value": [
+          "srd_sorcerer",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "acid"
+      ],
+      "desc": "You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a dexterity saving throw or take 1d6 acid damage.",
+      "document": "srd-2014",
+      "duration": "instantaneous",
+      "higher_level": "This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "name": "Acid Splash",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5014",
+          "parent": "srd_acid-splash",
+          "type": "default"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "5019",
+          "parent": "srd_acid-splash",
+          "type": "player_level_5"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "5020",
+          "parent": "srd_acid-splash",
+          "type": "player_level_6"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "5021",
+          "parent": "srd_acid-splash",
+          "type": "player_level_7"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "5022",
+          "parent": "srd_acid-splash",
+          "type": "player_level_8"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "5023",
+          "parent": "srd_acid-splash",
+          "type": "player_level_9"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "5024",
+          "parent": "srd_acid-splash",
+          "type": "player_level_10"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "5025",
+          "parent": "srd_acid-splash",
+          "type": "player_level_11"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "5026",
+          "parent": "srd_acid-splash",
+          "type": "player_level_12"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "5027",
+          "parent": "srd_acid-splash",
+          "type": "player_level_13"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "5028",
+          "parent": "srd_acid-splash",
+          "type": "player_level_14"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "5029",
+          "parent": "srd_acid-splash",
+          "type": "player_level_15"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "5030",
+          "parent": "srd_acid-splash",
+          "type": "player_level_16"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "5031",
+          "parent": "srd_acid-splash",
+          "type": "player_level_17"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "5032",
+          "parent": "srd_acid-splash",
+          "type": "player_level_18"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "5033",
+          "parent": "srd_acid-splash",
+          "type": "player_level_19"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "5034",
+          "parent": "srd_acid-splash",
+          "type": "player_level_20"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Acid Splash",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:a5e-ag:spell:a5e-ag-acid-splash"
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a dexterity saving throw or take 1d6 acid damage.",
+      "name": "Acid Splash",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Заговор Вызова (Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В, С\n\n**Длительность:** Мгновенная\n\nВы швыряете пузырёк кислоты. Выберите одно существо, которое видите в пределах дистанции, или два существа, которые видите в пределах дистанции и которые находятся в пределах 5 футов друг от друга. Цель должна преуспеть в спасброске Ловкости, иначе она получит 1к6 урона кислотой.\n\n**_Усиление заговора._** Урон этого заклинания увеличивается на 1к6, когда вы достигаете 5-го уровня (2к6), 11-го уровня (3к6) и 17-го уровня (4к6).",
+      "glossary_version": "v1",
+      "name": "Кислотные брызги",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

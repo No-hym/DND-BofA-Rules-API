@@ -1,0 +1,173 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_call-lightning",
+  "id": "o5e:a5e-ag:spell:a5e-ag-call-lightning",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-call-lightning",
+      "o5e:a5e:spell:call-lightning-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "5f9ca2dab36d8d1184f17178e30127ab9be787601fd6f998c4c22d933d931932",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "10 minutes",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 100.0,
+      "range_text": "100 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "5f9ca2dab36d8d1184f17178e30127ab9be787601fd6f998c4c22d933d931932",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-call-lightning",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "a591f84ef10a5f11eb4716407f089674cbbc458acd6bfe4c0be472bf164fa299",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:call-lightning-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "A 60-foot radius storm cloud that is 10 feet high appears in a space 100 feet above you. If there is not a point in the air above you that the storm cloud could appear, the spell fails (such as if you are in a small cavern or indoors).\n\nOn the round you cast it, and as an action on subsequent turns until the spell ends, you can call down a bolt of lightning to a point directly beneath the cloud. Each creature within 5 feet of the point makes a Dexterity saving throw, taking 3d10 lightning damage on a failed save or half as much on a successful one.\n\nIf you are outdoors in a storm when you cast this spell, you take control of the storm instead of creating a new cloud and the spell's damage is increased by 1d10.",
+      "document": "a5e-ag",
+      "duration": "10 minutes",
+      "higher_level": "The damage increases by 1d10 for each slot level above 3rd.",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "name": "Call Lightning",
+      "range": 100.0,
+      "range_text": "100 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "709",
+          "parent": "a5e-ag_call-lightning",
+          "type": "default"
+        }
+      ],
+      "descriptions": [
+        {
+          "desc": "A *lightning bolt* spell and a blue dragon’s breath deal lightning damage.",
+          "desc_ru": "Описание. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "describes": "lightning",
+          "document": "srd-2014",
+          "external_id": "srd-2014_lightning",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Electricity",
+          "desc_ru": "Описание. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "describes": "lightning",
+          "document": "srd-2024",
+          "external_id": "srd-2024_lightning",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Call Lightning",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "A 60-foot radius storm cloud that is 10 feet high appears in a space 100 feet above you. If there is not a point in the air above you that the storm cloud could appear, the spell fails (such as if you are in a small cavern or indoors).\n\nOn the round you cast it, and as an action on subsequent turns until the spell ends, you can call down a bolt of lightning to a point directly beneath the cloud. Each creature within 5 feet of the point makes a Dexterity saving throw, taking 3d10 lightning damage on a failed save or half as much on a successful one.\n\nIf you are outdoors in a storm when you cast this spell, you take control of the storm instead of creating a new cloud and the spell's damage is increased by 1d10.",
+      "name": "Call Lightning",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Вызов 3-го уровня (Друид)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 120 футов\n\n**Компоненты:** В, С\n\n**Длительность:** Концентрация, вплоть до 10 минут\n\nГрозовая туча появляется в форме цилиндра высотой 10 футов с радиусом 60 футов, с центром в точке, которую вы видите в пределах дистанции прямо над вами. Заклинание проваливается, если вы не можете видеть точку в воздухе, где могла бы появиться грозовая туча (например, если вы находитесь в помещении, которое не вмещает тучу).\n\nСотворяя заклинание, выберите точку, которую видите под тучей. Молния бьёт из тучи в эту точку. Каждое существо в пределах 5 футов от этой точки должно совершить спасбросок Ловкости. Существо получает 3к10 урона электричеством при провале или половину этого урона при успехе. В каждый свой ход, пока заклинание не закончится, вы можете действием вызвать молнию таким же образом, нацеливаясь на ту же или другую точку.\n\nЕсли вы находитесь на открытом воздухе в штормовых условиях, когда сотворяете это заклинание, заклинание даёт вам контроль над существующим штормом вместо создания нового. В таких условиях урон заклинания увеличивается на 1к10.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 4-го уровня или выше, урон увеличивается на 1к10 за каждый уровень ячейки выше 3-го.",
+      "glossary_version": "v1",
+      "name": "Молния с небес",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

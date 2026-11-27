@@ -1,0 +1,146 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "subclass",
+  "edition": "2024",
+  "external_id": "srd-2024_fiend-patron",
+  "id": "o5e:srd-2024:characterclass:srd-2024-fiend-patron",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "ac2287555da832fc7111250aeadedfc36c9c6e18c963640a22f59739a50ca3b2",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "NONE",
+      "subclass_of": "srd-2024_warlock"
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_warlock",
+        "type": "subclass_of",
+        "value": "srd-2024_warlock"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "NONE",
+      "desc": "*Make a Deal with the Lower Planes*\n\nYour pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord, an archdevil, or another fiend that is especially mighty. That patron's aims are evil—the corruption or destruction of all things, ultimately including you—and your path is defined by the extent to which you strive against those aims.",
+      "document": "srd-2024",
+      "name": "Fiend Patron",
+      "subclass_of": "srd-2024_warlock"
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you reduce an enemy to 0 Hit Points, you gain Temporary Hit Points equal to your Charisma modifier plus your Warlock level (minimum of 1 Temporary Hit Point). You also gain this benefit if someone else reduces an enemy within 10 feet of you to 0 Hit Points.",
+          "desc_ru": "Когда вы уменьшаете хиты врага до 0, вы получаете временные хиты, равные вашему модификатору Харизмы + ваш уровень колдуна (минимум 1 временный хит). Вы также получаете это преимущество, если кто-то другой уменьшает хиты врага в пределах 10 футов от вас до 0.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_warlock_fiend-patron_dark-ones-blessing",
+          "level": 3,
+          "name": "Dark One's Blessing",
+          "name_ru": "Благословение тёмного",
+          "parent": "srd-2024_fiend-patron",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared.\n\nTable: Fiend Spells\n\n|Warlock Level|Spells|\n|---|---|\n|3|Burning Hands, Command, Scorching Ray, Suggestion|\n|5|Fireball, Stinking Cloud|\n|7|Fire Shield, Wall of Fire|\n|9|Geas, Insect Plague|",
+          "desc_ru": "Магия вашего покровителя гарантирует, что у вас всегда готовы определённые заклинания; когда вы достигаете уровня колдуна, указанного в таблице Заклинания исчадия, у вас с этого момента всегда подготовлены перечисленные заклинания.\n\nТаблица: Заклинания исчадия\n\n| Уровень колдуна | Заклинания                                    |\n|---|---|\n| 3               | Огненные руки, Приказ, Палящий луч, Внушение |\n| 5               | Огненный шар, Удушающее облако                |\n| 7               | Огненный щит, Стена огня                      |\n| 9               | Обет, Нашествие насекомых                     |",
+          "document": "srd-2024",
+          "external_id": "srd-2024_warlock_fiend-patron_fiend-spells",
+          "level": 3,
+          "name": "Fiend Spells",
+          "name_ru": "Заклинания исчадия",
+          "parent": "srd-2024_fiend-patron",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You can call on your fiendish patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add 1d10 to your roll. You can do so after seeing the roll but before any of the roll's effects occur.\n\nYou can use this feature a number of times equal to your Charisma modifier (minimum of once), but you can use it no more than once per roll. You regain all expended uses when you finish a Long Rest.",
+          "desc_ru": "Вы можете призвать своего дьявольского покровителя изменить судьбу в вашу пользу. Когда вы совершаете проверку характеристики или спасбросок, вы можете использовать это умение, чтобы добавить 1d10 к броску. Вы можете сделать это после того, как увидите результат броска, но до того, как проявятся какие-либо его последствия.\n\nВы можете использовать это умение количество раз, равное вашему модификатору Харизмы (минимум один раз), но не более одного раза за бросок. Вы восстанавливаете все потраченные использования, когда заканчиваете долгий отдых.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_warlock_fiend-patron_dark-ones-own-luck",
+          "level": 6,
+          "name": "Dark One's Own Luck",
+          "name_ru": "Собственная удача тёмного",
+          "parent": "srd-2024_fiend-patron",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Choose one damage type, other than Force, whenever you finish a Short or Long Rest. You have Resistance to that damage type until you choose a different one with this feature.",
+          "desc_ru": "Начиная с 10-го уровня, вы можете выбрать один тип урона после завершения короткого или долгого отдыха. Вы получаете сопротивление этому типу урона, пока не выберете другой тип с помощью этого умения. Урон от магического оружия или серебряного оружия игнорирует это сопротивление.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_warlock_fiend-patron_fiendish-resilience",
+          "level": 10,
+          "name": "Fiendish Resilience",
+          "name_ru": "Дьявольская стойкость",
+          "parent": "srd-2024_fiend-patron",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Once per turn when you hit a creature with an attack roll, you can try to instantly transport the target through the Lower Planes. The target must succeed on a Charisma saving throw against your spell save DC, or the target disappears and hurtles through a nightmare landscape. The target takes 8d10 Psychic damage if it isn't a Fiend, and it has the Incapacitated condition until the end of your next turn, when it returns to the space it previously occupied or the nearest unoccupied space.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest unless you expend a Pact Magic spell slot (no action required) to restore your use of it.",
+          "desc_ru": "Начиная с 14-го уровня, когда вы попадаете по существу атакой, вы можете использовать это умение, чтобы мгновенно перенести цель через нижние планы. Существо исчезает и несётся сквозь кошмарный пейзаж.\n\nВ конце вашего следующего хода цель возвращается в пространство, которое занимала ранее, или в ближайшее свободное пространство. Если цель не является исчадием, она получает 10к10 урона психической энергией, потрясённая своим ужасным опытом.\n\nИспользовав это умение, вы не можете использовать его снова, пока не завершите долгий отдых.\n\n>**Ваш дар договора**\n>\n>Каждый вариант дара договора создаёт особое существо или предмет, отражающий природу вашего покровителя.\n>\n>**_Договор цепи._** Ваш фамильяр хитрее обычного фамильяра. Его стандартная форма может отражать вашего покровителя: спрайты и псевдодраконы связаны с Архифеей, а бесы и квазиты — с Исчадием. Поскольку природа Великого Древнего непостижима, для него подойдёт любая форма фамильяра.\n>\n>**_Договор клинка._** Если ваш покровитель — Архифея, ваше оружие может быть тонким клинком, обвитым лиственными лозами. Если вы служите Исчадию, ваше оружие может быть топором из чёрного металла, украшенным декоративным пламенем. Если ваш покровитель — Великий Древний, ваше оружие может быть древним на вид копьём с драгоценным камнем, вделанным в наконечник и вырезанным в форме ужасного немигающего глаза.\n>\n>**_Договор книги._** Ваша Книга Теней может быть изящным томом с золочёным обрезом, содержащим заклинания очарования и иллюзии, подаренным вам величественной Архифеей. Это может быть тяжёлый том в переплёте из шкуры демона с железными заклёпками, хранящий заклинания вызова и множество запретных знаний о зловещих уголках космоса — дар Исчадия. Или это может быть потрёпанный дневник безумца, сошедшего с ума от контакта с Великим Древним, содержащий обрывки заклинаний, которые лишь ваше собственное растущее безумие позволяет вам понять и сотворить.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_warlock_fiend-patron_hurl-through-hell",
+          "level": 14,
+          "name": "Hurl Through Hell",
+          "name_ru": "Низвергнуть в ад",
+          "parent": "srd-2024_fiend-patron",
+          "ru_source": "memory"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "assembled_features": 5,
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "Fiend Patron",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "*Make a Deal with the Lower Planes*\n\nYour pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord, an archdevil, or another fiend that is especially mighty. That patron's aims are evil—the corruption or destruction of all things, ultimately including you—and your path is defined by the extent to which you strive against those aims.",
+      "name": "Fiend Patron",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Заключите сделку с Нижними планами*\n\nВаш договор черпает силу из Нижних планов, миров погибели. Вы могли заключить сделку с лордом демонов, архидьяволом или другим особенно могущественным исчадием. Цели этого покровителя злы — порча или разрушение всего сущего, включая в конечном счёте вас — и ваш путь определяется тем, насколько вы противостоите этим целям.\n\n### Уровень 3: Благословение тёмного\n\nКогда вы уменьшаете хиты врага до 0, вы получаете временные хиты, равные вашему модификатору Харизмы + ваш уровень колдуна (минимум 1 временный хит). Вы также получаете это преимущество, если кто-то другой уменьшает хиты врага в пределах 10 футов от вас до 0.\n\n### Уровень 3: Заклинания исчадия\n\nМагия вашего покровителя гарантирует, что у вас всегда готовы определённые заклинания; когда вы достигаете уровня колдуна, указанного в таблице Заклинания исчадия, у вас с этого момента всегда подготовлены перечисленные заклинания.\n\nТаблица: Заклинания исчадия\n\n| Уровень колдуна | Заклинания                                    |\n|---|---|\n| 3               | Огненные руки, Приказ, Палящий луч, Внушение |\n| 5               | Огненный шар, Удушающее облако                |\n| 7               | Огненный щит, Стена огня                      |\n| 9               | Обет, Нашествие насекомых                     |\n\n### Уровень 6: Собственная удача тёмного\n\nВы можете призвать своего дьявольского покровителя изменить судьбу в вашу пользу. Когда вы совершаете проверку характеристики или спасбросок, вы можете использовать это умение, чтобы добавить 1d10 к броску. Вы можете сделать это после того, как увидите результат броска, но до того, как проявятся какие-либо его последствия.\n\nВы можете использовать это умение количество раз, равное вашему модификатору Харизмы (минимум один раз), но не более одного раза за бросок. Вы восстанавливаете все потраченные использования, когда заканчиваете долгий отдых.\n\n### Уровень 10: Дьявольская стойкость\n\nНачиная с 10-го уровня, вы можете выбрать один тип урона после завершения короткого или долгого отдыха. Вы получаете сопротивление этому типу урона, пока не выберете другой тип с помощью этого умения. Урон от магического оружия или серебряного оружия игнорирует это сопротивление.\n\n### Уровень 14: Низвергнуть в ад\n\nНачиная с 14-го уровня, когда вы попадаете по существу атакой, вы можете использовать это умение, чтобы мгновенно перенести цель через нижние планы. Существо исчезает и несётся сквозь кошмарный пейзаж.\n\nВ конце вашего следующего хода цель возвращается в пространство, которое занимала ранее, или в ближайшее свободное пространство. Если цель не является исчадием, она получает 10к10 урона психической энергией, потрясённая своим ужасным опытом.\n\nИспользовав это умение, вы не можете использовать его снова, пока не завершите долгий отдых.\n\n>**Ваш дар договора**\n>\n>Каждый вариант дара договора создаёт особое существо или предмет, отражающий природу вашего покровителя.\n>\n>**_Договор цепи._** Ваш фамильяр хитрее обычного фамильяра. Его стандартная форма может отражать вашего покровителя: спрайты и псевдодраконы связаны с Архифеей, а бесы и квазиты — с Исчадием. Поскольку природа Великого Древнего непостижима, для него подойдёт любая форма фамильяра.\n>\n>**_Договор клинка._** Если ваш покровитель — Архифея, ваше оружие может быть тонким клинком, обвитым лиственными лозами. Если вы служите Исчадию, ваше оружие может быть топором из чёрного металла, украшенным декоративным пламенем. Если ваш покровитель — Великий Древний, ваше оружие может быть древним на вид копьём с драгоценным камнем, вделанным в наконечник и вырезанным в форме ужасного немигающего глаза.\n>\n>**_Договор книги._** Ваша Книга Теней может быть изящным томом с золочёным обрезом, содержащим заклинания очарования и иллюзии, подаренным вам величественной Архифеей. Это может быть тяжёлый том в переплёте из шкуры демона с железными заклёпками, хранящий заклинания вызова и множество запретных знаний о зловещих уголках космоса — дар Исчадия. Или это может быть потрёпанный дневник безумца, сошедшего с ума от контакта с Великим Древним, содержащий обрывки заклинаний, которые лишь ваше собственное растущее безумие позволяет вам понять и сотворить.",
+      "glossary_version": "v1",
+      "name": "Покровитель: Исчадие",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

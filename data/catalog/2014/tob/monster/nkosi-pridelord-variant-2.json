@@ -1,0 +1,136 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "nkosi-pridelord",
+  "id": "o5e:tob:monster:nkosi-pridelord-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:nkosi-pridelord"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "43150f3ddf4276cb0089aea0ef38f130840539ce070d016c646b7aeea9d5383c",
+    "formulas": [
+      {
+        "expression": "17d8+17",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "lawful neutral",
+      "armor_class": 16,
+      "challenge_rating": "4",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "17d8+17",
+      "hit_points": 93,
+      "languages": "Common",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "43150f3ddf4276cb0089aea0ef38f130840539ce070d016c646b7aeea9d5383c",
+        "edition": "2014",
+        "id": "o5e:tob:monster:nkosi-pridelord",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The pridelord makes two attacks with its scimitar or with its mambele throwing knife.\"}, {\"name\": \"Scimitar (Nkosi Form Only)\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.\", \"attack_bonus\": 6, \"damage_dice\": \"2d6\"}, {\"name\": \"Mambele Throwing Knife (Nkosi Form Only)\", \"desc\": \"Ranged Weapon Attack: +6 to hit, range 20/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage.\", \"attack_bonus\": 6, \"damage_dice\": \"1d6\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.\", \"attack_bonus\": 6, \"damage_dice\": \"2d6\"}, {\"name\": \"Pridelord's Roar (Recharges after a Short or Long Rest)\", \"desc\": \"Each nkosi of the pridelord's choice that is within 30 feet of it and can hear it can immediately use its reaction to make a bite attack. The pridelord can then make one bite attack as a bonus action.\"}]",
+      "alignment": "lawful neutral",
+      "armor_class": 16,
+      "armor_desc": "studded leather",
+      "bonus_actions_json": "null",
+      "challenge_rating": "4",
+      "charisma": 14,
+      "constitution": 12,
+      "cr": 4.0,
+      "desc": "_With a thick mane of beaded locks, these powerful-looking bestial humanoids grin with a huge mouthful of pointed teeth—as befits a shapeshifter that can turn into a noble lion._  \n**Beads and Braids.** The nkosi resemble bestial humans with cat’s eyes, slender tails, and the fangs and fur of a lion. Most grow their hair long, braiding colorful beads into their locks to mark important events in their lives. Although the nkosi’s true form is that of a feline humanoid with leonine features, the most striking feature of the nkosi is their ability to change their shape, taking the form of a lion. Although comfortable in the wilds, nkosi can adapt to any environment.  \n**Clawlike Blades.** In combat, they favor curved blades, wielded in a brutal fighting style in concert with snapping lunges using their sharp teeth. They prefer light armor decorated with bone beads, fetishes, and similar tokens taken from beasts they’ve slain.  \n**Pridelords.** Nkosi pridelords are exceptionally tall and muscular members of the race, and they are leaders among their kin. Pridelords feature impressive manes but they are more famous for their powerful roar, which wakes the feral heart inside all members of this race.",
+      "dexterity": 18,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "17d8+17",
+      "hit_points": 93,
+      "intelligence": 10,
+      "languages": "Common",
+      "legendary_actions_json": "null",
+      "name": "Nkosi Pridelord",
+      "page_no": 306,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 10",
+      "size": "Medium",
+      "skills_json": "{\"survival\": 2}",
+      "special_abilities_json": "[{\"name\": \"Shapechanger\", \"desc\": \"The nkosi can use its action to polymorph into a Medium lion or back into its true form. While in lion form, the nkosi can't speak and its walking speed is 50 feet. Other than its speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.\"}, {\"name\": \"Keen Smell\", \"desc\": \"The nkosi has advantage on Wisdom (Perception) checks that rely on smell.\"}, {\"name\": \"Brute\", \"desc\": \"A melee weapon deals one extra die of damage when the pridelord hits with it (included in the attack).\"}, {\"name\": \"Hunter's Maw\", \"desc\": \"If the nkosi moves at least 20 feet straight toward a creature and then hits it with a scimitar attack on the same turn, that target must succeed on a DC 15 Strength saving throw or be knocked prone. If the target is prone, the nkosi can make one bite attack against it as a bonus action.\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 18,
+      "subtype": "shapechanger, nkosi",
+      "type": "Humanoid",
+      "wisdom": 10
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Nkosi Pridelord",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-nkosi-pridelord"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_With a thick mane of beaded locks, these powerful-looking bestial humanoids grin with a huge mouthful of pointed teeth—as befits a shapeshifter that can turn into a noble lion._  \n**Beads and Braids.** The nkosi resemble bestial humans with cat’s eyes, slender tails, and the fangs and fur of a lion. Most grow their hair long, braiding colorful beads into their locks to mark important events in their lives. Although the nkosi’s true form is that of a feline humanoid with leonine features, the most striking feature of the nkosi is their ability to change their shape, taking the form of a lion. Although comfortable in the wilds, nkosi can adapt to any environment.  \n**Clawlike Blades.** In combat, they favor curved blades, wielded in a brutal fighting style in concert with snapping lunges using their sharp teeth. They prefer light armor decorated with bone beads, fetishes, and similar tokens taken from beasts they’ve slain.  \n**Pridelords.** Nkosi pridelords are exceptionally tall and muscular members of the race, and they are leaders among their kin. Pridelords feature impressive manes but they are more famous for their powerful roar, which wakes the feral heart inside all members of this race.",
+      "name": "Nkosi Pridelord",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "С густой гривой заплетённых в косы прядей с бусинами эти мощно выглядящие звериные гуманоиды ухмыляются огромным ртом, полным заострённых зубов, — как и подобает оборотню, который может превратиться в благородного льва.\n\n**Бусины и косы.** Нкоси напоминают звериных людей с кошачьими глазами, тонкими хвостами, а также клыками и мехом льва. Большинство отращивает волосы длинными, вплетая красочные бусины в свои локоны, чтобы отмечать важные события в своей жизни. Хотя истинная форма нкоси — кошачий гуманоид со львиными чертами, самой поразительной особенностью нкоси является их способность менять свою форму, принимая форму льва. Хотя им комфортно в дикой местности, нкоси могут приспособиться к любой среде.\n\n**Клинки, подобные когтям.** В бою они предпочитают изогнутые клинки, которыми владеют в жестоком боевом стиле в сочетании с щёлкающими выпадами, используя свои острые зубы. Они предпочитают лёгкий доспех, украшенный костяными бусинами, фетишами и подобными трофеями, взятыми у зверей, которых они убили.\n\n**Владыки прайда.** Владыки прайда нкоси — исключительно высокие и мускулистые представители расы, и они являются лидерами среди своих родичей. Владыки прайда отличаются впечатляющими гривами, но более знамениты своим мощным рёвом, который пробуждает дикое сердце внутри всех представителей этой расы.",
+      "glossary_version": "v1",
+      "name": "Нкоси, владыка прайда",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

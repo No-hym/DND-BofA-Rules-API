@@ -1,0 +1,172 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_anchoring-rope-reaction",
+  "id": "o5e:deepm:spell:deepm-anchoring-rope-reaction",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "fc43ecc142afaab9c3d54e0f453873a9ad8a501fe8794392832fd151a9e95d43",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "reaction",
+      "classes": [
+        "srd_bard",
+        "srd_druid",
+        "srd_ranger"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "5 minutes",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "classes",
+        "value": [
+          "srd_bard",
+          "srd_druid",
+          "srd_ranger"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "reaction",
+      "classes": [
+        "srd_bard",
+        "srd_druid",
+        "srd_ranger"
+      ],
+      "concentration": false,
+      "desc": "You create a spectral lanyard. One end is tied around your waist, and the other end is magically anchored in the air at a point you select within range. You can choose to make the rope from 5 to 30 feet long, and it can support up to 800 pounds. The point where the end of the rope is anchored in midair can’t be moved after the spell is cast. If this spell is cast as a reaction while you are falling, you stop at a point of your choosing in midair and take no falling damage. You can dismiss the rope as a bonus action.\n",
+      "document": "deepm",
+      "duration": "5 minutes",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, you can create one additional rope for every two slot levels above 1st. Each rope must be attached to a different creature.",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Anchoring Rope (Reaction)",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "reaction_condition": "that you take while falling",
+      "ritual": false,
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "10673",
+          "parent": "deepm_anchoring-rope-reaction",
+          "type": "default"
+        },
+        {
+          "external_id": "10669",
+          "parent": "deepm_anchoring-rope-reaction",
+          "target_count": 1,
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "10670",
+          "parent": "deepm_anchoring-rope-reaction",
+          "target_count": 2,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "10671",
+          "parent": "deepm_anchoring-rope-reaction",
+          "target_count": 3,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "10672",
+          "parent": "deepm_anchoring-rope-reaction",
+          "target_count": 4,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Anchoring Rope (Reaction)",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You create a spectral lanyard. One end is tied around your waist, and the other end is magically anchored in the air at a point you select within range. You can choose to make the rope from 5 to 30 feet long, and it can support up to 800 pounds. The point where the end of the rope is anchored in midair can’t be moved after the spell is cast. If this spell is cast as a reaction while you are falling, you stop at a point of your choosing in midair and take no falling damage. You can dismiss the rope as a bonus action.",
+      "name": "Anchoring Rope (Reaction)",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы создаёте призрачный строп. Один конец привязан вокруг вашей талии, а другой конец магически закреплён в воздухе в точке, которую вы выбираете в пределах дистанции. Вы можете выбрать сделать верёвку от 5 до 30 футов длиной, и она может поддерживать до 800 фунтов. Точка, где конец верёвки закреплён в воздухе, не может быть перемещена после того, как заклинание сотворено. Если это заклинание сотворено как реакция, пока вы падаете, вы останавливаетесь в точке по вашему выбору в воздухе и не получаете урона от падения. Вы можете отпустить верёвку бонусным действием.",
+      "glossary_version": "v1",
+      "name": "Якорная верёвка (Реакция)",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

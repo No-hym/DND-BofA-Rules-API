@@ -1,0 +1,125 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob2",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "tob2_deathspeaker_necrotic-ray_necrotic-ray-attack",
+  "id": "o5e:tob2:creatureactionattack:tob2-deathspeaker-necrotic-ray-necrotic-ray-attack",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creatureactionattack:tob2-deathspeaker-necrotic-ray-necrotic-ray-attack",
+      "o5e:tob2:creatureactionattack:tob2-onyx-magistrate-necrotic-ray-necrotic-ray-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5e625c51f83fc1c9a32dfd703bf21c52a4e8a3d73ec61015cdb1b8bd739e3507",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "SPELL",
+      "damage_bonus": null,
+      "damage_die_count": 3,
+      "damage_die_type": "D6",
+      "damage_type": "necrotic",
+      "extra_damage_bonus": null,
+      "extra_damage_die_count": null,
+      "extra_damage_die_type": null,
+      "extra_damage_type": null,
+      "long_range": null,
+      "range": 60,
+      "reach": null,
+      "to_hit_mod": 7
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "5e625c51f83fc1c9a32dfd703bf21c52a4e8a3d73ec61015cdb1b8bd739e3507",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-deathspeaker-necrotic-ray-necrotic-ray-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "b38a89369112ad61a7440c5aa215e9c9a098fbc405246981117ec535cad922d4",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-onyx-magistrate-necrotic-ray-necrotic-ray-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "tob2_deathspeaker_necrotic-ray",
+        "type": "parent",
+        "value": "tob2_deathspeaker_necrotic-ray"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "SPELL",
+      "damage_die_count": 3,
+      "damage_die_type": "D6",
+      "damage_type": "necrotic",
+      "name": "Necrotic Ray attack",
+      "parent": "tob2_deathspeaker_necrotic-ray",
+      "range": 60,
+      "target_creature_only": false,
+      "to_hit_mod": 7
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Necrotic Ray attack",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Necrotic Ray attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака заклинанием: +7 к попаданию. Зона: дистанция 60 фт., одна цель. Попадание: 3к6 некротической энергией урона.",
+      "glossary_version": "derived-v1",
+      "name": "Некротический Рай",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

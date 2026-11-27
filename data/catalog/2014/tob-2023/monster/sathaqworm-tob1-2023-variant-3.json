@@ -1,0 +1,137 @@
+{
+  "attribution": "Title: Tome of Beasts 2023; Author: Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur; Publisher: tob-2023; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. 2023 Open Design LLC. All rights reserved.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob-2023",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "sathaqworm-tob1-2023",
+  "id": "o5e:tob-2023:monster:sathaqworm-tob1-2023-variant-3",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:monster:sathaqworm-tob1-2023"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7e5315a5d6fb0b8e321bc2cfe7adbbb4a657b507781d5fa4a3026a231fa29c03",
+    "formulas": [
+      {
+        "expression": "13d12 + 65",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "Neutral Evil",
+      "armor_class": 16,
+      "challenge_rating": "10",
+      "condition_immunities": "exhaustion, paralyzed, petrified, poisoned",
+      "damage_immunities": "acid, poison",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "False",
+      "hit_dice": "13d12 + 65",
+      "hit_points": 149,
+      "languages": "understands Deep Speech and Terran but can’t speak",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob-2023",
+        "content_hash": "7e5315a5d6fb0b8e321bc2cfe7adbbb4a657b507781d5fa4a3026a231fa29c03",
+        "edition": "2014",
+        "id": "o5e:tob-2023:monster:sathaqworm-tob1-2023",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The sathaq worm makes one Bite attack and two Slam attacks, or it makes three Slam attacks. It can replace its Bite attack with a use of Swallow.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 24 (4d8 + 6) piercing damage, and the target is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the sathaq worm can't Bite another target.\"}, {\"name\": \"Slam\", \"desc\": \"Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage.\"}, {\"name\": \"Swallow\", \"desc\": \"The sathaq worm makes one Bite attack against a Large or smaller creature it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is blinded and restrained, it has total cover against attacks and other effects outside the worm (including the worm's Agonizing Aura), and takes 10 (3d6) piercing damage and 10 (3d6) acid damage at the start of each of the sathaq worm's turns. The sathaq worm can have only one creature swallowed at a time.\"}]",
+      "alignment": "Neutral Evil",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "challenge_rating": "10",
+      "charisma": 9,
+      "condition_immunities": "exhaustion, paralyzed, petrified, poisoned",
+      "constitution": 20,
+      "cr": 10.0,
+      "damage_immunities": "acid, poison",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "False",
+      "desc": "False",
+      "dexterity": 6,
+      "document": 47,
+      "group": "null",
+      "hit_dice": "13d12 + 65",
+      "hit_points": 149,
+      "intelligence": 5,
+      "languages": "understands Deep Speech and Terran but can’t speak",
+      "name": "Sathaq Worm",
+      "page_no": 317,
+      "perception": 15,
+      "route": "monsters/",
+      "senses": "tremorsense 60 ft., passive Perception 15",
+      "size": "Huge",
+      "skills_json": "{\"Perception\": 5, \"Stealth\": 2}",
+      "special_abilities_json": "[{\"name\": \"Agonizing Aura\", \"desc\": \"The sathaq worm emits ultrasonic noise and minor vibrations that cause pain and subtly disrupt the functions of most creatures. A creature that starts its turn within 15 feet of the sathaq worm must succeed on a DC 17 Constitution saving throw or have disadvantage on attack rolls until the start of its next turn. Creatures with resistance or immunity to thunder damage automatically succeed on the saving throw.\"}, {\"name\": \"Earth Glide\", \"desc\": \"The sathaq worm can burrow through nonmagical, unworked earth and stone. While doing so, the worm doesn't disturb the material it moves through.\"}, {\"name\": \"Earthen Camouflage\", \"desc\": \"The sathaq worm has advantage on Dexterity (Stealth) checks made to hide in sandy, muddy, or rocky terrain.\"}, {\"name\": \"Siege Monster\", \"desc\": \"The sathaq worm deals double damage to objects and structures.\"}]",
+      "speed_json": "{\"walk\": 40, \"burrow\": 20}",
+      "spells_json": "null",
+      "strength": 22,
+      "type": "Elemental",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur",
+      "key": "tob-2023",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+      "publication_date": "",
+      "publisher": "tob-2023",
+      "title": "Tome of Beasts 2023"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Sathaq Worm",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-sathaq-worm"
+  },
+  "publisher_id": "tob-2023",
+  "source": "open5e:v1:tob-2023",
+  "translations": {
+    "en": {
+      "description": "False",
+      "name": "Sathaq Worm",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Скалистая шкура этого титанического червя грубая и жёсткая, как камень. Его зевный желудок извивается с миниатюрными червями, как он сам.\n\n**Стихийные хищники.** Черви Сатак — кошмарные хищники из Плана Стихийной Земли, длиной 30 футов и толщиной 10 футов, с грубой коричневой шкурой, вставленной камнями. Они пожирают камень и плотью с равным лёгкостью.\n\n**Кишечники, заполненные личинками.** Черви Сатак одиночны; они подходят друг другу только, чтобы спариться. Их молодые инкубируют внутри желудков червей. Существа, которые они проглатывают, одновременно перевариваются родительским червём и пожираются личинками.\n\n**Болезненное присутствие.** Ультразвуковой шум и магические ряби, которые разрывают на плоть и кость, делают само присутствие черви Сатак чрезвычайно неудобен для существ Материального Плана.",
+      "glossary_version": "v1",
+      "name": "Червь Сатак",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

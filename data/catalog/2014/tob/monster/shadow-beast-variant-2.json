@@ -1,0 +1,136 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "shadow-beast",
+  "id": "o5e:tob:monster:shadow-beast-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:shadow-beast"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "3dcbc2df06852c092cc750773a8c41db573517778f3874f1416a008af548358c",
+    "formulas": [
+      {
+        "expression": "18d8+54",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic evil",
+      "armor_class": 14,
+      "challenge_rating": "7",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "18d8+54",
+      "hit_points": 135,
+      "languages": "Common, Elvish, Umbral, Void Speech",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "3dcbc2df06852c092cc750773a8c41db573517778f3874f1416a008af548358c",
+        "edition": "2014",
+        "id": "o5e:tob:monster:shadow-beast",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The shadow beast makes one bite attack and two claw attacks.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage.\", \"attack_bonus\": 8, \"damage_dice\": \"2d8\"}, {\"name\": \"Claw\", \"desc\": \"Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) slashing damage.\", \"attack_bonus\": 8, \"damage_dice\": \"2d10\"}, {\"name\": \"Shadow Push (Recharge 5-6)\", \"desc\": \"The shadow beast buffets opponents with a gale of animated shadows in a 15-foot cone. Any creatures in the area of effect must succeed on a DC 15 Strength saving throw or be pushed back 10 feet and knocked prone.\"}]",
+      "alignment": "chaotic evil",
+      "armor_class": 14,
+      "bonus_actions_json": "null",
+      "challenge_rating": "7",
+      "charisma": 19,
+      "constitution": 17,
+      "constitution_save": 6,
+      "cr": 7.0,
+      "desc": "_A mass of shadows and cloudstuff, never touching the ground, a shadow beast may at first look harmless—except for its clawed hands and the glint of its jagged teeth._  \n**Called from the Void.** Shadow beasts are thought to be the result of shadow fey dabbling in the magic of the void. Almost shapeless and largely incorporeal, through an act of will they can form rough semblances of their old bodies when needed.  \n**Hate the Past.** The motivations of these creatures are inscrutable. They despise light and anything that reminds them of light or of their former existence. Beyond that, little is understood about them.  \n**Cryptic Messages.** Shadow beasts are seldom found in groups, but when they are, they seem to have no difficulty or reluctance about operating and fighting together. They have been known to deliver cryptic and threatening messages, but speaking is difficult for them. At times, they perform arcane rituals with the aid of evil humanoids and the use of dark materials. In these rituals they sacrifice magical energies and life blood as well as the tears of innocents and the souls of the damned.",
+      "dexterity": 18,
+      "dexterity_save": 7,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "18d8+54",
+      "hit_points": 135,
+      "intelligence": 14,
+      "languages": "Common, Elvish, Umbral, Void Speech",
+      "legendary_actions_json": "null",
+      "name": "Shadow Beast",
+      "page_no": 345,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 12",
+      "size": "Medium",
+      "skills_json": "{\"stealth\": 7}",
+      "special_abilities_json": "[{\"name\": \"Amorphous\", \"desc\": \"The shadow beast can move through a space as narrow as 1 inch wide without squeezing.\"}, {\"name\": \"Incorporeal Movement\", \"desc\": \"The shadow beast can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"the shadow beast's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:\\n\\n3/day each: fear, telekinesis\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The beast has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Sunlight Sensitivity\", \"desc\": \"While in sunlight, the shadow beast has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.\"}]",
+      "speed_json": "{\"hover\": true, \"walk\": 0, \"fly\": 40}",
+      "spells_json": "null",
+      "strength": 20,
+      "type": "Fey",
+      "wisdom": 14
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Shadow Beast",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-shadow-beast"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_A mass of shadows and cloudstuff, never touching the ground, a shadow beast may at first look harmless—except for its clawed hands and the glint of its jagged teeth._  \n**Called from the Void.** Shadow beasts are thought to be the result of shadow fey dabbling in the magic of the void. Almost shapeless and largely incorporeal, through an act of will they can form rough semblances of their old bodies when needed.  \n**Hate the Past.** The motivations of these creatures are inscrutable. They despise light and anything that reminds them of light or of their former existence. Beyond that, little is understood about them.  \n**Cryptic Messages.** Shadow beasts are seldom found in groups, but when they are, they seem to have no difficulty or reluctance about operating and fighting together. They have been known to deliver cryptic and threatening messages, but speaking is difficult for them. At times, they perform arcane rituals with the aid of evil humanoids and the use of dark materials. In these rituals they sacrifice magical energies and life blood as well as the tears of innocents and the souls of the damned.",
+      "name": "Shadow Beast",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Масса теней и облачных существ, никогда не касается земли, зверь тени может сначала выглядеть безобидным — за исключением её когтистых рук и блеска её зазубренных зубов.\n\n**Вызывается из Пустоты.** Теневые звери, как полагают, являются результатом теневой возни Фей с магией пустоты. Почти бесформенные и в основном бестелесные, посредством акта воли они могут формировать грубые подобия их старые тела при необходимости.\n\n**Ненависть к прошлому.** В мотивациях этих существ закрыта. Они презирают свет и все, что напоминает им о свете или их прежнем существовании. Помимо этого, мало что о них известно.\n\n**Загадочные сообщения.** Тень зверей редко встречаются группами, но когда они делают, они, кажется, не имеют никаких трудностей или нежелание об операционных и борьбы вместе. Они известны тем, что доставляли загадочные и угрожающие сообщения, но говорить им трудно. Иногда они выполняют оккультные ритуалы с помощью злых гуманоидов и использования тёмных материалов. В этих ритуалах они приносят в жертву магическую энергию и жизненной силы крови, а также слёзы невинных и души проклятых.",
+      "glossary_version": "v1",
+      "name": "Теневой зверь",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

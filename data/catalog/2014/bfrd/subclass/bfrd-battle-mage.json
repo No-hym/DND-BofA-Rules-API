@@ -1,0 +1,156 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "bfrd_battle-mage",
+  "id": "o5e:bfrd:characterclass:bfrd-battle-mage",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "2d86371e7312ebbe6fa36d16a74307d59267bd901456e7ce0cd0f72780cee5fc",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "bfrd_wizard"
+    },
+    "original_system": "5e-2014",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "bfrd_wizard",
+        "type": "subclass_of",
+        "value": "bfrd_wizard"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Wizards who follow the Battle Mage tradition aren't interested in theoretical musings or tedious experiments. Instead, they pursue new ways to enhance their power so that they can destroy their foes (and defend their allies) with ever-greater efficiency.",
+      "document": "bfrd",
+      "name": "Battle Mage",
+      "subclass_of": "bfrd_wizard"
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When your gain a new talent, you can select it from either the magic or the martial talents list.",
+          "desc_ru": "Когда вы получаете новый талант, вы можете выбрать его из списка магических или боевых талантов.",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard-battle-mage_expanded-talent-list",
+          "level": 3,
+          "name": "Expanded Talent List",
+          "name_ru": "Расширенный список талантов",
+          "parent": "bfrd_battle-mage",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You can redirect a portion of your spellcasting energy into a defensive shield. When you cast an Arcane spell of 1st circle or higher, you can simultaneously weave a protective ward around yourself.\n\nWhile the ward is active, you gain the following benefits if you aren't wearing medium or heavy armor:\n- You gain a bonus to your armor class (AC) equal to your PB.\n- You have resistance to bludgeoning, piercing, and slashing damage.\n\nThe ward lasts for 1 minute, but ends early if you are knocked unconscious or if your turn ends and you haven't cast an Arcane spell of 1st circle or higher since your last turn. You can also choose to dismiss your ward at any time (no action required by you).\n\nYou can use this feature a number of times equal to your PB, and you regain all uses of it when you finish a long rest.",
+          "desc_ru": "Вы можете перенаправить часть вашей заклинательной энергии в защитный щит. Когда вы творите мистическое заклинание 1-го круга или выше, вы можете одновременно сплести защитный оберег вокруг себя.\n\nПока оберег активен, вы получаете следующие преимущества, если вы не носите средний или тяжёлый доспех:\n- Вы получаете бонус к вашему классу доспеха (КД), равный вашему бонусу мастерства.\n- Вы имеете сопротивление дробящему, колющему и рубящему урону.\n\nОберег длится 1 минуту, но заканчивается рано, если вы сбиты без сознания или если ваш ход заканчивается и вы не сотворили мистическое заклинание 1-го круга или выше с вашего последнего хода. Вы также можете выбрать отпустить ваш оберег в любое время (действие с вашей стороны не требуется).\n\nВы можете использовать эту особенность количество раз, равное вашему бонусу мастерства, и вы восстанавливаете все использования её, когда заканчиваете продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard-battle-mage_spell-ward",
+          "level": 3,
+          "name": "Spell Ward",
+          "name_ru": "Оберег заклинаний",
+          "parent": "bfrd_battle-mage",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you cast an Arcane spell that causes damage, you can choose yourself and any number of allies you can see to be immune to the damage caused by the spell. You can use this feature a number of times equal to your PB, and you regain all uses of it when you finish a long rest.",
+          "desc_ru": "Когда вы творите мистическое заклинание, которое причиняет урон, вы можете выбрать себя и любое количество союзников, которых вы можете видеть, быть иммунными к урону, причинённому заклинанием. Вы можете использовать эту особенность количество раз, равное вашему бонусу мастерства, и вы восстанавливаете все использования её, когда заканчиваете продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard-battle-mage_tactical-caster",
+          "level": 3,
+          "name": "Tactical Caster",
+          "name_ru": "Тактический заклинатель",
+          "parent": "bfrd_battle-mage",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you fail to hit a creature with a spell attack, you can use your reaction to redirect the spell toward a different target within the spell's range. You must make a new spell attack roll for the new target. If you miss the new target, you can't redirect again with the same spell attack.",
+          "desc_ru": "Когда вы промахиваетесь по существу атакой заклинанием, вы можете реакцией перенаправить заклинание к другой цели в пределах дистанции заклинания. Вы должны совершить новый бросок атаки заклинанием для новой цели. Если вы промахиваетесь по новой цели, вы не можете перенаправить снова той же атакой заклинанием.",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard-battle-mage_contingency-plan",
+          "level": 7,
+          "name": "Contingency Plan",
+          "name_ru": "План на непредвиденный случай",
+          "parent": "bfrd_battle-mage",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you deal damage with an Arcane spell, you can reroll any 1s you roll on any number of the damage dice. You must take the new result for any dice rerolled in this way (even if the new result is also a 1).",
+          "desc_ru": "Когда вы наносите урон мистическим заклинанием, вы можете перебросить любые 1, которые вы выбрасываете на любом количестве костей урона. Вы должны принять новый результат для любых костей, переброшенных этим способом (даже если новый результат тоже 1).",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard-battle-mage_blasting-power",
+          "level": 11,
+          "name": "Blasting Power",
+          "name_ru": "Взрывная мощь",
+          "parent": "bfrd_battle-mage",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When a creature succeeds on a save against an Arcane spell you cast and would take no damage or otherwise suffer no effects from the spell, it instead takes force damage equal to a number of d6 dice equal to the spell's circle + your INT modifier. For example, if you have an INT modifier of +4 and a creature succeeds and takes no damage from your 4th-circle spell, the creature still takes 4d6 + 4 force damage.",
+          "desc_ru": "Когда существо успешно проходит спасбросок против мистического заклинания, которое вы творите, и не получило бы урона или иным образом не пострадало бы от эффектов заклинания, вместо этого оно получает урон силовым полем, равный количеству костей к6, равному кругу заклинания + ваш модификатор Интеллекта. Например, если у вас модификатор Интеллекта +4 и существо успешно проходит и не получает урона от вашего заклинания 4-го круга, существо всё равно получает 4к6 + 4 урона силовым полем.",
+          "document": "bfrd",
+          "external_id": "bfrd_wizard-battle-mage_counterstrike",
+          "level": 15,
+          "name": "Counterstrike",
+          "name_ru": "Контрудар",
+          "parent": "bfrd_battle-mage",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Battle Mage",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "Wizards who follow the Battle Mage tradition aren't interested in theoretical musings or tedious experiments. Instead, they pursue new ways to enhance their power so that they can destroy their foes (and defend their allies) with ever-greater efficiency.",
+      "name": "Battle Mage",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Волшебники, следующие традиции Боевого мага, не интересуются теоретическими размышлениями или утомительными экспериментами. Вместо этого они ищут новые способы усилить свою мощь, чтобы уничтожать врагов (и защищать союзников) со всё большей эффективностью.",
+      "glossary_version": "v1",
+      "name": "Боевой маг",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

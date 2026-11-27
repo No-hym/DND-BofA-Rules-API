@@ -1,0 +1,1403 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "tob_zmey_claws_claws-attack",
+  "id": "o5e:tob:creatureactionattack:tob-zmey-claws-claws-attack",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:creatureactionattack:bfrd-badger-giant-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-bear-black-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-bear-brown-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-bear-polar-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-cat-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-chimera-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-dretch-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-dust-mephit-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-ettercap-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-gargoyle-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-ghast-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-ghoul-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-golmana-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-griffon-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-hippogriff-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-ice-devil-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-ice-mephit-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-lion-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-magma-mephit-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-owlbear-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-sahuagin-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-steam-mephit-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-tiger-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-tiger-saber-toothed-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-velociraptor-claws-claws-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-wyvern-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-alkonost-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-anophiloi-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-astral-snapper-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-azeban-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-barong-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-desert-troll-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-dracotaur-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-ghast-of-leng-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-giant-albino-bat-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-greater-scrag-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-grindylow-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-ichneumon-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-kulmking-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-lesser-scrag-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-necrophage-ghast-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-pishacha-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-pixiu-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-preta-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-rattok-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-simurg-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-snow-hag-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-spawn-of-chernobog-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-tosculi-jeweled-drone-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-undead-phoenix-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-vellso-claws-claws-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-war-wyvern-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-black-bear-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-brown-bear-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-cat-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-chimera-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-dretch-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-dust-mephit-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-ettercap-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-gargoyle-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-ghast-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-ghoul-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-giant-badger-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-green-hag-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-griffon-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-harpy-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-hezrou-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-hippogriff-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-ice-devil-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-ice-mephit-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-lamia-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-magma-mephit-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-merrow-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-night-hag-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-owlbear-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-polar-bear-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-sahuagin-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-sea-hag-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-steam-mephit-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-vampire-spawn-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-werewolf-claws-claws-attack",
+      "o5e:srd-2014:creatureactionattack:srd-wyvern-claws-claws-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-asanbosam-claws-claws-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-bastet-temple-cat-claws-claws-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-beggar-ghoul-claws-claws-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-blood-hag-claws-claws-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-deep-one-archimandrite-claws-claws-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-deep-one-claws-claws-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-deep-one-priest-claws-claws-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-jaculus-claws-claws-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-rum-gremlin-claws-claws-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-zimwi-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-aalpamac-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-alchemical-skunk-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-animated-bearskin-rug-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-catscratch-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-dragonflesh-golem-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-faceless-wanderer-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-ghul-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-giant-armadillo-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-giant-water-scorpion-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-gray-orc-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-greater-ghast-of-leng-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-grove-bear-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-hoard-drake-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-hodag-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-lymarien-swarm-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-marsh-dire-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-scribe-devil-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-shukankor-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-somberweave-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-tembril-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-valkruung-claws-claws-attack",
+      "o5e:tob2:creatureactionattack:tob2-yowler-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-apau-perape-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-asanbosam-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-bastet-temple-cat-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-beggar-ghoul-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-blood-hag-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-carrion-beetle-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-ghost-knight-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-ghoul-imperial-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-ghoul-iron-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-glass-gator-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-gypsosphinx-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-jaculus-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-kot-bayun-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-lake-troll-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-lindwurm-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-miremal-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-morphoi-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-owl-harpy-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-paper-drake-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-red-hag-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-rum-gremlin-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-shellycoat-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-subek-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-tosculi-drone-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-tosculi-elite-bow-raider-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-tosculi-warrior-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-wampus-cat-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-zimwi-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-zmey-claws-claws-attack",
+      "o5e:tob:creatureactionattack:tob-zmey-headling-claws-claws-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e637b4da7af428e9cd94b8322cc5eeb49d78b7eaa64cb1712173e26f7541a1d4",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "WEAPON",
+      "damage_bonus": null,
+      "damage_die_count": 2,
+      "damage_die_type": "D12",
+      "damage_type": "slashing",
+      "extra_damage_bonus": null,
+      "extra_damage_die_count": null,
+      "extra_damage_die_type": null,
+      "extra_damage_type": null,
+      "long_range": null,
+      "range": null,
+      "reach": 5,
+      "to_hit_mod": 11
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "e637b4da7af428e9cd94b8322cc5eeb49d78b7eaa64cb1712173e26f7541a1d4",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-zmey-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "245e7df31f520799f7fcfa50b19e56226797542279161eacafbdf7eaf9f70a5b",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-cat-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "tob",
+        "content_hash": "779cd871ffb5b1943c23b4a8b616301804900d9a0e6e5bea5f7cb9b818d4764b",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-subek-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "c9182643ec82c296c2856c12343820d15933b1555c4f36f91f177b2f73c2f330",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-zimwi-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "3d78914ff7e092cdb8c8aff240ee00db236d9feca4dca7b4bc21eeea7148a517",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-lion-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "73879b9e96593ae2e0111c7c25bd411d0a639f9e5eaa52fb9864f81c710dac44",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-ghul-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "815f55bcab7c4fe2544852cc96c30ca030a84cd76d8622311f8cba99f8ac0177",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-ghast-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "1c5fb931a9b19f4ccb1c46023f322eb5bc8a8d2e2b0321601e1d8c56557fe015",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-ghoul-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "70792098600f87f4bac4f8c5911f7f2dbf3952e202f81544d3306b4383b3d7c5",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-tiger-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "80e22a2e8bd9cd9576e9e524dbfcc05b53aea5fe5d6f2dc93c382550989a920e",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-pixiu-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "5f71dd465aa0c2c31488ffe8829c94fcebd21e6ae987b8e922a4eee96e5d0844",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-preta-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "7a2afa037266c0ac0e0def073f26debeba9d48856077c9e72f6dfed30418a816",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-hodag-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "cbe80a22e7435bd4cf9aa1dac809f0a58474317634afbf92ddfdb7a733ccfe48",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-jaculus-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "9a3ff22709736e9b6521b7cb977292ba82e6e4521108aa6590e7183d03af6d12",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-miremal-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "9a33707abb8b41d64c46b7991c213fa2e68242e400ec54f2557d7e0b39dfafa2",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-morphoi-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "bb9665da9b5c6336455860fda4f025389e67313ecb4f23f7e4ef4ed46006d25c",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-red-hag-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "3510d21b7b4b0d3f8773dd373f7ea094e14344c827063efe2b31d80321c650a2",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-dretch-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "c09f2ca86144675de202ca4ab10e7b3a60cd4a2215addab41700cc6a9a975eed",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-wyvern-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "2756394abb6e10c99e8745d25ac173c10daedb30d83199ed8dbccc177f1cb225",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-azeban-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "c8d47296236cb68e3fb8111f50e0505de1ee8f25a6a9c3c111f742026e876164",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-barong-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "538c0305e89f035524432f7d35acd2e31cd6826c3986b081f78a07e33c9b9d69",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-rattok-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "b353b6e72937ecb12bf14493fae4c1cfe770d48228572d08d3819dfb642ffede",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-simurg-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "474920154d8f6a177b10527f8fc592639287ec7a94ed0105b0b1598114db58d7",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-vellso-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "887246fd396a36cca65317641b7c9812d7cbfbf5bfda01d461e78231d07f9838",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-cat-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "7b642defc92d66d2aba065eae3c3394a8be3636d860b9d4d8614cc39b9c64c3f",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-yowler-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "b02ef6c5641fb42e72326f04ebb42375f3a3d79bf64d47d3e44639a1bc1c400c",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-lindwurm-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "cc7a14764b75b37af3cb7b2c1b1eee3c480dedf20115dfc3f6e73a4cd76388ca",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-chimera-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "dfd56bd5a0ded2b36e855173a652545b66da216fdd4c4571b33e37650204b47c",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-golmana-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "05f4d7b88ba524e97f14936ae0339645fc47a17ef4ac81aaee6ce3d616cabf93",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-griffon-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "a011e79bcd11b5aa6ffd299c96f0708a2cdc396b9a0abf514c094c65c2fd9726",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-owlbear-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "bd00271d7b4c6c219c6dc101d2f735f47d3b684e4e9dbe61eeaa2bc50ed6b9cf",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-tembril-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "b00ae67091baf73662bd6b9f39fb1c05d43b26975995fb5a6de4f198aaf4713f",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-asanbosam-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "d0b41ea0a74be8f4cfcaccecab39f90438cc599b7914574c5b3939306be408bc",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-blood-hag-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "7f157548e74cebaf53be2eb9f2cbb2013554d412cf222595a49d0a07852aaac1",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-kot-bayun-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "81c2d274b3ddc636dea30d75f6462c5bd5b992b29771cb56da6d0d371f5e49c1",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-owl-harpy-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "d652b15a0c830af86469d70f19ff6aba855fc427be56836d2c693b74b5bfa702",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-ettercap-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "58129a590fda6c1620114248c3529e53342e44a83185760155549c1b3418e930",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-gargoyle-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "8c722aec0aa305d7a09fe0cf35b95fc158a3d464d8fb1819e1653022485a3a0f",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-sahuagin-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "e78299c3f11d2283eca74b91bb92389f11a806ebb998a36bf29a4f8e810dc7e8",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-alkonost-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "2de63e37b7ad631b437e2ff6a60e1435475cc1e98f00e2e672ecd45fc1b1093e",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-kulmking-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "7831daca48798add615781f8c2899829f9ea1c45c5f3f55918bc83467e2c09a0",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-pishacha-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "3913a381460877dea9f41d13f07c2ce19bc93bb2b83f014798735d94090e3a75",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-snow-hag-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "3971d4e7675c45ebd65540b2041159b03a0c4290d65c0a3f08f93f011b240326",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-ghast-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "def834406e392265fb626cb585cc2cac83a15e0ac63405450a144bab6ad33309",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-ghoul-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "9a6bbcaedb24aa1ebb20b30cdadff5fdb336d56e893f92f796b9ac16428eaa58",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-harpy-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "2c9016dfca447bb26726591845454c3da23d9a83d917a352e7dda5edaa8c5825",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-lamia-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "5a2d50d6eafab8c7a3688191fc33e766b100106fc55fd58aa94198ca5765062c",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-aalpamac-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "568631128f28ed3af174c9ce740c21bc4f11d7c6e52b238e0e37925c1f76c8eb",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-gray-orc-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "449ad07644ea2a55f44e11266fe5fd8263ea1a8ca2bfe94f4760ab39fdcbb102",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-ghoul-iron-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "a57a5e37a57a2db9a63fc2ffb9c5b2ccb44d9d00fa9e0067f2e84267846554d0",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-lake-troll-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "6228bdd885e5eeb869b6c0c34efaf510242ebbd669b1fa6b4a3c1932c0222648",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-shellycoat-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "c1726a757ab74489ebc57a37801bc395edb0da11775c4585ee46fc8e8d2783e1",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-wampus-cat-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "75a415989de8ecf4feeace1659f2aa5749c10c2f4f51a4d1195d0a6f340f4a1d",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-ice-devil-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "889213e3d46d40993a59b6bb1d2a71d0af2e3b4279e00e8664404600469e4a04",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-anophiloi-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "a6e812d286317a7737313ad0fa2673c2a8bcae94f9078e640eaced1ec9549797",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-dracotaur-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "7416017124133de540da1833862f32a543981e95339336ba5b804f7726255113",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-grindylow-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "b20a33882d03de433bd2f068facfc35b8f115e0e569ee37f44c9e2c3caba28dc",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-ichneumon-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "c2e7e4dcb8b9e0c628ff9d98953f74abcaa3a256fd0779d59670ea5ba79ab110",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-dretch-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "5a4e3c5d99cf07398b50c7291f6527a1942f7edb123dd93f2d51dd2844417b19",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-hezrou-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "dee645c69767591a15a14478637869264e865e5bff5be882ac4399b29a5a4064",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-merrow-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "920dc0abcd1ce724bd8bd5653129c6caa18c1b7de2c5266f2b830c3295dc090e",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-wyvern-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "fc02fc99445f2aea7d91daa2405d57018eeff3de58d2527cf43e3c5364a3d85c",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-shukankor-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "6deb00caf01fbbab1e2ba24c55293767a022e5068b444af8939cf70b83147c0f",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-valkruung-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "864c58ca3a151dde6afe256dd3805974a5ea85e6d55960c90cd3acc4ff9451f3",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-apau-perape-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "5d289ab7b70c5337732fb00364d3ac48e40106df3d42e428a9fa825f86fa1cd2",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-glass-gator-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "0d6013b8ddde4ec30b01a70fbdc412a5274c4242b27627ee934e50079d4ce1fc",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-gypsosphinx-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "3e0b7568b9509bcfd82d4b75f49fdaebdfdf77ac9f15238cb19cf67a85952cbd",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-paper-drake-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "7c2b670066bf6486a036efc5f16c8ca26fe9aea792e52f2fe2ea8ae03d5f8788",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-rum-gremlin-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "579247204c847e95f438d50c443ca3583e222e98c2265f6bee6e3bb76b273f8a",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-bear-black-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "8c3af09ed9e66311977b815d121e5545bddd0e48e3461c421ae8c28f20902b75",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-bear-brown-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "a839fada45aad86786d3c3774c0aacba921416211e2180d9a171e0f9eed07331",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-bear-polar-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "7da387b0b27544539c662cc908db27d5192eed76c18bc9825768fb603868972f",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-hippogriff-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "3bbf19264584d6399b332bdd7fb9e0cd983969604e6dc5c21899cd98a2cf9c38",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-ice-mephit-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "de1cb53b2330c1eae7fe66192ff9c806160f71d278c4f5b91328e8a6812a8d42",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-war-wyvern-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "7ab9c163c6cb717e1ef787debe3037fa01c5a9e4f9b86721f5d726bf3053fe58",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-chimera-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "581db507e03a7e6fd32cc39413442b2ab6a3fafa596175675453fd11dcd6c4cb",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-griffon-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "a2b7e560cfc95dd2d0059ff59cfecae416388bb110081e367c76793b8ea32528",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-owlbear-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "51461da89de7de5c94d61dcd4fcb1cff8de90fabc9e43c10671083ab89d99682",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-sea-hag-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "f5a81bdab78711da766cbed57ddc1a43ee3177df1f3169a9c5ded42263c578f8",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-catscratch-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "9c6d975cce76d8eba74c0a94ba9fad97b1eba244540aefa03aa4526a480e16b9",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-grove-bear-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "d52047d60eb3b48cb55e22ae1eb932d48c7750d1f7903d7c5103002830e9dafd",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-marsh-dire-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "296d78ff2a49192701b0702c2205cb471e1fcdc75d31926b7179cc4bd1cd67ec",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-beggar-ghoul-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "a6c97168dcc908a1f80a069250510cd3d52e8fe743d8ab39ab72832ac735efcf",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-ghost-knight-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "fe278e205e3917a575ffbb09e814002aeb3d32ddf43e18ddffd4e7e8046675a1",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-dust-mephit-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "ec786c531b3c9df9db7cc57693341cfc01e639f99c3c13d4dac947e8e7c2a0de",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-ettercap-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "dc6376839b9febc7d9561d5690e1439b3136d07961054bfa88668de248570a3c",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-gargoyle-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "d71a782a6d3cfd21e0884dd556536f9e5c73a310c938fb024bd44ad123c6c407",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-sahuagin-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "81efa0762fd6720ae461891e691da029e31b2d58fe1bcfb3ab860844ff9d3a93",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-werewolf-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "c30d9d884ade18df268fe00b4d96e78e4f09566e87e0bb1943baf7826e4d88bb",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-hoard-drake-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "441c3b731decefcd84a4653aa2c58e5bd54c2da15689285fd1e31989462e23e5",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-somberweave-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "08d606a1cc6c9df904804cfa7c6481655c1b5b35e99eaf3422e049a70b63b1c2",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-tosculi-drone-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "530a0939548159523baa49e8888f1b4cfa1430dc8e3ecd7086e6d1dbe0f1d1a9",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-zmey-headling-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "56a00582db47accf3b0a453e8002457531cc98f9754bd6b511e8c89524d4959c",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-badger-giant-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "ee7c418a61083bdebcd0aebdf62069ce81133fcd4e7a78a34be92bcd20ce241a",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-magma-mephit-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "c620fa93fca1046cc73171a69afc0103bbeb87a148274b694bfb276061f79202",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-steam-mephit-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "6d0a6a16f84f44cb951111bcc783d2c748dab09da13053c1c775cc4afb4798e8",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-velociraptor-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "4dc933d175a1ea49305876b13e0c3488db7c756ef71a36e1a57402b6dcaa5fdd",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-desert-troll-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "58e49ceb9e01dfcdde5c7829d4c8c8716aa68dfb657bbcf63099ff01a143b24c",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-lesser-scrag-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "281ff17120878eee00a426aeca42c97f15faec1337ca0620bca2da4dd6650023",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-green-hag-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "be40ced91a19f408635a944afaf628bbe00bc77efabd594e5cba99de1b46cba2",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-ice-devil-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "758a9d8dceacaad470d386c8b26e5f1773be7539b164a0e73445bea170dfc582",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-night-hag-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "3734abeef5b149bc5e4d06183ec7d52aa22dfaed01dfc594947b19e000b00a8c",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-scribe-devil-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "0d35fb7a4d27f669c5cfc84a0c484856ea4e1dc0824d4e5c79f202f723b90260",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-carrion-beetle-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "3fcc18bd1f445be8cd745b5b19bf97dac247809bae934057b25f20594e52df4f",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-ghoul-imperial-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "68f615e719d28fbf4f487c8493d7428447704cbbe6b605741021548d8a6a7024",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-ghast-of-leng-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "e4f39e2a1e99129f8f9ca693096a5caa87468b2a35be4fce83d0d6aa61d13831",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-greater-scrag-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "2dea459c27b68c0fbbb2eeade8132e3c31620b6d1adca0e78411d8b80bd038d4",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-black-bear-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "42cf3533b4962c100fad6b23720cad61e71e2433aaf285f24ff26389f702e8ca",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-brown-bear-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "909e90aa344cd110fe2feb1fc82b8723357956e9f1beab308897b25d2874c658",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-hippogriff-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "deeb3e3b0c99bfe3796aea0d62b8befa65c832ed5557cd031c6f6dd08293cf8b",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-ice-mephit-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "c2246121db0ac450ad1b0bf8ff96a8fbb789609b38cbf97ebf4e7084ea0adc5c",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-polar-bear-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "9f9d640c8f882c87eb70fa62f2828a298a681255ae705bd69be8990ab2023a47",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-zimwi-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob",
+        "content_hash": "a20e938cb49b89acf557dc5ae86e8077160f1ea24ea56c0bbcbb0486be7804ea",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-tosculi-warrior-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "59ea022066b4f6253515840458498d7594e56a97ceb54efc4e1c9484e3fbf39a",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-astral-snapper-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "57581e4f6ac44cf21925249447c5dfa5b2ebae2daeadca20edb80ad9d825c73a",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-undead-phoenix-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "129669cbac914b98950ed0e251fcafa133d84549e9371a1edfd372200e38d5cd",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-dust-mephit-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "64e489d870525af5eaa6c139d5e7366a2d2e7f7fca7044a2bd29bd89e280ffc1",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-lymarien-swarm-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "09ce6cc3978e5d3ad3ffe663788a6bb21b20ff340cd5c26f7eb5dec92c573089",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-giant-badger-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "6e325d1f4a1afa0a7806b3453edf4060f67fd54c32aea39c8d6bd657d7ccde6f",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-magma-mephit-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "2970033d06172924b221d0144e0e7dd24c20750ad1332235271909fcc7072478",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-steam-mephit-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "d8e3db99c63835056a632213c074eb5270c9340281d83a8013088f0e69987e8f",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-jaculus-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "c13cf6c1b01e2d9bc2dce281aee9bb028a8a2b7a1c8fcdad0daecaf090064fd0",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-giant-armadillo-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "69be920a117cac6f028c54bdb752b84fc9003b1270838f186bc95581531f2445",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-bastet-temple-cat-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "f73d57da3571ffc751201b9a99efdea093f08bafc96ba5805e89dd6c477e0676",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-giant-albino-bat-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "d85a5fbe47235e2ba0aec790fa1041f4397b982ffe0c721d12994010677bbdfa",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-necrophage-ghast-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "1806b071e014cb31084cc00fd8f7ec281715ef407448161919e8de2d41a47afe",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-vampire-spawn-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "19054fec32124837cbe319135b2cc1e390d8e8aafc14986f9884c198ebae52a0",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-deep-one-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "3be80fcbe803502ac51718d15a83c2421ee1a8e6e794ee6f3695c1d83293e8a1",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-alchemical-skunk-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "fa0ee00bc7036fc819a9794b0d49558fdad8a5c9f108c6add35aa717f62b4b47",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-asanbosam-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "0142b9241000704daa2fd1e98dbc81fa975053be37fb9ef3ebb6e30a5fbbd7da",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-blood-hag-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "4456390d2891a47ed182be64ce45c2c909d5821de5aad7afb2114c0bbf6bc230",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-dragonflesh-golem-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "9f38d117083dd512d08e8311a3a39e7f7b86837c594de7d1199d249262595875",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-faceless-wanderer-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "60d0a15592beb3c37f00c159c7585d689d94d501b750b403a4d80b5fa895ce32",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-spawn-of-chernobog-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "7daf72b905c4edc2b4ae922200126cb6b05473d405ba17fab8ec03ba1299cb3d",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-tiger-saber-toothed-claws-claws-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "ee32453758a5f835f1c154aa54aa052fc945229a35ffa65f3b61366579035631",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-rum-gremlin-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "ba302919d0d6d177384a44c8ca5728e1ae831c99e194187ca4b4a08e33aa64ef",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-beggar-ghoul-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "c5dc5b2efcfb6164ab3789d5b669bbfbed763585b9b843e410d21f34ebee3fae",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-giant-water-scorpion-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "9505c6ad3cd5f640dd4dc63919d37c4fe744a85be22a7d5f6c04793466511076",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-tosculi-jeweled-drone-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "13feb9178a4595e3c0f78031a97355ae9275dfd82cd4d1594a331b3697aeb1c2",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-animated-bearskin-rug-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "51d6d0afe221f45d227abda57c376fd91d5bfc68f993c2a61b736360cfa9a3e4",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-greater-ghast-of-leng-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "dfde325d1f526b90e2ecd913efa3b2fa6240210974ecf3c4551066cb104d45af",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-tosculi-elite-bow-raider-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "a1a23533374548cbfa1f1906231a266b425e9404eec6f2d36a19537dad694b37",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-deep-one-priest-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "f2fb4970e5fa8338350a0e09870cbffb5eec9462a41b0884e545c3ea9c863aff",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-bastet-temple-cat-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "db2ccc2c5c966fe7c6c0b7d4f90d6a3ff6222fce7fac03432507a9dbf0709435",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-deep-one-archimandrite-claws-claws-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "tob_zmey_claws",
+        "type": "parent",
+        "value": "tob_zmey_claws"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "WEAPON",
+      "damage_die_count": 2,
+      "damage_die_type": "D12",
+      "damage_type": "slashing",
+      "name": "Claws attack",
+      "parent": "tob_zmey_claws",
+      "reach": 5,
+      "target_creature_only": false,
+      "to_hit_mod": 11
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Claws attack",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Claws attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака оружием: +11 к попаданию. Зона: досягаемость 5 фт., одна цель. Попадание: 2к12 рубящего урона.",
+      "glossary_version": "derived-v1",
+      "name": "Когти",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

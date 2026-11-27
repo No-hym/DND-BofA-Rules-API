@@ -1,0 +1,258 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob_weeping-treant",
+  "id": "o5e:tob:creature:tob-weeping-treant",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creature:tob-2023-weeping-treant",
+      "o5e:tob:creature:tob-weeping-treant"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7f86abcd28e378cd194ec175be78b497282fe842529255dad7b754a1789f026f",
+    "formulas": [
+      {
+        "expression": "10d12+40",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 11,
+      "ability_score_constitution": 20,
+      "ability_score_dexterity": 8,
+      "ability_score_intelligence": 12,
+      "ability_score_strength": 21,
+      "ability_score_wisdom": 16,
+      "alignment": "neutral",
+      "armor_class": 17,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "6.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [
+        "fire"
+      ],
+      "darkvision_range": 60,
+      "environments": [
+        "forest"
+      ],
+      "fly": null,
+      "hit_dice": "10d12+40",
+      "hit_points": 105,
+      "initiative_bonus": null,
+      "languages": [
+        "common",
+        "druidic",
+        "elvish",
+        "sylvan"
+      ],
+      "languages_desc": "Common, Druidic, Elvish, Sylvan",
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "huge",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "7f86abcd28e378cd194ec175be78b497282fe842529255dad7b754a1789f026f",
+        "edition": "2014",
+        "id": "o5e:tob:creature:tob-weeping-treant",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "8f26823fbbd48c11559ee6f28faf6ea77b5f1c83f619153250d989f1c4480e8c",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creature:tob-2023-weeping-treant",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 11,
+      "ability_score_constitution": 20,
+      "ability_score_dexterity": 8,
+      "ability_score_intelligence": 12,
+      "ability_score_strength": 21,
+      "ability_score_wisdom": 16,
+      "alignment": "neutral",
+      "armor_class": 17,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "6.000",
+      "damage_resistances_display": "bludgeoning and piercing",
+      "damage_vulnerabilities": [
+        "fire"
+      ],
+      "damage_vulnerabilities_display": "fire",
+      "darkvision_range": 60,
+      "document": "tob",
+      "environments": [
+        "forest"
+      ],
+      "hit_dice": "10d12+40",
+      "hit_points": 105,
+      "hover": false,
+      "languages": [
+        "common",
+        "druidic",
+        "elvish",
+        "sylvan"
+      ],
+      "languages_desc": "Common, Druidic, Elvish, Sylvan",
+      "name": "Weeping Treant",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "size": "huge",
+      "type": "plant",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "The treant makes three slam attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_weeping-treant_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob_weeping-treant",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Ranged Weapon Attack: +8 to hit, range 60/180 ft., one target. Hit: 21 (3d10 + 5) bludgeoning damage.",
+          "desc_ru": "Атака оружием дальнего боя: +8 к попаданию, дистанция 60/180 фт., одна цель. Попадание: 21 (3к10+5) дробящего урона.",
+          "external_id": "tob_weeping-treant_rock",
+          "name": "Rock",
+          "name_ru": "Рок",
+          "order_in_statblock": 2,
+          "parent": "tob_weeping-treant",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15 (3d6 + 5) bludgeoning damage.",
+          "desc_ru": "Атака оружием ближнего боя: +8 к попаданию, досягаемость 5 фт., одна цель. Попадание: 15 (3к6+5) дробящего урона.",
+          "external_id": "tob_weeping-treant_slam",
+          "name": "Slam",
+          "name_ru": "Удар",
+          "order_in_statblock": 1,
+          "parent": "tob_weeping-treant",
+          "ru_source": "template"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "Thick tears of dark sap stream continuously down the treant's face and trunk. These tears are highly acidic - anyone who attacks the treant from a range of 5 feet or less must succeed on a DC 15 Dexterity saving throw or take 6 (1d12) acid damage from splashed tears. This acidic matter continues doing 6 (1d12) acid damage at the start of each of the creature's turns until it or an adjacent ally uses an action to wipe off the tears or three rounds elapse.",
+          "desc_ru": "Особенность «Акидик Теарс». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_weeping-treant_acidic-tears",
+          "name": "Acidic Tears",
+          "name_ru": "Акидик Теарс",
+          "parent": "tob_weeping-treant",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The treant deals double damage to objects and structures.",
+          "desc_ru": "Особенность «Сиеге Монстер». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_weeping-treant_siege-monster",
+          "name": "Siege Monster",
+          "name_ru": "Сиеге Монстер",
+          "parent": "tob_weeping-treant",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "A weeping treant can converse with plants, and most plants greet them with a friendly or helpful attitude.",
+          "desc_ru": "Особенность «Трееспееч». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_weeping-treant_treespeech",
+          "name": "Treespeech",
+          "name_ru": "Трееспееч",
+          "parent": "tob_weeping-treant",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Weeping Treant",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Weeping Treant",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Лицо этого искривлённого дерева сделано из потрескавшейся чёрной коры, завязанной в смутно гуманоидные черты, а густые слёзы сока стекают по его лицу.\n\nПлачущие энты явно связаны с другими энтами, но они меньше нормального разнообразия, чуть более 30 футов в высоту со стволом 3 фута в диаметре и весом не более 4 500 фунтов. Их корявые стволы часто искривлены, а их дерево часто стонет, когда они двигаются.\n\n**Лесные стражи.** Плачущие энты — защитники тёмных тенистых лесов, и они столь же долгоживущи, как и сами деревья. Они действуют как стражи для целого леса или для чего-то конкретного внутри леса — у них нет жалости к тем, кто несёт топоры или огонь.\n\n**Скептическое выражение.** Плачущие энты ужасны и неумолимы, сражаясь в защиту своего подопечного. Они по своей сути недоверчивы, особенно ко всему, что не из естественного или теневого мира, и их, как известно, трудно обмануть или ввести в заблуждение.\n\n**Зачарованные горькие слёзы.** Мудрецы и учёные спорят, почему эти существа плачут, но никто не выступил с убедительной причиной за пределами «это то, что делают деревья». Сами плачущие энты отказываются говорить на эту тему. Их слёзы иногда являются компонентами в друидских заклинаниях или предметах.",
+      "glossary_version": "v1",
+      "name": "Плачущий энт",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

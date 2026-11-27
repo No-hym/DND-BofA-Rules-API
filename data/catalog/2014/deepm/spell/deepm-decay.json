@@ -1,0 +1,280 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_decay",
+  "id": "o5e:deepm:spell:deepm-decay",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-decay",
+      "o5e:dmag:spell:decay"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "49030954f27051bbf191a187b355988e95a954f94216f33a527d5d1c5da52e9c",
+    "formulas": [
+      {
+        "expression": "1d10",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "1d10",
+      "damage_types": [
+        "necrotic"
+      ],
+      "duration": "instantaneous",
+      "level": 0,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a handful of ash",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "49030954f27051bbf191a187b355988e95a954f94216f33a527d5d1c5da52e9c",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-decay",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "776147762bcaf865577fd85f909c250b6c00d6cd645aa1eaecf4e0838111a795",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:decay",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "1d10",
+      "damage_types": [
+        "necrotic"
+      ],
+      "desc": "Make a melee spell attack against a creature you touch. On a hit, the target takes 1d10 necrotic damage. If the target is a Tiny or Small nonmagical object that isn’t being worn or carried by a creature, it automatically takes maximum damage from the spell.",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "higher_level": "This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).",
+      "level": 0,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a handful of ash",
+      "name": "Decay",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2990",
+          "parent": "deepm_decay",
+          "type": "default"
+        },
+        {
+          "damage_roll": "1d10",
+          "external_id": "2991",
+          "parent": "deepm_decay",
+          "type": "player_level_1"
+        },
+        {
+          "damage_roll": "1d10",
+          "external_id": "2992",
+          "parent": "deepm_decay",
+          "type": "player_level_2"
+        },
+        {
+          "damage_roll": "1d10",
+          "external_id": "2993",
+          "parent": "deepm_decay",
+          "type": "player_level_3"
+        },
+        {
+          "damage_roll": "1d10",
+          "external_id": "2994",
+          "parent": "deepm_decay",
+          "type": "player_level_4"
+        },
+        {
+          "damage_roll": "2d10",
+          "external_id": "2995",
+          "parent": "deepm_decay",
+          "type": "player_level_5"
+        },
+        {
+          "damage_roll": "2d10",
+          "external_id": "2996",
+          "parent": "deepm_decay",
+          "type": "player_level_6"
+        },
+        {
+          "damage_roll": "2d10",
+          "external_id": "2997",
+          "parent": "deepm_decay",
+          "type": "player_level_7"
+        },
+        {
+          "damage_roll": "2d10",
+          "external_id": "2998",
+          "parent": "deepm_decay",
+          "type": "player_level_8"
+        },
+        {
+          "damage_roll": "2d10",
+          "external_id": "2999",
+          "parent": "deepm_decay",
+          "type": "player_level_9"
+        },
+        {
+          "damage_roll": "2d10",
+          "external_id": "3000",
+          "parent": "deepm_decay",
+          "type": "player_level_10"
+        },
+        {
+          "damage_roll": "3d10",
+          "external_id": "3001",
+          "parent": "deepm_decay",
+          "type": "player_level_11"
+        },
+        {
+          "damage_roll": "3d10",
+          "external_id": "3002",
+          "parent": "deepm_decay",
+          "type": "player_level_12"
+        },
+        {
+          "damage_roll": "3d10",
+          "external_id": "3003",
+          "parent": "deepm_decay",
+          "type": "player_level_13"
+        },
+        {
+          "damage_roll": "3d10",
+          "external_id": "3004",
+          "parent": "deepm_decay",
+          "type": "player_level_14"
+        },
+        {
+          "damage_roll": "3d10",
+          "external_id": "3005",
+          "parent": "deepm_decay",
+          "type": "player_level_15"
+        },
+        {
+          "damage_roll": "3d10",
+          "external_id": "3006",
+          "parent": "deepm_decay",
+          "type": "player_level_16"
+        },
+        {
+          "damage_roll": "4d10",
+          "external_id": "3007",
+          "parent": "deepm_decay",
+          "type": "player_level_17"
+        },
+        {
+          "damage_roll": "4d10",
+          "external_id": "3008",
+          "parent": "deepm_decay",
+          "type": "player_level_18"
+        },
+        {
+          "damage_roll": "4d10",
+          "external_id": "3009",
+          "parent": "deepm_decay",
+          "type": "player_level_19"
+        },
+        {
+          "damage_roll": "4d10",
+          "external_id": "3010",
+          "parent": "deepm_decay",
+          "type": "player_level_20"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Decay",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "Make a melee spell attack against a creature you touch. On a hit, the target takes 1d10 necrotic damage. If the target is a Tiny or Small nonmagical object that isn’t being worn or carried by a creature, it automatically takes maximum damage from the spell.",
+      "name": "Decay",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Совершите рукопашную атаку заклинанием против существа, которого вы касаетесь. При попадании цель получает 1к10 некротического урона. Если цель — Крошечный или Маленький немагический объект, который не носится или не несётся существом, она автоматически получает максимальный урон от заклинания.",
+      "glossary_version": "v1",
+      "name": "Разложение",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

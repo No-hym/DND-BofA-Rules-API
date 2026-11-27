@@ -1,0 +1,205 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_animate-dead",
+  "id": "o5e:srd-2024:spell:srd-2024-animate-dead",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "d8a649cdb4079371ac4560d310ca22a3726f46d4dc5b53de3b35545427430f7f",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [
+        "srd-2024_cleric",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a drop of blood, a piece of flesh, and a pinch of bone dust",
+      "range": 10,
+      "range_text": "10 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_cleric",
+        "type": "classes",
+        "value": [
+          "srd-2024_cleric",
+          "srd-2024_wizard"
+        ]
+      },
+      {
+        "anchor": "Zombie",
+        "required": false,
+        "target_id": "srd-2024_zombie",
+        "type": "cross-reference"
+      },
+      {
+        "anchor": "Skeleton",
+        "required": false,
+        "target_id": "srd-2024_skeleton",
+        "type": "cross-reference"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [
+        "srd-2024_cleric",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "desc": "Choose a pile of bones or a corpse of a Medium or Small Humanoid within range. The target becomes an Undead creature: a Skeleton if you chose bones or a Zombie if you chose a corpse (see \"Monsters\" for the stat blocks). On each of your turns, you can take a Bonus Action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move on its next turn, or you can issue a general command, such as to guard a chamber or corridor. If you issue no commands, the creature takes the Dodge action and moves only to avoid harm. Once given an order, the creature continues to follow it until its task is complete. The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell rather than animating a new creature.",
+      "document": "srd-2024",
+      "duration": "instantaneous",
+      "higher_level": "You animate or reassert control over two additional Undead creatures for each spell slot level above 3. Each of the creatures must come from a different corpse or pile of bones.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a drop of blood, a piece of flesh, and a pinch of bone dust",
+      "name": "Animate Dead",
+      "range": 10,
+      "range_text": "10 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "desc": "You animate or reassert control over 2 additional Undead creatures.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10592",
+          "parent": "srd-2024_animate-dead",
+          "ru_source": "derived",
+          "target_count": 3,
+          "type": "slot_level_4"
+        },
+        {
+          "desc": "You animate or reassert control over 4 additional Undead creatures.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10593",
+          "parent": "srd-2024_animate-dead",
+          "ru_source": "derived",
+          "target_count": 5,
+          "type": "slot_level_5"
+        },
+        {
+          "desc": "You animate or reassert control over 6 additional Undead creatures.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10594",
+          "parent": "srd-2024_animate-dead",
+          "ru_source": "derived",
+          "target_count": 7,
+          "type": "slot_level_6"
+        },
+        {
+          "desc": "You animate or reassert control over 8 additional Undead creatures.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10595",
+          "parent": "srd-2024_animate-dead",
+          "ru_source": "derived",
+          "target_count": 9,
+          "type": "slot_level_7"
+        },
+        {
+          "desc": "You animate or reassert control over 10 additional Undead creatures.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10596",
+          "parent": "srd-2024_animate-dead",
+          "ru_source": "derived",
+          "target_count": 11,
+          "type": "slot_level_8"
+        },
+        {
+          "desc": "You animate or reassert control over 12 additional Undead creatures.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10597",
+          "parent": "srd-2024_animate-dead",
+          "ru_source": "derived",
+          "target_count": 13,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Animate Dead",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "Choose a pile of bones or a corpse of a Medium or Small Humanoid within range. The target becomes an Undead creature: a Skeleton if you chose bones or a Zombie if you chose a corpse (see \"Monsters\" for the stat blocks). On each of your turns, you can take a Bonus Action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move on its next turn, or you can issue a general command, such as to guard a chamber or corridor. If you issue no commands, the creature takes the Dodge action and moves only to avoid harm. Once given an order, the creature continues to follow it until its task is complete. The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell rather than animating a new creature.",
+      "name": "Animate Dead",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Некромантия 3-го уровня (Жрец, Волшебник)*\n\n**Время накладывания:** 1 минута\n\n**Дистанция:** 10 футов\n\n**Компоненты:** В, С, М (капля крови, кусочек плоти и щепотка костной пыли)\n\n**Длительность:** Мгновенная\n\nЭто заклинание создаёт слугу-нежить. Выберите груду костей или труп Среднего или Маленького гуманоида в пределах дистанции. Ваше заклинание наполняет цель мерзкой пародией на жизнь, поднимая её как существо-нежить. Цель становится скелетом, если вы выбрали кости, или зомби, если вы выбрали труп (Мастер располагает игровыми параметрами существа).\n\nВ каждый свой ход вы можете бонусным действием мысленно приказать любому существу, которого вы создали этим заклинанием, если оно находится в пределах 60 футов от вас (если вы контролируете несколько существ, можете приказать любому или всем одновременно, отдавая одну и ту же команду каждому). Вы решаете, какое действие совершит существо и куда оно переместится в следующий ход, или же можете отдать общий приказ — например, охранять определённую комнату или коридор. Если вы не отдаёте приказов, существо лишь защищается от враждебных существ. Получив приказ, существо продолжает выполнять его, пока задача не будет завершена.\n\nСущество находится под вашим контролем в течение 24 часов, после чего перестаёт подчиняться любым вашим приказам. Чтобы сохранить контроль над существом ещё на 24 часа, вы должны сотворить это заклинание на существо до истечения текущего 24-часового периода. Такое использование заклинания подтверждает ваш контроль над четырьмя оживлёнными вами существами, а не оживляет новое.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 4-го уровня или выше, вы оживляете или подтверждаете контроль над двумя дополнительными существами-нежить за каждый уровень ячейки выше 3-го. Каждое из существ должно быть поднято из отдельного трупа или груды костей.",
+      "glossary_version": "v1",
+      "name": "Оживление мёртвых",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,309 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "class",
+  "edition": "2024",
+  "external_id": "srd-2024_fighter",
+  "id": "o5e:srd-2024:characterclass:srd-2024-fighter",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "0510f7c1342066781e72c39cfc0037d05133964c695cbbef475f7cef2856e6f6",
+    "formulas": [
+      {
+        "expression": "D10",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "NONE",
+      "hit_dice": "D10",
+      "primary_abilities": [],
+      "saving_throws": [
+        "dex",
+        "str"
+      ],
+      "subclass_of": null
+    },
+    "original_system": "5e-2024",
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "NONE",
+      "document": "srd-2024",
+      "hit_dice": "D10",
+      "name": "Fighter",
+      "saving_throws": [
+        "dex",
+        "str"
+      ]
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "You have honed your martial prowess and gain a Fighting Style feat of your choice (see \"Feats\"). Defense is recommended.\n\nWhenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.",
+          "desc_ru": "Вы отточили своё боевое мастерство и получаете черту Боевой стиль на свой выбор (смотрите раздел «Черты»). Рекомендуется Оборона.\n\nКаждый раз, когда вы получаете уровень воина, вы можете заменить выбранную черту другой чертой Боевого стиля.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_fighting-style",
+          "level": 1,
+          "name": "Fighting Style",
+          "name_ru": "Боевой стиль",
+          "parent": "srd-2024_fighter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_proficiency-bonus",
+          "feature_type": "PROFICIENCY_BONUS",
+          "level": 1,
+          "name": "Proficiency Bonus",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_fighter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level.\n\nYou can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nWhen you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.",
+          "desc_ru": "У вас есть ограниченный запас физической и ментальной выносливости, на который вы можете опереться. Как Бонусное действие, вы можете использовать его, чтобы восстановить количество хитов, равное 1d10 + ваш уровень воина.\n\nВы можете использовать это умение дважды. Вы восстанавливаете одно потраченное использование, когда заканчиваете короткий отдых, и восстанавливаете все потраченные использования, когда заканчиваете долгий отдых.\n\nКогда вы достигаете определённых уровней воина, вы получаете больше использований этого умения, как показано в столбце Второе дыхание таблицы Умения воина.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_second-wind",
+          "level": 1,
+          "name": "Second Wind",
+          "name_ru": "Второе дыхание",
+          "parent": "srd-2024_fighter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_second-wind-uses",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Second Wind",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_fighter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.\n\nWhen you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table.",
+          "desc_ru": "Ваша подготовка с оружием позволяет использовать свойства мастерства двух видов простого или воинского оружия ближнего боя по вашему выбору, таких как секиры и ручные топоры. Каждый раз после долгого отдыха вы можете практиковаться с оружием и изменить один из этих выборов.\n\nПри достижении определённых уровней Варвара вы получаете возможность использовать свойства мастерства большего количества видов оружия, как показано в столбце Мастерство оружия таблицы Умения Варвара.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_weapon-mastery",
+          "level": 1,
+          "name": "Weapon Mastery",
+          "name_ru": "Мастерство оружия",
+          "parent": "srd-2024_fighter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_weapon-mastery-count",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Weapon Mastery",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_fighter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.\n\nOnce you use this feature, you can't do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn.",
+          "desc_ru": "Начиная со 2-го уровня, вы можете на мгновение выйти за пределы своих обычных возможностей. В свой ход вы можете совершить одно дополнительное действие помимо обычного действия и возможного бонусного действия.\n\nИспользовав это умение, вы должны завершить короткий или долгий отдых, прежде чем сможете использовать его снова. Начиная с 17-го уровня, вы можете использовать его дважды перед отдыхом, но только один раз в один и тот же ход.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_action-surge",
+          "level": 2,
+          "name": "Action Surge",
+          "name_ru": "Всплеск действий",
+          "parent": "srd-2024_fighter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended.",
+          "desc_ru": "У вас тактический склад ума как на поле боя, так и за его пределами. Когда вы проваливаете проверку характеристики, вы можете потратить использование Второго дыхания, чтобы подтолкнуть себя к успеху. Вместо восстановления хитов вы бросаете 1d10 и добавляете выпавшее число к проверке характеристики, потенциально превращая её в успех. Если проверка всё равно провалена, это использование Второго дыхания не тратится.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_tactical-mind",
+          "level": 2,
+          "name": "Tactical Mind",
+          "name_ru": "Тактический ум",
+          "parent": "srd-2024_fighter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain a Fighter subclass of your choice. The Champion subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level or lower.",
+          "desc_ru": "Вы получаете подкласс воина на свой выбор. Подкласс Чемпион описан после описания этого класса. Подкласс — это специализация, которая даёт вам умения на определённых уровнях воина. До конца вашей карьеры вы получаете каждое умение своего подкласса, которое соответствует вашему уровню воина или ниже.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_fighter-subclass",
+          "level": 3,
+          "name": "Fighter Subclass",
+          "name_ru": "Подкласс воина",
+          "parent": "srd-2024_fighter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16.",
+          "desc_ru": "Когда вы достигаете 4-го уровня, а также на 6-м, 8-м, 12-м, 14-м, 16-м и 19-м уровне, вы можете увеличить одну характеристику по вашему выбору на 2 или две характеристики по вашему выбору на 1. Как обычно, вы не можете увеличить характеристику выше 20 с помощью этого умения.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_ability-score-improvement",
+          "level": 4,
+          "name": "Ability Score Improvement",
+          "name_ru": "Увеличение характеристик",
+          "parent": "srd-2024_fighter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You can attack twice instead of once whenever you take the Attack action on your turn.",
+          "desc_ru": "Начиная с 5-го уровня, вы можете атаковать дважды, а не один раз, каждый раз, когда совершаете действие Атака в свой ход.\n\nКоличество атак увеличивается до трёх при достижении 11-го уровня в этом классе и до четырёх при достижении 20-го уровня в этом классе.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_extra-attack",
+          "level": 5,
+          "name": "Extra Attack",
+          "name_ru": "Дополнительная атака",
+          "parent": "srd-2024_fighter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Whenever you activate your Second Wind with a Bonus Action, you can move up to half your Speed without provoking Opportunity Attacks.",
+          "desc_ru": "Каждый раз, когда вы активируете Второе дыхание Бонусным действием, вы можете переместиться на расстояние до половины вашей скорости, не провоцируя Провоцированные атаки.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_tactical-shift",
+          "level": 5,
+          "name": "Tactical Shift",
+          "name_ru": "Тактический манёвр",
+          "parent": "srd-2024_fighter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. You must use the new roll, and you can't use this feature again until you finish a Long Rest.",
+          "desc_ru": "Если вы проваливаете спасбросок, вы можете перебросить его с бонусом, равным вашему уровню воина. Вы должны использовать новый результат, и вы не можете использовать это умение снова, пока не закончите долгий отдых.\n\nВы можете использовать это умение дважды до долгого отдыха начиная с 13-го уровня и три раза до долгого отдыха начиная с 17-го уровня.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_indomitable",
+          "level": 9,
+          "name": "Indomitable",
+          "name_ru": "Несгибаемый",
+          "parent": "srd-2024_fighter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap, or Slow property for that attack.",
+          "desc_ru": "Когда вы атакуете оружием, свойство мастерства которого вы можете использовать, вы можете заменить это свойство на Толчок, Подавление или Замедление для этой атаки.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_tactical-master",
+          "level": 9,
+          "name": "Tactical Master",
+          "name_ru": "Тактическое мастерство",
+          "parent": "srd-2024_fighter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You can attack three times instead of once whenever you take the Attack action on your turn.",
+          "desc_ru": "Вы можете атаковать три раза вместо одного, каждый раз, когда совершаете действие Атака в свой ход.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_two-extra-attacks",
+          "level": 11,
+          "name": "Two Extra Attacks",
+          "name_ru": "Две дополнительные атаки",
+          "parent": "srd-2024_fighter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creature before the end of your next turn.",
+          "desc_ru": "Вы изучаете ваших противников и учитесь на каждой вашей атаке. Если вы совершаете бросок атаки по существу и промахиваетесь, вы совершаете с преимуществом ваш следующий бросок атаки по этому существу до конца вашего следующего хода.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_studied-attacks",
+          "level": 13,
+          "name": "Studdied Attacks",
+          "name_ru": "Изученные атаки",
+          "parent": "srd-2024_fighter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You gain an Epic Boon feat (see \"Feats\") or another feat of your choice for which you qualify. Boon of Combat Prowess is recommended.",
+          "desc_ru": "Вы получаете черту Эпический дар (смотрите раздел «Черты») или другую черту на свой выбор, для которой вы соответствуете требованиям. Рекомендуется Дар межпространственного перемещения.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_epic-boon",
+          "level": 19,
+          "name": "Epic Boon",
+          "name_ru": "Эпический дар",
+          "parent": "srd-2024_fighter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You can attack four times instead of once whenever you take the Attack action on your turn.",
+          "desc_ru": "Вы можете атаковать четыре раза вместо одного, каждый раз, когда совершаете действие Атака в свой ход.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_three-extra-attacks",
+          "level": 20,
+          "name": "Three Extra Attacks",
+          "name_ru": "Три дополнительные атаки",
+          "parent": "srd-2024_fighter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "|||\n|---|---|\n|Primary Ability|Strength or Dexterity|\n|Hit Point Die|D10 per Fighter level|\n|Saving Throw Proficiencies|Strength and Constitution|\n|Skill Proficiencies|Choose 2: Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, or Survival|\n|Weapon Proficiencies|Simple and Martial weapons|\n|Armor Training|Light, Medium, and Heavy armor and Shields|\n|Starting Equipment|Choose A, B, or C: (A) Chain Mail, Greatsword, Flail, 8 Javelins, Dungeoneer's Pack, and 4 GP; (B) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Dungeoneer's Pack, and 11 GP; or (C) 155 GP|",
+          "desc_ru": "|||\n|---|---|\n|Основная характеристика|Сила или Ловкость|\n|Кость хитов|К10 за уровень воина|\n|Владение спасбросками|Сила и Телосложение|\n|Владение навыками|Выберите 2: Акробатика, Уход за животными, Атлетика, История, Проницательность, Запугивание, Убеждение, Восприятие или Выживание|\n|Владение оружием|Простое и боевое оружие|\n|Тренировка доспехов|Лёгкие, средние и тяжёлые доспехи и Щиты|\n|Начальное снаряжение|Выберите А, Б или В: (А) Кольчуга, Двуручный меч, Цеп, 8 дротиков, Набор исследователя подземелий и 4 зм; (Б) Кожаный доспех с заклёпками, Ятаган, Короткий меч, Длинный лук, 20 стрел, Колчан, Набор исследователя подземелий и 11 зм; или (В) 155 зм|",
+          "document": "srd-2024",
+          "external_id": "srd-2024_fighter_core-traits",
+          "feature_type": "CORE_TRAITS_TABLE",
+          "name": "Core Fighter Traits",
+          "name_ru": "Основные черты воина",
+          "parent": "srd-2024_fighter",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Fighter",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Fighter",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Таблица: Основные черты воина\n\n|                            |                                                                                                                                       |\n|---|---|\n| Основная характеристика    | Сила или Ловкость                                                                                                                     |\n| Кость Хитов                | d10 за каждый уровень воина                                                                                                           |\n| Владение спасбросками      | Сила и Телосложение                                                                                                                   |\n| Владение навыками          | Выберите 2: Акробатика, Уход за животными, Атлетика, История, Проницательность, Запугивание, Убеждение, Внимательность или Выживание |\n| Владение оружием           | Простое и воинское оружие                                                                                                             |\n| Владение доспехами         | Лёгкие, Средние и Тяжёлые доспехи, щиты                                                                                               |\n| Начальное снаряжение       | Выберите А, Б или В: (А) Кольчуга, двуручный меч, цеп, 8 дротиков, набор исследователя подземелий и 4 зм; (Б) Проклёпанный кожаный доспех, скимитар, короткий меч, длинный лук, 20 стрел, колчан, набор исследователя подземелий и 11 зм; или (В) 155 зм |",
+      "glossary_version": "v1",
+      "name": "Воин",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

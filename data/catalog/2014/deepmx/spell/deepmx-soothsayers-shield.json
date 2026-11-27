@@ -1,0 +1,171 @@
+{
+  "attribution": "Title: Deep Magic Extended; Author: Not sure.; Publisher: kobold-press; Source: https://koboldpress.com/deepmagic; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepmx",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepmx_soothsayers-shield",
+  "id": "o5e:deepmx:spell:deepmx-soothsayers-shield",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepmx:spell:deepmx-soothsayers-shield",
+      "o5e:dmag-e:spell:soothsayers-shield"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "6b6ca4bd9b1c246dcb0e2591c440aeb82d13b161cbf765ffaf88832e37f2267d",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "reaction",
+      "classes": [
+        "srd_bard",
+        "srd_cleric",
+        "srd_druid",
+        "srd_ranger"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "divination",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepmx",
+        "content_hash": "6b6ca4bd9b1c246dcb0e2591c440aeb82d13b161cbf765ffaf88832e37f2267d",
+        "edition": "2014",
+        "id": "o5e:deepmx:spell:deepmx-soothsayers-shield",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepmx"
+      },
+      {
+        "book": "dmag-e",
+        "content_hash": "ec01523c36532c9ee1420fe750e9480d5c64a05dd7f9741110655af2cfad1936",
+        "edition": "2014",
+        "id": "o5e:dmag-e:spell:soothsayers-shield",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag-e"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "classes",
+        "value": [
+          "srd_bard",
+          "srd_cleric",
+          "srd_druid",
+          "srd_ranger"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "reaction",
+      "classes": [
+        "srd_bard",
+        "srd_cleric",
+        "srd_druid",
+        "srd_ranger"
+      ],
+      "concentration": false,
+      "desc": "This spell can be cast when you are hit by an enemy's attack. Until the start of your next turn, you have a +4 bonus to AC, including against the triggering attack.",
+      "document": "deepmx",
+      "duration": "instantaneous",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Soothsayer's Shield",
+      "range": 0,
+      "range_text": "Self",
+      "reaction_condition": "when you are hit by an attack",
+      "ritual": false,
+      "school": "divination",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Not sure.",
+      "key": "deepmx",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/deepmagic",
+      "publication_date": "2024-02-14T19:02:02",
+      "publisher": "kobold-press",
+      "title": "Deep Magic Extended"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4899",
+          "parent": "deepmx_soothsayers-shield",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Soothsayer's Shield",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepmx",
+  "translations": {
+    "en": {
+      "description": "This spell can be cast when you are hit by an enemy's attack. Until the start of your next turn, you have a +4 bonus to AC, including against the triggering attack.",
+      "name": "Soothsayer's Shield",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Это заклинание можно сотворить, когда вас поражает атака врага. До начала вашего следующего хода вы имеете бонус +4 к КД, включая против вызывающей атаки.",
+      "glossary_version": "v1",
+      "name": "Щит прорицателя",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

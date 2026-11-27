@@ -1,0 +1,259 @@
+{
+  "attribution": "Title: Tome of Beasts 1 (2023 Edition); Author: Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob-2023",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob-2023_corrupted-chieftain",
+  "id": "o5e:tob-2023:creature:tob-2023-corrupted-chieftain",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creature:tob-2023-corrupted-chieftain"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e8b796c4a49f4891ad4a34b59874e1845dcc8d0f6c58cecd25afb7767e643a41",
+    "formulas": [
+      {
+        "expression": "14d10 + 56",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 12,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 8,
+      "ability_score_intelligence": 5,
+      "ability_score_strength": 23,
+      "ability_score_wisdom": 7,
+      "alignment": "Chaotic Evil",
+      "armor_class": 17,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "7.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "14d10 + 56",
+      "hit_points": 133,
+      "initiative_bonus": null,
+      "languages": [
+        "common",
+        "giant"
+      ],
+      "languages_desc": "Common, Giant",
+      "normal_sight_range": 10560,
+      "passive_perception": 8,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": 4,
+      "saving_throw_constitution": 7,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 40
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob-2023",
+        "content_hash": "e8b796c4a49f4891ad4a34b59874e1845dcc8d0f6c58cecd25afb7767e643a41",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creature:tob-2023-corrupted-chieftain",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 12,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 8,
+      "ability_score_intelligence": 5,
+      "ability_score_strength": 23,
+      "ability_score_wisdom": 7,
+      "alignment": "Chaotic Evil",
+      "armor_class": 17,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "7.000",
+      "darkvision_range": 60,
+      "document": "tob-2023",
+      "hit_dice": "14d10 + 56",
+      "hit_points": 133,
+      "hover": false,
+      "languages": [
+        "common",
+        "giant"
+      ],
+      "languages_desc": "Common, Giant",
+      "name": "Corrupted Chieftain",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 8,
+      "saving_throw_charisma": 4,
+      "saving_throw_constitution": 7,
+      "size": "large",
+      "type": "giant",
+      "walk": 40,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur",
+      "key": "tob-2023",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition-hardcover/",
+      "publication_date": "2024-03-22T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 1 (2023 Edition)"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "The corrupted chieftain moves up to its speed toward a hostile creature it can see.",
+          "desc_ru": "Действие «Аггрессиве»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob-2023_corrupted-chieftain_aggressive",
+          "name": "Aggressive",
+          "name_ru": "Аггрессиве",
+          "order_in_statblock": 0,
+          "parent": "tob-2023_corrupted-chieftain",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The corrupted chieftain barks an order to one Giant it can see within 30 feet of it, sharing a measure of its power with the target. The target has advantage on the next attack roll it makes before the start of the chieftain's next turn. In addition, the next attack roll against the target before the start of the chieftain's next turn has disadvantage.",
+          "desc_ru": "Действие «Чиефтаин'с Комманд»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob-2023_corrupted-chieftain_chieftains-command",
+          "name": "Chieftain's Command",
+          "name_ru": "Чиефтаин'с Комманд",
+          "order_in_statblock": 3,
+          "parent": "tob-2023_corrupted-chieftain",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The corrupted chieftain causes its eyes to glow, its muscles to swell, and the ground beneath its feet to rumble. Each creature within 15 feet of the chieftain must succeed on a DC 15 Wisdom saving throw or be frightened until the end of its next turn.",
+          "desc_ru": "Действие «Чиефтаин'с Мигхт»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob-2023_corrupted-chieftain_chieftains-might",
+          "name": "Chieftain's Might",
+          "name_ru": "Чиефтаин'с Мигхт",
+          "order_in_statblock": 4,
+          "parent": "tob-2023_corrupted-chieftain",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage plus 9 (2d8) force damage.",
+          "desc_ru": "Атака оружием ближнего боя: +9 к попаданию, досягаемость 5 фт., одна цель. Попадание: 15 (2к8+6) дробящего урона плюс 9 (2к8) силового урона.",
+          "external_id": "tob-2023_corrupted-chieftain_greatclub",
+          "name": "Greatclub",
+          "name_ru": "Большая дубинка",
+          "order_in_statblock": 1,
+          "parent": "tob-2023_corrupted-chieftain",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 13 (2d6 + 6) piercing damage plus 9 (2d8) force damage.",
+          "desc_ru": "Атака оружием ближнего или дальнего боя: +9 к попаданию, досягаемость 5 фт. или дистанция 30/120 фт., одна цель. Попадание: 13 (2к6+6) колющего урона плюс 9 (2к8) силового урона.",
+          "external_id": "tob-2023_corrupted-chieftain_javelin",
+          "name": "Javelin",
+          "name_ru": "Метательное копьё",
+          "order_in_statblock": 2,
+          "parent": "tob-2023_corrupted-chieftain",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The corrupted ogre can use its Chieftain's Command or Chieftain's Might. It then makes two Greatclub or Javelin attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob-2023_corrupted-chieftain_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob-2023_corrupted-chieftain",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The power coursing through the corrupted chieftain’s veins flows into its weapons. The chieftain’s weapon attacks are magical. When the chieftain hits with any weapon, the weapon deals an extra 2d8 force damage (included in the attack).",
+          "desc_ru": "Особенность «Магик-инфусед Веапонс». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob-2023_corrupted-chieftain_magic-infused-weapons",
+          "name": "Magic-Infused Weapons",
+          "name_ru": "Магик-инфусед Веапонс",
+          "parent": "tob-2023_corrupted-chieftain",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "A creature that touches the ogre or hits it with a melee attack while within 5 feet of it takes 5 (2d4) piercing damage.",
+          "desc_ru": "Особенность «Спикед Хиде». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob-2023_corrupted-chieftain_spiked-hide",
+          "name": "Spiked Hide",
+          "name_ru": "Спикед Хиде",
+          "parent": "tob-2023_corrupted-chieftain",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Corrupted Chieftain",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob-2023",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Corrupted Chieftain",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крупный великан, мировоззрение: хаотично-злое. Класс доспеха: 17 (природный доспех). Хиты: 133 (14к10 + 56). Скорость: ходьба 40 фт.. Характеристики: СИЛ 23, ЛОВ 8, ТЕЛ 18, ИНТ 5, МУД 7, ХАР 12. Чувства: тёмное зрение 60 фт., пассивное Восприятие 8. Показатель опасности: 7. Структурированные механики записи: особенностей: 2, действий: 6.",
+      "glossary_version": "derived-v1",
+      "name": "Корруптед Чиефтаин",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

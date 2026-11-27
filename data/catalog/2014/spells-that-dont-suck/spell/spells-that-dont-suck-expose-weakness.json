@@ -1,0 +1,146 @@
+{
+  "attribution": "Title: Spells That Don't Suck; Author: Ben Somers / somanyrobots, Omega Ankh; Publisher: somanyrobots; Source: https://www.somanyrobots.com/s/Spells-That-Dont-Suck-compressed.pdf; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "spells-that-dont-suck",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "spells-that-dont-suck_expose-weakness",
+  "id": "o5e:spells-that-dont-suck:spell:spells-that-dont-suck-expose-weakness",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "50f537f34802e0f2ce939af2e237a1c68ecfb9d5f00f083f502bd09e8c833d23",
+    "formulas": [
+      {
+        "expression": "2d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "casting_time": "bonus-action",
+      "classes": [
+        "srd_druid",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 4,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 90,
+      "range_text": "90 ft",
+      "range_unit": "ft",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": "1",
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_druid",
+        "type": "classes",
+        "value": [
+          "srd_druid",
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "casting_time": "bonus-action",
+      "classes": [
+        "srd_druid",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "2d6",
+      "desc": "Select one creature you can see within range, and one damage type that isn’t bludgeoning, piercing, or slashing. The target must make a Charisma saving throw or lose any resistance to that damage type for the duration. The first two times each round that the target takes damage of the chosen type, it takes 2d6 additional damage of that type.",
+      "document": "spells-that-dont-suck",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the number of times each round the additional damage can occur increases by 1 for every two slot levels above 4th.",
+      "level": 4,
+      "material": false,
+      "material_consumed": false,
+      "name": "Expose Weakness",
+      "range": 90,
+      "range_text": "90 ft",
+      "range_unit": "ft",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": "1",
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Ben Somers / somanyrobots, Omega Ankh",
+      "key": "spells-that-dont-suck",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://www.somanyrobots.com/s/Spells-That-Dont-Suck-compressed.pdf",
+      "publication_date": "2025-03-30T00:00:00",
+      "publisher": "somanyrobots",
+      "title": "Spells That Don't Suck"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Expose Weakness",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "somanyrobots",
+  "source": "open5e:v2:spells-that-dont-suck",
+  "translations": {
+    "en": {
+      "description": "Select one creature you can see within range, and one damage type that isn’t bludgeoning, piercing, or slashing. The target must make a Charisma saving throw or lose any resistance to that damage type for the duration. The first two times each round that the target takes damage of the chosen type, it takes 2d6 additional damage of that type.",
+      "name": "Expose Weakness",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Выберите одно существо, которое вы можете видеть в пределах дистанции, и один тип урона, который не является дробящим, колющим или режущим. Цель должна совершить спасбросок Харизмы или потерять любое сопротивление этому типу урона на длительность. Первые два раза каждый раунд, когда цель получает урон выбранного типа, она получает дополнительные 2к6 урона этого типа.",
+      "glossary_version": "v1",
+      "name": "Выявить слабость",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

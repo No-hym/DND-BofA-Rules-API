@@ -1,0 +1,222 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_swamp-lily",
+  "id": "o5e:tob2:creature:tob2-swamp-lily",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-swamp-lily"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "59b1c70eea1a2698a89b43a969529116009075084994f6ca573ead5a31612926",
+    "formulas": [
+      {
+        "expression": "16d8+64",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 17,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 9,
+      "ability_score_intelligence": 4,
+      "ability_score_strength": 16,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "7.000",
+      "climb": null,
+      "condition_immunities": [
+        "blinded",
+        "deafened",
+        "poisoned"
+      ],
+      "damage_immunities": [
+        "poison"
+      ],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "16d8+64",
+      "hit_points": 136,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": null,
+      "passive_perception": 11,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 15
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "59b1c70eea1a2698a89b43a969529116009075084994f6ca573ead5a31612926",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-swamp-lily",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 17,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 9,
+      "ability_score_intelligence": 4,
+      "ability_score_strength": 16,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "7.000",
+      "condition_immunities": [
+        "blinded",
+        "deafened",
+        "poisoned"
+      ],
+      "condition_immunities_display": "blinded, deafened, poisoned",
+      "damage_immunities": [
+        "poison"
+      ],
+      "damage_immunities_display": "poison",
+      "document": "tob2",
+      "hit_dice": "16d8+64",
+      "hit_points": 136,
+      "hover": false,
+      "name": "Swamp Lily",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "passive_perception": 11,
+      "size": "medium",
+      "tremorsense_range": 60,
+      "type": "plant",
+      "walk": 15,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "The swamp lily magically creates the image of a banquet within 5 feet of itself that compels creatures to eat from it. Each creature within 60 feet of the banquet that can see the banquet must succeed on a DC 15 Wisdom saving throw or be charmed by the lily. The lily must take a bonus action on its subsequent turns to maintain the illusion. The illusion ends if the lily is incapacitated.\n\nWhile charmed by the lily, a target is incapacitated and ignores the banquets of other lilies. If the charmed target is more than 5 feet away from the lily's banquet, the target must move on its turn toward the banquet by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the lily, the target can repeat the saving throw. A charmed target can also repeat the saving throw at the end of each of its turns. If the saving throw is successful, the effect ends on it. A target that successfully saves is immune to this swamp lily's Fake Feast for the next 24 hours.\n\nIf the charmed target starts its turn within 5 feet of the banquet, it eats the feast and must make a DC 15 Constitution saving throw. On a failure, the creature takes 21 (6d6) poison damage and is poisoned for 1 minute. On a success, the creature takes half the damage and isn't poisoned.",
+          "desc_ru": "Действие «Факе Феаст»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_swamp-lily_fake-feast",
+          "name": "Fake Feast",
+          "name_ru": "Факе Феаст",
+          "order_in_statblock": 2,
+          "parent": "tob2_swamp-lily",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The swamp lily makes two root attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_swamp-lily_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_swamp-lily",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit: 12 (2d8 + 3) bludgeoning damage, and the target must make a DC 15 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.",
+          "desc_ru": "Действие «Роот»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_swamp-lily_root",
+          "name": "Root",
+          "name_ru": "Роот",
+          "order_in_statblock": 1,
+          "parent": "tob2_swamp-lily",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The swamp lily can use an action to read the surface thoughts of all creatures within 60 feet of it. This works like the detect thoughts spell, except the lily can only determine each creature’s favorite food. Each creature within range must succeed on a DC 15 Wisdom saving throw or have disadvantage on its saving throw against the lily’s Fake Feast action.",
+          "desc_ru": "Особенность «Дискерн Фоод Преференкес». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_swamp-lily_discern-food-preferences",
+          "name": "Discern Food Preferences",
+          "name_ru": "Дискерн Фоод Преференкес",
+          "parent": "tob2_swamp-lily",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Swamp Lily",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Swamp Lily",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Этот большой нежный оранжевый цветок стоит на страже над роскошным банкетом, выложенным у его корней.\n\n**Обманчиво вкусная.** Болотные лилии — плотоядные растения, которые процветают на гниющих остатках существ, которых они отравляют. Хотя они могут отравлять жертв своими подобными щупальцам корнями, они предпочитают заманивать добычу иллюзией кажущегося безобидного пиршества. Лилии источают запах фруктов с мускусом животных-добычи, чтобы дополнить иллюзию. Их жертвы затем мирно едят пищу, невольно проглатывая корни лилии и смертельный токсин.\n\n**Странствующая угроза.** После убийства достаточного количества добычи, чтобы оставаться хорошо накормленной и обеспечить питание для своих семян, она путешествует туда, где может почувствовать существ с сильным желанием пищи. Хотя растение не понимает динамики поставок пищи, его способность понимать мысли, касающиеся пищи, позволяет ему переезжать туда, где жители отчаявшиеся и более восприимчивые к его иллюзорному пиршеству.\n\n**Стражи рощ.** Друиды и существа, уважительные к ядовитым растениям или устойчивые к иллюзиям болотных лилий, часто устанавливают взаимопонимание с лилиями как защитниками. Партнёры лилий придают дополнительную достоверность иллюзиям, производимым растениями, и поощряют нежелательных гостей принять участие в несуществующей пище.",
+      "glossary_version": "v1",
+      "name": "Болотная лилия",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

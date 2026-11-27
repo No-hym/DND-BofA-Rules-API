@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: 5e Core Rules; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wotc-srd; Source: http://dnd.wizards.com/articles/features/systems-reference-document-srd; License: OGL-1.0a (https://open5e.com/legal); System Reference Document 5.1 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "wotc-srd",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "druid",
+  "id": "o5e:wotc-srd:monster:druid-variant-3",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:wotc-srd:monster:druid"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "eb9c6d7e97783c4d5c8931d4054e7476b21a72a84edac06029ed3df7d7efe9f9",
+    "formulas": [
+      {
+        "expression": "5d8+5",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "any alignment",
+      "armor_class": 11,
+      "challenge_rating": "2",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "5d8+5",
+      "hit_points": 27,
+      "languages": "Druidic plus any two languages",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "wotc-srd",
+        "content_hash": "eb9c6d7e97783c4d5c8931d4054e7476b21a72a84edac06029ed3df7d7efe9f9",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:monster:druid",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Quarterstaff\", \"desc\": \"Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage with shillelagh or if wielded with two hands.\", \"attack_bonus\": 2, \"damage_dice\": \"1d6\"}]",
+      "alignment": "any alignment",
+      "armor_class": 11,
+      "armor_desc": "16 with _barkskin_",
+      "bonus_actions_json": "null",
+      "challenge_rating": "2",
+      "charisma": 11,
+      "constitution": 13,
+      "cr": 2.0,
+      "desc": "**Druids** dwell in forests and other secluded wilderness locations, where they protect the natural world from monsters and the encroachment of civilization. Some are **tribal shamans** who heal the sick, pray to animal spirits, and provide spiritual guidance.",
+      "dexterity": 12,
+      "document": 32,
+      "environments_json": "[\"Hill\", \"Desert\", \"Underdark\", \"Mountains\", \"Coastal\", \"Tundra\", \"Grassland\", \"Swamp\", \"Mountain\", \"Forest\", \"Arctic\", \"Jungle\", \"Hills\"]",
+      "group": "NPCs",
+      "hit_dice": "5d8+5",
+      "hit_points": 27,
+      "intelligence": 12,
+      "languages": "Druidic plus any two languages",
+      "legendary_actions_json": "null",
+      "name": "Druid",
+      "page_no": 398,
+      "perception": 4,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "passive Perception 14",
+      "size": "Medium",
+      "skills_json": "{\"medicine\": 4, \"nature\": 3, \"perception\": 4}",
+      "special_abilities_json": "[{\"name\": \"Spellcasting\", \"desc\": \"The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:\\n\\n* Cantrips (at will): druidcraft, produce flame, shillelagh\\n* 1st level (4 slots): entangle, longstrider, speak with animals, thunderwave\\n* 2nd level (3 slots): animal messenger, barkskin\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "[\"druidcraft\", \"produce flame\", \"shillelagh\", \"entangle\", \"longstrider\", \"speak with animals\", \"thunderwave\", \"animal messenger\", \"barkskin\"]",
+      "strength": 10,
+      "subtype": "any race",
+      "type": "Humanoid",
+      "wisdom": 15
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "wotc-srd",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+      "publication_date": "",
+      "publisher": "wotc-srd",
+      "title": "5e Core Rules"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Druid",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:bfrd:creature:bfrd-druid"
+  },
+  "publisher_id": "wotc-srd",
+  "source": "open5e:v1:wotc-srd",
+  "translations": {
+    "en": {
+      "description": "**Druids** dwell in forests and other secluded wilderness locations, where they protect the natural world from monsters and the encroachment of civilization. Some are **tribal shamans** who heal the sick, pray to animal spirits, and provide spiritual guidance.",
+      "name": "Druid",
+      "source_version": "5.1",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Таблица: Основные черты друида\n\n|                            |                                                                                                                                     |\n|---|---|\n| Основная характеристика    | Мудрость                                                                                                                            |\n| Кость Хитов                | d8 за каждый уровень друида                                                                                                         |\n| Владение спасбросками      | Интеллект и Мудрость                                                                                                                |\n| Владение навыками          | Выберите 2: Уход за животными, Магия, Проницательность, Медицина, Природа, Внимательность, Религия или Выживание                   |\n| Владение оружием           | Простое оружие                                                                                                                      |\n| Владение инструментами     | Набор травника                                                                                                                      |\n| Владение доспехами         | Лёгкие доспехи и щиты                                                                                                               |\n| Начальное снаряжение       | Выберите А или Б: (А) Кожаные доспехи, щит, серп, друидический фокус (посох), набор путешественника, набор травника и 9 зм; или (Б) 50 зм |",
+      "glossary_version": "v1",
+      "name": "Друид",
+      "source_version": "5.1",
+      "status": "source"
+    }
+  },
+  "version": "5.1"
+}

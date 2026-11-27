@@ -1,0 +1,195 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_hunters-mark",
+  "id": "o5e:srd-2024:spell:srd-2024-hunters-mark",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "d2da6bca76e9b222756f9fa13daad30a0160901ede03eac7906dae92652b3d83",
+    "formulas": [
+      {
+        "expression": "1d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "bonus-action",
+      "classes": [
+        "srd-2024_ranger"
+      ],
+      "concentration": true,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "force"
+      ],
+      "duration": "1 hour",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 90,
+      "range_text": "90 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "divination",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_ranger",
+        "type": "classes",
+        "value": [
+          "srd-2024_ranger"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "bonus-action",
+      "classes": [
+        "srd-2024_ranger"
+      ],
+      "concentration": true,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "force"
+      ],
+      "desc": "You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra 1d6 Force damage to the target whenever you hit it with an attack roll. You also have Advantage on any Wisdom (Perception or Survival) check you make to find it. If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.",
+      "document": "srd-2024",
+      "duration": "1 hour",
+      "higher_level": "Your Concentration can last longer with a spell slot of level 3–4 (up to 8 hours) or 5+ (up to 24 hours).",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Hunter's Mark",
+      "range": 90,
+      "range_text": "90 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "divination",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "concentration": true,
+          "duration": "8 hours",
+          "external_id": "10349",
+          "parent": "srd-2024_hunters-mark",
+          "type": "slot_level_3"
+        },
+        {
+          "concentration": true,
+          "duration": "8 hours",
+          "external_id": "10350",
+          "parent": "srd-2024_hunters-mark",
+          "type": "slot_level_4"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "10663",
+          "parent": "srd-2024_hunters-mark",
+          "type": "slot_level_5"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "10664",
+          "parent": "srd-2024_hunters-mark",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "10665",
+          "parent": "srd-2024_hunters-mark",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "10666",
+          "parent": "srd-2024_hunters-mark",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "10667",
+          "parent": "srd-2024_hunters-mark",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Hunter's Mark",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra 1d6 Force damage to the target whenever you hit it with an attack roll. You also have Advantage on any Wisdom (Perception or Survival) check you make to find it. If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.",
+      "name": "Hunter's Mark",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Прорицание 1-го уровня (Следопыт)*\n\n**Время накладывания:** Бонусное действие\n\n**Дистанция:** 90 футов\n\n**Компоненты:** В\n\n**Длительность:** Концентрация, вплоть до 1 час\n\nВы выбираете существо, которое видите в пределах дистанции, и мистически помечаете его как свою добычу. Пока заклинание не закончится, вы наносите цели дополнительно 1к6 урона каждый раз, когда попадаете по ней атакой оружием, и совершаете с преимуществом любую проверку Мудрости (Внимательность) или Мудрости (Выживание) для её поиска. Если хиты цели опустятся до 0 до окончания этого заклинания, вы можете бонусным действием в один из последующих ходов пометить новое существо.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 3-го или 4-го уровня, вы можете поддерживать концентрацию на заклинании до 8 часов. При использовании ячейки 5-го уровня или выше вы можете поддерживать концентрацию на заклинании до 24 часов.",
+      "glossary_version": "v1",
+      "name": "Метка охотника",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

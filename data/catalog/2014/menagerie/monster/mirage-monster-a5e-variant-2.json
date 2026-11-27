@@ -1,0 +1,132 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "mirage-monster-a5e",
+  "id": "o5e:menagerie:monster:mirage-monster-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:mirage-monster-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c029579590fd1f2d56c01136654791cf22d269e5067934fe250d88c1718515f3",
+    "formulas": [
+      {
+        "expression": "9d12+18",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 12,
+      "challenge_rating": "4",
+      "condition_immunities": "grappled, prone",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "9d12+18",
+      "hit_points": 76,
+      "languages": "",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "c029579590fd1f2d56c01136654791cf22d269e5067934fe250d88c1718515f3",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:mirage-monster-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The mimic makes a bite attack and a pseudopod attack.\"}, {\"name\": \"Pseudopod\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) bludgeoning damage  and the target is subjected to the mimics Sticky trait.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one creature stuck to the mimic. Hit: 9 (2d4 + 4) piercing damage  and the target is restrained until it is no longer stuck to the mimic. While a creature is restrained by the mimic  the mimic can't bite a different creature.\"}, {\"name\": \"Swallow\", \"desc\": \"The mimic makes a bite attack against a Medium or smaller creature restrained by it. If the attack hits and the mimic has not swallowed another creature  the target is swallowed and no longer stuck to the mimic. A swallowed creature has total cover from attacks from outside the mimic  is blinded and restrained  and takes 5 (2d4) acid damage at the start of each of the mimics turns.\"}, {\"name\": \"If a swallowed creature deals 10 or more damage to the mimic in a single turn, or if the mimic dies, the target falls prone in an unoccupied space of its choice within 5 feet of the mimic and is no longer swallowed\", \"desc\": \"\"}]",
+      "armor_class": 12,
+      "bonus_actions_json": "[{\"name\": \"Shapeshift\", \"desc\": \"The mimic changes its form to resemble an inanimate object of its approximate size or changes into its true form, which is an amorphous blob. Objects it is carrying or stuck to are not transformed. While shapeshifted, its statistics are unchanged. It reverts to its true form if it dies.\"}]",
+      "challenge_rating": "4",
+      "charisma": 8,
+      "condition_immunities": "grappled, prone",
+      "constitution": 14,
+      "cr": 4.0,
+      "dexterity": 14,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "9d12+18",
+      "hit_points": 76,
+      "intelligence": 6,
+      "legendary_actions_json": "[{\"name\": \"The mirage monster can take 2 legendary actions\", \"desc\": \"Only one legendary action can be used at a time and only at the end of another creatures turn. It regains spent legendary actions at the start of its turn.\"}, {\"name\": \"Grasping Pseudopod\", \"desc\": \"The mirage monster makes a pseudopod attack with a range of 15 feet. On a hit, the target makes a DC 14 Strength saving throw. On a failure, the target is pulled up to 15 feet towards the mirage monster.\"}, {\"name\": \"Bite (Costs 2 Actions)\", \"desc\": \"The mirage monster attacks with its bite.\"}]",
+      "name": "Mirage Monster",
+      "page_no": 333,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 12",
+      "size": "Huge",
+      "skills_json": "{\"stealth\": 4}",
+      "special_abilities_json": "[{\"name\": \"False Appearance\", \"desc\": \"While the mimic is motionless, it is indistinguishable from an inanimate object.\"}, {\"name\": \"Sticky\", \"desc\": \"A creature, object, or weapon that touches the mimic is stuck to the mimic. A creature can use an action to make a DC 14 Strength check, freeing itself or an object or creature within reach on a success. The effect also ends when the mimic chooses to end it or when the mimic dies.\"}, {\"name\": \"Telepathic Sense\", \"desc\": \"A mimic telepathically senses the presence of humanoids within 120 feet and gains a mental image of any inanimate object desired by any of the creatures it senses. This ability is blocked by 3 feet of wood or dirt, 1 foot of stone, 1 inch of common metal, or a thin sheet of lead.\"}, {\"name\": \"Water Soluble\", \"desc\": \"If the mimic is splashed with at least 1 gallon of water, it assumes its true form and the DC to escape its Sticky trait is reduced to 10 until the end of its next turn.\"}, {\"name\": \"Legendary Resistance (1/Day)\", \"desc\": \"If the mirage monster fails a saving throw, it can choose to succeed instead. When it does so, it immediately shapeshifts into its true form if it has not already done so.\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 18,
+      "type": "Monstrosity",
+      "wisdom": 14
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Mirage Monster",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-mirage-monster"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Mirage Monster",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Огромное чудовище. Класс доспеха: 12. Хиты: 76 (9к12+18). Иммунитет к состояниям: захват, положение ничком. Показатель опасности: 4.",
+      "glossary_version": "derived-v1",
+      "name": "Мираге Монстер",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

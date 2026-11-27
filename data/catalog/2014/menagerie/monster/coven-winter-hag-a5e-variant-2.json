@@ -1,0 +1,135 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "coven-winter-hag-a5e",
+  "id": "o5e:menagerie:monster:coven-winter-hag-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:coven-winter-hag-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5c63ce553ba5881e41870daab4e202220883a3c932f0e97188f5b9d33d80ff12",
+    "formulas": [
+      {
+        "expression": "18d8+54",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 17,
+      "challenge_rating": "9",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "cold",
+      "damage_vulnerabilities": "",
+      "hit_dice": "18d8+54",
+      "hit_points": 135,
+      "languages": "Common, Draconic, Sylvan",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "5c63ce553ba5881e41870daab4e202220883a3c932f0e97188f5b9d33d80ff12",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:coven-winter-hag-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The hag attacks with its claws and uses Ice Bolt.\"}, {\"name\": \"Claws\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) slashing damage.\"}, {\"name\": \"Ice Bolt\", \"desc\": \"Ranged Spell Attack: +7 to hit, range 60 ft., one creature. Hit: 15 (2d10 + 4) cold damage  and the target makes a DC 15 Constitution saving throw. A creature under the hags curse automatically fails this saving throw. On a failure  the creature is restrained as it begins to turn to ice. At the end of the creatures next turn  the creature repeats the saving throw. On a success  the effect ends. On a failure  the creature is petrified into ice. This petrification can be removed with greater restoration or similar magic.\"}, {\"name\": \"Shapeshift\", \"desc\": \"The hag magically polymorphs into a Small or Medium humanoid or back into its true form. Its statistics are the same in each form. Equipment it is carrying isnt transformed. It retains a streak of white hair in any form. It returns to its true form if it dies.\"}, {\"name\": \"Invisibility (2nd-Level; V, S, Concentration)\", \"desc\": \"The hag is invisible for 1 hour. The spell ends if the hag attacks or casts a spell.\"}, {\"name\": \"Cone of Cold (5th-Level; V, S)\", \"desc\": \"Frost blasts from the hag in a 60-foot cone. Each creature in the area makes a DC 15 Constitution saving throw  taking 36 (8d8) cold damage on a failure or half damage on a success.\"}, {\"name\": \"Wall of Ice (6th-level; V, S, Concentration)\", \"desc\": \"The hag magically creates a wall of ice on a solid surface it can see within 120 feet. The wall is flat  1 foot thick  and can be up to 50 feet long and 20 feet high. The wall lasts for 10 minutes. Each 10-foot section has AC 12  30 hit points  vulnerability to fire damage  and immunity to cold  poison  and psychic damage. Destroying a 10-foot section of wall leaves behind a sheet of frigid air in the space the section occupied. A creature moving through the sheet of frigid air for the first time on a turn makes a Constitution saving throw  taking 17 (5d6) cold damage on a failed save or half damage on a success.\"}, {\"name\": \"If the wall enters a creatures space when it appears, the creature is pushed to one side of the wall (hags choice)\", \"desc\": \"The creature then makes a Dexterity saving throw  taking 35 (10d6) cold damage on a failed save or half damage on a success.\"}]",
+      "armor_class": 17,
+      "bonus_actions_json": "null",
+      "challenge_rating": "9",
+      "charisma": 18,
+      "constitution": 16,
+      "constitution_save": 6,
+      "cr": 9.0,
+      "damage_resistances": "cold",
+      "dexterity": 16,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "18d8+54",
+      "hit_points": 135,
+      "intelligence": 16,
+      "languages": "Common, Draconic, Sylvan",
+      "legendary_actions_json": "null",
+      "name": "Coven Winter Hag",
+      "page_no": 272,
+      "reactions_json": "[{\"name\": \"Ice Shield\", \"desc\": \"The hag adds 3 to its AC against one melee attack that would hit it made by a creature it can see. If the attack misses, the attacker takes 14 (4d6) cold damage.\"}]",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 16",
+      "size": "Medium",
+      "skills_json": "{\"arcana\": 6, \"deception\": 7, \"insight\": 6, \"perception\": 6, \"stealth\": 6}",
+      "special_abilities_json": "[{\"name\": \"Curse\", \"desc\": \"A creature that accepts a gift from the hag is magically cursed for 30 days. While it is cursed, the target automatically fails saving throws against the hags charm person, geas, and scrying spells, and the hag can cast control weather centered on the creature.\"}, {\"name\": \"Icy Travel\", \"desc\": \"The hag is not hindered by cold weather, icy surfaces, snow, wind, or storms. Additionally, the hag and her allies leave no trace when walking on snow or ice.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"The hags innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components: At will: charm person, dancing lights, invisibility, minor illusion, passwall (ice only), 1/day: control weather (extreme cold), geas, scrying, 1/day each: cone of cold, wall of ice\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 18,
+      "type": "Fey",
+      "wisdom": 16,
+      "wisdom_save": 6
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Coven Winter Hag",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-coven-winter-hag"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Coven Winter Hag",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Средняя фея. Класс доспеха: 17. Хиты: 135 (18к8+54). Сопротивление урону: холодом. Показатель опасности: 9.",
+      "glossary_version": "derived-v1",
+      "name": "Ковен Винтер Хаг",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

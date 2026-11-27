@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "cactid",
+  "id": "o5e:tob:monster:cactid-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:cactid"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "dadb15b5b093e13873a52e0573d536120280879ad340ed30cc274dfbf7087e52",
+    "formulas": [
+      {
+        "expression": "8d10+32",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "challenge_rating": "3",
+      "condition_immunities": "blinded, deafened",
+      "damage_immunities": "",
+      "damage_resistances": "bludgeoning, piercing",
+      "damage_vulnerabilities": "fire",
+      "hit_dice": "8d10+32",
+      "hit_points": 76,
+      "languages": "understands Sylvan, but can't speak",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "dadb15b5b093e13873a52e0573d536120280879ad340ed30cc274dfbf7087e52",
+        "edition": "2014",
+        "id": "o5e:tob:monster:cactid",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The cactid makes two attacks with its tendrils and uses Reel.\"}, {\"name\": \"Tendril\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 15 ft., one creature. Hit: 10 (2d6 + 3) bludgeoning damage plus 3 (1d6) piercing damage, and a Medium or smaller target is grappled (escape DC 13). Until this grapple ends, the target is restrained. If the target is neither undead nor a construct, the cactid drains the target's body fluids; at the start of each of the target's turns, the target must make a DC 13 Constitution saving throw. On a failed save, the creature's hit point maximum is reduced by 3 (1d6). If a creature's hit point maximum is reduced to 0 by this effect, the creature dies. This reduction lasts until the creature finishes a long rest and drinks abundant water or until it receives a greater restoration spell or comparable magic. The cactid has two tendrils, each of which can grapple one target at a time.\", \"attack_bonus\": 5, \"damage_dice\": \"2d6\"}, {\"name\": \"Reel\", \"desc\": \"Each creature grappled by the cactid is pulled up to 5 feet straight toward the cactid.\"}]",
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "3",
+      "charisma": 9,
+      "condition_immunities": "blinded, deafened",
+      "constitution": 18,
+      "cr": 3.0,
+      "damage_resistances": "bludgeoning, piercing",
+      "damage_vulnerabilities": "fire",
+      "desc": "_Rootlike tendrils explode from the sand at the base of this tall cactus bristling with needles. It uses its tendrils to reach for prey._  \n**Needled Sentients.** Cactids are semi-sentient cacti that grow in a myriad of shapes and sizes, from ground-hugging barrels and spheroid clumps that pin their victims to the ground to towering saguaros with clublike arms that yank victims off their feet. Most cactids are green or brown with distinct ribs; all are lined with countless needles.  \n**Drain Fluids.** In addition to gathering water, a cactid's tendril-roots can snag nearby creatures and pull them into a deadly embrace. Once a creature is pinned, the cactid’s spines siphon off the victim’s bodily fluids, until little but a dried husk remains. Many cactids are adorned with bright flowers or succulent fruit to lure prey into reach. Some scatter shiny objects within reach to attract sentient creatures. For those traveling the desert, however, a cactid’s greatest treasure is the water stored within its flesh. A slain cactid’s body yields four gallons of water with a successful DC 15 Wisdom (Survival) check. Failure indicates that only one gallon is recovered.  \n**Slow Packs.** Cactids were created by a nomadic sect of druids, but their original purpose is lost. They have limited mobility, so they often congregate in stands or to travel together in a pack to better hunting grounds.",
+      "dexterity": 8,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "8d10+32",
+      "hit_points": 76,
+      "intelligence": 7,
+      "languages": "understands Sylvan, but can't speak",
+      "legendary_actions_json": "null",
+      "name": "Cactid",
+      "page_no": 50,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10",
+      "size": "Large",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Hail of Needles (1/Day)\", \"desc\": \"When reduced below 10 hp (even below 0 hp), the cactid releases a hail of needles as a reaction. All creatures within 15 feet take 21 (6d6) piercing damage, or half damage with a successful DC 14 Dexterity saving throw.\"}]",
+      "speed_json": "{\"walk\": 5}",
+      "spells_json": "null",
+      "strength": 16,
+      "type": "Plant",
+      "wisdom": 10
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Cactid",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-cactid"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_Rootlike tendrils explode from the sand at the base of this tall cactus bristling with needles. It uses its tendrils to reach for prey._  \n**Needled Sentients.** Cactids are semi-sentient cacti that grow in a myriad of shapes and sizes, from ground-hugging barrels and spheroid clumps that pin their victims to the ground to towering saguaros with clublike arms that yank victims off their feet. Most cactids are green or brown with distinct ribs; all are lined with countless needles.  \n**Drain Fluids.** In addition to gathering water, a cactid's tendril-roots can snag nearby creatures and pull them into a deadly embrace. Once a creature is pinned, the cactid’s spines siphon off the victim’s bodily fluids, until little but a dried husk remains. Many cactids are adorned with bright flowers or succulent fruit to lure prey into reach. Some scatter shiny objects within reach to attract sentient creatures. For those traveling the desert, however, a cactid’s greatest treasure is the water stored within its flesh. A slain cactid’s body yields four gallons of water with a successful DC 15 Wisdom (Survival) check. Failure indicates that only one gallon is recovered.  \n**Slow Packs.** Cactids were created by a nomadic sect of druids, but their original purpose is lost. They have limited mobility, so they often congregate in stands or to travel together in a pack to better hunting grounds.",
+      "name": "Cactid",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Корневидные щупальца взрываются из песка у основания этого высокого кактуса, усеянного иглами. Оно использует свои щупальца, чтобы тянуться к добыче.\n\n**Игольчатые разумные.** Кактиды — полуразумные кактусы, которые растут во множестве форм и размеров, от обнимающих землю бочек и сфероидных комков, которые прижимают их жертв к земле, до возвышающихся сагуаро с дубинкообразными руками, которые срывают жертв с их ног. Большинство кактидов зелёные или коричневые с отчётливыми рёбрами; все выложены бесчисленными иглами.\n\n**Истощать жидкости.** В дополнение к собиранию воды, корни-щупальца кактида могут хватать близлежащих существ и тянуть их в смертельное объятие. Как только существо прижато, шипы кактида высасывают телесные жидкости жертвы, пока не останется мало что, кроме высушенной шелухи. Многие кактиды украшены яркими цветами или сочными фруктами, чтобы заманить добычу в досягаемость. Некоторые рассеивают блестящие предметы в пределах досягаемости, чтобы привлекать разумных существ. Однако для тех, кто путешествует по пустыне, величайшее сокровище кактида — вода, хранимая внутри его плоти. Тело убитого кактида даёт четыре галлона воды при успешной проверке Мудрости (Выживание) Сл 15. Провал указывает, что только один галлон восстановлен.\n\n**Медленные стаи.** Кактиды были созданы кочевой сектой друидов, но их первоначальная цель потеряна. Они имеют ограниченную мобильность, поэтому они часто собираются в зарослях или путешествуют вместе в стае к лучшим охотничьим угодьям.",
+      "glossary_version": "v1",
+      "name": "Кактид",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

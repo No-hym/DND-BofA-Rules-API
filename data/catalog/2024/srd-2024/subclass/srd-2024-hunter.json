@@ -1,0 +1,145 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "srd-2024",
+  "category": "subclass",
+  "edition": "2024",
+  "external_id": "srd-2024_hunter",
+  "id": "o5e:srd-2024:characterclass:srd-2024-hunter",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "b9546d8738efe5a327bd0dbf92614f9189505ea57980a67cca7159ef6d299f5b",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "NONE",
+      "subclass_of": "srd-2024_ranger"
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_ranger",
+        "type": "subclass_of",
+        "value": "srd-2024_ranger"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "NONE",
+      "desc": "*Protect Nature and People from Destruction*\n\nYou stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them.",
+      "document": "srd-2024",
+      "name": "Hunter",
+      "subclass_of": "srd-2024_ranger"
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your *Hunter's Mark*, you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are.",
+          "desc_ru": "Вы можете призвать силы природы, чтобы раскрыть определённые сильные и слабые стороны вашей добычи. Пока существо отмечено вашей *Меткой охотника*, вы знаете, есть ли у этого существа какие-либо иммунитеты, сопротивления или уязвимости, и если они есть, вы знаете какие.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_hunter_hunters-lore",
+          "level": 3,
+          "name": "Hunter's Lore",
+          "name_ru": "Знания охотника",
+          "parent": "srd-2024_hunter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain one of the following feature options of your choice. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.\n\n**Colossus Slayer.** Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra 1d8 damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn.\n\n**Horde Breaker.** Once on each of your turns when you make an attack with a weapon, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target, that is within the weapon's range, and that you haven't attacked this turn.",
+          "desc_ru": "На 3-м уровне вы получаете одно из следующих умений по вашему выбору.\n\n**_Убийца колоссов._** Ваша настойчивость может измотать самых могучих врагов. Когда вы попадаете по существу атакой оружием, существо получает дополнительный урон 1к8, если его хиты ниже максимума. Вы можете нанести этот дополнительный урон только один раз за ход.\n\n**_Убийца великанов._** Когда существо размера Большой или больше в пределах 5 фт. от вас попадает или промахивается по вам атакой, вы можете использовать реакцию, чтобы атаковать это существо сразу после его атаки, при условии, что вы видите это существо.\n\n**_Сокрушитель орд._** Один раз в каждый свой ход, когда вы совершаете атаку оружием, вы можете совершить ещё одну атаку тем же оружием по другому существу, находящемуся в пределах 5 фт. от первоначальной цели и в пределах досягаемости вашего оружия.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_hunter_hunters-prey",
+          "level": 3,
+          "name": "Hunter's Prey",
+          "name_ru": "Добыча охотника",
+          "parent": "srd-2024_hunter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain one of the following feature options of your choice. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.\n\n**Escape the Horde.** Opportunity Attacks have Disadvantage against you.\n\n**Multiattack Defense.** When a creature hits you with an attack roll, that creature has Disadvantage on all other attack rolls against you this turn.",
+          "desc_ru": "На 7-м уровне вы получаете одно из следующих умений по вашему выбору.\n\n**_Бегство от орды._** Провоцированные атаки по вам совершаются с помехой.\n\n**_Защита от мультиатаки._** Когда существо попадает по вам атакой, вы получаете бонус +4 к КД против всех последующих атак этого существа до конца хода.\n\n**_Стальная воля._** Вы совершаете с преимуществом спасброски от состояния испуга.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_hunter_defensive-tactics",
+          "level": 7,
+          "name": "Defensive Tactics",
+          "name_ru": "Оборонительная тактика",
+          "parent": "srd-2024_hunter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Once per turn when you deal damage to a creature marked by your *Hunter's Mark*, you can also deal that spell's extra damage to a different creature that you can see within 30 feet of the first creature.",
+          "desc_ru": "Один раз в ход, когда вы наносите урон существу, отмеченному вашей *Меткой охотника*, вы также можете нанести дополнительный урон этого заклинания другому существу, которое вы видите в пределах 30 футов от первого существа.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_hunter_superior-hunters-prey",
+          "level": 11,
+          "name": "Superior Hunter's Prey",
+          "name_ru": "Превосходная добыча охотника",
+          "parent": "srd-2024_hunter",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "When you take damage, you can take a Reaction to give yourself Resistance to that damage and any other damage of the same type until the end of the current turn.",
+          "desc_ru": "На 15-м уровне вы получаете одно из следующих умений по вашему выбору.\n\n**_Уклонение._** Когда вы подвергаетесь эффекту, такому как огненное дыхание красного дракона или заклинание *молния*, который позволяет вам совершить спасбросок Ловкости, чтобы получить лишь половину урона, вы вместо этого не получаете урона при успешном спасброске и получаете лишь половину урона при провале.\n\n**_Противостоять волне._** Когда враждебное существо промахивается по вам рукопашной атакой, вы можете использовать реакцию, чтобы заставить это существо повторить ту же атаку по другому существу (кроме себя) по вашему выбору.\n\n**_Сверхъестественное уклонение._** Когда атакующий, которого вы видите, попадает по вам атакой, вы можете использовать реакцию, чтобы уменьшить урон атаки по вам вдвое.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_hunter_superior-hunters-defense",
+          "level": 15,
+          "name": "Superior Hunter's Defense",
+          "name_ru": "Превосходная защита охотника",
+          "parent": "srd-2024_hunter",
+          "ru_source": "memory"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Hunter",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "*Protect Nature and People from Destruction*\n\nYou stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them.",
+      "name": "Hunter",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Подражание архетипу Охотника означает принятие вашего места как бастиона между цивилизацией и ужасами дикой природы. Когда вы идете по пути Охотника, вы изучаете специализированные техники для борьбы с угрозами, с которыми вы сталкиваетесь, от бесчинствующих огров и орд орков до возвышающихся гигантов и ужасающих драконов.\n\n##### Добыча охотника\nНа 3-м уровне, вы получаете одну из следующих способностей по вашему выбору.\n\n**_Убийца колоссов._** Ваша упорность может износить самых мощных врагов. Когда вы поражаете существо атакой оружием, существо получает дополнительные 1к8 урона, если он ниже его максимума очков хитов. Вы можете наносить этот дополнительный урон только один раз за ход.\n\n**_Убийца гигантов._** Когда Большое или большее существо в пределах 5 футов от вас поражает или промахивается по вам атакой, вы можете использовать вашу реакцию, чтобы атаковать это существо немедленно после его атаки, при условии, что вы можете видеть существо.\n\n**_Разрыватель орд._** Один раз на каждый из ваших ходов, когда вы совершаете атаку оружием, вы можете совершить другую атаку с тем же оружием против другого существа, которое в пределах 5 футов от первоначальной цели и в диапазоне вашего оружия.\n\n##### Оборонительные тактики\nНа 7-м уровне, вы получаете одну из следующих способностей по вашему выбору.\n\n**_Побег из орды._** Внеочередные атаки против вас совершаются с помехой.\n\n**_Защита от множественных атак._** Когда существо поражает вас атакой, вы получаете бонус +4 к КД против всех последующих атак, совершённых этим существом на остаток хода.\n\n**_Стальная воля._** Вы совершаете с преимуществом на спасброски против испуга.\n\n##### Мультиатака\nНа 11-м уровне, вы получаете одну из следующих способностей по вашему выбору.\n\n**_Залп._** Вы можете использовать ваше действие, чтобы совершить атаку дальнего боя против любого количества существ в пределах 10 футов от точки, которую вы можете видеть в пределах диапазона вашего оружия. У вас должны быть боеприпасы для каждой цели, как обычно, и вы совершаете отдельный бросок атаки для каждой цели.\n\n**_Вихревая атака._** Вы можете использовать ваше действие, чтобы совершить атаку ближнего боя против любого количества существ в пределах 5 футов от вас, с отдельным броском атаки для каждой цели.\n\n##### Превосходная защита охотника\nНа 15-м уровне, вы получаете одну из следующих способностей по вашему выбору.\n\n**_Уклонение._** Когда вы подвергаетесь эффекту, например, огненное дыхание красного дракона или заклинание молния, которое позволяет вам совершить спасбросок Ловкости, чтобы получить только половину урона, вы вместо этого не получаете урона, если успешно проходите спасбросок, и только половину урона, если проваливаете.\n\n**_Стой против прилива._** Когда враждебное существо промахивается по вам атакой ближнего боя, вы можете использовать вашу реакцию, чтобы заставить это существо повторить ту же атаку против другого существа (кроме себя) по вашему выбору.\n\n**_Неестественное уклонение._** Когда атакующий, которого вы можете видеть, поражает вас атакой, вы можете использовать вашу реакцию, чтобы уполовинить урон атаки против вас.",
+      "glossary_version": "v1",
+      "name": "Охотник",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

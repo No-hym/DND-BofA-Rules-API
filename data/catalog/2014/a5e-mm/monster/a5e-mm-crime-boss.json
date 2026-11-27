@@ -1,0 +1,233 @@
+{
+  "attribution": "Title: Monstrous Menagerie; Author: Paul Hughes; Publisher: en-publishing; Source: https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "a5e-mm",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "a5e-mm_crime-boss",
+  "id": "o5e:a5e-mm:creature:a5e-mm-crime-boss",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-mm:creature:a5e-mm-crime-boss"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "9a78b3d06454e0e9598bf87450535fc602d2a065a124d34ad31fcca25f6278a8",
+    "formulas": [
+      {
+        "expression": "15d8+60",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 16,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 16,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 16,
+      "alignment": "chaotic evil",
+      "armor_class": 15,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "6.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "15d8+60",
+      "hit_points": 127,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "any two",
+      "normal_sight_range": 10560.0,
+      "passive_perception": 16,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30.0
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-mm",
+        "content_hash": "9a78b3d06454e0e9598bf87450535fc602d2a065a124d34ad31fcca25f6278a8",
+        "edition": "2014",
+        "id": "o5e:a5e-mm:creature:a5e-mm-crime-boss",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:a5e-mm"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 16,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 16,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 16,
+      "alignment": "chaotic evil",
+      "armor_class": 15,
+      "category": "Monsters",
+      "challenge_rating": "6.000",
+      "document": "a5e-mm",
+      "hit_dice": "15d8+60",
+      "hit_points": 127,
+      "hover": false,
+      "languages_desc": "any two",
+      "name": "Crime Boss",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560.0,
+      "passive_perception": 16,
+      "size": "medium",
+      "skill_bonus_deception": 6,
+      "skill_bonus_insight": 6,
+      "skill_bonus_intimidation": 6,
+      "skill_bonus_perception": 6,
+      "skill_bonus_persuasion": 6,
+      "skill_bonus_stealth": 5,
+      "type": "humanoid",
+      "walk": 30.0,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "a5e-mm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e",
+      "publication_date": "2021-12-12T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Monstrous Menagerie"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "REACTION",
+          "desc": "When the boss would be hit by an attack, they command an ally within 5 feet to use its reaction to switch places with the boss. The ally is hit by the attack instead of the boss.",
+          "desc_ru": "Действие «Комманд Бодйгуард»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_crime-boss_command-bodyguard",
+          "name": "Command Bodyguard",
+          "name_ru": "Комманд Бодйгуард",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_crime-boss",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d4 + 4) piercing damage.",
+          "desc_ru": "Атака оружием ближнего или дальнего боя: +7 к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. Попадание: 6 (1к4+4) колющего урона.",
+          "external_id": "a5e-mm_crime-boss_dagger",
+          "name": "Dagger",
+          "name_ru": "Кинжал",
+          "order_in_statblock": 2,
+          "parent": "a5e-mm_crime-boss",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The boss targets a creature within 30 feet that can see or hear them. For 1 minute or until the boss threatens a different target  the target takes an extra 7 (2d6) damage whenever the boss hits it with a weapon attack.",
+          "desc_ru": "Действие «Марк Фор смерти»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_crime-boss_mark-for-death",
+          "name": "Mark for Death",
+          "name_ru": "Марк Фор смерти",
+          "order_in_statblock": 3,
+          "parent": "a5e-mm_crime-boss",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The boss attacks three times with their shortsword.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_crime-boss_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_crime-boss",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "REACTION",
+          "desc": "When missed by an attack, the boss makes a dagger attack.",
+          "desc_ru": "Действие «Оффханд кинжал»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_crime-boss_offhand-dagger",
+          "name": "Offhand Dagger",
+          "name_ru": "Оффханд кинжал",
+          "order_in_statblock": 1,
+          "parent": "a5e-mm_crime-boss",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +7 к попаданию, досягаемость 5 фт., одна цель. Попадание: 7 (1к6+4) колющего урона.",
+          "external_id": "a5e-mm_crime-boss_shortsword",
+          "name": "Shortsword",
+          "name_ru": "Короткий меч",
+          "order_in_statblock": 1,
+          "parent": "a5e-mm_crime-boss",
+          "ru_source": "template"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Crime Boss",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-mm",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Crime Boss",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Средний гуманоид, мировоззрение: хаотично-злое. Класс доспеха: 15. Хиты: 127 (15к8+60). Скорость: ходьба 30 фт.. Характеристики: СИЛ 18, ЛОВ 14, ТЕЛ 18, ИНТ 16, МУД 16, ХАР 16. Чувства: пассивное Восприятие 16. Показатель опасности: 6. Структурированные механики записи: действий: 6.",
+      "glossary_version": "derived-v1",
+      "name": "Криме Босс",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

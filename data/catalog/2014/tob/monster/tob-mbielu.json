@@ -1,0 +1,216 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob_mbielu",
+  "id": "o5e:tob:creature:tob-mbielu",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creature:tob-2023-mbielu",
+      "o5e:tob:creature:tob-mbielu"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "46c9411f96ff54dc86b177addfc1f17397e5aeb68a23ab82e0c076af41b319d8",
+    "formulas": [
+      {
+        "expression": "10d12+30",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "3.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [
+        "grassland",
+        "ocean",
+        "swamp"
+      ],
+      "fly": null,
+      "hit_dice": "10d12+30",
+      "hit_points": 95,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "huge",
+      "skill_bonus_acrobatics": null,
+      "swim": 20,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "46c9411f96ff54dc86b177addfc1f17397e5aeb68a23ab82e0c076af41b319d8",
+        "edition": "2014",
+        "id": "o5e:tob:creature:tob-mbielu",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "2ce1fec0f1372a2f1ed55e457f0175372b56ee5ac1efd71e2e71c094c8d35eda",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creature:tob-2023-mbielu",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "3.000",
+      "document": "tob",
+      "environments": [
+        "grassland",
+        "ocean",
+        "swamp"
+      ],
+      "hit_dice": "10d12+30",
+      "hit_points": 95,
+      "hover": false,
+      "languages_desc": "-",
+      "name": "Mbielu",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "size": "huge",
+      "skill_bonus_perception": 3,
+      "swim": 20,
+      "type": "beast",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "REACTION",
+          "desc": "If the mbielu is grappled by a Large creature, it rolls on top of the grappler and crushes it. The mbielu automatically escapes from the grapple and the grappler takes 20 (3d10 + 4) bludgeoning damage.",
+          "desc_ru": "Действие «Ролловер»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_mbielu_rollover",
+          "name": "Rollover",
+          "name_ru": "Ролловер",
+          "order_in_statblock": 0,
+          "parent": "tob_mbielu",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 20 (3d10 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.",
+          "desc_ru": "Действие «Хвост»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_mbielu_tail",
+          "name": "Tail",
+          "name_ru": "Хвост",
+          "order_in_statblock": 0,
+          "parent": "tob_mbielu",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "A creature that touches the mbielu or hits it with a melee attack exposes itself to the mbielu's poisonous skin. The creature must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, a creature also suffers disadvantage on Intelligence, Wisdom, and Charisma saving throws.",
+          "desc_ru": "Особенность «Токсик Скин». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_mbielu_toxic-skin",
+          "name": "Toxic Skin",
+          "name_ru": "Токсик Скин",
+          "parent": "tob_mbielu",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Mbielu",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Mbielu",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Это неуклюжее четвероногое ящероподобное существо имеет большие продолговатые пластины кости, покрытые зеленоватой слизью, выступающие из спины и толстый, похожий на булаву хвост.\n\n**большие пластины.** Люди описывают это рептильное травоядное как «животное с досками, растущими из спины». Мбиелу — большой динозавр, сродни стегозавру, с квадратными спинными пластинами, поддерживающими симбиотические колонии токсичных зелёных водорослей. Сами пластины размером со щиты.\n\n**Водное травоядное.** Мбиелу проводит большую часть жизни под водой, питаясь водными растениями и избегая иссушающего блеска сурового солнца, но часто выходит на сушу, чтобы погреться на солнце несколько часов, прежде чем вновь погрузиться.\n\n**Токсичная алхимия.** Его спинные пластинчатые водоросли подвергаются алхимической реакции при постоянном переходе между водой и небом, особенно во время переселений мбиелу в новые водные логова. Водоросли выделяют галлюциногенный контактный яд, который затуманивает разум большинства существ. Сами мбиелу невосприимчивы к токсина.",
+      "glossary_version": "v1",
+      "name": "Мбиелу",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

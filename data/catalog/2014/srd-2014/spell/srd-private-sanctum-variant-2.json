@@ -1,0 +1,198 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_private-sanctum",
+  "id": "o5e:srd-2014:spell:srd-private-sanctum-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-private-sanctum",
+      "o5e:wotc-srd:spell:private-sanctum"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "aa885ce6632f9ad492b9b1559fe4ab2dfd91e6dca11e49c402aad01e7dbb08ce",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "10minutes",
+      "classes": [
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "24 hours",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "A thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite.",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "abjuration",
+      "shape_size": 100.0,
+      "shape_size_unit": null,
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "aa885ce6632f9ad492b9b1559fe4ab2dfd91e6dca11e49c402aad01e7dbb08ce",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-private-sanctum",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "f0d55d2b7bb64ceaeb8935d0f8b24bc2127b653fb686f59378af11efc7df7b40",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:private-sanctum",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_wizard",
+        "type": "classes",
+        "value": [
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "10minutes",
+      "classes": [
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "desc": "You make an area within range magically secure. The area is a cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration or until you use an action to dismiss it. When you cast the spell, you decide what sort of security the spell provides, choosing any or all of the following properties: \n- Sound can't pass through the barrier at the edge of the warded area. \n- The barrier of the warded area appears dark and foggy, preventing vision (including darkvision) through it. \n- Sensors created by divination spells can't appear inside the protected area or pass through the barrier at its perimeter. \n- Creatures in the area can't be targeted by divination spells. \n- Nothing can teleport into or out of the warded area. \n- Planar travel is blocked within the warded area. \nCasting this spell on the same spot every day for a year makes this effect permanent.",
+      "document": "srd-2014",
+      "duration": "24 hours",
+      "higher_level": "When you cast this spell using a spell slot of 5th level or higher, you can increase the size of the cube by 100 feet for each slot level beyond 4th. Thus you could protect a cube that can be up to 200 feet on one side by using a spell slot of 5th level.",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "A thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite.",
+      "name": "Private Sanctum",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "abjuration",
+      "shape_size": 100.0,
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5865",
+          "parent": "srd_private-sanctum",
+          "type": "default"
+        },
+        {
+          "external_id": "10872",
+          "parent": "srd_private-sanctum",
+          "shape_size": 200,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "10873",
+          "parent": "srd_private-sanctum",
+          "shape_size": 300,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "10874",
+          "parent": "srd_private-sanctum",
+          "shape_size": 400,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "10875",
+          "parent": "srd_private-sanctum",
+          "shape_size": 500,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "10876",
+          "parent": "srd_private-sanctum",
+          "shape_size": 600,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Private Sanctum",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:a5e-ag:spell:a5e-ag-private-sanctum"
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You make an area within range magically secure. The area is a cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration or until you use an action to dismiss it. When you cast the spell, you decide what sort of security the spell provides, choosing any or all of the following properties: \n- Sound can't pass through the barrier at the edge of the warded area. \n- The barrier of the warded area appears dark and foggy, preventing vision (including darkvision) through it. \n- Sensors created by divination spells can't appear inside the protected area or pass through the barrier at its perimeter. \n- Creatures in the area can't be targeted by divination spells. \n- Nothing can teleport into or out of the warded area. \n- Planar travel is blocked within the warded area. \nCasting this spell on the same spot every day for a year makes this effect permanent.",
+      "name": "Private Sanctum",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Ограждение 4-го уровня (Волшебник)*\n\n**Время накладывания:** 10 минут\n\n**Дистанция:** 120 футов\n\n**Компоненты:** В, С, М (тонкий лист свинца, кусочек непрозрачного стекла, комочек ваты или ткани и порошок хризолита)\n\n**Длительность:** 24 часов\n\nВы делаете область в пределах дистанции магически защищённой. Область представляет собой куб с ребром от 5 до 100 футов. Заклинание действует на время его действия или пока вы не отмените его действием.\n\nСотворяя заклинание, вы решаете, какую защиту обеспечивает заклинание, выбирая любые или все из следующих свойств:\n\n- Звук не может проникнуть через барьер на краю защищённой области.\n- Барьер защищённой области выглядит тёмным и туманным, не позволяя видеть (включая тёмное зрение) сквозь него.\n- Сенсоры, созданные заклинаниями прорицания, не могут появиться внутри защищённой области или пройти через барьер по её периметру.\n- Существа в области не могут быть целью заклинаний прорицания.\n- Ничто не может телепортироваться в защищённую область или из неё.\n- Межпланарное перемещение блокируется внутри защищённой области. Сотворение этого заклинания на одном и том же месте каждый день в течение года делает этот эффект постоянным.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 5-го уровня или выше, вы можете увеличить размер куба на 100 футов за каждый уровень ячейки выше 4-го. Так, используя ячейку 5-го уровня, вы можете защитить куб с ребром до 200 футов.",
+      "glossary_version": "v1",
+      "name": "Личное убежище",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

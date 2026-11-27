@@ -1,0 +1,132 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob2",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "tob2_giant-husk_smother_smother-attack",
+  "id": "o5e:tob2:creatureactionattack:tob2-giant-husk-smother-smother-attack",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:creatureactionattack:bfrd-rug-of-smothering-smother-smother-attack",
+      "o5e:srd-2014:creatureactionattack:srd-rug-of-smothering-smother-smother-attack",
+      "o5e:tob2:creatureactionattack:tob2-giant-husk-smother-smother-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e8b6e6034f4a87f96916c59644caac400a5ecfb75825eeb8dc496a3cee875f6f",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "WEAPON",
+      "damage_bonus": null,
+      "damage_die_count": null,
+      "damage_die_type": null,
+      "damage_type": "bludgeoning",
+      "extra_damage_bonus": null,
+      "extra_damage_die_count": null,
+      "extra_damage_die_type": null,
+      "extra_damage_type": null,
+      "long_range": null,
+      "range": null,
+      "reach": 5,
+      "to_hit_mod": 8
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "e8b6e6034f4a87f96916c59644caac400a5ecfb75825eeb8dc496a3cee875f6f",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-giant-husk-smother-smother-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "b56e073bdc0a9ebf4a914ec25965cafdf1bc3a81f6e7521edda16f43e8baf255",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-rug-of-smothering-smother-smother-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "85657d1d73bfe20fcdf4da5eaaca81fd349cf0fef4e75d6f430bddc55d0d3f89",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-rug-of-smothering-smother-smother-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "tob2_giant-husk_smother",
+        "type": "parent",
+        "value": "tob2_giant-husk_smother"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "WEAPON",
+      "damage_type": "bludgeoning",
+      "name": "Smother attack",
+      "parent": "tob2_giant-husk_smother",
+      "reach": 5,
+      "target_creature_only": false,
+      "to_hit_mod": 8
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Smother attack",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Smother attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака оружием: +8 к попаданию. Зона: досягаемость 5 фт., одна цель.",
+      "glossary_version": "derived-v1",
+      "name": "Смотер",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

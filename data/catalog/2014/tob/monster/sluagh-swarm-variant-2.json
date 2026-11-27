@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "sluagh-swarm",
+  "id": "o5e:tob:monster:sluagh-swarm-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:sluagh-swarm"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "20f4015a6b7f5147cf36fb4a133a09cfdd5a1414eb73ef7a0f5e3f409c8c7466",
+    "formulas": [
+      {
+        "expression": "12d8",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic evil",
+      "armor_class": 13,
+      "challenge_rating": "3",
+      "condition_immunities": "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
+      "damage_immunities": "",
+      "damage_resistances": "cold; bludgeoning, piercing, and slashing",
+      "damage_vulnerabilities": "fire",
+      "hit_dice": "12d8",
+      "hit_points": 54,
+      "languages": "Common, Sylvan",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "20f4015a6b7f5147cf36fb4a133a09cfdd5a1414eb73ef7a0f5e3f409c8c7466",
+        "edition": "2014",
+        "id": "o5e:tob:monster:sluagh-swarm",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Chilling Touch\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm's space. Hit: 28 (8d6) cold damage or 14 (4d6) cold damage if the swarm has half of its hit points or fewer. The target must make a successful DC 13 Constitution saving throw or be unable to regain hit points. An affected creature repeats the saving throw at the end of its turns, ending the effect on itself with a successful save. The effect can also be ended with a greater restoration spell or comparable magic.\", \"attack_bonus\": 5, \"damage_dice\": \"8d6\"}]",
+      "alignment": "chaotic evil",
+      "armor_class": 13,
+      "bonus_actions_json": "null",
+      "challenge_rating": "3",
+      "charisma": 10,
+      "condition_immunities": "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
+      "constitution": 11,
+      "cr": 3.0,
+      "damage_resistances": "cold; bludgeoning, piercing, and slashing",
+      "damage_vulnerabilities": "fire",
+      "desc": "_Some say the sluagh are fey turned by vampires, while others say they are the evil souls of violent men, who cannot rest and return to kill. Still others claim they are the souls of devilbound gnomes who committed suicide. All agree that they are loathsome by nature._  \n**Cowards Alone.** These tiny, malevolent fey dwell in darkness. Alone they are cowards, but they are rarely encountered alone. They are most active during the winter, especially during winter’s long nights. They usually speak to their victims as they attack, but those shouts are little more than whispers to the ears of their prey.  \n**Chilling Touch.** Sluagh feed by using their chilling touch. They devour small animals if nothing more appetizing is available. Their victims are easy to identify; their skin is unnaturally cold, and their features are frozen in fear.  \nSwarms of sluagh serve hags, devils, trollkin, and evil fey who know the blood rituals to summon and direct them. Shadow fey and drow send them against other elves, often targeting the defenders of elven settlements, or their spouses and children.  \n**Legless Flocks.** Sluagh are tiny, gaunt humanoid creatures the size of a weasel. They have no legs; instead their torso tapers off in a disquieting way. Though they can fly, they can also pull themselves quickly across the ground with their arms. They are always draped in black, though their actual skin and hair are pale white. They have sharp claws and fangs, and their eyes are entirely black. In masses, they somewhat resemble a flock of strange birds.",
+      "dexterity": 16,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "12d8",
+      "hit_points": 54,
+      "intelligence": 6,
+      "languages": "Common, Sylvan",
+      "legendary_actions_json": "null",
+      "name": "Sluagh Swarm",
+      "page_no": 376,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 11",
+      "size": "Medium",
+      "skills_json": "{\"stealth\": 5}",
+      "special_abilities_json": "[{\"name\": \"Lone Slaughs: An individual sluagh has a challenge rating of 1/8 (25 XP), 2 hit points, and does 3 (1d6) cold damage\", \"desc\": \"They travel in swarms for a reason.\"}, {\"name\": \"Swarm\", \"desc\": \"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny fey. The swarm can't regain hit points or gain temporary hit points.\"}, {\"name\": \"Shadowy Stealth\", \"desc\": \"While in dim light or darkness, the sluagh swarm can take the Hide action as a bonus action.\"}, {\"name\": \"Sunlight Weakness\", \"desc\": \"While in sunlight, the sluagh swarm has disadvantage on attack rolls, ability checks, and saving throws.\"}]",
+      "speed_json": "{\"walk\": 30, \"fly\": 50}",
+      "spells_json": "null",
+      "strength": 6,
+      "subtype": "Swarm",
+      "type": "Fey",
+      "wisdom": 13
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Sluagh Swarm",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-sluagh-swarm"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_Some say the sluagh are fey turned by vampires, while others say they are the evil souls of violent men, who cannot rest and return to kill. Still others claim they are the souls of devilbound gnomes who committed suicide. All agree that they are loathsome by nature._  \n**Cowards Alone.** These tiny, malevolent fey dwell in darkness. Alone they are cowards, but they are rarely encountered alone. They are most active during the winter, especially during winter’s long nights. They usually speak to their victims as they attack, but those shouts are little more than whispers to the ears of their prey.  \n**Chilling Touch.** Sluagh feed by using their chilling touch. They devour small animals if nothing more appetizing is available. Their victims are easy to identify; their skin is unnaturally cold, and their features are frozen in fear.  \nSwarms of sluagh serve hags, devils, trollkin, and evil fey who know the blood rituals to summon and direct them. Shadow fey and drow send them against other elves, often targeting the defenders of elven settlements, or their spouses and children.  \n**Legless Flocks.** Sluagh are tiny, gaunt humanoid creatures the size of a weasel. They have no legs; instead their torso tapers off in a disquieting way. Though they can fly, they can also pull themselves quickly across the ground with their arms. They are always draped in black, though their actual skin and hair are pale white. They have sharp claws and fangs, and their eyes are entirely black. In masses, they somewhat resemble a flock of strange birds.",
+      "name": "Sluagh Swarm",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Некоторые говорят, что слуаги — феи, обращённые вампирами, в то время как другие говорят, что они — злые души насильственных людей, которые не могут упокоиться и возвращаются убивать. Ещё другие утверждают, что они — души связанных с дьяволом гномов, которые совершили самоубийство. Все согласны, что они отвратительны по природе.\n\n**Трусы в одиночестве.** Эти крошечные злонамеренные феи обитают во тьме. В одиночестве они трусы, но они редко встречаются в одиночестве. Они наиболее активны в течение зимы, особенно в течение длинных ночей зимы. Они обычно говорят со своими жертвами, когда они атакуют, но те крики — немногим больше, чем шёпоты для ушей их добычи.\n\n**Охлаждающее прикосновение.** Слуаги питаются, используя их охлаждающее прикосновение. Они пожирают маленьких животных, если ничего более аппетитного недоступно. Их жертв легко определить; их кожа неестественно холодна, и их черты замерли в страхе. Рои слуагов служат ведьмам, дьяволам, троллькинам и злым феям, которые знают кровавые ритуалы, чтобы призывать и направлять их. Теневые феи и дроу посылают их против других эльфов, часто целясь в защитников эльфийских поселений или их супругов и детей.\n\n**Безногие стаи.** Слуаги — крошечные тощие гуманоидные существа размером с ласку. У них нет ног; вместо этого их торс сужается тревожным образом. Хотя они могут летать, они также могут быстро тащить себя через землю их руками. Они всегда укутаны в чёрное, хотя их действительная кожа и волосы бледно-белые. У них острые когти и клыки, а их глаза полностью чёрные. В массах они немного напоминают стаю странных птиц.",
+      "glossary_version": "v1",
+      "name": "Рой слуагов",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,141 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "spawn-of-hriggala",
+  "id": "o5e:tob2:monster:spawn-of-hriggala-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:spawn-of-hriggala"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f57b478ec7b8860028ebb9e6505e3ffad3dfb4ba7761c6e4f07396a3cccc9139",
+    "formulas": [
+      {
+        "expression": "12d12+60",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic evil",
+      "armor_class": 16,
+      "challenge_rating": "10",
+      "condition_immunities": "poisoned",
+      "damage_immunities": "necrotic, poison",
+      "damage_resistances": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "",
+      "hit_dice": "12d12+60",
+      "hit_points": 138,
+      "languages": "Common, Darakhul, Void Speech",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "f57b478ec7b8860028ebb9e6505e3ffad3dfb4ba7761c6e4f07396a3cccc9139",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:spawn-of-hriggala",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The spawn of Hriggala makes two attacks: one with its bite and one with its tendrils.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 20 (3d8 + 7) piercing damage. If the target is a Large or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the spawn can't bite another target.\", \"attack_bonus\": 11, \"damage_dice\": \"3d8+7\"}, {\"name\": \"Tendrils\", \"desc\": \"Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (3d6 + 7) bludgeoning damage plus 14 (4d6) necrotic damage. If the target is a creature, it must succeed on a DC 17 Constitution saving throw or its hp maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the creature finishes a short or long rest. The creature dies if this effect reduces its hp maximum to 0. No physical trace of the creature remains when killed in this way.\", \"attack_bonus\": 11, \"damage_dice\": \"3d6+7\"}, {\"name\": \"Escape the Material\", \"desc\": \"The spawn burrows at least 20 feet through natural rock and opens a portal to the plane of the undead at the end of this movement. The portal remains for 2d4 rounds. The spawn can't have more than one portal open at a time.\"}]",
+      "alignment": "chaotic evil",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "10",
+      "charisma": 4,
+      "condition_immunities": "poisoned",
+      "constitution": 21,
+      "constitution_save": 9,
+      "cr": 10.0,
+      "damage_immunities": "necrotic, poison",
+      "damage_resistances": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "desc": "The enormous worm bursts from the floor, its maw surrounded by writhing tentacles that grab everything edible nearby. An echo of chanting issues from its mouth, as if a hundred evil priests were trapped within its gullet, calling out maledictions._  \nThe spawn of Hriggala resembles a juvenile purple worm with a mouth surrounded by wriggling tendrils and full of razor-sharp teeth. It serves the demon lord on the Material Plane, powered by a steady diet of flesh and stone.  \n**Called by Ritual.** Servants of the undead god of hunger can call up a spawn of Hriggala through ritual and sacrifices. Controlling the hungering spawn once it arrives is another matter.  \n**Underworld Tunnelers.** The spawn of Hriggala are used to create new tunnels for fiends, darakhul, and other monsters of the underworld.  \n**Hungry Demon Nature.** The spawn of Hriggala requires no air or sleep.",
+      "dexterity": 7,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "12d12+60",
+      "hit_points": 138,
+      "intelligence": 6,
+      "languages": "Common, Darakhul, Void Speech",
+      "legendary_actions_json": "null",
+      "name": "Spawn of Hriggala",
+      "page_no": 89,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "blindsight 30 ft., tremorsense 60 ft., passive Perception 9",
+      "size": "Huge",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Magic Resistance\", \"desc\": \"The spawn has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Tunneler\", \"desc\": \"The spawn can move through solid rock at half its burrow speed and leaves a 10-foot-diameter tunnel in its wake.\"}]",
+      "speed_json": "{\"burrow\": 30, \"walk\": 40}",
+      "spells_json": "null",
+      "strength": 25,
+      "subtype": "demon",
+      "type": "Fiend",
+      "wisdom": 8,
+      "wisdom_save": 3
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Spawn of Hriggala",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-spawn-of-hriggala"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "The enormous worm bursts from the floor, its maw surrounded by writhing tentacles that grab everything edible nearby. An echo of chanting issues from its mouth, as if a hundred evil priests were trapped within its gullet, calling out maledictions._  \nThe spawn of Hriggala resembles a juvenile purple worm with a mouth surrounded by wriggling tendrils and full of razor-sharp teeth. It serves the demon lord on the Material Plane, powered by a steady diet of flesh and stone.  \n**Called by Ritual.** Servants of the undead god of hunger can call up a spawn of Hriggala through ritual and sacrifices. Controlling the hungering spawn once it arrives is another matter.  \n**Underworld Tunnelers.** The spawn of Hriggala are used to create new tunnels for fiends, darakhul, and other monsters of the underworld.  \n**Hungry Demon Nature.** The spawn of Hriggala requires no air or sleep.",
+      "name": "Spawn of Hriggala",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Огромный червь вырывается из пола, его пасть окружена извивающимися щупальцами, которые захватывают всё съедобное поблизости. Эхо песнопения исходит из его рта, как будто сто злых священников оказались в ловушке внутри его пищевода, выкрикивая проклятия.\n\nОтродья Хриггалы напоминает несовершеннолетнего фиолетового червя с ртом, окружённого извивающимися усиками и полными острыми как бритва, зубами. Он служит лорду демонов на Материальном Плане, питаясь постоянной диетой плоти и камня.\n\n**Призывается ритуалом.** Слуги неживого бога голода могут призвать Хриггалу через ритуалы и жертвоприношения. Контролировать голодное появление, как только оно появится, это другое дело.\n\n**Туннельщики подземелья.** Отродья Хриггалы используются для создания новых туннелей для исчадий, дарахулов и других монстров подземелья.\n\n**Голодная демоническая природа.** Отродья Хриггалы не требует воздуха или сна.",
+      "glossary_version": "v1",
+      "name": "Отродье Хриггалы",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

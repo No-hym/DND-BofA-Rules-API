@@ -1,0 +1,136 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "rotsam",
+  "id": "o5e:tob2:monster:rotsam-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:rotsam"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "92568906a24c18416073fb3372ec754a5620f08881fcb1fc39adbbabe90e8f3b",
+    "formulas": [
+      {
+        "expression": "10d4+20",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "challenge_rating": "2",
+      "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
+      "damage_immunities": "necrotic",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "10d4+20",
+      "hit_points": 45,
+      "languages": "—",
+      "size": "Tiny"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "92568906a24c18416073fb3372ec754a5620f08881fcb1fc39adbbabe90e8f3b",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:rotsam",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Diseased Bite\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage plus 10 (3d6) necrotic damage, and the rotsam attaches to the target. While attached, the rotsam doesn't attack. Instead, at the start of each of the rotsam's turns, the target takes 10 (3d6) necrotic damage. If a creature ends its turn with a rotsam attached to it, the creature must succeed on a DC 12 Constitution saving throw or contract a disease (see the Bog Rot trait). The rotsam can detach itself by spending 5 feet of its movement. It does so after the target contracts its disease or the target dies. A creature, including the target, can take its action to detach the rotsam by succeeding on a DC 12 Strength check.\", \"attack_bonus\": 5, \"damage_dice\": \"1d4+3\"}]",
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "bonus_actions_json": "null",
+      "challenge_rating": "2",
+      "charisma": 6,
+      "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
+      "constitution": 14,
+      "cr": 2.0,
+      "damage_immunities": "necrotic",
+      "desc": "A quivering glob wraps around a corpse’s arm. Though the corpse is already decaying, the glob seems to accelerate the rot._  \n**Expediter of Decay.** The rotsam feeds on rotting flesh, encouraging decay in already rotten corpses and initiating decay in previously preserved corpses. Unfortunately, the rotsam can affect living tissue just as well and makes no distinction between the two.  \n**Leechlike Underwater Dwellers.** Rotsams attach to their prey like leeches, but they are considerably more difficult to remove than ordinary leeches.  \n**Favored of Rot Cults.** Cultists devoted to deities of disease, death, and decay “raise” rotsams for use in their sacrificial rituals.  \n**Ooze Nature.** A rotsam doesn’t require sleep.",
+      "dexterity": 16,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "10d4+20",
+      "hit_points": 45,
+      "intelligence": 1,
+      "languages": "—",
+      "legendary_actions_json": "null",
+      "name": "Rotsam",
+      "page_no": 309,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 9",
+      "size": "Tiny",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Amorphous\", \"desc\": \"The rotsam can move through a space as narrow as 1 inch wide without squeezing.\"}, {\"name\": \"Bog Rot\", \"desc\": \"A creature that fails its saving throw against the rotsam's diseased bite attack becomes infected with the bog rot disease. Until the disease is cured, the infected creature's skin breaks out in a rot-like rash that slowly spreads across its body, and its hp maximum decreases by 7 (2d6) for every 24 hours that elapse. After the first 24 hours, the creature's skin starts to smell like rot, and creatures have advantage on Wisdom (Perception) and Wisdom (Survival) checks to find the infected creature. The reduction and rot smell last until the disease is cured. The creature dies if the disease reduces its hp maximum to 0.\"}, {\"name\": \"Spider Climb\", \"desc\": \"The rotsam can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.\"}]",
+      "speed_json": "{\"swim\": 30, \"walk\": 10}",
+      "spells_json": "null",
+      "strength": 5,
+      "type": "Ooze",
+      "wisdom": 9
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Rotsam",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-rotsam"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "A quivering glob wraps around a corpse’s arm. Though the corpse is already decaying, the glob seems to accelerate the rot._  \n**Expediter of Decay.** The rotsam feeds on rotting flesh, encouraging decay in already rotten corpses and initiating decay in previously preserved corpses. Unfortunately, the rotsam can affect living tissue just as well and makes no distinction between the two.  \n**Leechlike Underwater Dwellers.** Rotsams attach to their prey like leeches, but they are considerably more difficult to remove than ordinary leeches.  \n**Favored of Rot Cults.** Cultists devoted to deities of disease, death, and decay “raise” rotsams for use in their sacrificial rituals.  \n**Ooze Nature.** A rotsam doesn’t require sleep.",
+      "name": "Rotsam",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Дрожащий шар обёртывается вокруг руки трупа. Хотя труп уже разлагается, шар, кажется, ускоряет гниение.\n\n**Ускоритель разложения.** Ротсам питается гниющей плотью, поощряя разложение в уже гнилых трупах и инициируя разложение в ранее сохранённых трупах. К сожалению, ротсам может воздействовать на живую ткань так же хорошо и не делает различия между двумя.\n\n**Подводные жители, подобные пиявкам.** Ротсамы прикрепляются к их добыче, как пиявки, но они значительно труднее удаляются, чем обычные пиявки.\n\n**Любимчики культов гниения.** Культисты, посвящённые божествам болезни, смерти и разложения, «выращивают» ротсамов для использования в их жертвенные ритуалы.\n\n**Природа слизи.** Ротсам не требует сна.",
+      "glossary_version": "v1",
+      "name": "Ротсам",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

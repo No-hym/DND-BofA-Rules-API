@@ -1,0 +1,139 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "fellforged",
+  "id": "o5e:tob:monster:fellforged-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:fellforged"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "75511d68a46c3284e286504e250ff046e696c8e2d4a2116ac2b5d2e8d2dbcc29",
+    "formulas": [
+      {
+        "expression": "18d8+54",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "lawful evil",
+      "armor_class": 15,
+      "challenge_rating": "5",
+      "condition_immunities": "charmed, exhaustion, poisoned",
+      "damage_immunities": "necrotic, poison",
+      "damage_resistances": "acid, cold, fire, lightning",
+      "damage_vulnerabilities": "",
+      "hit_dice": "18d8+54",
+      "hit_points": 135,
+      "languages": "any languages it knew in life",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "75511d68a46c3284e286504e250ff046e696c8e2d4a2116ac2b5d2e8d2dbcc29",
+        "edition": "2014",
+        "id": "o5e:tob:monster:fellforged",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The fellforged makes two necrotic slam attacks.\"}, {\"name\": \"Necrotic Slam\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) bludgeoning damage plus 4 (1d8) necrotic damage, and the target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the total damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.\", \"attack_bonus\": 5, \"damage_dice\": \"2d8\"}, {\"name\": \"Violent Escapement\", \"desc\": \"With little regard for the clockwork bodies they inhabit, fellforged wraiths can stress and strain their mechanisms in such a violent manner that flywheels become unbalanced, gears shatter, and springs snap. As a bonus action, this violent burst of gears and pulleys deals 7 (2d6) piercing damage to all foes within 5 feet who fail a DC 14 Dexterity saving throw. Each use of this ability imposes a cumulative reduction in movement of 5 feet upon the fellforged. If its speed is reduced to 0 feet, the fellforged becomes paralyzed.\"}]",
+      "alignment": "lawful evil",
+      "armor_class": 15,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "5",
+      "charisma": 15,
+      "condition_immunities": "charmed, exhaustion, poisoned",
+      "constitution": 17,
+      "cr": 5.0,
+      "damage_immunities": "necrotic, poison",
+      "damage_resistances": "acid, cold, fire, lightning",
+      "desc": "_A darkly foreboding intelligence glows behind this automaton’s eyes, and its joints seep hissing green vapors._  \n**Wraith Constructs.** Fellforged are the castoffs of gearforged and clockworks production, given foul sentience when the construct bodies attract wraiths yearning to feel the corporeal world. The clockwork bodies trap the wraiths, which dulls many of their supernatural abilities but gives them physical form. The wraiths twist the bodies to their own use—going so far as to destroy the body to harm the living.  \n**Soldiers for Vampires.** Fellforged commonly seek out greater undead as their masters. Vampires and liches are favorite leaders, but banshees and darakhul also make suitable commanders.  \n**Grave Speech.** The voice of the fellforged is echoing and sepulchral, a tomb voice that frightens animals and children.  \n**Constructed Nature.** A fellforged doesn’t require air, food, drink, or sleep.",
+      "dexterity": 12,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "18d8+54",
+      "hit_points": 135,
+      "intelligence": 12,
+      "languages": "any languages it knew in life",
+      "legendary_actions_json": "null",
+      "name": "Fellforged",
+      "page_no": 182,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 12",
+      "size": "Medium",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Expelled Spirit\", \"desc\": \"While the fellforged body was made to bind spirits, the wraith within is vulnerable to turning attempts. Any successful turn attempt exorcises the wraith from its clockwork frame. The expelled wraith retains its current hp total and fights normally. The construct dies without an animating spirit.\"}, {\"name\": \"Sunlight Sensitivity\", \"desc\": \"While in sunlight, the fellforged has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.\"}, {\"name\": \"Unnatural Aura\", \"desc\": \"All animals, whether wild or domesticated, can sense the unnatural presence of fellforged at a distance of 30 feet. They do not willingly approach nearer than that and panic if forced to do so, and they remain panicked as long as they are within that range.\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 14,
+      "strength_save": 8,
+      "type": "Construct",
+      "wisdom": 14
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Fellforged",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-fellforged"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_A darkly foreboding intelligence glows behind this automaton’s eyes, and its joints seep hissing green vapors._  \n**Wraith Constructs.** Fellforged are the castoffs of gearforged and clockworks production, given foul sentience when the construct bodies attract wraiths yearning to feel the corporeal world. The clockwork bodies trap the wraiths, which dulls many of their supernatural abilities but gives them physical form. The wraiths twist the bodies to their own use—going so far as to destroy the body to harm the living.  \n**Soldiers for Vampires.** Fellforged commonly seek out greater undead as their masters. Vampires and liches are favorite leaders, but banshees and darakhul also make suitable commanders.  \n**Grave Speech.** The voice of the fellforged is echoing and sepulchral, a tomb voice that frightens animals and children.  \n**Constructed Nature.** A fellforged doesn’t require air, food, drink, or sleep.",
+      "name": "Fellforged",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Тёмно предвещающий разум светится за глазами этого автомата, и его суставы просачиваются шипящих зелёных паров.\n\n**Призрачные конструкты.** Сквернокованые являются отброшенными шестерённокованными и часовыми конструктами, получившие гнусное разумность, когда конструктные органы привлекают призраков, жаждущих ощутить телесный мир. Заводной механизм тела ловушки призраков, который притупляет многие из своих сверхъестественных способностей, но даёт им физическую форму. Призраки искривляют тело для собственного использования — идут так далеко, чтобы разрушить тело, чтобы причинить вред живым.\n\n**Солдаты для вампиров.** Сквернокованые обычно ищут больших мертвецов в качестве своих хозяев. Вампиры и личи являются любимыми лидерами, но банши и дарахул также являются подходящими командирами.\n\n**Могильная речь.** Голос сквернокованного эхом и надгробный, могильный голос, который пугает животных и детей.\n\n**Сконструированная природа.** Cквернокованый не требует воздуха, пищи, питья или сна.",
+      "glossary_version": "v1",
+      "name": "Сквернокованый",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

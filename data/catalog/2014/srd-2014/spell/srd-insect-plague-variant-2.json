@@ -1,0 +1,215 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_insect-plague",
+  "id": "o5e:srd-2014:spell:srd-insect-plague-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-insect-plague",
+      "o5e:wotc-srd:spell:insect-plague"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7f52f5962c727d63d654081bd91d9a72adef2f38ae82e92aae3f7027fd8ad4b2",
+    "formulas": [
+      {
+        "expression": "4d10",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_druid",
+        "srd_sorcerer"
+      ],
+      "concentration": true,
+      "damage_roll": "4d10",
+      "damage_types": [
+        "piercing"
+      ],
+      "duration": "10 minutes",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "A few grains of sugar, some kernels of grain, and a smear of fat.",
+      "range": 300.0,
+      "range_text": "300 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "conjuration",
+      "shape_size": 20.0,
+      "shape_size_unit": null,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "7f52f5962c727d63d654081bd91d9a72adef2f38ae82e92aae3f7027fd8ad4b2",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-insect-plague",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "95142789cc29a901980c6c4b488071a0072f1720ab980d6e9e96328d3eb837e7",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:insect-plague",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric",
+          "srd_druid",
+          "srd_sorcerer"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_druid",
+        "srd_sorcerer"
+      ],
+      "concentration": true,
+      "damage_roll": "4d10",
+      "damage_types": [
+        "piercing"
+      ],
+      "desc": "Swarming, biting locusts fill a 20-foot-radius sphere centered on a point you choose within range. The sphere spreads around corners. The sphere remains for the duration, and its area is lightly obscured. The sphere's area is difficult terrain. When the area appears, each creature in it must make a constitution saving throw. A creature takes 4d10 piercing damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell's area for the first time on a turn or ends its turn there.",
+      "document": "srd-2014",
+      "duration": "10 minutes",
+      "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "A few grains of sugar, some kernels of grain, and a smear of fat.",
+      "name": "Insect Plague",
+      "range": 300.0,
+      "range_text": "300 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "conjuration",
+      "shape_size": 20.0,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5673",
+          "parent": "srd_insect-plague",
+          "type": "default"
+        },
+        {
+          "damage_roll": "5d10",
+          "external_id": "5675",
+          "parent": "srd_insect-plague",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "6d10",
+          "external_id": "5676",
+          "parent": "srd_insect-plague",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "7d10",
+          "external_id": "5677",
+          "parent": "srd_insect-plague",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "8d10",
+          "external_id": "5678",
+          "parent": "srd_insect-plague",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Insect Plague",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:a5e-ag:spell:a5e-ag-insect-plague"
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "Swarming, biting locusts fill a 20-foot-radius sphere centered on a point you choose within range. The sphere spreads around corners. The sphere remains for the duration, and its area is lightly obscured. The sphere's area is difficult terrain. When the area appears, each creature in it must make a constitution saving throw. A creature takes 4d10 piercing damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell's area for the first time on a turn or ends its turn there.",
+      "name": "Insect Plague",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Вызов 5-го уровня (Жрец, Друид, Чародей)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 300 футов\n\n**Компоненты:** В, С, М (несколько крупинок сахара, несколько зёрен и мазок жира)\n\n**Длительность:** Концентрация, вплоть до 10 минут\n\nРоящаяся, кусающая саранча заполняет сферу радиусом 20 футов с центром в выбранной вами точке в пределах дистанции. Сфера огибает углы. Сфера существует на время действия заклинания, и её область слабо заслонена. Область сферы — труднопроходимая местность.\n\nКогда область появляется, каждое существо в ней должно совершить спасбросок Телосложения. Существо получает 4к10 колющего урона при провале или половину этого урона при успехе. Существо также должно совершить этот спасбросок, когда впервые за ход входит в область заклинания или оканчивает в ней свой ход.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 6-го уровня или выше, урон увеличивается на 1к10 за каждый уровень ячейки выше 5-го.",
+      "glossary_version": "v1",
+      "name": "Нашествие насекомых",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

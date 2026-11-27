@@ -1,0 +1,137 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "shellycoat",
+  "id": "o5e:tob:monster:shellycoat-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:shellycoat"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "322767e6548a513fc65a0d92dd56f4358b12d19d954e50689e7010ce07b0aa56",
+    "formulas": [
+      {
+        "expression": "10d8+30",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral evil",
+      "armor_class": 14,
+      "challenge_rating": "2",
+      "condition_immunities": "charmed, unconscious",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "10d8+30",
+      "hit_points": 75,
+      "languages": "Giant, Sylvan",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "322767e6548a513fc65a0d92dd56f4358b12d19d954e50689e7010ce07b0aa56",
+        "edition": "2014",
+        "id": "o5e:tob:monster:shellycoat",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The shellycoat makes one bite attack and one claws attack.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.\", \"attack_bonus\": 5, \"damage_dice\": \"1d6\"}, {\"name\": \"Claws\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: 12 (2d8 + 3) slashing damage and the target is grappled (escape DC 13), restrained, and poisoned (DC 13 Strength saving throw negates, lasts while grappled and 1 round after). The shellycoat can shift the position of a grappled creature by up to 15 feet as a bonus action. While it has a creature grappled, the shellycoat can use its claws attack only against the grappled creature.\", \"attack_bonus\": 5, \"damage_dice\": \"2d8\"}]",
+      "alignment": "neutral evil",
+      "armor_class": 14,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "2",
+      "charisma": 7,
+      "condition_immunities": "charmed, unconscious",
+      "constitution": 16,
+      "cr": 2.0,
+      "desc": "_Despite being short and squat, this creature’s relationship with a troll is undeniable. The kinship is most notable in the long arms and thick, pebbly hide._  \n**Long Handed and Toad-like.** The shellycoat is a warped and spiteful creature also called the Iamh fada, or “long hands,” and they are frequently referred to as bridge trolls. Despite being fey, they are distantly related to true trolls. Unlike those tall, lanky creatures, a shellycoat is dwarfish and toad-like, with short, bent, legs and freakishly long arms with swollen, distended joints. It can further dislocate and stretch these joints to alarming lengths.  \n**Bridges and Pools.** The shellycoat can be found in abandoned wells or behind waterfalls, in deep tide pools, or beneath the ice of frozen ponds, but their preferred haunt has always been under bridges. They are most active during nighttime and on heavily overcast days, because of their mortal dread of sunlight.  \nA shellycoat's favored tactic is to lie in wait under the water or ice (or bridge) and surprise its prey. It strikes outward or upward from its hiding place to snatch children, livestock (preferably goats), and lone travelers or fishermen. Prey is dragged down to the shadows and water to be robbed and devoured.  \n**Shining Garments.** A shellycoat will always have fashioned for itself a coat, cloak, or shirt of colored pebbles, glass, and polished river shells. These adornments are crude but beautiful and sometimes magical.",
+      "dexterity": 15,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "10d8+30",
+      "hit_points": 75,
+      "intelligence": 13,
+      "languages": "Giant, Sylvan",
+      "legendary_actions_json": "null",
+      "name": "Shellycoat",
+      "page_no": 346,
+      "perception": 1,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "Darkvision 60 ft., passive Perception 11",
+      "size": "Medium",
+      "skills_json": "{\"perception\": 1, \"stealth\": 4}",
+      "special_abilities_json": "[{\"name\": \"Innate Spellcasting\", \"desc\": \"the shellycoat can cast the following spells innately, requiring no components:\\n\\n1/day each: darkness, fog cloud\\n\\n1/day (if in possession of its coat): water breathing\"}, {\"name\": \"Regeneration\", \"desc\": \"The shellycoat regains 3 hit points at the start of its turn. If the creature takes acid or fire damage, this trait doesn't function at the start of the monster's next turn. The shellycoat dies only if it starts its turn with 0 hit points and doesn't regenerate.\"}, {\"name\": \"Stealthy Observer\", \"desc\": \"The shellycoat has advantage on Dexterity (Stealth) checks made to hide and any Perception checks that rely on hearing.\"}, {\"name\": \"Sunlight Sensitivity\", \"desc\": \"The shellycoat becomes petrified after 5 (2d4) uninterrupted rounds of exposure to direct, natural sunlight.\"}]",
+      "speed_json": "{\"walk\": 30, \"swim\": 20}",
+      "spells_json": "null",
+      "strength": 17,
+      "type": "Fey",
+      "wisdom": 9
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Shellycoat",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-shellycoat"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_Despite being short and squat, this creature’s relationship with a troll is undeniable. The kinship is most notable in the long arms and thick, pebbly hide._  \n**Long Handed and Toad-like.** The shellycoat is a warped and spiteful creature also called the Iamh fada, or “long hands,” and they are frequently referred to as bridge trolls. Despite being fey, they are distantly related to true trolls. Unlike those tall, lanky creatures, a shellycoat is dwarfish and toad-like, with short, bent, legs and freakishly long arms with swollen, distended joints. It can further dislocate and stretch these joints to alarming lengths.  \n**Bridges and Pools.** The shellycoat can be found in abandoned wells or behind waterfalls, in deep tide pools, or beneath the ice of frozen ponds, but their preferred haunt has always been under bridges. They are most active during nighttime and on heavily overcast days, because of their mortal dread of sunlight.  \nA shellycoat's favored tactic is to lie in wait under the water or ice (or bridge) and surprise its prey. It strikes outward or upward from its hiding place to snatch children, livestock (preferably goats), and lone travelers or fishermen. Prey is dragged down to the shadows and water to be robbed and devoured.  \n**Shining Garments.** A shellycoat will always have fashioned for itself a coat, cloak, or shirt of colored pebbles, glass, and polished river shells. These adornments are crude but beautiful and sometimes magical.",
+      "name": "Shellycoat",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Несмотря на то, что это существо короткое и приземистое, бесспорно, оно связано с троллем. Наибольшее значение имеет родство с длинными руками и толстой, каменистой кожей.\n\n**Длинные руки и похожая на жабу.** Шелликоут - это искривлённое и злокачественное существо, также называемое Иамх Фада, или «длинные руки», и их часто называют троллями мостов. Несмотря на то, что они феи, они тесно связаны с настоящими троллями. В отличие от тех высоких, сутулый существ, Шелликоут есть гномовый и жабный, с короткими, согнутыми, ногами и уродливо длинными руками с опухшими, растянувшимися суставами. Он может в дальнейшем дислоцировать и растягивать эти суставы на тревожные длины.\n\n**Мосты и бассейны.** Шелли-пальто можно найти в заброшенных колодцах или за водопадами, в глубоких приливных бассейнах или подо льдом замороженных прудов, но их предпочтительным обиталищем всегда было под мостами. Они наиболее активны в ночное время и в сильно пасмурные дни из-за их смертельного ужаса солнечного света.\n\nЛюбимая тактика Шелликоута - лежать в ожидании под водой или льдом (или мостом) и удивлять его жертву. Он нападает наружу или вверх со своего укрытия, чтобы похитить детей, скот (предпочтительно коз), одиноких путешественников или рыбаков. Добыча затаскивается в тень и воду, чтобы быть ограбленной и пожранной.\n\n**Сияющие одежды.** Шелликоут всегда будет иметь для себя пальто, плащ или рубашку цветных камешков, стекла и полированные речные снаряды. Эти украшения грубые, но красивые, и иногда волшебные.",
+      "glossary_version": "v1",
+      "name": "Шелликоут",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

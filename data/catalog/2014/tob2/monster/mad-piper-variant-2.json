@@ -1,0 +1,137 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "mad-piper",
+  "id": "o5e:tob2:monster:mad-piper-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:mad-piper"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "43f7d6b43587c527ab9e6f79d94043a48a7f96c56f834b3702d0aee1132082cd",
+    "formulas": [
+      {
+        "expression": "3d8+6",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral",
+      "armor_class": 12,
+      "challenge_rating": "2",
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned, prone",
+      "damage_immunities": "poison",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "3d8+6",
+      "hit_points": 19,
+      "languages": "understands Common and Void Speech, but can’t speak",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "43f7d6b43587c527ab9e6f79d94043a48a7f96c56f834b3702d0aee1132082cd",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:mad-piper",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Screaming Flail\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage plus 2 (1d4) thunder damage.\", \"attack_bonus\": 5, \"damage_dice\": \"2d6+3\"}, {\"name\": \"Terrible Dirge\", \"desc\": \"The mad piper plays a haunting dirge. Each creature of the mad piper's choice that is within 30 feet of the piper and can hear the dirge must succeed o a DC 13 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the mad piper's Terrible Dirge for the next 24 hours.\"}]",
+      "alignment": "neutral",
+      "armor_class": 12,
+      "armor_desc": "padded armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "2",
+      "charisma": 16,
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned, prone",
+      "constitution": 14,
+      "cr": 2.0,
+      "damage_immunities": "poison",
+      "desc": "A grey mound of flesh scuttles forward on mismatched limbs, its five heads trilling along on bone flutes. All the while, a harrowing tune plays from the column of pipes rising from its core._  \nMad pipers are the heralds of the Great Old Ones, a sign that a cult is getting close to achieving their goals. Cultists receive visions from their masters, filling their dreams with the esoteric rituals needed to create a mad piper. In short order, the cult gathers the components and creates these creatures, typically one for each cell of the cult. When the time comes for the cult to do battle, the mad pipers follow, inspiring the faithful with the alien songs of the Great Old Ones.  \n**The Ritual.** During the ritual, five humanoids, one of which must be a musician of some kind, are tied to a set of bagpipes made from an ogre’s bones and stomach. The ritual liquefies the humanoids, who fall into each other as all but their limbs and heads dissolve into a mass of grey flesh. Their minds, souls, and bodies forcefully merged, they start to play.  \n**Pets and Mascots.** Mad pipers aren’t naturally evil. Most are made from commoners, resulting in relatively docile and loyal creatures that imprint quickly onto cult members, who in turn often come to treat these abominations as pets. More violent and powerful mad pipers can be made from powerful, evil humanoids, though they are harder to control and often hostile to their creators.  \n**True Pipers.** Scholars speculate that the mad pipers are modelled after the heralds of the Crawling Chaos, and that it was he who gifted the first ritual to mortals on behalf of all Great Old Ones.  \n**Construct Nature.** The mad piper doesn’t require air, food, drink, or sleep.",
+      "dexterity": 8,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "3d8+6",
+      "hit_points": 19,
+      "intelligence": 5,
+      "languages": "understands Common and Void Speech, but can’t speak",
+      "legendary_actions_json": "null",
+      "name": "Mad Piper",
+      "page_no": 250,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 8",
+      "size": "Large",
+      "skills_json": "{\"performance\": 5}",
+      "special_abilities_json": "[{\"name\": \"Inspire\", \"desc\": \"As a bonus action, the mad piper can play a tune that inspires a friendly creature it can see within 30 feet of it. If the target can hear the mad piper, it has advantage on its next ability check, attack roll, or saving throw.\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 16,
+      "type": "Construct",
+      "wisdom": 7
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Mad Piper",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-mad-piper"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "A grey mound of flesh scuttles forward on mismatched limbs, its five heads trilling along on bone flutes. All the while, a harrowing tune plays from the column of pipes rising from its core._  \nMad pipers are the heralds of the Great Old Ones, a sign that a cult is getting close to achieving their goals. Cultists receive visions from their masters, filling their dreams with the esoteric rituals needed to create a mad piper. In short order, the cult gathers the components and creates these creatures, typically one for each cell of the cult. When the time comes for the cult to do battle, the mad pipers follow, inspiring the faithful with the alien songs of the Great Old Ones.  \n**The Ritual.** During the ritual, five humanoids, one of which must be a musician of some kind, are tied to a set of bagpipes made from an ogre’s bones and stomach. The ritual liquefies the humanoids, who fall into each other as all but their limbs and heads dissolve into a mass of grey flesh. Their minds, souls, and bodies forcefully merged, they start to play.  \n**Pets and Mascots.** Mad pipers aren’t naturally evil. Most are made from commoners, resulting in relatively docile and loyal creatures that imprint quickly onto cult members, who in turn often come to treat these abominations as pets. More violent and powerful mad pipers can be made from powerful, evil humanoids, though they are harder to control and often hostile to their creators.  \n**True Pipers.** Scholars speculate that the mad pipers are modelled after the heralds of the Crawling Chaos, and that it was he who gifted the first ritual to mortals on behalf of all Great Old Ones.  \n**Construct Nature.** The mad piper doesn’t require air, food, drink, or sleep.",
+      "name": "Mad Piper",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Серая насыпь плоти вперёд устремилась на несоразмерные конечности, пять её голов торопятся вдоль на костных флейтах. Все время, как назло мелодия играет из колонки труб, поднимающихся из его ядра.\n\nБезумные волынщики - вестники Великих Старых, знак того, что культ приближается к достижению своих целей. Культисты получают видения от своих мастеров, заполняя их сны эзотерическими ритуалами, необходимыми для создания безумного волынщика. В короткий срок, культ собирает компоненты и создаёт этих существ, как правило, по одному для каждой ячейки культа. Когда наступает время культа битвы, безумные волынщики следуют за этим, вдохновляя верных чужими песнями Великих Старых.\n\n**Ритуал.** Во время ритуала пять гуманоидов, один из которых должен быть музыкантом какого-то типа, привязаны к множеству волынок, сделанных из костей и живота огра. Ритуал разжижает гуманоидов, которые сгружаются друг на друга, как спасают все, но их конечности и головы растворяются в массе серой плоти. Их умы, души и тела насильственно слились, они начинают играть.\n\n**Домашние животные и талисманы.** Безумные волынщики не являются естественным злом. Большинство из них сделаны из простолюдинов, в результате чего сравнительно покорные и преданные существа, которые быстро запечатлеваю на членов культа, который, в свою очередь часто приходят, чтобы относиться к этим мерзостям как домашние животные. Более жестокие и мощные безумные волынщики могут быть сделаны из могучих, злых гуманоидов, хотя их труднее контролировать и часто враждебно относятся к своим создателям.\n\n**Настоящие Волынщики.** Учёные предполагают, что безумные дудки моделируются по образцу вестники ползучего хаоса, и что именно он одарил первый ритуал для смертных от имени всех великих Старых.\n\n**Сконструированная Природа.** Безумному Дуднику не требуется воздух, еда, питье или сон.",
+      "glossary_version": "v1",
+      "name": "Безумный Волынщик",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

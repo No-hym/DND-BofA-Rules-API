@@ -1,0 +1,197 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_toothless-beast",
+  "id": "o5e:toh:spell:toh-toothless-beast",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:toh-toothless-beast",
+      "o5e:toh:spell:toothless-beast"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c574a71b8f966fad189be9e5d7ee34d3a5401152d8034a00d6e0dc19328716d6",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "c574a71b8f966fad189be9e5d7ee34d3a5401152d8034a00d6e0dc19328716d6",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-toothless-beast",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "9ec3b75c80e69a45cf413c11d7b98c87a4bc23142314d7cb7f6a62d9cc9e2299",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toothless-beast",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "You hinder the natural attacks of a creature you can see within range. The creature must make a Wisdom saving throw. On a failed save, any time the creature attacks with a bite, claw, slam, or other weapon that isn't manufactured, it must roll the weapon's damage dice twice and use the lower total. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target. This spell has no effect on constructs.",
+      "document": "toh",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Toothless Beast",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "384",
+          "parent": "toh_toothless-beast",
+          "type": "default"
+        },
+        {
+          "external_id": "386",
+          "parent": "toh_toothless-beast",
+          "target_count": 2,
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "387",
+          "parent": "toh_toothless-beast",
+          "target_count": 3,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "388",
+          "parent": "toh_toothless-beast",
+          "target_count": 4,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "389",
+          "parent": "toh_toothless-beast",
+          "target_count": 5,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "390",
+          "parent": "toh_toothless-beast",
+          "target_count": 6,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "391",
+          "parent": "toh_toothless-beast",
+          "target_count": 7,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "392",
+          "parent": "toh_toothless-beast",
+          "target_count": 8,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Toothless Beast",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You hinder the natural attacks of a creature you can see within range. The creature must make a Wisdom saving throw. On a failed save, any time the creature attacks with a bite, claw, slam, or other weapon that isn't manufactured, it must roll the weapon's damage dice twice and use the lower total. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target. This spell has no effect on constructs.",
+      "name": "Toothless Beast",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы затрудняете естественные атаки существа, которое вы можете видеть в пределах дистанции. Существо должно совершить спасбросок Мудрости. При проваленном спасброске, всякий раз, когда существо атакует укусом, когтем, ударом или другим оружием, которое не изготовлено, оно должно бросить кости урона оружия дважды и использовать меньшее общее число. В конце каждого её хода цель может совершить ещё один спасбросок Мудрости. При успехе заклинание заканчивается на цели. Это заклинание не оказывает эффекта на конструктов.",
+      "glossary_version": "v1",
+      "name": "Беззубый зверь",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

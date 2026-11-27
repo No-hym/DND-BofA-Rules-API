@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subspecies",
+  "edition": "2014",
+  "external_id": "toh_bhain-kwai",
+  "id": "o5e:toh:species:toh-bhain-kwai",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:species:toh-bhain-kwai",
+      "o5e:toh:subrace:bhain-kwai"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "0e820b97929305b245f83fd627f9337323d1fa9922b2d5a3ddb5eed161cf22fc",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "subspecies_of": "toh_minotaur"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "0e820b97929305b245f83fd627f9337323d1fa9922b2d5a3ddb5eed161cf22fc",
+        "edition": "2014",
+        "id": "o5e:toh:species:toh-bhain-kwai",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "034d28e4a6d89cc362d701bf4756b0e540ad7d5351acec7617d1eb90d2da67c6",
+        "edition": "2014",
+        "id": "o5e:toh:subrace:bhain-kwai",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "toh_minotaur",
+        "type": "subspecies_of",
+        "value": "toh_minotaur"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "You are a minotaur adapted to life in the bogs and wetlands of the world.",
+      "document": "toh",
+      "name": "Bhain Kwai",
+      "subspecies_of": "toh_minotaur"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "traits": [
+        {
+          "desc": "Your Constitution score increases by 2, and your Strength score increases by 1.",
+          "desc_ru": "Каждая раса увеличивает одну или несколько характеристик персонажа.",
+          "external_id": "toh_bhain-kwai_ability-score-increase",
+          "name": "Ability Score Increase",
+          "name_ru": "Увеличение характеристик",
+          "parent": "toh_bhain-kwai",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your carrying capacity is your Strength score multiplied by 20, instead of by 15.",
+          "desc_ru": "Особенность «Стронг Бак». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_bhain-kwai_strong-back",
+          "name": "Strong Back",
+          "name_ru": "Стронг Бак",
+          "parent": "toh_bhain-kwai",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "You are adapted to your home terrain. Difficult terrain composed of mud or from wading through water up to waist deep doesn't cost you extra movement. You have a swimming speed of 25 feet.",
+          "desc_ru": "Особенность «Ветланд Двеллер». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_bhain-kwai_wetland-dweller",
+          "name": "Wetland Dweller",
+          "name_ru": "Ветланд Двеллер",
+          "parent": "toh_bhain-kwai",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Bhain Kwai",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You are a minotaur adapted to life in the bogs and wetlands of the world.",
+      "name": "Bhain Kwai",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы — минотавр, приспособившийся к жизни в болотах и водно-болотных угодьях мира.",
+      "glossary_version": "v1",
+      "name": "Бхайн Квай",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

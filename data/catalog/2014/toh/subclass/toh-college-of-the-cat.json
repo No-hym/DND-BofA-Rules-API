@@ -1,0 +1,147 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_college-of-the-cat",
+  "id": "o5e:toh:characterclass:toh-college-of-the-cat",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-college-of-the-cat"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "1797d32c7078d76ad5e331d413b76e4f95126c2c68e09975631d19e18bf88eeb",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_bard"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "1797d32c7078d76ad5e331d413b76e4f95126c2c68e09975631d19e18bf88eeb",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-college-of-the-cat",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "subclass_of",
+        "value": "srd_bard"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Scholars and spies, heroes and hunters: whether wooing an admirer in the bright sunlight or stalking prey under the gentle rays of the moon, bards of the College of the Cat excel at diverse skills and exhibit contrary tendencies. The adventurous spirits who favor the College of the Cat let their curiosity and natural talents get them into impossible places. Most are skilled, cunning, and vicious enough to extricate themselves from even the most dangerous situations.",
+      "document": "toh",
+      "name": "College of the Cat",
+      "subclass_of": "srd_bard"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you join the College of the Cat at 3rd level, you gain proficiency with the Acrobatics and Stealth skills and with thieves' tools if you don't already have them. In addition, if you're proficient with a simple or martial melee weapon, you can use it as a spellcasting focus for your bard spells.",
+          "desc_ru": "Когда вы присоединяетесь к Коллегии знаний на 3-м уровне, вы получаете владение тремя навыками по вашему выбору.",
+          "document": "toh",
+          "external_id": "toh_college-of-the-cat_bonus-proficiencies",
+          "level": 3,
+          "name": "Bonus Proficiencies",
+          "name_ru": "Дополнительные владения",
+          "parent": "toh_college-of-the-cat",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Also at 3rd level, you learn to stalk unsuspecting foes engaged in combat with your allies. When an ally you can see uses one of your Bardic Inspiration dice on a weapon attack roll against a creature, you can use your reaction to move up to half your speed and make one melee weapon attack against that creature. You gain a bonus on your attack roll equal to the result of the spent Bardic Inspiration die.\n  When you reach 6th level in this class, you gain a climbing speed equal to your walking speed, and when you use Inspired Pounce, you can move up to your speed as part of the reaction.",
+          "desc_ru": "Также на 3-м уровне вы учитесь преследовать ничего не подозревающих врагов, занятых боем с вашими союзниками. Когда союзник, которого вы можете видеть, использует одну из ваших костей Вдохновения барда на бросок атаки оружием против существа, вы можете реакцией переместиться до половины вашей скорости и совершить одну атаку оружием ближнего боя против этого существа. Вы получаете бонус к вашему броску атаки, равный результату потраченной кости Вдохновения барда.\nКогда вы достигаете 6-го уровня в этом классе, вы получаете скорость карабканья, равную вашей скорости ходьбы, и когда вы используете Вдохновлённый прыжок, вы можете переместиться до вашей скорости как часть реакции.",
+          "document": "toh",
+          "external_id": "toh_college-of-the-cat_inspired-pounce",
+          "level": 3,
+          "name": "Inspired Pounce",
+          "name_ru": "Вдохновлённый прыжок",
+          "parent": "toh_college-of-the-cat",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Beginning at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. In addition, when you use two-weapon fighting to make an attack as a bonus action, you can give a Bardic Inspiration die to a friendly creature within 60 feet of you as part of that same bonus action.",
+          "desc_ru": "Начиная с 6-го уровня вы можете атаковать дважды, вместо одного раза, каждый раз, когда вы выполняете действие Атака в ваш ход. Кроме того, когда вы используете бой двумя оружиями, чтобы совершить атаку бонусным действием, вы можете дать кость Вдохновения барда дружественному существу в пределах 60 футов от вас как часть того же бонусного действия.",
+          "document": "toh",
+          "external_id": "toh_college-of-the-cat_my-claws-are-sharp",
+          "level": 6,
+          "name": "My Claws Are Sharp",
+          "name_ru": "Мои когти остры",
+          "parent": "toh_college-of-the-cat",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 14th level, while a creature has one of your Bardic Inspiration dice, it has advantage on Dexterity (Stealth) checks. When you have no uses of Bardic Inspiration left, you have advantage on Dexterity (Stealth) checks.",
+          "desc_ru": "Начиная с 14-го уровня, пока у существа есть одна из ваших костей Вдохновения барда, оно совершает с преимуществом проверки Ловкости (Скрытность). Когда у вас не осталось использований Вдохновения барда, вы совершаете с преимуществом проверки Ловкости (Скрытность).",
+          "document": "toh",
+          "external_id": "toh_college-of-the-cat_catlike-tread",
+          "level": 14,
+          "name": "Catlike Tread",
+          "name_ru": "Кошачья поступь",
+          "parent": "toh_college-of-the-cat",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "College of the Cat",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "Scholars and spies, heroes and hunters: whether wooing an admirer in the bright sunlight or stalking prey under the gentle rays of the moon, bards of the College of the Cat excel at diverse skills and exhibit contrary tendencies. The adventurous spirits who favor the College of the Cat let their curiosity and natural talents get them into impossible places. Most are skilled, cunning, and vicious enough to extricate themselves from even the most dangerous situations.",
+      "name": "College of the Cat",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Учёные и шпионы, герои и охотники: будь то ухаживание за поклонником при ярком солнечном свете или преследование добычи под нежными лучами луны, барды Коллегии Кошки преуспевают в разнообразных навыках и демонстрируют противоречивые тенденции. Предприимчивые духи, которые предпочитают Коллегию Кошки, позволяют своему любопытству и природным талантам забираться в невозможные места. Большинство из них достаточно искусны, хитры и жестоки, чтобы выбраться даже из самых опасных ситуаций.",
+      "glossary_version": "v1",
+      "name": "Коллегия кошки",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

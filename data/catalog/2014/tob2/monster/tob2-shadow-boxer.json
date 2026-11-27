@@ -1,0 +1,250 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_shadow-boxer",
+  "id": "o5e:tob2:creature:tob2-shadow-boxer",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-shadow-boxer"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "08189dfe9f14c988a7382a15ca71e19834900b906fd45250811d3416bb71bcce",
+    "formulas": [
+      {
+        "expression": "10d6+20",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 17,
+      "ability_score_constitution": 15,
+      "ability_score_dexterity": 17,
+      "ability_score_intelligence": 12,
+      "ability_score_strength": 10,
+      "ability_score_wisdom": 17,
+      "alignment": "chaotic neutral",
+      "armor_class": 13,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "3.000",
+      "climb": 30,
+      "condition_immunities": [
+        "charmed"
+      ],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "10d6+20",
+      "hit_points": 55,
+      "initiative_bonus": null,
+      "languages": [
+        "sylvan"
+      ],
+      "languages_desc": "Sylvan",
+      "normal_sight_range": 10560,
+      "passive_perception": 15,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": 5,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "small",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 40
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "08189dfe9f14c988a7382a15ca71e19834900b906fd45250811d3416bb71bcce",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-shadow-boxer",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 17,
+      "ability_score_constitution": 15,
+      "ability_score_dexterity": 17,
+      "ability_score_intelligence": 12,
+      "ability_score_strength": 10,
+      "ability_score_wisdom": 17,
+      "alignment": "chaotic neutral",
+      "armor_class": 13,
+      "category": "Monsters",
+      "challenge_rating": "3.000",
+      "climb": 30,
+      "condition_immunities": [
+        "charmed"
+      ],
+      "condition_immunities_display": "charmed",
+      "document": "tob2",
+      "hit_dice": "10d6+20",
+      "hit_points": 55,
+      "hover": false,
+      "languages": [
+        "sylvan"
+      ],
+      "languages_desc": "Sylvan",
+      "name": "Shadow Boxer",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 15,
+      "saving_throw_dexterity": 5,
+      "size": "small",
+      "skill_bonus_perception": 5,
+      "skill_bonus_stealth": 5,
+      "type": "fey",
+      "walk": 40,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +5 к попаданию, досягаемость 5 фт., одна цель. Попадание: 8 (2к4+3) колющего урона.",
+          "external_id": "tob2_shadow-boxer_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "tob2_shadow-boxer",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +5 к попаданию, досягаемость 5 фт., одна цель. Попадание: 6 (1к6+3) рубящего урона.",
+          "external_id": "tob2_shadow-boxer_claw",
+          "name": "Claw",
+          "name_ru": "Коготь",
+          "order_in_statblock": 2,
+          "parent": "tob2_shadow-boxer",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The shadow boxer magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment the shadow boxer wears or carries is invisible with it.",
+          "desc_ru": "Действие «Инвисибилитй»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_shadow-boxer_invisibility",
+          "name": "Invisibility",
+          "name_ru": "Инвисибилитй",
+          "order_in_statblock": 3,
+          "parent": "tob2_shadow-boxer",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The shadow boxer makes two claw attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_shadow-boxer_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_shadow-boxer",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The shadow boxer can magically communicate with cats within 120 feet of it, using a limited telepathy.",
+          "desc_ru": "Особенность «Кошка Телепатй». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_shadow-boxer_cat-telepathy",
+          "name": "Cat Telepathy",
+          "name_ru": "Кошка Телепатй",
+          "parent": "tob2_shadow-boxer",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "If the shadow boxer moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the shadow boxer can make one bite attack against it as a bonus action.",
+          "desc_ru": "Особенность «Поунке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_shadow-boxer_pounce",
+          "name": "Pounce",
+          "name_ru": "Поунке",
+          "parent": "tob2_shadow-boxer",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "As a bonus action, the shadow boxer projects a shadow on a surface within 60 feet of it. The shadow boxer can shape it to resemble the shadow of any Medium or smaller beast, but the shadow can’t be larger than a 10-foot cube. Each creature that starts its turn within 60 feet of the shadow and that can see the shadow must succeed on a DC 13 Wisdom saving throw or be incapacitated until the end of its next turn and use its movement on its next turn to follow the shadow. As a bonus action, the shadow boxer can move the shadow up to 30 feet along a solid surface. The shadow moves in a natural manner for the type of creature it represents.",
+          "desc_ru": "Особенность «Проджект Силхоуетте». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_shadow-boxer_project-silhouette",
+          "name": "Project Silhouette",
+          "name_ru": "Проджект Силхоуетте",
+          "parent": "tob2_shadow-boxer",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Shadow Boxer",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Shadow Boxer",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Тень поймала глаз человека. Она выглядела и двигалась как домашняя кошка, но там не было животного, чтобы отбрасывать её. Он следовал за тенью, когда она перемещалась вдоль стены, затем перенеслась на землю, не замечая искажения света позади него. Последнее, что он услышал, когда невидимый кошачий вырвал его горло, было довольное мурлыканье.\n\n**Капризные духи.** Теневые боксёры — физическое проявление кошачьей коллективной памяти. Они находятся в городских областях и других местах, где собираются люди. Как и другие феи, они желают, чтобы смертные их умиротворяли, и они позволяют обнаруживать их присутствие, чтобы побудить людей оставлять им дары. Теневой боксёр развивает отношения с одним домохозяйством за раз и защищает его. Домохозяйства, которые не оставляют достаточной дани или которые полностью перестают предлагать ему дары, быстро обнаруживают, что их члены становятся мишенью оскорблённой феи.\n\n**Совет кошек.** Когда они спят, теневые боксёры делят сны со всеми обычными кошками и другими теневыми боксёрами в пределах мили. Внутри сна кошки и теневой боксёр играют и дерутся, делясь информацией. Многие проделки и деятельности планируются во время этих сеансов снов, и видеть большую пачку кошек, ладящих друг с другом, — знак, что у теневого боксёра в области есть игра.",
+      "glossary_version": "v1",
+      "name": "Теневой боксёр",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

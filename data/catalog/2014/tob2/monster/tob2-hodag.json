@@ -1,0 +1,268 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_hodag",
+  "id": "o5e:tob2:creature:tob2-hodag",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-hodag"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "23c0586a6798be53449e5bd1b6e9b6cc88bf683f0b94db41a2ef3a226a2d7ee4",
+    "formulas": [
+      {
+        "expression": "7d10+14",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "3.000",
+      "climb": null,
+      "condition_immunities": [
+        "charmed"
+      ],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "7d10+14",
+      "hit_points": 52,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 40
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "23c0586a6798be53449e5bd1b6e9b6cc88bf683f0b94db41a2ef3a226a2d7ee4",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-hodag",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "3.000",
+      "condition_immunities": [
+        "charmed"
+      ],
+      "condition_immunities_display": "charmed",
+      "darkvision_range": 60,
+      "document": "tob2",
+      "hit_dice": "7d10+14",
+      "hit_points": 52,
+      "hover": false,
+      "name": "Hodag",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "size": "large",
+      "skill_bonus_perception": 3,
+      "skill_bonus_stealth": 5,
+      "type": "beast",
+      "walk": 40,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +6 к попаданию, досягаемость 5 фт., одна цель. Попадание: 8 (1к8+4) колющего урона.",
+          "external_id": "tob2_hodag_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "tob2_hodag",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +6 к попаданию, досягаемость 5 фт., одна цель. Попадание: 7 (1к6+4) рубящего урона.",
+          "external_id": "tob2_hodag_claws",
+          "name": "Claws",
+          "name_ru": "Когти",
+          "order_in_statblock": 2,
+          "parent": "tob2_hodag",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +6 к попаданию, досягаемость 5 фт., одна цель. Попадание: 9 (2к4+4) колющего урона.",
+          "external_id": "tob2_hodag_horns",
+          "name": "Horns",
+          "name_ru": "Рога",
+          "order_in_statblock": 4,
+          "parent": "tob2_hodag",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The hodag makes three melee attacks, but can use its bite and horn attacks only once each.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_hodag_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_hodag",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +6 к попаданию, досягаемость 10 фт., одна цель. Попадание: 6 (1к4+4) колющего урона.",
+          "external_id": "tob2_hodag_tail",
+          "name": "Tail",
+          "name_ru": "Хвост",
+          "order_in_statblock": 3,
+          "parent": "tob2_hodag",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The hodag rears and stomps on the ground then roars a territorial challenge. Each creature within 10 feet of the hodag must make a DC 14 Dexterity saving throw, taking 14 (4d6) thunder damage on a failed save, or half as much damage on a successful one. A creature that fails the saving throw by 5 or more is also knocked prone.",
+          "desc_ru": "Действие «Территориал Дисплай»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_hodag_territorial-display",
+          "name": "Territorial Display",
+          "name_ru": "Территориал Дисплай",
+          "order_in_statblock": 5,
+          "parent": "tob2_hodag",
+          "ru_source": "derived",
+          "uses_param": 6,
+          "uses_type": "RECHARGE_ON_ROLL"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "If the hodag moves at least 10 feet straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra 5 (2d4) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.",
+          "desc_ru": "Особенность «Чарге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_hodag_charge",
+          "name": "Charge",
+          "name_ru": "Чарге",
+          "parent": "tob2_hodag",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The hodag’s teeth, claws, horns, and tail spikes are extra sharp. These weapon attacks score a critical hit on a roll of 19 or 20.",
+          "desc_ru": "Особенность «Импровед Критикал». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_hodag_improved-critical",
+          "name": "Improved Critical",
+          "name_ru": "Импровед Критикал",
+          "parent": "tob2_hodag",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The hodag has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+          "desc_ru": "Особенность «Кеен Хеаринг и Смелл». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_hodag_keen-hearing-and-smell",
+          "name": "Keen Hearing and Smell",
+          "name_ru": "Кеен Хеаринг и Смелл",
+          "parent": "tob2_hodag",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Hodag",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Hodag",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Существо, покрытое зелёным и коричневым мехом с рогатой головой в форме лягушки и шипами, идущими вдоль его спины и хвоста, ходит вперёд, его клыкастое лицо искажено в ухмыляющейся гримасе.\n\nХодаги — плотоядные ночные хищники, которые преследуют умеренные леса, холмы и равнины.\n\n**Вкус к домашней жизни.** Хотя свирепые, ходаги предпочитают убивать лёгкую добычу. Многие преследуют земли за пределами ферм, деревень и даже маленьких городов, атакуя скот, домашних животных и путешественников. Известно, что ходаги выламывают двери домов, амбаров и других зданий, чтобы добраться до добычи внутри.\n\n**Одиночные охотники до спаривания.** Ходаги в целом одиночные существа с большими территориями. Детёныши бросаются их матерями после рождения. Есть исключение на одну неделю каждого года весной сразу после конца зимы. Ходаги в пределах нескольких сотен миль инстинктивно собираются в области, заполненной добычей, которая никогда, кажется, не бывает тем же местом дважды. Ходаги обжираются как можно большим количеством пищи и участвуют в ритуалах спаривания. Когда неделя заканчивается, ходаги рассеиваются, возвращаясь в их территории.\n\n**Невозможно тренировать.** Ходаги рождаются с сильными инстинктами хищника, которые помогают молодым выжить после того, как их оставили матери. Многие верят, что этот же инстинкт делает ходагов невозможными для тренировки, но такие утверждения только делают их более ценными целями для тех, кто коллекционирует экзотических домашних животных.",
+      "glossary_version": "v1",
+      "name": "Ходаг",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

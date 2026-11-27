@@ -1,0 +1,147 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subspecies",
+  "edition": "2014",
+  "external_id": "toh_boghaid",
+  "id": "o5e:toh:species:toh-boghaid",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:species:toh-boghaid",
+      "o5e:toh:subrace:boghaid"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e17a6a2a6bb834f21bf7439c989ac2c2af91787fe3e28b218c8f80cdce5528e8",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "subspecies_of": "toh_minotaur"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "e17a6a2a6bb834f21bf7439c989ac2c2af91787fe3e28b218c8f80cdce5528e8",
+        "edition": "2014",
+        "id": "o5e:toh:species:toh-boghaid",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "efd064dd7ad5123b221cf48b976cb490bd7aa4f8001dc26e22b404f8ab1930f5",
+        "edition": "2014",
+        "id": "o5e:toh:subrace:boghaid",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "toh_minotaur",
+        "type": "subspecies_of",
+        "value": "toh_minotaur"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "You are a minotaur adapted to life in cold climates and high altitudes.",
+      "document": "toh",
+      "name": "Boghaid",
+      "subspecies_of": "toh_minotaur"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "traits": [
+        {
+          "desc": "Your Wisdom score increases by 2, and your Constitution score increases by 1.",
+          "desc_ru": "Каждая раса увеличивает одну или несколько характеристик персонажа.",
+          "external_id": "toh_boghaid_ability-score-increase",
+          "name": "Ability Score Increase",
+          "name_ru": "Увеличение характеристик",
+          "parent": "toh_boghaid",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You are adapted to life at high altitudes, and you suffer no ill effects or penalties from elevations above 8,000 feet.",
+          "desc_ru": "Особенность «Хигхландер». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_boghaid_highlander",
+          "name": "Highlander",
+          "name_ru": "Хигхландер",
+          "parent": "toh_boghaid",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "You have proficiency in the Performance skill, and you gain proficiency with one of the following musical instruments: bagpipes, drum, horn, or shawm.",
+          "desc_ru": "Особенность «Сториед Културе». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_boghaid_storied-culture",
+          "name": "Storied Culture",
+          "name_ru": "Сториед Културе",
+          "parent": "toh_boghaid",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Your thick, wooly coat of hair keeps you warm, allowing you to function in cold weather without special clothing or gear. You have advantage on saving throws against spells and other effects that deal cold damage.",
+          "desc_ru": "Особенность «Воолй». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_boghaid_wooly",
+          "name": "Wooly",
+          "name_ru": "Воолй",
+          "parent": "toh_boghaid",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Boghaid",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You are a minotaur adapted to life in cold climates and high altitudes.",
+      "name": "Boghaid",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы — минотавр, приспособившийся к жизни в холодном климате и на больших высотах.",
+      "glossary_version": "v1",
+      "name": "Богхайд",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,245 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode)",
+  "book_id": "bfrd",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "bfrd_star-crow",
+  "id": "o5e:bfrd:creature:bfrd-star-crow",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:creature:bfrd-star-crow",
+      "o5e:blackflag:monster:star-crow-bf"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b2096f85a42d90e912b40ebd6f0b5aae29bcbaeed7ff68d974d899210403357c",
+    "formulas": [
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 1,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 6,
+      "ability_score_wisdom": 16,
+      "alignment": "chaotic evil",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [
+        "psychic",
+        "radiant"
+      ],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [
+        "poison"
+      ],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": 60,
+      "hit_dice": null,
+      "hit_points": 12,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": -5,
+      "saving_throw_constitution": 1,
+      "saving_throw_dexterity": 3,
+      "saving_throw_intelligence": -5,
+      "saving_throw_strength": -2,
+      "saving_throw_wisdom": 3,
+      "size": "tiny",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 20
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "b2096f85a42d90e912b40ebd6f0b5aae29bcbaeed7ff68d974d899210403357c",
+        "edition": "2014",
+        "id": "o5e:bfrd:creature:bfrd-star-crow",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "blackflag",
+        "content_hash": "36fbe099f21c0341dd9a712bd6882c66981d0b411a40b265a0052769848b5771",
+        "edition": "2014",
+        "id": "o5e:blackflag:monster:star-crow-bf",
+        "license": "ORC-1.0",
+        "source": "open5e:v1:blackflag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 1,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 6,
+      "ability_score_wisdom": 16,
+      "alignment": "chaotic evil",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "damage_immunities": [
+        "psychic",
+        "radiant"
+      ],
+      "damage_immunities_display": "psychic,radiant,blinded,exhaustion,prone",
+      "damage_resistances_display": "Aberrant Resilience",
+      "damage_vulnerabilities": [
+        "poison"
+      ],
+      "damage_vulnerabilities_display": "poison",
+      "document": "bfrd",
+      "fly": 60,
+      "hit_points": 12,
+      "hover": true,
+      "languages_desc": "-",
+      "name": "Star Crow",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "saving_throw_charisma": -5,
+      "saving_throw_constitution": 1,
+      "saving_throw_dexterity": 3,
+      "saving_throw_intelligence": -5,
+      "saving_throw_strength": -2,
+      "saving_throw_wisdom": 3,
+      "size": "tiny",
+      "truesight_range": 120,
+      "type": "aberration",
+      "walk": 20,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "The star crow dims then suddenly bursts with blinding light. Each creature within 30 feet of the star crow must succeed on a DC 13 CON save or be blinded until the end of its next turn.",
+          "desc_ru": "Действие «Блиндинг Бурст»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_star-crow_blinding-burst",
+          "name": "Blinding Burst",
+          "name_ru": "Блиндинг Бурст",
+          "order_in_statblock": 0,
+          "parent": "bfrd_star-crow",
+          "ru_source": "derived",
+          "uses_param": 5,
+          "uses_type": "RECHARGE_ON_ROLL"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 5 (1d4+3) radiant damage, and the star crow attaches to the target. While attached, the star crow can use only the Thought Share action and Blinding Burst bonus action, and it moves with the target whenever the target moves, requiring none of the star crow's movement. The star crow can detach itself by spending 5 feet of its movement. A creature, including the target, can take its action to detach the star crow by succeeding on a DC 13 STR check.",
+          "desc_ru": "Действие «Светлый Тоуч»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_star-crow_radiant-touch",
+          "name": "Radiant Touch",
+          "name_ru": "Светлый Тоуч",
+          "order_in_statblock": 0,
+          "parent": "bfrd_star-crow",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The star crow learns some of the attached target's memories, and the attached target experiences a rapid sequence of memories from other creatures the star crow has encountered. The target takes 5 (2d4) psychic damage and must succeed on a DC 13 CHA save or be stunned until the end of its next turn.",
+          "desc_ru": "Действие «Тоугхт Шаре»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_star-crow_thought-share",
+          "name": "Thought Share",
+          "name_ru": "Тоугхт Шаре",
+          "order_in_statblock": 1,
+          "parent": "bfrd_star-crow",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The star crow is resistant to the charmed, frightened, paralyzed, and stunned conditions, and it has advantage on saves against spells or effects that would alter its form.",
+          "desc_ru": "Особенность «Аберрант Ресилиенке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_star-crow_aberrant-resilience",
+          "name": "Aberrant Resilience",
+          "name_ru": "Аберрант Ресилиенке",
+          "parent": "bfrd_star-crow",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The star crow sheds bright light in a 20-foot radius and dim light for an additional 20 feet.",
+          "desc_ru": "Особенность «Иллуминатион». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_star-crow_illumination",
+          "name": "Illumination",
+          "name_ru": "Иллуминатион",
+          "parent": "bfrd_star-crow",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Star Crow",
+      "license": "CC-BY-4.0",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Star Crow",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крошечная аберрация, мировоззрение: хаотично-злое. Класс доспеха: 15 (природный доспех). Хиты: 12. Скорость: ходьба 20 фт., полёт 60 фт.. Характеристики: СИЛ 6, ЛОВ 16, ТЕЛ 12, ИНТ 1, МУД 16, ХАР 1. Уязвимость к урону: ядом. Иммунитет к урону: психической энергией, излучением. Чувства: пассивное Восприятие 13. Показатель опасности: 0.25. Структурированные механики записи: особенностей: 2, действий: 3.",
+      "glossary_version": "derived-v1",
+      "name": "Стар Кров",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

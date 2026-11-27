@@ -1,0 +1,159 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "srd_draconic-bloodline",
+  "id": "o5e:srd-2014:characterclass:srd-draconic-bloodline",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:characterclass:srd-draconic-bloodline"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7537c311e9522f33d40ae6f907ca826879c9a1297566779566fbd8575299c115",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_sorcerer"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "7537c311e9522f33d40ae6f907ca826879c9a1297566779566fbd8575299c115",
+        "edition": "2014",
+        "id": "o5e:srd-2014:characterclass:srd-draconic-bloodline",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_sorcerer",
+        "type": "subclass_of",
+        "value": "srd_sorcerer"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "document": "srd-2014",
+      "name": "Draconic Bloodline",
+      "subclass_of": "srd_sorcerer"
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. At 1st level, your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.\r\n\r\nAdditionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier.",
+          "desc_ru": "Когда магия течёт сквозь ваше тело, она вызывает проявление физических черт ваших предков-драконов. На 1-м уровне ваш максимум хитов увеличивается на 1 и увеличивается ещё на 1 каждый раз, когда вы получаете уровень в этом классе.\n\nКроме того, части вашей кожи покрыты тонким слоем чешуек, похожих на драконьи. Когда вы не носите доспех, ваш КД равен 13 + модификатор Ловкости.",
+          "document": "srd-2014",
+          "external_id": "srd_draconic-bloodline_draconic-resilience",
+          "level": 1,
+          "name": "Draconic Resilience",
+          "name_ru": "Драконья стойкость",
+          "parent": "srd_draconic-bloodline",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.\r\n\r\n### Draconic Ancestry (table)\r\n| Dragon | Damage Type |\r\n| --- | --- |\r\n| Black | Acid |\r\n| Blue | Lightning |\r\n| Brass | Fire |\r\n| Bronze | Lightning |\r\n| Copper | Acid |\r\n| Gold | Fire |\r\n| Green | Poison |\r\n| Red | Fire |\r\n| Silver | Cold |\r\n| White | Cold |\r\n\r\nYou can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check.",
+          "desc_ru": "На 1-м уровне вы выбираете один тип дракона в качестве вашего предка. Тип урона, связанный с каждым драконом, используется умениями, которые вы получаете позже.\n\nТаблица: Драконье происхождение\n\n| Дракон      | Тип урона      |\n|---|---|\n| Чёрный      | Кислота        |\n| Синий        | Электричество  |\n| Латунный    | Огонь          |\n| Бронзовый   | Электричество  |\n| Медный      | Кислота        |\n| Золотой     | Огонь          |\n| Зелёный     | Яд             |\n| Красный     | Огонь          |\n| Серебряный  | Холод          |\n| Белый       | Холод          |\n\nВы можете говорить, читать и писать на Драконьем языке. Кроме того, каждый раз, когда вы совершаете проверку Харизмы при взаимодействии с драконами, ваш бонус мастерства удваивается, если он применяется к этой проверке.",
+          "document": "srd-2014",
+          "external_id": "srd_draconic-bloodline_dragon-ancestor",
+          "level": 1,
+          "name": "Dragon Ancestor",
+          "name_ru": "Предок-дракон",
+          "parent": "srd_draconic-bloodline",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Starting at 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, you can add your Charisma modifier to one damage roll of that spell. At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.",
+          "desc_ru": "Ваша драконья магия имеет близость с типом урона, связанным с драконами. Выберите один из этих типов: Кислота, Холод, Огонь, Электричество или Яд.\n\nВы получаете сопротивление к этому типу урона, и когда вы творите заклинание, наносящее урон этого типа, вы можете добавить свой модификатор Харизмы к одному броску урона этого заклинания.",
+          "document": "srd-2014",
+          "external_id": "srd_draconic-bloodline_elemental-affinity",
+          "level": 6,
+          "name": "Elemental Affinity",
+          "name_ru": "Стихийная близость",
+          "parent": "srd_draconic-bloodline",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "At 14th level, you gain the ability to sprout a pair of dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn.\r\n\r\nYou can't manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them.",
+          "desc_ru": "На 14-м уровне вы получаете способность отращивать пару драконьих крыльев из спины, получая скорость полёта, равную вашей текущей скорости. Вы можете создать эти крылья бонусным действием в свой ход. Они существуют, пока вы не уберёте их бонусным действием в свой ход.\n\nВы не можете проявить свои крылья, нося доспех, если доспех не приспособлен для них, а одежда, не приспособленная для ваших крыльев, может быть уничтожена, когда вы их проявляете.",
+          "document": "srd-2014",
+          "external_id": "srd_draconic-bloodline_dragon-wings",
+          "level": 14,
+          "name": "Dragon Wings",
+          "name_ru": "Крылья дракона",
+          "parent": "srd_draconic-bloodline",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Beginning at 18th level, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or frightened. As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute or until you lose your concentration (as if you were casting a concentration spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be charmed (if you chose awe) or frightened (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours.",
+          "desc_ru": "Начиная с 18-го уровня, вы можете направить грозное присутствие вашего предка-дракона, заставляя окружающих испытывать благоговение или страх. Действием вы можете потратить 5 очков чародейства, чтобы призвать эту силу и излучать ауру благоговения или страха (на ваш выбор) на расстояние 60 футов. В течение 1 минуты или пока вы не потеряете концентрацию (как при сотворении заклинания концентрации), каждое враждебное существо, начинающее свой ход в этой ауре, должно преуспеть в спасброске Мудрости или стать очарованным (если вы выбрали благоговение) или испуганным (если вы выбрали страх) до окончания действия ауры. Существо, преуспевшее в этом спасброске, получает иммунитет к вашей ауре на 24 часа.",
+          "document": "srd-2014",
+          "external_id": "srd_draconic-bloodline_draconic-presence",
+          "level": 18,
+          "name": "Draconic Presence",
+          "name_ru": "Драконье присутствие",
+          "parent": "srd_draconic-bloodline",
+          "ru_source": "memory"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "assembled_features": 5,
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "Draconic Bloodline",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Draconic Bloodline",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Различные чародеи заявляют о различном происхождении своей врождённой магии. Хотя существует множество вариаций, большинство этих происхождений попадает в две категории: драконья родословная и дикая магия.\n\nВаша врождённая магия происходит от драконьей магии, которая была смешана с вашей кровью или кровью ваших предков. Чаще всего чародеи с таким происхождением ведут свой род от могущественного чародея древних времён, заключившего сделку с драконом, или даже заявлявшего, что его родитель — дракон. Некоторые из этих родословных хорошо известны в мире, но большинство остаются в тени. Любой чародей может оказаться первым в новой родословной — в результате договора или иных исключительных обстоятельств.\n\n### Уровень 1: Драконья стойкость\n\nКогда магия течёт сквозь ваше тело, она вызывает проявление физических черт ваших предков-драконов. На 1-м уровне ваш максимум хитов увеличивается на 1 и увеличивается ещё на 1 каждый раз, когда вы получаете уровень в этом классе.\n\nКроме того, части вашей кожи покрыты тонким слоем чешуек, похожих на драконьи. Когда вы не носите доспех, ваш КД равен 13 + модификатор Ловкости.\n\n### Уровень 1: Предок-дракон\n\nНа 1-м уровне вы выбираете один тип дракона в качестве вашего предка. Тип урона, связанный с каждым драконом, используется умениями, которые вы получаете позже.\n\nТаблица: Драконье происхождение\n\n| Дракон      | Тип урона      |\n|---|---|\n| Чёрный      | Кислота        |\n| Синий        | Электричество  |\n| Латунный    | Огонь          |\n| Бронзовый   | Электричество  |\n| Медный      | Кислота        |\n| Золотой     | Огонь          |\n| Зелёный     | Яд             |\n| Красный     | Огонь          |\n| Серебряный  | Холод          |\n| Белый       | Холод          |\n\nВы можете говорить, читать и писать на Драконьем языке. Кроме того, каждый раз, когда вы совершаете проверку Харизмы при взаимодействии с драконами, ваш бонус мастерства удваивается, если он применяется к этой проверке.\n\n### Уровень 6: Стихийная близость\n\nВаша драконья магия имеет близость с типом урона, связанным с драконами. Выберите один из этих типов: Кислота, Холод, Огонь, Электричество или Яд.\n\nВы получаете сопротивление к этому типу урона, и когда вы творите заклинание, наносящее урон этого типа, вы можете добавить свой модификатор Харизмы к одному броску урона этого заклинания.\n\n### Уровень 14: Крылья дракона\n\nНа 14-м уровне вы получаете способность отращивать пару драконьих крыльев из спины, получая скорость полёта, равную вашей текущей скорости. Вы можете создать эти крылья бонусным действием в свой ход. Они существуют, пока вы не уберёте их бонусным действием в свой ход.\n\nВы не можете проявить свои крылья, нося доспех, если доспех не приспособлен для них, а одежда, не приспособленная для ваших крыльев, может быть уничтожена, когда вы их проявляете.\n\n### Уровень 18: Драконье присутствие\n\nНачиная с 18-го уровня, вы можете направить грозное присутствие вашего предка-дракона, заставляя окружающих испытывать благоговение или страх. Действием вы можете потратить 5 очков чародейства, чтобы призвать эту силу и излучать ауру благоговения или страха (на ваш выбор) на расстояние 60 футов. В течение 1 минуты или пока вы не потеряете концентрацию (как при сотворении заклинания концентрации), каждое враждебное существо, начинающее свой ход в этой ауре, должно преуспеть в спасброске Мудрости или стать очарованным (если вы выбрали благоговение) или испуганным (если вы выбрали страх) до окончания действия ауры. Существо, преуспевшее в этом спасброске, получает иммунитет к вашей ауре на 24 часа.",
+      "glossary_version": "v1",
+      "name": "Драконья родословная",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

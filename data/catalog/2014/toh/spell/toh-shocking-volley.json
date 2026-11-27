@@ -1,0 +1,203 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_shocking-volley",
+  "id": "o5e:toh:spell:toh-shocking-volley",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:shocking-volley",
+      "o5e:toh:spell:toh-shocking-volley"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "04563190155d687fbe72dfafa0d6e5db1c1f37e6990b1b003ffca14347f63f65",
+    "formulas": [
+      {
+        "expression": "2d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "2d8",
+      "damage_types": [
+        "lightning"
+      ],
+      "duration": "instantaneous",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "04563190155d687fbe72dfafa0d6e5db1c1f37e6990b1b003ffca14347f63f65",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-shocking-volley",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "d7f208c83c68c0e818e94c727752c18de68cdfcc302102a01dd38bc18641d1f1",
+        "edition": "2014",
+        "id": "o5e:toh:spell:shocking-volley",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "2d8",
+      "damage_types": [
+        "lightning"
+      ],
+      "desc": "You draw back and release an imaginary bowstring while aiming at a point you can see within range. Bolts of arrow-shaped lightning shoot from the imaginary bow, and each creature within 20 feet of that point must make a Dexterity saving throw. On a failed save, a creature takes 2d8 lightning damage and is incapacitated until the end of its next turn. On a successful save, a creature takes half as much damage.",
+      "document": "toh",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Shocking Volley",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "319",
+          "parent": "toh_shocking-volley",
+          "type": "default"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "321",
+          "parent": "toh_shocking-volley",
+          "type": "slot_level_3"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "322",
+          "parent": "toh_shocking-volley",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "5d8",
+          "external_id": "323",
+          "parent": "toh_shocking-volley",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "6d8",
+          "external_id": "324",
+          "parent": "toh_shocking-volley",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "7d8",
+          "external_id": "325",
+          "parent": "toh_shocking-volley",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "8d8",
+          "external_id": "326",
+          "parent": "toh_shocking-volley",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "9d8",
+          "external_id": "327",
+          "parent": "toh_shocking-volley",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Shocking Volley",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You draw back and release an imaginary bowstring while aiming at a point you can see within range. Bolts of arrow-shaped lightning shoot from the imaginary bow, and each creature within 20 feet of that point must make a Dexterity saving throw. On a failed save, a creature takes 2d8 lightning damage and is incapacitated until the end of its next turn. On a successful save, a creature takes half as much damage.",
+      "name": "Shocking Volley",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы оттягиваете и отпускаете воображаемую тетиву, целясь в точку, которую вы можете видеть в пределах дистанции. Болты молнии в форме стрел выстреливают из воображаемого лука, и каждое существо в пределах 20 футов от этой точки должно совершить спасбросок Ловкости. При проваленном спасброске существо получает 2к8 урона электричеством и недееспособно до конца своего следующего хода. При успешном спасброске существо получает половину урона.",
+      "glossary_version": "v1",
+      "name": "Шокирующий залп",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

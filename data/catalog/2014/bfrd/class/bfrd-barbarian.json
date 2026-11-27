@@ -1,0 +1,321 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "class",
+  "edition": "2014",
+  "external_id": "bfrd_barbarian",
+  "id": "o5e:bfrd:characterclass:bfrd-barbarian",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:characterclass:bfrd-barbarian",
+      "o5e:srd-2014:characterclass:srd-barbarian"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c677f34a0dca68219b6dc82dd01eb252e4b49a54c81982eb8ecb7b87552bcac3",
+    "formulas": [
+      {
+        "expression": "D12",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "NONE",
+      "hit_dice": "D12",
+      "primary_abilities": [],
+      "saving_throws": [
+        "str",
+        "con"
+      ],
+      "subclass_of": null
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "c677f34a0dca68219b6dc82dd01eb252e4b49a54c81982eb8ecb7b87552bcac3",
+        "edition": "2014",
+        "id": "o5e:bfrd:characterclass:bfrd-barbarian",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "dca07e90baddb4b000a15a8c6deb05a37d193846cbcb89265212a7c7c3854f1d",
+        "edition": "2014",
+        "id": "o5e:srd-2014:characterclass:srd-barbarian",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "NONE",
+      "document": "bfrd",
+      "hit_dice": "D12",
+      "name": "Barbarian",
+      "saving_throws": [
+        "str",
+        "con"
+      ]
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_proficiency-bonus",
+          "feature_type": "PROFICIENCY_BONUS",
+          "level": 1,
+          "name": "Proficiency Bonus",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_barbarian",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "In battle, you fight with primal ferocity. On your turn, you can rage as a bonus action.\n\nWhile raging, you gain the following benefits if you aren't wearing heavy armor:\n- You have advantage on STR ability checks and saves.\n- When you make a melee weapon attack using STR, you gain a bonus to the damage roll, which increases as you gain levels as a barbarian (as shown in the Rage Damage column of the Barbarian Progression table). The damage type of this extra damage matches that of the weapon used to deal it.\n- You have resistance to bludgeoning, piercing, and slashing damage.\n\nIf you can cast spells, you can't cast them or concentrate on them while raging.\n\nYour rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature or taken damage from a hostile creature since the start of your last turn. You can also end your rage early with a bonus action on your turn.\n\nYou can rage a number of times equal to the number listed in the Barbarian Progression table. You regain all expended uses of Rage when you finish a long rest.",
+          "desc_ru": "Вы можете наполнить себя первобытной силой под названием Ярость, которая дарует вам необычайную мощь и стойкость. Вы можете войти в неё в качестве бонусного действия, если не носите Тяжёлые доспехи.\n\nВы можете входить в Ярость количество раз, указанное для вашего уровня Варвара в столбце Ярости таблицы Умения Варвара. Вы восстанавливаете одно использование после короткого отдыха и все использования после долгого отдыха.\n\nПока Ярость активна, она следует правилам ниже.\n\n**Сопротивление урону.** Вы получаете сопротивление дробящему, колющему и рубящему урону.\n\n**Урон ярости.** Когда вы совершаете атаку с использованием Силы — оружием или безоружным ударом — и наносите урон цели, вы получаете бонус к урону, который увеличивается с ростом уровня Варвара, как показано в столбце Урон ярости таблицы Умения Варвара.\n\n**Преимущество Силы.** Вы получаете Преимущество на проверки Силы и спасброски Силы.\n\n**Без концентрации и заклинаний.** Вы не можете поддерживать концентрацию и не можете творить заклинания.\n\n**Длительность.** Ярость длится до конца вашего следующего хода и заканчивается раньше, если вы надеваете Тяжёлые доспехи или получаете состояние Недееспособен. Если Ярость всё ещё активна в ваш следующий ход, вы можете продлить её на ещё один раунд, сделав одно из следующего:\n\n- Совершить бросок атаки против врага.\n- Заставить врага совершить спасбросок.\n- Использовать бонусное действие для продления Ярости.\n\nКаждый раз, когда Ярость продлевается, она длится до конца вашего следующего хода. Вы можете поддерживать Ярость до 10 минут.",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_rage",
+          "level": 1,
+          "name": "Rage",
+          "name_ru": "Ярость",
+          "parent": "bfrd_barbarian",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_rage-damage",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Rage Damage",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_barbarian",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_rages",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Rages",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_barbarian",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "While you aren't wearing any armor, your AC equals 13 + your CON modifier. (DEX doesn't factor into your AC for this class feature.) You can use a shield and still gain this benefit.",
+          "desc_ru": "Пока вы не носите никакой доспех, ваш Класс Доспеха равен 10 + модификатор Ловкости + модификатор Телосложения. Вы можете использовать щит и по-прежнему получать это преимущество.",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_unarmored-defense",
+          "level": 1,
+          "name": "Unarmored Defense",
+          "name_ru": "Защита без доспехов",
+          "parent": "bfrd_barbarian",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain an uncanny sense of impending danger, giving you an edge when avoiding harm. You have advantage on DEX saves while you aren't blinded, deafened, or incapacitated.",
+          "desc_ru": "На 2-м уровне вы обретаете сверхъестественное чутьё, когда что-то поблизости идёт не так, как надо, что даёт вам преимущество при уклонении от опасности.\n\nВы совершаете с преимуществом спасброски Ловкости от эффектов, которые вы можете видеть, таких как ловушки и заклинания. Чтобы получить это преимущество, вы не должны быть ослеплённым, оглохшим или недееспособным.",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_danger-sense",
+          "level": 2,
+          "name": "Danger Sense",
+          "name_ru": "Чувство опасности",
+          "parent": "bfrd_barbarian",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You can throw aside concern for defense in favor of ferocious attack. When you make an attack on your turn, you can decide to do it recklessly. Doing so gives you advantage on melee weapon attack rolls using STR during this turn, but attack rolls against you have advantage until the start of your next turn.",
+          "desc_ru": "Начиная со 2-го уровня, вы можете отбросить всякую заботу о защите и атаковать с отчаянной свирепостью. Когда вы совершаете свою первую атаку в ход, вы можете решить атаковать безрассудно. Это даёт вам преимущество на броски рукопашных атак оружием, использующих Силу, в течение этого хода, но броски атаки против вас совершаются с преимуществом до вашего следующего хода.",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_reckless-attack",
+          "level": 2,
+          "name": "Reckless Attack",
+          "name_ru": "Безрассудная атака",
+          "parent": "bfrd_barbarian",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Choose a subclass that reflects the path you walk, either Berserker or Wild Fury (detailed at the end of this class). Your choice grants you features at 3rd, 7th, 11th, and 15th level.",
+          "desc_ru": "Вы получаете подкласс Варвара по вашему выбору. Подкласс Путь берсерка описан после описания этого класса. Подкласс — это специализация, дающая вам умения на определённых уровнях Варвара. До конца карьеры вы получаете каждое умение подкласса, соответствующее вашему уровню Варвара или ниже.",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_barbarian-subclass",
+          "level": 3,
+          "name": "Barbarian Subclass",
+          "name_ru": "Подкласс Варвара",
+          "parent": "bfrd_barbarian",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Choose one of the following improvements (ability scores can't be raised above 20 with this feature):\n- Increase a single ability score by 2.\n- Increase two different ability scores by 1 each.\n- Increase one ability score by 1 and select a talent from the martial talents list.",
+          "desc_ru": "Выберите одно из следующих улучшений (этой особенностью показатели характеристик нельзя поднять выше 20):\n- Увеличить один показатель характеристики на 2.\n- Увеличить два разных показателя характеристик на 1 каждый.\n- Увеличить один показатель характеристики на 1 и выбрать талант из списка боевых талантов.",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_improvement",
+          "level": 4,
+          "name": "Improvement",
+          "name_ru": "Улучшение",
+          "parent": "bfrd_barbarian",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your speed increases by 10 feet while you aren't wearing heavy armor. In addition, when you roll initiative, you can immediately move up to half your speed.",
+          "desc_ru": "Начиная с 5-го уровня, ваша скорость увеличивается на 10 футов, пока вы не носите тяжёлый доспех.",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_fast-movement",
+          "level": 5,
+          "name": "Fast Movement",
+          "name_ru": "Быстрое перемещение",
+          "parent": "bfrd_barbarian",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your physical prowess has grown. On your turn, you can make two attacks when you take the Attack action.",
+          "desc_ru": "Ваша физическая мощь выросла. В свой ход вы можете совершить две атаки, когда выполняете действие Атака.",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_multiattack",
+          "level": 5,
+          "name": "Multiattack",
+          "name_ru": "Мультиатака",
+          "parent": "bfrd_barbarian",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your honed instincts give you advantage on initiative rolls. In addition, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your first turn, if you enter a rage before doing anything else on that turn.",
+          "desc_ru": "Ваши отточенные инстинкты дают вам преимущество на броски инициативы. Кроме того, если вы застигнуты врасплох в начале боя и не выведены из строя, вы можете действовать как обычно в ваш первый ход, если войдёте в ярость, прежде чем делать что-либо ещё в этот ход.",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_feral-instinct",
+          "level": 6,
+          "name": "Feral Instinct",
+          "name_ru": "Звериный инстинкт",
+          "parent": "bfrd_barbarian",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You score a critical hit on a d20 roll of 19 or 20 with melee weapons and unarmed strikes. You also roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.\n\nThis extra damage increases to two additional dice at 13th level and three additional dice at 17th level.",
+          "desc_ru": "Начиная с 9-го уровня, вы можете бросить одну дополнительную кость урона оружия при определении дополнительного урона от критического попадания рукопашной атакой.\n\nЭто увеличивается до двух дополнительных костей на 13-м уровне и трёх дополнительных костей на 17-м уровне.",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_brutal-critical",
+          "level": 9,
+          "name": "Brutal Critical",
+          "name_ru": "Жестокий критический удар",
+          "parent": "bfrd_barbarian",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your commitment to the barbarian's path grants you a powerful ability. Choose one of the following heroic boons:\n- **Instant Rage.** You can rage (no bonus action required) when you roll initiative and use your Fast Movement feature, if you have at least one use of Rage left to expend.\n- **Stubborn Rage.** Your rage ends only when its duration expires, you fall unconscious, or you choose to end it.",
+          "desc_ru": "Ваша приверженность пути варвара дарует вам мощную способность. Выберите один из следующих героических даров:\n- **Мгновенная ярость.** Вы можете войти в ярость (бонусное действие не требуется), когда бросаете инициативу и используете вашу особенность Быстрое движение, если у вас осталось как минимум одно использование Ярости.\n- **Упорная ярость.** Ваша ярость заканчивается, только когда истекает её длительность, вы падаете без сознания или вы выбираете её закончить.",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_heroic-boon",
+          "level": 10,
+          "name": "Heroic Boon",
+          "name_ru": "Героический дар",
+          "parent": "bfrd_barbarian",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your rage lets you shrug off even lethal wounds. While raging, if you are reduced to 0 hit points, you can make a DC 10 CON save. On a success, you don't fall unconscious until your current rage ends. You still make death saves and can be killed outright if you take damage from a single source equal to your hit point maximum. Even if you fail three death saves during your rage, you only die if you end your turn with 0 hit points.\n\nEach time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.",
+          "desc_ru": "Ваша ярость позволяет вам отмахиваться даже от смертельных ран. Находясь в ярости, если вы уменьшены до 0 очков хитов, вы можете совершить спасбросок Телосложения Сл 10. При успехе вы не падаете без сознания, пока ваша текущая ярость не закончится. Вы всё ещё совершаете спасброски от смерти и можете быть убиты мгновенно, если получите урон из одного источника, равный вашему максимуму очков хитов. Даже если вы провалите три спасброска от смерти во время вашей ярости, вы умрёте, только если закончите ваш ход с 0 очков хитов.\n\nКаждый раз, когда вы используете эту особенность после первого, Сл увеличивается на 5. Когда вы заканчиваете короткий или продолжительный отдых, Сл сбрасывается к 10.",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_relentless-rage",
+          "level": 14,
+          "name": "Relentless Rage",
+          "name_ru": "Неустанная ярость",
+          "parent": "bfrd_barbarian",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You have perfected the application of might and mettle. You gain the following benefits:\n- When you make an ability check or save using STR or CON, treat any d20 roll of 9 or lower as a 10.\n- Your melee weapon attacks deal additional damage, equal to your STR score, to objects and structures.",
+          "desc_ru": "Вы усовершенствовали применение силы и стойкости. Вы получаете следующие преимущества:\n- Когда вы совершаете проверку характеристики или спасбросок, используя Силу или Телосложение, считайте любой бросок к20, равный 9 или ниже, как 10.\n- Ваши атаки оружием ближнего боя наносят объектам и структурам дополнительный урон, равный вашему показателю Силы.",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_unyielding-might",
+          "level": 18,
+          "name": "Unyielding Might",
+          "name_ru": "Непреклонная мощь",
+          "parent": "bfrd_barbarian",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your commitment to the barbarian's path grants you a powerful new ability. You gain the following epic boon:\n- **Primal Champion.** You embody untamed power. Your STR and CON scores each increase by 4. Your maximum for those scores is now 24.",
+          "desc_ru": "Ваша приверженность пути варвара дарует вам мощную новую способность. Вы получаете следующий эпический дар:\n- **Первобытный чемпион.** Вы воплощаете необузданную мощь. Ваши показатели Силы и Телосложения увеличиваются на 4 каждый. Ваш максимум для этих показателей теперь 24.",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_epic-boon",
+          "level": 20,
+          "name": "Epic Boon",
+          "name_ru": "Эпический дар",
+          "parent": "bfrd_barbarian",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "|||\n|---|---|\n|Hit Point Die|D12 per Barbarian level|\n|Saving Throw Proficiencies|Strength and Constitution|\n|Skill Proficiencies|Choose 2: Animal Handling, Athletics, Intimidation, Nature, Perception, Survival|\n|Weapon Proficiencies|Simple weapons, martial weapons|\n|Tool Proficiencies|Herbalist tools|\n|Armor Training|Light armor, medium armor, shields|\n|Starting Equipment|Choose A or B for each: (A) a greataxe or (B) any martial melee weapon; (A) two handaxes or (B) any simple weapon; plus an explorer's pack and four javelins|",
+          "desc_ru": "|||\n|---|---|\n|Кость хитов|К12 за уровень варвара|\n|Владение спасбросками|Сила и Телосложение|\n|Владение навыками|Выберите 2: Уход за животными, Атлетика, Запугивание, Природа, Восприятие, Выживание|\n|Владение оружием|Простое оружие, боевое оружие|\n|Владение инструментами|Инструменты травника|\n|Тренировка доспехов|Лёгкие доспехи, средние доспехи, щиты|\n|Начальное снаряжение|Выберите А или Б для каждого: (А) секира или (Б) любое боевое оружие ближнего боя; (А) два ручных топора или (Б) любое простое оружие; плюс набор путешественника и четыре дротика|",
+          "document": "bfrd",
+          "external_id": "bfrd_barbarian_core-traits",
+          "feature_type": "CORE_TRAITS_TABLE",
+          "name": "Core Barbarian Traits",
+          "name_ru": "Основные черты варвара",
+          "parent": "bfrd_barbarian",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Barbarian",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Barbarian",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Таблица: Основные черты варвара\n\n|                               |                                                                                     |\n|---|---|\n| Кость Хитов                  | 1к12 за каждый уровень варвара                                                      |\n| Хиты на 1-м уровне           | 12 + модификатор Телосложения                                                       |\n| Хиты на более высоких уровнях | 1к12 (или 7) + модификатор Телосложения за каждый уровень варвара после 1-го         |\n| Владение спасбросками         | Сила и Телосложение                                                                 |\n| Владение навыками             | Выберите 2: Уход за животными, Атлетика, Запугивание, Природа, Внимательность или Выживание |\n| Владение оружием              | Простое и воинское оружие                                                           |\n| Владение инструментами        | Нет                                                                                 |\n| Ношение доспехов              | Лёгкие доспехи, средние доспехи и щиты                                              |",
+      "glossary_version": "v1",
+      "name": "Варвар",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

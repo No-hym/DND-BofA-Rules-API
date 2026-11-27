@@ -1,0 +1,158 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_circle-of-the-green",
+  "id": "o5e:toh:characterclass:toh-circle-of-the-green",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-circle-of-the-green"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "4f1bb1f8391b4b097a48e221e24b759fee6f5a37f253074d938c936c5dc497b8",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_druid"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "4f1bb1f8391b4b097a48e221e24b759fee6f5a37f253074d938c936c5dc497b8",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-circle-of-the-green",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_druid",
+        "type": "subclass_of",
+        "value": "srd_druid"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Druids of the Circle of the Green devote themselves to the plants and green things of the world, recognizing the role of plants in giving life. By continued communion with plant life, they believe they draw nearer to what they call “The Green,” a cosmic thread that binds all plant life. Druids of this circle believe they gain their abilities by tapping into the Green, and they use this connection to summon a spirit from it.",
+      "document": "toh",
+      "name": "Circle of the Green",
+      "subclass_of": "srd_druid"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you join this circle at 2nd level, you form a bond with a plant spirit, a creature of the Green. Your link with this spirit grants you access to some spells when you reach certain levels in this class, as shown on the Circle of the Green Spells table.\n  Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.\n\n**Circle of the Green Spells**\n| Druid Level  | Spells                               | \n|--------------|--------------------------------------| \n| 2nd          | *entangle*, *goodberry*              | \n| 3rd          | *barkskin*, *spike growth*           | \n| 5th          | *speak with plants*, *vine carpet*   | \n| 7th          | *dreamwine*, *hallucinatory terrain* | \n| 9th          | *enchanted bloom*, *tree stride*     |",
+          "desc_ru": "Когда вы присоединяетесь к этому кругу на 2-м уровне, вы формируете связь с духом растения, существом Зелёного. Ваша связь с этим духом дарует вам доступ к некоторым заклинаниям, когда вы достигаете определённых уровней в этом классе, как показано в таблице Заклинаний круга зелёного.\nКогда вы получаете доступ к одному из этих заклинаний, у вас оно всегда подготовлено, и оно не учитывается в количестве заклинаний, которые вы можете подготовить каждый день. Если вы получаете доступ к заклинанию, которое не появляется в списке заклинаний друида, заклинание тем не менее является для вас заклинанием друида.\n\nЗаклинания круга зелёного\n| Уровень друида | Заклинания |\n|---|---|\n| 2-й | Опутывание, Добрая ягода |\n| 3-й | Дубовая кожа, Рост шипов |\n| 5-й | Разговор с растениями, Ковёр лозы |\n| 7-й | Вино снов, Галлюцинаторная местность |\n| 9-й | Зачарованный цвет, Длинный шаг по деревьям |",
+          "document": "toh",
+          "external_id": "toh_circle-of-the-green_circle-spells",
+          "level": 2,
+          "name": "Circle Spells",
+          "name_ru": "Заклинания круга",
+          "parent": "toh_circle-of-the-green",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 2nd level, you can summon a spirit of the Green, a manifestation of primordial plant life. As an action, you can expend one use of your Wild Shape feature to summon the Green spirit rather than assuming a beast form.\n  The spirit appears in an unoccupied space of your choice that you can see within 30 feet of you. When the spirit appears, the area in a 10-foot radius around it becomes tangled with vines and other plant growth, becoming difficult terrain until the start of your next turn.\n  The spirit is friendly to you and your companions and obeys your commands. See this creature's game statistics in the Green Spirit stat block, which uses your proficiency bonus (PB) in several places.\n  You determine the spirit's appearance. Some spirits take the form of a humanoid figure made of gnarled branches and leaves, while others look like creatures with leafy bodies and heads made of gourds or fruit. Some even resemble beasts, only made entirely of plant material.\n  In combat, the spirit shares your initiative count, but it takes its turn immediately after yours. The green spirit can move and use its reaction on its own, but, if you don't issue any commands to it, the only action it takes is the Dodge action. You can use your bonus action to direct it to take the Attack, Dash, Disengage, Help, Hide, or Search action or an action listed in its statistics. If you are incapacitated, the spirit can take any action of its choice, not just Dodge.\n  The spirit remains for 1 hour, until it is reduced to 0 hit points, until you use this feature to summon the spirit again, or until you die. When it manifests, the spirit bears 10 fruit that are infused with magic. Each fruit works like a berry created by the *goodberry* spell.",
+          "desc_ru": "Начиная со 2-го уровня вы можете призвать духа Зелёного, манифестацию изначальной растительной жизни. действием вы можете потратить одно использование вашей особенности Дикий облик, чтобы призвать Зелёного духа вместо принятия формы зверя.\nДух появляется в незанятом пространстве на ваш выбор, которое вы можете видеть, в пределах 30 футов от вас. Когда дух появляется, область в радиусе 10 футов вокруг него становится спутанной лозами и другим ростом растений, становясь труднопроходимой местностью до начала вашего следующего хода.\nДух дружествен вам и вашим товарищам и подчиняется вашим командам. См. игровую статистику этого существа в блоке статистики Зелёного духа, который использует ваш бонус мастерства (БМ) в нескольких местах.\nВы определяете внешний вид духа. Некоторые духи принимают форму гуманоидной фигуры, сделанной из узловатых ветвей и листьев, в то время как другие выглядят как существа с лиственными телами и головами, сделанными из тыкв или фруктов. Некоторые даже напоминают зверей, только сделанных полностью из растительного материала.\nВ бою дух разделяет ваш счёт инициативы, но совершает его ход немедленно после вашего. Зелёный дух может перемещаться и использовать его реакцию сам по себе, но, если вы не издаёте ему никаких команд, единственное действие, которое он совершает, — действие Уклонение. Вы можете бонусным действием направить его совершить действие Атака, Рывок, Отход, Помощь, Скрыться или Поиск или действие, перечисленное в его статистике. Если вы недееспособны, дух может совершить любое действие на его выбор, не только Уклонение.\nДух остаётся 1 час, пока он не будет уменьшен до 0 очков хитов, пока вы не используете эту особенность, чтобы призвать духа снова, или пока вы не умрёте. Когда он манифестируется, дух несёт 10 фруктов, которые наполнены магией. Каждый фрукт работает как ягода, созданная заклинанием добрая ягода.",
+          "document": "toh",
+          "external_id": "toh_circle-of-the-green_summon-green-spirit",
+          "level": 2,
+          "name": "Summon Green Spirit",
+          "name_ru": "Призвать зелёного духа",
+          "parent": "toh_circle-of-the-green",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 6th level, the bond with your green spirit enhances your restorative spells and gives you the power to cast additional spells. Once before the spirit's duration ends, you can cast one of the following spells without expending a spell slot or material components: *locate animals or plants*, *pass without trace* (only in environments with ample plant life), *plant growth*, or *speak with plants*. You can't cast a spell this way again until the next time you summon your green spirit.\n  Whenever you cast a spell that restores hit points while your green spirit is summoned, roll a d8 and add the result to the total hit points restored.\n  In addition, when you cast a spell with a range other than self, the spell can originate from you or your green spirit.",
+          "desc_ru": "На 6-м уровне связь с вашим зелёным духом усиливает ваши восстановительные заклинания и даёт вам силу творить дополнительные заклинания. Один раз до окончания длительности духа вы можете сотворить одно из следующих заклинаний, не расходуя ячейку заклинаний или материальные компоненты: найти животных или растения, бесследное движение (только в окружениях с обильной растительной жизнью), рост растений или разговор с растениями. Вы не можете сотворить заклинание этим способом снова до следующего раза, когда вы призывает вашего зелёного духа.\nКаждый раз, когда вы творите заклинание, которое восстанавливает очки хитов, пока ваш зелёный дух призван, бросьте к8 и добавьте результат к общему количеству восстановленных очков хитов.\nКроме того, когда вы творите заклинание с дистанцией, отличной от на себя, заклинание может исходить от вас или вашего зелёного духа.",
+          "document": "toh",
+          "external_id": "toh_circle-of-the-green_gift-of-the-green",
+          "level": 6,
+          "name": "Gift of the Green",
+          "name_ru": "Дар зелёного",
+          "parent": "toh_circle-of-the-green",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 10th level, when a creature you can see within 30 feet of you or your green spirit is attacked, you can use your reaction to cause vines and vegetation to burst from the ground and grasp at the attacker, giving the attacker disadvantage on attack rolls until the start of your next turn.\n  You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.",
+          "desc_ru": "Начиная с 10-го уровня, когда существо, которое вы можете видеть в пределах 30 футов от вас или вашего зелёного духа, атакуют, вы можете реакцией заставить лозы и растительность вырваться из земли и схватить атакующего, давая атакующему помеху на броски атаки до начала вашего следующего хода.\nВы можете использовать эту особенность количество раз, равное вашему бонусу мастерства. Вы восстанавливаете все потраченные использования, когда заканчиваете продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_circle-of-the-green_verdant-interference",
+          "level": 10,
+          "name": "Verdant Interference",
+          "name_ru": "Зелёное вмешательство",
+          "parent": "toh_circle-of-the-green",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 14th level, while your green spirit is within 30 feet of you, you can use an action to join with it, letting its plant matter grow around you. While so joined, you gain the following benefits: \n* You gain temporary hit points equal to your green spirit's current hit points. \n* You gain a climbing speed of 30 feet. \n* You have advantage on Constitution saving throws. \n* The ground within 10 feet of you is difficult terrain for creatures hostile to you. \n* You can use a bonus action on each of your turns to make a tendril attack against one creature within 10 feet of you that you can see. Make a melee spell attack. On a hit, the target takes bludgeoning damage equal to 2d8 + your Wisdom modifier.\nThis feature lasts until the temporary hit points you gained from this feature are reduced to 0, until the spirit's duration ends, or until you use an action to separate. If you separate, the green spirit has as many hit points as you had temporary hit points remaining. If this effect ends because your temporary hit points are reduced to 0, the green spirit disappears until you summon it again.",
+          "desc_ru": "На 14-м уровне, пока ваш зелёный дух в пределах 30 футов от вас, вы можете действием соединиться с ним, позволяя его растительной материи расти вокруг вас. Пока соединены таким образом, вы получаете следующие преимущества: \n* Вы получаете временные очки хитов, равные текущим очкам хитов вашего зелёного духа. \n* Вы получаете скорость карабканья 30 футов. \n* Вы совершаете с преимуществом спасброски Телосложения. \n* Земля в пределах 10 футов от вас — труднопроходимая местность для существ, враждебных вам. \n* Вы можете бонусным действием в каждый ваш ход совершить атаку щупальцем против одного существа в пределах 10 футов от вас, которое вы можете видеть. Совершите атаку заклинанием ближнего боя. При попадании цель получает дробящий урон, равный 2к8 + ваш модификатор Мудрости.\nЭта особенность длится, пока временные очки хитов, которые вы получили от этой особенности, не будут уменьшены до 0, пока длительность духа не закончится, или пока вы действием не разделитесь. Если вы разделяетесь, зелёный дух имеет столько очков хитов, сколько у вас осталось временных очков хитов. Если этот эффект заканчивается, потому что ваши временные очки хитов уменьшены до 0, зелёный дух исчезает, пока вы не призывает его снова.",
+          "document": "toh",
+          "external_id": "toh_circle-of-the-green_spirit-symbiosis",
+          "level": 14,
+          "name": "Spirit Symbiosis",
+          "name_ru": "Симбиоз духа",
+          "parent": "toh_circle-of-the-green",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Circle of the Green",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "Druids of the Circle of the Green devote themselves to the plants and green things of the world, recognizing the role of plants in giving life. By continued communion with plant life, they believe they draw nearer to what they call “The Green,” a cosmic thread that binds all plant life. Druids of this circle believe they gain their abilities by tapping into the Green, and they use this connection to summon a spirit from it.",
+      "name": "Circle of the Green",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Друиды Круга Зелени посвящают себя растениям и зелёным существам мира, признавая роль растений в даровании жизни. Через постоянное общение с растительной жизнью они верят, что приближаются к тому, что называют «Зеленью» — космической нити, связывающей всю растительную жизнь. Друиды этого круга верят, что получают свои способности, подключаясь к Зелени, и используют эту связь, чтобы призывать из неё духа.",
+      "glossary_version": "v1",
+      "name": "Круг зелени",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

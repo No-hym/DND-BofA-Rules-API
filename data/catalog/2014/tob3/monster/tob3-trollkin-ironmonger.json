@@ -1,0 +1,210 @@
+{
+  "attribution": "Title: Tome of Beasts 3; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-3/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob3",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob3_trollkin-ironmonger",
+  "id": "o5e:tob3:creature:tob3-trollkin-ironmonger",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob3:creature:tob3-trollkin-ironmonger",
+      "o5e:tob3:monster:trollkin-ironmonger"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "54b5235860fe9878de7bd33091e32d9403be273f1faa840de3ff44384cb84a06",
+    "formulas": [
+      {
+        "expression": "14d8+42",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 9,
+      "ability_score_constitution": 17,
+      "ability_score_dexterity": 13,
+      "ability_score_intelligence": 11,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 12,
+      "alignment": "neutral",
+      "armor_class": 19,
+      "armor_detail": "plate",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "5.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "14d8+42",
+      "hit_points": 105,
+      "initiative_bonus": null,
+      "languages": [
+        "common"
+      ],
+      "languages_desc": "Common, Trollkin",
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob3",
+        "content_hash": "54b5235860fe9878de7bd33091e32d9403be273f1faa840de3ff44384cb84a06",
+        "edition": "2014",
+        "id": "o5e:tob3:creature:tob3-trollkin-ironmonger",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob3"
+      },
+      {
+        "book": "tob3",
+        "content_hash": "1bfee805f0bae951be5d624d9a22cbcb0839adb0f63933e55ef57035caa4dff2",
+        "edition": "2014",
+        "id": "o5e:tob3:monster:trollkin-ironmonger",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob3"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 9,
+      "ability_score_constitution": 17,
+      "ability_score_dexterity": 13,
+      "ability_score_intelligence": 11,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 12,
+      "alignment": "neutral",
+      "armor_class": 19,
+      "armor_detail": "plate",
+      "category": "Monsters",
+      "challenge_rating": "5.000",
+      "darkvision_range": 60,
+      "document": "tob3",
+      "hit_dice": "14d8+42",
+      "hit_points": 105,
+      "hover": false,
+      "languages": [
+        "common"
+      ],
+      "languages_desc": "Common, Trollkin",
+      "name": "Trollkin Ironmonger",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "size": "medium",
+      "skill_bonus_perception": 1,
+      "type": "humanoid",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob3",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-3/",
+      "publication_date": "2022-01-10T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 3"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "REACTION",
+          "desc": "When a creature within 5 ft. of the ironmonger misses a melee attack vs. it the attacker must make DC 15 Str save or be knocked prone.",
+          "desc_ru": "Действие «Импрегнабле Коунтер»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_trollkin-ironmonger_impregnable-counter",
+          "name": "Impregnable Counter",
+          "name_ru": "Импрегнабле Коунтер",
+          "order_in_statblock": 0,
+          "parent": "tob3_trollkin-ironmonger",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "Gains 3 hp at the start of its turn. If the trollkin takes acid or fire this ability doesn’t function at the start of its next turn. It dies only if it starts its turn with 0 hp and doesn’t regenerate.",
+          "desc_ru": "Особенность «Регенератион». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_trollkin-ironmonger_regeneration",
+          "name": "Regeneration",
+          "name_ru": "Регенератион",
+          "parent": "tob3_trollkin-ironmonger",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Its skin is thick and tough granting it a +1 bonus to Armor Class (already factored into its AC).",
+          "desc_ru": "Особенность «Тик Скин». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_trollkin-ironmonger_thick-skin",
+          "name": "Thick Skin",
+          "name_ru": "Тик Скин",
+          "parent": "tob3_trollkin-ironmonger",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Trollkin Ironmonger",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob3",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Trollkin Ironmonger",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Средний гуманоид, мировоззрение: нейтральное. Класс доспеха: 19. Хиты: 105 (14к8+42). Скорость: ходьба 30 фт.. Характеристики: СИЛ 18, ЛОВ 13, ТЕЛ 17, ИНТ 11, МУД 12, ХАР 9. Чувства: тёмное зрение 60 фт., пассивное Восприятие 11. Показатель опасности: 5. Структурированные механики записи: особенностей: 2, действий: 1.",
+      "glossary_version": "derived-v1",
+      "name": "Троллкин Иронмонгер",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

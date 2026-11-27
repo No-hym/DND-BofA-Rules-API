@@ -1,0 +1,137 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "great-wyrm-black-dragon-a5e",
+  "id": "o5e:menagerie:monster:great-wyrm-black-dragon-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:great-wyrm-black-dragon-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "1afbe5133ec4d2080a487e9b8d3a514e006b01b48d814561554158d0e279096d",
+    "formulas": [
+      {
+        "expression": "42d20+294",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 22,
+      "challenge_rating": "23",
+      "condition_immunities": "",
+      "damage_immunities": "acid",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "42d20+294",
+      "hit_points": 735,
+      "languages": "Common, Draconic, one more",
+      "size": "Gargantuan"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "1afbe5133ec4d2080a487e9b8d3a514e006b01b48d814561554158d0e279096d",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:great-wyrm-black-dragon-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The dragon attacks once with its bite and twice with its claws. In place of its bite attack  it can use Acid Spit.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 30 (4d10 + 8) piercing damage plus 9 (2d8) acid damage. Instead of dealing piercing damage  the dragon can grapple the target (escape DC 23)  and a Huge or smaller creature grappled in this way is restrained. While grappling a creature  the dragon can't bite or use Acid Spit against another target.\"}, {\"name\": \"Claw\", \"desc\": \"Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) slashing damage.\"}, {\"name\": \"Tail\", \"desc\": \"Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit: 21 (3d8 + 8) bludgeoning damage  and the dragon pushes the target 10 feet away.\"}, {\"name\": \"Acid Spit\", \"desc\": \"The dragon targets a creature within 60 feet  forcing it to make a DC 22 Dexterity saving throw. The creature takes 22 (4d10) acid damage on a failure or half damage on a success. A creature that fails the save also takes 11 (2d10) ongoing acid damage. A creature can use an action to end the ongoing damage.\"}, {\"name\": \"Acid Breath (Recharge 5-6)\", \"desc\": \"The dragon exhales sizzling acid in a 90-foot-long  10-foot-wide line. Each creature in that area makes a DC 22 Dexterity saving throw  taking 85 (19d8) acid damage on a failed save or half damage on a success. A creature that fails the save is blinded until the end of its next turn.\"}]",
+      "armor_class": 22,
+      "bonus_actions_json": "null",
+      "challenge_rating": "23",
+      "charisma": 18,
+      "charisma_save": 11,
+      "constitution": 24,
+      "constitution_save": 14,
+      "cr": 23.0,
+      "damage_immunities": "acid",
+      "dexterity": 14,
+      "dexterity_save": 9,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "42d20+294",
+      "hit_points": 735,
+      "intelligence": 16,
+      "languages": "Common, Draconic, one more",
+      "legendary_actions_json": "[{\"name\": \"The dragon can take 3 legendary actions\", \"desc\": \"Only one legendary action can be used at a time and only at the end of another creatures turn. It regains spent legendary actions at the start of its turn.\"}, {\"name\": \"Darkness\", \"desc\": \"The dragon creates a 40-foot-radius sphere of magical darkness originating from a point it can see within 120 feet. Darkvision can't penetrate this darkness. The darkness lasts for 1 minute or until the dragon uses this action again.\"}, {\"name\": \"Roar\", \"desc\": \"Each creature of the dragons choice within 120 feet that can hear it makes a DC 19 Charisma saving throw. On a failure, it is frightened for 1 minute. A creature repeats the saving throw at the end of its turns, ending the effect on itself on a success. When it succeeds on a saving throw or the effect ends for it, it is immune to Roar for 24 hours.\"}, {\"name\": \"Wing Attack\", \"desc\": \"The dragon beats its wings. Each creature within 15 feet makes a DC 22 Dexterity saving throw. On a failure, it is pushed 10 feet away and knocked prone. The dragon can then fly up to half its fly speed.\"}]",
+      "name": "Great Wyrm Black Dragon",
+      "page_no": 101,
+      "reactions_json": "[{\"name\": \"Tail Attack\", \"desc\": \"When a creature the dragon can see within 10 feet hits the dragon with a melee attack, the dragon makes a tail attack against it.\"}]",
+      "route": "monsters/",
+      "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 22",
+      "size": "Gargantuan",
+      "skills_json": "{\"history\": 10, \"perception\": 9, \"stealth\": 9}",
+      "special_abilities_json": "[{\"name\": \"Ambusher\", \"desc\": \"When submerged in water, the dragon has advantage on Stealth checks. If the dragon hits a creature that can't see it with its bite, it can deal piercing damage and grapple the target simultaneously.\"}, {\"name\": \"Amphibious\", \"desc\": \"The dragon can breathe air and water.\"}, {\"name\": \"Legendary Resistance (3/Day)\", \"desc\": \"When the dragon fails a saving throw, it can choose to succeed instead. When it does, it sheds some of its scales, which turn to mud. If it has no more uses of this ability, its Armor Class is reduced to 20 until it finishes a long rest.\"}, {\"name\": \"Ruthless (1/Round)\", \"desc\": \"After scoring a critical hit on its turn, the dragon can immediately make one claw attack.\"}, {\"name\": \"Concentrated Acid (1/Day)\", \"desc\": \"When the dragon is first bloodied, it immediately recharges its breath weapon, if its not already available. For the next minute, the dragons acid becomes immensely more corrosive, ignoring acid resistance and treating acid immunity as acid resistance.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"The dragons spellcasting ability is Charisma (save DC 19). It can innately cast the following spells, requiring no material components. 3/day each:fog cloud, pass without trace, legend lore, speak with dead,  1/day each:create undead, insect plague, time stop\"}]",
+      "speed_json": "{\"walk\": 40, \"fly\": 80, \"swim\": 40}",
+      "spells_json": "null",
+      "strength": 26,
+      "type": "Dragon",
+      "wisdom": 14,
+      "wisdom_save": 9
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Great Wyrm Black Dragon",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-great-wyrm-black-dragon"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Great Wyrm Black Dragon",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Гигантский дракон. Класс доспеха: 22. Хиты: 735 (42к20+294). Иммунитет к урону: кислотой. Показатель опасности: 23.",
+      "glossary_version": "derived-v1",
+      "name": "Греат Вйрм чёрный дракон",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

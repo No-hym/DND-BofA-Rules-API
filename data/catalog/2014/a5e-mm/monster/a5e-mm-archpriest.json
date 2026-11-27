@@ -1,0 +1,280 @@
+{
+  "attribution": "Title: Monstrous Menagerie; Author: Paul Hughes; Publisher: en-publishing; Source: https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "a5e-mm",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "a5e-mm_archpriest",
+  "id": "o5e:a5e-mm:creature:a5e-mm-archpriest",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-mm:creature:a5e-mm-archpriest"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "d3fa4881643eb2afa694611f527b04fd4be8d8d0cd317e136bd08b234941784e",
+    "formulas": [
+      {
+        "expression": "20d8+60",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 16,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 10,
+      "ability_score_intelligence": 14,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 20,
+      "alignment": "chaotic evil",
+      "armor_class": 20,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "16.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [
+        "radiant"
+      ],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "20d8+60",
+      "hit_points": 150,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "any three",
+      "normal_sight_range": 10560.0,
+      "passive_perception": 15,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": 8,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": 7,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": 10,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30.0
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-mm",
+        "content_hash": "d3fa4881643eb2afa694611f527b04fd4be8d8d0cd317e136bd08b234941784e",
+        "edition": "2014",
+        "id": "o5e:a5e-mm:creature:a5e-mm-archpriest",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:a5e-mm"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 16,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 10,
+      "ability_score_intelligence": 14,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 20,
+      "alignment": "chaotic evil",
+      "armor_class": 20,
+      "category": "Monsters",
+      "challenge_rating": "16.000",
+      "damage_resistances": [
+        "radiant"
+      ],
+      "damage_resistances_display": "radiant",
+      "document": "a5e-mm",
+      "hit_dice": "20d8+60",
+      "hit_points": 150,
+      "hover": false,
+      "languages_desc": "any three",
+      "name": "Archpriest",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560.0,
+      "passive_perception": 15,
+      "saving_throw_charisma": 8,
+      "saving_throw_intelligence": 7,
+      "saving_throw_wisdom": 10,
+      "size": "medium",
+      "skill_bonus_insight": 10,
+      "skill_bonus_medicine": 10,
+      "skill_bonus_persuasion": 8,
+      "skill_bonus_religion": 10,
+      "type": "humanoid",
+      "walk": 30.0,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "a5e-mm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e",
+      "publication_date": "2021-12-12T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Monstrous Menagerie"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "(7th-Level; V) The archpriest utters a primordial imprecation that targets other creatures within 30 feet. A target suffers an effect based on its current hit points.\n\n - Fewer than 50 hit points: Deafened for 1 minute.\n - Fewer than 40 hit points: Blinded and Deafened for 10 minutes.\n - Fewer than 30 hit points: Stunned, Blinded, and Deafened for 1 hour.\n - Fewer than 20 hit points: instantly killed outright.\n\n Additionally, any celestial, elemental, fey, or fiend affected by this spell is immediately forced back to its home plane, and for 24 hours it is unable to return to the archpriest's current plane by any means less powerful than a *wish* spell. Such a creature does not suffer this effect if it is already on its plane of origin. The archpriest can't cast this spell and a 1st-level or higher spell on the same turn.",
+          "desc_ru": "Действие «Дивине Ворд»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_archpriest_divine-word",
+          "name": "Divine Word",
+          "name_ru": "Дивине Ворд",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_archpriest",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "(7th-Level; V, S) Flames roar from areas within 120 feet in a contiguous group of ten 10-foot cubes in an arrangement the archpriest chooses. Creatures in the area make a DC 18 Dexterity saving throw  taking 38 (7d10) fire damage on a failure or half damage on a success. The spell damages objects in the area and ignites flammable objects that arent being worn or carried.",
+          "desc_ru": "Действие «Огненный бури»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_archpriest_fire-storm",
+          "name": "Fire Storm",
+          "name_ru": "Огненный бури",
+          "order_in_statblock": 3,
+          "parent": "a5e-mm_archpriest",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "(5th-Level; V, S, M) A column of divine flame fills a 10-foot-radius  40-foot-high cylinder within 60 feet. Creatures in the area make a DC 18 Dexterity saving throw  taking 14 (4d6) fire damage and 14 (4d6) radiant damage on a failure or half damage on a success.",
+          "desc_ru": "Действие «Фламе Стрике»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_archpriest_flame-strike",
+          "name": "Flame Strike",
+          "name_ru": "Фламе Стрике",
+          "order_in_statblock": 2,
+          "parent": "a5e-mm_archpriest",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "(8th-Level; V, S, M, Concentration) Holy radiance emanates from the archpriest and fills a 30-foot radius around them  targeting creatures in the area of the archpriests choice. Targets shed dim light in a 5-foot radius and have advantage on saving throws. Attacks made against a target have disadvantage. When a fiend or undead hits a target  the aura erupts into blinding light  forcing the attacker to succeed on a DC 18 Constitution saving throw or be blinded until the spell ends (up to 1 minute).",
+          "desc_ru": "Действие «Холй Аура»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_archpriest_holy-aura",
+          "name": "Holy Aura",
+          "name_ru": "Холй Аура",
+          "order_in_statblock": 4,
+          "parent": "a5e-mm_archpriest",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) bludgeoning damage plus 10 (3d6) radiant damage.",
+          "desc_ru": "Атака оружием ближнего боя: +9 к попаданию, досягаемость 5 фт., одна цель. Попадание: 8 (1к6+5) дробящего урона плюс 10 (3к6) светлого урона.",
+          "external_id": "a5e-mm_archpriest_mace",
+          "name": "Mace",
+          "name_ru": "Булава",
+          "order_in_statblock": 1,
+          "parent": "a5e-mm_archpriest",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "(9th-Level; V, S) Healing energy erupts from the archpriest and restores up to 700 hit points amongst any number of creatures within 60 feet that are not constructs or undead. Creatures healed in this way are also cured of any diseases  and any effect causing them to be blinded or deafened. In addition  on subsequent turns within the next minute the archpriest can use a bonus action to distribute any unused hit points.",
+          "desc_ru": "Действие «Масс Хеал»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_archpriest_mass-heal",
+          "name": "Mass Heal",
+          "name_ru": "Масс Хеал",
+          "order_in_statblock": 5,
+          "parent": "a5e-mm_archpriest",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The archpriest attacks twice.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_archpriest_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_archpriest",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "Whenever the archpriest casts a spell that restores hit points, that spell restores an extra 11 (2d10) hit points.",
+          "desc_ru": "Особенность «Аноинтед Хеалинг». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_archpriest_anointed-healing",
+          "name": "Anointed Healing",
+          "name_ru": "Аноинтед Хеалинг",
+          "parent": "a5e-mm_archpriest",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The archpriest has advantage on saving throws against spells and magical effects.",
+          "desc_ru": "Особенность «Магик Ресистанке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_archpriest_magic-resistance",
+          "name": "Magic Resistance",
+          "name_ru": "Магик Ресистанке",
+          "parent": "a5e-mm_archpriest",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The archpriest is a 20th level spellcaster. Their spellcasting ability is Wisdom (spell save DC 18 +10 to hit with spell attacks). The archpriest has the following cleric spells prepared.\n\n- **Cantrips** (at will): Light, Mending, Sacred Flame, Spare the Dying, Thaumaturgy\n- **1st-Level** (4 slots): Bane, Bless, Cure Wounds, Inflict Wounds\n- **2nd-Level** (3 slots): Hold Person, Lesser Restoration, Spiritual Weapon\n- **3rd-Level** (3 slots): Bestow Curse, Dispel Magic, Revivify\n- **4th-Level** (3 slots): Banishment, Guardian of Faith, Stone Shape\n- **5th-Level** (3 slots): Contagion, Flame Strike, Greater Restoration, Mass Cure Wounds\n- **6th-Level** (2 slots): Blade Barrier, Planar Ally, True Seeing\n- **7th-Level** (2 slots): Conjure Celestial, Divine Word, Fire Storm\n- **8th-Level** (1 slot): Antimagic Field\n- **9th-Level** (1 slot): Mass Heal",
+          "desc_ru": "Особенность «Спеллкастинг». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_archpriest_spellcasting",
+          "name": "Spellcasting",
+          "name_ru": "Спеллкастинг",
+          "parent": "a5e-mm_archpriest",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Archpriest",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-mm",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Archpriest",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Средний гуманоид, мировоззрение: хаотично-злое. Класс доспеха: 20. Хиты: 150 (20к8+60). Скорость: ходьба 30 фт.. Характеристики: СИЛ 18, ЛОВ 10, ТЕЛ 16, ИНТ 14, МУД 20, ХАР 16. Сопротивление урону: излучением. Чувства: пассивное Восприятие 15. Показатель опасности: 16. Структурированные механики записи: особенностей: 3, действий: 7.",
+      "glossary_version": "derived-v1",
+      "name": "Арчприест",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

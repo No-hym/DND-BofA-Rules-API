@@ -1,0 +1,144 @@
+{
+  "attribution": "Title: Tome of Beasts 2023; Author: Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur; Publisher: tob-2023; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. 2023 Open Design LLC. All rights reserved.",
+  "book_id": "tob-2023",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "moonlitking-tob1-2023",
+  "id": "o5e:tob-2023:monster:moonlitking-tob1-2023-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:monster:moonlitking-tob1-2023"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e5f3402ddc6e23e05529a4a711b34519a7aa101386ea53a6d289523654656cbb",
+    "formulas": [
+      {
+        "expression": "24d8 + 96",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "Neutral Good",
+      "armor_class": 17,
+      "challenge_rating": "17",
+      "condition_immunities": "charmed, frightened, poisoned",
+      "damage_immunities": "cold, fire, poison",
+      "damage_resistances": "acid; bludgeoning, piercing, and slashing from attacks not made with cold iron weapons",
+      "damage_vulnerabilities": "False",
+      "hit_dice": "24d8 + 96",
+      "hit_points": 204,
+      "languages": "Abyssal, Celestial, Common, Draconic, Elvish, Infernal, Umbral, telepathy 120 ft.",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob-2023",
+        "content_hash": "e5f3402ddc6e23e05529a4a711b34519a7aa101386ea53a6d289523654656cbb",
+        "edition": "2014",
+        "id": "o5e:tob-2023:monster:moonlitking-tob1-2023",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Crystal Staff\", \"desc\": \"Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage plus 14 (4d6) radiant damage.\"}, {\"name\": \"Moon Bolt\", \"desc\": \"Ranged Spell Attack: +11 to hit, range 120 ft., one target. Hit: 27 (4d10 + 5) radiant damage, and the target sheds dim light in a 10-foot radius until the end of its next turn. If the target is a creature in a form other than its true form, it takes an extra 11 (2d10) radiant damage and must succeed on a DC 19 Charisma saving throw or revert to its true form.\"}, {\"name\": \"Animate Shadows (Recharge 5-6)\", \"desc\": \"The Moonlit King causes the shadows of up to three creatures he can see within 60 feet of him to animate and attack their owners. Each target must make a DC 19 Dexterity saving throw. On a failure, a creature takes 49 (14d6) necrotic damage, and its Strength score is reduced by 1d4. On a success, a creature takes half the damage, and its Strength score isn't reduced. This reduction lasts until the creature finishes a long rest. The creature dies if this effect reduces its Strength to 0.\"}, {\"name\": \"Summon Devil (1/Day)\", \"desc\": \"The Moonlit King magically calls a lunar devil to aid him. The devil arrives in 1d4 rounds, acting as ally of the Moonlit King and obeying his spoken commands. The devil remains for 1 hour, until the Moonlit King dies, or until the King dismisses it as a bonus action.\"}, {\"name\": \"Spellcasting\", \"desc\": \"The Moonlit King casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (save DC 19):\\nAt will: continual flame, invisibility (self only), moonbeam, zone of truth\\n3/day each: dispel evil and good, dispel magic, major image\\n1/day each: heal, project image\"}]",
+      "alignment": "Neutral Good",
+      "armor_class": 17,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "[{\"name\": \"Moonlight Step\", \"desc\": \"The Moonlit King teleports, along with any equipment he is wearing or carrying, up to 60 feet to an unoccupied space he can see. The origin and destination spaces must contain moonlight.\"}]",
+      "challenge_rating": "17",
+      "charisma": 20,
+      "charisma_save": 11,
+      "condition_immunities": "charmed, frightened, poisoned",
+      "constitution": 18,
+      "constitution_save": 10,
+      "cr": 17.0,
+      "damage_immunities": "cold, fire, poison",
+      "damage_resistances": "acid; bludgeoning, piercing, and slashing from attacks not made with cold iron weapons",
+      "damage_vulnerabilities": "False",
+      "desc": "False",
+      "dexterity": 20,
+      "document": 47,
+      "group": "null",
+      "hit_dice": "24d8 + 96",
+      "hit_points": 204,
+      "intelligence": 20,
+      "languages": "Abyssal, Celestial, Common, Draconic, Elvish, Infernal, Umbral, telepathy 120 ft.",
+      "legendary_actions_json": "[{\"name\": \"Move\", \"desc\": \"The Moonlit King moves up to his speed without provoking opportunity attacks.\"}, {\"name\": \"Shift Moonlight\", \"desc\": \"The Moonlit King changes the brightness of each area of moonlight he can see within 120 feet of him from dim light to bright light or vice versa.\"}, {\"name\": \"Attack (Costs 2 Actions)\", \"desc\": \"The Moonlit King makes a Crystal Staff or Moon Bolt attack.\"}, {\"name\": \"Spread Madness (Costs 2 Actions)\", \"desc\": \"Each creature within 30 feet of the Moonlit King must succeed on a DC 19 Wisdom saving throw or suffer short-term madness. The Moonlit King can use this legendary action only when he is in moonlight.\"}]",
+      "legendary_desc": "The Moonlit King can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The Moonlit King regains spent legendary actions at the start of his turn.",
+      "name": "Moonlit King",
+      "page_no": 176,
+      "perception": 20,
+      "reactions_json": "[{\"name\": \"Shadow Slip\", \"desc\": \"When a creature the Moonlit King can see within 30 feet of him attacks him, he takes on the quality of his manifest delusions, temporarily becoming ghostly. The attack roll has disadvantage, and if it hits, the Moonlit King takes only half the damage from the attack.\"}]",
+      "route": "monsters/",
+      "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 20",
+      "size": "Medium",
+      "skills_json": "{\"Arcana\": 11, \"Perception\": 10}",
+      "special_abilities_json": "[{\"name\": \"Legendary Resistance (3/Day)\", \"desc\": \"If the Moonlit King fails a saving throw, he can choose to succeed instead.\"}, {\"name\": \"Moonlit Weapons\", \"desc\": \"The Moonlit King's weapon attacks are magical. When he hits with any weapon, the weapon deals an extra 14 (4d6) radiant damage (included in the attack).\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 16,
+      "type": "Fey",
+      "wisdom": 18,
+      "wisdom_save": 10
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur",
+      "key": "tob-2023",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+      "publication_date": "",
+      "publisher": "tob-2023",
+      "title": "Tome of Beasts 2023"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Moonlit King",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:tob-2023:creature:tob-2023-moonlit-king"
+  },
+  "publisher_id": "tob-2023",
+  "source": "open5e:v1:tob-2023",
+  "translations": {
+    "en": {
+      "description": "False",
+      "name": "Moonlit King",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Средняя фея, мировоззрение: нейтрально-доброе. Класс доспеха: 17. Хиты: 204 (24к8 + 96). Сопротивление урону: кислотой, дробящего, колющего, and slashing from attacks not made with cold iron weapons. Иммунитет к урону: холодом, огнём, ядом. Иммунитет к состояниям: очарование, испуг, отравление. Показатель опасности: 17.",
+      "glossary_version": "derived-v1",
+      "name": "Моонлит король",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

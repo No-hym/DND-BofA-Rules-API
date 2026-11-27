@@ -1,0 +1,140 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "vila",
+  "id": "o5e:tob:monster:vila-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:vila"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b1dc168815c33c7452d35abbbdf03d3a42c31091e93e7a567b4cd64969d671ca",
+    "formulas": [
+      {
+        "expression": "14d8+14",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "lawful neutral",
+      "armor_class": 15,
+      "challenge_rating": "5",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "",
+      "hit_dice": "14d8+14",
+      "hit_points": 77,
+      "languages": "Common, Sylvan, telepathy 60 ft. (beasts only)",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "b1dc168815c33c7452d35abbbdf03d3a42c31091e93e7a567b4cd64969d671ca",
+        "edition": "2014",
+        "id": "o5e:tob:monster:vila",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"A vila makes two shortsword attacks or two shortbow attacks.\"}, {\"name\": \"+1 Shortsword\", \"desc\": \"Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9 (1d6 + 6) piercing damage.\", \"attack_bonus\": 9, \"damage_dice\": \"1d6\"}, {\"name\": \"+1 Shortbow\", \"desc\": \"Ranged Weapon Attack: +9 to hit, range 80/320 ft., one target. Hit: 9 (1d6 + 6) piercing damage.\", \"attack_bonus\": 9, \"damage_dice\": \"1d6\"}, {\"name\": \"Fascinate (1/Day)\", \"desc\": \"When the vila sings, all those within 60 feet of her and who can hear her must make a successful DC 14 Charisma saving throw or be stunned for 1d4 rounds. Those who succeed on the saving throw are immune to that vila's singing for 24 hours.\"}, {\"name\": \"Forest Song (1/Day)\", \"desc\": \"The vila magically calls 2d6 wolves or 2 wampus cats. The called creatures arrive in 1d4 rounds, acting as allies of the vila and obeying its spoken commands. The beasts remain for 1 hour, until the vila dies, or until the vila dismisses them as a bonus action.\"}]",
+      "alignment": "lawful neutral",
+      "armor_class": 15,
+      "bonus_actions_json": "null",
+      "challenge_rating": "5",
+      "charisma": 16,
+      "charisma_save": 6,
+      "constitution": 13,
+      "constitution_save": 4,
+      "cr": 5.0,
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "desc": "_These beautiful, slim women ride on large deer, their hair the color of spring grass, skin like polished wood, and eyes as gray as a coming storm._  \n**Dryad Cousins.** The vila are kin to the dryads. Like their cousins, they serve as protectors of the deepest forests.  \n**Demand Oaths.** Where dryads beguile to accomplish their goals, the vila coerce and threaten. They demand oaths from interlopers and enforce them fiercely. Vila delight in testing the virtue of travelers and tormenting the uncharitable and cruel with bad weather and misfortune. Particularly obnoxious adventurers might suffer bad luck for months because a troop of vila quietly dances around their camp each night.  \n**Hunt with a Pack.** Vila rarely travel or fight alone; they are often seen in the company of alseid, wolves, wampus cats, or deer. In combat, they sometimes ride on fleet-footed deer, the better to escape if events turn against them.",
+      "dexterity": 20,
+      "dexterity_save": 8,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "14d8+14",
+      "hit_points": 77,
+      "intelligence": 11,
+      "languages": "Common, Sylvan, telepathy 60 ft. (beasts only)",
+      "legendary_actions_json": "null",
+      "name": "Vila",
+      "page_no": 400,
+      "perception": 8,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 18",
+      "size": "Medium",
+      "skills_json": "{\"insight\": 5, \"intimidation\": 6, \"perception\": 8, \"stealth\": 8}",
+      "special_abilities_json": "[{\"name\": \"Dance of the Luckless (1/Day)\", \"desc\": \"Vila who dance for one hour create a fairy ring of small gray mushrooms. The ring lasts seven days and has a 50-foot diameter per dancing vila. Non-vila who fall asleep (including magical sleep) inside the ring have disadvantage on skill checks for 24 hours from the time they awaken.\"}, {\"name\": \"Forest Quickness\", \"desc\": \"While in forest surroundings, a vila receives a +4 bonus on initiative checks.\"}, {\"name\": \"Forest Meld\", \"desc\": \"A vila can meld into any tree in her forest for as long as she wishes, similar to the meld into stone spell.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"the vila's innate spellcasting ability is Charisma (spell save DC 14). She can innately cast the following spells, requiring no material components:\\n\\n3/day: sleep\\n\\n1/week: control weather\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 12,
+      "type": "Fey",
+      "wisdom": 14,
+      "wisdom_save": 5
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Vila",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-vila"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_These beautiful, slim women ride on large deer, their hair the color of spring grass, skin like polished wood, and eyes as gray as a coming storm._  \n**Dryad Cousins.** The vila are kin to the dryads. Like their cousins, they serve as protectors of the deepest forests.  \n**Demand Oaths.** Where dryads beguile to accomplish their goals, the vila coerce and threaten. They demand oaths from interlopers and enforce them fiercely. Vila delight in testing the virtue of travelers and tormenting the uncharitable and cruel with bad weather and misfortune. Particularly obnoxious adventurers might suffer bad luck for months because a troop of vila quietly dances around their camp each night.  \n**Hunt with a Pack.** Vila rarely travel or fight alone; they are often seen in the company of alseid, wolves, wampus cats, or deer. In combat, they sometimes ride on fleet-footed deer, the better to escape if events turn against them.",
+      "name": "Vila",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Эти красивые, стройные женщины ездят на крупных оленей, их волосы цвета весны травы, кожи, как полированное дерево, и глаза серые, как грядущая буря.\n\n**Двоюродные братья дрид.** Вилы — родственники дриад. Как и их двоюродные сёстры, они служат защитниками глубочайших лесов.\n\n**Требовать клятвы.** Где дриады обольстительны для достижения своих целей, то вилы принуждают и угрожают. Они требуют клятвы от чужаков и отстаивают их яростно. Вилы получат удовольствие в испытании добродетели путешественников и мучений нелюбезного и жестокого плохой погоды и несчастья. Особенно неприятных искатели приключений могут страдать неудачно в течение нескольких месяцев, потому что отряд вилы спокойно танцует вокруг своём лагере каждую ночь.\n\n**Охота со стаей.** Вилы редко путешествуют или сражаются в одиночку; их часто можно увидеть в компании альсейд, волков, вампус котов или оленей. В бою, они иногда ездят на быстроногих оленях, лучше бежать, если события пойдут против них.",
+      "glossary_version": "v1",
+      "name": "Вила",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

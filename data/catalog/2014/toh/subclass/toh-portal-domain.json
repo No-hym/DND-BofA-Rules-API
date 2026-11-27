@@ -1,0 +1,191 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_portal-domain",
+  "id": "o5e:toh:characterclass:toh-portal-domain",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-portal-domain"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "57b54920c2192718c91b89c648d0c9b4f77292fe4f659235547090e24c2bdb17",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_cleric"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "57b54920c2192718c91b89c648d0c9b4f77292fe4f659235547090e24c2bdb17",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-portal-domain",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "subclass_of",
+        "value": "srd_cleric"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "You have dedicated yourself to the study and protection of the doors, gateways, and rips in the boundaries between the physical world and the infinite planar multiverse. Stepping through portals is a sacred prayer and woe betide any who seek to misuse them.",
+      "document": "toh",
+      "name": "Portal Domain",
+      "subclass_of": "srd_cleric"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you choose this domain at 1st level, you gain proficiency with heavy armor and either cartographer's tools or navigator's tools (your choice). In addition, you gain proficiency in the Arcana skill.",
+          "desc_ru": "Когда вы выбираете этот домен на 1-м уровне, вы получаете владение тяжёлыми доспехами и либо инструментами картографа, либо инструментами навигатора (на ваш выбор). Кроме того, вы получаете владение навыком Магия.",
+          "document": "toh",
+          "external_id": "toh_portal-domain_bonus-proficiencies",
+          "level": 1,
+          "name": "Bonus Proficiencies",
+          "name_ru": "Дополнительные владения",
+          "parent": "toh_portal-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You gain domain spells at the cleric levels listed in the Portal Domain Spells table. See the Divine Domain class feature for how domain spells work.\n\n**Portal Domain Spells**\n\n| Cleric Level | Spells                                    |\r\n|--------------|-------------------------------------------|\r\n| 1st          | *adjust position*, *expeditious retreat*  |\r\n| 3rd          | *glyph of shifting*, *misty step*         |\r\n| 5th          | *dimensional shove*, *portal jaunt*       |\r\n| 7th          | *dimension door*, *reposition*            |\r\n| 9th          | *pierce the veil*, *teleportation circle* |",
+          "desc_ru": "Вы получаете заклинания домена на уровнях жреца, перечисленных в соответствующей таблице. См. классовую особенность «Божественный домен» о том, как заклинания домена работают.\n\nЗаклинания домена портала\n\n| Уровень жреца | Заклинания |\n|---|---|\n| 1-й | Изменить позицию, Поспешное отступление |\n| 3-й | Глиф сдвига, Туманный шаг |\n| 5-й | Размерный толчок, Прогулка по порталу |\n| 7-й | Размерная дверь, Перестановка |\n| 9-й | Пронзить завесу, Круг телепортации |",
+          "document": "toh",
+          "external_id": "toh_portal-domain_domain-spells",
+          "level": 1,
+          "name": "Domain Spells",
+          "name_ru": "Заклинания домена",
+          "parent": "toh_portal-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 1st level, you learn to forge a bond between yourself and another creature. At the end of a short or long rest, you can touch one willing creature, establishing a magical bond between you. While bonded to a creature, you know the direction to the creature, though not its exact location, as long as you are both on the same plane of existence. As an action, you can teleport the bonded creature to an unoccupied space within 5 feet of you or to the nearest unoccupied space, provided the bonded creature is willing and within a number of miles of you equal to your proficiency bonus. Alternatively, you can teleport yourself to an unoccupied space within 5 feet of the bonded creature.\n  Once you teleport a creature in this way, you can't use this feature again until you finish a long rest. You can have only one bonded creature at a time. If you bond yourself to a new creature, the bond on the previous creature ends. Otherwise, the bond lasts until you die or dismiss it as an action.",
+          "desc_ru": "На 1-м уровне вы учитесь ковать связь между собой и другим существом. В конце короткого или продолжительного отдыха вы можете коснуться одного согласного существа, устанавливая магическую связь между вами. Пока связаны с существом, вы знаете направление к существу, хотя не его точное местоположение, пока вы оба на том же плане существования. действием вы можете телепортировать связанное существо в незанятое пространство в пределах 5 футов от вас или в ближайшее незанятое пространство, при условии, что связанное существо согласно и в пределах количества миль от вас, равного вашему бонусу мастерства. В качестве альтернативы вы можете телепортировать себя в незанятое пространство в пределах 5 футов от связанного существа.\nИспользовав телепортацию существа этим способом, вы не можете использовать эту особенность снова, пока не закончите продолжительный отдых. У вас может быть только одно связанное существо одновременно. Если вы связываете себя с новым существом, связь на предыдущем существе заканчивается. В остальном связь длится, пока вы не умрёте или не отпустите её действием.",
+          "document": "toh",
+          "external_id": "toh_portal-domain_portal-bond",
+          "level": 1,
+          "name": "Portal Bond",
+          "name_ru": "Связь портала",
+          "parent": "toh_portal-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 1st level, you gain access to spells that connect places or manipulate the space between places. Each spell with “(liminal)” listed alongside its school is a cleric spell for you, even if it doesn't appear on the cleric spell list, and you can prepare it as you would any other spell on the cleric spell list. Liminal spells include *bardo*, *devouring darkness*, *door of the far traveler*, *ethereal stairs*, *hypnagogia*, *hypnic jerk*, *mind maze*, *mirror realm*, *pierce the veil*, *reciprocating portal*, *rive*, *subliminal aversion*, and *threshold slip*. See the Magic and Spells chapter for details on these spells.",
+          "desc_ru": "Начиная с 1-го уровня вы получаете доступ к заклинаниям, которые соединяют места или манипулируют пространством между местами. Каждое заклинание с «(лиминальное)», перечисленным рядом с его школой, является для вас заклинанием жреца, даже если оно не появляется в списке заклинаний жреца, и вы можете подготовить его, как вы подготовили бы любое другое заклинание в списке заклинаний жреца. Лиминальные заклинания включают бардо, пожирающую тьму, дверь далёкого путешественника, эфирные лестницы, гипнагогию, гипнический рывок, лабиринт разума, зеркальный мир, пронзить завесу, взаимный портал, разрыв, подсознательное отвращение и пороговое скольжение. См. главу Магия и заклинания для деталей об этих заклинаниях.",
+          "document": "toh",
+          "external_id": "toh_portal-domain_portal-magic",
+          "level": 1,
+          "name": "Portal Magic",
+          "name_ru": "Магия порталов",
+          "parent": "toh_portal-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 2nd level, you can use your Channel Divinity to harness the magic of portals and teleportation. As an action, you teleport a willing target you can see, other than yourself, to an unoccupied space within 30 feet of you that you can see. When you reach 10th level in this class, you can teleport an unwilling target. An unwilling target that succeeds on a Wisdom saving throw is unaffected.",
+          "desc_ru": "Начиная со 2-го уровня вы можете использовать ваш Божественный канал, чтобы использовать магию порталов и телепортации. Действием вы телепортируете согласную цель, которую вы можете видеть, кроме себя, в незанятое пространство в пределах 30 футов от вас, которое вы можете видеть. Когда вы достигаете 10-го уровня в этом классе, вы можете телепортировать несогласную цель. Несогласная цель, которая успешно проходит спасбросок Мудрости, не затрагивается.",
+          "document": "toh",
+          "external_id": "toh_portal-domain_channel-divinity-dimensional-shift",
+          "level": 2,
+          "name": "Channel Divinity: Dimensional Shift",
+          "name_ru": "Божественный канал: размерный сдвиг",
+          "parent": "toh_portal-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 6th level, you can use a bonus action to create a small portal in a space you can see within 30 feet of you. This portal lasts for 1 minute, and it doesn't occupy the space where you create it. When you cast a spell with a range of touch, you can touch any creature within your reach or within 5 feet of the portal. While the portal is active, you can use a bonus action on each of your turns to move the portal up to 30 feet. The portal must remain within 30 feet of you. If you or the portal are ever more than 30 feet apart, the portal fades. You can have only one portal active at a time. If you create another one, the previous portal fades.\n  You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.",
+          "desc_ru": "На 6-м уровне вы можете бонусным действием создать маленький портал в пространстве, которое вы можете видеть, в пределах 30 футов от вас. Этот портал длится 1 минуту, и он не занимает пространство, где вы его создаёте. Когда вы творите заклинание с дистанцией касание, вы можете коснуться любого существа в пределах вашей досягаемости или в пределах 5 футов от портала. Пока портал активен, вы можете бонусным действием в каждый ваш ход переместить портал до 30 футов. Портал должен оставаться в пределах 30 футов от вас. Если вы или портал когда-либо более чем в 30 футах друг от друга, портал угасает. У вас может быть только один активный портал одновременно. Если вы создаёте другой, предыдущий портал угасает.\nВы можете использовать эту особенность количество раз, равное вашему бонусу мастерства. Вы восстанавливаете все потраченные использования, когда заканчиваете продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_portal-domain_portal-touch",
+          "level": 6,
+          "name": "Portal Touch",
+          "name_ru": "Касание портала",
+          "parent": "toh_portal-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 8th level, you gain the ability to imbue your weapon strikes with portal magic. Once on each of your turns when you hit a creature with a weapon attack, you deal damage to the target as normal, and you open a brief portal next to your target or another creature you can see within 30 feet of you. That creature takes 1d8 damage of your weapon's type as a duplicate of your weapon lashes out at the creature from the portal. When you reach 14th level, you can choose two creatures, creating a portal next to each and dealing 1d8 damage of your weapon's type to each. Alternatively, you can choose one creature and deal 2d8 damage to it.",
+          "desc_ru": "На 8-м уровне вы получаете способность наполнять ваши удары оружием магией порталов. Один раз в каждый ваш ход, когда вы попадаете по существу атакой оружием, вы наносите урон цели как обычно, и вы открываете краткий портал рядом с вашей целью или другим существом, которое вы можете видеть, в пределах 30 футов от вас. Это существо получает 1к8 урона типа вашего оружия, поскольку дубликат вашего оружия хлещет существо из портала. Когда вы достигаете 14-го уровня, вы можете выбрать два существа, создавая портал рядом с каждым и нанося 1к8 урона типа вашего оружия каждому. В качестве альтернативы вы можете выбрать одно существо и нанести ему 2к8 урона.",
+          "document": "toh",
+          "external_id": "toh_portal-domain_transpositional-divine-strike",
+          "level": 8,
+          "name": "Transpositional Divine Strike",
+          "name_ru": "Транспозиционный божественный удар",
+          "parent": "toh_portal-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 17th level, when you see a creature use a magical gateway, teleport, or cast a spell that would teleport itself or another creature, you can use your reaction to reroute the effect, changing the destination to be an unoccupied space of your choice that you can see within 100 feet of you. Once you use this feature, you can't use it again until you finish a long rest, unless you expend a spell slot of 5th level or higher to use this feature again.",
+          "desc_ru": "На 17-м уровне, когда вы видите, как существо использует магический портал, телепортируется или творит заклинание, которое телепортировало бы его само или другое существо, вы можете реакцией перенаправить эффект, изменяя пункт назначения на незанятое пространство на ваш выбор, которое вы можете видеть, в пределах 100 футов от вас. Использовав эту особенность, вы не можете использовать её снова, пока не закончите продолжительный отдых, если не расходуете ячейку заклинаний 5-го уровня или выше, чтобы использовать эту особенность снова.",
+          "document": "toh",
+          "external_id": "toh_portal-domain_portal-mastery",
+          "level": 17,
+          "name": "Portal Mastery",
+          "name_ru": "Мастерство порталов",
+          "parent": "toh_portal-domain",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Portal Domain",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You have dedicated yourself to the study and protection of the doors, gateways, and rips in the boundaries between the physical world and the infinite planar multiverse. Stepping through portals is a sacred prayer and woe betide any who seek to misuse them.",
+      "name": "Portal Domain",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы посвятили себя изучению и защите дверей, врат и разрывов в границах между физическим миром и бесконечной планарной мультивселенной. Прохождение через порталы — священная молитва, и горе тем, кто стремится злоупотреблять ими.",
+      "glossary_version": "v1",
+      "name": "Домен порталов",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

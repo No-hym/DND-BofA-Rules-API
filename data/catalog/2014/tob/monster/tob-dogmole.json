@@ -1,0 +1,237 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob_dogmole",
+  "id": "o5e:tob:creature:tob-dogmole",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creature:tob-2023-dogmole",
+      "o5e:tob:creature:tob-dogmole"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c1852f043538a66ee660182a67efd24a20b311ae4edd7cf8fa8567ed36c2bf03",
+    "formulas": [
+      {
+        "expression": "11d8+22",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 10,
+      "ability_score_constitution": 15,
+      "ability_score_dexterity": 17,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 14,
+      "ability_score_wisdom": 12,
+      "alignment": "neutral",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "blindsight_range": 30,
+      "burrow": 10,
+      "category": "Monsters",
+      "challenge_rating": "1.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [
+        "forest",
+        "hills",
+        "mountain"
+      ],
+      "fly": null,
+      "hit_dice": "11d8+22",
+      "hit_points": 71,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": 10,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "c1852f043538a66ee660182a67efd24a20b311ae4edd7cf8fa8567ed36c2bf03",
+        "edition": "2014",
+        "id": "o5e:tob:creature:tob-dogmole",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "8301f75d5caa5aa464095acdedf17f6747c24440d4ca4d03c3164a2402028dc8",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creature:tob-2023-dogmole",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 10,
+      "ability_score_constitution": 15,
+      "ability_score_dexterity": 17,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 14,
+      "ability_score_wisdom": 12,
+      "alignment": "neutral",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "blindsight_range": 30,
+      "burrow": 10,
+      "category": "Monsters",
+      "challenge_rating": "1.000",
+      "document": "tob",
+      "environments": [
+        "forest",
+        "hills",
+        "mountain"
+      ],
+      "hit_dice": "11d8+22",
+      "hit_points": 71,
+      "hover": false,
+      "languages_desc": "-",
+      "name": "Dogmole",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "size": "medium",
+      "swim": 10,
+      "type": "beast",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +4 к попаданию, досягаемость 5 фт., одна цель. Попадание: 5 (1к6+2) колющего урона.",
+          "external_id": "tob_dogmole_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "tob_dogmole",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 12 (3d6 + 2) slashing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +4 к попаданию, досягаемость 5 фт., одна цель. Попадание: 12 (3к6+2) рубящего урона.",
+          "external_id": "tob_dogmole_claw",
+          "name": "Claw",
+          "name_ru": "Коготь",
+          "order_in_statblock": 2,
+          "parent": "tob_dogmole",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The dogmole makes one claw attack and one bite attack.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_dogmole_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob_dogmole",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "Dogmoles cannot burrow into solid rock, but they can move through softer material like soil or loose rubble, leaving a usable tunnel 5 feet in diameter.",
+          "desc_ru": "Особенность «Бурров». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_dogmole_burrow",
+          "name": "Burrow",
+          "name_ru": "Бурров",
+          "parent": "tob_dogmole",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Wild dogmole packs are famed for their battles against monsters in the dark caverns of the world. If the dogmole draws blood against vermin, a purple worm, or other underground invertebrates, it gains a +4 boost to its Strength and Constitution, but suffers a -2 penalty to its AC. The wormkiller rage lasts for 3 rounds. It cannot end the rage voluntarily while the creatures that sent it into a rage still lives.",
+          "desc_ru": "Особенность «Вормкиллер Раге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_dogmole_wormkiller-rage",
+          "name": "Wormkiller Rage",
+          "name_ru": "Вормкиллер Раге",
+          "parent": "tob_dogmole",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Dogmole",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Dogmole",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Это кротоподобное существо размером с большую собаку, с толстым бочкообразным телом, тяжёлым, как взрослый дварф. Кольцо щупалец растет над пастью, в которой преобладают лопатовидные резцы. У него нет видимых ушей и только крошечные глаза, полные катаракты, но каким-то образом оно тем не менее чувствует окружающую обстановку.\n\n**Приручена дварф.** Горные дварфы приручили многих подземных существ, среди них породу гигантских кротовых, обычно называемых собаками-кротами. Энергичные и послушные, собаки-кроты тянут рудные тележки по шахтам, вынюхивают токсичные газы и загрязнённые воды и помогают выкапывать запертых шахтёров.\n\n**Чувствуют обвалы.** Собаки-кроты славятся своей способностью обнаруживать неизбежные обвалы и роющих монстров, что делает их желанными спутниками в глубинах. Вне шахт собаки-кроты служат вьючными животными, сторожевыми зверями и ищейками.\n\n**Жестокость дерро.** Дерро также используют собак-кротов, но такие несчастные существа изнасилованы шрамами и издевательствами, едва контролируемыми даже своими поводырями.",
+      "glossary_version": "v1",
+      "name": "Собака-крот",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

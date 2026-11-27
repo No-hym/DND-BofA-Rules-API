@@ -1,0 +1,141 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "corpse-mound",
+  "id": "o5e:tob:monster:corpse-mound-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:corpse-mound"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "dd9759b3f2623e740bf65bfcddb5d447a7d4492e620987aaa2b489418747b758",
+    "formulas": [
+      {
+        "expression": "18d12+90",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral evil",
+      "armor_class": 16,
+      "challenge_rating": "11",
+      "condition_immunities": "charmed, exhaustion, frightened, poisoned",
+      "damage_immunities": "poison",
+      "damage_resistances": "necrotic",
+      "damage_vulnerabilities": "",
+      "hit_dice": "18d12+90",
+      "hit_points": 207,
+      "languages": "Understands Common but can't speak",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "dd9759b3f2623e740bf65bfcddb5d447a7d4492e620987aaa2b489418747b758",
+        "edition": "2014",
+        "id": "o5e:tob:monster:corpse-mound",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The corpse mound makes two weapon attacks or uses envelop once.\"}, {\"name\": \"Slam\", \"desc\": \"Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 18 (2d10 + 7) bludgeoning damage plus 10 (3d6) necrotic damage and the target is grappled (escape DC 17). Until this grapple ends, the target is restrained.\", \"attack_bonus\": 11, \"damage_dice\": \"2d10\"}, {\"name\": \"Bone Shard\", \"desc\": \"Ranged Weapon Attack: +11 to hit, range 30/120 ft., one target. Hit: 14 (2d6 + 7) piercing damage and 10 (3d6) necrotic damage. When hit, the target must make a successful DC 17 Strength check or be knocked prone, pinned to the ground by the shard, and restrained. To end this restraint, the target or a creature adjacent to it must use an action to make a successful DC 17 Strength (Athletics) check to remove the shard.\", \"attack_bonus\": 11, \"damage_dice\": \"2d6\"}, {\"name\": \"Envelop\", \"desc\": \"The corpse mound makes a slam attack against a restrained creature. If the attack hits, the target takes damage as normal, is pulled 5 feet into the corpse mound's space, and is enveloped, which ends any grappled or prone condition. While enveloped, the creature is blinded and restrained, it has total cover against attacks and other effects outside the corpse mound, and it takes 21 (6d6) necrotic damage at the start of each of the corpse mound's turns. An enveloped creature can escape by using its action to make a successful DC 17 Strength saving throw. If the corpse mound takes 30 or more damage on a single turn from the enveloped creature, it must succeed on a DC 17 Constitution saving throw at the end of that turn or expel the creature, which falls prone in a space within 10 feet of the corpse mound. If the corpse mound dies, an enveloped creature is no longer restrained by it and can escape by using 10 feet of movement, exiting prone. A corpse mound can envelop up to 4 creatures at once.\"}]",
+      "alignment": "neutral evil",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "11",
+      "charisma": 8,
+      "condition_immunities": "charmed, exhaustion, frightened, poisoned",
+      "constitution": 21,
+      "constitution_save": 9,
+      "cr": 11.0,
+      "damage_immunities": "poison",
+      "damage_resistances": "necrotic",
+      "desc": "_The reeking pile of bodies and bones as large as a giant lurches forward. Corpses that tumble off it rise moments later as undead and follow the determined hill of corruption._  \n**Rise from Mass Graves.** In times of plague and war, hundreds of bodies are dumped into mass graves. Without sanctifying rites, necromantic magic can seep into the mound of bodies and animate them as a massive horror hungering for others to join its form.  \n**Absorb Bodies.** A corpse mound is driven to kill by the anger and loneliness of the dead within, and to absorb the bodies of its victims. It attacks any living creature larger than a dog, but it is drawn to humans and humanoids. It never tires no matter how many victims it accumulates. Entire towns have been wiped out by advancing corpse mounds.  \n**Undead Nature.** A corpse mound doesn’t require air, food, drink, or sleep.",
+      "dexterity": 11,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "18d12+90",
+      "hit_points": 207,
+      "intelligence": 8,
+      "intelligence_save": 3,
+      "languages": "Understands Common but can't speak",
+      "legendary_actions_json": "null",
+      "name": "Corpse Mound",
+      "page_no": 69,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 10",
+      "size": "Huge",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Absorb the Dead\", \"desc\": \"Whenever a Small or larger non-undead creature dies within 20 feet of the corpse mound, that creature's remains join its form and the corpse mound regains 10 hit points.\"}, {\"name\": \"Noxious Aura\", \"desc\": \"Creatures that are within 20 feet of the corpse mound at the end of its turn must succeed on a DC 17 Constitution saving throw or become poisoned until the end of their next turn. On a successful saving throw, the creature is immune to the Noxious Aura for 24 hours.\"}, {\"name\": \"Zombie Drop\", \"desc\": \"At the start of the corpse mound's turn during combat, one corpse falls from the mound onto the ground and immediately rises as a zombie under its control. Up to 10 such zombies can be active at one time. Zombies take their turns immediately after the corpse mound's turn.\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 24,
+      "type": "Undead",
+      "wisdom": 10,
+      "wisdom_save": 4
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Corpse Mound",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-corpse-mound"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_The reeking pile of bodies and bones as large as a giant lurches forward. Corpses that tumble off it rise moments later as undead and follow the determined hill of corruption._  \n**Rise from Mass Graves.** In times of plague and war, hundreds of bodies are dumped into mass graves. Without sanctifying rites, necromantic magic can seep into the mound of bodies and animate them as a massive horror hungering for others to join its form.  \n**Absorb Bodies.** A corpse mound is driven to kill by the anger and loneliness of the dead within, and to absorb the bodies of its victims. It attacks any living creature larger than a dog, but it is drawn to humans and humanoids. It never tires no matter how many victims it accumulates. Entire towns have been wiped out by advancing corpse mounds.  \n**Undead Nature.** A corpse mound doesn’t require air, food, drink, or sleep.",
+      "name": "Corpse Mound",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вонючая куча тел и костей, большая, как гигантские рывки вперёд. Трупы, которые скатываются с него, поднимаются несколько мгновений спустя, как нежить и следует определённой холм коррупции.\n\n**Восстать из братских могил.** Во времена чумы и войны, сотни тел сбрасывают в массовые захоронения. Без освящения обрядов некромантическая магия может просочиться в холм тел и оживить их как массивный ужас, жаждущий, чтобы другие присоединились к её форме.\n\n**Поглощения тел.** Холм трупов призван убивать гневом и одиночеством мёртвых внутри, и поглоровать тела своих жертв. Он атакует все живые существа, превышающие собаки, но он тянется к людям и гуманоидам. Он никогда не утомов, независимо от того, сколько жертв она накапливается. Целые города были уничтожены наступающими грудами трупов.\n\n**Природа нежити.** Холм трупов не требует воздуха, пищи, питья или сна.",
+      "glossary_version": "v1",
+      "name": "Холм трупов",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

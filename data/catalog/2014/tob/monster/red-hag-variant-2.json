@@ -1,0 +1,137 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "red-hag",
+  "id": "o5e:tob:monster:red-hag-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:red-hag"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "585f33d848057face45a971c713431fe441ae4995d37a8de244f220665e7f2e7",
+    "formulas": [
+      {
+        "expression": "14d8+56",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral evil",
+      "armor_class": 15,
+      "challenge_rating": "7",
+      "condition_immunities": "charmed, poisoned",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "14d8+56",
+      "hit_points": 119,
+      "languages": "Common, Druidic, Giant",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "585f33d848057face45a971c713431fe441ae4995d37a8de244f220665e7f2e7",
+        "edition": "2014",
+        "id": "o5e:tob:monster:red-hag",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Claws\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) slashing damage.\", \"attack_bonus\": 6, \"damage_dice\": \"3d8\"}, {\"name\": \"Siphoning Aura (Recharge 5-6)\", \"desc\": \"The red hag radiates an aura in a 30-foot radius, lasting for 3 rounds, that draws all fluids out through a creature's mouth, nose, eyes, ears, and pores. Every creature of the hag's choosing that starts its turn in the affected area takes 18 (4d6 + 4) necrotic damage, or half damage with a successful DC 15 Constitution saving throw.\"}]",
+      "alignment": "neutral evil",
+      "armor_class": 15,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "7",
+      "charisma": 15,
+      "condition_immunities": "charmed, poisoned",
+      "constitution": 18,
+      "cr": 7.0,
+      "desc": "_An elder race—much older than the elves, and as old as the dragons, they claim—red hags are the most cunning and longest-lived of the hags, having a lifespan of more than a thousand years._  \n**Beautiful and Strong.** Unlike their hag kin, red hags are not horrid to look upon, and most are considered comely in their own right. Few know anything about them, and the hags do little to enlighten them, preferring their seclusion.  \n**Tied to Nature.** The hags have a deep connection with all elements of nature, and they often make their homes in deep forests, in caves, or alongside coastlines.  \n**Blood Magic.** Because of their close connection to nature, red hags often serve as druids. Within their druidic circles, however, they practice blood sacrifices and perform ritualistic blood magic—both to slake their craving for humanoid blood, but also as a means to venerate Hecate, goddesses of dark magic. Red hags also favor the cleric and wizard classes; few ever seek a martial path. The ancient hags all answer to a hierarchy.",
+      "dexterity": 16,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "14d8+56",
+      "hit_points": 119,
+      "intelligence": 18,
+      "languages": "Common, Druidic, Giant",
+      "legendary_actions_json": "null",
+      "name": "Red Hag",
+      "page_no": 244,
+      "perception": 9,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "blood sense 90 ft., darkvision 60 ft., passive Perception 16",
+      "size": "Medium",
+      "skills_json": "{\"arcana\": 9, \"deception\": 5, \"insight\": 7, \"perception\": 9}",
+      "special_abilities_json": "[{\"name\": \"Amphibious\", \"desc\": \"The hag can breathe air and water.\"}, {\"name\": \"Spellcasting\", \"desc\": \"the hag is an 8th-level spellcaster. Her spellcasting ability is Wisdom (Spell save DC 17, +9 to hit with spell attacks). She requires no material components to cast her spells. The hag has the following druid spells prepared:\\n\\ncantrips (at will): animal friendship (red hags treat this as a cantrip), poison spray, thorn whip\\n\\n1st level (4 slots): cure wounds, entangle, speak with animals\\n\\n2nd level (3 slots): barkskin, flame blade, lesser restoration\\n\\n3rd level (3 slots): call lightning, conjure animals, dispel magic, meld into stone\\n\\n4th level (2 slots): control water, dominate beast, freedom of movement, hallucinatory terrain\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The hag has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Blood Sense\", \"desc\": \"A red hag automatically senses the presence of the blood of living creatures within 90 feet and can pinpoint their locations within 30 feet.\"}]",
+      "speed_json": "{\"walk\": 30, \"swim\": 30}",
+      "spells_json": "null",
+      "strength": 19,
+      "type": "Fey",
+      "wisdom": 22
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Red Hag",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-red-hag"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_An elder race—much older than the elves, and as old as the dragons, they claim—red hags are the most cunning and longest-lived of the hags, having a lifespan of more than a thousand years._  \n**Beautiful and Strong.** Unlike their hag kin, red hags are not horrid to look upon, and most are considered comely in their own right. Few know anything about them, and the hags do little to enlighten them, preferring their seclusion.  \n**Tied to Nature.** The hags have a deep connection with all elements of nature, and they often make their homes in deep forests, in caves, or alongside coastlines.  \n**Blood Magic.** Because of their close connection to nature, red hags often serve as druids. Within their druidic circles, however, they practice blood sacrifices and perform ritualistic blood magic—both to slake their craving for humanoid blood, but also as a means to venerate Hecate, goddesses of dark magic. Red hags also favor the cleric and wizard classes; few ever seek a martial path. The ancient hags all answer to a hierarchy.",
+      "name": "Red Hag",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Старшая раса — гораздо старше, чем эльфы, и так стара, как драконы, как они заявляют, — красные ведьмы — самые хитрые и долгоживущие из ведьм, которым отведена продолжительность жизни более тысячи лет.\n\n**Красивые и сильные.** В отличие от своего рода ведьм, красные ведьмы не ужасны внешне, и большинство из них считаются красивыми сами по себе. Немногие знают о них что-либо, и ведьмы мало что делают для их просвещения, предпочитая своё уединение.\n\n**Привязаны к природе.** Ведьмы имеют глубокую связь со всеми элементами природы, и они часто живут в глубоких лесах, пещерах, или рядом берегов.\n\n**Магия крови.** Из-за своей тесной связи с природой красные ведьмы часто служат друидами. В их друидических кругах, однако, они практикуют кровавые жертвоприношения и выполняют ритуальной магии крови, как для утоления своей жажды гуманоидной крови, а также как средство почитания Гекаты, богинь тёмной магии. Красные ведьмы также предпочитают классы жрецов и волшебников; мало кто ищет путь боевых действий. Древние ведьмы все отвечают иерархии.",
+      "glossary_version": "v1",
+      "name": "Красная ведьма",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

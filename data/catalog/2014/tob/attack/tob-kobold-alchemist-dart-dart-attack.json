@@ -1,0 +1,145 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "tob_kobold-alchemist_dart_dart-attack",
+  "id": "o5e:tob:creatureactionattack:tob-kobold-alchemist-dart-dart-attack",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:ccdx:creatureactionattack:ccdx-ratfolk-mercenary-dart-dart-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-roachling-skirmisher-dart-dart-attack",
+      "o5e:tob:creatureactionattack:tob-kobold-alchemist-dart-dart-attack",
+      "o5e:tob:creatureactionattack:tob-roachling-skirmisher-dart-dart-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "786250358b117e831638ef1d5bb84f3f45197a6c91ae40e5aaf6a7367ed80345",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "WEAPON",
+      "damage_bonus": null,
+      "damage_die_count": 1,
+      "damage_die_type": "D4",
+      "damage_type": "piercing",
+      "extra_damage_bonus": null,
+      "extra_damage_die_count": null,
+      "extra_damage_die_type": null,
+      "extra_damage_type": "poison",
+      "long_range": 60,
+      "range": 20,
+      "reach": null,
+      "to_hit_mod": 5
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "786250358b117e831638ef1d5bb84f3f45197a6c91ae40e5aaf6a7367ed80345",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-kobold-alchemist-dart-dart-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "1663aca11de1d16d25ac34e474ab44ddc7b31020640b490c04f29b148ebc6513",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-ratfolk-mercenary-dart-dart-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "tob",
+        "content_hash": "1faabdf81838b0b4d9fe3ff38e0a38d5988c6040ec6aa9d3b523986f97ea2c6a",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-roachling-skirmisher-dart-dart-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "dd7892fd3e012d41f9a962c202da46abe1280af940b48aeb256dfbc1a312264b",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-roachling-skirmisher-dart-dart-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "tob_kobold-alchemist_dart",
+        "type": "parent",
+        "value": "tob_kobold-alchemist_dart"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "WEAPON",
+      "damage_die_count": 1,
+      "damage_die_type": "D4",
+      "damage_type": "piercing",
+      "extra_damage_type": "poison",
+      "long_range": 60,
+      "name": "Dart attack",
+      "parent": "tob_kobold-alchemist_dart",
+      "range": 20,
+      "target_creature_only": false,
+      "to_hit_mod": 5
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Dart attack",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Dart attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака оружием: +5 к попаданию. Зона: дистанция 20/60 фт., одна цель. Попадание: 1к4 колющего урона.",
+      "glossary_version": "derived-v1",
+      "name": "Дротик",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

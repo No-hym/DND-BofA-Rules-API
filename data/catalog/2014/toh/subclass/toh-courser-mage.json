@@ -1,0 +1,158 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_courser-mage",
+  "id": "o5e:toh:characterclass:toh-courser-mage",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-courser-mage"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "013057a8ee9fa20a90e1eeeebf7b34e1457323e5b37e8615a94705859ba69a8e",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_wizard"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "013057a8ee9fa20a90e1eeeebf7b34e1457323e5b37e8615a94705859ba69a8e",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-courser-mage",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_wizard",
+        "type": "subclass_of",
+        "value": "srd_wizard"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "A tradition more focused on stalking prey than reading dozens of books, courser mages generally choose more subtle spells that aid in finding or hiding from their enemies. They learn to imbue their arrows with spell energy to deliver more deadly shots.",
+      "document": "toh",
+      "name": "Courser Mage",
+      "subclass_of": "srd_wizard"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "At 2nd level, you gain proficiency with longbows and shortbows, and you gain proficiency in the Stealth skill. In addition, you can still perform the somatic components of wizard spells even when you have a longbow or shortbow in one or both hands.",
+          "desc_ru": "На 2-м уровне вы получаете владение длинными и короткими луками и получаете владение навыком Скрытность. Кроме того, вы всё ещё можете выполнять соматические компоненты заклинаний волшебника, даже когда держите длинный или короткий лук в одной или обеих руках.",
+          "document": "toh",
+          "external_id": "toh_courser-mage_stalking-savant",
+          "level": 2,
+          "name": "Stalking Savant",
+          "name_ru": "Знаток выслеживания",
+          "parent": "toh_courser-mage",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 2nd level, as a bonus action, you can choose a target you can see within 60 feet of you and become invisible to that target until the start of your next turn. Once the effect ends, you can't use this feature on that target again until you finish a long rest.",
+          "desc_ru": "Начиная со 2-го уровня бонусным действием вы можете выбрать цель, которую вы можете видеть в пределах 60 футов от вас, и стать невидимым для этой цели до начала вашего следующего хода. Когда эффект заканчивается, вы не можете использовать эту особенность на этой цели снова, пока не закончите продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_courser-mage_unseen-assailant",
+          "level": 2,
+          "name": "Unseen Assailant",
+          "name_ru": "Невидимый нападающий",
+          "parent": "toh_courser-mage",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Beginning at 6th level, you can imbue an arrow you fire from a longbow or shortbow with magical energy. As a bonus action, you can expend a 1st-level spell slot to cause the next arrow you fire to magically deal an extra 2d4 force damage to the target on a hit. If you expend a spell slot of 2nd level or higher, the extra damage increases by 1d4 for each slot level above 1st.",
+          "desc_ru": "Начиная с 6-го уровня вы можете наполнить стрелу, которую вы выстреливаете из длинного или короткого лука, магической энергией. бонусным действием вы можете потратить ячейку заклинаний 1-го уровня, чтобы заставить следующую стрелу, которую вы выстрелите, магически нанести дополнительные 2к4 урона силовым полем цели при попадании. Если вы расходуете ячейку заклинаний 2-го уровня или выше, дополнительный урон увеличивается на 1к4 за каждый уровень ячейки выше 1-го.",
+          "document": "toh",
+          "external_id": "toh_courser-mage_spell-arrow",
+          "level": 6,
+          "name": "Spell Arrow",
+          "name_ru": "Заклинательная стрела",
+          "parent": "toh_courser-mage",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 10th level, when you hit a creature with an arrow imbued by your Spell Arrow feature, your next ranged weapon attack against that creature has advantage.",
+          "desc_ru": "На 10-м уровне, когда вы попадаете по существу стрелой, наполненной вашей особенностью Заклинательная стрела, ваша следующая атака оружием дальнего боя против этого существа совершается с преимуществом.",
+          "document": "toh",
+          "external_id": "toh_courser-mage_pinpoint-weakness",
+          "level": 10,
+          "name": "Pinpoint Weakness",
+          "name_ru": "Точечная слабость",
+          "parent": "toh_courser-mage",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 14th level, you can attack twice, instead of once, whenever you take the Attack action with a longbow or shortbow on your turn. If you use your Spell Arrow feature, you can imbue both arrows with arcane power by expending one spell slot. If you imbue two arrows with this feature, you can't cast spells other than cantrips until the end of your next turn.",
+          "desc_ru": "Начиная с 14-го уровня вы можете атаковать дважды, вместо одного раза, каждый раз, когда вы выполняете действие Атака длинным или коротким луком в ваш ход. Если вы используете вашу особенность Заклинательная стрела, вы можете наполнить обе стрелы мистической силой, расходуя одну ячейку заклинаний. Если вы наполняете две стрелы этой особенностью, вы не можете творить заклинания, кроме заговоров, до конца вашего следующего хода.",
+          "document": "toh",
+          "external_id": "toh_courser-mage_multitudinous-arrows",
+          "level": 14,
+          "name": "Multitudinous Arrows",
+          "name_ru": "Множество стрел",
+          "parent": "toh_courser-mage",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Courser Mage",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "A tradition more focused on stalking prey than reading dozens of books, courser mages generally choose more subtle spells that aid in finding or hiding from their enemies. They learn to imbue their arrows with spell energy to deliver more deadly shots.",
+      "name": "Courser Mage",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Традиция, более сосредоточенная на преследовании добычи, чем на чтении десятков книг, маги-ловчие обычно выбирают более тонкие заклинания, которые помогают находить врагов или прятаться от них. Они учатся наполнять свои стрелы энергией заклинаний, чтобы наносить более смертоносные выстрелы.",
+      "glossary_version": "v1",
+      "name": "Маг-ловчий",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

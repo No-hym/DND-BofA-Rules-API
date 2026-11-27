@@ -1,0 +1,201 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_illuminate-spoor",
+  "id": "o5e:deepm:spell:deepm-illuminate-spoor",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-illuminate-spoor",
+      "o5e:dmag:spell:illuminate-spoor"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "9f815259d79fcf130e283563bc0c449995f9d3006b71e6a40b9c597f12d1dd17",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 hour",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a firefly",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "divination",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "9f815259d79fcf130e283563bc0c449995f9d3006b71e6a40b9c597f12d1dd17",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-illuminate-spoor",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "a39b4b27e68f2ef337cac3ef7ab18f2a47d3c7a3668da4a763ce5e3b71412282",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:illuminate-spoor",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "You touch a set of tracks created by a single creature. That set of tracks and all other tracks made by the same creature give off a faint glow. You and up to three creatures you designate when you cast this spell can see the glow. A creature that can see the glow automatically succeeds on Wisdom (Survival) checks to track that creature. If the tracks are covered by obscuring objects such as leaves or mud, you and the creatures you designate have advantage on Wisdom (Survival) checks to follow the tracks.\n  If the creature leaving the tracks changes its tracks, such as by adding or removing footwear, the glow stops where the tracks change. Until the spell ends, you can use an action to touch and illuminate a new set of tracks.",
+      "document": "deepm",
+      "duration": "1 hour",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the duration is concentration, up to 8 hours. When you use a spell slot of 5th level or higher, the duration is concentration, up to 24 hours.",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a firefly",
+      "name": "Illuminate Spoor",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "divination",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3580",
+          "parent": "deepm_illuminate-spoor",
+          "type": "default"
+        },
+        {
+          "external_id": "3582",
+          "parent": "deepm_illuminate-spoor",
+          "type": "slot_level_2"
+        },
+        {
+          "duration": "8 hours",
+          "external_id": "3583",
+          "parent": "deepm_illuminate-spoor",
+          "type": "slot_level_3"
+        },
+        {
+          "duration": "8 hours",
+          "external_id": "3584",
+          "parent": "deepm_illuminate-spoor",
+          "type": "slot_level_4"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "3585",
+          "parent": "deepm_illuminate-spoor",
+          "type": "slot_level_5"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "3586",
+          "parent": "deepm_illuminate-spoor",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "3587",
+          "parent": "deepm_illuminate-spoor",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "3588",
+          "parent": "deepm_illuminate-spoor",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "3589",
+          "parent": "deepm_illuminate-spoor",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Illuminate Spoor",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You touch a set of tracks created by a single creature. That set of tracks and all other tracks made by the same creature give off a faint glow. You and up to three creatures you designate when you cast this spell can see the glow. A creature that can see the glow automatically succeeds on Wisdom (Survival) checks to track that creature. If the tracks are covered by obscuring objects such as leaves or mud, you and the creatures you designate have advantage on Wisdom (Survival) checks to follow the tracks.\n  If the creature leaving the tracks changes its tracks, such as by adding or removing footwear, the glow stops where the tracks change. Until the spell ends, you can use an action to touch and illuminate a new set of tracks.",
+      "name": "Illuminate Spoor",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы касаетесь набора следов, созданного одним существом. Этот набор следов и все другие следы, сделанные тем же существом, излучают слабое свечение. Вы и до трёх существ, которых вы указываете, когда творите это заклинание, можете видеть свечение. Существо, которое может видеть свечение, автоматически преуспевает в проверках Мудрости (Выживание) на выслеживание этого существа. Если следы покрыты заслоняющими предметами, такими как листья или грязь, вы и указанные вами существа совершаете с преимуществом проверки Мудрости (Выживание), чтобы следовать по следам.\n\nЕсли существо, оставляющее следы, меняет свои следы, например добавляя или снимая обувь, свечение прекращается там, где следы меняются. Пока заклинание не закончится, вы можете действием коснуться и осветить новый набор следов.",
+      "glossary_version": "v1",
+      "name": "Освещение следов",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

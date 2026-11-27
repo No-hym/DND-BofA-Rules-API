@@ -1,0 +1,199 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_fusillade-of-ice",
+  "id": "o5e:deepm:spell:deepm-fusillade-of-ice",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-fusillade-of-ice",
+      "o5e:dmag:spell:fusillade-of-ice"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "45c23c3b4da123e6010e2677fc79f8cb1a274acf1bf4a1f7599560e2de28b833",
+    "formulas": [
+      {
+        "expression": "7d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "7d6",
+      "damage_types": [
+        "cold",
+        "piercing"
+      ],
+      "duration": "instantaneous",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a dagger shaped like an icicle",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": 30,
+      "shape_size_unit": null,
+      "shape_type": "cone",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "45c23c3b4da123e6010e2677fc79f8cb1a274acf1bf4a1f7599560e2de28b833",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-fusillade-of-ice",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "0b9e54521b567f79d97fd59a1df6ac2dc20487ad63e57653548386e37f7fa5f1",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:fusillade-of-ice",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "7d6",
+      "damage_types": [
+        "cold",
+        "piercing"
+      ],
+      "desc": "You unleash a spray of razor-sharp ice shards. Each creature in the 30-foot cone takes 4d6 cold damage and 3d6 piercing damage, or half as much damage with a successful Dexterity saving throw.\n",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 5th level or higher, the damage increases by your choice of 1d6 cold damage or 1d6 piercing damage for each slot level above 4th. You can make a different choice (cold damage or piercing damage) for each slot level above 4th. Casting this spell with a spell slot of 6th level or higher increases the range to a 60-foot cone.",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a dagger shaped like an icicle",
+      "name": "Fusillade of Ice",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": 30,
+      "shape_type": "cone",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3351",
+          "parent": "deepm_fusillade-of-ice",
+          "type": "default"
+        },
+        {
+          "damage_roll": "8d6",
+          "external_id": "3353",
+          "parent": "deepm_fusillade-of-ice",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "9d6",
+          "external_id": "3354",
+          "parent": "deepm_fusillade-of-ice",
+          "shape_size": 60,
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "10d6",
+          "external_id": "3355",
+          "parent": "deepm_fusillade-of-ice",
+          "shape_size": 60,
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "11d6",
+          "external_id": "3356",
+          "parent": "deepm_fusillade-of-ice",
+          "shape_size": 60,
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "12d6",
+          "external_id": "3357",
+          "parent": "deepm_fusillade-of-ice",
+          "shape_size": 60,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Fusillade of Ice",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You unleash a spray of razor-sharp ice shards. Each creature in the 30-foot cone takes 4d6 cold damage and 3d6 piercing damage, or half as much damage with a successful Dexterity saving throw.",
+      "name": "Fusillade of Ice",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы выпускаете брызги остро-заточенных ледяных осколков. Каждое существо в конусе 30 футов получает 4к6 урона холодом и 3к6 колющего урона, или половину урона при успешном спасброске Ловкости.",
+      "glossary_version": "v1",
+      "name": "Залп льда",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

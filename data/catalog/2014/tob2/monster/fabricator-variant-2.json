@@ -1,0 +1,139 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "fabricator",
+  "id": "o5e:tob2:monster:fabricator-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:fabricator"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "589e443aea5aefaabdc4bb5a069dc3e714dd53a517627e4d4745166732563add",
+    "formulas": [
+      {
+        "expression": "14d10+70",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral",
+      "armor_class": 13,
+      "challenge_rating": "10",
+      "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone",
+      "damage_immunities": "force, poison, psychic",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "",
+      "hit_dice": "14d10+70",
+      "hit_points": 147,
+      "languages": "understands Common, Deep Speech, and Draconic but can’t speak",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "589e443aea5aefaabdc4bb5a069dc3e714dd53a517627e4d4745166732563add",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:fabricator",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The fabricator makes two disassembling slam attacks.\"}, {\"name\": \"Disassembling Slam\", \"desc\": \"Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) bludgeoning damage plus 10 (3d6) force damage. A creature reduced to 0 hp by this attack immediately dies and its body and nonmagical equipment is disassembled and absorbed into the fabricator. The creature can be restored to life only by means of a true resurrection or a wish spell. The fabricator can choose to not disassemble a creature or its equipment after reducing it to 0 hp.\", \"attack_bonus\": 8, \"damage_dice\": \"2d10+4\"}]",
+      "alignment": "neutral",
+      "armor_class": 13,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "10",
+      "charisma": 5,
+      "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone",
+      "constitution": 20,
+      "cr": 10.0,
+      "damage_immunities": "force, poison, psychic",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "desc": "A rectangular slab of thick, green ooze flows slowly across the floor. Twisting metallic veins and strange lights illuminate its translucent interior, and everything it touches dissolves into a formless sludge._  \n**Artificial Oozes.** Though fabricators superficially resemble monsters like ochre jellies or gelatinous cubes, they are in fact a type of construct composed of millions of minute constructs connected by an intelligent hive-mind. Most fabricators were built to aid in the construction of advanced machinery or structures and normally are not aggressive. However, their programming sometimes calls for the disposal of organic life, and they do not hesitate to apply fatal force when necessary.  \n**Relic of Past Empires.** The first fabricators were built by a cabal of ancient mages from a forgotten empire to construct a great weapon to use against their enemies. This weapon was completed and unleashed, subsequently dooming the creators and leaving the fabricators to carry on with the tasks assigned to them. Over time, the magical bonds to their masters’ work slowly unraveled, freeing many fabricators from their responsibilities and leaving them without purpose. Today, some of these fabricators are employed by mage guilds to aid in the construction of magic items, communicating with the mages by etching words on sheets of copper.  \n**Construct Nature.** A fabricator doesn’t require air, food, drink, or sleep.",
+      "dexterity": 7,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "14d10+70",
+      "hit_points": 147,
+      "intelligence": 15,
+      "languages": "understands Common, Deep Speech, and Draconic but can’t speak",
+      "legendary_actions_json": "null",
+      "name": "Fabricator",
+      "page_no": 138,
+      "perception": 6,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 16",
+      "size": "Large",
+      "skills_json": "{\"perception\": 6}",
+      "special_abilities_json": "[{\"name\": \"Assemble\", \"desc\": \"With at least 10 minutes of work, a fabricator can refine raw materials and create entirely new objects by combining material it has absorbed. For example, it can create a rope from absorbed hemp, clothing from absorbed flax or wool, and a longsword from absorbed metal. A fabricator can create intricate objects like thieves' tools and objects with moving parts with at least 1 hour of work and twice the requisite raw materials, but it can't create magic items. The quality of objects it creates is commensurate with the quality of the raw materials.\"}, {\"name\": \"Dismantling Form\", \"desc\": \"A creature that touches the fabricator or hits it with a melee attack while within 5 feet of it takes 3 (1d6) force damage. Any nonmagical weapon made of metal or once-living material (such as bone or wood) that hits the fabricator is slowly dismantled by the minute constructs that make up the fabricator. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal or once-living material that hits the fabricator is destroyed after dealing damage. At the start of each of its turns, the fabricator can choose whether this trait is active.\"}]",
+      "speed_json": "{\"climb\": 15, \"walk\": 30, \"swim\": 15}",
+      "spells_json": "null",
+      "strength": 18,
+      "type": "Construct",
+      "wisdom": 15
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Fabricator",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-fabricator"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "A rectangular slab of thick, green ooze flows slowly across the floor. Twisting metallic veins and strange lights illuminate its translucent interior, and everything it touches dissolves into a formless sludge._  \n**Artificial Oozes.** Though fabricators superficially resemble monsters like ochre jellies or gelatinous cubes, they are in fact a type of construct composed of millions of minute constructs connected by an intelligent hive-mind. Most fabricators were built to aid in the construction of advanced machinery or structures and normally are not aggressive. However, their programming sometimes calls for the disposal of organic life, and they do not hesitate to apply fatal force when necessary.  \n**Relic of Past Empires.** The first fabricators were built by a cabal of ancient mages from a forgotten empire to construct a great weapon to use against their enemies. This weapon was completed and unleashed, subsequently dooming the creators and leaving the fabricators to carry on with the tasks assigned to them. Over time, the magical bonds to their masters’ work slowly unraveled, freeing many fabricators from their responsibilities and leaving them without purpose. Today, some of these fabricators are employed by mage guilds to aid in the construction of magic items, communicating with the mages by etching words on sheets of copper.  \n**Construct Nature.** A fabricator doesn’t require air, food, drink, or sleep.",
+      "name": "Fabricator",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Прямоугольная плита густой зелёной слизи медленно течёт через пол. Извивающиеся металлические вены и странные огни освещают её прозрачное внутреннее, и всё, чего она касается, растворяется в бесформенную жижу.\n\n**Искусственные слизи.** Хотя фабрикаторы поверхностно напоминают монстров, подобных охристым желе или желатиновым кубам, они на самом деле тип конструкта, состоящий из миллионов крошечных конструктов, связанных разумным роевым разумом. Большинство фабрикаторов были построены, чтобы помогать в строительстве продвинутых машин или сооружений, и обычно не агрессивны. Однако их программирование иногда призывает к утилизации органической жизни, и они не колеблются применять смертельную силу, когда необходимо.\n\n**Реликт прошлых империй.** Первые фабрикаторы были построены кабалом древних магов забытой империи, чтобы построить великое оружие для использования против их врагов. Это оружие было завершено и выпущено, впоследствии обрекая создателей и оставляя фабрикаторов продолжать задачи, назначенные им. С течением времени магические узы к работе их хозяев медленно распутывались, освобождая многих фабрикаторов от их обязанностей и оставляя их без цели. Сегодня некоторые из этих фабрикаторов наняты гильдиями магов, чтобы помогать в создании магических предметов, общаясь с магами, вырезая слова на листах меди.\n\n**Природа конструкта.** Фабрикатору не требуются воздух, пища, питьё или сон.",
+      "glossary_version": "v1",
+      "name": "Фабрикатор",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,374 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "class",
+  "edition": "2014",
+  "external_id": "bfrd_cleric",
+  "id": "o5e:bfrd:characterclass:bfrd-cleric",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:characterclass:bfrd-cleric",
+      "o5e:srd-2014:characterclass:srd-cleric"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "121db0a3741177ffdb8c4c5efabb71373bb4018fe1b4ac003cb64290c4372319",
+    "formulas": [
+      {
+        "expression": "D8",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "FULL",
+      "hit_dice": "D8",
+      "primary_abilities": [],
+      "saving_throws": [
+        "wis",
+        "cha"
+      ],
+      "subclass_of": null
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "121db0a3741177ffdb8c4c5efabb71373bb4018fe1b4ac003cb64290c4372319",
+        "edition": "2014",
+        "id": "o5e:bfrd:characterclass:bfrd-cleric",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "ffd823e51edf3f15f46ea94abf5fe8179d732b8d5dc1127af13ef72bde692e49",
+        "edition": "2014",
+        "id": "o5e:srd-2014:characterclass:srd-cleric",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "FULL",
+      "document": "bfrd",
+      "hit_dice": "D8",
+      "name": "Cleric",
+      "saving_throws": [
+        "wis",
+        "cha"
+      ]
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_slots-1st",
+          "feature_type": "SPELL_SLOTS",
+          "level": 1,
+          "name": "1st",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_cantrips-known",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Cantrips Known",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Clerics demonstrate their faith in one of two primary ways, wielding it as a holy warrior or calling it as a miracle worker. Choose how you manifest your faith with one of the following.\n\n**Manifest Might.** You gain proficiency with heavy armor and one type of martial weapon of your choice. In addition, you gain the ability to infuse your weapon strikes with divine energy: once per turn, when you hit a creature with a weapon attack, you can deal additional radiant or necrotic damage (your choice) equal to your PB.\n\n**Manifest Miracles.** You learn one additional cantrip of your choice from any source of magic. This cantrip counts as a Divine cantrip for you, but it doesn't count against the number of cantrips you know. In addition, you can add your PB to the damage you deal with any Divine cantrip.",
+          "desc_ru": "Жрецы демонстрируют свою веру одним из двух основных способов, владея ею как святым воином или призывая её как чудотворцем. Выберите, как вы проявляете вашу веру, одним из следующих.\n\nЯвная мощь. Вы получаете владение тяжёлыми доспехами и одним типом боевого оружия на ваш выбор. Кроме того, вы получаете способность наполнять ваши удары оружием божественной энергией: один раз за ход, когда вы попадаете по существу атакой оружием, вы можете нанести дополнительный урон излучением или некротический (на ваш выбор), равный вашему бонусу мастерства.\n\nЯвные чудеса. Вы изучаете один дополнительный заговор на ваш выбор из любого источника магии. Этот заговор считается для вас Божественным заговором, но не учитывается в количестве известных вам заговоров. Кроме того, вы можете добавить ваш бонус мастерства к урону, который вы наносите любым Божественным заговором.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_manifestation-of-faith",
+          "level": 1,
+          "name": "Manifestation of Faith",
+          "name_ru": "Проявление веры",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_proficiency-bonus",
+          "feature_type": "PROFICIENCY_BONUS",
+          "level": 1,
+          "name": "Proficiency Bonus",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_rituals-known",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Rituals Known",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "As a conduit for divine power, you can cast Divine spells.\n\n**Cantrips.** At 1st level, choose three cantrips from the Divine spell list to learn. You choose more Divine cantrips to learn at higher levels, as shown in the Cantrips Known column of the Cleric Progression table.\n\n**Preparing Spells.** You must prepare spells in advance before you can cast them. You can prepare any spell on the Divine spell list from circles for which you have Divine spell slots. (You determine which spell slots you can access by checking your level on the Cleric Progression table). You can choose a number of spells equal to your WIS modifier + your cleric level (minimum of one spell). This is your list of prepared spells from which you can cast.\n\nPreparing a new list of spells requires time spent in prayer and meditation: at least 1 minute per spell circle for each spell you change. You can change your list of prepared spells as part of a long rest.\n\n**Casting Spells.** You have prepared a number of spells and can cast any of them by using a Divine spell slot of the spell's circle or higher.\n\nThe Cleric Progression table shows how many Divine spell slots you have at a given level. For example, at 3rd level, you have four 1st-circle and two 2nd-circle spell slots, and with a 16 WIS, you can have six prepared spells of 1st or 2nd circle, in any combination. You only have two spell slots for 2nd-circle spells though, so if you prepare only 2nd-circle spells, you won't be able to use your 1st-circle spell slots at all.\n\nCasting a spell doesn't remove it from your list of prepared spells, it just uses up a spell slot. You regain all used spell slots when you finish a long rest.\n\n**Spellcasting Ability.** Wisdom (WIS) is your spellcasting ability. Your WIS modifier determines the save DC and the attack modifier for certain spells you cast:\n- Spell save DC = 8 + your proficiency bonus (PB) + your WIS modifier\n- Spell attack modifier = your proficiency bonus (PB) + your WIS modifier\n\n**Rituals.** You can also cast a type of long-form spell called a ritual. Rituals don't need to be prepared, and they don't use up spell slots.\n\nAt 1st level, choose one ritual from the Divine ritual list. You learn more rituals at higher levels, as shown in the Rituals Known column of the Cleric Progression table, but only from a circle for which you have spell slots. Rituals you learn don't count against the number of spells you learn at each level.\n\n**Spellcasting Focus.** You can use a holy symbol as a spellcasting focus for your Divine spells.",
+          "desc_ru": "Как ученик тайной магии, вы научились творить заклинания. Смотрите раздел «Заклинания» для правил использования заклинаний. Информация ниже описывает, как вы используете эти правила с заклинаниями волшебника, которые приведены в списке заклинаний волшебника далее в описании класса.\n\n**Заговоры.** Вы знаете три заговора волшебника на свой выбор. Рекомендуются *Свет*, *Волшебная рука* и *Луч холода*. Каждый раз, когда вы заканчиваете долгий отдых, вы можете заменить один из заговоров этого умения другим заговором волшебника на свой выбор.\n\nКогда вы достигаете 4-го и 10-го уровня волшебника, вы узнаёте ещё один заговор волшебника на свой выбор, как показано в столбце Заговоры таблицы Умения волшебника.\n\n**Книга заклинаний.** Ваше обучение волшебству завершилось созданием уникальной книги: вашей книги заклинаний. Это Крошечный предмет весом 3 фунта, содержащий 100 страниц, который может прочитать только вы или тот, кто творит *Опознание*. Вы определяете внешний вид и материалы книги, например том с позолоченными краями или связанный бечёвкой набор листов пергамента.\n\nКнига содержит заклинания 1-го уровня и выше, которые вы знаете. Она начинается с шести заклинаний волшебника 1-го уровня на ваш выбор. Рекомендуются *Обнаружение магии*, *Падение пёрышком*, *Доспехи мага*, *Магическая стрела*, *Усыпление* и *Волна грома*.\n\nКаждый раз, когда вы получаете уровень волшебника после 1-го, добавляйте два заклинания волшебника на свой выбор в книгу заклинаний. Каждое из этих заклинаний должно быть того уровня, для которого у вас есть ячейки заклинаний, как показано в таблице Умения волшебника. Заклинания — результат магических исследований, которые вы регулярно проводите.\n\n**Ячейки заклинаний.** Таблица Умения волшебника показывает, сколько у вас есть ячеек заклинаний для сотворения заклинаний 1-го уровня и выше. Вы восстанавливаете все потраченные ячейки, когда заканчиваете долгий отдых.\n\n**Подготовленные заклинания 1-го уровня и выше.** Вы подготавливаете список заклинаний 1-го уровня и выше, которые доступны вам для сотворения с помощью этого умения. Для этого выберите четыре заклинания из книги заклинаний. Выбранные заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний.\n\nКоличество заклинаний в вашем списке увеличивается по мере получения уровней волшебника, как показано в столбце Подготовленные заклинания таблицы Умения волшебника. Каждый раз, когда это число увеличивается, выбирайте дополнительные заклинания волшебника, пока количество заклинаний в вашем списке не сравняется с числом в таблице. Выбранные заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний. Например, если вы волшебник 3-го уровня, ваш список подготовленных заклинаний может включать шесть заклинаний 1-го и 2-го уровней в любой комбинации, выбранных из вашей книги заклинаний.\n\nЕсли другое умение волшебника даёт вам заклинания, которые вы всегда держите подготовленными, эти заклинания не учитываются в количестве заклинаний, которые вы можете подготовить с помощью этого умения, но в остальном считаются заклинаниями волшебника для вас.\n\n**Изменение подготовленных заклинаний.** Каждый раз, когда вы заканчиваете долгий отдых, вы можете изменить свой список подготовленных заклинаний, заменив любые заклинания заклинаниями из вашей книги заклинаний.\n\n**Базовая характеристика заклинаний.** Интеллект является вашей базовой характеристикой для заклинаний волшебника.\n\n**Заклинательный фокус.** Вы можете использовать магический фокус или книгу заклинаний в качестве заклинательного фокуса для заклинаний волшебника.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_spellcasting",
+          "level": 1,
+          "name": "Spellcasting",
+          "name_ru": "Сотворение заклинаний",
+          "parent": "bfrd_cleric",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain the ability to channel divine energy directly from your deity to produce effects beyond spells. You start with one effect: Turn the Profane. Some subclasses grant additional effects as you advance in levels, as noted in their descriptions.\n\nWhen you use your Channel Divinity feature, choose which specific effect you want, such as Turn the Profane. Some of these effects require a save, and in those cases, the DC is equal to your cleric spell save DC.\n\nBeginning at 2nd level, you can use your Channel Divinity feature once until you finish a short or long rest, then twice between rests at 6th level, three times at 13th level, and four times at 18th level. When you finish a short or long rest, you regain all expended uses.\n\n**Channel Divinity: Turn the Profane.** As an action, you present your holy symbol and speak a prayer to censure unholy creatures. Each Fiend and Undead of your choice within 30 feet of you and that can see or hear you must make a WIS save. If the creature fails its save, it is turned for 1 minute or until it takes any damage.\n\nA turned creature must try to move as far away from you as it can, though it can't first get closer to you to do it. On its turn, it can use only the Dash action or otherwise try to escape from an effect that prevents it from moving. If there's nowhere to move, it can use the Dodge action. It can't take any reactions.",
+          "desc_ru": "Вы можете направлять божественную энергию непосредственно из Внешних Планов для создания магических эффектов. Изначально у вас есть два таких эффекта: Божественная искра и Изгнание нежити, каждый из которых описан ниже. Каждый раз, когда вы используете Божественный канал этого класса, выбирайте, какой эффект Божественного канала этого класса создать. На более высоких уровнях жреца вы получаете дополнительные варианты эффектов.\n\nВы можете использовать Божественный канал этого класса дважды. Вы восстанавливаете одно потраченное использование, когда заканчиваете короткий отдых, и восстанавливаете все потраченные использования, когда заканчиваете долгий отдых. Вы получаете дополнительные использования, когда достигаете определённых уровней жреца, как показано в столбце Божественный канал таблицы Умения жреца.\n\nЕсли эффект Божественного канала требует спасброска, СЛ равна СЛ спасброска заклинаний из умения Сотворение заклинаний этого класса.\n\n**Божественная искра.** Действием «Магия» вы направляете священный символ на другое существо, которое видите в пределах 30 футов от себя, и фокусируете на нём божественную энергию. Бросьте 1d8 и добавьте свой модификатор Мудрости. Вы либо восстанавливаете существу количество хитов, равное этой сумме, либо заставляете его совершить спасбросок Телосложения. При провале существо получает некротический урон или урон излучением (на ваш выбор), равный этой сумме. При успехе существо получает половину этого урона (с округлением вниз).\n\nВы бросаете дополнительный d8, когда достигаете 7-го (2d8), 13-го (3d8) и 18-го (4d8) уровня жреца.\n\n**Изгнание нежити.** Действием «Магия» вы представляете свой священный символ и порицаете нежить. Каждая нежить на ваш выбор в пределах 30 футов от вас должна совершить спасбросок Мудрости. Если существо проваливает спасбросок, оно получает состояния Испуганный и Недееспособный на 1 минуту. В течение этого времени оно пытается переместиться как можно дальше от вас в свой ход. Этот эффект заканчивается досрочно для существа, если оно получает какой-либо урон, если вы получаете состояние Недееспособный или если вы умираете.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_channel-divinity",
+          "level": 2,
+          "name": "Channel Divinity",
+          "name_ru": "Божественный канал",
+          "parent": "bfrd_cleric",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_slots-2nd",
+          "feature_type": "SPELL_SLOTS",
+          "level": 3,
+          "name": "2nd",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Choose a subclass that reflects your relationship to your deity, Life, Light, or War (detailed at the end of this class). Your choice grants you spells and other features at 3rd, 7th, 11th, and 15th level.\n\n**Domain Spells.** Each cleric subclass has a list of domain spells that you can access as soon as you can cast spells of that circle (as shown on the Cleric Progression table). Once you gain such a spell, you always have it prepared, and it doesn't count against the number of spells you can prepare. However, casting a domain spell still expends a Divine spell slot as normal.\n\nIf one of these spells isn't on the Divine spell list, it still counts as a Divine spell for you.",
+          "desc_ru": "Вы получаете подкласс жреца на свой выбор. Подкласс Домен жизни описан после описания этого класса. Подкласс — это специализация, которая даёт вам умения на определённых уровнях жреца. До конца вашей карьеры вы получаете каждое умение своего подкласса, которое соответствует вашему уровню жреца или ниже.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_cleric-subclass",
+          "level": 3,
+          "name": "Cleric Subclass",
+          "name_ru": "Подкласс жреца",
+          "parent": "bfrd_cleric",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Choose one of the following improvements (ability scores can't be raised above 20 with this feature):\n- Increase a single ability score by 2.\n- Increase two different ability scores by 1 each.\n- Increase one ability score by 1 and select a talent from the magic talents list.",
+          "desc_ru": "Выберите одно из следующих улучшений (этой особенностью показатели характеристик нельзя поднять выше 20):\n- Увеличить один показатель характеристики на 2.\n- Увеличить два разных показателя характеристик на 1 каждый.\n- Увеличить один показатель характеристики на 1 и выбрать талант из списка магических талантов.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_improvement",
+          "level": 4,
+          "name": "Improvement",
+          "name_ru": "Улучшение",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_slots-3rd",
+          "feature_type": "SPELL_SLOTS",
+          "level": 5,
+          "name": "3rd",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When a Fiend or Undead fails its save against your Turn the Profane feature, it is instantly destroyed if its challenge rating (CR) is at or below a certain threshold, as shown in the Destroy the Profane table.\n\n|Cleric Level|Destroys Fiends or Undead of CR . . .|\n|---|---|\n|5th|1/2 or lower|\n|8th|1 or lower|\n|11th|2 or lower|\n|14th|3 or lower|\n|17th|4 or lower|",
+          "desc_ru": "Когда исчадие или нежить проваливает спасбросок против вашей особенности Обратить скверное, оно мгновенно уничтожается, если его показатель опасности (ПО) равен или ниже определённого порога, как показано в таблице Уничтожить скверное.\n\n|Уровень жреца|Уничтожает исчадий или нежить с ПО . . .|\n|---|---|\n|5-й|1/2 или ниже|\n|8-й|1 или ниже|\n|11-й|2 или ниже|\n|14-й|3 или ниже|\n|17-й|4 или ниже|",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_destroy-the-profane",
+          "level": 5,
+          "name": "Destroy the Profane",
+          "name_ru": "Уничтожить скверное",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_slots-4th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 7,
+          "name": "4th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_slots-5th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 9,
+          "name": "5th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You can call on your deity to intervene on your behalf when your need is great. At the start of your turn, you can request aid from your deity by rolling a d20 and adding your PB. If the result is 19 or lower, your request fails, and your deity doesn't intervene. If the result is 20 or higher, your deity intervenes on your behalf, imbuing you with a fraction of their power.\n\nIf your deity intervenes, you can immediately use your action to cast any spell with a casting time of 1 action from the Divine spell list or your domain spell list, regardless of preparation rules. Casting a spell in this way doesn't expend a spell slot and doesn't require material components. If the spell is of a higher circle than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC for this check equals 10 + the spell's circle. On a failed check, the spell fails, your deity's power fades, and your action is lost.\n\nAlternatively, on a successful intervention, your GM can propose the form of the intervention. Anything that replicates the effects of a Divine spell is appropriate. In this instance, you still use your action but don't cast a spell. You have final say on allowing the GM to pursue this option or choosing your own spell.\n\nIf your deity intervenes, you can't use this feature again for 1 week. Otherwise, you can use it again after you finish a long rest.",
+          "desc_ru": "Вы можете призвать ваше божество вмешаться от вашего имени, когда ваша нужда велика. В начале вашего хода вы можете попросить помощи у вашего божества, бросив к20 и добавив ваш бонус мастерства. Если результат 19 или ниже, ваша просьба проваливается, и ваше божество не вмешивается. Если результат 20 или выше, ваше божество вмешивается от вашего имени, наделяя вас долей своей силы.\n\nЕсли ваше божество вмешивается, вы можете немедленно действием сотворить любое заклинание со временем сотворения 1 действие из списка Божественных заклинаний или вашего списка заклинаний домена, независимо от правил подготовки. Сотворение заклинания этим способом не расходует ячейку заклинаний и не требует материальных компонентов. Если заклинание более высокого круга, чем вы обычно можете творить, вы должны совершить проверку характеристики, используя вашу заклинательную характеристику, чтобы определить, успешно ли вы его творите. Сл этой проверки равна 10 + круг заклинания. При проваленной проверке заклинание проваливается, сила вашего божества угасает, и ваше действие потеряно.\n\nВ качестве альтернативы, при успешном вмешательстве, ваш мастер игры может предложить форму вмешательства. Всё, что воспроизводит эффекты Божественного заклинания, уместно. В этом случае вы по-прежнему используете ваше действие, но не творите заклинание. Вы имеете последнее слово в том, позволить ли мастеру игры выбрать этот вариант или выбрать ваше собственное заклинание.\n\nЕсли ваше божество вмешивается, вы не можете использовать эту особенность снова 1 неделю. В противном случае вы можете использовать её снова после того, как закончите продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_divine-intervention",
+          "level": 9,
+          "name": "Divine Intervention",
+          "name_ru": "Божественное вмешательство",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your commitment to the cleric's path grants you a powerful new ability. Choose one of the following heroic boons:\n- **Gift of Consecration.** You are now immune to disease, poison damage, and the poisoned condition. If you die, your body is instantly preserved as per the gentle repose spell for up to a year and a day.\n- **Gift of Wrath.** Choose either the radiant or necrotic damage type. You are now resistant to damage of the chosen type. In addition, when you cast a spell that deals damage of any type, you can choose for it to deal radiant or necrotic damage instead (you choose which each casting).",
+          "desc_ru": "Ваша приверженность пути жреца даёт вам мощную новую способность. Выберите один из следующих героических даров:\n- Дар освящения. Теперь вы иммунны к болезням, урону ядом и состоянию отравленности. Если вы умрёте, ваше тело мгновенно сохраняется, как по заклинанию посмертный покой, на срок до года и одного дня.\n- Дар гнева. Выберите либо тип урона излучением, либо некротический. Теперь вы устойчивы к урону выбранного типа. Кроме того, когда вы творите заклинание, которое наносит урон любого типа, вы можете выбрать, чтобы оно вместо этого наносило урон излучением или некротический (вы выбираете какой при каждом сотворении).",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_heroic-boon",
+          "level": 10,
+          "name": "Heroic Boon",
+          "name_ru": "Героический дар",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_slots-6th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 11,
+          "name": "6th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_slots-7th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 13,
+          "name": "7th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_slots-8th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 15,
+          "name": "8th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_slots-9th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 17,
+          "name": "9th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your commitment to the cleric's path grants you a powerful new ability. You gain the following epic boon:\n- **Divine Herald.** When you use your Divine Intervention feature, your deity automatically intervenes without a roll, and you no longer have to wait a week before you use Divine Intervention again, though you can still use it only once per long rest. You are still bound by the other restrictions of the feature.",
+          "desc_ru": "Ваша приверженность пути жреца дарует вам мощную новую способность. Вы получаете следующий эпический дар:\n- **Божественный вестник.** Когда вы используете вашу особенность Божественное вмешательство, ваше божество автоматически вмешивается без броска, и вам больше не нужно ждать неделю, прежде чем снова использовать Божественное вмешательство, хотя вы всё ещё можете использовать его только один раз за продолжительный отдых. Вы по-прежнему связаны другими ограничениями особенности.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_epic-boon",
+          "level": 20,
+          "name": "Epic Boon",
+          "name_ru": "Эпический дар",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "|||\n|---|---|\n|Hit Point Die|D8 per Cleric level|\n|Saving Throw Proficiencies|Wisdom and Charisma|\n|Skill Proficiencies|Choose 2: History, Insight, Medicine, Persuasion, Religion|\n|Weapon Proficiencies|Simple weapons|\n|Tool Proficiencies|None|\n|Armor Training|Light armor, medium armor, shields|\n|Starting Equipment|Choose A or B for each: (A) a mace or (B) a warhammer (if proficient); (A) scale mail, (B) leather armor, or (C) chain mail (if proficient); (A) light crossbow and 20 bolts or (B) any simple weapon; (A) a priest's pack or (B) an explorer's pack; plus a shield and a holy symbol|",
+          "desc_ru": "|||\n|---|---|\n|Кость хитов|К8 за уровень жреца|\n|Владение спасбросками|Мудрость и Харизма|\n|Владение навыками|Выберите 2: История, Проницательность, Медицина, Убеждение, Религия|\n|Владение оружием|Простое оружие|\n|Владение инструментами|Нет|\n|Тренировка доспехов|Лёгкие доспехи, средние доспехи, щиты|\n|Начальное снаряжение|Выберите А или Б для каждого: (А) булава или (Б) боевой молот (если владеете); (А) чешуйчатый доспех, (Б) кожаный доспех или (В) кольчуга (если владеете); (А) лёгкий арбалет и 20 болтов или (Б) любое простое оружие; (А) набор священника или (Б) набор путешественника; плюс щит и священный символ|",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric_core-traits",
+          "feature_type": "CORE_TRAITS_TABLE",
+          "name": "Core Cleric Traits",
+          "name_ru": "Основные черты жреца",
+          "parent": "bfrd_cleric",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Cleric",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Cleric",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Таблица: Основные черты жреца\n\n|                               |                                                                                                                          |\n|---|---|\n| Кость Хитов                  | 1к8 за каждый уровень жреца                                                                                              |\n| Хиты на 1-м уровне           | 8 + модификатор Телосложения                                                                                             |\n| Хиты на более высоких уровнях | 1к8 (или 5) + модификатор Телосложения за каждый уровень жреца после 1-го                                                |\n| Владение спасбросками         | Мудрость и Харизма                                                                                                       |\n| Владение навыками             | Выберите 2: История, Проницательность, Медицина, Убеждение или Религия                                                   |\n| Владение оружием              | Простое оружие                                                                                                           |\n| Владение инструментами        | Нет                                                                                                                      |\n| Ношение доспехов              | Лёгкие доспехи, средние доспехи и щиты                                                                                   |",
+      "glossary_version": "v1",
+      "name": "Жрец",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

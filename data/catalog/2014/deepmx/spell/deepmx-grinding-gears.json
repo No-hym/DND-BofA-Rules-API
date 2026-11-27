@@ -1,0 +1,177 @@
+{
+  "attribution": "Title: Deep Magic Extended; Author: Not sure.; Publisher: kobold-press; Source: https://koboldpress.com/deepmagic; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepmx",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepmx_grinding-gears",
+  "id": "o5e:deepmx:spell:deepmx-grinding-gears",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepmx:spell:deepmx-grinding-gears",
+      "o5e:dmag-e:spell:grinding-gears"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "deade84c0aea16acd45831725f2a9e57c02b259da21d4b83bc9a326aae6d6c1a",
+    "formulas": [
+      {
+        "expression": "1d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "duration": "1 minute",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepmx",
+        "content_hash": "deade84c0aea16acd45831725f2a9e57c02b259da21d4b83bc9a326aae6d6c1a",
+        "edition": "2014",
+        "id": "o5e:deepmx:spell:deepmx-grinding-gears",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepmx"
+      },
+      {
+        "book": "dmag-e",
+        "content_hash": "4e1ad81f7e49c78211e1b4c51b53ed9886b338d6604b076045cde588e3dea865",
+        "edition": "2014",
+        "id": "o5e:dmag-e:spell:grinding-gears",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag-e"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_warlock",
+        "type": "classes",
+        "value": [
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "desc": "Deep Magic: clockwork You designate a spot within range, and massive gears emerge from the ground at that spot, creating difficult terrain in a 20-foot radius. Creatures that move in the area must make successful Dexterity saving throws after every 10 feet of movement or when they stand up. Failure indicates that the creature falls prone and takes 1d8 points of bludgeoning damage.",
+      "document": "deepmx",
+      "duration": "1 minute",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "name": "Grinding Gears",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Not sure.",
+      "key": "deepmx",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/deepmagic",
+      "publication_date": "2024-02-14T19:02:02",
+      "publisher": "kobold-press",
+      "title": "Deep Magic Extended"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4814",
+          "parent": "deepmx_grinding-gears",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Grinding Gears",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepmx",
+  "translations": {
+    "en": {
+      "description": "Deep Magic: clockwork You designate a spot within range, and massive gears emerge from the ground at that spot, creating difficult terrain in a 20-foot radius. Creatures that move in the area must make successful Dexterity saving throws after every 10 feet of movement or when they stand up. Failure indicates that the creature falls prone and takes 1d8 points of bludgeoning damage.",
+      "name": "Grinding Gears",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Глубокая магия: заводная. Вы указываете место в пределах дистанции, и массивные шестерни выходят из земли в этом месте, создавая труднопроходимую местность в радиусе 20 футов. Существа, которые двигаются в области, должны совершать успешные спасброски Ловкости после каждых 10 футов перемещения или когда они встают. Провал указывает на то, что существо падает ничком и получает 1к8 дробящего урона.",
+      "glossary_version": "v1",
+      "name": "Скрежещущие шестерни",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

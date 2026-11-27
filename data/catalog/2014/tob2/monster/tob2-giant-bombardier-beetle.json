@@ -1,0 +1,192 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_giant-bombardier-beetle",
+  "id": "o5e:tob2:creature:tob2-giant-bombardier-beetle",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-giant-bombardier-beetle"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f029b81a855e396944294ba7cd596fbf3550ca37fc4fc27f59605bc2d715c352",
+    "formulas": [
+      {
+        "expression": "2d8+4",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 3,
+      "ability_score_constitution": 15,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 10,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "blindsight_range": 30,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [
+        "fire"
+      ],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "2d8+4",
+      "hit_points": 13,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": 4,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "f029b81a855e396944294ba7cd596fbf3550ca37fc4fc27f59605bc2d715c352",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-giant-bombardier-beetle",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 3,
+      "ability_score_constitution": 15,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 10,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "blindsight_range": 30,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "damage_resistances": [
+        "fire"
+      ],
+      "damage_resistances_display": "fire",
+      "document": "tob2",
+      "hit_dice": "2d8+4",
+      "hit_points": 13,
+      "hover": false,
+      "name": "Giant Bombardier Beetle",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "saving_throw_constitution": 4,
+      "size": "medium",
+      "type": "beast",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +4 к попаданию, досягаемость 5 фт., одна цель. Попадание: 5 (1к6+2) рубящего урона.",
+          "external_id": "tob2_giant-bombardier-beetle_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 0,
+          "parent": "tob2_giant-bombardier-beetle",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Ranged Weapon Attack: +4 to hit, range 15/30 ft., one target. Hit: 7 (2d4 + 2) fire damage.",
+          "desc_ru": "Атака оружием дальнего боя: +4 к попаданию, дистанция 15/30 фт., одна цель. Попадание: 7 (2к4+2) огненного урона.",
+          "external_id": "tob2_giant-bombardier-beetle_spray",
+          "name": "Spray",
+          "name_ru": "Спрай",
+          "order_in_statblock": 1,
+          "parent": "tob2_giant-bombardier-beetle",
+          "ru_source": "template"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Giant Bombardier Beetle",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Giant Bombardier Beetle",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Гигантский жук-бомбардир — среди самых удивительных существ, прячущихся на лесной подстилке. Мирное травоядное, довольное заниматься своими делами, жук имеет мощный защитный механизм в форме кипящей жидкости, которую он может распылять, чтобы ошпарить потенциальных хищников, когда он совершает свой побег.\n\nМногие типы жуков населяют мир, и, в зависимости от местоположения и культуры, они используются его людьми как пища, спутники или вьючные животные.",
+      "glossary_version": "v1",
+      "name": "Гигантский жук-бомбардир",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

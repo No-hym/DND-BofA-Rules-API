@@ -1,0 +1,274 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_shocking-grasp",
+  "id": "o5e:srd-2014:spell:srd-shocking-grasp-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-shocking-grasp",
+      "o5e:wotc-srd:spell:shocking-grasp"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7a70ae7c213f8dc365e2208ab6c4f4f341c4bb390a3c092c2c57ce9934cd9f6d",
+    "formulas": [
+      {
+        "expression": "1d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "lightning"
+      ],
+      "duration": "instantaneous",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0.1,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "7a70ae7c213f8dc365e2208ab6c4f4f341c4bb390a3c092c2c57ce9934cd9f6d",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-shocking-grasp",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "92a393c78fa37daa549cfc4d3fad63cd8d9c71726fba3ffa5f9c8bc17df61fb5",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:shocking-grasp",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_sorcerer",
+        "type": "classes",
+        "value": [
+          "srd_sorcerer",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "lightning"
+      ],
+      "desc": "Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can't take reactions until the start of its next turn.",
+      "document": "srd-2014",
+      "duration": "instantaneous",
+      "higher_level": "The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "name": "Shocking Grasp",
+      "range": 0.1,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5982",
+          "parent": "srd_shocking-grasp",
+          "type": "default"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "5987",
+          "parent": "srd_shocking-grasp",
+          "type": "player_level_5"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "5988",
+          "parent": "srd_shocking-grasp",
+          "type": "player_level_6"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "5989",
+          "parent": "srd_shocking-grasp",
+          "type": "player_level_7"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "5990",
+          "parent": "srd_shocking-grasp",
+          "type": "player_level_8"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "5991",
+          "parent": "srd_shocking-grasp",
+          "type": "player_level_9"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "5992",
+          "parent": "srd_shocking-grasp",
+          "type": "player_level_10"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "5993",
+          "parent": "srd_shocking-grasp",
+          "type": "player_level_11"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "5994",
+          "parent": "srd_shocking-grasp",
+          "type": "player_level_12"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "5995",
+          "parent": "srd_shocking-grasp",
+          "type": "player_level_13"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "5996",
+          "parent": "srd_shocking-grasp",
+          "type": "player_level_14"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "5997",
+          "parent": "srd_shocking-grasp",
+          "type": "player_level_15"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "5998",
+          "parent": "srd_shocking-grasp",
+          "type": "player_level_16"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "5999",
+          "parent": "srd_shocking-grasp",
+          "type": "player_level_17"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "6000",
+          "parent": "srd_shocking-grasp",
+          "type": "player_level_18"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "6001",
+          "parent": "srd_shocking-grasp",
+          "type": "player_level_19"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "6002",
+          "parent": "srd_shocking-grasp",
+          "type": "player_level_20"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Shocking Grasp",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:a5e-ag:spell:a5e-ag-shocking-grasp"
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "Lightning springs from your hand to deliver a shock to a creature you try to touch. Make a melee spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can't take reactions until the start of its next turn.",
+      "name": "Shocking Grasp",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Заговор Воплощения (Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** Касание\n\n**Компоненты:** В, С\n\n**Длительность:** Мгновенная\n\nИз вашей руки бьёт молния, ударяя существо, которое вы пытаетесь коснуться. Совершите рукопашную атаку заклинанием по цели. Вы совершаете бросок атаки с преимуществом, если цель носит доспех из металла. При попадании цель получает 1к8 урона электричеством и не может совершать реакции до начала своего следующего хода.\n\n**_Усиление заговора._** Урон этого заклинания увеличивается на 1к8, когда вы достигаете 5-го уровня (2к8), 11-го уровня (3к8) и 17-го уровня (4к8).",
+      "glossary_version": "v1",
+      "name": "Шоковый захват",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,366 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "class",
+  "edition": "2014",
+  "external_id": "bfrd_monk",
+  "id": "o5e:bfrd:characterclass:bfrd-monk",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:characterclass:bfrd-monk",
+      "o5e:srd-2014:characterclass:srd-monk"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "50b46634b396adfbaab9a5aaebf0ad62d5577762021ff162c444fc31e25df8fd",
+    "formulas": [
+      {
+        "expression": "D8",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "NONE",
+      "hit_dice": "D8",
+      "primary_abilities": [],
+      "saving_throws": [
+        "str",
+        "dex"
+      ],
+      "subclass_of": null
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "50b46634b396adfbaab9a5aaebf0ad62d5577762021ff162c444fc31e25df8fd",
+        "edition": "2014",
+        "id": "o5e:bfrd:characterclass:bfrd-monk",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "4da515b6b83ea7703bff0170019a5807002b9b2ec8c6ad1c5649cfeef57e18e9",
+        "edition": "2014",
+        "id": "o5e:srd-2014:characterclass:srd-monk",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "NONE",
+      "document": "bfrd",
+      "hit_dice": "D8",
+      "name": "Monk",
+      "saving_throws": [
+        "str",
+        "dex"
+      ]
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "You have mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the Two-handed or Heavy property. You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield:\n- You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk Progression table.\n- You can use DEX instead of STR for attack and damage rolls of your unarmed strikes and monk weapons.\n- When you are hit by a ranged weapon attack, you can use your reaction to reduce the damage you take from the attack by 1d10 + your DEX modifier + your monk level. If you reduce the damage to 0, you can catch the missile or thrown weapon if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack, with a normal range of 20 feet and a long range of 60 feet.\n- When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.",
+          "desc_ru": "На 1-м уровне ваша практика боевых искусств даёт вам мастерство в боевых стилях, использующих безоружные удары и оружие монаха, к которым относятся короткие мечи и любое простое рукопашное оружие, не обладающее свойствами «двуручное» или «тяжёлое».\n\nВы получаете следующие преимущества, пока вы безоружны или используете только оружие монаха и не носите доспех и не используете щит:\n\n- Вы можете использовать Ловкость вместо Силы для бросков атаки и урона ваших безоружных ударов и оружия монаха.\n- Вы можете бросать к4 вместо обычного урона вашего безоружного удара или оружия монаха. Эта кость изменяется по мере получения уровней монаха, как показано в столбце «Боевые искусства» таблицы монаха.\n- Когда вы в свой ход совершаете действие Атака безоружным ударом или оружием монаха, вы можете совершить один безоружный удар бонусным действием. Например, если вы совершаете действие Атака и атакуете боевым посохом, вы также можете совершить безоружный удар бонусным действием, при условии что вы ещё не совершали бонусное действие в этом ходу.\n\nНекоторые монастыри используют особые формы оружия монаха. Например, вы можете использовать дубинку, которая представляет собой два деревянных бруска, соединённых короткой цепью (так называемые нунчаки), или серп с более коротким и прямым лезвием (так называемая кама). Какое бы название вы ни использовали для оружия монаха, вы можете использовать игровые характеристики, указанные для этого оружия.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_martial-arts",
+          "level": 1,
+          "name": "Martial Arts",
+          "name_ru": "Боевые искусства",
+          "parent": "bfrd_monk",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_martial-arts-die",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Martial Arts",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_monk",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_proficiency-bonus",
+          "feature_type": "PROFICIENCY_BONUS",
+          "level": 1,
+          "name": "Proficiency Bonus",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_monk",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "While you are wearing no armor and not wielding a shield, your AC equals 10 + your DEX modifier + your WIS modifier.",
+          "desc_ru": "Пока вы не носите никакой доспех, ваш Класс Доспеха равен 10 + модификатор Ловкости + модификатор Телосложения. Вы можете использовать щит и по-прежнему получать это преимущество.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_unarmored-defense",
+          "level": 1,
+          "name": "Unarmored Defense",
+          "name_ru": "Защита без доспехов",
+          "parent": "bfrd_monk",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_technique-points",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 2,
+          "name": "Technique Points",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_monk",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your training gives you access to special techniques that allow you to amplify and manipulate the energy within yourself and the environment. Your ability to use this energy is represented by technique points. Your monk level determines the number of points you have, as shown in the Technique Points column of the **Monk Progression** table.\n\nYou can spend these points to fuel various techniques. You start knowing three techniques: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more technique features as you gain levels in this class.\n\nYou recover expended technique points when you finish a short or long rest. You must spend at least 30 minutes of the rest meditating to regain your technique points.\n\nSome of your techniques require your target to make a save to resist the technique's effects. The save DC is calculated as follows:\n\n**Technique save DC** = 8 + your proficiency bonus (PB) + your WIS modifier\n\n## Flurry of Blows\n\nImmediately after you use an action on your turn, you can spend 1 technique point to make two unarmed strikes or make one attack with a monk weapon as a bonus action.\n\n## Patient Defense\n\nYou can spend 1 technique point to take the Dodge action as a bonus action on your turn.\n\n## Step of the Wind\n\nYou can spend 1 technique point to take the Disengage or Dash action as a bonus action on your turn. When you do so, your jump distance is doubled until the start of your next turn.",
+          "desc_ru": "Ваша тренировка даёт вам доступ к особым техникам, которые позволяют вам усиливать и манипулировать энергией внутри себя и окружающей среды. Ваша способность использовать эту энергию представлена очками техники. Ваш уровень монаха определяет количество имеющихся у вас очков, как показано в колонке Очки техники таблицы Прогрессии монаха.\n\nВы можете тратить эти очки, чтобы питать различные техники. Вы начинаете, зная три техники: Шквал ударов, Терпеливая защита и шаг ветра. Вы изучаете больше особенностей техник по мере получения уровней в этом классе.\n\nВы восстанавливаете потраченные очки техники, когда заканчиваете короткий или продолжительный отдых. Вы должны потратить как минимум 30 минут отдыха на медитацию, чтобы восстановить ваши очки техники.\n\nНекоторые из ваших техник требуют, чтобы ваша цель совершила спасбросок, чтобы противостоять эффектам техники. Сл спасброска рассчитывается следующим образом:\n\nСл спасброска техники = 8 + ваш бонус мастерства + ваш модификатор Мудрости\n\n## Шквал ударов\n\nСразу после того как вы используете действие в ваш ход, вы можете потратить 1 очко техники, чтобы совершить два безоружных удара или совершить одну атаку оружием монаха бонусным действием.\n\n## Терпеливая защита\n\nВы можете потратить 1 очко техники, чтобы выполнить действие Уклонение бонусным действием в ваш ход.\n\n## шаг ветра\n\nВы можете потратить 1 очко техники, чтобы выполнить действие Отход или Рывок бонусным действием в ваш ход. Когда вы делаете это, ваша дистанция прыжка удваивается до начала вашего следующего хода.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_techniques",
+          "level": 2,
+          "name": "Techniques",
+          "name_ru": "Техники",
+          "parent": "bfrd_monk",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your speed increases by 10 feet while you aren't wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Monk Progression table.",
+          "desc_ru": "Начиная со 2-го уровня, ваша скорость увеличивается на 10 футов, пока вы не носите доспех и не используете щит. Этот бонус увеличивается при достижении определённых уровней монаха, как показано в таблице монаха.\n\nНа 9-м уровне вы получаете способность перемещаться по вертикальным поверхностям и по жидкостям в свой ход, не падая во время движения.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_unarmored-movement",
+          "level": 2,
+          "name": "Unarmored Movement",
+          "name_ru": "Перемещение без доспехов",
+          "parent": "bfrd_monk",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_unarmored-movement-bonus",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 2,
+          "name": "Unarmored Movement",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_monk",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Choose a subclass that reflects your method for connecting with the energies of the universe, either Flickering Dark or Open Hand (detailed at the end of this class). Your subclass grants you features at 3rd, 7th, 11th, and 15th level.",
+          "desc_ru": "Вы получаете подкласс монаха на свой выбор. Подкласс Воин открытой ладони описан после описания этого класса. Подкласс — это специализация, которая даёт вам умения на определённых уровнях монаха. До конца вашей карьеры вы получаете каждое умение своего подкласса, которое соответствует вашему уровню монаха или ниже.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_monk-subclass",
+          "level": 3,
+          "name": "Monk Subclass",
+          "name_ru": "Подкласс монаха",
+          "parent": "bfrd_monk",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Choose one of the following improvements (ability scores can't be raised above 20 with this feature):\n- Increase a single ability score by 2.\n- Increase two different ability scores by 1 each.\n- Increase one ability score by 1 and select a talent from the martial talents list.",
+          "desc_ru": "Выберите одно из следующих улучшений (этой особенностью показатели характеристик нельзя поднять выше 20):\n- Увеличить один показатель характеристики на 2.\n- Увеличить два разных показателя характеристик на 1 каждый.\n- Увеличить один показатель характеристики на 1 и выбрать талант из списка боевых талантов.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_improvement",
+          "level": 4,
+          "name": "Improvement",
+          "name_ru": "Улучшение",
+          "parent": "bfrd_monk",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your physical prowess has grown. On your turn, you can make two attacks when you take the Attack action.",
+          "desc_ru": "Ваша физическая мощь выросла. В свой ход вы можете совершить две атаки, когда выполняете действие Атака.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_multiattack",
+          "level": 5,
+          "name": "Multiattack",
+          "name_ru": "Мультиатака",
+          "parent": "bfrd_monk",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You can interfere with the flow of energy in an opponent's body. Once per turn, when you successfully hit another creature with an unarmed strike or monk weapon, you can spend 1 technique point to attempt to stun your foe. When you do so, the target takes damage from your attack as normal and then it must succeed on a CON save or be stunned until the end of your next turn. Each time a stunned target takes damage, it can repeat the save, ending the stunned effect on a success.",
+          "desc_ru": "Один раз в ход, когда вы попадаете по существу оружием монаха или безоружным ударом, вы можете потратить 1 очко сосредоточения, чтобы попытаться нанести оглушающий удар. Цель должна совершить спасбросок Телосложения. При провале цель получает состояние Ошеломлённый до начала вашего следующего хода. При успехе скорость цели уменьшается вдвое до начала вашего следующего хода, и следующий бросок атаки по цели до этого момента совершается с преимуществом.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_stunning-strike",
+          "level": 5,
+          "name": "Stunning Strike",
+          "name_ru": "Оглушающий удар",
+          "parent": "bfrd_monk",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+          "desc_ru": "Каждый раз, когда вы наносите урон безоружным ударом, он может наносить урон силовым полем на ваш выбор или свой обычный тип урона.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_empowered-strikes",
+          "level": 6,
+          "name": "Empowered Strikes",
+          "name_ru": "Усиленные удары",
+          "parent": "bfrd_monk",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You can dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a DEX save to take only half damage, you instead take no damage if you succeed on the save and only half damage if you fail.",
+          "desc_ru": "Вы можете уворачиваться от некоторых эффектов по площади, таких как дыхание молний синего дракона или заклинание огненный шар. Когда вы подвергаетесь эффекту, который позволяет совершить спасбросок Ловкости, чтобы получить только половину урона, вместо этого вы не получаете урона при успехе спасброска и только половину урона при провале.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_evasion",
+          "level": 6,
+          "name": "Evasion",
+          "name_ru": "Уклонение",
+          "parent": "bfrd_monk",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "While you aren't wearing armor or wielding a shield, you gain the following benefits:\n- When you fall, you can use your reaction to reduce any falling damage you would take by an amount equal to 5 × your monk level.\n- You can move along vertical surfaces and across liquids on your turn without falling during the move. If you end your movement or if your movement is interrupted while you are standing on a vertical surface or on liquid, you fall as normal.",
+          "desc_ru": "Пока вы не носите доспех и не владеете щитом, вы получаете следующие преимущества:\n- Когда вы падаете, вы можете реакцией уменьшить любой урон от падения, который вы получили бы, на количество, равное 5 × ваш уровень монаха.\n- Вы можете перемещаться вдоль вертикальных поверхностей и через жидкости в свой ход, не падая во время перемещения. Если вы заканчиваете ваше перемещение или если ваше перемещение прерывается, пока вы стоите на вертикальной поверхности или на жидкости, вы падаете как обычно.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_perfect-motion",
+          "level": 9,
+          "name": "Perfect Motion",
+          "name_ru": "Совершенное движение",
+          "parent": "bfrd_monk",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your commitment to the monk's path grants you a powerful new ability. Choose one of the following heroic boons:\n- **Purity of Body.** Your mastery of the energy flowing through your body makes you immune to disease, poison damage, and the poisoned condition. In addition, when you are reduced to 0 HP but not killed outright, you can instantly reset your hit point total to your current number of technique points. You can't recover hit points in this way again until you finish a long rest.\n- **Purity of Mind.** The clearness of your mind gives you advantage on Wisdom saves. As a bonus action, you can end one effect on yourself that is causing you to be charmed or frightened.",
+          "desc_ru": "Ваша приверженность пути монаха даёт вам мощную новую способность. Выберите один из следующих героических даров:\n- Чистота тела. Ваше мастерство энергии, текущей через ваше тело, делает вас иммунным к болезням, урону ядом и состоянию отравленности. Кроме того, когда вы уменьшены до 0 очков хитов, но не убиты мгновенно, вы можете мгновенно сбросить ваш текущий итог очков хитов к вашему текущему количеству очков техники. Вы не можете восстановить очки хитов этим способом снова, пока не закончите продолжительный отдых.\n- Чистота разума. Ясность вашего разума даёт вам преимущество на спасброски Мудрости. бонусным действием вы можете закончить один эффект на себе, который заставляет вас быть очарованным или напуганным.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_heroic-boon",
+          "level": 10,
+          "name": "Heroic Boon",
+          "name_ru": "Героический дар",
+          "parent": "bfrd_monk",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "As an action, you can expend 2 technique points to become proficient in one language, skill, tool, or weapon of your choice until you are incapacitated or use this feature again.",
+          "desc_ru": "Действием вы можете потратить 2 очка техники, чтобы получить владение одним языком, навыком, инструментом или оружием на ваш выбор, пока не будете выведены из строя или не используете эту особенность снова.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_astral-teachings",
+          "level": 13,
+          "name": "Astral Teachings",
+          "name_ru": "Астральные учения",
+          "parent": "bfrd_monk",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your mastery of energy grants you proficiency in all saves. In addition, when you make a save and fail, you can spend 1 technique point to reroll it. You must take the second result.",
+          "desc_ru": "Начиная с 14-го уровня, ваше мастерство Ки даёт вам владение всеми спасбросками.\n\nКроме того, каждый раз, когда вы совершаете спасбросок и проваливаете его, вы можете потратить 1 очко Ки, чтобы перебросить его и принять второй результат.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_diamond-soul",
+          "level": 14,
+          "name": "Diamond Soul",
+          "name_ru": "Алмазная душа",
+          "parent": "bfrd_monk",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your spirit sustains you, body and mind. You gain the following benefits:\n- You can't be magically aged and suffer none of the frailty of old age. You can still die of old age, however.\n- You no longer need food or water.\n- Your ability scores and hit point maximum can't be lowered or reduced by any means short of a wish spell.",
+          "desc_ru": "Ваш дух поддерживает вас, тело и разум. Вы получаете следующие преимущества:\n- Вас нельзя магически состарить, и вы не страдаете от немощи старости. Однако вы всё ещё можете умереть от старости.\n- Вам больше не нужна еда или вода.\n- Ваши показатели характеристик и максимум очков хитов нельзя понизить или уменьшить никакими средствами, кроме заклинания желание.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_timeless-self",
+          "level": 17,
+          "name": "Timeless Self",
+          "name_ru": "Вневременное я",
+          "parent": "bfrd_monk",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You can use your action to spend 4 technique points to become invisible for 1 minute. During that time, you also have resistance to all damage but force damage. In addition, you can spend 8 technique points to cast the astral projection spell as an action (ignoring the standard casting time), without needing material components. When you do so, you can't take any other creatures with you.",
+          "desc_ru": "Начиная с 18-го уровня, вы можете действием потратить 4 очка Ки, чтобы стать невидимым на 1 минуту. В течение этого времени вы также обладаете сопротивлением ко всем видам урона, кроме урона силовым полем.\n\nКроме того, вы можете потратить 8 очков Ки, чтобы сотворить заклинание *проекция в астрал* без материальных компонентов. При этом вы не можете взять с собой других существ.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_empty-body",
+          "level": 18,
+          "name": "Empty Body",
+          "name_ru": "Пустое тело",
+          "parent": "bfrd_monk",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your commitment to the monk's path grants you a powerful new ability. You gain the following epic boon:\n- **Boundless Technique.** When you roll for initiative, you regain up to 4 expended technique points. If you start your turn with no technique points remaining, you regain 2 technique points.",
+          "desc_ru": "Ваша приверженность пути монаха дарует вам мощную новую способность. Вы получаете следующий эпический дар:\n- **Безграничная техника.** Когда вы бросаете инициативу, вы восстанавливаете до 4 потраченных очков техники. Если вы начинаете свой ход без оставшихся очков техники, вы восстанавливаете 2 очка техники.",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_epic-boon",
+          "level": 20,
+          "name": "Epic Boon",
+          "name_ru": "Эпический дар",
+          "parent": "bfrd_monk",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "|||\n|---|---|\n|Hit Point Die|D8 per Monk level|\n|Saving Throw Proficiencies|Strength and Dexterity|\n|Skill Proficiencies|Choose 2: Acrobatics, Athletics, History, Insight, Religion, Stealth|\n|Weapon Proficiencies|Simple weapons, shortswords|\n|Tool Proficiencies|One of your choice|\n|Armor Training|None|\n|Starting Equipment|Choose A or B for each: (A) any simple weapon; (A) a dungeoneer's pack or (B) an explorer's pack; (A) 10 darts or (B) a sling|",
+          "desc_ru": "|||\n|---|---|\n|Кость хитов|К8 за уровень монаха|\n|Владения спасбросками|Сила и Ловкость|\n|Владения навыками|Выберите 2: Акробатика, Атлетика, История, Проницательность, Религия, Скрытность|\n|Владения оружием|Простое оружие, короткие мечи|\n|Владения инструментами|Один на ваш выбор|\n|Подготовка доспехов|Нет|\n|Стартовое снаряжение|Выберите А или Б для каждого: (А) любое простое оружие; (А) набор исследователя подземелий или (Б) набор путешественника; (А) 10 дротиков или (Б) праща|",
+          "document": "bfrd",
+          "external_id": "bfrd_monk_core-traits",
+          "feature_type": "CORE_TRAITS_TABLE",
+          "name": "Core Monk Traits",
+          "name_ru": "Основные черты монаха",
+          "parent": "bfrd_monk",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Monk",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Monk",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Таблица: Основные черты монаха\n\n|                            |                                                                                              |\n|---|---|\n| Основная характеристика    | Ловкость и Мудрость                                                                          |\n| Кость Хитов                | d8 за каждый уровень монаха                                                                  |\n| Владение спасбросками      | Сила и Ловкость                                                                              |\n| Владение навыками          | Выберите 2: Акробатика, Атлетика, История, Проницательность, Религия или Скрытность          |\n| Владение оружием           | Простое оружие и воинское оружие со свойством Лёгкое                                         |\n| Владение инструментами     | Выберите один вид инструментов ремесленника или музыкальный инструмент (смотрите «Снаряжение») |\n| Владение доспехами         | Нет                                                                                          |\n| Начальное снаряжение       | Выберите А или Б: (А) Копьё, 5 кинжалов, инструменты ремесленника или музыкальный инструмент, выбранные выше, набор путешественника и 11 зм; или (Б) 50 зм |",
+      "glossary_version": "v1",
+      "name": "Монах",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

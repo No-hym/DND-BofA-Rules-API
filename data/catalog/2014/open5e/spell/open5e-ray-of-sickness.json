@@ -1,0 +1,209 @@
+{
+  "attribution": "Title: Open5e Originals; Author: Ean Moody, Various; Publisher: open5e; Source: https://open5e.com/; License: OGL-1.0a (https://open5e.com/legal); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "open5e",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "open5e_ray-of-sickness",
+  "id": "o5e:open5e:spell:open5e-ray-of-sickness",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:o5e:spell:ray-of-sickness",
+      "o5e:open5e:spell:open5e-ray-of-sickness"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "90456ed3b58e9e24eaea956903ba4e0f419d058fc94cad53a0bb952dbb581153",
+    "formulas": [
+      {
+        "expression": "2d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "2d8",
+      "damage_types": [
+        "poison"
+      ],
+      "duration": "instantaneous",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "open5e",
+        "content_hash": "90456ed3b58e9e24eaea956903ba4e0f419d058fc94cad53a0bb952dbb581153",
+        "edition": "2014",
+        "id": "o5e:open5e:spell:open5e-ray-of-sickness",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:open5e"
+      },
+      {
+        "book": "o5e",
+        "content_hash": "4ae3c5f41a6b6afef70bda6a0d67f04fb28fac86b3648fb5de08859c76711331",
+        "edition": "2014",
+        "id": "o5e:o5e:spell:ray-of-sickness",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:o5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "2d8",
+      "damage_types": [
+        "poison"
+      ],
+      "desc": "A ray of green light appears at your fingertip, arcing towards a target within range.\n\nMake a ranged spell attack against the target. On a hit, the target takes 2d8 poison damage and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn.\n\n*(This Open5e spell replaces a like-named non-SRD spell from an official source.*",
+      "document": "open5e",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Ray of Sickness",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Ean Moody, Various",
+      "key": "open5e",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://open5e.com/",
+      "publication_date": "2024-02-15T02:15:19",
+      "publisher": "open5e",
+      "title": "Open5e Originals"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "6140",
+          "parent": "open5e_ray-of-sickness",
+          "type": "default"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "6142",
+          "parent": "open5e_ray-of-sickness",
+          "type": "slot_level_2"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "6143",
+          "parent": "open5e_ray-of-sickness",
+          "type": "slot_level_3"
+        },
+        {
+          "damage_roll": "5d8",
+          "external_id": "6144",
+          "parent": "open5e_ray-of-sickness",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "6d8",
+          "external_id": "6145",
+          "parent": "open5e_ray-of-sickness",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "7d8",
+          "external_id": "6146",
+          "parent": "open5e_ray-of-sickness",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "8d8",
+          "external_id": "6147",
+          "parent": "open5e_ray-of-sickness",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "9d8",
+          "external_id": "6148",
+          "parent": "open5e_ray-of-sickness",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "10d8",
+          "external_id": "6149",
+          "parent": "open5e_ray-of-sickness",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Ray of Sickness",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "open5e",
+  "source": "open5e:v2:open5e",
+  "translations": {
+    "en": {
+      "description": "A ray of green light appears at your fingertip, arcing towards a target within range.\n\nMake a ranged spell attack against the target. On a hit, the target takes 2d8 poison damage and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn.\n\n*(This Open5e spell replaces a like-named non-SRD spell from an official source.*",
+      "name": "Ray of Sickness",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Некромантия 1-го уровня (Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В, С\n\n**Длительность:** Мгновенная\n\nВы стреляете зеленоватым лучом в существо в пределах дистанции. Совершите дальнобойную атаку заклинанием против цели. При попадании цель получает 2d8 урона ядом и получает состояние «Отравленный» до конца вашего следующего хода.\n\n**_Использование ячейки более высокого уровня._** Урон увеличивается на 1d8 за каждый уровень ячейки выше 1-го.",
+      "glossary_version": "v1",
+      "name": "Луч болезни",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,167 @@
+{
+  "attribution": "Title: Deep Magic Extended; Author: Not sure.; Publisher: kobold-press; Source: https://koboldpress.com/deepmagic; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepmx",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepmx_read-memory",
+  "id": "o5e:deepmx:spell:deepmx-read-memory",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepmx:spell:deepmx-read-memory",
+      "o5e:dmag-e:spell:read-memory"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "335cf1b921e899e55161462333eab8a48d53ec7deb207f72caa4c41b606f7617",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "10minutes",
+      "classes": [
+        "srd_bard",
+        "srd_cleric",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "divination",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepmx",
+        "content_hash": "335cf1b921e899e55161462333eab8a48d53ec7deb207f72caa4c41b606f7617",
+        "edition": "2014",
+        "id": "o5e:deepmx:spell:deepmx-read-memory",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepmx"
+      },
+      {
+        "book": "dmag-e",
+        "content_hash": "a8b016a62a542d758b9434a5e02da40ddee229f96a012c58050cdd7ac2f0035e",
+        "edition": "2014",
+        "id": "o5e:dmag-e:spell:read-memory",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag-e"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "classes",
+        "value": [
+          "srd_bard",
+          "srd_cleric",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "10minutes",
+      "classes": [
+        "srd_bard",
+        "srd_cleric",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "desc": "Deep Magic: clockwork You copy the memories of one memory gear into your own mind. You recall these memories as if you had experienced them but without any emotional attachment or context.",
+      "document": "deepmx",
+      "duration": "instantaneous",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "name": "Read Memory",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "school": "divination",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Not sure.",
+      "key": "deepmx",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/deepmagic",
+      "publication_date": "2024-02-14T19:02:02",
+      "publisher": "kobold-press",
+      "title": "Deep Magic Extended"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4883",
+          "parent": "deepmx_read-memory",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Read Memory",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepmx",
+  "translations": {
+    "en": {
+      "description": "Deep Magic: clockwork You copy the memories of one memory gear into your own mind. You recall these memories as if you had experienced them but without any emotional attachment or context.",
+      "name": "Read Memory",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Глубокая магия: часовой механизм. Вы копируете воспоминания одного механизма памяти в свой собственный разум. Вы вспоминаете эти воспоминания, как если бы вы испытали их, но без любой эмоциональной привязанности или контекста.",
+      "glossary_version": "v1",
+      "name": "Чтение памяти",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

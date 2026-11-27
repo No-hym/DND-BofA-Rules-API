@@ -1,0 +1,191 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_conjure-animals",
+  "id": "o5e:srd-2024:spell:srd-2024-conjure-animals",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "2b8f9d976fdbaf9175feb886d6f14b1a5914426f12967fc91d2839d3fcc48b26",
+    "formulas": [
+      {
+        "expression": "3d10",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_druid",
+        "srd-2024_ranger"
+      ],
+      "concentration": true,
+      "damage_roll": "3d10",
+      "damage_types": [
+        "slashing"
+      ],
+      "duration": "10 minutes",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_druid",
+        "type": "classes",
+        "value": [
+          "srd-2024_druid",
+          "srd-2024_ranger"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_druid",
+        "srd-2024_ranger"
+      ],
+      "concentration": true,
+      "damage_roll": "3d10",
+      "damage_types": [
+        "slashing"
+      ],
+      "desc": "You conjure nature spirits that appear as a Large pack of spectral, intangible animals in an unoccupied space you can see within range. The pack lasts for the duration, and you choose the spirits' animal form, such as wolves, serpents, or birds. You have Advantage on Strength saving throws while you're within 5 feet of the pack, and when you move on your turn, you can also move the pack up to 30 feet to an unoccupied space you can see. Whenever the pack moves within 10 feet of a creature you can see and whenever a creature you can see enters a space within 10 feet of the pack or ends its turn there, you can force that creature to make a Dexterity saving throw. On a failed save, the creature takes 3d10 Slashing damage. A creature makes this save only once per turn.",
+      "document": "srd-2024",
+      "duration": "10 minutes",
+      "higher_level": "The damage increases by 1d10 for each spell slot level above 3.",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "name": "Conjure Animals",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "damage_roll": "4d10",
+          "external_id": "10125",
+          "parent": "srd-2024_conjure-animals",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "5d10",
+          "external_id": "10126",
+          "parent": "srd-2024_conjure-animals",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "6d10",
+          "external_id": "10127",
+          "parent": "srd-2024_conjure-animals",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "7d10",
+          "external_id": "10128",
+          "parent": "srd-2024_conjure-animals",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "8d10",
+          "external_id": "10129",
+          "parent": "srd-2024_conjure-animals",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "9d10",
+          "external_id": "10130",
+          "parent": "srd-2024_conjure-animals",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Conjure Animals",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "You conjure nature spirits that appear as a Large pack of spectral, intangible animals in an unoccupied space you can see within range. The pack lasts for the duration, and you choose the spirits' animal form, such as wolves, serpents, or birds. You have Advantage on Strength saving throws while you're within 5 feet of the pack, and when you move on your turn, you can also move the pack up to 30 feet to an unoccupied space you can see. Whenever the pack moves within 10 feet of a creature you can see and whenever a creature you can see enters a space within 10 feet of the pack or ends its turn there, you can force that creature to make a Dexterity saving throw. On a failed save, the creature takes 3d10 Slashing damage. A creature makes this save only once per turn.",
+      "name": "Conjure Animals",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Вызов 3-го уровня (Друид, Следопыт)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В, С\n\n**Длительность:** Концентрация, вплоть до 1 час\n\nВы призываете духов фей, которые принимают облик зверей и появляются в свободных пространствах, которые вы видите в пределах дистанции. Выберите один из следующих вариантов того, что появится:\n\n- Один зверь с показателем опасности 2 или ниже\n- Два зверя с показателем опасности 1 или ниже\n- Четыре зверя с показателем опасности 1/2 или ниже\n- Восемь зверей с показателем опасности 1/4 или ниже\n\nКаждый зверь также считается феей и исчезает, когда его хиты опускаются до 0 или когда заклинание заканчивается.\n\nПризванные существа дружественны к вам и вашим спутникам. Бросьте инициативу за призванных существ как за группу, которая действует в свои ходы. Они подчиняются любым вашим словесным командам (не требует действия). Если вы не отдаёте им команд, они защищаются от враждебных существ, но в остальном не предпринимают никаких действий.\n\nМастер располагает параметрами существ.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя определённые ячейки заклинаний более высокого уровня, вы выбираете один из вариантов призыва выше, и появляется больше существ: вдвое больше с ячейкой 5-го уровня, втрое больше с ячейкой 7-го уровня и вчетверо больше с ячейкой 9-го уровня.",
+      "glossary_version": "v1",
+      "name": "Призыв животных",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

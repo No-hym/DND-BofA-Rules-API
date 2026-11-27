@@ -1,0 +1,139 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "dread-knight-a5e",
+  "id": "o5e:menagerie:monster:dread-knight-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:dread-knight-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c14a4fa3fc37feee0ef7279c11233eb140606925fbdcfc0ef0a5369051c406f3",
+    "formulas": [
+      {
+        "expression": "25d8+150",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 18,
+      "challenge_rating": "19",
+      "condition_immunities": "charmed, fatigue, frightened, poisoned, stunned",
+      "damage_immunities": "cold, fire, necrotic, poison",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "25d8+150",
+      "hit_points": 262,
+      "languages": "the languages it knew in life",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "c14a4fa3fc37feee0ef7279c11233eb140606925fbdcfc0ef0a5369051c406f3",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:dread-knight-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Cursed Greatsword\", \"desc\": \"Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage plus 14 (4d6) necrotic damage  and the targets hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0.\"}, {\"name\": \"Fire Blast (1/Day)\", \"desc\": \"A fiery mote streaks from the dread knights finger to a point within 120 feet and blossoms into a 20-foot-radius sphere of black fire which spreads around corners. Each creature within the area makes a DC 16 Dexterity saving throw  taking 63 (18d6) fire damage on a failed saving throw or half damage on a success. This damage ignores fire resistance and treats immunity to fire damage as fire resistance.\"}, {\"name\": \"Ice Wall (1/Day)\", \"desc\": \"The dread knight magically creates a wall of ice on a solid surface it can see within 60 feet. The wall is flat  1 foot thick  and can be up to 50 feet long and 15 feet high. The wall lasts for 1 minute or until destroyed. Each 10-foot section has AC 12  30 hit points  vulnerability to fire damage  and immunity to cold  necrotic  poison  and psychic damage.\"}, {\"name\": \"If the wall enters a creatures space when it appears, the creature is pushed to one side of the wall (creatures choice)\", \"desc\": \"The creature then makes a DC 16 Dexterity saving throw  taking 49 (14d6) cold damage on a successful save or half damage on a success.\"}, {\"name\": \"Soul Wrack (1/Day)\", \"desc\": \"A creature within 60 feet makes a DC 16 Constitution saving throw  taking 70 (20d6) necrotic damage and falling prone on a failed save or taking half damage on a success.\"}, {\"name\": \"Summon Fiendish Steed (1/Day)\", \"desc\": \"A fell nightmare or wyvern magically appears in an empty space within 5 feet. The steed follows the dread knights commands and acts on its turn. It may attack on the turn on which it is summoned. It remains until the dread knight dismisses it as an action or it is killed.\"}]",
+      "armor_class": 18,
+      "bonus_actions_json": "[{\"name\": \"Cursed Greatsword\", \"desc\": \"The dread knight makes a cursed greatsword attack.\"}, {\"name\": \"Break Magic\", \"desc\": \"The dread knight ends all spell effects created by a 5th-level or lower spell slot on a creature, object, or point within 30 feet.\"}]",
+      "challenge_rating": "19",
+      "charisma": 20,
+      "charisma_save": 11,
+      "condition_immunities": "charmed, fatigue, frightened, poisoned, stunned",
+      "constitution": 22,
+      "constitution_save": 12,
+      "cr": 19.0,
+      "damage_immunities": "cold, fire, necrotic, poison",
+      "dexterity": 16,
+      "dexterity_save": 9,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "25d8+150",
+      "hit_points": 262,
+      "intelligence": 14,
+      "intelligence_save": 8,
+      "languages": "the languages it knew in life",
+      "legendary_actions_json": "null",
+      "name": "Dread Knight",
+      "page_no": 184,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "truesight 60 ft., passive Perception 20",
+      "size": "Medium",
+      "skills_json": "{\"history\": 8, \"intimidation\": 11, \"perception\": 10}",
+      "special_abilities_json": "[{\"name\": \"Undead Nature\", \"desc\": \"A dread knight doesnt require air, sustenance, or sleep.\"}, {\"name\": \"Unholy Aura\", \"desc\": \"The dread knight and allies within 30 feet have advantage on saving throws against spells and other magic effects and against features that turn undead. Other creatures of the dread knights choice within 30 feet have disadvantage on saving throws against spells and other magic effects.\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 22,
+      "type": "Undead",
+      "wisdom": 18,
+      "wisdom_save": 10
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Dread Knight",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-dread-knight"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Dread Knight",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Средняя нежить. Класс доспеха: 18. Хиты: 262 (25к8+150). Иммунитет к урону: холодом, огнём, некротической энергией, ядом. Иммунитет к состояниям: очарование, fatigue, испуг, отравление, оглушение. Показатель опасности: 19.",
+      "glossary_version": "derived-v1",
+      "name": "Дреад рыцарь",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

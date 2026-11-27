@@ -1,0 +1,139 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "death-vulture",
+  "id": "o5e:tob2:monster:death-vulture-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:death-vulture"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7b82c433e0252fc5bca7e911d6b0f4621b172e4c1f0e1444e23681fded1c0636",
+    "formulas": [
+      {
+        "expression": "8d10+32",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral evil",
+      "armor_class": 12,
+      "challenge_rating": "4",
+      "condition_immunities": "poisoned",
+      "damage_immunities": "necrotic, poison",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "8d10+32",
+      "hit_points": 76,
+      "languages": "understands Common but can’t speak",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "7b82c433e0252fc5bca7e911d6b0f4621b172e4c1f0e1444e23681fded1c0636",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:death-vulture",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The death vulture makes two attacks: one with its beak and one with its talons.\"}, {\"name\": \"Beak\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) piercing damage.\", \"attack_bonus\": 6, \"damage_dice\": \"2d4+4\"}, {\"name\": \"Talons\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.\", \"attack_bonus\": 6, \"damage_dice\": \"2d6+4\"}, {\"name\": \"Decaying Breath (Recharge 6)\", \"desc\": \"The vulture breathes necrotic energy in a 15-foot cone. Each creature in that area must make a DC 14 Constitution saving throw, taking 22 (4d10) necrotic damage on a failed save, or half as much damage on a successful one. Creatures that fail this saving throw by 5 or more also age a number of years equal to half the damage taken.\"}]",
+      "alignment": "neutral evil",
+      "armor_class": 12,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "4",
+      "charisma": 7,
+      "condition_immunities": "poisoned",
+      "constitution": 18,
+      "constitution_save": 6,
+      "cr": 4.0,
+      "damage_immunities": "necrotic, poison",
+      "desc": "The putrid stench of death wafts off a grotesquely muscled vulture with glowing green eyes. It opens its mouth in a shrill call, rotting meat dripping from its beak._  \nDeath vultures are giant birds transformed by their diet of undead flesh.  \n**Mutated Monstrosities.** When a giant vulture gorges on undead flesh, the necromantic magic suffused in the meal warps and changes the bird’s body. The vulture’s muscles bulge in odd places, making it stronger and tougher, its eyes burn with green fire, and it reeks of rot, earning these mutated monsters the name “death vultures.” The vulture also gains the ability to regurgitate necromantic energy, which can cause the flesh of living creatures to decay and age rapidly.  \n**Massive Meat Appetites.** Death vultures have incredible appetites and are far more willing to attack live prey than other vultures. They have a special taste for rotting flesh, and they use their decaying breath weapon to “season” their foes with necrotic energy before using their talons and beaks to tear apart their quarry.  \n**Necromancer Neighbors.** Death vultures often form kettles near the lairs of necromancers as they feed on their undead creations. While some necromancers find the birds to be a nuisance, many necromancers feed the vultures, encouraging them to stay. Most death vultures are willing to trade service as guardians of the lairs for food.",
+      "dexterity": 10,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "8d10+32",
+      "hit_points": 76,
+      "intelligence": 6,
+      "languages": "understands Common but can’t speak",
+      "legendary_actions_json": "null",
+      "name": "Death Vulture",
+      "page_no": 81,
+      "perception": 3,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 13",
+      "size": "Large",
+      "skills_json": "{\"perception\": 3}",
+      "special_abilities_json": "[{\"name\": \"Awful Stench\", \"desc\": \"The vulture has a disgusting body odor. Any creature that starts its turn within 5 feet of the vulture must succeed on a DC 14 Constitution saving throw or be poisoned until the start of its next turn.\"}, {\"name\": \"Keen Sight and Smell\", \"desc\": \"The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell.\"}, {\"name\": \"Pack Tactics\", \"desc\": \"The vulture has advantage on attack rolls against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't incapacitated.\"}]",
+      "speed_json": "{\"fly\": 60, \"walk\": 10}",
+      "spells_json": "null",
+      "strength": 18,
+      "type": "Monstrosity",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Death Vulture",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-death-vulture"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "The putrid stench of death wafts off a grotesquely muscled vulture with glowing green eyes. It opens its mouth in a shrill call, rotting meat dripping from its beak._  \nDeath vultures are giant birds transformed by their diet of undead flesh.  \n**Mutated Monstrosities.** When a giant vulture gorges on undead flesh, the necromantic magic suffused in the meal warps and changes the bird’s body. The vulture’s muscles bulge in odd places, making it stronger and tougher, its eyes burn with green fire, and it reeks of rot, earning these mutated monsters the name “death vultures.” The vulture also gains the ability to regurgitate necromantic energy, which can cause the flesh of living creatures to decay and age rapidly.  \n**Massive Meat Appetites.** Death vultures have incredible appetites and are far more willing to attack live prey than other vultures. They have a special taste for rotting flesh, and they use their decaying breath weapon to “season” their foes with necrotic energy before using their talons and beaks to tear apart their quarry.  \n**Necromancer Neighbors.** Death vultures often form kettles near the lairs of necromancers as they feed on their undead creations. While some necromancers find the birds to be a nuisance, many necromancers feed the vultures, encouraging them to stay. Most death vultures are willing to trade service as guardians of the lairs for food.",
+      "name": "Death Vulture",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Гнилой запах смерти исходит от гротескно мускулистого стервятника со светящимися зелёными глазами. Оно открывает свой рот в пронзительном крике, гнилое мясо капает из его клюва.\n\nСтервятники смерти — гигантские птицы, трансформированные их диетой из неживой плоти.\n\n**Мутировавшие чудовища.** Когда гигантский стервятник обжирается неживой плотью, некромантическая магия, наполняющая еду, искажает и меняет тело птицы. Мышцы стервятника выпячиваются в странных местах, делая его более сильным и выносливым, его глаза горят зелёным огнём, и оно воняет гнилью, зарабатывая этим мутировавшим монстрам имя «стервятники смерти». Стервятник также получает способность извергать некромантическую энергию, которая может заставлять плоть живых существ разлагаться и стареть быстро.\n\n**Массивные мясные аппетиты.** У стервятников смерти невероятные аппетиты и они гораздо более желающие атаковать живую добычу, чем другие стервятники. У них особый вкус к гниющей плоти, и они используют своё разлагающееся дыхательное оружие, чтобы «приправлять» своих врагов некротической энергией, прежде чем использовать свои когти и клювы, чтобы разрывать их добычу.\n\n**Некромантические соседи.** Стервятники смерти часто формируют группы вблизи логовищ некромантов, когда они питаются их неживыми созданиями. Хотя некоторые некроманты находят птиц неприятностью, многие некроманты кормят стервятников, поощряя их оставаться. Большинство стервятников смерти желают обменивать службу как стражи логовищ на пищу.",
+      "glossary_version": "v1",
+      "name": "Стервятник смерти",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,213 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_black-swan-storm",
+  "id": "o5e:deepm:spell:deepm-black-swan-storm",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-black-swan-storm",
+      "o5e:dmag:spell:black-swan-storm"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f607fb97607612f711177319688eb820db063b342a89ce83a95d7c94ea558933",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a feather from a black swan",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": 5,
+      "shape_size_unit": null,
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "f607fb97607612f711177319688eb820db063b342a89ce83a95d7c94ea558933",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-black-swan-storm",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "e03eb5d041f237e6250ed3bc088501a657268efa3750257a91fb9bbeeec33689",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:black-swan-storm",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_sorcerer",
+        "type": "classes",
+        "value": [
+          "srd_sorcerer",
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "desc": "You call forth a whirlwind of black feathers that fills a 5-foot cube within range. The feathers deal 2d8 force damage to creatures in the cube’s area and radiate darkness, causing the illumination level within 20 feet of the cube to drop by one step (from bright light to dim light, and from dim light to darkness). Creatures that make a successful Dexterity saving throw take half the damage and are still affected by the change in light.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the feathers deal an extra 1d8 force damage for each slot level above 2nd.",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a feather from a black swan",
+      "name": "Black Swan Storm",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": 5,
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2451",
+          "parent": "deepm_black-swan-storm",
+          "type": "default"
+        },
+        {
+          "external_id": "2453",
+          "parent": "deepm_black-swan-storm",
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "2454",
+          "parent": "deepm_black-swan-storm",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "2455",
+          "parent": "deepm_black-swan-storm",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "2456",
+          "parent": "deepm_black-swan-storm",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "2457",
+          "parent": "deepm_black-swan-storm",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "2458",
+          "parent": "deepm_black-swan-storm",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2459",
+          "parent": "deepm_black-swan-storm",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Black Swan Storm",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You call forth a whirlwind of black feathers that fills a 5-foot cube within range. The feathers deal 2d8 force damage to creatures in the cube’s area and radiate darkness, causing the illumination level within 20 feet of the cube to drop by one step (from bright light to dim light, and from dim light to darkness). Creatures that make a successful Dexterity saving throw take half the damage and are still affected by the change in light.",
+      "name": "Black Swan Storm",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы призываете вихрь чёрных перьев, который заполняет куб 5 футов в пределах дистанции. Перья наносят 2к8 силового урона существам в области куба и излучают темноту, заставляя уровень освещения в пределах 20 футов от куба упасть на один шаг (от яркого света к тусклому свету, и от тусклого света к темноте). Существа, которые совершают успешный спасбросок Ловкости, получают половину урона и всё ещё поражены изменением света.",
+      "glossary_version": "v1",
+      "name": "Шторм чёрного лебедя",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

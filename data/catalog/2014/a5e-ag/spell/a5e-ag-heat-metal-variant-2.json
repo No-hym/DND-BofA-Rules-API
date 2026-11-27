@@ -1,0 +1,209 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_heat-metal",
+  "id": "o5e:a5e-ag:spell:a5e-ag-heat-metal-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-heat-metal",
+      "o5e:a5e:spell:heat-metal-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "1bde96aa0719198ddb29f6c171e5b61218578bd48c315a2bd76fc35bcaec121f",
+    "formulas": [
+      {
+        "expression": "2d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "2d8",
+      "damage_types": [
+        "fire"
+      ],
+      "duration": "1 minute",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "1bde96aa0719198ddb29f6c171e5b61218578bd48c315a2bd76fc35bcaec121f",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-heat-metal",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "b175c24a4b6b884df301ff2a6be824049364332432f059900c4f23320c87dad9",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:heat-metal-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "2d8",
+      "damage_types": [
+        "fire"
+      ],
+      "desc": "The target becomes oven hot. Any creature touching the target takes 2d8 fire damage when the spell is cast. Until the spell ends, on subsequent turns you can use a bonus action to inflict the same damage. If a creature is holding or wearing the target and suffers damage, it makes a Constitution saving throw or it drops the target. If a creature does not or cannot drop the target, it has disadvantage on attack rolls and ability checks until the start of your next turn.",
+      "document": "a5e-ag",
+      "duration": "1 minute",
+      "higher_level": "The damage increases by 1d8 for each slot level above 2nd.",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "name": "Heat Metal",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "1415",
+          "parent": "a5e-ag_heat-metal",
+          "type": "default"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "1417",
+          "parent": "a5e-ag_heat-metal",
+          "type": "slot_level_3"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "1418",
+          "parent": "a5e-ag_heat-metal",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "5d8",
+          "external_id": "1419",
+          "parent": "a5e-ag_heat-metal",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "6d8",
+          "external_id": "1420",
+          "parent": "a5e-ag_heat-metal",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "7d8",
+          "external_id": "1421",
+          "parent": "a5e-ag_heat-metal",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "8d8",
+          "external_id": "1422",
+          "parent": "a5e-ag_heat-metal",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "9d8",
+          "external_id": "1423",
+          "parent": "a5e-ag_heat-metal",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Heat Metal",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:srd-2014:spell:srd-heat-metal"
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "The target becomes oven hot. Any creature touching the target takes 2d8 fire damage when the spell is cast. Until the spell ends, on subsequent turns you can use a bonus action to inflict the same damage. If a creature is holding or wearing the target and suffers damage, it makes a Constitution saving throw or it drops the target. If a creature does not or cannot drop the target, it has disadvantage on attack rolls and ability checks until the start of your next turn.",
+      "name": "Heat Metal",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Преобразование 2-го уровня (Бард, Друид)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В, С, М (кусок железа и пламя)\n\n**Длительность:** Концентрация, вплоть до 1 минуту\n\nВыберите изготовленный металлический предмет, такой как металлическое оружие или комплект тяжёлого или среднего металлического доспеха, который видите в пределах дистанции. Вы заставляете предмет раскалиться докрасна. Любое существо, находящееся в физическом контакте с предметом, получает 2к8 урона огнём при сотворении заклинания. Пока заклинание не закончится, вы можете бонусным действием в каждый свой последующий ход наносить этот урон снова.\n\nЕсли существо держит или носит предмет и получает от него урон, оно должно преуспеть в спасброске Телосложения, иначе оно роняет предмет, если может. Если оно не роняет предмет, оно совершает броски атаки и проверки характеристик с помехой до начала вашего следующего хода.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 3-го уровня или выше, урон увеличивается на 1к8 за каждый уровень ячейки выше 2-го.",
+      "glossary_version": "v1",
+      "name": "Раскалённый металл",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

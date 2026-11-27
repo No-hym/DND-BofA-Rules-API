@@ -1,0 +1,171 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "bfrd_life-domain",
+  "id": "o5e:bfrd:characterclass:bfrd-life-domain-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:characterclass:bfrd-life-domain"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "ed87d9e4d4643cdf7c4d1ebc6c2c30ec2fcaec2a80c5bf912626d6712cdfc3ea",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "bfrd_cleric"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "ed87d9e4d4643cdf7c4d1ebc6c2c30ec2fcaec2a80c5bf912626d6712cdfc3ea",
+        "edition": "2014",
+        "id": "o5e:bfrd:characterclass:bfrd-life-domain",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "bfrd_cleric",
+        "type": "subclass_of",
+        "value": "bfrd_cleric"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Gods of the Life domain celebrate natural cycles of life and death, exemplifying health and vitality. Devotees of this domain are encouraged to heal the wounded, care for the sick, and oppose the perversion of undeath.",
+      "document": "bfrd",
+      "name": "Life Domain",
+      "subclass_of": "bfrd_cleric"
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "You gain the following Channel Divinity option.\n\n**Channel Divinity: Preserve Life.** As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to 5 × your cleric level.\n\nChoose any creatures within 30 feet of you and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum.\n\nThis healing has no effect on Undead or Constructs.",
+          "desc_ru": "Вы получаете следующий вариант Божественного канала.\n\nБожественный канал: Сохранить жизнь. Действием вы предъявляете ваш священный символ и призываете исцеляющую энергию, которая может восстановить количество очков хитов, равное 5 × ваш уровень жреца.\n\nВыберите любых существ в пределах 30 футов от вас и разделите эти очки хитов между ними. Эта особенность может восстановить существо не более чем до половины его максимума очков хитов.\n\nЭто исцеление не действует на Нежить или Конструктов.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric-life-domain_channel-divinity-preserve-life",
+          "level": 3,
+          "name": "Channel Divinity: Preserve Life",
+          "name_ru": "Божественный канал: сохранить жизнь",
+          "parent": "bfrd_life-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your healing spells are more effective. When you use a Divine spell of 1st circle or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's circle.",
+          "desc_ru": "Когда заклинание, которое вы творите с использованием ячейки заклинания, восстанавливает хиты существу, это существо восстанавливает дополнительные хиты в ход, когда вы творите заклинание. Дополнительные хиты равны 2 плюс уровень ячейки заклинания.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric-life-domain_disciple-of-life",
+          "level": 3,
+          "name": "Disciple of Life",
+          "name_ru": "Послушник жизни",
+          "parent": "bfrd_life-domain",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain domain spells at the cleric levels listed in the Life Domain Spells table. See the Cleric Subclass class feature for how these spells work.\n\n|Cleric Level|Spells|\n|---|---|\n|3rd|bless, cure wounds, gentle repose, restoration|\n|5th|mass healing word, revivify|\n|7th|death ward, guardian of faith|\n|9th|greater restoration, mass cure wounds|",
+          "desc_ru": "Ваша связь с этим божественным доменом гарантирует, что у вас всегда подготовлены определённые заклинания. Когда вы достигаете уровня жреца, указанного в таблице Заклинания домена жизни, у вас с этого момента всегда подготовлены перечисленные заклинания.\n\nТаблица: Заклинания домена жизни\n\n| Уровень жреца | Подготовленные заклинания                             |\n|---|---|\n| 3             | Помощь, Благословение, Лечение ран, Малое восстановление |\n| 5             | Массовое целебное слово, Возвращение к жизни                |\n| 7             | Аура жизни, Защита от смерти                        |\n| 9             | Высшее восстановление, Массовое исцеление ран        |",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric-life-domain_life-domain-spells",
+          "level": 3,
+          "name": "Life Domain Spells",
+          "name_ru": "Заклинания домена жизни",
+          "parent": "bfrd_life-domain",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Healing spells you cast on others heal you as well. When you cast a Divine spell of 1st circle or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's circle.",
+          "desc_ru": "Исцеляющие заклинания, которые вы творите на других, исцеляют и вас. Когда вы творите божественное заклинание 1-го круга или выше, которое восстанавливает очки хитов существу, кроме вас, вы восстанавливаете очки хитов, равные 2 + круг заклинания.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric-life-domain_blessed-healer",
+          "level": 7,
+          "name": "Blessed Healer",
+          "name_ru": "Благословенный целитель",
+          "parent": "bfrd_life-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "The Preserve Life effect of your Channel Divinity feature can now affect any creatures within 60 feet of you. In addition, when you use Preserve Life, one target of your choice can also receive one of the following benefits:\n- Cure all diseases affecting the target.\n- End one of the following conditions affecting the target: blinded, deafened, paralyzed, or poisoned.\n- Neutralize all poisons affecting the target.",
+          "desc_ru": "Эффект Сохранить жизнь вашей особенности Божественный канал теперь может воздействовать на любых существ в пределах 60 футов от вас. Кроме того, когда вы используете Сохранить жизнь, одна цель на ваш выбор может также получить одно из следующих преимуществ:\n- Вылечить все болезни, действующие на цель.\n- Закончить одно из следующих состояний, действующих на цель: ослеплённость, оглушённость, парализованность или отравленность.\n- Нейтрализовать все яды, действующие на цель.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric-life-domain_greater-preservation",
+          "level": 11,
+          "name": "Greater Preservation",
+          "name_ru": "Большее сохранение",
+          "parent": "bfrd_life-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you cast a Divine spell of 1st circle or higher that restores hit points, you automatically restore the maximum possible number of hit points. For example, if a cure wounds spell heals 1d8 + 3 hit points, rather than rolling, the target heals 11 hit points.",
+          "desc_ru": "Когда вы творите божественное заклинание 1-го круга или выше, которое восстанавливает очки хитов, вы автоматически восстанавливаете максимально возможное количество очков хитов. Например, если заклинание лечение ран исцеляет 1к8 + 3 очка хитов, вместо броска цель исцеляет 11 очков хитов.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric-life-domain_perfect-healing",
+          "level": 15,
+          "name": "Perfect Healing",
+          "name_ru": "Совершенное исцеление",
+          "parent": "bfrd_life-domain",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "assembled_features": 2,
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "Life Domain",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    },
+    "variant_of": "o5e:srd-2014:characterclass:srd-life-domain"
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "Gods of the Life domain celebrate natural cycles of life and death, exemplifying health and vitality. Devotees of this domain are encouraged to heal the wounded, care for the sick, and oppose the perversion of undeath.",
+      "name": "Life Domain",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Домен жизни сосредоточен на живительной позитивной энергии — одной из фундаментальных сил вселенной, — которая поддерживает всё живое. Боги жизни способствуют жизнеспособности и здоровью, исцеляя больных и раненых, заботясь о нуждающихся и изгоняя силы смерти и нежити. Почти любое не-злое божество может претендовать на влияние в этом домене, особенно аграрные божества (такие как Чонтия, Аравай и Деметра), солнечные боги (такие как Латандер, Пелор и Ре-Горахти), боги исцеления или выносливости (такие как Ильматер, Мишакаль, Аполлон и Дианцехт), а также боги домашнего очага и общины (такие как Гестия, Хатор и Болдрей).\n\nТаблица: Заклинания домена жизни\n\n| Уровень жреца | Заклинания                                             |\n|---|---|\n| 1              | благословение, лечение ран                             |\n| 3              | малое восстановление, духовное оружие                  |\n| 5              | маяк надежды, возвращение к жизни                      |\n| 7              | защита от смерти, страж веры                           |\n| 9              | массовое исцеление ран, воскрешение мёртвых            |\n\n### Уровень 3: Послушник жизни\n\nКогда заклинание, которое вы творите с использованием ячейки заклинания, восстанавливает хиты существу, это существо восстанавливает дополнительные хиты в ход, когда вы творите заклинание. Дополнительные хиты равны 2 плюс уровень ячейки заклинания.\n\n### Уровень 3: Заклинания домена жизни\n\nВаша связь с этим божественным доменом гарантирует, что у вас всегда подготовлены определённые заклинания. Когда вы достигаете уровня жреца, указанного в таблице Заклинания домена жизни, у вас с этого момента всегда подготовлены перечисленные заклинания.\n\nТаблица: Заклинания домена жизни\n\n| Уровень жреца | Подготовленные заклинания                             |\n|---|---|\n| 3             | Помощь, Благословение, Лечение ран, Малое восстановление |\n| 5             | Массовое целебное слово, Возвращение к жизни                |\n| 7             | Аура жизни, Защита от смерти                        |\n| 9             | Высшее восстановление, Массовое исцеление ран        |",
+      "glossary_version": "v1",
+      "name": "Домен жизни",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

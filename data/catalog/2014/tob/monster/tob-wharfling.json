@@ -1,0 +1,202 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob_wharfling",
+  "id": "o5e:tob:creature:tob-wharfling",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creature:tob-2023-wharfling",
+      "o5e:tob:creature:tob-wharfling"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b5ecd7d8c7fa729f5b8384fe4217069e4fae095a009504caaaf6a7e96ee9c99f",
+    "formulas": [
+      {
+        "expression": "4d4 - 4",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 8,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 4,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.125",
+      "climb": 30,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [
+        "ocean"
+      ],
+      "fly": null,
+      "hit_dice": "4d4 - 4",
+      "hit_points": 6,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "tiny",
+      "skill_bonus_acrobatics": null,
+      "swim": 20,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "b5ecd7d8c7fa729f5b8384fe4217069e4fae095a009504caaaf6a7e96ee9c99f",
+        "edition": "2014",
+        "id": "o5e:tob:creature:tob-wharfling",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "6bf43c53d581c83529bb1989d0298dce7401839f88d145b8eeb6da9bd56d7e0b",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creature:tob-2023-wharfling",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 8,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 4,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "category": "Monsters",
+      "challenge_rating": "0.125",
+      "climb": 30,
+      "darkvision_range": 60,
+      "document": "tob",
+      "environments": [
+        "ocean"
+      ],
+      "hit_dice": "4d4 - 4",
+      "hit_points": 6,
+      "hover": false,
+      "languages_desc": "-",
+      "name": "Wharfling",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "size": "tiny",
+      "skill_bonus_perception": 3,
+      "swim": 20,
+      "type": "beast",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target is grappled (escape DC 10). Until this grapple ends, the wharfling can't use its bite on another target. While the target is grappled, the wharfling's bite attack hits it automatically.",
+          "desc_ru": "Действие «Укус»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_wharfling_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 0,
+          "parent": "tob_wharfling",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "A wharfling that has an opponent grappled at the start of its turn can make a Dexterity (Sleight of Hand) check as a bonus action. The DC for this check equals 10 plus the grappled target's Dexterity modifier. If the check is successful, the wharfling steals some small metallic object from the target, and the theft is unnoticed if the same result equals or exceeds the target's passive Perception. A wharfling flees with its treasure.",
+          "desc_ru": "Действие «Пилфер»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_wharfling_pilfer",
+          "name": "Pilfer",
+          "name_ru": "Пилфер",
+          "order_in_statblock": 1,
+          "parent": "tob_wharfling",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Wharfling",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Wharfling",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Безволосый, уродливый и обычно капающий водой, причальчик — ночной рейдер и любит воровать у торговцев рыбой и ювелиров одинаково.\n\n**Водные стаи.** У причальчиков большие, перепончатые руки и ноги и огромные рты. Искусный ловец рыбы, причальчики устраивают логова рядом с берегами океанов, озёр и рек, и они часто двигаются в семейных группах по 3 или более.\n\n**Вороватые негодяи.** Те, кто был укушен причальчиком, правильно боятся их игольчатых зубов, но большинство прибрежных сообществ ненавидят животное больше за его склонность к воровству. Их логова неизменно заполнены украденными металлическими безделушками.",
+      "glossary_version": "v1",
+      "name": "Причальчик",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

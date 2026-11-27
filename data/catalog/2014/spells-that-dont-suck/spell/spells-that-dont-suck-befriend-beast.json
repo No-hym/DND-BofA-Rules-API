@@ -1,0 +1,212 @@
+{
+  "attribution": "Title: Spells That Don't Suck; Author: Ben Somers / somanyrobots, Omega Ankh; Publisher: somanyrobots; Source: https://www.somanyrobots.com/s/Spells-That-Dont-Suck-compressed.pdf; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "spells-that-dont-suck",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "spells-that-dont-suck_befriend-beast",
+  "id": "o5e:spells-that-dont-suck:spell:spells-that-dont-suck-befriend-beast",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "1d421857560904e32182c383e64d6307a7471943ca2a7d4f631c581104a09ecc",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "ritual",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_druid",
+        "srd_ranger"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 hour",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": 0,
+      "material_specified": "a biscuit baked out of meat and grain",
+      "range": 30,
+      "range_text": "30 ft",
+      "range_unit": "ft",
+      "ritual": true,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "somatic": true,
+      "target_count": "1",
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "classes",
+        "value": [
+          "srd_bard",
+          "srd_druid",
+          "srd_ranger"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_druid",
+        "srd_ranger"
+      ],
+      "concentration": false,
+      "desc": "You magically persuade a beast that you are a trusted ally. Choose a beast that you can see within range, which must be able to see and hear you. The beast must succeed on a Wisdom saving throw or be charmed by you for the spell’s duration. Beasts with Intelligence 4 or higher automatically succeed. If you or one of your companions harms the target, the spell ends.\n\nWhile charmed in this way, the beast is willing to perform simple tasks on your behalf, including scouting locations, finding things, or delivering objects. If asked to deliver a message, it can understand locations and a general description of a target, though it cannot reliably find an individual. A beast delivering a message typically covers 1 mile per hour walking, or 2 miles per hour if it can fly.",
+      "document": "spells-that-dont-suck",
+      "duration": "1 hour",
+      "higher_level": "If you cast this spell using a spell slot of 2nd level, the duration of the spell increases to 24 hours. If you use a spell slot of 3rd level or higher, you can either increase the duration by another 24 hours for each slot level above 2nd or affect one additional beast for each slot level above 2nd.",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": 0,
+      "material_specified": "a biscuit baked out of meat and grain",
+      "name": "Befriend Beast",
+      "range": 30,
+      "range_text": "30 ft",
+      "range_unit": "ft",
+      "ritual": true,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "somatic": true,
+      "target_count": "1",
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Ben Somers / somanyrobots, Omega Ankh",
+      "key": "spells-that-dont-suck",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://www.somanyrobots.com/s/Spells-That-Dont-Suck-compressed.pdf",
+      "publication_date": "2025-03-30T00:00:00",
+      "publisher": "somanyrobots",
+      "title": "Spells That Don't Suck"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "10719",
+          "parent": "spells-that-dont-suck_befriend-beast",
+          "type": "default"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "10720",
+          "parent": "spells-that-dont-suck_befriend-beast",
+          "type": "slot_level_2"
+        },
+        {
+          "desc": "Duration increases to 48 hours, or target 1 additional beast per slot level above 2nd (1 additional beasts).",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10721",
+          "parent": "spells-that-dont-suck_befriend-beast",
+          "ru_source": "derived",
+          "type": "slot_level_3"
+        },
+        {
+          "desc": "Duration increases to 72 hours, or target 1 additional beast per slot level above 2nd (2 additional beasts).",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10722",
+          "parent": "spells-that-dont-suck_befriend-beast",
+          "ru_source": "derived",
+          "type": "slot_level_4"
+        },
+        {
+          "desc": "Duration increases to 96 hours, or target 1 additional beast per slot level above 2nd (3 additional beasts).",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10723",
+          "parent": "spells-that-dont-suck_befriend-beast",
+          "ru_source": "derived",
+          "type": "slot_level_5"
+        },
+        {
+          "desc": "Duration increases to 120 hours, or target 1 additional beast per slot level above 2nd (4 additional beasts).",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10724",
+          "parent": "spells-that-dont-suck_befriend-beast",
+          "ru_source": "derived",
+          "type": "slot_level_6"
+        },
+        {
+          "desc": "Duration increases to 144 hours, or target 1 additional beast per slot level above 2nd (5 additional beasts).",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10725",
+          "parent": "spells-that-dont-suck_befriend-beast",
+          "ru_source": "derived",
+          "type": "slot_level_7"
+        },
+        {
+          "desc": "Duration increases to 168 hours, or target 1 additional beast per slot level above 2nd (6 additional beasts).",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10726",
+          "parent": "spells-that-dont-suck_befriend-beast",
+          "ru_source": "derived",
+          "type": "slot_level_8"
+        },
+        {
+          "desc": "Duration increases to 192 hours, or target 1 additional beast per slot level above 2nd (7 additional beasts).",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10727",
+          "parent": "spells-that-dont-suck_befriend-beast",
+          "ru_source": "derived",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Befriend Beast",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "somanyrobots",
+  "source": "open5e:v2:spells-that-dont-suck",
+  "translations": {
+    "en": {
+      "description": "You magically persuade a beast that you are a trusted ally. Choose a beast that you can see within range, which must be able to see and hear you. The beast must succeed on a Wisdom saving throw or be charmed by you for the spell’s duration. Beasts with Intelligence 4 or higher automatically succeed. If you or one of your companions harms the target, the spell ends.\n\nWhile charmed in this way, the beast is willing to perform simple tasks on your behalf, including scouting locations, finding things, or delivering objects. If asked to deliver a message, it can understand locations and a general description of a target, though it cannot reliably find an individual. A beast delivering a message typically covers 1 mile per hour walking, or 2 miles per hour if it can fly.",
+      "name": "Befriend Beast",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы магически убеждаете зверя, что вы доверенный союзник. Выберите зверя, которого видите в пределах дистанции, который должен быть способен вас видеть и слышать. Зверь должен преуспеть в спасброске Мудрости, иначе станет очарованным вами на время действия заклинания. Звери с Интеллектом 4 или выше автоматически преуспевают. Если вы или один из ваших спутников вредит цели, заклинание заканчивается.\n\nБудучи очарованным таким образом, зверь согласен выполнять простые задачи от вашего имени, включая разведку мест, поиск вещей или доставку предметов. Если его попросят доставить сообщение, он может понимать места и общее описание цели, хотя не может надёжно найти особь. Зверь, доставляющий сообщение, обычно покрывает 1 милю в час пешком или 2 мили в час, если может летать.",
+      "glossary_version": "v1",
+      "name": "Дружба со зверем",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

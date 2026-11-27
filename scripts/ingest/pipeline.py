@@ -9,6 +9,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from .cards import read_records, write_catalog_cards
 from .dedupe import deduplicate
 from .model import Entity, Translation, from_record, slug
 from .open5e import Open5eAdapter
@@ -111,7 +112,7 @@ def build(snapshot_root: Path, legacy_root: Path | None = None,
     for path in sorted(legacy_root.rglob("*.json")):
         if path.name.endswith(".schema.json"):
             continue
-        for record in json.loads(path.read_text(encoding="utf-8")):
+        for record in read_records(path):
             en = (record.get("translations", {}).get("en") or {}).get("name", "")
             legacy_ids[(record.get("edition", ""), record.get("category", ""), slug(en.lower()))] = record["id"]
 
@@ -176,8 +177,12 @@ def build(snapshot_root: Path, legacy_root: Path | None = None,
                     "partial": not entity.translations.get("ru", Translation("", "")).description.strip(),
                 })
             catalog[entity.category].append(record)
-        for category, records in catalog.items():
-            _write_json(DATA / "catalog" / edition / f"{category}.json", records, compact=True)
+        # One folder per book/supplement and category, one file per record
+        # ("card"): data/catalog/<edition>/<book>/<category>/<slug>.json
+        write_catalog_cards(
+            DATA / "catalog" / edition,
+            [record for records in catalog.values() for record in records],
+        )
         for layer, data in (("normalized", normalized), ("translated", translated_layer)):
             _write_jsonl_gz(DATA / layer / edition / f"{layer}.jsonl.gz",
                             [record for records in data.values() for record in records])

@@ -1,0 +1,237 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_trollkin-raider",
+  "id": "o5e:tob2:creature:tob2-trollkin-raider",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-trollkin-raider"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "9b895c2270a2bf87bde6903800a24d1c8b990596a66306d1f2ad0a1236878b1d",
+    "formulas": [
+      {
+        "expression": "5d8+10",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 10,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 9,
+      "ability_score_strength": 12,
+      "ability_score_wisdom": 12,
+      "alignment": "neutral",
+      "armor_class": 14,
+      "armor_detail": "hide armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "1.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "5d8+10",
+      "hit_points": 32,
+      "initiative_bonus": null,
+      "languages": [
+        "common"
+      ],
+      "languages_desc": "Common, Trollkin",
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "9b895c2270a2bf87bde6903800a24d1c8b990596a66306d1f2ad0a1236878b1d",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-trollkin-raider",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 10,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 9,
+      "ability_score_strength": 12,
+      "ability_score_wisdom": 12,
+      "alignment": "neutral",
+      "armor_class": 14,
+      "armor_detail": "hide armor",
+      "category": "Monsters",
+      "challenge_rating": "1.000",
+      "darkvision_range": 60,
+      "document": "tob2",
+      "hit_dice": "5d8+10",
+      "hit_points": 32,
+      "hover": false,
+      "languages": [
+        "common"
+      ],
+      "languages_desc": "Common, Trollkin",
+      "name": "Trollkin Raider",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "size": "medium",
+      "skill_bonus_insight": 3,
+      "skill_bonus_nature": 1,
+      "skill_bonus_perception": 3,
+      "skill_bonus_survival": 3,
+      "type": "humanoid",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +3 к попаданию, досягаемость 5 фт., одна цель. Попадание: 3 (1к4+1) колющего урона.",
+          "external_id": "tob2_trollkin-raider_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "tob2_trollkin-raider",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) slashing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +3 к попаданию, досягаемость 5 фт., одна цель. Попадание: 3 (1к4+1) рубящего урона.",
+          "external_id": "tob2_trollkin-raider_claw",
+          "name": "Claw",
+          "name_ru": "Коготь",
+          "order_in_statblock": 2,
+          "parent": "tob2_trollkin-raider",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The trollkin makes two spear attacks or one bite attack and two claw attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_trollkin-raider_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_trollkin-raider",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.",
+          "desc_ru": "Действие «Копьё»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_trollkin-raider_spear",
+          "name": "Spear",
+          "name_ru": "Копьё",
+          "order_in_statblock": 3,
+          "parent": "tob2_trollkin-raider",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The trollkin regains 1 hp at the start of its turn. If the trollkin takes acid or fire damage, this trait doesn’t function at the start of the trollkin’s next turn. The trollkin dies only if it starts its turn with 0 hp and doesn’t regenerate.",
+          "desc_ru": "Особенность «Регенератион». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_trollkin-raider_regeneration",
+          "name": "Regeneration",
+          "name_ru": "Регенератион",
+          "parent": "tob2_trollkin-raider",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The trollkin’s skin is thick and tough, granting it a +1 bonus to Armor Class. This bonus is included in the trollkin’s AC.",
+          "desc_ru": "Особенность «Тик Хиде». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_trollkin-raider_thick-hide",
+          "name": "Thick Hide",
+          "name_ru": "Тик Хиде",
+          "parent": "tob2_trollkin-raider",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Trollkin Raider",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Trollkin Raider",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крики эхом разносятся в ночи, когда копья встречаются с деревом и плотью. Один троллькин вытаскивает копье из своей последней жертвы, в то время как его спутник совершает набег на кладовую жертвы.\n\nТролкинские налетчики жадные и эффективные, двигаются вместе под командованием лидера тролкин, чтобы разобрать деревню, караван или небольшую крепость. Их целью, как правило, является продовольствие и переносные богатства. Их обучение в качестве подразделения не является обширным, но рейдеры знают, доверяют и сражаются друг за друга.\n\n**Ночные атаки.** Тролльские налетчики атакуют быстрой, ночной группой, часто используя группу запаниковавших животных или пожар в качестве отвлекающего манёвра в одном месте, в то время как они атакуют в другом месте. Их нападения никогда не дневных атак по открытой местности; они гораздо предпочитают внезапность и неразбериха ночных атак.\n\n**Конные или River Routes.** В то время как рейдеры тролкина могут долго миль прогуливаться через тайгу или леса, они гораздо prefer ехать лошадей или плыть вверх по реке. Это даёт им как скорость, так и возможность нести больше добычи.",
+      "glossary_version": "v1",
+      "name": "Налётчик тролльего рода",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

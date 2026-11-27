@@ -1,0 +1,132 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.; RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "goblin-boss-a5e",
+  "id": "o5e:menagerie:monster:goblin-boss-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:goblin-boss-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "feb61c048ebb54c36abbbcb228316bfd8103a8ce064410eae485d55e23b91245",
+    "formulas": [
+      {
+        "expression": "7d6",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 16,
+      "challenge_rating": "1",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "7d6",
+      "hit_points": 24,
+      "languages": "Common, Goblin",
+      "size": "Small"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "feb61c048ebb54c36abbbcb228316bfd8103a8ce064410eae485d55e23b91245",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:goblin-boss-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The goblin attacks twice with its scimitar.\"}, {\"name\": \"Scimitar\", \"desc\": \"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.\"}, {\"name\": \"Shortbow\", \"desc\": \"Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.\"}, {\"name\": \"Command Minions\", \"desc\": \"Up to 3 goblins within 30 feet that can hear or see it use their reactions to make a single melee attack each.\"}]",
+      "armor_class": 16,
+      "bonus_actions_json": "[{\"name\": \"Nimble Escape\", \"desc\": \"The goblin takes the Disengage or Hide action.\"}]",
+      "challenge_rating": "1",
+      "charisma": 12,
+      "constitution": 10,
+      "cr": 1.0,
+      "dexterity": 14,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "7d6",
+      "hit_points": 24,
+      "intelligence": 12,
+      "languages": "Common, Goblin",
+      "legendary_actions_json": "null",
+      "name": "Goblin Boss",
+      "page_no": 250,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 11",
+      "size": "Small",
+      "skills_json": "{\"stealth\": 4, \"intimidation\": 3}",
+      "special_abilities_json": "null",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 12,
+      "type": "Humanoid",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Goblin Boss",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-goblin-boss"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Goblin Boss",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Маленький гуманоид. Класс доспеха: 16. Хиты: 24 (7к6). Показатель опасности: 1.",
+      "glossary_version": "derived-v1",
+      "name": "Гоблин-босс",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

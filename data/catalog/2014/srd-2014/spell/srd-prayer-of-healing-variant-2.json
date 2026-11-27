@@ -1,0 +1,213 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_prayer-of-healing",
+  "id": "o5e:srd-2014:spell:srd-prayer-of-healing-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-prayer-of-healing",
+      "o5e:wotc-srd:spell:prayer-of-healing"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "4a1443d2ebcfce35e7dbfb3ed99e5bc2f874792b2fdca8dc4d76a8f97319a93e",
+    "formulas": [
+      {
+        "expression": "2d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "10minutes",
+      "classes": [
+        "srd_cleric"
+      ],
+      "concentration": false,
+      "damage_roll": "2d8",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 6,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "4a1443d2ebcfce35e7dbfb3ed99e5bc2f874792b2fdca8dc4d76a8f97319a93e",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-prayer-of-healing",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "d4786314397ca514dfc2003c9a3edfbac4a074a7048d1a6378230050d627625a",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:prayer-of-healing",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "10minutes",
+      "classes": [
+        "srd_cleric"
+      ],
+      "concentration": false,
+      "damage_roll": "2d8",
+      "desc": "Up to six creatures of your choice that you can see within range each regain hit points equal to 2d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
+      "document": "srd-2014",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d8 for each slot level above 2nd.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Prayer of Healing",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "evocation",
+      "somatic": false,
+      "target_count": 6,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5853",
+          "parent": "srd_prayer-of-healing",
+          "type": "default"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "10865",
+          "parent": "srd_prayer-of-healing",
+          "type": "slot_level_3"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "10866",
+          "parent": "srd_prayer-of-healing",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "5d8",
+          "external_id": "10867",
+          "parent": "srd_prayer-of-healing",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "6d8",
+          "external_id": "10868",
+          "parent": "srd_prayer-of-healing",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "7d8",
+          "external_id": "10869",
+          "parent": "srd_prayer-of-healing",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "8d8",
+          "external_id": "10870",
+          "parent": "srd_prayer-of-healing",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "9d8",
+          "external_id": "10871",
+          "parent": "srd_prayer-of-healing",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Prayer of Healing",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:a5e-ag:spell:a5e-ag-prayer-of-healing"
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "Up to six creatures of your choice that you can see within range each regain hit points equal to 2d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
+      "name": "Prayer of Healing",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 2-го уровня (Жрец)*\n\n**Время накладывания:** 10 минут\n\n**Дистанция:** 30 футов\n\n**Компоненты:** В\n\n**Длительность:** Мгновенная\n\nДо шести существ по вашему выбору, которых вы видите в пределах дистанции, восстанавливают количество хитов, равное 2к8 + ваш модификатор базовой характеристики заклинателя. Это заклинание не действует на нежить и конструктов.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 3-го уровня или выше, исцеление увеличивается на 1к8 за каждый уровень ячейки выше 2-го.",
+      "glossary_version": "v1",
+      "name": "Молитва исцеления",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

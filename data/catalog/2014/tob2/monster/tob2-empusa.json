@@ -1,0 +1,245 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_empusa",
+  "id": "o5e:tob2:creature:tob2-empusa",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-empusa"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "678d8b1302769bdf6ea7755d842d61073986b4a7dadfcd6cbb8672c24abd4bfe",
+    "formulas": [
+      {
+        "expression": "12d8+48",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 19,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 13,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 20,
+      "ability_score_wisdom": 14,
+      "alignment": "chaotic evil",
+      "armor_class": 16,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "5.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "12d8+48",
+      "hit_points": 102,
+      "initiative_bonus": null,
+      "languages": [
+        "common"
+      ],
+      "languages_desc": "Common",
+      "normal_sight_range": 10560,
+      "passive_perception": 15,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": 7,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": 6,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 40
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "678d8b1302769bdf6ea7755d842d61073986b4a7dadfcd6cbb8672c24abd4bfe",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-empusa",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 19,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 13,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 20,
+      "ability_score_wisdom": 14,
+      "alignment": "chaotic evil",
+      "armor_class": 16,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "5.000",
+      "darkvision_range": 60,
+      "document": "tob2",
+      "hit_dice": "12d8+48",
+      "hit_points": 102,
+      "hover": false,
+      "languages": [
+        "common"
+      ],
+      "languages_desc": "Common",
+      "name": "Empusa",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 15,
+      "saving_throw_charisma": 7,
+      "saving_throw_wisdom": 6,
+      "size": "medium",
+      "skill_bonus_deception": 7,
+      "skill_bonus_perception": 5,
+      "skill_bonus_stealth": 4,
+      "type": "monstrosity",
+      "walk": 40,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +8 к попаданию, досягаемость 5 фт., одна цель. Попадание: 14 (2к8+5) рубящего урона.",
+          "external_id": "tob2_empusa_claw",
+          "name": "Claw",
+          "name_ru": "Коготь",
+          "order_in_statblock": 1,
+          "parent": "tob2_empusa",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage, and the target must succeed on a DC 15 Strength saving throw or be pushed up to 10 feet away from the empusa and knocked prone.",
+          "desc_ru": "Действие «Кик»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_empusa_kick",
+          "name": "Kick",
+          "name_ru": "Кик",
+          "order_in_statblock": 2,
+          "parent": "tob2_empusa",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The empusa makes two claw attacks, or one claw attack and one kick attack.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_empusa_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_empusa",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "In the first round of combat, the empusa has advantage on attack rolls against any creature she has surprised.",
+          "desc_ru": "Особенность «Амбушер». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_empusa_ambusher",
+          "name": "Ambusher",
+          "name_ru": "Амбушер",
+          "parent": "tob2_empusa",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The empusa’s claw and kick attacks are magical.",
+          "desc_ru": "Особенность «Магикал Коппер». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_empusa_magical-copper",
+          "name": "Magical Copper",
+          "name_ru": "Магикал Коппер",
+          "parent": "tob2_empusa",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The empusa can take the Dash or Disengage action as a bonus action on each of her turns.",
+          "desc_ru": "Особенность «Нимбле воин». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_empusa_nimble-fighter",
+          "name": "Nimble Fighter",
+          "name_ru": "Нимбле воин",
+          "parent": "tob2_empusa",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The empusa can use her action to polymorph into a Small or Medium beast that has a challenge rating no higher than her own, or back into her true form. Her statistics, other than her size, are the same in each form. While transformed, at least one of her limbs has a coppery color. Any equipment she is wearing or carrying isn’t transformed. She reverts to her true form if she dies.",
+          "desc_ru": "Особенность «Оборотень». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_empusa_shapechanger",
+          "name": "Shapechanger",
+          "name_ru": "Оборотень",
+          "parent": "tob2_empusa",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Empusa",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Empusa",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Чудовищная женщина с когтями и копытами сверкающей меди, существо подкрадывается к дорогам и просекам между городами, стремясь убить и сожрать любого, кто наткнётся на её путь.\n\n**Проклятие путешественников.** Дальние родственники ламия, страшные эмпусы исключительно женского пола. Они используют свои сверхъестественные способности, чтобы охотиться и поглощать плоть тех, кто путешествует по пустынным дорогам и просекам между поселениями. В то время как эмпусы не боятся солнечного света, они, как правило, охотятся по ночам, возвращаясь в пещеры и руины в течение дня, чтобы пировать теми, кого они убили. Когда путешественники недоступны, эмпусы охотятся на пастухов и фермеров, маскируясь под коз или ослов, чтобы приблизиться к своим целям.\n\n**Медные копыта.** Ноги и копыта эмпузы чрезвычайно мощные и обшиты магически закалённой медью, позволяющей ей наносить быстрые и мощные удары ногами и двигаться с большой скоростью. Эту медь можно собрать, когда эмпуса будет убита, и она часто используется при изготовлении магических сапог и посохов.",
+      "glossary_version": "v1",
+      "name": "Эмпуса",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

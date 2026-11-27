@@ -1,0 +1,198 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_lock-armor",
+  "id": "o5e:deepm:spell:deepm-lock-armor",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-lock-armor",
+      "o5e:dmag:spell:lock-armor"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "0a02c7a27000bc1f4accc02215fca86491a44696ab8c378439aca3c6a67a3393",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a pinch of rust and metal shavings",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "0a02c7a27000bc1f4accc02215fca86491a44696ab8c378439aca3c6a67a3393",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-lock-armor",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "22cbe4f7f838d7115e587326e6db587694ed01a2791a484012a4c3464fd11019",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:lock-armor",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "You target a piece of metal equipment or a metal construct. If the target is a creature wearing metal armor or is a construct, it makes a Wisdom saving throw to negate the effect. On a failed save, the spell causes metal to cling to metal, making it impossible to move pieces against each other. This effectively paralyzes a creature that is made of metal or that is wearing metal armor with moving pieces; for example, scale mail would lock up because the scales must slide across each other, but a breastplate would be unaffected. Limited movement might still be possible, depending on how extensive the armor is, and speech is usually not affected. Metal constructs are paralyzed. An affected creature or construct can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A grease spell dispels lock armor on everything in its area.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a pinch of rust and metal shavings",
+      "name": "Lock Armor",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3729",
+          "parent": "deepm_lock-armor",
+          "type": "default"
+        },
+        {
+          "external_id": "3731",
+          "parent": "deepm_lock-armor",
+          "target_count": 2,
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "3732",
+          "parent": "deepm_lock-armor",
+          "target_count": 3,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "3733",
+          "parent": "deepm_lock-armor",
+          "target_count": 4,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "3734",
+          "parent": "deepm_lock-armor",
+          "target_count": 5,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3735",
+          "parent": "deepm_lock-armor",
+          "target_count": 6,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3736",
+          "parent": "deepm_lock-armor",
+          "target_count": 7,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3737",
+          "parent": "deepm_lock-armor",
+          "target_count": 8,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Lock Armor",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You target a piece of metal equipment or a metal construct. If the target is a creature wearing metal armor or is a construct, it makes a Wisdom saving throw to negate the effect. On a failed save, the spell causes metal to cling to metal, making it impossible to move pieces against each other. This effectively paralyzes a creature that is made of metal or that is wearing metal armor with moving pieces; for example, scale mail would lock up because the scales must slide across each other, but a breastplate would be unaffected. Limited movement might still be possible, depending on how extensive the armor is, and speech is usually not affected. Metal constructs are paralyzed. An affected creature or construct can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A grease spell dispels lock armor on everything in its area.",
+      "name": "Lock Armor",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы выбираете целью кусок металлического снаряжения или металлический конструкт. Если цель — существо, носящее металлический доспех, или является конструктом, оно совершает спасбросок Мудрости, чтобы свести на нет эффект. При провале заклинание заставляет металл прилипать к металлу, делая невозможным перемещать куски друг против друга. Это эффективно парализует существо, которое сделано из металла или которое носит металлический доспех с движущимися частями; например, чешуйчатая кольчуга заклинит, потому что чешуйки должны скользить друг по другу, но нагрудник не будет затронут. В зависимости от того, насколько обширен доспех, ограниченное перемещение всё ещё может быть возможно, и речь обычно не затронута. Металлические конструкты парализованы. Затронутое существо или конструкт может повторять спасбросок в конце каждого своего хода, при успехе завершая эффект на себе. Заклинание смазки рассеивает это заклинание на всём в его области.",
+      "glossary_version": "v1",
+      "name": "Запирание доспеха",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

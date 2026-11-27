@@ -1,0 +1,136 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "bagiennik",
+  "id": "o5e:tob:monster:bagiennik-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:bagiennik"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "bfcdc8d60fa20e5503505e1c34bc3575c3207ec8100ceea4cfdff977981def3b",
+    "formulas": [
+      {
+        "expression": "10d8+30",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic neutral",
+      "armor_class": 15,
+      "challenge_rating": "3",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "10d8+30",
+      "hit_points": 75,
+      "languages": "Common",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "bfcdc8d60fa20e5503505e1c34bc3575c3207ec8100ceea4cfdff977981def3b",
+        "edition": "2014",
+        "id": "o5e:tob:monster:bagiennik",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The bagiennik makes two claw attacks.\"}, {\"name\": \"Claw\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 18 (4d6 + 4) slashing damage.\", \"attack_bonus\": 6, \"damage_dice\": \"4d6\"}, {\"name\": \"Acid Spray\", \"desc\": \"Ranged Weapon Attack: +6 to hit, range 15 ft., one target. Hit: 14 (2d10 + 3) acid damage. The target must make a successful DC 13 Dexterity saving throw or fall prone in the slick oil, which covers an area 5 feet square. A creature that enters the oily area or ends its turn there must also make the Dexterity saving throw to avoid falling prone. A creature needs to make only one saving throw per 5-foot-square per turn, even if it enters and ends its turn in the area. The slippery effect lasts for 3 rounds.\", \"attack_bonus\": 6, \"damage_dice\": \"2d10\"}]",
+      "alignment": "chaotic neutral",
+      "armor_class": 15,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "3",
+      "charisma": 11,
+      "constitution": 16,
+      "cr": 3.0,
+      "desc": "_With webbed claws, bulbous eyes, and two nostril-slits that ooze an oily black substance, the creature is not quite hideous—but it might be, if most of it wasn’t concealed by a thick coating of muck and mud._  \n**Bathing Uglies.** When a bagiennik is alone, it spends its time bathing in local springs, rivers, and marshes. The creature sifts through the muck and silt, extracting substances that enhance its oily secretions. If anything disturbs the creature during its languorous bathing sessions, it angrily retaliates. Once a bagiennik has bathed for four hours it seeks a target for mischief or charity.  \n**Unpredictable Moods.** One never knows what to expect with a bagiennik. The same creature might aid an injured traveler one day, smear that person with corrosive, acidic oil the next day, and then extend tender care to the burned victim of its own psychotic behavior. If the creature feels beneficent, it heals injured animals or even diseased or injured villagers. If a bagiennik visits a settlement, the ill and infirm approach it cautiously while everyone else hides to avoid provoking its wrath. When a bagiennik leaves its bath in an angry mood, it raves and seeks out animals or humanoids to spray its oil onto. If a victim drops to 0 hit points, the foul-tempered bagiennik applies healing oil to stabilize them, grumbling all the while.  \n**Acid Oils.** Collecting a dead bagiennik’s black oils must be done within an hour of the creature’s death. A successful DC 15 Wisdom (Medicine) check yields one vial of acid, or two vials if the result was 20 or higher. A bagiennik can use these chemicals either to heal or to harm, but no alchemist or healer has figured out how to reproduce the healing effects. Other than their acidic effect, the secretions lose all potency within moments of being removed from a bagiennik. A bagiennik weighs 250 lb., plus a coating of 20 to 50 lb. of mud and muck.",
+      "dexterity": 18,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "10d8+30",
+      "hit_points": 75,
+      "intelligence": 9,
+      "languages": "Common",
+      "legendary_actions_json": "null",
+      "name": "Bagiennik",
+      "page_no": 31,
+      "perception": 5,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 15",
+      "size": "Medium",
+      "skills_json": "{\"perception\": 5}",
+      "special_abilities_json": "[{\"name\": \"Healing Oil\", \"desc\": \"A bagiennik can automatically stabilize a dying creature by using an action to smear some of its oily secretion on the dying creature's flesh. A similar application on an already-stable creature or one with 1 or more hit points acts as a potion of healing, restoring 2d4 + 2 hit points. Alternatively, the bagiennik's secretion can have the effect of a lesser restoration spell. However, any creature receiving a bagiennik's Healing Oil must make a successful DC 13 Constitution saving throw or be slowed for 1 minute.\"}]",
+      "speed_json": "{\"walk\": 30, \"swim\": 40}",
+      "spells_json": "null",
+      "strength": 16,
+      "type": "Aberration",
+      "wisdom": 16
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Bagiennik",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-bagiennik"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_With webbed claws, bulbous eyes, and two nostril-slits that ooze an oily black substance, the creature is not quite hideous—but it might be, if most of it wasn’t concealed by a thick coating of muck and mud._  \n**Bathing Uglies.** When a bagiennik is alone, it spends its time bathing in local springs, rivers, and marshes. The creature sifts through the muck and silt, extracting substances that enhance its oily secretions. If anything disturbs the creature during its languorous bathing sessions, it angrily retaliates. Once a bagiennik has bathed for four hours it seeks a target for mischief or charity.  \n**Unpredictable Moods.** One never knows what to expect with a bagiennik. The same creature might aid an injured traveler one day, smear that person with corrosive, acidic oil the next day, and then extend tender care to the burned victim of its own psychotic behavior. If the creature feels beneficent, it heals injured animals or even diseased or injured villagers. If a bagiennik visits a settlement, the ill and infirm approach it cautiously while everyone else hides to avoid provoking its wrath. When a bagiennik leaves its bath in an angry mood, it raves and seeks out animals or humanoids to spray its oil onto. If a victim drops to 0 hit points, the foul-tempered bagiennik applies healing oil to stabilize them, grumbling all the while.  \n**Acid Oils.** Collecting a dead bagiennik’s black oils must be done within an hour of the creature’s death. A successful DC 15 Wisdom (Medicine) check yields one vial of acid, or two vials if the result was 20 or higher. A bagiennik can use these chemicals either to heal or to harm, but no alchemist or healer has figured out how to reproduce the healing effects. Other than their acidic effect, the secretions lose all potency within moments of being removed from a bagiennik. A bagiennik weighs 250 lb., plus a coating of 20 to 50 lb. of mud and muck.",
+      "name": "Bagiennik",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "С перепончатыми когтями, выпуклыми глазами и двумя ноздрями-щелями, из которых сочится маслянистая чёрной субстанцией, существо не совсем отвратительное, но это могло бы быть, если бы большая часть не была скрыта толстым покрытием грязи и ила.\n\n**Купающиеся уроды.** Когда багиенник один, он проводит своё время за купанием в местных источниках, реках и болотах. Существо просеивает сквозь грязь и ил, извлекая вещества, усиливающие его маслянистые выделения. Если что-нибудь беспокоит существо во время своих неторопливых занятий купанием, он гневно мстит. После того, как багиенник купаться в течение четырёх часов, он ищет мишень для вредительства или благотворительности.\n\n**Непредсказуемые Настроения.** Никогда не знаешь, чего ожидать от багиенника. Одно и то же существо может помочь раненому путешественнику в один день, размазать этого человека коррозионными, кислотными нефтью на следующий день, а затем оказать заботливые уход за обожжённой жертвой своего собственного психотического поведения. Если существо чувствует себя благотворительным, оно исцеляет раненых животных или даже больных или раненых жителей деревни. Если багиенник посещает поселение, больные и немощные приближаются к нему осторожно, пока все остальные прячутся, чтобы не провоцировать его гнев. Когда багиенник выходит из своей ванны в гневном настроении, он бредит и ищет животных или гуманоидов, чтобы разбрызгивать его масло. Если жертва падает до 0 очков жизни, то плохо воспитанный багиенник применяет лечебное масло, чтобы стабилизировать их, ворча при этом.\n\n**Кислотные Масла.** Сбор чёрного масла мёртвого багиенника должен быть сделан в течение часа после смерти существа. Успешный результат проверки Мудрости (Медицина) Сл 15 даёт один флакон кислоты, или два флакона, если результат составил 20 или выше. Багиенник может использовать эти химические вещества для излечения или нанесения вреда, но ни алхимик, ни целитель не понял, как воспроизвести лечебные эффекты. Кроме кислотного эффекта, секреции теряют всю силу через несколько мгновений после удаления из багиенника. Багиенник весит 250 фунтов, плюс покрытие от 20 до 50 фунтов грязи и испражнений.",
+      "glossary_version": "v1",
+      "name": "Багиенник",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

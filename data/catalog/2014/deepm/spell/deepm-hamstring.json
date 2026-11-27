@@ -1,0 +1,280 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_hamstring",
+  "id": "o5e:deepm:spell:deepm-hamstring",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-hamstring",
+      "o5e:dmag:spell:hamstring"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "d258fc4627ff10ae5e000c0e25745b4461bc29b287bb39fc8fd7a5e59d0b0849",
+    "formulas": [
+      {
+        "expression": "1d4",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "1d4",
+      "damage_types": [
+        "force"
+      ],
+      "duration": "instantaneous",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": false
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "d258fc4627ff10ae5e000c0e25745b4461bc29b287bb39fc8fd7a5e59d0b0849",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-hamstring",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "36726de22ef0977ae15cf98f26399af01dfe69abf0d1ea45820bc405f35cdf96",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:hamstring",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "1d4",
+      "damage_types": [
+        "force"
+      ],
+      "desc": "You create an arrow of eldritch energy and send it at a target you can see within range. Make a ranged spell attack against the target. On a hit, the target takes 1d4 force damage, and it can’t take reactions until the end of its next turn.",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "higher_level": "The spell’s damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "name": "Hamstring",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": false
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3430",
+          "parent": "deepm_hamstring",
+          "type": "default"
+        },
+        {
+          "damage_roll": "1d4",
+          "external_id": "3431",
+          "parent": "deepm_hamstring",
+          "type": "player_level_1"
+        },
+        {
+          "damage_roll": "1d4",
+          "external_id": "3432",
+          "parent": "deepm_hamstring",
+          "type": "player_level_2"
+        },
+        {
+          "damage_roll": "1d4",
+          "external_id": "3433",
+          "parent": "deepm_hamstring",
+          "type": "player_level_3"
+        },
+        {
+          "damage_roll": "1d4",
+          "external_id": "3434",
+          "parent": "deepm_hamstring",
+          "type": "player_level_4"
+        },
+        {
+          "damage_roll": "2d4",
+          "external_id": "3435",
+          "parent": "deepm_hamstring",
+          "type": "player_level_5"
+        },
+        {
+          "damage_roll": "2d4",
+          "external_id": "3436",
+          "parent": "deepm_hamstring",
+          "type": "player_level_6"
+        },
+        {
+          "damage_roll": "2d4",
+          "external_id": "3437",
+          "parent": "deepm_hamstring",
+          "type": "player_level_7"
+        },
+        {
+          "damage_roll": "2d4",
+          "external_id": "3438",
+          "parent": "deepm_hamstring",
+          "type": "player_level_8"
+        },
+        {
+          "damage_roll": "2d4",
+          "external_id": "3439",
+          "parent": "deepm_hamstring",
+          "type": "player_level_9"
+        },
+        {
+          "damage_roll": "2d4",
+          "external_id": "3440",
+          "parent": "deepm_hamstring",
+          "type": "player_level_10"
+        },
+        {
+          "damage_roll": "3d4",
+          "external_id": "3441",
+          "parent": "deepm_hamstring",
+          "type": "player_level_11"
+        },
+        {
+          "damage_roll": "3d4",
+          "external_id": "3442",
+          "parent": "deepm_hamstring",
+          "type": "player_level_12"
+        },
+        {
+          "damage_roll": "3d4",
+          "external_id": "3443",
+          "parent": "deepm_hamstring",
+          "type": "player_level_13"
+        },
+        {
+          "damage_roll": "3d4",
+          "external_id": "3444",
+          "parent": "deepm_hamstring",
+          "type": "player_level_14"
+        },
+        {
+          "damage_roll": "3d4",
+          "external_id": "3445",
+          "parent": "deepm_hamstring",
+          "type": "player_level_15"
+        },
+        {
+          "damage_roll": "3d4",
+          "external_id": "3446",
+          "parent": "deepm_hamstring",
+          "type": "player_level_16"
+        },
+        {
+          "damage_roll": "4d4",
+          "external_id": "3447",
+          "parent": "deepm_hamstring",
+          "type": "player_level_17"
+        },
+        {
+          "damage_roll": "4d4",
+          "external_id": "3448",
+          "parent": "deepm_hamstring",
+          "type": "player_level_18"
+        },
+        {
+          "damage_roll": "4d4",
+          "external_id": "3449",
+          "parent": "deepm_hamstring",
+          "type": "player_level_19"
+        },
+        {
+          "damage_roll": "4d4",
+          "external_id": "3450",
+          "parent": "deepm_hamstring",
+          "type": "player_level_20"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Hamstring",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You create an arrow of eldritch energy and send it at a target you can see within range. Make a ranged spell attack against the target. On a hit, the target takes 1d4 force damage, and it can’t take reactions until the end of its next turn.",
+      "name": "Hamstring",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы создаёте стрелу мистической энергии и посылаете её в цель, которую вы можете видеть в пределах дистанции. Совершите дальнобойную атаку заклинанием против цели. При попадании цель получает 1к4 урона силой, и она не может совершать реакции до конца её следующего хода.",
+      "glossary_version": "v1",
+      "name": "Подрезать сухожилие",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

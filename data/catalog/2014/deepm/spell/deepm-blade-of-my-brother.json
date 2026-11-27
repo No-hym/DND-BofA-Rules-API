@@ -1,0 +1,167 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_blade-of-my-brother",
+  "id": "o5e:deepm:spell:deepm-blade-of-my-brother",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-blade-of-my-brother",
+      "o5e:dmag:spell:blade-of-my-brother"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "0e689b423e5485368b8110062e781a2c474ff0abf5d38adbadb1076745146f7a",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric"
+      ],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "4 rounds",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "melee weapon owned by a dead ally of the target",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "0e689b423e5485368b8110062e781a2c474ff0abf5d38adbadb1076745146f7a",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-blade-of-my-brother",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "6b2b3caeadec25508c4899a1e7482d292aa5f5fd7bc4cd9d7a48bee4e11285e1",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:blade-of-my-brother",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric"
+      ],
+      "concentration": true,
+      "desc": "You touch a melee weapon that was used by an ally who is now dead, and it leaps into the air and flies to another ally (chosen by you) within 15 feet of you. The weapon enters that ally’s space and moves when the ally moves. If the weapon or the ally is forced to move more than 5 feet from the other, the spell ends.\n\nThe weapon acts on your turn by making an attack if a target presents itself. Its attack modifier equals your spellcasting level + the weapon’s inherent magical bonus, if any; it receives only its own inherent magical bonus to damage. The weapon fights for up to 4 rounds or until your concentration is broken, after which the spell ends and it falls to the ground.",
+      "document": "deepm",
+      "duration": "4 rounds",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "melee weapon owned by a dead ally of the target",
+      "name": "Blade of my Brother",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2465",
+          "parent": "deepm_blade-of-my-brother",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Blade of my Brother",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You touch a melee weapon that was used by an ally who is now dead, and it leaps into the air and flies to another ally (chosen by you) within 15 feet of you. The weapon enters that ally’s space and moves when the ally moves. If the weapon or the ally is forced to move more than 5 feet from the other, the spell ends.\n\nThe weapon acts on your turn by making an attack if a target presents itself. Its attack modifier equals your spellcasting level + the weapon’s inherent magical bonus, if any; it receives only its own inherent magical bonus to damage. The weapon fights for up to 4 rounds or until your concentration is broken, after which the spell ends and it falls to the ground.",
+      "name": "Blade of my Brother",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы касаетесь оружием ближнего боя, который был использован союзником, который теперь мёртв, и он запрыгивает в воздух и летит на другого союзника (выбран вами) в пределах 15 футов от вас. Оружие входит в пространство союзника и движется, когда союзник перемещается. Если оружие или союзник вынужден двигаться более чем на 5 футов от другого, заклинание прекращается.\n\nОружие действует на вашем ходу, делая нападения, если цель представляет себя. Её модификатор атаки равна вашему уровню заклинательствата + присущий магический бонус оружия, если он есть; он получает только его магический бонус к урону. Оружие борется до 4 раундов или пока ваша концентрация не будет разорвана, после чего заклинание заканчивается, и оно падает на землю.",
+      "glossary_version": "v1",
+      "name": "Клинок моего брата",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

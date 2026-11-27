@@ -1,0 +1,250 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_tidehunter",
+  "id": "o5e:tob2:creature:tob2-tidehunter",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-tidehunter"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "8871ef24f1eafac1aef7390ce7a2440a6924fa5810631f3bba04e7422da8fd5b",
+    "formulas": [
+      {
+        "expression": "14d10+56",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 5,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 5,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "6.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "14d10+56",
+      "hit_points": 133,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 14,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "huge",
+      "skill_bonus_acrobatics": null,
+      "swim": 40,
+      "walk": 20
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "8871ef24f1eafac1aef7390ce7a2440a6924fa5810631f3bba04e7422da8fd5b",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-tidehunter",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 5,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 5,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "6.000",
+      "darkvision_range": 60,
+      "document": "tob2",
+      "hit_dice": "14d10+56",
+      "hit_points": 133,
+      "hover": false,
+      "name": "Tidehunter",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 14,
+      "size": "huge",
+      "skill_bonus_perception": 4,
+      "skill_bonus_stealth": 5,
+      "swim": 40,
+      "type": "monstrosity",
+      "walk": 20,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 15). The tidehunter has two claws, each of which can grapple only one target.",
+          "desc_ru": "Действие «Коготь»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_tidehunter_claw",
+          "name": "Claw",
+          "name_ru": "Коготь",
+          "order_in_statblock": 1,
+          "parent": "tob2_tidehunter",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "REACTION",
+          "desc": "When the tidehunter is targeted by a melee weapon attack, the attacker must succeed on a DC 16 Dexterity saving throw or miss the attack as the tidehunter uses its net to interfere with the weapon. The tidehunter must have an empty net to use this reaction.",
+          "desc_ru": "Действие «Ентангле Веапон»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_tidehunter_entangle-weapon",
+          "name": "Entangle Weapon",
+          "name_ru": "Ентангле Веапон",
+          "order_in_statblock": 0,
+          "parent": "tob2_tidehunter",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The tidehunter makes three attacks, only one of which can be with its net. It can use Reel in place of two claw attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_tidehunter_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_tidehunter",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Ranged Weapon Attack: +7 to hit, range 20/60 ft., one target. Hit: A Large or smaller creature hit by the net is restrained until it is freed. The net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 15 Strength check, freeing itself or another creature within its reach on a success. Dealing 15 slashing damage to the net (AC 13) also frees the creature without harming it, ending the effect and destroying the net.",
+          "desc_ru": "Действие «Сеть»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_tidehunter_net",
+          "name": "Net",
+          "name_ru": "Сеть",
+          "order_in_statblock": 2,
+          "parent": "tob2_tidehunter",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The tidehunter pulls one creature restrained by its net up to 20 feet straight toward it. If the target is within 10 feet of the tidehunter at the end of this pull, the tidehunter can make one claw attack against it as a bonus action.",
+          "desc_ru": "Действие «Реел»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_tidehunter_reel",
+          "name": "Reel",
+          "name_ru": "Реел",
+          "order_in_statblock": 3,
+          "parent": "tob2_tidehunter",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The tidehunter can breathe air and water.",
+          "desc_ru": "Может дышать как воздухом, так и водой.",
+          "external_id": "tob2_tidehunter_amphibious",
+          "name": "Amphibious",
+          "name_ru": "Амфибиоус",
+          "parent": "tob2_tidehunter",
+          "ru_source": "template"
+        },
+        {
+          "desc": "With 1 minute of work, the tidehunter can create a net out of seaweed, rope, or similar material. The tidehunter typically carries 2 nets.",
+          "desc_ru": "Особенность «Сеть Макер». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_tidehunter_net-maker",
+          "name": "Net Maker",
+          "name_ru": "Сеть Макер",
+          "parent": "tob2_tidehunter",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The tidehunter has advantage on Dexterity (Stealth) checks made while underwater.",
+          "desc_ru": "Особенность «Ундерватер Камоуфлаге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_tidehunter_underwater-camouflage",
+          "name": "Underwater Camouflage",
+          "name_ru": "Ундерватер Камоуфлаге",
+          "parent": "tob2_tidehunter",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Tidehunter",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Tidehunter",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Выходя из прибоя, этот массивный зверь, похожий на краба, имеет твёрдую синюю раковину, покрытую ракушками. Он держит сеть из морских водорослей между своими колючими когтями, и взгляд разума сияет в его эллиптических малиновых глазах.\n\n**Скрывающиеся на мелководье.** Охотник прилива — засадный охотник, использующий свою окраску, чтобы удивлять добычу, которая отправляется на мелководье. Охотники прилива обычно находятся вдоль побережий с обильными пляжами и подводной растительностью, но некоторых можно найти в больших озёрах и речных системах близко к открытому океану. Большинство охотников прилива более 20 футов в поперечнике и достаточно могущественны, чтобы преодолеть охотничью акулу или маленького кита с лёгкостью. У них мало естественных врагов, их разум и хитрость делают их сложной добычей.\n\n**Ткачи сетей.** Охотники прилива могут ткать сети из бурых водорослей, морских водорослей и другого волокнистого растительного материала с лёгкостью, конструируя сети за несколько минут с зацепленными шипами на их когтях. Их сети прочны и могут быть брошены с большой точностью на большое расстояние. Действительно, даже те, кто на сухой земле, не невосприимчивы к атакам охотника прилива, и более одного человека было утащено в набегающий прилив из видимой безопасности пляжа.\n\n**Друзья по рыбалке.** Хотя рыбаки и охотники прилива обычно в ссоре, охотник прилива иногда вступает в негласное соглашение с группой рыбаков, разделяя добычи моря, держась друг от друга подальше.",
+      "glossary_version": "v1",
+      "name": "Охотник прилива",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,228 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_giant-water-scorpion",
+  "id": "o5e:tob2:creature:tob2-giant-water-scorpion",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-giant-water-scorpion"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f0cb9b3e008f1e9ebd083be4383d21f7b17e861c4f5f5ae6602b253dfe0c9455",
+    "formulas": [
+      {
+        "expression": "11d10+33",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 3,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 17,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "blindsight_range": 60,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "4.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "11d10+33",
+      "hit_points": 93,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": 30,
+      "walk": 20
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "f0cb9b3e008f1e9ebd083be4383d21f7b17e861c4f5f5ae6602b253dfe0c9455",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-giant-water-scorpion",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 3,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 17,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "blindsight_range": 60,
+      "category": "Monsters",
+      "challenge_rating": "4.000",
+      "darkvision_range": 60,
+      "document": "tob2",
+      "hit_dice": "11d10+33",
+      "hit_points": 93,
+      "hover": false,
+      "name": "Giant Water Scorpion",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "size": "large",
+      "skill_bonus_stealth": 3,
+      "swim": 30,
+      "type": "beast",
+      "walk": 20,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 6 (1d6 + 3) piercing damage. The target is grappled (escape DC 13) if it is a Medium or smaller creature and the scorpion doesn't have another creature grappled.",
+          "desc_ru": "Действие «Когти»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_giant-water-scorpion_claws",
+          "name": "Claws",
+          "name_ru": "Когти",
+          "order_in_statblock": 2,
+          "parent": "tob2_giant-water-scorpion",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The giant water scorpion makes two claw attacks. If it is grappling a creature, it can use its proboscis once.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_giant-water-scorpion_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_giant-water-scorpion",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage, and the target's Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.",
+          "desc_ru": "Действие «Пробоскис»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_giant-water-scorpion_proboscis",
+          "name": "Proboscis",
+          "name_ru": "Пробоскис",
+          "order_in_statblock": 1,
+          "parent": "tob2_giant-water-scorpion",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The scorpion can hold its breath for 1 hour. If it is within 15 feet of the water’s surface, it can use its tail as a breathing tube and doesn’t need to hold its breath.",
+          "desc_ru": "Особенность «Холд Бреат». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_giant-water-scorpion_hold-breath",
+          "name": "Hold Breath",
+          "name_ru": "Холд Бреат",
+          "parent": "tob2_giant-water-scorpion",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "When the scorpion hits with a proboscis attack against a grappled, paralyzed, restrained, or stunned creature, it deals an extra 10 (3d6) poison damage.",
+          "desc_ru": "Особенность «Ядовитый Инджектион». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_giant-water-scorpion_poison-injection",
+          "name": "Poison Injection",
+          "name_ru": "Ядовитый Инджектион",
+          "parent": "tob2_giant-water-scorpion",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The scorpion has advantage on Dexterity (Stealth) checks made to hide while underwater.",
+          "desc_ru": "Особенность «Ундерватер Камоуфлаге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_giant-water-scorpion_underwater-camouflage",
+          "name": "Underwater Camouflage",
+          "name_ru": "Ундерватер Камоуфлаге",
+          "parent": "tob2_giant-water-scorpion",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Giant Water Scorpion",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Giant Water Scorpion",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Обычная угроза в каналах, лагунах, болотах и бесчисленных других водоёмах, гигантский водяной скорпион ответственен за смерти многих приключенцев, исследующих водные пути. Как и большинство водных чудовищ, гигантские водяные скорпионы редко на вершине пищевой цепочки в их родной среде, и чёрные драконы в особенности наслаждаются перекусывать ими. Болотные и водно-обитающие гуманоиды, как ящеролюди, были известны использовать панцирь гигантского водяного скорпиона, чтобы создать щиты или покрытия для их палаток. Длинный хвост существа действует как дыхательная трубка для него, которая часто собирается и используется бесстрашными исследователями и изобретателями в создании водолазных колоколов и других аппаратов для пересечения стигийских глубин.",
+      "glossary_version": "v1",
+      "name": "Гигантский водяной скорпион",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

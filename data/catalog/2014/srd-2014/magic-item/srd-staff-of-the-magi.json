@@ -1,0 +1,130 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "magic-item",
+  "edition": "2014",
+  "external_id": "srd_staff-of-the-magi",
+  "id": "o5e:srd-2014:magicitem:srd-staff-of-the-magi",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:magicitem:srd-staff-of-the-magi",
+      "o5e:wotc-srd:magicitem:staff-of-the-magi"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "972c60a74bfacc79d82d2ac6bdc40b4aff8e7c61adf9a84af017f9be15321766",
+    "formulas": [
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "category": "staff",
+      "cost": null,
+      "rarity": "legendary",
+      "requires_attunement": true,
+      "size": "tiny",
+      "weight": "0.000"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "972c60a74bfacc79d82d2ac6bdc40b4aff8e7c61adf9a84af017f9be15321766",
+        "edition": "2014",
+        "id": "o5e:srd-2014:magicitem:srd-staff-of-the-magi",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "359de87adb7e27a441ac261da2c61004cd3e415aee1006824941e4e2a40259bd",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:magicitem:staff-of-the-magi",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [],
+    "requirements": [
+      {
+        "type": "requires_attunement",
+        "value": true
+      }
+    ],
+    "resources": [],
+    "source_data": {
+      "armor_class": 0,
+      "attunement_detail": "requires attunement by a sorcerer, warlock, or wizard",
+      "category": "staff",
+      "damage_immunities": [
+        "poison",
+        "psychic"
+      ],
+      "desc": "This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While you hold it, you gain a +2 bonus to spell attack rolls.\n\nThe staff has 50 charges for the following properties. It regains 4d6 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 20, the staff regains 1d12 + 1 charges.\n\n**_Spell Absorption_**. While holding the staff, you have advantage on saving throws against spells. In addition, you can use your reaction when another creature casts a spell that targets only you. If you do, the staff absorbs the magic of the spell, canceling its effect and gaining a number of charges equal to the absorbed spell's level. However, if doing so brings the staff's total number of charges above 50, the staff explodes as if you activated its retributive strike (see below).\n\n**_Spells_**. While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: _conjure elemental_ (7 charges), _dispel magic_ (3 charges), _fireball_ (7th-level version, 7 charges), _flaming sphere_ (2 charges), _ice storm_ (4 charges), _invisibility_ (2 charges), _knock_ (2 charges), _lightning bolt_ (7th-level version, 7 charges), _passwall_ (5 charges), _plane shift_ (7 charges), _telekinesis_ (5 charges), _wall of fire_ (4 charges), or _web_ (2 charges).\n\nYou can also use an action to cast one of the following spells from the staff without using any charges: _arcane lock_, _detect magic_, _enlarge/reduce_, _light_, _mage hand_, or _protection from evil and good._\n\n**_Retributive Strike_**. You can use an action to break the staff over your knee or against a solid surface, performing a retributive strike. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it.\n\nYou have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take force damage equal to 16 × the number of charges in the staff. Every other creature in the area must make a DC 17 Dexterity saving throw. On a failed save, a creature takes an amount of damage based on how far away it is from the point of origin, as shown in the following table. On a successful save, a creature takes half as much damage.\n\n| Distance from Origin  | Damage                                 |\n|-----------------------|----------------------------------------|\n| 10 ft. away or closer | 8 × the number of charges in the staff |\n| 11 to 20 ft. away     | 6 × the number of charges in the staff |\n| 21 to 30 ft. away     | 4 × the number of charges in the staff |",
+      "document": "srd-2014",
+      "hit_points": 0,
+      "name": "Staff of the Magi",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "rarity": "legendary",
+      "requires_attunement": true,
+      "size": "tiny",
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Staff of the Magi",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While you hold it, you gain a +2 bonus to spell attack rolls.\n\nThe staff has 50 charges for the following properties. It regains 4d6 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 20, the staff regains 1d12 + 1 charges.\n\n**_Spell Absorption_**. While holding the staff, you have advantage on saving throws against spells. In addition, you can use your reaction when another creature casts a spell that targets only you. If you do, the staff absorbs the magic of the spell, canceling its effect and gaining a number of charges equal to the absorbed spell's level. However, if doing so brings the staff's total number of charges above 50, the staff explodes as if you activated its retributive strike (see below).\n\n**_Spells_**. While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: _conjure elemental_ (7 charges), _dispel magic_ (3 charges), _fireball_ (7th-level version, 7 charges), _flaming sphere_ (2 charges), _ice storm_ (4 charges), _invisibility_ (2 charges), _knock_ (2 charges), _lightning bolt_ (7th-level version, 7 charges), _passwall_ (5 charges), _plane shift_ (7 charges), _telekinesis_ (5 charges), _wall of fire_ (4 charges), or _web_ (2 charges).\n\nYou can also use an action to cast one of the following spells from the staff without using any charges: _arcane lock_, _detect magic_, _enlarge/reduce_, _light_, _mage hand_, or _protection from evil and good._\n\n**_Retributive Strike_**. You can use an action to break the staff over your knee or against a solid surface, performing a retributive strike. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it.\n\nYou have a 50 percent chance to instantly travel to a random plane of existence, avoiding the explosion. If you fail to avoid the effect, you take force damage equal to 16 × the number of charges in the staff. Every other creature in the area must make a DC 17 Dexterity saving throw. On a failed save, a creature takes an amount of damage based on how far away it is from the point of origin, as shown in the following table. On a successful save, a creature takes half as much damage.\n\n| Distance from Origin  | Damage                                 |\n|-----------------------|----------------------------------------|\n| 10 ft. away or closer | 8 × the number of charges in the staff |\n| 11 to 20 ft. away     | 6 × the number of charges in the staff |\n| 21 to 30 ft. away     | 4 × the number of charges in the staff |",
+      "name": "Staff of the Magi",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Посох, легендарный (требуется настройка чародеем, колдуном или волшебником)*\n\nЭтот посох можно использовать как магический боевой посох, дающий бонус +2 к броскам атаки и урона, совершаемым им. Пока вы его держите, вы получаете бонус +2 к броскам атаки заклинаниями.\n\nУ посоха есть 50 зарядов для следующих свойств. Он ежедневно восстанавливает 4к6 + 2 потраченных заряда на рассвете. Если вы тратите последний заряд, бросьте к20. При результате 20 посох восстанавливает 1к12 + 1 заряд.\n\n**_Поглощение заклинаний._** Пока вы держите посох, вы совершаете с преимуществом спасброски от заклинаний. Кроме того, вы можете реакцией воспользоваться этим свойством, когда другое существо накладывает заклинание, нацеленное только на вас. Если вы это делаете, посох поглощает магию заклинания, отменяя его эффект и получая количество зарядов, равное уровню поглощённого заклинания. Однако если это приводит к тому, что общее количество зарядов посоха превышает 50, посох взрывается, как если бы вы активировали его карающий удар (см. ниже).\n\n**_Заклинания._** Пока вы держите посох, вы можете действием потратить несколько зарядов, чтобы наложить одно из следующих заклинаний, используя вашу СЛ спасбросков и заклинательную характеристику: *сотворение элементаля* (7 зарядов), *рассеивание магии* (3 заряда), *огненный шар* (версия 7-го уровня, 7 зарядов), *пылающая сфера* (2 заряда), *град* (4 заряда), *невидимость* (2 заряда), *открывание* (2 заряда), *молния* (версия 7-го уровня, 7 зарядов), *проход* (5 зарядов), *переход между планами* (7 зарядов), *телекинез* (5 зарядов), *стена огня* (4 заряда) или *паутина* (2 заряда).\n\nВы также можете действием наложить одно из следующих заклинаний из посоха без траты зарядов: *арканный замок*, *обнаружение магии*, *увеличение/уменьшение*, *свет*, *волшебная рука* или *защита от добра и зла.*\n\n**_Карающий удар._** Вы можете действием сломать посох о колено или о твёрдую поверхность, совершая карающий удар. Посох уничтожается и высвобождает оставшуюся магию во взрыве, заполняющем сферу радиусом 30 футов с центром на нём.\n\nУ вас есть 50-процентный шанс мгновенно переместиться на случайный план существования, избежав взрыва. Если вам не удаётся избежать эффекта, вы получаете урон силовым полем, равный 16 × количество зарядов в посохе. Каждое другое существо в области должно совершить спасбросок Ловкости СЛ 17. При провале существо получает количество урона в зависимости от расстояния до точки происхождения, как показано в следующей таблице. При успехе существо получает половину урона.\n\nТаблица: Посох мага\n\n| Расстояние от источника | Урон                                           |\n|---|---|\n| 10 фт. или ближе       | 8 × количество зарядов в посохе                |\n| от 11 до 20 фт.        | 6 × количество зарядов в посохе                |\n| от 21 до 30 фт.        | 4 × количество зарядов в посохе                |",
+      "glossary_version": "v1",
+      "name": "Посох мага",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

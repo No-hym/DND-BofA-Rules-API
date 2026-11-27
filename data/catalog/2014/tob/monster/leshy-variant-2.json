@@ -1,0 +1,136 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "leshy",
+  "id": "o5e:tob:monster:leshy-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:leshy"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e78af1daecd94c6deeb7d6149e8efca0b9c98faa412bb79c7e707ebb4a067148",
+    "formulas": [
+      {
+        "expression": "13d8+26",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic neutral",
+      "armor_class": 14,
+      "challenge_rating": "1",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "13d8+26",
+      "hit_points": 84,
+      "languages": "Common, Elvish, Sylvan",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "e78af1daecd94c6deeb7d6149e8efca0b9c98faa412bb79c7e707ebb4a067148",
+        "edition": "2014",
+        "id": "o5e:tob:monster:leshy",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The leshy makes two club attacks.\"}, {\"name\": \"Change Size\", \"desc\": \"The leshy appears to change its size, becoming as tall as a massive oak (Gargantuan) or as short as a blade of grass (Tiny). The change is entirely illusory, so the leshy's statistics do not change.\"}, {\"name\": \"Club\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.\", \"attack_bonus\": 5, \"damage_dice\": \"1d6\"}]",
+      "alignment": "chaotic neutral",
+      "armor_class": 14,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "1",
+      "charisma": 16,
+      "constitution": 14,
+      "cr": 1.0,
+      "desc": "_A leshy is a strange man wearing loose scraps of clothing and covered in bark and root-like growths. The hair and beard that frame his piercing green eyes writhe like living vines._  \n**Expanding the Wild.** Solitary leshy tend plants and animals in groves around great forests, and they are the self-proclaimed protectors of the forest outskirts. Leshy have little patience for interlopers and often kill, abduct, or frighten off trailblazers and guides. With their plant growth ability, they sabotage cultivated land, wipe out trails, and create weed walls and thickets to keep civilization at bay. Using speak with plants, they transplant dangerous plant creatures to discourage new settlements. Some have wrangled rabid animals to the same purpose.  \n**Ax Thieves.** Leshy prefer trickery to combat, particularly enjoying leading interlopers astray through use of their mimicry. If challenged, they use their ability to change size to scare intruders away, but they never hesitate to fight to the death in service to the forest if necessary. Leshy hate metal, especially axes, and they go out of their way to steal metal items and lead those who use them astray.  \n**Accept Bribes.** With careful courting and appropriate gifts, it is possible to gain a leshy’s capricious assistance. This can be risky, because leshy love mischief. Still, at times a leshy’s help is essential to a group traversing ancient woodlands.",
+      "dexterity": 12,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "13d8+26",
+      "hit_points": 84,
+      "intelligence": 14,
+      "languages": "Common, Elvish, Sylvan",
+      "legendary_actions_json": "null",
+      "name": "Leshy",
+      "page_no": 272,
+      "perception": 4,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 14",
+      "size": "Medium",
+      "skills_json": "{\"deception\": 5, \"perception\": 4, \"stealth\": 3, \"survival\": 4}",
+      "special_abilities_json": "[{\"name\": \"Innate Spellcasting\", \"desc\": \"the leshy's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:\\n\\nat will: animal friendship, pass without trace, speak with animals\\n\\n1/day each: entangle, plant growth, shillelagh, speak with plants, hideous laughter\"}, {\"name\": \"Camouflage\", \"desc\": \"A leshy has advantage on Stealth checks if it is at least lightly obscured by foliage.\"}, {\"name\": \"Mimicry\", \"desc\": \"A leshy can mimic the calls and voices of any creature it has heard. To use this ability, the leshy makes a Charisma (Deception) check. Listeners who succeed on an opposed Wisdom (Insight) or Intelligence (Nature)-DM's choice-realize that something is mimicking the sound. The leshy has advantage on the check if it's mimicking a general type of creature (a crow's call, a bear's roar) and not a specific individual's voice.\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 16,
+      "type": "Monstrosity",
+      "wisdom": 15
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Leshy",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-leshy"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_A leshy is a strange man wearing loose scraps of clothing and covered in bark and root-like growths. The hair and beard that frame his piercing green eyes writhe like living vines._  \n**Expanding the Wild.** Solitary leshy tend plants and animals in groves around great forests, and they are the self-proclaimed protectors of the forest outskirts. Leshy have little patience for interlopers and often kill, abduct, or frighten off trailblazers and guides. With their plant growth ability, they sabotage cultivated land, wipe out trails, and create weed walls and thickets to keep civilization at bay. Using speak with plants, they transplant dangerous plant creatures to discourage new settlements. Some have wrangled rabid animals to the same purpose.  \n**Ax Thieves.** Leshy prefer trickery to combat, particularly enjoying leading interlopers astray through use of their mimicry. If challenged, they use their ability to change size to scare intruders away, but they never hesitate to fight to the death in service to the forest if necessary. Leshy hate metal, especially axes, and they go out of their way to steal metal items and lead those who use them astray.  \n**Accept Bribes.** With careful courting and appropriate gifts, it is possible to gain a leshy’s capricious assistance. This can be risky, because leshy love mischief. Still, at times a leshy’s help is essential to a group traversing ancient woodlands.",
+      "name": "Leshy",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Леший — странный человек, носящий свободные лоскуты одежды и покрытый корой и похожими на корни наростами. Волосы и борода, которые обрамляют его пронзительные зелёные глаза, извиваются как живые лозы.\n\n**Расширение дикой природы.** Одиночные лешие ухаживают за растениями и животными в рощах вокруг больших лесов, и они самопровозглашённые защитники лесных окрестностей. У леших мало терпения к вторгнувшимся, и они часто убивают, похищают или пугают первопроходцев и проводников. Своей способностью рост растений они саботируют культивированную землю, стирают тропы и создают стены сорняков и заросли, чтобы держать цивилизацию на расстоянии. Используя общение с растениями, они пересаживают опасных растительных существ, чтобы препятствовать новым поселениям. Некоторые для той же цели укротили бешеных животных.\n\n**Воры топоров.** Лешие предпочитают хитрость бою, особенно наслаждаясь тем, чтобы вести вторгнувшихся по ложному пути, используя свою мимику. Если их бросают вызов, они используют свою способность менять размер, чтобы напугать нарушителей, но они никогда не колеблются сражаться насмерть в службе лесу, если необходимо. Лешие ненавидят металл, особенно топоры, и они изо всех сил стараются украсть металлические предметы и вести тех, кто их использует, по ложному пути.\n\n**Принимают взятки.** При тщательном ухаживании и подходящих подарках возможно получить капризную помощь лешего. Это может быть рискованно, потому что лешие любят озорство. Всё же временами помощь лешего существенна для группы, пересекающей древние леса.",
+      "glossary_version": "v1",
+      "name": "Леший",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

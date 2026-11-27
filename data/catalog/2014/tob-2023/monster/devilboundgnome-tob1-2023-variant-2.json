@@ -1,0 +1,141 @@
+{
+  "attribution": "Title: Tome of Beasts 2023; Author: Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur; Publisher: tob-2023; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. 2023 Open Design LLC. All rights reserved.",
+  "book_id": "tob-2023",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "devilboundgnome-tob1-2023",
+  "id": "o5e:tob-2023:monster:devilboundgnome-tob1-2023-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:monster:devilboundgnome-tob1-2023"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f4795d8eb775e584c5ab964d663e0babcf600b938ff020b8fa64e47c2263ffdd",
+    "formulas": [
+      {
+        "expression": "19d6 + 38",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "Any Evil",
+      "armor_class": 17,
+      "challenge_rating": "9",
+      "condition_immunities": "poisoned",
+      "damage_immunities": "False",
+      "damage_resistances": "cold, fire, poison; bludgeoning, piercing, and slashing damage from nonmagical attacks not made with silvered weapons",
+      "damage_vulnerabilities": "False",
+      "hit_dice": "19d6 + 38",
+      "hit_points": 104,
+      "languages": "Common, Infernal, Gnomish",
+      "size": "Small"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob-2023",
+        "content_hash": "f4795d8eb775e584c5ab964d663e0babcf600b938ff020b8fa64e47c2263ffdd",
+        "edition": "2014",
+        "id": "o5e:tob-2023:monster:devilboundgnome-tob1-2023",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Hellish Blast\", \"desc\": \"Melee or Ranged Spell Attack: +9 to hit, reach 5 ft. or range 120 ft., one target. Hit: 12 (2d6 + 5) fire damage plus 9 (2d8) poison damage.\"}, {\"name\": \"Hell's Servitors (1/Day)\", \"desc\": \"The devilbound gnome magically calls 1d4 devils with a challenge rating of 4 or lower, or it calls 1 devil with a challenge rating of 6 or lower. The called Fiends arrive in 1d4 rounds, acting as allies of the gnome and obeying its spoken commands. The Fiends remain for 1 hour, until the gnome dies, or until the gnome dismisses them as a bonus action.\"}, {\"name\": \"To Hell and Back (1/Day)\", \"desc\": \"The devilbound gnome sends one creature it can see within 60 feet of it hurling through Hell. The target must make a DC 17 Wisdom saving throw. On a success, the target takes 35 (10d6) fire damage as Hell pulls on the creature. On a failure, the target is incapacitated and disappears, as it takes a quick trip through the nightmarish landscapes of Hell. At the end of the gnome's next turn, the target reappears in the space it previously occupied, or the nearest unoccupied space, and takes 55 (10d10) psychic damage.\"}, {\"name\": \"Spellcasting\", \"desc\": \"The devilbound gnome casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 17):\\nAt will: detect magic, minor illusion, prestidigitation\\n3/day each: command, dimension door, invisibility\\n1/day each: fly, haste, wall of fire\"}]",
+      "alignment": "Any Evil",
+      "armor_class": 17,
+      "armor_desc": "Infernal Blessing",
+      "challenge_rating": "9",
+      "charisma": 21,
+      "charisma_save": 9,
+      "condition_immunities": "poisoned",
+      "constitution": 15,
+      "constitution_save": 6,
+      "cr": 9.0,
+      "damage_immunities": "False",
+      "damage_resistances": "cold, fire, poison; bludgeoning, piercing, and slashing damage from nonmagical attacks not made with silvered weapons",
+      "damage_vulnerabilities": "False",
+      "desc": "False",
+      "dexterity": 14,
+      "document": 47,
+      "group": "null",
+      "hit_dice": "19d6 + 38",
+      "hit_points": 104,
+      "intelligence": 16,
+      "intelligence_save": 7,
+      "languages": "Common, Infernal, Gnomish",
+      "name": "Devilbound Gnome",
+      "page_no": 408,
+      "perception": 11,
+      "reactions_json": "[{\"name\": \"Fiendish Sacrifice\", \"desc\": \"When the devilbound gnome is reduced to 0 hp, it can sacrifice a Fiend called with the Hell's Servitor's action or sacrifice its bonded imp, preventing the damage and killing the chosen Fiend. If the gnome sacrifices its bonded imp, it loses its Infernal Blessing and Infernal Bond traits until it receives a new imp from its patron devil.\"}]",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 11",
+      "size": "Small",
+      "skills_json": "{\"Arcana\": 7, \"Deception\": 9, \"History\": 7, \"Persuasion\": 9}",
+      "special_abilities_json": "[{\"name\": \"Infernal Blessing\", \"desc\": \"While the devilbound gnome is conscious and wearing no armor and wielding no shield, it adds its Charisma modifier to its AC (included above) and saving throws. In addition, magical darkness doesn't impede the gnome's darkvision.\"}, {\"name\": \"Infernal Bond\", \"desc\": \"The devilbound gnome is magically bound to an imp. The imp acts as an ally of the gnome's, obeying its spoken commands. The gnome can perceive through the imp's senses, speak through its mouth, and communicate with it telepathically even if the two aren't on the same plane of existence.\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The devilbound gnome has advantage on saving throws against spells and other magical effects.\"}]",
+      "speed_json": "{\"walk\": 25}",
+      "spells_json": "null",
+      "strength": 10,
+      "type": "Humanoid",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur",
+      "key": "tob-2023",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+      "publication_date": "",
+      "publisher": "tob-2023",
+      "title": "Tome of Beasts 2023"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Devilbound Gnome",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:tob-2023:creature:tob-2023-devilbound-gnome"
+  },
+  "publisher_id": "tob-2023",
+  "source": "open5e:v1:tob-2023",
+  "translations": {
+    "en": {
+      "description": "False",
+      "name": "Devilbound Gnome",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Маленький гуманоид. Класс доспеха: 17. Хиты: 104 (19к6 + 38). Сопротивление урону: холодом, огнём, ядом, дробящего, колющего, and slashing damage от немагических атак, совершённых не посеребрённым оружием. Иммунитет к состояниям: отравление. Показатель опасности: 9.",
+      "glossary_version": "derived-v1",
+      "name": "Девилбоунд Гноме",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

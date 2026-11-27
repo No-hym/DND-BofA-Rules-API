@@ -1,0 +1,245 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_stormboar",
+  "id": "o5e:tob2:creature:tob2-stormboar",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-stormboar"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "12b3671045a9a17a133590b7805e70aed1944dab6c0284a198eb645f4a553ec6",
+    "formulas": [
+      {
+        "expression": "10d10+40",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "6.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [
+        "lightning",
+        "thunder"
+      ],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "10d10+40",
+      "hit_points": 95,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 40
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "12b3671045a9a17a133590b7805e70aed1944dab6c0284a198eb645f4a553ec6",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-stormboar",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "6.000",
+      "damage_immunities": [
+        "lightning",
+        "thunder"
+      ],
+      "damage_immunities_display": "lightning, thunder",
+      "document": "tob2",
+      "hit_dice": "10d10+40",
+      "hit_points": 95,
+      "hover": false,
+      "name": "Stormboar",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "size": "large",
+      "type": "monstrosity",
+      "walk": 40,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "The boar becomes a bolt of living lightning and moves up to its speed without provoking opportunity attacks. It can move through creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage and is pushed to the closest unoccupied space if it ends its turn inside an object. Each creature in the boar's path must make a DC 15 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one.",
+          "desc_ru": "Действие «Электрический Рун»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_stormboar_lightning-run",
+          "name": "Lightning Run",
+          "name_ru": "Электрический Рун",
+          "order_in_statblock": 1,
+          "parent": "tob2_stormboar",
+          "ru_source": "derived",
+          "uses_param": 6,
+          "uses_type": "RECHARGE_ON_ROLL"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The boar moves up to 20 feet, jumping over obstacles in its way. Difficult terrain doesn't cost it extra movement when it leaps. Each creature within 10 feet of the boar when it leaps and each creature within 10 feet of where it lands must make a DC 15 Constitution saving throw. On a failure, a creature takes 16 (3d10) thunder damage and is pushed up to 10 feet away from the boar. On a success, a creature takes half the damage and isn't pushed.",
+          "desc_ru": "Действие «Звуковой Леап»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_stormboar_thunder-leap",
+          "name": "Thunder Leap",
+          "name_ru": "Звуковой Леап",
+          "order_in_statblock": 2,
+          "parent": "tob2_stormboar",
+          "ru_source": "derived",
+          "uses_param": 6,
+          "uses_type": "RECHARGE_ON_ROLL"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage and 11 (2d10) lightning damage. In addition, nonmagical metal armor worn by the target is partly devoured by the boar and takes a permanent and cumulative -2 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.",
+          "desc_ru": "Действие «Туск»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_stormboar_tusk",
+          "name": "Tusk",
+          "name_ru": "Туск",
+          "order_in_statblock": 0,
+          "parent": "tob2_stormboar",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The boar can pinpoint, by scent, the location of ferrous metal within 60 feet of it.",
+          "desc_ru": "Особенность «Железный Скент». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_stormboar_iron-scent",
+          "name": "Iron Scent",
+          "name_ru": "Железный Скент",
+          "parent": "tob2_stormboar",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "A creature that touches the boar or hits it with a melee attack while within 5 feet of it takes 5 (2d4) lightning damage.",
+          "desc_ru": "Особенность «Электрический Хиде». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_stormboar_lightning-hide",
+          "name": "Lightning Hide",
+          "name_ru": "Электрический Хиде",
+          "parent": "tob2_stormboar",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "If the boar takes 15 damage or less that would reduce it to 0 hp, it is reduced to 1 hp instead.",
+          "desc_ru": "Особенность «Релентлесс (речаргес афтер а шорт или лонг рест)». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_stormboar_relentless-recharges-after-a-short-or-long-rest",
+          "name": "Relentless (Recharges after a Short or Long Rest)",
+          "name_ru": "Релентлесс (речаргес афтер а шорт или лонг рест)",
+          "parent": "tob2_stormboar",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "If the boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 11 (2d10) thunder damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.",
+          "desc_ru": "Особенность «Звуковой Чарге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_stormboar_thunder-charge",
+          "name": "Thunder Charge",
+          "name_ru": "Звуковой Чарге",
+          "parent": "tob2_stormboar",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Stormboar",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Stormboar",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Массивный кабан с зелёной чешуёй сердито фыркает, когда крошечные разряды синей молнии пробегают по её телу.\n\n**Случайные чародейские создания.** Вызыватель, который выращивал свиней, чтобы финансировать свои дикие эксперименты, случайно взорвал свою башню годы назад. Взрыв создал ужасную бурю, которая бушевала днями в регионе, заставляя местных жителей укрыться. Когда буря рассеялась, волшебник и его башня исчезли, но свиньи были трансформированы в чешуйчатых зверей, которые владели силой молнии и грома.\n\n**Ярость бури.** Грозовые кабаны воплощают ярость бури. Такие же упрямые и свирепые, как их более обычные собратья, грозовые кабаны не позволяют никакому препятствию встать на их пути, пока они ищут пищу или защищают своих детёнышей. Опытные охотники знают, что нужно ронять подношение металла позади, когда они покидают область, чтобы гарантировать, что кабан слишком отвлечён, чтобы следовать за ними.\n\n**Пожиратели металла.** Грозовые кабаны жаждут металла. Изыскатели выслеживают кабанов, чтобы найти области, богатые драгоценными минералами и рудой, а охотники за сокровищами используют существ, чтобы вынюхивать скрытые хранилища богатства. Любой, полагающийся на грозового кабана, должен быть осторожен, однако. Кабаны видят любое существо, носящее или несущее металл, как доставщика лёгкой пищи. Агрессивные существа не перестанут атаковать, пока они не потребят каждый кусок металла, который несёт несчастный путешественник. Голодные грозовые кабаны, как известно, отправлялись в цивилизованные области за пищей.",
+      "glossary_version": "v1",
+      "name": "Грозовой кабан",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

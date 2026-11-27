@@ -1,0 +1,549 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode)",
+  "book_id": "bfrd",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "bfrd_spy_shortsword_shortsword-attack",
+  "id": "o5e:bfrd:creatureactionattack:bfrd-spy-shortsword-shortsword-attack",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:creatureactionattack:bfrd-assassin-shortsword-shortsword-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-drow-shortsword-shortsword-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-medusa-shortsword-shortsword-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-scout-shortsword-shortsword-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-skeleton-shortsword-shortsword-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-sprite-shortsword-shortsword-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-spy-shortsword-shortsword-attack",
+      "o5e:bfrd:creatureactionattack:bfrd-veteran-shortsword-shortsword-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-dust-goblin-chieftain-shortsword-shortsword-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-edjet-shortsword-shortsword-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-king-kobold-shortsword-shortsword-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-kinnara-shortsword-shortsword-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-labyrinth-keeper-shortsword-shortsword-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-pattern-dancer-shortsword-shortsword-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-ratfolk-mercenary-shortsword-shortsword-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-shadow-fey-poisoner-shortsword-shortsword-attack",
+      "o5e:srd-2014:creatureactionattack:srd-assassin-shortsword-shortsword-attack",
+      "o5e:srd-2014:creatureactionattack:srd-drow-shortsword-shortsword-attack",
+      "o5e:srd-2014:creatureactionattack:srd-elf-drow-shortsword-shortsword-attack",
+      "o5e:srd-2014:creatureactionattack:srd-half-red-dragon-veteran-shortsword-shortsword-attack",
+      "o5e:srd-2014:creatureactionattack:srd-medusa-shortsword-shortsword-attack",
+      "o5e:srd-2014:creatureactionattack:srd-satyr-shortsword-shortsword-attack",
+      "o5e:srd-2014:creatureactionattack:srd-scout-shortsword-shortsword-attack",
+      "o5e:srd-2014:creatureactionattack:srd-skeleton-shortsword-shortsword-attack",
+      "o5e:srd-2014:creatureactionattack:srd-spy-shortsword-shortsword-attack",
+      "o5e:srd-2014:creatureactionattack:srd-veteran-shortsword-shortsword-attack",
+      "o5e:srd-2014:creatureactionattack:srd-wererat-shortsword-shortsword-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-aridni-shortsword-shortsword-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-dust-goblin-shortsword-shortsword-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-elvish-veteran-archer-shortsword-shortsword-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-erina-defender-shortsword-shortsword-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-monolith-footman-shortsword-shortsword-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-roachling-skirmisher-shortsword-shortsword-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-shadow-fey-shortsword-shortsword-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-vila-shortsword-shortsword-attack",
+      "o5e:tob2:creatureactionattack:tob2-darakhul-spy-shortsword-shortsword-attack",
+      "o5e:tob2:creatureactionattack:tob2-edjet-initiate-shortsword-shortsword-attack",
+      "o5e:tob2:creatureactionattack:tob2-fey-revenant-shortsword-shortsword-attack",
+      "o5e:tob2:creatureactionattack:tob2-harefolk-shortsword-shortsword-attack",
+      "o5e:tob2:creatureactionattack:tob2-mydnari-shortsword-shortsword-attack",
+      "o5e:tob2:creatureactionattack:tob2-shadow-of-death-shortsword-shortsword-attack",
+      "o5e:tob2:creatureactionattack:tob2-veteran-swordbreaker-skeleton-shortsword-shortsword-attack",
+      "o5e:tob:creatureactionattack:tob-aridni-shortsword-shortsword-attack",
+      "o5e:tob:creatureactionattack:tob-dust-goblin-shortsword-shortsword-attack",
+      "o5e:tob:creatureactionattack:tob-elvish-veteran-archer-shortsword-shortsword-attack",
+      "o5e:tob:creatureactionattack:tob-erina-defender-shortsword-shortsword-attack",
+      "o5e:tob:creatureactionattack:tob-kobold-chieftain-shortsword-shortsword-attack",
+      "o5e:tob:creatureactionattack:tob-roachling-skirmisher-shortsword-shortsword-attack",
+      "o5e:tob:creatureactionattack:tob-shadow-fey-shortsword-shortsword-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "66ef7862f98ed0dd650d300dbc799482a9ccad732ebdeafe32a53f1e98f4520c",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "WEAPON",
+      "damage_bonus": 3,
+      "damage_die_count": 1,
+      "damage_die_type": "D6",
+      "damage_type": "piercing",
+      "extra_damage_bonus": null,
+      "extra_damage_die_count": null,
+      "extra_damage_die_type": null,
+      "extra_damage_type": null,
+      "long_range": null,
+      "range": null,
+      "reach": 5,
+      "to_hit_mod": 5
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "66ef7862f98ed0dd650d300dbc799482a9ccad732ebdeafe32a53f1e98f4520c",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-spy-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "b02e02bad2046bd42908f7aca5d35ce36816931ad20b6fe40ed8eaacd5cf1327",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-drow-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "tob",
+        "content_hash": "89b1a22ba2834ae9372df24754d5187edd28d95ab20e9daad2c629c8347190d2",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-aridni-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "8c4278c98b4450280684e726ea2eef16e5b7c588e71c0ebb761f99e5dcb66f2d",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-scout-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "20b82956ac6b992367ca23a167f3d87732807c36015c82859fdce427b64be6b6",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-edjet-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "569ca1a23aa366d38b3720f9ab17c68b11da7f676049251439325db08c244599",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-medusa-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "4d254dbad27538b0b2739f7b58915cbabbf98b67d2b8c7715fac4b713b7f9da1",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-sprite-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "0db4f1546d1e3d6554b21ef3b2470fa5058f7a9ffd345604c2a03f56e9544078",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-spy-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "3e8d9a82f077c5cbfcb4a6c568913db7a7ebf809c7e250f0e9467e89fa21fd96",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-veteran-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "9fce800f5a6fdd1fbd688ec77c807a7ac9300b9c345eaf57a867e66fb3122581",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-kinnara-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "592714124d194c7e342b9a342d6c624c1eb98d91c771a88d9d18efc4a41eebee",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-drow-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "e1bc26a2501e25865911f100114d4b52b197704cd892dc08997ac7c99b3cc861",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-mydnari-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "9ed4ad2996ccbf6bfebd539da621518fab88e2d65e1e54264e5a8218871bb199",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-assassin-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "bfrd",
+        "content_hash": "2aac848c7c717807d40f6986ff16723b440b0000b59fcb472815492f3c179c88",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-skeleton-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "b131a10fdded44eb211d864afc45ed8a4e24bd40c7eb7edca29f18a4cb5649f3",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-satyr-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "02c2b241f61b2e37beb0293f23de2b98a85f524b020bb900088268632dd991a1",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-scout-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "2599faa6687fb40986977c938940387d2c9a1d47eee166625ca27bfcab4c1e2a",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-harefolk-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "ed3f1e48b21eb7d06b5486c7c2d5263ee14ca6bea6863898bf0e5d2e17f6f392",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-shadow-fey-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "d15c8d4b646e75c5ed8117f7d96274bff4479e2c139480feb3b63da096866192",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-medusa-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob",
+        "content_hash": "fbb62a08de0a538eb1fe69497cf90b23e1089218628f47a1238decac490dcd8c",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-dust-goblin-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "c89cb032d65dfa00e2dda18dcd5426144fe0eb4e79288b54fa6de67d4dc9b5a9",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-veteran-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "4b3e3bf02b945f947a67fee1a3fc082f980e2a9886fe9915fb254e5a490f9704",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-wererat-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "1dad001690a02eae180ce2e10f35594b3b1f04952edbc51d58915b2bfc7c056d",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-king-kobold-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "610b5cfd58b7e6507ca87add2fb2bdfcfb50a7888b2d2618d0cc6f0de12a4ee6",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-assassin-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "6791e05544b85c22ca362ee607344ea5a86ad96982c0503e00375c10681d993c",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-elf-drow-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "6deae9b0c07be793162cdaed7e397c85542cd25891ca25ff5ccb775f07ac5127",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-skeleton-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "383040cfcf4e52142d5d677631be2354deacc90d0777774a10eaab2bac954118",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-vila-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "0a3fad9d14609abb4b46ad67f5bb2a201713cc33b89a835c7517da11569531f0",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-darakhul-spy-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "f963fe0bea7ddeb566868b430cd7eb03266efc9592587e608aba9235ed398852",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-fey-revenant-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "18369a2f47da6260bb6cde17ed84990eddf3ccc53b326d58bb4146093db7f0f6",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-erina-defender-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "f8d503933c1ce2da0444d7db2c7407ab958f4debb5be94255d17e9f0051775b9",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-pattern-dancer-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "6945e0340a3b2455d568475ac098946367b77dc9f46d3536939bee5c4cc709df",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-aridni-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "0c842b6d6d2a7fd3cd00d93379f258158715be2ba191d9a919b4cb5b0a1ac34e",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-edjet-initiate-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "tob",
+        "content_hash": "7c9dec7a61bfb01185183d3e30410476b5a6a0586f0bb91215d3a7b5f1b56e86",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-kobold-chieftain-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "ed07bde83b4d506d548c2ba9c8d35db0915c39939e0a5c1073f02345d0eb419d",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-shadow-of-death-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "1dc56a40a860534882598098b61f974a65b128d04d0e69e8af2c1e0b0ab29a84",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-labyrinth-keeper-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "0bceb692842de015b51dbfe8b533c210be978a5de1456c165b3cb5b5ecc2c919",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-ratfolk-mercenary-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "cd14bbae0bd17c76b3f27e7e268ab23e4dc51797fe531be1a7735fdd2135d3e5",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-shadow-fey-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob",
+        "content_hash": "13f03dced6a6083178ec1ce49a08f03c7b8ffc9152085b771dde7598868ab65f",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-roachling-skirmisher-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "91f3dd7eb416752e8f29e1c1d5da587684533db5b7ef327ea0aa534848a2ef4a",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-shadow-fey-poisoner-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "c9bbd9c033fbd5b9df1f4c1f90c7a80774bda4a12601365426db6ba54a0afa0f",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-dust-goblin-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob",
+        "content_hash": "b278e6c8b703f267ecf2412c02fce65cce399553d1f1e854f1fc484647f5bdc4",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-elvish-veteran-archer-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "a3a02bd465a571b857443cf5df8c2765d1b94f03c219f9aa5af18ed3f7851e50",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-dust-goblin-chieftain-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "d1cb17bcef71c1d13c126b1a122a7f9e37a010580685a870d8d17afbba295537",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-erina-defender-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "cfb5934e26cb7a5b22ec27f085163205c9fa2f353426eae249c04ef0bce0ade8",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-monolith-footman-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "c35d8d8313ed186c32a4e5d8f092b6548495b1be88e50e57a0e31c861fcfd8a4",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-half-red-dragon-veteran-shortsword-shortsword-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "bfabf01688880ca14cea7940e664397a5696ea7460cb9cad35cffebeabf932a5",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-roachling-skirmisher-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "6bd60ae344b1f1c6bc5c37c7763d1345aae43155be8efc21fcd30454d2c882a9",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-elvish-veteran-archer-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "be731ae6f7b02f6c9d44b458e3a08fabf7a1547afd7cd034c5ed4b2e87014460",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-veteran-swordbreaker-skeleton-shortsword-shortsword-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "bfrd_spy_shortsword",
+        "type": "parent",
+        "value": "bfrd_spy_shortsword"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "WEAPON",
+      "damage_bonus": 3,
+      "damage_die_count": 1,
+      "damage_die_type": "D6",
+      "damage_type": "piercing",
+      "name": "Shortsword attack",
+      "parent": "bfrd_spy_shortsword",
+      "reach": 5,
+      "target_creature_only": false,
+      "to_hit_mod": 5
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Shortsword attack",
+      "license": "CC-BY-4.0",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Shortsword attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака оружием: +5 к попаданию. Зона: досягаемость 5 фт., одна цель. Попадание: 1к6 + 3 колющего урона.",
+      "glossary_version": "derived-v1",
+      "name": "Короткий меч",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

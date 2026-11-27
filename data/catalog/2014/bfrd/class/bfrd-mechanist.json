@@ -1,0 +1,414 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode)",
+  "book_id": "bfrd",
+  "category": "class",
+  "edition": "2014",
+  "external_id": "bfrd_mechanist",
+  "id": "o5e:bfrd:characterclass:bfrd-mechanist",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "cdf59a14562a164bf6267a615ecf956464228bb6cc41603efb06d0a297c21ef4",
+    "formulas": [
+      {
+        "expression": "D10",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "NONE",
+      "hit_dice": "D10",
+      "primary_abilities": [],
+      "saving_throws": [
+        "con",
+        "int"
+      ],
+      "subclass_of": null
+    },
+    "original_system": "5e-2014",
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "NONE",
+      "document": "bfrd",
+      "hit_dice": "D10",
+      "name": "Mechanist",
+      "saving_throws": [
+        "con",
+        "int"
+      ]
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "_Ranged Weapon Attack:_ +3 to hit, range 80/320 ft., one target. _Hit:_ 5 (1d8+1) piercing damage.",
+          "desc_ru": "Атака оружием дальнего боя: +3 к попаданию, дистанция 80/320 фт., одна цель. Попадание: 5 (1к8+1) колющего урона.",
+          "external_id": "bfrd_mechanist_light-crossbow",
+          "name": "Light Crossbow",
+          "name_ru": "Лигхт арбалет",
+          "order_in_statblock": 2,
+          "parent": "bfrd_mechanist",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "REACTION",
+          "desc": "When a creature the mechanist can see attacks it with a weapon made at least partially of metal while within 5 feet of it, the mechanist can release a magical, magnetic pulse. The attacker must succeed on a DC 13 DEX save or have disadvantage on the attack roll.",
+          "desc_ru": "Действие «Магнетик Пулсе»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_mechanist_magnetic-pulse",
+          "name": "Magnetic Pulse",
+          "name_ru": "Магнетик Пулсе",
+          "order_in_statblock": 0,
+          "parent": "bfrd_mechanist",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The mechanist makes two Warhammer or Light Crossbow attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_mechanist_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "bfrd_mechanist",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "The mechanist cobbles together various machine parts it is carrying and creates a Tiny Construct. The Construct obeys the mechanist's spoken commands. It uses the statistics of a solodron but it isn't a mechadron or part of the Plan. The mechanist can have up to two such Constructs under its control at one time. Each Construct remains for 1 minute, until the mechanist dies, or until the mechanist uses this bonus action again to dismiss one or both of them.",
+          "desc_ru": "Действие «Квик Креатион»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_mechanist_quick-creation",
+          "name": "Quick Creation",
+          "name_ru": "Квик Креатион",
+          "order_in_statblock": 0,
+          "parent": "bfrd_mechanist",
+          "ru_source": "derived",
+          "uses_param": 4,
+          "uses_type": "RECHARGE_ON_ROLL"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The mechanist touches one friendly Construct it can see. The target regains 5 (2d4) HP.",
+          "desc_ru": "Действие «Репаир»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_mechanist_repair",
+          "name": "Repair",
+          "name_ru": "Репаир",
+          "order_in_statblock": 3,
+          "parent": "bfrd_mechanist",
+          "ru_source": "derived",
+          "uses_param": 4,
+          "uses_type": "RECHARGE_ON_ROLL"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 7 (1d8+3) bludgeoning damage, or 8 (1d10+3) bludgeoning damage if used with two hands.",
+          "desc_ru": "Атака оружием ближнего боя: +5 к попаданию, досягаемость 5 фт., одна цель. Попадание: 7 (1к8+3) дробящего урона, или 8 (1к10+3) дробящего урона при использовании двумя руками.",
+          "external_id": "bfrd_mechanist_warhammer",
+          "name": "Warhammer",
+          "name_ru": "Боевой молот",
+          "order_in_statblock": 1,
+          "parent": "bfrd_mechanist",
+          "ru_source": "template"
+        }
+      ],
+      "features": [
+        {
+          "desc": "When you touch a magic item or some other magic-imbued object, you learn its properties and how to use it, whether it requires attunement to use, and how many charges it has (if any). You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.",
+          "desc_ru": "Когда вы касаетесь магического предмета или другого наполненного магией объекта, вы узнаёте его свойства и как его использовать, требует ли он настройки для использования и сколько у него зарядов (если есть). Вы узнаёте, влияют ли на предмет какие-либо заклинания и какие они. Если предмет был создан заклинанием, вы узнаёте, какое заклинание его создало.",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_eyes-of-the-maker",
+          "level": 1,
+          "name": "Eyes of the Maker",
+          "name_ru": "Глаза создателя",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_proficiency-bonus",
+          "feature_type": "PROFICIENCY_BONUS",
+          "level": 1,
+          "name": "Proficiency Bonus",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You learn how to craft a shard of creation, which is a Tiny magical object with many uses that appears on your person. In its base state, the shard appears as a constantly shifting, fluid-like bundle of plasma.\n\nThe shard vanishes instantly if you are slain or if it is not in your possession for more than 24 consecutive hours. If the shard is destroyed or you lose it, you can perform a 1-hour ritual to create a replacement. This ritual can be performed as part of a short or long rest.\n\nThe shard has a number of charges equal to your INT modifier (minimum of 1), and you regain all expended charges when you finish a long rest. Charges can be spent to activate the following properties.\n\n**Inspire**. When you make an ability check while touching the shard (regardless of its current form), you can spend 1 charge to roll a d6 and add the number rolled to your check result.\n\n**Transform**. While touching the shard, you can use an action to transform it into any type of nonmagical weapon or shield or into any object of Medium size or smaller. The object appears in an unoccupied space within 10 feet of you, but the chosen space must contain a surface or liquid capable of supporting the object. If the object you create is of an appropriate size to be worn or held, you can choose for the object to appear in your hand or on your person. The total value (in gold pieces) of an object created can’t be more than 20 × your mechanist level.\n\nA transformed shard remains in its new form until you die, use an action to return it to its original state, or use an action to transform it again. No matter what shape the shard assumes, those who handle the shard can sense something strange about its nature. The shard can’t be passed off as a typical item for purposes of buying and selling.",
+          "desc_ru": "Вы учитесь, как создать осколок творения, который является Крошечным магическим предметом со многими использованиями, который появляется на вас. В его базовом состоянии осколок выглядит как постоянно меняющийся, похожий на жидкость пучок плазмы.\n\nОсколок мгновенно исчезает, если вы убиты или если он не находится в вашем владении более 24 последовательных часов. Если осколок уничтожен или вы теряете его, вы можете выполнить 1-часовой ритуал, чтобы создать замену. Этот ритуал может быть выполнен как часть короткого или продолжительного отдыха.\n\nУ осколка количество зарядов, равное вашему модификатору Интеллекта (минимум 1), и вы восстанавливаете все потраченные заряды, когда заканчиваете продолжительный отдых. Заряды можно тратить, чтобы активировать следующие свойства.\n\nВдохновение. Когда вы совершаете проверку характеристики, касаясь осколка (независимо от его текущей формы), вы можете потратить 1 заряд, чтобы бросить к6 и добавить выпавшее число к результату вашей проверки.\n\nТрансформация. Касаясь осколка, вы можете действием трансформировать его в любой тип немагического оружия или щита или в любой предмет Среднего размера или меньше. Предмет появляется в незанятом пространстве в пределах 10 футов от вас, но выбранное пространство должно содержать поверхность или жидкость, способную поддерживать предмет. Если создаваемый вами предмет подходящего размера, чтобы его носить или держать, вы можете выбрать, чтобы предмет появился в вашей руке или на вас. Общая стоимость (в золотых монетах) создаваемого предмета не может быть более 20 × ваш уровень механика.\n\nТрансформированный осколок остаётся в его новой форме, пока вы не умрёте, не используете действие, чтобы вернуть его в исходное состояние, или не используете действие, чтобы трансформировать его снова. Независимо от того, какую форму принимает осколок, те, кто обращается с осколком, могут почувствовать что-то странное в его природе. Осколок нельзя выдать за обычный предмет для целей купли-продажи.",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_shard-of-creation",
+          "level": 1,
+          "name": "Shard of Creation",
+          "name_ru": "Осколок творения",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You gain the ability to channel magical energy into items. To use this ability, you must spend 1 hour focusing on the item that you wish to augment while remaining in physical contact with it (which can be done as part of a short or long rest).\n\nYou gain two augment effects of your choice. Augment effect options are detailed at the end of the class description. At certain mechanist levels, you gain additional augment effects of your choice, as shown in the Augment Effects Known column of the **Mechanist Progression** table.\n\nWhen you use this ability, choose an effect from those you know. Regardless of the effect, an augmented item is considered a magic item while the effect remains active. You can apply these effects to existing magic items, and any bonuses or features granted by an augment effect stack with any properties a magic item already possesses.\n\nUnless specified otherwise, a chosen effect lasts indefinitely, but as an action, you can touch an item to end an ongoing effect that you created. You can have effects active on multiple items, provided you spend the required time focusing on each item individually. However, an item can only bear one effect at a time. Multiple uses of the same effect don’t stack.\n\nThe maximum number of items you can affect with this feature at one time is listed in the Augmented Items column of the **Mechanist Progression** table. If you try to exceed your maximum, you must choose an ongoing effect to end.\n\nYou can also augment your transformed shard of creation, provided its form meets the requirements for the chosen effect. The effect remains with the shard when it transforms as long as the new form remains compatible—if not, the effect immediately ends.",
+          "desc_ru": "Вы получаете способность направлять магическую энергию в предметы. Чтобы использовать эту способность, вы должны потратить 1 час, сосредотачиваясь на предмете, который вы желаете усилить, оставаясь в физическом контакте с ним (что может быть сделано как часть короткого или продолжительного отдыха).\n\nВы получаете два эффекта усиления на ваш выбор. Варианты эффектов усиления подробно описаны в конце описания класса. На определённых уровнях механика вы получаете дополнительные эффекты усиления на ваш выбор, как показано в колонке Известные эффекты усиления таблицы Прогрессии механика.\n\nКогда вы используете эту способность, выберите эффект из тех, что вы знаете. Независимо от эффекта, усиленный предмет считается магическим предметом, пока эффект остаётся активным. Вы можете применять эти эффекты к существующим магическим предметам, и любые бонусы или особенности, дарованные эффектом усиления, складываются с любыми свойствами, которыми магический предмет уже обладает.\n\nЕсли не указано иное, выбранный эффект длится бессрочно, но действием вы можете коснуться предмета, чтобы закончить текущий эффект, который вы создали. У вас могут быть активные эффекты на нескольких предметах при условии, что вы тратите требуемое время, сосредотачиваясь на каждом предмете по отдельности. Однако предмет может нести только один эффект одновременно. Несколько использований того же эффекта не складываются.\n\nМаксимальное количество предметов, на которые вы можете воздействовать этой особенностью одновременно, указано в колонке Усиленные предметы таблицы Прогрессии механика. Если вы попытаетесь превысить ваш максимум, вы должны выбрать текущий эффект, чтобы закончить.\n\nВы также можете усилить ваш трансформированный осколок творения при условии, что его форма отвечает требованиям выбранного эффекта. Эффект остаётся с осколком, когда он трансформируется, пока новая форма остаётся совместимой, — если нет, эффект немедленно заканчивается.",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_augment",
+          "level": 2,
+          "name": "Augment",
+          "name_ru": "Усиление",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_augment-effects-known",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 2,
+          "name": "Augment Effects Known",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_augmented-items",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 2,
+          "name": "Augment Effects Known",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your mechanical expertise allows you to use items more efficiently in the chaos of battle. You can use a bonus action to take the Use an Object action or to perform a weapon option.",
+          "desc_ru": "Ваша механическая экспертиза позволяет вам использовать предметы более эффективно в хаосе битвы. Вы можете бонусным действием выполнить действие Использование предмета или совершить вариант оружия.",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_efficient-action",
+          "level": 2,
+          "name": "Efficient Action",
+          "name_ru": "Эффективное действие",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Choose a subclass that reflects your relationship to your craft, either Metallurgist or Spellwright. Your choice grants you features at 3rd, 7th, 11th, and 15th level.",
+          "desc_ru": "Выберите подкласс, отражающий ваше отношение к вашему ремеслу: Металлург или Творец заклинаний. Ваш выбор дарует вам особенности на 3-м, 7-м, 11-м и 15-м уровнях.",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_mechanist-subclass",
+          "level": 3,
+          "name": "Mechanist Subclass",
+          "name_ru": "Подкласс механиста",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Choose one of the following improvements (ability scores can’t be raised above 20 with this feature):\n\n- Increase a single ability score by 2.\n- Increase two different ability scores by 1 each.\n Increase one ability score by 1 and select a talent from either the martial or the technical talents list.",
+          "desc_ru": "Выберите одно из следующих улучшений (этой особенностью показатели характеристик нельзя поднять выше 20):\n\n- Увеличить один показатель характеристики на 2.\n- Увеличить два разных показателя характеристик на 1 каждый.\n Увеличить один показатель характеристики на 1 и выбрать талант из списка боевых или технических талантов.",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_improvement",
+          "level": 4,
+          "name": "Improvement",
+          "name_ru": "Улучшение",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your physical prowess has grown. On your turn, you can make two attacks when you take the Attack action.",
+          "desc_ru": "Ваша физическая мощь выросла. В свой ход вы можете совершить две атаки, когда выполняете действие Атака.",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_multiattack",
+          "level": 5,
+          "name": "Multiattack",
+          "name_ru": "Мультиатака",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You can now use your Augment feature more rapidly. As a bonus action, you can touch an item and imbue it with a known augment effect of your choice. You remain bound by all other restrictions of the Augment feature, including number of items.\n\nYou can use your Rapid Augment feature a number of times equal to your INT modifier and regain all expended uses when you finish a long rest.",
+          "desc_ru": "Теперь вы можете использовать вашу особенность Усиление более быстро. Бонусным действием вы можете коснуться предмета и наполнить его известным вам эффектом усиления на ваш выбор. Вы по-прежнему связаны всеми другими ограничениями особенности Усиление, включая количество предметов.\n\nВы можете использовать вашу особенность Быстрое усиление количество раз, равное вашему модификатору Интеллекта, и восстанавливаете все потраченные использования, когда заканчиваете продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_rapid-augment",
+          "level": 6,
+          "name": "Rapid Augment",
+          "name_ru": "Быстрое усиление",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your growing insight into the nature of reality allows you greater control over your Shard of Creation feature. You receive the following enhancements to its given properties.\n\n**Inspire**.Your bonus to ability checks is now 1d8 (instead of 1d6).\n\n**Transform**. You can now transform the shard into any Large or smaller tool or nonmagical object. All other restrictions still apply, including the limit on the gold piece value.",
+          "desc_ru": "Ваше растущее понимание природы реальности позволяет вам лучше контролировать вашу особенность Осколок творения. Вы получаете следующие усиления её свойств.\n\n**Вдохновить**. Ваш бонус к проверкам характеристик теперь 1к8 (вместо 1к6).\n\n**Превратить**. Теперь вы можете превратить осколок в любой инструмент или немагический объект размера Большой или меньше. Все другие ограничения по-прежнему применяются, включая ограничение на стоимость в золотых монетах.",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_greater-creation",
+          "level": 9,
+          "name": "Greater Creation",
+          "name_ru": "Великое творение",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your commitment to the mechanist’s path grants you a powerful new ability. Choose one of the following heroic boons:\n\n- **Curse of Unmaking**. As an action, you can make a melee spell attack using your augment attack modifier (see **Augment Effects**) against a creature or item within reach. On a successful hit, the target becomes cursed so that it is vulnerable to all damage. If the target is a creature, it can attempt a CON save against your augment save DC (see **Augment Effects**) each time it takes a new instance of damage, ending the curse on a success. Once you use this feature, you must finish a long rest before you can use it again.\n**Mend the Broken**. As an action, you touch a creature or item and cause it to magically regain a number of hit points equal to 5 × your mechanist level. This effect also repairs any catastrophic damage suffered by the target, such as lost limbs, missing parts, or other harm that would ordinarily be irreparable. If the item doesn’t have a hit point total, your touch restores it to working order as best it can with the pieces available. This feature can’t restore expended charges on magic items or restore magical properties to nonmagical items that were once magical. Once you use this feature, you must finish a long rest before you can use it again.",
+          "desc_ru": "Ваша приверженность пути механика даёт вам мощную новую способность. Выберите один из следующих героических даров:\n\n- Проклятие разрушения. Действием вы можете совершить атаку заклинанием ближнего боя, используя ваш модификатор атаки усиления (см. Эффекты усиления) против существа или предмета в пределах досягаемости. При успешном попадании цель становится проклятой, так что она уязвима ко всему урону. Если цель — существо, оно может попытаться совершить спасбросок Телосложения против вашей Сл спасбросков усиления (см. Эффекты усиления) каждый раз, когда получает новый случай урона, заканчивая проклятие при успехе. Использовав эту особенность, вы должны закончить продолжительный отдых, прежде чем сможете использовать её снова.\nПочинить сломанное. Действием вы касаетесь существа или предмета и заставляете его магически восстановить количество очков хитов, равное 5 × ваш уровень механика. Этот эффект также чинит любой катастрофический урон, понесённый целью, такой как потерянные конечности, отсутствующие части или другой вред, который обычно был бы непоправим. Если у предмета нет итога очков хитов, ваше касание восстанавливает его рабочее состояние насколько возможно с имеющимися частями. Эта особенность не может восстанавливать потраченные заряды магических предметов или восстанавливать магические свойства немагическим предметам, которые когда-то были магическими. Использовав эту особенность, вы должны закончить продолжительный отдых, прежде чем сможете использовать её снова.",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_heroic-boon",
+          "level": 10,
+          "name": "Heroic Boon",
+          "name_ru": "Героический дар",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "As long as you have at least 1 minute of uninterrupted focus on a task, when you make an ability check, treat any d20 roll of 9 or lower as though you rolled a 10.\n\nNormal activity like moving doesn’t interrupt focus, but attacking, taking damage, or participating in anything that requires initiative order does interrupt focus.",
+          "desc_ru": "Пока у вас есть как минимум 1 минута непрерывной концентрации на задаче, когда вы совершаете проверку характеристики, считайте любой бросок к20, равный 9 или ниже, как если бы вы выбросили 10.\n\nОбычная активность, например перемещение, не прерывает концентрацию, но атака, получение урона или участие в чём-либо, требующем порядка инициативы, прерывает концентрацию.",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_engineers-insight",
+          "level": 13,
+          "name": "Engineer's Insight",
+          "name_ru": "Проницательность инженера",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You can now use your Rapid Augment feature on items you can see within 60 feet of you. (You no longer need to touch them.)\n\nIn addition, if an effect from your Augment feature would typically require you to touch the item to activate its properties, you no longer need to do so as long as the item is within 60 feet of you. You don’t need to see the item to activate its properties in this way.",
+          "desc_ru": "Теперь вы можете использовать вашу особенность Быстрое усиление на предметах, которые можете видеть в пределах 60 футов от вас. (Вам больше не нужно их касаться.)\n\nКроме того, если эффект вашей особенности Усиление обычно требовал бы, чтобы вы касались предмета для активации его свойств, вам больше не нужно делать это, пока предмет находится в пределах 60 футов от вас. Вам не нужно видеть предмет, чтобы активировать его свойства этим способом.",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_ranged-augment",
+          "level": 14,
+          "name": "Ranged Augment",
+          "name_ru": "Усиление на дистанции",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you would take damage from an attack, you can use a reaction to take the Use an Object action.",
+          "desc_ru": "Когда вы должны получить урон от атаки, вы можете реакцией выполнить действие Использование предмета.",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_always-prepared",
+          "level": 17,
+          "name": "Always Prepared",
+          "name_ru": "Всегда готов",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your growing insight into the nature of reality allows you greater control over your Shard of Creation feature. You receive the following enhancements to its given properties.\n\n**Inspire**. Your bonus to ability checks is now 1d10 (instead of 1d8).\n\n**Transform**. You can now transform the shard into any item— including structures and vehicles—of Huge size or smaller. You are no longer bound by any cost restrictions when choosing a form.",
+          "desc_ru": "Ваше растущее понимание природы реальности позволяет вам лучше контролировать вашу особенность Осколок творения. Вы получаете следующие усиления её свойств.\n\n**Вдохновить**. Ваш бонус к проверкам характеристик теперь 1к10 (вместо 1к8).\n\n**Превратить**. Теперь вы можете превратить осколок в любой предмет — включая структуры и транспорт — размера Огромный или меньше. Вы больше не связаны никакими ограничениями стоимости при выборе формы.",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_perfect-creation",
+          "level": 18,
+          "name": "Perfect Creation",
+          "name_ru": "Совершенное творение",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your commitment to the mechanist’s path grants you a powerful new ability. You gain the following epic boon:\n\n- **Creative Engine**. You gain a +1 bonus to your saves for each effect from your Augment feature currently active on items within 60 feet of you. If you fail a save while any of those items are within 60 feet of you, you can automatically end one of those effects (your choice) to succeed on the save instead.",
+          "desc_ru": "Ваша приверженность пути механиста дарует вам мощную новую способность. Вы получаете следующий эпический дар:\n\n- **Творческий двигатель**. Вы получаете бонус +1 к вашим спасброскам за каждый эффект вашей особенности Усиление, действующий в настоящий момент на предметах в пределах 60 футов от вас. Если вы проваливаете спасбросок, пока какие-либо из этих предметов находятся в пределах 60 футов от вас, вы можете автоматически закончить один из этих эффектов (ваш выбор), чтобы вместо этого успешно пройти спасбросок.",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_epic-boon",
+          "level": 20,
+          "name": "Epic Boon",
+          "name_ru": "Эпический дар",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "This section lists the effects available for mechanists to learn and use with their Augment feature. Each option lists the type of item required for the effect to function and provides a description of how the effect works. Any effects that require an action to activate their properties can be activated with the Use an Object action.\n\nSome effects require you to make an attack roll or require your target to make a save. The attack bonus and save DC for these is calculated as follows:\n\n**Augment save DC** = 8 + your proficiency bonus (PB) + your Intelligence (INT) modifier\n\n**Augment attack modifier** = your proficiency bonus (PB) + your Intelligence (INT) modifier\n\n### Adhesive\n\n*Item Requirement: Large or Smaller Equipment or Object that Isn’t Being Worn or Held*\n\nYou imbue an item with the ability to stick to surfaces. While the item is within 30 feet of you, you can use an action to speak a command word and affix the item to a solid surface it is touching. The chosen surface can’t be part of a creature.\n\nWhile affixed, the item can support up to 1,000 pounds of weight. If additional weight is added, the item detaches from the surface (falling or moving as appropriate).\n\nA creature can spend an action to attempt to remove the affixed item with a STR (Athletics) check. The DC for this check equals 8 + your PB + your INT modifier. If a creature succeeds on this check, the item detaches from the surface.\n\nIf the item isn’t forcefully detached, it remains attached for 24 hours or until you use an action to detach it. If the item is detached by any means, its adhesive properties can’t be activated again until you finish a long rest.\n\n### Collapsible\n\n*Item Requirement: Large or Smaller Item that Isn’t Being Worn, Held, or Fixed in Place*\n\nYou imbue an item with the ability to become smaller. While you touch the item, you can use an action to reduce its size. When you do so, the target is halved in all dimensions, its weight is reduced to 1/8 of normal, and it decreases its size category by one, such as from Medium to Small. The target’s size can’t be reduced further by multiple uses of this feature. As an action, you can touch the target and cause it to return to its original size.\n\n**At Higher Levels**. Once you reach 9th level in the mechanist class, you can affect Huge or smaller items that meet the other requirements.\n\n### Detecting\n\n*Item Requirement: Goggles, Glasses, Spyglass, or Similar Equipment or Object with a Transparent Surface*\n\nYou imbue an item with magical capabilities to enhance perception. While you touch the item, you can use an action to activate one of the listed effects. You must equip, wear, or actively look through the augmented item to gain the benefit of the chosen effect:\n\n- **Darkvision**. You gain darkvision out to a range of 30 feet.\n- **Invisi-Vision**. You can see invisible creatures and items as if they were visible. You are also aware of any creatures within 30 feet of you or if any creatures come within 30 feet of you, regardless of lighting conditions.\n- **Magic Vision**. You gain the benefits of the detect magic spell within 30 feet of you.\n- **X-Ray Vision**. You gain the ability to see through solid material within 30 feet of you. To you, solid items within that radius appear transparent and don’t prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block your vision, as does a thin sheet of lead.\n\nWhile the augmented item is activated, you can use an action to deactivate it or switch the type of vision the item bestows. You can keep the item activated for up to 1 minute, all at once or in several shorter spans, each one using a minimum of 6 seconds (1 round) from the duration. The effect fully recharges when you finish a long rest.\n\n**At Higher Levels**. Once you reach 9th level in the mechanist class, the range of all vision effects increases to 60 feet.\n\n### Empowered\n\n*Item Requirement: Weapon*\n\nYou imbue a weapon with offensive power. The weapon gains a +1 bonus to attack and damage rolls. If it wasn’t already magical, it is now. If it was already magical, this bonus stacks with any existing bonuses.\n\n**At Higher Levels**. Once you reach 9th level in the mechanist class, the attack and damage bonus increases to +2. At 15th level, it becomes +3.\n\n### Illusive\n\n*Item Requirement: Large or Smaller Item*\n\nYou imbue an item with the ability to mask its true appearance. While you touch the target, you can use an action to cause the item to appear as a different item of the same size and general composition. You can’t use this feature to change a target’s overall nature. For instance, a vehicle must always appear as another kind of vehicle, and equipment must appear as some other kind of equipment. Otherwise, the extent of the illusion is up to you.\n\nThe change in appearance doesn't hold up to physical inspection. For example, if you use this effect to make a sharpened sword seem dull, anyone who touched the blade would be harmed as if they touched a fine-edged blade.\n\nTo discern whether an item is disguised, a creature can use its action to inspect the item and must succeed on an INT (Investigation) check against your augment save DC.\n\n**At Higher Levels**. Once you reach 9th level in the mechanist class, you can affect Huge or smaller items.\n\n### Loading\n\n*Item Requirement: Weapon with the Ammunition Property*\n\nYou imbue an item with the ability to conjure magic ammunition. When you wield the weapon, an appropriate piece of ammunition magically appears in place as you attack. Any damage dealt by this ammunition is considered magical.\n\nIf you use this effect on a weapon with the Loading property, you don’t need to spend any time reloading the weapon.\n\n### Phosphorescent\n\n*Item Requirement: Small or Smaller Item that Can Be Worn or Held*\n\nYou imbue an item with the ability to glow. While the item is on your person, you can use an action to cause the item to emit bright light in a 20-foot radius and dim light for an additional 20 feet. When you first activate the item, you can choose whether this light shines normally or whether it can only be seen by a number of creatures of your choice within 30 feet of you. The maximum number of creatures you can include equals your INT modifier. The light can be any color you choose\n\nYou can cause the item to stop emitting light at any time (no action required).\n\n**At Higher Levels**. Once you reach 9th level in the mechanist class, the radius increases to bright light in a 30-foot radius and dim light for an additional 30 feet. You can choose for the bright light to be sunlight.\n\n### Propulsive\n\n*Item Requirement: Armor (not Shields) or Small or Smaller Object that Can Be Worn*\n\nYou imbue an item with the ability to increase the wearer’s speed. While wearing the augmented item, your base movement speed is increased by 5 feet.\n\nIn addition, while you wear the item, you can use an action to move vertically up to 10 feet and remain suspended there for up to 1 minute. You can repeat this action on subsequent turns, rising up to an additional 10 feet each time you do so.\n\nWhile suspended, you can move only by pushing or pulling against a fixed item or surface within reach (such as a wall or ceiling), which allows you to move as if you were climbing. When this effect ends or you choose to end it (no action required), you float gently to the ground if you are still aloft, and you can’t activate this Augment effect again until you finish a long rest.\n\n**At Higher Levels**. Once you reach 9th level in the mechanist class, the movement speed bonus increases to 10 feet. At 15th level, it becomes 20 feet.\n\n### Protean\n\n*Item Requirement: Weapon*\n\nYou imbue a weapon with the ability to change its damage type. When you successfully deal damage with the augmented weapon, you can replace the weapon’s damage type with another type of your choice. Damage altered in this way is always considered magical for purposes of overcoming resistances and immunities.\n\nYou can use this augment effect a number of times equal to your PB and regain all expended uses when you finish a long rest.\n\n### Reactive\n\n*Item Requirement: Large or Smaller Item that Isn’t Being Worn, Held, or Fixed in Place*\n\nYou imbue an item with the ability to detect specific triggers and react in one of several ways. While you touch the item, you can use an action to set or change the item’s trigger and reaction.\n\nYou can set the item to trigger when a creature you specify comes within 30 feet of it. This can be a specific creature you have met, such as “Jon the messenger,” a general visual description, such as “anyone wearing a city watch uniform,” or a creature type, such as “Celestials.” Your GM has final say on what is reasonable for a trigger.\n\nWhen triggered, you instantly become mentally aware that the item has been triggered, and the item can react in one of the following ways. At your GM’s discretion, an item might be able to react in other comparable ways:\n\n**Recording**. The item begins to record everything it can “see” and “hear” within 60 feet of it for the next hour, perceiving as a creature with typical vision or hearing could. After 1 hour, the item ceases to record new information and stores the recording until the item is no longer augmented or until you use an action to set a new trigger or reaction. While a recording is stored, you or any creature of your choosing can touch the item to mentally see and hear anything contained in the recording.\n\n**Sound**. The item emits a sound for up to 1 minute that can be heard to a range of 60 feet (you choose quality and range), such as the sound of ringing bells or a set of bird calls. Alternatively, you can cause it to emit a pre- determined message of 25 words or less in your own voice.\n\n**At Higher Levels**. Once you reach 9th level in the mechanist class, the item can react when a specified creature comes within 60 feet of it.\n\n### Reinforced\n\n*Item Requirement: Item with Hit Points*\n\nYou fortify an item. The target’s hit points and hit point maximum increase by an amount equal to 5 × your mechanist level. If the item is destroyed while this effect is active, the effect ends\n\n### Returning\n\n*Target: Equipment or Object that Can Fit in the Hand and Isn’t Being Worn or Held*\n\nYou imbue an item with the ability to return to your hand. While the augmented item is within 60 feet, you can cause it to instantly teleport into your hand (no action required). You must have at least one hand free for this ability to function.\n\n**At Higher Levels**. Once you reach 9th level in the mechanist class, you can affect an item up to 120 feet away from you. At 15th level, you can affect an item anywhere on the same plane as you.\n\n### Repellant\n\n*Item Requirement: Shield*\n\nYou imbue an item with the ability to repel attackers. When a Large or smaller creature hits you with a melee attack, you can use your reaction to force the target to make a STR save against your augment save DC. On a failure, the creature is pushed 15 feet away from you. If the creature encounters a solid surface (like a wall) before moving the full amount, it takes 1d6 bludgeoning for each 10-foot increment it moved.\n\n**At Higher Levels**. Once you reach 9th level in the mechanist class, a target that fails its save is pushed 30 feet away from you.",
+          "desc_ru": "В этом разделе перечислены эффекты, доступные механикам для изучения и использования с их особенностью Усиление. Каждый вариант указывает тип предмета, требуемый для функционирования эффекта, и предоставляет описание того, как эффект работает. Любые эффекты, которые требуют действия для активации их свойств, могут быть активированы действием Использовать предмет.\n\nНекоторые эффекты требуют, чтобы вы совершили бросок атаки, или требуют, чтобы ваша цель совершила спасбросок. Бонус атаки и Сл спасброска для них рассчитываются следующим образом:\n\nСл спасброска усиления = 8 + ваш бонус мастерства + ваш модификатор Интеллекта\n\nМодификатор атаки усиления = ваш бонус мастерства + ваш модификатор Интеллекта\n\n### Липкий\n\nТребование предмета: Большое или меньшее снаряжение или предмет, который не носят и не держат\n\nВы наполняете предмет способностью прилипать к поверхностям. Пока предмет в пределах 30 футов от вас, вы можете действием произнести командное слово и прикрепить предмет к твёрдой поверхности, которой он касается. Выбранная поверхность не может быть частью существа.\n\nПока прикреплён, предмет может поддерживать до 1 000 фунтов веса. Если добавляется дополнительный вес, предмет отсоединяется от поверхности (падая или перемещаясь как уместно).\n\nСущество может потратить действие, чтобы попытаться снять прикреплённый предмет проверкой Силы (Атлетика). Сл этой проверки равна 8 + ваш бонус мастерства + ваш модификатор Интеллекта. Если существо успешно проходит эту проверку, предмет отсоединяется от поверхности.\n\nЕсли предмет не отсоединяют принудительно, он остаётся прикреплённым 24 часа или пока вы не используете действие, чтобы отсоединить его. Если предмет отсоединяется любыми средствами, его липкие свойства нельзя активировать снова, пока вы не закончите продолжительный отдых.\n\n### Складной\n\nТребование предмета: Большой или меньший предмет, который не носят, не держат и не закреплён на месте\n\nВы наполняете предмет способностью становиться меньше. Пока вы касаетесь предмета, вы можете действием уменьшить его размер. Когда вы делаете это, цель уменьшается вдвое во всех измерениях, её вес уменьшается до 1/8 от обычного, и она уменьшает свою категорию размера на одну, например, со Средней до Маленькой. Размер цели нельзя уменьшить дальше несколькими использованиями этой особенности. Действием вы можете коснуться цели и заставить её вернуться к исходному размеру.\n\nНа более высоких уровнях. Когда вы достигаете 9-го уровня в классе механика, вы можете воздействовать на Огромные или меньшие предметы, отвечающие другим требованиям.\n\n### Обнаруживающий\n\nТребование предмета: Очки, очки, подзорная труба или похожее снаряжение или предмет с прозрачной поверхностью\n\nВы наполняете предмет магическими способностями для усиления восприятия. Пока вы касаетесь предмета, вы можете действием активировать один из перечисленных эффектов. Вы должны экипировать, носить или активно смотреть через усиленный предмет, чтобы получить преимущество выбранного эффекта:\n\n- Тёмное зрение. Вы получаете тёмное зрение на дистанции 30 футов.\n- Невидимое зрение. Вы можете видеть невидимых существ и предметы, как если бы они были видимы. Вы также осознаёте любых существ в пределах 30 футов от вас или если любые существа подходят в пределах 30 футов от вас, независимо от условий освещения.\n- Магическое зрение. Вы получаете преимущества заклинания обнаружение магии в пределах 30 футов от вас.\n- Рентгеновское зрение. Вы получаете способность видеть сквозь твёрдый материал в пределах 30 футов от вас. Для вас твёрдые предметы в этом радиусе выглядят прозрачными и не препятствуют прохождению света через них. Зрение может проникать через 1 фут камня, 1 дюйм обычного металла или до 3 футов дерева или земли. Более толстые вещества блокируют ваше зрение, как и тонкий лист свинца.\n\nПока усиленный предмет активирован, вы можете действием деактивировать его или переключить тип зрения, который предмет дарует. Вы можете держать предмет активированным до 1 минуты, всё сразу или в несколько более коротких промежутков, каждый из которых использует минимум 6 секунд (1 раунд) из длительности. Эффект полностью перезаряжается, когда вы заканчиваете продолжительный отдых.\n\nНа более высоких уровнях. Когда вы достигаете 9-го уровня в классе механика, дистанция всех эффектов зрения увеличивается до 60 футов.\n\n### Усиленный\n\nТребование предмета: Оружие\n\nВы наполняете оружие наступательной силой. Оружие получает бонус +1 к броскам атаки и урона. Если оно ещё не было магическим, теперь оно магическое. Если оно уже было магическим, этот бонус складывается с любыми существующими бонусами.\n\nНа более высоких уровнях. Когда вы достигаете 9-го уровня в классе механика, бонус атаки и урона увеличивается до +2. На 15-м уровне он становится +3.\n\n### Иллюзорный\n\nТребование предмета: Большой или меньший предмет\n\nВы наполняете предмет способностью маскировать его истинный внешний вид. Пока вы касаетесь цели, вы можете действием заставить предмет выглядеть как другой предмет того же размера и общего состава. Вы не можете использовать эту особенность, чтобы изменить общую природу цели. Например, транспортное средство всегда должно выглядеть как другой вид транспортного средства, а снаряжение должно выглядеть как другой вид снаряжения. В остальном степень иллюзии на ваше усмотрение.\n\nИзменение внешнего вида не выдерживает физического осмотра. Например, если вы используете этот эффект, чтобы заточенный меч казался тупым, любой, кто коснулся лезвия, был бы ранен, как если бы коснулся остро заточенного лезвия.\n\nЧтобы различить, замаскирован ли предмет, существо может действием осмотреть предмет и должно успешно пройти проверку Интеллекта (Расследование) против вашей Сл спасброска усиления.\n\nНа более высоких уровнях. Когда вы достигаете 9-го уровня в классе механика, вы можете воздействовать на Огромные или меньшие предметы.\n\n### Заряжающий\n\nТребование предмета: Оружие со свойством Боеприпасы\n\nВы наполняете предмет способностью сотворять магические боеприпасы. Когда вы владеете оружием, подходящий боеприпас магически появляется на месте, когда вы атакуете. Любой урон, нанесённый этим боеприпасом, считается магическим.\n\nЕсли вы используете этот эффект на оружии со свойством Перезарядка, вам не нужно тратить время на перезарядку оружия.\n\n### Фосфоресцирующий\n\nТребование предмета: Маленький или меньший предмет, который можно носить или держать\n\nВы наполняете предмет способностью светиться. Пока предмет на вас, вы можете действием заставить предмет излучать яркий свет в радиусе 20 футов и тусклый свет ещё на 20 футов. Когда вы впервые активируете предмет, вы можете выбрать, светит ли этот свет нормально или его могут видеть только количество существ на ваш выбор в пределах 30 футов от вас. Максимальное количество существ, которых вы можете включить, равно вашему модификатору Интеллекта. Свет может быть любого цвета на ваш выбор.\n\nВы можете заставить предмет перестать излучать свет в любое время (действие не требуется).\n\nНа более высоких уровнях. Когда вы достигаете 9-го уровня в классе механика, радиус увеличивается до яркого света в радиусе 30 футов и тусклого света ещё на 30 футов. Вы можете выбрать, чтобы яркий свет был солнечным светом.\n\n### Движительный\n\nТребование предмета: Доспех (не щиты) или Маленький или меньший предмет, который можно носить\n\nВы наполняете предмет способностью увеличивать скорость носителя. Пока вы носите усиленный предмет, ваша базовая скорость перемещения увеличивается на 5 футов.\n\nКроме того, пока вы носите предмет, вы можете действием переместиться вертикально до 10 футов и оставаться висеть там до 1 минуты. Вы можете повторять это действие в последующие ходы, поднимаясь до дополнительных 10 футов каждый раз, когда вы делаете это.\n\nПока вы висите, вы можете перемещаться только отталкиваясь или притягиваясь к закреплённому предмету или поверхности в пределах досягаемости (такой как стена или потолок), что позволяет вам перемещаться, как если бы вы карабкались. Когда этот эффект заканчивается или вы выберете закончить его (действие не требуется), вы мягко опускаетесь на землю, если вы всё ещё в воздухе, и вы не можете активировать этот эффект Усиления снова, пока не закончите продолжительный отдых.\n\nНа более высоких уровнях. Когда вы достигаете 9-го уровня в классе механика, бонус скорости перемещения увеличивается до 10 футов. На 15-м уровне он становится 20 футов.\n\n### Изменчивый\n\nТребование предмета: Оружие\n\nВы наполняете оружие способностью менять его тип урона. Когда вы успешно наносите урон усиленным оружием, вы можете заменить тип урона оружия другим типом на ваш выбор. Урон, изменённый этим способом, всегда считается магическим для целей преодоления сопротивлений и иммунитетов.\n\nВы можете использовать этот эффект усиления количество раз, равное вашему бонусу мастерства, и восстанавливаете все потраченные использования, когда заканчиваете продолжительный отдых.\n\n### Реактивный\n\nТребование предмета: Большой или меньший предмет, который не носят, не держат и не закреплён на месте\n\nВы наполняете предмет способностью обнаруживать конкретные триггеры и реагировать одним из нескольких способов. Пока вы касаетесь предмета, вы можете действием установить или изменить триггер и реакцию предмета.\n\nВы можете установить предмет срабатывать, когда указанное вами существо подходит в пределах 30 футов от него. Это может быть конкретное существо, которое вы встретили, например «Джон-посыльный», общее визуальное описание, например «любой в форме городской стражи», или тип существа, например «Небожители». Ваш мастер игры имеет последнее слово о том, что разумно для триггера.\n\nПри срабатывании вы мгновенно мысленно осознаёте, что предмет сработал, и предмет может отреагировать одним из следующих способов. По усмотрению вашего мастера игры предмет может быть способен реагировать другими сравнимыми способами:\n\nЗапись. Предмет начинает записывать всё, что он может «видеть» и «слышать» в пределах 60 футов от него, в течение следующего часа, воспринимая, как существо с обычным зрением или слухом могло бы. Через 1 час предмет перестаёт записывать новую информацию и хранит запись, пока предмет больше не усилен или пока вы не используете действие, чтобы установить новый триггер или реакцию. Пока запись хранится, вы или любое существо на ваш выбор можете коснуться предмета, чтобы мысленно видеть и слышать всё, содержащееся в записи.\n\nЗвук. Предмет издаёт звук до 1 минуты, который можно услышать на дистанции 60 футов (вы выбираете качество и дистанцию), такой как звук звенящих колоколов или набор птичьих криков. В качестве альтернативы вы можете заставить его издавать предопределённое сообщение из 25 слов или меньше вашим собственным голосом.\n\nНа более высоких уровнях. Когда вы достигаете 9-го уровня в классе механика, предмет может реагировать, когда указанное существо подходит в пределах 60 футов от него.\n\n### Укреплённый\n\nТребование предмета: Предмет с очками хитов\n\nВы укрепляете предмет. Очки хитов цели и максимум очков хитов увеличиваются на величину, равную 5 × ваш уровень механика. Если предмет уничтожен, пока этот эффект активен, эффект заканчивается\n\n### Возвращающийся\n\nЦель: Снаряжение или предмет, который может поместиться в руке и который не носят и не держат\n\nВы наполняете предмет способностью возвращаться в вашу руку. Пока усиленный предмет в пределах 60 футов, вы можете заставить его мгновенно телепортироваться в вашу руку (действие не требуется). У вас должна быть как минимум одна свободная рука, чтобы эта способность функционировала.\n\nНа более высоких уровнях. Когда вы достигаете 9-го уровня в классе механика, вы можете воздействовать на предмет на расстоянии до 120 футов от вас. На 15-м уровне вы можете воздействовать на предмет в любом месте на том же плане, что и вы.\n\n### Отталкивающий\n\nТребование предмета: Щит\n\nВы наполняете предмет способностью отталкивать атакующих. Когда Большое или меньшее существо попадает по вам атакой ближнего боя, вы можете реакцией заставить цель совершить спасбросок Силы против вашей Сл спасброска усиления. При провале существо отталкивается на 15 футов от вас. Если существо встречает твёрдую поверхность (такую как стена), прежде чем переместиться на полную величину, оно получает 1к6 дробящего урона за каждый пройденный прирост в 10 футов.\n\nНа более высоких уровнях. Когда вы достигаете 9-го уровня в классе механика, цель, провалившая её спасбросок, отталкивается на 30 футов от вас.",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_augmentation-effects",
+          "name": "Augmentation Effects",
+          "name_ru": "Эффекты усиления",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "**Armor:** Light armor, medium armor, shields\n\n**Weapons:** Simple weapons, martial weapons\n\n**Tools:** Tinker tools and two additional tools your choice\n\n**Saving Throws:** CON, INT\n\n**Skills:** Choose two from Arcana, History, Investigation, Perception, and Sleight of Hand",
+          "desc_ru": "**Доспехи:** лёгкие доспехи, средние доспехи, щиты\n\n**Оружие:** простое оружие, боевое оружие\n\n**Инструменты:** инструменты жестянщика и два дополнительных инструмента на ваш выбор\n\n**Спасброски:** Телосложение, Интеллект\n\n**Навыки:** выберите два из Магии, Истории, Расследования, Восприятия и Ловкости рук",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_proficiencies",
+          "feature_type": "PROFICIENCIES",
+          "name": "Proficiencies",
+          "name_ru": "Владения",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You start with the following equipment, in addition to the equipment granted by your background:\n\n- **(a)** a martial weapon and a shield or **(b)** two simple weapons\n- Light crossbow and 20 bolts\n- **(a)** scale mail or **(b)** leather armor\n- Tinker tools and a dungeoneer’s pack",
+          "desc_ru": "Вы начинаете со следующим снаряжением, в дополнение к снаряжению, дарованному вашей предысторией:\n\n- **(а)** боевое оружие и щит или **(б)** два простых оружия\n- Лёгкий арбалет и 20 болтов\n- **(а)** чешуйчатый доспех или **(б)** кожаный доспех\n- Инструменты жестянщика и набор исследователя подземелий",
+          "document": "bfrd",
+          "external_id": "bfrd_mechanist_equipment",
+          "feature_type": "STARTING_EQUIPMENT",
+          "name": "Starting Equipment",
+          "name_ru": "Стартовое снаряжение",
+          "parent": "bfrd_mechanist",
+          "ru_source": "curated"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The mechanist is proficient with tinker tools and doubles its proficiency bonus for any ability check it makes with tinker tools.",
+          "desc_ru": "Особенность «Тоолс Траде». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_mechanist_tools-of-the-trade",
+          "name": "Tools of the Trade",
+          "name_ru": "Тоолс Траде",
+          "parent": "bfrd_mechanist",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Mechanist",
+      "license": "CC-BY-4.0",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Mechanist",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Класс персонажа. Структурированные механики, умения и подклассы приведены в механиках записи.",
+      "glossary_version": "derived-v1",
+      "name": "Мечанист",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

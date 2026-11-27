@@ -1,0 +1,146 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "subclass",
+  "edition": "2024",
+  "external_id": "srd-2024_life-domain",
+  "id": "o5e:srd-2024:characterclass:srd-2024-life-domain",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "0eeb59c8a2e5e99437b920f744803783e3906d659a079d9fd1f77e203467ed8c",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "NONE",
+      "subclass_of": "srd-2024_cleric"
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_cleric",
+        "type": "subclass_of",
+        "value": "srd-2024_cleric"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "NONE",
+      "desc": "*Soothe the Hurts of the World*\n\nThe Life Domain focuses on the positive energy that helps sustain all life in the multiverse. Clerics who tap into this domain are masters of healing, using that life force to cure many hurts.\n\nExistence itself relies on the positive energy associated with this domain, so a Cleric of almost any religious tradition might choose it. This domain is particularly associated with agricultural deities, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the magic of this domain.",
+      "document": "srd-2024",
+      "name": "Life Domain",
+      "subclass_of": "srd-2024_cleric"
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level.",
+          "desc_ru": "Когда заклинание, которое вы творите с использованием ячейки заклинания, восстанавливает хиты существу, это существо восстанавливает дополнительные хиты в ход, когда вы творите заклинание. Дополнительные хиты равны 2 плюс уровень ячейки заклинания.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_cleric_life-domain_disciple-of-life",
+          "level": 3,
+          "name": "Disciple of Life",
+          "name_ru": "Послушник жизни",
+          "parent": "srd-2024_life-domain",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed spells prepared.\n\nTable: Life Domain Spells\n\n|Cleric Level|Prepared Spells|\n|---|---|\n|3|Aid, Bless, Cure Wounds, Lesser Restoration|\n|5|Mass Healing Word, Revivify|\n|7|Aura of Life, Death Ward|\n|9|Greater Restoration, Mass Cure Wounds|",
+          "desc_ru": "Ваша связь с этим божественным доменом гарантирует, что у вас всегда подготовлены определённые заклинания. Когда вы достигаете уровня жреца, указанного в таблице Заклинания домена жизни, у вас с этого момента всегда подготовлены перечисленные заклинания.\n\nТаблица: Заклинания домена жизни\n\n| Уровень жреца | Подготовленные заклинания                             |\n|---|---|\n| 3             | Помощь, Благословение, Лечение ран, Малое восстановление |\n| 5             | Массовое целебное слово, Возвращение к жизни                |\n| 7             | Аура жизни, Защита от смерти                        |\n| 9             | Высшее восстановление, Массовое исцеление ран        |",
+          "document": "srd-2024",
+          "external_id": "srd-2024_cleric_life-domain_life-domain-spells",
+          "level": 3,
+          "name": "Life Domain Spells",
+          "name_ru": "Заклинания домена жизни",
+          "parent": "srd-2024_life-domain",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to evoke healing energy that can restore a number of Hit Points equal to five times your Cleric level. Choose Bloodied creatures within 30 feet of yourself (which can include you), and divide those Hit Points among them. This feature can restore a creature to no more than half its Hit Point maximum.",
+          "desc_ru": "Действием «Магия» вы представляете священный символ и тратите одно использование Божественного канала, чтобы вызвать исцеляющую энергию, способную восстановить количество хитов, равное пятикратному вашему уровню жреца. Выберите окровавленных существ в пределах 30 футов от себя (включая себя) и распределите эти хиты между ними. Это умение может восстановить существу не более половины его максимума хитов.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_cleric_life-domain_preserve-life",
+          "level": 3,
+          "name": "Preserve Life",
+          "name_ru": "Сохранение жизни",
+          "parent": "srd-2024_life-domain",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "The healing spells you cast on others heal you as well. Immediately after you cast a spell with a spell slot that restores Hit Points to one or more creatures other than yourself, you regain Hit Points equal to 2 plus the spell slot's level.",
+          "desc_ru": "Исцеляющие заклинания, которые вы творите на других, исцеляют и вас. Сразу после того, как вы сотворили заклинание с использованием ячейки заклинания, которое восстанавливает хиты одному или нескольким существам, кроме вас, вы восстанавливаете хиты, равные 2 плюс уровень ячейки заклинания.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_cleric_life-domain_blessed-healer",
+          "level": 6,
+          "name": "Blessed Healer",
+          "name_ru": "Благословенный целитель",
+          "parent": "srd-2024_life-domain",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "When you would normally roll one or more dice to restore Hit Points to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring 2d6 Hit Points to a creature with a spell, you restore 12.",
+          "desc_ru": "Когда вы обычно бросаете одну или несколько костей для восстановления хитов существу заклинанием или Божественным каналом, не бросайте эти кости для исцеления; вместо этого используйте максимально возможное число для каждой кости. Например, вместо восстановления 2d6 хитов существу заклинанием, вы восстанавливаете 12.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_cleric_life-domain_supreme-healing",
+          "level": 17,
+          "name": "Supreme Healing",
+          "name_ru": "Высшее исцеление",
+          "parent": "srd-2024_life-domain",
+          "ru_source": "memory"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "assembled_features": 5,
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "Life Domain",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "*Soothe the Hurts of the World*\n\nThe Life Domain focuses on the positive energy that helps sustain all life in the multiverse. Clerics who tap into this domain are masters of healing, using that life force to cure many hurts.\n\nExistence itself relies on the positive energy associated with this domain, so a Cleric of almost any religious tradition might choose it. This domain is particularly associated with agricultural deities, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the magic of this domain.",
+      "name": "Life Domain",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Домен жизни сосредоточен на живительной позитивной энергии — одной из фундаментальных сил вселенной, — которая поддерживает всё живое. Боги жизни способствуют жизнеспособности и здоровью, исцеляя больных и раненых, заботясь о нуждающихся и изгоняя силы смерти и нежити. Почти любое не-злое божество может претендовать на влияние в этом домене, особенно аграрные божества (такие как Чонтия, Аравай и Деметра), солнечные боги (такие как Латандер, Пелор и Ре-Горахти), боги исцеления или выносливости (такие как Ильматер, Мишакаль, Аполлон и Дианцехт), а также боги домашнего очага и общины (такие как Гестия, Хатор и Болдрей).\n\nТаблица: Заклинания домена жизни\n\n| Уровень жреца | Заклинания                                             |\n|---|---|\n| 1              | благословение, лечение ран                             |\n| 3              | малое восстановление, духовное оружие                  |\n| 5              | маяк надежды, возвращение к жизни                      |\n| 7              | защита от смерти, страж веры                           |\n| 9              | массовое исцеление ран, воскрешение мёртвых            |\n\n### Уровень 3: Послушник жизни\n\nКогда заклинание, которое вы творите с использованием ячейки заклинания, восстанавливает хиты существу, это существо восстанавливает дополнительные хиты в ход, когда вы творите заклинание. Дополнительные хиты равны 2 плюс уровень ячейки заклинания.\n\n### Уровень 3: Заклинания домена жизни\n\nВаша связь с этим божественным доменом гарантирует, что у вас всегда подготовлены определённые заклинания. Когда вы достигаете уровня жреца, указанного в таблице Заклинания домена жизни, у вас с этого момента всегда подготовлены перечисленные заклинания.\n\nТаблица: Заклинания домена жизни\n\n| Уровень жреца | Подготовленные заклинания                             |\n|---|---|\n| 3             | Помощь, Благословение, Лечение ран, Малое восстановление |\n| 5             | Массовое целебное слово, Возвращение к жизни                |\n| 7             | Аура жизни, Защита от смерти                        |\n| 9             | Высшее восстановление, Массовое исцеление ран        |\n\n### Уровень 3: Сохранение жизни\n\nДействием «Магия» вы представляете священный символ и тратите одно использование Божественного канала, чтобы вызвать исцеляющую энергию, способную восстановить количество хитов, равное пятикратному вашему уровню жреца. Выберите окровавленных существ в пределах 30 футов от себя (включая себя) и распределите эти хиты между ними. Это умение может восстановить существу не более половины его максимума хитов.\n\n### Уровень 6: Благословенный целитель\n\nИсцеляющие заклинания, которые вы творите на других, исцеляют и вас. Сразу после того, как вы сотворили заклинание с использованием ячейки заклинания, которое восстанавливает хиты одному или нескольким существам, кроме вас, вы восстанавливаете хиты, равные 2 плюс уровень ячейки заклинания.\n\n### Уровень 17: Высшее исцеление\n\nКогда вы обычно бросаете одну или несколько костей для восстановления хитов существу заклинанием или Божественным каналом, не бросайте эти кости для исцеления; вместо этого используйте максимально возможное число для каждой кости. Например, вместо восстановления 2d6 хитов существу заклинанием, вы восстанавливаете 12.",
+      "glossary_version": "v1",
+      "name": "Домен жизни",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

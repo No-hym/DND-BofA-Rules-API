@@ -1,0 +1,196 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_smelting-blast",
+  "id": "o5e:toh:spell:toh-smelting-blast",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:smelting-blast",
+      "o5e:toh:spell:toh-smelting-blast"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "fc3def095dc96d906ce2281c53881426a2fa9924b6f4c47909a99bd61d4f1669",
+    "formulas": [
+      {
+        "expression": "2d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "2d8",
+      "damage_types": [
+        "fire"
+      ],
+      "duration": "1 minute",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "fc3def095dc96d906ce2281c53881426a2fa9924b6f4c47909a99bd61d4f1669",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-smelting-blast",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "d817d4c4f7459401114d59d3f4aa8d578c3a9ba3ac05750737b5b204956ec792",
+        "edition": "2014",
+        "id": "o5e:toh:spell:smelting-blast",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "2d8",
+      "damage_types": [
+        "fire"
+      ],
+      "desc": "You unleash a bolt of red-hot liquid metal at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 fire damage and must succeed on a Constitution saving throw or be coated in cooling, liquid metal for the duration. A creature coated in liquid metal takes 1d8 fire damage at the start of each of its turns as the metal scorches while it cools. At the end of each of its turns, the creature can make another Constitution saving throw. On a success, the spell ends and the liquid metal disappears.",
+      "document": "toh",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d8 for each slot level above 2nd.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Smelting Blast",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "338",
+          "parent": "toh_smelting-blast",
+          "type": "default"
+        },
+        {
+          "external_id": "340",
+          "parent": "toh_smelting-blast",
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "341",
+          "parent": "toh_smelting-blast",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "342",
+          "parent": "toh_smelting-blast",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "343",
+          "parent": "toh_smelting-blast",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "344",
+          "parent": "toh_smelting-blast",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "345",
+          "parent": "toh_smelting-blast",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "346",
+          "parent": "toh_smelting-blast",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Smelting Blast",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You unleash a bolt of red-hot liquid metal at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 fire damage and must succeed on a Constitution saving throw or be coated in cooling, liquid metal for the duration. A creature coated in liquid metal takes 1d8 fire damage at the start of each of its turns as the metal scorches while it cools. At the end of each of its turns, the creature can make another Constitution saving throw. On a success, the spell ends and the liquid metal disappears.",
+      "name": "Smelting Blast",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы выпускаете болт раскалённого жидкого металла в существо или объект в пределах дистанции. Совершите дальнобойную атаку заклинанием против цели. При попадании цель получает 2к8 урона огнём и должна преуспеть в спасброске Телосложения или быть покрытой охлаждающимся, жидким металлом на длительность. Существо, покрытое жидким металлом, получает 1к8 урона огнём в начале каждого её хода, когда металл обжигается, пока он остывает. В конце каждого её хода существо может совершить ещё один спасбросок Телосложения. При успехе заклинание заканчивается, и жидкий металл исчезает.",
+      "glossary_version": "v1",
+      "name": "Плавильный взрыв",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

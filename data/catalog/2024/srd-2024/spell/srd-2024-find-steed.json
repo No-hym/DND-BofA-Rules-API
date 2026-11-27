@@ -1,0 +1,200 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_find-steed",
+  "id": "o5e:srd-2024:spell:srd-2024-find-steed",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "464f73e8d9d8ddd663edda590c83ad633744f68e6baa8c77bb1612c4e150e207",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_paladin"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [
+        "radiant",
+        "psychic",
+        "necrotic"
+      ],
+      "duration": "instantaneous",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_paladin",
+        "type": "classes",
+        "value": [
+          "srd-2024_paladin"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_paladin"
+      ],
+      "concentration": false,
+      "damage_types": [
+        "radiant",
+        "psychic",
+        "necrotic"
+      ],
+      "desc": "You summon an otherworldly being that appears as a loyal steed in an unoccupied space of your choice within range. This creature uses the Otherworldly Steed stat block. If you already have a steed from this spell, the steed is replaced by the new one.\n\nThe steed resembles a Large, rideable animal of your choice, such as a horse, a camel, a dire wolf, or an elk. Whenever you cast the spell, choose the steed's creature type—Celestial, Fey, or Fiend which determines certain traits in the stat block.\n\n**_Combat._** The steed is an ally to you and your allies. In combat, it shares your Initiative count, and it functions as a controlled mount while you ride it (as defined in the rules on mounted combat). If you have the Incapacitated condition, the steed takes its turn immediately after yours and acts independently, focusing on protecting you.\n\n**_Disappearance of the Steed._** The steed disappears if it drops to 0 Hit Points or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the steed that disappeared or a different one.",
+      "document": "srd-2024",
+      "duration": "instantaneous",
+      "higher_level": "Use the spell slot's level for the spell's level in the stat block.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Find Steed",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "desc": "summoned creature uses level 3 stat block",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10229",
+          "parent": "srd-2024_find-steed",
+          "ru_source": "derived",
+          "type": "slot_level_3"
+        },
+        {
+          "desc": "summoned creature uses level 4 stat block",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10230",
+          "parent": "srd-2024_find-steed",
+          "ru_source": "derived",
+          "type": "slot_level_4"
+        },
+        {
+          "desc": "summoned creature uses level 5 stat block",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10231",
+          "parent": "srd-2024_find-steed",
+          "ru_source": "derived",
+          "type": "slot_level_5"
+        },
+        {
+          "desc": "summoned creature uses level 6 stat block",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10232",
+          "parent": "srd-2024_find-steed",
+          "ru_source": "derived",
+          "type": "slot_level_6"
+        },
+        {
+          "desc": "summoned creature uses level 7 stat block",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10233",
+          "parent": "srd-2024_find-steed",
+          "ru_source": "derived",
+          "type": "slot_level_7"
+        },
+        {
+          "desc": "summoned creature uses level 8 stat block",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10234",
+          "parent": "srd-2024_find-steed",
+          "ru_source": "derived",
+          "type": "slot_level_8"
+        },
+        {
+          "desc": "summoned creature uses level 9 stat block",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10235",
+          "parent": "srd-2024_find-steed",
+          "ru_source": "derived",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Find Steed",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "You summon an otherworldly being that appears as a loyal steed in an unoccupied space of your choice within range. This creature uses the Otherworldly Steed stat block. If you already have a steed from this spell, the steed is replaced by the new one.\n\nThe steed resembles a Large, rideable animal of your choice, such as a horse, a camel, a dire wolf, or an elk. Whenever you cast the spell, choose the steed's creature type—Celestial, Fey, or Fiend which determines certain traits in the stat block.\n\n**_Combat._** The steed is an ally to you and your allies. In combat, it shares your Initiative count, and it functions as a controlled mount while you ride it (as defined in the rules on mounted combat). If you have the Incapacitated condition, the steed takes its turn immediately after yours and acts independently, focusing on protecting you.\n\n**_Disappearance of the Steed._** The steed disappears if it drops to 0 Hit Points or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the steed that disappeared or a different one.",
+      "name": "Find Steed",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Вызов 2-го уровня (Паладин)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 30 футов\n\n**Компоненты:** В, С\n\n**Длительность:** Мгновенная\n\nВы призываете потустороннее существо, которое появляется как верный скакун в свободном пространстве на ваш выбор в пределах дистанции. Это существо использует блок характеристик **Потусторонний скакун**. Если у вас уже есть скакун от этого заклинания, он заменяется новым.\n\nСкакун напоминает Большое ездовое животное на ваш выбор, например, лошадь, верблюда, лютого волка или лося. Каждый раз, когда вы сотворяете заклинание, выберите тип существа скакуна — небожитель, фея или исчадие — который определяет некоторые особенности в блоке характеристик.\n\n**_Бой._** Скакун является союзником вам и вашим союзникам. В бою он разделяет с вами значение инициативы и функционирует как контролируемое ездовое животное, пока вы на нём едете (как определено в правилах конного боя). Если вы находитесь в состоянии «Недееспособный», скакун совершает свой ход сразу после вашего и действует независимо, сосредоточившись на вашей защите.\n\n**_Исчезновение скакуна._** Скакун исчезает, если его хиты опускаются до 0 или если вы умираете. Когда он исчезает, он оставляет всё, что носил или нёс. Если вы сотворите это заклинание снова, вы решаете, призвать ли исчезнувшего скакуна или другого.\n\n**_Использование ячейки более высокого уровня._** Используйте уровень ячейки заклинания как уровень заклинания в блоке характеристик.\n\n> #### Потусторонний скакун (Otherworldly Steed)\n>\n> *Большой Небожитель, Фея или Исчадие (на ваш выбор), нейтральный*\n>\n> **КД** 10 + 1 за уровень заклинания\n>\n> **Хиты** 5 + 10 за уровень заклинания (скакун имеет количество Костей Хитов [d10] равное уровню заклинания)\n>\n> **Скорость** 60 фт., полёт 60 фт. (требуется заклинание 4+ уровня)\n>\n> | Характеристика | Значение | Мод. | Спасбросок |\n> |----------------|----------|------|------------|\n> | Сил | 18 | +4 | +4 |\n> | Лов | 12 | +1 | +1 |\n> | Тел | 14 | +2 | +2 |\n> | Инт | 6 | -2 | -2 |\n> | Мдр | 12 | +1 | +1 |\n> | Хар | 8 | -1 | -1 |\n>\n> **Чувства** Пассивная Внимательность 11\n>\n> **Языки** Телепатия 1 миля (работает только с вами)\n>\n> **ПО** Нет (ОП 0; бонус мастерства равен вашему)\n>\n> ##### Свойства\n>\n> **_Связь жизни._** Когда вы восстанавливаете хиты от заклинания 1-го уровня или выше, скакун восстанавливает столько же хитов, если вы находитесь в пределах 5 футов от него.\n>\n> ##### Действия\n>\n> **_Потусторонний удар. Атака оружием ближнего боя:_** Бонус равен вашему бонусу атаки заклинанием, досягаемость 5 фт. *Попадание:* 1d8 + уровень заклинания урона излучением (небожитель), психического (фея) или некротического (исчадие).\n>\n> ##### Бонусные действия\n>\n> **_Жуткий взгляд (только исчадие; перезаряжается после долгого отдыха)._** *Спасбросок Мудрости:* СЛ равна СЛ спасброска ваших заклинаний, одно существо в пределах 60 футов, которое скакун видит. *Провал:* Цель получает состояние «Испуганный» до конца вашего следующего хода.\n>\n> **_Шаг феи (только фея; перезаряжается после долгого отдыха)._** Скакун телепортируется вместе со своим наездником в свободное пространство на ваш выбор в пределах 60 футов от себя.\n>\n> **_Исцеляющее касание (только небожитель; перезаряжается после долгого отдыха)._** Одно существо в пределах 5 футов от скакуна восстанавливает количество хитов, равное 2d8 + уровень заклинания.",
+      "glossary_version": "v1",
+      "name": "Поиск скакуна",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

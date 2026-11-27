@@ -1,0 +1,191 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_pixies-umbrella",
+  "id": "o5e:tob2:creature:tob2-pixies-umbrella",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7816d2e48fd49dae70f5938e1dca0d75e0b086edf0c4975cf9279d9d3de0edc8",
+    "formulas": [
+      {
+        "expression": "4d4",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 1,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 5,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 1,
+      "ability_score_wisdom": 5,
+      "alignment": "unaligned",
+      "armor_class": 7,
+      "armor_detail": "",
+      "blindsight_range": 30,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.125",
+      "climb": null,
+      "condition_immunities": [
+        "blinded",
+        "deafened",
+        "frightened"
+      ],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "4d4",
+      "hit_points": 10,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": null,
+      "passive_perception": 7,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "small",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 5
+    },
+    "original_system": "5e-2014",
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 1,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 5,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 1,
+      "ability_score_wisdom": 5,
+      "alignment": "unaligned",
+      "armor_class": 7,
+      "blindsight_range": 30,
+      "category": "Monsters",
+      "challenge_rating": "0.125",
+      "condition_immunities": [
+        "blinded",
+        "deafened",
+        "frightened"
+      ],
+      "condition_immunities_display": "blinded, deafened, frightened",
+      "document": "tob2",
+      "hit_dice": "4d4",
+      "hit_points": 10,
+      "hover": false,
+      "name": "Pixie's Umbrella",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "passive_perception": 7,
+      "size": "small",
+      "type": "plant",
+      "walk": 5,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "REACTION",
+          "desc": "When a pixie's umbrella senses motion within 30 feet of it, it fills its cap with air and flies 20 feet away from the motion without provoking opportunity attacks.",
+          "desc_ru": "Действие «Флоат»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_pixies-umbrella_float",
+          "name": "Float",
+          "name_ru": "Флоат",
+          "order_in_statblock": 0,
+          "parent": "tob2_pixies-umbrella",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The pixie's umbrella twirls, spinning its spores at nearby creatures. Each creature within 5 feet of the pixie's umbrella must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one. If the saving throw fails by 5 or more, the target is also poisoned until the end of its next turn.",
+          "desc_ru": "Действие «Твирл»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_pixies-umbrella_twirl",
+          "name": "Twirl",
+          "name_ru": "Твирл",
+          "order_in_statblock": 0,
+          "parent": "tob2_pixies-umbrella",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "While the pixie’s umbrella remains motionless, it is indistinguishable from an ordinary fungus.",
+          "desc_ru": "Особенность «Фалсе Аппеаранке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_pixies-umbrella_false-appearance",
+          "name": "False Appearance",
+          "name_ru": "Фалсе Аппеаранке",
+          "parent": "tob2_pixies-umbrella",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Pixie's Umbrella",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Pixie's Umbrella",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Маленькое растение, мировоззрение: без мировоззрения. Класс доспеха: 7. Хиты: 10 (4к4). Скорость: ходьба 5 фт.. Характеристики: СИЛ 1, ЛОВ 5, ТЕЛ 10, ИНТ 1, МУД 5, ХАР 1. Иммунитет к состояниям: ослепление, глухота, испуг. Чувства: слепое зрение 30 фт., пассивное Восприятие 7. Показатель опасности: 0.125. Структурированные механики записи: особенностей: 1, действий: 2.",
+      "glossary_version": "derived-v1",
+      "name": "Пиксие'с Умбрелла",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,172 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_ice-fortress",
+  "id": "o5e:deepm:spell:deepm-ice-fortress",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-ice-fortress",
+      "o5e:dmag:spell:ice-fortress"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "44a1f07c20223b56d4e7e9d13712e2ae8b2028892b90454faa83a8409c8eb08d",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "until dispelled or destroyed",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a miniature keep carved from ice or glass that is consumed in the casting",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "conjuration",
+      "shape_size": 10,
+      "shape_size_unit": null,
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "44a1f07c20223b56d4e7e9d13712e2ae8b2028892b90454faa83a8409c8eb08d",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-ice-fortress",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "ad51fee3f1b2620f884437c6324fd2770156d151df729c18f86bf3737d072823",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:ice-fortress",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "concentration": false,
+      "desc": "A gleaming fortress of ice springs from a square area of ground that you can see within range. It is a 10-foot cube (including floor and roof). The fortress can’t overlap any other structures, but any creatures in its space are harmlessly lifted up as the ice rises into position. The walls are made of ice (AC 13), have 120 hit points each, and are immune to cold, necrotic, poison, and psychic damage. Reducing a wall to 0 hit points destroys it and has a 50 percent chance to cause the roof to collapse. A damaged wall can be repaired by casting a spell that deals cold damage on it, on a point-for-point basis.\n\nEach wall has two arrow slits. One wall also includes an ice door with an [arcane lock](https://api.open5e.com/spells/arcane-lock). You designate at the time of the fort’s creation which creatures can enter the fortification. The door has AC 18 and 60 hit points, or it can be broken open with a successful DC 25 Strength (Athletics) check (DC 15 if the [arcane lock](https://api.open5e.com/spells/arcane-lock) is dispelled).\n\nThe fortress catches and reflects light, so that creatures outside the fortress who rely on sight have disadvantage on Perception checks and attack rolls made against those within the fortress if it’s in an area of bright sunlight.\n",
+      "document": "deepm",
+      "duration": "until dispelled or destroyed",
+      "higher_level": "When you cast this spell using a spell slot of 6th level or higher, you can increase the length or width of the fortification by 5 feet for every slot level above 5th. You can make a different choice (width or length) for each slot level above 5th.",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a miniature keep carved from ice or glass that is consumed in the casting",
+      "name": "Ice Fortress",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "conjuration",
+      "shape_size": 10,
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3548",
+          "parent": "deepm_ice-fortress",
+          "type": "default"
+        },
+        {
+          "external_id": "3550",
+          "parent": "deepm_ice-fortress",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3551",
+          "parent": "deepm_ice-fortress",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3552",
+          "parent": "deepm_ice-fortress",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3553",
+          "parent": "deepm_ice-fortress",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Ice Fortress",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "A gleaming fortress of ice springs from a square area of ground that you can see within range. It is a 10-foot cube (including floor and roof). The fortress can’t overlap any other structures, but any creatures in its space are harmlessly lifted up as the ice rises into position. The walls are made of ice (AC 13), have 120 hit points each, and are immune to cold, necrotic, poison, and psychic damage. Reducing a wall to 0 hit points destroys it and has a 50 percent chance to cause the roof to collapse. A damaged wall can be repaired by casting a spell that deals cold damage on it, on a point-for-point basis.\n\nEach wall has two arrow slits. One wall also includes an ice door with an [arcane lock](https://api.open5e.com/spells/arcane-lock). You designate at the time of the fort’s creation which creatures can enter the fortification. The door has AC 18 and 60 hit points, or it can be broken open with a successful DC 25 Strength (Athletics) check (DC 15 if the [arcane lock](https://api.open5e.com/spells/arcane-lock) is dispelled).\n\nThe fortress catches and reflects light, so that creatures outside the fortress who rely on sight have disadvantage on Perception checks and attack rolls made against those within the fortress if it’s in an area of bright sunlight.",
+      "name": "Ice Fortress",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Сверкающая крепость льда возникает из квадратной области земли, которую вы видите в пределах дистанции. Это куб в 10 футов (включая пол и крышу). Крепость не может перекрывать любые другие сооружения, но любые существа в её пространстве безвредно подняты вверх, когда лёд поднимается в позицию. Стены сделаны из льда (КД 13), имеют 120 хитов каждая и невосприимчивы к урону холодом, некротическому, ядом и психическому. Уменьшение хитов стены до 0 уничтожает её и имеет 50-процентный шанс заставить крышу обрушиться. Повреждённая стена может быть отремонтирована сотворением заклинания, которое наносит урон холодом, на неё, на основе пункт-за-пунктом.\n\nУ каждой стены есть две бойницы для стрел. Одна стена также включает ледяную дверь с чародейским замком. Вы указываете во время создания форта, какие существа могут войти в укрепление. У двери КД 18 и 60 хитов, или её можно выломать успешной проверкой Силы (Атлетика) Сл 25 (Сл 15, если чародейский замок рассеян).\n\nКрепость ловит и отражает свет, так что существа за пределами крепости, которые полагаются на зрение, совершают с помехой проверки Восприятия и броски атаки, совершаемые против тех, кто внутри крепости, если она находится в области яркого солнечного света.",
+      "glossary_version": "v1",
+      "name": "Ледяная крепость",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

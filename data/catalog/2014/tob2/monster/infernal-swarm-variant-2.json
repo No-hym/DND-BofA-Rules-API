@@ -1,0 +1,140 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "infernal-swarm",
+  "id": "o5e:tob2:monster:infernal-swarm-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:infernal-swarm"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e1d5c3640040eced623e1988ea54dbcaf50ca35d7f53ee7c8dfc5b166a9eb1bd",
+    "formulas": [
+      {
+        "expression": "20d12+20",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "lawful evil",
+      "armor_class": 16,
+      "challenge_rating": "12",
+      "condition_immunities": "charmed, frightened, paralyzed, petrified, poisoned, prone, restrained, stunned",
+      "damage_immunities": "fire, poison",
+      "damage_resistances": "bludgeoning, cold, piercing, psychic, slashing",
+      "damage_vulnerabilities": "thunder",
+      "hit_dice": "20d12+20",
+      "hit_points": 150,
+      "languages": "understands Infernal but can’t speak, telepathy 60 ft.",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "e1d5c3640040eced623e1988ea54dbcaf50ca35d7f53ee7c8dfc5b166a9eb1bd",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:infernal-swarm",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"In fiend form, the infernal swarm makes three attacks: two with its scimitar and one with its slam, or three with its scimitar. In shapeless form, it makes three attacks with its bites.\"}, {\"name\": \"Bites (Shapeless Form Only)\", \"desc\": \"Melee Weapon Attack: +9 to hit, reach 0 ft., one target in the swarm's space. Hit: 28 (8d6) piercing damage, or 14 (4d6) piercing damage if the swarm has half its hp or fewer.\", \"attack_bonus\": 9, \"damage_dice\": \"8d6\"}, {\"name\": \"Poisonous Barb\", \"desc\": \"Ranged Weapon Attack: +8 to hit, range 30/120 ft., one target. Hit: 10 (2d6 + 3) piercing damage, and the target must make a DC 17 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one.\", \"attack_bonus\": 8, \"damage_dice\": \"2d6+3\"}, {\"name\": \"Scimitar (Fiend Form Only)\", \"desc\": \"Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) slashing damage.\", \"attack_bonus\": 9, \"damage_dice\": \"3d6+4\"}, {\"name\": \"Slam (Fiend Form Only)\", \"desc\": \"Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) bludgeoning damage, and the target is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the infernal swarm can't slam another target. In addition, at the start of each of the target's turns, the target takes 14 (4d6) piercing damage.\", \"attack_bonus\": 9, \"damage_dice\": \"4d6+4\"}]",
+      "alignment": "lawful evil",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "12",
+      "charisma": 19,
+      "condition_immunities": "charmed, frightened, paralyzed, petrified, poisoned, prone, restrained, stunned",
+      "constitution": 13,
+      "cr": 12.0,
+      "damage_immunities": "fire, poison",
+      "damage_resistances": "bludgeoning, cold, piercing, psychic, slashing",
+      "damage_vulnerabilities": "thunder",
+      "desc": "A towering winged devil looms above, a wicked scimitar in its grasp. Its form shifts subtly, hinting at a deeper secret._  \n**Infernal Insects.** Infernal swarms are found throughout the Hells. Considered a delicacy, these insects can form a hive mind, which they use to shape their swarm into a massive winged devil whenever they are threatened. The individual insects are bat-winged and have bulging eyes, long spindly legs, and a carapace covered in poisonous barbs.  \n**Hellish Poison.** Infernal swarms feed on carrion, injecting the carcasses with a poison that liquifies tissue. This same poison coats their barbs, which painfully dissuades predators.  \n**Sensitive to Sound.** Loud noises disorient the insects and interrupt their coordination, temporarily scattering the individuals. However, it is rare to encounter these silent killers hunting on their own, and if one is spotted, there are certain to be many more to follow.",
+      "dexterity": 16,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "20d12+20",
+      "hit_points": 150,
+      "intelligence": 8,
+      "languages": "understands Infernal but can’t speak, telepathy 60 ft.",
+      "legendary_actions_json": "null",
+      "name": "Infernal Swarm",
+      "page_no": 215,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 120 ft., passive Perception 11",
+      "size": "Huge",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Devil's Sight\", \"desc\": \"Magical darkness doesn't impede the infernal swarm's darkvision\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The infernal swarm has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Shaped Swarm\", \"desc\": \"As a bonus action, the swarm can shape itself into a Huge fiend or back into a shapeless mass. Its statistics are the same in each form, and it can't regain hp or gain temporary hp. If a creature is more than 10 feet away from the infernal swarm, it must take an action to visually inspect the fiend form and succeed on a DC 25 Intelligence (Investigation) check to discern the Huge fiend is actually a swarm of Small insects. A creature within 10 feet of the swarm immediately discerns the truth.\\n\\nWhile in fiend form, it can wield weapons and hold, grasp, push, pull, or interact with objects that might otherwise require a more humanoid form to accomplish. If the infernal swarm takes thunder damage while in its fiend form, it immediately changes to its shapeless form.\\n\\nWhile in shapeless form, it can occupy another creature's space and vice versa and can move through any opening large enough for a Small fiend, but it can't grapple or be grappled.\"}]",
+      "speed_json": "{\"hover\": true, \"walk\": 25, \"fly\": 40}",
+      "spells_json": "null",
+      "strength": 18,
+      "subtype": "Swarm of Devils",
+      "type": "Fiend",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Infernal Swarm",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-infernal-swarm"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "A towering winged devil looms above, a wicked scimitar in its grasp. Its form shifts subtly, hinting at a deeper secret._  \n**Infernal Insects.** Infernal swarms are found throughout the Hells. Considered a delicacy, these insects can form a hive mind, which they use to shape their swarm into a massive winged devil whenever they are threatened. The individual insects are bat-winged and have bulging eyes, long spindly legs, and a carapace covered in poisonous barbs.  \n**Hellish Poison.** Infernal swarms feed on carrion, injecting the carcasses with a poison that liquifies tissue. This same poison coats their barbs, which painfully dissuades predators.  \n**Sensitive to Sound.** Loud noises disorient the insects and interrupt their coordination, temporarily scattering the individuals. However, it is rare to encounter these silent killers hunting on their own, and if one is spotted, there are certain to be many more to follow.",
+      "name": "Infernal Swarm",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вырисовывается возвышающийся крылатый дьявол, зловещий ятаган в его лапе. Его форма сдвигается утончённо, намекая на глубокий секрет.\n\n**Инфернальные насекомые.** Инфернальные рои встречаются по всем Адам. Считающиеся деликатесом, эти насекомые могут образовывать коллективный разум, который они используют, чтобы формировать свой рой в массивного крылатого дьявола всякий раз, когда им угрожают. Отдельные насекомые имеют крылья летучих мышей и выпученные глаза, длинные тонкие ножки и панцирь, покрытый ядовитыми шипами.\n\n**Адский яд.** Адские рои питаются падалью, вводя трупы ядом, который разжижает ткани. Этот же яд покрывает их шипы, что болезненно отговаривает хищников.\n\n**Чувствительны к звуку.** Громкие шумы дезориентируют насекомых и прервать их координацию, временно рассеивая отдельных людей. Однако, это редко, чтобы встретить этих тихих убийц, охотящихся самостоятельно, и если один пятнистый, есть определённые, что многие будут следовать.",
+      "glossary_version": "v1",
+      "name": "Адский рой",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

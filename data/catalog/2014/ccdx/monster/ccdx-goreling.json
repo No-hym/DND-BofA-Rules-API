@@ -1,0 +1,227 @@
+{
+  "attribution": "Title: Creature Codex; Author: Wolfgang Baur, Dan Dillon, Richard Green, James Haeck, Chris Harris, Jeremy Hochhalter, James Introcaso, Chris Lockey, Shawn Merwin, and Jon Sawatsky; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/creature-codex-for-5th-edition-dnd/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "ccdx",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "ccdx_goreling",
+  "id": "o5e:ccdx:creature:ccdx-goreling",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:cc:monster:goreling",
+      "o5e:ccdx:creature:ccdx-goreling"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "cc0c03480b7b570e6cad095959036fca2f815dfde6e00ca26a62f47dca69fb10",
+    "formulas": [
+      {
+        "expression": "2d6+4",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 1,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 12,
+      "ability_score_wisdom": 5,
+      "alignment": "unaligned",
+      "armor_class": 12,
+      "armor_detail": "",
+      "blindsight_range": 60,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": null,
+      "condition_immunities": [
+        "poisoned"
+      ],
+      "damage_immunities": [
+        "necrotic",
+        "poison"
+      ],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "2d6+4",
+      "hit_points": 11,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": null,
+      "passive_perception": 7,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "small",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 20
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "ccdx",
+        "content_hash": "cc0c03480b7b570e6cad095959036fca2f815dfde6e00ca26a62f47dca69fb10",
+        "edition": "2014",
+        "id": "o5e:ccdx:creature:ccdx-goreling",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "cc",
+        "content_hash": "0de90fc41424635ec50b953b00c4cd204ba49e1ff7c9841f3caf266ece8c4c4a",
+        "edition": "2014",
+        "id": "o5e:cc:monster:goreling",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:cc"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 1,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 12,
+      "ability_score_wisdom": 5,
+      "alignment": "unaligned",
+      "armor_class": 12,
+      "blindsight_range": 60,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "condition_immunities": [
+        "poisoned"
+      ],
+      "condition_immunities_display": "poisoned",
+      "damage_immunities": [
+        "necrotic",
+        "poison"
+      ],
+      "damage_immunities_display": "necrotic, poison",
+      "document": "ccdx",
+      "hit_dice": "2d6+4",
+      "hit_points": 11,
+      "hover": false,
+      "languages_desc": "-",
+      "name": "Goreling",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "passive_perception": 7,
+      "size": "small",
+      "type": "undead",
+      "walk": 20,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Dan Dillon, Richard Green, James Haeck, Chris Harris, Jeremy Hochhalter, James Introcaso, Chris Lockey, Shawn Merwin, and Jon Sawatsky",
+      "key": "ccdx",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/creature-codex-for-5th-edition-dnd/",
+      "publication_date": "2018-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Creature Codex"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "When a goreling is hit but not reduced to 0 hp, it splits into two new gorelings. Each new goreling has 1 hp, doesn't have this reaction, and is one size smaller than the original goreling.",
+          "desc_ru": "Действие «Мултиплйинг»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "ccdx_goreling_multiplying",
+          "name": "Multiplying",
+          "name_ru": "Мултиплйинг",
+          "order_in_statblock": 1,
+          "parent": "ccdx_goreling",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage plus 2 (1d4) necrotic damage. ++ Reactions",
+          "desc_ru": "Действие «Удар»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "ccdx_goreling_slam",
+          "name": "Slam",
+          "name_ru": "Удар",
+          "order_in_statblock": 0,
+          "parent": "ccdx_goreling",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "If 6 or more gorelings are within 30 feet of one another, they become frenzied and their attacks deal an extra 2 (1d4) necrotic damage.",
+          "desc_ru": "Особенность «Блоодтирстй». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "ccdx_goreling_bloodthirsty",
+          "name": "Bloodthirsty",
+          "name_ru": "Блоодтирстй",
+          "parent": "ccdx_goreling",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Up to five gorelings can occupy the same space.",
+          "desc_ru": "Особенность «Сварминг». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "ccdx_goreling_swarming",
+          "name": "Swarming",
+          "name_ru": "Сварминг",
+          "parent": "ccdx_goreling",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Goreling",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:ccdx",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Goreling",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Маленькая нежить, мировоззрение: без мировоззрения. Класс доспеха: 12. Хиты: 11 (2к6+4). Скорость: ходьба 20 фт.. Характеристики: СИЛ 12, ЛОВ 14, ТЕЛ 14, ИНТ 1, МУД 5, ХАР 1. Иммунитет к урону: некротической энергией, ядом. Иммунитет к состояниям: отравление. Чувства: слепое зрение 60 фт., пассивное Восприятие 7. Показатель опасности: 0.25. Структурированные механики записи: особенностей: 2, действий: 2.",
+      "glossary_version": "derived-v1",
+      "name": "Горелинг",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

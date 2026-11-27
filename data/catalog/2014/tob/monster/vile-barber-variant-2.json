@@ -1,0 +1,137 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "vile-barber",
+  "id": "o5e:tob:monster:vile-barber-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:vile-barber"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "4e69e99eb13cc9c3dc9fe781a0a42e23e10463b4d4c6c8c639b283775acf88ac",
+    "formulas": [
+      {
+        "expression": "8d6",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic evil",
+      "armor_class": 15,
+      "challenge_rating": "2",
+      "condition_immunities": "frightened",
+      "damage_immunities": "",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered or cold iron weapons",
+      "damage_vulnerabilities": "",
+      "hit_dice": "8d6",
+      "hit_points": 28,
+      "languages": "Common, Goblin, Sylvan, Umbral",
+      "size": "Small"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "4e69e99eb13cc9c3dc9fe781a0a42e23e10463b4d4c6c8c639b283775acf88ac",
+        "edition": "2014",
+        "id": "o5e:tob:monster:vile-barber",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The vile barber makes two attacks with its straight razor.\"}, {\"name\": \"Straight Razor\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) slashing damage.\", \"attack_bonus\": 6, \"damage_dice\": \"1d4\"}, {\"name\": \"Unclean Cut\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one creature that is grappled by the vile barber, incapacitated, or restrained. Hit: 6 (1d4 + 4) slashing damage plus 7 (2d6) necrotic damage. The creature and all its allies who see this attack must make successful DC 15 Wisdom saving throws or become frightened for 1d4 rounds.\", \"attack_bonus\": 6, \"damage_dice\": \"1d4\"}]",
+      "alignment": "chaotic evil",
+      "armor_class": 15,
+      "armor_desc": "leather armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "2",
+      "charisma": 10,
+      "condition_immunities": "frightened",
+      "constitution": 10,
+      "cr": 2.0,
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered or cold iron weapons",
+      "desc": "_A pale, scrawny fellow clad in a black leather apron and slender ebon gloves grins from the shadows. A maw of needle-sharp teeth and the wicked straight razor at his side are a clear warning that his enemies should hasten their footsteps._  \nVile barbers are sadistic, unseelie fey who move through the shadows to execute their bloody, malevolent wills. Known as barbers for both the use of wicked blades and their proclivity for slashing the necks of their victims, these insidious fey can be found lurking in dark and harrowed places like back-alley streets or abandoned, deep-shaded cemeteries.  \n_**Fey Punishers.**_ Called the siabhra (pronounced she-uvh-ra) among the fey courts, vile barbers are fickle creatures. They are sent to punish those who have offended the fey lords and ladies, and their cruelty and cunning help them write messages in blood and skin. At the very least, they scar those who have spoken ill of the fey; those who have harmed or murdered the fey are more likely to be bled slowly. Some of these deaths are made quite public—though in a few cases, the victim is enchanted to remain invisible while the siabhra does its bloody work.  \n_**Slippery Fighters.**_ A vile barber often uses its ability to step through shadows to steal a victim’s weapon and use it against its former owner with devastating effect. Any creature grappled by a vile barber is at the mercy of the barber’s sinister and unclean weapons—they delight in close combat.  \n_**Assassins and Envoys.**_ Vile barbers frequently consort with hags and prowl the places these wicked crones cannot go as emissaries and assassins. Information on the siabhra is scant; most adventurers who meet them don’t live to share their findings or to see the vile barber lick its bloody blade clean.",
+      "dexterity": 18,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "8d6",
+      "hit_points": 28,
+      "intelligence": 10,
+      "languages": "Common, Goblin, Sylvan, Umbral",
+      "legendary_actions_json": "null",
+      "name": "Vile Barber",
+      "page_no": 401,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "blindsight 60 ft., passive Perception 9",
+      "size": "Small",
+      "skills_json": "{\"athletics\": 3, \"stealth\": 6}",
+      "special_abilities_json": "[{\"name\": \"Close-in Slasher\", \"desc\": \"The vile barber has advantage on attack rolls against any creature in the same space with it.\"}, {\"name\": \"Inhumanly Quick\", \"desc\": \"The vile barber can take two bonus actions on its turn, instead of one. Each bonus action must be different; it can't use the same bonus action twice in a single turn.\"}, {\"name\": \"Invasive\", \"desc\": \"The vile barber can enter, move through, or even remain in a hostile creature's space regardless of the creature's size, without penalty.\"}, {\"name\": \"Nimble Escape\", \"desc\": \"As a bonus action, the vile barber can take the Disengage or Hide action on each of its turns.\"}, {\"name\": \"Pilfer\", \"desc\": \"As a bonus action, the vile barber can take the Use an Object action or make a Dexterity (Sleight of Hand) check.\"}, {\"name\": \"Shadow Step\", \"desc\": \"As a bonus action, the vile barber magically teleports from an area of dim light or darkness it currently occupies, along with any equipment it is wearing or carrying, up to 80 feet to any other area of dim light or darkness it can see. The barber then has advantage on the first melee attack it makes before the end of the turn.\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 12,
+      "type": "Fey",
+      "wisdom": 8
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Vile Barber",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-vile-barber"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_A pale, scrawny fellow clad in a black leather apron and slender ebon gloves grins from the shadows. A maw of needle-sharp teeth and the wicked straight razor at his side are a clear warning that his enemies should hasten their footsteps._  \nVile barbers are sadistic, unseelie fey who move through the shadows to execute their bloody, malevolent wills. Known as barbers for both the use of wicked blades and their proclivity for slashing the necks of their victims, these insidious fey can be found lurking in dark and harrowed places like back-alley streets or abandoned, deep-shaded cemeteries.  \n_**Fey Punishers.**_ Called the siabhra (pronounced she-uvh-ra) among the fey courts, vile barbers are fickle creatures. They are sent to punish those who have offended the fey lords and ladies, and their cruelty and cunning help them write messages in blood and skin. At the very least, they scar those who have spoken ill of the fey; those who have harmed or murdered the fey are more likely to be bled slowly. Some of these deaths are made quite public—though in a few cases, the victim is enchanted to remain invisible while the siabhra does its bloody work.  \n_**Slippery Fighters.**_ A vile barber often uses its ability to step through shadows to steal a victim’s weapon and use it against its former owner with devastating effect. Any creature grappled by a vile barber is at the mercy of the barber’s sinister and unclean weapons—they delight in close combat.  \n_**Assassins and Envoys.**_ Vile barbers frequently consort with hags and prowl the places these wicked crones cannot go as emissaries and assassins. Information on the siabhra is scant; most adventurers who meet them don’t live to share their findings or to see the vile barber lick its bloody blade clean.",
+      "name": "Vile Barber",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Бледный, костлявый парень одет в чёрный кожаный фартук и стройные чёрные перчатки ухмыляясь из тени. Пасть игольчатых зубов и злой прямой бритва на его стороне являются явным предупреждением о том, что его враги должны поторопиться.\n\nГнусные брадобреи - садистские, нечестивые феи, которые перемещаются сквозь тени, чтобы исполнить свою кровавую, злобную волю. Известный как брадобреи как для использования злых лезвий, так и для их склонности порезать шеи своих жертв, эти коварные феи могут быть найдены скрывается в тёмных и запутанных местах, как уличные переулки или заброшенные, глубоко затенённые кладбища.\n\n**Фея Каратели.** Называемые сиабхра среди фей судов, мерзкие парикмахеры являются капризными существами. Их посылают наказывать тех, кто оскорбил лордов и дам фей, а их жестокость и хитрость помогают им писать послания кровью и кожей. По меньшей мере, они убьют тех, кто плохо отзывался о феях; те, кто причинил вред феям или убил их, скорее всего, будут медленно истекать кровью. Некоторые из этих смертей совершаются довольно публично, хотя в некоторых случаях, жертва очарована, чтобы остаться невидимым, в то время как сиабхра делает свою кровавую работу.\n\n**Скользкие бойцы.** Подлый брадобрей часто использует свои способности шагнуть сквозь тени, чтобы украсть оружие жертвы и использовать его против бывшего владельца с разрушительным эффектом. Любое существо, захваченное гнусным брадобреем, зависит от милости зловещего и нечистого оружия парикмахера - они наслаждаются тесным боем.\n\n**Ассасины и посланники.** Подлые парикмахеры часто общаются с ведьмами и рыскают по местам, где эти злые старухи не могут ходить в качестве посланников и ассасинов. Информация о сиабхре скудна; большинство авантюристы, которые встречают их не живут делиться своими результатами или увидеть подлый парикмахер вылизать свою кровавую клинок чистой.",
+      "glossary_version": "v1",
+      "name": "Подлый цирюльник",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

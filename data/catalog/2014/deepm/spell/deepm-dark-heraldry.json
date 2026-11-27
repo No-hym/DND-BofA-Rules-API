@@ -1,0 +1,202 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_dark-heraldry",
+  "id": "o5e:deepm:spell:deepm-dark-heraldry",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-dark-heraldry",
+      "o5e:dmag:spell:dark-heraldry"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "4704a6ab4e5241a97721bd5f96932867e614465651ad2b95f333801f8d14b17b",
+    "formulas": [
+      {
+        "expression": "5d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "5d8",
+      "damage_types": [
+        "psychic"
+      ],
+      "duration": "1 minute",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "4704a6ab4e5241a97721bd5f96932867e614465651ad2b95f333801f8d14b17b",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-dark-heraldry",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "d388ae5c9c503332ebf03a0285f24b40bfb0b3af756878646f87de38c7f60e76",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:dark-heraldry",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "5d8",
+      "damage_types": [
+        "psychic"
+      ],
+      "desc": "Dark entities herald your entry into combat, instilling an existential dread in your enemies. Designate a number of creatures up to your spellcasting ability modifier (minimum of one) that you can see within range and that have an alignment different from yours. Each of those creatures takes 5d8 psychic damage and becomes frightened of you; a creature that makes a successful Wisdom saving throw takes half as much damage and is not frightened.\n\nA creature frightened in this way repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. The creature makes this saving throw with disadvantage if you can see it.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "name": "Dark Heraldry",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "necromancy",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2937",
+          "parent": "deepm_dark-heraldry",
+          "type": "default"
+        },
+        {
+          "external_id": "2939",
+          "parent": "deepm_dark-heraldry",
+          "target_count": 2,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "2940",
+          "parent": "deepm_dark-heraldry",
+          "target_count": 3,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "2941",
+          "parent": "deepm_dark-heraldry",
+          "target_count": 4,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "2942",
+          "parent": "deepm_dark-heraldry",
+          "target_count": 5,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "2943",
+          "parent": "deepm_dark-heraldry",
+          "target_count": 6,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2944",
+          "parent": "deepm_dark-heraldry",
+          "target_count": 7,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Dark Heraldry",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "Dark entities herald your entry into combat, instilling an existential dread in your enemies. Designate a number of creatures up to your spellcasting ability modifier (minimum of one) that you can see within range and that have an alignment different from yours. Each of those creatures takes 5d8 psychic damage and becomes frightened of you; a creature that makes a successful Wisdom saving throw takes half as much damage and is not frightened.\n\nA creature frightened in this way repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. The creature makes this saving throw with disadvantage if you can see it.",
+      "name": "Dark Heraldry",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Тёмные сущности предвещают ваше вступление в бой, вселяя экзистенциальный страх в ваших врагах. Обозначьте ряд существ до вашего модификатора способности заклинаний (как минимум, один), который вы можете видеть в пределах дистанции, и которые имеют отличительное заклинание от вашего. Каждое из этих существ получает 5к8 психического урона и становится испуганным вами; существо, которое делает успешный спасбросок Мудрости, получает половину урона и не испугалось.\n\nСущество, испугавшее таким образом, повторяет спасбросок в конце каждого её хода, завершать эффект на себе на успех. Существо делает этот спасбросок с помехой, если вы можете это видеть.",
+      "glossary_version": "v1",
+      "name": "Тёмная геральдика",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

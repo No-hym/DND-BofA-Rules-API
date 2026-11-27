@@ -1,0 +1,158 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_maim",
+  "id": "o5e:deepm:spell:deepm-maim",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-maim",
+      "o5e:dmag:spell:maim"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "0ab9082391523f7eaf376bf5aff6fb6114928a7076c962fd518347c9312065ca",
+    "formulas": [
+      {
+        "expression": "4d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "4d6",
+      "damage_types": [
+        "necrotic"
+      ],
+      "duration": "instantaneous",
+      "level": 5,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "0ab9082391523f7eaf376bf5aff6fb6114928a7076c962fd518347c9312065ca",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-maim",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "1f5c492b717b8945b7b38fc57aa60f93498e21ad1800e9c9c5d4767a59b67bcb",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:maim",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "4d6",
+      "damage_types": [
+        "necrotic"
+      ],
+      "desc": "Your hands become claws bathed in necrotic energy. Make a melee spell attack against a creature you can reach. On a hit, the target takes 4d6 necrotic damage and a section of its body of your choosing withers:\n   ***Upper Limb.*** The target has disadvantage on Strength checks, and, if it has the Multiattack action, it has disadvantage on its first attack roll each round.\n   ***Lower Limb.*** The target's speed is reduced by 10 feet, and it has disadvantage on Dexterity checks.\n   ***Body.*** Choose one damage type: bludgeoning, piercing, or slashing. The target loses its resistance to that damage type. If the target doesn't have resistance to the chosen damage type, it is vulnerable to that damage type instead.\n  The effect is permanent until removed by *remove curse*, *greater restoration*, or similar magic.",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "level": 5,
+      "material": false,
+      "material_consumed": false,
+      "name": "Maim",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3747",
+          "parent": "deepm_maim",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Maim",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "Your hands become claws bathed in necrotic energy. Make a melee spell attack against a creature you can reach. On a hit, the target takes 4d6 necrotic damage and a section of its body of your choosing withers:\n   ***Upper Limb.*** The target has disadvantage on Strength checks, and, if it has the Multiattack action, it has disadvantage on its first attack roll each round.\n   ***Lower Limb.*** The target's speed is reduced by 10 feet, and it has disadvantage on Dexterity checks.\n   ***Body.*** Choose one damage type: bludgeoning, piercing, or slashing. The target loses its resistance to that damage type. If the target doesn't have resistance to the chosen damage type, it is vulnerable to that damage type instead.\n  The effect is permanent until removed by *remove curse*, *greater restoration*, or similar magic.",
+      "name": "Maim",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Ваши руки становятся когтями, омытыми некротической энергией. Совершите рукопашную атаку заклинанием против существа, которого вы можете достичь. При попадании цель получает 4к6 некротического урона, а участок её тела по вашему выбору увядает:\n\n**Верхняя конечность.** Цель совершает с помехой проверки Силы, и, если у неё есть действие Мультиатака, она совершает с помехой свой первый бросок атаки каждый раунд.\n\n**Нижняя конечность.** Скорость цели уменьшается на 10 футов, и она совершает с помехой проверки Ловкости.\n\n**Тело.** Выберите один тип урона: дробящий, колющий или рубящий. Цель теряет своё сопротивление этому типу урона. Если у цели нет сопротивления выбранному типу урона, она вместо этого уязвима к этому типу урона.\n\nЭффект постоянен, пока не удалён снятием проклятия, большим восстановлением или подобной магией.",
+      "glossary_version": "v1",
+      "name": "Увечье",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

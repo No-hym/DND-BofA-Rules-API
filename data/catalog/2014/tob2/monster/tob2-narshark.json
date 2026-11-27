@@ -1,0 +1,212 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_narshark",
+  "id": "o5e:tob2:creature:tob2-narshark",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-narshark"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "d68b5d86657ec3448607051b6b695bcdf0ee8d4287b3cc491dafe69b0c74b6a1",
+    "formulas": [
+      {
+        "expression": "3d10+9",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 4,
+      "ability_score_constitution": 15,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 16,
+      "ability_score_wisdom": 14,
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "climb": null,
+      "condition_immunities": [
+        "prone"
+      ],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": 40,
+      "hit_dice": "3d10+9",
+      "hit_points": 25,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 18,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 10
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "d68b5d86657ec3448607051b6b695bcdf0ee8d4287b3cc491dafe69b0c74b6a1",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-narshark",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 4,
+      "ability_score_constitution": 15,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 16,
+      "ability_score_wisdom": 14,
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "condition_immunities": [
+        "prone"
+      ],
+      "condition_immunities_display": "prone",
+      "darkvision_range": 60,
+      "document": "tob2",
+      "fly": 40,
+      "hit_dice": "3d10+9",
+      "hit_points": 25,
+      "hover": true,
+      "name": "Narshark",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 18,
+      "size": "large",
+      "skill_bonus_perception": 6,
+      "skill_bonus_stealth": 3,
+      "type": "monstrosity",
+      "walk": 10,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage. If the creature isn't an undead or a construct, it must succeed on a DC 13 Constitution saving throw or lose 2 (1d4) hp at the start of each of its turns as one of the shark's teeth chips off into the wound. Any creature can take an action to stanch the wound by removing the tooth. The wound also closes and the tooth pops out if the target receives magical healing.",
+          "desc_ru": "Действие «Укус»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_narshark_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 0,
+          "parent": "tob2_narshark",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The narshark has advantage on Wisdom (Perception) checks that rely on sight.",
+          "desc_ru": "Совершает проверки Мудрости (Восприятие) с преимуществом, если они полагаются на зрение.",
+          "external_id": "tob2_narshark_keen-sight",
+          "name": "Keen Sight",
+          "name_ru": "Кеен Сигхт",
+          "parent": "tob2_narshark",
+          "ru_source": "template"
+        },
+        {
+          "desc": "The narshark’s horn can be attacked and severed (AC 18; hp 5; immunity to bludgeoning, poison, and psychic damage) or destroyed (hp 15). If its horn is severed, the narshark loses its flying speed, loses 4 (1d8) hp at the start of each of its turns, and goes into a frenzy. While in a frenzy, the narshark has advantage on bite attack rolls and attack rolls against it have advantage.",
+          "desc_ru": "Особенность «Магикал Рог». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_narshark_magical-horn",
+          "name": "Magical Horn",
+          "name_ru": "Магикал Рог",
+          "parent": "tob2_narshark",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The narshark gains its ability to fly from its magical horn. The horn can be severed from a living narshark, but doing so drives it into a panicked rage as it attempts to slay all those around it. Strangely, narsharks never use their horns in combat, possibly in fear of accidentally breaking them. A narshark’s horn is commonly used in the creation of magic items that grant flight, and narsharks are often the target of hunters seeking to turn a profit.",
+          "desc_ru": "Особенность «Магикал Рога». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_narshark_magical-horns",
+          "name": "Magical Horns",
+          "name_ru": "Магикал Рога",
+          "parent": "tob2_narshark",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Narshark",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Narshark",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Почти сливаясь со небом, это существо выглядит как большая акула с кожей лазурного оттенка и невероятно длинными грудными плавниками, которые она использует, чтобы плыть по воздуху, как птица. Её рот заполнен несколькими рядами свирепых зубов, и рог слоновой кости исходит из вершины её головы.\n\n**Воздушные хищники.** Наршалка — существо, которое напоминает смесь между акулой и нарвалом с тёмно-синей кожей, длинными зубчатыми зубами и рогом, растущим от её лба. Как многие акулы, наршалка — хищный хищник, охотящийся на птиц через небо, как акула охотится на рыбу. Хотя ей не хватает особого носа большинства хищников, у наршалки отличное зрение и может разбирать детали на больших расстояниях.",
+      "glossary_version": "v1",
+      "name": "Наршалка",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

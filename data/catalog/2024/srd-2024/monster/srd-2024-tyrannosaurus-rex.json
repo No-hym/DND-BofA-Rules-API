@@ -1,0 +1,189 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "monster",
+  "edition": "2024",
+  "external_id": "srd-2024_tyrannosaurus-rex",
+  "id": "o5e:srd-2024:creature:srd-2024-tyrannosaurus-rex",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "867cab9243972ebe81c079d058516962fdd4dbfa767ece0a58561de632a9a9b9",
+    "formulas": [
+      {
+        "expression": "13d12 + 52",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 9,
+      "ability_score_constitution": 19,
+      "ability_score_dexterity": 10,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 25,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Animals",
+      "challenge_rating": "8.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "13d12 + 52",
+      "hit_points": 136,
+      "initiative_bonus": 3,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 14,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": -1,
+      "saving_throw_constitution": 4,
+      "saving_throw_dexterity": 0,
+      "saving_throw_intelligence": -4,
+      "saving_throw_strength": 10,
+      "saving_throw_wisdom": 4,
+      "size": "huge",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 50
+    },
+    "original_system": "5e-2024",
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 9,
+      "ability_score_constitution": 19,
+      "ability_score_dexterity": 10,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 25,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "armor_detail": "natural armor",
+      "category": "Animals",
+      "challenge_rating": "8.000",
+      "document": "srd-2024",
+      "hit_dice": "13d12 + 52",
+      "hit_points": 136,
+      "hover": false,
+      "initiative_bonus": 3,
+      "name": "Tyrannosaurus Rex",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 14,
+      "saving_throw_charisma": -1,
+      "saving_throw_constitution": 4,
+      "saving_throw_dexterity": 0,
+      "saving_throw_intelligence": -4,
+      "saving_throw_strength": 10,
+      "saving_throw_wisdom": 4,
+      "size": "huge",
+      "skill_bonus_perception": 4,
+      "type": "beast",
+      "walk": 50,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Attack Roll: +10, reach 10 ft. 33 (4d12 + 7) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 17). While Grappled, the target has the Restrained condition and can't be targeted by the tyrannosaurus's Tail.",
+          "desc_ru": "Действие «Укус»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd-2024_tyrannosaurus-rex_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "srd-2024_tyrannosaurus-rex",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The tyrannosaurus makes one Bite attack and one Tail attack.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd-2024_tyrannosaurus-rex_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "srd-2024_tyrannosaurus-rex",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Attack Roll: +10, reach 15 ft. 25 (4d8 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
+          "desc_ru": "Действие «Хвост»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd-2024_tyrannosaurus-rex_tail",
+          "name": "Tail",
+          "name_ru": "Хвост",
+          "order_in_statblock": 2,
+          "parent": "srd-2024_tyrannosaurus-rex",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2024",
+      "exact_match": "Tyrannosaurus Rex",
+      "license": "CC-BY-4.0",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Tyrannosaurus Rex",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Огромный зверь, мировоззрение: без мировоззрения. Класс доспеха: 13 (природный доспех). Хиты: 136 (13к12 + 52). Скорость: ходьба 50 фт.. Характеристики: СИЛ 25, ЛОВ 10, ТЕЛ 19, ИНТ 2, МУД 12, ХАР 9. Чувства: пассивное Восприятие 14. Показатель опасности: 8. Структурированные механики записи: действий: 3.",
+      "glossary_version": "derived-v1",
+      "name": "Тираннозавр",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

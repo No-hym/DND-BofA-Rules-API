@@ -1,0 +1,135 @@
+{
+  "attribution": "Title: 5e Core Rules; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wotc-srd; Source: http://dnd.wizards.com/articles/features/systems-reference-document-srd; License: OGL-1.0a (https://open5e.com/legal); System Reference Document 5.1 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "wotc-srd",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "phase-spider",
+  "id": "o5e:wotc-srd:monster:phase-spider-variant-3",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:wotc-srd:monster:phase-spider"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "ed0d80a6e6cee53e26ca020cf63365d3a5bed51d5f33f7551e8709c4e31a0ec5",
+    "formulas": [
+      {
+        "expression": "5d10+5",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "challenge_rating": "3",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "5d10+5",
+      "hit_points": 32,
+      "languages": "",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "wotc-srd",
+        "content_hash": "ed0d80a6e6cee53e26ca020cf63365d3a5bed51d5f33f7551e8709c4e31a0ec5",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:monster:phase-spider",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.\", \"attack_bonus\": 4, \"damage_dice\": \"1d10\", \"damage_bonus\": 2}]",
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "3",
+      "charisma": 6,
+      "constitution": 12,
+      "cr": 3.0,
+      "desc": "A **phase spider** possesses the magical ability to phase in and out of the Ethereal Plane. It seems to appear out of nowhere and quickly vanishes after attacking. Its movement on the Ethereal Plane before coming back to the Material Plane makes it seem like it can teleport.",
+      "dexterity": 15,
+      "document": 32,
+      "environments_json": "[\"Hill\", \"Underdark\", \"Urban\", \"Astral Plane\", \"Mountains\", \"Grassland\", \"Forest\", \"Ruin\", \"Ethereal Plane\", \"Feywild\", \"Shadowfell\", \"Caverns\"]",
+      "group": "Miscellaneous Creatures",
+      "hit_dice": "5d10+5",
+      "hit_points": 32,
+      "intelligence": 6,
+      "legendary_actions_json": "null",
+      "name": "Phase Spider",
+      "page_no": 385,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 10",
+      "size": "Large",
+      "skills_json": "{\"stealth\": 6}",
+      "special_abilities_json": "[{\"name\": \"Ethereal Jaunt\", \"desc\": \"As a bonus action, the spider can magically shift from the Material Plane to the Ethereal Plane, or vice versa.\"}, {\"name\": \"Spider Climb\", \"desc\": \"The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.\"}, {\"name\": \"Web Walker\", \"desc\": \"The spider ignores movement restrictions caused by webbing.\"}]",
+      "speed_json": "{\"walk\": 30, \"climb\": 30}",
+      "spells_json": "null",
+      "strength": 15,
+      "type": "Monstrosity",
+      "wisdom": 10
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "wotc-srd",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+      "publication_date": "",
+      "publisher": "wotc-srd",
+      "title": "5e Core Rules"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Phase Spider",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:bfrd:creature:bfrd-phase-spider"
+  },
+  "publisher_id": "wotc-srd",
+  "source": "open5e:v1:wotc-srd",
+  "translations": {
+    "en": {
+      "description": "A **phase spider** possesses the magical ability to phase in and out of the Ethereal Plane. It seems to appear out of nowhere and quickly vanishes after attacking. Its movement on the Ethereal Plane before coming back to the Material Plane makes it seem like it can teleport.",
+      "name": "Phase Spider",
+      "source_version": "5.1",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Большое Чудовище, Без мировоззрения*\n\n- **Класс Доспеха:** 13 (природный доспех)\n- **Хиты:** 32 (5к10 + 5)\n- **Скорость:** 30 фт., Лазание 30 фт.\n\n| СИЛ      | ЛОВ      | ТЕЛ      | ИНТ      | МДР      | ХАР      |\n|:---:|:---:|:---:|:---:|:---:|:---:|\n| 15 (+2)  | 15 (+2)  | 12 (+1)  | 6 (-2)   | 10 (+0)  | 6 (-2)   |\n\n- **Навыки:** Скрытность +6\n- **Чувства:** тёмное зрение 60 фт.; Пассивная Внимательность 10\n- **Языки:** -\n- **Показатель опасности:** 3 (700 ОО)",
+      "glossary_version": "v1",
+      "name": "Фазовый паук",
+      "source_version": "5.1",
+      "status": "source"
+    }
+  },
+  "version": "5.1"
+}

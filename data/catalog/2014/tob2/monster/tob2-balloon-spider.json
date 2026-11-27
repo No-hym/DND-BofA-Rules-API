@@ -1,0 +1,217 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_balloon-spider",
+  "id": "o5e:tob2:creature:tob2-balloon-spider",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-balloon-spider"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b7d599ac6efcde6c32c402e7b0a5922c9f29def18921b59e628fbd4e4c2e8fe2",
+    "formulas": [
+      {
+        "expression": "8d8",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 4,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 10,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "armor_detail": "",
+      "blindsight_range": 10,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "1.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [
+        "lightning"
+      ],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": 40,
+      "hit_dice": "8d8",
+      "hit_points": 36,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 20
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "b7d599ac6efcde6c32c402e7b0a5922c9f29def18921b59e628fbd4e4c2e8fe2",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-balloon-spider",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 4,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 10,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "blindsight_range": 10,
+      "category": "Monsters",
+      "challenge_rating": "1.000",
+      "damage_immunities": [
+        "lightning"
+      ],
+      "damage_immunities_display": "lightning",
+      "darkvision_range": 60,
+      "document": "tob2",
+      "fly": 40,
+      "hit_dice": "8d8",
+      "hit_points": 36,
+      "hover": true,
+      "name": "Balloon Spider",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "size": "medium",
+      "skill_bonus_perception": 3,
+      "type": "beast",
+      "walk": 20,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage plus 5 (2d4) lightning damage, and the target must succeed on a DC 12 Constitution saving throw or it can move or take an action on its turn, but not both.",
+          "desc_ru": "Действие «Укус»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_balloon-spider_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 0,
+          "parent": "tob2_balloon-spider",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Ranged Weapon Attack: +5 to hit, range 40/80 ft., one creature. Hit: The target is grappled (escape DC 13) by strands of charged webbing and begins to hover off the ground. Until this grapple ends, the target takes 1 lightning damage at the start of each of its turns. In addition, the grappled target can make a DC 12 Dexterity (Acrobatics) check to manipulate the strands of webbing and fly 10 feet in any direction.",
+          "desc_ru": "Действие «Чаргед Веб»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_balloon-spider_charged-web",
+          "name": "Charged Web",
+          "name_ru": "Чаргед Веб",
+          "order_in_statblock": 1,
+          "parent": "tob2_balloon-spider",
+          "ru_source": "derived",
+          "uses_param": 4,
+          "uses_type": "RECHARGE_ON_ROLL"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The balloon spider magically pulls all creatures grappled by its webbing up to 10 feet toward it. If this movement pulls the creature within 5 feet of the balloon spider, the spider can make one bite attack against the creature as a bonus action.",
+          "desc_ru": "Действие «Драв Ин»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_balloon-spider_draw-in",
+          "name": "Draw In",
+          "name_ru": "Драв Ин",
+          "order_in_statblock": 2,
+          "parent": "tob2_balloon-spider",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "A creature that starts its turn within 10 feet of the balloon spider must make a DC 12 Constitution saving throw. On a failure, the creature takes 2 (1d4) lightning damage and can move or take an action on its turn, but not both. On a success, the creature gains the benefits of the haste spell until the end of its turn. If a creature’s saving throw is successful, it is immune to the spider’s Erratic Discharge for the next 24 hours.",
+          "desc_ru": "Особенность «Ерратик Дишарге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_balloon-spider_erratic-discharge",
+          "name": "Erratic Discharge",
+          "name_ru": "Ерратик Дишарге",
+          "parent": "tob2_balloon-spider",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Balloon Spider",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Balloon Spider",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Отточенный эволюционными процессами, паук-воздушный шар освоил искусство летать на шаре, паря по воздуху, удерживаясь нитями паутины, подвешенными электромагнитными полями. Наэлектризованные челюсти предоставляют этим паукам точный контроль над соседними электромагнитными полями и мощное оружие для удара его добычи.\n\nПод их охотничьими угодьями трупы и кости их добычи лежат редко покрытые блуждающими нитями синей паутины. Эти останки качаются и скользят по земле сами по себе, пойманные в блуждающих завихрениях в электромагнитном поле. Паутина паука-воздушного шара ценится арканистами как компонент для заклинаний и строительства магических летательных машин.",
+      "glossary_version": "v1",
+      "name": "Паук-воздушный шар",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

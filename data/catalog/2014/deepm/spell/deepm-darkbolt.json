@@ -1,0 +1,192 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_darkbolt",
+  "id": "o5e:deepm:spell:deepm-darkbolt",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-darkbolt",
+      "o5e:dmag:spell:darkbolt"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7946210a7a1281a0949f58ff19c15dfbb5f5f8b9a8d9ece00120f70a8114652a",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 3,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "7946210a7a1281a0949f58ff19c15dfbb5f5f8b9a8d9ece00120f70a8114652a",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-darkbolt",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "0eebdef6862b25bc262dbb6f794e7d6e07fa81c3b5333993010a62dacf70c967",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:darkbolt",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "You utter a quick invocation to create a black nimbus around your hand, then hurl three rays of darkness at one or more targets in range. The rays can be divided between targets however you like. Make a ranged spell attack for each target (not each ray); each ray that hits deals 1d10 cold damage. A target that was hit by one or more rays must make a successful Constitution saving throw or be unable to use reactions until the start of its next turn.\n",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Darkbolt",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 3,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2967",
+          "parent": "deepm_darkbolt",
+          "type": "default"
+        },
+        {
+          "external_id": "2969",
+          "parent": "deepm_darkbolt",
+          "target_count": 4,
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "2970",
+          "parent": "deepm_darkbolt",
+          "target_count": 5,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "2971",
+          "parent": "deepm_darkbolt",
+          "target_count": 6,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "2972",
+          "parent": "deepm_darkbolt",
+          "target_count": 7,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "2973",
+          "parent": "deepm_darkbolt",
+          "target_count": 8,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "2974",
+          "parent": "deepm_darkbolt",
+          "target_count": 9,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2975",
+          "parent": "deepm_darkbolt",
+          "target_count": 10,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Darkbolt",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You utter a quick invocation to create a black nimbus around your hand, then hurl three rays of darkness at one or more targets in range. The rays can be divided between targets however you like. Make a ranged spell attack for each target (not each ray); each ray that hits deals 1d10 cold damage. A target that was hit by one or more rays must make a successful Constitution saving throw or be unable to use reactions until the start of its next turn.",
+      "name": "Darkbolt",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы произносите быстрое заклинание, чтобы создать чёрный нимб вокруг вашей руки, затем швыряете три луча тьмы в одну или более целей в дистанции. Лучи могут быть разделены между целями, как вы хотите. Совершите дальнобойную атаку заклинанием для каждой цели (не каждого луча); каждый луч, который попадает, наносит 1к10 урона холодом. Цель, которая была поражена одним или более лучами, должна совершить успешный спасбросок Телосложения или быть неспособной использовать реакции до начала своего следующего хода.",
+      "glossary_version": "v1",
+      "name": "Тёмный болт",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

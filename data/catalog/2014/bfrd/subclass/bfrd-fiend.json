@@ -1,0 +1,145 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "bfrd_fiend",
+  "id": "o5e:bfrd:characterclass:bfrd-fiend",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "af36e9bd1e87e83b96401ab8042df8510af1d42532243110393619b1c68f7f48",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "bfrd_warlock"
+    },
+    "original_system": "5e-2014",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "bfrd_warlock",
+        "type": "subclass_of",
+        "value": "bfrd_warlock"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Your patron is a greater fiend who holds dominion over lesser demons or devils. Fiendish patrons are uncontestably bound to the forces of evil—though the warlocks they choose rarely are. These patrons often delight in granting power to mortals, even if those mortals openly strive against their destructive aims. Whether these tendencies are exercises in corruption or serve a more nefarious design, few can say.",
+      "document": "bfrd",
+      "name": "Fiend",
+      "subclass_of": "bfrd_warlock"
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you reduce a hostile creature to 0 HP or when a hostile creature within 30 feet of you is reduced to 0 HP, you gain temporary hit points equal to your PB + your warlock level. These hit points last until expended or until you complete a long rest.",
+          "desc_ru": "Когда вы уменьшаете хиты врага до 0, вы получаете временные хиты, равные вашему модификатору Харизмы + ваш уровень колдуна (минимум 1 временный хит). Вы также получаете это преимущество, если кто-то другой уменьшает хиты врага в пределах 10 футов от вас до 0.",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock-fiend_dark-ones-blessing",
+          "level": 3,
+          "name": "Dark One's Blessing",
+          "name_ru": "Благословение тёмного",
+          "parent": "bfrd_fiend",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain pact spells at the warlock levels listed in the Fiend Pact Spells table. See the Warlock Subclass class feature for how these spells work.\n\n|Warlock Level|Spells|\n|---|---|\n|3rd|burning hands, command|\n|5th|scorching ray, suggestion|\n|9th|fireball, stinking cloud|\n|13th|blight, wall of fire|\n|17th|dominate, flame strike|",
+          "desc_ru": "Вы получаете заклинания договора на уровнях чернокнижника, перечисленных в соответствующей таблице. См. классовую особенность «Подкласс чернокнижника» о том, как эти заклинания работают.\n\n| Уровень чернокнижника | Заклинания |\n|---|---|\n| 3-й | Горящие руки, Приказ |\n| 5-й | Палящий луч, Внушение |\n| 9-й | Огненный шар, Зловонное облако |\n| 13-й | Увядание, Стена огня |\n| 17-й | Подчинение, Небесный огонь |",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock-fiend_fiend-pact-spells",
+          "level": 3,
+          "name": "Fiend Pact Spells",
+          "name_ru": "Заклинания договора исчадия",
+          "parent": "bfrd_fiend",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You can call on your patron to alter fate in your favor. When you make an ability check or a save, you can use this feature to add 1d10 to your roll.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+          "desc_ru": "Вы можете призвать вашего покровителя изменить судьбу в вашу пользу. Когда вы совершаете проверку характеристики или спасбросок, вы можете использовать эту особенность, чтобы добавить 1к10 к вашему броску.\n\nИспользовав эту особенность, вы не можете использовать её снова, пока не закончите короткий или продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock-fiend_dark-ones-own-luck",
+          "level": 7,
+          "name": "Dark One's Own Luck",
+          "name_ru": "Собственная удача Тёмного",
+          "parent": "bfrd_fiend",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature.",
+          "desc_ru": "Вы можете выбрать один тип урона, когда заканчиваете короткий или продолжительный отдых. Вы получаете сопротивление этому типу урона, пока не выберете другой этой особенностью.",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock-fiend_fiendish-resilience",
+          "level": 11,
+          "name": "Fiendish Resilience",
+          "name_ru": "Исчадийская стойкость",
+          "parent": "bfrd_fiend",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you hit a creature with an attack, you can use this feature to instantly transport the target, causing it to disappear and hurtle through a nightmare landscape.\n\nAt the end of your next turn, the target returns to the space it previously occupied or to the nearest unoccupied space. If the target is not a Fiend, it takes 10d10 psychic damage as it reels from its horrific experience.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+          "desc_ru": "Когда вы попадаете по существу атакой, вы можете использовать эту особенность, чтобы мгновенно транспортировать цель, заставляя её исчезнуть и мчаться через кошмарный ландшафт.\n\nВ конце вашего следующего хода цель возвращается в пространство, которое она ранее занимала, или в ближайшее незанятое пространство. Если цель не Исчадие, она получает 10к10 психического урона, поскольку она шатается от её ужасного опыта.\n\nИспользовав эту особенность, вы не можете использовать её снова, пока не закончите продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_warlock-fiend_hurl-through-hell",
+          "level": 15,
+          "name": "Hurl Through Hell",
+          "name_ru": "Швырнуть через ад",
+          "parent": "bfrd_fiend",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Fiend",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "Your patron is a greater fiend who holds dominion over lesser demons or devils. Fiendish patrons are uncontestably bound to the forces of evil—though the warlocks they choose rarely are. These patrons often delight in granting power to mortals, even if those mortals openly strive against their destructive aims. Whether these tendencies are exercises in corruption or serve a more nefarious design, few can say.",
+      "name": "Fiend",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Ваш покровитель — великое исчадие, которое держит власть над меньшими демонами или дьяволами. Исчадные покровители неоспоримо связаны с силами зла — хотя колдуны, которых они выбирают, редко таковы. Эти покровители часто наслаждаются дарованием силы смертным, даже если эти смертные открыто стремятся против их разрушительных целей. Являются ли эти тенденции упражнениями в развращении или служат более гнусным замыслам, мало кто может сказать.",
+      "glossary_version": "v1",
+      "name": "Исчадие",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

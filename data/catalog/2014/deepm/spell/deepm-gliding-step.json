@@ -1,0 +1,196 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_gliding-step",
+  "id": "o5e:deepm:spell:deepm-gliding-step",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-gliding-step",
+      "o5e:dmag:spell:gliding-step"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "285148c22e96c9d57b13d3c3df6827046d58d384798d807db3e6e10e129e9360",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "10 minutes",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "285148c22e96c9d57b13d3c3df6827046d58d384798d807db3e6e10e129e9360",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-gliding-step",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "37395b95678fd497f28d83b7c125d27cc9d0077667d34128701566eaebe9cf40",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:gliding-step",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "Provided you’re not carrying more of a load than your carrying capacity permits, you can walk on the surface of snow rather than wading through it, and you ignore its effect on movement. Ice supports your weight no matter how thin it is, and you can travel on ice as if you were wearing ice skates. You still leave tracks normally while under these effects.\n",
+      "document": "deepm",
+      "duration": "10 minutes",
+      "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, the duration increases by 10 minutes for each slot level above 1st.",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Gliding Step",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3368",
+          "parent": "deepm_gliding-step",
+          "type": "default"
+        },
+        {
+          "duration": "20 minutes",
+          "external_id": "3370",
+          "parent": "deepm_gliding-step",
+          "type": "slot_level_2"
+        },
+        {
+          "duration": "30 minutes",
+          "external_id": "3371",
+          "parent": "deepm_gliding-step",
+          "type": "slot_level_3"
+        },
+        {
+          "duration": "40 minutes",
+          "external_id": "3372",
+          "parent": "deepm_gliding-step",
+          "type": "slot_level_4"
+        },
+        {
+          "duration": "50 minutes",
+          "external_id": "3373",
+          "parent": "deepm_gliding-step",
+          "type": "slot_level_5"
+        },
+        {
+          "duration": "60 minutes",
+          "external_id": "3374",
+          "parent": "deepm_gliding-step",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "70 minutes",
+          "external_id": "3375",
+          "parent": "deepm_gliding-step",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "80 minutes",
+          "external_id": "3376",
+          "parent": "deepm_gliding-step",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "90 minutes",
+          "external_id": "3377",
+          "parent": "deepm_gliding-step",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Gliding Step",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "Provided you’re not carrying more of a load than your carrying capacity permits, you can walk on the surface of snow rather than wading through it, and you ignore its effect on movement. Ice supports your weight no matter how thin it is, and you can travel on ice as if you were wearing ice skates. You still leave tracks normally while under these effects.",
+      "name": "Gliding Step",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "При условии, что вы не несёте больше груза, чем позволяет ваша грузоподъёмность, вы можете ходить по поверхности снега, а не пробираться через него, и вы игнорируете его эффект на движение. Лёд поддерживает ваш вес, независимо от того, насколько он тонок, и вы можете путешествовать по льду, как если бы вы носили коньки. Вы всё ещё оставляете следы нормально, находясь под этими эффектами.",
+      "glossary_version": "v1",
+      "name": "Скользящий шаг",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

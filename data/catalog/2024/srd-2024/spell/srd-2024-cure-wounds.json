@@ -1,0 +1,200 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_cure-wounds",
+  "id": "o5e:srd-2024:spell:srd-2024-cure-wounds",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "5a18aeaa683339ae70cdf5bb82d85f313ee356a3923f433f9474bc64070ca7eb",
+    "formulas": [
+      {
+        "expression": "2d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_cleric",
+        "srd-2024_druid",
+        "srd-2024_paladin",
+        "srd-2024_ranger"
+      ],
+      "concentration": false,
+      "damage_roll": "2d8",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_bard",
+        "type": "classes",
+        "value": [
+          "srd-2024_bard",
+          "srd-2024_cleric",
+          "srd-2024_druid",
+          "srd-2024_paladin",
+          "srd-2024_ranger"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_cleric",
+        "srd-2024_druid",
+        "srd-2024_paladin",
+        "srd-2024_ranger"
+      ],
+      "concentration": false,
+      "damage_roll": "2d8",
+      "desc": "A creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability modifier.",
+      "document": "srd-2024",
+      "duration": "instantaneous",
+      "higher_level": "The healing increases by 2d8 for each spell slot level above 1.",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Cure Wounds",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "damage_roll": "4d8",
+          "external_id": "10163",
+          "parent": "srd-2024_cure-wounds",
+          "type": "slot_level_2"
+        },
+        {
+          "damage_roll": "6d8",
+          "external_id": "10164",
+          "parent": "srd-2024_cure-wounds",
+          "type": "slot_level_3"
+        },
+        {
+          "damage_roll": "8d8",
+          "external_id": "10165",
+          "parent": "srd-2024_cure-wounds",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "10d8",
+          "external_id": "10166",
+          "parent": "srd-2024_cure-wounds",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "12d8",
+          "external_id": "10167",
+          "parent": "srd-2024_cure-wounds",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "14d8",
+          "external_id": "10168",
+          "parent": "srd-2024_cure-wounds",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "16d8",
+          "external_id": "10169",
+          "parent": "srd-2024_cure-wounds",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "18d8",
+          "external_id": "10170",
+          "parent": "srd-2024_cure-wounds",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Cure Wounds",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "A creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability modifier.",
+      "name": "Cure Wounds",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 1-го уровня (Бард, Жрец, Друид, Паладин, Следопыт)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** Касание\n\n**Компоненты:** В, С\n\n**Длительность:** Мгновенная\n\nСущество, которого вы касаетесь, восстанавливает количество хитов, равное 1к8 + ваш модификатор базовой характеристики заклинателя. Это заклинание не действует на нежить и конструктов.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 2-го уровня или выше, исцеление увеличивается на 1к8 за каждый уровень ячейки выше 1-го.",
+      "glossary_version": "v1",
+      "name": "Лечение ран",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

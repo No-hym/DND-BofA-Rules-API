@@ -1,0 +1,202 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_shadow-hands",
+  "id": "o5e:deepm:spell:deepm-shadow-hands",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-shadow-hands",
+      "o5e:dmag:spell:shadow-hands"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "528701b04e8a4fcc74935c7fe75fd0840739ef5cd631d09cc397c4542135a8a6",
+    "formulas": [
+      {
+        "expression": "2d4",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "2d4",
+      "damage_types": [
+        "necrotic"
+      ],
+      "duration": "instantaneous",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "evocation",
+      "shape_size": 10,
+      "shape_size_unit": null,
+      "shape_type": "cone",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "528701b04e8a4fcc74935c7fe75fd0840739ef5cd631d09cc397c4542135a8a6",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-shadow-hands",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "7e160e5f1d53f9ad396f02743caba2575c488dae0176a91122604a54bd28ff2b",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:shadow-hands",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "2d4",
+      "damage_types": [
+        "necrotic"
+      ],
+      "desc": "A freezing blast of shadow explodes out from you in a 10-foot cone. Any creature caught in the shadow takes 2d4 necrotic damage and is frightened; a successful Wisdom saving throw halves the damage and negates the frightened condition.\n",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, the damage dealt by the attack increases by 2d4 for each slot level above 1st.",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Shadow Hands",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "evocation",
+      "shape_size": 10,
+      "shape_type": "cone",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4094",
+          "parent": "deepm_shadow-hands",
+          "type": "default"
+        },
+        {
+          "external_id": "4096",
+          "parent": "deepm_shadow-hands",
+          "type": "slot_level_2"
+        },
+        {
+          "external_id": "4097",
+          "parent": "deepm_shadow-hands",
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "4098",
+          "parent": "deepm_shadow-hands",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "4099",
+          "parent": "deepm_shadow-hands",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "4100",
+          "parent": "deepm_shadow-hands",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "4101",
+          "parent": "deepm_shadow-hands",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "4102",
+          "parent": "deepm_shadow-hands",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "4103",
+          "parent": "deepm_shadow-hands",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Shadow Hands",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "A freezing blast of shadow explodes out from you in a 10-foot cone. Any creature caught in the shadow takes 2d4 necrotic damage and is frightened; a successful Wisdom saving throw halves the damage and negates the frightened condition.",
+      "name": "Shadow Hands",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Замораживающий взрыв тени взрывается от вас в конусе 10 футов. Любое существо, пойманное в тени, получает 2к4 некротического урона и испугано; успешный спасбросок Мудрости уполовинивает урон и отрицает состояние испуга.",
+      "glossary_version": "v1",
+      "name": "Теневые руки",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

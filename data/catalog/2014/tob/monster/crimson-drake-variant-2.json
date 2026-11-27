@@ -1,0 +1,139 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "crimson-drake",
+  "id": "o5e:tob:monster:crimson-drake-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:crimson-drake"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "bb43bd01d744875c37777c503901b3e1bf0ed670f501bcabdc628be668c87a79",
+    "formulas": [
+      {
+        "expression": "12d4+24",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic evil",
+      "armor_class": 14,
+      "challenge_rating": "1",
+      "condition_immunities": "paralyzed, unconscious",
+      "damage_immunities": "fire",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "12d4+24",
+      "hit_points": 54,
+      "languages": "Common, Draconic, telepathy 60 ft.",
+      "size": "Tiny"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "bb43bd01d744875c37777c503901b3e1bf0ed670f501bcabdc628be668c87a79",
+        "edition": "2014",
+        "id": "o5e:tob:monster:crimson-drake",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The crimson drake makes one bite attack and one stinger attack.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 4 (1d8) fire damage.\", \"attack_bonus\": 4, \"damage_dice\": \"1d6\"}, {\"name\": \"Stinger\", \"desc\": \"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the target takes 2 (1d4) poison damage at the start of each of its turns for 3 rounds. The target may repeat the saving throw at the end of its turn to end the effect early.\", \"attack_bonus\": 4, \"damage_dice\": \"1d4\"}, {\"name\": \"Breath Weapon (Recharge 6)\", \"desc\": \"The drake exhales fire in a 15-ft. cone. Each target in that cone takes 18 (4d8) fire damage, or half damage with a successful DC 12 Dexterity saving throw.\"}]",
+      "alignment": "chaotic evil",
+      "armor_class": 14,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "1",
+      "charisma": 14,
+      "condition_immunities": "paralyzed, unconscious",
+      "constitution": 14,
+      "cr": 1.0,
+      "damage_immunities": "fire",
+      "desc": "_Crimson drakes are easy to spot, with scales the color of dried blood, a deadly scorpion stinger, and a mischievous gleam in their eyes._  \n**Fiery Raiders.** Crimson drakes lair in woodlands near small settlements, making nighttime forays to set fires and hunt those who flee the flames—traits that make humanoid tribes prize them as raiding partners. Goblins gleefully adopt a crimson drake as a mascot to burn things down while they get on with slaughtering people. Red dragons and flame dragons regard a crimson drake as a pet, at best, but this rarely works out. When it is inevitably insulted by its larger cousins, a malicious crimson drake may even intentionally set fires to blaze a trail for hunters to the dragon’s lair.  \n**Mistaken for Pseudodragons.** A crimson drake’s scales and features are quite similar to those of a pseudodragon, and they will imitate a pseudodragon’s hunting cry or song to trick victims into approaching. Once their prey gets close enough, they immolate it.  \nAs with pseudodragons, they resemble a red dragon in all but size and the presence of the drake’s scorpion-like stinger. On average, a crimson drake weighs 12 lb, its body measures about 18 inches long, and its tail adds another 18 inches.  \n**Foul Familiars.** A crimson drake occasionally chooses to serve an evil spellcaster as a familiar; they are too mischievous to be loyal or trustworthy, but ferocious in defense of their master.",
+      "dexterity": 14,
+      "dexterity_save": 4,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "12d4+24",
+      "hit_points": 54,
+      "intelligence": 8,
+      "languages": "Common, Draconic, telepathy 60 ft.",
+      "legendary_actions_json": "null",
+      "name": "Crimson Drake",
+      "page_no": 151,
+      "perception": 1,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 11",
+      "size": "Tiny",
+      "skills_json": "{\"acrobatics\": 4, \"perception\": 1}",
+      "special_abilities_json": "[{\"name\": \"Magic Resistance\", \"desc\": \"The drake has advantage on saving throws against spells and other magical effects.\"}]",
+      "speed_json": "{\"walk\": 15, \"fly\": 80}",
+      "spells_json": "null",
+      "strength": 10,
+      "type": "Dragon",
+      "wisdom": 9
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Crimson Drake",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-crimson-drake"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_Crimson drakes are easy to spot, with scales the color of dried blood, a deadly scorpion stinger, and a mischievous gleam in their eyes._  \n**Fiery Raiders.** Crimson drakes lair in woodlands near small settlements, making nighttime forays to set fires and hunt those who flee the flames—traits that make humanoid tribes prize them as raiding partners. Goblins gleefully adopt a crimson drake as a mascot to burn things down while they get on with slaughtering people. Red dragons and flame dragons regard a crimson drake as a pet, at best, but this rarely works out. When it is inevitably insulted by its larger cousins, a malicious crimson drake may even intentionally set fires to blaze a trail for hunters to the dragon’s lair.  \n**Mistaken for Pseudodragons.** A crimson drake’s scales and features are quite similar to those of a pseudodragon, and they will imitate a pseudodragon’s hunting cry or song to trick victims into approaching. Once their prey gets close enough, they immolate it.  \nAs with pseudodragons, they resemble a red dragon in all but size and the presence of the drake’s scorpion-like stinger. On average, a crimson drake weighs 12 lb, its body measures about 18 inches long, and its tail adds another 18 inches.  \n**Foul Familiars.** A crimson drake occasionally chooses to serve an evil spellcaster as a familiar; they are too mischievous to be loyal or trustworthy, but ferocious in defense of their master.",
+      "name": "Crimson Drake",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Малиновых дракончиков легко заметить, с чешуёй цвета засохшей крови, смертоносным жалом скорпиона и озорным блеском в их глазах.\n\n**Огненные налётчики.** Малиновые дракончики обитают в лесах вблизи маленьких поселений, совершая ночные вылазки, чтобы поджигать пожары и охотиться на тех, кто бежит от пламени — черты, которые делают гуманоидные племена ценящими их как партнёров по набегам. Гоблины с радостью принимают малинового дракончика как талисман, чтобы сжигать вещи, пока они занимаются убийством людей. Красные драконы и огненные драконы считают малинового дракончика в лучшем случае питомцем, но это редко срабатывает. Когда он неизбежно оскорблен своими большими собратьями, злонамеренный малиновый дракончик может даже умышленно поджигать пожары, чтобы проложить путь для охотников к логову дракона.\n\n**Принимаемые за ложных драконов.** Чешуя и черты малинового дракончика довольно подобны чертам ложного дракона, и они будут имитировать охотничий крик или песню ложного дракона, чтобы обмануть жертв, заставив их приблизиться. Как только их добыча подходит достаточно близко, они её сжигают.\n\nКак и ложные драконы, они напоминают красного дракона во всём, кроме размера и присутствия скорпионьего жала дракончика. В среднем малиновый дракончик весит 12 фунтов, его тело длиной около 18 дюймов, а его хвост добавляет ещё 18 дюймов.\n\n**Гнусные фамильяры.** Малиновый дракончик изредка выбирает служить злому заклинателю как фамильяр; они слишком озорны, чтобы быть лояльными или достойными доверия, но свирепы в защите своего хозяина.",
+      "glossary_version": "v1",
+      "name": "Малиновый дракончик",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

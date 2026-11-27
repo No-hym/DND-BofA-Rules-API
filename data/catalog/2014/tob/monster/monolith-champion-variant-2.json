@@ -1,0 +1,137 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "monolith-champion",
+  "id": "o5e:tob:monster:monolith-champion-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:monolith-champion"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "955bee6e52f2299c664d6aefa94077df913d99b2f0a18a8f3a1c9de1868c0348",
+    "formulas": [
+      {
+        "expression": "12d10+36",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "unaligned",
+      "armor_class": 17,
+      "challenge_rating": "8",
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+      "damage_immunities": "poison, bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "12d10+36",
+      "hit_points": 102,
+      "languages": "Elvish, Umbral",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "955bee6e52f2299c664d6aefa94077df913d99b2f0a18a8f3a1c9de1868c0348",
+        "edition": "2014",
+        "id": "o5e:tob:monster:monolith-champion",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The champion makes two greatsword attacks or two slam attacks.\"}, {\"name\": \"Greatsword\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) slashing damage plus 11 (2d10) cold or fire damage.\", \"attack_bonus\": 7, \"damage_dice\": \"3d6\"}, {\"name\": \"Slam\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 11 (2d10) cold or fire damage.\", \"attack_bonus\": 7, \"damage_dice\": \"2d6\"}]",
+      "alignment": "unaligned",
+      "armor_class": 17,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "8",
+      "charisma": 10,
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+      "constitution": 16,
+      "cr": 8.0,
+      "damage_immunities": "poison, bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
+      "desc": "_This suit of armor stands motionless, its visor raised to reveal a black skull with eyes cold as a winter moon. A cloak of owl feathers hangs from its shoulders, and a greatsword is slung across its back._  \n**Beautiful Constructs.** Monolithic servitors are constructs designed to serve the courts of the shadow fey. As constructs go, these are uncommonly beautiful; they are meant to be as pleasing to the eyes as they are functional. Beauty, of course, is in the eye of the beholder, and what’s beautiful in the eyes of the shadow fey might be considered strange, disturbing, or even alarming by mortal folk.  \n**Expensive Armor.** Regardless of a viewer’s esthetic opinion, it’s obvious that a monolith champion incorporates amazing workmanship. Every fitting is perfect; every surface is masterfully burnished and etched with detail almost invisible to the naked eye or decorated with macabre inlays and precious chasing. The skull in the helmet is mere decoration, meant to frighten the weak of heart and mislead opponents into thinking the champion is some form of undead rather than a pure construct.  \n**Keeping Out the Rabble.** As its name implies, the monolith champion serves as a guardian, warrior, or sentry. In those roles, it never tires, never becomes distracted or bored, never questions its loyalty, and never swerves from its duty. It delights in throwing non-fey visitors out of fey settlements and buildings.  \n**Constructed Nature.** A monolith champion doesn’t require air, food, drink, or sleep.",
+      "dexterity": 12,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "12d10+36",
+      "hit_points": 102,
+      "intelligence": 10,
+      "languages": "Elvish, Umbral",
+      "legendary_actions_json": "null",
+      "name": "Monolith Champion",
+      "page_no": 294,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 10",
+      "size": "Large",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Blatant Dismissal\", \"desc\": \"While in a fey court or castle, a monolith champion that scores a successful hit with its greatsword can try to force the substitution of the target with a shadow double. The target must succeed at a DC 14 Charisma saving throw or become invisible, silent, and paralyzed, while an illusory version of itself remains visible and audible-and under the monolith champion's control, shouting for a retreat or the like. Outside fey locales, this ability does not function.\"}, {\"name\": \"Fey Flame\", \"desc\": \"The ritual powering a monolith champion grants it an inner flame that it can use to enhance its weapon or its fists with additional fire or cold damage, depending on the construct's needs.\"}]",
+      "speed_json": "{\"walk\": 40}",
+      "spells_json": "null",
+      "strength": 19,
+      "type": "Construct",
+      "wisdom": 10
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Monolith Champion",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-monolith-champion"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_This suit of armor stands motionless, its visor raised to reveal a black skull with eyes cold as a winter moon. A cloak of owl feathers hangs from its shoulders, and a greatsword is slung across its back._  \n**Beautiful Constructs.** Monolithic servitors are constructs designed to serve the courts of the shadow fey. As constructs go, these are uncommonly beautiful; they are meant to be as pleasing to the eyes as they are functional. Beauty, of course, is in the eye of the beholder, and what’s beautiful in the eyes of the shadow fey might be considered strange, disturbing, or even alarming by mortal folk.  \n**Expensive Armor.** Regardless of a viewer’s esthetic opinion, it’s obvious that a monolith champion incorporates amazing workmanship. Every fitting is perfect; every surface is masterfully burnished and etched with detail almost invisible to the naked eye or decorated with macabre inlays and precious chasing. The skull in the helmet is mere decoration, meant to frighten the weak of heart and mislead opponents into thinking the champion is some form of undead rather than a pure construct.  \n**Keeping Out the Rabble.** As its name implies, the monolith champion serves as a guardian, warrior, or sentry. In those roles, it never tires, never becomes distracted or bored, never questions its loyalty, and never swerves from its duty. It delights in throwing non-fey visitors out of fey settlements and buildings.  \n**Constructed Nature.** A monolith champion doesn’t require air, food, drink, or sleep.",
+      "name": "Monolith Champion",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Этот костюм доспеха стоит неподвижно, его забрало поднято, чтобы раскрыть чёрный череп с глазами холодными, как зимняя луна. Плащ из перьев совы висит с его плеч, а большой меч перекинут через его спину.\n\n**Прекрасные конструкты.** Монолитные слуги — конструкты, предназначенные служить судам теневых фей. Как конструкты идут, эти необычайно прекрасны; они предназначены быть столь же приятными для глаз, сколь функциональны. Красота, конечно, в глазах смотрящего, и то, что прекрасно в глазах теневых фей, может считаться странным, тревожным или даже пугающим смертными людьми.\n\n**Дорогой доспех.** Независимо от эстетического мнения зрителя, очевидно, что чемпион монолита включает удивительное мастерство. Каждая подгонка совершенна; каждая поверхность мастерски отполирована и вырезана деталями, почти невидимыми невооружённым взглядом, или украшены мрачными инкрустациями и драгоценной гравировкой. Череп в шлеме — просто украшение, предназначенное пугать слабых сердцем и вводить противников в заблуждение, думая, что чемпион — какая-то форма нежити, а не чистый конструкт.\n\n**Держа чернь снаружи.** Как его имя подразумевает, чемпион монолита служит стражем, воином или часовым. В тех ролях он никогда не устаёт, никогда не становится отвлечённым или скучающим, никогда не подвергает сомнению его лояльность и никогда не уклоняется от его долга. Он наслаждается, выбрасывая посетителей не-фей из поселений и зданий фей.\n\n**Созданная природа.** Чемпиону монолита не требуются воздух, пища, питьё или сон.",
+      "glossary_version": "v1",
+      "name": "Чемпион монолита",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

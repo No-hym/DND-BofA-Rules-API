@@ -1,0 +1,176 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_dragon-breath",
+  "id": "o5e:deepm:spell:deepm-dragon-breath",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-dragon-breath",
+      "o5e:dmag:spell:dragon-breath"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "6d6880e01ed20a0bda7d8ab03df191b0ce858ce37f9beb752cc4f4649b9026eb",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a piece of a dragon’s tooth",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": 15,
+      "shape_size_unit": null,
+      "shape_type": "line",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "6d6880e01ed20a0bda7d8ab03df191b0ce858ce37f9beb752cc4f4649b9026eb",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-dragon-breath",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "14d9f12da53b61ae453672d2026726530a697edfbd00be570a88b99b96978282",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:dragon-breath",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "You summon draconic power to gain a breath weapon. When you cast dragon breath, you can immediately exhale a cone or line of elemental energy, depending on the type of dragon you select. While the spell remains active, roll a d6 at the start of your turn. On a roll of 5 or 6, you can take a bonus action that turn to use the breath weapon again.\n\nWhen you cast the spell, choose one of the dragon types listed below. Your choice determines the affected area and the damage of the breath attack for the spell’s duration.\n\n| Dragon Type | Area | Damage |\n|---|---|---|\n| Black | 30-foot line, 5 feet wide | 6d6 acid damage |\n| Blue | 30-foot line, 5 feet wide | 6d6 lightning damage |\n| Green | 15-foot cone | 6d6 poison damage |\n| Red | 15-foot cone | 6d6 fire damage |\n| White | 15-foot cone | 6d6 cold damage |\n\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the damage increases by 2d6 for each slot level above 5th.",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a piece of a dragon’s tooth",
+      "name": "Dragon Breath",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "school": "evocation",
+      "shape_size": 15,
+      "shape_type": "line",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3105",
+          "parent": "deepm_dragon-breath",
+          "type": "default"
+        },
+        {
+          "external_id": "3107",
+          "parent": "deepm_dragon-breath",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3108",
+          "parent": "deepm_dragon-breath",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3109",
+          "parent": "deepm_dragon-breath",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3110",
+          "parent": "deepm_dragon-breath",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Dragon Breath",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You summon draconic power to gain a breath weapon. When you cast dragon breath, you can immediately exhale a cone or line of elemental energy, depending on the type of dragon you select. While the spell remains active, roll a d6 at the start of your turn. On a roll of 5 or 6, you can take a bonus action that turn to use the breath weapon again.\n\nWhen you cast the spell, choose one of the dragon types listed below. Your choice determines the affected area and the damage of the breath attack for the spell’s duration.\n\n| Dragon Type | Area | Damage |\n|---|---|---|\n| Black | 30-foot line, 5 feet wide | 6d6 acid damage |\n| Blue | 30-foot line, 5 feet wide | 6d6 lightning damage |\n| Green | 15-foot cone | 6d6 poison damage |\n| Red | 15-foot cone | 6d6 fire damage |\n| White | 15-foot cone | 6d6 cold damage |",
+      "name": "Dragon Breath",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы призываете драконью силу, чтобы получить дыхательное оружие. Когда вы творите это заклинание, вы можете немедленно выдохнуть конус или линию стихийной энергии, в зависимости от типа дракона, который вы выберете. Пока заклинание остаётся активным, бросайте к6 в начале вашего хода. Если выпадет 5 или 6, вы можете бонусным действием в этот ход снова использовать дыхательное оружие.\n\nКогда вы творите заклинание, выберите один из типов драконов, перечисленных ниже. Ваш выбор определяет затронутую область и урон атаки дыханием на время действия заклинания.\n\n| Тип дракона | Область | Урон |\n|---|---|---|\n| Чёрный | Линия 30 футов, ширина 5 футов | 6к6 урона кислотой |\n| Синий | Линия 30 футов, ширина 5 футов | 6к6 урона электричеством |\n| Зелёный | Конус 15 футов | 6к6 урона ядом |\n| Красный | Конус 15 футов | 6к6 урона огнём |\n| Белый | Конус 15 футов | 6к6 урона холодом |",
+      "glossary_version": "v1",
+      "name": "Драконье дыхание",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,136 @@
+{
+  "attribution": "Title: 5e Core Rules; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wotc-srd; Source: http://dnd.wizards.com/articles/features/systems-reference-document-srd; License: OGL-1.0a (https://open5e.com/legal); System Reference Document 5.1 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "wotc-srd",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "giant-eagle",
+  "id": "o5e:wotc-srd:monster:giant-eagle-variant-3",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:wotc-srd:monster:giant-eagle"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "d96e0c9aadf7c08db6448938ed97d35973660f2c25cbb6222b005128adcb5e95",
+    "formulas": [
+      {
+        "expression": "4d10+4",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral good",
+      "armor_class": 13,
+      "challenge_rating": "1",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "4d10+4",
+      "hit_points": 26,
+      "languages": "Giant Eagle, understands Common and Auran but can't speak",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "wotc-srd",
+        "content_hash": "d96e0c9aadf7c08db6448938ed97d35973660f2c25cbb6222b005128adcb5e95",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:monster:giant-eagle",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The eagle makes two attacks: one with its beak and one with its talons.\"}, {\"name\": \"Beak\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.\", \"attack_bonus\": 5, \"damage_dice\": \"1d6\", \"damage_bonus\": 3}, {\"name\": \"Talons\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.\", \"attack_bonus\": 5, \"damage_dice\": \"2d6\", \"damage_bonus\": 3}]",
+      "alignment": "neutral good",
+      "armor_class": 13,
+      "bonus_actions_json": "null",
+      "challenge_rating": "1",
+      "charisma": 10,
+      "constitution": 13,
+      "cr": 1.0,
+      "desc": "A **giant eagle** is a noble creature that speaks its own language and understands speech in the Common tongue. A mated pair of giant eagles typically has up to four eggs or young in their nest (treat the young as normal eagles).",
+      "dexterity": 17,
+      "document": 32,
+      "environments_json": "[\"Hill\", \"Mountains\", \"Coastal\", \"Grassland\", \"Hills\", \"Feywild\", \"Mountain\", \"Desert\"]",
+      "group": "Miscellaneous Creatures",
+      "hit_dice": "4d10+4",
+      "hit_points": 26,
+      "intelligence": 8,
+      "languages": "Giant Eagle, understands Common and Auran but can't speak",
+      "legendary_actions_json": "null",
+      "name": "Giant Eagle",
+      "page_no": 375,
+      "perception": 4,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "passive Perception 14",
+      "size": "Large",
+      "skills_json": "{\"perception\": 4}",
+      "special_abilities_json": "[{\"name\": \"Keen Sight\", \"desc\": \"The eagle has advantage on Wisdom (Perception) checks that rely on sight.\"}]",
+      "speed_json": "{\"walk\": 10, \"fly\": 80}",
+      "spells_json": "null",
+      "strength": 16,
+      "type": "Beast",
+      "wisdom": 14
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "wotc-srd",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+      "publication_date": "",
+      "publisher": "wotc-srd",
+      "title": "5e Core Rules"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Giant Eagle",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:srd-2014:creature:srd-giant-eagle"
+  },
+  "publisher_id": "wotc-srd",
+  "source": "open5e:v1:wotc-srd",
+  "translations": {
+    "en": {
+      "description": "A **giant eagle** is a noble creature that speaks its own language and understands speech in the Common tongue. A mated pair of giant eagles typically has up to four eggs or young in their nest (treat the young as normal eagles).",
+      "name": "Giant Eagle",
+      "source_version": "5.1",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Большой Зверь, Нейтрально-добрый*\n\n- **Класс Доспеха:** 13\n- **Хиты:** 26 (4к10 + 4)\n- **Скорость:** 10 фт., Полёт 80 фт.\n\n| СИЛ      | ЛОВ      | ТЕЛ      | ИНТ      | МДР      | ХАР      |\n|:---:|:---:|:---:|:---:|:---:|:---:|\n| 16 (+3)  | 17 (+3)  | 13 (+1)  | 8 (-1)   | 14 (+2)  | 10 (+0)  |\n\n- **Навыки:** Внимательность +4\n- **Чувства:** Пассивная Внимательность 14\n- **Языки:** Язык гигантских орлов, понимает Общий и Ауран, но не может говорить на них\n- **Показатель опасности:** 1 (200 ОО)",
+      "glossary_version": "v1",
+      "name": "Гигантский орёл",
+      "source_version": "5.1",
+      "status": "source"
+    }
+  },
+  "version": "5.1"
+}

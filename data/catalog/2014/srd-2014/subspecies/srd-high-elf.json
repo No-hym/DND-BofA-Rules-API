@@ -1,0 +1,148 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "subspecies",
+  "edition": "2014",
+  "external_id": "srd_high-elf",
+  "id": "o5e:srd-2014:species:srd-high-elf",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:species:srd-high-elf",
+      "o5e:wotc-srd:subrace:high-elf"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "47f8eaceecc2b281e9b82df460d69a3bb868a1b24c082073446c440eb20b8e26",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "subspecies_of": "srd_elf"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "47f8eaceecc2b281e9b82df460d69a3bb868a1b24c082073446c440eb20b8e26",
+        "edition": "2014",
+        "id": "o5e:srd-2014:species:srd-high-elf",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "fe104e0a7607e79dd8be806ddfd453cba03700165c4f1ba0f5decaffbb16032e",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:subrace:high-elf",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_elf",
+        "type": "subspecies_of",
+        "value": "srd_elf"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many fantasy gaming worlds, there are two kinds of high elves. One type is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type is more common and more friendly, and often encountered among humans and other races.",
+      "document": "srd-2014",
+      "name": "High Elf",
+      "subspecies_of": "srd_elf"
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "traits": [
+        {
+          "desc": "Your Intelligence score increases by 1.",
+          "desc_ru": "Каждая раса увеличивает одну или несколько характеристик персонажа.",
+          "external_id": "srd_high-elf_ability-score-increase",
+          "name": "Ability Score Increase",
+          "name_ru": "Увеличение характеристик",
+          "parent": "srd_high-elf",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+          "desc_ru": "Особенность «Елф Веапон Траининг». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_high-elf_elf-weapon-training",
+          "name": "Elf Weapon Training",
+          "name_ru": "Елф Веапон Траининг",
+          "parent": "srd_high-elf",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.",
+          "desc_ru": "Заговор — это заклинание 0-го уровня, которое сотворяется без ячейки заклинания. *См. также* «Заклинания».",
+          "external_id": "srd_high-elf_cantrip",
+          "name": "Cantrip",
+          "name_ru": "Заговор",
+          "parent": "srd_high-elf",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You can speak, read, and write one extra language of your choice.",
+          "desc_ru": "Особенность «Екстра Лангуаге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_high-elf_extra-language",
+          "name": "Extra Language",
+          "name_ru": "Екстра Лангуаге",
+          "parent": "srd_high-elf",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "High Elf",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many fantasy gaming worlds, there are two kinds of high elves. One type is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type is more common and more friendly, and often encountered among humans and other races.",
+      "name": "High Elf",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Как высший эльф, вы обладаете острым умом и владеете хотя бы основами магии. Во многих мирах фэнтезийных игр существует два вида высших эльфов. Один тип надменен и замкнут, считая себя выше неэльфов и даже других эльфов. Другой тип более распространён и дружелюбен, часто встречается среди людей и других рас.\n\n**_Увеличение характеристик._** Ваше значение Интеллекта увеличивается на 1.\n\n**_Эльфийская боевая подготовка._** Вы владеете длинным мечом, коротким мечом, коротким луком и длинным луком.\n\n**_Заговор._** Вы знаете один заговор на выбор из списка заклинаний волшебника. Интеллект является вашей базовой характеристикой для его сотворения.\n\n**_Дополнительный язык._** Вы можете говорить, читать и писать на одном дополнительном языке на ваш выбор.",
+      "glossary_version": "v1",
+      "name": "Высший эльф",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

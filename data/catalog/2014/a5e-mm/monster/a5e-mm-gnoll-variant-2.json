@@ -1,0 +1,196 @@
+{
+  "attribution": "Title: Monstrous Menagerie; Author: Paul Hughes; Publisher: en-publishing; Source: https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e; License: OGL-1.0a (https://open5e.com/legal); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "a5e-mm",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "a5e-mm_gnoll",
+  "id": "o5e:a5e-mm:creature:a5e-mm-gnoll-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-mm:creature:a5e-mm-gnoll"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "26a644be3001fb3310fd3843926bab9d1310b7020cc6f6f79001cf2f0bba5936",
+    "formulas": [
+      {
+        "expression": "5d8",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 10,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 14,
+      "ability_score_wisdom": 8,
+      "alignment": "chaotic evil",
+      "armor_class": 14,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60.0,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "5d8",
+      "hit_points": 22,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "Gnoll",
+      "normal_sight_range": 10560.0,
+      "passive_perception": 9,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30.0
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-mm",
+        "content_hash": "26a644be3001fb3310fd3843926bab9d1310b7020cc6f6f79001cf2f0bba5936",
+        "edition": "2014",
+        "id": "o5e:a5e-mm:creature:a5e-mm-gnoll",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:a5e-mm"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 10,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 14,
+      "ability_score_wisdom": 8,
+      "alignment": "chaotic evil",
+      "armor_class": 14,
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "darkvision_range": 60.0,
+      "document": "a5e-mm",
+      "hit_dice": "5d8",
+      "hit_points": 22,
+      "hover": false,
+      "languages_desc": "Gnoll",
+      "name": "Gnoll",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560.0,
+      "passive_perception": 9,
+      "size": "medium",
+      "type": "humanoid",
+      "walk": 30.0,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "a5e-mm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e",
+      "publication_date": "2021-12-12T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Monstrous Menagerie"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one bloodied creature. Hit: 4 (1d4 + 2) piercing damage.",
+          "desc_ru": "Действие «Рампагинг Укус»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_gnoll_rampaging-bite",
+          "name": "Rampaging Bite",
+          "name_ru": "Рампагинг Укус",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_gnoll",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+          "desc_ru": "Атака оружием ближнего или дальнего боя: +4 к попаданию, досягаемость 5 фт. или дистанция 20/60 фт., одна цель. Попадание: 5 (1к6+2) колющего урона.",
+          "external_id": "a5e-mm_gnoll_spear",
+          "name": "Spear",
+          "name_ru": "Копьё",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_gnoll",
+          "ru_source": "template"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The gnoll has advantage on attack rolls against a creature if at least one of the gnolls allies is within 5 feet of the creature and not incapacitated.",
+          "desc_ru": "Особенность «Пак Тактикс». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_gnoll_pack-tactics",
+          "name": "Pack Tactics",
+          "name_ru": "Пак Тактикс",
+          "parent": "a5e-mm_gnoll",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "Gnoll",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    },
+    "variant_of": "o5e:bfrd:creature:bfrd-gnoll"
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-mm",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Gnoll",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Средний Гуманоид (гнолл), Хаотично-злой*\n\n- **Класс Доспеха:** 15 (шкурный доспех, щит)\n- **Хиты:** 22 (5к8)\n- **Скорость:** 30 фт.\n\n| СИЛ      | ЛОВ      | ТЕЛ      | ИНТ      | МДР      | ХАР      |\n|:---:|:---:|:---:|:---:|:---:|:---:|\n| 14 (+2)  | 12 (+1)  | 11 (+0)  | 6 (-2)   | 10 (+0)  | 7 (-2)   |\n\n- **Чувства:** тёмное зрение 60 фт.; Пассивная Внимательность 10\n- **Языки:** Гноллий\n- **Показатель опасности:** 1/2 (100 ОО)",
+      "glossary_version": "v1",
+      "name": "Гнолл",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,140 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "avulzor",
+  "id": "o5e:tob2:monster:avulzor-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:avulzor"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "8eba6ace9cf3e2959ad2aa9f3f93a4867d209b632e41240b7e21d8287f5e56ef",
+    "formulas": [
+      {
+        "expression": "18d10+36",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "lawful evil",
+      "armor_class": 17,
+      "challenge_rating": "8",
+      "condition_immunities": "paralyzed, stunned",
+      "damage_immunities": "necrotic",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "",
+      "hit_dice": "18d10+36",
+      "hit_points": 135,
+      "languages": "Common, Deep Speech, Void Speech",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "8eba6ace9cf3e2959ad2aa9f3f93a4867d209b632e41240b7e21d8287f5e56ef",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:avulzor",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The avulzor makes two claw attacks and two synchronized bite attacks.\"}, {\"name\": \"Claw\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.\", \"attack_bonus\": 7, \"damage_dice\": \"1d8+4\"}, {\"name\": \"Synchronized Bite\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 14 (4d4 + 4) piercing damage.\", \"attack_bonus\": 7, \"damage_dice\": \"4d4+4\"}, {\"name\": \"Animate Bones (Recharge 5-6)\", \"desc\": \"The avulzor creates a skeleton out of a pile of bones or a the corpse of a Large or smaller creature within 10 feet of it. The skeleton is under the control of the avulzor, obeying the avulzor's mental commands, and uses the statistics of a CR 1 or lower skeleton of your choice. The avulzor can control up to three skeletons at one time. If the avulzor creates a skeleton while it already has three under its control, the oldest skeleton crumbles to dust.\"}]",
+      "alignment": "lawful evil",
+      "armor_class": 17,
+      "armor_desc": "bone kilt",
+      "bonus_actions_json": "null",
+      "challenge_rating": "8",
+      "charisma": 15,
+      "charisma_save": 5,
+      "condition_immunities": "paralyzed, stunned",
+      "constitution": 14,
+      "cr": 8.0,
+      "damage_immunities": "necrotic",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "desc": "A horrid-looking bipedal creature with cracked, leathery skin and long arms and legs—ending in wicked, flensing talons—rears up. A trio of unblinking purple eyes is situated in the monster’s chest, and its neck ends in a nest of lamprey-like heads. It wears a kilt of humanoid bones that rattles unnervingly as it moves._  \n**Horrors from Beyond Reality.** Avulzors are hideous aberrations native to a dimension inundated with necrotic energy. There they weave plans for dominating the other planes of existence, launching expeditionary forces into other worlds to kidnap humanoids for experimentation, steal useful magical devices, or destroy perceived threats. Their reasons for doing so are largely unknown, yet they despise all other living creatures.  \n**Masters of Bone.** While avulzors hate all life, they have a disturbingly accurate understanding of humanoid anatomy and use this knowledge to grant their undead constructs extra power. They can also shape bone as if it were putty, transforming an ogre’s pelvis into a usable chair or a dwarf ’s teeth and ribs into a complex musical instrument. While they find undead creatures like Open Game License",
+      "dexterity": 17,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "18d10+36",
+      "hit_points": 135,
+      "intelligence": 18,
+      "languages": "Common, Deep Speech, Void Speech",
+      "legendary_actions_json": "null",
+      "name": "Avulzor",
+      "page_no": 37,
+      "perception": 6,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 90 ft., passive Perception 16",
+      "size": "Large",
+      "skills_json": "{\"arcana\": 7, \"insight\": 6, \"intimidation\": 8, \"medicine\": 6, \"perception\": 6}",
+      "special_abilities_json": "[{\"name\": \"Bone Shaping\", \"desc\": \"The avulzor can shape bones with its touch, altering the appearance, function, size, and density of bone to match its needs. It can't use this trait to alter the bones of a living creature, but it can otherwise alter any bone it touches that isn't being worn or carried. In addition, as a bonus action, the avulzor can touch any skeleton it created with its Animate Bones action and grant the target one of the following benefits until the end of the target's next turn: \\n* Armor Class increases by 2 \\n* Reach increases by 5 feet \\n* Melee weapon attacks deal an extra 1d4 damage of the weapon's type. \\n* Speed increases by 10 feet.\"}, {\"name\": \"Bone Kilt\", \"desc\": \"The avulzor wears a kilt made out of the bones of the many humanoids it has slain. The kilt increases the avulzor's Armor Class by 3. If lost, the avulzor can create a new bone kilt with ample bones and 1 hour of work. The avulzor can use its Animate Bones as a bonus action if it targets the bone kilt. Doing so creates 1 skeleton of CR 2 or lower, but the avulzor subsequently reduces its Armor Class by 3.\"}, {\"name\": \"Turning Defiance\", \"desc\": \"Friendly undead within 30 feet of the avulzor have advantage on saving throws against effects that turn undead.\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 19,
+      "type": "Aberration",
+      "wisdom": 16
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Avulzor",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-avulzor"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "A horrid-looking bipedal creature with cracked, leathery skin and long arms and legs—ending in wicked, flensing talons—rears up. A trio of unblinking purple eyes is situated in the monster’s chest, and its neck ends in a nest of lamprey-like heads. It wears a kilt of humanoid bones that rattles unnervingly as it moves._  \n**Horrors from Beyond Reality.** Avulzors are hideous aberrations native to a dimension inundated with necrotic energy. There they weave plans for dominating the other planes of existence, launching expeditionary forces into other worlds to kidnap humanoids for experimentation, steal useful magical devices, or destroy perceived threats. Their reasons for doing so are largely unknown, yet they despise all other living creatures.  \n**Masters of Bone.** While avulzors hate all life, they have a disturbingly accurate understanding of humanoid anatomy and use this knowledge to grant their undead constructs extra power. They can also shape bone as if it were putty, transforming an ogre’s pelvis into a usable chair or a dwarf ’s teeth and ribs into a complex musical instrument. While they find undead creatures like Open Game License",
+      "name": "Avulzor",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Ужасно выглядевших двуногих существо с треснувшимися, кожистой кожей, и длинные руки и ноги — заканчивающиеся злыми, вспарывающими когтями — поднимается. Трио из немигающие фиолетовых глаз расположены в груди монстра, а его шея заканчивается гнездовыми миногоподобными головами. Он одет в юбку из гуманоидных костей, которые тревожно грохочут при движении.\n\n**Ужасы из-за реальности.** Авулзоры — ужасные аберрации, обитающие в измерении наводнения с некротической энергией. Там они строят планы для доминирования в других плоскостях существования, запуска экспедиционных сил в другие миры, чтобы похитить гуманоидов для экспериментов, украсть полезные волшебные устройства, или уничтожить предполагаемые угрозы. Причины, по которым они это делают в значительной степени неизвестны, однако они презирают всех других живых существ.\n\n**Мастера костей.** В то время как Авулзоры ненавидят всю жизнь, у них есть тревожно точное понимание анатомии гуманоидные и использовать эти знания, чтобы предоставить своим конструктам нежить дополнительную власть. Они также могут формировать кости, как если бы она была замазка, превращая таз огра в пригодный для использования стула или же зубы и ребра дварфов в сложных музыкальный инструмент. Хотя они считают нежити существа как",
+      "glossary_version": "v1",
+      "name": "Авулзор",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

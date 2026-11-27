@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "locksmith",
+  "id": "o5e:tob2:monster:locksmith-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:locksmith"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7a62ae40b563a525a39d7ce3e7a4287e6a1b9d6e8af852085b003122002b64b2",
+    "formulas": [
+      {
+        "expression": "12d8+48",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "unaligned",
+      "armor_class": 18,
+      "challenge_rating": "8",
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "damage_immunities": "fire, poison, psychic",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "",
+      "hit_dice": "12d8+48",
+      "hit_points": 102,
+      "languages": "Common",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "7a62ae40b563a525a39d7ce3e7a4287e6a1b9d6e8af852085b003122002b64b2",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:locksmith",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The locksmith makes two key blade attacks.\"}, {\"name\": \"Key Blade\", \"desc\": \"Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) slashing damage.\", \"attack_bonus\": 9, \"damage_dice\": \"3d8+5\"}, {\"name\": \"Acid Wash (Recharge 5-6)\", \"desc\": \"The locksmith emits a cloud of rust in a 60-foot cone. Each creature in that area must succeed on a DC 16 Dexterity saving throw, taking 35 (10d6) acid damage on a failed save, or half as much damage on a successful one.\"}]",
+      "alignment": "unaligned",
+      "armor_class": 18,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "8",
+      "charisma": 6,
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "constitution": 18,
+      "cr": 8.0,
+      "damage_immunities": "fire, poison, psychic",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "desc": "The human-shaped construct is a cobbled collection of mechanical parts. The hundreds of keys hanging about its form jingle as it moves._  \n**Call the Locksmith.** These odd entities are the best in the business at creating secure doors and gates, impassable barriers, and locks of all varieties. They may be inclined to wander from place to place or set up shop in metropolises, offering their services to create or unlock barriers of any kind.  \n**Professional Rivalry.** Each locksmith has a distinct appearance and personality, but they all share the same skill set. A locksmith instantly recognizes the handiwork of another locksmith. When a locksmith encounters a barrier constructed by another of its kind, it is compelled to break the barrier or build a superior version. A locksmith hired to undo the work of one of its fellows often volunteers for the task free of charge.  \n**Key Features.** Locksmiths are unique in appearance, but all share a generally humanoid shape. Regardless of other details, they all possess empty keyholes where a human nose would typically be. The key that fits this lock is responsible for imbuing the locksmith with its consciousness. Locksmiths build incredibly complex hidden vaults to hide away these treasured keys.  \n**Construct Nature.** The locksmith doesn’t require air, food, drink, or sleep.",
+      "dexterity": 18,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "12d8+48",
+      "hit_points": 102,
+      "intelligence": 16,
+      "languages": "Common",
+      "legendary_actions_json": "null",
+      "name": "Locksmith",
+      "page_no": 240,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "blindsight 90 ft., passive Perception 10",
+      "size": "Medium",
+      "skills_json": "{\"insight\": 4, \"stealth\": 8}",
+      "special_abilities_json": "[{\"name\": \"Expert Lockpicker\", \"desc\": \"The locksmith can use any piece of its mechanical body to pick locks and disarm traps, as if its entire body was made up of several sets of thieves' tools. It is proficient in using pieces of itself in this way. In addition, the locksmith has advantage on ability checks to pick locks and disarm traps.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"The locksmith's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no material components:\\nAt will: mending\\n3/day each: arcane lock, knock\\n1/day: forcecage\"}]",
+      "speed_json": "{\"walk\": 40}",
+      "spells_json": "null",
+      "strength": 20,
+      "type": "Construct",
+      "wisdom": 10
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Locksmith",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-locksmith"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "The human-shaped construct is a cobbled collection of mechanical parts. The hundreds of keys hanging about its form jingle as it moves._  \n**Call the Locksmith.** These odd entities are the best in the business at creating secure doors and gates, impassable barriers, and locks of all varieties. They may be inclined to wander from place to place or set up shop in metropolises, offering their services to create or unlock barriers of any kind.  \n**Professional Rivalry.** Each locksmith has a distinct appearance and personality, but they all share the same skill set. A locksmith instantly recognizes the handiwork of another locksmith. When a locksmith encounters a barrier constructed by another of its kind, it is compelled to break the barrier or build a superior version. A locksmith hired to undo the work of one of its fellows often volunteers for the task free of charge.  \n**Key Features.** Locksmiths are unique in appearance, but all share a generally humanoid shape. Regardless of other details, they all possess empty keyholes where a human nose would typically be. The key that fits this lock is responsible for imbuing the locksmith with its consciousness. Locksmiths build incredibly complex hidden vaults to hide away these treasured keys.  \n**Construct Nature.** The locksmith doesn’t require air, food, drink, or sleep.",
+      "name": "Locksmith",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Конструкт в форме человека — собранная коллекция механических частей. Сотни ключей, висящих на его форме, звенят, когда он движется.\n\n**Вызвать слесаря.** Эти странные сущности — лучшие в бизнесе по созданию безопасных дверей и ворот, непроходимых барьеров и замков всех разновидностей. Они могут быть склонны странствовать из места в место или устанавливать магазин в метрополиях, предлагая свои услуги создавать или открывать барьеры любого вида.\n\n**Профессиональное соперничество.** У каждого слесаря отчётливая внешность и личность, но они все разделяют тот же набор навыков. Слесарь мгновенно узнаёт работу другого слесаря. Когда слесарь сталкивается с барьером, построенным другим из его вида, он вынужден сломать барьер или построить превосходящую версию. Слесарь, нанятый, чтобы отменить работу одного из его собратьев, часто добровольцем вызывается на задачу бесплатно.\n\n**Особенности ключей.** Слесари уникальны по внешности, но все разделяют в целом гуманоидную форму. Независимо от других деталей, они все обладают пустыми замочными скважинами там, где человеческий нос обычно был бы. Ключ, который подходит к этому замку, ответственен за наполнение слесаря его сознанием. Слесари строят невероятно сложные скрытые хранилища, чтобы прятать эти дорогие ключи.\n\n**Природа конструкта.** Слесарю не нужен воздух, еда, питьё или сон.",
+      "glossary_version": "v1",
+      "name": "Слесарь",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

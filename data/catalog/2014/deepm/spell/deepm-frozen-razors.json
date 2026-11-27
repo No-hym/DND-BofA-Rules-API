@@ -1,0 +1,199 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_frozen-razors",
+  "id": "o5e:deepm:spell:deepm-frozen-razors",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-frozen-razors",
+      "o5e:dmag:spell:frozen-razors"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "0258bad0ba528305b9f24b59cc44571601b95f5b9d1d6875a9aa9a7506ae3d96",
+    "formulas": [
+      {
+        "expression": "2d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "slashing"
+      ],
+      "duration": "1 minute",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "water from a melted icicle",
+      "range": 90,
+      "range_text": "90 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": 20,
+      "shape_size_unit": null,
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "0258bad0ba528305b9f24b59cc44571601b95f5b9d1d6875a9aa9a7506ae3d96",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-frozen-razors",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "197ae54af072db7391e4ce30cfa928709b6cacfc7af714a547ccafacb8a4dd6f",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:frozen-razors",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "slashing"
+      ],
+      "desc": "Razor-sharp blades of ice erupt from the ground or other surface, filling a 20-foot cube centered on a point you can see within range. For the duration, the area is lightly obscured and is difficult terrain. A creature that moves more than 5 feet into or inside the area on a turn takes 2d6 slashing damage and 3d6 cold damage, or half as much damage if it makes a successful Dexterity saving throw. A creature that takes cold damage from frozen razors is reduced to half speed until the start of its next turn.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "water from a melted icicle",
+      "name": "Frozen Razors",
+      "range": 90,
+      "range_text": "90 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": 20,
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3342",
+          "parent": "deepm_frozen-razors",
+          "type": "default"
+        },
+        {
+          "external_id": "3344",
+          "parent": "deepm_frozen-razors",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "3345",
+          "parent": "deepm_frozen-razors",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "3346",
+          "parent": "deepm_frozen-razors",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3347",
+          "parent": "deepm_frozen-razors",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3348",
+          "parent": "deepm_frozen-razors",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3349",
+          "parent": "deepm_frozen-razors",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Frozen Razors",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "Razor-sharp blades of ice erupt from the ground or other surface, filling a 20-foot cube centered on a point you can see within range. For the duration, the area is lightly obscured and is difficult terrain. A creature that moves more than 5 feet into or inside the area on a turn takes 2d6 slashing damage and 3d6 cold damage, or half as much damage if it makes a successful Dexterity saving throw. A creature that takes cold damage from frozen razors is reduced to half speed until the start of its next turn.",
+      "name": "Frozen Razors",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Острые, как бритва, клинки льда извергаются из земли или другой поверхности, заполняя куб 20 футов, центрированный на точке, которую вы можете видеть в пределах дистанции. На длительность область слегка затемнена и является труднопроходимой местностью. Существо, которое перемещается более чем на 5 футов в область или внутри области в ход, получает 2к6 режущего урона и 3к6 урона холодом, или половину урона, если оно совершает успешный спасбросок Ловкости. Существо, которое получает урон холодом от замороженных бритв, уменьшено до половины скорости до начала его следующего хода.",
+      "glossary_version": "v1",
+      "name": "Замороженные бритвы",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

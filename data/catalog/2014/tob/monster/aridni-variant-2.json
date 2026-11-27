@@ -1,0 +1,136 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "aridni",
+  "id": "o5e:tob:monster:aridni-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:aridni"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "6197273e365b4080514e4001ca3858f9ecf2d6848720d3f16c610a427c80cf8b",
+    "formulas": [
+      {
+        "expression": "15d6+30",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral evil",
+      "armor_class": 15,
+      "challenge_rating": "5",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "15d6+30",
+      "hit_points": 82,
+      "languages": "Common, Gnoll, Sylvan, Void Speech",
+      "size": "Small"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "6197273e365b4080514e4001ca3858f9ecf2d6848720d3f16c610a427c80cf8b",
+        "edition": "2014",
+        "id": "o5e:tob:monster:aridni",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Shortsword\", \"desc\": \"Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) piercing damage.\", \"attack_bonus\": 8, \"damage_dice\": \"1d6\"}, {\"name\": \"Pixie Bow\", \"desc\": \"Ranged Weapon Attack: +8 to hit, range 40/160 ft., one target. Hit: 7 (1d4 + 5) piercing damage.\", \"attack_bonus\": 8, \"damage_dice\": \"1d4\"}, {\"name\": \"Slaver Arrows\", \"desc\": \"An aridni can add a magical effect in addition to the normal damage done by its arrows. If so, the aridni chooses from the following effects:\\n\\nConfusion. The target must succeed on a DC 14 Wisdom saving throw or become confused (as the spell) for 2d4 - 1 rounds.\\n\\nFear. The target must succeed on a DC 14 Wisdom saving throw or become frightened for 2d4 rounds.\\n\\nHideous Laughter. The target must succeed on a DC 14 Wisdom saving throw or become incapacitated for 2d4 rounds. While incapacitated, the target is prone and laughing uncontrollably.\\n\\nSleep. The target must succeed on a DC 14 Wisdom saving throw or fall asleep for 2d4 minutes. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.\"}]",
+      "alignment": "neutral evil",
+      "armor_class": 15,
+      "bonus_actions_json": "null",
+      "challenge_rating": "5",
+      "charisma": 16,
+      "constitution": 14,
+      "cr": 5.0,
+      "desc": "_Both more rugged and more ruthless than normal pixies, the aridni are an especially greedy breed of fey bandits and kidnappers._  \n**Pale Archers.** These ashen-faced fey with gray moth wings fire green-glowing arrows with a sneer and a curse. Aridni prefer ranged combat whenever possible, and they are quite difficult to lure into melee. They sometimes accept a personal challenge o respond to accusations of cowardice.  \n**Caravan Raiders.** They’ve developed different magical abilities that aid them well when they raid caravans for captives to enslave and sell; charming foes into slavery is a favorite tactic.  \n**Wealth for Status.** They delight in taking plunder from humans and dwarves, not so much for its own sake but as a sign of their power over mortals, and their contempt for those who lack fey blood.",
+      "dexterity": 21,
+      "dexterity_save": 8,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "15d6+30",
+      "hit_points": 82,
+      "intelligence": 12,
+      "languages": "Common, Gnoll, Sylvan, Void Speech",
+      "legendary_actions_json": "null",
+      "name": "Aridni",
+      "page_no": 26,
+      "perception": 3,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 13",
+      "size": "Small",
+      "skills_json": "{\"acrobatics\": 11, \"perception\": 3, \"stealth\": 11}",
+      "special_abilities_json": "[{\"name\": \"Flyby\", \"desc\": \"The aridni doesn't provoke an opportunity attack when it flies out of an enemy's reach.\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The aridni has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"the aridni's innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells:\\n\\nat will: dancing lights, detect magic, invisibility\\n\\n3/day: charm person, faerie fire, mage armor\\n\\n1/day: spike growth\"}]",
+      "speed_json": "{\"walk\": 20, \"fly\": 60}",
+      "spells_json": "null",
+      "strength": 9,
+      "type": "Fey",
+      "wisdom": 11
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Aridni",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-aridni"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_Both more rugged and more ruthless than normal pixies, the aridni are an especially greedy breed of fey bandits and kidnappers._  \n**Pale Archers.** These ashen-faced fey with gray moth wings fire green-glowing arrows with a sneer and a curse. Aridni prefer ranged combat whenever possible, and they are quite difficult to lure into melee. They sometimes accept a personal challenge o respond to accusations of cowardice.  \n**Caravan Raiders.** They’ve developed different magical abilities that aid them well when they raid caravans for captives to enslave and sell; charming foes into slavery is a favorite tactic.  \n**Wealth for Status.** They delight in taking plunder from humans and dwarves, not so much for its own sake but as a sign of their power over mortals, and their contempt for those who lack fey blood.",
+      "name": "Aridni",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "И более прочные и более безжалостные, чем обычные феи, аридни — особенно жадная порода фей бандитов и похитителей.\n\n**Бледные лучники.** Эти пепельнолицые феи с крыльями серого мотылька стреляют зелёными светящимися стрелами со смехом и проклятием. Аридни предпочитают дальний бой, когда это возможно, и их достаточно трудно соблазнить в ближнем бое. Иногда они принимают личный вызов или отвечают на обвинения в трусости.\n\n**Рейдеры караванов.** Они разработали разные магические способности, которые помогают им хорошо, когда они грабят караванов для пленников, чтобы порабощать и продавать; очарование врагов в рабство — любимая тактика.\n\n**Богатство для статуса.** Они наслаждаются отбирать добычу у людей и дварфов, не столько ради её собственной ценности, но как признак их власти над смертными и их презрения к тем, кто не имеет фей крови.",
+      "glossary_version": "v1",
+      "name": "Аридни",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,169 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_imprisonment",
+  "id": "o5e:srd-2014:spell:srd-imprisonment",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-imprisonment",
+      "o5e:wotc-srd:spell:imprisonment"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "6b45b1ace06bb7025bdc12f62c35e55d6a7d12f8cc01485149abc64cc8294a1e",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "until dispelled",
+      "level": 9,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": "500.00",
+      "material_specified": "A vellum depiction or a carved statuette in the likeness of the target, and a special component that varies according to the version of the spell you choose, worth at least 500gp per Hit Die of the target.",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "6b45b1ace06bb7025bdc12f62c35e55d6a7d12f8cc01485149abc64cc8294a1e",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-imprisonment",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "cd5199d610920ac381237395a26f6d8e0100a07af9fcc01662702c151122d229",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:imprisonment",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_warlock",
+        "type": "classes",
+        "value": [
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "desc": "You create a magical restraint to hold a creature that you can see within range. The target must succeed on a wisdom saving throw or be bound by the spell; if it succeeds, it is immune to this spell if you cast it again. While affected by this spell, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Divination spells can't locate or perceive the target. When you cast the spell, you choose one of the following forms of imprisonment.\n\n**Burial.** The target is entombed far beneath the earth in a sphere of magical force that is just large enough to contain the target. Nothing can pass through the sphere, nor can any creature teleport or use planar travel to get into or out of it. The special component for this version of the spell is a small mithral orb.\n\n**Chaining.** Heavy chains, firmly rooted in the ground, hold the target in place. The target is restrained until the spell ends, and it can't move or be moved by any means until then. The special component for this version of the spell is a fine chain of precious metal.\n\n**Hedged Prison.** The spell transports the target into a tiny demiplane that is warded against teleportation and planar travel. The demiplane can be a labyrinth, a cage, a tower, or any similar confined structure or area of your choice. The special component for this version of the spell is a miniature representation of the prison made from jade.\n\n**Minimus Containment.** The target shrinks to a height of 1 inch and is imprisoned inside a gemstone or similar object. Light can pass through the gemstone normally (allowing the target to see out and other creatures to see in), but nothing else can pass through, even by means of teleportation or planar travel. The gemstone can't be cut or broken while the spell remains in effect. The special component for this version of the spell is a large, transparent gemstone, such as a corundum, diamond, or ruby.\n\n**Slumber.** The target falls asleep and can't be awoken. The special component for this version of the spell consists of rare soporific herbs.\n\n**Ending the Spell.** During the casting of the spell, in any of its versions, you can specify a condition that will cause the spell to end and release the target. The condition can be as specific or as elaborate as you choose, but the DM must agree that the condition is reasonable and has a likelihood of coming to pass. The conditions can be based on a creature's name, identity, or deity but otherwise must be based on observable actions or qualities and not based on intangibles such as level, class, or hit points. A dispel magic spell can end the spell only if it is cast as a 9th-level spell, targeting either the prison or the special component used to create it. You can use a particular special component to create only one prison at a time. If you cast the spell again using the same component, the target of the first casting is immediately freed from its binding.",
+      "document": "srd-2014",
+      "duration": "until dispelled",
+      "level": 9,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": "500.00",
+      "material_specified": "A vellum depiction or a carved statuette in the likeness of the target, and a special component that varies according to the version of the spell you choose, worth at least 500gp per Hit Die of the target.",
+      "name": "Imprisonment",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5661",
+          "parent": "srd_imprisonment",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Imprisonment",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You create a magical restraint to hold a creature that you can see within range. The target must succeed on a wisdom saving throw or be bound by the spell; if it succeeds, it is immune to this spell if you cast it again. While affected by this spell, the creature doesn't need to breathe, eat, or drink, and it doesn't age. Divination spells can't locate or perceive the target. When you cast the spell, you choose one of the following forms of imprisonment.\n\n**Burial.** The target is entombed far beneath the earth in a sphere of magical force that is just large enough to contain the target. Nothing can pass through the sphere, nor can any creature teleport or use planar travel to get into or out of it. The special component for this version of the spell is a small mithral orb.\n\n**Chaining.** Heavy chains, firmly rooted in the ground, hold the target in place. The target is restrained until the spell ends, and it can't move or be moved by any means until then. The special component for this version of the spell is a fine chain of precious metal.\n\n**Hedged Prison.** The spell transports the target into a tiny demiplane that is warded against teleportation and planar travel. The demiplane can be a labyrinth, a cage, a tower, or any similar confined structure or area of your choice. The special component for this version of the spell is a miniature representation of the prison made from jade.\n\n**Minimus Containment.** The target shrinks to a height of 1 inch and is imprisoned inside a gemstone or similar object. Light can pass through the gemstone normally (allowing the target to see out and other creatures to see in), but nothing else can pass through, even by means of teleportation or planar travel. The gemstone can't be cut or broken while the spell remains in effect. The special component for this version of the spell is a large, transparent gemstone, such as a corundum, diamond, or ruby.\n\n**Slumber.** The target falls asleep and can't be awoken. The special component for this version of the spell consists of rare soporific herbs.\n\n**Ending the Spell.** During the casting of the spell, in any of its versions, you can specify a condition that will cause the spell to end and release the target. The condition can be as specific or as elaborate as you choose, but the DM must agree that the condition is reasonable and has a likelihood of coming to pass. The conditions can be based on a creature's name, identity, or deity but otherwise must be based on observable actions or qualities and not based on intangibles such as level, class, or hit points. A dispel magic spell can end the spell only if it is cast as a 9th-level spell, targeting either the prison or the special component used to create it. You can use a particular special component to create only one prison at a time. If you cast the spell again using the same component, the target of the first casting is immediately freed from its binding.",
+      "name": "Imprisonment",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Ограждение 9-го уровня (Колдун, Волшебник)*\n\n**Время накладывания:** 1 минута\n\n**Дистанция:** 30 футов\n\n**Компоненты:** В, С, М (пергаментное изображение или вырезанная статуэтка, похожая на цель, и особый компонент, зависящий от версии заклинания, стоимостью не менее 500 зм за каждую Кость Хитов цели)\n\n**Длительность:** Пока не будет рассеяно\n\nВы создаёте магические оковы, чтобы удержать существо, которое видите в пределах дистанции. Цель должна преуспеть в спасброске Мудрости, иначе она будет связана заклинанием; при успехе она получает иммунитет к этому заклинанию, если вы сотворите его снова. Пока существо подвержено этому заклинанию, оно не нуждается в дыхании, еде или питье и не стареет. Заклинания школы Прорицания не могут обнаружить или воспринять цель.\n\nПри сотворении заклинания вы выбираете одну из следующих форм заточения.\n\n**_Погребение._** Цель погребена глубоко под землёй в сфере магической силы, которая достаточно велика, чтобы вместить цель. Ничто не может пройти сквозь сферу, и ни одно существо не может телепортироваться или использовать перемещение между планами, чтобы попасть внутрь или наружу.\n\nОсобый компонент для этой версии заклинания — маленькая мифриловая сфера.\n\n**_Заковывание в цепи._** Тяжёлые цепи, прочно вмурованные в землю, удерживают цель на месте. Цель опутана, пока заклинание не закончится, и не может перемещаться или быть перемещена какими-либо средствами до этого момента.\n\nОсобый компонент для этой версии заклинания — тонкая цепь из драгоценного металла.\n\n**_Огороженная тюрьма._** Заклинание переносит цель в крошечный полуплан, защищённый от телепортации и перемещения между планами. Полуплан может быть лабиринтом, клеткой, башней или любым подобным замкнутым строением или областью по вашему выбору.\n\nОсобый компонент для этой версии заклинания — миниатюрное представление тюрьмы, сделанное из нефрита.\n\n**_Минимальное заточение._** Цель уменьшается до высоты 1 дюйм и заточена внутри драгоценного камня или подобного предмета. Свет проходит сквозь камень как обычно (позволяя цели видеть наружу, а другим существам — видеть внутрь), но ничто другое не может пройти, даже с помощью телепортации или перемещения между планами. Камень нельзя огранить или разбить, пока действует заклинание.\n\nОсобый компонент для этой версии заклинания — большой, прозрачный драгоценный камень, такой как корунд, алмаз или рубин.\n\n**_Дрёма._** Цель засыпает и не может быть разбужена. Особый компонент для этой версии заклинания — редкие снотворные травы.\n\n**_Окончание заклинания._** Во время сотворения заклинания, в любой его версии, вы можете указать условие, при котором заклинание окончится и отпустит цель. Условие может быть сколь угодно конкретным или сложным, но Мастер должен согласиться, что условие разумно и имеет вероятность осуществления. Условия могут основываться на имени, личности или божестве существа, но в остальном должны основываться на наблюдаемых действиях или качествах, а не на неосязаемых характеристиках, таких как уровень, класс или хиты.\n\nЗаклинание *рассеивание магии* может окончить заклинание, только если оно сотворено как заклинание 9-го уровня, нацеленное либо на тюрьму, либо на особый компонент, использованный для её создания.\n\nВы можете использовать определённый особый компонент для создания только одной тюрьмы одновременно. Если вы сотворите заклинание снова, используя тот же компонент, цель первого сотворения немедленно освобождается от заточения.",
+      "glossary_version": "v1",
+      "name": "Заточение",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

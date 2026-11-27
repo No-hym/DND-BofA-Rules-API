@@ -1,0 +1,186 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_labyrinthine-howl",
+  "id": "o5e:deepm:spell:deepm-labyrinthine-howl",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-labyrinthine-howl",
+      "o5e:dmag:spell:labyrinthine-howl"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7eb1c422701cb3240b5dc1ef80d5eabb4448848439700669f9d8b0bd2a4e5433",
+    "formulas": [
+      {
+        "expression": "7d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "7d8",
+      "damage_types": [
+        "psychic"
+      ],
+      "duration": "1 round",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a dead mouse",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "illusion",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "7eb1c422701cb3240b5dc1ef80d5eabb4448848439700669f9d8b0bd2a4e5433",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-labyrinthine-howl",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "9b60c9f22562c069762927bec1d05df1329f4e8638f2b4033a69e22a2bceef67",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:labyrinthine-howl",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "7d8",
+      "damage_types": [
+        "psychic"
+      ],
+      "desc": "You let loose the howl of a ravenous beast, causing each enemy within range that can hear you to make a Wisdom saving throw. On a failed save, a creature believes it has been transported into a labyrinth and is under attack by savage beasts. An affected creature must choose either to face the beasts or to curl into a ball for protection. A creature that faces the beasts takes 7d8 psychic damage, and then the spell ends on it. A creature that curls into a ball falls prone and is stunned until the end of your next turn.\n",
+      "document": "deepm",
+      "duration": "1 round",
+      "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the damage increases by 2d8 for each slot level above 5th.",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a dead mouse",
+      "name": "Labyrinthine Howl",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "illusion",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3660",
+          "parent": "deepm_labyrinthine-howl",
+          "type": "default"
+        },
+        {
+          "damage_roll": "9d8",
+          "external_id": "3662",
+          "parent": "deepm_labyrinthine-howl",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "11d8",
+          "external_id": "3663",
+          "parent": "deepm_labyrinthine-howl",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "13d8",
+          "external_id": "3664",
+          "parent": "deepm_labyrinthine-howl",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "15d8",
+          "external_id": "3665",
+          "parent": "deepm_labyrinthine-howl",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Labyrinthine Howl",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You let loose the howl of a ravenous beast, causing each enemy within range that can hear you to make a Wisdom saving throw. On a failed save, a creature believes it has been transported into a labyrinth and is under attack by savage beasts. An affected creature must choose either to face the beasts or to curl into a ball for protection. A creature that faces the beasts takes 7d8 psychic damage, and then the spell ends on it. A creature that curls into a ball falls prone and is stunned until the end of your next turn.",
+      "name": "Labyrinthine Howl",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы издаёте вой прожорливого зверя, заставляя каждого врага в пределах дистанции, который может слышать вас, совершить спасбросок Мудрости. При проваленном спасброске существо верит, что оно было перенесено в лабиринт и атаковано дикими зверями. Поражённое существо должно выбрать либо противостоять зверям, либо свернуться в клубок для защиты. Существо, которое противостоит зверям, получает 7к8 психического урона, и затем заклинание заканчивается на нём. Существо, которое свернётся в клубок, падает ничком и ошеломлено до конца вашего следующего хода.",
+      "glossary_version": "v1",
+      "name": "Лабиринтный вой",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

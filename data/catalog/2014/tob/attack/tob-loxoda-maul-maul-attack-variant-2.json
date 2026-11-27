@@ -1,0 +1,135 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "tob_loxoda_maul_maul-attack",
+  "id": "o5e:tob:creatureactionattack:tob-loxoda-maul-maul-attack-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:creatureactionattack:srd-wereboar-maul-maul-attack",
+      "o5e:tob2:creatureactionattack:tob2-mead-archon-maul-maul-attack",
+      "o5e:tob:creatureactionattack:tob-loxoda-maul-maul-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "597e7d90195e9491737bf73f8023d6c987aec594864d801f60fba25648c2a5a8",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "WEAPON",
+      "damage_bonus": null,
+      "damage_die_count": 6,
+      "damage_die_type": "D6",
+      "damage_type": "bludgeoning",
+      "extra_damage_bonus": null,
+      "extra_damage_die_count": null,
+      "extra_damage_die_type": null,
+      "extra_damage_type": null,
+      "long_range": null,
+      "range": null,
+      "reach": 10,
+      "to_hit_mod": 7
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "597e7d90195e9491737bf73f8023d6c987aec594864d801f60fba25648c2a5a8",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-loxoda-maul-maul-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "b906abd7a92e73effd5ed7e5e123fdec8456a5ab176e73c943113b2883094279",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-wereboar-maul-maul-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "7835817a68947d5391cfb60d4bc5b78572adde025ec6c96c5a2101215f07d406",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-mead-archon-maul-maul-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "tob_loxoda_maul",
+        "type": "parent",
+        "value": "tob_loxoda_maul"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "WEAPON",
+      "damage_die_count": 6,
+      "damage_die_type": "D6",
+      "damage_type": "bludgeoning",
+      "name": "Maul attack",
+      "parent": "tob_loxoda_maul",
+      "reach": 10,
+      "target_creature_only": false,
+      "to_hit_mod": 7
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Maul attack",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creatureactionattack:a5e-mm-aklea-maul-maul-attack"
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Maul attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака оружием: +7 к попаданию. Зона: досягаемость 10 фт., одна цель. Попадание: 6к6 дробящего урона.",
+      "glossary_version": "derived-v1",
+      "name": "Кувалда",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

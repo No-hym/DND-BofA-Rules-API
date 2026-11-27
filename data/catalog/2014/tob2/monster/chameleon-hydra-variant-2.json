@@ -1,0 +1,136 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "chameleon-hydra",
+  "id": "o5e:tob2:monster:chameleon-hydra-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:chameleon-hydra"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5785ace9013fd9918320984e6621c749a05c74c64f500c5c169f55baa525e4c8",
+    "formulas": [
+      {
+        "expression": "16d12+80",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "challenge_rating": "10",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "16d12+80",
+      "hit_points": 184,
+      "languages": "—",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "5785ace9013fd9918320984e6621c749a05c74c64f500c5c169f55baa525e4c8",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:chameleon-hydra",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The chameleon hydra makes as many bite attacks as it has heads. It can use its Sticky Tongue or Reel in place of a bite attack.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) piercing damage.\", \"attack_bonus\": 9, \"damage_dice\": \"1d10+5\"}, {\"name\": \"Sticky Tongue\", \"desc\": \"Melee Weapon Attack: +9 to hit, reach 50 ft., one target. Hit: The target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the hydra can't use the same sticky tongue on another target.\"}, {\"name\": \"Reel\", \"desc\": \"The hydra pulls a creature grappled by it up to 25 feet straight toward it.\"}]",
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "10",
+      "charisma": 7,
+      "constitution": 20,
+      "cr": 10.0,
+      "desc": "A large chameleon pokes its head below the canopy. Soon, four other identical heads peek below the treetops. A massive body accompanies the heads, revealing they all belong to one creature. The creature’s odd feet and long, curled tail transport it from tree to tree with ease, and its sticky tongues allow it to slurp up prey on the forest floor as it passes._  \nThe chameleon hydra thrives in thick, wooded areas where it makes nests in the canopies of large trees. It feasts on prey both above and below the canopy, using its sticky tongues to snatch unsuspecting prey.  \n**Apex Ambush Predators.** Chameleon hydras have scales that react to light and allow the hydras to blend in with their surroundings. They are extremely patient, waiting until the most opportune time to strike from a safe vantage point. Chameleon hydras primarily eat birds and giant insects, but they are known to dine on unwary travelers if other prey is scarce.  \n**Curious and Colorful.** Study of juvenile chameleon hydras shows they have inquisitive minds and that they alternate their scales in colorful patterns when near others of their kind. Scholars believe they use these color changes as a rudimentary form of communication.",
+      "dexterity": 16,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "16d12+80",
+      "hit_points": 184,
+      "intelligence": 4,
+      "languages": "—",
+      "legendary_actions_json": "null",
+      "name": "Chameleon Hydra",
+      "page_no": 207,
+      "perception": 8,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 16",
+      "size": "Huge",
+      "skills_json": "{\"perception\": 8, \"stealth\": 11}",
+      "special_abilities_json": "[{\"name\": \"Multiple Heads\", \"desc\": \"The chameleon hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious. Whenever the chameleon hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the chameleon hydra dies. At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The hydra regains 10 hit points for each head regrown in this way.\"}, {\"name\": \"Superior Camouflage\", \"desc\": \"While the chameleon hydra remains motionless, it has advantage on Dexterity (Stealth) checks made to hide. In addition, the chameleon hydra can hide even while a creature can see it.\"}, {\"name\": \"Wakeful\", \"desc\": \"While the chameleon hydra sleeps, at least one of its heads is awake.\"}]",
+      "speed_json": "{\"climb\": 40, \"walk\": 20}",
+      "spells_json": "null",
+      "strength": 20,
+      "type": "Monstrosity",
+      "wisdom": 10
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Chameleon Hydra",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-chameleon-hydra"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "A large chameleon pokes its head below the canopy. Soon, four other identical heads peek below the treetops. A massive body accompanies the heads, revealing they all belong to one creature. The creature’s odd feet and long, curled tail transport it from tree to tree with ease, and its sticky tongues allow it to slurp up prey on the forest floor as it passes._  \nThe chameleon hydra thrives in thick, wooded areas where it makes nests in the canopies of large trees. It feasts on prey both above and below the canopy, using its sticky tongues to snatch unsuspecting prey.  \n**Apex Ambush Predators.** Chameleon hydras have scales that react to light and allow the hydras to blend in with their surroundings. They are extremely patient, waiting until the most opportune time to strike from a safe vantage point. Chameleon hydras primarily eat birds and giant insects, but they are known to dine on unwary travelers if other prey is scarce.  \n**Curious and Colorful.** Study of juvenile chameleon hydras shows they have inquisitive minds and that they alternate their scales in colorful patterns when near others of their kind. Scholars believe they use these color changes as a rudimentary form of communication.",
+      "name": "Chameleon Hydra",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крупный хамелеон высовывает голову под полог. Вскоре ещё четыре идентичные головы выглядывают из-под верхушек деревьев. Массивное тело сопровождает головы, показывая, что все они принадлежат одному существу. Странные ноги существа и длинный закрученный хвост с лёгкостью переносят его с дерева на дерево, а его липкие языки позволяют ему поглощать добычу на лесной подстилке, когда оно проходит мимо.\n\nГидра-хамелеон процветает в густых лесистых областях, где она делает гнёзда в пологах больших деревьев. Она питается добычей как над пологом, так и под ним, используя свои липкие языки, чтобы хватать ничего не подозревающую добычу.\n\n**Высшие хищники-засадники.** У гидр-хамелеонов чешуя, которая реагирует на свет и позволяет гидрам сливаться с окружением. Они чрезвычайно терпеливы, ожидая наиболее подходящего времени, чтобы ударить с безопасной выгодной позиции. Гидры-хамелеоны в основном едят птиц и гигантских насекомых, но известно, что они обедают беспечными путешественниками, если другой добычи мало.\n\n**Любопытные и красочные.** Изучение молодых гидр-хамелеонов показывает, что у них любознательный ум и что они чередуют свою чешую красочными узорами, когда рядом другие подобные существа. Учёные полагают, что они используют эти изменения цвета как рудиментарную форму общения.",
+      "glossary_version": "v1",
+      "name": "Гидра-хамелеон",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}
