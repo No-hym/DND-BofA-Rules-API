@@ -9,7 +9,7 @@
 - `scripts/sync_sources.py`, `scripts/ingest/*`: source-agnostic ETL (fetch → normalize → translate → dedupe → validate → publish). Не является частью API-процесса.
 - `data/original/`: непреобразованные snapshot-ы источников (Git-игнорируются); контрольные суммы и commit SHA — в манифесте релиза.
 - `data/normalized/`, `data/translated/`: раздельные gzip JSONL-слои нормализованных EN-записей и RU-переводов с атрибуцией.
-- `data/catalog/<edition>/<category>/<card>.json`: проверенный двуязычный каталог, единственный вход для Go-импортера. Каждая запись — отдельная карточка: один JSON-файл на запись (например, одно оружие — `data/catalog/2024/weapon/srd-2024-longsword.json`); имя файла — слаг из `id` после последнего `:`. Загрузчики читают и карточки, и легаси-массивы.
+- `data/catalog/<edition>/<book>/<category>/<card>.json`: проверенный двуязычный каталог, единственный вход для Go-импортера. На каждый свод правил — своя папка: редакция (2014/2024), внутри — отдельная папка на каждую книгу и дополнение (`book_id`), внутри — категории, а каждая запись — отдельная карточка (например, одно оружие — `data/catalog/2024/srd-2024/weapon/srd-2024-longsword.json`); имя файла — слаг из `id` после последнего `:`. Загрузчики читают карточки на любой глубине и легаси-массивы.
 - `data/releases/`: версия, статистика, дубликаты, причины пропусков, legacy aliases, `catalog-meta.json`.
 - `cmd/rules-api` / `internal/api`: HTTP-сервер, Chi-роуты, read-only REST поверх PostgreSQL. `/api/v1/catalog` и `/api/v1/sources` отдают встроенный манифест без БД и без сети.
 - `cmd/rules`: validate/import/export/stats/book/translate; транзакционный upsert, fingerprint, переключение книг.

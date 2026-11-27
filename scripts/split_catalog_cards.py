@@ -1,25 +1,27 @@
 #!/usr/bin/env python3
-"""Split legacy aggregated catalog files into one JSON file ("card") per record.
+"""Migrate a catalog to one JSON file ("card") per record, grouped by book.
 
 Before:  data/catalog/2024/weapon.json            (one array, many records)
-After:   data/catalog/2024/weapon/<record>.json   (one record object per file)
+         data/catalog/2024/weapon/<record>.json   (flat cards)
+After:   data/catalog/2024/srd-2024/weapon/<record>.json
 
-The catalog build (scripts/ingest/pipeline.py) already writes cards; this
+i.e. ``data/catalog/<edition>/<book>/<category>/<record>.json`` — a separate
+folder for every edition, every book or supplement, and every category. The
+catalog build (scripts/ingest/pipeline.py) already writes this layout; this
 utility only migrates catalogs produced by older tooling. It is idempotent:
-running it on an already split catalog is a no-op.
+running it on an already migrated catalog rewrites the same files.
 
     python3 scripts/split_catalog_cards.py [--dir data/catalog] [--dry-run]
 """
 from __future__ import annotations
 
 import argparse
-import json
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from scripts.ingest.cards import write_cards  # noqa: E402
+from scripts.ingest.cards import read_records, write_catalog_cards  # noqa: E402
 
 
 def main() -> int:
@@ -31,19 +33,16 @@ def main() -> int:
         print(f"catalog directory not found: {args.dir}", file=sys.stderr)
         return 1
     total = 0
-    for path in sorted(args.dir.rglob("*.json")):
-        if path.name.endswith(".schema.json"):
+    for edition_dir in sorted(path for path in args.dir.iterdir() if path.is_dir()):
+        records = read_records(edition_dir)
+        if not records:
             continue
-        data = json.loads(path.read_text(encoding="utf-8"))
-        if not isinstance(data, list):
-            continue
-        if args.dry_run:
-            print(f"{path} -> {path.with_suffix('')}/ ({len(data)} cards)")
-            total += len(data)
-        else:
-            total += write_cards(path.with_suffix(""), data)
-            print(f"{path} -> {path.with_suffix('')}/ ({len(data)} cards)")
-    print(f"{'would split' if args.dry_run else 'split'} {total} records into individual card files")
+        books = sorted({str(record["book_id"]) for record in records})
+        print(f"{edition_dir}: {len(records)} records in {len(books)} book folders")
+        total += len(records)
+        if not args.dry_run:
+            write_catalog_cards(edition_dir, records)
+    print(f"{'would migrate' if args.dry_run else 'migrated'} {total} records into book/category card folders")
     return 0
 
 

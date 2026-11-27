@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.ingest.cards import read_records, write_cards
+from scripts.ingest.cards import read_records, write_cards, write_catalog_cards
 from scripts.ingest.dedupe import deduplicate
 from scripts.ingest.derived import apply_derived
 from scripts.ingest.model import Entity, Translation
@@ -55,6 +55,26 @@ class CardLayoutTests(unittest.TestCase):
             aggregated = root / "legacy.json"
             aggregated.write_text(json.dumps(records), encoding="utf-8")
             self.assertEqual(len(read_records(aggregated)), 2)
+
+    def test_catalog_cards_group_by_book_and_category(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            edition_dir = Path(tmp) / "catalog" / "2024"
+            # A stale flat card from the previous layout must be pruned.
+            stale = edition_dir / "weapon" / "old-card.json"
+            stale.parent.mkdir(parents=True)
+            stale.write_text("{}", encoding="utf-8")
+            records = [
+                {"id": "srd-2024:weapon:longsword", "book_id": "srd-2024", "category": "weapon"},
+                {"id": "srd-2024:spell:fireball", "book_id": "srd-2024", "category": "spell"},
+                {"id": "toh:spell:some-spell", "book_id": "toh", "category": "spell"},
+            ]
+            self.assertEqual(write_catalog_cards(edition_dir, records), 3)
+            self.assertTrue((edition_dir / "srd-2024" / "weapon" / "longsword.json").exists())
+            self.assertTrue((edition_dir / "srd-2024" / "spell" / "fireball.json").exists())
+            self.assertTrue((edition_dir / "toh" / "spell" / "some-spell.json").exists())
+            self.assertFalse(stale.exists())
+            self.assertFalse((edition_dir / "weapon").exists())
+            self.assertEqual(len(read_records(edition_dir)), 3)
 
 
 class Open5eAdapterTests(unittest.TestCase):
