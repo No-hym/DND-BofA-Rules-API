@@ -1,0 +1,180 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_tunnel-watcher",
+  "id": "o5e:toh:characterclass:toh-tunnel-watcher",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-tunnel-watcher"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "1c2a2cc36ff8a742a78ea7243d604910dd25ac30e7e8c7b249ac8fd8ac46e98f",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_fighter"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "1c2a2cc36ff8a742a78ea7243d604910dd25ac30e7e8c7b249ac8fd8ac46e98f",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-tunnel-watcher",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_fighter",
+        "type": "subclass_of",
+        "value": "srd_fighter"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "For untold ages, the dwarves have paid in blood to keep their subterranean homes safe. The keystone to the defense of the dwarven citadels are the tunnel watchers, warriors trained in the tight, uneven paths beneath the surface of the world. While the techniques of the tunnel watchers originated with the dwarves, others see the value in such specialization. Tunnel watchers can thus be found throughout the mountainous regions of the world.",
+      "document": "toh",
+      "name": "Tunnel Watcher",
+      "subclass_of": "srd_fighter"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "At 3rd level, you gain proficiency with thieves' tools and mason's tools.",
+          "desc_ru": "Когда вы присоединяетесь к Коллегии знаний на 3-м уровне, вы получаете владение тремя навыками по вашему выбору.",
+          "document": "toh",
+          "external_id": "toh_tunnel-watcher_bonus-proficiencies",
+          "level": 3,
+          "name": "Bonus Proficiencies",
+          "name_ru": "Дополнительные владения",
+          "parent": "toh_tunnel-watcher",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "At 3rd level, when you take damage from a melee attack, you can use your reaction to move 5 feet away from the attacker, reducing the damage you take from the attack by 1d6 + the number of hostile creatures within 5 feet of the space you left. This movement doesn't provoke opportunity attacks.\n  The attacker can immediately move into the space you left. This movement doesn't cost the attacker's reaction and doesn't provoke opportunity attacks, but a creature can move this way only once each turn.",
+          "desc_ru": "На 3-м уровне, когда вы получаете урон от атаки ближнего боя, вы можете реакцией переместиться на 5 футов от атакующего, уменьшая урон, который вы получаете от атаки, на 1к6 + количество враждебных существ в пределах 5 футов от пространства, которое вы покинули. Это перемещение не провоцирует внеочередные атаки.\nАтакующий может немедленно переместиться в пространство, которое вы покинули. Это перемещение не стоит атакующему реакции и не провоцирует внеочередные атаки, но существо может перемещаться этим способом только один раз каждый ход.",
+          "document": "toh",
+          "external_id": "toh_tunnel-watcher_fight-for-every-step",
+          "level": 3,
+          "name": "Fight for Every Step",
+          "name_ru": "Сражаться за каждый шаг",
+          "parent": "toh_tunnel-watcher",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 3rd level, a creature that you hit with a melee weapon attack has its speed reduced by 5 feet and can't use the Disengage action until the start of your next turn. You can't reduce a creature's speed by more than 10 feet with this feature.\n  In addition, when you hit a creature with an opportunity attack, you deal an extra 1d8 damage of the weapon's type.",
+          "desc_ru": "Начиная с 3-го уровня существо, по которому вы попадаете атакой оружием ближнего боя, имеет его скорость уменьшенной на 5 футов и не может использовать действие Отход до начала вашего следующего хода. Вы не можете уменьшить скорость существа более чем на 10 футов этой особенностью.\nКроме того, когда вы попадаете по существу внеочередной атакой, вы наносите дополнительные 1к8 урона типа оружия.",
+          "document": "toh",
+          "external_id": "toh_tunnel-watcher_first-line-of-defense",
+          "level": 3,
+          "name": "First Line of Defense",
+          "name_ru": "Первая линия обороны",
+          "parent": "toh_tunnel-watcher",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 7th level, you have advantage on saving throws against traps, natural hazards, and lair actions. Traps, natural hazards, and lair actions have disadvantage when they make attack rolls against you.",
+          "desc_ru": "Начиная с 7-го уровня вы совершаете с преимуществом спасброски против ловушек, природных опасностей и действий логова. Ловушки, природные опасности и действия логова совершают с помехой броски атаки против вас.",
+          "document": "toh",
+          "external_id": "toh_tunnel-watcher_safe-passage",
+          "level": 7,
+          "name": "Safe Passage",
+          "name_ru": "Безопасный проход",
+          "parent": "toh_tunnel-watcher",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 10th level, you have advantage on saving throws against effects that cause the frightened condition and effects that would move you against your will, including teleportation effects. When a hostile creature forces you to make a Strength saving throw and you succeed, you deal an extra 1d8 damage of the weapon's type the next time you hit with a weapon attack before the end of your next turn.",
+          "desc_ru": "На 10-м уровне вы совершаете с преимуществом спасброски против эффектов, которые вызывают состояние напуганности и эффектов, которые переместили бы вас против вашей воли, включая эффекты телепортации. Когда враждебное существо заставляет вас совершить спасбросок Силы и вы успешно проходите его, вы наносите дополнительные 1к8 урона типа оружия в следующий раз, когда вы попадаете атакой оружием до конца вашего следующего хода.",
+          "document": "toh",
+          "external_id": "toh_tunnel-watcher_steadfast",
+          "level": 10,
+          "name": "Steadfast",
+          "name_ru": "Стойкий",
+          "parent": "toh_tunnel-watcher",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 15th level, once on each of your turns when you use the Attack action, you can replace one of your attacks with a strike against a wall or ceiling within your weapon's reach or range. Creatures other than you within 5 feet of the section of wall or the floor below the ceiling where you strike must make a Dexterity saving throw against a DC equal to 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).\n  A creature that fails this saving throw takes 2d10 bludgeoning damage and is restrained until the end of its next turn. A creature that succeeds on the saving throw takes half the damage and isn't restrained. While restrained in this way, a creature has three-quarters cover against creatures other than you. When the effect ends, the creature's space becomes difficult terrain.",
+          "desc_ru": "Начиная с 15-го уровня, один раз в каждый ваш ход, когда вы выполняете действие Атака, вы можете заменить одну из ваших атак ударом по стене или потолку в пределах досягаемости или дистанции вашего оружия. Существа, кроме вас, в пределах 5 футов от участка стены или пола под потолком, где вы ударяете, должны совершить спасбросок Ловкости против Сл, равной 8 + ваш бонус мастерства + ваш модификатор Силы или Ловкости (на ваш выбор).\nСущество, которое проваливает этот спасбросок, получает 2к10 дробящего урона и сдерживается до конца его следующего хода. Существо, которое успешно проходит спасбросок, получает половину урона и не сдерживается. Пока сдерживается этим способом, существо имеет три четверти укрытия против существ, кроме вас. Когда эффект заканчивается, пространство существа становится труднопроходимой местностью.",
+          "document": "toh",
+          "external_id": "toh_tunnel-watcher_cave-in",
+          "level": 15,
+          "name": "Cave-In",
+          "name_ru": "Обвал",
+          "parent": "toh_tunnel-watcher",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Beginning at 18th level, when you use the Attack action and hit more than one creature with a weapon on your turn, you can use a bonus action to gain resistance to bludgeoning, piercing, and slashing damage until the start of your next turn. When you shove more than one creature on your turn, you can use a bonus action to shove one creature within 5 feet of a creature you successfully shoved.",
+          "desc_ru": "Начиная с 18-го уровня, когда вы выполняете действие Атака и попадаете по более чем одному существу оружием в ваш ход, вы можете бонусным действием получить сопротивление дробящему, колющему и рубящему урону до начала вашего следующего хода. Когда вы толкаете более одного существа в ваш ход, вы можете бонусным действием толкнуть одно существо в пределах 5 футов от существа, которое вы успешно толкнули.",
+          "document": "toh",
+          "external_id": "toh_tunnel-watcher_against-the-tide",
+          "level": 18,
+          "name": "Against the Tide",
+          "name_ru": "Против течения",
+          "parent": "toh_tunnel-watcher",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Tunnel Watcher",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "For untold ages, the dwarves have paid in blood to keep their subterranean homes safe. The keystone to the defense of the dwarven citadels are the tunnel watchers, warriors trained in the tight, uneven paths beneath the surface of the world. While the techniques of the tunnel watchers originated with the dwarves, others see the value in such specialization. Tunnel watchers can thus be found throughout the mountainous regions of the world.",
+      "name": "Tunnel Watcher",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "На протяжении неисчислимых веков гномы платили кровью, чтобы сохранить свои подземные дома в безопасности. Краеугольным камнем обороны гномьих цитаделей являются туннельные стражи, воины, обученные в тесных, неровных путях под поверхностью мира. Хотя техники туннельных стражей возникли у гномов, другие видят ценность в такой специализации. Таким образом, туннельных стражей можно найти по всем горным регионам мира.",
+      "glossary_version": "v1",
+      "name": "Туннельный страж",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

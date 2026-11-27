@@ -1,0 +1,169 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_death-gods-touch",
+  "id": "o5e:deepm:spell:deepm-death-gods-touch",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-death-gods-touch",
+      "o5e:dmag:spell:death-gods-touch"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7ae5a9bd571a13e8339d08c9a8c7be88f8e002095c287a18e4af371e4fc5c7cc",
+    "formulas": [
+      {
+        "expression": "10d10",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "10d10",
+      "damage_types": [
+        "necrotic"
+      ],
+      "duration": "instantaneous",
+      "level": 7,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "7ae5a9bd571a13e8339d08c9a8c7be88f8e002095c287a18e4af371e4fc5c7cc",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-death-gods-touch",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "a4b6a4c59d13cb507c58da58434dfddf323e2a08ff7d930ce3ad2a02de6f5309",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:death-gods-touch",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "10d10",
+      "damage_types": [
+        "necrotic"
+      ],
+      "desc": "This spell allows you to shred the life force of a creature you touch. You become invisible and make a melee spell attack against the target. On a hit, the target takes 10d10 necrotic damage. If this damage reduces the target to 0 hit points, the target dies. Whether the attack hits or misses, you remain invisible until the start of your next turn.\n",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 8th level or higher, the damage increases by 2d10 for each slot level above 7th.",
+      "level": 7,
+      "material": false,
+      "material_consumed": false,
+      "name": "Death God’s Touch",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2986",
+          "parent": "deepm_death-gods-touch",
+          "type": "default"
+        },
+        {
+          "external_id": "2988",
+          "parent": "deepm_death-gods-touch",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2989",
+          "parent": "deepm_death-gods-touch",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Death God’s Touch",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "This spell allows you to shred the life force of a creature you touch. You become invisible and make a melee spell attack against the target. On a hit, the target takes 10d10 necrotic damage. If this damage reduces the target to 0 hit points, the target dies. Whether the attack hits or misses, you remain invisible until the start of your next turn.",
+      "name": "Death God’s Touch",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Это заклинание позволяет вам измельчить жизненную силу существа, которого вы касаетесь. Вы становитесь невидимым и совершаете рукопашную атаку заклинанием против цели. При попадании цель получает 10к10 некротического урона. Если этот урон уменьшает цель до 0 хитов, цель умирает. Попадает атака или промахивается, вы остаётесь невидимым до начала вашего следующего хода.",
+      "glossary_version": "v1",
+      "name": "Касание бога смерти",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

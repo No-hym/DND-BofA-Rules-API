@@ -1,0 +1,246 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob_drakon",
+  "id": "o5e:tob:creature:tob-drakon",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creature:tob-2023-drakon",
+      "o5e:tob:creature:tob-drakon"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e1bcf146eb1b222da9173c39e00843e929a552010adc18e6b9cbfc61f1bed3e2",
+    "formulas": [
+      {
+        "expression": "14d10+28",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 10,
+      "ability_score_constitution": 15,
+      "ability_score_dexterity": 19,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 14,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 16,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "5.000",
+      "climb": null,
+      "condition_immunities": [
+        "paralyzed"
+      ],
+      "damage_immunities": [],
+      "damage_resistances": [
+        "acid"
+      ],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": 60,
+      "hit_dice": "14d10+28",
+      "hit_points": 105,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": 10560,
+      "passive_perception": 14,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": 40,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "e1bcf146eb1b222da9173c39e00843e929a552010adc18e6b9cbfc61f1bed3e2",
+        "edition": "2014",
+        "id": "o5e:tob:creature:tob-drakon",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "e544c8c26cef35180928a02a5f988ae096b71ec37cd6e70ef5e6c40c2d7b0570",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creature:tob-2023-drakon",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 10,
+      "ability_score_constitution": 15,
+      "ability_score_dexterity": 19,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 14,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 16,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "5.000",
+      "condition_immunities": [
+        "paralyzed"
+      ],
+      "condition_immunities_display": "paralyzed",
+      "damage_resistances": [
+        "acid"
+      ],
+      "damage_resistances_display": "acid",
+      "darkvision_range": 60,
+      "document": "tob",
+      "fly": 60,
+      "hit_dice": "14d10+28",
+      "hit_points": 105,
+      "hover": false,
+      "languages_desc": "-",
+      "name": "Drakon",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 14,
+      "size": "large",
+      "skill_bonus_perception": 4,
+      "skill_bonus_stealth": 7,
+      "swim": 40,
+      "type": "beast",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "The drakon exhales acidic vapors in a 15-foot cone. Each creature in that area takes 28 (8d6) acid damage, or half damage with a successful DC 13 Constitution saving throw.",
+          "desc_ru": "Действие «Кислотный Бреат»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_drakon_acid-breath",
+          "name": "Acid Breath",
+          "name_ru": "Кислотный Бреат",
+          "order_in_statblock": 3,
+          "parent": "tob_drakon",
+          "ru_source": "derived",
+          "uses_param": 5,
+          "uses_type": "RECHARGE_ON_ROLL"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 10 (4d4) acid damage.",
+          "desc_ru": "Атака оружием ближнего боя: +7 к попаданию, досягаемость 5 фт., одна цель. Попадание: 11 (2к6+4) колющего урона плюс 10 (4к4) кислотного урона.",
+          "external_id": "tob_drakon_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "tob_drakon",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The drakon makes one bite attack and one tail attack.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_drakon_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob_drakon",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage.",
+          "desc_ru": "Атака оружием ближнего боя: +7 к попаданию, досягаемость 10 фт., одна цель. Попадание: 8 (1к8+4) дробящего урона.",
+          "external_id": "tob_drakon_tail",
+          "name": "Tail",
+          "name_ru": "Хвост",
+          "order_in_statblock": 2,
+          "parent": "tob_drakon",
+          "ru_source": "template"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "When a creature that can see the drakon's eyes starts its turn within 30 feet of the drakon, the drakon can force it to make a DC 13 Constitution saving throw if the drakon isn't incapacitated and can see the creature. On a failed saving throw, the creature takes 3 (1d6) acid damage, its hit point maximum is reduced by an amount equal to the acid damage it takes (which ends after a long rest), and it's paralyzed until the start of its next turn. Unless surprised, a creature can avert its eyes at the start of its turn to avoid the saving throw. If the creature does so, it can't see the drakon until the start of its next turn, when it chooses again whether to avert its eyes. If the creature looks at the drakon before then, it must immediately make the saving throw.",
+          "desc_ru": "Особенность «Диссолвинг Газе». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_drakon_dissolving-gaze",
+          "name": "Dissolving Gaze",
+          "name_ru": "Диссолвинг Газе",
+          "parent": "tob_drakon",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Drakon",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Drakon",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Эти крылатые змеи — прибрежные звери и иногда путаются с истинными драконами или вивернами. Они не являются ни теми, ни другими, но довольно смертоносные сами по себе.\n\n**Жгучая кислота.** Клыки дракона не доставляют яд; летучая кислота постоянно булькает из желудка дракона и улучшает его атаки. Едкая слюна цепляется за существ, которых они кусают, и драконы также могут отрыгивать облака жгучего пара. Их логова воняют кислотными парами и каплями жгучей жидкости.\n\n**Растворяющий взгляд.** Взгляд дракона может парализовать существа и растворять их.\n\n**Прибрежные звери.** Драконы собираются в логовах вдоль тёплых, в значительной степени необитаемых побережий, где они исследуют берега и прибрежный шельф, проводя столько же времени над волнами, сколько под ними. К счастью, они редко путешествуют далеко вглубь.",
+      "glossary_version": "v1",
+      "name": "Дракон",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

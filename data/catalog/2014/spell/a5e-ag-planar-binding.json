@@ -1,0 +1,173 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_planar-binding",
+  "id": "o5e:a5e-ag:spell:a5e-ag-planar-binding",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-planar-binding",
+      "o5e:a5e:spell:planar-binding-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "8ba84de8712a1aa32e78e41314b8231f7dcb925c65ab6430e7bdf9ec5dac8a44",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1hour",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "24 hours",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "8ba84de8712a1aa32e78e41314b8231f7dcb925c65ab6430e7bdf9ec5dac8a44",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-planar-binding",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "55482ee54eff899ed30f071c5bd94ed932abad0f26c312bd9f09483711599de2",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:planar-binding-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1hour",
+      "concentration": false,
+      "desc": "The target must remain within range for the entire casting of the spell (usually by means of a magic circle spell). Until the spell ends, you force the target to serve you. If the target was summoned through some other means, like a spell, the duration of the original spell is extended to match this spell's duration.\n\nOnce it is bound to you the target serves as best it can and follows your orders, but only to the letter of the instruction. A hostile or malevolent target actively seeks to take any advantage of errant phrasing to suit its nature. When a target completes a task you've assigned to it, if you are on the same plane of existence the target travels back to you to report it has done so. Otherwise, it returns to where it was bound and remains there until the spell ends.",
+      "document": "a5e-ag",
+      "duration": "24 hours",
+      "higher_level": "When using a 6th-level spell slot, its duration increases to 10 days. When using a 7th-level spell slot, its duration increases to 30 days. When using an 8th-level spell slot, its duration increases to 180 days. When using a 9th-level spell slot, its duration increases to a year and a day.",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "name": "Planar Binding",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "1728",
+          "parent": "a5e-ag_planar-binding",
+          "type": "default"
+        },
+        {
+          "duration": "10 days",
+          "external_id": "1730",
+          "parent": "a5e-ag_planar-binding",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "30 days",
+          "external_id": "1731",
+          "parent": "a5e-ag_planar-binding",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "180 days",
+          "external_id": "1732",
+          "parent": "a5e-ag_planar-binding",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "A year and a day",
+          "external_id": "1733",
+          "parent": "a5e-ag_planar-binding",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Planar Binding",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "The target must remain within range for the entire casting of the spell (usually by means of a magic circle spell). Until the spell ends, you force the target to serve you. If the target was summoned through some other means, like a spell, the duration of the original spell is extended to match this spell's duration.\n\nOnce it is bound to you the target serves as best it can and follows your orders, but only to the letter of the instruction. A hostile or malevolent target actively seeks to take any advantage of errant phrasing to suit its nature. When a target completes a task you've assigned to it, if you are on the same plane of existence the target travels back to you to report it has done so. Otherwise, it returns to where it was bound and remains there until the spell ends.",
+      "name": "Planar Binding",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Ограждение 5-го уровня (Бард, Жрец, Друид, Волшебник)*\n\n**Время накладывания:** 1 час\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В, С, М (драгоценный камень стоимостью не менее 1 000 зм, расходуемый заклинанием)\n\n**Длительность:** 24 часов\n\nЭтим заклинанием вы пытаетесь привязать небожителя, элементаля, фею или исчадие к своей службе. Существо должно находиться в пределах дистанции на протяжении всего сотворения заклинания. (Обычно существо сначала призывается в центр перевёрнутого *магического круга*, чтобы удерживать его в ловушке, пока сотворяется это заклинание.) По завершении сотворения цель должна совершить спасбросок Харизмы. При провале она привязана служить вам на время действия заклинания. Если существо было призвано или создано другим заклинанием, длительность того заклинания продлевается, чтобы соответствовать длительности этого заклинания.\n\nПривязанное существо должно следовать вашим указаниям по мере своих способностей. Вы можете приказать существу сопровождать вас в приключении, охранять место или доставить послание. Существо подчиняется букве ваших указаний, но если оно враждебно к вам, оно стремится извратить ваши слова, чтобы достичь собственных целей. Если существо полностью выполняет ваши указания до окончания заклинания, оно отправляется к вам, чтобы сообщить об этом, если вы находитесь на одном плане существования. Если вы на другом плане существования, оно возвращается в место, где вы его привязали, и остаётся там до окончания заклинания.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания более высокого уровня, длительность увеличивается до 10 дней с ячейкой 6-го уровня, до 30 дней с ячейкой 7-го уровня, до 180 дней с ячейкой 8-го уровня и до года и одного дня с ячейкой 9-го уровня.",
+      "glossary_version": "v1",
+      "name": "Планарные узы",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

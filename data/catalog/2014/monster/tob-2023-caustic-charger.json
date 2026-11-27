@@ -1,0 +1,234 @@
+{
+  "attribution": "Title: Tome of Beasts 1 (2023 Edition); Author: Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob-2023",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob-2023_caustic-charger",
+  "id": "o5e:tob-2023:creature:tob-2023-caustic-charger",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creature:tob-2023-caustic-charger"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "898c563906b411fa4e5633430c1a12fa8c5b0ecf64b7cf0ad194ae6f18e807b7",
+    "formulas": [
+      {
+        "expression": "14d12 + 42",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 11,
+      "ability_score_intelligence": 4,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 10,
+      "alignment": "Unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": 30,
+      "category": "Monsters",
+      "challenge_rating": "7.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [
+        "acid"
+      ],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "14d12 + 42",
+      "hit_points": 133,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "huge",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 10
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob-2023",
+        "content_hash": "898c563906b411fa4e5633430c1a12fa8c5b0ecf64b7cf0ad194ae6f18e807b7",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creature:tob-2023-caustic-charger",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 11,
+      "ability_score_intelligence": 4,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 10,
+      "alignment": "Unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "burrow": 30,
+      "category": "Monsters",
+      "challenge_rating": "7.000",
+      "damage_immunities": [
+        "acid"
+      ],
+      "damage_immunities_display": "acid",
+      "darkvision_range": 60,
+      "document": "tob-2023",
+      "hit_dice": "14d12 + 42",
+      "hit_points": 133,
+      "hover": false,
+      "name": "Caustic Charger",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "size": "huge",
+      "type": "monstrosity",
+      "walk": 10,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur",
+      "key": "tob-2023",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition-hardcover/",
+      "publication_date": "2024-03-22T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 1 (2023 Edition)"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "The caustic charger makes two Ram attacks. It can replace one Ram attack with a Tentacles attack.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob-2023_caustic-charger_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob-2023_caustic-charger",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 22 (4d8 + 4) bludgeoning damage, and if the target is a Large or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone. If the charger moved at least 10 feet straight toward the target immediately before the hit, the target has disadvantage on the saving throw.",
+          "desc_ru": "Действие «Рам»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob-2023_caustic-charger_ram",
+          "name": "Ram",
+          "name_ru": "Рам",
+          "order_in_statblock": 1,
+          "parent": "tob-2023_caustic-charger",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "The caustic charger feeds on a creature paralyzed by its Tentacles attack. The target must succeed on a DC 15 Constitution saving throw or its hp maximum is reduced by half the amount of acid damage dealt by the Tentacles attack that caused the paralysis, and the charger regains hp equal to that amount. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hp maximum to 0.",
+          "desc_ru": "Действие «Слурп»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob-2023_caustic-charger_slurp",
+          "name": "Slurp",
+          "name_ru": "Слурп",
+          "order_in_statblock": 0,
+          "parent": "tob-2023_caustic-charger",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage plus 14 (4d6) acid damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be paralyzed for 1 minute. The paralyzed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the caustic charger attacks a target that is not in the charger's space, the target takes half the acid damage and has advantage on the saving throw.",
+          "desc_ru": "Действие «Тентаклес»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob-2023_caustic-charger_tentacles",
+          "name": "Tentacles",
+          "name_ru": "Тентаклес",
+          "order_in_statblock": 2,
+          "parent": "tob-2023_caustic-charger",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The caustic charger can end its move in the space of a prone Large or smaller creature. A creature standing up from prone in the same space as the charger can move to a space within 5 feet of the charger as part of standing up.",
+          "desc_ru": "Особенность «Страддлер». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob-2023_caustic-charger_straddler",
+          "name": "Straddler",
+          "name_ru": "Страддлер",
+          "parent": "tob-2023_caustic-charger",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Difficult terrain composed of rocks or sand doesn’t cost the caustic charger extra movement.",
+          "desc_ru": "Особенность «Вастес Валк». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob-2023_caustic-charger_wastes-walk",
+          "name": "Wastes Walk",
+          "name_ru": "Вастес Валк",
+          "parent": "tob-2023_caustic-charger",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Caustic Charger",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob-2023",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Caustic Charger",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Огромное чудовище, мировоззрение: без мировоззрения. Класс доспеха: 15 (природный доспех). Хиты: 133 (14к12 + 42). Скорость: ходьба 10 фт., рытьё 30 фт.. Характеристики: СИЛ 19, ЛОВ 11, ТЕЛ 16, ИНТ 4, МУД 10, ХАР 6. Иммунитет к урону: кислотой. Чувства: тёмное зрение 60 фт., пассивное Восприятие 10. Показатель опасности: 7. Структурированные механики записи: особенностей: 2, действий: 4.",
+      "glossary_version": "derived-v1",
+      "name": "Каустик Чаргер",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,140 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "wanyudo",
+  "id": "o5e:tob2:monster:wanyudo-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:wanyudo"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "6738a53e880de61922de7bfa12b352d32119d9d0cadaf74b120217abdceff8f3",
+    "formulas": [
+      {
+        "expression": "11d10+55",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "lawful evil",
+      "armor_class": 16,
+      "challenge_rating": "8",
+      "condition_immunities": "",
+      "damage_immunities": "fire",
+      "damage_resistances": "cold, lightning, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "",
+      "hit_dice": "11d10+55",
+      "hit_points": 115,
+      "languages": "Common, Infernal",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "6738a53e880de61922de7bfa12b352d32119d9d0cadaf74b120217abdceff8f3",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:wanyudo",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The wanyudo makes two bite attacks.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 5) piercing damage plus 7 (2d6) fire damage.\", \"attack_bonus\": 8, \"damage_dice\": \"1d10+5\"}, {\"name\": \"Flaming Breath (Recharge 5-6)\", \"desc\": \"The wanyudo exhales fire in a 20-foot cone from one of its heads. Each creature in the area must make a DC 15 Dexterity saving throw, taking 24 (7d6) fire damage on a failed save, or half as much damage on a successful one.\"}]",
+      "alignment": "lawful evil",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "8",
+      "charisma": 14,
+      "constitution": 20,
+      "cr": 8.0,
+      "damage_immunities": "fire",
+      "damage_resistances": "cold, lightning, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "desc": "Hurtling down the street is a giant wheel, its spokes tipped with reddish flames that sputter and spark as it bounces along. Affixed to either side of the wheel by long strands of greasy black hair are the faces of devilish-looking humanoids, their eyes ablaze like embers. The two faces chortle and cry as the wheel approaches, fire leaping from their mouths._  \n**Born of Heresy.** Wanyudos are the souls of powerful lords condemned to an afterlife of burning torment after they refuted the teachings of the gods and were killed in battle or committed suicide. Prideful and violent monsters, wanyudos are lesser fiends in the grander schemes of Hell, a fact they vehemently resent.  \n**Divine Hunters.** While wanyudos hate all living creatures, the reserve their greatest hatred for creatures marked by a divine entity—such as clerics and paladins, or creatures wearing holy symbols—whom they blame for their cursed existence. When wandering by a monastery or temple, a wanyudo expends every effort to burn the structure to the ground and murder everyone within. Given this, temples and holy sites in areas known to be plagued by wanyudos often fireproof their buildings—and have a reliable source of water nearby, in case the worst should happen.  \n**To Hell and Back.** Wanyudos never stop moving, endlessly rolling along the roads and pathways between the Hells and the mortal world. Because of this, wanyudos know many secret ways into the planes.",
+      "dexterity": 15,
+      "dexterity_save": 5,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "11d10+55",
+      "hit_points": 115,
+      "intelligence": 8,
+      "languages": "Common, Infernal",
+      "legendary_actions_json": "null",
+      "name": "Wanyudo",
+      "page_no": 364,
+      "perception": 7,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 17",
+      "size": "Large",
+      "skills_json": "{\"intimidation\": 5, \"perception\": 7, \"religion\": 5}",
+      "special_abilities_json": "[{\"name\": \"Burn the Righteous\", \"desc\": \"The wanyudo has advantage on attack rolls against a creature if the creature is wearing a holy symbol or calls on the power of a divine entity to cast spells.\"}, {\"name\": \"Fiery Charge\", \"desc\": \"If the wanyudo moves at least 20 feet straight toward a target and then hits it with a bite attack on the same turn, the target takes an extra 7 (2d6) fire damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The wanyudo has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Two Heads\", \"desc\": \"The wanyudo has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.\"}]",
+      "speed_json": "{\"walk\": 50}",
+      "spells_json": "null",
+      "strength": 20,
+      "type": "Fiend",
+      "wisdom": 13,
+      "wisdom_save": 4
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Wanyudo",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-wanyudo"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "Hurtling down the street is a giant wheel, its spokes tipped with reddish flames that sputter and spark as it bounces along. Affixed to either side of the wheel by long strands of greasy black hair are the faces of devilish-looking humanoids, their eyes ablaze like embers. The two faces chortle and cry as the wheel approaches, fire leaping from their mouths._  \n**Born of Heresy.** Wanyudos are the souls of powerful lords condemned to an afterlife of burning torment after they refuted the teachings of the gods and were killed in battle or committed suicide. Prideful and violent monsters, wanyudos are lesser fiends in the grander schemes of Hell, a fact they vehemently resent.  \n**Divine Hunters.** While wanyudos hate all living creatures, the reserve their greatest hatred for creatures marked by a divine entity—such as clerics and paladins, or creatures wearing holy symbols—whom they blame for their cursed existence. When wandering by a monastery or temple, a wanyudo expends every effort to burn the structure to the ground and murder everyone within. Given this, temples and holy sites in areas known to be plagued by wanyudos often fireproof their buildings—and have a reliable source of water nearby, in case the worst should happen.  \n**To Hell and Back.** Wanyudos never stop moving, endlessly rolling along the roads and pathways between the Hells and the mortal world. Because of this, wanyudos know many secret ways into the planes.",
+      "name": "Wanyudo",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Мчась по улице — гигантское колесо, его спицы увенчаны красноватым пламенем, которое шипит и искрит, когда оно отскакивает. Прикреплённые к любой стороне колеса длинными прядями сальных чёрных волос — лица дьявольски выглядящих гуманоидов, их глаза пылают как угли. Два лица хохочут и плачут, когда колесо приближается, огонь выпрыгивает из их ртов.\n\n**Рождённые из ереси.** Ванюдо — души могущественных лордов, осуждённые на загробную жизнь сжигающего мучения после того, как они опровергли учения богов и были убиты в бою или совершили самоубийство. Гордые и насильственные монстры, ванюдо — меньшие исчадия в больших схемах Ада, факт, который они яростно негодуют.\n\n**Божественные охотники.** Хотя ванюдо ненавидят всех живых существ, они сохраняют величайшую ненависть к существам, отмеченным божественной сущностью — например, жрецам и паладинам, или существам, носящим святые символы — которых они винят в их проклятом существовании. При блуждании мимо монастыря или храма ванюдо прилагает все усилия, чтобы сжечь сооружение дотла и убить всех внутри. Учитывая это, храмы и святые места в областях, известных поражёнными ванюдо, часто делают свои здания огнеупорными — и имеют надёжный источник воды поблизости на случай, если произойдёт худшее.\n\n**В Ад и обратно.** Ванюдо никогда не перестают перемещаться, бесконечно катясь по дорогам и путям между Адами и миром смертных. Из-за этого ванюдо знают многие тайные пути на планы.",
+      "glossary_version": "v1",
+      "name": "Ванюдо",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

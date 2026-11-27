@@ -1,0 +1,185 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_blizzard",
+  "id": "o5e:deepm:spell:deepm-blizzard",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-blizzard",
+      "o5e:dmag:spell:blizzard"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "665d980697ca35dab3f5a70c362a3fbb6cd7e2794753204bb25afd8ec2841d36",
+    "formulas": [
+      {
+        "expression": "8d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "8d8",
+      "damage_types": [
+        "cold"
+      ],
+      "duration": "1 minute",
+      "level": 7,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 100,
+      "range_text": "100 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "665d980697ca35dab3f5a70c362a3fbb6cd7e2794753204bb25afd8ec2841d36",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-blizzard",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "9aad096e5429d995363b0039477c6a79b2c096b80ccdcfc1e63256b8df243784",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:blizzard",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_sorcerer",
+        "type": "classes",
+        "value": [
+          "srd_sorcerer",
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "8d8",
+      "damage_types": [
+        "cold"
+      ],
+      "desc": "A howling storm of thick snow and ice crystals appears in a cylinder 40 feet high and 40 feet in diameter within range. The area is heavily obscured by the swirling snow. When the storm appears, each creature in the area takes 8d8 cold damage, or half as much damage with a successful Constitution saving throw. A creature also makes this saving throw and takes damage when it enters the area for the first time on a turn or ends its turn there. In addition, a creature that takes cold damage from this spell has disadvantage on Constitution saving throws to maintain concentration until the start of its next turn.",
+      "document": "deepm",
+      "duration": "1 minute",
+      "level": 7,
+      "material": false,
+      "material_consumed": false,
+      "name": "Blizzard",
+      "range": 100,
+      "range_text": "100 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2487",
+          "parent": "deepm_blizzard",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Blizzard",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "A howling storm of thick snow and ice crystals appears in a cylinder 40 feet high and 40 feet in diameter within range. The area is heavily obscured by the swirling snow. When the storm appears, each creature in the area takes 8d8 cold damage, or half as much damage with a successful Constitution saving throw. A creature also makes this saving throw and takes damage when it enters the area for the first time on a turn or ends its turn there. In addition, a creature that takes cold damage from this spell has disadvantage on Constitution saving throws to maintain concentration until the start of its next turn.",
+      "name": "Blizzard",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Воющая буря густого снега и ледяных кристаллов появляется в цилиндре высотой 40 футов и диаметром 40 футов в пределах дистанции. Область сильно затемнена вращающимся снегом. Когда буря появляется, каждое существо в области получает 8к8 урона холодом или половину урона при успешном спасброске Телосложения. Существо также совершает этот спасбросок и получает урон, когда она входит в область в первый раз в ход, или заканчивает свой ход там. Кроме того, существо, которое получает урон холодом от этого заклинания, имеет помеху на спасброски Телосложения для поддержки концентрации до начала его следующего хода.",
+      "glossary_version": "v1",
+      "name": "Метель",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

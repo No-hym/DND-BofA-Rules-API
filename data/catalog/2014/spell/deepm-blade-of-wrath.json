@@ -1,0 +1,216 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_blade-of-wrath",
+  "id": "o5e:deepm:spell:deepm-blade-of-wrath",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-blade-of-wrath",
+      "o5e:dmag:spell:blade-of-wrath"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "94d9c9190db6ee1534a1c46569c531412ba54d3426fd2c03d482e6ffca7a2637",
+    "formulas": [
+      {
+        "expression": "2d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "bonus-action",
+      "classes": [
+        "srd_cleric",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "2d8",
+      "damage_types": [
+        "fire"
+      ],
+      "duration": "10 minutes",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a rebuke of evil, written in Celestial",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "94d9c9190db6ee1534a1c46569c531412ba54d3426fd2c03d482e6ffca7a2637",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-blade-of-wrath",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "22191bc03326f6ec3590347bd5fb22bc4be09152716619ac52b0f4fd7ec0d62b",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:blade-of-wrath",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric",
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "bonus-action",
+      "classes": [
+        "srd_cleric",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "2d8",
+      "damage_types": [
+        "fire"
+      ],
+      "desc": "You create a sword of pure white fire in your free hand. The blade is similar in size and shape to a longsword, and it lasts for the duration. The blade disappears if you let go of it, but you can call it forth again as a bonus action.\n\nYou can use your action to make a melee spell attack with the blade. On a hit, the target takes 2d8 fire damage and 2d8 radiant damage. An aberration, fey, fiend, or undead creature damaged by the blade must succeed on a Wisdom saving throw or be frightened until the start of your next turn.\n\nThe blade sheds bright light in a 20-foot radius and dim light for an additional 20 feet.\n",
+      "document": "deepm",
+      "duration": "10 minutes",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, either the fire damage or the radiant damage (your choice) increases by 1d8 for each slot level above 3rd.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a rebuke of evil, written in Celestial",
+      "name": "Blade of Wrath",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2466",
+          "parent": "deepm_blade-of-wrath",
+          "type": "default"
+        },
+        {
+          "external_id": "2468",
+          "parent": "deepm_blade-of-wrath",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "2469",
+          "parent": "deepm_blade-of-wrath",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "2470",
+          "parent": "deepm_blade-of-wrath",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "2471",
+          "parent": "deepm_blade-of-wrath",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "2472",
+          "parent": "deepm_blade-of-wrath",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2473",
+          "parent": "deepm_blade-of-wrath",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Blade of Wrath",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You create a sword of pure white fire in your free hand. The blade is similar in size and shape to a longsword, and it lasts for the duration. The blade disappears if you let go of it, but you can call it forth again as a bonus action.\n\nYou can use your action to make a melee spell attack with the blade. On a hit, the target takes 2d8 fire damage and 2d8 radiant damage. An aberration, fey, fiend, or undead creature damaged by the blade must succeed on a Wisdom saving throw or be frightened until the start of your next turn.\n\nThe blade sheds bright light in a 20-foot radius and dim light for an additional 20 feet.",
+      "name": "Blade of Wrath",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы создаёте меч из чистого белого огня в вашей свободной руке. Клинок похож по размеру и форме на Длинный меч, и он продолжается на протяжении заклинания. Клинок исчезает, если вы выпустите его, но вы можете вызвать её снова как бонусное действие.\n\nВы можете использовать ваши действия, чтобы сделать атаку заклинанием ближнего боя с этим клинком. При попадании цель получает 2к8 урона огнём и 2к8 урона излучением. Аберрация, фея, исчадие или нежить существа, повреждённое клинком должно преуспеть в спасброске Мудрости или испугаться до начала вашего следующего хода.\n\nКлинок излучает яркий свет в радиусе 20 футов и тусклый свет на дополнительные 20 футов.",
+      "glossary_version": "v1",
+      "name": "Клинок гнева",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

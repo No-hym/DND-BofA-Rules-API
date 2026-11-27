@@ -37,7 +37,7 @@ curl 'http://localhost:8080/api/v1/catalog' # версия, покрытие, и
 | Оригинал | `data/sources/sources.json` + зафиксированные snapshot-ы в `data/original/` (`.gitignore`) | исходные Fixture/`data/v1`,`data/v2`, markdown-корпуса, страницы сайтов; контрольные суммы в манифесте релиза |
 | Нормализованный | `data/normalized/<edition>/normalized.jsonl.gz` | EN-записи с типизированными механиками, связями, требованиями, ограничениями и формулами |
 | Переведённый | `data/translated/<edition>/translated.jsonl.gz` | отдельные RU-записи с атрибуцией, лицензией перевода и статусом |
-| Публикация | `data/catalog/<edition>/*.json` | двуязычный каталог для Go-импортера/API |
+| Публикация | `data/catalog/<edition>/<category>/<card>.json` | двуязычный каталог для Go-импортера/API; одна запись — один файл-карточка |
 | Релиз | `data/releases/v<version>.json`, `aliases.json`, `latest.json` | версия, статистика, дубликаты, причины пропусков, алиасы legacy ID |
 
 `data/legacy/2024/` сохраняет прежний каталог SRD 5.2.1 как источник переводов и стабильных ID. Старые ID доступны через `data/releases/aliases.json`.

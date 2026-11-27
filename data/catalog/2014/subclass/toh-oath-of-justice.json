@@ -1,0 +1,157 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_oath-of-justice",
+  "id": "o5e:toh:characterclass:toh-oath-of-justice",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-oath-of-justice"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "35e829cb176fe129d3d1fde77c18cae45d2137d8f4fea530adf2b43267107cc4",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_paladin"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "35e829cb176fe129d3d1fde77c18cae45d2137d8f4fea530adf2b43267107cc4",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-oath-of-justice",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_paladin",
+        "type": "subclass_of",
+        "value": "srd_paladin"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "The Oath of Justice is a commitment not to the tenets of good or evil but a holy vow sworn to uphold the laws of a nation, a city, or even a tiny village. When lawlessness threatens the peace, those who swear to uphold the Oath of Justice intervene to maintain order, for if order falls to lawlessness, it is only a matter of time before all of civilization collapses into anarchy.\n\nWhile many young paladins take this oath to protect their country and the people close to them from criminals, some older adherents to this oath know that what is just is not necessarily what is right.",
+      "document": "toh",
+      "name": "Oath of Justice",
+      "subclass_of": "srd_paladin"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you take this oath at 3rd level, you gain the following two Channel Divinity options. See the Sacred Oath class feature for how Channel Divinity works.\n\n***Tether of Righteousness.*** You can use your Channel Divinity to bind your target to you. As an action, you extend a line of energy toward a creature you can see within 30 feet of you. That creature must make a Dexterity saving throw. On a failure, it is tethered and can't move more than 30 feet away from you for 1 minute. While tethered, the target takes lightning damage equal to your Charisma modifier (minimum of 1) at the end of each of its turns. You can use an action to make a Strength (Athletics) check opposed by the tethered creature's Strength (Athletics) or Dexterity (Acrobatics) check (the creature's choice). On a success, you can pull the creature up to 15 feet in a straight line toward you. As an action, the tethered creature can make a Strength check against your spell save DC. On a success, it breaks the tether.\n\n***Justicar's Celerity.*** You can use your Channel Divinity to respond to danger with lightning speed. When a creature that you can see is attacked, you can move up to your speed as a reaction. If you end your movement within 5 feet of the attacker, you can make one melee attack against it as part of this reaction. If you end your movement within 5 feet of the target of the attack, you can become the target of the attack instead as part of this reaction.",
+          "desc_ru": "Вы можете направлять божественную энергию непосредственно из Внешних Планов, используя её для создания магических эффектов. Изначально у вас есть один такой эффект: Божественное чувство, описанный ниже. Другие умения паладина дают дополнительные варианты эффектов Божественного канала. Каждый раз, когда вы используете Божественный канал этого класса, вы выбираете, какой эффект этого класса создать.\n\nВы можете использовать Божественный канал этого класса дважды. Вы восстанавливаете одно потраченное использование, когда заканчиваете короткий отдых, и восстанавливаете все потраченные использования, когда заканчиваете долгий отдых. Вы получаете дополнительное использование, когда достигаете 11-го уровня паладина.\n\nЕсли эффект Божественного канала требует спасброска, СЛ равна СЛ спасброска заклинаний из умения Сотворение заклинаний этого класса.\n\n**Божественное чувство.** Как Бонусное действие, вы можете открыть своё сознание для обнаружения небожителей, исчадий и нежити. В течение следующих 10 минут или пока вы не получите состояние Недееспособный, вы знаете местоположение любого существа этих типов в пределах 60 футов от себя и знаете его тип существа. В том же радиусе вы также обнаруживаете присутствие любого места или предмета, который был освящён или осквернён, как заклинанием *Освящение*.\n\n> ### Нарушение клятвы\n>\n> Паладин старается придерживаться высочайших стандартов поведения, но даже самые преданные способны ошибаться. Иногда паладин нарушает свою клятву.\n>\n> Паладин, нарушивший обет, обычно ищет отпущения грехов, проводя ночное бдение в знак покаяния или постясь. После обряда прощения паладин начинает с чистого листа.\n>\n> Если ваш паладин нераскаянно нарушает клятву, поговорите с Мастером. Вашему паладину, вероятно, следует выбрать более подходящий подкласс или даже отказаться от класса и перейти в другой.",
+          "document": "toh",
+          "external_id": "toh_oath-of-justice_channel-divinity",
+          "level": 3,
+          "name": "Channel Divinity",
+          "name_ru": "Божественный канал",
+          "parent": "toh_oath-of-justice",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "At 7th level, you can bend the laws of magic to parallel the laws of civilization. When you reduce a creature to 0 hit points with a spell or Divine Smite, you can choose to knock out the creature instead of killing it. The creature falls unconscious and is stable.\n  In addition, once per turn when you deal radiant damage to a creature, you can force it to make a Constitution saving throw. On a failure, its speed is halved until the end of its next turn. If you deal radiant damage to more than one creature, you can choose only one creature to be affected by this feature.",
+          "desc_ru": "На 7-м уровне вы можете сгибать законы магии, чтобы они параллелили законы цивилизации. Когда вы уменьшаете существо до 0 очков хитов заклинанием или Божественной карой, вы можете выбрать вырубить существо вместо убийства его. Существо падает без сознания и стабильно.\nКроме того, один раз за ход, когда вы наносите урон излучением существу, вы можете заставить его совершить спасбросок Телосложения. При провале его скорость уменьшается вдвое до конца его следующего хода. Если вы наносите урон излучением более чем одному существу, вы можете выбрать только одно существо, чтобы оно было затронуто этой особенностью.",
+          "document": "toh",
+          "external_id": "toh_oath-of-justice_disciplined-pursuant",
+          "level": 7,
+          "name": "Disciplined Pursuant",
+          "name_ru": "Дисциплинированный преследователь",
+          "parent": "toh_oath-of-justice",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 15th level, once per turn when you deal radiant damage to a creature, it must make a Constitution saving throw. On a failure, it is restrained by golden, spectral chains until the end of its next turn. If you deal radiant damage to more than one creature, you can choose only one such creature to be affected by this feature. The target of this feature can be different from the target of your Disciplined Pursuant feature.",
+          "desc_ru": "Начиная с 15-го уровня, один раз за ход, когда вы наносите урон излучением существу, оно должно совершить спасбросок Телосложения. При провале оно сдерживается золотыми призрачными цепями до конца его следующего хода. Если вы наносите урон излучением более чем одному существу, вы можете выбрать только одно такое существо, чтобы оно было затронуто этой особенностью. Цель этой особенности может отличаться от цели вашей особенности Дисциплинированный преследователь.",
+          "document": "toh",
+          "external_id": "toh_oath-of-justice_shackles-of-light",
+          "level": 15,
+          "name": "Shackles of Light",
+          "name_ru": "Оковы света",
+          "parent": "toh_oath-of-justice",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 20th level, you can take on the appearance of justice itself. As an action, you become wreathed in a garment of cold light. For 1 minute, you benefit from the following effects: \n* You are immune to bludgeoning, piercing, and slashing damage. \n* You can use your Justicar's Celerity feature without expending a use of Channel Divinity. \n* When a creature you can see takes the Attack or Cast a Spell action, you can use your reaction to force it to make a Wisdom saving throw. On a failure, it must take a different action of your choice instead.\nOnce you use this feature, you can't use it again until you finish a long rest.",
+          "desc_ru": "На 20-м уровне вы можете принять внешний вид самой справедливости. Действием вы становитесь окутаны одеянием холодного света. На 1 минуту вы получаете пользу от следующих эффектов: \n* Вы иммунны к дробящему, колющему и рубящему урону. \n* Вы можете использовать вашу особенность Быстрота юстициария, не расходуя использование Божественного канала. \n* Когда существо, которое вы можете видеть, выполняет действие Атака или Сотворить заклинание, вы можете реакцией заставить его совершить спасбросок Мудрости. При провале оно должно вместо этого предпринять другое действие на ваш выбор.\nИспользовав эту особенность, вы не можете использовать её снова, пока не закончите продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_oath-of-justice_avatar-of-perfect-order",
+          "level": 20,
+          "name": "Avatar of Perfect Order",
+          "name_ru": "Аватар совершенного порядка",
+          "parent": "toh_oath-of-justice",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "All paladins of justice uphold the law in some capacity, but their oath differs depending on their station. A paladin who serves a queen upholds slightly different tenets than one who serves a small town.\n\n***Uphold the Law.*** The law represents the triumph of civilization over the untamed wilds. It must be preserved at all costs.\n\n***Punishment Fits the Crime.*** The severity of justice acts in equal measure to the severity of a wrongdoer's transgressions. Oath Spells You gain oath spells at the paladin levels listed in the Oath of Justice Spells table. See the Sacred Oath class feature for how oath spells work.\n\n**Oath of Justice Spells (table)**\n| Paladin Level  | Spells                              | \n|----------------|-------------------------------------| \n| 3rd            | *color spray*, *guiding bolt*       | \n| 5th            | *guiding bolt*, *zone of truth*     | \n| 9th            | *lightning bolt*, *slow*            | \n| 13th           | *faithful hound*, *locate creature* | \n| 17th           | *arcane hand*, *hold monster*       |",
+          "desc_ru": "Все паладины справедливости поддерживают закон в некоторой степени, но их клятва отличается в зависимости от их положения. Паладин, который служит королеве, поддерживает слегка другие заветы, чем тот, кто служит маленькому городу.\n\nПоддерживать закон. Закон представляет триумф цивилизации над неукротимыми дебрями. Он должен сохраняться любой ценой.\n\nНаказание соответствует преступлению. Суровость справедливости действует в равной мере с суровостью проступков правонарушителя. Заклинания клятвы Вы получаете заклинания клятвы на уровнях паладина, перечисленных в таблице Заклинаний клятвы справедливости. См. классовую особенность Священная клятва о том, как работают заклинания клятвы.\n\nЗаклинания клятвы справедливости (таблица)\n| Уровень паладина | Заклинания |\n|---|---|\n| 3-й | Цветной спрей, Направляющая молния |\n| 5-й | Направляющая молния, Зона правды |\n| 9-й | Удар молнии, Замедление |\n| 13-й | Верный пёс, Найти существо |\n| 17-й | Мистическая рука, Удержание чудовища |",
+          "document": "toh",
+          "external_id": "toh_oath-of-justice_tenets-of-justice",
+          "name": "Tenets of Justice",
+          "name_ru": "Заветы справедливости",
+          "parent": "toh_oath-of-justice",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Oath of Justice",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "The Oath of Justice is a commitment not to the tenets of good or evil but a holy vow sworn to uphold the laws of a nation, a city, or even a tiny village. When lawlessness threatens the peace, those who swear to uphold the Oath of Justice intervene to maintain order, for if order falls to lawlessness, it is only a matter of time before all of civilization collapses into anarchy.\n\nWhile many young paladins take this oath to protect their country and the people close to them from criminals, some older adherents to this oath know that what is just is not necessarily what is right.",
+      "name": "Oath of Justice",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Клятва Справедливости — это обязательство не перед постулатами добра или зла, а священная клятва, принесённая, чтобы поддерживать законы нации, города или даже крошечной деревни. Когда беззаконие угрожает миру, те, кто клянутся поддерживать Клятву Справедливости, вмешиваются, чтобы поддерживать порядок, потому что, если порядок падёт перед беззаконием, это только вопрос времени, когда вся цивилизация рухнет в анархию.\n\nХотя многие молодые паладины принимают эту клятву, чтобы защитить свою страну и близких им людей от преступников, некоторые старшие приверженцы этой клятвы знают, что то, что справедливо, не обязательно то, что правильно.",
+      "glossary_version": "v1",
+      "name": "Клятва справедливости",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

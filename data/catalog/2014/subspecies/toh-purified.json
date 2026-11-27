@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subspecies",
+  "edition": "2014",
+  "external_id": "toh_purified",
+  "id": "o5e:toh:species:toh-purified",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:species:toh-purified",
+      "o5e:toh:subrace:purified"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e3b0a64b00e7ba6b383194ebea275d5d048c76f38d549bb69a7e34e8145f6e6c",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "subspecies_of": "toh_drow"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "e3b0a64b00e7ba6b383194ebea275d5d048c76f38d549bb69a7e34e8145f6e6c",
+        "edition": "2014",
+        "id": "o5e:toh:species:toh-purified",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "dd0d3cd2d29d9d1847dbde7f46c6f3e5e18b00420144c64035127b6f1d0c1c8c",
+        "edition": "2014",
+        "id": "o5e:toh:subrace:purified",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "toh_drow",
+        "type": "subspecies_of",
+        "value": "toh_drow"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "You were born into the caste that produces the leaders and planners, the priests and wizards, the generals and officers of drow society. Your people, it is believed, were tested by the beneficent powers you worship, and you passed those tests to become something more. Your innate magic proves your superiority over your fellows.",
+      "document": "toh",
+      "name": "Purified",
+      "subspecies_of": "toh_drow"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "traits": [
+        {
+          "desc": "Your Charisma score increases by 1.",
+          "desc_ru": "Каждая раса увеличивает одну или несколько характеристик персонажа.",
+          "external_id": "toh_purified_ability-score-increase",
+          "name": "Ability Score Increase",
+          "name_ru": "Увеличение характеристик",
+          "parent": "toh_purified",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You know the poison spray cantrip. When you reach 3rd level, you can cast suggestion once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the tongues spell once and regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells.",
+          "desc_ru": "Монстр с врождённой способностью творить заклинания обладает особой чертой «Врождённое сотворение заклинаний». Если не указано иное, врождённое заклинание 1-го уровня или выше всегда сотворяется на минимально возможном уровне и не может быть сотворено на более высоком уровне. Если у монстра есть заговор, уровень которого имеет значение, и уровень не указан, используется показатель опасности монстра.\n\nВрождённое заклинание может иметь особые правила или ограничения. Например, маг дроу может врождённо сотворять заклинание *левитация*, но у заклинания есть ограничение «только на себя», что означает, что заклинание действует только на мага дроу.\n\nВрождённые заклинания монстра нельзя заменить другими заклинаниями. Если врождённые заклинания монстра не требуют бросков атаки, бонус атаки для них не указывается.",
+          "external_id": "toh_purified_innate-spellcasting",
+          "name": "Innate Spellcasting",
+          "name_ru": "Врождённое сотворение заклинаний",
+          "parent": "toh_purified",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain proficiency with two of the following skills of your choice: History, Insight, Performance, and Persuasion.",
+          "desc_ru": "Особенность «Борн Леадер». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_purified_born-leader",
+          "name": "Born Leader",
+          "name_ru": "Борн Леадер",
+          "parent": "toh_purified",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Purified",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You were born into the caste that produces the leaders and planners, the priests and wizards, the generals and officers of drow society. Your people, it is believed, were tested by the beneficent powers you worship, and you passed those tests to become something more. Your innate magic proves your superiority over your fellows.",
+      "name": "Purified",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы родились в касте, которая производит лидеров и планировщиков, жрецов и волшебников, генералов и офицеров общества дроу. Считается, что ваш народ был испытан благодетельными силами, которым вы поклоняетесь, и вы прошли эти испытания, чтобы стать чем-то большим. Ваша врождённая магия доказывает ваше превосходство над вашими собратьями.",
+      "glossary_version": "v1",
+      "name": "Очищенный",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

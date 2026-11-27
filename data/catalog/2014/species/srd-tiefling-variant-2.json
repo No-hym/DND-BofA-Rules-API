@@ -1,0 +1,177 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "species",
+  "edition": "2014",
+  "external_id": "srd_tiefling",
+  "id": "o5e:srd-2014:species:srd-tiefling-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:species:srd-tiefling"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e2f6c7a5c1a29132e2da4175b9d7fecc0093f40b5768e4498fff68561b63bbc6",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "subspecies_of": null
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "e2f6c7a5c1a29132e2da4175b9d7fecc0093f40b5768e4498fff68561b63bbc6",
+        "edition": "2014",
+        "id": "o5e:srd-2014:species:srd-tiefling",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Tieflings share certain racial traits as a result of their infernal descent.",
+      "document": "srd-2014",
+      "name": "Tiefling"
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "traits": [
+        {
+          "desc": "Your Intelligence score increases by 1, and your Charisma score increases by 2.",
+          "desc_ru": "Каждая раса увеличивает одну или несколько характеристик персонажа.",
+          "external_id": "srd_tiefling_ability-score-increase",
+          "name": "Ability Score Increase",
+          "name_ru": "Увеличение характеристик",
+          "parent": "srd_tiefling",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your base walking speed is 30 feet.",
+          "desc_ru": "Особенность «Спеед». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_tiefling_speed",
+          "name": "Speed",
+          "name_ru": "Спеед",
+          "parent": "srd_tiefling",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+          "desc_ru": "*Преобразование 2-го уровня (Друид, Следопыт, Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** Касание\n\n**Компоненты:** В, С, М (либо щепотка сушёной моркови, либо агат)\n\n**Длительность:** 8 часов\n\nВы касаетесь согласного существа, чтобы дать ему способность видеть в темноте. На время действия заклинания это существо получает тёмное зрение на расстояние до 60 футов.",
+          "external_id": "srd_tiefling_darkvision",
+          "name": "Darkvision",
+          "name_ru": "Тёмное зрение",
+          "parent": "srd_tiefling",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Tieflings mature at the same rate as humans but live a few years longer.",
+          "desc_ru": "Особенность «Аге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_tiefling_age",
+          "name": "Age",
+          "name_ru": "Аге",
+          "parent": "srd_tiefling",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.",
+          "desc_ru": "Особенность «Алигнмент». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_tiefling_alignment",
+          "name": "Alignment",
+          "name_ru": "Алигнмент",
+          "parent": "srd_tiefling",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Tieflings are about the same size and build as humans. Your size is Medium.",
+          "desc_ru": "Особенность «Сизе». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_tiefling_size",
+          "name": "Size",
+          "name_ru": "Сизе",
+          "parent": "srd_tiefling",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "You can speak, read, and write Common and Infernal.",
+          "desc_ru": "Особенность «Лангуагес». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_tiefling_languages",
+          "name": "Languages",
+          "name_ru": "Лангуагес",
+          "parent": "srd_tiefling",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "You have resistance to fire damage.",
+          "desc_ru": "Особенность «Хеллиш Ресистанке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_tiefling_hellish-resistance",
+          "name": "Hellish Resistance",
+          "name_ru": "Хеллиш Ресистанке",
+          "parent": "srd_tiefling",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.",
+          "desc_ru": "Особенность «Инфернал Легакй». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_tiefling_infernal-legacy",
+          "name": "Infernal Legacy",
+          "name_ru": "Инфернал Легакй",
+          "parent": "srd_tiefling",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Tiefling",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:wotc-srd:race:tiefling"
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "Tieflings share certain racial traits as a result of their infernal descent.",
+      "name": "Tiefling",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "**Тип существа:** Гуманоид\n\n**Размер:** Средний (около 4–7 футов ростом) или Маленький (около 3–4 футов ростом), выбирается при выборе этого вида\n\n**Скорость:** 30 футов\n\nКак тифлинг, вы обладаете следующими особыми чертами.\n\n**Тёмное зрение.** Вы обладаете тёмным зрением в радиусе 60 футов.\n\n**Наследие исчадий.** Вы унаследовали дар, дарующий вам сверхъестественные способности. Выберите наследие из таблицы «Наследия исчадий». Вы получаете преимущество 1-го уровня выбранного наследия.\n\nКогда вы достигаете 3-го и 5-го уровней персонажа, вы узнаёте заклинание более высокого уровня, как показано в таблице. Это заклинание всегда у вас подготовлено. Вы можете сотворить его один раз без ячейки заклинания и восстанавливаете эту способность после завершения долгого отдыха. Вы также можете сотворить это заклинание, используя любые имеющиеся у вас ячейки заклинаний соответствующего уровня.\n\nИнтеллект, Мудрость или Харизма является вашей заклинательной характеристикой для заклинаний, которые вы сотворяете с помощью этой черты (выберите характеристику при выборе наследия).\n\n**Потустороннее присутствие.** Вы знаете заговор *Тауматургия*. Когда вы сотворяете его с помощью этой черты, заклинание использует ту же заклинательную характеристику, что и ваша черта «Наследие исчадий».\n\nТаблица: Наследия исчадий\n\n| Наследие | Уровень 1 | Уровень 3 | Уровень 5 |\n|---|---|---|---|\n| Бездны | Вы обладаете сопротивлением к урону ядом. Вы также знаете заговор *Ядовитые брызги*. | *Луч болезни* | *Удержание личности* |\n| Хтоническое | Вы обладаете сопротивлением к некротическому урону. Вы также знаете заговор *Могильный холод*. | *Псевдожизнь* | *Луч ослабления* |\n| Инфернальное | Вы обладаете сопротивлением к урону огнём. Вы также знаете заговор *Огненный снаряд*. | *Адское возмездие* | *Тьма* |",
+      "glossary_version": "v1",
+      "name": "Тифлинг",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

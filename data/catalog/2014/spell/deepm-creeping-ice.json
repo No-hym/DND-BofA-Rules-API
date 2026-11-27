@@ -1,0 +1,201 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_creeping-ice",
+  "id": "o5e:deepm:spell:deepm-creeping-ice",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-creeping-ice",
+      "o5e:dmag:spell:creeping-ice"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "4469ce02a116a8a3875adbcff31872bb8912a1dafe94a9a7eda701be044b0d21",
+    "formulas": [
+      {
+        "expression": "2d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "cold"
+      ],
+      "duration": "1 minute",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "strength",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "4469ce02a116a8a3875adbcff31872bb8912a1dafe94a9a7eda701be044b0d21",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-creeping-ice",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "d5791f541d9ae5a9d80d099dfb05dbef1636c301c9cf45c565258ce13bbd2cfb",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:creeping-ice",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "cold"
+      ],
+      "desc": "You create a sheet of ice that covers a 5-foot square within range and lasts for the spell’s duration. The iced area is difficult terrain.\n\nA creature in the area where you cast the spell must make a successful Strength saving throw or be restrained by ice that rapidly encases it. A creature restrained by the ice takes 2d6 cold damage at the start of its turn. A restrained creature can use an action to make a Strength check against your spell save DC, freeing itself on a success, but it has disadvantage on this check. The creature can also be freed (and the spell ended) by dealing at least 20 damage to the ice. The restrained creature takes half the damage from any attacks against the ice.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 4th to 6th level, the area increases to a 10-foot square, the ice deals 4d6 cold damage, and 40 damage is needed to melt each 5-foot square. When you cast this spell using a spell slot of 7th level or higher, the area increases to a 20-foot square, the ice deals 6d6 cold damage, and 60 damage is needed to melt each 5-foot square.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Creeping Ice",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "strength",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2872",
+          "parent": "deepm_creeping-ice",
+          "type": "default"
+        },
+        {
+          "external_id": "2874",
+          "parent": "deepm_creeping-ice",
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "2875",
+          "parent": "deepm_creeping-ice",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "2876",
+          "parent": "deepm_creeping-ice",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "2877",
+          "parent": "deepm_creeping-ice",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "2878",
+          "parent": "deepm_creeping-ice",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "2879",
+          "parent": "deepm_creeping-ice",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2880",
+          "parent": "deepm_creeping-ice",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Creeping Ice",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You create a sheet of ice that covers a 5-foot square within range and lasts for the spell’s duration. The iced area is difficult terrain.\n\nA creature in the area where you cast the spell must make a successful Strength saving throw or be restrained by ice that rapidly encases it. A creature restrained by the ice takes 2d6 cold damage at the start of its turn. A restrained creature can use an action to make a Strength check against your spell save DC, freeing itself on a success, but it has disadvantage on this check. The creature can also be freed (and the spell ended) by dealing at least 20 damage to the ice. The restrained creature takes half the damage from any attacks against the ice.",
+      "name": "Creeping Ice",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы создаёте слой льда, покрывающий квадрат 5 на 5 футов в пределах дистанции и существующий время действия заклинания. Покрытая льдом область является труднопроходимой местностью.\n\nСущество в области, где вы творите заклинание, должно преуспеть в спасброске Силы, иначе будет опутано быстро покрывающим его льдом. Существо, опутанное льдом, получает 2к6 урона холодом в начале своего хода. Опутанное существо может действием совершить проверку Силы против Сл ваших спасбросков от заклинаний, при успехе освобождаясь, но совершает эту проверку с помехой. Существо также можно освободить (и завершить заклинание), нанеся льду как минимум 20 урона. Опутанное существо получает половину урона от любых атак по льду.",
+      "glossary_version": "v1",
+      "name": "Ползучий лёд",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

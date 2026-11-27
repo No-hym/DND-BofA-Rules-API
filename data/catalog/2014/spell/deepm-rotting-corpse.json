@@ -1,0 +1,191 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_rotting-corpse",
+  "id": "o5e:deepm:spell:deepm-rotting-corpse",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-rotting-corpse",
+      "o5e:dmag:spell:rotting-corpse"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "8b0ee1cc9050eea303d5df09892717bdf4449a97e68f6266ef137e9112f8d219",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "10minutes",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "3 days",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a rotting piece of flesh from an undead creature",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "8b0ee1cc9050eea303d5df09892717bdf4449a97e68f6266ef137e9112f8d219",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-rotting-corpse",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "a6756141cfef6bc1d3587f2f6e80004e9929f144e06de3069968f1d2fcf8654c",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:rotting-corpse",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "10minutes",
+      "concentration": false,
+      "desc": "Your familiarity with the foul effects of death allows you to prevent a dead body from being returned to life using anything but the most powerful forms of magic.\n\nYou cast this spell by touching a creature that died within the last 24 hours. The body immediately decomposes to a state that prevents the body from being returned to life by the [raise dead](https://api.open5e.com/spells/raise-dead) spell (though a [resurrection](https://api.open5e.com/spells/resurrection) spell still works). At the end of this spell’s duration, the body decomposes to a rancid slime, and it can’t be returned to life except through a [true resurrection](https://api.open5e.com/spells/true-resurrection) spell.\n",
+      "document": "deepm",
+      "duration": "3 days",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, you can affect one additional corpse for each slot level above 2nd.",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a rotting piece of flesh from an undead creature",
+      "name": "Rotting Corpse",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "necromancy",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4010",
+          "parent": "deepm_rotting-corpse",
+          "type": "default"
+        },
+        {
+          "external_id": "4012",
+          "parent": "deepm_rotting-corpse",
+          "target_count": 2,
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "4013",
+          "parent": "deepm_rotting-corpse",
+          "target_count": 3,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "4014",
+          "parent": "deepm_rotting-corpse",
+          "target_count": 4,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "4015",
+          "parent": "deepm_rotting-corpse",
+          "target_count": 5,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "4016",
+          "parent": "deepm_rotting-corpse",
+          "target_count": 6,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "4017",
+          "parent": "deepm_rotting-corpse",
+          "target_count": 7,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "4018",
+          "parent": "deepm_rotting-corpse",
+          "target_count": 8,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Rotting Corpse",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "Your familiarity with the foul effects of death allows you to prevent a dead body from being returned to life using anything but the most powerful forms of magic.\n\nYou cast this spell by touching a creature that died within the last 24 hours. The body immediately decomposes to a state that prevents the body from being returned to life by the [raise dead](https://api.open5e.com/spells/raise-dead) spell (though a [resurrection](https://api.open5e.com/spells/resurrection) spell still works). At the end of this spell’s duration, the body decomposes to a rancid slime, and it can’t be returned to life except through a [true resurrection](https://api.open5e.com/spells/true-resurrection) spell.",
+      "name": "Rotting Corpse",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Ваше знакомство с мерзкими последствиями смерти позволяет вам не дать мёртвому телу вернуться к жизни ничем, кроме самых могущественных форм магии.\n\nВы творите это заклинание, касаясь существа, умершего в последние 24 часа. Тело немедленно разлагается до состояния, которое не даёт вернуть тело к жизни заклинанием воскрешения мёртвых (хотя заклинание воскрешения всё ещё работает). В конце срока действия этого заклинания тело разлагается до зловонной слизи, и его нельзя вернуть к жизни иначе как заклинанием истинного воскрешения.",
+      "glossary_version": "v1",
+      "name": "Гниющий труп",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

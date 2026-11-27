@@ -1,0 +1,186 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_spike-growth",
+  "id": "o5e:srd-2014:spell:srd-spike-growth",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-spike-growth",
+      "o5e:wotc-srd:spell:spike-growth"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "a85fe99db9be228278e93ddb85f61cbaa83b9f48fa555fdfcefcdc1a8a03afbf",
+    "formulas": [
+      {
+        "expression": "2d4",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_druid",
+        "srd_ranger"
+      ],
+      "concentration": true,
+      "damage_roll": "2d4",
+      "damage_types": [
+        "piercing"
+      ],
+      "duration": "10 minutes",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "Seven sharp spines or seven twigs cut peak.",
+      "range": 150.0,
+      "range_text": "150 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "a85fe99db9be228278e93ddb85f61cbaa83b9f48fa555fdfcefcdc1a8a03afbf",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-spike-growth",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "2d0ff0ee55ddbabcb80dad8dfa852feebe1e344f8ace81042faee6e0ee0381c2",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:spike-growth",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric",
+          "srd_druid",
+          "srd_ranger"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_druid",
+        "srd_ranger"
+      ],
+      "concentration": true,
+      "damage_roll": "2d4",
+      "damage_types": [
+        "piercing"
+      ],
+      "desc": "The ground in a 20-foot radius centered on a point within range twists and sprouts hard spikes and thorns. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 2d4 piercing damage for every 5 feet it travels. The development of land is camouflaged to look natural. Any creature that does not see the area when the spell is spell casts must make a Wisdom (Perception) check against your spell save DC to recognize the terrain as hazardous before entering it.",
+      "document": "srd-2014",
+      "duration": "10 minutes",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "Seven sharp spines or seven twigs cut peak.",
+      "name": "Spike Growth",
+      "range": 150.0,
+      "range_text": "150 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "6025",
+          "parent": "srd_spike-growth",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Spike Growth",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "The ground in a 20-foot radius centered on a point within range twists and sprouts hard spikes and thorns. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 2d4 piercing damage for every 5 feet it travels. The development of land is camouflaged to look natural. Any creature that does not see the area when the spell is spell casts must make a Wisdom (Perception) check against your spell save DC to recognize the terrain as hazardous before entering it.",
+      "name": "Spike Growth",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Преобразование 2-го уровня (Друид, Следопыт)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 150 футов\n\n**Компоненты:** В, С, М (семь острых шипов или семь маленьких веточек, каждая заострённая на конце)\n\n**Длительность:** Концентрация, вплоть до 10 минут\n\nЗемля в радиусе 20 футов с центром в точке в пределах дистанции скручивается и покрывается жёсткими шипами и тернами. Область становится труднопроходимой местностью на время действия заклинания. Когда существо входит в область или перемещается по ней, оно получает 2к4 колющего урона за каждые 5 футов пути.\n\nИзменение земли замаскировано под естественное. Любое существо, которое не может видеть область в момент сотворения заклинания, должно совершить проверку Мудрости (Внимательность) против СЛ спасброска от ваших заклинаний, чтобы распознать местность как опасную, прежде чем войти в неё.",
+      "glossary_version": "v1",
+      "name": "Шипы",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

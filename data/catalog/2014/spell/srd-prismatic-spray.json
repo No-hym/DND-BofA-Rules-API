@@ -1,0 +1,187 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_prismatic-spray",
+  "id": "o5e:srd-2014:spell:srd-prismatic-spray",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-prismatic-spray",
+      "o5e:wotc-srd:spell:prismatic-spray"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "a4525deac0838c0c54c7d7de567d17a0b47147112328ac1e8cb099b2a9f261a1",
+    "formulas": [
+      {
+        "expression": "10d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "10d6",
+      "damage_types": [
+        "fire",
+        "acid",
+        "lightning",
+        "poison",
+        "cold"
+      ],
+      "duration": "instantaneous",
+      "level": 7,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0.0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": 60.0,
+      "shape_size_unit": null,
+      "shape_type": "cone",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "a4525deac0838c0c54c7d7de567d17a0b47147112328ac1e8cb099b2a9f261a1",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-prismatic-spray",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "15bd5a54a7bb6d586e904bb6c4cf0ad55e7018a92b826e84c02750c956a522de",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:prismatic-spray",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_sorcerer",
+        "type": "classes",
+        "value": [
+          "srd_sorcerer",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "10d6",
+      "damage_types": [
+        "fire",
+        "acid",
+        "lightning",
+        "poison",
+        "cold"
+      ],
+      "desc": "Eight multicolored rays of light flash from your hand. Each ray is a different color and has a different power and purpose. Each creature in a 60-foot cone must make a dexterity saving throw. For each target, roll a d8 to determine which color ray affects it.\n\n**1. Red.** The target takes 10d6 fire damage on a failed save, or half as much damage on a successful one.\n\n**2. Orange.** The target takes 10d6 acid damage on a failed save, or half as much damage on a successful one.\n\n**3. Yellow.** The target takes 10d6 lightning damage on a failed save, or half as much damage on a successful one.\n\n**4. Green.** The target takes 10d6 poison damage on a failed save, or half as much damage on a successful one.\n\n**5. Blue.** The target takes 10d6 cold damage on a failed save, or half as much damage on a successful one.\n\n**6. Indigo.** On a failed save, the target is restrained. It must then make a constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive; keep track of both until the target collects three of a kind.\n\n**7. Violet.** On a failed save, the target is blinded. It must then make a wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM's choosing and is no longer blinded. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) \n\n**8. Special.** The target is struck by two rays. Roll twice more, rerolling any 8.",
+      "document": "srd-2014",
+      "duration": "instantaneous",
+      "level": 7,
+      "material": false,
+      "material_consumed": false,
+      "name": "Prismatic Spray",
+      "range": 0.0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": 60.0,
+      "shape_type": "cone",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5863",
+          "parent": "srd_prismatic-spray",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Prismatic Spray",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "Eight multicolored rays of light flash from your hand. Each ray is a different color and has a different power and purpose. Each creature in a 60-foot cone must make a dexterity saving throw. For each target, roll a d8 to determine which color ray affects it.\n\n**1. Red.** The target takes 10d6 fire damage on a failed save, or half as much damage on a successful one.\n\n**2. Orange.** The target takes 10d6 acid damage on a failed save, or half as much damage on a successful one.\n\n**3. Yellow.** The target takes 10d6 lightning damage on a failed save, or half as much damage on a successful one.\n\n**4. Green.** The target takes 10d6 poison damage on a failed save, or half as much damage on a successful one.\n\n**5. Blue.** The target takes 10d6 cold damage on a failed save, or half as much damage on a successful one.\n\n**6. Indigo.** On a failed save, the target is restrained. It must then make a constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive; keep track of both until the target collects three of a kind.\n\n**7. Violet.** On a failed save, the target is blinded. It must then make a wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM's choosing and is no longer blinded. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) \n\n**8. Special.** The target is struck by two rays. Roll twice more, rerolling any 8.",
+      "name": "Prismatic Spray",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 7-го уровня (Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** На себя (60-футовый конус)\n\n**Компоненты:** В, С\n\n**Длительность:** Мгновенная\n\nВосемь разноцветных лучей света вспыхивают из вашей руки. Каждый луч имеет свой цвет и обладает особой силой и назначением. Каждое существо в 60-футовом конусе должно совершить спасбросок Ловкости. Для каждой цели бросьте к8, чтобы определить, какой цветовой луч воздействует на неё.\n\n- **_Красный._** Цель получает 10к6 урона огнём при провале спасброска или половину этого урона при успехе.\n- **_Оранжевый._** Цель получает 10к6 урона кислотой при провале спасброска или половину этого урона при успехе.\n- **_Жёлтый._** Цель получает 10к6 урона электричеством при провале спасброска или половину этого урона при успехе.\n- **_Зелёный._** Цель получает 10к6 урона ядом при провале спасброска или половину этого урона при успехе.\n- **_Синий._** Цель получает 10к6 урона холодом при провале спасброска или половину этого урона при успехе.\n- **_Индиго._** При провале спасброска цель становится опутанной. Она должна совершать спасбросок Телосложения в конце каждого своего хода. Если она успешно совершит спасбросок три раза, заклинание оканчивается. Если она провалит спасбросок три раза, она навсегда превращается в камень и получает состояние окаменевшей. Успехи и провалы не обязаны следовать подряд; отслеживайте и те, и другие, пока цель не наберёт три одного вида.\n- **_Фиолетовый._** При провале спасброска цель становится ослеплённой. Она должна совершить спасбросок Мудрости в начале вашего следующего хода. Успешный спасбросок оканчивает ослепление. При провале этого спасброска существо переносится на другой план бытия по выбору Мастера и перестаёт быть ослеплённым. (Обычно существо, находящееся на плане, который не является его домашним планом, изгоняется домой, а прочие существа обычно попадают на Астральный или Эфирный планы.)\n- **_Особый._** Цель поражается двумя лучами. Бросьте ещё дважды, перебрасывая 8.",
+      "glossary_version": "v1",
+      "name": "Радужные брызги",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

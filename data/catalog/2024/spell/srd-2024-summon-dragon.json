@@ -1,0 +1,188 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_summon-dragon",
+  "id": "o5e:srd-2024:spell:srd-2024-summon-dragon",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "94cd3e451861125ae775d78f0a090667eeeaaa974f5804d24c13c6ab9d5d3e9e",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [
+        "piercing",
+        "acid",
+        "cold",
+        "fire",
+        "lightning",
+        "poison"
+      ],
+      "duration": "1 hour",
+      "level": 5,
+      "material": true,
+      "material_consumed": true,
+      "material_cost": null,
+      "material_specified": "an object with the image of a dragon engraved on it worth 500+ GP",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_wizard",
+        "type": "classes",
+        "value": [
+          "srd-2024_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_wizard"
+      ],
+      "concentration": true,
+      "damage_types": [
+        "piercing",
+        "acid",
+        "cold",
+        "fire",
+        "lightning",
+        "poison"
+      ],
+      "desc": "You call forth a Dragon spirit. It manifests in an unoccupied space that you can see within range and uses the Draconic Spirit stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends. The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its movement to avoid danger.",
+      "document": "srd-2024",
+      "duration": "1 hour",
+      "higher_level": "Use the spell slot's level for the spell's level in the stat block.",
+      "level": 5,
+      "material": true,
+      "material_consumed": true,
+      "material_specified": "an object with the image of a dragon engraved on it worth 500+ GP",
+      "name": "Summon Dragon",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "desc": "summoned creature uses level 6 stat block",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10546",
+          "parent": "srd-2024_summon-dragon",
+          "ru_source": "derived",
+          "type": "slot_level_6"
+        },
+        {
+          "desc": "summoned creature uses level 7 stat block",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10547",
+          "parent": "srd-2024_summon-dragon",
+          "ru_source": "derived",
+          "type": "slot_level_7"
+        },
+        {
+          "desc": "summoned creature uses level 8 stat block",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10548",
+          "parent": "srd-2024_summon-dragon",
+          "ru_source": "derived",
+          "type": "slot_level_8"
+        },
+        {
+          "desc": "summoned creature uses level 9 stat block",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10549",
+          "parent": "srd-2024_summon-dragon",
+          "ru_source": "derived",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Summon Dragon",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "You call forth a Dragon spirit. It manifests in an unoccupied space that you can see within range and uses the Draconic Spirit stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends. The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its movement to avoid danger.",
+      "name": "Summon Dragon",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Вызов 5-го уровня (Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В, С, М (объект с гравировкой дракона стоимостью 500+ зм)\n\n**Длительность:** Концентрация, до 1 часа\n\nВы призываете духа дракона. Он появляется в свободном пространстве, которое вы видите в пределах дистанции, и использует блок характеристик **драконьего духа**. Существо исчезает, когда его хиты падают до 0 или когда заклинание заканчивается.\n\nСущество является союзником вам и вашим союзникам. В бою существо разделяет вашу инициативу, но действует сразу после вас. Оно подчиняется вашим устным командам (действие не требуется). Если вы не отдаёте приказов, оно совершает действие Уклонение и использует своё перемещение, чтобы избежать опасности.\n\n**_Использование ячейки более высокого уровня._** Используйте уровень ячейки для уровня заклинания в блоке характеристик.\n\n> #### Драконий дух (Draconic Spirit)\n>\n> *Большой Дракон, нейтральный*\n>\n> **КД** 14 + уровень заклинания\n>\n> **Хиты** 50 + 10 за каждый уровень заклинания выше 5-го\n>\n> **Скорость** 30 фт., полёт 60 фт., плавание 30 фт.\n>\n> | Характеристика | Значение | Мод. | Спасбросок |\n> |----------------|----------|------|------------|\n> | Сил | 19 | +4 | +4 |\n> | Лов | 14 | +2 | +2 |\n> | Тел | 17 | +3 | +3 |\n> | Инт | 10 | +0 | +0 |\n> | Мдр | 14 | +2 | +2 |\n> | Хар | 14 | +2 | +2 |\n>\n> **Сопротивления** Кислота, холод, огонь, электричество, яд\n>\n> **Иммунитеты** Очарованный, Испуганный, Отравленный\n>\n> **Чувства** Слепое зрение 30 фт., тёмное зрение 60 фт.; Пассивная Внимательность 12\n>\n> **Языки** Драконий, понимает языки, которые знаете вы\n>\n> **ПО** Нет (ОП 0; бонус мастерства равен вашему)\n>\n> ##### Свойства\n>\n> **_Общее сопротивление._** Когда вы призываете духа, выберите одно из его сопротивлений. Вы получаете сопротивление к выбранному типу урона до окончания заклинания.\n>\n> ##### Действия\n>\n> **_Мультиатака._** Дух совершает количество атак Разрыв, равное половине уровня заклинания (округляя вниз), и использует Дыхание.\n>\n> **_Разрыв. Атака оружием ближнего боя:_** Бонус равен вашему бонусу атаки заклинанием, досягаемость 10 фт. *Попадание:* 1d6 + 4 + уровень заклинания колющего урона.\n>\n> **_Дыхание. Спасбросок Ловкости:_** СЛ равна СЛ спасброска ваших заклинаний, каждое существо в конусе 30 фт. *Провал:* 2d6 урона того типа, к которому дух имеет сопротивление (ваш выбор при сотворении заклинания). *Успех:* Половина урона.",
+      "glossary_version": "v1",
+      "name": "Призыв дракона",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

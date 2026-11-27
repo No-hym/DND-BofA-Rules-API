@@ -1,0 +1,190 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_spirit-guardians",
+  "id": "o5e:srd-2024:spell:srd-2024-spirit-guardians",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "85360519ecad261b4b265bf32105390470ba99c60da93361fb85c00c4842fd72",
+    "formulas": [
+      {
+        "expression": "3d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_cleric"
+      ],
+      "concentration": true,
+      "damage_roll": "3d8",
+      "damage_types": [
+        "radiant",
+        "necrotic"
+      ],
+      "duration": "10 minutes",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a prayer scroll",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_cleric",
+        "type": "classes",
+        "value": [
+          "srd-2024_cleric"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_cleric"
+      ],
+      "concentration": true,
+      "damage_roll": "3d8",
+      "damage_types": [
+        "radiant",
+        "necrotic"
+      ],
+      "desc": "Protective spirits flit around you in a 15-foot Emanation for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish. When you cast this spell, you can designate creatures to be unaffected by it. Any other creature's Speed is halved in the Emanation, and whenever the Emanation enters a creature's space and whenever a creature enters the Emanation or ends its turn there, the creature must make a Wisdom saving throw. On a failed save, the creature takes 3d8 Radiant damage (if you are good or neutral) or 3d8 Necrotic damage (if you are evil). On a successful save, the creature takes half as much damage. A creature makes this save only once per turn.",
+      "document": "srd-2024",
+      "duration": "10 minutes",
+      "higher_level": "The damage increases by 1d8 for each spell slot level above 3.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a prayer scroll",
+      "name": "Spirit Guardians",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "damage_roll": "4d8",
+          "external_id": "10532",
+          "parent": "srd-2024_spirit-guardians",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "5d8",
+          "external_id": "10533",
+          "parent": "srd-2024_spirit-guardians",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "6d8",
+          "external_id": "10534",
+          "parent": "srd-2024_spirit-guardians",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "7d8",
+          "external_id": "10535",
+          "parent": "srd-2024_spirit-guardians",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "8d8",
+          "external_id": "10536",
+          "parent": "srd-2024_spirit-guardians",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "9d8",
+          "external_id": "10537",
+          "parent": "srd-2024_spirit-guardians",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Spirit Guardians",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "Protective spirits flit around you in a 15-foot Emanation for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish. When you cast this spell, you can designate creatures to be unaffected by it. Any other creature's Speed is halved in the Emanation, and whenever the Emanation enters a creature's space and whenever a creature enters the Emanation or ends its turn there, the creature must make a Wisdom saving throw. On a failed save, the creature takes 3d8 Radiant damage (if you are good or neutral) or 3d8 Necrotic damage (if you are evil). On a successful save, the creature takes half as much damage. A creature makes this save only once per turn.",
+      "name": "Spirit Guardians",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Вызов 3-го уровня (Жрец)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** На себя (радиус 15 футов)\n\n**Компоненты:** В, С, М (священный символ)\n\n**Длительность:** Концентрация, вплоть до 10 минут\n\nВы призываете духов для своей защиты. Они порхают вокруг вас на расстоянии 15 футов на время действия заклинания. Если вы добрый или нейтральный, их призрачная форма выглядит ангельской или фейской (на ваш выбор). Если вы злой, они выглядят демонически.\n\nСотворяя это заклинание, вы можете указать любое количество видимых вам существ, на которых оно не будет действовать. Скорость затронутого существа в области уменьшается вдвое, и когда существо впервые за ход входит в область или начинает в ней свой ход, оно должно совершить спасбросок Мудрости. При провале существо получает 3к8 урона излучением (если вы добрый или нейтральный) или 3к8 некротического урона (если вы злой). При успехе существо получает половину этого урона.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 4-го уровня или выше, урон увеличивается на 1к8 за каждый уровень ячейки выше 3-го.",
+      "glossary_version": "v1",
+      "name": "Духовные стражи",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

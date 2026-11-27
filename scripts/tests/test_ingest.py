@@ -3,6 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from scripts.ingest.cards import read_records, write_cards
 from scripts.ingest.dedupe import deduplicate
 from scripts.ingest.derived import apply_derived
 from scripts.ingest.model import Entity, Translation
@@ -24,6 +25,36 @@ def entity(identifier: str, name: str, category: str = "spell", edition: str = "
                    "compatibility": {"adapted": False}},
         translations={"en": Translation(name=name, description="English text")},
     )
+
+
+class CardLayoutTests(unittest.TestCase):
+    def test_one_file_per_record_and_backwards_compatible_reads(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            directory = root / "catalog" / "2024" / "weapon"
+            legacy = directory.with_suffix(".json")
+            legacy.parent.mkdir(parents=True)
+            legacy.write_text("[]", encoding="utf-8")
+            records = [
+                {"id": "srd-2024:weapon:longsword", "category": "weapon"},
+                {"id": "srd-2024:weapon:shortsword", "category": "weapon"},
+            ]
+            self.assertEqual(write_cards(directory, records), 2)
+            # A single weapon is a single self-contained card file.
+            card = json.loads((directory / "longsword.json").read_text(encoding="utf-8"))
+            self.assertEqual(card["id"], "srd-2024:weapon:longsword")
+            self.assertFalse(legacy.exists())
+            self.assertEqual(
+                [record["id"] for record in read_records(directory)],
+                ["srd-2024:weapon:longsword", "srd-2024:weapon:shortsword"],
+            )
+            # Rebuilding without a record removes its stale card.
+            write_cards(directory, records[:1])
+            self.assertFalse((directory / "shortsword.json").exists())
+            # Legacy aggregated arrays are still readable.
+            aggregated = root / "legacy.json"
+            aggregated.write_text(json.dumps(records), encoding="utf-8")
+            self.assertEqual(len(read_records(aggregated)), 2)
 
 
 class Open5eAdapterTests(unittest.TestCase):

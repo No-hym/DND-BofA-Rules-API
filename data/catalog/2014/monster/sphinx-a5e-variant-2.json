@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "sphinx-a5e",
+  "id": "o5e:menagerie:monster:sphinx-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:sphinx-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "ef77d1d74a0d6d7f606c66c361df65ebb04f8959a5e1a03e4abced11ede32710",
+    "formulas": [
+      {
+        "expression": "15d10+60",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 20,
+      "challenge_rating": "11",
+      "condition_immunities": "charmed, frightened, paralyzed, stunned",
+      "damage_immunities": "psychic; damage from nonmagical weapons",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "15d10+60",
+      "hit_points": 142,
+      "languages": "Celestial, Common, telepathy 120 ft.",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "ef77d1d74a0d6d7f606c66c361df65ebb04f8959a5e1a03e4abced11ede32710",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:sphinx-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The sphinx attacks twice with its claw.\"}, {\"name\": \"Claw\", \"desc\": \"Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) slashing damage.\"}, {\"name\": \"Dispel Magic (3rd-Level; V, S)\", \"desc\": \"The sphinx scours the magic from one creature  object  or magical effect within 120 feet that it can see. A spell ends if it was cast with a 3rd-level or lower spell slot. For spells using a 4th-level or higher spell slot  the sphinx makes a Wisdom ability check (DC 10 + the spells level) for each one  ending the effect on a success.\"}, {\"name\": \"Flame Strike (5th-Level; V, S)\", \"desc\": \"A column of divine flame fills a 10-foot-radius  40-foot-high cylinder within 60 feet. Creatures in the area make a DC 18 Dexterity saving throw  taking 14 (4d6) fire damage and 14 (4d6) radiant damage on a failure or half damage on a success.\"}]",
+      "armor_class": 20,
+      "bonus_actions_json": "[{\"name\": \"Speed Time (1/Day\", \"desc\": \"For 1 minute, the sphinxs Speed and flying speed are doubled, opportunity attacks against it are made with disadvantage, and it can attack three times with its claw (instead of twice) when it uses Multiattack.\"}, {\"name\": \"Planar Jaunt (1/Day)\", \"desc\": \"The sphinx targets up to eight willing creatures it can see within 300 feet. The targets are magically transported to a different place, plane of existence, demiplane, or time. This effect ends after 24 hours or when the sphinx takes a bonus action to end it. When the effect ends, the creatures reappear in their original locations, along with any items they acquired on their jaunt. While the effect lasts, the sphinx can communicate telepathically with the targets. The sphinx chooses one of the following destinations:\"}, {\"name\": \"Different Location or Plane of Existence\", \"desc\": \"The creatures appear in empty spaces of the sphinxs choice anywhere on the Material Plane or on a different plane altogether.\"}, {\"name\": \"Demiplane\", \"desc\": \"The creatures appear in empty spaces of the sphinxs choice on a demiplane. The demiplane can be up to one square mile in size. The demiplane can appear to be inside, outside, or underground, and can contain terrain, nonmagical objects, and magical effects of the sphinxs choosing. The sphinx may populate it with creatures and hazards with a total Challenge Rating equal to or less than the sphinxs Challenge Rating.\"}, {\"name\": \"Time\", \"desc\": \"The creatures appear in empty spaces of the sphinxs choosing anywhere on the Material Plane, at any time from 1,000 years in the past to 1,000 years in the future. At the Narrators discretion, changes made in the past may alter the present.\"}]",
+      "challenge_rating": "11",
+      "charisma": 20,
+      "condition_immunities": "charmed, frightened, paralyzed, stunned",
+      "constitution": 18,
+      "constitution_save": 8,
+      "cr": 11.0,
+      "damage_immunities": "psychic; damage from nonmagical weapons",
+      "dexterity": 14,
+      "dexterity_save": 6,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "15d10+60",
+      "hit_points": 142,
+      "intelligence": 18,
+      "intelligence_save": 8,
+      "languages": "Celestial, Common, telepathy 120 ft.",
+      "legendary_actions_json": "null",
+      "name": "Sphinx",
+      "page_no": 398,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "truesight 120 ft., passive Perception 20",
+      "size": "Large",
+      "skills_json": "{\"arcana\": 8, \"history\": 8, \"perception\": 10, \"religion\": 8}",
+      "special_abilities_json": "[{\"name\": \"Inscrutable\", \"desc\": \"The sphinx is immune to divination and to any effect that would sense its emotions or read its thoughts. Insight checks made to determine the sphinxs intentions are made with disadvantage.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"The sphinxs spellcasting ability is Wisdom (spell save DC 18). It can cast the following spells, requiring no material components: At will: detect evil and good, detect magic, minor illusion, spare the dying, 3/day each: dispel magic, identify, lesser restoration, remove curse, scrying, tongues, zone of truth, 1/day each: contact other plane, flame strike, freedom of movement, greater restoration, legend lore, heroes feast\"}]",
+      "speed_json": "{\"walk\": 40, \"fly\": 60}",
+      "spells_json": "null",
+      "strength": 22,
+      "type": "Monstrosity",
+      "wisdom": 22,
+      "wisdom_save": 10
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Sphinx",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-sphinx"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Sphinx",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крупное чудовище. Класс доспеха: 20. Хиты: 142 (15к10+60). Иммунитет к урону: психической энергией, damage from nonmagical weapons. Иммунитет к состояниям: очарование, испуг, паралич, оглушение. Показатель опасности: 11.",
+      "glossary_version": "derived-v1",
+      "name": "Сфинкс",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

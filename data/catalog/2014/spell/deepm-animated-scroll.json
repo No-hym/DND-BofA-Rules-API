@@ -1,0 +1,285 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_animated-scroll",
+  "id": "o5e:deepm:spell:deepm-animated-scroll",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-animated-scroll",
+      "o5e:dmag:spell:animated-scroll"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "de99dabdb9231f045233286eda55b62a458f5473b6cd33c32816823f286e6252",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_druid",
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "24 hours",
+      "level": 0,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "intricately folded paper or parchment",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "de99dabdb9231f045233286eda55b62a458f5473b6cd33c32816823f286e6252",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-animated-scroll",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "9124634b44fb3e61af99d6b286a36ce74ff2b5a9912fa38003fe26a2095fd14c",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:animated-scroll",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_druid",
+        "type": "classes",
+        "value": [
+          "srd_druid",
+          "srd_sorcerer",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_druid",
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "desc": "The paper or parchment must be folded into the shape of an animal before casting the spell. It then becomes an animated paper animal of the kind the folded paper most closely resembles. The creature uses the stat block of any beast that has a challenge rating of 0. It is made of paper, not flesh and bone, but it can do anything the real creature can do: a paper owl can fly and attack with its talons, a paper frog can swim without disintegrating in water, and so forth. It follows your commands to the best of its ability, including carrying messages to a recipient whose location you know.",
+      "document": "deepm",
+      "duration": "24 hours",
+      "higher_level": "The duration increases by 24 hours at 5th level (48 hours), 11th level (72 hours), and 17th level (96 hours).",
+      "level": 0,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "intricately folded paper or parchment",
+      "name": "Animated Scroll",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2352",
+          "parent": "deepm_animated-scroll",
+          "type": "default"
+        },
+        {
+          "external_id": "2353",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_1"
+        },
+        {
+          "external_id": "2354",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_2"
+        },
+        {
+          "external_id": "2355",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_3"
+        },
+        {
+          "external_id": "2356",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_4"
+        },
+        {
+          "duration": "48 hours",
+          "external_id": "2357",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_5"
+        },
+        {
+          "duration": "48 hours",
+          "external_id": "2358",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_6"
+        },
+        {
+          "duration": "48 hours",
+          "external_id": "2359",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_7"
+        },
+        {
+          "duration": "48 hours",
+          "external_id": "2360",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_8"
+        },
+        {
+          "duration": "48 hours",
+          "external_id": "2361",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_9"
+        },
+        {
+          "duration": "48 hours",
+          "external_id": "2362",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_10"
+        },
+        {
+          "duration": "72 hours",
+          "external_id": "2363",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_11"
+        },
+        {
+          "duration": "72 hours",
+          "external_id": "2364",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_12"
+        },
+        {
+          "duration": "72 hours",
+          "external_id": "2365",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_13"
+        },
+        {
+          "duration": "72 hours",
+          "external_id": "2366",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_14"
+        },
+        {
+          "duration": "72 hours",
+          "external_id": "2367",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_15"
+        },
+        {
+          "duration": "72 hours",
+          "external_id": "2368",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_16"
+        },
+        {
+          "duration": "96 hours",
+          "external_id": "2369",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_17"
+        },
+        {
+          "duration": "96 hours",
+          "external_id": "2370",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_18"
+        },
+        {
+          "duration": "96 hours",
+          "external_id": "2371",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_19"
+        },
+        {
+          "duration": "96 hours",
+          "external_id": "2372",
+          "parent": "deepm_animated-scroll",
+          "type": "player_level_20"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Animated Scroll",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "The paper or parchment must be folded into the shape of an animal before casting the spell. It then becomes an animated paper animal of the kind the folded paper most closely resembles. The creature uses the stat block of any beast that has a challenge rating of 0. It is made of paper, not flesh and bone, but it can do anything the real creature can do: a paper owl can fly and attack with its talons, a paper frog can swim without disintegrating in water, and so forth. It follows your commands to the best of its ability, including carrying messages to a recipient whose location you know.",
+      "name": "Animated Scroll",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Бумага или пергамент должны быть сложены в форме животного перед творением заклинания. Затем он становится анимированным бумажным животным вида, которого свёрнутая бумага наиболее близко напоминает. Существо использует блок характеристик любого зверя, который имеет рейтинг опасности 0. Оно сделано из бумаги, не плоти и кости, но оно может делать всё, что реальное существо может делать: бумажная сова может летать и атаковать её когтями, бумажная лягушка может плавать без разложения в воде, и так далее. Оно следует вашим командам как можно лучше, включая ношение сообщений получателю, чьё местоположение вы знаете.",
+      "glossary_version": "v1",
+      "name": "Анимированный свиток",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

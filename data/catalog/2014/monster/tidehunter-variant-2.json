@@ -1,0 +1,136 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tidehunter",
+  "id": "o5e:tob2:monster:tidehunter-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:tidehunter"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "2554ffcdfe3d852143f46d35e3e7f186246fedd973c11d94e3170e5d4fe4b951",
+    "formulas": [
+      {
+        "expression": "14d10+56",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "challenge_rating": "6",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "14d10+56",
+      "hit_points": 133,
+      "languages": "—",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "2554ffcdfe3d852143f46d35e3e7f186246fedd973c11d94e3170e5d4fe4b951",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:tidehunter",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The tidehunter makes three attacks, only one of which can be with its net. It can use Reel in place of two claw attacks.\"}, {\"name\": \"Claw\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 15). The tidehunter has two claws, each of which can grapple only one target.\", \"attack_bonus\": 7, \"damage_dice\": \"2d8+4\"}, {\"name\": \"Net\", \"desc\": \"Ranged Weapon Attack: +7 to hit, range 20/60 ft., one target. Hit: A Large or smaller creature hit by the net is restrained until it is freed. The net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 15 Strength check, freeing itself or another creature within its reach on a success. Dealing 15 slashing damage to the net (AC 13) also frees the creature without harming it, ending the effect and destroying the net.\"}, {\"name\": \"Reel\", \"desc\": \"The tidehunter pulls one creature restrained by its net up to 20 feet straight toward it. If the target is within 10 feet of the tidehunter at the end of this pull, the tidehunter can make one claw attack against it as a bonus action.\"}]",
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "6",
+      "charisma": 5,
+      "constitution": 18,
+      "cr": 6.0,
+      "desc": "Emerging from the surf, this massive crab-like beast has a hard, blue shell covered in barnacles. It holds a net of seaweed between its barbed claws, and a look of intelligence gleams in its elliptical, crimson eyes._  \n**Lurkers in the Shallows.** The tidehunter is an ambush hunter, using its coloration to surprise prey that venture into the shallows. Tidehunters are normally found along coasts with plentiful beaches and underwater vegetation, but some can be found in large lakes and river systems close to the open ocean. Most tidehunters are more than 20 feet across and are powerful enough to overcome a hunter shark or small whale with ease. They have few natural predators, their intelligence and guile making them challenging prey.  \n**Net Weavers.** Tidehunters can weave nets out of kelp, seaweed, and other fibrous plant material with ease, constructing nets in a matter of minutes with the weirdly hooked barbs on their claws. Their nets are strong and can be thrown with great accuracy over a large distance. Indeed, even those on dry land are not immune to the tidehunter’s attacks, and more than one human has been hauled into the surging tide from the apparent safety of the beach.  \n**Fishing Buddies.** While fisherfolk and tidehunters are normally at odds, a tidehunter will sometimes enter into an unspoken agreement with a group of fisherfolk, sharing the spoils of the sea while keeping out of each other’s way.",
+      "dexterity": 14,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "14d10+56",
+      "hit_points": 133,
+      "intelligence": 5,
+      "languages": "—",
+      "legendary_actions_json": "null",
+      "name": "Tidehunter",
+      "page_no": 348,
+      "perception": 4,
+      "reactions_json": "[{\"name\": \"Entangle Weapon\", \"desc\": \"When the tidehunter is targeted by a melee weapon attack, the attacker must succeed on a DC 16 Dexterity saving throw or miss the attack as the tidehunter uses its net to interfere with the weapon. The tidehunter must have an empty net to use this reaction.\"}]",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 14",
+      "size": "Huge",
+      "skills_json": "{\"perception\": 4, \"stealth\": 5}",
+      "special_abilities_json": "[{\"name\": \"Amphibious\", \"desc\": \"The tidehunter can breathe air and water.\"}, {\"name\": \"Net Maker\", \"desc\": \"With 1 minute of work, the tidehunter can create a net out of seaweed, rope, or similar material. The tidehunter typically carries 2 nets.\"}, {\"name\": \"Underwater Camouflage\", \"desc\": \"The tidehunter has advantage on Dexterity (Stealth) checks made while underwater.\"}]",
+      "speed_json": "{\"swim\": 40, \"walk\": 20}",
+      "spells_json": "null",
+      "strength": 19,
+      "type": "Monstrosity",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Tidehunter",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-tidehunter"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "Emerging from the surf, this massive crab-like beast has a hard, blue shell covered in barnacles. It holds a net of seaweed between its barbed claws, and a look of intelligence gleams in its elliptical, crimson eyes._  \n**Lurkers in the Shallows.** The tidehunter is an ambush hunter, using its coloration to surprise prey that venture into the shallows. Tidehunters are normally found along coasts with plentiful beaches and underwater vegetation, but some can be found in large lakes and river systems close to the open ocean. Most tidehunters are more than 20 feet across and are powerful enough to overcome a hunter shark or small whale with ease. They have few natural predators, their intelligence and guile making them challenging prey.  \n**Net Weavers.** Tidehunters can weave nets out of kelp, seaweed, and other fibrous plant material with ease, constructing nets in a matter of minutes with the weirdly hooked barbs on their claws. Their nets are strong and can be thrown with great accuracy over a large distance. Indeed, even those on dry land are not immune to the tidehunter’s attacks, and more than one human has been hauled into the surging tide from the apparent safety of the beach.  \n**Fishing Buddies.** While fisherfolk and tidehunters are normally at odds, a tidehunter will sometimes enter into an unspoken agreement with a group of fisherfolk, sharing the spoils of the sea while keeping out of each other’s way.",
+      "name": "Tidehunter",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Выходя из прибоя, этот массивный зверь, похожий на краба, имеет твёрдую синюю раковину, покрытую ракушками. Он держит сеть из морских водорослей между своими колючими когтями, и взгляд разума сияет в его эллиптических малиновых глазах.\n\n**Скрывающиеся на мелководье.** Охотник прилива — засадный охотник, использующий свою окраску, чтобы удивлять добычу, которая отправляется на мелководье. Охотники прилива обычно находятся вдоль побережий с обильными пляжами и подводной растительностью, но некоторых можно найти в больших озёрах и речных системах близко к открытому океану. Большинство охотников прилива более 20 футов в поперечнике и достаточно могущественны, чтобы преодолеть охотничью акулу или маленького кита с лёгкостью. У них мало естественных врагов, их разум и хитрость делают их сложной добычей.\n\n**Ткачи сетей.** Охотники прилива могут ткать сети из бурых водорослей, морских водорослей и другого волокнистого растительного материала с лёгкостью, конструируя сети за несколько минут с зацепленными шипами на их когтях. Их сети прочны и могут быть брошены с большой точностью на большое расстояние. Действительно, даже те, кто на сухой земле, не невосприимчивы к атакам охотника прилива, и более одного человека было утащено в набегающий прилив из видимой безопасности пляжа.\n\n**Друзья по рыбалке.** Хотя рыбаки и охотники прилива обычно в ссоре, охотник прилива иногда вступает в негласное соглашение с группой рыбаков, разделяя добычи моря, держась друг от друга подальше.",
+      "glossary_version": "v1",
+      "name": "Охотник прилива",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,159 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_thunderclap",
+  "id": "o5e:deepm:spell:deepm-thunderclap",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-thunderclap",
+      "o5e:dmag:spell:thunderclap"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "9b55aaca251cd1fa690b611d78ab4fcedbc8af18b40637138ed42b5509e8cf79",
+    "formulas": [
+      {
+        "expression": "8d4",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "8d4",
+      "damage_types": [
+        "thunder"
+      ],
+      "duration": "instantaneous",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": false
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "9b55aaca251cd1fa690b611d78ab4fcedbc8af18b40637138ed42b5509e8cf79",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-thunderclap",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "a7666dc25f89b66c1800e8dd50c74c36bbcd91dd21301fc2b7fa362eb9251e7b",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:thunderclap",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "8d4",
+      "damage_types": [
+        "thunder"
+      ],
+      "desc": "You clap your hands, emitting a peal of thunder. Each creature within 20 feet of you takes 8d4 thunder damage and is deafened for 1d8 rounds, or it takes half as much damage and isn’t deafened if it makes a successful Constitution saving throw. On a saving throw that fails by 5 or more, the creature is also stunned for 1 round.\n\nThis spell doesn’t function in an area affected by a [silence](https://api.open5e.com/spells/silence) spell. Very brittle material such as crystal might be shattered if it’s within range, at the GM’s discretion; a character holding such an object can protect it from harm by making a successful Dexterity saving throw.",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "name": "Thunderclap",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": false
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4327",
+          "parent": "deepm_thunderclap",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Thunderclap",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You clap your hands, emitting a peal of thunder. Each creature within 20 feet of you takes 8d4 thunder damage and is deafened for 1d8 rounds, or it takes half as much damage and isn’t deafened if it makes a successful Constitution saving throw. On a saving throw that fails by 5 or more, the creature is also stunned for 1 round.\n\nThis spell doesn’t function in an area affected by a [silence](https://api.open5e.com/spells/silence) spell. Very brittle material such as crystal might be shattered if it’s within range, at the GM’s discretion; a character holding such an object can protect it from harm by making a successful Dexterity saving throw.",
+      "name": "Thunderclap",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы хлопаете в ладоши, издающий гул грома. Каждое существо в пределах 20 футов от вас получает 8к4 урона громом и оглушено на 1к8 раундов, или оно получает наполовину меньше урона и не оглушено, если оно делает успешный спасбросок Телосложения. На спасбросок, который проваливается на 5 или более, существо тоже в шоке на 1 раунд.\n\nЭто заклинание не функционирует в области действия заклинания молчание. Очень хрупкие материалы, такие как хрусталь могут быть разрушены, если она находится в пределах дистанции, по усмотрению мастера; персонаж, держащий такой объект может защитить его от вреда, совершив успешный спасбросок Ловкости.",
+      "glossary_version": "v1",
+      "name": "Громовой хлопок",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

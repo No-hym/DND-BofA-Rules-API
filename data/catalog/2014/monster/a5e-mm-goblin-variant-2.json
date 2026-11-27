@@ -1,0 +1,204 @@
+{
+  "attribution": "Title: Monstrous Menagerie; Author: Paul Hughes; Publisher: en-publishing; Source: https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e; License: OGL-1.0a (https://open5e.com/legal); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "a5e-mm",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "a5e-mm_goblin",
+  "id": "o5e:a5e-mm:creature:a5e-mm-goblin-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-mm:creature:a5e-mm-goblin"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "807f609d546e114c9ade9981350402f618f6b31a6690ab5b875a49a0fcf7f77c",
+    "formulas": [
+      {
+        "expression": "3d6",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 10,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 8,
+      "ability_score_wisdom": 10,
+      "alignment": "chaotic evil",
+      "armor_class": 13,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60.0,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "3d6",
+      "hit_points": 10,
+      "initiative_bonus": null,
+      "languages": [
+        "common",
+        "goblin"
+      ],
+      "languages_desc": "Common, Goblin",
+      "normal_sight_range": 10560.0,
+      "passive_perception": 10,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "small",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30.0
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-mm",
+        "content_hash": "807f609d546e114c9ade9981350402f618f6b31a6690ab5b875a49a0fcf7f77c",
+        "edition": "2014",
+        "id": "o5e:a5e-mm:creature:a5e-mm-goblin",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:a5e-mm"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 10,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 8,
+      "ability_score_wisdom": 10,
+      "alignment": "chaotic evil",
+      "armor_class": 13,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "darkvision_range": 60.0,
+      "document": "a5e-mm",
+      "hit_dice": "3d6",
+      "hit_points": 10,
+      "hover": false,
+      "languages": [
+        "common",
+        "goblin"
+      ],
+      "languages_desc": "Common, Goblin",
+      "name": "Goblin",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560.0,
+      "passive_perception": 10,
+      "size": "small",
+      "skill_bonus_stealth": 3,
+      "type": "humanoid",
+      "walk": 30.0,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "a5e-mm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e",
+      "publication_date": "2021-12-12T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Monstrous Menagerie"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "The goblin takes the Disengage or Hide action.",
+          "desc_ru": "Действие «Нимбле Ескапе»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_goblin_nimble-escape",
+          "name": "Nimble Escape",
+          "name_ru": "Нимбле Ескапе",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_goblin",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
+          "desc_ru": "Атака оружием дальнего боя: +3 к попаданию, дистанция 80/320 фт., одна цель. Попадание: 4 (1к6+1) колющего урона.",
+          "external_id": "a5e-mm_goblin_shortbow",
+          "name": "Shortbow",
+          "name_ru": "Короткий лук",
+          "order_in_statblock": 1,
+          "parent": "a5e-mm_goblin",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +3 к попаданию, досягаемость 5 фт., одна цель. Попадание: 4 (1к6+1) колющего урона.",
+          "external_id": "a5e-mm_goblin_shortsword",
+          "name": "Shortsword",
+          "name_ru": "Короткий меч",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_goblin",
+          "ru_source": "template"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "Goblin",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    },
+    "variant_of": "o5e:bfrd:creature:bfrd-goblin"
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-mm",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Goblin",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Маленький Гуманоид (гоблиноид), Нейтрально-злой*\n\n- **Класс Доспеха:** 15 (кожаный доспех, щит)\n- **Хиты:** 7 (2к6)\n- **Скорость:** 30 фт.\n\n| СИЛ      | ЛОВ      | ТЕЛ      | ИНТ      | МДР      | ХАР      |\n|:---:|:---:|:---:|:---:|:---:|:---:|\n| 8 (-1)   | 14 (+2)  | 10 (+0)  | 10 (+0)  | 8 (-1)   | 8 (-1)   |\n\n- **Навыки:** Скрытность +6\n- **Чувства:** тёмное зрение 60 фт.; Пассивная Внимательность 9\n- **Языки:** Общий, Гоблинский\n- **Показатель опасности:** 1/4 (50 ОО)",
+      "glossary_version": "v1",
+      "name": "Гоблин",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

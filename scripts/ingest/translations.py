@@ -194,7 +194,7 @@ def from_legacy_catalog(root: Path, memory: TranslationMemory) -> int:
                 data = json.load(handle)
         else:
             data = _load_json(path)
-        for record in data if isinstance(data, list) else []:
+        for record in data if isinstance(data, list) else [data] if isinstance(data, dict) else []:
             en = record.get("translations", {}).get("en") or {}
             ru = record.get("translations", {}).get("ru") or {}
             if not ru or not CYRILLIC.search(ru.get("name", "")):

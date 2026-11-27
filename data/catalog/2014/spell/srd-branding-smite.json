@@ -1,0 +1,198 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_branding-smite",
+  "id": "o5e:srd-2014:spell:srd-branding-smite",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-branding-smite"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "55b1e3fc3c9ff92734bd3a4b616c62259d639c2c1fe10e61483ed6514f090cb4",
+    "formulas": [
+      {
+        "expression": "2d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "radiant"
+      ],
+      "duration": "1 minute",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0.0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "55b1e3fc3c9ff92734bd3a4b616c62259d639c2c1fe10e61483ed6514f090cb4",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-branding-smite",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "radiant"
+      ],
+      "desc": "The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 2d6 radiant damage to the target, which becomes visible if it's invisible, and the target sheds dim light in a 5-foot radius and can't become invisible until the spell ends.",
+      "document": "srd-2014",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Branding Smite",
+      "range": 0.0,
+      "range_text": "Self",
+      "ritual": false,
+      "school": "evocation",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5156",
+          "parent": "srd_branding-smite",
+          "type": "default"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "10774",
+          "parent": "srd_branding-smite",
+          "type": "slot_level_3"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "10775",
+          "parent": "srd_branding-smite",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "5d6",
+          "external_id": "10776",
+          "parent": "srd_branding-smite",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "6d6",
+          "external_id": "10777",
+          "parent": "srd_branding-smite",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "7d6",
+          "external_id": "10778",
+          "parent": "srd_branding-smite",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "8d6",
+          "external_id": "10779",
+          "parent": "srd_branding-smite",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "9d6",
+          "external_id": "10780",
+          "parent": "srd_branding-smite",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "Branding Smite",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 2d6 radiant damage to the target, which becomes visible if it's invisible, and the target sheds dim light in a 5-foot radius and can't become invisible until the spell ends.",
+      "name": "Branding Smite",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 2-го уровня (Паладин)*\n\n**Время накладывания:** Бонусное действие\n\n**Дистанция:** На себя\n\n**Компоненты:** В\n\n**Длительность:** Концентрация, вплоть до 1 минуту\n\nВ следующий раз, когда вы попадёте по существу атакой оружием до окончания этого заклинания, оружие сверкает астральным сиянием при ударе. Атака наносит цели дополнительно 2к6 урона излучением. Кроме того, цель становится видимой, если была невидимой, и излучает тусклый свет в радиусе 5 футов, и не может стать невидимой, пока заклинание не закончится.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 3-го уровня или выше, дополнительный урон увеличивается на 1к6 за каждый уровень ячейки выше 2-го.",
+      "glossary_version": "v1",
+      "name": "Клеймящая кара",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,135 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "behir-magus-a5e",
+  "id": "o5e:menagerie:monster:behir-magus-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:behir-magus-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b6a6e0a878c26dfc0b3af67e9555bbaa65101c72ff7b218b1320b3904c1ee601",
+    "formulas": [
+      {
+        "expression": "16d12+64",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 16,
+      "challenge_rating": "12",
+      "condition_immunities": "",
+      "damage_immunities": "lightning",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "16d12+64",
+      "hit_points": 168,
+      "languages": "Common, Draconic",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "b6a6e0a878c26dfc0b3af67e9555bbaa65101c72ff7b218b1320b3904c1ee601",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:behir-magus-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The behir makes a bite attack and then a constrict attack.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 24 (3d12 + 5) piercing damage. If the target is a Medium or smaller creature grappled by the behir  and the behir has not swallowed anyone else  the target is swallowed. A swallowed creature is blinded and restrained  it has total cover from attacks from outside the behir  and it takes 21 (6d6) acid damage at the start of each of the behirs turns.\"}, {\"name\": \"If a swallowed creature deals 30 or more damage to the behir in a single turn, or if the behir dies, the behir vomits up the creature\", \"desc\": \"\"}, {\"name\": \"Constrict\", \"desc\": \"Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) bludgeoning damage. The target is grappled (escape DC 17) and restrained while grappled. The behir can grapple two creatures at once.\"}, {\"name\": \"Lightning Breath (Recharge 5-6)\", \"desc\": \"The behir breathes a line of lightning 5 feet wide and 20 feet long. Creatures in the area make a DC 16 Dexterity saving throw  taking 56 (16d6) lightning damage on a failed save or half damage on a success.\"}]",
+      "armor_class": 16,
+      "bonus_actions_json": "null",
+      "challenge_rating": "12",
+      "charisma": 12,
+      "constitution": 18,
+      "cr": 12.0,
+      "damage_immunities": "lightning",
+      "dexterity": 14,
+      "dexterity_save": 6,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "16d12+64",
+      "hit_points": 168,
+      "intelligence": 10,
+      "intelligence_save": 4,
+      "languages": "Common, Draconic",
+      "legendary_actions_json": "null",
+      "name": "Behir Magus",
+      "reactions_json": "[{\"name\": \"Vengeful Breath (1/Day\", \"desc\": \"When struck by a melee attack, the behir immediately recharges and uses Lightning Breath, including the attacker in the area of effect.\"}, {\"name\": \"Blindness (1/Day)\", \"desc\": \"When struck by a ranged or area attack by a creature within 60 feet that it can see, the behir forces the attacker to make a DC 13 Constitution saving throw. On a failure, the creature is magically blinded for 1 minute. The creature can repeat the saving throw at the end of each of its turns.\"}, {\"name\": \"Invisibility (1/Day)\", \"desc\": \"When damaged by an attack, the behir magically becomes invisible for 1 minute or until it makes an attack.\"}, {\"name\": \"Drain Charge (1/Day)\", \"desc\": \"When subjected to lightning damage, the behir takes no damage, and the attacker or caster takes necrotic damage equal to the lightning damage dealt.\"}]",
+      "route": "monsters/",
+      "senses": "darkvision 90 ft., passive Perception 17",
+      "size": "Huge",
+      "skills_json": "{\"athletics\": 9, \"perception\": 7, \"stealth\": 6}",
+      "special_abilities_json": "[{\"name\": \"Spider Climb\", \"desc\": \"The behir can use its climb speed even on difficult surfaces and upside down on ceilings.\"}, {\"name\": \"Serpentine\", \"desc\": \"The behir can move through a space as narrow as 5 feet wide, vertical or horizontal, at full speed, without squeezing.\"}]",
+      "speed_json": "{\"walk\": 60, \"climb\": 40, \"swim\": 40}",
+      "spells_json": "null",
+      "strength": 20,
+      "type": "Monstrosity",
+      "wisdom": 16,
+      "wisdom_save": 7
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Behir Magus",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-behir-magus"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Behir Magus",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Огромное чудовище. Класс доспеха: 16. Хиты: 168 (16к12+64). Иммунитет к урону: электричеством. Показатель опасности: 12.",
+      "glossary_version": "derived-v1",
+      "name": "Бехир Магус",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

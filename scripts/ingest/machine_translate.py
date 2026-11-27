@@ -59,46 +59,46 @@ def translate_catalog(root: Path, endpoint: str, model: str, edition: str,
                       limit: int, glossary: dict[str, str]) -> int:
     """Fill missing RU translations in the published layer; English remains untouched."""
     translated = 0
-    for path in sorted((root / "catalog" / edition).glob("*.json")):
-        if path.name.endswith(".schema.json"):
-            continue
-        records = json.loads(path.read_text(encoding="utf-8"))
-        batch: list[tuple[dict[str, Any], dict[str, str]]] = []
+    # Card layout: one record per file under catalog/<edition>/<category>/.
+    # Legacy aggregated files (a JSON array) are handled record by record too.
+    paths = sorted(
+        path for path in (root / "catalog" / edition).rglob("*.json")
+        if not path.name.endswith(".schema.json")
+    )
+    for path in paths:
+        if translated >= limit:
+            break
+        data = json.loads(path.read_text(encoding="utf-8"))
+        records = data if isinstance(data, list) else [data]
+        changed = False
         for record in records:
             if "ru" in record["translations"] or translated >= limit:
                 continue
             en = record["translations"]["en"]
-            batch.append((record, {"name": en["name"], "description": en.get("description", "")}))
-            if len(batch) >= 20:
-                translated += _flush(path, records, batch, endpoint, model, glossary)
-                batch = []
-            if translated >= limit:
-                break
-        if batch:
-            translated += _flush(path, records, batch, endpoint, model, glossary)
-        if translated >= limit:
-            break
+            item = {"name": en["name"], "description": en.get("description", "")}
+            translated += _flush(record, item, endpoint, model, glossary)
+            changed = True
+        if changed:
+            payload = records if isinstance(data, list) else records[0]
+            path.write_text(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+                            encoding="utf-8")
     return translated
 
 
-def _flush(path: Path, records: list[dict[str, Any]],
-           batch: list[tuple[dict[str, Any], dict[str, str]]],
-           endpoint: str, model: str, glossary: dict[str, str]) -> int:
-    results = translate_batch([item for _, item in batch], endpoint, model, glossary)
-    count = 0
-    for (record, source), result in zip(batch, results):
-        name = str(result.get("name", "")).strip()
-        description = str(result.get("description", "")).strip()
-        if not CYRILLIC.search(name) or (source["description"] and not CYRILLIC.search(description)):
-            continue
-        record["translations"]["ru"] = Translation(
-            name=name, description=description, status="machine",
-            source_version=record.get("version", ""), glossary_version="machine",
-        ).to_json()
-        record["mechanics"]["translation_provenance"] = {
-            "source": f"machine-translation:{model}", "license": "derivative of source license",
-            "attribution": "Machine translation; requires editorial review", "status": "machine",
-        }
-        count += 1
-    path.write_text(json.dumps(records, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
-    return count
+def _flush(record: dict[str, Any], source: dict[str, str], endpoint: str, model: str,
+           glossary: dict[str, str]) -> int:
+    """Translate one record in place; the caller persists its card file."""
+    (result,) = translate_batch([source], endpoint, model, glossary)
+    name = str(result.get("name", "")).strip()
+    description = str(result.get("description", "")).strip()
+    if not CYRILLIC.search(name) or (source["description"] and not CYRILLIC.search(description)):
+        return 0
+    record["translations"]["ru"] = Translation(
+        name=name, description=description, status="machine",
+        source_version=record.get("version", ""), glossary_version="machine",
+    ).to_json()
+    record["mechanics"]["translation_provenance"] = {
+        "source": f"machine-translation:{model}", "license": "derivative of source license",
+        "attribution": "Machine translation; requires editorial review", "status": "machine",
+    }
+    return 1

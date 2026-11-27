@@ -1,0 +1,260 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob_serpopard",
+  "id": "o5e:tob:creature:tob-serpopard",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creature:tob-2023-serpopard",
+      "o5e:tob:creature:tob-serpopard"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "cebfeef1bc710512315953da1834bd5eee987587f827b32b61332c1eb61ac69e",
+    "formulas": [
+      {
+        "expression": "10d10+30",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 17,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "4.000",
+      "climb": null,
+      "condition_immunities": [
+        "poisoned"
+      ],
+      "damage_immunities": [],
+      "damage_resistances": [
+        "poison"
+      ],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [
+        "grassland",
+        "swamp"
+      ],
+      "fly": null,
+      "hit_dice": "10d10+30",
+      "hit_points": 85,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": 30,
+      "walk": 40
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "cebfeef1bc710512315953da1834bd5eee987587f827b32b61332c1eb61ac69e",
+        "edition": "2014",
+        "id": "o5e:tob:creature:tob-serpopard",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "c1a603623a51bf2cbb833c7fadecfd266d7d3b0eb9df69cf6b373062c44aee74",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creature:tob-2023-serpopard",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 17,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "4.000",
+      "condition_immunities": [
+        "poisoned"
+      ],
+      "condition_immunities_display": "poisoned",
+      "damage_resistances": [
+        "poison"
+      ],
+      "damage_resistances_display": "poison",
+      "darkvision_range": 60,
+      "document": "tob",
+      "environments": [
+        "grassland",
+        "swamp"
+      ],
+      "hit_dice": "10d10+30",
+      "hit_points": 85,
+      "hover": false,
+      "languages_desc": "-",
+      "name": "Serpopard",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "size": "large",
+      "skill_bonus_perception": 3,
+      "skill_bonus_stealth": 5,
+      "swim": 30,
+      "type": "beast",
+      "walk": 40,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +5 к попаданию, досягаемость 10 фт., одна цель. Попадание: 10 (2к6+3) колющего урона.",
+          "external_id": "tob_serpopard_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "tob_serpopard",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +5 к попаданию, досягаемость 5 фт., одна цель. Попадание: 12 (2к8+3) рубящего урона.",
+          "external_id": "tob_serpopard_claw",
+          "name": "Claw",
+          "name_ru": "Коготь",
+          "order_in_statblock": 2,
+          "parent": "tob_serpopard",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The serpopard makes two bite attacks and two claw attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_serpopard_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob_serpopard",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The serpopard releases a jet of foul-smelling musk in a 15-foot cone that lasts for 2d4 rounds. Creatures in the cone must make DC 13 Dexterity saving throws. If the save succeeds, the creature moves to the nearest empty space outside the cone; if the saving throw fails, the creature becomes drenched in musk. A creature that enters the area of the cone while the musk persists is saturated automatically. A creature saturated in musk is poisoned. In addition, every creature that starts its turn within 5 feet of a saturated creature must make a successful DC 15 Constitution saving throw or be poisoned until the start of its next turn. Serpopard musk (and the poisoning) wear off naturally in 1d4 hours. A saturated creature can end the effect early by spending 20 minutes thoroughly washing itself, its clothes, and its equipment with water and soap.",
+          "desc_ru": "Действие «Муск»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_serpopard_musk",
+          "name": "Musk",
+          "name_ru": "Муск",
+          "order_in_statblock": 3,
+          "parent": "tob_serpopard",
+          "ru_source": "derived",
+          "uses_type": "RECHARGE_AFTER_REST"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The serpopard can take any number of reactions in a round, but it can react only once to each trigger.",
+          "desc_ru": "Особенность «Синуоус Стрикебак». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_serpopard_sinuous-strikeback",
+          "name": "Sinuous Strikeback",
+          "name_ru": "Синуоус Стрикебак",
+          "parent": "tob_serpopard",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The serpopard gains an additional +2 to Stealth (+7 in total) in sand or swamp terrain.",
+          "desc_ru": "Особенность «Свамп Стеалт». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_serpopard_swamp-stealth",
+          "name": "Swamp Stealth",
+          "name_ru": "Свамп Стеалт",
+          "parent": "tob_serpopard",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Serpopard",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Serpopard",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Эти пятнистые и чешуйчатые четвероногих работать на голых львиных лапы, а их головы кошек окуней на вершине извилистой, змеиной шеи.\n\n**Качаются, змееподобные кошки.** Серпопарды имеют длину 13 футов и вес 600 фунтов., с небольшим половым диморфизмом. У них кошачьи тел, но длинные, змеевидные шеи увенчаны неясно драконов головы. Их голые лапы злобно изогнут, выдвижными когти. Шея серпарда находится в постоянном движении, покачиваясь, как кобра, позволяет ему отслеживать врагов со всех сторон и нанести удар в неожиданных направлениях.\n\n**Легко отвлекается.** Серпопарды вспыльчивых хищников и падальщиков, и, как известно, иногда прибегают к каннибализации своих слабейший соплеменник. Они активно охотятся на гуманоидов, когда это возможно, а также нападают на других хищников, чтобы украсть их убийство — или к убийству и съесть хищников, а затем взять их убивает. Серпопарды однако, не цепкие охотники. Они могут отвлекаться от погони появлением лёгкой пищи.\n\n**Мускус железы.** В некоторых культурах, серпопарда шкуры и мускусные железы ценятся для использования в моде и духах. Изображения этих странных животных регулярно появляются в южных гробницах иконография и убранства храмов.",
+      "glossary_version": "v1",
+      "name": "Серпопард",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

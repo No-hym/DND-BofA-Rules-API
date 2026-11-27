@@ -1,0 +1,454 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "class",
+  "edition": "2014",
+  "external_id": "bfrd_druid",
+  "id": "o5e:bfrd:characterclass:bfrd-druid",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:characterclass:bfrd-druid",
+      "o5e:srd-2014:characterclass:srd-druid"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7ab6d159af3971394fd8fa1d286d3fcdeaa14994f0eb25413ea2fc58b57e612b",
+    "formulas": [
+      {
+        "expression": "D8",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "FULL",
+      "hit_dice": "D8",
+      "primary_abilities": [],
+      "saving_throws": [
+        "int",
+        "wis"
+      ],
+      "subclass_of": null
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "7ab6d159af3971394fd8fa1d286d3fcdeaa14994f0eb25413ea2fc58b57e612b",
+        "edition": "2014",
+        "id": "o5e:bfrd:characterclass:bfrd-druid",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "b9276dd1acdc98ddd344369370b8c310dcad333d518b43a61b52c74e883ddaf7",
+        "edition": "2014",
+        "id": "o5e:srd-2014:characterclass:srd-druid",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "FULL",
+      "document": "bfrd",
+      "hit_dice": "D8",
+      "name": "Druid",
+      "saving_throws": [
+        "int",
+        "wis"
+      ]
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "The druid magically transforms into a Medium or smaller Beast that has a challenge rating no higher than its own, or back into its true form, which is Humanoid. Any equipment it is wearing or carrying transforms with it. It reverts to its true form if it dies. In a new form, the druid retains its HP, ability to speak, proficiencies, and INT, WIS, and CHA modifiers, as well as this bonus action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.",
+          "desc_ru": "Действие «Чанге Шапе»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_druid_change-shape",
+          "name": "Change Shape",
+          "name_ru": "Чанге Шапе",
+          "order_in_statblock": 0,
+          "parent": "bfrd_druid",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 7 (1d8+3) bludgeoning damage plus 5 (2d4) poison damage.",
+          "desc_ru": "Атака оружием ближнего боя: +5 к попаданию, досягаемость 5 фт., одна цель. Попадание: 7 (1к8+3) дробящего урона плюс 5 (2к4) ядовитого урона.",
+          "external_id": "bfrd_druid_flowering-quarterstaff",
+          "name": "Flowering Quarterstaff",
+          "name_ru": "Фловеринг боевой посох",
+          "order_in_statblock": 1,
+          "parent": "bfrd_druid",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The druid makes two Flowering Quarterstaff or Poison Bolt attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_druid_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "bfrd_druid",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "_Ranged Spell Attack:_ +5 to hit, range 60 ft., one target. _Hit:_ 10 (3d4+3) poison damage.",
+          "desc_ru": "Атака заклинанием дальнего боя: +5 к попаданию, дистанция 60 фт., одна цель. Попадание: 10 (3к4+3) ядовитого урона.",
+          "external_id": "bfrd_druid_poison-bolt",
+          "name": "Poison Bolt",
+          "name_ru": "Ядовитый Болт",
+          "order_in_statblock": 2,
+          "parent": "bfrd_druid",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The druid casts one of the following spells, using WIS as the spellcasting ability (spell save DC 13).\n\n- **At Will:** druidcraft, speak with animals\n- **3/Day Each:** _entangle_, _cure wounds_, _thunderwave_\n- **2/Day Each:** _barkskin_, _spike growth_",
+          "desc_ru": "Действие «Спеллкастинг»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_druid_spellcasting",
+          "name": "Spellcasting",
+          "name_ru": "Спеллкастинг",
+          "order_in_statblock": 3,
+          "parent": "bfrd_druid",
+          "ru_source": "derived"
+        }
+      ],
+      "features": [
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_slots-1st",
+          "feature_type": "SPELL_SLOTS",
+          "level": 1,
+          "name": "1st",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_cantrips-known",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Cantrips Known",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You know Druidic, the secret language of druids. You can speak the language and use a system of natural elements to leave hidden messages that only other druids will understand. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful WIS (Perception) check but can't decipher it without magic.",
+          "desc_ru": "Вы знаете Друидический — тайный язык друидов. Изучая этот древний язык, вы также открыли магию общения с животными; у вас всегда подготовлено заклинание *Разговор с животными*.\n\nВы можете использовать Друидический для оставления скрытых посланий. Вы и другие, кто знает Друидический, автоматически замечаете такое послание. Другие замечают присутствие послания при успешной проверке Интеллекта (Анализ) со СЛ 15, но не могут расшифровать его без магии.",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_druidic",
+          "level": 1,
+          "name": "Druidic",
+          "name_ru": "Друидический",
+          "parent": "bfrd_druid",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You have learned to harness the ambient energy of nature and can redirect that energy to encourage growth and healing. As a bonus action, choose one creature within 5 feet of you (this can be you). When you do so, roll a number of d4s equal to your PB (minimum of 2d4). That creature regains hit points equal to the total rolled. This feature has no effect on Constructs or Undead.\n\nYou can use this feature a number of times per day equal to your PB. You recover expended uses when you complete a long rest.",
+          "desc_ru": "Вы научились использовать окружающую энергию природы и можете перенаправлять эту энергию, чтобы поощрять рост и исцеление. Бонусным действием выберите одно существо в пределах 5 футов от вас (это можете быть вы). Когда вы делаете это, бросьте количество к4, равное вашему бонусу мастерства (минимум 2к4). Это существо восстанавливает очки хитов, равные выпавшей сумме. Эта особенность не действует на Конструктов или Нежить.\n\nВы можете использовать эту особенность количество раз в день, равное вашему бонусу мастерства. Вы восстанавливаете потраченные использования, когда заканчиваете продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_natures-gift",
+          "level": 1,
+          "name": "Nature's Gift",
+          "name_ru": "Дар природы",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_proficiency-bonus",
+          "feature_type": "PROFICIENCY_BONUS",
+          "level": 1,
+          "name": "Proficiency Bonus",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_rituals-known",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Rituals Known",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "As a conduit for primordial power, you can cast Primordial spells.\n\n**Cantrips.** At 1st level, choose three cantrips from the Primordial spell list to learn. You choose more Primordial cantrips to learn at higher levels, as shown in the Cantrips Known column of the Druid Progression table.\n\n**Preparing Spells.** You must prepare spells in advance before you can cast them. You can prepare any spell on the Primordial spell list from circles for which you have Primordial spell slots. (You determine which spell slots you can access by checking your level on the Druid Progression table). You can choose a number of spells equal to your WIS modifier + your druid level (minimum of one spell). This is your list of prepared spells from which you can cast.\n\nPreparing a new list of spells requires time spent in prayer and meditation: at least 1 minute per spell circle for each spell you change. You can change your list of prepared spells as part of a long rest.\n\n**Casting Spells.** You have prepared a number of spells and can cast any of them by using a Primordial spell slot of the spell's circle or higher.\n\nThe Druid Progression table shows how many Primordial spell slots you have per day at a given level. For example, at 3rd level, you have four 1st-circle and two 2nd-circle spell slots, and with a 16 WIS, you can have six prepared spells of 1st or 2nd circle, in any combination. You only have two spell slots for 2nd-circle spells though, so if you prepare only 2nd-circle spells, you won't be able to use your 1st-circle spell slots at all.\n\nCasting a spell doesn't remove it from your list of prepared spells, it just uses up a spell slot. You regain all used spell slots when you finish a long rest.\n\n**Spellcasting Ability.** Wisdom (WIS) is your spellcasting ability. Your WIS modifier determines the save DC or the attack modifier for certain spells you cast:\n- Spell save DC = 8 + your proficiency bonus (PB) + your WIS modifier\n- Spell attack modifier = your proficiency bonus (PB) + your WIS modifier\n\n**Rituals.** You can also cast a type of long-form spell called a ritual. Rituals don't need to be prepared, and they don't use up spell slots.\n\nAt 1st level, choose one ritual from the Primordial ritual list. You learn more rituals at higher levels, as shown in the Rituals Known column of the Druid Progression table, but only from a circle for which you have spell slots. Rituals you learn don't count against the number of spells you learn at each level.\n\n**Spellcasting Focus.** You can use a druidic focus as a spellcasting focus for your Primordial spells.",
+          "desc_ru": "Как ученик тайной магии, вы научились творить заклинания. Смотрите раздел «Заклинания» для правил использования заклинаний. Информация ниже описывает, как вы используете эти правила с заклинаниями волшебника, которые приведены в списке заклинаний волшебника далее в описании класса.\n\n**Заговоры.** Вы знаете три заговора волшебника на свой выбор. Рекомендуются *Свет*, *Волшебная рука* и *Луч холода*. Каждый раз, когда вы заканчиваете долгий отдых, вы можете заменить один из заговоров этого умения другим заговором волшебника на свой выбор.\n\nКогда вы достигаете 4-го и 10-го уровня волшебника, вы узнаёте ещё один заговор волшебника на свой выбор, как показано в столбце Заговоры таблицы Умения волшебника.\n\n**Книга заклинаний.** Ваше обучение волшебству завершилось созданием уникальной книги: вашей книги заклинаний. Это Крошечный предмет весом 3 фунта, содержащий 100 страниц, который может прочитать только вы или тот, кто творит *Опознание*. Вы определяете внешний вид и материалы книги, например том с позолоченными краями или связанный бечёвкой набор листов пергамента.\n\nКнига содержит заклинания 1-го уровня и выше, которые вы знаете. Она начинается с шести заклинаний волшебника 1-го уровня на ваш выбор. Рекомендуются *Обнаружение магии*, *Падение пёрышком*, *Доспехи мага*, *Магическая стрела*, *Усыпление* и *Волна грома*.\n\nКаждый раз, когда вы получаете уровень волшебника после 1-го, добавляйте два заклинания волшебника на свой выбор в книгу заклинаний. Каждое из этих заклинаний должно быть того уровня, для которого у вас есть ячейки заклинаний, как показано в таблице Умения волшебника. Заклинания — результат магических исследований, которые вы регулярно проводите.\n\n**Ячейки заклинаний.** Таблица Умения волшебника показывает, сколько у вас есть ячеек заклинаний для сотворения заклинаний 1-го уровня и выше. Вы восстанавливаете все потраченные ячейки, когда заканчиваете долгий отдых.\n\n**Подготовленные заклинания 1-го уровня и выше.** Вы подготавливаете список заклинаний 1-го уровня и выше, которые доступны вам для сотворения с помощью этого умения. Для этого выберите четыре заклинания из книги заклинаний. Выбранные заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний.\n\nКоличество заклинаний в вашем списке увеличивается по мере получения уровней волшебника, как показано в столбце Подготовленные заклинания таблицы Умения волшебника. Каждый раз, когда это число увеличивается, выбирайте дополнительные заклинания волшебника, пока количество заклинаний в вашем списке не сравняется с числом в таблице. Выбранные заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний. Например, если вы волшебник 3-го уровня, ваш список подготовленных заклинаний может включать шесть заклинаний 1-го и 2-го уровней в любой комбинации, выбранных из вашей книги заклинаний.\n\nЕсли другое умение волшебника даёт вам заклинания, которые вы всегда держите подготовленными, эти заклинания не учитываются в количестве заклинаний, которые вы можете подготовить с помощью этого умения, но в остальном считаются заклинаниями волшебника для вас.\n\n**Изменение подготовленных заклинаний.** Каждый раз, когда вы заканчиваете долгий отдых, вы можете изменить свой список подготовленных заклинаний, заменив любые заклинания заклинаниями из вашей книги заклинаний.\n\n**Базовая характеристика заклинаний.** Интеллект является вашей базовой характеристикой для заклинаний волшебника.\n\n**Заклинательный фокус.** Вы можете использовать магический фокус или книгу заклинаний в качестве заклинательного фокуса для заклинаний волшебника.",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_spellcasting",
+          "level": 1,
+          "name": "Spellcasting",
+          "name_ru": "Сотворение заклинаний",
+          "parent": "bfrd_druid",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_beast-forms-known",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 2,
+          "name": "Beast Forms Known",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You gain the ability to channel energy directly from nature to produce effects beyond spells. You start with two effects: Beast Form and Draw Power. Some subclasses grant additional effects as you advance in levels, as noted in their descriptions.\n\nWhen you use your Wild Shape feature, simply choose which specific effect you want, such as Beast Form. Some of these effects require a save, and in those cases, the DC is equal to your druid spell save DC.\n\nBeginning at 2nd level, you can use your Wild Shape feature once until you finish a short or long rest, then twice between rests at 6th level, three times at 13th level, and four times at 18th level. When you finish a short or long rest, you regain all expended uses.\n\n## Wild Shape: Beast Form\n\nAs an action, you can magically assume the form of a Beast. When you first gain this feature, choose two Beasts of challenge rating (CR) 1/4 or less as your known forms. To select a known form, you must have seen or interacted with a Beast in your past. For example, a druid that hails from a desert environment is unlikely to be familiar enough with a sea-dwelling creature like a dolphin to select it as a known form. The Beast you choose can't have any legendary actions or lair actions.\n\nAs you advance in druid levels, you can choose more beast forms as shown in the Beast Forms Known column of the Druid Progression table.\n\nWhen you gain a level of druid, you can replace one known form with a different form of your choosing. Any new form you choose must abide by the form restrictions.\n\n## Wild Shape: Draw Power\n\nAs a bonus action, you can reshape the natural energies around you to draw them within yourself and recharge your spellcasting ability. When you do so, choose a single expended Primordial spell slot to recover. The recovered spell slot must be of a circle equal to or less than your proficiency bonus (PB). For example, a 5th-level druid with a PB of +3 could recover an expended 1st, 2nd, or 3rd-circle Primordial spell slot with this feature.\n\nYou can't use Draw Power while transformed by the Beast Form effect of your Wild Shape feature, even if you have multiple uses of Wild Shape available to expend.\n\n## Rules of Transformation\n\nYou can stay in a beast form for a number of hours equal to your PB. You then revert to your normal form unless you expend another use of Wild Shape. You can also choose to revert to your normal form as a bonus action. You automatically revert if you become unconscious, drop to 0 HP while in beast form, or die.\n\nWhile transformed, your game statistics are replaced by those of your new form, except you retain your INT, WIS, and CHA scores. You also retain your personality. If you make an ability check or save while in beast form, you can choose whether to use either your normal character proficiencies and PB or else use the Beast's listed ability modifier to determine the check total (without your PB in this case).\n\nYour hit points for the new form are set to a new amount dependent on the size of your new form, as shown in the Hit Points by Form Size table. When you revert to your normal form, you return to the number of hit points you had before you transformed. If you revert as a result of dropping to 0 HP, any excess damage carries over to your normal form. For example, if you take 10 damage while in beast form and your beast form has only 1 HP left, you revert to your normal form and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 HP, you remain conscious.\n\nYou are limited by the actions you can perform by the nature of your new form, and you can't speak or take any other action that requires hands or speech unless your new form is capable of such actions. You can't cast spells while transformed. However, transforming doesn't automatically break your concentration on a spell you've already cast or prevent you from taking actions that are part of an ongoing spell—such as those required by the call lightning spell.\n\nYour gear and anything you are wielding melds into your new form. You can't activate, use, or otherwise benefit from any of your gear while transformed.\n\n|Form Size|Hit Points|\n|---|---|\n|Tiny|2 + your PB|\n|Small|5 + your PB|\n|Medium|12 + your PB|\n|Large|22 + your PB|\n|Huge or Gargantuan|84 + your PB|",
+          "desc_ru": "Сила природы позволяет вам принимать облик животного. Как Бонусное действие, вы перевоплощаетесь в форму зверя, которую вы изучили для этого умения (смотрите «Известные формы» ниже). Вы остаётесь в этой форме количество часов, равное половине вашего уровня друида, или пока не используете Дикий облик снова, не получите состояние Недееспособный или не умрёте. Вы также можете досрочно выйти из формы как Бонусное действие.\n\n**Количество использований.** Вы можете использовать Дикий облик дважды. Вы восстанавливаете одно потраченное использование, когда заканчиваете короткий отдых, и восстанавливаете все потраченные использования, когда заканчиваете долгий отдых.\n\nВы получаете дополнительные использования, когда достигаете определённых уровней друида, как показано в столбце Дикий облик таблицы Умения друида.\n\n**Известные формы.** Вы знаете четыре формы зверей для этого умения, выбранные из блоков статистики зверей с максимальным показателем опасности 1/4, у которых нет скорости полёта (смотрите раздел «Животные» в «Монстрах» для вариантов блоков статистики). Рекомендуются **Крыса**, **Верховая лошадь**, **Паук** и **Волк**. Каждый раз, когда вы заканчиваете долгий отдых, вы можете заменить одну из известных форм другой подходящей формой.\n\nКогда вы достигаете определённых уровней друида, количество известных вам форм и максимальный показатель опасности для этих форм увеличиваются, как показано в таблице Формы зверей. Кроме того, начиная с 8-го уровня вы можете принимать форму со скоростью полёта.\n\nПри выборе известных форм вы можете искать подходящих зверей в других источниках, если Мастер разрешает это.\n\nТаблица: Формы зверей\n\n| Уровень друида | Известные формы | Макс. ПО | Скорость полёта |\n|---|---|---|---|\n| 2              | 4               | 1/4      | Нет             |\n| 4              | 6               | 1/2      | Нет             |\n| 8              | 8               | 1        | Да              |\n\n**Правила в перевоплощённом виде.** Находясь в форме, вы сохраняете свою личность, воспоминания и способность говорить, и применяются следующие правила:\n\n- **Временные хиты.** Когда вы принимаете форму Дикого облика, вы получаете количество временных хитов, равное вашему уровню друида.\n- **Игровые характеристики.** Ваши игровые характеристики заменяются блоком статистики зверя, но вы сохраняете свой тип существа; хиты; Кости Хитов; значения Интеллекта, Мудрости и Харизмы; классовые умения; языки и черты. Вы также сохраняете владение навыками и спасбросками и используете свой бонус мастерства для них, в дополнение к получению владений существа. Если модификатор навыка или спасброска в блоке статистики зверя выше вашего, используйте тот, что в блоке статистики.\n- **Без заклинаний.** Вы не можете творить заклинания, но превращение не нарушает вашу концентрацию и не мешает заклинанию, которое вы уже сотворили.\n- **Предметы.** Ваша способность обращаться с предметами определяется конечностями формы, а не вашими собственными. Кроме того, вы выбираете, падает ли ваше снаряжение в вашем пространстве, сливается с новой формой или остаётся надето. Надетое снаряжение функционирует нормально, но Мастер решает, практично ли для новой формы носить тот или иной предмет снаряжения, основываясь на размере и форме существа. Ваше снаряжение не меняет размер или форму, чтобы соответствовать новой форме, и любое снаряжение, которое новая форма не может носить, должно либо упасть на землю, либо слиться с формой. Снаряжение, которое сливается с формой, не даёт эффекта, пока вы находитесь в этой форме.",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_wild-shape",
+          "level": 2,
+          "name": "Wild Shape",
+          "name_ru": "Дикий облик",
+          "parent": "bfrd_druid",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_slots-2nd",
+          "feature_type": "SPELL_SLOTS",
+          "level": 3,
+          "name": "2nd",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Choose a subclass that reflects your values and magical practices, either Leaf or Shifter (detailed at the end of this class). Your choice grants you spells and other features at 3rd, 7th, 11th, and 15th level.\n\n## Ring Spells\n\nEach subclass has a list of ring spells that you can access as soon as you can cast spells of that circle (as shown on the Druid Progression table). Once you gain such a spell, you always have it prepared, and it doesn't count against the number of spells you can prepare. However, casting a ring spell still expends a Primordial spell slot as normal.\n\nIf one of these spells isn't on the Primordial spell list, it still counts as a Primordial spell for you.",
+          "desc_ru": "Вы получаете подкласс друида на свой выбор. Подкласс Круг Земли описан после описания этого класса. Подкласс — это специализация, которая даёт вам умения на определённых уровнях друида. До конца вашей карьеры вы получаете каждое умение своего подкласса, которое соответствует вашему уровню друида или ниже.",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_druid-subclass",
+          "level": 3,
+          "name": "Druid Subclass",
+          "name_ru": "Подкласс друида",
+          "parent": "bfrd_druid",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Choose one of the following improvements (ability scores can't be raised above 20 with this feature):\n- Increase a single ability score by 2.\n- Increase two different ability scores by 1 each.\n- Increase one ability score by 1 and select a talent from the magic talents list.",
+          "desc_ru": "Выберите одно из следующих улучшений (этой особенностью показатели характеристик нельзя поднять выше 20):\n- Увеличить один показатель характеристики на 2.\n- Увеличить два разных показателя характеристик на 1 каждый.\n- Увеличить один показатель характеристики на 1 и выбрать талант из списка магических талантов.",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_improvement",
+          "level": 4,
+          "name": "Improvement",
+          "name_ru": "Улучшение",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_slots-3rd",
+          "feature_type": "SPELL_SLOTS",
+          "level": 5,
+          "name": "3rd",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You can now use the Beast Form effect of your Wild Shape feature to assume more powerful beast forms. When you learn a new form, you can choose a Beast of CR 1/2 or less. At 9th level, you can assume the form of any Beast of CR 1 or less. At 14th level, you can assume the form of any Beast of CR 2 or less.",
+          "desc_ru": "Теперь вы можете использовать эффект Форма зверя вашей особенности Дикий облик, чтобы принимать более мощные формы зверей. Когда вы изучаете новую форму, вы можете выбрать зверя с ПО 1/2 или меньше. На 9-м уровне вы можете принимать форму любого зверя с ПО 1 или меньше. На 14-м уровне вы можете принимать форму любого зверя с ПО 2 или меньше.",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_improved-beast-form",
+          "level": 5,
+          "name": "Improved Beast Form",
+          "name_ru": "Улучшенная форма зверя",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_slots-4th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 7,
+          "name": "4th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_slots-5th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 9,
+          "name": "5th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your commitment to the druid's path grants you a powerful new ability. Choose one of the following heroic boons:\n- **Rite of the Kingdom.** All Beasts and creatures with the Animal tag understand your speech, and you can understand their noises and motions as if they were speaking, even if they don't speak a language. This ability doesn't grant Beasts the intelligence to understand or communicate complex concepts, but you can share basic information with ease. Your GM has final say on what a particular creature can express. In addition, you have advantage on Charisma checks made to interact with or influence such creatures.\n- **Rite of the Shaper.** When you roll initiative and have no remaining uses of Wild Shape, you regain one use. Once you use this feature, you can't do so again until you complete a long rest.",
+          "desc_ru": "Ваша приверженность пути друида даёт вам мощную новую способность. Выберите один из следующих героических даров:\n- Обряд королевства. Все Звери и существа с тегом Животное понимают вашу речь, и вы можете понимать их шумы и движения, как если бы они говорили, даже если они не говорят на языке. Эта способность не даёт Зверям интеллекта, чтобы понимать или сообщать сложные понятия, но вы можете легко делиться базовой информацией. Ваш мастер игры имеет последнее слово о том, что конкретное существо может выразить. Кроме того, вы совершаете с преимуществом проверки Харизмы, совершаемые для взаимодействия с такими существами или влияния на них.\n- Обряд формовщика. Когда вы бросаете инициативу и у вас не осталось использований Дикого облика, вы восстанавливаете одно использование. Использовав эту особенность, вы не можете сделать это снова, пока не закончите продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_heroic-boon",
+          "level": 10,
+          "name": "Heroic Boon",
+          "name_ru": "Героический дар",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_slots-6th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 11,
+          "name": "6th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_slots-7th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 13,
+          "name": "7th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_slots-8th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 15,
+          "name": "8th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_slots-9th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 17,
+          "name": "9th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your attunement to the natural energies of the world infuses your body, sustaining you and protecting you from unnatural harm. You gain the following benefits:\n- You can't be magically aged, and you suffer none of the frailty of old age. You can still die of old age though.\n- You no longer need food or water to survive.\n- Your ability scores and hit point maximum can't be lowered by any means short of a wish spell.",
+          "desc_ru": "Ваша настройка на природные энергии мира наполняет ваше тело, поддерживая вас и защищая от противоестественного вреда. Вы получаете следующие преимущества:\n- Вас нельзя магически состарить, и вы не страдаете от немощи старости. Однако вы всё ещё можете умереть от старости.\n- Вам больше не нужна еда или вода, чтобы выжить.\n- Ваши показатели характеристик и максимум очков хитов нельзя понизить никакими средствами, кроме заклинания желание.",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_natures-grace",
+          "level": 17,
+          "name": "Nature's Grace",
+          "name_ru": "Милость природы",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your commitment to the druid's path grants you a powerful new ability. You gain the following epic boon:\n- **Archdruid.** You can use the Beast Form effect of your Wild Shape feature an unlimited number of times. In addition, you can ignore the verbal and somatic components of Primordial spells, as well as any material components that lack a cost.",
+          "desc_ru": "Ваша приверженность пути друида дарует вам мощную новую способность. Вы получаете следующий эпический дар:\n- **Архидруид.** Вы можете использовать эффект Форма зверя вашей особенности Дикий облик неограниченное количество раз. Кроме того, вы можете игнорировать вербальные и соматические компоненты изначальных заклинаний, а также любые материальные компоненты, не имеющие стоимости.",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_epic-boon",
+          "level": 20,
+          "name": "Epic Boon",
+          "name_ru": "Эпический дар",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "|||\n|---|---|\n|Hit Point Die|D8 per Druid level|\n|Saving Throw Proficiencies|Intelligence and Wisdom|\n|Skill Proficiencies|Choose 2: Animal Handling, Arcana, Insight, Medicine, Nature, Perception, Religion, Survival|\n|Weapon Proficiencies|Simple weapons|\n|Tool Proficiencies|Herbalist tools|\n|Armor Training|Light armor, medium armor, and shields|\n|Starting Equipment|Choose A or B for each: (A) a shield or (B) any simple weapon; (A) a sickle or (B) any simple melee weapon; plus Leather armor, an explorer's pack, and a druidic focus|",
+          "desc_ru": "|||\n|---|---|\n|Кость хитов|К8 за уровень друида|\n|Владение спасбросками|Интеллект и Мудрость|\n|Владение навыками|Выберите 2: Уход за животными, Магия, Проницательность, Медицина, Природа, Восприятие, Религия, Выживание|\n|Владение оружием|Простое оружие|\n|Владение инструментами|Инструменты травника|\n|Тренировка доспехов|Лёгкие доспехи, средние доспехи и щиты|\n|Начальное снаряжение|Выберите А или Б для каждого: (А) щит или (Б) любое простое оружие; (А) серп или (Б) любое простое оружие ближнего боя; плюс Кожаный доспех, набор путешественника и друидическая фокусировка|",
+          "document": "bfrd",
+          "external_id": "bfrd_druid_core-traits",
+          "feature_type": "CORE_TRAITS_TABLE",
+          "name": "Core Druid Traits",
+          "name_ru": "Основные черты друида",
+          "parent": "bfrd_druid",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Druid",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Druid",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Таблица: Основные черты друида\n\n|                            |                                                                                                                                     |\n|---|---|\n| Основная характеристика    | Мудрость                                                                                                                            |\n| Кость Хитов                | d8 за каждый уровень друида                                                                                                         |\n| Владение спасбросками      | Интеллект и Мудрость                                                                                                                |\n| Владение навыками          | Выберите 2: Уход за животными, Магия, Проницательность, Медицина, Природа, Внимательность, Религия или Выживание                   |\n| Владение оружием           | Простое оружие                                                                                                                      |\n| Владение инструментами     | Набор травника                                                                                                                      |\n| Владение доспехами         | Лёгкие доспехи и щиты                                                                                                               |\n| Начальное снаряжение       | Выберите А или Б: (А) Кожаные доспехи, щит, серп, друидический фокус (посох), набор путешественника, набор травника и 9 зм; или (Б) 50 зм |",
+      "glossary_version": "v1",
+      "name": "Друид",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

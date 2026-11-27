@@ -1,0 +1,213 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_resinous-frog",
+  "id": "o5e:tob2:creature:tob2-resinous-frog",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-resinous-frog"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "add9225809af45629e8163ee8c4c0a00d68e1b1cc8857e5550cde2a88028d781",
+    "formulas": [
+      {
+        "expression": "3d6+9",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 9,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 14,
+      "ability_score_wisdom": 11,
+      "alignment": "unaligned",
+      "armor_class": 12,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "3d6+9",
+      "hit_points": 19,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "small",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "add9225809af45629e8163ee8c4c0a00d68e1b1cc8857e5550cde2a88028d781",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-resinous-frog",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 9,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 14,
+      "ability_score_wisdom": 11,
+      "alignment": "unaligned",
+      "armor_class": 12,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "document": "tob2",
+      "hit_dice": "3d6+9",
+      "hit_points": 19,
+      "hover": false,
+      "name": "Resinous Frog",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "size": "small",
+      "type": "beast",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +4 к попаданию, досягаемость 5 фт., одно существо. Попадание: 5 (1к6+2) колющего урона.",
+          "external_id": "tob2_resinous-frog_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 0,
+          "parent": "tob2_resinous-frog",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 4 (1d4 + 2) bludgeoning damage. If the creature is Medium or smaller, it is grappled (escape DC 12), and the frog can't make tongue attacks against other targets.",
+          "desc_ru": "Действие «Тонгуе»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_resinous-frog_tongue",
+          "name": "Tongue",
+          "name_ru": "Тонгуе",
+          "order_in_statblock": 1,
+          "parent": "tob2_resinous-frog",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The resinous frog adheres to anything that touches it. A Medium or smaller creature adhered to the frog is also grappled by it (escape DC 12). When the frog moves, any Small or smaller creature it is grappling moves with it.\n\nIn addition, when a creature hits the frog with a weapon, it must succeed on a DC 12 Strength saving throw or the weapon sticks to the frog. A stuck weapon can’t be used. A creature can take its action to remove one creature or object from the frog by succeeding on a DC 12 Strength check.\n\nAs a bonus action, the frog can release one creature or weapon stuck to it. The frog can’t be affected by another resinous frog’s Adhesive Skin.",
+          "desc_ru": "Особенность «Адхесиве Скин». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_resinous-frog_adhesive-skin",
+          "name": "Adhesive Skin",
+          "name_ru": "Адхесиве Скин",
+          "parent": "tob2_resinous-frog",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "As a bonus action, the resinous frog can detach its tongue and move up to half its speed without provoking opportunity attacks. If it was grappling a creature with its tongue, the creature is freed. Its tongue regrows by the time it finishes a short or long rest.",
+          "desc_ru": "Особенность «Детач Тонгуе». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_resinous-frog_detach-tongue",
+          "name": "Detach Tongue",
+          "name_ru": "Детач Тонгуе",
+          "parent": "tob2_resinous-frog",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The resinous frog has advantage on bite attack rolls against any creature grappled by it.",
+          "desc_ru": "Особенность «Еасй Прей». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_resinous-frog_easy-prey",
+          "name": "Easy Prey",
+          "name_ru": "Еасй Прей",
+          "parent": "tob2_resinous-frog",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Resinous Frog",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Resinous Frog",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Смолистые лягушки выделяют жидкость из своей кожи и языков, которая прилипает к большинству материала, даже если лягушки находятся в воде. Большинство существ, прилипших к лягушкам, становятся истощёнными в борьбе, чтобы вырваться, предоставляя терпеливой лягушке поздний приём пищи. Если у лягушки опасный хищник прилип к её языку, она может отделить свой язык и оставить хищника позади, пока она сбегает. Ограниченные регенеративные способности лягушек позволяют им отращивать потерянные языки.",
+      "glossary_version": "v1",
+      "name": "Смолистая лягушка",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

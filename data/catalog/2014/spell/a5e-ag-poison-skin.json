@@ -1,0 +1,201 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_poison-skin",
+  "id": "o5e:a5e-ag:spell:a5e-ag-poison-skin",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-poison-skin",
+      "o5e:a5e:spell:poison-skin-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "79344da29d45bd0f467a1c1f2bd0641202a12f3f6408e8561580e36222b227fb",
+    "formulas": [
+      {
+        "expression": "1d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "poison"
+      ],
+      "duration": "10 minutes",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0.1,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "79344da29d45bd0f467a1c1f2bd0641202a12f3f6408e8561580e36222b227fb",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-poison-skin",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "f501c872cbfbda0e740d28969c2d2d2eea7f004a0ea993c314a134e29ccc90ed",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:poison-skin-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "poison"
+      ],
+      "desc": "The target becomes poisonous to the touch. Until the spell ends, whenever a creature within 5 feet of the target damages the target with a melee weapon attack, the creature makes a Constitution saving throw. On a failed save, the creature becomes poisoned and takes 1d6 ongoing poison damage.\n\nA poisoned creature can make a Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.\n\nThe target of the spell also becomes bright and multicolored like a poisonous dart frog, giving it disadvantage on Dexterity (Stealth) checks.",
+      "document": "a5e-ag",
+      "duration": "10 minutes",
+      "higher_level": "The target's skin is also covered in mucus, giving it advantage on saving throws and checks made to resist being grappled or restrained. In addition, the damage increases by 1d6 for each slot level above 3rd.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "name": "Poison Skin",
+      "range": 0.1,
+      "range_text": "Touch",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "1736",
+          "parent": "a5e-ag_poison-skin",
+          "type": "default"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "1738",
+          "parent": "a5e-ag_poison-skin",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "1739",
+          "parent": "a5e-ag_poison-skin",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "1740",
+          "parent": "a5e-ag_poison-skin",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "5d6",
+          "external_id": "1741",
+          "parent": "a5e-ag_poison-skin",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "6d6",
+          "external_id": "1742",
+          "parent": "a5e-ag_poison-skin",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "7d6",
+          "external_id": "1743",
+          "parent": "a5e-ag_poison-skin",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Poison Skin",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "The target becomes poisonous to the touch. Until the spell ends, whenever a creature within 5 feet of the target damages the target with a melee weapon attack, the creature makes a Constitution saving throw. On a failed save, the creature becomes poisoned and takes 1d6 ongoing poison damage.\n\nA poisoned creature can make a Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.\n\nThe target of the spell also becomes bright and multicolored like a poisonous dart frog, giving it disadvantage on Dexterity (Stealth) checks.",
+      "name": "Poison Skin",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Цель становится ядовитой на касание. До конца заклинания, когда существо в пределах 5 футов от цели повреждает цель атакой оружием ближнего боя, существо совершает спасбросок Телосложения. При проваленном спасброске существо становится отравленным и получает 1к6 продолжающегося урона ядом.\n\nОтравленное существо может совершить спасбросок Телосложения в конце каждого его хода, прекращая эффект на себе при успехе.\n\nЦель заклинания также становится яркой и многоцветной, как ядовитая лягушка-древолаз, давая ей помеху на проверки Ловкости (Скрытность).",
+      "glossary_version": "v1",
+      "name": "Ядовитая кожа",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

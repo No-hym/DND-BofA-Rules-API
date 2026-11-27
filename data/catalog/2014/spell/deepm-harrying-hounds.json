@@ -1,0 +1,177 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_harrying-hounds",
+  "id": "o5e:deepm:spell:deepm-harrying-hounds",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-harrying-hounds",
+      "o5e:dmag:spell:harrying-hounds"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "ea7f18a31d80ce7732c25f4b25e709e4c496aa27f1aa6ed5b11b7fc7b9ef3e4f",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "8 hours",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a tuft of fur from a hunting dog",
+      "range": 180,
+      "range_text": "180 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "shape_size": 20,
+      "shape_size_unit": null,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "ea7f18a31d80ce7732c25f4b25e709e4c496aa27f1aa6ed5b11b7fc7b9ef3e4f",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-harrying-hounds",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "fdad12836816467d87a1d9259cfd866e5e7233c584db7d1134053e80f8ca3ed9",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:harrying-hounds",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "When you cast this spell, choose a direction (north, south, northeast, or the like). Each creature in a 20-foot-radius sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it. When an affected creature travels, it travels at a fast pace in the opposite direction of the direction you chose as it believes a pack of dogs or wolves follows it from the chosen direction.\n  When an affected creature isn't traveling, it is frightened of your chosen direction. The affected creature occasionally hears howls or sees glowing eyes in the darkness at the edge of its vision in that direction. An affected creature will not stop at a destination, instead pacing half-circles around the destination until the effect ends, terrified the pack will overcome it if it stops moving.\n  An affected creature can make a Wisdom saving throw at the end of each 4-hour period, ending the effect on itself on a success. An affected creature moves along the safest available route unless it has nowhere to move, such as if it arrives at the edge of a cliff. When an affected creature can't safely move in the opposite direction of your chosen direction, it cowers in place, defending itself from hostile creatures but otherwise taking no actions. In such circumstances, the affected creature can repeat the saving throw every minute, ending the effect on itself on a success. The spell's effect is suspended when an affected creature is engaged in combat, allowing it to move as necessary to face hostile creatures.",
+      "document": "deepm",
+      "duration": "8 hours",
+      "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the duration increases by 4 hours for each slot level above 5th. If an affected creature travels for more than 8 hours, it risks exhaustion as if on a forced march.",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a tuft of fur from a hunting dog",
+      "name": "Harrying Hounds",
+      "range": 180,
+      "range_text": "180 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "shape_size": 20,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3468",
+          "parent": "deepm_harrying-hounds",
+          "type": "default"
+        },
+        {
+          "duration": "12 hours",
+          "external_id": "3470",
+          "parent": "deepm_harrying-hounds",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "16 hours",
+          "external_id": "3471",
+          "parent": "deepm_harrying-hounds",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "20 hours",
+          "external_id": "3472",
+          "parent": "deepm_harrying-hounds",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "3473",
+          "parent": "deepm_harrying-hounds",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Harrying Hounds",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "When you cast this spell, choose a direction (north, south, northeast, or the like). Each creature in a 20-foot-radius sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it. When an affected creature travels, it travels at a fast pace in the opposite direction of the direction you chose as it believes a pack of dogs or wolves follows it from the chosen direction.\n  When an affected creature isn't traveling, it is frightened of your chosen direction. The affected creature occasionally hears howls or sees glowing eyes in the darkness at the edge of its vision in that direction. An affected creature will not stop at a destination, instead pacing half-circles around the destination until the effect ends, terrified the pack will overcome it if it stops moving.\n  An affected creature can make a Wisdom saving throw at the end of each 4-hour period, ending the effect on itself on a success. An affected creature moves along the safest available route unless it has nowhere to move, such as if it arrives at the edge of a cliff. When an affected creature can't safely move in the opposite direction of your chosen direction, it cowers in place, defending itself from hostile creatures but otherwise taking no actions. In such circumstances, the affected creature can repeat the saving throw every minute, ending the effect on itself on a success. The spell's effect is suspended when an affected creature is engaged in combat, allowing it to move as necessary to face hostile creatures.",
+      "name": "Harrying Hounds",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Когда вы создаете это заклинание, выбирайте направления (Север, Юг, Северо-восток или подобное). Каждое существо в сфере радиуса 20 футов сосредоточена на точке, которую вы выбрали в радиусе действия, должно преуспеть на спасбросоке Мудрости, когда вы создаете это заклинание или подвержены его действию. Когда пострадавшие существо перемещается, оно перемещается в быстром темпе в противоположном направлении от направления, который вы выбрали, поскольку считает, что стая собак или волков следует за ним от выбранного направления.\n\nКогда затронутое существо не перемещается, оно боится вашего выбранного направления. Пораженное существо время от времени слышит вой или видит светящиеся глаза в темноте на краю её видения в этом направлении. Пораженное существо не остановится в пункте назначения, вместо того чтобы ходить полукругами по направлению к пункту до окончания эффекта, боясь, что стая преодолит его, если он прекратится двигаться.\n\nПораженное существо может сделать спасбросок в конце каждого 4-часового периода, заканчивая эффект на себе на успех. Затронутое существо движется по самому безопасному доступному маршруту, если ему некуда двигаться, например, если он прибывает на край скалы. Когда пораженное существо не может безопасно двигаться в противоположном направлении вашего выбранного направления, он сжимается на месте, защищаясь от враждебных существ, но в противном случае не предпринимает никаких действий. В таких обстоятельствах, затронутое существо может повторять спасбросок каждую минуту, заканчивая эффект на себе при успехе. Эффект заклинания приостанавливается, когда поражённое существо вовлечено в битву, позволяя ему двигаться так, чтобы столкнуться с враждебными существами.",
+      "glossary_version": "v1",
+      "name": "Преследующие гончие",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

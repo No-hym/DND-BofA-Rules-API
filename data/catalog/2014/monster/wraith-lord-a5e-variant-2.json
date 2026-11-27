@@ -1,0 +1,135 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "wraith-lord-a5e",
+  "id": "o5e:menagerie:monster:wraith-lord-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:wraith-lord-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "ccff7247bdedbba567aae5c6f7b01f8a0fd0fe6eb302f8eaa97c9ebfce1608f2",
+    "formulas": [
+      {
+        "expression": "18d8+90",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 15,
+      "challenge_rating": "13",
+      "condition_immunities": "charmed, fatigue, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+      "damage_immunities": "cold, necrotic, poison",
+      "damage_resistances": "acid, lightning, psychic, thunder; damage from nonmagical weapons",
+      "damage_vulnerabilities": "",
+      "hit_dice": "18d8+90",
+      "hit_points": 171,
+      "languages": "the languages it knew in life",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "ccff7247bdedbba567aae5c6f7b01f8a0fd0fe6eb302f8eaa97c9ebfce1608f2",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:wraith-lord-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The wraith lord can use Paralyzing Terror. It then uses Life Drain twice. If in corporeal form  it then makes a greatsword attack.\"}, {\"name\": \"Life Drain\", \"desc\": \"The wraith targets a creature within 5 feet  forcing it to make a DC 18 Constitution saving throw. On a failure  the creature takes 17 (5d6) necrotic damage  or 24 (7d6) necrotic damage if it is frightened or surprised  and its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. It dies if its hit point maximum is reduced to 0.\"}, {\"name\": \"Greatsword (Corporeal Form Only)\", \"desc\": \"Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage plus 17 (5d6) poison damage  and the target makes a DC 18 Constitution saving throw. On a failure  the target is poisoned for 24 hours. While poisoned in this way  the target can't regain hit points. If a creature dies while poisoned in this way  its spirit rises as a wraith under the wraith lords control 1 minute after its death.\"}, {\"name\": \"Paralyzing Terror\", \"desc\": \"The wraith lord targets a frightened creature within 60 feet  forcing it to make a DC 18 Wisdom saving throw. On a failure  the target is paralyzed for 1 minute. It repeats the saving throw at the end of each of its turns  ending the effect on itself on a success.\"}, {\"name\": \"Create Wraith\", \"desc\": \"The wraith lord touches a humanoid corpse it killed up to 1 day ago. The creatures spirit rises as a wraith under the wraith lords control.\"}, {\"name\": \"Corporeal Form (1/Day)\", \"desc\": \"The wraith lord takes on a material form. In material form  it loses its incorporeal trait  its fly speed  and its immunity to the grappled  prone  and restrained conditions. The wraith instantly reverts to its incorporeal form if it is bloodied  and it can do so voluntarily at any time as an action.\"}]",
+      "armor_class": 15,
+      "bonus_actions_json": "null",
+      "challenge_rating": "13",
+      "charisma": 18,
+      "condition_immunities": "charmed, fatigue, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+      "constitution": 20,
+      "cr": 13.0,
+      "damage_immunities": "cold, necrotic, poison",
+      "damage_resistances": "acid, lightning, psychic, thunder; damage from nonmagical weapons",
+      "dexterity": 20,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "18d8+90",
+      "hit_points": 171,
+      "intelligence": 16,
+      "languages": "the languages it knew in life",
+      "legendary_actions_json": "null",
+      "name": "Wraith Lord",
+      "page_no": 428,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "truesight 120 ft., passive Perception 14",
+      "size": "Medium",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Aura of Fear\", \"desc\": \"A creature that starts its turn within 30 feet of a wraith lord makes a DC 17 Wisdom saving throw. On a failure, it is frightened until the start of its next turn. If a creatures saving throw is successful or the effect ends for it, it is immune to any wraith or wraith lords Aura of Fear for 24 hours.\"}, {\"name\": \"Evil\", \"desc\": \"The wraith lord radiates an Evil aura.\"}, {\"name\": \"Incorporeal\", \"desc\": \"The wraith lord can move through creatures and objects. It takes 5 (1d10) force damage if it ends its turn inside an object. If it takes radiant damage, it loses this trait until the end of its next turn.\"}, {\"name\": \"Light Sensitivity\", \"desc\": \"While in sunlight or bright light cast by a fire, the wraith lord has disadvantage on attack rolls, as well as on Perception checks that rely on sight.\"}, {\"name\": \"Undead Nature\", \"desc\": \"A wraith doesnt require air, food, drink, or sleep.\"}]",
+      "speed_json": "{\"walk\": 40, \"fly\": 60}",
+      "spells_json": "null",
+      "strength": 14,
+      "type": "Undead",
+      "wisdom": 18
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Wraith Lord",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-wraith-lord"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Wraith Lord",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Средняя нежить. Класс доспеха: 15. Хиты: 171 (18к8+90). Сопротивление урону: кислотой, электричеством, психической энергией, звуком, damage from nonmagical weapons. Иммунитет к урону: холодом, некротической энергией, ядом. Иммунитет к состояниям: очарование, fatigue, захват, паралич, окаменение, отравление, положение ничком, удержание, бессознательное состояние. Показатель опасности: 13.",
+      "glossary_version": "derived-v1",
+      "name": "Враит владыка",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

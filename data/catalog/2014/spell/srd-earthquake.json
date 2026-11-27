@@ -1,0 +1,187 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_earthquake",
+  "id": "o5e:srd-2014:spell:srd-earthquake",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-earthquake",
+      "o5e:wotc-srd:spell:earthquake"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "699f5aa3363943e8fd76f38b598f0e8e091afbecc175ff4f37ca904750d7eb67",
+    "formulas": [
+      {
+        "expression": "5d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_druid",
+        "srd_sorcerer"
+      ],
+      "concentration": true,
+      "damage_roll": "5d6",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "duration": "1 minute",
+      "level": 8,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "A pinch of dirt, a piece of rock, and a lump of clay.",
+      "range": 500.0,
+      "range_text": "500 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "699f5aa3363943e8fd76f38b598f0e8e091afbecc175ff4f37ca904750d7eb67",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-earthquake",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "cb5264ee5969f48a2b260dfcf52ccf7e3eb86df1327dfaa3414f974270e02687",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:earthquake",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric",
+          "srd_druid",
+          "srd_sorcerer"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_druid",
+        "srd_sorcerer"
+      ],
+      "concentration": true,
+      "damage_roll": "5d6",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "desc": "You create a seismic disturbance at a point on the ground that you can see within range. For the duration, an intense tremor rips through the ground in a 100-foot-radius circle centered on that point and shakes creatures and structures in contact with the ground in that area. The ground in the area becomes difficult terrain. Each creature on the ground that is concentrating must make a constitution saving throw. On a failed save, the creature's concentration is broken. When you cast this spell and at the end of each turn you spend concentrating on it, each creature on the ground in the area must make a dexterity saving throw. On a failed save, the creature is knocked prone. This spell can have additional effects depending on the terrain in the area, as determined by the DM. \n\n**Fissures.** Fissures open throughout the spell's area at the start of your next turn after you cast the spell. A total of 1d6 such fissures open in locations chosen by the DM. Each is 1d10 × 10 feet deep, 10 feet wide, and extends from one edge of the spell's area to the opposite side. A creature standing on a spot where a fissure opens must succeed on a dexterity saving throw or fall in. A creature that successfully saves moves with the fissure's edge as it opens. A fissure that opens beneath a structure causes it to automatically collapse (see below). \n\n**Structures.** The tremor deals 50 bludgeoning damage to any structure in contact with the ground in the area when you cast the spell and at the start of each of your turns until the spell ends. If a structure drops to 0 hit points, it collapses and potentially damages nearby creatures. A creature within half the distance of a structure's height must make a dexterity saving throw. On a failed save, the creature takes 5d6 bludgeoning damage, is knocked prone, and is buried in the rubble, requiring a DC 20 Strength (Athletics) check as an action to escape. The DM can adjust the DC higher or lower, depending on the nature of the rubble. On a successful save, the creature takes half as much damage and doesn't fall prone or become buried.",
+      "document": "srd-2014",
+      "duration": "1 minute",
+      "level": 8,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "A pinch of dirt, a piece of rock, and a lump of clay.",
+      "name": "Earthquake",
+      "range": 500.0,
+      "range_text": "500 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5411",
+          "parent": "srd_earthquake",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Earthquake",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You create a seismic disturbance at a point on the ground that you can see within range. For the duration, an intense tremor rips through the ground in a 100-foot-radius circle centered on that point and shakes creatures and structures in contact with the ground in that area. The ground in the area becomes difficult terrain. Each creature on the ground that is concentrating must make a constitution saving throw. On a failed save, the creature's concentration is broken. When you cast this spell and at the end of each turn you spend concentrating on it, each creature on the ground in the area must make a dexterity saving throw. On a failed save, the creature is knocked prone. This spell can have additional effects depending on the terrain in the area, as determined by the DM. \n\n**Fissures.** Fissures open throughout the spell's area at the start of your next turn after you cast the spell. A total of 1d6 such fissures open in locations chosen by the DM. Each is 1d10 × 10 feet deep, 10 feet wide, and extends from one edge of the spell's area to the opposite side. A creature standing on a spot where a fissure opens must succeed on a dexterity saving throw or fall in. A creature that successfully saves moves with the fissure's edge as it opens. A fissure that opens beneath a structure causes it to automatically collapse (see below). \n\n**Structures.** The tremor deals 50 bludgeoning damage to any structure in contact with the ground in the area when you cast the spell and at the start of each of your turns until the spell ends. If a structure drops to 0 hit points, it collapses and potentially damages nearby creatures. A creature within half the distance of a structure's height must make a dexterity saving throw. On a failed save, the creature takes 5d6 bludgeoning damage, is knocked prone, and is buried in the rubble, requiring a DC 20 Strength (Athletics) check as an action to escape. The DM can adjust the DC higher or lower, depending on the nature of the rubble. On a successful save, the creature takes half as much damage and doesn't fall prone or become buried.",
+      "name": "Earthquake",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 8-го уровня (Жрец, Друид, Чародей)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 500 футов\n\n**Компоненты:** В, С, М (щепотка грязи, кусочек камня и комок глины)\n\n**Длительность:** Концентрация, вплоть до 1 минуту\n\nВы создаёте сейсмическое возмущение в точке на земле, которую видите в пределах дистанции. На время действия заклинания мощный подземный толчок сотрясает землю в круге радиусом 100 футов с центром в этой точке и сотрясает существ и строения, соприкасающихся с землёй в этой области.\n\nЗемля в области становится труднопроходимой местностью.\n\nКаждое существо на земле, которое концентрируется, должно совершить спасбросок Телосложения. При провале концентрация существа нарушается.\n\nПри сотворении заклинания и в конце каждого хода, который вы тратите на концентрацию на нём, каждое существо на земле в области должно совершить спасбросок Ловкости. При провале существо получает состояние «лежащий».\n\nЭто заклинание может иметь дополнительные эффекты в зависимости от местности в области, как определяет Мастер.\n\n**_Трещины._** Трещины открываются по всей области заклинания в начале вашего следующего хода после сотворения заклинания. Всего открывается 1к6 таких трещин в местах, выбранных Мастером. Каждая имеет глубину 1к10 × 10 футов, ширину 10 футов и простирается от одного края области заклинания до противоположного. Существо, стоящее на месте, где открывается трещина, должно преуспеть в спасброске Ловкости, иначе оно падает в неё. Существо, преуспевшее в спасброске, перемещается вместе с краем трещины при её открытии.\n\nТрещина, открывшаяся под строением, автоматически обрушивает его (см. ниже).\n\n**_Строения._** Подземный толчок наносит 50 дробящего урона любому строению, соприкасающемуся с землёй в области, при сотворении заклинания и в начале каждого вашего хода до окончания заклинания. Если хиты строения опускаются до 0, оно обрушивается и потенциально наносит урон находящимся рядом существам. Существо в пределах половины высоты строения должно совершить спасбросок Ловкости. При провале существо получает 5к6 дробящего урона, получает состояние «лежащий» и оказывается погребено под обломками; для освобождения требуется проверка Силы (Атлетика) со СЛ 20 в качестве действия. Мастер может скорректировать СЛ выше или ниже в зависимости от характера обломков. При успехе существо получает половину этого урона и не получает состояние «лежащий» и не оказывается погребённым.",
+      "glossary_version": "v1",
+      "name": "Землетрясение",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

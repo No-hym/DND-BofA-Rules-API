@@ -1,0 +1,209 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_wall-of-ice",
+  "id": "o5e:srd-2014:spell:srd-wall-of-ice",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-wall-of-ice",
+      "o5e:wotc-srd:spell:wall-of-ice"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "28e3d42f009be61d52ba79bd5847306654cc7baef6e7329ef71782eea6009565",
+    "formulas": [
+      {
+        "expression": "10d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "10d6",
+      "damage_types": [
+        "cold"
+      ],
+      "duration": "10 minutes",
+      "level": 6,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "A small piece of quartz.",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "28e3d42f009be61d52ba79bd5847306654cc7baef6e7329ef71782eea6009565",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-wall-of-ice",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "1557fcb3ad735d66ff37bcbf2cb4dfc70e4b689796a6ca56b2852e61de79bd20",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:wall-of-ice",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_wizard",
+        "type": "classes",
+        "value": [
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "10d6",
+      "damage_types": [
+        "cold"
+      ],
+      "desc": "You create a wall of ice on a solid surface within range. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-square panels. Each panel must be contiguous with another panel. In any form, the wall is 1 foot thick and lasts for the duration. If the wall cuts through a creature's space when it appears, the creature within its area is pushed to one side of the wall and must make a dexterity saving throw. On a failed save, the creature takes 10d6 cold damage, or half as much damage on a successful save. The wall is an object that can be damaged and thus breached. It has AC 12 and 30 hit points per 10-foot section, and it is vulnerable to fire damage. Reducing a 10-foot section of wall to 0 hit points destroys it and leaves behind a sheet of frigid air in the space the wall occupied. A creature moving through the sheet of frigid air for the first time on a turn must make a constitution saving throw. That creature takes 5d6 cold damage on a failed save, or half as much damage on a successful one.",
+      "document": "srd-2014",
+      "duration": "10 minutes",
+      "higher_level": "When you cast this spell using a spell slot of 7th level or higher, the damage the wall deals when it appears increases by 2d6, and the damage from passing through the sheet of frigid air increases by 1d6, for each slot level above 6th.",
+      "level": 6,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "A small piece of quartz.",
+      "name": "Wall of Ice",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "6116",
+          "parent": "srd_wall-of-ice",
+          "type": "default"
+        },
+        {
+          "damage_roll": "12d6",
+          "desc": "The damage from passing through the sheet of frigid air increases by 1d6.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10889",
+          "parent": "srd_wall-of-ice",
+          "ru_source": "derived",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "14d6",
+          "desc": "The damage from passing through the sheet of frigid air increases by 2d6.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10890",
+          "parent": "srd_wall-of-ice",
+          "ru_source": "derived",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "16d6",
+          "desc": "The damage from passing through the sheet of frigid air increases by 3d6.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10891",
+          "parent": "srd_wall-of-ice",
+          "ru_source": "derived",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Wall of Ice",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You create a wall of ice on a solid surface within range. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-square panels. Each panel must be contiguous with another panel. In any form, the wall is 1 foot thick and lasts for the duration. If the wall cuts through a creature's space when it appears, the creature within its area is pushed to one side of the wall and must make a dexterity saving throw. On a failed save, the creature takes 10d6 cold damage, or half as much damage on a successful save. The wall is an object that can be damaged and thus breached. It has AC 12 and 30 hit points per 10-foot section, and it is vulnerable to fire damage. Reducing a 10-foot section of wall to 0 hit points destroys it and leaves behind a sheet of frigid air in the space the wall occupied. A creature moving through the sheet of frigid air for the first time on a turn must make a constitution saving throw. That creature takes 5d6 cold damage on a failed save, or half as much damage on a successful one.",
+      "name": "Wall of Ice",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 6-го уровня (Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 120 футов\n\n**Компоненты:** В, С, М (маленький кусочек кварца)\n\n**Длительность:** Концентрация, вплоть до 10 минут\n\nВы создаёте стену льда на твёрдой поверхности в пределах дистанции. Вы можете придать ей форму полусферического купола или сферы радиусом до 10 футов, или же сформировать плоскую поверхность из десяти панелей 10 на 10 футов. Каждая панель должна примыкать к другой панели. В любой форме толщина стены составляет 1 фут, и она существует на время действия заклинания.\n\nЕсли стена прорезает пространство существа при появлении, существо в её области выталкивается на одну сторону стены и должно совершить спасбросок Ловкости. При провале существо получает 10к6 урона холодом или половину этого урона при успехе.\n\nСтена — это предмет, который может быть повреждён и, следовательно, пробит. Она имеет КД 12 и 30 хитов на 10-футовую секцию и уязвима к урону огнём. Уменьшение хитов 10-футовой секции стены до 0 уничтожает её и оставляет после себя слой ледяного воздуха в пространстве, которое занимала стена. Существо, впервые за ход проходящее через слой ледяного воздуха, должно совершить спасбросок Телосложения. Существо получает 5к6 урона холодом при провале или половину этого урона при успехе.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 7-го уровня или выше, урон при появлении стены увеличивается на 2к6, а урон от прохождения через слой ледяного воздуха увеличивается на 1к6 за каждый уровень ячейки выше 6-го.",
+      "glossary_version": "v1",
+      "name": "Стена льда",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

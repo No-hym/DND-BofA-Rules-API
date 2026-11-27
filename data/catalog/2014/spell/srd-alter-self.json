@@ -1,0 +1,185 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_alter-self",
+  "id": "o5e:srd-2014:spell:srd-alter-self",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-alter-self",
+      "o5e:wotc-srd:spell:alter-self"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c6e123043d5116f5a88d55f16c59f2ea8cd09f45bf866a9448fd549d8c931b65",
+    "formulas": [
+      {
+        "expression": "1d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "duration": "1 hour",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0.0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "c6e123043d5116f5a88d55f16c59f2ea8cd09f45bf866a9448fd549d8c931b65",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-alter-self",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "0a1ea53dc05d31ccfe4082cf2292ae9cf78316a489160395e6ba8e2e3bce071f",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:alter-self",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_sorcerer",
+        "type": "classes",
+        "value": [
+          "srd_sorcerer",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "desc": "You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.\n\n**Aquatic Adaptation.** You adapt your body to an aquatic environment, sprouting gills and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed.\n\n**Change Appearance.** You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.\n\n**Natural Weapons.** You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it.",
+      "document": "srd-2014",
+      "duration": "1 hour",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Alter Self",
+      "range": 0.0,
+      "range_text": "Self",
+      "ritual": false,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5046",
+          "parent": "srd_alter-self",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Alter Self",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.\n\n**Aquatic Adaptation.** You adapt your body to an aquatic environment, sprouting gills and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed.\n\n**Change Appearance.** You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.\n\n**Natural Weapons.** You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it.",
+      "name": "Alter Self",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Преобразование 2-го уровня (Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** На себя\n\n**Компоненты:** В, С\n\n**Длительность:** Концентрация, вплоть до 1 час\n\nВы принимаете другой облик. При сотворении заклинания выберите один из следующих вариантов, эффект которого длится на время действия заклинания. Пока заклинание действует, вы можете действием прекратить один вариант и получить преимущества другого.\n\n**_Водная адаптация._** Вы приспосабливаете своё тело к водной среде, отращивая жабры и перепонки между пальцами. Вы можете дышать под водой и получаете скорость плавания, равную вашей скорости ходьбы.\n\n**_Изменение внешности._** Вы преображаете свою внешность. Вы решаете, как будете выглядеть, включая рост, вес, черты лица, звук голоса, длину волос, цвет и отличительные черты, если таковые имеются. Вы можете выглядеть как представитель другой расы, хотя ни одна из ваших характеристик не меняется. Вы также не можете выглядеть как существо другого размера, и ваше базовое строение тела остаётся прежним; если вы двуногое существо, вы не можете использовать это заклинание, чтобы стать четвероногим, к примеру. В любой момент на время действия заклинания вы можете действием изменить свою внешность таким же образом.\n\n**_Природное оружие._** Вы отращиваете когти, клыки, шипы, рога или другое природное оружие по вашему выбору. Ваши безоружные удары наносят 1к6 дробящего, колющего или рубящего урона, в зависимости от выбранного природного оружия, и вы владеете своими безоружными ударами. Кроме того, природное оружие является магическим, и вы получаете бонус +1 к броскам атаки и урона при использовании его.",
+      "glossary_version": "v1",
+      "name": "Смена обличья",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

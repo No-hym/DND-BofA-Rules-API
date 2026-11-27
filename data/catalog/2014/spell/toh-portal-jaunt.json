@@ -1,0 +1,191 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_portal-jaunt",
+  "id": "o5e:toh:spell:toh-portal-jaunt",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:portal-jaunt",
+      "o5e:toh:spell:toh-portal-jaunt"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "889dcd6951eb9c5655d4a2be4038ed7322f0a58de0bb06fee3514484b8080c65",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 round",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 300,
+      "range_text": "300 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "889dcd6951eb9c5655d4a2be4038ed7322f0a58de0bb06fee3514484b8080c65",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-portal-jaunt",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "1ebebae95f0a5cba3550e7216683fa0ff384d3b4445d8fc9a2a202c2adcf2ec4",
+        "edition": "2014",
+        "id": "o5e:toh:spell:portal-jaunt",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "You touch a specially prepared key to a door or gate, turning it into a one-way portal to another such door within range. This spell works with any crafted door, doorway, archway, or any other artificial opening, but not natural or accidental openings such as cave entrances or cracks in walls. You must be aware of your destination or be able to see it from where you cast the spell.\n  On completing the spell, the touched door opens, revealing a shimmering image of the location beyond the destination door. You can move through the door, emerging instantly out of the destination door. You can also allow one other willing creature to pass through the portal instead. Anything you carry moves through the door with you, including other creatures, willing or unwilling.\n  For the purpose of this spell, any locks, bars, or magical effects such as arcane lock are ineffectual for the spell's duration. You can travel only to a side of the door you can see or have physically visited in the past (divinations such as clairvoyance count as seeing). Once you or a willing creature passes through, both doors shut, ending the spell. If you or another creature does not move through the portal within 1 round, the spell ends.",
+      "document": "toh",
+      "duration": "1 round",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the range increases by 100 feet and the duration increases by 1 round for each slot level above 3rd. Each round added to the duration allows one additional creature to move through the portal before the spell ends.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "name": "Portal Jaunt",
+      "range": 300,
+      "range_text": "300 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "242",
+          "parent": "toh_portal-jaunt",
+          "type": "default"
+        },
+        {
+          "duration": "2 rounds",
+          "external_id": "244",
+          "parent": "toh_portal-jaunt",
+          "range": "400 feet",
+          "type": "slot_level_4"
+        },
+        {
+          "duration": "3 rounds",
+          "external_id": "245",
+          "parent": "toh_portal-jaunt",
+          "range": "500 feet",
+          "type": "slot_level_5"
+        },
+        {
+          "duration": "4 rounds",
+          "external_id": "246",
+          "parent": "toh_portal-jaunt",
+          "range": "600 feet",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "5 rounds",
+          "external_id": "247",
+          "parent": "toh_portal-jaunt",
+          "range": "700 feet",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "6 rounds",
+          "external_id": "248",
+          "parent": "toh_portal-jaunt",
+          "range": "800 feet",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "7 rounds",
+          "external_id": "249",
+          "parent": "toh_portal-jaunt",
+          "range": "900 feet",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Portal Jaunt",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You touch a specially prepared key to a door or gate, turning it into a one-way portal to another such door within range. This spell works with any crafted door, doorway, archway, or any other artificial opening, but not natural or accidental openings such as cave entrances or cracks in walls. You must be aware of your destination or be able to see it from where you cast the spell.\n  On completing the spell, the touched door opens, revealing a shimmering image of the location beyond the destination door. You can move through the door, emerging instantly out of the destination door. You can also allow one other willing creature to pass through the portal instead. Anything you carry moves through the door with you, including other creatures, willing or unwilling.\n  For the purpose of this spell, any locks, bars, or magical effects such as arcane lock are ineffectual for the spell's duration. You can travel only to a side of the door you can see or have physically visited in the past (divinations such as clairvoyance count as seeing). Once you or a willing creature passes through, both doors shut, ending the spell. If you or another creature does not move through the portal within 1 round, the spell ends.",
+      "name": "Portal Jaunt",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы касаетесь специально подготовленным ключом двери или ворот, превращая её в односторонний портал к другой такой двери в пределах дистанции. Это заклинание работает с любой изготовленной дверью, дверным проёмом, аркой или любым другим искусственным отверстием, но не естественными или случайными отверстиями, такими как входы в пещеры или трещины в стенах. Вы должны осознавать ваш пункт назначения или быть способным видеть его оттуда, где вы творите заклинание.\n\nПо завершении заклинания коснутая дверь открывается, раскрывая мерцающее изображение местоположения за дверью пункта назначения. Вы можете переместиться через дверь, появляясь мгновенно из двери пункта назначения. Вы также можете позволить одному другому согласному существу пройти через портал вместо этого. Всё, что вы несёте, перемещается через дверь с вами, включая других существ, согласных или несогласных.\n\nДля целей этого заклинания любые замки, засовы или магические эффекты, такие как чародейский замок, неэффективны на время действия заклинания. Вы можете путешествовать только на сторону двери, которую вы можете видеть или физически посетили в прошлом (гадания, такие как ясновидение, считаются видением). Как только вы или согласное существо пройдете через, обе двери закрываются, завершая заклинание. Если вы или другое существо не переместитесь через портал в течение 1 раунда, заклинание заканчивается.",
+      "glossary_version": "v1",
+      "name": "Портальный переход",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

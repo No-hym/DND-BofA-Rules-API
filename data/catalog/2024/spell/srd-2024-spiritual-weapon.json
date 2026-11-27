@@ -1,0 +1,193 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_spiritual-weapon",
+  "id": "o5e:srd-2024:spell:srd-2024-spiritual-weapon",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "28264311609dba5742b06c3d8cc78eff5e88d4a032597b27245a282f6aa8fcd4",
+    "formulas": [
+      {
+        "expression": "1d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "classes": [
+        "srd-2024_cleric"
+      ],
+      "concentration": true,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "force"
+      ],
+      "duration": "1 minute",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_cleric",
+        "type": "classes",
+        "value": [
+          "srd-2024_cleric"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "classes": [
+        "srd-2024_cleric"
+      ],
+      "concentration": true,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "force"
+      ],
+      "desc": "You create a floating, spectral force that resembles a weapon of your choice and lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against one creature within 5 feet of the force. On a hit, the target takes Force damage equal to 1d8 plus your spellcasting ability modifier. As a Bonus Action on your later turns, you can move the force up to 20 feet and repeat the attack against a creature within 5 feet of it.",
+      "document": "srd-2024",
+      "duration": "1 minute",
+      "higher_level": "The damage increases by 1d8 for every slot level above 2.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Spiritual Weapon",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "damage_roll": "2d8",
+          "external_id": "10538",
+          "parent": "srd-2024_spiritual-weapon",
+          "type": "slot_level_3"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "10539",
+          "parent": "srd-2024_spiritual-weapon",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "10540",
+          "parent": "srd-2024_spiritual-weapon",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "5d8",
+          "external_id": "10541",
+          "parent": "srd-2024_spiritual-weapon",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "6d8",
+          "external_id": "10542",
+          "parent": "srd-2024_spiritual-weapon",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "7d8",
+          "external_id": "10543",
+          "parent": "srd-2024_spiritual-weapon",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "8d8",
+          "external_id": "10544",
+          "parent": "srd-2024_spiritual-weapon",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Spiritual Weapon",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "You create a floating, spectral force that resembles a weapon of your choice and lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against one creature within 5 feet of the force. On a hit, the target takes Force damage equal to 1d8 plus your spellcasting ability modifier. As a Bonus Action on your later turns, you can move the force up to 20 feet and repeat the attack against a creature within 5 feet of it.",
+      "name": "Spiritual Weapon",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Преобразование 2-го уровня (Бард, Друид, Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 30 футов\n\n**Компоненты:** В, С, М (щепотка железного порошка)\n\n**Длительность:** Концентрация, до 1 минуты\n\nНа время действия заклинания заклинание увеличивает или уменьшает существо или объект, которые вы видите в пределах дистанции (см. выбранный эффект ниже). Целевой объект не должен быть надет или нестись. Если цель — несогласное существо, оно может совершить спасбросок Телосложения. При успехе заклинание не действует.\n\nВсё, что целевое существо носит и несёт, меняет размер вместе с ним. Любой предмет, который оно роняет, возвращается к нормальному размеру сразу. Метательное оружие или снаряд возвращается к нормальному размеру сразу после попадания или промаха по цели.\n\n**_Увеличение._** Размер цели увеличивается на одну категорию — например, со Среднего до Большого. Цель также совершает с преимуществом проверки Силы и спасброски Силы. Атаки цели увеличенным оружием или безоружные удары наносят дополнительно 1d4 урона при попадании.\n\n**_Уменьшение._** Размер цели уменьшается на одну категорию — например, со Среднего до Маленького. Цель также совершает с помехой проверки Силы и спасброски Силы. Атаки цели уменьшенным оружием или безоружные удары наносят на 1d4 меньше урона при попадании (это не может уменьшить урон ниже 1).",
+      "glossary_version": "v1",
+      "name": "Духовное оружие",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

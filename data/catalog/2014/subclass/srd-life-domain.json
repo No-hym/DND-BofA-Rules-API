@@ -1,0 +1,181 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "srd_life-domain",
+  "id": "o5e:srd-2014:characterclass:srd-life-domain",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:characterclass:srd-life-domain"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "9a125728524a8cd55daf51dfa24f07a573f73bfa820e958d14067e2d6b3c0018",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_cleric"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "9a125728524a8cd55daf51dfa24f07a573f73bfa820e958d14067e2d6b3c0018",
+        "edition": "2014",
+        "id": "o5e:srd-2014:characterclass:srd-life-domain",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "subclass_of",
+        "value": "srd_cleric"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "document": "srd-2014",
+      "name": "Life Domain",
+      "subclass_of": "srd_cleric"
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you choose this domain at 1st level, you gain proficiency with heavy armor.",
+          "desc_ru": "Когда вы выбираете этот домен на 1-м уровне, вы получаете владение тяжёлыми доспехами.",
+          "document": "srd-2014",
+          "external_id": "srd_life-domain_bonus-proficiency",
+          "level": 1,
+          "name": "Bonus Proficiency",
+          "name_ru": "Дополнительное владение",
+          "parent": "srd_life-domain",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Also starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level.",
+          "desc_ru": "Также начиная с 1-го уровня, ваши лечебные заклинания более эффективны. Каждый раз, когда вы используете заклинание 1-го уровня или выше для восстановления хитов существу, это существо восстанавливает дополнительные хиты, равные 2 + уровень заклинания.",
+          "document": "srd-2014",
+          "external_id": "srd_life-domain_disciple-of-life",
+          "level": 1,
+          "name": "Disciple of Life",
+          "name_ru": "Ученик жизни",
+          "parent": "srd_life-domain",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Cleric Level | Spells |\r\n|---|---|\r\n| 1st | bless, cure wounds | \r\n| 3rd | lesser restoration, spiritual weapon |\r\n| 5th | beacon of hope, revivify |\r\n| 7th | death ward, guardian of faith |\r\n| 9th | mass cure wounds, raise dead |",
+          "desc_ru": "Уровень жреца | Заклинания |\n|---|---|\n| 1-й | благословение, лечение ран | \n| 3-й | малое восстановление, духовное оружие |\n| 5-й | маяк надежды, оживление |\n| 7-й | защита от смерти, страж веры |\n| 9-й | массовое лечение ран, воскрешение |",
+          "document": "srd-2014",
+          "external_id": "srd_life-domain_life-domain-spells-table",
+          "level": 1,
+          "name": "Life Domain Spells (table)",
+          "name_ru": "Заклинания домена жизни (таблица)",
+          "parent": "srd_life-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.\r\n\r\nAs an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your cleric level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct.",
+          "desc_ru": "Начиная со 2-го уровня, вы можете использовать Божественный канал для исцеления тяжело раненых.\n\nДействием вы демонстрируете свой священный символ и вызываете целительную энергию, которая может восстановить количество хитов, равное пятикратному вашему уровню жреца. Выберите любых существ в пределах 30 футов от вас и распределите эти хиты между ними. Это умение не может восстановить существу более половины его максимума хитов. Вы не можете использовать это умение на нежити или конструкте.",
+          "document": "srd-2014",
+          "external_id": "srd_life-domain_channel-divinity-preserve-life",
+          "level": 2,
+          "name": "Channel Divinity: Preserve Life",
+          "name_ru": "Божественный канал: Сохранение жизни",
+          "parent": "srd_life-domain",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Beginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's level.",
+          "desc_ru": "Исцеляющие заклинания, которые вы творите на других, исцеляют и вас. Сразу после того, как вы сотворили заклинание с использованием ячейки заклинания, которое восстанавливает хиты одному или нескольким существам, кроме вас, вы восстанавливаете хиты, равные 2 плюс уровень ячейки заклинания.",
+          "document": "srd-2014",
+          "external_id": "srd_life-domain_blessed-healer",
+          "level": 6,
+          "name": "Blessed Healer",
+          "name_ru": "Благословенный целитель",
+          "parent": "srd_life-domain",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8.",
+          "desc_ru": "На 8-м уровне вы получаете способность наполнять удары оружием божественной энергией. Один раз в каждый ваш ход, когда вы попадаете по существу атакой оружием, вы можете причинить цели дополнительно 1к8 урона излучением. Когда вы достигаете 14-го уровня, дополнительный урон увеличивается до 2к8.",
+          "document": "srd-2014",
+          "external_id": "srd_life-domain_divine-strike",
+          "level": 8,
+          "name": "Divine Strike",
+          "name_ru": "Божественный удар",
+          "parent": "srd_life-domain",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Starting at 17th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12.",
+          "desc_ru": "Когда вы обычно бросаете одну или несколько костей для восстановления хитов существу заклинанием или Божественным каналом, не бросайте эти кости для исцеления; вместо этого используйте максимально возможное число для каждой кости. Например, вместо восстановления 2d6 хитов существу заклинанием, вы восстанавливаете 12.",
+          "document": "srd-2014",
+          "external_id": "srd_life-domain_supreme-healing",
+          "level": 17,
+          "name": "Supreme Healing",
+          "name_ru": "Высшее исцеление",
+          "parent": "srd_life-domain",
+          "ru_source": "memory"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "assembled_features": 6,
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "Life Domain",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Life Domain",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Домен жизни сосредоточен на живительной позитивной энергии — одной из фундаментальных сил вселенной, — которая поддерживает всё живое. Боги жизни способствуют жизнеспособности и здоровью, исцеляя больных и раненых, заботясь о нуждающихся и изгоняя силы смерти и нежити. Почти любое не-злое божество может претендовать на влияние в этом домене, особенно аграрные божества (такие как Чонтия, Аравай и Деметра), солнечные боги (такие как Латандер, Пелор и Ре-Горахти), боги исцеления или выносливости (такие как Ильматер, Мишакаль, Аполлон и Дианцехт), а также боги домашнего очага и общины (такие как Гестия, Хатор и Болдрей).\n\nТаблица: Заклинания домена жизни\n\n| Уровень жреца | Заклинания                                             |\n|---|---|\n| 1              | благословение, лечение ран                             |\n| 3              | малое восстановление, духовное оружие                  |\n| 5              | маяк надежды, возвращение к жизни                      |\n| 7              | защита от смерти, страж веры                           |\n| 9              | массовое исцеление ран, воскрешение мёртвых            |\n\n### Уровень 1: Дополнительное владение\n\nКогда вы выбираете этот домен на 1-м уровне, вы получаете владение тяжёлыми доспехами.\n\n### Уровень 1: Ученик жизни\n\nТакже начиная с 1-го уровня, ваши лечебные заклинания более эффективны. Каждый раз, когда вы используете заклинание 1-го уровня или выше для восстановления хитов существу, это существо восстанавливает дополнительные хиты, равные 2 + уровень заклинания.\n\n### Уровень 2: Божественный канал: Сохранение жизни\n\nНачиная со 2-го уровня, вы можете использовать Божественный канал для исцеления тяжело раненых.\n\nДействием вы демонстрируете свой священный символ и вызываете целительную энергию, которая может восстановить количество хитов, равное пятикратному вашему уровню жреца. Выберите любых существ в пределах 30 футов от вас и распределите эти хиты между ними. Это умение не может восстановить существу более половины его максимума хитов. Вы не можете использовать это умение на нежити или конструкте.\n\n### Уровень 6: Благословенный целитель\n\nИсцеляющие заклинания, которые вы творите на других, исцеляют и вас. Сразу после того, как вы сотворили заклинание с использованием ячейки заклинания, которое восстанавливает хиты одному или нескольким существам, кроме вас, вы восстанавливаете хиты, равные 2 плюс уровень ячейки заклинания.\n\n### Уровень 8: Божественный удар\n\nНа 8-м уровне вы получаете способность наполнять удары оружием божественной энергией. Один раз в каждый ваш ход, когда вы попадаете по существу атакой оружием, вы можете причинить цели дополнительно 1к8 урона излучением. Когда вы достигаете 14-го уровня, дополнительный урон увеличивается до 2к8.\n\n### Уровень 17: Высшее исцеление\n\nКогда вы обычно бросаете одну или несколько костей для восстановления хитов существу заклинанием или Божественным каналом, не бросайте эти кости для исцеления; вместо этого используйте максимально возможное число для каждой кости. Например, вместо восстановления 2d6 хитов существу заклинанием, вы восстанавливаете 12.",
+      "glossary_version": "v1",
+      "name": "Домен жизни",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

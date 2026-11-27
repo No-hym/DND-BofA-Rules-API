@@ -1,0 +1,182 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_teleport",
+  "id": "o5e:srd-2014:spell:srd-teleport",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-teleport",
+      "o5e:wotc-srd:spell:teleport"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "9ddc3ddddb55492cbb2521adfaa8b20a80e444203fee8ab137def1d20af66763",
+    "formulas": [
+      {
+        "expression": "3d10",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "3d10",
+      "damage_types": [
+        "force"
+      ],
+      "duration": "instantaneous",
+      "level": 7,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 10.0,
+      "range_text": "10 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "conjuration",
+      "shape_size": 10.0,
+      "shape_size_unit": null,
+      "shape_type": "cube",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "9ddc3ddddb55492cbb2521adfaa8b20a80e444203fee8ab137def1d20af66763",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-teleport",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "bef10995e2e72ddc5ac2ac44e7784b3597c7651a598cb269562ba07cfd4713ba",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:teleport",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "classes",
+        "value": [
+          "srd_bard",
+          "srd_sorcerer",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "3d10",
+      "damage_types": [
+        "force"
+      ],
+      "desc": "This spell instantly transports you and up to eight willing creatures of your choice that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be able to fit entirely inside a 10-foot cube, and it can't be held or carried by an unwilling creature. The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls d100 and consults the table.\n\n**Familiarity.** \"Permanent circle\" means a permanent teleportation circle whose sigil sequence you know. \"Associated object\" means that you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library, bed linen from a royal suite, or a chunk of marble from a lich's secret tomb. \"Very familiar\" is a place you have been very often, a place you have carefully studied, or a place you can see when you cast the spell. \"Seen casually\" is someplace you have seen more than once but with which you aren't very familiar. \"Viewed once\" is a place you have seen once, possibly using magic. \"Description\" is a place whose location and appearance you know through someone else's description, perhaps from a map. \"False destination\" is a place that doesn't exist. Perhaps you tried to scry an enemy's sanctum but instead viewed an illusion, or you are attempting to teleport to a familiar location that no longer exists.\n\n**On Target.** You and your group (or the target object) appear where you want to.\n\n**Off Target.** You and your group (or the target object) appear a random distance away from the destination in a random direction. Distance off target is 1d10 × 1d10 percent of the distance that was to be traveled. For example, if you tried to travel 120 miles, landed off target, and rolled a 5 and 3 on the two d10s, then you would be off target by 15 percent, or 18 miles. The GM determines the direction off target randomly by rolling a d8 and designating 1 as north, 2 as northeast, 3 as east, and so on around the points of the compass. If you were teleporting to a coastal city and wound up 18 miles out at sea, you could be in trouble.\n\n**Similar Area.** You and your group (or the target object) wind up in a different area that's visually or thematically similar to the target area. If you are heading for your home laboratory, for example, you might wind up in another wizard's laboratory or in an alchemical supply shop that has many of the same tools and implements as your laboratory. Generally, you appear in the closest similar place, but since the spell has no range limit, you could conceivably wind up anywhere on the plane.\n\n**Mishap.** The spell's unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes 3d10 force damage, and the GM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).",
+      "document": "srd-2014",
+      "duration": "instantaneous",
+      "level": 7,
+      "material": false,
+      "material_consumed": false,
+      "name": "Teleport",
+      "range": 10.0,
+      "range_text": "10 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "conjuration",
+      "shape_size": 10.0,
+      "shape_type": "cube",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "6054",
+          "parent": "srd_teleport",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Teleport",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "This spell instantly transports you and up to eight willing creatures of your choice that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be able to fit entirely inside a 10-foot cube, and it can't be held or carried by an unwilling creature. The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls d100 and consults the table.\n\n**Familiarity.** \"Permanent circle\" means a permanent teleportation circle whose sigil sequence you know. \"Associated object\" means that you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library, bed linen from a royal suite, or a chunk of marble from a lich's secret tomb. \"Very familiar\" is a place you have been very often, a place you have carefully studied, or a place you can see when you cast the spell. \"Seen casually\" is someplace you have seen more than once but with which you aren't very familiar. \"Viewed once\" is a place you have seen once, possibly using magic. \"Description\" is a place whose location and appearance you know through someone else's description, perhaps from a map. \"False destination\" is a place that doesn't exist. Perhaps you tried to scry an enemy's sanctum but instead viewed an illusion, or you are attempting to teleport to a familiar location that no longer exists.\n\n**On Target.** You and your group (or the target object) appear where you want to.\n\n**Off Target.** You and your group (or the target object) appear a random distance away from the destination in a random direction. Distance off target is 1d10 × 1d10 percent of the distance that was to be traveled. For example, if you tried to travel 120 miles, landed off target, and rolled a 5 and 3 on the two d10s, then you would be off target by 15 percent, or 18 miles. The GM determines the direction off target randomly by rolling a d8 and designating 1 as north, 2 as northeast, 3 as east, and so on around the points of the compass. If you were teleporting to a coastal city and wound up 18 miles out at sea, you could be in trouble.\n\n**Similar Area.** You and your group (or the target object) wind up in a different area that's visually or thematically similar to the target area. If you are heading for your home laboratory, for example, you might wind up in another wizard's laboratory or in an alchemical supply shop that has many of the same tools and implements as your laboratory. Generally, you appear in the closest similar place, but since the spell has no range limit, you could conceivably wind up anywhere on the plane.\n\n**Mishap.** The spell's unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes 3d10 force damage, and the GM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).",
+      "name": "Teleport",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Вызов 7-го уровня (Бард, Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 10 футов\n\n**Компоненты:** В\n\n**Длительность:** Мгновенная\n\nЭто заклинание мгновенно переносит вас и до восьми согласных существ по вашему выбору, которых вы видите в пределах дистанции, или один предмет, который вы видите в пределах дистанции, в выбранный вами пункт назначения. Если вы нацеливаете предмет, он должен целиком помещаться в 10-футовом кубе и не должен удерживаться или переноситься несогласным существом.\n\nВыбранный вами пункт назначения должен быть вам известен и находиться на том же плане бытия, что и вы. Ваша осведомлённость о пункте назначения определяет, прибудете ли вы туда успешно. Мастер бросает к100 и сверяется с таблицей.\n\nТаблица: Знакомство с местом телепортации\n\n| Знакомство | Несчастный случай | Похожая область | Мимо цели | В цель |\n|---|---|---|---|---|\n| Постоянный круг | - | - | - | 01–100 |\n| Связанный предмет | - | - | - | 01–100 |\n| Очень хорошо знакомо | 01–05 | 06–13 | 14–24 | 25–100 |\n| Видел мимоходом | 01–33 | 34–43 | 44–53 | 54–100 |\n| Видел однажды | 01–43 | 44–53 | 54–73 | 74–100 |\n| По описанию | 01–43 | 44–53 | 54–73 | 74–100 |\n| Ложная цель | 01–50 | 51–100 | - | - |\n\n**_Знакомство._** «Постоянный круг» означает постоянный круг телепортации, последовательность знаков которого вам известна. «Связанный предмет» означает, что у вас есть предмет, взятый из пункта назначения в течение последних шести месяцев, например книга из библиотеки волшебника, постельное бельё из королевского люкса или кусок мрамора из тайной гробницы лича.\n\n«Очень хорошо знакомо» — место, где вы бывали очень часто, место, которое вы тщательно изучили, или место, которое вы видите при сотворении заклинания. «Видел мимоходом» — место, которое вы видели более одного раза, но с которым не очень хорошо знакомы. «Видел однажды» — место, которое вы видели один раз, возможно, с помощью магии. «По описанию» — место, расположение и внешний вид которого вы знаете по чьему-то описанию, например, по карте.\n\n«Ложная цель» — место, которого не существует. Возможно, вы пытались наблюдать за убежищем врага, но вместо этого увидели иллюзию, или вы пытаетесь телепортироваться в знакомое место, которого более не существует.\n\n**_В цель._** Вы и ваша группа (или целевой предмет) появляетесь в нужном месте.\n\n**_Мимо цели._** Вы и ваша группа (или целевой предмет) появляетесь на случайном расстоянии от пункта назначения в случайном направлении. Отклонение составляет 1к10 × 1к10 процентов от преодолеваемого расстояния. Например, если вы пытались переместиться на 120 миль, отклонились от цели и выбросили 5 и 3 на двух к10, то отклонение составит 15 процентов, или 18 миль. Мастер определяет направление отклонения случайным образом, бросая к8 и назначая 1 — север, 2 — северо-восток, 3 — восток и так далее по сторонам света. Если вы телепортировались в прибрежный город и оказались в 18 милях в открытом море, у вас могут быть неприятности.\n\n**_Похожая область._** Вы и ваша группа (или целевой предмет) оказываетесь в другой области, визуально или тематически похожей на целевую. Если вы направляетесь в свою домашнюю лабораторию, например, вы можете оказаться в лаборатории другого волшебника или в лавке алхимических принадлежностей, где есть многие из тех же инструментов и приспособлений, что в вашей лаборатории. Обычно вы появляетесь в ближайшем похожем месте, но поскольку у заклинания нет ограничения дальности, вы можете оказаться где угодно на этом плане.\n\n**_Несчастный случай._** Непредсказуемая магия заклинания приводит к трудному путешествию. Каждое телепортируемое существо (или целевой предмет) получает 3к10 урона силовым полем, и Мастер перебрасывает по таблице, чтобы определить, куда вы попали (может произойти несколько несчастных случаев, причиняющих урон каждый раз).",
+      "glossary_version": "v1",
+      "name": "Телепорт",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

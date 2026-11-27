@@ -1,0 +1,147 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subspecies",
+  "edition": "2014",
+  "external_id": "toh_delver",
+  "id": "o5e:toh:species:toh-delver",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:species:toh-delver",
+      "o5e:toh:subrace:delver"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "2f2e044a707a1612cf7e32a0a5151f1e671106fc52a92df5839263cdc725c840",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "subspecies_of": "toh_drow"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "2f2e044a707a1612cf7e32a0a5151f1e671106fc52a92df5839263cdc725c840",
+        "edition": "2014",
+        "id": "o5e:toh:species:toh-delver",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "46a56cea5ca8fe2bfb03870349fd1bff02cfaca860e9548270f4b6cb50ab5481",
+        "edition": "2014",
+        "id": "o5e:toh:subrace:delver",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "toh_drow",
+        "type": "subspecies_of",
+        "value": "toh_drow"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "You are one of the workers whose labors prop up most of drow society. You were trained from birth to follow orders and serve the collective. You learned your trade well, whether it was building or fighting or erecting the traps that protected passages to your population centers.",
+      "document": "toh",
+      "name": "Delver",
+      "subspecies_of": "toh_drow"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "traits": [
+        {
+          "desc": "Your Strength or Dexterity score increases by 1.",
+          "desc_ru": "Каждая раса увеличивает одну или несколько характеристик персонажа.",
+          "external_id": "toh_delver_ability-score-increase",
+          "name": "Ability Score Increase",
+          "name_ru": "Увеличение характеристик",
+          "parent": "toh_delver",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your caste's years of working alongside the giant spiders and beetles that your people utilized in building and defending cities has left your caste with an innate affinity with the creatures. You can communicate simple ideas with insect-like beasts with an Intelligence of 3 or lower, such as spiders, beetles, wasps, scorpions, and centipedes. You can understand them in return, though this understanding is often limited to knowing the creature's current or most recent state, such as “hungry,” “content,” or “in danger.” Delver drow often keep such creatures as pets, mounts, or beasts of burden.",
+          "desc_ru": "Особенность «Раппорт Вит Инсекц». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_delver_rapport-with-insects",
+          "name": "Rapport with Insects",
+          "name_ru": "Раппорт Вит Инсекц",
+          "parent": "toh_delver",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "You are proficient in one skill and one tool of your choice.",
+          "desc_ru": "Особенность «Спекиализед Траининг». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_delver_specialized-training",
+          "name": "Specialized Training",
+          "name_ru": "Спекиализед Траининг",
+          "parent": "toh_delver",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "You are proficient with one martial weapon of your choice and with light armor.",
+          "desc_ru": "Особенность «Мартиал Екскелленке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_delver_martial-excellence",
+          "name": "Martial Excellence",
+          "name_ru": "Мартиал Екскелленке",
+          "parent": "toh_delver",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Delver",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You are one of the workers whose labors prop up most of drow society. You were trained from birth to follow orders and serve the collective. You learned your trade well, whether it was building or fighting or erecting the traps that protected passages to your population centers.",
+      "name": "Delver",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы — один из рабочих, чьим трудом держится большая часть общества дроу. Вас с рождения учили следовать приказам и служить коллективу. Вы хорошо освоили своё ремесло, будь то строительство, бой или установка ловушек, защищавших проходы к вашим населённым центрам.",
+      "glossary_version": "v1",
+      "name": "Землекоп",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

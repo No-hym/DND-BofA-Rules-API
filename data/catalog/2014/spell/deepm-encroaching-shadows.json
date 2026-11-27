@@ -1,0 +1,178 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_encroaching-shadows",
+  "id": "o5e:deepm:spell:deepm-encroaching-shadows",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-encroaching-shadows",
+      "o5e:dmag:spell:encroaching-shadows"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "1ca3bfa666430c21473e8f06b33febbe3fd09fdfbf7eda80d3e6de1af41b139a",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "ritual",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1hour",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "12 hours",
+      "level": 6,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a drop of blood smeared on a silver rod worth 100 gp",
+      "range": 150,
+      "range_text": "150 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "saving_throw_ability": "",
+      "school": "illusion",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "1ca3bfa666430c21473e8f06b33febbe3fd09fdfbf7eda80d3e6de1af41b139a",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-encroaching-shadows",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "215c3ac2596f8f16d2cff2e2f55b06ee9773aeaa549ddfee9c8f877c22863366",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:encroaching-shadows",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1hour",
+      "concentration": false,
+      "desc": "You cause menacing shadows to invade an area 200 feet on a side and 50 feet high, centered on a point within range. Illumination in the area drops one step (from bright light to dim, or from dim light to darkness). Any spell that creates light in the area that is cast using a lower-level spell slot than was used to cast encroaching shadows is dispelled, and a spell that creates light doesn’t function in the area if that spell is cast using a spell slot of 5th level or lower. Nonmagical effects can’t increase the level of illumination in the affected area.\n\nA spell that creates darkness or shadow takes effect in the area as if the spell slot expended was one level higher than the spell slot actually used.\n",
+      "document": "deepm",
+      "duration": "12 hours",
+      "higher_level": "When you cast this spell using a spell slot of 7th level or higher, the effect lasts for an additional 12 hours for each slot level above 6th.\n\n***Ritual Focus.*** If you expend your ritual focus, the spell’s duration increases by 12 hours, and it cannot be dispelled by a spell that creates light, even if that spell is cast using a higher-level spell slot.",
+      "level": 6,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a drop of blood smeared on a silver rod worth 100 gp",
+      "name": "Encroaching Shadows",
+      "range": 150,
+      "range_text": "150 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "school": "illusion",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3192",
+          "parent": "deepm_encroaching-shadows",
+          "type": "default"
+        },
+        {
+          "external_id": "3193",
+          "parent": "deepm_encroaching-shadows",
+          "type": "ritual"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "3195",
+          "parent": "deepm_encroaching-shadows",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "36 hours",
+          "external_id": "3196",
+          "parent": "deepm_encroaching-shadows",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "48 hours",
+          "external_id": "3197",
+          "parent": "deepm_encroaching-shadows",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Encroaching Shadows",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You cause menacing shadows to invade an area 200 feet on a side and 50 feet high, centered on a point within range. Illumination in the area drops one step (from bright light to dim, or from dim light to darkness). Any spell that creates light in the area that is cast using a lower-level spell slot than was used to cast encroaching shadows is dispelled, and a spell that creates light doesn’t function in the area if that spell is cast using a spell slot of 5th level or lower. Nonmagical effects can’t increase the level of illumination in the affected area.\n\nA spell that creates darkness or shadow takes effect in the area as if the spell slot expended was one level higher than the spell slot actually used.",
+      "name": "Encroaching Shadows",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы заставляете грозные тени вторгнуться в область 200 футов в поперечнике и 50 футов высотой с центром в точке в пределах дистанции. Освещение в области падает на одну ступень (от яркого света до тусклого или от тусклого света до темноты). Любое заклинание, создающее свет в области, сотворённое с использованием ячейки заклинаний более низкого уровня, чем использовано это заклинание, рассеивается, а заклинание, создающее свет, не работает в области, если это заклинание сотворено в ячейки заклинаний 5-го уровня или ниже. Немагические эффекты не могут повысить уровень освещения в затронутой области.\n\nЗаклинание, создающее темноту или тень, действует в области так, словно потраченная ячейка была на один уровень выше фактически использованной.",
+      "glossary_version": "v1",
+      "name": "Наступающие тени",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,204 @@
+{
+  "attribution": "Title: Tome of Beasts 3; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-3/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob3",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob3_rafflesian",
+  "id": "o5e:tob3:creature:tob3-rafflesian",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob3:creature:tob3-rafflesian",
+      "o5e:tob3:monster:rafflesian"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "31149bec81943df663406f594e725020da77eea2e98781213f2140643da4fd20",
+    "formulas": [
+      {
+        "expression": "16d6+80",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 18,
+      "ability_score_constitution": 20,
+      "ability_score_dexterity": 8,
+      "ability_score_intelligence": 14,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 14,
+      "alignment": "unaligned",
+      "armor_class": 17,
+      "armor_detail": "natural armor",
+      "blindsight_range": 120,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "7.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "16d6+80",
+      "hit_points": 136,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "understands the languages of its host companion but can't speak",
+      "normal_sight_range": null,
+      "passive_perception": 17,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "small",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 15
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob3",
+        "content_hash": "31149bec81943df663406f594e725020da77eea2e98781213f2140643da4fd20",
+        "edition": "2014",
+        "id": "o5e:tob3:creature:tob3-rafflesian",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob3"
+      },
+      {
+        "book": "tob3",
+        "content_hash": "2a4d0b4822d37630c3f02894ec84de00d3e9dc96b72cca903e77b0230ddebf1c",
+        "edition": "2014",
+        "id": "o5e:tob3:monster:rafflesian",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob3"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 18,
+      "ability_score_constitution": 20,
+      "ability_score_dexterity": 8,
+      "ability_score_intelligence": 14,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 14,
+      "alignment": "unaligned",
+      "armor_class": 17,
+      "armor_detail": "natural armor",
+      "blindsight_range": 120,
+      "category": "Monsters",
+      "challenge_rating": "7.000",
+      "document": "tob3",
+      "hit_dice": "16d6+80",
+      "hit_points": 136,
+      "hover": false,
+      "languages_desc": "understands the languages of its host companion but can't speak",
+      "name": "Rafflesian",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "passive_perception": 17,
+      "size": "small",
+      "skill_bonus_perception": 2,
+      "type": "plant",
+      "walk": 15,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob3",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-3/",
+      "publication_date": "2022-01-10T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 3"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "REACTION",
+          "desc": "When host dies rafflesian can reanimate it up to 10 days if body is still intact. During this time host protected from decay and can't become undead. Rafflesian can use bonus action to cause host to move as in life but host can't take other actions. If host could speak in life rafflesian can speak with host's voice. Host reanimated this way can be restored to life by any spell capable of that.",
+          "desc_ru": "Действие «Ласт Ресорт»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_rafflesian_last-resort",
+          "name": "Last Resort",
+          "name_ru": "Ласт Ресорт",
+          "order_in_statblock": 0,
+          "parent": "tob3_rafflesian",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "Can bond with willing Humanoid creature that remains in physical contact with it for 10 min. While bonded this way host gains +2 bonus to AC and saves and resistance to all damage and rafflesian’s speed is 0 moving with host when it moves. Each time host takes damage rafflesian takes same amount. If host is subjected to effect that would force it to save host can use its save bonuses or rafflesian’s. If both are subjected to same effect only one is affected rafflesian’s choice. Rafflesian and host otherwise retain their own stats and take separate turns. Rafflesian and host can’t be separated unless rafflesian chooses to terminate connection. Rafflesian can detach itself safely from host over course of 1 hr or can detach itself from creature as an action which immediately kills host.",
+          "desc_ru": "Особенность «Сймбиоте». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_rafflesian_symbiote",
+          "name": "Symbiote",
+          "name_ru": "Сймбиоте",
+          "parent": "tob3_rafflesian",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Bonded it and host communicate telepathically.",
+          "desc_ru": "Особенность «Сймбиотик Тоугхт». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_rafflesian_symbiotic-thought",
+          "name": "Symbiotic Thought",
+          "name_ru": "Сймбиотик Тоугхт",
+          "parent": "tob3_rafflesian",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Rafflesian",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob3",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Rafflesian",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Маленькое растение, мировоззрение: без мировоззрения. Класс доспеха: 17 (природный доспех). Хиты: 136 (16к6+80). Скорость: ходьба 15 фт.. Характеристики: СИЛ 18, ЛОВ 8, ТЕЛ 20, ИНТ 14, МУД 14, ХАР 18. Чувства: слепое зрение 120 фт., пассивное Восприятие 17. Показатель опасности: 7. Структурированные механики записи: особенностей: 2, действий: 1.",
+      "glossary_version": "derived-v1",
+      "name": "Раффлесиан",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,135 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "azer-forgemaster-a5e",
+  "id": "o5e:menagerie:monster:azer-forgemaster-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:azer-forgemaster-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "fa809bebd243c8f62506495f5cbf974b235c69c86dfc5cb028043b84c165a9c4",
+    "formulas": [
+      {
+        "expression": "12d8+24",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 16,
+      "challenge_rating": "4",
+      "condition_immunities": "poisoned",
+      "damage_immunities": "fire, poison",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "cold",
+      "hit_dice": "12d8+24",
+      "hit_points": 78,
+      "languages": "Common, Ignan",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "fa809bebd243c8f62506495f5cbf974b235c69c86dfc5cb028043b84c165a9c4",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:azer-forgemaster-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The azer attacks with its returning hammer and uses Bonfire if available.\"}, {\"name\": \"Returning Hammer\", \"desc\": \"Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 feet  one target. Hit: 8 (1d8 + 4) bludgeoning damage plus 7 (2d6) fire damage. The azers hammer returns to its hand after its thrown.\"}, {\"name\": \"Bonfire (3/Day)\", \"desc\": \"A 5-foot-square space within 60 feet catches fire. A creature takes 10 (3d6) fire damage when it enters this area for the first time on a turn or starts its turn there. A creature can use an action to extinguish this fire.\"}]",
+      "armor_class": 16,
+      "bonus_actions_json": "[{\"name\": \"Fire Step\", \"desc\": \"While standing in fire, the azer can magically teleport up to 90 feet to a space within fire.\"}]",
+      "challenge_rating": "4",
+      "charisma": 16,
+      "condition_immunities": "poisoned",
+      "constitution": 14,
+      "cr": 4.0,
+      "damage_immunities": "fire, poison",
+      "damage_vulnerabilities": "cold",
+      "dexterity": 14,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "12d8+24",
+      "hit_points": 78,
+      "intelligence": 12,
+      "languages": "Common, Ignan",
+      "legendary_actions_json": "null",
+      "name": "Azer Forgemaster",
+      "page_no": 28,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "passive Perception 13",
+      "size": "Medium",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Fiery Aura\", \"desc\": \"A creature that ends its turn within 5 feet of one or more azers takes 5 (1d10) fire damage. The azer sheds bright light in a 10-foot radius and dim light for an additional 10 feet.\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 18,
+      "type": "Elemental",
+      "wisdom": 16
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Azer Forgemaster",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-azer-forgemaster"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Azer Forgemaster",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Средний элементаль. Класс доспеха: 16. Хиты: 78 (12к8+24). Уязвимость к урону: холодом. Иммунитет к урону: огнём, ядом. Иммунитет к состояниям: отравление. Показатель опасности: 4.",
+      "glossary_version": "derived-v1",
+      "name": "Азер Форгемастер",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

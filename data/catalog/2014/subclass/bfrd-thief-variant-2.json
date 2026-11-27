@@ -1,0 +1,160 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "bfrd_thief",
+  "id": "o5e:bfrd:characterclass:bfrd-thief-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:characterclass:bfrd-thief"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "349fcfce0a6d382433902c1c7cd90e72a9892aa6c34a8900794ada45dbfd3fa0",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "bfrd_rogue"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "349fcfce0a6d382433902c1c7cd90e72a9892aa6c34a8900794ada45dbfd3fa0",
+        "edition": "2014",
+        "id": "o5e:bfrd:characterclass:bfrd-thief",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "bfrd_rogue",
+        "type": "subclass_of",
+        "value": "bfrd_rogue"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "You have a reputation for quick thinking and quicker fingers. Leave throat-cutting and con-running to lesser scoundrels. You live to liberate treasures held under lock and key. The thrill of bypassing a sealed door, complex trap, or other “impassable” obstacle is the true prize—followed by the payday that comes from whatever you took.",
+      "document": "bfrd",
+      "name": "Thief",
+      "subclass_of": "bfrd_rogue"
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "Experience has honed your skills, allowing you to accomplish precision work in a flash. In addition to its standard uses, you can now use the bonus action granted by your Cunning Action feature to do any of the following:\n- Make a DEX (Sleight of Hand) check.\n- Take the Use an Object action.\n- Use thieves' tools to attempt to disarm a trap or open a lock.",
+          "desc_ru": "Как Бонусное действие, вы можете сделать одно из следующего.\n\n**Ловкость рук.** Совершите проверку Ловкости (Ловкость рук), чтобы вскрыть замок или обезвредить ловушку с помощью воровских инструментов или чтобы залезть в карман.\n\n**Использовать предмет.** Совершите действие Использование или действие «Магия», чтобы использовать магический предмет, требующий этого действия.",
+          "document": "bfrd",
+          "external_id": "bfrd_thief_fast-hands",
+          "level": 3,
+          "name": "Fast Hands",
+          "name_ru": "Ловкие руки",
+          "parent": "bfrd_thief",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You've never met a wall you couldn't conquer, and climbing them is second nature. You gain a climbing speed equal to your walking speed. If you already have a climbing speed when you gain this feature, it increases by 10 feet.\n\nIn addition, when you make a long jump, you cover a number of feet equal to your walking speed if you move at least 10 feet on foot immediately before the jump. When you make a standing long jump, you can leap half your walking speed. Either way, each foot you clear on the jump costs a foot of movement. In the event a STR (Athletics) check is required to clear or extend a jump, you can choose to make a DEX (Acrobatics) check instead.",
+          "desc_ru": "Когда вы выбираете этот архетип на 3-м уровне, вы получаете способность лазать быстрее обычного; лазание больше не требует от вас дополнительного перемещения.\n\nКроме того, когда вы совершаете прыжок с разбега, расстояние, которое вы преодолеваете, увеличивается на количество футов, равное вашему модификатору Ловкости.",
+          "document": "bfrd",
+          "external_id": "bfrd_thief_second-story-work",
+          "level": 3,
+          "name": "Second-Story Work",
+          "name_ru": "Работа на высоте",
+          "parent": "bfrd_thief",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You've developed an eye for quality. As an action, you can inspect any object within 10 feet of you that you can see to learn whether it is nonmagical or magical. If the object is nonmagical, you immediately learn its approximate value in gold pieces. You also learn whether the object is fake or could conceal other objects inside it (though you don't learn whether it is currently concealing objects or what those objects are).\n\nIf the object is magical, you can spend 1 minute examining it to learn its type, rarity, whether it is cursed, and if it requires attunement (and any specific attunement requirements it has). After you have examined a magic item in this way, you learn how to use it and can ignore any class or feature requirements that would normally prevent you from using it (though you still must abide by any level restrictions). If a magic item requires the use of a spellcasting ability, use your DEX to determine your spell save DC or spell attack bonus.",
+          "desc_ru": "Вы развили глаз на качество. действием вы можете осмотреть любой предмет в пределах 10 футов от вас, который вы можете видеть, чтобы узнать, является ли он немагическим или магическим. Если предмет немагический, вы немедленно узнаёте его приблизительную стоимость в золотых монетах. Вы также узнаёте, является ли предмет подделкой или может скрывать другие предметы внутри него (хотя вы не узнаёте, скрывает ли он в настоящее время предметы или что это за предметы).\n\nЕсли предмет магический, вы можете потратить 1 минуту на его осмотр, чтобы узнать его тип, редкость, проклят ли он, и если он требует настройки (и любые конкретные требования настройки, которые у него есть). После того как вы осмотрели магический предмет этим способом, вы узнаёте, как его использовать, и можете игнорировать любые требования класса или особенности, которые обычно помешали бы вам его использовать (хотя вы всё ещё должны соблюдать любые ограничения уровня). Если магический предмет требует использования заклинательной характеристики, используйте вашу Ловкость, чтобы определить вашу Сл спасбросков от заклинаний или бонус атаки заклинанием.",
+          "document": "bfrd",
+          "external_id": "bfrd_thief_appraising-eye",
+          "level": 7,
+          "name": "Appraising Eye",
+          "name_ru": "Оценочный глаз",
+          "parent": "bfrd_thief",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you or a creature within 5 feet of you triggers a trap, you can use your reaction to roll an ability check to attempt to disarm the trap. If you are successful, the trap is disarmed and not triggered. If you are unsuccessful, the trap is triggered as normal.\n\nIn addition, you can now disarm any magical traps that would typically require the use of the dispel magic spell. When you do so, make an ability check using only your DEX modifier, without adding any other modifiers to the roll. If the result meets or exceeds the trap's DC (your GM has this number), it is disarmed as if you had successfully cast the dispel magic spell.",
+          "desc_ru": "Когда вы или существо в пределах 5 футов от вас приводит в действие ловушку, вы можете реакцией бросить проверку характеристики, чтобы попытаться обезвредить ловушку. Если вы успешны, ловушка обезврежена и не приведена в действие. Если вы неуспешны, ловушка приводится в действие как обычно.\n\nКроме того, теперь вы можете обезвреживать любые магические ловушки, которые обычно требовали бы использования заклинания рассеять магию. Когда вы делаете это, совершите проверку характеристики, используя только ваш модификатор Ловкости, без добавления любых других модификаторов к броску. Если результат достигает или превышает Сл ловушки (у вашего мастера игры есть это число), она обезврежена, как если бы вы успешно сотворили заклинание рассеять магию.",
+          "document": "bfrd",
+          "external_id": "bfrd_thief_trap-specialist",
+          "level": 11,
+          "name": "Trap Specialist",
+          "name_ru": "Специалист по ловушкам",
+          "parent": "bfrd_thief",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You have become adept at laying ambushes and quickly escaping danger. Now, you can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature if you are surprised.",
+          "desc_ru": "Вы стали искусны в устройстве засад и быстром уходе от опасности. Теперь вы можете совершать два хода в течение первого раунда любого боя. Вы совершаете ваш первый ход при вашей обычной инициативе, а ваш второй ход при вашей инициативе минус 10. Вы не можете использовать эту особенность, если вы застигнуты врасплох.",
+          "document": "bfrd",
+          "external_id": "bfrd_thief_thiefs-reflexes",
+          "level": 15,
+          "name": "Thief's Reflexes",
+          "name_ru": "Рефлексы вора",
+          "parent": "bfrd_thief",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "assembled_features": 2,
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Thief",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy+omnigm"
+    },
+    "variant_of": "o5e:srd-2014:characterclass:srd-thief"
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "You have a reputation for quick thinking and quicker fingers. Leave throat-cutting and con-running to lesser scoundrels. You live to liberate treasures held under lock and key. The thrill of bypassing a sealed door, complex trap, or other “impassable” obstacle is the true prize—followed by the payday that comes from whatever you took.",
+      "name": "Thief",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "**Оригинал:** Thief\n**Основные:** ЛОВ + ИНТ\n\n| Навык | Оригинал | Базовый | Роль |\n|---|---|---|---|\n| Внимательность | Spot | 25% | Поиск ценностей, ловушек и систем безопасности |\n| Убалтывание | Fast Talk | 05% | Отговорки и увёртки при поимке |\n| Лазание | Climb | 40% | Карабканье по стенам и проникновение через верхние окна |\n| Ловкость рук | Sleight of Hand | 05% | Карманные кражи и прятание мелких предметов |\n| Прятки | Hide | 10% | Укрытие во время взломов |\n| Скрытность | Stealth | 10% | Бесшумное передвижение по зданиям мимо охраны |\n| Слух | Listen | 25% | Слышать приближение охраны или обитателей |\n| Точная работа | Fine Manipulation | 05% | Взлом замков, отключение сигнализации и вскрытие сейфов |\n| Уклонение | Dodge | ЛОВ x2% | Уклонение от охраны и физического столкновения |\n| Оценка | Appraise | 15% | Оценка краденого и потенциальных целей |\n\n### Уровень 3: Ловкие руки\n\nКак Бонусное действие, вы можете сделать одно из следующего.\n\n**Ловкость рук.** Совершите проверку Ловкости (Ловкость рук), чтобы вскрыть замок или обезвредить ловушку с помощью воровских инструментов или чтобы залезть в карман.\n\n**Использовать предмет.** Совершите действие Использование или действие «Магия», чтобы использовать магический предмет, требующий этого действия.\n\n### Уровень 3: Работа на высоте\n\nКогда вы выбираете этот архетип на 3-м уровне, вы получаете способность лазать быстрее обычного; лазание больше не требует от вас дополнительного перемещения.\n\nКроме того, когда вы совершаете прыжок с разбега, расстояние, которое вы преодолеваете, увеличивается на количество футов, равное вашему модификатору Ловкости.",
+      "glossary_version": "v1",
+      "name": "Вор",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

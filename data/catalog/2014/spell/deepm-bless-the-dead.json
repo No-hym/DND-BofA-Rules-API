@@ -1,0 +1,167 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_bless-the-dead",
+  "id": "o5e:deepm:spell:deepm-bless-the-dead",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-bless-the-dead",
+      "o5e:dmag:spell:bless-the-dead"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5f8cf694bc207170f2a6970c020730017d8e7e1a8ff7739ff2a9d56da8984f96",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_druid",
+        "srd_warlock"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "5f8cf694bc207170f2a6970c020730017d8e7e1a8ff7739ff2a9d56da8984f96",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-bless-the-dead",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "5ebb02359e9b6931b4abae8383fd5ab3ebb5ead0dec2b64b9b888b78b1afcdf7",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:bless-the-dead",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric",
+          "srd_druid",
+          "srd_warlock"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_druid",
+        "srd_warlock"
+      ],
+      "concentration": false,
+      "desc": "You grant a blessing to one deceased creature, enabling it to cross over to the realm of the dead in peace. A creature that benefits from **bless the dead** can’t become undead. The spell has no effect on living creatures or the undead.",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "name": "Bless the Dead",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2477",
+          "parent": "deepm_bless-the-dead",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Bless the Dead",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You grant a blessing to one deceased creature, enabling it to cross over to the realm of the dead in peace. A creature that benefits from **bless the dead** can’t become undead. The spell has no effect on living creatures or the undead.",
+      "name": "Bless the Dead",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы даруете благословение одному умершему существу, позволяя ему перейти в царство мёртвых в мире. Существо, которое получает преимущество от **благословить мёртвых**, не может стать нежитью. Заклинание не имеет эффекта на живых существ или нежить.",
+      "glossary_version": "v1",
+      "name": "Благословить мёртвых",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

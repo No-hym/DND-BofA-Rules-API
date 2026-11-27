@@ -1,0 +1,133 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "malcubus-a5e",
+  "id": "o5e:menagerie:monster:malcubus-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:malcubus-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "ca9999b4745baca2e69dca8b7a6ce782020ea6ff3d9b629c6484a02161cacbf0",
+    "formulas": [
+      {
+        "expression": "12d8+24",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 14,
+      "challenge_rating": "4",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "cold, fire, lightning, poison; damage from nonmagical weapons",
+      "damage_vulnerabilities": "",
+      "hit_dice": "12d8+24",
+      "hit_points": 78,
+      "languages": "Abyssal, Common, Infernal, telepathy 60 ft.",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "ca9999b4745baca2e69dca8b7a6ce782020ea6ff3d9b629c6484a02161cacbf0",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:malcubus-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Claw (Malcubus Form Only)\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage plus 7 (2d6) necrotic damage.\"}, {\"name\": \"Charm\", \"desc\": \"The malcubus targets one humanoid on the same plane of existence within 30 feet  forcing it to make a DC 15 Wisdom saving throw. On a failure  the target is magically charmed for 1 day or until the malcubus charms another creature. The charmed creature obeys the malcubuss commands. The creature repeats the saving throw whenever it takes damage or if it receives a suicidal command. If a creatures saving throw is successful or the effect ends for it  it is immune to any malcubuss Charm for 24 hours.\"}, {\"name\": \"Draining Kiss\", \"desc\": \"The malcubus kisses a willing or charmed creature. The target makes a DC 15 Constitution saving throw  taking 22 (4d10) psychic damage on a failed save or half damage on a success. The targets hit point maximum is reduced by the same amount until it finishes a long rest  and the malcubus regains hit points equal to the same amount. If the target is charmed by the malcubus  the charm ends.\"}, {\"name\": \"Etherealness\", \"desc\": \"The malcubus magically travels to the Ethereal Plane. While on the Ethereal Plane  the malcubus can see and hear into the Material Plane and can choose to make itself audible and hazily visible to creatures on the Material Plane. If a humanoid on the Material Plane invites the malcubus to do so  the malcubus can use an action to magically travel from the Ethereal Plane to the Material Plane.\"}, {\"name\": \"Dream (1/Day)\", \"desc\": \"While on the Ethereal Plane  the malcubus magically touches a sleeping humanoid that is not protected by a magic circle or protection from evil and good spell or similar magic. While the touch persists  the malcubus appears in the creatures dreams. The creature can end the dream at any time. If the dream lasts for 1 hour  the target gains no benefit from the rest  and the malcubus can use Charm on the creature even if its on a different plane of existence.\"}]",
+      "armor_class": 14,
+      "bonus_actions_json": "[{\"name\": \"Shapeshift\", \"desc\": \"The malcubus magically changes its form to a Medium or Small humanoid or into its true form. It can fly only in its true form. While shapeshifted, its statistics are unchanged except for its size and speed. Its equipment is not transformed. It reverts to its true form if it dies.\"}]",
+      "challenge_rating": "4",
+      "charisma": 20,
+      "constitution": 14,
+      "cr": 4.0,
+      "damage_resistances": "cold, fire, lightning, poison; damage from nonmagical weapons",
+      "dexterity": 16,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "12d8+24",
+      "hit_points": 78,
+      "intelligence": 14,
+      "languages": "Abyssal, Common, Infernal, telepathy 60 ft.",
+      "legendary_actions_json": "null",
+      "name": "Malcubus",
+      "page_no": 319,
+      "reactions_json": "[{\"name\": \"Living Shield\", \"desc\": \"When a creature the malcubus can see hits it with an attack, the malcubus can give an order to a creature charmed by it within 5 feet. The charmed creature uses its reaction, if available, to swap places with the malcubus. The attack hits the charmed creature instead of the malcubus.\"}]",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 15",
+      "size": "Medium",
+      "skills_json": "{\"deception\": 7, \"insight\": 5, \"perception\": 5, \"persuasion\": 7, \"stealth\": 5}",
+      "special_abilities_json": "[{\"name\": \"Cloaked Mind\", \"desc\": \"When subjected to a divination effect that detects fiends or alignment, the malcubus makes a DC 15 Charisma saving throw. On a success, the malcubuss nature is not detected.\"}, {\"name\": \"Evil\", \"desc\": \"The malcubus radiates an Evil aura.\"}, {\"name\": \"Telepathic Bond\", \"desc\": \"The malcubus can communicate telepathically with a charmed creature over any distance, even on a different plane of existence.\"}]",
+      "speed_json": "{\"walk\": 30, \"fly\": 60}",
+      "spells_json": "null",
+      "strength": 10,
+      "type": "Fiend",
+      "wisdom": 16
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Malcubus",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-malcubus"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Malcubus",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Среднее исчадие. Класс доспеха: 14. Хиты: 78 (12к8+24). Сопротивление урону: холодом, огнём, электричеством, ядом, damage from nonmagical weapons. Показатель опасности: 4.",
+      "glossary_version": "derived-v1",
+      "name": "Малкубус",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,401 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "class",
+  "edition": "2024",
+  "external_id": "srd-2024_paladin",
+  "id": "o5e:srd-2024:characterclass:srd-2024-paladin",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "aa803d821981243d76c08097c1d49996ae0e49e0caa3e77d4a6f09a9ad7c06a2",
+    "formulas": [
+      {
+        "expression": "D10",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "HALF",
+      "hit_dice": "D10",
+      "primary_abilities": [],
+      "saving_throws": [
+        "cha",
+        "wis"
+      ],
+      "subclass_of": null
+    },
+    "original_system": "5e-2024",
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "HALF",
+      "document": "srd-2024",
+      "hit_dice": "D10",
+      "name": "Paladin",
+      "saving_throws": [
+        "cha",
+        "wis"
+      ]
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_slots-1st",
+          "feature_type": "SPELL_SLOTS",
+          "level": 1,
+          "name": "1st",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_paladin",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.\n\nAs a Bonus Action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.\n\nYou can also expend 5 Hit Points from the pool of healing power to remove the Poisoned condition from the creature; those points don't also restore Hit Points to the creature.",
+          "desc_ru": "Ваше благословенное прикосновение способно исцелять раны. У вас есть запас целительной силы, который восполняется после долгого отдыха. Из этого запаса вы можете восстановить суммарное количество хитов, равное вашему уровню паладина x 5.\n\nДействием вы можете коснуться существа и черпать силу из запаса, чтобы восстановить ему количество хитов, вплоть до максимума, оставшегося в вашем запасе.\n\nВ качестве альтернативы вы можете потратить 5 хитов из вашего запаса целительной силы, чтобы излечить цель от одной болезни или нейтрализовать один действующий на неё яд. Вы можете излечить несколько болезней и нейтрализовать несколько ядов одним использованием Наложения рук, расходуя хиты отдельно на каждый из них.\n\nЭто умение не действует на нежить и конструктов.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_lay-on-hands",
+          "level": 1,
+          "name": "Lay On Hands",
+          "name_ru": "Наложение рук",
+          "parent": "srd-2024_paladin",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_prepared-spells",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Prepared Spells",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_paladin",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_proficiency-bonus",
+          "feature_type": "PROFICIENCY_BONUS",
+          "level": 1,
+          "name": "Proficiency Bonus",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_paladin",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You have learned to cast spells through prayer and meditation. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Paladin spells, which appear in the Paladin spell list later in the class's description.\n\n**Spell Slots.** The Paladin Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.\n\n**Prepared Spells of Level 1+**. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Paladin spells. *Heroism* and *Searing Smite* are recommended.\n\nThe number of spells on your list increases as you gain Paladin levels, as shown in the Prepared Spells column of the Paladin Features table. Whenever that number increases, choose additional Paladin spells until the number of spells on your list matches the number in the Paladin Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Paladin, your list of prepared spells can include six Paladin spells of level 1 or 2 in any combination.\n\nIf another Paladin feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Paladin spells for you.\n\n**Changing Your Prepared Spells.** Whenever you finish a Long Rest, you can replace one spell on your list with another Paladin spell for which you have spell slots.\n\n**Spellcasting Ability.** Charisma is your spellcasting ability for your Paladin spells.\n\n**Spellcasting Focus.** You can use a Holy Symbol as a Spellcasting Focus for your Paladin spells.",
+          "desc_ru": "Как ученик тайной магии, вы научились творить заклинания. Смотрите раздел «Заклинания» для правил использования заклинаний. Информация ниже описывает, как вы используете эти правила с заклинаниями волшебника, которые приведены в списке заклинаний волшебника далее в описании класса.\n\n**Заговоры.** Вы знаете три заговора волшебника на свой выбор. Рекомендуются *Свет*, *Волшебная рука* и *Луч холода*. Каждый раз, когда вы заканчиваете долгий отдых, вы можете заменить один из заговоров этого умения другим заговором волшебника на свой выбор.\n\nКогда вы достигаете 4-го и 10-го уровня волшебника, вы узнаёте ещё один заговор волшебника на свой выбор, как показано в столбце Заговоры таблицы Умения волшебника.\n\n**Книга заклинаний.** Ваше обучение волшебству завершилось созданием уникальной книги: вашей книги заклинаний. Это Крошечный предмет весом 3 фунта, содержащий 100 страниц, который может прочитать только вы или тот, кто творит *Опознание*. Вы определяете внешний вид и материалы книги, например том с позолоченными краями или связанный бечёвкой набор листов пергамента.\n\nКнига содержит заклинания 1-го уровня и выше, которые вы знаете. Она начинается с шести заклинаний волшебника 1-го уровня на ваш выбор. Рекомендуются *Обнаружение магии*, *Падение пёрышком*, *Доспехи мага*, *Магическая стрела*, *Усыпление* и *Волна грома*.\n\nКаждый раз, когда вы получаете уровень волшебника после 1-го, добавляйте два заклинания волшебника на свой выбор в книгу заклинаний. Каждое из этих заклинаний должно быть того уровня, для которого у вас есть ячейки заклинаний, как показано в таблице Умения волшебника. Заклинания — результат магических исследований, которые вы регулярно проводите.\n\n**Ячейки заклинаний.** Таблица Умения волшебника показывает, сколько у вас есть ячеек заклинаний для сотворения заклинаний 1-го уровня и выше. Вы восстанавливаете все потраченные ячейки, когда заканчиваете долгий отдых.\n\n**Подготовленные заклинания 1-го уровня и выше.** Вы подготавливаете список заклинаний 1-го уровня и выше, которые доступны вам для сотворения с помощью этого умения. Для этого выберите четыре заклинания из книги заклинаний. Выбранные заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний.\n\nКоличество заклинаний в вашем списке увеличивается по мере получения уровней волшебника, как показано в столбце Подготовленные заклинания таблицы Умения волшебника. Каждый раз, когда это число увеличивается, выбирайте дополнительные заклинания волшебника, пока количество заклинаний в вашем списке не сравняется с числом в таблице. Выбранные заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний. Например, если вы волшебник 3-го уровня, ваш список подготовленных заклинаний может включать шесть заклинаний 1-го и 2-го уровней в любой комбинации, выбранных из вашей книги заклинаний.\n\nЕсли другое умение волшебника даёт вам заклинания, которые вы всегда держите подготовленными, эти заклинания не учитываются в количестве заклинаний, которые вы можете подготовить с помощью этого умения, но в остальном считаются заклинаниями волшебника для вас.\n\n**Изменение подготовленных заклинаний.** Каждый раз, когда вы заканчиваете долгий отдых, вы можете изменить свой список подготовленных заклинаний, заменив любые заклинания заклинаниями из вашей книги заклинаний.\n\n**Базовая характеристика заклинаний.** Интеллект является вашей базовой характеристикой для заклинаний волшебника.\n\n**Заклинательный фокус.** Вы можете использовать магический фокус или книгу заклинаний в качестве заклинательного фокуса для заклинаний волшебника.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_spellcasting",
+          "level": 1,
+          "name": "Spellcasting",
+          "name_ru": "Сотворение заклинаний",
+          "parent": "srd-2024_paladin",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longswords and Javelins.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Halberds and Flails.",
+          "desc_ru": "Ваша подготовка с оружием позволяет использовать свойства мастерства двух видов простого или воинского оружия ближнего боя по вашему выбору, таких как секиры и ручные топоры. Каждый раз после долгого отдыха вы можете практиковаться с оружием и изменить один из этих выборов.\n\nПри достижении определённых уровней Варвара вы получаете возможность использовать свойства мастерства большего количества видов оружия, как показано в столбце Мастерство оружия таблицы Умения Варвара.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_weapon-mastery",
+          "level": 1,
+          "name": "Weapon Mastery",
+          "name_ru": "Мастерство оружия",
+          "parent": "srd-2024_paladin",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain a Fighting Style feat of your choice (see \"Feats\" for feats). Instead of choosing one of those feats, you can choose the option below.\n\n**Blessed Warrior.** You learn two Cleric cantrips of your choice (see the Cleric class's section for a list of Cleric spells). *Guidance* and *Sacred Flame* are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.",
+          "desc_ru": "Вы получаете черту Боевой стиль на свой выбор (смотрите раздел «Черты»). Вместо выбора одной из этих черт вы можете выбрать опцию ниже.\n\n**Благословенный воин.** Вы узнаёте два заговора жреца на свой выбор (смотрите раздел класса Жрец для списка заклинаний жреца). Рекомендуются *Указание* и *Священное пламя*. Выбранные заговоры считаются заклинаниями паладина для вас, и Харизма является вашей базовой характеристикой для них. Каждый раз, когда вы получаете уровень паладина, вы можете заменить один из этих заговоров другим заговором жреца.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_fighting-style",
+          "level": 2,
+          "name": "Fighting Style",
+          "name_ru": "Боевой стиль",
+          "parent": "srd-2024_paladin",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You always have the *Divine Smite* spell prepared. In addition, you can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.",
+          "desc_ru": "У вас всегда подготовлено заклинание *Божественная кара*. Кроме того, вы можете сотворить его без траты ячейки заклинания, но должны закончить долгий отдых, прежде чем сможете сотворить его таким образом снова.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_paladins-smite",
+          "level": 2,
+          "name": "Paladin's Smite",
+          "name_ru": "Кара паладина",
+          "parent": "srd-2024_paladin",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You can channel divine energy directly from the Outer Planes, using it to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this class's Channel Divinity, you choose which effect from this class to create.\n\nYou can use this class's Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain an additional use when you reach Paladin level 11.\n\nIf a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class's Spellcasting feature.\n\n**Divine Sense.** As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the *Hallow* spell.",
+          "desc_ru": "Вы можете направлять божественную энергию непосредственно из Внешних Планов, используя её для создания магических эффектов. Изначально у вас есть один такой эффект: Божественное чувство, описанный ниже. Другие умения паладина дают дополнительные варианты эффектов Божественного канала. Каждый раз, когда вы используете Божественный канал этого класса, вы выбираете, какой эффект этого класса создать.\n\nВы можете использовать Божественный канал этого класса дважды. Вы восстанавливаете одно потраченное использование, когда заканчиваете короткий отдых, и восстанавливаете все потраченные использования, когда заканчиваете долгий отдых. Вы получаете дополнительное использование, когда достигаете 11-го уровня паладина.\n\nЕсли эффект Божественного канала требует спасброска, СЛ равна СЛ спасброска заклинаний из умения Сотворение заклинаний этого класса.\n\n**Божественное чувство.** Как Бонусное действие, вы можете открыть своё сознание для обнаружения небожителей, исчадий и нежити. В течение следующих 10 минут или пока вы не получите состояние Недееспособный, вы знаете местоположение любого существа этих типов в пределах 60 футов от себя и знаете его тип существа. В том же радиусе вы также обнаруживаете присутствие любого места или предмета, который был освящён или осквернён, как заклинанием *Освящение*.\n\n> ### Нарушение клятвы\n>\n> Паладин старается придерживаться высочайших стандартов поведения, но даже самые преданные способны ошибаться. Иногда паладин нарушает свою клятву.\n>\n> Паладин, нарушивший обет, обычно ищет отпущения грехов, проводя ночное бдение в знак покаяния или постясь. После обряда прощения паладин начинает с чистого листа.\n>\n> Если ваш паладин нераскаянно нарушает клятву, поговорите с Мастером. Вашему паладину, вероятно, следует выбрать более подходящий подкласс или даже отказаться от класса и перейти в другой.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_channel-divinity",
+          "level": 3,
+          "name": "Channel Divinity",
+          "name_ru": "Божественный канал",
+          "parent": "srd-2024_paladin",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_channel-divinity-uses",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 3,
+          "name": "Channel Divinity",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_paladin",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You gain a Paladin subclass of your choice. The Oath of Devotion subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Paladin levels. For the rest of your career, you gain each of your subclass's features that are of your Paladin level or lower.",
+          "desc_ru": "Вы получаете подкласс паладина на свой выбор. Подкласс Клятва преданности описан после описания этого класса. Подкласс — это специализация, которая даёт вам умения на определённых уровнях паладина. До конца вашей карьеры вы получаете каждое умение своего подкласса, которое соответствует вашему уровню паладина или ниже.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_paladin-subclass",
+          "level": 3,
+          "name": "Paladin Subclass",
+          "name_ru": "Подкласс паладина",
+          "parent": "srd-2024_paladin",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Paladin levels 8, 12, and 16.",
+          "desc_ru": "Когда вы достигаете 4-го уровня, а также на 6-м, 8-м, 12-м, 14-м, 16-м и 19-м уровне, вы можете увеличить одну характеристику по вашему выбору на 2 или две характеристики по вашему выбору на 1. Как обычно, вы не можете увеличить характеристику выше 20 с помощью этого умения.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_ability-score-improvement",
+          "level": 4,
+          "name": "Ability Score Improvement",
+          "name_ru": "Увеличение характеристик",
+          "parent": "srd-2024_paladin",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_slots-2nd",
+          "feature_type": "SPELL_SLOTS",
+          "level": 5,
+          "name": "2nd",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_paladin",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You can attack twice instead of once whenever you take the Attack action on your turn.",
+          "desc_ru": "Начиная с 5-го уровня, вы можете атаковать дважды, а не один раз, каждый раз, когда совершаете действие Атака в свой ход.\n\nКоличество атак увеличивается до трёх при достижении 11-го уровня в этом классе и до четырёх при достижении 20-го уровня в этом классе.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_extra-attack",
+          "level": 5,
+          "name": "Extra Attack",
+          "name_ru": "Дополнительная атака",
+          "parent": "srd-2024_paladin",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You can call on the aid of an otherworldly steed. You always have the *Find Steed* spell prepared.\n\nYou can also cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Long Rest.",
+          "desc_ru": "Вы можете призвать потустороннего скакуна на помощь. У вас всегда подготовлено заклинание *Поиск скакуна*.\n\nВы также можете сотворить это заклинание один раз без траты ячейки заклинания и восстанавливаете способность сделать это, когда заканчиваете долгий отдых.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_faithful-steed",
+          "level": 5,
+          "name": "Faithful Steed",
+          "name_ru": "Верный скакун",
+          "parent": "srd-2024_paladin",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You radiate a protective, unseeable aura in a 10-foot Emanation that originates from you. The aura is inactive while you have the Incapacitated condition.\n\nYou and your allies in the aura gain a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1).\n\nIf another Paladin is present, a creature can benefit from only one Aura of Protection at a time; the creature chooses which aura while in them.",
+          "desc_ru": "От вас исходит защитная, невидимая аура в эманации радиусом 10 футов. Аура неактивна, пока вы находитесь в состоянии Недееспособный.\n\nВы и ваши союзники в ауре получаете бонус к спасброскам, равный вашему модификатору Харизмы (минимум +1).\n\nЕсли присутствует другой паладин, существо может получать выгоду только от одной Ауры защиты одновременно; существо выбирает, какую ауру использовать, находясь в них.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_aura-of-protection",
+          "level": 6,
+          "name": "Aura of Protection",
+          "name_ru": "Аура защиты",
+          "parent": "srd-2024_paladin",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_slots-3rd",
+          "feature_type": "SPELL_SLOTS",
+          "level": 9,
+          "name": "3rd",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_paladin",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "As a Magic action, you can expend one use of this class's Channel Divinity to overwhelm foes with awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself. Each target must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute or until it takes any damage. While Frightened in this way, a target can do only one of the following on its turns: move, take an action, or take a Bonus Action.",
+          "desc_ru": "Действием «Магия» вы можете потратить одно использование Божественного канала этого класса, чтобы подавить врагов благоговением. Представляя священный символ или оружие, вы можете выбрать целями количество существ, равное вашему модификатору Харизмы (минимум одно существо), которых вы видите в пределах 60 футов от себя. Каждая цель должна преуспеть в спасброске Мудрости или получить состояние Испуганный на 1 минуту или пока не получит какой-либо урон. Будучи Испуганной таким образом, цель может делать только одно из следующего в свой ход: перемещаться, совершать действие или совершать Бонусное действие.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_abjure-foes",
+          "level": 9,
+          "name": "Abjure Foes",
+          "name_ru": "Отречение врагов",
+          "parent": "srd-2024_paladin",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You and your allies have Immunity to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition has no effect on that ally while there.",
+          "desc_ru": "Вы и ваши союзники получаете иммунитет к состоянию Испуганный, пока находитесь в вашей Ауре защиты. Если Испуганный союзник входит в ауру, это состояние не действует на союзника, пока он там находится.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_aura-of-courage",
+          "level": 10,
+          "name": "Aura of Courage",
+          "name_ru": "Аура храбрости",
+          "parent": "srd-2024_paladin",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an Unarmed Strike, the target takes an extra 1d8 Radiant damage.",
+          "desc_ru": "Ваши удары теперь несут сверхъестественную силу. Когда вы попадаете по цели броском атаки с использованием оружия ближнего боя или безоружным ударом, цель получает дополнительно 1d8 урона излучением.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_radiant-strikes",
+          "level": 11,
+          "name": "Radiant Strikes",
+          "name_ru": "Сияющие удары",
+          "parent": "srd-2024_paladin",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_slots-4th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 13,
+          "name": "4th",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_paladin",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you use Lay On Hands on a creature, you can also remove one or more of the following conditions from the creature: Blinded, Charmed, Deafened, Frightened, Paralyzed, or Stunned. You must expend 5 Hit Points from the healing pool of Lay On Hands for each of these conditions you remove; those points don't also restore Hit Points to the creature.",
+          "desc_ru": "Когда вы используете Возложение рук на существо, вы также можете снять с него одно или несколько из следующих состояний: Ослеплённый, Очарованный, Оглохший, Испуганный, Парализованный или Ошеломлённый. Вы должны потратить 5 хитов из запаса исцеления Возложения рук за каждое из этих состояний, которое вы снимаете; эти очки не восстанавливают хиты существу.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_restoring-touch",
+          "level": 14,
+          "name": "Restoring Touch",
+          "name_ru": "Восстанавливающее касание",
+          "parent": "srd-2024_paladin",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_slots-5th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 17,
+          "name": "5th",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_paladin",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your Aura of Protection is now a 30-foot Emanation.",
+          "desc_ru": "Ваша Аура защиты теперь представляет собой эманацию радиусом 30 футов.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_aura-expansion",
+          "level": 18,
+          "name": "Aura Expansion",
+          "name_ru": "Расширение ауры",
+          "parent": "srd-2024_paladin",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain an Epic Boon feat (see \"Feats\") or another feat of your choice for which you qualify. Boon of Truesight is recommended.",
+          "desc_ru": "Вы получаете черту Эпический дар (смотрите раздел «Черты») или другую черту на свой выбор, для которой вы соответствуете требованиям. Рекомендуется Дар межпространственного перемещения.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_epic-boon",
+          "level": 19,
+          "name": "Epic Boon",
+          "name_ru": "Эпический дар",
+          "parent": "srd-2024_paladin",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "|||\n|---|---|\n|Primary Ability|Strength and Charisma|\n|Hit Point Die|D10 per Paladin level|\n|Saving Throw Proficiencies|Wisdom and Charisma|\n|Skill Proficiencies|Choose 2: Athletics, Insight, Intimidation, Medicine, Persuasion, or Religion|\n|Weapon Proficiencies|Simple and Martial weapons|\n|Armor Training|Light, Medium, and Heavy armor and Shields|\n|Starting Equipment|Choose A or B: (A) Chain Mail, Shield, Longsword, 6 Javelins, Holy Symbol, Priest's Pack, and 9 GP; or (B) 150 GP|",
+          "desc_ru": "|||\n|---|---|\n|Основная характеристика|Сила и Харизма|\n|Кость хитов|К10 за уровень паладина|\n|Владения спасбросками|Мудрость и Харизма|\n|Владения навыками|Выберите 2: Атлетика, Проницательность, Запугивание, Медицина, Убеждение или Религия|\n|Владения оружием|Простое и боевое оружие|\n|Подготовка доспехов|Лёгкие, средние и тяжёлые доспехи и щиты|\n|Стартовое снаряжение|Выберите А или Б: (А) кольчуга, щит, длинный меч, 6 метательных копий, священный символ, набор священника и 9 зм; или (Б) 150 зм|",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_core-traits",
+          "feature_type": "CORE_TRAITS_TABLE",
+          "name": "Core Paladin Traits",
+          "name_ru": "Основные черты паладина",
+          "parent": "srd-2024_paladin",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "This section presents the Paladin spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, *C* means the spell requires Concentration, *R* means it's a Ritual, and *M* means it requires a specific Material component.\n\nTable: Level 1 Paladin Spells\n\n|Spell|School|Special|\n|---|---|---|\n|Bless|Enchantment|C, M|\n|Command|Enchantment|—|\n|Cure Wounds|Abjuration|—|\n|Detect Evil and Good|Divination|C|\n|Detect Magic|Divination|C, R|\n|Detect Poison and Disease|Divination|C, R|\n|Divine Favor|Transmutation|—|\n|Divine Smite|Evocation|—|\n|Heroism|Enchantment|C|\n|Protection from Evil and Good|Abjuration|C, M|\n|Purify Food and Drink|Transmutation|R|\n|Searing Smite|Evocation|—|\n|Shield of Faith|Abjuration|C|\n\nTable: Level 2 Paladin Spells\n\n|Spell|School|Special|\n|---|---|---|\n|Aid|Abjuration|—|\n|Find Steed|Conjuration|—|\n|Gentle Repose|Necromancy|R, M|\n|Lesser Restoration|Abjuration|—|\n|Locate Object|Divination|C|\n|Magic Weapon|Transmutation|—|\n|Prayer of Healing|Abjuration|—|\n|Protection from Poison|Abjuration|—|\n|Shining Smite|Transmutation|C|\n|Warding Bond|Abjuration|M|\n|Zone of Truth|Enchantment|—|\n\nTable: Level 3 Paladin Spells\n\n|Spell|School|Special|\n|---|---|---|\n|Create Food and Water|Conjuration|—|\n|Daylight|Evocation|—|\n|Dispel Magic|Abjuration|—|\n|Magic Circle|Abjuration|M|\n|Remove Curse|Abjuration|—|\n|Revivify|Necromancy|M|\n\nTable: Level 4 Paladin Spells\n\n|Spell|School|Special|\n|---|---|---|\n|Aura of Life|Abjuration|C|\n|Banishment|Abjuration|C|\n|Death Ward|Abjuration|—|\n|Locate Creature|Divination|C|\n\nTable: Level 5 Paladin Spells\n\n|Spell|School|Special|\n|---|---|---|\n|Dispel Evil and Good|Abjuration|C|\n|Geas|Enchantment|—|\n|Greater Restoration|Abjuration|M|\n|Raise Dead|Necromancy|M|",
+          "desc_ru": "В этом разделе представлен список заклинаний паладина. Заклинания организованы по уровню заклинания, а затем по алфавиту, и школа магии каждого заклинания указана. В колонке Особое C означает, что заклинание требует Концентрации, R означает, что это Ритуал, а M означает, что оно требует конкретного Материального компонента.\n\nТаблица: Заклинания паладина 1-го уровня\n\n|Заклинание|Школа|Особое|\n|---|---|---|\n|Благословение|Очарование|C, M|\n|Приказ|Очарование|—|\n|Лечение ран|Ограждение|—|\n|Обнаружение добра и зла|Прорицание|C|\n|Обнаружение магии|Прорицание|C, R|\n|Обнаружение яда и болезни|Прорицание|C, R|\n|Божественное благоволение|Преобразование|—|\n|Божественная кара|Эвокация|—|\n|Героизм|Очарование|C|\n|Защита от добра и зла|Ограждение|C, M|\n|Очистить пищу и питьё|Преобразование|R|\n|Жгучая кара|Эвокация|—|\n|Щит веры|Ограждение|C|\n\nТаблица: Заклинания паладина 2-го уровня\n\n|Заклинание|Школа|Особое|\n|---|---|---|\n|Помощь|Ограждение|—|\n|Поиск скакуна|Вызов|—|\n|Бальзамирование|Некромантия|R, M|\n|Малое восстановление|Ограждение|—|\n|Поиск объекта|Прорицание|C|\n|Волшебное оружие|Преобразование|—|\n|Молитва исцеления|Ограждение|—|\n|Защита от яда|Ограждение|—|\n|Сияющая кара|Преобразование|C|\n|Защитные узы|Ограждение|M|\n|Зона правды|Очарование|—|\n\nТаблица: Заклинания паладина 3-го уровня\n\n|Заклинание|Школа|Особое|\n|---|---|---|\n|Сотворение пищи и воды|Вызов|—|\n|Дневной свет|Эвокация|—|\n|Рассеивание магии|Ограждение|—|\n|Магический круг|Ограждение|M|\n|Снятие проклятия|Ограждение|—|\n|Возвращение к жизни|Некромантия|M|\n\nТаблица: Заклинания паладина 4-го уровня\n\n|Заклинание|Школа|Особое|\n|---|---|---|\n|Аура жизни|Ограждение|C|\n|Изгнание|Ограждение|C|\n|Защита от смерти|Ограждение|—|\n|Поиск существа|Прорицание|C|\n\nТаблица: Заклинания паладина 5-го уровня\n\n|Заклинание|Школа|Особое|\n|---|---|---|\n|Рассеивание добра и зла|Ограждение|C|\n|Обет|Очарование|—|\n|Высшее восстановление|Ограждение|M|\n|Воскрешение мёртвых|Некромантия|M|",
+          "document": "srd-2024",
+          "external_id": "srd-2024_paladin_spell-list",
+          "name": "Paladin Spell List",
+          "name_ru": "Список заклинаний паладина",
+          "parent": "srd-2024_paladin",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Paladin",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Paladin",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Таблица: Основные черты паладина\n\n|                               |                                                                                     |\n|---|---|\n| Кость Хитов                  | 1к10 за каждый уровень паладина                                                     |\n| Хиты на 1-м уровне           | 10 + модификатор Телосложения                                                       |\n| Хиты на более высоких уровнях | 1к10 (или 6) + модификатор Телосложения за каждый уровень паладина после 1-го        |\n| Владение спасбросками         | Мудрость и Харизма                                                                  |\n| Владение навыками             | Выберите 2: Атлетика, Проницательность, Запугивание, Медицина, Убеждение или Религия |\n| Владение оружием              | Простое и воинское оружие                                                           |\n| Владение инструментами        | Нет                                                                                 |\n| Ношение доспехов              | Все доспехи и щиты                                                                  |",
+      "glossary_version": "v1",
+      "name": "Паладин",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

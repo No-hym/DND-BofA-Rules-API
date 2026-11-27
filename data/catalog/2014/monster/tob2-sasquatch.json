@@ -1,0 +1,261 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_sasquatch",
+  "id": "o5e:tob2:creature:tob2-sasquatch",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-sasquatch"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "4db43d357ccbfc1b4caf8429ff4184166f2e4f5aeb9d0aebd64c666bd022aa4c",
+    "formulas": [
+      {
+        "expression": "14d10+42",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 4,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "5.000",
+      "climb": 40,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "14d10+42",
+      "hit_points": 119,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 14,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 40
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "4db43d357ccbfc1b4caf8429ff4184166f2e4f5aeb9d0aebd64c666bd022aa4c",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-sasquatch",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 4,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "5.000",
+      "climb": 40,
+      "darkvision_range": 60,
+      "document": "tob2",
+      "hit_dice": "14d10+42",
+      "hit_points": 119,
+      "hover": false,
+      "name": "Sasquatch",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 14,
+      "size": "large",
+      "skill_bonus_perception": 4,
+      "skill_bonus_stealth": 8,
+      "type": "beast",
+      "walk": 40,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +7 к попаданию, досягаемость 5 фт., одна цель. Попадание: 7 (1к6+4) колющего урона.",
+          "external_id": "tob2_sasquatch_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "tob2_sasquatch",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.",
+          "desc_ru": "Атака оружием ближнего боя: +7 к попаданию, досягаемость 5 фт., одна цель. Попадание: 11 (2к6+4) дробящего урона.",
+          "external_id": "tob2_sasquatch_fist",
+          "name": "Fist",
+          "name_ru": "Кулак",
+          "order_in_statblock": 2,
+          "parent": "tob2_sasquatch",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The sasquatch makes three attacks: one with its bite and two with its fists.",
+          "desc_ru": "Мультиатака. Существо совершает 3 атаки: одну — атака «Укус»; две — атака «Фисц».",
+          "external_id": "tob2_sasquatch_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_sasquatch",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, range 20/60 ft., one target. Hit: 15 (2d10 + 4) bludgeoning damage.",
+          "desc_ru": "Атака оружием ближнего боя: +7 к попаданию, дистанция 20/60 фт., одна цель. Попадание: 15 (2к10+4) дробящего урона.",
+          "external_id": "tob2_sasquatch_rock",
+          "name": "Rock",
+          "name_ru": "Рок",
+          "order_in_statblock": 3,
+          "parent": "tob2_sasquatch",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The sasquatch roars and stomps, kicking up debris and leaving deep footprints in the ground. Each creature within 20 feet of it must make a DC 14 Dexterity saving throw, taking 14 (4d6) thunder damage on a failed save, or half as much damage on a successful one. The sasquatch can then move up to half its speed without provoking opportunity attacks and take the Hide action as a bonus action.",
+          "desc_ru": "Действие «Ванишинг Тантрум»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_sasquatch_vanishing-tantrum",
+          "name": "Vanishing Tantrum",
+          "name_ru": "Ванишинг Тантрум",
+          "order_in_statblock": 4,
+          "parent": "tob2_sasquatch",
+          "ru_source": "derived",
+          "uses_param": 5,
+          "uses_type": "RECHARGE_ON_ROLL"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The sasquatch has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+          "desc_ru": "Особенность «Кеен Хеаринг и Смелл». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_sasquatch_keen-hearing-and-smell",
+          "name": "Keen Hearing and Smell",
+          "name_ru": "Кеен Хеаринг и Смелл",
+          "parent": "tob2_sasquatch",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The sasquatch has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life.",
+          "desc_ru": "Особенность «Растение Камоуфлаге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_sasquatch_plant-camouflage",
+          "name": "Plant Camouflage",
+          "name_ru": "Растение Камоуфлаге",
+          "parent": "tob2_sasquatch",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "At the start of its turn, the sasquatch can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.",
+          "desc_ru": "Особенность «Реклесс». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_sasquatch_reckless",
+          "name": "Reckless",
+          "name_ru": "Реклесс",
+          "parent": "tob2_sasquatch",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "If the sasquatch takes 25 damage or less that would reduce it to 0 hp, it is reduced to 1 hp instead.",
+          "desc_ru": "Особенность «Релентлесс (речаргес афтер а шорт или лонг рест)». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_sasquatch_relentless-recharges-after-a-short-or-long-rest",
+          "name": "Relentless (Recharges after a Short or Long Rest)",
+          "name_ru": "Релентлесс (речаргес афтер а шорт или лонг рест)",
+          "parent": "tob2_sasquatch",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Sasquatch",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Sasquatch",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Высокое обезьяноподобное существо ходит в вертикальном положении, его оружие заканчивается тяжёлыми кулаками. Губы существа скручиваются обратно, открывая длинные заострённые зубы, установленные в мощной челюсти.\n\nСасквочи — большие звери, которые преследуют глубокие леса и другие лесистые местности. Они двуногие приматы, рост около девяти футов высотой и покрыты чёрным, коричневым или красным мехом.\n\n**Славно неуловимые.** Многие люди утверждают, что видели сасквоча, но почти никто не имеет доказательства их взаимодействия с животным, создавая вопросы о существовании существа. Скептики утверждают, видения сасквача просто неправильно опознанные медведи, обезьяны, или подобных существ. Многие мудрецы и охотники отправляются глубоко в леса, в надежде найти доказательство существования сасквочей и возвращения только с горсткой меха, который может принадлежать практически любому животному. На самом деле сасквочи — одиночные ночные существа, которые обычно избегают конфронтации. Они предпочитают оставаться в тени леса, обедая на растительности и насекомых, оставаясь в стороне от других существ.\n\n**Скрытые логова.** Сасквочи достаточно умны, чтобы скрывать входы в их логова тяжёлыми валунами, подлеском, упавшими деревьями, водопадом, или каким-то другим затруднением, которое, кажется, естественной частью местности. Они скрывают собранную пищу и блестящие безделушки, найденные в лесу в этих уютных домах, где они отдыхают в дневное время суток.\n\n**Агрессивны, когда спровоцированы.** Хотя сасквочи предпочитают избегать конфронтации, они сражаются дико, когда загнаны в угол или если другое существо угрожает их дому или источник пищи. Их могучие кулаки и зубы делают грозное оружие. Сасквочи не стесняются инициировать конфликт, когда под угрозой.\n\n**Привлекаемые и успокаивающие музыкой.** Есть некоторые, кто утверждает сасквочи привлечены и успокоены музыкой, особенно песни с колыбельной-качество. Эти рассказы приходят с предупреждением: останавливая песню, перед тем, как сасквоча усыплён его мелодией вызывает животное впадает в ярость.",
+      "glossary_version": "v1",
+      "name": "Сасквоч",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

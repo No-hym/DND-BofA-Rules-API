@@ -1,0 +1,144 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "bone-swarm",
+  "id": "o5e:tob:monster:bone-swarm-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:bone-swarm"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "ed95dda617db7763897122d4199f2d8bc008aefb22a6282a0be972e48bea6c54",
+    "formulas": [
+      {
+        "expression": "36d10",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic evil",
+      "armor_class": 17,
+      "challenge_rating": "10",
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned, prone, restrained, stunned",
+      "damage_immunities": "poison",
+      "damage_resistances": "piercing and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "bludgeoning",
+      "hit_dice": "36d10",
+      "hit_points": 198,
+      "languages": "Common, Void Speech",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "ed95dda617db7763897122d4199f2d8bc008aefb22a6282a0be972e48bea6c54",
+        "edition": "2014",
+        "id": "o5e:tob:monster:bone-swarm",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The bone swarm can attack every hostile creature in its space with swirling bones.\"}, {\"name\": \"Swirling Bones\", \"desc\": \"Melee Weapon Attack: +10 to hit, reach 0 ft., one creature in the swarm's space. Hit: 31 (5d8 + 9) bludgeoning, piercing, or slashing damage (includes Strength of Bone special ability).\", \"attack_bonus\": 10, \"damage_dice\": \"5d8\"}, {\"name\": \"Death's Embrace (Recharge 5-6)\", \"desc\": \"Melee Weapon Attack: +10 to hit, reach 0 ft., one creature in the swarm's space. Hit: the target is grappled (escape DC 16) and enveloped within the swarm's bones. The swarm can force the creature to move at its normal speed wherever the bone swarm wishes. Any non-area attack against the bone swarm has a 50 percent chance of hitting a creature grappled in Death's Embrace instead.\"}]",
+      "alignment": "chaotic evil",
+      "armor_class": 17,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "10",
+      "charisma": 20,
+      "charisma_save": 9,
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned, prone, restrained, stunned",
+      "constitution": 10,
+      "cr": 10.0,
+      "damage_immunities": "poison",
+      "damage_resistances": "piercing and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "bludgeoning",
+      "desc": "_Dank winds sweep up skeletons, both humanoid and animal. They blow forward, reaching out for living creatures like a clawed hand of bone. A scattering of bones rolls across the ground, then rises into the air, billowing like a sheet._  \n**Swarms of Fallen.** On rare occasions, the pugnacious spirits of fallen undead join together, bonded by a common craving: to feel alive again. They gather up their bones from life, as well as any other bones they come across, and form bone swarms.  \n**Nomadic Undead.** These swarms then ravage the countryside wresting life from living creatures, grabbing livestock, humanoids, and even dragons, digging in their claws in an attempt to cling to life. Bone swarms with one or more sets of jaws wail constantly in their sorrow, interrupting their cries with snippets of rational but scattered speech declaiming their woes and despair.  \n**Cliff and Pit Dwellers.** Bone swarms gather near cliffs, crevasses, and pits in the hope of forcing a victim or an entire herd of animals to fall to its death, creating more shattered bones to add to their mass.  \n**Undead Nature.** A mask wight doesn’t require air, food, drink, or sleep.",
+      "dexterity": 18,
+      "dexterity_save": 8,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "36d10",
+      "hit_points": 198,
+      "intelligence": 9,
+      "languages": "Common, Void Speech",
+      "legendary_actions_json": "null",
+      "name": "Bone Swarm",
+      "page_no": 41,
+      "perception": 6,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 16",
+      "size": "Large",
+      "skills_json": "{\"acrobatics\": 8, \"perception\": 6, \"stealth\": 8}",
+      "special_abilities_json": "[{\"name\": \"Strength of Bone\", \"desc\": \"A bone swarm can choose to deal bludgeoning, piercing, or slashing damage, and adds 1.5x its Strength bonus on swarm damage rolls as bits and pieces of broken skeletons claw, bite, stab, and slam at the victim.\"}, {\"name\": \"Swarm\", \"desc\": \"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a human skull. The swarm can't regain hit points or gain temporary hit points.\"}]",
+      "speed_json": "{\"walk\": 20, \"fly\": 60}",
+      "spells_json": "null",
+      "strength": 22,
+      "subtype": "Swarm",
+      "type": "Undead",
+      "wisdom": 15,
+      "wisdom_save": 6
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Bone Swarm",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-bone-swarm"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_Dank winds sweep up skeletons, both humanoid and animal. They blow forward, reaching out for living creatures like a clawed hand of bone. A scattering of bones rolls across the ground, then rises into the air, billowing like a sheet._  \n**Swarms of Fallen.** On rare occasions, the pugnacious spirits of fallen undead join together, bonded by a common craving: to feel alive again. They gather up their bones from life, as well as any other bones they come across, and form bone swarms.  \n**Nomadic Undead.** These swarms then ravage the countryside wresting life from living creatures, grabbing livestock, humanoids, and even dragons, digging in their claws in an attempt to cling to life. Bone swarms with one or more sets of jaws wail constantly in their sorrow, interrupting their cries with snippets of rational but scattered speech declaiming their woes and despair.  \n**Cliff and Pit Dwellers.** Bone swarms gather near cliffs, crevasses, and pits in the hope of forcing a victim or an entire herd of animals to fall to its death, creating more shattered bones to add to their mass.  \n**Undead Nature.** A mask wight doesn’t require air, food, drink, or sleep.",
+      "name": "Bone Swarm",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Влажные ветры сметают скелеты, как гуманоидные, так и животные. Они дуют вперёд, потянувшись к живым существам, как когтистая рука из кости. Рассеяние кости катятся по земле, затем поднимается в воздух, развевается, как простыня.\n\n** Рой павших.** В редких случаях, воинственные духи павших нежить объединяются, связанные общей тягой: снова почувствовать себя живым. Они собирают свои кости из жизни, а также любые другие кости, которые они встречают, и образуют костные стаи.\n\n**Кочевая нежить.** Это рои затем разорять сельской местности, вырывая жизнь из живых существ, захватывая скота, гуманоидов, и даже драконы, копаются когтями, в попытке цепляться за жизнь. Костные Рои с одним или с несколькими челюстями воют постоянно в их печали, перебивая их крики с фрагментами рациональной, но рассеянно речи повествуя о своих бедах и отчаянии.\n\n** Жители скалы и яма.** Костные Рои собираются вблизи скал, расселин, и ямы в надежде заставить жертву или стадо животные в смерть, создавая больше было разрушено кости, чтобы добавить к их массе.\n\n**Природа Неджити.** Маск Вайт не требуют воздух, пищу, напитки, или сон.",
+      "glossary_version": "v1",
+      "name": "Костяной Рой",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

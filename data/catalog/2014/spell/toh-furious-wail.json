@@ -1,0 +1,160 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_furious-wail",
+  "id": "o5e:toh:spell:toh-furious-wail",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:furious-wail",
+      "o5e:toh:spell:toh-furious-wail"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "cccedb890146554a9bfe5aff683bd81b28a3f70c2b12ee3a471af6bf3e41c6c8",
+    "formulas": [
+      {
+        "expression": "10d10+30",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "10d10+30",
+      "damage_types": [
+        "psychic"
+      ],
+      "duration": "instantaneous",
+      "level": 9,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 5,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "cccedb890146554a9bfe5aff683bd81b28a3f70c2b12ee3a471af6bf3e41c6c8",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-furious-wail",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "b71e01ab3e119267cb21f396e40b73a28e1f22834e5ca468c10c0c21ec411467",
+        "edition": "2014",
+        "id": "o5e:toh:spell:furious-wail",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "10d10+30",
+      "damage_types": [
+        "psychic"
+      ],
+      "desc": "You let out a scream of white-hot fury that pierces the minds of up to five creatures within range. Each target must make a Charisma saving throw. On a failed save, it takes 10d10 + 30 psychic damage and is stunned until the end of its next turn. On a success, it takes half as much damage.",
+      "document": "toh",
+      "duration": "instantaneous",
+      "level": 9,
+      "material": false,
+      "material_consumed": false,
+      "name": "Furious Wail",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 5,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "129",
+          "parent": "toh_furious-wail",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Furious Wail",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You let out a scream of white-hot fury that pierces the minds of up to five creatures within range. Each target must make a Charisma saving throw. On a failed save, it takes 10d10 + 30 psychic damage and is stunned until the end of its next turn. On a success, it takes half as much damage.",
+      "name": "Furious Wail",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы издаёте крик раскалённой добела ярости, который пронзает разумы до пяти существ в пределах дистанции. Каждая цель должна совершить спасбросок Харизмы. При проваленном спасброске она получает 10к10 + 30 психического урона и ошеломлена до конца её следующего хода. При успехе она получает половину урона.",
+      "glossary_version": "v1",
+      "name": "Яростный вопль",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,225 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob_young-spinosaurus",
+  "id": "o5e:tob:creature:tob-young-spinosaurus",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creature:tob-2023-young-spinosaurus",
+      "o5e:tob:creature:tob-young-spinosaurus"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "060cb054304e9fb9989e84094066d7d93e86c47aeb8e3733bce36e6749a8ae26",
+    "formulas": [
+      {
+        "expression": "10d12+40",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 19,
+      "ability_score_dexterity": 11,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 23,
+      "ability_score_wisdom": 11,
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "5.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [
+        "forest",
+        "swamp"
+      ],
+      "fly": null,
+      "hit_dice": "10d12+40",
+      "hit_points": 105,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "huge",
+      "skill_bonus_acrobatics": null,
+      "swim": 30,
+      "walk": 50
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "060cb054304e9fb9989e84094066d7d93e86c47aeb8e3733bce36e6749a8ae26",
+        "edition": "2014",
+        "id": "o5e:tob:creature:tob-young-spinosaurus",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "67b616f0c4c8256374e6132e48cd5caf465e96d638ebbe14fb5000fb2308acbc",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creature:tob-2023-young-spinosaurus",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 19,
+      "ability_score_dexterity": 11,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 23,
+      "ability_score_wisdom": 11,
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "5.000",
+      "document": "tob",
+      "environments": [
+        "forest",
+        "swamp"
+      ],
+      "hit_dice": "10d12+40",
+      "hit_points": 105,
+      "hover": false,
+      "languages_desc": "-",
+      "name": "Young Spinosaurus",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "size": "huge",
+      "skill_bonus_perception": 3,
+      "swim": 30,
+      "type": "beast",
+      "walk": 50,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +9 to hit, reach 10ft., one target. Hit: 25 (3d12 + 6) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained and the spinosaurus can't bite another target.",
+          "desc_ru": "Действие «Укус»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_young-spinosaurus_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "tob_young-spinosaurus",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +9 к попаданию, досягаемость 5 фт., одна цель. Попадание: 13 (2к6+6) рубящего урона.",
+          "external_id": "tob_young-spinosaurus_claw",
+          "name": "Claw",
+          "name_ru": "Коготь",
+          "order_in_statblock": 2,
+          "parent": "tob_young-spinosaurus",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The spinosaurus makes one bite attack and two claw attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_young-spinosaurus_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob_young-spinosaurus",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The spinosaurus never willingly attacks any reptilian humanoid, and if forced or magically compelled to do so it suffers disadvantage on attack rolls. Up to three Medium or one Large creatures can ride the spinosaurus. This trait disappears if the spinosaurus spends a month away from any reptilian humanoid.",
+          "desc_ru": "Особенность «Тамед». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_young-spinosaurus_tamed",
+          "name": "Tamed",
+          "name_ru": "Тамед",
+          "parent": "tob_young-spinosaurus",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Young Spinosaurus",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Young Spinosaurus",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Спинозавр — хищник суши и реки, способный нести взвод ящеролюдей на большие расстояния в рейдах. Часто называемый речным королём или речным драконом, они почитаемы булливугами и другими примитивными гуманоидами.\n\n**Друг ящеролюдей.** Спинозавр — специальный ящерица, выведенная для размера и лояльности ящеролюдьми. Ящеролюди ценят их как превосходных боевых лошадей, и осыпают их пищей и заботой.\n\n**Огромные размер и цвет.** У этого огромного ящера длинная заполненная зубами пасть, мощные когти и красочные шипы, бегущие длиной его позвоночника. Взрослый ужасный спинозавр 70 футов длиной и весит 35 000 фунтов или более, и молодой спинозавр 20 футов длиной и весит 6 000 фунтов или более.\n\n**Быстрый хищник.** Спинозавр быстр и на суше и на воде.",
+      "glossary_version": "v1",
+      "name": "Молодой спинозавр",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

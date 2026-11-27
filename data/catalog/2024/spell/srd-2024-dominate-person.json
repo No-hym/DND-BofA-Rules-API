@@ -1,0 +1,172 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_dominate-person",
+  "id": "o5e:srd-2024:spell:srd-2024-dominate-person",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "1e097c406b62d450dd6a80ed2f6077e59f06af70bb2040851f825d393af8219a",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_sorcerer",
+        "srd-2024_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 5,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_bard",
+        "type": "classes",
+        "value": [
+          "srd-2024_bard",
+          "srd-2024_sorcerer",
+          "srd-2024_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_sorcerer",
+        "srd-2024_wizard"
+      ],
+      "concentration": true,
+      "desc": "One Humanoid you can see within range must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target has Advantage on the save if you or your allies are fighting it. Whenever the target takes damage, it repeats the save, ending the spell on itself on a success. You have a telepathic link with the Charmed target while the two of you are on the same plane of existence. On your turn, you can use this link to issue commands to the target (no action required), such as \"Attack that creature,\" \"Move over there,\" or \"Fetch that object.\" The target does its best to obey on its turn. If it completes an order and doesn't receive further direction from you, it acts and moves as it likes, focusing on protecting itself. You can command the target to take a Reaction but must take your own Reaction to do so.",
+      "document": "srd-2024",
+      "duration": "1 minute",
+      "higher_level": "Your Concentration can last longer with a spell slot of level 6 (up to 10 minutes), 7 (up to 1 hour), or 8+ (up to 8 hours).",
+      "level": 5,
+      "material": false,
+      "material_consumed": false,
+      "name": "Dominate Person",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "concentration": true,
+          "duration": "10 minutes",
+          "external_id": "10193",
+          "parent": "srd-2024_dominate-person",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "1 hour",
+          "external_id": "10656",
+          "parent": "srd-2024_dominate-person",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "8 hours",
+          "external_id": "10657",
+          "parent": "srd-2024_dominate-person",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "8 hours",
+          "external_id": "10658",
+          "parent": "srd-2024_dominate-person",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Dominate Person",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "One Humanoid you can see within range must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target has Advantage on the save if you or your allies are fighting it. Whenever the target takes damage, it repeats the save, ending the spell on itself on a success. You have a telepathic link with the Charmed target while the two of you are on the same plane of existence. On your turn, you can use this link to issue commands to the target (no action required), such as \"Attack that creature,\" \"Move over there,\" or \"Fetch that object.\" The target does its best to obey on its turn. If it completes an order and doesn't receive further direction from you, it acts and moves as it likes, focusing on protecting itself. You can command the target to take a Reaction but must take your own Reaction to do so.",
+      "name": "Dominate Person",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Очарование 5-го уровня (Бард, Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В, С\n\n**Длительность:** Концентрация, вплоть до 1 минуту\n\nВы пытаетесь околдовать гуманоида, которого видите в пределах дистанции. Он должен преуспеть в спасброске Мудрости, иначе будет очарован вами на время действия заклинания. Если вы или дружественные вам существа сражаются с ним, он совершает спасбросок с преимуществом.\n\nПока цель очарована, у вас с ней есть телепатическая связь, если вы находитесь на одном плане существования. Вы можете использовать эту телепатическую связь для отдачи команд существу, пока вы в сознании (не требует действия), и оно будет стараться выполнить их по мере сил. Вы можете указать простой и общий образ действий, например «Атакуй то существо», «Беги туда» или «Принеси тот предмет». Если существо выполнило приказ и не получает дальнейших указаний от вас, оно защищается и сохраняет себя по мере своих способностей.\n\nВы можете действием получить полный и точный контроль над целью. До конца вашего следующего хода существо совершает только выбранные вами действия и не делает ничего, чего вы ему не разрешаете. В это время вы также можете заставить существо использовать реакцию, но для этого вам нужно использовать и свою собственную реакцию.\n\nКаждый раз, когда цель получает урон, она совершает новый спасбросок Мудрости против заклинания. При успехе заклинание оканчивается.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку 6-го уровня, длительность — концентрация, вплоть до 10 минут. При использовании ячейки 7-го уровня длительность — концентрация, вплоть до 1 часа. При использовании ячейки 8-го уровня или выше длительность — концентрация, вплоть до 8 часов.",
+      "glossary_version": "v1",
+      "name": "Подчинение личности",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

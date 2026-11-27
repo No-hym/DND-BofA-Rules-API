@@ -1,0 +1,159 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_ray-of-life-suppression",
+  "id": "o5e:deepm:spell:deepm-ray-of-life-suppression",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-ray-of-life-suppression",
+      "o5e:dmag:spell:ray-of-life-suppression"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c97bbcc29d24dbba68380d4f54689d9095dfe3ba50bff20d2324ea02b857c231",
+    "formulas": [
+      {
+        "expression": "6d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "6d8",
+      "damage_types": [
+        "necrotic"
+      ],
+      "duration": "instantaneous",
+      "level": 4,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "c97bbcc29d24dbba68380d4f54689d9095dfe3ba50bff20d2324ea02b857c231",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-ray-of-life-suppression",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "aee36225880b87c01a835f48939ae20cdb2db56d040941d6b36770e25ecd4137",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:ray-of-life-suppression",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "6d8",
+      "damage_types": [
+        "necrotic"
+      ],
+      "desc": "You launch a swirling ray of disruptive energy at a creature within range. Make a ranged spell attack. On a hit, the creature takes 6d8 necrotic damage and its maximum hit points are reduced by an equal amount. This reduction lasts until the creature finishes a short or long rest, or until it receives the benefit of a [greater restoration](https://api.open5e.com/spells/greater-restoration) spell or comparable magic.\n\nThis spell has no effect on constructs or undead.",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "level": 4,
+      "material": false,
+      "material_consumed": false,
+      "name": "Ray of Life Suppression",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3955",
+          "parent": "deepm_ray-of-life-suppression",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Ray of Life Suppression",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You launch a swirling ray of disruptive energy at a creature within range. Make a ranged spell attack. On a hit, the creature takes 6d8 necrotic damage and its maximum hit points are reduced by an equal amount. This reduction lasts until the creature finishes a short or long rest, or until it receives the benefit of a [greater restoration](https://api.open5e.com/spells/greater-restoration) spell or comparable magic.\n\nThis spell has no effect on constructs or undead.",
+      "name": "Ray of Life Suppression",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы запускаете кружащийся луч разрушительной энергии в существо в пределах дистанции. Совершите дальнобойную атаку заклинанием. При попадании существо получает 6к8 некротического урона, и его максимум хитов уменьшен на равное количество. Это уменьшение длится, пока существо не завершит короткий или продолжительный отдых, или пока оно не получит преимущество заклинания высшее восстановление или сравнимой магии.\n\nЭто заклинание не оказывает эффекта на конструктов или нежить.",
+      "glossary_version": "v1",
+      "name": "Луч подавления жизни",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

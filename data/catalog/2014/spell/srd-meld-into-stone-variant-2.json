@@ -1,0 +1,187 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_meld-into-stone",
+  "id": "o5e:srd-2014:spell:srd-meld-into-stone-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-meld-into-stone",
+      "o5e:wotc-srd:spell:meld-into-stone"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "23569256b34eb72b65939cfb15b76203ab3aed01fc516b79ff668899e4024820",
+    "formulas": [
+      {
+        "expression": "6d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "ritual",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_druid"
+      ],
+      "concentration": false,
+      "damage_roll": "6d6",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "duration": "8 hours",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0.1,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": true,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "23569256b34eb72b65939cfb15b76203ab3aed01fc516b79ff668899e4024820",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-meld-into-stone",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "223b55b06a1528783f944b8bffac4207108ec72b492a64f6eb901bc5537ad5e8",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:meld-into-stone",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric",
+          "srd_druid"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_druid"
+      ],
+      "concentration": false,
+      "damage_roll": "6d6",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "desc": "You step into a stone object or surface large enough to fully contain your body, melding yourself and all the equipment you carry with the stone for the duration. Using your movement, you step into the stone at a point you can touch. Nothing of your presence remains visible or otherwise detectable by nonmagical senses. While merged with the stone, you can't see what occurs outside it, and any Wisdom (Perception) checks you make to hear sounds outside it are made with disadvantage. You remain aware of the passage of time and can cast spells on yourself while merged in the stone. You can use your movement to leave the stone where you entered it, which ends the spell. You otherwise can't move. Minor physical damage to the stone doesn't harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals 6d6 bludgeoning damage to you. The stone's complete destruction (or transmutation into a different substance) expels you and deals 50 bludgeoning damage to you. If expelled, you fall prone in an unoccupied space closest to where you first entered.",
+      "document": "srd-2014",
+      "duration": "8 hours",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "name": "Meld into Stone",
+      "range": 0.1,
+      "range_text": "Touch",
+      "ritual": true,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5781",
+          "parent": "srd_meld-into-stone",
+          "type": "default"
+        },
+        {
+          "external_id": "5782",
+          "parent": "srd_meld-into-stone",
+          "type": "ritual"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Meld into Stone",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:a5e-ag:spell:a5e-ag-meld-into-stone"
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You step into a stone object or surface large enough to fully contain your body, melding yourself and all the equipment you carry with the stone for the duration. Using your movement, you step into the stone at a point you can touch. Nothing of your presence remains visible or otherwise detectable by nonmagical senses. While merged with the stone, you can't see what occurs outside it, and any Wisdom (Perception) checks you make to hear sounds outside it are made with disadvantage. You remain aware of the passage of time and can cast spells on yourself while merged in the stone. You can use your movement to leave the stone where you entered it, which ends the spell. You otherwise can't move. Minor physical damage to the stone doesn't harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals 6d6 bludgeoning damage to you. The stone's complete destruction (or transmutation into a different substance) expels you and deals 50 bludgeoning damage to you. If expelled, you fall prone in an unoccupied space closest to where you first entered.",
+      "name": "Meld into Stone",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Преобразование 3-го уровня (Жрец, Друид, Следопыт)*\n\n**Время накладывания:** Действие или Ритуал\n\n**Дистанция:** Касание\n\n**Компоненты:** В, С\n\n**Длительность:** 8 часов\n\nВы входите в каменный объект или поверхность, достаточно большие, чтобы полностью вместить ваше тело, сливаясь с камнем вместе со своим снаряжением на время действия заклинания. Вы должны коснуться камня, чтобы сделать это. Ничто из вашего присутствия не остаётся видимым или обнаруживаемым немагическими чувствами.\n\nНаходясь слитым с камнем, вы не видите, что происходит снаружи, и любые проверки Мудрости (Внимательность), которые вы совершаете, чтобы услышать звуки снаружи, совершаются с помехой. Вы осознаёте ход времени и можете сотворять заклинания на себя, находясь слитым с камнем. Вы можете использовать 5 футов перемещения, чтобы выйти из камня там, где вошли, что заканчивает заклинание. В остальном вы не можете перемещаться.\n\nНезначительное физическое повреждение камня не причиняет вам вреда, но его частичное разрушение или изменение его формы (настолько, что вы больше не помещаетесь в нём) выталкивает вас и наносит вам 6d6 урона силовым полем. Полное разрушение камня (или превращение в другое вещество) выталкивает вас и наносит вам 50 урона силовым полем. Если вас вытолкнуло, вы перемещаетесь в свободное пространство, ближайшее к тому месту, где вы впервые вошли, и получаете состояние «Лежащий».",
+      "glossary_version": "v1",
+      "name": "Слияние с камнем",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

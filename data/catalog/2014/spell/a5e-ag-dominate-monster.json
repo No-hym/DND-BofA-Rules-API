@@ -1,0 +1,160 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_dominate-monster",
+  "id": "o5e:a5e-ag:spell:a5e-ag-dominate-monster",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-dominate-monster",
+      "o5e:a5e:spell:dominate-monster-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "79abc8020a19a8c68e18fd9c5c3aadca62a54e45bd2be9709cccefeebce56285",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 hour",
+      "level": 8,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "79abc8020a19a8c68e18fd9c5c3aadca62a54e45bd2be9709cccefeebce56285",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-dominate-monster",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "1f0a00259e342aeffded07ce4cd753cd641201172e2a604a56c5106bdbbce937",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:dominate-monster-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "You assert control over the target creature's mind and it is charmed for the duration. If it is engaged in combat with you or creatures friendly to you, it has advantage on its saving throw.\n\nUntil the charmed condition ends, you establish a telepathic link with it while you are on the same plane. You may issue commands through this link and the target does its best to obey. No action is required to issue commands, which can be a simple and general course of action such as \"Attack that target, \" \"Go over there, \" or \"Bring me that object.\" Without commands the target only defends itself. The target continues to follow a command until its task is complete.\n\nYou can use your action to assume direct control of the target. Until the end of your next turn, you decide all of the target's actions and it does nothing you do not allow it to. While a target is directly controlled in this way, you can also cause it to use a reaction, but this requires you to use your own reaction as well.\n\nEach time the target takes damage, it makes a new saving throw against the spell, ending the spell on a success.",
+      "document": "a5e-ag",
+      "duration": "1 hour",
+      "higher_level": "The duration is Concentration (8 hours)",
+      "level": 8,
+      "material": false,
+      "material_consumed": false,
+      "name": "Dominate Monster",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "enchantment",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "1054",
+          "parent": "a5e-ag_dominate-monster",
+          "type": "default"
+        },
+        {
+          "duration": "8 hours",
+          "external_id": "1056",
+          "parent": "a5e-ag_dominate-monster",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Dominate Monster",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "You assert control over the target creature's mind and it is charmed for the duration. If it is engaged in combat with you or creatures friendly to you, it has advantage on its saving throw.\n\nUntil the charmed condition ends, you establish a telepathic link with it while you are on the same plane. You may issue commands through this link and the target does its best to obey. No action is required to issue commands, which can be a simple and general course of action such as \"Attack that target, \" \"Go over there, \" or \"Bring me that object.\" Without commands the target only defends itself. The target continues to follow a command until its task is complete.\n\nYou can use your action to assume direct control of the target. Until the end of your next turn, you decide all of the target's actions and it does nothing you do not allow it to. While a target is directly controlled in this way, you can also cause it to use a reaction, but this requires you to use your own reaction as well.\n\nEach time the target takes damage, it makes a new saving throw against the spell, ending the spell on a success.",
+      "name": "Dominate Monster",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Очарование 8-го уровня (Бард, Чародей, Колдун, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В, С\n\n**Длительность:** Концентрация, вплоть до 1 час\n\nВы пытаетесь обворожить существо, которое видите в пределах дистанции. Оно должно преуспеть в спасброске Мудрости, иначе оно будет очаровано вами на время действия заклинания. Если вы или дружественные вам существа сражаются с ним, оно совершает спасбросок с преимуществом.\n\nПока существо очаровано, у вас есть с ним телепатическая связь, если вы оба находитесь на одном плане бытия. Вы можете использовать эту связь, чтобы отдавать существу команды, пока вы в сознании (действие не требуется), и оно выполняет их по мере своих сил. Вы можете указать простой и общий план действий, например «Атакуй то существо», «Беги туда» или «Принеси тот предмет». Если существо выполняет приказ и не получает дальнейших указаний от вас, оно защищает и сохраняет себя по мере своих способностей.\n\nВы можете использовать действие, чтобы получить полный и точный контроль над целью. До конца вашего следующего хода существо совершает только выбранные вами действия и не делает ничего, чего вы не позволяете. В это время вы также можете заставить существо использовать реакцию, но для этого вы должны использовать собственную реакцию.\n\nКаждый раз, когда цель получает урон, она совершает новый спасбросок Мудрости против заклинания. При успехе заклинание оканчивается.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 9-го уровня, длительность — концентрация, до 8 часов.",
+      "glossary_version": "v1",
+      "name": "Подчинение чудовища",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

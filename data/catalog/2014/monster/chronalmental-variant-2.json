@@ -1,0 +1,137 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "chronalmental",
+  "id": "o5e:tob:monster:chronalmental-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:chronalmental"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "79a60112330d4b2203a1b7f86714e44a9f03dd0c15def3a9aadcdad36e4ae204",
+    "formulas": [
+      {
+        "expression": "16d10+64",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "unaligned",
+      "armor_class": 17,
+      "challenge_rating": "8",
+      "condition_immunities": "exhaustion, paralyzed, petrified, poisoned, unconscious",
+      "damage_immunities": "poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "16d10+64",
+      "hit_points": 152,
+      "languages": "Celestial, Infernal",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "79a60112330d4b2203a1b7f86714e44a9f03dd0c15def3a9aadcdad36e4ae204",
+        "edition": "2014",
+        "id": "o5e:tob:monster:chronalmental",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The chronalmental makes 1d4 + 1 slam attacks.\"}, {\"name\": \"Slam\", \"desc\": \"Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage.\", \"attack_bonus\": 8, \"damage_dice\": \"2d10\"}, {\"name\": \"Steal Time (1/Day)\", \"desc\": \"The chronalmental targets one creature it can see within 30 feet of it. The targeted creature must make a DC 16 Wisdom saving throw. On a failed saving throw, the chronalmental draws some of the creature's time into itself and gains +10 to its position in initiative order. In addition, the target's speed is reduced by half, it can't take reactions, and it can take either an action or a bonus action on its turn, but not both. While it is stealing time, the chronalmental's speed increases by 30 feet, and when it takes the multiattack action, it can make an additional slam attack. The targeted creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.\"}, {\"name\": \"Displace (Recharge 5-6)\", \"desc\": \"The chronalmental targets one creature it can see within 30 feet of it. The target must succeed on a DC 16 Wisdom saving throw or be magically shunted outside of time. The creature disappears for 1 minute. As an action, the displaced creature can repeat the saving throw. On a success, the target returns to its previously occupied space, or the nearest unoccupied space.\"}]",
+      "alignment": "unaligned",
+      "armor_class": 17,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "8",
+      "charisma": 6,
+      "condition_immunities": "exhaustion, paralyzed, petrified, poisoned, unconscious",
+      "constitution": 19,
+      "cr": 8.0,
+      "damage_immunities": "poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "desc": "_A chronalmental is difficult to pin down, and it may appear as a large man-shaped absence in the air that reveals first a field of stars, then a contorted rainbow of colored bands, then a brilliant white light, strobing in and out of existence._  \n**Fluid as Time.** Shifting between the past, present, and future, chronalmentals are formed from temporal energy. They flow like sand in an hourglass and exist between the tickings of a clock.  \nThe first chronalmentals were forged from extra time left over from the beginning of the universe. Many served as shock troopers in unfathomable wars between angels and fiends or gods and ancient titans. Most were lost between seconds or abandoned to drift aimlessly in the Astral Plane or in the void between the stars.  \n**Stewards of Calamity.** Locations of historical significance— both past and future—attract chronalmentals. They have a fondness for battlefields and other sites of strife. Because they are drawn to noteworthy places, chronalmentals have a reputation as harbingers of calamity, and their presence may incite panic among scholars, priests, and sages.  \n**Environmental Chaos.** Whatever the terrain, the environment behaves strangely around the chronalmental. Collapsed walls might suddenly rise, seedlings become massive trees, and fallen soldiers relive their dying moments. These changes occur randomly, a side-effect of a chronalmental’s presence, and things return to normal when they depart.  \n**Elemental Nature.** A chronalmental does not require air, food, drink, or sleep.",
+      "dexterity": 20,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "16d10+64",
+      "hit_points": 152,
+      "intelligence": 9,
+      "languages": "Celestial, Infernal",
+      "legendary_actions_json": "null",
+      "name": "Chronalmental",
+      "page_no": 57,
+      "reactions_json": "[{\"name\": \"Step Between Seconds (Recharge 4-6)\", \"desc\": \"When a creature the chronalmental can see moves within 5 feet of it, the chronalmental can shift itself to a place it occupied in the past, teleporting up to 60 feet to an unoccupied space, along with any equipment it is wearing or carrying.\"}]",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 11",
+      "size": "Large",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Temporal Body\", \"desc\": \"When a chronalmental is subjected to a slow spell, haste spell, or similar effect, it automatically succeeds on the saving throw and regains 13 (3d8) hit points.\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 1,
+      "type": "Elemental",
+      "wisdom": 13
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Chronalmental",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-chronalmental"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_A chronalmental is difficult to pin down, and it may appear as a large man-shaped absence in the air that reveals first a field of stars, then a contorted rainbow of colored bands, then a brilliant white light, strobing in and out of existence._  \n**Fluid as Time.** Shifting between the past, present, and future, chronalmentals are formed from temporal energy. They flow like sand in an hourglass and exist between the tickings of a clock.  \nThe first chronalmentals were forged from extra time left over from the beginning of the universe. Many served as shock troopers in unfathomable wars between angels and fiends or gods and ancient titans. Most were lost between seconds or abandoned to drift aimlessly in the Astral Plane or in the void between the stars.  \n**Stewards of Calamity.** Locations of historical significance— both past and future—attract chronalmentals. They have a fondness for battlefields and other sites of strife. Because they are drawn to noteworthy places, chronalmentals have a reputation as harbingers of calamity, and their presence may incite panic among scholars, priests, and sages.  \n**Environmental Chaos.** Whatever the terrain, the environment behaves strangely around the chronalmental. Collapsed walls might suddenly rise, seedlings become massive trees, and fallen soldiers relive their dying moments. These changes occur randomly, a side-effect of a chronalmental’s presence, and things return to normal when they depart.  \n**Elemental Nature.** A chronalmental does not require air, food, drink, or sleep.",
+      "name": "Chronalmental",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Хрональменталя трудно прижать, и он может казаться большим человекообразным отсутствием в воздухе, которое раскрывает сначала поле звёзд, затем искривлённую радугу цветных полос, затем блестящий белый свет, мерцая в существовании и из него.\n\n**Текучие как время.** Сдвигаясь между прошлым, настоящим и будущим, хрональментали сформированы из временной энергии. Они текут как песок в песочных часах и существуют между тиканьями часов.\n\nПервые хрональментали были выкованы из лишнего времени, оставшегося от начала вселенной. Многие служили ударными войсками в непостижимых войнах между ангелами и исчадиями или богами и древними титанами. Большинство были потеряны между секундами или покинуты дрейфовать бесцельно на Астральном Плане или в пустоте между звёздами.\n\n**Стюарды бедствия.** Местоположения исторической значимости — и прошлого, и будущего — привлекают хрональменталей. У них слабость к полям сражений и другим местам распрей. Поскольку они притянуты к примечательным местам, хрональментали имеют репутацию предвестников бедствия, и их присутствие может вызвать панику среди учёных, жрецов и мудрецов.\n\n**Экологический хаос.** Неважно, какая местность, окружающая среда ведёт себя странно вокруг хрональменталя. Рухнувшие стены могут внезапно подняться, саженцы становятся массивными деревьями, и павшие солдаты переживают их умирающие моменты. Эти изменения происходят случайно, побочный эффект присутствия хрональменталя, и вещи возвращаются в норму, когда они уходят.\n\n**Стихийная природа.** Хрональменталю не требуются воздух, пища, питьё или сон.",
+      "glossary_version": "v1",
+      "name": "Хрональменталь",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

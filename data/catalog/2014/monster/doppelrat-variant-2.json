@@ -1,0 +1,135 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "doppelrat",
+  "id": "o5e:tob:monster:doppelrat-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:doppelrat"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "1c83c5b9b51ce1f05620096cdaf7ae051a596e0da5d9d3e7bbe9655f1788f6a4",
+    "formulas": [
+      {
+        "expression": "5d4+10",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "challenge_rating": "2",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "5d4+10",
+      "hit_points": 22,
+      "languages": "-",
+      "size": "Tiny"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "1c83c5b9b51ce1f05620096cdaf7ae051a596e0da5d9d3e7bbe9655f1788f6a4",
+        "edition": "2014",
+        "id": "o5e:tob:monster:doppelrat",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage.\", \"attack_bonus\": 5, \"damage_dice\": \"1\"}, {\"name\": \"Arcane Doubling (recharges after 10 minutes)\", \"desc\": \"A doppelrat under duress creates clones of itself at the beginning of its turn. Each round for 4 rounds, the number of live doppelrats quadruples but never exceeds 20. For example, when the doppelrat triggers arcane doubling, 1 rat becomes 4; at the start of the rat's next turn, those 4 become 16; and at the start of the rat's third turn, those 16 become 20, the maximum allowed. If one of the duplicates was destroyed between the original doppelrat's 1st and 2nd turns, then the surviving 3 would become 12, and so on. Each duplicate appears in the same space as any other rat, can either move or take an action the round it appears, and has 4 hit points and AC 13. Any surviving duplicates perish 1 minute (10 rounds) after the first ones were created. If the original doppelrat dies, its clones stop duplicating but the preexisting clones remain until their time expires. A creature can identify the original doppelrat from its duplicates as an action by making a successful DC 15 Intelligence (Nature) or Wisdom (Perception) check.\"}, {\"name\": \"Doppeling Disease\", \"desc\": \"At the end of a dopplerat encounter, every creature bitten by a doppelrat or its duplicates must succeed on a DC 12 Constitution saving throw or contract the degenerate cloning disease. During each long rest, the diseased creature grows and sloughs off a stillborn clone. The doppeling process leaves the diseased creature incapacitated for 1 hour, unable to move and barely able to speak (spellcasting is impossible in this state). When the incapacitation wears off, the creature makes a DC 12 Constitution saving throw; it recovers from the disease when it makes its second successful save. Humanoid clones created by the disease cannot be brought to life in any manner.\"}]",
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "bonus_actions_json": "null",
+      "challenge_rating": "2",
+      "charisma": 2,
+      "constitution": 14,
+      "cr": 2.0,
+      "desc": "_This rat startled the moment it knew it was seen. Within seconds, the one rat became four, and then the four quickly multiplied into sixteen rats._  \nThe result of a Open Game License",
+      "dexterity": 17,
+      "dexterity_save": 5,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "5d4+10",
+      "hit_points": 22,
+      "intelligence": 2,
+      "languages": "-",
+      "legendary_actions_json": "null",
+      "name": "Doppelrat",
+      "page_no": 123,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 11",
+      "size": "Tiny",
+      "skills_json": "{\"stealth\": 5}",
+      "special_abilities_json": "[{\"name\": \"Keen Smell\", \"desc\": \"The doppelrat has advantage on Wisdom (Perception) checks that rely on smell.\"}, {\"name\": \"Running Doppelrats\", \"desc\": \"The hardest part of this monster is the sheer volume of attacks they generate. To model this, run them in groups of 4 for attack purposes and have those groups all use the same +5 to attack and do 1d4 damage. That way you need not roll 20 times for all of them, and you reduce the number of rolls required by a factor of 4.\"}]",
+      "speed_json": "{\"walk\": 15, \"climb\": 15, \"swim\": 15}",
+      "spells_json": "null",
+      "strength": 2,
+      "type": "Monstrosity",
+      "wisdom": 13
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Doppelrat",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-doppelrat"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_This rat startled the moment it knew it was seen. Within seconds, the one rat became four, and then the four quickly multiplied into sixteen rats._  \nThe result of a Open Game License",
+      "name": "Doppelrat",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Эта крыса вздрогнула в тот момент, когда поняла, что её увидели. В течение секунд одна крыса стала четырьмя, а затем четыре быстро умножились до шестнадцати крыс.",
+      "glossary_version": "v1",
+      "name": "Доппелькрыса",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

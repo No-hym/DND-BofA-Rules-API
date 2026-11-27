@@ -1,0 +1,130 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "thunderbird-a5e",
+  "id": "o5e:menagerie:monster:thunderbird-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:thunderbird-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "d0cab8cf76409cbbc43d06e82270dd886b6725a67a3572845d7b794865e3d053",
+    "formulas": [
+      {
+        "expression": "6d10+24",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 12,
+      "challenge_rating": "3",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "6d10+24",
+      "hit_points": 57,
+      "languages": "",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "d0cab8cf76409cbbc43d06e82270dd886b6725a67a3572845d7b794865e3d053",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:thunderbird-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The griffon attacks once with its beak and once with its talons.\"}, {\"name\": \"Beak\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) piercing damage.\"}, {\"name\": \"Talons\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage  or 11 (2d6 + 4) slashing damage if the griffon started its turn at least 20 feet above the target  and the target is grappled (escape DC 14). Until this grapple ends  the griffon can't attack a different target with its talons.\"}, {\"name\": \"Lightning Strike (Recharge 6)\", \"desc\": \"The thunderbird exhales a blast of lightning at one target within 60 feet. The target makes a DC 12 Dexterity saving throw  taking 28 (8d6) lightning damage on a failure or half the damage on a success.\"}]",
+      "armor_class": 12,
+      "bonus_actions_json": "null",
+      "challenge_rating": "3",
+      "charisma": 8,
+      "constitution": 18,
+      "cr": 3.0,
+      "dexterity": 14,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "6d10+24",
+      "hit_points": 57,
+      "intelligence": 2,
+      "legendary_actions_json": "null",
+      "name": "Thunderbird",
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "passive Perception 15",
+      "size": "Large",
+      "skills_json": "{\"perception\": 5}",
+      "special_abilities_json": "[{\"name\": \"Keen Sight\", \"desc\": \"The griffon has advantage on Perception checks that rely on sight.\"}, {\"name\": \"Storm Sight\", \"desc\": \"A thunderbirds vision is not limited by weather.\"}]",
+      "speed_json": "{\"walk\": 30, \"fly\": 80}",
+      "spells_json": "null",
+      "strength": 18,
+      "type": "Monstrosity",
+      "wisdom": 16
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Thunderbird",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-thunderbird"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Thunderbird",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крупное чудовище. Класс доспеха: 12. Хиты: 57 (6к10+24). Показатель опасности: 3.",
+      "glossary_version": "derived-v1",
+      "name": "Тундербирд",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

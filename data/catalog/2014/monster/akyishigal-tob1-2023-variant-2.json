@@ -1,0 +1,145 @@
+{
+  "attribution": "Title: Tome of Beasts 2023; Author: Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur; Publisher: tob-2023; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. 2023 Open Design LLC. All rights reserved.",
+  "book_id": "tob-2023",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "akyishigal-tob1-2023",
+  "id": "o5e:tob-2023:monster:akyishigal-tob1-2023-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:monster:akyishigal-tob1-2023"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5d582a9dc25ffdc5560c842f71fda82842adff17272bdd7f08a1d580f876ff9a",
+    "formulas": [
+      {
+        "expression": "12d10 + 72",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "Chaotic Evil",
+      "armor_class": 18,
+      "challenge_rating": "12",
+      "condition_immunities": "poisoned",
+      "damage_immunities": "cold, lightning, poison",
+      "damage_resistances": "acid, fire; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "False",
+      "hit_dice": "12d10 + 72",
+      "hit_points": 138,
+      "languages": "Abyssal, Common, Draconic, Elvish, Infernal, telepathy 60 ft.",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob-2023",
+        "content_hash": "5d582a9dc25ffdc5560c842f71fda82842adff17272bdd7f08a1d580f876ff9a",
+        "edition": "2014",
+        "id": "o5e:tob-2023:monster:akyishigal-tob1-2023",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"Akyishigal makes four Claw attacks.\"}, {\"name\": \"Claw\", \"desc\": \"Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) slashing damage plus 3 (1d6) poison damage.\"}, {\"name\": \"Call Spawn (1/Day)\", \"desc\": \"Akyishigal magically calls one spawn of Akyishigal. The spawn arrives in 1d4 rounds, acting as an ally of Akyishigal and obeying its telepathic commands. The spawn remains for 1 hour, until Akyishigal dies, or until Akyishigal dismisses it as a bonus action.\"}, {\"name\": \"Spellcasting\", \"desc\": \"Akyishigal casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 17):\\nAt will: detect evil and good, pass without trace\\n3/day: dispel magic, giant insect, insect plague\\n1/day: contagion (filth fever only)\"}]",
+      "alignment": "Chaotic Evil",
+      "armor_class": 18,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "[{\"name\": \"Change Shape\", \"desc\": \"Akyishigal magically transforms into a Large or smaller insectoid Beast or back into his true form, which is a Fiend. His statistics, other than his size, are the same in each form. Any equipment he is wearing or carrying transforms with him. He reverts to his true form if he dies.\"}, {\"name\": \"Teleport\", \"desc\": \"Akyishigal magically teleports, along with any equipment he is wearing or carrying, up to 120 feet to an unoccupied space he can see.\"}, {\"name\": \"Skitter (Costs 2 Actions)\", \"desc\": \"Akyishigal moves up to half his speed and makes one Claw attack. This movement doesn't provoke opportunity attacks.\"}, {\"name\": \"Cast a Spell (Costs 2 Actions)\", \"desc\": \"Akyishigal uses Spellcasting.\"}]",
+      "challenge_rating": "12",
+      "charisma": 20,
+      "charisma_save": 9,
+      "condition_immunities": "poisoned",
+      "constitution": 22,
+      "constitution_save": 10,
+      "cr": 12.0,
+      "damage_immunities": "cold, lightning, poison",
+      "damage_resistances": "acid, fire; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "False",
+      "desc": "False",
+      "dexterity": 17,
+      "dexterity_save": 7,
+      "document": 47,
+      "group": "null",
+      "hit_dice": "12d10 + 72",
+      "hit_points": 138,
+      "intelligence": 19,
+      "languages": "Abyssal, Common, Draconic, Elvish, Infernal, telepathy 60 ft.",
+      "legendary_actions_json": "[{\"name\": \"Teleport\", \"desc\": \"Akyishigal magically teleports, along with any equipment he is wearing or carrying, up to 120 feet to an unoccupied space he can see.\"}, {\"name\": \"Skitter (Costs 2 Actions)\", \"desc\": \"Akyishigal moves up to half his speed and makes one Claw attack. This movement doesn't provoke opportunity attacks.\"}, {\"name\": \"Cast a Spell (Costs 2 Actions)\", \"desc\": \"Akyishigal uses Spellcasting.\"}]",
+      "legendary_desc": "Akyishigal can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Akyishigal regains spent legendary actions at the start of his turn.",
+      "name": "Akyishigal",
+      "page_no": 75,
+      "perception": 16,
+      "route": "monsters/",
+      "senses": "darkvision 120 ft., truesight 60 ft., passive Perception 16",
+      "size": "Large",
+      "skills_json": "{\"Acrobatics\": 11, \"Athletics\": 9, \"Perception\": 6, \"Stealth\": 7}",
+      "special_abilities_json": "[{\"name\": \"Cloak of Swarms\", \"desc\": \"Akyishigal emits a cloud of flying, stinging insects from his mouth, eyes, and tears in his skin that spreads out in a 5-foot radius from him. At the start of each of his turns, Akyishigal chooses whether this cloak is active.\"}, {\"name\": \"Legendary Resistance (3/Day)\", \"desc\": \"If Akyishigal fails a saving throw, he can choose to succeed instead.\"}, {\"name\": \"Magic Resistance\", \"desc\": \"Akyishigal has advantage on saving throws against spells and other magical effects.\"}]",
+      "speed_json": "{\"walk\": 40, \"fly\": 40, \"burrow\": 40}",
+      "spells_json": "null",
+      "strength": 21,
+      "strength_save": 9,
+      "type": "Fiend",
+      "wisdom": 14,
+      "wisdom_save": 6
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur",
+      "key": "tob-2023",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+      "publication_date": "",
+      "publisher": "tob-2023",
+      "title": "Tome of Beasts 2023"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Akyishigal",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:tob-2023:creature:tob-2023-akyishigal"
+  },
+  "publisher_id": "tob-2023",
+  "source": "open5e:v1:tob-2023",
+  "translations": {
+    "en": {
+      "description": "False",
+      "name": "Akyishigal",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крупное исчадие, мировоззрение: хаотично-злое. Класс доспеха: 18. Хиты: 138 (12к10 + 72). Сопротивление урону: кислотой, огнём, дробящего, колющего, and slashing от немагических атак. Иммунитет к урону: холодом, электричеством, ядом. Иммунитет к состояниям: отравление. Показатель опасности: 12.",
+      "glossary_version": "derived-v1",
+      "name": "Акйишигал",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

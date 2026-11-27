@@ -1,0 +1,218 @@
+{
+  "attribution": "Title: Tal'dorei Campaign Setting; Author: Matthew Mercer, James Haeck; Publisher: green-ronin; Source: https://en.wikipedia.org/wiki/Critical_Role%3A_Tal'Dorei_Campaign_Setting; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tdcs",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tdcs_firetamer",
+  "id": "o5e:tdcs:creature:tdcs-firetamer",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tdcs:creature:tdcs-firetamer"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "52894e6f67070fb434d2a5e2690db57a982b8d81e607290716708a108bf2429c",
+    "formulas": [
+      {
+        "expression": "16d8+20",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 11,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 15,
+      "ability_score_intelligence": 12,
+      "ability_score_strength": 8,
+      "ability_score_wisdom": 18,
+      "alignment": "neutral good",
+      "armor_class": 17,
+      "armor_detail": "red dragon scale mail",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "7.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [
+        "fire"
+      ],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "16d8+20",
+      "hit_points": 92,
+      "initiative_bonus": null,
+      "languages": [
+        "common",
+        "druidic"
+      ],
+      "languages_desc": "Common, Druidic, Primordial (Ignan)",
+      "normal_sight_range": 10560.0,
+      "passive_perception": 14,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30.0
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tdcs",
+        "content_hash": "52894e6f67070fb434d2a5e2690db57a982b8d81e607290716708a108bf2429c",
+        "edition": "2014",
+        "id": "o5e:tdcs:creature:tdcs-firetamer",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tdcs"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 11,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 15,
+      "ability_score_intelligence": 12,
+      "ability_score_strength": 8,
+      "ability_score_wisdom": 18,
+      "alignment": "neutral good",
+      "armor_class": 17,
+      "armor_detail": "red dragon scale mail",
+      "category": "Monsters",
+      "challenge_rating": "7.000",
+      "damage_resistances": [
+        "fire"
+      ],
+      "damage_resistances_display": "fire",
+      "document": "tdcs",
+      "hit_dice": "16d8+20",
+      "hit_points": 92,
+      "hover": false,
+      "languages": [
+        "common",
+        "druidic"
+      ],
+      "languages_desc": "Common, Druidic, Primordial (Ignan)",
+      "name": "Firetamer",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560.0,
+      "passive_perception": 14,
+      "size": "medium",
+      "type": "humanoid",
+      "walk": 30.0,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Matthew Mercer, James Haeck",
+      "key": "tdcs",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://en.wikipedia.org/wiki/Critical_Role%3A_Tal'Dorei_Campaign_Setting",
+      "publication_date": "2017-08-17T00:00:00",
+      "publisher": "green-ronin",
+      "title": "Tal'dorei Campaign Setting"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "The firetamer can cast _dominate monster_ (save DC 16) on a fire elemental or other fire elemental creature. If the elemental has 150 or more hit points, it has advantage on the saving throw.",
+          "desc_ru": "Действие «Фламечарм»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tdcs_firetamer_flamecharm",
+          "name": "Flamecharm ",
+          "name_ru": "Фламечарм",
+          "parent": "tdcs_firetamer",
+          "ru_source": "derived",
+          "uses_type": "RECHARGE_AFTER_REST"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage plus 14 (4d6) fire damage. Flamecharm (Recharges after a Short or Long Rest). The firetamer can cast dominate monster (save DC 16) on a fire elemental or other fire elemental creature. If the elemental has 150 or more hit points, it has advantage on the saving throw.",
+          "desc_ru": "Действие «Скимитар»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tdcs_firetamer_scimitar",
+          "name": "Scimitar",
+          "name_ru": "Скимитар",
+          "order_in_statblock": 0,
+          "parent": "tdcs_firetamer",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "As a bonus action, the firetamer can transform into a **fire elemental**. While in this form, the firetamer cannot cast spells, but can expend a spell slot as a bonus action to regain 1d8 hit points per level of the spell slot expended. When the firetamer is reduced to 0 hit points, falls unconscious, or dies in this form, it reverts to its humanoid form. It can remain in flameform for up to 5 hours, and can enter flameform twice, regaining expended uses after completing a short or long rest.",
+          "desc_ru": "Особенность «Фламеформ». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tdcs_firetamer_flameform",
+          "name": "Flameform",
+          "name_ru": "Фламеформ",
+          "parent": "tdcs_firetamer",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The firetamer is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). It has the following druid spells prepared:\n\n- **Cantrips** (at will): druidcraft, mending, produce flame\n- **1st Level** (4 slots): cure wounds, faerie fire, longstrider, jump\n- **2nd Level** (3 slots): flame blade, heat metal, lesser restoration\n- **3rd Level** (3 slots): daylight, dispel magic, protection from energy\n- **4th Level** (3 slots): blight, freedom of movement, wall of fire 5th level (1 slot): conjure elemental",
+          "desc_ru": "Особенность «Спеллкастинг». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tdcs_firetamer_spellcasting",
+          "name": "Spellcasting",
+          "name_ru": "Спеллкастинг",
+          "parent": "tdcs_firetamer",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Firetamer",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "green-ronin",
+  "source": "open5e:v2:tdcs",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Firetamer",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Укротители огня — элитные элементалисты огненных стихийных стражей, использующие свою настройку на первобытные силы мира, чтобы не просто создавать огонь, не просто командовать им, но укрощать его по своей воле. Укротитель огня ничем не похож на маниакальных пиромантов; в то время как последние безрассудно владеют огнём как оружием, укротители огня используют свой талант, чтобы защищать других от разрушительной силы огня — или использовать ту же силу, чтобы уничтожать тех, кто угрожает их народу. Укротители огня почти всегда сопровождаются саламандрой, огненным элементалем или маленьким стадом магмовых или дымовых мефитов.",
+      "glossary_version": "v1",
+      "name": "Укротитель огня",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

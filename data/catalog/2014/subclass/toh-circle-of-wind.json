@@ -1,0 +1,180 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_circle-of-wind",
+  "id": "o5e:toh:characterclass:toh-circle-of-wind",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-circle-of-wind"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "2c793b823ccc96ad630d89c5cb5d98ff12ae3683c8275be220908031b7d77e8f",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_druid"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "2c793b823ccc96ad630d89c5cb5d98ff12ae3683c8275be220908031b7d77e8f",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-circle-of-wind",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_druid",
+        "type": "subclass_of",
+        "value": "srd_druid"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Founded in deserts, badlands, and grasslands, where wind dominates and controls the landscape, the teachings of the Circle of Wind have spread far and wide, like a mighty storm. Druids who follow this circle's teachings embrace the mercurial winds to create several effects.",
+      "document": "toh",
+      "name": "Circle of Wind",
+      "subclass_of": "srd_druid"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "At 2nd level when you choose this circle, you learn the *message* cantrip.",
+          "desc_ru": "Когда вы выбираете этот круг на 2-м уровне, вы изучаете один дополнительный заговор друида по вашему выбору.",
+          "document": "toh",
+          "external_id": "toh_circle-of-wind_bonus-cantrip",
+          "level": 2,
+          "name": "Bonus Cantrip",
+          "name_ru": "Дополнительный заговор",
+          "parent": "toh_circle-of-wind",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Starting at 2nd level, when you use your Wild Shape to magically assume the shape of a beast, it can have a flying speed (you ignore “no flying speed” in the Limitations column of the Beast Shapes table but must abide by the other limitations there).",
+          "desc_ru": "Начиная со 2-го уровня, когда вы используете ваш Дикий облик, чтобы магически принять форму зверя, она может иметь скорость полёта (вы игнорируете «нет скорости полёта» в колонке Ограничений таблицы Форм зверя, но должны соблюдать другие ограничения там).",
+          "document": "toh",
+          "external_id": "toh_circle-of-wind_feathered-form",
+          "level": 2,
+          "name": "Feathered Form",
+          "name_ru": "Пернатая форма",
+          "parent": "toh_circle-of-wind",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Beginning at 6th level, as an action, you can summon a gentle breeze that extends in a 30-foot cone from you. Choose a number of targets in the area equal to your Wisdom modifier (minimum of 1). You end one disease or the blinded, deafened, paralyzed, or poisoned condition on each target. Once you use this feature, you can't use it again until you finish a long rest.",
+          "desc_ru": "Начиная с 6-го уровня действием вы можете призвать нежный бриз, который простирается в конусе 30 футов от вас. Выберите количество целей в области, равное вашему модификатору Мудрости (минимум 1). Вы заканчиваете одну болезнь или состояние ослеплённости, оглушённости, парализованности или отравленности на каждой цели. Использовав эту особенность, вы не можете использовать её снова, пока не закончите продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_circle-of-wind_comforting-breezes",
+          "level": 6,
+          "name": "Comforting Breezes",
+          "name_ru": "Утешающие бризы",
+          "parent": "toh_circle-of-wind",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Also at 6th level, you can expend one use of Wild Shape as a bonus action to summon a powerful wind. You and each creature of your choice within 10 feet of you end the grappled or restrained conditions. You can fly up to 30 feet as part of this bonus action, and each creature that you affect with this wind can use a reaction to fly up to 30 feet. This movement doesn't provoke opportunity attacks.",
+          "desc_ru": "Также на 6-м уровне вы можете потратить одно использование Дикого облика бонусным действием, чтобы призвать мощный ветер. Вы и каждое существо на ваш выбор в пределах 10 футов от вас заканчиваете состояния схваченности или сдерживания. Вы можете пролететь до 30 футов как часть этого бонусного действия, и каждое существо, которое вы затрагиваете этим ветром, может реакцией пролететь до 30 футов. Это перемещение не провоцирует внеочередные атаки.",
+          "document": "toh",
+          "external_id": "toh_circle-of-wind_updraft",
+          "level": 6,
+          "name": "Updraft",
+          "name_ru": "Восходящий поток",
+          "parent": "toh_circle-of-wind",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "The magic of the wind flows through you, granting access to certain spells. At 3rd, 5th, 7th, and 9th level, you gain access to the spells listed for that level in the Circle of Wind Spells table.\n  Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.\n\n**Circle of Wind Spells**\n| Druid Level  | Spells                                                | \n|--------------|-------------------------------------------------------| \n| 3rd          | *blur*, *gust of wind*                                | \n| 5th          | *fly*, *lightning bolt*                               | \n| 7th          | *conjure minor elementals*, *freedom of movement*     | \n| 9th          | *cloudkill*, *conjure elemental* (air elemental only) |",
+          "desc_ru": "Магия ветра течёт через вас, даруя доступ к определённым заклинаниям. На 3-м, 5-м, 7-м и 9-м уровнях вы получаете доступ к заклинаниям, перечисленным для этого уровня в таблице Заклинаний круга ветра.\nКогда вы получаете доступ к одному из этих заклинаний, у вас оно всегда подготовлено, и оно не учитывается в количестве заклинаний, которые вы можете подготовить каждый день. Если вы получаете доступ к заклинанию, которое не появляется в списке заклинаний друида, заклинание тем не менее является для вас заклинанием друида.\n\nЗаклинания круга ветра\n| Уровень друида | Заклинания |\n|---|---|\n| 3-й | Размытие, Порыв ветра |\n| 5-й | Полёт, Удар молнии |\n| 7-й | Призыв малых элементалей, Свобода перемещения |\n| 9-й | Ядовитое облако, Призыв элементаля (только воздушный элементаль) |",
+          "document": "toh",
+          "external_id": "toh_circle-of-wind_circle-spells",
+          "level": 9,
+          "name": "Circle Spells",
+          "name_ru": "Заклинания круга",
+          "parent": "toh_circle-of-wind",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 10th level, you can ask the winds one question, and they whisper secrets back to you. You can cast *commune* without preparing the spell or expending a spell slot. Once you use this feature, you can't use it again until you finish a long rest.",
+          "desc_ru": "Начиная с 10-го уровня вы можете задать ветрам один вопрос, и они нашёптывают вам секреты в ответ. Вы можете сотворить общение, не подготавливая заклинание и не расходуя ячейку заклинаний. Использовав эту особенность, вы не можете использовать её снова, пока не закончите продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_circle-of-wind_vizier-of-the-winds",
+          "level": 10,
+          "name": "Vizier of the Winds",
+          "name_ru": "Визирь ветров",
+          "parent": "toh_circle-of-wind",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Beginning at 14th level, when you succeed on a saving throw against a spell or effect that deals lightning damage, you take no damage and instead regain a number of hit points equal to the lightning damage dealt. Once you use this feature, you can't use it again until you finish a long rest.",
+          "desc_ru": "Начиная с 14-го уровня, когда вы успешно проходите спасбросок против заклинания или эффекта, который наносит урон молнией, вы не получаете урона и вместо этого восстанавливаете количество очков хитов, равное нанесённому урону молнией. Использовав эту особенность, вы не можете использовать её снова, пока не закончите продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_circle-of-wind_hunger-of-storms-fury",
+          "level": 14,
+          "name": "Hunger of Storm's Fury",
+          "name_ru": "Голод ярости бури",
+          "parent": "toh_circle-of-wind",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Circle of Wind",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "Founded in deserts, badlands, and grasslands, where wind dominates and controls the landscape, the teachings of the Circle of Wind have spread far and wide, like a mighty storm. Druids who follow this circle's teachings embrace the mercurial winds to create several effects.",
+      "name": "Circle of Wind",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Основанные в пустынях, пустошах и лугах, где ветер доминирует и управляет ландшафтом, учения Круга Ветра распространились далеко и широко, подобно могучей буре. Друиды, следующие учениям этого круга, принимают непостоянные ветры для создания различных эффектов.",
+      "glossary_version": "v1",
+      "name": "Круг ветра",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

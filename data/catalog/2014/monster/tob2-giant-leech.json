@@ -1,0 +1,188 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_giant-leech",
+  "id": "o5e:tob2:creature:tob2-giant-leech",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-giant-leech"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c3b46b501346c01fba01bc1900a9eddbf6af75250b7e6e6f56864bbaa32c8a93",
+    "formulas": [
+      {
+        "expression": "2d6",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 2,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 6,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "2d6",
+      "hit_points": 7,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": 2,
+      "saving_throw_dexterity": 5,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "small",
+      "skill_bonus_acrobatics": null,
+      "swim": 30,
+      "walk": 15
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "c3b46b501346c01fba01bc1900a9eddbf6af75250b7e6e6f56864bbaa32c8a93",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-giant-leech",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 2,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 6,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "document": "tob2",
+      "hit_dice": "2d6",
+      "hit_points": 7,
+      "hover": false,
+      "name": "Giant Leech",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "saving_throw_constitution": 2,
+      "saving_throw_dexterity": 5,
+      "size": "small",
+      "skill_bonus_stealth": 5,
+      "swim": 30,
+      "tremorsense_range": 30,
+      "type": "beast",
+      "walk": 15,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the leech attaches to the target. While attached, the leech doesn't attack. Instead, at the start of each of the leech's turns, the target loses 5 (1d4 + 3) hp due to blood loss.\n\nThe leech can detach itself by spending 5 feet of its movement. It does so after it drains 15 hp of blood from the target or the target dies. A creature, including the target, can use its action to detach the leech.",
+          "desc_ru": "Действие «Укус»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_giant-leech_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 0,
+          "parent": "tob2_giant-leech",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The leech can breathe air and water.",
+          "desc_ru": "Может дышать как воздухом, так и водой.",
+          "external_id": "tob2_giant-leech_amphibious",
+          "name": "Amphibious",
+          "name_ru": "Амфибиоус",
+          "parent": "tob2_giant-leech",
+          "ru_source": "template"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Giant Leech",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Giant Leech",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Гигантские пиявки прячутся в спокойных прудах, журчащих ручьях и могучих реках. Они скользят через тёмные лесные воды своим отличительным вертикальным волнообразным движением, следуя любому движению, которое они чувствуют к свежей крови. Некоторые разновидности адаптировались к жизни в океанах, и редкие немногие обитают на суше, хотя наземные пиявки предпочитают влажный, сырой климат.",
+      "glossary_version": "v1",
+      "name": "Гигантская пиявка",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

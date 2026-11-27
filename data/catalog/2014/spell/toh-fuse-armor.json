@@ -1,0 +1,197 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_fuse-armor",
+  "id": "o5e:toh:spell:toh-fuse-armor",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:fuse-armor",
+      "o5e:toh:spell:toh-fuse-armor"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "0514e5c3bf08e94c7668c65d301195b2b0873e2540362b09fac38bc1244f95ff",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "strength",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "0514e5c3bf08e94c7668c65d301195b2b0873e2540362b09fac38bc1244f95ff",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-fuse-armor",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "3927752ddd72a9a0c61e392ca9f9f5ea2ceb181b3c70cd33b08d8b10ebfa59ff",
+        "edition": "2014",
+        "id": "o5e:toh:spell:fuse-armor",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "concentration": true,
+      "desc": "Choose a manufactured metal object with movable parts, such as a drawbridge pulley or winch or a suit of heavy or medium metal armor, that you can see within range. You cause the object's moveable parts to fuse together for the duration. The object's movable aspects can't be moved: a pulley's wheel won't turn and the joints of armor won't bend.\n  A creature wearing armor affected by this spell has its speed reduced by 10 feet and has disadvantage on weapon attacks and ability checks that use Strength or Dexterity. At the end of each of its turns, the creature wearing the armor can make a Strength saving throw. On a success, the spell ends on the armor.\n  A creature in physical contact with an affected object that isn't a suit of armor can use its action to make a Strength check against your spell save DC. On a success, the spell ends on the object.\n  If you target a construct with this spell, it must succeed on a Strength saving throw or have its speed reduced by 10 feet and have disadvantage on weapon attacks. At the end of each of its turns, the construct can make another Strength saving throw. On a success, the spell ends on the construct.",
+      "document": "toh",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional object for each slot level above 2nd. The objects must be within 30 feet of each other when you target them.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Fuse Armor",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "strength",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "130",
+          "parent": "toh_fuse-armor",
+          "type": "default"
+        },
+        {
+          "external_id": "132",
+          "parent": "toh_fuse-armor",
+          "target_count": 2,
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "133",
+          "parent": "toh_fuse-armor",
+          "target_count": 3,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "134",
+          "parent": "toh_fuse-armor",
+          "target_count": 4,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "135",
+          "parent": "toh_fuse-armor",
+          "target_count": 5,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "136",
+          "parent": "toh_fuse-armor",
+          "target_count": 6,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "137",
+          "parent": "toh_fuse-armor",
+          "target_count": 7,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "138",
+          "parent": "toh_fuse-armor",
+          "target_count": 8,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Fuse Armor",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "Choose a manufactured metal object with movable parts, such as a drawbridge pulley or winch or a suit of heavy or medium metal armor, that you can see within range. You cause the object's moveable parts to fuse together for the duration. The object's movable aspects can't be moved: a pulley's wheel won't turn and the joints of armor won't bend.\n  A creature wearing armor affected by this spell has its speed reduced by 10 feet and has disadvantage on weapon attacks and ability checks that use Strength or Dexterity. At the end of each of its turns, the creature wearing the armor can make a Strength saving throw. On a success, the spell ends on the armor.\n  A creature in physical contact with an affected object that isn't a suit of armor can use its action to make a Strength check against your spell save DC. On a success, the spell ends on the object.\n  If you target a construct with this spell, it must succeed on a Strength saving throw or have its speed reduced by 10 feet and have disadvantage on weapon attacks. At the end of each of its turns, the construct can make another Strength saving throw. On a success, the spell ends on the construct.",
+      "name": "Fuse Armor",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Выберите изготовленный металлический предмет с подвижными частями, такой как шкив или лебёдка подъёмного моста или комплект тяжёлого или среднего металлического доспеха, который вы видите в пределах дистанции. Вы заставляете подвижные части предмета сплавляться вместе на время действия. Подвижные аспекты предмета не могут быть перемещены: колесо шкива не повернётся и суставы доспеха не согнутся.\n\nСущество, носящее доспех, затронутый этим заклинанием, имеет свою скорость уменьшенную на 10 футов и совершает с помехой атаки оружием и проверки характеристик, которые используют Силу или Ловкость. В конце каждого своего хода существо, носящее доспех, может совершить спасбросок Силы. При успехе заклинание заканчивается на доспехе.\n\nСущество в физическом контакте с затронутым предметом, который не является комплектом доспеха, может действием совершить проверку Силы против Сл ваших спасбросков от заклинаний. При успехе заклинание заканчивается на предмете.\n\nЕсли вы выбираете целью конструкт этим заклинанием, он должен преуспеть в спасброске Силы, иначе его скорость уменьшится на 10 футов и он будет совершать атаки оружием с помехой. В конце каждого своего хода конструкт может совершить ещё один спасбросок Силы. При успехе заклинание заканчивается на конструкте.",
+      "glossary_version": "v1",
+      "name": "Сплавление доспеха",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

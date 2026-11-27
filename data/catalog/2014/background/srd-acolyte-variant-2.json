@@ -1,0 +1,181 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "background",
+  "edition": "2014",
+  "external_id": "srd_acolyte",
+  "id": "o5e:srd-2014:background:srd-acolyte-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:background:srd-acolyte"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "87c3269cb6bd557725d5174f40839b98560e7610f7e4c27d9f3773fe0a0bd73f",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {},
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "87c3269cb6bd557725d5174f40839b98560e7610f7e4c27d9f3773fe0a0bd73f",
+        "edition": "2014",
+        "id": "o5e:srd-2014:background:srd-acolyte",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [
+      {
+        "anchor": "Cleric",
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "cross-reference"
+      },
+      {
+        "anchor": "Pantheons",
+        "required": false,
+        "target_id": "srd_pantheons",
+        "type": "cross-reference"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You are not necessarily a cleric performing sacred rites is not the same thing as channeling divine power.\r\n\r\nChoose a god, a pantheon of gods, or some other quasi-divine being from among those listed in \"Fantasy-Historical Pantheons\" or those specified by your GM, and work with your GM to detail the nature of your religious service. Were you a lesser functionary in a temple, raised from childhood to assist the priests in the sacred rites? Or were you a high priest who suddenly experienced a call to serve your god in a different way? Perhaps you were the leader of a small cult outside of any established temple structure, or even an occult group that served a fiendish master that you now deny.",
+      "document": "srd-2014",
+      "name": "Acolyte"
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.",
+          "desc_ru": "Атака оружием ближнего боя: +2 к попаданию, досягаемость 5 фт., одна цель. Попадание: 2 (1к4) дробящего урона.",
+          "external_id": "srd_acolyte_club",
+          "name": "Club",
+          "name_ru": "Дубинка",
+          "order_in_statblock": 0,
+          "parent": "srd_acolyte",
+          "ru_source": "template"
+        }
+      ],
+      "benefits": [
+        {
+          "desc": "A holy symbol (a gift to you when you entered the priesthood), a prayer book or prayer wheel, 5 sticks of incense, vestments, a set of common clothes, and a pouch containing 15 gp",
+          "desc_ru": "Преимущество «Еквипмент». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_acolyte_equipment",
+          "name": "Equipment",
+          "name_ru": "Еквипмент",
+          "parent": "srd_acolyte",
+          "ru_source": "derived",
+          "type": "equipment"
+        },
+        {
+          "desc": "Two of your choice",
+          "desc_ru": "Преимущество «Лангуагес». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_acolyte_languages",
+          "name": "Languages",
+          "name_ru": "Лангуагес",
+          "parent": "srd_acolyte",
+          "ru_source": "derived",
+          "type": "language"
+        },
+        {
+          "desc": "As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.\r\n\r\nYou might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple.",
+          "desc_ru": "Преимущество «Шелтер Фаитфул». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_acolyte_shelter-of-the-faithful",
+          "name": "Shelter of the Faithful",
+          "name_ru": "Шелтер Фаитфул",
+          "parent": "srd_acolyte",
+          "ru_source": "derived",
+          "type": "feature"
+        },
+        {
+          "desc": "Insight, Religion",
+          "desc_ru": "Преимущество «Скилл Профикиенкиес». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_acolyte_skill-proficiencies",
+          "name": "Skill Proficiencies",
+          "name_ru": "Скилл Профикиенкиес",
+          "parent": "srd_acolyte",
+          "ru_source": "derived",
+          "type": "skill_proficiency"
+        },
+        {
+          "desc": "Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.\r\n\r\n| d8 | Personality Trait |\r\n|---|---|\r\n| 1 | I idolize a particular hero of my faith, and constantly refer to that person's deeds and example. |\r\n| 2 | I can find common ground between the fiercest enemies, empathizing with them and always working toward peace. |\r\n| 3 | I see omens in every event and action. The gods try to speak to us, we just need to listen |\r\n| 4 | Nothing can shake my optimistic attitude. |\r\n| 5 | I quote (or misquote) sacred texts and proverbs in almost every situation. |\r\n| 6 | I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods. |\r\n| 7 | I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me. |\r\n| 8 | I've spent so long in the temple that I have little practical experience dealing with people in the outside world. |\r\n\r\n| d6 | Ideal |\r\n|---|---|\r\n| 1 | Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful) |\r\n| 2 | Charity. I always try to help those in need, no matter what the personal cost. (Good) |\r\n| 3 | Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic) |\r\n| 4 | Power. I hope to one day rise to the top of my faith's religious hierarchy. (Lawful) |\r\n| 5 | Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful) |\r\n| 6 | Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings. (Any) |\r\n\r\n| d6 | Bond |\r\n|---|---|\r\n| 1 | I would die to recover an ancient relic of my faith that was lost long ago. |\r\n| 2 | I will someday get revenge on the corrupt temple hierarchy who branded me a heretic. |\r\n| 3 | I owe my life to the priest who took me in when my parents died. |\r\n| 4 | Everything I do is for the common people. |\r\n| 5 | I will do anything to protect the temple where I served. |\r\n| 6 | I seek to preserve a sacred text that my enemies consider heretical and seek to destroy. |\r\n\r\n| d6 | Flaw |\r\n|---|---|\r\n| 1 | I judge others harshly, and myself even more severely. |\r\n| 2 | I put too much trust in those who wield power within my temple's hierarchy. |\r\n| 3 | My piety sometimes leads me to blindly trust those that profess faith in my god. |\r\n| 4 | I am inflexible in my thinking. |\r\n| 5 | I am suspicious of strangers and expect the worst of them. |\r\n| 6 | Once I pick a goal, I become obsessed with it to the detriment of everything else in my life. |",
+          "desc_ru": "Преимущество «Суггестед Чарактеристикс». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_acolyte_suggested-characteristics",
+          "name": "Suggested Characteristics",
+          "name_ru": "Суггестед Чарактеристикс",
+          "parent": "srd_acolyte",
+          "ru_source": "derived",
+          "type": "suggested_characteristics"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:\n\n* Cantrips (at will): light, sacred flame, thaumaturgy\n* 1st level (3 slots): bless, cure wounds, sanctuary",
+          "desc_ru": "Особенность «Спеллкастинг». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_acolyte_spellcasting",
+          "name": "Spellcasting",
+          "name_ru": "Спеллкастинг",
+          "parent": "srd_acolyte",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Acolyte",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:a5e-ag:background:a5e-ag-acolyte"
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You are not necessarily a cleric performing sacred rites is not the same thing as channeling divine power.\r\n\r\nChoose a god, a pantheon of gods, or some other quasi-divine being from among those listed in \"Fantasy-Historical Pantheons\" or those specified by your GM, and work with your GM to detail the nature of your religious service. Were you a lesser functionary in a temple, raised from childhood to assist the priests in the sacred rites? Or were you a high priest who suddenly experienced a call to serve your god in a different way? Perhaps you were the leader of a small cult outside of any established temple structure, or even an occult group that served a fiendish master that you now deny.",
+      "name": "Acolyte",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы провели жизнь, служа в храме определённому богу или пантеону богов. Вы выступаете посредником между сферой священного и миром смертных, совершая обряды и принося жертвы, чтобы привести верующих в присутствие божественного. Вы необязательно жрец - совершение обрядов это не то же, что направление божественной силы.\n\nВыберите бога, пантеон богов или иное квазибожественное существо из перечисленных в разделе «Фэнтезийно-исторические пантеоны» или указанных МИ, и проработайте с МИ детали вашего религиозного служения. Были ли вы младшим служителем в храме, воспитанным с детства для помощи жрецам в обрядах? Или вы были верховным жрецом, внезапно ощутившим призыв служить богу иным способом? Возможно, вы были лидером небольшого культа вне какой-либо организованной храмовой структуры, или даже оккультной группы, служившей демоническому повелителю, от которого теперь отрекаетесь.\n\n**Владение навыками:** Проницательность, Религия\n\n**Языки:** Два на ваш выбор\n\n**Снаряжение:** Священный символ (подарок при вступлении в жречество), молитвенник или молитвенное колесо, 5 палочек благовоний, облачение, комплект обычной одежды и кошель с 15 зм",
+      "glossary_version": "v1",
+      "name": "Послушник",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,226 @@
+{
+  "attribution": "Title: Tome of Beasts 3; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-3/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob3",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob3_blood-barnacle",
+  "id": "o5e:tob3:creature:tob3-blood-barnacle",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob3:creature:tob3-blood-barnacle",
+      "o5e:tob3:monster:blood-barnacle"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7b0c52ae1713034111b3f11b3bbf7dc9405293a68e6cb0c5ca0ff56459258bbe",
+    "formulas": [
+      {
+        "expression": "10d4",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 2,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "armor_detail": "natural armor",
+      "blindsight_range": 60,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [
+        "necrotic"
+      ],
+      "damage_vulnerabilities": [
+        "fire"
+      ],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "10d4",
+      "hit_points": 25,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": null,
+      "passive_perception": 11,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": 2,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "tiny",
+      "skill_bonus_acrobatics": null,
+      "swim": 30,
+      "walk": 10
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob3",
+        "content_hash": "7b0c52ae1713034111b3f11b3bbf7dc9405293a68e6cb0c5ca0ff56459258bbe",
+        "edition": "2014",
+        "id": "o5e:tob3:creature:tob3-blood-barnacle",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob3"
+      },
+      {
+        "book": "tob3",
+        "content_hash": "3c36b9dbae3e20ffe1f8010036449ed7865a1dcc121e5b7502eb4fd019895651",
+        "edition": "2014",
+        "id": "o5e:tob3:monster:blood-barnacle",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob3"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 2,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "armor_detail": "natural armor",
+      "blindsight_range": 60,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "damage_resistances": [
+        "necrotic"
+      ],
+      "damage_resistances_display": "necrotic",
+      "damage_vulnerabilities": [
+        "fire"
+      ],
+      "damage_vulnerabilities_display": "fire",
+      "document": "tob3",
+      "hit_dice": "10d4",
+      "hit_points": 25,
+      "hover": false,
+      "name": "Blood Barnacle",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "passive_perception": 11,
+      "saving_throw_constitution": 2,
+      "size": "tiny",
+      "skill_bonus_perception": 1,
+      "swim": 30,
+      "type": "beast",
+      "walk": 10,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob3",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-3/",
+      "publication_date": "2022-01-10T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 3"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "REACTION",
+          "desc": "When a creature damages an attached blood barnacle with anything other than fire creature hosting barnacle must make DC 12 Wis save or use its reaction to protect the barnacle. Barnacle takes half the damage dealt to it and host takes the other half.",
+          "desc_ru": "Действие «Хост Дефенсе»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_blood-barnacle_host-defense",
+          "name": "Host Defense",
+          "name_ru": "Хост Дефенсе",
+          "order_in_statblock": 0,
+          "parent": "tob3_blood-barnacle",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "Characterized by inescapable cold and shiveringthat slowly pervades victim’s body this is a disease that infects creatures attacked by blood barnacles. Until disease is cured infected creature can’t regain hp except magically and its hp max decreases by 3 (1d6) for every 24 hrs that elapse. Reduction lasts until disease is cured. Creature dies if disease reduces its hp max to 0. A Humanoid or Beast slain by this disease rises 24 hrs later as a zombie. Zombie isn’t under barnacle’s control but it views barnacle as an ally.",
+          "desc_ru": "Особенность «Барнакле Шиверс». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_blood-barnacle_barnacle-shivers",
+          "name": "Barnacle Shivers",
+          "name_ru": "Барнакле Шиверс",
+          "parent": "tob3_blood-barnacle",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Can pinpoint by scent location of creatures that aren’t Constructs or Undead and that don’t have all of their hp within 60' of it and can sense general direction of such creatures within 1 mile of it.",
+          "desc_ru": "Особенность «Крови Сенсе». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_blood-barnacle_blood-sense",
+          "name": "Blood Sense",
+          "name_ru": "Крови Сенсе",
+          "parent": "tob3_blood-barnacle",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "While motionless indistinguishable from normal barnacle.",
+          "desc_ru": "Особенность «Фалсе Аппеаранке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_blood-barnacle_false-appearance",
+          "name": "False Appearance",
+          "name_ru": "Фалсе Аппеаранке",
+          "parent": "tob3_blood-barnacle",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Blood Barnacle",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob3",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Blood Barnacle",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крошечный зверь, мировоззрение: без мировоззрения. Класс доспеха: 13 (природный доспех). Хиты: 25 (10к4). Скорость: ходьба 10 фт., плавание 30 фт.. Характеристики: СИЛ 2, ЛОВ 14, ТЕЛ 10, ИНТ 1, МУД 12, ХАР 8. Уязвимость к урону: огнём. Сопротивление урону: некротической энергией. Чувства: слепое зрение 60 фт., пассивное Восприятие 11. Показатель опасности: 0.25. Структурированные механики записи: особенностей: 3, действий: 1.",
+      "glossary_version": "derived-v1",
+      "name": "Крови Барнакле",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

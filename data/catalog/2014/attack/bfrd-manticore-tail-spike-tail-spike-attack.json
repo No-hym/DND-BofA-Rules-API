@@ -1,0 +1,140 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode)",
+  "book_id": "bfrd",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "bfrd_manticore_tail-spike_tail-spike-attack",
+  "id": "o5e:bfrd:creatureactionattack:bfrd-manticore-tail-spike-tail-spike-attack",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:creatureactionattack:bfrd-manticore-tail-spike-tail-spike-attack",
+      "o5e:srd-2014:creatureactionattack:srd-manticore-tail-spike-tail-spike-attack",
+      "o5e:tob2:creatureactionattack:tob2-tricenatorus-tail-spike-tail-spike-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "89f4d25084a131a38e3f862bb6158b284821d07208ae0e90ae28c073f76b4a16",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "WEAPON",
+      "damage_bonus": 3,
+      "damage_die_count": 1,
+      "damage_die_type": "D8",
+      "damage_type": "piercing",
+      "extra_damage_bonus": 0,
+      "extra_damage_die_count": 2,
+      "extra_damage_die_type": "D4",
+      "extra_damage_type": "poison",
+      "long_range": 200,
+      "range": 100,
+      "reach": null,
+      "to_hit_mod": 5
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "89f4d25084a131a38e3f862bb6158b284821d07208ae0e90ae28c073f76b4a16",
+        "edition": "2014",
+        "id": "o5e:bfrd:creatureactionattack:bfrd-manticore-tail-spike-tail-spike-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "57aa4006ae46cfe5cd4f98f9af47cea82cd6884a28e74ba595e72137a4c17728",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-manticore-tail-spike-tail-spike-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "a54c2f70b1cf86b35f8f48373ec22512c96ec6f13ae3ab1b505477408d0212e7",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-tricenatorus-tail-spike-tail-spike-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "bfrd_manticore_tail-spike",
+        "type": "parent",
+        "value": "bfrd_manticore_tail-spike"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "WEAPON",
+      "damage_bonus": 3,
+      "damage_die_count": 1,
+      "damage_die_type": "D8",
+      "damage_type": "piercing",
+      "extra_damage_bonus": 0,
+      "extra_damage_die_count": 2,
+      "extra_damage_die_type": "D4",
+      "extra_damage_type": "poison",
+      "long_range": 200,
+      "name": "Tail Spike attack",
+      "parent": "bfrd_manticore_tail-spike",
+      "range": 100,
+      "target_creature_only": false,
+      "to_hit_mod": 5
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Tail Spike attack",
+      "license": "CC-BY-4.0",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Tail Spike attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака оружием: +5 к попаданию. Зона: дистанция 100/200 фт., одна цель. Попадание: 1к8 + 3 колющего урона. Дополнительный урон: 2к4 ядом.",
+      "glossary_version": "derived-v1",
+      "name": "Хвост Спике",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

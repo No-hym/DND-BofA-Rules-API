@@ -1,0 +1,140 @@
+{
+  "attribution": "Title: 5e Core Rules; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wotc-srd; Source: http://dnd.wizards.com/articles/features/systems-reference-document-srd; License: OGL-1.0a (https://open5e.com/legal); System Reference Document 5.1 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "wotc-srd",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "bandit-captain",
+  "id": "o5e:wotc-srd:monster:bandit-captain-variant-3",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:wotc-srd:monster:bandit-captain"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "244a4dc384884414ab7e15d524922e4ce767dc7eb798ece7e2e37bf8f21bf332",
+    "formulas": [
+      {
+        "expression": "10d8+20",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "any non-lawful alignment",
+      "armor_class": 15,
+      "challenge_rating": "2",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "10d8+20",
+      "hit_points": 65,
+      "languages": "any two languages",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "wotc-srd",
+        "content_hash": "244a4dc384884414ab7e15d524922e4ce767dc7eb798ece7e2e37bf8f21bf332",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:monster:bandit-captain",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.\"}, {\"name\": \"Scimitar\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.\", \"attack_bonus\": 5, \"damage_dice\": \"1d6\", \"damage_bonus\": 3}, {\"name\": \"Dagger\", \"desc\": \"Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.\", \"attack_bonus\": 5, \"damage_dice\": \"1d4\", \"damage_bonus\": 3}]",
+      "alignment": "any non-lawful alignment",
+      "armor_class": 15,
+      "armor_desc": "studded leather",
+      "bonus_actions_json": "null",
+      "challenge_rating": "2",
+      "charisma": 14,
+      "constitution": 14,
+      "cr": 2.0,
+      "desc": "It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The **bandit captain** has these qualities in spades. \nIn addition to managing a crew of selfish malcontents, the **pirate captain** is a variation of the bandit captain, with a ship to protect and command. To keep the crew in line, the captain must mete out rewards and punishment on a regular basis. \nMore than treasure, a bandit captain or pirate captain craves infamy. A prisoner who appeals to the captain's vanity or ego is more likely to be treated fairly than a prisoner who does not or claims not to know anything of the captain's colorful reputation.",
+      "dexterity": 16,
+      "dexterity_save": 5,
+      "document": 32,
+      "environments_json": "[\"Hill\", \"Desert\", \"Mountains\", \"Coastal\", \"Tundra\", \"Grassland\", \"Ruin\", \"Laboratory\", \"Swamp\", \"Settlement\", \"Urban\", \"Sewer\", \"Forest\", \"Arctic\", \"Jungle\", \"Hills\", \"Caverns\"]",
+      "group": "NPCs",
+      "hit_dice": "10d8+20",
+      "hit_points": 65,
+      "intelligence": 14,
+      "languages": "any two languages",
+      "legendary_actions_json": "null",
+      "name": "Bandit Captain",
+      "page_no": 397,
+      "reactions_json": "[{\"name\": \"Parry\", \"desc\": \"The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.\"}]",
+      "route": "monsters/",
+      "senses": "passive Perception 10",
+      "size": "Medium",
+      "skills_json": "{\"athletics\": 4, \"deception\": 4}",
+      "special_abilities_json": "null",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 15,
+      "strength_save": 4,
+      "subtype": "any race",
+      "type": "Humanoid",
+      "wisdom": 11,
+      "wisdom_save": 2
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "wotc-srd",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+      "publication_date": "",
+      "publisher": "wotc-srd",
+      "title": "5e Core Rules"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Bandit Captain",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:bfrd:creature:bfrd-bandit-captain"
+  },
+  "publisher_id": "wotc-srd",
+  "source": "open5e:v1:wotc-srd",
+  "translations": {
+    "en": {
+      "description": "It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The **bandit captain** has these qualities in spades. \nIn addition to managing a crew of selfish malcontents, the **pirate captain** is a variation of the bandit captain, with a ship to protect and command. To keep the crew in line, the captain must mete out rewards and punishment on a regular basis. \nMore than treasure, a bandit captain or pirate captain craves infamy. A prisoner who appeals to the captain's vanity or ego is more likely to be treated fairly than a prisoner who does not or claims not to know anything of the captain's colorful reputation.",
+      "name": "Bandit Captain",
+      "source_version": "5.1",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Средний Гуманоид (любая раса), Любое не-принципиальное мировоззрение*\n\n- **Класс Доспеха:** 15 (клёпаный кожаный доспех)\n- **Хиты:** 65 (10к8 + 20)\n- **Скорость:** 30 фт.\n\n| СИЛ      | ЛОВ      | ТЕЛ      | ИНТ      | МДР      | ХАР      |\n|:---:|:---:|:---:|:---:|:---:|:---:|\n| 15 (+2)  | 16 (+3)  | 14 (+2)  | 14 (+2)  | 11 (+0)  | 14 (+2)  |\n\n- **Спасброски:** Сил +4, Лов +5, Мдр +2\n- **Навыки:** Атлетика +4, Обман +4\n- **Чувства:** Пассивная Внимательность 10\n- **Языки:** любые два языка\n- **Показатель опасности:** 2 (450 ОО)",
+      "glossary_version": "v1",
+      "name": "Капитан бандитов",
+      "source_version": "5.1",
+      "status": "source"
+    }
+  },
+  "version": "5.1"
+}

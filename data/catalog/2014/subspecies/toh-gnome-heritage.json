@@ -1,0 +1,129 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subspecies",
+  "edition": "2014",
+  "external_id": "toh_gnome-heritage",
+  "id": "o5e:toh:species:toh-gnome-heritage",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:species:toh-gnome-heritage",
+      "o5e:toh:subrace:gnome-heritage"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "fc09ac5171f7019512ad911f4d3c5055634080244adcf43a4b7217638a5f6429",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "subspecies_of": "toh_darakhul"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "fc09ac5171f7019512ad911f4d3c5055634080244adcf43a4b7217638a5f6429",
+        "edition": "2014",
+        "id": "o5e:toh:species:toh-gnome-heritage",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "fe027ec376c53239830e5f27a85e90e5c6c71db7f1a4b5216bede5d28138154a",
+        "edition": "2014",
+        "id": "o5e:toh:subrace:gnome-heritage",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "toh_darakhul",
+        "type": "subspecies_of",
+        "value": "toh_darakhul"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Your darakhul character was a gnome before transforming into a darakhul. The spark of magic that drove you before your transformation still burns inside of you, but now it is a constant ache instead of a source of creation and inspiration. This ache is twisted by your hunger, making you hunger for magic itself.",
+      "document": "toh",
+      "name": "Gnome Heritage",
+      "subspecies_of": "toh_darakhul"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "traits": [
+        {
+          "desc": "Your Intelligence score increases by 2.",
+          "desc_ru": "Каждая раса увеличивает одну или несколько характеристик персонажа.",
+          "external_id": "toh_gnome-heritage_ability-score-increase",
+          "name": "Ability Score Increase",
+          "name_ru": "Увеличение характеристик",
+          "parent": "toh_gnome-heritage",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "When a creature you can see within 30 feet of you casts a spell, you can use your reaction to consume the spell's residual magic. Your consumption doesn't counter or otherwise affect the spell or the spellcaster. When you consume this residual magic, you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest.",
+          "desc_ru": "Особенность «Магикал Хунгер». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_gnome-heritage_magical-hunger",
+          "name": "Magical Hunger",
+          "name_ru": "Магикал Хунгер",
+          "parent": "toh_gnome-heritage",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Gnome Heritage",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "Your darakhul character was a gnome before transforming into a darakhul. The spark of magic that drove you before your transformation still burns inside of you, but now it is a constant ache instead of a source of creation and inspiration. This ache is twisted by your hunger, making you hunger for magic itself.",
+      "name": "Gnome Heritage",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Ваш персонаж-дарахул был гномом до превращения в дарахула. Искра магии, которая двигала вами до вашего превращения, всё ещё горит внутри вас, но теперь это постоянная боль вместо источника творчества и вдохновения. Эта боль искажена вашим голодом, заставляя вас жаждать самой магии.",
+      "glossary_version": "v1",
+      "name": "Наследие гнома",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

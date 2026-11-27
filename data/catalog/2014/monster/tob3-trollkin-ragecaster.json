@@ -1,0 +1,231 @@
+{
+  "attribution": "Title: Tome of Beasts 3; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-3/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob3",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob3_trollkin-ragecaster",
+  "id": "o5e:tob3:creature:tob3-trollkin-ragecaster",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob3:creature:tob3-trollkin-ragecaster",
+      "o5e:tob3:monster:trollkin-ragecaster"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c154cbc42e6aca170450d2a8f89826a6fd1089b55f81cfef8a0852a55cdfc499",
+    "formulas": [
+      {
+        "expression": "15d8+45",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 18,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 17,
+      "ability_score_intelligence": 9,
+      "ability_score_strength": 14,
+      "ability_score_wisdom": 14,
+      "alignment": "chaotic neutral",
+      "armor_class": 15,
+      "armor_detail": "leather armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "5.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "15d8+45",
+      "hit_points": 112,
+      "initiative_bonus": null,
+      "languages": [
+        "common"
+      ],
+      "languages_desc": "Common, Trollkin",
+      "normal_sight_range": 10560,
+      "passive_perception": 15,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": 6,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob3",
+        "content_hash": "c154cbc42e6aca170450d2a8f89826a6fd1089b55f81cfef8a0852a55cdfc499",
+        "edition": "2014",
+        "id": "o5e:tob3:creature:tob3-trollkin-ragecaster",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob3"
+      },
+      {
+        "book": "tob3",
+        "content_hash": "4162a41188b8dce508721de1b8154aeeea6b61f89e13c31f0220e55b5d4a1ad7",
+        "edition": "2014",
+        "id": "o5e:tob3:monster:trollkin-ragecaster",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob3"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 18,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 17,
+      "ability_score_intelligence": 9,
+      "ability_score_strength": 14,
+      "ability_score_wisdom": 14,
+      "alignment": "chaotic neutral",
+      "armor_class": 15,
+      "armor_detail": "leather armor",
+      "category": "Monsters",
+      "challenge_rating": "5.000",
+      "darkvision_range": 60,
+      "document": "tob3",
+      "hit_dice": "15d8+45",
+      "hit_points": 112,
+      "hover": false,
+      "languages": [
+        "common"
+      ],
+      "languages_desc": "Common, Trollkin",
+      "name": "Trollkin Ragecaster",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 15,
+      "saving_throw_constitution": 6,
+      "size": "medium",
+      "skill_bonus_perception": 2,
+      "type": "humanoid",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob3",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-3/",
+      "publication_date": "2022-01-10T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 3"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "Enters special rage that lets it channel elemental power for 1 min. While ragecasting: disadvantage on Wis saves and gains fly speed of 60'. It can end ragecasting as a bonus action. When ragecasting ends it descends 60'/round until it lands on a solid surface and can continue concentrating on spell it cast while ragecasting.",
+          "desc_ru": "Действие «Рагекастинг»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_trollkin-ragecaster_ragecasting",
+          "name": "Ragecasting",
+          "name_ru": "Рагекастинг",
+          "order_in_statblock": 0,
+          "parent": "tob3_trollkin-ragecaster",
+          "ru_source": "derived",
+          "uses_param": 3,
+          "uses_type": "PER_DAY"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "Its claw deals one extra die of its damage when trollkin isn’t ragecasting (included in the attack).",
+          "desc_ru": "Особенность «Брутал Когти». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_trollkin-ragecaster_brutal-claws",
+          "name": "Brutal Claws",
+          "name_ru": "Брутал Когти",
+          "parent": "tob3_trollkin-ragecaster",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Advantage: spell/magic effect saves.",
+          "desc_ru": "Особенность «Магик Ресистанке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_trollkin-ragecaster_magic-resistance",
+          "name": "Magic Resistance",
+          "name_ru": "Магик Ресистанке",
+          "parent": "tob3_trollkin-ragecaster",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Regains 10 hp at the start of its turn. If it takes acid or fire this trait doesn’t function at start of its next turn. Dies only if it starts turn with 0 hp and doesn’t regenerate.",
+          "desc_ru": "Особенность «Регенератион». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_trollkin-ragecaster_regeneration",
+          "name": "Regeneration",
+          "name_ru": "Регенератион",
+          "parent": "tob3_trollkin-ragecaster",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Its skin is thick and tough granting it a +1 bonus to Armor Class (already factored into its AC).",
+          "desc_ru": "Особенность «Тик Хиде». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_trollkin-ragecaster_thick-hide",
+          "name": "Thick Hide",
+          "name_ru": "Тик Хиде",
+          "parent": "tob3_trollkin-ragecaster",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Trollkin Ragecaster",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob3",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Trollkin Ragecaster",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Средний гуманоид, мировоззрение: хаотично-нейтральное. Класс доспеха: 15. Хиты: 112 (15к8+45). Скорость: ходьба 30 фт.. Характеристики: СИЛ 14, ЛОВ 17, ТЕЛ 16, ИНТ 9, МУД 14, ХАР 18. Чувства: тёмное зрение 60 фт., пассивное Восприятие 15. Показатель опасности: 5. Структурированные механики записи: особенностей: 4, действий: 1.",
+      "glossary_version": "derived-v1",
+      "name": "Троллкин Рагекастер",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

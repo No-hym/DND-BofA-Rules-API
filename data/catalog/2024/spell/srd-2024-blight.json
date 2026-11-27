@@ -1,0 +1,186 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_blight",
+  "id": "o5e:srd-2024:spell:srd-2024-blight",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "da5c6dc949c44e8fa9ec6392f7c70a43f7432e0498bc4c733e9ec58099d8ab81",
+    "formulas": [
+      {
+        "expression": "8d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_druid",
+        "srd-2024_sorcerer",
+        "srd-2024_warlock",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "8d8",
+      "damage_types": [
+        "necrotic"
+      ],
+      "duration": "instantaneous",
+      "level": 4,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_druid",
+        "type": "classes",
+        "value": [
+          "srd-2024_druid",
+          "srd-2024_sorcerer",
+          "srd-2024_warlock",
+          "srd-2024_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_druid",
+        "srd-2024_sorcerer",
+        "srd-2024_warlock",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "8d8",
+      "damage_types": [
+        "necrotic"
+      ],
+      "desc": "A creature that you can see within range makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. A Plant creature automatically fails the save. Alternatively, target a nonmagical plant that isn't a creature, such as a tree or shrub. It doesn't make a save; it simply withers and dies.",
+      "document": "srd-2024",
+      "duration": "instantaneous",
+      "higher_level": "The damage increases by 1d8 for each spell slot level above 4.",
+      "level": 4,
+      "material": false,
+      "material_consumed": false,
+      "name": "Blight",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "damage_roll": "9d8",
+          "external_id": "10053",
+          "parent": "srd-2024_blight",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "10d8",
+          "external_id": "10054",
+          "parent": "srd-2024_blight",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "11d8",
+          "external_id": "10055",
+          "parent": "srd-2024_blight",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "12d8",
+          "external_id": "10056",
+          "parent": "srd-2024_blight",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "13d8",
+          "external_id": "10057",
+          "parent": "srd-2024_blight",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Blight",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "A creature that you can see within range makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. A Plant creature automatically fails the save. Alternatively, target a nonmagical plant that isn't a creature, such as a tree or shrub. It doesn't make a save; it simply withers and dies.",
+      "name": "Blight",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Некромантия 4-го уровня (Друид, Чародей, Колдун, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 30 футов\n\n**Компоненты:** В, С\n\n**Длительность:** Мгновенная\n\nНекротическая энергия захлёстывает выбранное вами существо, которое вы видите в пределах дистанции, высасывая из него влагу и жизненную силу. Цель должна совершить спасбросок Телосложения. Цель получает 8к8 некротического урона при провале или половину этого урона при успехе. Это заклинание не действует на нежить и конструктов.\n\nЕсли вы нацеливаетесь на существо-растение или магическое растение, оно совершает спасбросок с помехой, и заклинание наносит ему максимальный урон.\n\nЕсли вы нацеливаетесь на немагическое растение, которое не является существом, такое как дерево или куст, оно не совершает спасбросок; оно просто увядает и погибает.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 5-го уровня или выше, урон увеличивается на 1к8 за каждый уровень ячейки выше 4-го.",
+      "glossary_version": "v1",
+      "name": "Гниль",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

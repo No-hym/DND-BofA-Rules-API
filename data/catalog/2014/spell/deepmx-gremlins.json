@@ -1,0 +1,208 @@
+{
+  "attribution": "Title: Deep Magic Extended; Author: Not sure.; Publisher: kobold-press; Source: https://koboldpress.com/deepmagic; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepmx",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepmx_gremlins",
+  "id": "o5e:deepmx:spell:deepmx-gremlins",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepmx:spell:deepmx-gremlins",
+      "o5e:dmag-e:spell:gremlins"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c46c71da55cdfb644d24a48932945e626b7f61ba04f66719f1805c878f99ef7f",
+    "formulas": [
+      {
+        "expression": "3d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "3d8",
+      "damage_types": [
+        "force"
+      ],
+      "duration": "1 minute",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepmx",
+        "content_hash": "c46c71da55cdfb644d24a48932945e626b7f61ba04f66719f1805c878f99ef7f",
+        "edition": "2014",
+        "id": "o5e:deepmx:spell:deepmx-gremlins",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepmx"
+      },
+      {
+        "book": "dmag-e",
+        "content_hash": "66af613e64f1851c912ed027840f1919025aa7dad10ebe1d7fa61f5fcf75565e",
+        "edition": "2014",
+        "id": "o5e:dmag-e:spell:gremlins",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag-e"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_warlock",
+        "type": "classes",
+        "value": [
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "3d8",
+      "damage_types": [
+        "force"
+      ],
+      "desc": "Deep Magic: clockwork You target a construct and summon a plague of invisible spirits to harass it. The target resists the spell and negates its effect with a successful Wisdom saving throw. While the spell remains in effect, the construct has disadvantage on attack rolls, ability checks, and saving throws, and it takes 3d8 force damage at the start of each of its turns as it is magically disassembled by the spirits.",
+      "document": "deepmx",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 5th or higher, the damage increases by 1d8 for each slot above 4th.",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "name": "Gremlins",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Not sure.",
+      "key": "deepmx",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/deepmagic",
+      "publication_date": "2024-02-14T19:02:02",
+      "publisher": "kobold-press",
+      "title": "Deep Magic Extended"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4807",
+          "parent": "deepmx_gremlins",
+          "type": "default"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "4809",
+          "parent": "deepmx_gremlins",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "5d8",
+          "external_id": "4810",
+          "parent": "deepmx_gremlins",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "6d8",
+          "external_id": "4811",
+          "parent": "deepmx_gremlins",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "7d8",
+          "external_id": "4812",
+          "parent": "deepmx_gremlins",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "8d8",
+          "external_id": "4813",
+          "parent": "deepmx_gremlins",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Gremlins",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepmx",
+  "translations": {
+    "en": {
+      "description": "Deep Magic: clockwork You target a construct and summon a plague of invisible spirits to harass it. The target resists the spell and negates its effect with a successful Wisdom saving throw. While the spell remains in effect, the construct has disadvantage on attack rolls, ability checks, and saving throws, and it takes 3d8 force damage at the start of each of its turns as it is magically disassembled by the spirits.",
+      "name": "Gremlins",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Глубокая магия: заводная. Вы целитесь в конструкта и призываете чуму невидимых духов, чтобы досаждать ему. Цель сопротивляется заклинанию и отрицает его эффект успешным спасброском Мудрости. Пока заклинание остаётся в силе, конструкт имеет помеху на броски атаки, проверки характеристик и спасброски, и он получает 3к8 силового урона в начале каждого своего хода, когда его магически разбирают духи.",
+      "glossary_version": "v1",
+      "name": "Гремлины",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

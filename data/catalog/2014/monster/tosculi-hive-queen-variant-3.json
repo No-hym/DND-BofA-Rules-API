@@ -1,0 +1,142 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tosculi-hive-queen",
+  "id": "o5e:tob:monster:tosculi-hive-queen-variant-3",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:tosculi-hive-queen"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e8a4bc35fb44ef0f56d0ee6e479900a0482fe92bde857608a0ca582ee0f90dd2",
+    "formulas": [
+      {
+        "expression": "15d10+75",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "lawful evil",
+      "armor_class": 17,
+      "challenge_rating": "12",
+      "condition_immunities": "charmed, poisoned",
+      "damage_immunities": "poison",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "15d10+75",
+      "hit_points": 157,
+      "languages": "Common, Deep Speech, Gnoll, Infernal, Tosculi",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "e8a4bc35fb44ef0f56d0ee6e479900a0482fe92bde857608a0ca582ee0f90dd2",
+        "edition": "2014",
+        "id": "o5e:tob:monster:tosculi-hive-queen",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The hive-queen makes four scimitar attacks.\"}, {\"name\": \"Scimitar\", \"desc\": \"Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage.\", \"attack_bonus\": 12, \"damage_dice\": \"2d6\"}, {\"name\": \"Stinger\", \"desc\": \"Melee Weapon Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (1d6 + 7) piercing damage, and the target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. A paralyzed target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.\", \"attack_bonus\": 12, \"damage_dice\": \"1d6\"}, {\"name\": \"Glitter Dust\", \"desc\": \"The hive-queen produces a cloud of glittering golden particles in a 30-foot radius. Each creature that is not a tosculi in the area must succeed on a DC 18 Constitution saving throw or be blinded for 1 minute. A blinded creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.\"}, {\"name\": \"Implant Egg\", \"desc\": \"The hive-queen implants an egg into an incapacitated creature within 5 feet of her that is neither undead nor a construct. Until the egg hatches or is removed, the creature is poisoned, paralyzed, and does not need to eat or drink. The egg hatches in 1d6 weeks, and the larval tosculi kills the host creature. The implanted egg can be removed with a successful DC 20 Wisdom (Medicine) check or by a spell or magical effect that cures disease.\"}]",
+      "alignment": "lawful evil",
+      "armor_class": 17,
+      "bonus_actions_json": "null",
+      "challenge_rating": "12",
+      "charisma": 18,
+      "charisma_save": 9,
+      "condition_immunities": "charmed, poisoned",
+      "constitution": 20,
+      "constitution_save": 10,
+      "cr": 12.0,
+      "damage_immunities": "poison",
+      "desc": "The tosculi are a race of wasp-folk that share the Golden Song of the hive, which unites them under the command and iron rule of their queen. Each hive has its own song, and most tosculi hives are predatory, dangerous places—quick to turn to banditry, cattle theft, and raiding against small villages.  \nThose few tosculi who do not hear their queen’s Golden Song are the Hiveless, driven out of the embrace of the hive to attempt survive on their own.  \n_This humanoid wasp’s gossamer wings beat out a soft, droning buzz. Flashing blades sing in each of her four clawed hands, and the air around her crackles with arcane energy._  \n**Center of the Hive.** The hive-queen is the nerve center of a tosculi hive-city, simultaneously one of a hive’s greatest strengths and weaknesses. The hive-queen serves as a unifying force. She binds her swarm with an ironclad sense of purpose through the hive mind, the psychic web that links all tosculi within a hive.  \n**Deadly Inheritance.** A hive-queen typically has several immature daughters as her potential heirs at any given time. When she nears the end of her life, the hive-queen selects the most promising of her heirs and feeds her a special concoction. This speeds the heir’s maturation and makes her ready to become a full-fledged hive-queen. The daughter’s first action upon assuming power and control over the hive-city is to devour her mother and all her sisters.  \n**Hive Chaos.** If a hive-queen dies with no heir to anchor the hive mind, the city plunges into chaos. Tosculi bereft of the hivemind go berserk. A few fortunate ones might escape and become lone renegades, but their existence without the comforting presence of the hive is miserable and short. Unless one of the hive-queen’s daughters is mature enough and ruthless enough to step in and assert control, the hive is doomed.  \n\n## A Tosculi Hive-Queen’s Lair\n\n  \nHive-queens make their lairs in the most protected part of the hive. Huge corridors lead to this point, so all tosculi can reach their queen as quickly as possible. This is also the place where tosculi eggs hatch, making it a critical location for the survival of the hive. A tosculi hive-queen encountered in her lair has a challenge rating of 13 (10,000 XP), but nothing else in her stat block changes.  \n\n### Lair Actions\n\n  \nOn initiative count 20 (losing initiative ties), the hive-queen takes a lair action to cause one of the following effects:\n* The tosculi hive-queen releases a cloud of pheromones that drives the tosculi to fight harder. All tosculi within 60 feet of the hive-queen (including the hive-queen herself) regain 7 (2d6) hit points.\n* A swarm of tiny tosculi offspring crawls from its nest and attacks a creature within 120 feet of the hive-queen, automatically doing 10 (4d4) piercing damage. Then the swarm dies.\n* The ceiling above one creature that the hive-queen can see within 120 feet of her drips sticky resin. The creature must make a successful DC 15 Dexterity saving throw or be encased in rapidly-hardening resin. A creature encased this way is restrained. It can free itself, or another creature within 5 feet can free it, by using an action to make a successful DC 15 Strength check. If the creature is still encased the next time the initiative count reaches 20, the resin hardens, trapping it. The trapped creature can’t move or speak; attack rolls against it have disadvantage because it is encased in resin armor; it automatically fails Strength and Dexterity saving throws; and it has resistance to all damage. The trapped creature is released when the resin is destroyed (AC 10, 20 HP, immune to cold, fire, necrotic, poison, psychic, radiant, and piercing damage).\n  \nThe tosculi hive-queen can’t repeat an effect until they have all been used, and she can’t use the same effect two rounds in a row.  \n\n## Regional Effects\n\n  \nThe region containing a tosculi hive-queen’s lair is warped by the creature’s presence, which creates one or more of the following effects:  \n\\# Intelligent creatures within 6 miles suffer frequent headaches. It’s as if they had a constant buzzing inside their heads.  \n\\# Beasts within 6 miles are more irritable and violent than usual and have the Blood Frenzy trait:  \n**Blood Frenzy.** The beast has advantage on melee attack rolls against a creature that doesn’t have all its hit points. If the tosculi hive-queen dies, the buzzing disappears immediately, and the beasts go back to normal within 1d10 days.",
+      "dexterity": 24,
+      "dexterity_save": 12,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "15d10+75",
+      "hit_points": 157,
+      "intelligence": 16,
+      "languages": "Common, Deep Speech, Gnoll, Infernal, Tosculi",
+      "legendary_actions_json": "[{\"name\": \"Flight\", \"desc\": \"The hive-queen flies up to half its flying speed.\"}, {\"name\": \"Stinger Attack\", \"desc\": \"The hive-queen makes one stinger attack.\"}, {\"name\": \"Glitter Dust (Costs 2 Actions)\", \"desc\": \"The hive-queen uses Glitter Dust.\"}]",
+      "legendary_desc": "The hive-queen can take 3 legendary actions, choosing from the options below. Only one option can be used at a time and only at the end of another creature's turn. The hive-queen regains spent legendary actions at the start of its turn.",
+      "name": "Tosculi Hive-Queen",
+      "page_no": 385,
+      "perception": 8,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 18",
+      "size": "Large",
+      "skills_json": "{\"perception\": 8}",
+      "special_abilities_json": "[{\"name\": \"Legendary Resistance (3/Day)\", \"desc\": \"If the hive-queen fails a saving throw, it can choose to succeed instead.\"}, {\"name\": \"Hive Mind\", \"desc\": \"The hive-queen is the psychic nexus for every tosculi in her hive. She is aware of the direction and distance to all members of the hive, can telepathically communicate with them when they are within 20 miles, and can sense what they sense when they are within 1 mile of her. Tosculi from her hive that travel more than 20 miles away instinctively know the direction and distance to the hive and try to return. Hive-queens sometimes dispatch rescue missions to recover separated members of the hive.\"}, {\"name\": \"Hive Queen Lair\", \"desc\": \"on initiative count 20 (losing initiative ties), the hive-queen takes a lair action to cause one of the following effects:\\n\\n- The tosculi hive-queen releases a cloud of pheromones that drives the tosculi to fight harder. All tosculi within 60 feet of the hive-queen (including the hive-queen herself) regain 7 (2d6) hit points.\\n\\n- A swarm of tiny tosculi offspring crawls from its nest and attacks a creature within 120 feet of the hive-queen, automatically doing 10 (4d4) piercing damage. Then the swarm dies. \\n\\n- The ceiling above one creature that the hive-queen can see within 120 feet of her drips sticky resin. The creature must make a successful DC 15 Dexterity saving throw or be encased in rapidly-hardening resin. A creature encased this way is restrained. It can free itself, or another creature within 5 feet can free it, by using an action to make a successful DC 15 Strength check. If the creature is still encased the next time the initiative count reaches 20, the resin hardens, trapping it. The trapped creature can't move or speak; attack rolls against it have disadvantage because it is encased in resin armor; it automatically fails Strength and Dexterity saving throws; and it has resistance to all damage. The trapped creature is released when the resin is destroyed (AC 10, 20 HP, immune to cold, fire, necrotic, poison, psychic, radiant, and piercing damage). \\n\\nthe tosculi hive-queen can't repeat an effect until they have all been used, and she can't use the same effect two rounds in a row.\"}, {\"name\": \"Regional Effects\", \"desc\": \"the region containing a tosculi hive-queen's lair is warped by the creature's presence, which creates one or more of the following effects:\\n\\n- Intelligent creatures within 6 miles suffer frequent headaches. It's as if they had a constant buzzing inside their heads. \\n\\n- Beasts within 6 miles are more irritable and violent than usual and have the Blood Frenzy trait:The beast has advantage on melee attack rolls against a creature that doesn't have all its hit points. \\n\\nif the tosculi hive-queen dies, the buzzing disappears immediately, and the beasts go back to normal within 1d10 days.\"}]",
+      "speed_json": "{\"walk\": 40, \"fly\": 60}",
+      "spells_json": "null",
+      "strength": 17,
+      "type": "Monstrosity",
+      "wisdom": 16,
+      "wisdom_save": 8
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Tosculi Hive-Queen",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-tosculi-hive-queen"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "The tosculi are a race of wasp-folk that share the Golden Song of the hive, which unites them under the command and iron rule of their queen. Each hive has its own song, and most tosculi hives are predatory, dangerous places—quick to turn to banditry, cattle theft, and raiding against small villages.  \nThose few tosculi who do not hear their queen’s Golden Song are the Hiveless, driven out of the embrace of the hive to attempt survive on their own.  \n_This humanoid wasp’s gossamer wings beat out a soft, droning buzz. Flashing blades sing in each of her four clawed hands, and the air around her crackles with arcane energy._  \n**Center of the Hive.** The hive-queen is the nerve center of a tosculi hive-city, simultaneously one of a hive’s greatest strengths and weaknesses. The hive-queen serves as a unifying force. She binds her swarm with an ironclad sense of purpose through the hive mind, the psychic web that links all tosculi within a hive.  \n**Deadly Inheritance.** A hive-queen typically has several immature daughters as her potential heirs at any given time. When she nears the end of her life, the hive-queen selects the most promising of her heirs and feeds her a special concoction. This speeds the heir’s maturation and makes her ready to become a full-fledged hive-queen. The daughter’s first action upon assuming power and control over the hive-city is to devour her mother and all her sisters.  \n**Hive Chaos.** If a hive-queen dies with no heir to anchor the hive mind, the city plunges into chaos. Tosculi bereft of the hivemind go berserk. A few fortunate ones might escape and become lone renegades, but their existence without the comforting presence of the hive is miserable and short. Unless one of the hive-queen’s daughters is mature enough and ruthless enough to step in and assert control, the hive is doomed.  \n\n## A Tosculi Hive-Queen’s Lair\n\n  \nHive-queens make their lairs in the most protected part of the hive. Huge corridors lead to this point, so all tosculi can reach their queen as quickly as possible. This is also the place where tosculi eggs hatch, making it a critical location for the survival of the hive. A tosculi hive-queen encountered in her lair has a challenge rating of 13 (10,000 XP), but nothing else in her stat block changes.  \n\n### Lair Actions\n\n  \nOn initiative count 20 (losing initiative ties), the hive-queen takes a lair action to cause one of the following effects:\n* The tosculi hive-queen releases a cloud of pheromones that drives the tosculi to fight harder. All tosculi within 60 feet of the hive-queen (including the hive-queen herself) regain 7 (2d6) hit points.\n* A swarm of tiny tosculi offspring crawls from its nest and attacks a creature within 120 feet of the hive-queen, automatically doing 10 (4d4) piercing damage. Then the swarm dies.\n* The ceiling above one creature that the hive-queen can see within 120 feet of her drips sticky resin. The creature must make a successful DC 15 Dexterity saving throw or be encased in rapidly-hardening resin. A creature encased this way is restrained. It can free itself, or another creature within 5 feet can free it, by using an action to make a successful DC 15 Strength check. If the creature is still encased the next time the initiative count reaches 20, the resin hardens, trapping it. The trapped creature can’t move or speak; attack rolls against it have disadvantage because it is encased in resin armor; it automatically fails Strength and Dexterity saving throws; and it has resistance to all damage. The trapped creature is released when the resin is destroyed (AC 10, 20 HP, immune to cold, fire, necrotic, poison, psychic, radiant, and piercing damage).\n  \nThe tosculi hive-queen can’t repeat an effect until they have all been used, and she can’t use the same effect two rounds in a row.  \n\n## Regional Effects\n\n  \nThe region containing a tosculi hive-queen’s lair is warped by the creature’s presence, which creates one or more of the following effects:  \n\\# Intelligent creatures within 6 miles suffer frequent headaches. It’s as if they had a constant buzzing inside their heads.  \n\\# Beasts within 6 miles are more irritable and violent than usual and have the Blood Frenzy trait:  \n**Blood Frenzy.** The beast has advantage on melee attack rolls against a creature that doesn’t have all its hit points. If the tosculi hive-queen dies, the buzzing disappears immediately, and the beasts go back to normal within 1d10 days.",
+      "name": "Tosculi Hive-Queen",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Тоскули являются расой осиного народа, что разделяют Золотую песню улья, которая объединяет их под командованием и железным правлением их королевы. Каждый улей имеет свою собственную песню, и большинство ульев тоскули являются хищными, опасными местами — быстро превращаются в бандитизм, кражу скота и набеги на маленькие деревни. Те немногие тоскули, кто не слышит Золотую песню их королевы, являются Безульевыми, изгнанными из объятий улья, чтобы попытаться выжить самостоятельно.\n\nКрылья этой гуманоидной осы из тонкой паутинки выбивает мягкий гудящий жужжание. Сверкающие клинки поют в каждой из её четырёх когтистых рук, а воздух вокруг неё потрескивает магической энергией.\n\n**Центр улья.** Королева улья является нервным центром города-улья тоскули, одновременно одной из самых больших силы и слабости улья. королева улья служит объединяющей силой. Она связывает её рой железным смыслом цели через коллективный разум, психическую паутину, связывающую всех тоскули внутри улья.\n\n**Смертоносное наследство.** У королевы улья обычно есть несколько неразвитых дочерей, как её потенциальных наследников в любое время. Когда она приближается к концу своей жизни, королева улья выбирает наиболее перспективных из её наследников и даёт в пищу ей особенную смесь. Это ускоряет развитие наследника и делает её готовой стать полноценной королевой улья. Первое действие дочери при принятии власти и контроля над городом-ульем — поглотить её мать и всех её сестёр.\n\n**Хаос улья.** Если королева улья умирает без наследника, чтобы закрепить улей, город погружается в хаос. Тоскули, лишённые коллективного разума, сходят с ума. Немногие счастливчики могли бежать и стать одинокими ренегатами, но их существование без утешительного присутствия улья жалким и коротким. Если одна из дочерей королевы улья достаточно зрелая и достаточно безжалостная, чтобы вмешаться и утвердить контроль, улей обречён.\n\n## Логово королевы улья тоскули\n\nКоролевы улья делают их логова в самой защищённой частью улья. Огромные коридоры ведут к этой точке, так что все тоскули могут достичь своей королевы как можно быстрее. Это также место, где вылупляются яйца Тоскули, что делает его критичным местом для выживания улья. Королева улья Тоскули столкнулась в её логове имеет класс сложности 13 (10 000 опыта), но ничего другого в её блоке статистик не изменяется.\n\n### Действия логова\n\nПо инициативе 20 (проигрывая связи инициативы), королева улья берёт действие логова, чтобы вызвать один из следующих эффектов:\n* Королева улья Тоскули выпускает облако феромонов, что движет Тоскули бороться сложнее. Все Тоскули в пределах 60 футов от королевы улья (в том числе сама королева улья) восстанавливают 7 (2к6) очков хитов.\n* Рой крошечных Тоскули потомства выползает из своего гнезда и атакует существо в пределах 120 футов от королевы улья, автоматически делая 10 (4к4) колющего урона. Затем рой умирает.\n* Потолок над одного существа, что королева улья может увидеть в пределах 120 футов от неё, капли липкой смолы. Существо должно совершить успешный спасбросок Ловкости Сл 15 или быть заключёнными в быстро затвердевающей смоле. Существо, окутанное таким образом, обездвижено. Оно может освободить себя, или другое существо в пределах 5 футов может освободить его, используя действие, чтобы сделать успешную проверку Силы Сл 15. Если существо всё ещё окутанное в следующий раз инициатива достигает 20, смола затвердевает, захватив его. Захваченное существо не может двигаться или говорить; броски атаки против него совершаются с помехой, поскольку оно окутано смолистыми доспехами; оно автоматически терпит неудачу спасброски Силы и Ловкости; и она имеет сопротивление всем повреждениям. Пойманное в ловушку существо освобождается, когда смола разрушена (КД 10, 20 хитов, невосприимчив к холоду, огню, некротическому, яду, психическому, радиационному, и колющему урону). Королева улья Тоскули не может повторить эффект, пока они все не будут использованы, и она не может использовать тот же эффект два раунда подряд.\n\n## Региональные эффекты\n\nРегион, содержащий логово королевы улья Тоскули, искажён присутствием существа, что создает один или несколько из следующих эффектов:\n* Разумные существа в радиусе 6 миль страдают частыми головными болями. Это будто у них есть постоянное жужжание внутри в их голове.\n* Звери в радиусе 6 миль более раздражительны и жестоки, чем обычно, и имеют черту Кровожадности.\n**Кровожадность.** Зверь совершает с преимуществом броски атаки в ближнем бою против существа, которое не имеет все его очки жизни. Если королева улья Тоскули умирает, жужжание исчезает сразу, а звери возвращаются к нормальной жизни в течение 1к10 дней.",
+      "glossary_version": "v1",
+      "name": "Королева улья тоскули",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

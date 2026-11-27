@@ -1,0 +1,281 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_vicious-mockery",
+  "id": "o5e:a5e-ag:spell:a5e-ag-vicious-mockery-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-vicious-mockery",
+      "o5e:a5e:spell:vicious-mockery-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "515090da090673016f184458211a15d910c0c0c6e577ded288c66ffa0559d8ca",
+    "formulas": [
+      {
+        "expression": "1d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "psychic"
+      ],
+      "duration": "instantaneous",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "515090da090673016f184458211a15d910c0c0c6e577ded288c66ffa0559d8ca",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-vicious-mockery",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "3dafb349344ed42ee3b6a7d42f80c9cefee85b127a4597359cb832a1c95bafdf",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:vicious-mockery-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "psychic"
+      ],
+      "desc": "You verbally insult or mock the target so viciously its mind is seared. As long as the target hears you (understanding your words is not required) it takes 1d6 psychic damage and has disadvantage on the first attack roll it makes before the end of its next turn.",
+      "document": "a5e-ag",
+      "duration": "instantaneous",
+      "higher_level": "The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "name": "Vicious Mockery",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "enchantment",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2141",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "default"
+        },
+        {
+          "damage_roll": "1d6",
+          "external_id": "2142",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_1"
+        },
+        {
+          "damage_roll": "1d6",
+          "external_id": "2143",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_2"
+        },
+        {
+          "damage_roll": "1d6",
+          "external_id": "2144",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_3"
+        },
+        {
+          "damage_roll": "1d6",
+          "external_id": "2145",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_4"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "2146",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_5"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "2147",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_6"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "2148",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_7"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "2149",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_8"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "2150",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_9"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "2151",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_10"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "2152",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_11"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "2153",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_12"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "2154",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_13"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "2155",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_14"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "2156",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_15"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "2157",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_16"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "2158",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_17"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "2159",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_18"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "2160",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_19"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "2161",
+          "parent": "a5e-ag_vicious-mockery",
+          "type": "player_level_20"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Vicious Mockery",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:srd-2014:spell:srd-vicious-mockery"
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "You verbally insult or mock the target so viciously its mind is seared. As long as the target hears you (understanding your words is not required) it takes 1d6 psychic damage and has disadvantage on the first attack roll it makes before the end of its next turn.",
+      "name": "Vicious Mockery",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Заговор Очарования (Бард)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В\n\n**Длительность:** Мгновенная\n\nВы обрушиваете на существо, которое видите в пределах дистанции, поток оскорблений, пронизанных тонкими чарами. Если цель слышит вас (хотя ей и не обязательно вас понимать), она должна преуспеть в спасброске Мудрости, иначе получит 1к4 психического урона и совершит следующий бросок атаки до конца своего следующего хода с помехой.\n\n**_Усиление заговора._** Урон этого заклинания увеличивается на 1к4, когда вы достигаете 5-го уровня (2к4), 11-го уровня (3к4) и 17-го уровня (4к4).",
+      "glossary_version": "v1",
+      "name": "Язвительная насмешка",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

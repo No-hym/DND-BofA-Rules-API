@@ -1,0 +1,281 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_pummelstone",
+  "id": "o5e:deepm:spell:deepm-pummelstone",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-pummelstone",
+      "o5e:dmag:spell:pummelstone"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "0991fc2d8540e3bedf44aa48c72b85185da9493f813346819d04fc68eea6fc07",
+    "formulas": [
+      {
+        "expression": "1d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "duration": "instantaneous",
+      "level": 0,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a pebble",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "0991fc2d8540e3bedf44aa48c72b85185da9493f813346819d04fc68eea6fc07",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-pummelstone",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "715646c2867ca1f962f38795d6a81b35aece64e7bfed9ae4a9662a1175a312c6",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:pummelstone",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "desc": "You cause a fist-sized chunk of stone to appear and hurl itself against the spell’s target. Make a ranged spell attack. On a hit, the target takes 1d6 bludgeoning damage and must roll a d4 when it makes an attack roll or ability check during its next turn, subtracting the result of the d4 from the attack or check roll.",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "higher_level": "The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
+      "level": 0,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a pebble",
+      "name": "Pummelstone",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3915",
+          "parent": "deepm_pummelstone",
+          "type": "default"
+        },
+        {
+          "damage_roll": "1d6",
+          "external_id": "3916",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_1"
+        },
+        {
+          "damage_roll": "1d6",
+          "external_id": "3917",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_2"
+        },
+        {
+          "damage_roll": "1d6",
+          "external_id": "3918",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_3"
+        },
+        {
+          "damage_roll": "1d6",
+          "external_id": "3919",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_4"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "3920",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_5"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "3921",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_6"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "3922",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_7"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "3923",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_8"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "3924",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_9"
+        },
+        {
+          "damage_roll": "2d6",
+          "external_id": "3925",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_10"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "3926",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_11"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "3927",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_12"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "3928",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_13"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "3929",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_14"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "3930",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_15"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "3931",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_16"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "3932",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_17"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "3933",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_18"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "3934",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_19"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "3935",
+          "parent": "deepm_pummelstone",
+          "type": "player_level_20"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Pummelstone",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You cause a fist-sized chunk of stone to appear and hurl itself against the spell’s target. Make a ranged spell attack. On a hit, the target takes 1d6 bludgeoning damage and must roll a d4 when it makes an attack roll or ability check during its next turn, subtracting the result of the d4 from the attack or check roll.",
+      "name": "Pummelstone",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы заставляете кусок камня размером с кулак появиться и броситься против цели заклинания. Совершите дальнобойную атаку заклинанием. При попадании цель получает 1к6 дробящего урона и должна бросить к4, когда она совершает бросок атаки или проверку характеристики во время её следующего хода, вычитая результат к4 из броска атаки или проверки.",
+      "glossary_version": "v1",
+      "name": "Камень-молот",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "ashen-custodian",
+  "id": "o5e:tob2:monster:ashen-custodian-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:ashen-custodian"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "52e651667a919edfbae43ec9e7117e9cd20faf129a321610b829dee19e6997ea",
+    "formulas": [
+      {
+        "expression": "18d8+18",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral",
+      "armor_class": 15,
+      "challenge_rating": "6",
+      "condition_immunities": "",
+      "damage_immunities": "fire",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "",
+      "hit_dice": "18d8+18",
+      "hit_points": 99,
+      "languages": "Elvish, Sylvan",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "52e651667a919edfbae43ec9e7117e9cd20faf129a321610b829dee19e6997ea",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:ashen-custodian",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The ashen custodian makes two cleansing strike attacks.\"}, {\"name\": \"Cleansing Strike\", \"desc\": \"Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) bludgeoning damage plus 9 (2d8) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns.\", \"attack_bonus\": 8, \"damage_dice\": \"1d8+5\"}]",
+      "alignment": "neutral",
+      "armor_class": 15,
+      "bonus_actions_json": "null",
+      "challenge_rating": "6",
+      "charisma": 18,
+      "constitution": 12,
+      "constitution_save": 4,
+      "cr": 6.0,
+      "damage_immunities": "fire",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "desc": "A fire-haired woman with ashen skin gently touches a dying tree, igniting it and the surrounding undergrowth._  \n**Wardens of Wildfire.** This beautiful fey with fiery hair and ashen skin wears a cloak of soot as she treads the forests of the world. The ashen custodian cleanses forests with flames, allowing them to grow anew and maintaining the natural cycle of death and rebirth. Though ashen custodians primarily live solitary lives, Open Game License",
+      "dexterity": 21,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "18d8+18",
+      "hit_points": 99,
+      "intelligence": 14,
+      "languages": "Elvish, Sylvan",
+      "legendary_actions_json": "null",
+      "name": "Ashen Custodian",
+      "page_no": 29,
+      "perception": 5,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 15",
+      "size": "Medium",
+      "skills_json": "{\"nature\": 5, \"perception\": 5}",
+      "special_abilities_json": "[{\"name\": \"Fire Controller\", \"desc\": \"As a bonus action, the ashen custodian can create or extinguish a nonmagical fire in a 5-foot cube within 30 feet of her, or she can expand an existing fire within 30 feet of her by 5 feet in one direction. If she creates or expands a fire, the target location must have suitable fuel for the fire, such as paper or wood. If the ashen custodian targets a fire elemental with this trait, the fire elemental has advantage (expanded) or disadvantage (extinguished) on attack rolls until the end of its next turn.\"}, {\"name\": \"Forest Cleanser\", \"desc\": \"When the ashen custodian hits a plant or plant creature with her Cleansing Strike, the target takes an extra 2d8 fire damage.\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The ashen custodian has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Warming Presence\", \"desc\": \"When a hostile creature starts its turn within 10 feet of the ashen custodian, the creature must succeed on a DC 15 Constitution saving throw or take 3 (1d6) fire damage. When a friendly creature within 10 feet of the ashen custodian regains hp, the creature regains an extra 1d6 hp.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"The ashen custodian's innate spellcasting ability is Charisma (spell save DC 15). The ashen custodian can innately cast the following spells, requiring no material components:\\nAt will: druidcraft, produce flame\\n3/day each: burning hands, cure wounds, flame blade, fog cloud\\n1/day each: conjure elemental (fire elemental only), wall of fire\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 10,
+      "type": "Fey",
+      "wisdom": 15
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Ashen Custodian",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-ashen-custodian"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "A fire-haired woman with ashen skin gently touches a dying tree, igniting it and the surrounding undergrowth._  \n**Wardens of Wildfire.** This beautiful fey with fiery hair and ashen skin wears a cloak of soot as she treads the forests of the world. The ashen custodian cleanses forests with flames, allowing them to grow anew and maintaining the natural cycle of death and rebirth. Though ashen custodians primarily live solitary lives, Open Game License",
+      "name": "Ashen Custodian",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Женщина с огненными волосами и пепельной кожей мягко касается умирающего дерева, воспламеняя его и окружающий подлесок.\n\n**Хранители лесных пожаров.** Этот красивый фей с огненными волосами и пепельной кожей носит плащ копоти, когда она ступает по лесам мира. Пепельная хранительница очищает леса пламенем, позволяя им расти заново и поддерживая естественный цикл смерти и перерождения.",
+      "glossary_version": "v1",
+      "name": "Пепельная хранительница",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

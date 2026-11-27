@@ -1,0 +1,139 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "broodiken",
+  "id": "o5e:tob:monster:broodiken-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:broodiken"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5241acb4b7ef7e66b2f9ca9d2ed21b2e74236c5e2ce4b6f395f99da008d89a58",
+    "formulas": [
+      {
+        "expression": "10d4+30",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral",
+      "armor_class": 13,
+      "challenge_rating": "1",
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "damage_immunities": "poison",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "",
+      "hit_dice": "10d4+30",
+      "hit_points": 55,
+      "languages": "-",
+      "size": "Tiny"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "5241acb4b7ef7e66b2f9ca9d2ed21b2e74236c5e2ce4b6f395f99da008d89a58",
+        "edition": "2014",
+        "id": "o5e:tob:monster:broodiken",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage.\", \"attack_bonus\": 4, \"damage_dice\": \"1d10\"}, {\"name\": \"Attach\", \"desc\": \"When a broodiken succeeds on a bite attack, its teeth latch on, grappling the target (escape DC 9). On each of its turns, its bite attack hits automatically as long as it can maintain its grapple.\"}]",
+      "alignment": "neutral",
+      "armor_class": 13,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "1",
+      "charisma": 6,
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "constitution": 16,
+      "cr": 1.0,
+      "damage_immunities": "poison",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "desc": "_Tiny and built like a caricature of a person, this creature’s enlarged head is filled with pointed teeth._  \n**Bodily Children.** Broodikens are crude servants created by humanoid spellcasters willing to grow them within their own bodies. They resemble their creators in the most obvious ways, with the same number of limbs and basic features, but all broodikens stand one foot tall with overly large heads and heavily fanged mouths. Those born to monstrous humanoids with wings or horns have ineffective, decorative versions that do not help the creature fly or fight.  \n**Emotional Echoes.** Broodikens have little personality of their own and respond to their creators’ emotions, growling when their creators feel anger and babbling happily when their creators feel joy. When their creators are more than 100 feet away, they cry loudly with a sound that resembles children of the creator’s own species. If discovered crying by anyone other than their creator, they attack. When their creators focus their anger on specific individuals, the broodikens attack as a group, using Stealth to get close and overwhelm single opponents.  \n**Born With Daggers.** Broodikens are created by eating the heart of a dead broodiken. Once this “seed” is consumed, 2d4 broodikens grow inside of the “mother” or creator. Nurturing the growing brood requires consuming specific muds, ashes, and plants, which cost 50 gp/day for each incubating broodiken. The incubation period requires one month and takes a toll on the creator’s health. During this time, the creator becomes fatigued after four hours without eight hours’ rest.  \nIf the creator is not a spellcaster, a spellcaster who meets the requirements below must supervise the incubation and birth. Most spellcasters birth the broodiken using a dagger before the broodiken tears its way out. A “mother” can only control one brood of broodiken at a time. Incubating a second brood makes the first brood furiously jealous, and it will turn on its own creator.  \n**Constructed Nature.** A broodiken doesn’t require air, food, drink, or sleep.",
+      "dexterity": 14,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "10d4+30",
+      "hit_points": 55,
+      "intelligence": 2,
+      "languages": "-",
+      "legendary_actions_json": "null",
+      "name": "Broodiken",
+      "page_no": 45,
+      "perception": 4,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 14",
+      "size": "Tiny",
+      "skills_json": "{\"perception\": 4, \"stealth\": 6}",
+      "special_abilities_json": "[{\"name\": \"Immutable Form\", \"desc\": \"The broodiken is immune to any spell or effect that would alter its form.\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The broodiken has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Shared Rage\", \"desc\": \"A broodiken cannot speak with its creator telepathically, but it feels strong emotions and recognizes the objects of those emotions. A creator can telepathically order broodiken to hunt for and attack individuals by sending the broodiken an image of the creature and the appropriate emotion. As long as the broodiken is on such a hunt, it can be more than 100 feet away from its master without wailing.\"}]",
+      "speed_json": "{\"walk\": 20, \"climb\": 20}",
+      "spells_json": "null",
+      "strength": 8,
+      "type": "Construct",
+      "wisdom": 10
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Broodiken",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-broodiken"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_Tiny and built like a caricature of a person, this creature’s enlarged head is filled with pointed teeth._  \n**Bodily Children.** Broodikens are crude servants created by humanoid spellcasters willing to grow them within their own bodies. They resemble their creators in the most obvious ways, with the same number of limbs and basic features, but all broodikens stand one foot tall with overly large heads and heavily fanged mouths. Those born to monstrous humanoids with wings or horns have ineffective, decorative versions that do not help the creature fly or fight.  \n**Emotional Echoes.** Broodikens have little personality of their own and respond to their creators’ emotions, growling when their creators feel anger and babbling happily when their creators feel joy. When their creators are more than 100 feet away, they cry loudly with a sound that resembles children of the creator’s own species. If discovered crying by anyone other than their creator, they attack. When their creators focus their anger on specific individuals, the broodikens attack as a group, using Stealth to get close and overwhelm single opponents.  \n**Born With Daggers.** Broodikens are created by eating the heart of a dead broodiken. Once this “seed” is consumed, 2d4 broodikens grow inside of the “mother” or creator. Nurturing the growing brood requires consuming specific muds, ashes, and plants, which cost 50 gp/day for each incubating broodiken. The incubation period requires one month and takes a toll on the creator’s health. During this time, the creator becomes fatigued after four hours without eight hours’ rest.  \nIf the creator is not a spellcaster, a spellcaster who meets the requirements below must supervise the incubation and birth. Most spellcasters birth the broodiken using a dagger before the broodiken tears its way out. A “mother” can only control one brood of broodiken at a time. Incubating a second brood makes the first brood furiously jealous, and it will turn on its own creator.  \n**Constructed Nature.** A broodiken doesn’t require air, food, drink, or sleep.",
+      "name": "Broodiken",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крошечный и построенный как карикатура на человека, увеличенная голова этого существа заполнена заострёнными зубами.\n\n**Телесное потомство.** Брудикены грубые слуги созданные гуманоидными заклинателями готовыми выращивать их в своих собственных телах. Они напоминают своих создателей в наиболее очевидных отношениях, с тем же количеством конечностей и основных черт, но все брудикены стоят один фут высотой с излишне большими головами и сильно клыковыми ртами. Те, что рождены чудовищными гуманоидами с крыльями или рогами, имеют неэффективные декоративные версии, которые не помогают существу летать или сражаться.\n\n**Эмоциональные эхо.** Брудикены имеют мало собственной личности и отвечают на эмоции своих создателей, рыча, когда их создатели чувствуют гнев и счастливо бормоча, когда их создатели чувствуют радость. Когда их создатели находятся на расстоянии более 100 футов, они громко кричат со звуковыми напоминающими детей собственного вида создателя. Если обнаруживает плачем кто-то другой, кроме их создателя, они атакуют. Когда их создатели сосредотачивают свой гнев на конкретных лицах, брудикены нападают группой, используя скрытность, чтобы приблизиться и облепить одиночных противников.\n\n**Рождённые с кинжалами.** Брудикены создаются при поедании сердца мёртвого брудикена. Как только это «семя» потребляется, 2к4 брудикенов растёт внутри «матери» или создателя. Воспитание растущих брудикенов требует потребления определенной грязи, пепла, и растений, по стоимости 50 золотых в день за каждый инкубируя брудикен. Инкубационный период требует один месяц и сказывается на здоровье создателя. В течение этого времени, создатель становится утомлённым после четырёх часов без восьмичасового отдыха. Если создатель не является заклинателем, заклинатель, который отвечает требованиям ниже, должен контролировать инкубацию и рождение. Большинство заклинателей рождают брудикена, используя кинжал перед тем, как брудикен выбирается наружу. «Мать» может контролировать только один выводок брудикенов за раз. Инкубирование второго выводка делает первый выводок яростно ревнивым, и он обернётся против его собственного создателя.\n\n**Сконструированная природа.** Брудикену не требуется воздух, пища, питьё или сон.",
+      "glossary_version": "v1",
+      "name": "Брудикен",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

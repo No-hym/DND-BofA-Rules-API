@@ -1,0 +1,191 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_exsanguinate",
+  "id": "o5e:deepm:spell:deepm-exsanguinate",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-exsanguinate",
+      "o5e:dmag:spell:exsanguinate"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e2ac86c042fde7aedb2d65b4d6bb4f6434e6073570035edb2754bcc4377a8344",
+    "formulas": [
+      {
+        "expression": "2d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "duration": "1 minute",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a desiccated horse heart",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "e2ac86c042fde7aedb2d65b4d6bb4f6434e6073570035edb2754bcc4377a8344",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-exsanguinate",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "664d33e71047c8c3351a4ac81e47ef939dcf458284bec2399b892f687a30e15b",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:exsanguinate",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "desc": "You cause the body of a creature within range to become engorged with blood or ichor. The target must make a Constitution saving throw. On a successful save, it takes 2d6 bludgeoning damage. On a failed save, it takes 4d6 bludgeoning damage each round, it is incapacitated, and it cannot speak, as it vomits up torrents of blood or ichor. In addition, its hit point maximum is reduced by an amount equal to the damage taken. The target dies if this effect reduces its hit point maximum to 0.\n\nAt the end of each of its turns, a creature can make a Constitution saving throw, ending the effect on a success—except for the reduction of its hit point maximum, which lasts until the creature finishes a long rest.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th.",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a desiccated horse heart",
+      "name": "Exsanguinate",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3232",
+          "parent": "deepm_exsanguinate",
+          "type": "default"
+        },
+        {
+          "external_id": "3234",
+          "parent": "deepm_exsanguinate",
+          "target_count": 2,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3235",
+          "parent": "deepm_exsanguinate",
+          "target_count": 3,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3236",
+          "parent": "deepm_exsanguinate",
+          "target_count": 4,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3237",
+          "parent": "deepm_exsanguinate",
+          "target_count": 5,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Exsanguinate",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You cause the body of a creature within range to become engorged with blood or ichor. The target must make a Constitution saving throw. On a successful save, it takes 2d6 bludgeoning damage. On a failed save, it takes 4d6 bludgeoning damage each round, it is incapacitated, and it cannot speak, as it vomits up torrents of blood or ichor. In addition, its hit point maximum is reduced by an amount equal to the damage taken. The target dies if this effect reduces its hit point maximum to 0.\n\nAt the end of each of its turns, a creature can make a Constitution saving throw, ending the effect on a success—except for the reduction of its hit point maximum, which lasts until the creature finishes a long rest.",
+      "name": "Exsanguinate",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы заставляете тело существа в пределах дистанции переполниться кровью или ихором. Цель должна совершить спасбросок Телосложения. При успехе она получает 2к6 дробящего урона. При провале она получает 4к6 дробящего урона каждый раунд, становится недееспособной и не может говорить, поскольку её рвёт потоками крови или ихора. Кроме того, её максимум хитов уменьшается на величину, равную полученному урону. Цель умирает, если этот эффект уменьшает её максимум хитов до 0.\n\nВ конце каждого своего хода существо может совершить спасбросок Телосложения, при успехе завершая эффект, — кроме уменьшения максимума его хитов, которое длится, пока существо не завершит продолжительный отдых.",
+      "glossary_version": "v1",
+      "name": "Обескровливание",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

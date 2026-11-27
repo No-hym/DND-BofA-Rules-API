@@ -1,0 +1,193 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_nyctli",
+  "id": "o5e:tob2:creature:tob2-nyctli",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-nyctli"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "767fe9e9b6c1716d7b7b46458cf0cf8351140b6500d2e839120149aba7483da5",
+    "formulas": [
+      {
+        "expression": "3d4",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 12,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 18,
+      "ability_score_intelligence": 6,
+      "ability_score_strength": 2,
+      "ability_score_wisdom": 14,
+      "alignment": "chaotic evil",
+      "armor_class": 14,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": 40,
+      "hit_dice": "3d4",
+      "hit_points": 7,
+      "initiative_bonus": null,
+      "languages": [
+        "sylvan"
+      ],
+      "languages_desc": "Sylvan",
+      "normal_sight_range": 10560,
+      "passive_perception": 14,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "tiny",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 10
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "767fe9e9b6c1716d7b7b46458cf0cf8351140b6500d2e839120149aba7483da5",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-nyctli",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 12,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 18,
+      "ability_score_intelligence": 6,
+      "ability_score_strength": 2,
+      "ability_score_wisdom": 14,
+      "alignment": "chaotic evil",
+      "armor_class": 14,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "darkvision_range": 60,
+      "document": "tob2",
+      "fly": 40,
+      "hit_dice": "3d4",
+      "hit_points": 7,
+      "hover": true,
+      "languages": [
+        "sylvan"
+      ],
+      "languages_desc": "Sylvan",
+      "name": "Nyctli",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 14,
+      "size": "tiny",
+      "skill_bonus_perception": 4,
+      "skill_bonus_stealth": 6,
+      "type": "fey",
+      "walk": 10,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "The nyctli magically dispels or douses a single magical or nonmagical light source within 30 feet of it. The nyctli can't dispel light created by a spell of 3rd level or higher.",
+          "desc_ru": "Действие «Доусе Лигхт»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_nyctli_douse-light",
+          "name": "Douse Light",
+          "name_ru": "Доусе Лигхт",
+          "order_in_statblock": 1,
+          "parent": "tob2_nyctli",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 1 piercing damage plus 3 (1d6) necrotic damage, and the target must succeed on a DC 11 Constitution saving throw or be blinded until the end of its next turn.",
+          "desc_ru": "Действие «Стингерс»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_nyctli_stingers",
+          "name": "Stingers",
+          "name_ru": "Стингерс",
+          "order_in_statblock": 0,
+          "parent": "tob2_nyctli",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Nyctli",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Nyctli",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Миниатюрный шар болезненно выглядящей плоти с эльфийским лицом цепляется за нижнюю сторону гниющего бревна, его тело покрыто колючими жалами.\n\n**Прячущиеся ужасы.** Никтли обитают во влажных, тёмных местах, где их окраска и размер позволяют им легко прятаться. Они наслаждаются мучить других существ, и ничто не заставляет никтли хихикать больше, чем видеть, как его жертва барахтается под эффектами его яда.",
+      "glossary_version": "v1",
+      "name": "Никтли",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

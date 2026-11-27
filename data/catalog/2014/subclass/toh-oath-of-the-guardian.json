@@ -1,0 +1,167 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_oath-of-the-guardian",
+  "id": "o5e:toh:characterclass:toh-oath-of-the-guardian",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-oath-of-the-guardian"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "1db1242961200d48de061ace1c8cd54091cda0c17639b10751cf984bf46a7238",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_paladin"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "1db1242961200d48de061ace1c8cd54091cda0c17639b10751cf984bf46a7238",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-oath-of-the-guardian",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_paladin",
+        "type": "subclass_of",
+        "value": "srd_paladin"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "A paladin who takes the Oath of the Guardian is sworn to defend the community. Taking the mantle of a guardian is a solemn vow to place the needs of the many before the needs of yourself and requires constant vigilance.",
+      "document": "toh",
+      "name": "Oath of the Guardian",
+      "subclass_of": "srd_paladin"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you take this oath at 3rd level, you gain the following two Channel Divinity options. See the Sacred Oath class feature for how Channel Divinity works.\n\n***Inspired Leadership.*** You can use your Channel Divinity to inspire your allies with your faith. As an action, you can choose a number of creatures you can see within 30 feet of you equal to your Charisma modifier (minimum of one). For 1 minute, each target has advantage on Strength, Constitution, and Charisma saving throws.\n\n ***Turn the Wild.*** As an action, you can cause wild creatures to flee from your presence using your Channel Divinity. Each creature within 30 feet of you with an Intelligence score of 4 or less that can see or hear you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.\n  A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can only use the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.",
+          "desc_ru": "Вы можете направлять божественную энергию непосредственно из Внешних Планов, используя её для создания магических эффектов. Изначально у вас есть один такой эффект: Божественное чувство, описанный ниже. Другие умения паладина дают дополнительные варианты эффектов Божественного канала. Каждый раз, когда вы используете Божественный канал этого класса, вы выбираете, какой эффект этого класса создать.\n\nВы можете использовать Божественный канал этого класса дважды. Вы восстанавливаете одно потраченное использование, когда заканчиваете короткий отдых, и восстанавливаете все потраченные использования, когда заканчиваете долгий отдых. Вы получаете дополнительное использование, когда достигаете 11-го уровня паладина.\n\nЕсли эффект Божественного канала требует спасброска, СЛ равна СЛ спасброска заклинаний из умения Сотворение заклинаний этого класса.\n\n**Божественное чувство.** Как Бонусное действие, вы можете открыть своё сознание для обнаружения небожителей, исчадий и нежити. В течение следующих 10 минут или пока вы не получите состояние Недееспособный, вы знаете местоположение любого существа этих типов в пределах 60 футов от себя и знаете его тип существа. В том же радиусе вы также обнаруживаете присутствие любого места или предмета, который был освящён или осквернён, как заклинанием *Освящение*.\n\n> ### Нарушение клятвы\n>\n> Паладин старается придерживаться высочайших стандартов поведения, но даже самые преданные способны ошибаться. Иногда паладин нарушает свою клятву.\n>\n> Паладин, нарушивший обет, обычно ищет отпущения грехов, проводя ночное бдение в знак покаяния или постясь. После обряда прощения паладин начинает с чистого листа.\n>\n> Если ваш паладин нераскаянно нарушает клятву, поговорите с Мастером. Вашему паладину, вероятно, следует выбрать более подходящий подкласс или даже отказаться от класса и перейти в другой.",
+          "document": "toh",
+          "external_id": "toh_oath-of-the-guardian_channel-divinity",
+          "level": 3,
+          "name": "Channel Divinity",
+          "name_ru": "Божественный канал",
+          "parent": "toh_oath-of-the-guardian",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Starting at 7th level, allies around you are more alert and ready to act. You and friendly creatures within 10 feet of you have advantage on initiative rolls. In addition, you and any of your companions within 10 feet of you can't be surprised except when incapacitated. When you reach 18th level in this class, the range of this aura increases to 30 feet.",
+          "desc_ru": "Начиная с 7-го уровня союзники вокруг вас более бдительны и готовы действовать. Вы и дружественные существа в пределах 10 футов от вас совершаете с преимуществом броски инициативы. Кроме того, вас и любых ваших товарищей в пределах 10 футов от вас нельзя застигнуть врасплох, за исключением случаев недееспособности. Когда вы достигаете 18-го уровня в этом классе, радиус этой ауры увеличивается до 30 футов.",
+          "document": "toh",
+          "external_id": "toh_oath-of-the-guardian_aura-of-awareness",
+          "level": 7,
+          "name": "Aura of Awareness",
+          "name_ru": "Аура осведомлённости",
+          "parent": "toh_oath-of-the-guardian",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 15th level, you can turn an ally's success into an opportunity. When a friendly creature you can see within 20 feet of you is forced to make a saving throw, you can use your reaction to grant a bonus equal to your Charisma modifier (minimum of +1) to the target's saving throw. If the saving throw is successful, the target can make one weapon attack against the attacker as a reaction, provided the attacker is within the weapon's range.\n  You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest.",
+          "desc_ru": "На 15-м уровне вы можете превратить успех союзника в возможность. Когда дружественное существо, которое вы можете видеть в пределах 20 футов от вас, вынуждено совершить спасбросок, вы можете реакцией даровать бонус, равный вашему модификатору Харизмы (минимум +1), к спасброску цели. Если спасбросок успешный, цель может совершить одну атаку оружием против атакующего реакцией при условии, что атакующий в пределах дистанции оружия.\nВы можете использовать эту особенность количество раз, равное вашему модификатору Харизмы (минимум один раз), и вы восстанавливаете все потраченные использования, когда заканчиваете продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_oath-of-the-guardian_hold-the-line",
+          "level": 15,
+          "name": "Hold the Line",
+          "name_ru": "Держать линию",
+          "parent": "toh_oath-of-the-guardian",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 20th level, you can charge your allies with divine heroism. As an action, you can choose a number of creatures you can see equal to your proficiency bonus, which can include yourself. Each target gains the following benefits for 1 minute: \n* The target is cured of all disease and poison and can't be frightened or poisoned. \n* The target has advantage on Wisdom and Constitution saving throws. \n* The target gains temporary hit points equal to your level.\nOnce you use this feature, you can't use it again until you finish a long rest.",
+          "desc_ru": "На 20-м уровне вы можете зарядить ваших союзников божественным героизмом. Действием вы можете выбрать количество существ, которых вы можете видеть, равное вашему бонусу мастерства, которое может включать себя. Каждая цель получает следующие преимущества на 1 минуту: \n* Цель вылечивается от всех болезней и ядов и не может быть напугана или отравлена. \n* Цель совершает с преимуществом спасброски Мудрости и Телосложения. \n* Цель получает временные очки хитов, равные вашему уровню.\nИспользовав эту особенность, вы не можете использовать её снова, пока не закончите продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_oath-of-the-guardian_band-of-heroes",
+          "level": 20,
+          "name": "Band of Heroes",
+          "name_ru": "Отряд героев",
+          "parent": "toh_oath-of-the-guardian",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You gain oath spells at the paladin levels listed in the Oath of the Guardian Spells table. See the Sacred Oath class feature for how oath spells work.\n\n**Oath of the Guardian Spells (table)**\n| Paladin Level  | Spells                                    | \n|----------------|-------------------------------------------| \n| 3rd            | *litany of sure hands*, *shield of faith* | \n| 5th            | *mantle of the brave*, *spiritual weapon* | \n| 9th            | *beacon of hope*, *invested champion*     | \n| 13th           | *banishment*, *inspiring speech*          | \n| 17th           | *creation*, *hallow*                      |",
+          "desc_ru": "Вы получаете заклинания клятвы на уровнях паладина, перечисленных в соответствующей таблице. См. классовую особенность «Священная клятва» о том, как заклинания клятвы работают.\n\nЗаклинания Клятвы стража (таблица)\n| Уровень паладина | Заклинания |\n|---|---|\n| 3-й | Литания верных рук, Щит веры |\n| 5-й | Мантия храбрых, Духовное оружие |\n| 9-й | Маяк надежды, Вложенный чемпион |\n| 13-й | Изгнание, Вдохновляющая речь |\n| 17-й | Творение, Освящение |",
+          "document": "toh",
+          "external_id": "toh_oath-of-the-guardian_oath-spells",
+          "name": "Oath Spells",
+          "name_ru": "Заклинания клятвы",
+          "parent": "toh_oath-of-the-guardian",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you take this oath, you always do so with a particular group, town, region, or government in mind, pledging to protect them.\n\n***Encourage Prosperity.*** You must work hard to bring joy and prosperity to all around you.\n\n***Preserve Order.*** Order must be protected and preserved for all to enjoy. You must work to keep treasured people, objects, and communities safe.\n\n***Decisive Action.*** Threats to peaceful life are often nefarious and subtle. The actions you take to combat such threats should not be.",
+          "desc_ru": "Когда вы принимаете эту клятву, вы всегда делаете это с конкретной группой, городом, регионом или правительством в уме, обещая защищать их.\n\nПоощрять процветание. Вы должны усердно работать, чтобы принести радость и процветание всем вокруг вас.\n\nСохранять порядок. Порядок должен быть защищён и сохранён для всеобщего наслаждения. Вы должны работать, чтобы держать дорогих людей, предметы и сообщества в безопасности.\n\nРешительное действие. Угрозы мирной жизни часто коварны и тонки. Действия, которые вы предпринимаете для борьбы с такими угрозами, не должны быть таковыми.",
+          "document": "toh",
+          "external_id": "toh_oath-of-the-guardian_tenets-of-the-guardian",
+          "name": "Tenets of the Guardian",
+          "name_ru": "Заветы стража",
+          "parent": "toh_oath-of-the-guardian",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Oath of the Guardian",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "A paladin who takes the Oath of the Guardian is sworn to defend the community. Taking the mantle of a guardian is a solemn vow to place the needs of the many before the needs of yourself and requires constant vigilance.",
+      "name": "Oath of the Guardian",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Паладин, который принимает Клятву Стража, клянётся защищать сообщество. Принятие мантии стража — это торжественная клятва ставить нужды многих перед своими собственными нуждами и требует постоянной бдительности.",
+      "glossary_version": "v1",
+      "name": "Клятва стража",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

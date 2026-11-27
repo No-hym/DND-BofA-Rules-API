@@ -1,0 +1,142 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "thuellai",
+  "id": "o5e:tob:monster:thuellai-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:thuellai"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b937460cc021e2bcbb6657a5c91d78835f07706573ffb0013698ba8e20261977",
+    "formulas": [
+      {
+        "expression": "13d12+65",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic neutral",
+      "armor_class": 17,
+      "challenge_rating": "10",
+      "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+      "damage_immunities": "poison",
+      "damage_resistances": "lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "fire",
+      "hit_dice": "13d12+65",
+      "hit_points": 149,
+      "languages": "Common, Dwarvish, Primordial",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "b937460cc021e2bcbb6657a5c91d78835f07706573ffb0013698ba8e20261977",
+        "edition": "2014",
+        "id": "o5e:tob:monster:thuellai",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The thuellai makes two claw attacks.\"}, {\"name\": \"Claw\", \"desc\": \"Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) slashing damage plus 26 (4d12) cold damage. If the target is wearing metal armor, it must make a successful DC 17 Constitution saving throw or gain one level of exhaustion.\", \"attack_bonus\": 10, \"damage_dice\": \"2d8+6\"}, {\"name\": \"Freezing Breath (Recharge 5-6)\", \"desc\": \"The thuellai exhales an icy blast in a 40-foot cone. Each target in the area takes 39 (6d12) cold damage, or half damage with a successful DC 17 Constitution saving throw.\"}, {\"name\": \"Algid Aura\", \"desc\": \"All creatures within 10 feet of a thuellai take 7 (2d6) cold damage at the beginning of the thuellai's turn. Spells or magical effects that protect against cold are affected as if by a dispel magic spell (the theullai's effective spellcasting bonus is +5) if a thuellai is within 20 feet of the target at the start of the theullai's turn, and nonmagical flames within 20 feet of the thuellai are extinguished at the start of its turn.\"}, {\"name\": \"Howl of the Maddening Wind (3/day)\", \"desc\": \"a thuellai's howl can cause creatures to temporarily lose their minds and even to attack themselves or their companions. Each target within 100 feet of the theullai and able to hear the howl must make a successful DC 14 Wisdom saving throw or roll 1d8 and consult the table below at the start of its next turn. An affected creature repeats the saving throw at the end of each of its turns; a success ends the effect on itself, but a failure means it must roll again on the table below at the start of its next turn.\\n\\n1 - Act normally\\n\\n2-4 - Do nothing but babble incoherently\\n\\n5-6 - Do 1d8 damage + Str modifier to self with item in hand\\n\\n7-8 - Attack nearest target; select randomly if more than one\"}, {\"name\": \"Blizzard (1/Day)\", \"desc\": \"The thuellai creates an icy blizzard in the area around it. A 50-foot radius sphere surrounding the theullai fills with icy fog, whirling snow, and driving ice crystals. Vision is lightly obscured, and creatures have disadvantage on Wisdom (Perception) checks that rely on vision or hearing. The ground in the affected area becomes difficult terrain. The effect lasts for 10 minutes and moves with the theullai.\"}]",
+      "alignment": "chaotic neutral",
+      "armor_class": 17,
+      "bonus_actions_json": "null",
+      "challenge_rating": "10",
+      "charisma": 14,
+      "charisma_save": 6,
+      "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+      "constitution": 20,
+      "cr": 10.0,
+      "damage_immunities": "poison",
+      "damage_resistances": "lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "fire",
+      "desc": "_This raging cloud of animate mist and ice has icicle shards for eyes and claws. In battle or when hunting, a thuellai howls like a dozen screaming banshees._  \n_**Servants of Boreas.**_ These fast-flying creatures of air and ice were created by the lord of the north wind, Boreas, to be his heralds, assassins, and hunting hounds. They appear as a swirling blizzard, often blending in with snowstorms to surprise their victims.  \n_**Terrifying Blizzards.**_ Thuellai love to engulf creatures in their blizzards, to lash buildings with ice and cold, and to trigger avalanches with their whirlwinds. They thrive on destruction and fear, and they share their master’s unpredictable nature.  \n_**Immune to Steel.**_ Northerners especially fear the thuellai because of their resistance to mundane steel, their terrifying howls, and their ability to cause madness.  \n_**Elemental Nature.**_ A theullali doesn’t require air, food, drink, or sleep.",
+      "dexterity": 24,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "13d12+65",
+      "hit_points": 149,
+      "intelligence": 10,
+      "intelligence_save": 4,
+      "languages": "Common, Dwarvish, Primordial",
+      "legendary_actions_json": "null",
+      "name": "Thuellai",
+      "page_no": 379,
+      "perception": 4,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 14",
+      "size": "Huge",
+      "skills_json": "{\"perception\": 4}",
+      "special_abilities_json": "[{\"name\": \"Air Mastery\", \"desc\": \"Airborne creatures have disadvantage on attack rolls against the thuellai.\"}, {\"name\": \"Snow Vision\", \"desc\": \"The thuellai see perfectly well in snowy conditions. It does not suffer Wisdom (Perception) penalties from snow, whiteout, or snow blindness.\"}]",
+      "speed_json": "{\"hover\": true, \"walk\": 0, \"fly\": 100}",
+      "spells_json": "null",
+      "strength": 22,
+      "type": "Elemental",
+      "wisdom": 11,
+      "wisdom_save": 4
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Thuellai",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-thuellai"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_This raging cloud of animate mist and ice has icicle shards for eyes and claws. In battle or when hunting, a thuellai howls like a dozen screaming banshees._  \n_**Servants of Boreas.**_ These fast-flying creatures of air and ice were created by the lord of the north wind, Boreas, to be his heralds, assassins, and hunting hounds. They appear as a swirling blizzard, often blending in with snowstorms to surprise their victims.  \n_**Terrifying Blizzards.**_ Thuellai love to engulf creatures in their blizzards, to lash buildings with ice and cold, and to trigger avalanches with their whirlwinds. They thrive on destruction and fear, and they share their master’s unpredictable nature.  \n_**Immune to Steel.**_ Northerners especially fear the thuellai because of their resistance to mundane steel, their terrifying howls, and their ability to cause madness.  \n_**Elemental Nature.**_ A theullali doesn’t require air, food, drink, or sleep.",
+      "name": "Thuellai",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Эта яростная облако оживлённой тумана и льда есть сосулька осколки для глаз и когтей. В бою или во время охоты, туэллай воет как дюжину кричащих баньши.\n\n**Слуги Борея.** Эти быстро-летающие существа воздуха и льда были созданы господином северного ветра, Бореем, как его глашатаи, убийцы и охотничье гончие. Они появляются в виде закрученной метели, часто смешиваются с метели, чтобы застигнуть своих жертв.\n\n**Страшные метели.** Туэллай любит поглощать существ в свои метели, бичевать здания со льда и холода, а также вызвать лавины с их вихрей. Они процветают на разрушения и страх, и они разделяют непредсказуемый характер хозяина.\n\n**Невосприимчивые к стали.** Жители севера особенно боятся туэллай из-за их сопротивления мирской стали, их эффектных воплей и их способности вызывать безумие.\n\n**Стихийная природа.** Туэллали не требует воздуха, пищи, пить или спать.",
+      "glossary_version": "v1",
+      "name": "Туэллай",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

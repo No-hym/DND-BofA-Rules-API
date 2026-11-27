@@ -1,0 +1,145 @@
+{
+  "attribution": "Title: Open5e Originals; Author: Ean Moody, Various; Publisher: open5e; Source: https://open5e.com/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "open5e",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "open5e_school-of-abjuring-and-warding",
+  "id": "o5e:open5e:characterclass:open5e-school-of-abjuring-and-warding",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7927497c4251f998b3596fdc883179cb187b8ecce824839580ec8758e42aaa99",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_wizard"
+    },
+    "original_system": "5e-2014",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_wizard",
+        "type": "subclass_of",
+        "value": "srd_wizard"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "*Compare to the core book’s school of Abjuration*\n\nCommon folk often distrust wizards as reckless due to their penchant for exploring matters that mortals should best leave alone. Rogues and warriors may cause trouble now and again, but it takes a spellcaster to summon rampaging fiends from another dimension. Practitioners of the school of abjuring and warding can be called many things, but reckless is not one of them. These wizards pride themselves on preparing for the worst case in any magical situation, and they wouldn’t dare summon an extraplanar horror until they have triple checked their salt circles and set up various contingencies to banish the beast before it can go on a rampage. When a baleful spirit needs exorcizing or a vault needs protection from sorcerous snooping, an abjurer will be at the ready to proclaim: \"But this rough magic I here abjure!\"",
+      "document": "open5e",
+      "name": "School of Abjuring and Warding",
+      "subclass_of": "srd_wizard"
+    },
+    "source_document": {
+      "author": "Ean Moody, Various",
+      "key": "open5e",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://open5e.com/",
+      "publication_date": "2024-02-15T02:15:19",
+      "publisher": "open5e",
+      "title": "Open5e Originals"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "Beginning at 2nd level, you can use the power of your school’s spells to ward yourself against damage. When you cast an abjuration spell of at least 1st level, you may siphon a portion of the spell’s magic to create an Arcane Aegis. The aegis lasts until the next time you finish a long rest and takes damage that would be directed at you. The aegis has a hit point maximum of two times your wizard level + your Intelligence modifier; if the damage sustained exceeds the current hit points of the aegis, then you suffer any further damage once the aegis reaches 0 hit points, but the aegis still exists.\n\nAny time you cast another abjuration spell of at least 1st level, the aegis regains hit points equal to the spell’s level times two, up to its hit point maximum.\n\nOnce it has been created, you cannot create a new aegis until after you finish a long rest.",
+          "desc_ru": "Начиная со 2-го уровня вы можете использовать силу заклинаний вашей школы, чтобы оберегать себя от урона. Когда вы творите заклинание ограждения как минимум 1-го уровня, вы можете отвести часть магии заклинания, чтобы создать Мистическую эгиду. Эгида длится до вашего следующего продолжительного отдыха и принимает урон, который был бы направлен на вас. Максимум очков хитов эгиды равен удвоенному вашему уровню волшебника + ваш модификатор Интеллекта; если полученный урон превышает текущие очки хитов эгиды, вы получаете остальной урон, когда эгида достигает 0 очков хитов, но сама эгида по-прежнему существует.\n\nКаждый раз, когда вы творите другое заклинание ограждения как минимум 1-го уровня, эгида восстанавливает очки хитов, равные удвоенному уровню заклинания, вплоть до её максимума очков хитов.\n\nОднажды созданную эгиду нельзя создать заново, пока вы не закончите продолжительный отдых.",
+          "document": "open5e",
+          "external_id": "open5e_school-of-abjuring-and-warding_arcane-aegis",
+          "level": 2,
+          "name": "Arcane Aegis",
+          "name_ru": "Мистическая эгида",
+          "parent": "open5e_school-of-abjuring-and-warding",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 2nd level when you choose this school, you only need to spend half as much time and gold as normal in order to copy a spell into your spellbook if the spell is from the abjuration school.",
+          "desc_ru": "Начиная со 2-го уровня, когда вы выбираете эту школу, вам нужно тратить только половину обычного времени и золота, чтобы переписать заклинание в вашу книгу заклинаний, если это заклинание школы ограждения.",
+          "document": "open5e",
+          "external_id": "open5e_school-of-abjuring-and-warding_expert-abjurer",
+          "level": 2,
+          "name": "Expert Abjurer",
+          "name_ru": "Опытный оградитель",
+          "parent": "open5e_school-of-abjuring-and-warding",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 6th level, you can extend your Arcane Aegis to protect nearby allies. You may use your reaction to have the aegis take the damage dealt to a creature up to 30 feet from you that you can see. If the damage sustained exceeds the current hit points of the aegis, the creature takes any further damage once the aegis reaches 0 hit points.",
+          "desc_ru": "На 6-м уровне вы можете расширить вашу Мистическую эгиду, чтобы защищать ближайших союзников. Вы можете реакцией сделать так, чтобы эгида приняла урон, нанесённый существу в пределах 30 футов от вас, которое вы можете видеть. Если полученный урон превышает текущие очки хитов эгиды, существо получает остальной урон, когда эгида достигает 0 очков хитов.",
+          "document": "open5e",
+          "external_id": "open5e_school-of-abjuring-and-warding_aegis-extension",
+          "level": 6,
+          "name": "Aegis Extension",
+          "name_ru": "Расширение эгиды",
+          "parent": "open5e_school-of-abjuring-and-warding",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 10th level, add your proficiency bonus to any ability checks made as part of the casting of an abjuration spell (as with the spells *counterspell* and *dispel magic*).",
+          "desc_ru": "Начиная с 10-го уровня добавляйте ваш бонус мастерства к любым проверкам характеристик, совершаемым как часть сотворения заклинания ограждения (как с заклинаниями контрзаклинание и рассеивание магии).",
+          "document": "open5e",
+          "external_id": "open5e_school-of-abjuring-and-warding_abjuration-proficiency",
+          "level": 10,
+          "name": "Abjuration Proficiency",
+          "name_ru": "Мастерство ограждения",
+          "parent": "open5e_school-of-abjuring-and-warding",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Beginning at 14th level, you are resistant to all damage from spells and you gain advantage on any saving throw to resist a spell’s effects.",
+          "desc_ru": "Начиная с 14-го уровня вы устойчивы ко всему урону от заклинаний и совершаете с преимуществом любой спасбросок, чтобы сопротивляться эффектам заклинания.",
+          "document": "open5e",
+          "external_id": "open5e_school-of-abjuring-and-warding_resistance-to-magic",
+          "level": 14,
+          "name": "Resistance to Magic",
+          "name_ru": "Сопротивление магии",
+          "parent": "open5e_school-of-abjuring-and-warding",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "School of Abjuring and Warding",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "open5e",
+  "source": "open5e:v2:open5e",
+  "translations": {
+    "en": {
+      "description": "*Compare to the core book’s school of Abjuration*\n\nCommon folk often distrust wizards as reckless due to their penchant for exploring matters that mortals should best leave alone. Rogues and warriors may cause trouble now and again, but it takes a spellcaster to summon rampaging fiends from another dimension. Practitioners of the school of abjuring and warding can be called many things, but reckless is not one of them. These wizards pride themselves on preparing for the worst case in any magical situation, and they wouldn’t dare summon an extraplanar horror until they have triple checked their salt circles and set up various contingencies to banish the beast before it can go on a rampage. When a baleful spirit needs exorcizing or a vault needs protection from sorcerous snooping, an abjurer will be at the ready to proclaim: \"But this rough magic I here abjure!\"",
+      "name": "School of Abjuring and Warding",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Сравните со школой Ограждения из основной книги*\n\nПростой люд часто не доверяет волшебникам и считает их безрассудными из-за склонности исследовать вопросы, которые смертным лучше не трогать. Плуты и воины время от времени могут создавать неприятности, но лишь заклинатель способен призвать буйствующее исчадие из другого измерения. Практиков школы ограждения и защиты можно назвать как угодно, но только не безрассудными. Эти волшебники гордятся тем, что готовятся к худшему исходу любой магической ситуации, и не осмелятся призвать внепланарный ужас, пока трижды не проверят соляные круги и не подготовят различные меры, чтобы изгнать тварь, прежде чем она устроит погром. Когда злобный дух нуждается в изгнании или хранилище — в защите от магического любопытства, оградитель всегда готов провозгласить: «Но эту грубую магию я здесь отрекаю!»",
+      "glossary_version": "v1",
+      "name": "Школа ограждения и защиты",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

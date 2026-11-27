@@ -1,0 +1,174 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_starfall",
+  "id": "o5e:deepm:spell:deepm-starfall",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-starfall",
+      "o5e:dmag:spell:starfall"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b5659b80e6947d9086c027306376e51907c0277cbde2ac100d6c96c2b0619f1e",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 5,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 5,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "b5659b80e6947d9086c027306376e51907c0277cbde2ac100d6c96c2b0619f1e",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-starfall",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "6735f0dacf348fdd060a7d3d529f26a227aab6dc2f33b626e2264bb37d8dd750",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:starfall",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "You cause bolts of shimmering starlight to fall from the heavens, striking up to five creatures that you can see within range. Each bolt strikes one target, dealing 6d6 radiant damage, knocking the target prone, and blinding it until the start of your next turn. A creature that makes a successful Dexterity saving throw takes half the damage, is not knocked prone, and is not blinded. If you name fewer than five targets, excess bolts strike the ground harmlessly.\n",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 6th level or higher, you can create one additional bolt for each slot level above 5th.",
+      "level": 5,
+      "material": false,
+      "material_consumed": false,
+      "name": "Starfall",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 5,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4253",
+          "parent": "deepm_starfall",
+          "type": "default"
+        },
+        {
+          "external_id": "4255",
+          "parent": "deepm_starfall",
+          "target_count": 6,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "4256",
+          "parent": "deepm_starfall",
+          "target_count": 7,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "4257",
+          "parent": "deepm_starfall",
+          "target_count": 8,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "4258",
+          "parent": "deepm_starfall",
+          "target_count": 9,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Starfall",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You cause bolts of shimmering starlight to fall from the heavens, striking up to five creatures that you can see within range. Each bolt strikes one target, dealing 6d6 radiant damage, knocking the target prone, and blinding it until the start of your next turn. A creature that makes a successful Dexterity saving throw takes half the damage, is not knocked prone, and is not blinded. If you name fewer than five targets, excess bolts strike the ground harmlessly.",
+      "name": "Starfall",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы заставляете болты мерцающего звёздного света падать с небес, поражая до пяти существ, которых вы можете видеть в пределах дистанции. Каждый болт поражает одну цель, нанося 6к6 урона излучением, сбивая цель с ног и ослепляя её до начала вашего следующего хода. Существо, которое совершает успешный спасбросок Ловкости, получает половину урона, не сбито с ног и не ослеплено. Если вы называете менее пяти целей, избыточные болты безвредно ударяют в землю.",
+      "glossary_version": "v1",
+      "name": "Звездопад",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

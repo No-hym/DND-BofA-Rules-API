@@ -1,0 +1,144 @@
+{
+  "attribution": "Title: Tome of Beasts 2023; Author: Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur; Publisher: tob-2023; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. 2023 Open Design LLC. All rights reserved.",
+  "book_id": "tob-2023",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "ancientcavedragon-tob1-2023",
+  "id": "o5e:tob-2023:monster:ancientcavedragon-tob1-2023-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:monster:ancientcavedragon-tob1-2023"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "40c8d974d9d6cfd3ca29daac5ca995e2441156e091b427b10856fe52e22f4a9e",
+    "formulas": [
+      {
+        "expression": "26d20 + 234",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "Neutral Evil",
+      "armor_class": 20,
+      "challenge_rating": "25",
+      "condition_immunities": "blinded, poisoned",
+      "damage_immunities": "poison",
+      "damage_resistances": "False",
+      "damage_vulnerabilities": "False",
+      "hit_dice": "26d20 + 234",
+      "hit_points": 507,
+      "languages": "Common, Darakhul, Draconic",
+      "size": "Gargantuan"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob-2023",
+        "content_hash": "40c8d974d9d6cfd3ca29daac5ca995e2441156e091b427b10856fe52e22f4a9e",
+        "edition": "2014",
+        "id": "o5e:tob-2023:monster:ancientcavedragon-tob1-2023",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The dragon uses its Frightful Presence. It then makes three attacks: one with its Bite and two with its Claws.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +18 to hit, reach 15 ft., one target. Hit: 21 (2d10 + 10) piercing damage plus 14 (4d6) poison damage.\"}, {\"name\": \"Claw\", \"desc\": \"Melee Weapon Attack: +18 to hit, reach 10 ft., one target. Hit: 17 (2d6 + 10) slashing damage.\"}, {\"name\": \"Tail\", \"desc\": \"Melee Weapon Attack: +18 to hit, reach 20 ft., one target. Hit: 19 (2d8 + 10) bludgeoning damage.\"}, {\"name\": \"Frightful Presence\", \"desc\": \"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 20 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.\"}, {\"name\": \"Poison Breath (Recharge 5-6)\", \"desc\": \"The dragon exhales a cone of black, poisonous gas in a 90-foot cone. Each target in that area must make a DC 25 Constitution saving throw. On a failure, a creature takes 91 (26d6) poison damage and is poisoned until cured by the greater restoration spell or similar magic. On a success, a creature takes half the damage and isn't poisoned.\"}]",
+      "alignment": "Neutral Evil",
+      "armor_class": 20,
+      "armor_desc": "natural armor",
+      "challenge_rating": "25",
+      "charisma": 18,
+      "charisma_save": 12,
+      "condition_immunities": "blinded, poisoned",
+      "constitution": 29,
+      "constitution_save": 17,
+      "cr": 25.0,
+      "damage_immunities": "poison",
+      "damage_resistances": "False",
+      "damage_vulnerabilities": "False",
+      "desc": "False",
+      "dexterity": 12,
+      "dexterity_save": 9,
+      "document": 47,
+      "group": "null",
+      "hit_dice": "26d20 + 234",
+      "hit_points": 507,
+      "intelligence": 14,
+      "languages": "Common, Darakhul, Draconic",
+      "legendary_actions_json": "[{\"name\": \"Detect\", \"desc\": \"The dragon makes a Wisdom (Perception) check.\"}, {\"name\": \"Tail Attack\", \"desc\": \"The dragon makes a Tail attack.\"}, {\"name\": \"Limb Sweep (Costs 2 Actions)\", \"desc\": \"The dragon sweeps its wingless limbs outward. Each creature within 10 feet of the dragon must succeed on a DC 25 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be pushed up to 10 feet away from the dragon and knocked prone.\"}]",
+      "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn.",
+      "name": "Ancient Cave Dragon",
+      "page_no": 113,
+      "perception": 29,
+      "reactions_json": "[{\"name\": \"Ruff Spikes\", \"desc\": \"When a creature moves to a space within 10 feet of the cave dragon, the dragon flares its many feelers and spikes. The creature must succeed on a DC 25 Dexterity saving throw or take 13 (3d8) piercing damage and be prevented from entering that space.\"}]",
+      "route": "monsters/",
+      "senses": "blindsight 60 ft., tremorsense 120 ft., passive Perception 29",
+      "size": "Gargantuan",
+      "skills_json": "{\"Perception\": 19, \"Stealth\": 9}",
+      "special_abilities_json": "[{\"name\": \"Darkness Aura\", \"desc\": \"The cave dragon emits magical darkness in a 30-foot radius around it. The darkness moves with the dragon and spreads around corners. Darkvision can't penetrate this darkness, and no natural light can illuminate it. If any of the darkness overlaps with an area of light created by a spell of 4th level or lower, the spell creating the light is dispelled. At the start of each of its turns, the dragon chooses whether this aura is active. A successful dispel magic (DC 15) cast on the dragon suppresses this aura for 1 minute.\"}, {\"name\": \"Legendary Resistance (3/Day)\", \"desc\": \"If the dragon fails a saving throw, it can choose to succeed instead.\"}, {\"name\": \"Magical Tunneler\", \"desc\": \"The cave dragon can burrow through any unworked earth and stone. While doing so, the dragon can choose whether to leave the material it moves through undisturbed or leave a 15-foot diameter tunnel in its wake.\"}, {\"name\": \"Spiked Climb\", \"desc\": \"The dragon uses its spikes to hold itself in place while climbing, allowing it to climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. If it climbs upside down on a ceiling or suspends itself on a vertical surface while leaving its claws free, it can't use the Ruff Spikes reaction.\"}]",
+      "speed_json": "{\"walk\": 40, \"burrow\": 40}",
+      "spells_json": "null",
+      "strength": 30,
+      "type": "Dragon",
+      "wisdom": 16,
+      "wisdom_save": 11
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur",
+      "key": "tob-2023",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+      "publication_date": "",
+      "publisher": "tob-2023",
+      "title": "Tome of Beasts 2023"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Ancient Cave Dragon",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:tob-2023:creature:tob-2023-ancient-cave-dragon"
+  },
+  "publisher_id": "tob-2023",
+  "source": "open5e:v1:tob-2023",
+  "translations": {
+    "en": {
+      "description": "False",
+      "name": "Ancient Cave Dragon",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Гигантский дракон, мировоззрение: нейтрально-злое. Класс доспеха: 20. Хиты: 507 (26к20 + 234). Иммунитет к урону: ядом. Иммунитет к состояниям: ослепление, отравление. Показатель опасности: 25.",
+      "glossary_version": "derived-v1",
+      "name": "Древний Каве дракон",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,137 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "dragonleaf-tree",
+  "id": "o5e:tob:monster:dragonleaf-tree-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:dragonleaf-tree"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "754039624c25727b156946a765bcd7678dee70b5aa1a89d26700d83fb2e65bc2",
+    "formulas": [
+      {
+        "expression": "16d10+64",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "unaligned",
+      "armor_class": 16,
+      "challenge_rating": "8",
+      "condition_immunities": "blinded, deafened",
+      "damage_immunities": "A dragonleaf tree enjoys the same immunities as its progenitor. Black, copper, and green trees are immune to acid damage; blue and bronze trees are immune to lightning damage; brass, gold, and red trees are immune to fire damage; and silver and white trees are immune to cold damage.",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "16d10+64",
+      "hit_points": 152,
+      "languages": "can understand the language of its creator or designated master",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "754039624c25727b156946a765bcd7678dee70b5aa1a89d26700d83fb2e65bc2",
+        "edition": "2014",
+        "id": "o5e:tob:monster:dragonleaf-tree",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Slam\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 58 (10d10 + 3) bludgeoning damage.\", \"attack_bonus\": 6, \"damage_dice\": \"10d10\"}, {\"name\": \"Leaves\", \"desc\": \"Ranged Weapon Attack: +3 to hit, range 30/60 ft., one target. Hit: 45 (10d8) slashing damage.\", \"attack_bonus\": 3, \"damage_dice\": \"10d8\"}, {\"name\": \"Breath Weapon (Recharge 6)\", \"desc\": \"Dragonleaf tree can issue forth a breath weapon from its leaves appropriate to the dragon it honors. The creature's breath weapon deals 49 (14d6) damage, or half damage to targets that make a successful DC 15 Dexterity saving throw. A black, copper, or green tree breathes a 60-foot line of acid; a blue or bronze tree breathes a 60-foot line of lightning; a brass, gold, or red tree breathes a 30-foot cone of fire; and a silver or white tree breathes a 30-foot cone of cold.\"}]",
+      "alignment": "unaligned",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "8",
+      "charisma": 17,
+      "condition_immunities": "blinded, deafened",
+      "constitution": 19,
+      "cr": 8.0,
+      "damage_immunities": "A dragonleaf tree enjoys the same immunities as its progenitor. Black, copper, and green trees are immune to acid damage; blue and bronze trees are immune to lightning damage; brass, gold, and red trees are immune to fire damage; and silver and white trees are immune to cold damage.",
+      "desc": "_The dragon-headed leaves of these oak trees sometimes rustle despite the lack of wind, betraying a hint of their draconic power._  \n**Gifts among Dragons.** These magnificent trees are imbued with some characteristics of their draconic masters. While most groves consist of only one type of dragonleaf tree, dragons sometimes make gifts of them to cement a pact or as a show of fealty. The dragon giving the tree relinquishes command of the plant as part of the deal. This accounts for mixed groves belonging to especially powerful dragon lords.  \n**Silent Guardians.** Dragonleaf trees use fairly simple tactics to deter potential intruders. They remain motionless or allow the breeze to jostle their leaves to appear inconspicuous. Once enough targets enter the grove, the trees fire razor sharp leaves at or breathe on their targets, adjusting their position to make better use of their weapons.  \n**Long Memories.** Dragonleaf trees live up to 1,000 years. They stand 15 feet tall and weigh 3,000 lb, but ancient specimens can reach heights of 45 feet. Growing a new dragonleaf tree requires a cutting from an existing tree at least 50 years old, which the tree’s master imbues with power, sacrificing the use of its breath weapon for a month. While this time barely registers on a dragon’s whole lifespan, it still carefully considers the creation of a new tree, for fear that others might discover its temporary weakness.",
+      "dexterity": 10,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "16d10+64",
+      "hit_points": 152,
+      "intelligence": 3,
+      "languages": "can understand the language of its creator or designated master",
+      "legendary_actions_json": "null",
+      "name": "Dragonleaf Tree",
+      "page_no": 147,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "blindsight 120 ft., passive Perception 11",
+      "size": "Large",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Loyal to Dragon Master\", \"desc\": \"A dragonleaf tree only follows commands from its designated master (or from any creatures to whom the master grants control). It has advantage on saving throws against any charm or compulsion spell or effect. Additionally, the tree has advantage on any saving throw to resist Bluff, Diplomacy, or Intimidate checks made to influence it to act against its masters.\"}, {\"name\": \"Weaknesses\", \"desc\": \"Dragonleaf trees with immunity to fire also have vulnerability to cold, and trees with immunity to cold have vulnerability to fire.\"}]",
+      "speed_json": "{\"walk\": 5}",
+      "spells_json": "null",
+      "strength": 16,
+      "type": "Plant",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Dragonleaf Tree",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-dragonleaf-tree"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_The dragon-headed leaves of these oak trees sometimes rustle despite the lack of wind, betraying a hint of their draconic power._  \n**Gifts among Dragons.** These magnificent trees are imbued with some characteristics of their draconic masters. While most groves consist of only one type of dragonleaf tree, dragons sometimes make gifts of them to cement a pact or as a show of fealty. The dragon giving the tree relinquishes command of the plant as part of the deal. This accounts for mixed groves belonging to especially powerful dragon lords.  \n**Silent Guardians.** Dragonleaf trees use fairly simple tactics to deter potential intruders. They remain motionless or allow the breeze to jostle their leaves to appear inconspicuous. Once enough targets enter the grove, the trees fire razor sharp leaves at or breathe on their targets, adjusting their position to make better use of their weapons.  \n**Long Memories.** Dragonleaf trees live up to 1,000 years. They stand 15 feet tall and weigh 3,000 lb, but ancient specimens can reach heights of 45 feet. Growing a new dragonleaf tree requires a cutting from an existing tree at least 50 years old, which the tree’s master imbues with power, sacrificing the use of its breath weapon for a month. While this time barely registers on a dragon’s whole lifespan, it still carefully considers the creation of a new tree, for fear that others might discover its temporary weakness.",
+      "name": "Dragonleaf Tree",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Листья с драконьими головами этих дубов иногда шелестят, несмотря на отсутствие ветра, выдавая намёк на их драконью силу.\n\n**Подарки среди драконов.** Эти великолепные деревья наделены некоторыми характеристиками их драконьих хозяев. Хотя большинство рощ состоят только из одного типа дерева драконьего листа, драконы иногда делают из них подарки, чтобы скрепить пакт или как проявление преданности. Дракон, дающий дерево, отказывается от командования растением как часть сделки. Это объясняет смешанные рощи, принадлежащие особенно могущественным владыкам драконов.\n\n**Безмолвные стражи.** Деревья драконьего листа используют довольно простые тактики, чтобы сдерживать потенциальных нарушителей. Они остаются неподвижными или позволяют бризу трясти их листья, чтобы казаться незаметными. Как только достаточно целей входит в рощу, деревья стреляют листьями, острыми как бритва, в свои цели или дышат на них, регулируя свою позицию, чтобы лучше использовать своё оружие.\n\n**Долгие воспоминания.** Деревья драконьего листа живут до 1000 лет. Они стоят 15 футов высотой и весят 3000 фунтов, но древние образцы могут достигать высоты 45 футов. Выращивание нового дерева драконьего листа требует черенка от существующего дерева возрастом не менее 50 лет, который хозяин дерева наделяет силой, жертвуя использованием своего дыхательного оружия на месяц. Хотя это время едва регистрируется за всю жизнь дракона, он всё же тщательно обдумывает создание нового дерева, из страха, что другие могут обнаружить его временную слабость.",
+      "glossary_version": "v1",
+      "name": "Дерево драконьего листа",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

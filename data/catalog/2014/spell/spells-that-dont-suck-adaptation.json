@@ -1,0 +1,187 @@
+{
+  "attribution": "Title: Spells That Don't Suck; Author: Ben Somers / somanyrobots, Omega Ankh; Publisher: somanyrobots; Source: https://www.somanyrobots.com/s/Spells-That-Dont-Suck-compressed.pdf; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "spells-that-dont-suck",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "spells-that-dont-suck_adaptation",
+  "id": "o5e:spells-that-dont-suck:spell:spells-that-dont-suck-adaptation",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "51d01c39be4909b93d82b36a556084d072015b57ea1c728d01746d33f108cc0b",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 hour",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": "1",
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_sorcerer",
+        "type": "classes",
+        "value": [
+          "srd_sorcerer",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "desc": "You touch a creature, modifying it for a specific environment. The target chooses one of the following options for the duration. It can end one option as an action to gain the benefits of a different one. The spell ends if you cast it again or dismiss it as an action.\n\n -  The creature grows gills and webbing between its digits. It can breathe underwater and gains a swimming speed equal to its walking speed.\n\n -  The creature grows a membrane between its limbs. When the creature falls, it can use its reaction to subtract up to 100 feet from the fall when calculating falling damage and can glide horizontally a number of feet equal to its walking speed.\n\n -  The creature grows a prehensile tail. The tail has a 5-foot reach and can lift a number of pounds equal to five times the creature’s Strength score. It can grasp, lift, drop, hold, push, or pull an object or a creature, open or close a door or a container, grapple someone, or make an unarmed strike.\n\n -  The creature’s appearance changes. For the duration, it can use an action to change its height, weight, facial features, voice, hair length and coloration, and distinguishing characteristics. It cannot change its size or number of limbs.\n\n -  The creature grows a natural weapon. Unarmed strikes with the weapon deal 1d6 bludgeoning, piercing, or slashing damage as appropriate. The natural weapon is magical and has a +1 bonus to its attack and damage rolls.",
+      "document": "spells-that-dont-suck",
+      "duration": "1 hour",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the natural weapon’s bonus increases to +2. When you use a spell slot of 6th level or higher, the natural weapon’s bonus increases to +3. Additionally, the target can select one additional option for every two slot levels above 2nd.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Adaptation",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": "1",
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Ben Somers / somanyrobots, Omega Ankh",
+      "key": "spells-that-dont-suck",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://www.somanyrobots.com/s/Spells-That-Dont-Suck-compressed.pdf",
+      "publication_date": "2025-03-30T00:00:00",
+      "publisher": "somanyrobots",
+      "title": "Spells That Don't Suck"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "10674",
+          "parent": "spells-that-dont-suck_adaptation",
+          "type": "default"
+        },
+        {
+          "desc": "Natural weapon bonus increases to +2. Target can select 1 additional option.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10675",
+          "parent": "spells-that-dont-suck_adaptation",
+          "ru_source": "derived",
+          "type": "slot_level_4"
+        },
+        {
+          "desc": "Natural weapon bonus increases to +2. Target can select 1 additional option.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10676",
+          "parent": "spells-that-dont-suck_adaptation",
+          "ru_source": "derived",
+          "type": "slot_level_5"
+        },
+        {
+          "desc": "Natural weapon bonus increases to +3. Target can select 2 additional options.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10677",
+          "parent": "spells-that-dont-suck_adaptation",
+          "ru_source": "derived",
+          "type": "slot_level_6"
+        },
+        {
+          "desc": "Natural weapon bonus increases to +3. Target can select 2 additional options.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10678",
+          "parent": "spells-that-dont-suck_adaptation",
+          "ru_source": "derived",
+          "type": "slot_level_7"
+        },
+        {
+          "desc": "Natural weapon bonus increases to +3. Target can select 3 additional options.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10679",
+          "parent": "spells-that-dont-suck_adaptation",
+          "ru_source": "derived",
+          "type": "slot_level_8"
+        },
+        {
+          "desc": "Natural weapon bonus increases to +3. Target can select 3 additional options.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10680",
+          "parent": "spells-that-dont-suck_adaptation",
+          "ru_source": "derived",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Adaptation",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "somanyrobots",
+  "source": "open5e:v2:spells-that-dont-suck",
+  "translations": {
+    "en": {
+      "description": "You touch a creature, modifying it for a specific environment. The target chooses one of the following options for the duration. It can end one option as an action to gain the benefits of a different one. The spell ends if you cast it again or dismiss it as an action.\n\n -  The creature grows gills and webbing between its digits. It can breathe underwater and gains a swimming speed equal to its walking speed.\n\n -  The creature grows a membrane between its limbs. When the creature falls, it can use its reaction to subtract up to 100 feet from the fall when calculating falling damage and can glide horizontally a number of feet equal to its walking speed.\n\n -  The creature grows a prehensile tail. The tail has a 5-foot reach and can lift a number of pounds equal to five times the creature’s Strength score. It can grasp, lift, drop, hold, push, or pull an object or a creature, open or close a door or a container, grapple someone, or make an unarmed strike.\n\n -  The creature’s appearance changes. For the duration, it can use an action to change its height, weight, facial features, voice, hair length and coloration, and distinguishing characteristics. It cannot change its size or number of limbs.\n\n -  The creature grows a natural weapon. Unarmed strikes with the weapon deal 1d6 bludgeoning, piercing, or slashing damage as appropriate. The natural weapon is magical and has a +1 bonus to its attack and damage rolls.",
+      "name": "Adaptation",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы касаетесь существа, модифицируя его для конкретной окружающей среды. Цель выбирает одну из следующих опций на продолжительность. Она может завершить одну опцию действием, чтобы получить преимущества другой. Заклинание прекращается, если вы создадите его снова или отпустите его действием.\n\n— Существо выращивает жабры и перепонки между его пальцами. Оно может дышать под водой и приобретает плавательную скорость, равную его прогулочной скорости.\n— Существо выращивает мембрану между его конечностями. Когда существо падает, оно может использовать свою реакцию, чтобы вычесть до 100 футов из падения при расчёте урона от падения и может горизонтально скользить количество футов, равное его прогулочной скорости.\n— Существо выращивает цепкий хвост. Хвост имеет 5 футов досягаемости и может поднять количество фунтов равна пятикратному значению Силы существа. Оно может схватывать, поднимать, опускать, держать, толкать или тянуть предмет или существо, открывать или закрывать дверь или контейнер, схватывать кого-то, или наносить удар без оружия.\n— Внешний вид существа меняется. На продолжительность, он может использовать действие, чтобы изменить его рост, вес, черты лица, голос, длина волос и окраска, и отличительные характеристики. Оно не может изменить свой размер или количество конечностей.\n— Существо выращивает естественное оружие. Удары без оружия с помощью оружия наносят 1d6 урона дробящего, колющего или рубящего, как это было соответствующим. Естественное оружие - это магическое и имеет бонус +1 к его броскам атаки и урона.",
+      "glossary_version": "v1",
+      "name": "Адаптация",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

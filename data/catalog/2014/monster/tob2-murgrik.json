@@ -1,0 +1,263 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_murgrik",
+  "id": "o5e:tob2:creature:tob2-murgrik",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-murgrik"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "13df8e35f7c6edd5d89391a99c6784c8c6470d7a98ef8ad1ec0a29bc400c2b6f",
+    "formulas": [
+      {
+        "expression": "16d10+64",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 9,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 10,
+      "ability_score_intelligence": 6,
+      "ability_score_strength": 23,
+      "ability_score_wisdom": 14,
+      "alignment": "chaotic evil",
+      "armor_class": 18,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "9.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": 20,
+      "hit_dice": "16d10+64",
+      "hit_points": 152,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "understands Deep Speech but can't speak",
+      "normal_sight_range": 10560,
+      "passive_perception": 16,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": 40,
+      "walk": 40
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "13df8e35f7c6edd5d89391a99c6784c8c6470d7a98ef8ad1ec0a29bc400c2b6f",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-murgrik",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 9,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 10,
+      "ability_score_intelligence": 6,
+      "ability_score_strength": 23,
+      "ability_score_wisdom": 14,
+      "alignment": "chaotic evil",
+      "armor_class": 18,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "9.000",
+      "darkvision_range": 60,
+      "document": "tob2",
+      "fly": 20,
+      "hit_dice": "16d10+64",
+      "hit_points": 152,
+      "hover": false,
+      "languages_desc": "understands Deep Speech but can't speak",
+      "name": "Murgrik",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 16,
+      "size": "large",
+      "skill_bonus_athletics": 10,
+      "skill_bonus_perception": 6,
+      "swim": 40,
+      "type": "aberration",
+      "walk": 40,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +10 к попаданию, досягаемость 5 фт., одна цель. Попадание: 15 (2к8+6) колющего урона.",
+          "external_id": "tob2_murgrik_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "tob2_murgrik",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The murgrik makes three attacks: one with its bite and two with its tentacles.",
+          "desc_ru": "Мультиатака. Существо совершает 3 атаки: одну — атака «Укус»; две — атака «Тентаклес».",
+          "external_id": "tob2_murgrik_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_murgrik",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The murgrik makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is blinded and restrained, it has total cover against attacks and other effects outside the murgrik, and it takes 14 (4d6) acid damage at the start of each of the murgrik's turns. The murgrik can only have one creature swallowed at a time.\n\nIf the murgrik takes 20 damage or more on a single turn from the swallowed creature, the murgrik must succeed on a DC 14 Constitution saving throw at the end of that turn or regurgitate the creature, which falls prone in a space within 5 feet of the murgrik. If the murgrik dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 10 feet of movement, exiting prone.",
+          "desc_ru": "Действие «Стомач Мав»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_murgrik_stomach-maw",
+          "name": "Stomach Maw",
+          "name_ru": "Стомач Мав",
+          "order_in_statblock": 3,
+          "parent": "tob2_murgrik",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 9 (1d6 + 6) bludgeoning damage. The target is grappled (escape DC 18) if it is a Medium or smaller creature and the murgrik doesn't have two other creatures grappled. Until this grapple ends, the target is restrained.",
+          "desc_ru": "Действие «Тентаклес»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_murgrik_tentacles",
+          "name": "Tentacles",
+          "name_ru": "Тентаклес",
+          "order_in_statblock": 2,
+          "parent": "tob2_murgrik",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The stalk on the murgrik's head unleashes a dispiriting wail. Each creature within 30 feet of the murgrik that can hear it must make a DC 14 Wisdom saving throw. On a failure, a creature takes 21 (6d6) psychic damage and is frightened for 1 minute. On a success, a creature takes half the damage and isn't frightened. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+          "desc_ru": "Действие «Унсеттлинг Улулатионс»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_murgrik_unsettling-ululations",
+          "name": "Unsettling Ululations",
+          "name_ru": "Унсеттлинг Улулатионс",
+          "order_in_statblock": 4,
+          "parent": "tob2_murgrik",
+          "ru_source": "derived",
+          "uses_param": 6,
+          "uses_type": "RECHARGE_ON_ROLL"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The murgrik has advantage on melee attack rolls against any creature that doesn’t have all its hp.",
+          "desc_ru": "Особенность «Крови Френзй». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_murgrik_blood-frenzy",
+          "name": "Blood Frenzy",
+          "name_ru": "Крови Френзй",
+          "parent": "tob2_murgrik",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The murgrik can hold its breath for 30 minutes.",
+          "desc_ru": "Может задерживать дыхание на 30 минут.",
+          "external_id": "tob2_murgrik_hold-breath",
+          "name": "Hold Breath",
+          "name_ru": "Холд Бреат",
+          "parent": "tob2_murgrik",
+          "ru_source": "template"
+        },
+        {
+          "desc": "The murgrik has advantage on Wisdom (Perception) checks that rely on smell.",
+          "desc_ru": "Совершает проверки Мудрости (Восприятие) с преимуществом, если они полагаются на обоняние.",
+          "external_id": "tob2_murgrik_keen-scent",
+          "name": "Keen Scent",
+          "name_ru": "Кеен Скент",
+          "parent": "tob2_murgrik",
+          "ru_source": "template"
+        },
+        {
+          "desc": "The murgrik flies by spinning its tentacles. If it is grappling a creature with its tentacles, its flying speed is halved.",
+          "desc_ru": "Особенность «Щупальце Флигхт». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_murgrik_tentacle-flight",
+          "name": "Tentacle Flight",
+          "name_ru": "Щупальце Флигхт",
+          "parent": "tob2_murgrik",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Murgrik",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Murgrik",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Это рептильное существо построено как аллигатор с двумя дополнительными ртами: одним, прикреплённым к стеблю между его глазами, и одной зубастой пастью, растянутой по его животу. Перепонка, подобная летучей мыши, соединяет его передние конечности с телом, а хвост, состоящий из дюжины крутящихся щупалец, приводит мерзость в полёт.\n\n**Болотные кошмары.** Мургрики — непревзойдённые охотники и предпочитают добывать разумных существ. Они наслаждаются страхом, который провоцирует их появление, и усиливают этот страх, генерируя ужасающие вопли из стеблей на своих головах. Как только они почуют кровь, они безжалостно атакуют и преследуют добычу, пока они или их добыча не умрут.\n\n**Испорченные аллигаторы.** Иногда глубокие части болот пересекают планарные границы в Бездну. Те, кто изучают мургриков, верят, что существа — обычные аллигаторы, искажённые их близостью к этому плану. Их жестокость и предпочтение разумной добычи оба придают достоверность понятию, что Бездна повлияла на их мутации.\n\n**Боятся цапель.** Единственный известный способ удержать мургрика от атаки — ввести цаплю, настоящую или иллюзорную. Причина, по которой мургрик отступает от цапель, — загадка, но это может указывать на существование демонической птицы, которая охотится на мургриков.",
+      "glossary_version": "v1",
+      "name": "Мургрик",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

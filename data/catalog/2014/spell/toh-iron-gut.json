@@ -1,0 +1,185 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_iron-gut",
+  "id": "o5e:toh:spell:toh-iron-gut",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:iron-gut",
+      "o5e:toh:spell:toh-iron-gut"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "df1273aba8c6873761e299f449bbb34611667a9c6baa3a66b6e0b3dd0024bac9",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "up to 1 hour",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "df1273aba8c6873761e299f449bbb34611667a9c6baa3a66b6e0b3dd0024bac9",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-iron-gut",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "8201c16196eeb9737ac2d7ebd1f1fc760e63327eeb40efe03d1d153c4f0f36c5",
+        "edition": "2014",
+        "id": "o5e:toh:spell:iron-gut",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "For the duration, one willing creature you touch has resistance to poison damage and advantage on saving throws against poison. When the affected creature makes a Constitution saving throw against an effect that deals poison damage or that would cause the creature to become poisoned, the creature can choose to succeed on the saving throw. If it does so, the spell ends on the creature.\n  While affected by this spell, a creature can't gain any benefit from consuming magical foodstuffs, such as those produced by the goodberry and heroes' feast spells, and it doesn't suffer ill effects from consuming potentially harmful, nonmagical foodstuffs, such as spoiled food or non-potable water. The creature is affected normally by other consumable magic items, such as potions. The creature can identify poisoned food by a sour taste, with deadlier poisons tasting more sour.",
+      "document": "toh",
+      "duration": "up to 1 hour",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "name": "Iron Gut",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "153",
+          "parent": "toh_iron-gut",
+          "type": "default"
+        },
+        {
+          "external_id": "155",
+          "parent": "toh_iron-gut",
+          "target_count": 2,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "156",
+          "parent": "toh_iron-gut",
+          "target_count": 3,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "157",
+          "parent": "toh_iron-gut",
+          "target_count": 4,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "158",
+          "parent": "toh_iron-gut",
+          "target_count": 5,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "159",
+          "parent": "toh_iron-gut",
+          "target_count": 6,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "160",
+          "parent": "toh_iron-gut",
+          "target_count": 7,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Iron Gut",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "For the duration, one willing creature you touch has resistance to poison damage and advantage on saving throws against poison. When the affected creature makes a Constitution saving throw against an effect that deals poison damage or that would cause the creature to become poisoned, the creature can choose to succeed on the saving throw. If it does so, the spell ends on the creature.\n  While affected by this spell, a creature can't gain any benefit from consuming magical foodstuffs, such as those produced by the goodberry and heroes' feast spells, and it doesn't suffer ill effects from consuming potentially harmful, nonmagical foodstuffs, such as spoiled food or non-potable water. The creature is affected normally by other consumable magic items, such as potions. The creature can identify poisoned food by a sour taste, with deadlier poisons tasting more sour.",
+      "name": "Iron Gut",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "На время действия одно согласное существо, которого вы касаетесь, сопротивляется урону ядом и совершает с преимуществом спасброски против яда. Когда затронутое существо совершает спасбросок Телосложения против эффекта, который наносит урон ядом или который заставил бы существо стать отравленным, существо может выбрать преуспеть в спасброске. Если оно делает это, заклинание заканчивается на существе.\n\nБудучи затронутым этим заклинанием, существо не может получить пользу от потребления магических продуктов питания, таких как те, что производятся заклинаниями доброй ягоды и пира героев, и оно не страдает от вредных эффектов от потребления потенциально вредных немагических продуктов питания, таких как испорченная еда или непитьевая вода. Существо затронуто как обычно другими потребляемыми магическими предметами, такими как зелья. Существо может определить отравленную пищу по кислому вкусу, при этом более смертельные яды на вкус кислее.",
+      "glossary_version": "v1",
+      "name": "Железный желудок",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

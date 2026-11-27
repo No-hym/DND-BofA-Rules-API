@@ -1,0 +1,141 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "thin-giant",
+  "id": "o5e:tob2:monster:thin-giant-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:thin-giant"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "d8d66ac3695c63c8cdf74d8115544e3a5721eb3ba46bd28fc67631c9dea923ff",
+    "formulas": [
+      {
+        "expression": "16d12+64",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic evil",
+      "armor_class": 16,
+      "challenge_rating": "9",
+      "condition_immunities": "exhaustion",
+      "damage_immunities": "",
+      "damage_resistances": "bludgeoning, necrotic",
+      "damage_vulnerabilities": "",
+      "hit_dice": "16d12+64",
+      "hit_points": 168,
+      "languages": "Common, Deep Speech, Giant",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "d8d66ac3695c63c8cdf74d8115544e3a5721eb3ba46bd28fc67631c9dea923ff",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:thin-giant",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The thin giant makes three melee attacks, but it can use its Consuming Bite only once.\"}, {\"name\": \"Consuming Bite\", \"desc\": \"Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) piercing damage plus 7 (2d6) necrotic damage. The target's hp maximum is reduced by an amount equal to the necrotic damage taken, and the giant regains hp equal to that amount. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hp maximum to 0.\", \"attack_bonus\": 10, \"damage_dice\": \"2d8+6\"}, {\"name\": \"Claw\", \"desc\": \"Melee Weapon Attack: +10 to hit, reach 20 ft., one target. Hit: 13 (2d6 + 6) slashing damage.\", \"attack_bonus\": 10, \"damage_dice\": \"2d6+6\"}]",
+      "alignment": "chaotic evil",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "9",
+      "charisma": 9,
+      "condition_immunities": "exhaustion",
+      "constitution": 18,
+      "constitution_save": 8,
+      "cr": 9.0,
+      "damage_resistances": "bludgeoning, necrotic",
+      "desc": "This tall, emaciated giant has unnaturally long arms ending in razor-sharp talons. It has a strangely conical head with glowing red eyes and fearsome fangs. Its skin is a dark gray-green, and its body is completely devoid of hair._  \n**Giant Bogeymen.** Lurking in abandoned mansions, dark wells, ancient mine shafts, and similar locations, thin giants are one of the most sinister and frightening of all giant species. The villains of many children’s nightmares, thin giants are feared even by other giants, as their life-draining bite and ability to get into tight spaces make them unsettling at best and horrifying at worst. Thin giants don’t get along with most creatures, but they have been observed leading groups of ghouls, ettercaps, and trolls to capture and devour prey.  \n**Contortion Experts.** Thin giants have remarkable control over their bodies. They can twist their limbs into unnatural positions and even bend completely double. The flexibility and elasticity help the giants shrug off crushing blows. They can stay in contorted positions for extraordinary lengths of time and use this to their advantage to ambush unsuspecting creatures.",
+      "dexterity": 16,
+      "dexterity_save": 7,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "16d12+64",
+      "hit_points": 168,
+      "intelligence": 11,
+      "languages": "Common, Deep Speech, Giant",
+      "legendary_actions_json": "null",
+      "name": "Thin Giant",
+      "page_no": 175,
+      "perception": 5,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 15",
+      "size": "Huge",
+      "skills_json": "{\"perception\": 5, \"stealth\": 11}",
+      "special_abilities_json": "[{\"name\": \"Contortionist\", \"desc\": \"The thin giant can contort its body into unnatural positions, allowing it to easily move through any opening large enough for a Medium creature. It can squeeze through any opening large enough for a Small creature. The giant's destination must still have suitable room to accommodate its volume.\"}]",
+      "speed_json": "{\"walk\": 40}",
+      "spells_json": "null",
+      "strength": 23,
+      "type": "Giant",
+      "wisdom": 13,
+      "wisdom_save": 5
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Thin Giant",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-thin-giant"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "This tall, emaciated giant has unnaturally long arms ending in razor-sharp talons. It has a strangely conical head with glowing red eyes and fearsome fangs. Its skin is a dark gray-green, and its body is completely devoid of hair._  \n**Giant Bogeymen.** Lurking in abandoned mansions, dark wells, ancient mine shafts, and similar locations, thin giants are one of the most sinister and frightening of all giant species. The villains of many children’s nightmares, thin giants are feared even by other giants, as their life-draining bite and ability to get into tight spaces make them unsettling at best and horrifying at worst. Thin giants don’t get along with most creatures, but they have been observed leading groups of ghouls, ettercaps, and trolls to capture and devour prey.  \n**Contortion Experts.** Thin giants have remarkable control over their bodies. They can twist their limbs into unnatural positions and even bend completely double. The flexibility and elasticity help the giants shrug off crushing blows. They can stay in contorted positions for extraordinary lengths of time and use this to their advantage to ambush unsuspecting creatures.",
+      "name": "Thin Giant",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Этот высокий, истощённый гигант необыкновенно длинными руками, заканчивающимися острыми как бритва когтями. Она имеет странно коническую голову с светящимися красными глазами и грозными клыками. Его кожа тёмно-серо-зелёный цвет, и тело её совершенно лишён волос.\n\n**Гигантские богаты.** Тонкие гиганты — одна из самых зловещих и пугающее всех гигантских видов, скрывающихся в заброшенных особняков, тёмные колодцы, древние шахты и подобных местах. Злодеи из многих детских кошмаров, тонкие гиганты боятся даже другими гигантами, как их выкачивающее жизнь укус и способность пробираться в тесных местах делает их беспокойные в лучшем случае, а чудовищными в худшем случае. Тонкие великаны не ладят с большинством существ, но были замечены группы ведущих гулей, эттеркапс, и троллей, чтобы захватить и поглотить добычу.\n\n**Конторционисты.** тонкие гиганты имеют замечательный контроль над их телами. Они могут закручивать свои конечности в неестественные положения и даже полностью сгибаться вдвое. Гибкость и упругость помогают великаны плечами от сокрушительным ударам. Они могут оставаться в искажённой позах в течение экстраординарное отрезки времени и используют это в своих интересах для засады ничего не подозревающих существ.",
+      "glossary_version": "v1",
+      "name": "Тонкий гигант",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

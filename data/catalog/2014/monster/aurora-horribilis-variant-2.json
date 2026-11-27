@@ -1,0 +1,139 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "aurora-horribilis",
+  "id": "o5e:tob2:monster:aurora-horribilis-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:aurora-horribilis"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f4ffac528547286fcdf7518145e44f688a14bba5bd614160974de2d4ca705c6d",
+    "formulas": [
+      {
+        "expression": "14d10+42",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic neutral",
+      "armor_class": 15,
+      "challenge_rating": "9",
+      "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
+      "damage_immunities": "cold, psychic, radiant",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "force",
+      "hit_dice": "14d10+42",
+      "hit_points": 119,
+      "languages": "Void Speech",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "f4ffac528547286fcdf7518145e44f688a14bba5bd614160974de2d4ca705c6d",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:aurora-horribilis",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The aurora horribilis makes two blistering touch attacks.\"}, {\"name\": \"Blistering Touch\", \"desc\": \"Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15 (3d6 + 5) cold damage plus 10 (3d6) radiant damage.\", \"attack_bonus\": 8, \"damage_dice\": \"3d6+5\"}, {\"name\": \"Void Song\", \"desc\": \"The aurora horribilis creates a dissonant song. Each creature within 100 feet of the aurora that can hear the song must succeed on a DC 16 Wisdom saving throw or be charmed until the song ends. This song has no effect on constructs, undead, or creatures that can speak or understand Void Speech. The aurora must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the aurora is incapacitated.\\n\\nWhile charmed by the aurora, the target suffers the effects of the confusion spell and hums along with the maddening tune. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A target that successfully saves is immune to this aurora's song for the next 24 hours. A target that stays charmed by the aurora's song for more than 1 minute gains one long-term madness.\"}]",
+      "alignment": "chaotic neutral",
+      "armor_class": 15,
+      "bonus_actions_json": "null",
+      "challenge_rating": "9",
+      "charisma": 21,
+      "charisma_save": 8,
+      "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
+      "constitution": 17,
+      "cr": 9.0,
+      "damage_immunities": "cold, psychic, radiant",
+      "damage_vulnerabilities": "force",
+      "desc": "A ribbon of light flies just above the ground, its gleam flickering in and out of view as it emits a discordant tune._  \n**Hidden Among Polar Lights.** Though auroras horribilis can manifest anywhere on a world, they prefer to dance and sing within naturally-occurring auroras. When they notice admirers of boreal lights, they descend from the sky to share their songs. Unfortunately, they are unaware of the bewilderment their songs invoke in listeners and are subsequently surprised by hostile action toward them.  \n**Terrible Harbinger.** While an aurora’s direct effects on most creatures is cause for alarm, the aurora’s presence is typically a prelude to something worse. Auroras tend to attach themselves to the forefront of a wave of devastation wrought by unknowable beings. Given the nature of such beings, auroras can precede the beings by days or even centuries.  \n**Lessons from the Void.** Because auroras horribilis travel with ancient beings from the Void, they hear many secrets about the universe, which they incorporate into their songs. An inability to understand the incomprehensible knowledge contained in their songs often induces madness in their listeners. This makes the auroras valuable to apocalypse cults welcoming the beings they herald, as well as to the desperate who seek to avert the coming catastrophe.",
+      "dexterity": 20,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "14d10+42",
+      "hit_points": 119,
+      "intelligence": 7,
+      "languages": "Void Speech",
+      "legendary_actions_json": "null",
+      "name": "Aurora Horribilis",
+      "page_no": 34,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "blindsight 60 ft., passive Perception 12",
+      "size": "Large",
+      "skills_json": "{\"acrobatics\": 8, \"performance\": 8}",
+      "special_abilities_json": "[{\"name\": \"Incorporeal Movement\", \"desc\": \"The aurora horribilis can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.\"}, {\"name\": \"Reality Adjacent\", \"desc\": \"The aurora horribilis does not fully exist in physical space. If the aurora is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. In addition, attack rolls against it have disadvantage. A creature with truesight doesn't have disadvantage on its attack rolls, but if that creature looks at the aurora, it must succeed on a DC 16 Wisdom saving throw or be incapacitated with a speed of 0 for 1 minute. An incapacitated creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.\\n\\nThis trait is disrupted while the aurora is incapacitated or has a speed of 0.\"}]",
+      "speed_json": "{\"hover\": true, \"walk\": 0, \"fly\": 60}",
+      "spells_json": "null",
+      "strength": 8,
+      "type": "Aberration",
+      "wisdom": 14,
+      "wisdom_save": 5
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Aurora Horribilis",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-aurora-horribilis"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "A ribbon of light flies just above the ground, its gleam flickering in and out of view as it emits a discordant tune._  \n**Hidden Among Polar Lights.** Though auroras horribilis can manifest anywhere on a world, they prefer to dance and sing within naturally-occurring auroras. When they notice admirers of boreal lights, they descend from the sky to share their songs. Unfortunately, they are unaware of the bewilderment their songs invoke in listeners and are subsequently surprised by hostile action toward them.  \n**Terrible Harbinger.** While an aurora’s direct effects on most creatures is cause for alarm, the aurora’s presence is typically a prelude to something worse. Auroras tend to attach themselves to the forefront of a wave of devastation wrought by unknowable beings. Given the nature of such beings, auroras can precede the beings by days or even centuries.  \n**Lessons from the Void.** Because auroras horribilis travel with ancient beings from the Void, they hear many secrets about the universe, which they incorporate into their songs. An inability to understand the incomprehensible knowledge contained in their songs often induces madness in their listeners. This makes the auroras valuable to apocalypse cults welcoming the beings they herald, as well as to the desperate who seek to avert the coming catastrophe.",
+      "name": "Aurora Horribilis",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Лента света летит чуть выше земли, её блеск мерцает в поле зрения и из него, когда она излучает диссонирующую мелодию.\n\n**Скрытая среди полярных огней.** Хотя авроры ужасные могут проявляться где угодно в мире, они предпочитают танцевать и петь внутри естественно возникающих полярных сияний. Когда они замечают почитателей северных огней, они спускаются с неба, чтобы делиться своими песнями. К несчастью, они не осознают замешательства, которое их песни вызывают в слушателях, и впоследствии удивляются враждебному действию по отношению к ним.\n\n**Ужасный предвестник.** Хотя прямые эффекты авроры на большинство существ являются причиной для тревоги, присутствие авроры обычно является прелюдией к чему-то худшему. Авроры склонны прикрепляться к переднему краю волны опустошения, наносимого непознаваемыми существами. Учитывая природу таких существ, авроры могут предшествовать существам на дни или даже столетия.\n\n**Уроки из Пустоты.** Поскольку авроры ужасные путешествуют с древними существами из Пустоты, они слышат много секретов о вселенной, которые они встраивают в свои песни. Неспособность понять непостижимое знание, содержащееся в их песнях, часто вызывает безумие в их слушателях. Это делает авроры ценными для культов апокалипсиса, приветствующих существ, которых они предвещают, а также для отчаявшихся, которые стремятся предотвратить грядущую катастрофу.",
+      "glossary_version": "v1",
+      "name": "Аврора ужасная",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

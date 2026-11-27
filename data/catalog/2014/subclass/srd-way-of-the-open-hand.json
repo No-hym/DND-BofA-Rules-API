@@ -1,0 +1,148 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "srd_way-of-the-open-hand",
+  "id": "o5e:srd-2014:characterclass:srd-way-of-the-open-hand",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:characterclass:srd-way-of-the-open-hand"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5fec20f8e8694cbaaea2559eb15ab8629965f838856f3e560415279914d77442",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_monk"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "5fec20f8e8694cbaaea2559eb15ab8629965f838856f3e560415279914d77442",
+        "edition": "2014",
+        "id": "o5e:srd-2014:characterclass:srd-way-of-the-open-hand",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_monk",
+        "type": "subclass_of",
+        "value": "srd_monk"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "document": "srd-2014",
+      "name": "Way of the Open Hand",
+      "subclass_of": "srd_monk"
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "Starting when you choose this tradition at 3rd level, you can manipulate your enemy's ki when you harness your own. Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target:\r\n\r\n* It must succeed on a Dexterity saving throw or be knocked prone.\r\n* It must make a Strength saving throw. If it fails, you can push it up to 15 feet away from you.\r\n* It can't take reactions until the end of your next turn.",
+          "desc_ru": "Начиная с выбора этой традиции на 3-м уровне, вы можете управлять Ки врага, когда используете собственную. Каждый раз, когда вы попадаете по существу одной из атак, предоставляемых вашим Шквалом ударов, вы можете наложить один из следующих эффектов на эту цель:\n\n- Она должна преуспеть в спасброске Ловкости, иначе будет сбита с ног.\n- Она должна совершить спасбросок Силы. При провале вы можете оттолкнуть её на расстояние до 15 футов от вас.\n- Она не может совершать реакции до конца вашего следующего хода.",
+          "document": "srd-2014",
+          "external_id": "srd_way-of-the-open-hand_open-hand-technique",
+          "level": 3,
+          "name": "Open Hand Technique",
+          "name_ru": "Техника открытой ладони",
+          "parent": "srd_way-of-the-open-hand",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "At 6th level, you gain the ability to heal yourself. As an action, you can regain hit points equal to three times your monk level. You must finish a long rest before you can use this feature again.",
+          "desc_ru": "Вы получаете способность исцелять себя. Как Бонусное действие вы можете бросить кость боевых искусств. Вы восстанавливаете количество хитов, равное выпавшему числу + ваш модификатор Мудрости (минимум 1 восстановленный хит).\n\nВы можете использовать это умение количество раз, равное вашему модификатору Мудрости (минимум один раз), и восстанавливаете все потраченные использования, когда заканчиваете долгий отдых.",
+          "document": "srd-2014",
+          "external_id": "srd_way-of-the-open-hand_wholeness-of-body",
+          "level": 6,
+          "name": "Wholeness of Body",
+          "name_ru": "Целостность тела",
+          "parent": "srd_way-of-the-open-hand",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Beginning at 11th level, you can enter a special meditation that surrounds you with an aura of peace. At the end of a long rest, you gain the effect of a sanctuary spell that lasts until the start of your next long rest (the spell can end early as normal). The saving throw DC for the spell equals 8 + your Wisdom modifier + your proficiency bonus.",
+          "desc_ru": "Начиная с 11-го уровня, вы можете входить в особую медитацию, окружающую вас аурой покоя. В конце долгого отдыха вы получаете эффект заклинания *убежище*, который длится до начала вашего следующего долгого отдыха (заклинание может закончиться досрочно, как обычно). СЛ спасброска для заклинания равна 8 + модификатор Мудрости + бонус мастерства.",
+          "document": "srd-2014",
+          "external_id": "srd_way-of-the-open-hand_tranquility",
+          "level": 11,
+          "name": "Tranquility",
+          "name_ru": "Безмятежность",
+          "parent": "srd_way-of-the-open-hand",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "At 17th level, you gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an unarmed strike, you can spend 3 ki points to start these imperceptible vibrations, which last for a number of days equal to your monk level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the creature must make a Constitution saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it takes 10d10 necrotic damage.\r\n\r\nYou can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action.",
+          "desc_ru": "Вы получаете способность создавать смертельные вибрации в теле противника. Когда вы попадаете по существу безоружным ударом, вы можете потратить 4 очка сосредоточения, чтобы начать эти незаметные вибрации, которые длятся количество дней, равное вашему уровню монаха. Вибрации безвредны, пока вы не совершите действие, чтобы прекратить их. Также, когда вы совершаете действие Атака в свой ход, вы можете отказаться от одной из атак, чтобы прекратить вибрации. Чтобы прекратить их, вы и цель должны находиться на одном плане существования. Когда вы прекращаете их, цель должна совершить спасбросок Телосложения, получая 10d12 урона силовым полем при провале или половину этого урона при успехе.\n\nТолько одно существо одновременно может находиться под действием этого умения. Вы можете прекратить вибрации безвредно (действие не требуется).",
+          "document": "srd-2014",
+          "external_id": "srd_way-of-the-open-hand_quivering-palm",
+          "level": 17,
+          "name": "Quivering Palm",
+          "name_ru": "Длань дрожи",
+          "parent": "srd_way-of-the-open-hand",
+          "ru_source": "memory"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "assembled_features": 4,
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "Way of the Open Hand",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Way of the Open Hand",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "В монастырях, разбросанных по мультивселенной, распространены три традиции монашеского пути. Большинство монастырей практикуют одну традицию исключительно, но некоторые чтут все три традиции и обучают каждого монаха в соответствии с его способностями и интересами. Все три традиции основываются на одних и тех же базовых техниках, расходясь по мере роста мастерства ученика. Таким образом, монаху нужно выбрать традицию лишь по достижении 3-го уровня.\n\nМонахи Пути открытой ладони — непревзойдённые мастера боевых искусств, как вооружённого, так и безоружного боя. Они изучают техники, позволяющие толкать и сбивать противников с ног, управлять Ки для исцеления своего тела и практикуют продвинутую медитацию, способную защитить их от вреда.\n\n### Уровень 3: Техника открытой ладони\n\nНачиная с выбора этой традиции на 3-м уровне, вы можете управлять Ки врага, когда используете собственную. Каждый раз, когда вы попадаете по существу одной из атак, предоставляемых вашим Шквалом ударов, вы можете наложить один из следующих эффектов на эту цель:\n\n- Она должна преуспеть в спасброске Ловкости, иначе будет сбита с ног.\n- Она должна совершить спасбросок Силы. При провале вы можете оттолкнуть её на расстояние до 15 футов от вас.\n- Она не может совершать реакции до конца вашего следующего хода.\n\n### Уровень 6: Целостность тела\n\nВы получаете способность исцелять себя. Как Бонусное действие вы можете бросить кость боевых искусств. Вы восстанавливаете количество хитов, равное выпавшему числу + ваш модификатор Мудрости (минимум 1 восстановленный хит).\n\nВы можете использовать это умение количество раз, равное вашему модификатору Мудрости (минимум один раз), и восстанавливаете все потраченные использования, когда заканчиваете долгий отдых.\n\n### Уровень 11: Безмятежность\n\nНачиная с 11-го уровня, вы можете входить в особую медитацию, окружающую вас аурой покоя. В конце долгого отдыха вы получаете эффект заклинания *убежище*, который длится до начала вашего следующего долгого отдыха (заклинание может закончиться досрочно, как обычно). СЛ спасброска для заклинания равна 8 + модификатор Мудрости + бонус мастерства.\n\n### Уровень 17: Длань дрожи\n\nВы получаете способность создавать смертельные вибрации в теле противника. Когда вы попадаете по существу безоружным ударом, вы можете потратить 4 очка сосредоточения, чтобы начать эти незаметные вибрации, которые длятся количество дней, равное вашему уровню монаха. Вибрации безвредны, пока вы не совершите действие, чтобы прекратить их. Также, когда вы совершаете действие Атака в свой ход, вы можете отказаться от одной из атак, чтобы прекратить вибрации. Чтобы прекратить их, вы и цель должны находиться на одном плане существования. Когда вы прекращаете их, цель должна совершить спасбросок Телосложения, получая 10d12 урона силовым полем при провале или половину этого урона при успехе.\n\nТолько одно существо одновременно может находиться под действием этого умения. Вы можете прекратить вибрации безвредно (действие не требуется).",
+      "glossary_version": "v1",
+      "name": "Путь открытой ладони",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

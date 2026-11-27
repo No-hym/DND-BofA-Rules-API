@@ -1,0 +1,173 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_college-of-investigation",
+  "id": "o5e:toh:characterclass:toh-college-of-investigation",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-college-of-investigation"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "6c141f374deb53f4ef32c9540b454cb6d79894e8af87f5b0128aec769f72aeec",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_bard"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "6c141f374deb53f4ef32c9540b454cb6d79894e8af87f5b0128aec769f72aeec",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-college-of-investigation",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "subclass_of",
+        "value": "srd_bard"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Bards pick up all sorts of information as they travel the land. Some bards focus on a certain type of information, like epic poetry, love ballads, or bawdy drinking songs. Others, however, turn to the shadowy occupation of investigating crimes. These bards use their knack for gathering information to learn about criminals and vigilantes, their tactics, and their weaknesses. Some work with agents of the law to catch criminals, but shadier members of this college use their dark knowledge to emulate the malefactors they have studied for so long.",
+      "document": "toh",
+      "name": "College of Investigation",
+      "subclass_of": "srd_bard"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "descriptions": [
+        {
+          "desc": "Investigation is used for actively searching, looking for clues, gathering information, experimentation, and research. The most commonly used ability score is Intelligence. A character might use Charisma to gather rumors or Wisdom to intuit which tomes and books in a library will be the most efficacious.\nSpecialties: appraisal, deciphering, forensics, gathering rumors, research, trapfinding.",
+          "desc_ru": "Описание. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "describes": "investigation",
+          "document": "a5e-ag",
+          "external_id": "a5e-ag_investigation",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient scrolls in search of a hidden fragment of knowledge might also call for an Intelligence (Investigation) check.",
+          "desc_ru": "Описание. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "describes": "investigation",
+          "document": "srd-2014",
+          "external_id": "srd-2014_investigation",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Find obscure information in books, or deduce how something works.",
+          "desc_ru": "Описание. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "describes": "investigation",
+          "document": "srd-2024",
+          "external_id": "srd-2024_investigation",
+          "ru_source": "derived"
+        }
+      ],
+      "features": [
+        {
+          "desc": "When you join the College of Investigation at 3rd level, you gain proficiency in the Insight skill and in two of the following skills of your choice: Acrobatics, Deception, Investigation, Performance, Sleight of Hand, or Stealth.",
+          "desc_ru": "Когда вы присоединяетесь к Коллегии знаний на 3-м уровне, вы получаете владение тремя навыками по вашему выбору.",
+          "document": "toh",
+          "external_id": "toh_college-of-investigation_bonus-proficiencies",
+          "level": 3,
+          "name": "Bonus Proficiencies",
+          "name_ru": "Дополнительные владения",
+          "parent": "toh_college-of-investigation",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "At 3rd level, your knowledge of underhanded tactics allows you to gain insight into your foes' strategies. As a bonus action, you can expend one use of Bardic Inspiration to make a Wisdom (Insight) check against one creature you can see within 30 feet contested by the creature's Charisma (Deception) check. Add the number you roll on the Bardic Inspiration die to the result of your check. You have disadvantage on this check if the target is not a humanoid, and the check automatically fails against creatures with an Intelligence score of 3 or lower. On a success, you gain one of the following benefits: \n* The target has disadvantage on attack rolls against you for 1 minute. \n* You have advantage on saving throws against the target's spells and magical effects for 1 minute. \n* You have advantage on attack rolls against the target for 1 minute.",
+          "desc_ru": "На 3-м уровне ваше знание подлых тактик позволяет вам получить проницательность в стратегии ваших врагов. бонусным действием вы можете потратить одно использование Вдохновения барда, чтобы совершить проверку Мудрости (Проницательность) против одного существа, которое вы можете видеть в пределах 30 футов, оспариваемую проверкой Харизмы (Обман) существа. Добавьте число, которое вы бросаете на кости Вдохновения барда, к результату вашей проверки. Вы совершаете эту проверку с помехой, если цель не гуманоид, и проверка автоматически проваливается против существ со значением Интеллекта 3 или ниже. При успехе вы получаете одно из следующих преимуществ: \n* Цель совершает с помехой броски атаки против вас на 1 минуту. \n* Вы совершаете с преимуществом спасброски против заклинаний цели и магических эффектов на 1 минуту. \n* Вы совершаете с преимуществом броски атаки против цели на 1 минуту.",
+          "document": "toh",
+          "external_id": "toh_college-of-investigation_quick-read",
+          "level": 3,
+          "name": "Quick Read",
+          "name_ru": "Быстрое чтение",
+          "parent": "toh_college-of-investigation",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 6th level, you can extend your knowledge of criminal behavior to your companions. When a creature that has a Bardic Inspiration die from you is damaged by a hostile creature's attack, it can use its reaction to roll that die and reduce the damage by twice the number rolled. If this reduces the damage of the attack to 0, the creature you inspired can make one melee attack against its attacker as part of the same reaction.",
+          "desc_ru": "Начиная с 6-го уровня вы можете распространить ваше знание преступного поведения на ваших товарищей. Когда существо, у которого есть кость Вдохновения барда от вас, повреждено атакой враждебного существа, оно может реакцией бросить эту кость и уменьшить урон на удвоенное выпавшее число. Если это уменьшает урон атаки до 0, существо, которое вы вдохновили, может совершить одну атаку ближнего боя против его атакующего как часть той же реакции.",
+          "document": "toh",
+          "external_id": "toh_college-of-investigation_bardic-instinct",
+          "level": 6,
+          "name": "Bardic Instinct",
+          "name_ru": "Инстинкт барда",
+          "parent": "toh_college-of-investigation",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 14th level, when a creature fails a saving throw against one of your bard spells, you can designate it as your mark for 24 hours. You know the direction to your mark at all times unless it is within an antimagic field, it is protected by an effect that prevents scrying such as nondetection, or there is a barrier of lead at least 1 inch thick between you.\n  In addition, whenever your mark makes an attack roll, you can expend one use of Bardic Inspiration to subtract the number rolled from the mark's attack roll. Alternatively, whenever you make a saving throw against a spell or magical effect from your mark, you can expend one use of Bardic Inspiration to add the number rolled to your saving throw. You can choose to expend the Bardic Inspiration after the attack or saving throw is rolled but before the outcome is determined.",
+          "desc_ru": "Начиная с 14-го уровня, когда существо проваливает спасбросок против одного из ваших заклинаний барда, вы можете обозначить его как вашу метку на 24 часа. Вы знаете направление к вашей метке во все времена, если она не внутри антимагического поля, она не защищена эффектом, который предотвращает гадание, таким как необнаружение, или между вами нет барьера свинца толщиной как минимум 1 дюйм.\nКроме того, каждый раз, когда ваша метка совершает бросок атаки, вы можете потратить одно использование Вдохновения барда, чтобы вычесть выпавшее число из броска атаки метки. В качестве альтернативы, каждый раз, когда вы совершаете спасбросок против заклинания или магического эффекта от вашей метки, вы можете потратить одно использование Вдохновения барда, чтобы добавить выпавшее число к вашему спасброску. Вы можете выбрать потратить Вдохновение барда после того, как атака или спасбросок брошены, но до того, как результат определён.",
+          "document": "toh",
+          "external_id": "toh_college-of-investigation_hot-pursuit",
+          "level": 14,
+          "name": "Hot Pursuit",
+          "name_ru": "Горячее преследование",
+          "parent": "toh_college-of-investigation",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "College of Investigation",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "Bards pick up all sorts of information as they travel the land. Some bards focus on a certain type of information, like epic poetry, love ballads, or bawdy drinking songs. Others, however, turn to the shadowy occupation of investigating crimes. These bards use their knack for gathering information to learn about criminals and vigilantes, their tactics, and their weaknesses. Some work with agents of the law to catch criminals, but shadier members of this college use their dark knowledge to emulate the malefactors they have studied for so long.",
+      "name": "College of Investigation",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Барды собирают всевозможную информацию, путешествуя по стране. Некоторые барды сосредотачиваются на определённом типе информации, например, эпической поэзии, любовных балладах или непристойных застольных песнях. Другие, однако, обращаются к теневому занятию расследования преступлений. Эти барды используют свой талант собирать информацию, чтобы узнавать о преступниках и мстителях, их тактике и их слабостях. Некоторые работают с агентами закона, чтобы ловить преступников, но более теневые члены этой коллегии используют свои тёмные знания, чтобы подражать злодеям, которых они так долго изучали.",
+      "glossary_version": "v1",
+      "name": "Коллегия расследования",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

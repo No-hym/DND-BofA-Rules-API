@@ -1,0 +1,194 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob_swamp-adder",
+  "id": "o5e:tob:creature:tob-swamp-adder",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creature:tob-2023-swamp-adder",
+      "o5e:tob:creature:tob-swamp-adder"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f1937ebcefc832eda9aa57c325347be9258fa0eff03d611b8b9f0fa3ae8149a4",
+    "formulas": [
+      {
+        "expression": "4d6+4",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 4,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 4,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "armor_detail": "",
+      "blindsight_range": 10,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "4d6+4",
+      "hit_points": 18,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "small",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "f1937ebcefc832eda9aa57c325347be9258fa0eff03d611b8b9f0fa3ae8149a4",
+        "edition": "2014",
+        "id": "o5e:tob:creature:tob-swamp-adder",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "9072dc1013f1bfe9c4061b4caa10e538357a867f02766452c62eacd129384f32",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creature:tob-2023-swamp-adder",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 4,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 4,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "blindsight_range": 10,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "document": "tob",
+      "hit_dice": "4d6+4",
+      "hit_points": 18,
+      "hover": false,
+      "languages_desc": "-",
+      "name": "Swamp Adder",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "size": "small",
+      "type": "beast",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a successful DC 11 saving throw or become poisoned. While poisoned this way, the target is paralyzed and takes 3(1d6) poison damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself with a success.",
+          "desc_ru": "Действие «Укус»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_swamp-adder_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 0,
+          "parent": "tob_swamp-adder",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The swamp adder has advantage on Dexterity (Stealth) checks while in swamp terrain.",
+          "desc_ru": "Особенность «Свамп Камоуфлаге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_swamp-adder_swamp-camouflage",
+          "name": "Swamp Camouflage",
+          "name_ru": "Свамп Камоуфлаге",
+          "parent": "tob_swamp-adder",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Swamp Adder",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Swamp Adder",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Жестокая змея с приземистой, ромбовидной головой, надутой шеей и особенной жёлтой полосой вокруг её тела, болотная гадюка — коренастый, несколько вялий охотник.\n\n**Болотный охотник.** Эта ядовитая змея — иногда известная как «пятнистая полоса» — уроженец болот южных царств, где она пожирает водоплавающих птиц и неосмотрительных хоббитов.\n\n**Разводится ради яда.** Болотной гадюки одновременно боятся и ценят её мощный паралитический яд. Болотная гадюка довольно тонкая, хотя она может вырасти до 12 футов длиной, и самые большие весят 50 фунтов. Доза паралитического яда болотной гадюки стоит 3 000 зм или более на чёрном рынке.",
+      "glossary_version": "v1",
+      "name": "Болотная гадюка",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

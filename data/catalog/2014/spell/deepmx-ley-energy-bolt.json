@@ -1,0 +1,216 @@
+{
+  "attribution": "Title: Deep Magic Extended; Author: Not sure.; Publisher: kobold-press; Source: https://koboldpress.com/deepmagic; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepmx",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepmx_ley-energy-bolt",
+  "id": "o5e:deepmx:spell:deepmx-ley-energy-bolt",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepmx:spell:deepmx-ley-energy-bolt",
+      "o5e:dmag-e:spell:ley-energy-bolt"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "efb7878cb0c75cf55535cb571890ce490d5cf090d63be84eaa46606ed3548df0",
+    "formulas": [
+      {
+        "expression": "5d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_druid",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "5d8",
+      "damage_types": [
+        "force"
+      ],
+      "duration": "instantaneous",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": false
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepmx",
+        "content_hash": "efb7878cb0c75cf55535cb571890ce490d5cf090d63be84eaa46606ed3548df0",
+        "edition": "2014",
+        "id": "o5e:deepmx:spell:deepmx-ley-energy-bolt",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepmx"
+      },
+      {
+        "book": "dmag-e",
+        "content_hash": "3d2769bab2d49fcbc0b6c42ae851ba5c44ecbaa0278792ca6c185f672d82d8eb",
+        "edition": "2014",
+        "id": "o5e:dmag-e:spell:ley-energy-bolt",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag-e"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_druid",
+        "type": "classes",
+        "value": [
+          "srd_druid",
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_druid",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "5d8",
+      "damage_types": [
+        "force"
+      ],
+      "desc": "You transform ambient ley power into a crackling bolt of energy 100 feet long and 5 feet wide. Each creature in the line takes 5d8 force damage, or half damage with a successful Dexterity saving throw. The bolt passes through the first inanimate object in its path, and creatures on the other side of the obstacle receive no bonus to their saving throw from cover. The bolt stops if it strikes a second object.",
+      "document": "deepmx",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the bolt's damage increases by 1d8 for each slot level above 3rd.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "name": "Ley Energy Bolt",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": false
+    },
+    "source_document": {
+      "author": "Not sure.",
+      "key": "deepmx",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/deepmagic",
+      "publication_date": "2024-02-14T19:02:02",
+      "publisher": "kobold-press",
+      "title": "Deep Magic Extended"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4840",
+          "parent": "deepmx_ley-energy-bolt",
+          "type": "default"
+        },
+        {
+          "damage_roll": "6d8",
+          "external_id": "4842",
+          "parent": "deepmx_ley-energy-bolt",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "7d8",
+          "external_id": "4843",
+          "parent": "deepmx_ley-energy-bolt",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "8d8",
+          "external_id": "4844",
+          "parent": "deepmx_ley-energy-bolt",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "9d8",
+          "external_id": "4845",
+          "parent": "deepmx_ley-energy-bolt",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "10d8",
+          "external_id": "4846",
+          "parent": "deepmx_ley-energy-bolt",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "11d8",
+          "external_id": "4847",
+          "parent": "deepmx_ley-energy-bolt",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Ley Energy Bolt",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepmx",
+  "translations": {
+    "en": {
+      "description": "You transform ambient ley power into a crackling bolt of energy 100 feet long and 5 feet wide. Each creature in the line takes 5d8 force damage, or half damage with a successful Dexterity saving throw. The bolt passes through the first inanimate object in its path, and creatures on the other side of the obstacle receive no bonus to their saving throw from cover. The bolt stops if it strikes a second object.",
+      "name": "Ley Energy Bolt",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы превращаете окружающую лей-силу в потрескивающий болт энергии длиной 100 футов и шириной 5 футов. Каждое существо в линии получает 5к8 силового урона, или половину урона при успешном спасброске Ловкости. Болт проходит через первый неодушевлённый объект на своём пути, и существа на другой стороне препятствия не получают бонуса к их спасброску от укрытия. Болт останавливается, если он поражает второй объект.",
+      "glossary_version": "v1",
+      "name": "Болт лей-энергии",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

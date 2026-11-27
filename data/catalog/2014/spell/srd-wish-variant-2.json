@@ -1,0 +1,219 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_wish",
+  "id": "o5e:srd-2014:spell:srd-wish-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-wish",
+      "o5e:wotc-srd:spell:wish"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "9aef14f79a585b024032106efee21c5f983b32fc6c4a50a2c622291c5402cfb6",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [
+        "necrotic"
+      ],
+      "duration": "instantaneous",
+      "level": 9,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0.0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "9aef14f79a585b024032106efee21c5f983b32fc6c4a50a2c622291c5402cfb6",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-wish",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "81c261850a640e2d4ee9f4ea43e2cd7669cf899a9f9579bedea87e813f3f821f",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:wish",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_sorcerer",
+        "type": "classes",
+        "value": [
+          "srd_sorcerer",
+          "srd_wizard"
+        ]
+      },
+      {
+        "anchor": "Attack",
+        "required": false,
+        "target_id": "srd_actions-in-combat_attack",
+        "type": "cross-reference"
+      },
+      {
+        "anchor": "Cast a Spell",
+        "required": false,
+        "target_id": "srd_actions-in-combat_cast-a-spell",
+        "type": "cross-reference"
+      },
+      {
+        "anchor": "Components",
+        "required": false,
+        "target_id": "srd_spellcasting_components",
+        "type": "cross-reference"
+      },
+      {
+        "anchor": "Greater Restoration",
+        "required": false,
+        "target_id": "srd_greater-restoration",
+        "type": "cross-reference"
+      },
+      {
+        "anchor": "Hit Points",
+        "required": false,
+        "target_id": "srd_damage-and-healing_hit-points",
+        "type": "cross-reference"
+      },
+      {
+        "anchor": "Strength",
+        "required": false,
+        "target_id": "srd_abilities_strength",
+        "type": "cross-reference"
+      },
+      {
+        "anchor": "Time",
+        "required": false,
+        "target_id": "srd_time",
+        "type": "cross-reference"
+      },
+      {
+        "anchor": "Type",
+        "required": false,
+        "target_id": "srd_monsters_type",
+        "type": "cross-reference"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_types": [
+        "necrotic"
+      ],
+      "desc": "Wish is the mightiest spell a mortal creature can cast. By simply speaking aloud, you can alter the very foundations of reality in accord with your desires. The basic use of this spell is to duplicate any other spell of 8th level or lower. You don't need to meet any requirements in that spell, including costly components. The spell simply takes effect. Alternatively, you can create one of the following effects of your choice: \n- You create one object of up to 25,000 gp in value that isn't a magic item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space you can see on the ground. \n- You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the greater restoration spell. \n- You grant up to ten creatures you can see resistance to a damage type you choose. \n- You grant up to ten creatures you can see immunity to a single spell or other magical effect for 8 hours. For instance, you could make yourself and all your companions immune to a lich's life drain attack. \n- You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a wish spell could undo an opponent's successful save, a foe's critical hit, or a friend's failed save. You can force the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll. \nYou might be able to achieve something beyond the scope of the above examples. State your wish to the DM as precisely as possible. The DM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. This spell might simply fail, the effect you desire might only be partly achieved, or you might suffer some unforeseen consequence as a result of how you worded the wish. For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game. Similarly, wishing for a legendary magic item or artifact might instantly transport you to the presence of the item's current owner. The stress of casting this spell to produce any effect other than duplicating another spell weakens you. After enduring that stress, each time you cast a spell until you finish a long rest, you take 1d10 necrotic damage per level of that spell. This damage can't be reduced or prevented in any way. In addition, your Strength drops to 3, if it isn't 3 or lower already, for 2d4 days. For each of those days that you spend resting and doing nothing more than light activity, your remaining recovery time decreases by 2 days. Finally, there is a 33 percent chance that you are unable to cast wish ever again if you suffer this stress.",
+      "document": "srd-2014",
+      "duration": "instantaneous",
+      "level": 9,
+      "material": false,
+      "material_consumed": false,
+      "name": "Wish",
+      "range": 0.0,
+      "range_text": "Self",
+      "ritual": false,
+      "school": "conjuration",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "6136",
+          "parent": "srd_wish",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Wish",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:a5e-ag:spell:a5e-ag-wish"
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "Wish is the mightiest spell a mortal creature can cast. By simply speaking aloud, you can alter the very foundations of reality in accord with your desires. The basic use of this spell is to duplicate any other spell of 8th level or lower. You don't need to meet any requirements in that spell, including costly components. The spell simply takes effect. Alternatively, you can create one of the following effects of your choice: \n- You create one object of up to 25,000 gp in value that isn't a magic item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space you can see on the ground. \n- You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the greater restoration spell. \n- You grant up to ten creatures you can see resistance to a damage type you choose. \n- You grant up to ten creatures you can see immunity to a single spell or other magical effect for 8 hours. For instance, you could make yourself and all your companions immune to a lich's life drain attack. \n- You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a wish spell could undo an opponent's successful save, a foe's critical hit, or a friend's failed save. You can force the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll. \nYou might be able to achieve something beyond the scope of the above examples. State your wish to the DM as precisely as possible. The DM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. This spell might simply fail, the effect you desire might only be partly achieved, or you might suffer some unforeseen consequence as a result of how you worded the wish. For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game. Similarly, wishing for a legendary magic item or artifact might instantly transport you to the presence of the item's current owner. The stress of casting this spell to produce any effect other than duplicating another spell weakens you. After enduring that stress, each time you cast a spell until you finish a long rest, you take 1d10 necrotic damage per level of that spell. This damage can't be reduced or prevented in any way. In addition, your Strength drops to 3, if it isn't 3 or lower already, for 2d4 days. For each of those days that you spend resting and doing nothing more than light activity, your remaining recovery time decreases by 2 days. Finally, there is a 33 percent chance that you are unable to cast wish ever again if you suffer this stress.",
+      "name": "Wish",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Вызов 9-го уровня (Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** На себя\n\n**Компоненты:** В\n\n**Длительность:** Мгновенная\n\n*Исполнение желаний* — самое могущественное заклинание, которое может сотворить смертное существо. Просто произнеся вслух, вы можете изменить саму реальность.\n\nБазовое использование этого заклинания — дублирование любого другого заклинания 8-го уровня или ниже. Если вы используете его таким образом, вам не нужно выполнять какие-либо требования для сотворения этого заклинания, включая дорогостоящие компоненты. Заклинание просто вступает в силу.\n\nВ качестве альтернативы вы можете создать один из следующих эффектов на ваш выбор:\n\n**_Создание объекта._** Вы создаёте один объект стоимостью до 25 000 зм, который не является магическим предметом. Объект не может превышать 300 футов ни в одном измерении и появляется в свободном пространстве, которое вы видите на земле.\n**_Мгновенное исцеление._** Вы позволяете себе и до двадцати существам, которых видите, восстановить все хиты, и вы оканчиваете все эффекты на них, перечисленные в заклинании *Высшее восстановление*.\n**_Сопротивление._** Вы даруете до десяти существам, которых видите, сопротивление к одному типу урона на ваш выбор. Это сопротивление является постоянным.\n**_Иммунитет к заклинанию._** Вы даруете до десяти существам, которых видите, иммунитет к одному заклинанию или другому магическому эффекту на 8 часов.\n**_Внезапное обучение._** Вы заменяете одну из своих черт на другую черту, которой соответствуете требованиям. Вы теряете все преимущества старой черты и получаете преимущества новой. Вы не можете заменить черту, являющуюся предпосылкой для любых других ваших черт или умений.\n**_Повтор броска._** Вы отменяете одно недавнее событие, заставляя перебросить любой бросок кости, сделанный в течение последнего раунда (включая ваш последний ход). Реальность перестраивается, чтобы учесть новый результат. Например, *Исполнение желаний* может отменить проваленный спасбросок союзника или критическое попадание врага. Вы можете заставить перебросить с преимуществом или помехой, и вы выбираете, использовать перебросок или исходный бросок.\n**_Изменение реальности._** Вы можете пожелать чего-то, не включённого ни в один из других эффектов. Для этого сформулируйте своё желание Мастеру как можно точнее. Мастер имеет широкие полномочия в определении того, что произойдёт; чем грандиознее желание, тем выше вероятность того, что что-то пойдёт не так. Это заклинание может просто не сработать, желаемый эффект может быть достигнут лишь частично, или вы можете пострадать от непредвиденных последствий в зависимости от формулировки желания. Например, пожелав, чтобы злодей умер, вы можете быть перенесены вперёд во времени — в период, когда этого злодея уже нет в живых, что фактически удалит вас из игры.\n\nТочно так же пожелав Легендарный магический предмет или Артефакт, вы можете быть мгновенно перенесены к нынешнему владельцу предмета. Если ваше желание исполнено и его последствия затрагивают целое сообщество, регион или мир, вы, скорее всего, привлечёте могущественных врагов. Если ваше желание затрагивает бога, божественные слуги могут немедленно вмешаться, чтобы предотвратить его или побудить вас сформулировать желание определённым образом. Если ваше желание разрушит саму мультивселенную, оно не исполняется.\n\nСтресс от сотворения *Исполнения желаний* для создания любого эффекта, кроме дублирования другого заклинания, ослабляет вас. После перенесения этого стресса каждый раз, когда вы сотворяете заклинание до завершения долгого отдыха, вы получаете 1d10 урона некротической энергией за каждый уровень этого заклинания. Этот урон нельзя уменьшить или предотвратить. Кроме того, ваша Сила падает до 3 на 2d4 дня. За каждый из этих дней, проведённый в отдыхе и занятии только лёгкой деятельностью, оставшееся время восстановления сокращается на 2 дня. Наконец, есть 33-процентный шанс, что вы никогда больше не сможете сотворить *Исполнение желаний*, если подвергнетесь этому стрессу.",
+      "glossary_version": "v1",
+      "name": "Исполнение желаний",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

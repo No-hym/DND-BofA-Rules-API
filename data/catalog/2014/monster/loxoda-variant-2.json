@@ -1,0 +1,135 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "loxoda",
+  "id": "o5e:tob:monster:loxoda-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:loxoda"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "57bf4c150506e5953777ef6b581c1f99844ac378738e0bb7cf90a58701c3922e",
+    "formulas": [
+      {
+        "expression": "14d12+56",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral evil",
+      "armor_class": 13,
+      "challenge_rating": "6",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "14d12+56",
+      "hit_points": 147,
+      "languages": "Loxodan",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "57bf4c150506e5953777ef6b581c1f99844ac378738e0bb7cf90a58701c3922e",
+        "edition": "2014",
+        "id": "o5e:tob:monster:loxoda",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The loxoda makes two attacks, but no more than one of them can be a maul or javelin attack.\"}, {\"name\": \"Maul\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 25 (6d6 + 4) bludgeoning damage.\", \"attack_bonus\": 7, \"damage_dice\": \"6d6\"}, {\"name\": \"Stomp\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 20 (3d10 + 4) bludgeoning damage.\", \"attack_bonus\": 7, \"damage_dice\": \"3d10\"}, {\"name\": \"Javelin\", \"desc\": \"Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 14 (3d6 + 4) piercing damage.\", \"attack_bonus\": 7, \"damage_dice\": \"3d6\"}]",
+      "alignment": "neutral evil",
+      "armor_class": 13,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "6",
+      "charisma": 10,
+      "constitution": 19,
+      "cr": 6.0,
+      "desc": "_Often called elephant centaurs by humans and gnolls, loxodas are massive creatures that combine the torso of an ogre and the body of an elephant. Hating and fearing all strangers, they live in open plains and scrubland._  \n**Nomadic Families.** Loxodas live in small herds of 2-3 extended families. Several of these communities will usually cluster together, allowing members to move between groups as they get older. They have no permanent settlements, and instead loxoda families travel to new areas when they deplete the available food. Voracious eaters, a family of loxodas will quickly strip trees bare of leaves, or hunt and cook an entire elephant. They devour both meat and vegetation.  \n**Often Underestimated.** Many people assume that loxodas are as dull witted as the ogres they resemble. This is often a fatal mistake, as the elephant centaurs are quite intelligent. Their simple equipment and straightforward living comes not from a lack of skill or knowledge, but their own isolationism and xenophobia. Their immense size and quadruped body makes it difficult for them to mine metal ore, and they violently reject communications and trade with other people. The little metal they can gather is either taken from the bodies of their prey or stolen in raids on dwarven, human, or gnoll settlements.  \n**Vestigial Tusks.** All loxodas have curved tusks. While they are too small for use in even ritual combat, they are often decorated with intricate carvings, inlays or dyed in a pattern developed by their family. Each individual also adapts the patterns with their own individual marks, often inspired by important events in their lives. Some loxodas put golden rings or jewelled bracelets stolen from humanoids onto their tusks as trophies—a loxoda matriarch may have long dangling chains of such ornaments, indicating her high status and long life. They stand 18 feet tall and weigh nearly 20,000 pounds.",
+      "dexterity": 12,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "14d12+56",
+      "hit_points": 147,
+      "intelligence": 12,
+      "languages": "Loxodan",
+      "legendary_actions_json": "null",
+      "name": "Loxoda",
+      "page_no": 280,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "passive Perception 12",
+      "size": "Huge",
+      "skills_json": "{\"survival\": 5}",
+      "special_abilities_json": "[{\"name\": \"Trampling Charge\", \"desc\": \"If the loxoda moves at least 20 feet straight toward a Large or smaller creature it then attacks with a stomp, the stomp attack is made with advantage. If the stomp attack hits, the target must also succeed on a DC 15 Strength saving throw or be knocked prone.\"}]",
+      "speed_json": "{\"walk\": 40}",
+      "spells_json": "null",
+      "strength": 19,
+      "type": "Monstrosity",
+      "wisdom": 14
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Loxoda",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-loxoda"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_Often called elephant centaurs by humans and gnolls, loxodas are massive creatures that combine the torso of an ogre and the body of an elephant. Hating and fearing all strangers, they live in open plains and scrubland._  \n**Nomadic Families.** Loxodas live in small herds of 2-3 extended families. Several of these communities will usually cluster together, allowing members to move between groups as they get older. They have no permanent settlements, and instead loxoda families travel to new areas when they deplete the available food. Voracious eaters, a family of loxodas will quickly strip trees bare of leaves, or hunt and cook an entire elephant. They devour both meat and vegetation.  \n**Often Underestimated.** Many people assume that loxodas are as dull witted as the ogres they resemble. This is often a fatal mistake, as the elephant centaurs are quite intelligent. Their simple equipment and straightforward living comes not from a lack of skill or knowledge, but their own isolationism and xenophobia. Their immense size and quadruped body makes it difficult for them to mine metal ore, and they violently reject communications and trade with other people. The little metal they can gather is either taken from the bodies of their prey or stolen in raids on dwarven, human, or gnoll settlements.  \n**Vestigial Tusks.** All loxodas have curved tusks. While they are too small for use in even ritual combat, they are often decorated with intricate carvings, inlays or dyed in a pattern developed by their family. Each individual also adapts the patterns with their own individual marks, often inspired by important events in their lives. Some loxodas put golden rings or jewelled bracelets stolen from humanoids onto their tusks as trophies—a loxoda matriarch may have long dangling chains of such ornaments, indicating her high status and long life. They stand 18 feet tall and weigh nearly 20,000 pounds.",
+      "name": "Loxoda",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Часто называемые человеком и гноллами, слонами кентавров, локсоды относятся к массивным существам, объединяющим туловище огра и тело слона. Ненавидя и боясь всех незнакомцев, они живут в открытых равнинах и кустарниках.\n\n**Кочующие семьи.** Локсоды живут небольшими стадами из 2-3 расширенных семей. Некоторые из этих сообществ, как правило, группируются вместе, что позволяет участникам переходить между группами по мере старения. У них нет постоянных поселений, и вместо этого семьи локсодов путешествуют в новые области, когда они истощают доступную пищу. Ненасытные едоки, семья локсод быстро обдирают деревья голые листьев, или охота и готовить всего слона. Они пожирают как мясо, и растительность.\n\n**Часто недооценивают.** Многие люди предполагают, что локсоды являются как тупоумными, как Огры, которых они напоминают. Это часто фатальная ошибка, так как слон центавры вполне разумны. Их простое оборудование и простая жизнь не от недостатка мастерства или знаний, а от их собственного изоляционизма и ксенофобии. Их огромные размеры и четвероногое тело затрудняет их добычу металлической руды, и они яростно отвергают общение и торговлю с другими людьми. Малое количество металла они могут собрать либо взято из тел их добычи или украденное в набегах на дворфийских, человеческих или гнолловских поселениях.\n\n**Рудиментные бивни.** У всех локсодов есть изогнутые бивни. В то время как они слишком малы для использования даже в ритуальном бою, они часто украшены сложными резными фигурками, инкрустации или окрашены узором, разрабатываемым их семьёй. Каждый человек также адаптирует шаблоны с их собственными отдельными отметками, часто вдохновленные важными событиями в их жизнях. Некоторые локсоды кладут золотые кольца или красиво украшенные браслеты, украденные из гуманоидов на бивни в качестве трофеев — локсода матриарх может иметь длинные висячие цепи таких украшений, что указывает на высокий статус и долгую жизнь. Они стоят 18 футов в высоту и весят около 20 000 фунтов.",
+      "glossary_version": "v1",
+      "name": "Локсода",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,176 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_true-polymorph",
+  "id": "o5e:srd-2014:spell:srd-true-polymorph",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-true-polymorph",
+      "o5e:wotc-srd:spell:true-polymorph"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b9a6469659233eb1393f7ee28b94ca7966d926ec97fbb6dc6c56b0e8ed0e9f2d",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 hour",
+      "level": 9,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "A drop of mercury, a dollop of gum arabic, and a wisp of smoke.",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "b9a6469659233eb1393f7ee28b94ca7966d926ec97fbb6dc6c56b0e8ed0e9f2d",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-true-polymorph",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "d6dd98286a0dbc8865adeed018f2258e010ab52737cdcd27f7fdf091679f230b",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:true-polymorph",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "classes",
+        "value": [
+          "srd_bard",
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "desc": "Choose one creature or nonmagical object that you can see within range. You transform the creature into a different creature, the creature into an object, or the object into a creature (the object must be neither worn nor carried by another creature).  The transformation lasts for the duration, or until the target drops to 0 hit points or dies. If you concentrate on this spell for the full duration, the transformation lasts until it is dispelled. This spell has no effect on a shapechanger or a creature with 0 hit points. An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn't affected by this spell.\n\n**Creature into Creature.** If you turn a creature into another kind of creature, the new form can be any kind you choose whose challenge rating is equal to or less than the target's (or its level, if the target doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the new form. It retains its alignment and personality. The target assumes the hit points of its new form, and when it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked unconscious. The creature is limited in the actions it can perform by the nature of its new form, and it can't speak, cast spells, or take any other action that requires hands or speech unless its new form is capable of such actions. The target's gear melds into the new form. The creature can't activate, use, wield, or otherwise benefit from any of its equipment.\n\n**Object into Creature.** You can turn an object into any kind of creature, as long as the creature's size is no larger than the object's size and the creature's challenge rating is 9 or lower. The creature is friendly to you and your companions. It acts on each of your turns. You decide what action it takes and how it moves. The DM has the creature's statistics and resolves all of its actions and movement. If the spell becomes permanent, you no longer control the creature. It might remain friendly to you, depending on how you have treated it.\n\n **Creature into Object.** If you turn a creature into an object, it transforms along with whatever it is wearing and carrying into that form. The creature's statistics become those of the object, and the creature has no memory of time spent in this form, after the spell ends and it returns to its normal form.",
+      "document": "srd-2014",
+      "duration": "1 hour",
+      "level": 9,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "A drop of mercury, a dollop of gum arabic, and a wisp of smoke.",
+      "name": "True Polymorph",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "6073",
+          "parent": "srd_true-polymorph",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "True Polymorph",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "Choose one creature or nonmagical object that you can see within range. You transform the creature into a different creature, the creature into an object, or the object into a creature (the object must be neither worn nor carried by another creature).  The transformation lasts for the duration, or until the target drops to 0 hit points or dies. If you concentrate on this spell for the full duration, the transformation lasts until it is dispelled. This spell has no effect on a shapechanger or a creature with 0 hit points. An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn't affected by this spell.\n\n**Creature into Creature.** If you turn a creature into another kind of creature, the new form can be any kind you choose whose challenge rating is equal to or less than the target's (or its level, if the target doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the new form. It retains its alignment and personality. The target assumes the hit points of its new form, and when it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked unconscious. The creature is limited in the actions it can perform by the nature of its new form, and it can't speak, cast spells, or take any other action that requires hands or speech unless its new form is capable of such actions. The target's gear melds into the new form. The creature can't activate, use, wield, or otherwise benefit from any of its equipment.\n\n**Object into Creature.** You can turn an object into any kind of creature, as long as the creature's size is no larger than the object's size and the creature's challenge rating is 9 or lower. The creature is friendly to you and your companions. It acts on each of your turns. You decide what action it takes and how it moves. The DM has the creature's statistics and resolves all of its actions and movement. If the spell becomes permanent, you no longer control the creature. It might remain friendly to you, depending on how you have treated it.\n\n **Creature into Object.** If you turn a creature into an object, it transforms along with whatever it is wearing and carrying into that form. The creature's statistics become those of the object, and the creature has no memory of time spent in this form, after the spell ends and it returns to its normal form.",
+      "name": "True Polymorph",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Преобразование 9-го уровня (Бард, Колдун, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 30 футов\n\n**Компоненты:** В, С, М (капля ртути, капля гуммиарабика и завиток дыма)\n\n**Длительность:** Концентрация, вплоть до 1 час\n\nВыберите одно существо или немагический предмет, который видите в пределах дистанции. Вы превращаете существо в другое существо, существо в немагический предмет или предмет в существо (предмет не должен быть надет или нестись другим существом). Превращение длится на время действия заклинания или пока хиты цели не опустятся до 0 или она не умрёт. Если вы поддерживаете концентрацию на этом заклинании в течение всей длительности, превращение длится до тех пор, пока не будет рассеяно.\n\nЭто заклинание не действует на перевёртышей или существ с 0 хитов. Несогласное существо может совершить спасбросок Мудрости, и при успехе оно не подвержено этому заклинанию.\n\n**_Существо в существо._** Если вы превращаете существо в другой вид существа, новая форма может быть любого вида по вашему выбору, показатель опасности которого равен или ниже показателя опасности цели (или её уровня, если у цели нет показателя опасности). Игровые характеристики цели, включая ментальные значения характеристик, заменяются характеристиками новой формы. Она сохраняет мировоззрение и характер.\n\nЦель принимает хиты новой формы, и когда она возвращается в обычную форму, количество хитов возвращается к значению до превращения. Если возврат происходит в результате падения хитов до 0, избыточный урон переносится на обычную форму. Пока избыточный урон не уменьшает хиты обычной формы существа до 0, оно не теряет сознание.\n\nСущество ограничено в действиях, которые может совершать, природой новой формы и не может говорить, сотворять заклинания или совершать другие действия, требующие рук или речи, если его новая форма не способна на такие действия.\n\nСнаряжение цели сливается с новой формой. Существо не может активировать, использовать или иным образом получать пользу от любого своего снаряжения.\n\n**_Предмет в существо._** Вы можете превратить предмет в любой вид существа, если размер существа не превышает размер предмета и показатель опасности существа не превышает 9. Существо дружественно к вам и вашим спутникам. Оно действует в каждый ваш ход. Вы решаете, какое действие оно совершает и как перемещается. У Мастера есть характеристики существа, и он разрешает все его действия и перемещение.\n\nЕсли заклинание становится постоянным, вы больше не контролируете существо. Оно может остаться дружественным к вам в зависимости от того, как вы с ним обращались.\n\n**_Существо в предмет._** Если вы превращаете существо в предмет, оно превращается вместе со всем, что носит и несёт, в эту форму, если размер предмета не превышает размер существа. Характеристики существа становятся характеристиками предмета, и у существа нет памяти о времени, проведённом в этой форме, после окончания заклинания и возвращения в обычную форму.",
+      "glossary_version": "v1",
+      "name": "Истинный полиморф",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,199 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_delayed-blast-fireball",
+  "id": "o5e:srd-2014:spell:srd-delayed-blast-fireball",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-delayed-blast-fireball",
+      "o5e:wotc-srd:spell:delayed-blast-fireball"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5d36bbd02a4fbe0530570fb8ea59267368f82755fc8414ce1e77e92963029556",
+    "formulas": [
+      {
+        "expression": "12d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "12d6",
+      "damage_types": [
+        "fire"
+      ],
+      "duration": "1 minute",
+      "level": 7,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "A tiny ball of bat guano and sulfur.",
+      "range": 150.0,
+      "range_text": "150 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": 20.0,
+      "shape_size_unit": null,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "5d36bbd02a4fbe0530570fb8ea59267368f82755fc8414ce1e77e92963029556",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-delayed-blast-fireball",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "c904b335f3fc448e88847fdfae871314ed59a3752f71c1f82813264814fa5f3c",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:delayed-blast-fireball",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_sorcerer",
+        "type": "classes",
+        "value": [
+          "srd_sorcerer",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "12d6",
+      "damage_types": [
+        "fire"
+      ],
+      "desc": "A beam of yellow light flashes from your pointing finger, then condenses to linger at a chosen point within range as a glowing bead for the duration. When the spell ends, either because your concentration is broken or because you decide to end it, the bead blossoms with a low roar into an explosion of flame that spreads around corners. Each creature in a 20-foot-radius sphere centered on that point must make a dexterity saving throw. A creature takes fire damage equal to the total accumulated damage on a failed save, or half as much damage on a successful one. The spell's base damage is 12d6. If at the end of your turn the bead has not yet detonated, the damage increases by 1d6. If the glowing bead is touched before the interval has expired, the creature touching it must make a dexterity saving throw. On a failed save, the spell ends immediately, causing the bead to erupt in flame. On a successful save, the creature can throw the bead up to 40 feet. When it strikes a creature or a solid object, the spell ends, and the bead explodes. The fire damages objects in the area and ignites flammable objects that aren't being worn or carried.",
+      "document": "srd-2014",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 8th level or higher, the base damage increases by 1d6 for each slot level above 7th.",
+      "level": 7,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "A tiny ball of bat guano and sulfur.",
+      "name": "Delayed Blast Fireball",
+      "range": 150.0,
+      "range_text": "150 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": 20.0,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5362",
+          "parent": "srd_delayed-blast-fireball",
+          "type": "default"
+        },
+        {
+          "damage_roll": "13d6",
+          "external_id": "10809",
+          "parent": "srd_delayed-blast-fireball",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "14d6",
+          "external_id": "10810",
+          "parent": "srd_delayed-blast-fireball",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Delayed Blast Fireball",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "A beam of yellow light flashes from your pointing finger, then condenses to linger at a chosen point within range as a glowing bead for the duration. When the spell ends, either because your concentration is broken or because you decide to end it, the bead blossoms with a low roar into an explosion of flame that spreads around corners. Each creature in a 20-foot-radius sphere centered on that point must make a dexterity saving throw. A creature takes fire damage equal to the total accumulated damage on a failed save, or half as much damage on a successful one. The spell's base damage is 12d6. If at the end of your turn the bead has not yet detonated, the damage increases by 1d6. If the glowing bead is touched before the interval has expired, the creature touching it must make a dexterity saving throw. On a failed save, the spell ends immediately, causing the bead to erupt in flame. On a successful save, the creature can throw the bead up to 40 feet. When it strikes a creature or a solid object, the spell ends, and the bead explodes. The fire damages objects in the area and ignites flammable objects that aren't being worn or carried.",
+      "name": "Delayed Blast Fireball",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 7-го уровня (Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 150 футов\n\n**Компоненты:** В, С, М (крошечный шарик из помёта летучей мыши и серы)\n\n**Длительность:** Концентрация, вплоть до 1 минуту\n\nЛуч жёлтого света вылетает из вашего указательного пальца, а затем конденсируется и зависает в выбранной точке в пределах дистанции в виде светящейся бусины на время действия заклинания. Когда заклинание оканчивается, либо потому что ваша концентрация прервана, либо потому что вы решили его завершить, бусина расцветает с глухим рёвом во взрыв пламени, который огибает углы. Каждое существо в сфере радиусом 20 футов с центром в этой точке должно совершить спасбросок Ловкости. Существо получает урон огнём, равный общему накопленному урону, при провале, или половину этого урона при успехе.\n\nБазовый урон заклинания составляет 12к6. Если в конце вашего хода бусина ещё не взорвалась, урон увеличивается на 1к6.\n\nЕсли до истечения времени к светящейся бусине прикоснётся существо, это существо должно совершить спасбросок Ловкости. При провале заклинание немедленно оканчивается, и бусина взрывается пламенем. При успехе существо может бросить бусину на расстояние до 40 футов. Если она попадает в существо или твёрдый предмет, заклинание оканчивается и бусина взрывается.\n\nОгонь наносит урон предметам в области и воспламеняет горючие предметы, которые никто не несёт и не носит.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 8-го уровня или выше, базовый урон увеличивается на 1к6 за каждый уровень ячейки выше 7-го.",
+      "glossary_version": "v1",
+      "name": "Замедленный огненный шар",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

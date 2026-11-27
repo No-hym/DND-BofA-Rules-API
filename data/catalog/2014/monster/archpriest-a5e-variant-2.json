@@ -1,0 +1,136 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "archpriest-a5e",
+  "id": "o5e:menagerie:monster:archpriest-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:archpriest-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "a3dc012a083b6fea500e8409abb920029974f4a603a64239c020bd9adc384c62",
+    "formulas": [
+      {
+        "expression": "20d8+60",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 20,
+      "challenge_rating": "16",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "radiant",
+      "damage_vulnerabilities": "",
+      "hit_dice": "20d8+60",
+      "hit_points": 150,
+      "languages": "any three",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "a3dc012a083b6fea500e8409abb920029974f4a603a64239c020bd9adc384c62",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:archpriest-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The archpriest attacks twice.\"}, {\"name\": \"Mace\", \"desc\": \"Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) bludgeoning damage plus 10 (3d6) radiant damage.\"}, {\"name\": \"Flame Strike (5th-Level; V, S, M)\", \"desc\": \"A column of divine flame fills a 10-foot-radius  40-foot-high cylinder within 60 feet. Creatures in the area make a DC 18 Dexterity saving throw  taking 14 (4d6) fire damage and 14 (4d6) radiant damage on a failure or half damage on a success.\"}, {\"name\": \"Fire Storm (7th-Level; V, S)\", \"desc\": \"Flames roar from areas within 120 feet in a contiguous group of ten 10-foot cubes in an arrangement the archpriest chooses. Creatures in the area make a DC 18 Dexterity saving throw  taking 38 (7d10) fire damage on a failure or half damage on a success. The spell damages objects in the area and ignites flammable objects that arent being worn or carried.\"}, {\"name\": \"Holy Aura (8th-Level; V, S, M, Concentration)\", \"desc\": \"Holy radiance emanates from the archpriest and fills a 30-foot radius around them  targeting creatures in the area of the archpriests choice. Targets shed dim light in a 5-foot radius and have advantage on saving throws. Attacks made against a target have disadvantage. When a fiend or undead hits a target  the aura erupts into blinding light  forcing the attacker to succeed on a DC 18 Constitution saving throw or be blinded until the spell ends (up to 1 minute).\"}, {\"name\": \"Mass Heal (9th-Level; V, S)\", \"desc\": \"Healing energy erupts from the archpriest and restores up to 700 hit points amongst any number of creatures within 60 feet that are not constructs or undead. Creatures healed in this way are also cured of any diseases  and any effect causing them to be blinded or deafened. In addition  on subsequent turns within the next minute the archpriest can use a bonus action to distribute any unused hit points.\"}]",
+      "armor_class": 20,
+      "bonus_actions_json": "[{\"name\": \"Divine Word (7th-Level; V)\", \"desc\": \"The archpriest utters a primordial imprecation that targets other creatures within 30 feet. A target suffers an effect based on its current hit points.\\n - Fewer than 50 hit points: Deafened for 1 minute.\\n - Fewer than 40 hit points: Blinded and Deafened for 10 minutes.\\n - Fewer than 30 hit points: Stunned, Blinded, and Deafened for 1 hour.\\n - Fewer than 20 hit points: instantly killed outright.\\n Additionally, any celestial, elemental, fey, or fiend affected by this spell is immediately forced back to its home plane, and for 24 hours it is unable to return to the archpriest's current plane by any means less powerful than a *wish* spell. Such a creature does not suffer this effect if it is already on its plane of origin. The archpriest can't cast this spell and a 1st-level or higher spell on the same turn.\"}]",
+      "challenge_rating": "16",
+      "charisma": 16,
+      "charisma_save": 8,
+      "constitution": 16,
+      "cr": 16.0,
+      "damage_resistances": "radiant",
+      "dexterity": 10,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "20d8+60",
+      "hit_points": 150,
+      "intelligence": 14,
+      "intelligence_save": 7,
+      "languages": "any three",
+      "legendary_actions_json": "null",
+      "name": "Archpriest",
+      "page_no": 487,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "passive Perception 15",
+      "size": "Medium",
+      "skills_json": "{\"insight\": 10, \"medicine\": 10, \"persuasion\": 8, \"religion\": 10}",
+      "special_abilities_json": "[{\"name\": \"Anointed Healing\", \"desc\": \"Whenever the archpriest casts a spell that restores hit points, that spell restores an extra 11 (2d10) hit points.\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The archpriest has advantage on saving throws against spells and magical effects.\"}, {\"name\": \"Spellcasting\", \"desc\": \"The archpriest is a 20th level spellcaster. Their spellcasting ability is Wisdom (spell save DC 18\\n +10 to hit with spell attacks). The archpriest has the following cleric spells prepared.\\n Cantrips (at will): light\\n mending\\n sacred flame\\n spare the dying\\n thaumaturgy\\n 1st-level (4 slots): bane\\n bless\\n cure wounds\\n inflict wounds\\n 2nd-level (3 slots): hold person\\n lesser restoration\\n spiritual weapon\\n 3rd-level (3 slots): bestow curse\\n dispel magic\\n revivify\\n 4th-level (3 slots): banishment\\n guardian of faith\\n stone shape\\n 5th-level (3 slots): contagion\\n flame strike\\n greater restoration\\n mass cure wounds\\n 6th-level (2 slots): blade barrier\\n planar ally\\n true seeing\\n 7th-level (2 slots): conjure celestial\\n divine word\\n fire storm\\n 8th-level (1 slot): antimagic field\\n 9th-level (1 slot): mass heal\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 18,
+      "type": "Humanoid",
+      "wisdom": 20,
+      "wisdom_save": 10
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Archpriest",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-archpriest"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Archpriest",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Средний гуманоид. Класс доспеха: 20. Хиты: 150 (20к8+60). Сопротивление урону: излучением. Показатель опасности: 16.",
+      "glossary_version": "derived-v1",
+      "name": "Арчприест",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

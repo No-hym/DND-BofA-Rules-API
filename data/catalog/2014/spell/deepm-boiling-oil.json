@@ -1,0 +1,219 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_boiling-oil",
+  "id": "o5e:deepm:spell:deepm-boiling-oil",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-boiling-oil",
+      "o5e:dmag:spell:boiling-oil"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e22b25c21084ad2d412f88844460082c6747d2c8a4d758de048f8bba52c0c859",
+    "formulas": [
+      {
+        "expression": "3d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "3d8",
+      "damage_types": [
+        "fire"
+      ],
+      "duration": "1 minute",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a vial of oil",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "e22b25c21084ad2d412f88844460082c6747d2c8a4d758de048f8bba52c0c859",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-boiling-oil",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "dd824fb51e3d95b61d3e6370e81f89b0fb9a605b1fcdab3193ad2dcfcdea2374",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:boiling-oil",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_sorcerer",
+        "type": "classes",
+        "value": [
+          "srd_sorcerer",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "3d8",
+      "damage_types": [
+        "fire"
+      ],
+      "desc": "You conjure a shallow, 15-foot-radius pool of boiling oil centered on a point within range. The pool is difficult terrain, and any creature that enters the pool or starts its turn there must make a Dexterity saving throw. On a failed save, the creature takes 3d8 fire damage and falls prone. On a successful save, a creature takes half as much damage and doesn’t fall prone.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a vial of oil",
+      "name": "Boiling Oil",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2562",
+          "parent": "deepm_boiling-oil",
+          "type": "default"
+        },
+        {
+          "external_id": "2564",
+          "parent": "deepm_boiling-oil",
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "2565",
+          "parent": "deepm_boiling-oil",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "2566",
+          "parent": "deepm_boiling-oil",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "2567",
+          "parent": "deepm_boiling-oil",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "2568",
+          "parent": "deepm_boiling-oil",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "2569",
+          "parent": "deepm_boiling-oil",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2570",
+          "parent": "deepm_boiling-oil",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Boiling Oil",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You conjure a shallow, 15-foot-radius pool of boiling oil centered on a point within range. The pool is difficult terrain, and any creature that enters the pool or starts its turn there must make a Dexterity saving throw. On a failed save, the creature takes 3d8 fire damage and falls prone. On a successful save, a creature takes half as much damage and doesn’t fall prone.",
+      "name": "Boiling Oil",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы вызываете неглубокий бассейн кипящего масла радиусом 15 футов, центрированный на точке в пределах дистанции. Бассейн — труднопроходимая местность, и любое существо, которое входит в бассейн или начинает свой ход там, должно совершить спасбросок Ловкости. При проваленном спасброске существо получает 3к8 урона огнём и падает ничком. При успешном спасброске существо получает половину урона и не падает ничком.",
+      "glossary_version": "v1",
+      "name": "Кипящее масло",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

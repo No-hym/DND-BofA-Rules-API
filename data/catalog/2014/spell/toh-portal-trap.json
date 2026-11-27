@@ -1,0 +1,197 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_portal-trap",
+  "id": "o5e:toh:spell:toh-portal-trap",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:portal-trap",
+      "o5e:toh:spell:toh-portal-trap"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b42698da8226656803c9860489c52c6f059c967b8da8a4b4380e84936c4c4941",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "b42698da8226656803c9860489c52c6f059c967b8da8a4b4380e84936c4c4941",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-portal-trap",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "54c8f698c69242885bf4fb0bd82365f7e02d11054be9c3af321c1e2ddadb9177",
+        "edition": "2014",
+        "id": "o5e:toh:spell:portal-trap",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "You create a magical portal on a surface in an unoccupied space you can see within range. The portal occupies up to 5 square feet of the surface and is instantly covered with an illusion. The illusion looks like the surrounding terrain or surface features, such as mortared stone if the portal is placed on a stone wall, or a simple image of your choice like those created by the *minor illusion* spell. A creature that touches, steps on, or otherwise interacts with or enters the portal must succeed on a Wisdom saving throw or be teleported to an unoccupied space up to 30 feet away in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature can't be teleported into a solid object.\n  Physical interaction with the illusion reveals it to be an illusion, but such touching triggers the portal's effect. A creature that uses an action to examine the area where the portal is located can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC.",
+      "document": "toh",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, you can create one additional portal for each slot level above 2nd.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Portal Trap",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "conjuration",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "250",
+          "parent": "toh_portal-trap",
+          "type": "default"
+        },
+        {
+          "external_id": "252",
+          "parent": "toh_portal-trap",
+          "target_count": 2,
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "253",
+          "parent": "toh_portal-trap",
+          "target_count": 3,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "254",
+          "parent": "toh_portal-trap",
+          "target_count": 4,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "255",
+          "parent": "toh_portal-trap",
+          "target_count": 5,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "256",
+          "parent": "toh_portal-trap",
+          "target_count": 6,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "257",
+          "parent": "toh_portal-trap",
+          "target_count": 7,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "258",
+          "parent": "toh_portal-trap",
+          "target_count": 8,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Portal Trap",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You create a magical portal on a surface in an unoccupied space you can see within range. The portal occupies up to 5 square feet of the surface and is instantly covered with an illusion. The illusion looks like the surrounding terrain or surface features, such as mortared stone if the portal is placed on a stone wall, or a simple image of your choice like those created by the *minor illusion* spell. A creature that touches, steps on, or otherwise interacts with or enters the portal must succeed on a Wisdom saving throw or be teleported to an unoccupied space up to 30 feet away in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature can't be teleported into a solid object.\n  Physical interaction with the illusion reveals it to be an illusion, but such touching triggers the portal's effect. A creature that uses an action to examine the area where the portal is located can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC.",
+      "name": "Portal Trap",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы создаёте магический портал на поверхности в незанятом пространстве, которое вы видите в пределах дистанции. Портал занимает до 5 квадратных футов поверхности и мгновенно покрыт иллюзией. Иллюзия выглядит как окружающая местность или особенности поверхности, например известковый камень, если портал размещён на каменной стене, или простое изображение по вашему выбору, как те, что созданы заклинанием малой иллюзии. Существо, которое касается, наступает или иным образом взаимодействует или входит в портал, должно преуспеть в спасброске Мудрости, иначе будет перенесено в незанятое пространство на расстояние до 30 футов в случайном направлении. Чтобы определить направление, бросьте к8 и назначьте направление каждой грани кости. Существо нельзя перенести в твёрдый предмет.\n\nФизическое взаимодействие с иллюзией раскрывает, что это иллюзия, но такое прикосновение активирует эффект портала. Существо, которое действием изучает область, где расположен портал, может определить, что это иллюзия, успешной проверкой Интеллекта (Расследование) против Сл ваших спасбросков от заклинаний.",
+      "glossary_version": "v1",
+      "name": "Ловушка-портал",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

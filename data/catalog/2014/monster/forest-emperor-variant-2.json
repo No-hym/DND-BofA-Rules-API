@@ -1,0 +1,139 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "forest-emperor",
+  "id": "o5e:tob2:monster:forest-emperor-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:forest-emperor"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "658cf517147d44bbb68f0a6cb148a7da90146aca63fb7f15f7590f3b5c82c663",
+    "formulas": [
+      {
+        "expression": "14d12+70",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral evil",
+      "armor_class": 18,
+      "challenge_rating": "15",
+      "condition_immunities": "",
+      "damage_immunities": "acid, cold; bludgeoning from nonmagical attacks",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "14d12+70",
+      "hit_points": 161,
+      "languages": "Common, Giant",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "658cf517147d44bbb68f0a6cb148a7da90146aca63fb7f15f7590f3b5c82c663",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:forest-emperor",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The forest emperor makes two claw attacks and one tail attack. If both claws hit the same target, the target must succeed on a DC 18 Constitution saving throw or its hp maximum is reduced by 7 (2d6) and the forest emperor regains hp equal to this amount. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hp maximum to 0.\"}, {\"name\": \"Acidic Claw\", \"desc\": \"Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 16 (3d6 + 6) slashing damage plus 7 (2d6) acid damage.\", \"attack_bonus\": 11, \"damage_dice\": \"3d6+6\"}, {\"name\": \"Tail\", \"desc\": \"Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 17 (2d10 + 6) bludgeoning damage.\", \"attack_bonus\": 11, \"damage_dice\": \"2d10+6\"}, {\"name\": \"Toxic Nectar Spray (Recharge 5-6)\", \"desc\": \"The forest emperor sprays a 60-foot cone of acid from its flower-ringed eye pits. Creatures in the path of this cone must make a DC 18 Dexterity saving throw, taking 42 (12d6) acid damage on a failed save, or half as much damage on a successful one.\"}]",
+      "alignment": "neutral evil",
+      "armor_class": 18,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "15",
+      "charisma": 8,
+      "constitution": 21,
+      "constitution_save": 10,
+      "cr": 15.0,
+      "damage_immunities": "acid, cold; bludgeoning from nonmagical attacks",
+      "desc": "The smell of freshly turned soil and bubbling sulfur accompanies this terrible monster, an amalgam of wood and flesh vaguely reminiscent of a giant centaur with bony wooden limbs. Vast draconic wings sprout from the creature’s back, and it bears a serpentine tail ending in a cone-shaped rattle._  \n**Born of Dragons.** When a particularly hardy Open Game License",
+      "dexterity": 12,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "14d12+70",
+      "hit_points": 161,
+      "intelligence": 12,
+      "languages": "Common, Giant",
+      "legendary_actions_json": "null",
+      "name": "Forest Emperor",
+      "page_no": 155,
+      "perception": 10,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 20",
+      "size": "Huge",
+      "skills_json": "{\"nature\": 6, \"perception\": 10, \"stealth\": 6}",
+      "special_abilities_json": "[{\"name\": \"Forest Camouflage\", \"desc\": \"The forest emperor has advantage on Dexterity (Stealth) checks made to hide in forest terrain.\"}, {\"name\": \"Keen Smell\", \"desc\": \"The forest emperor has advantage on Wisdom (Perception) checks that rely on smell.\"}, {\"name\": \"Rattle\", \"desc\": \"The forest emperor constantly rattles its tail when in combat. Each creature that starts its turn within 60 feet of the forest emperor and that can hear it must succeed on a DC 18 Wisdom saving throw or become frightened until the start of its next turn. A creature that succeeds on two saving throws is unaffected by the forest emperor's rattle for the next 24 hours.\"}]",
+      "speed_json": "{\"walk\": 30, \"climb\": 30, \"fly\": 60}",
+      "spells_json": "null",
+      "strength": 23,
+      "type": "Aberration",
+      "wisdom": 20,
+      "wisdom_save": 10
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Forest Emperor",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-forest-emperor"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "The smell of freshly turned soil and bubbling sulfur accompanies this terrible monster, an amalgam of wood and flesh vaguely reminiscent of a giant centaur with bony wooden limbs. Vast draconic wings sprout from the creature’s back, and it bears a serpentine tail ending in a cone-shaped rattle._  \n**Born of Dragons.** When a particularly hardy Open Game License",
+      "name": "Forest Emperor",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Запах свежевырытой почвы и бурлящей серы сопровождает это ужасное чудовище, смесь дерева и плоти, смутно напоминающую гигантского кентавра с костяными деревянными конечностями. Обширные драконьи крылья вырастают из спины существа, и оно несёт змеевидный хвост, заканчивающийся конусовидной погремушкой.",
+      "glossary_version": "v1",
+      "name": "Император леса",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

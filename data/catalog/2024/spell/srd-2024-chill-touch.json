@@ -1,0 +1,169 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_chill-touch",
+  "id": "o5e:srd-2024:spell:srd-2024-chill-touch",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "f8d5a3991e3e5286e3dbf37765bf1baf9f1a9cb1d848ea5bc077b8d7a561addc",
+    "formulas": [
+      {
+        "expression": "1d10",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_sorcerer",
+        "srd-2024_warlock",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "1d10",
+      "damage_types": [
+        "necrotic"
+      ],
+      "duration": "instantaneous",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_sorcerer",
+        "type": "classes",
+        "value": [
+          "srd-2024_sorcerer",
+          "srd-2024_warlock",
+          "srd-2024_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_sorcerer",
+        "srd-2024_warlock",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "1d10",
+      "damage_types": [
+        "necrotic"
+      ],
+      "desc": "Channeling the chill of the grave, make a melee spell attack against a target within reach. On a hit, the target takes 1d10 Necrotic damage, and it can't regain Hit Points until the end of your next turn.",
+      "document": "srd-2024",
+      "duration": "instantaneous",
+      "higher_level": "The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "name": "Chill Touch",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "damage_roll": "3d10",
+          "external_id": "10631",
+          "parent": "srd-2024_chill-touch",
+          "type": "player_level_11"
+        },
+        {
+          "damage_roll": "4d10",
+          "external_id": "10632",
+          "parent": "srd-2024_chill-touch",
+          "type": "player_level_17"
+        },
+        {
+          "damage_roll": "2d10",
+          "external_id": "10092",
+          "parent": "srd-2024_chill-touch",
+          "type": "player_level_5"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Chill Touch",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "Channeling the chill of the grave, make a melee spell attack against a target within reach. On a hit, the target takes 1d10 Necrotic damage, and it can't regain Hit Points until the end of your next turn.",
+      "name": "Chill Touch",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Заговор Некромантии (Чародей, Колдун, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 120 футов\n\n**Компоненты:** В, С\n\n**Длительность:** 1 раунд\n\nВы создаёте призрачную скелетную руку в пространстве существа в пределах дистанции. Совершите дальнобойную атаку заклинанием по этому существу, чтобы поразить его могильным холодом. При попадании цель получает 1к8 некротического урона и не может восстанавливать хиты до начала вашего следующего хода. До этого момента рука цепляется за цель.\n\nЕсли вы попадёте по нежити, она также совершает броски атаки по вам с помехой до конца вашего следующего хода.\n\n**_Усиление заговора._** Урон этого заклинания увеличивается на 1к8, когда вы достигаете 5-го уровня (2к8), 11-го уровня (3к8) и 17-го уровня (4к8).",
+      "glossary_version": "v1",
+      "name": "Могильный холод",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,149 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_safe-transposition",
+  "id": "o5e:toh:spell:toh-safe-transposition",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:safe-transposition",
+      "o5e:toh:spell:toh-safe-transposition"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "8be5711d5332da065b32b820767fe97ed2a005d924d8a037bffc0b2441b417ab",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "reaction",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": false
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "8be5711d5332da065b32b820767fe97ed2a005d924d8a037bffc0b2441b417ab",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-safe-transposition",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "901d7b018e11fd6813de8bce35b87582ec433bf66f52daa098a294ab2b402b2b",
+        "edition": "2014",
+        "id": "o5e:toh:spell:safe-transposition",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "reaction",
+      "concentration": false,
+      "desc": "You cast this spell when an ally below half its hit point maximum within range is attacked. You swap places with your ally, each of you instantly teleporting into the space the other just occupied. If there isn't room for you in the new space or for your ally in your former space, this spell fails. After the two of you teleport, the triggering attack roll is compared to your AC to determine if it hits you.",
+      "document": "toh",
+      "duration": "instantaneous",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Safe Transposition",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "reaction_condition": "which you take when an injured ally is attacked",
+      "ritual": false,
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": false
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "309",
+          "parent": "toh_safe-transposition",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Safe Transposition",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You cast this spell when an ally below half its hit point maximum within range is attacked. You swap places with your ally, each of you instantly teleporting into the space the other just occupied. If there isn't room for you in the new space or for your ally in your former space, this spell fails. After the two of you teleport, the triggering attack roll is compared to your AC to determine if it hits you.",
+      "name": "Safe Transposition",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы творите это заклинание, когда союзник ниже половины своего максимума хитов в пределах дистанции атакован. Вы меняетесь местами с вашим союзником, каждый из вас мгновенно телепортируется в пространство, которое другой только что занимал. Если нет места для вас в новом пространстве или для вашего союзника в вашем прежнем пространстве, это заклинание проваливается. После того как вы оба телепортируетесь, вызывающий бросок атаки сравнивается с вашим КД, чтобы определить, попадает ли он по вам.",
+      "glossary_version": "v1",
+      "name": "Безопасная транспозиция",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

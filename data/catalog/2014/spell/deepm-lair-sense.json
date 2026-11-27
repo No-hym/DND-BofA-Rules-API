@@ -1,0 +1,205 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_lair-sense",
+  "id": "o5e:deepm:spell:deepm-lair-sense",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-lair-sense",
+      "o5e:dmag:spell:lair-sense"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "263c342b41740db9efd75f37cef445e2cfa4695d07cc053aa4f0ad92cf93fc18",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "ritual",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "24 hours",
+      "level": 2,
+      "material": true,
+      "material_consumed": true,
+      "material_cost": "500.00",
+      "material_specified": "treasure worth at least 500 gp, which is not consumed in casting",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "saving_throw_ability": "",
+      "school": "divination",
+      "shape_size": 100,
+      "shape_size_unit": null,
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "263c342b41740db9efd75f37cef445e2cfa4695d07cc053aa4f0ad92cf93fc18",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-lair-sense",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "06bb827ca36c28516878f4caaea3b878eb018ef513889a77760cabba6c2f9146",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:lair-sense",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "concentration": false,
+      "desc": "You set up a magical boundary around your lair. The boundary can’t exceed the dimensions of a 100-foot cube, but within that maximum, you can shape it as you like—to follow the walls of a building or cave, for example. While the spell lasts, you instantly become aware of any Tiny or larger creature that enters the enclosed area. You know the creature’s type but nothing else about it. You are also aware when creatures leave the area.\n\nThis awareness is enough to wake you from sleep, and you receive the knowledge as long as you’re on the same plane of existence as your lair.\n",
+      "document": "deepm",
+      "duration": "24 hours",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, add 50 feet to the maximum dimensions of the cube and add 12 hours to the spell’s duration for each slot level above 2nd.",
+      "level": 2,
+      "material": true,
+      "material_consumed": true,
+      "material_cost": "500.00",
+      "material_specified": "treasure worth at least 500 gp, which is not consumed in casting",
+      "name": "Lair Sense",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "school": "divination",
+      "shape_size": 100,
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3675",
+          "parent": "deepm_lair-sense",
+          "type": "default"
+        },
+        {
+          "external_id": "3676",
+          "parent": "deepm_lair-sense",
+          "type": "ritual"
+        },
+        {
+          "duration": "36 hours",
+          "external_id": "3678",
+          "parent": "deepm_lair-sense",
+          "type": "slot_level_3"
+        },
+        {
+          "duration": "48 hours",
+          "external_id": "3679",
+          "parent": "deepm_lair-sense",
+          "type": "slot_level_4"
+        },
+        {
+          "duration": "60 hours",
+          "external_id": "3680",
+          "parent": "deepm_lair-sense",
+          "type": "slot_level_5"
+        },
+        {
+          "duration": "72 hours",
+          "external_id": "3681",
+          "parent": "deepm_lair-sense",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "84 hours",
+          "external_id": "3682",
+          "parent": "deepm_lair-sense",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "96 hours",
+          "external_id": "3683",
+          "parent": "deepm_lair-sense",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "108 hours",
+          "external_id": "3684",
+          "parent": "deepm_lair-sense",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Lair Sense",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You set up a magical boundary around your lair. The boundary can’t exceed the dimensions of a 100-foot cube, but within that maximum, you can shape it as you like—to follow the walls of a building or cave, for example. While the spell lasts, you instantly become aware of any Tiny or larger creature that enters the enclosed area. You know the creature’s type but nothing else about it. You are also aware when creatures leave the area.\n\nThis awareness is enough to wake you from sleep, and you receive the knowledge as long as you’re on the same plane of existence as your lair.",
+      "name": "Lair Sense",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы устраиваете магическую границу вокруг вашего логова. Граница не может превышать размеров куба 100 футов, но внутри этого максимума вы можете формировать её, как вам нравится — следовать стенам здания или пещеры, например. Пока заклинание длится, вы мгновенно становитесь осведомлены о любом Крошечном или большем существе, которое входит в закрытую область. Вы знаете тип существа, но ничего больше о нём. Вы также осознаёте когда существа покидают область.\n\nЭта осведомлённость достаточна, чтобы разбудить вас от сна, и вы получаете знание, пока вы находитесь на том же плане существования, что и ваше логово.",
+      "glossary_version": "v1",
+      "name": "Чувство логова",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,210 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_banishment",
+  "id": "o5e:srd-2014:spell:srd-banishment",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-banishment",
+      "o5e:wotc-srd:spell:banishment"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "105891ea7da2f21608a20e44a616f6448da40b1fb4eac2c1adb08e193e4a7fe3",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_sorcerer",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "An item distasteful to the target.",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "105891ea7da2f21608a20e44a616f6448da40b1fb4eac2c1adb08e193e4a7fe3",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-banishment",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "250b994a59e604a933fb98a527124147d1788376dba56f817f6b4239de553ec6",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:banishment",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric",
+          "srd_sorcerer",
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_sorcerer",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "desc": "You attempt to send one creature that you can see within range to another plane of existence. The target must succeed on a charisma saving throw or be banished. If the target is native to the plane of existence you're on, you banish the target to a harmless demiplane. While there, the target is incapacitated. The target remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. If the target is native to a different plane of existence than the one you're on, the target is banished with a faint popping noise, returning to its home plane. If the spell ends before 1 minute has passed, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. Otherwise, the target doesn't return.",
+      "document": "srd-2014",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th.",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "An item distasteful to the target.",
+      "name": "Banishment",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5109",
+          "parent": "srd_banishment",
+          "type": "default"
+        },
+        {
+          "external_id": "5111",
+          "parent": "srd_banishment",
+          "target_count": 2,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "5112",
+          "parent": "srd_banishment",
+          "target_count": 3,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "5113",
+          "parent": "srd_banishment",
+          "target_count": 4,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "5114",
+          "parent": "srd_banishment",
+          "target_count": 5,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "5115",
+          "parent": "srd_banishment",
+          "target_count": 6,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Banishment",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You attempt to send one creature that you can see within range to another plane of existence. The target must succeed on a charisma saving throw or be banished. If the target is native to the plane of existence you're on, you banish the target to a harmless demiplane. While there, the target is incapacitated. The target remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. If the target is native to a different plane of existence than the one you're on, the target is banished with a faint popping noise, returning to its home plane. If the spell ends before 1 minute has passed, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. Otherwise, the target doesn't return.",
+      "name": "Banishment",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Ограждение 4-го уровня (Жрец, Паладин, Чародей, Колдун, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В, С, М (предмет, неприятный цели)\n\n**Длительность:** Концентрация, вплоть до 1 минуту\n\nВы пытаетесь отправить одно существо, которое видите в пределах дистанции, на другой план существования. Цель должна преуспеть в спасброске Харизмы, иначе будет изгнана.\n\nЕсли цель родом с плана существования, на котором вы находитесь, вы изгоняете цель в безвредный полуплан. Находясь там, цель недееспособна. Цель остаётся там, пока заклинание не закончится, после чего появляется в покинутом ею пространстве или в ближайшем свободном пространстве, если первое занято.\n\nЕсли цель родом с другого плана существования, она изгоняется с тихим хлопком, возвращаясь на свой родной план. Если заклинание закончится до истечения 1 минуты, цель появляется в покинутом ею пространстве или в ближайшем свободном пространстве, если первое занято. В противном случае цель не возвращается.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 5-го уровня или выше, вы можете нацелиться на одно дополнительное существо за каждый уровень ячейки выше 4-го.",
+      "glossary_version": "v1",
+      "name": "Изгнание",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

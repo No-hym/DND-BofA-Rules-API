@@ -1,0 +1,170 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "srd_circle-of-the-land",
+  "id": "o5e:srd-2014:characterclass:srd-circle-of-the-land",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:characterclass:srd-circle-of-the-land"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "37e21bd14f2db30c9bc8ada2e48865265b3f36033430a23d721b730913786ed0",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_druid"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "37e21bd14f2db30c9bc8ada2e48865265b3f36033430a23d721b730913786ed0",
+        "edition": "2014",
+        "id": "o5e:srd-2014:characterclass:srd-circle-of-the-land",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_druid",
+        "type": "subclass_of",
+        "value": "srd_druid"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "document": "srd-2014",
+      "name": "Circle of the Land",
+      "subclass_of": "srd_druid"
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you choose this circle at 2nd level, you learn one additional druid cantrip of your choice.",
+          "desc_ru": "Когда вы выбираете этот круг на 2-м уровне, вы изучаете один дополнительный заговор друида по вашему выбору.",
+          "document": "srd-2014",
+          "external_id": "srd_circle-of-the-land_bonus-cantrip",
+          "level": 2,
+          "name": "Bonus Cantrip",
+          "name_ru": "Дополнительный заговор",
+          "parent": "srd_circle-of-the-land",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Starting at 2nd level, you can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. You can't use this feature again until you finish a long rest.\r\n\r\nFor example, when you are a 4th-level druid, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level slot or two 1st-level slots.",
+          "desc_ru": "Начиная со 2-го уровня, вы можете восстановить часть своей магической энергии, медитируя и общаясь с природой. Во время короткого отдыха вы выбираете потраченные ячейки заклинаний для восстановления. Суммарный уровень ячеек заклинаний должен быть равен или меньше половины вашего уровня друида (округлённой вверх), и ни одна из ячеек не может быть 6-го уровня или выше. Вы не можете использовать это умение повторно, пока не завершите долгий отдых.\n\nНапример, будучи друидом 4-го уровня, вы можете восстановить ячейки суммарного уровня до двух. Вы можете восстановить одну ячейку 2-го уровня или две ячейки 1-го уровня.",
+          "document": "srd-2014",
+          "external_id": "srd_circle-of-the-land_natural-recovery",
+          "level": 2,
+          "name": "Natural Recovery",
+          "name_ru": "Природное восстановление",
+          "parent": "srd_circle-of-the-land",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your mystical connection to the land infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid. Choose that land-arctic, coast, desert, forest, grassland, mountain, or swamp-and consult the associated list of spells. \r\n\r\nOnce you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.\r\n\r\n**Arctic (table)**\r\n| Druid Level | Circle Spells  | \r\n|---|---| \r\n| 3rd | hold person, spike growth | \r\n| 5th | sleet storm, slow | \r\n| 7th | freedom of movement, ice storm  | \r\n| 9th | commune with nature, cone of cold | \r\n \r\n**Coast (table)** \r\n \r\n| Druid Level | Circle Spells  | \r\n|---|---| \r\n| 3rd | mirror image, misty step | \r\n| 5th | water breathing, water walk  | \r\n| 7th | control water, freedom of movement | \r\n| 9th | conjure elemental, scrying | \r\n \r\n**Desert (table)** \r\n \r\n| Druid Level | Circle Spells | \r\n|---|---| \r\n| 3rd | blur, silence | \r\n| 5th | create food and water, protection from energy | \r\n| 7th | blight, hallucinatory terrain | \r\n| 9th | insect plague, wall of stone  | \r\n \r\n**Forest (table)** \r\n \r\n| Druid Level | Circle Spells  | \r\n|---|---| \r\n| 3rd | barkskin, spider climb | \r\n| 5th | call lightning, plant growth | \r\n| 7th | divination, freedom of movement  | \r\n| 9th | commune with nature, tree stride | \r\n \r\n**Grassland (table)** \r\n \r\n| Druid Level | Circle Spells  | \r\n|---|---| \r\n| 3rd | invisibility, pass without trace | \r\n| 5th | daylight, haste  | \r\n| 7th | divination, freedom of movement  | \r\n| 9th | dream, insect plague | \r\n \r\n**Mountain (table)** \r\n \r\n| Druid Level | Circle Spells | \r\n|---|---| \r\n| 3rd | spider climb, spike growth  | \r\n| 5th | lightning bolt, meld into stone | \r\n| 7th | stone shape, stoneskin  | \r\n| 9th | passwall, wall of stone | \r\n \r\n**Swamp (table)** \r\n \r\n| Druid Level | Circle Spells  | \r\n|---|---| \r\n| 3rd | acid arrow, darkness | \r\n| 5th | water walk, stinking cloud | \r\n| 7th | freedom of movement, locate creature | \r\n| 9th | insect plague, scrying |",
+          "desc_ru": "Ваша мистическая связь с землёй наделяет вас способностью сотворять определённые заклинания. На 3-м, 5-м, 7-м и 9-м уровне вы получаете доступ к заклинаниям круга, связанным с землёй, на которой вы стали друидом. Выберите эту землю — арктика, побережье, пустыня, лес, луга, горы или болото — и обратитесь к соответствующему списку заклинаний.\n\nПолучив доступ к заклинанию круга, вы всегда держите его подготовленным, и оно не учитывается в числе заклинаний, которые вы можете подготовить каждый день. Если вы получаете доступ к заклинанию, которое не входит в список заклинаний друида, оно тем не менее считается заклинанием друида для вас.\n\nТаблица: Заклинания круга арктики\n\n| Уровень друида | Заклинания круга                                 |\n|---|---|\n| 3              | удержание личности, шипы                          |\n| 5              | слякотный дождь, замедление                       |\n| 7              | свобода перемещения, град                         |\n| 9              | связь с природой, конус холода                    |\n\nТаблица: Заклинания круга побережья\n\n| Уровень друида | Заклинания круга                                  |\n|---|---|\n| 3              | отражения, туманный шаг                           |\n| 5              | дыхание под водой, хождение по воде               |\n| 7              | власть над водой, свобода перемещения              |\n| 9              | сотворение элементаля, наблюдение                 |\n\nТаблица: Заклинания круга пустыни\n\n| Уровень друида | Заклинания круга                                          |\n|---|---|\n| 3              | размытость, тишина                                        |\n| 5              | сотворение пищи и воды, защита от энергии                 |\n| 7              | гниль, иллюзорная местность                               |\n| 9              | нашествие насекомых, каменная стена                        |\n\nТаблица: Заклинания круга леса\n\n| Уровень друида | Заклинания круга                                 |\n|---|---|\n| 3              | кора, паучье лазание                              |\n| 5              | молния с небес, рост растений                     |\n| 7              | гадание, свобода перемещения                      |\n| 9              | связь с природой, шаг сквозь деревья              |\n\nТаблица: Заклинания круга лугов\n\n| Уровень друида | Заклинания круга                                 |\n|---|---|\n| 3              | невидимость, бесследное передвижение              |\n| 5              | дневной свет, ускорение                           |\n| 7              | гадание, свобода перемещения                      |\n| 9              | сон, нашествие насекомых                          |\n\nТаблица: Заклинания круга гор\n\n| Уровень друида | Заклинания круга                                 |\n|---|---|\n| 3              | паучье лазание, шипы                              |\n| 5              | молния, слияние с камнем                          |\n| 7              | изменение формы камня, каменная кожа              |\n| 9              | проход, каменная стена                            |\n\nТаблица: Заклинания круга болот\n\n| Уровень друида | Заклинания круга                                     |\n|---|---|\n| 3              | кислотная стрела, тьма                               |\n| 5              | хождение по воде, удушающее облако                   |\n| 7              | свобода перемещения, поиск существа                  |\n| 9              | нашествие насекомых, наблюдение                      |",
+          "document": "srd-2014",
+          "external_id": "srd_circle-of-the-land_circle-spells",
+          "level": 3,
+          "name": "Circle Spells",
+          "name_ru": "Заклинания круга",
+          "parent": "srd_circle-of-the-land",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.\r\n\r\nIn addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.",
+          "desc_ru": "Начиная с 6-го уровня, перемещение по немагической труднопроходимой местности не стоит вам дополнительного перемещения. Вы также можете проходить сквозь немагические растения, не замедляясь и не получая от них урона, если у них есть шипы, колючки или подобная опасность.\n\nКроме того, вы совершаете с преимуществом спасброски от растений, магически созданных или изменённых для замедления перемещения, таких как созданные заклинанием *опутывание*.",
+          "document": "srd-2014",
+          "external_id": "srd_circle-of-the-land_lands-stride",
+          "level": 6,
+          "name": "Land's Stride",
+          "name_ru": "Поступь по земле",
+          "parent": "srd_circle-of-the-land",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "When you reach 10th level, you can't be charmed or frightened by elementals or fey, and you are immune to poison and disease.",
+          "desc_ru": "Вы получаете иммунитет к состоянию Отравленный и сопротивление к типу урона, связанному с вашим текущим выбором земли в умении Заклинания Круга Земли, как показано в таблице Защита природы.\n\nТаблица: Защита природы\n\n| Тип земли   | Сопротивление | Тип земли  | Сопротивление |\n|---|---|---|---|\n| Засушливая  | Огонь         | Умеренная  | Электричество |\n| Полярная    | Холод         | Тропическая | Яд           |",
+          "document": "srd-2014",
+          "external_id": "srd_circle-of-the-land_natures-ward",
+          "level": 10,
+          "name": "Nature's Ward",
+          "name_ru": "Защита природы",
+          "parent": "srd_circle-of-the-land",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "When you reach 14th level, creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your druid spell save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.\r\n\r\nThe creature is aware of this effect before it makes its attack against you.",
+          "desc_ru": "Достигнув 14-го уровня, существа природного мира чувствуют вашу связь с природой и неохотно нападают на вас. Когда зверь или растительное существо атакует вас, оно должно совершить спасбросок Мудрости против СЛ спасброска от ваших заклинаний друида. При провале существо должно выбрать другую цель, или атака автоматически промахивается. При успехе существо получает иммунитет к этому эффекту на 24 часа.\n\nСущество осознаёт этот эффект до того, как совершит атаку против вас.\n\n>**Священные растения и дерево**\n>\n>Друид считает определённые растения священными, особенно ольху, ясень, берёзу, бузину, лещину, падуб, можжевельник, омелу, дуб, рябину, иву и тис. Друиды часто используют такие растения в качестве фокусировки для заклинаний, используя куски дуба или тиса или веточки омелы.\n>\n>Точно так же друид использует такую древесину для изготовления других предметов, таких как оружие и щиты. Тис ассоциируется со смертью и перерождением, поэтому рукояти для скимитаров или серпов могут быть сделаны из него. Ясень ассоциируется с жизнью, а дуб — с силой. Эти породы дерева отлично подходят для древков или цельного оружия, такого как дубинки или боевые посохи, а также для щитов. Ольха ассоциируется с воздухом и может использоваться для метательного оружия, такого как дротики или копья.\n>\n>Друиды из регионов, где нет описанных здесь растений, выбрали другие растения для аналогичных целей. Например, друид пустынного региона может ценить юкку и кактусы.\n>\n>**Друиды и боги**\n>\n>Некоторые друиды почитают сами силы природы, но большинство друидов посвящены одному из многих природных божеств, которым поклоняются в мультивселенной (списки богов в приложении Б включают многих таких божеств). Поклонение этим божествам часто считается более древней традицией, чем вероучения жрецов и городских народов.",
+          "document": "srd-2014",
+          "external_id": "srd_circle-of-the-land_natures-sanctuary",
+          "level": 14,
+          "name": "Nature's Sanctuary",
+          "name_ru": "Святилище природы",
+          "parent": "srd_circle-of-the-land",
+          "ru_source": "memory"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "assembled_features": 6,
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "Circle of the Land",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Circle of the Land",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Круг земли состоит из мистиков и мудрецов, хранящих древние знания и ритуалы через обширную устную традицию. Эти друиды собираются в священных кругах деревьев или стоячих камней, чтобы шептать первозданные тайны на друидическом языке. Мудрейшие члены круга возглавляют общины, придерживающиеся Старой Веры, и служат советниками правителей этих народов. Как член этого круга, ваша магия находится под влиянием земли, на которой вы были посвящены в таинственные обряды круга.\n\n### Уровень 2: Дополнительный заговор\n\nКогда вы выбираете этот круг на 2-м уровне, вы изучаете один дополнительный заговор друида по вашему выбору.\n\n### Уровень 2: Природное восстановление\n\nНачиная со 2-го уровня, вы можете восстановить часть своей магической энергии, медитируя и общаясь с природой. Во время короткого отдыха вы выбираете потраченные ячейки заклинаний для восстановления. Суммарный уровень ячеек заклинаний должен быть равен или меньше половины вашего уровня друида (округлённой вверх), и ни одна из ячеек не может быть 6-го уровня или выше. Вы не можете использовать это умение повторно, пока не завершите долгий отдых.\n\nНапример, будучи друидом 4-го уровня, вы можете восстановить ячейки суммарного уровня до двух. Вы можете восстановить одну ячейку 2-го уровня или две ячейки 1-го уровня.\n\n### Уровень 3: Заклинания круга\n\nВаша мистическая связь с землёй наделяет вас способностью сотворять определённые заклинания. На 3-м, 5-м, 7-м и 9-м уровне вы получаете доступ к заклинаниям круга, связанным с землёй, на которой вы стали друидом. Выберите эту землю — арктика, побережье, пустыня, лес, луга, горы или болото — и обратитесь к соответствующему списку заклинаний.\n\nПолучив доступ к заклинанию круга, вы всегда держите его подготовленным, и оно не учитывается в числе заклинаний, которые вы можете подготовить каждый день. Если вы получаете доступ к заклинанию, которое не входит в список заклинаний друида, оно тем не менее считается заклинанием друида для вас.\n\nТаблица: Заклинания круга арктики\n\n| Уровень друида | Заклинания круга                                 |\n|---|---|\n| 3              | удержание личности, шипы                          |\n| 5              | слякотный дождь, замедление                       |\n| 7              | свобода перемещения, град                         |\n| 9              | связь с природой, конус холода                    |\n\nТаблица: Заклинания круга побережья\n\n| Уровень друида | Заклинания круга                                  |\n|---|---|\n| 3              | отражения, туманный шаг                           |\n| 5              | дыхание под водой, хождение по воде               |\n| 7              | власть над водой, свобода перемещения              |\n| 9              | сотворение элементаля, наблюдение                 |\n\nТаблица: Заклинания круга пустыни\n\n| Уровень друида | Заклинания круга                                          |\n|---|---|\n| 3              | размытость, тишина                                        |\n| 5              | сотворение пищи и воды, защита от энергии                 |\n| 7              | гниль, иллюзорная местность                               |\n| 9              | нашествие насекомых, каменная стена                        |\n\nТаблица: Заклинания круга леса\n\n| Уровень друида | Заклинания круга                                 |\n|---|---|\n| 3              | кора, паучье лазание                              |\n| 5              | молния с небес, рост растений                     |\n| 7              | гадание, свобода перемещения                      |\n| 9              | связь с природой, шаг сквозь деревья              |\n\nТаблица: Заклинания круга лугов\n\n| Уровень друида | Заклинания круга                                 |\n|---|---|\n| 3              | невидимость, бесследное передвижение              |\n| 5              | дневной свет, ускорение                           |\n| 7              | гадание, свобода перемещения                      |\n| 9              | сон, нашествие насекомых                          |\n\nТаблица: Заклинания круга гор\n\n| Уровень друида | Заклинания круга                                 |\n|---|---|\n| 3              | паучье лазание, шипы                              |\n| 5              | молния, слияние с камнем                          |\n| 7              | изменение формы камня, каменная кожа              |\n| 9              | проход, каменная стена                            |\n\nТаблица: Заклинания круга болот\n\n| Уровень друида | Заклинания круга                                     |\n|---|---|\n| 3              | кислотная стрела, тьма                               |\n| 5              | хождение по воде, удушающее облако                   |\n| 7              | свобода перемещения, поиск существа                  |\n| 9              | нашествие насекомых, наблюдение                      |\n\n### Уровень 6: Поступь по земле\n\nНачиная с 6-го уровня, перемещение по немагической труднопроходимой местности не стоит вам дополнительного перемещения. Вы также можете проходить сквозь немагические растения, не замедляясь и не получая от них урона, если у них есть шипы, колючки или подобная опасность.\n\nКроме того, вы совершаете с преимуществом спасброски от растений, магически созданных или изменённых для замедления перемещения, таких как созданные заклинанием *опутывание*.\n\n### Уровень 10: Защита природы\n\nВы получаете иммунитет к состоянию Отравленный и сопротивление к типу урона, связанному с вашим текущим выбором земли в умении Заклинания Круга Земли, как показано в таблице Защита природы.\n\nТаблица: Защита природы\n\n| Тип земли   | Сопротивление | Тип земли  | Сопротивление |\n|---|---|---|---|\n| Засушливая  | Огонь         | Умеренная  | Электричество |\n| Полярная    | Холод         | Тропическая | Яд           |\n\n### Уровень 14: Святилище природы\n\nДостигнув 14-го уровня, существа природного мира чувствуют вашу связь с природой и неохотно нападают на вас. Когда зверь или растительное существо атакует вас, оно должно совершить спасбросок Мудрости против СЛ спасброска от ваших заклинаний друида. При провале существо должно выбрать другую цель, или атака автоматически промахивается. При успехе существо получает иммунитет к этому эффекту на 24 часа.\n\nСущество осознаёт этот эффект до того, как совершит атаку против вас.\n\n>**Священные растения и дерево**\n>\n>Друид считает определённые растения священными, особенно ольху, ясень, берёзу, бузину, лещину, падуб, можжевельник, омелу, дуб, рябину, иву и тис. Друиды часто используют такие растения в качестве фокусировки для заклинаний, используя куски дуба или тиса или веточки омелы.\n>\n>Точно так же друид использует такую древесину для изготовления других предметов, таких как оружие и щиты. Тис ассоциируется со смертью и перерождением, поэтому рукояти для скимитаров или серпов могут быть сделаны из него. Ясень ассоциируется с жизнью, а дуб — с силой. Эти породы дерева отлично подходят для древков или цельного оружия, такого как дубинки или боевые посохи, а также для щитов. Ольха ассоциируется с воздухом и может использоваться для метательного оружия, такого как дротики или копья.\n>\n>Друиды из регионов, где нет описанных здесь растений, выбрали другие растения для аналогичных целей. Например, друид пустынного региона может ценить юкку и кактусы.\n>\n>**Друиды и боги**\n>\n>Некоторые друиды почитают сами силы природы, но большинство друидов посвящены одному из многих природных божеств, которым поклоняются в мультивселенной (списки богов в приложении Б включают многих таких божеств). Поклонение этим божествам часто считается более древней традицией, чем вероучения жрецов и городских народов.",
+      "glossary_version": "v1",
+      "name": "Круг земли",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

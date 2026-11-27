@@ -1,0 +1,261 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_clockwork-bolt",
+  "id": "o5e:deepm:spell:deepm-clockwork-bolt",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-clockwork-bolt",
+      "o5e:dmag:spell:clockwork-bolt"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "a83e14616dd31649ded64a10023383b53cf4e05a060bed8da91210a559d9e13b",
+    "formulas": [
+      {
+        "expression": "1d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "slashing"
+      ],
+      "duration": "1 round",
+      "level": 0,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "an arrow or crossbow bolt",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "a83e14616dd31649ded64a10023383b53cf4e05a060bed8da91210a559d9e13b",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-clockwork-bolt",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "0d099fad5432ce96c111f607441cb744c3ae80da7060906f2a9df47a19a9caf0",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:clockwork-bolt",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "slashing"
+      ],
+      "desc": "You imbue an arrow or crossbow bolt with clockwork magic just as you fire it at your target; spinning blades materialize on the missile after it strikes to further mutilate your enemy.\n\nAs part of the action used to cast this spell, you make a ranged weapon attack with a bow or a crossbow against one creature within range. If the attack hits, the missile embeds in the target. Unless the target (or an ally of it within 5 feet) uses an action to remove the projectile (which deals no additional damage), the target takes an additional 1d8 slashing damage at the end of its next turn from spinning blades that briefly sprout from the missile’s shaft. Afterward, the projectile reverts to normal.",
+      "document": "deepm",
+      "duration": "1 round",
+      "higher_level": "This spell deals more damage when you reach higher levels. At 5th level, the ranged attack deals an extra 1d8 slashing damage to the target, and the target takes an additional 1d8 slashing damage (2d8 total) if the embedded ammunition isn’t removed. Both damage amounts increase by 1d8 again at 11th level and at 17th level.",
+      "level": 0,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "an arrow or crossbow bolt",
+      "name": "Clockwork Bolt",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2752",
+          "parent": "deepm_clockwork-bolt",
+          "type": "default"
+        },
+        {
+          "external_id": "2753",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_1"
+        },
+        {
+          "external_id": "2754",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_2"
+        },
+        {
+          "external_id": "2755",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_3"
+        },
+        {
+          "external_id": "2756",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_4"
+        },
+        {
+          "external_id": "2757",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_5"
+        },
+        {
+          "external_id": "2758",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_6"
+        },
+        {
+          "external_id": "2759",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_7"
+        },
+        {
+          "external_id": "2760",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_8"
+        },
+        {
+          "external_id": "2761",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_9"
+        },
+        {
+          "external_id": "2762",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_10"
+        },
+        {
+          "external_id": "2763",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_11"
+        },
+        {
+          "external_id": "2764",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_12"
+        },
+        {
+          "external_id": "2765",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_13"
+        },
+        {
+          "external_id": "2766",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_14"
+        },
+        {
+          "external_id": "2767",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_15"
+        },
+        {
+          "external_id": "2768",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_16"
+        },
+        {
+          "external_id": "2769",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_17"
+        },
+        {
+          "external_id": "2770",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_18"
+        },
+        {
+          "external_id": "2771",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_19"
+        },
+        {
+          "external_id": "2772",
+          "parent": "deepm_clockwork-bolt",
+          "type": "player_level_20"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Clockwork Bolt",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You imbue an arrow or crossbow bolt with clockwork magic just as you fire it at your target; spinning blades materialize on the missile after it strikes to further mutilate your enemy.\n\nAs part of the action used to cast this spell, you make a ranged weapon attack with a bow or a crossbow against one creature within range. If the attack hits, the missile embeds in the target. Unless the target (or an ally of it within 5 feet) uses an action to remove the projectile (which deals no additional damage), the target takes an additional 1d8 slashing damage at the end of its next turn from spinning blades that briefly sprout from the missile’s shaft. Afterward, the projectile reverts to normal.",
+      "name": "Clockwork Bolt",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы наполняете стрелу или арбалетный болт заводной магией в тот момент, когда выпускаете её в цель; после попадания на снаряде материализуются вращающиеся клинки, чтобы ещё сильнее изувечить вашего врага.\n\nВ рамках действия, использованного для творения этого заклинания, вы совершаете дальнобойную атаку оружием луком или арбалетом по одному существу в пределах дистанции. Если атака попадает, снаряд вонзается в цель. Если цель (или её союзник в пределах 5 футов) не потратит действие, чтобы извлечь снаряд (что не наносит дополнительного урона), цель получает дополнительно 1к8 рубящего урона в конце своего следующего хода от вращающихся клинков, ненадолго вырастающих из древка снаряда. После этого снаряд становится обычным.",
+      "glossary_version": "v1",
+      "name": "Заводной болт",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

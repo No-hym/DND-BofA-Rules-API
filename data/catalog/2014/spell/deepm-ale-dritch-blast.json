@@ -1,0 +1,281 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_ale-dritch-blast",
+  "id": "o5e:deepm:spell:deepm-ale-dritch-blast",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-ale-dritch-blast",
+      "o5e:dmag:spell:ale-dritch-blast"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "06187bf927f6026d95da686648f2351a635c7143544c870453771955d47c4545",
+    "formulas": [
+      {
+        "expression": "1d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_druid",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "cold"
+      ],
+      "duration": "instantaneous",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "06187bf927f6026d95da686648f2351a635c7143544c870453771955d47c4545",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-ale-dritch-blast",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "79225f8f9933c17c4bc52a9526d606e97dcf0cf8bf1428ec5654c7b40bcc410a",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:ale-dritch-blast",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "classes",
+        "value": [
+          "srd_bard",
+          "srd_druid",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_druid",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "cold"
+      ],
+      "desc": "A stream of ice-cold ale blasts from your outstretched hands toward a creature or object within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage and it must make a successful Constitution saving throw or be poisoned until the end of its next turn. A targeted creature has disadvantage on the saving throw if it has drunk any alcohol within the last hour.",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "higher_level": "The damage increases when you reach higher levels: 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "name": "Ale-dritch Blast",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2285",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "default"
+        },
+        {
+          "external_id": "2286",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_1"
+        },
+        {
+          "external_id": "2287",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_2"
+        },
+        {
+          "external_id": "2288",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_3"
+        },
+        {
+          "external_id": "2289",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_4"
+        },
+        {
+          "external_id": "2290",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_5"
+        },
+        {
+          "external_id": "2291",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_6"
+        },
+        {
+          "external_id": "2292",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_7"
+        },
+        {
+          "external_id": "2293",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_8"
+        },
+        {
+          "external_id": "2294",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_9"
+        },
+        {
+          "external_id": "2295",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_10"
+        },
+        {
+          "external_id": "2296",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_11"
+        },
+        {
+          "external_id": "2297",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_12"
+        },
+        {
+          "external_id": "2298",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_13"
+        },
+        {
+          "external_id": "2299",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_14"
+        },
+        {
+          "external_id": "2300",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_15"
+        },
+        {
+          "external_id": "2301",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_16"
+        },
+        {
+          "external_id": "2302",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_17"
+        },
+        {
+          "external_id": "2303",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_18"
+        },
+        {
+          "external_id": "2304",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_19"
+        },
+        {
+          "external_id": "2305",
+          "parent": "deepm_ale-dritch-blast",
+          "type": "player_level_20"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Ale-dritch Blast",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "A stream of ice-cold ale blasts from your outstretched hands toward a creature or object within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage and it must make a successful Constitution saving throw or be poisoned until the end of its next turn. A targeted creature has disadvantage on the saving throw if it has drunk any alcohol within the last hour.",
+      "name": "Ale-dritch Blast",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Поток ледяного эля вырывается из ваших вытянутых рук в существо или объект в пределах дистанции. Совершите дальнобойную атаку заклинанием против цели. При попадании она получает 1к8 урона холодом и должна совершить успешный спасбросок Телосложения или быть отравленной до конца своего следующего хода. Целевое существо имеет помеху на спасбросок, если оно пило любой алкоголь в течение последнего часа.",
+      "glossary_version": "v1",
+      "name": "Эль-дритч взрыв",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

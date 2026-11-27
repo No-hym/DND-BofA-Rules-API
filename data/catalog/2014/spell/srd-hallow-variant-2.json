@@ -1,0 +1,169 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_hallow",
+  "id": "o5e:srd-2014:spell:srd-hallow-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-hallow",
+      "o5e:wotc-srd:spell:hallow"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "3e8432bb26ab34533911e58668ca3d33f18a4154ddb7a054db210d56e9e32779",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "24hours",
+      "classes": [
+        "srd_cleric",
+        "srd_warlock"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "until dispelled",
+      "level": 5,
+      "material": true,
+      "material_consumed": true,
+      "material_cost": "1000.00",
+      "material_specified": "Herbs, oils, and incense worth at least 1,000 gp, which the spell consumes.",
+      "range": 0.1,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "3e8432bb26ab34533911e58668ca3d33f18a4154ddb7a054db210d56e9e32779",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-hallow",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "44b84a110154ab097054d0c4c69d9115cfca2dcae09330d8b2799aef3ad67510",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:hallow",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric",
+          "srd_warlock"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "24hours",
+      "classes": [
+        "srd_cleric",
+        "srd_warlock"
+      ],
+      "concentration": false,
+      "desc": "You touch a point and infuse an area around it with holy (or unholy) power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect a hallow spell. The affected area is subject to the following effects. First, celestials, elementals, fey, fiends, and undead can't enter the area, nor can such creatures charm, frighten, or possess creatures within it. Any creature charmed, frightened, or possessed by such a creature is no longer charmed, frightened, or possessed upon entering the area. You can exclude one or more of those types of creatures from this effect. Second, you can bind an extra effect to the area. Choose the effect from the following list, or choose an effect offered by the DM. Some of these effects apply to creatures in the area; you can designate whether the effect applies to all creatures, creatures that follow a specific deity or leader, or creatures of a specific sort, such as ores or trolls. When a creature that would be affected enters the spell's area for the first time on a turn or starts its turn there, it can make a charisma saving throw. On a success, the creature ignores the extra effect until it leaves the area.\n\n**Courage.** Affected creatures can't be frightened while in the area.\n\n**Darkness.** Darkness fills the area. Normal light, as well as magical light created by spells of a lower level than the slot you used to cast this spell, can't illuminate the area\n\n **Daylight.** Bright light fills the area. Magical darkness created by spells of a lower level than the slot you used to cast this spell can't extinguish the light.\n\n**Energy Protection.** Affected creatures in the area have resistance to one damage type of your choice, except for bludgeoning, piercing, or slashing\n\n **Energy Vulnerability.** Affected creatures in the area have vulnerability to one damage type of your choice, except for bludgeoning, piercing, or slashing.\n\n**Everlasting Rest.** Dead bodies interred in the area can't be turned into undead.\n\n**Extradimensional Interference.** Affected creatures can't move or travel using teleportation or by extradimensional or interplanar means.\n\n**Fear.** Affected creatures are frightened while in the area.\n\n**Silence.** No sound can emanate from within the area, and no sound can reach into it.\n\n**Tongues.** Affected creatures can communicate with any other creature in the area, even if they don't share a common language.",
+      "document": "srd-2014",
+      "duration": "until dispelled",
+      "level": 5,
+      "material": true,
+      "material_consumed": true,
+      "material_cost": "1000.00",
+      "material_specified": "Herbs, oils, and incense worth at least 1,000 gp, which the spell consumes.",
+      "name": "Hallow",
+      "range": 0.1,
+      "range_text": "Touch",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5582",
+          "parent": "srd_hallow",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Hallow",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:a5e-ag:spell:a5e-ag-hallow"
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You touch a point and infuse an area around it with holy (or unholy) power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect a hallow spell. The affected area is subject to the following effects. First, celestials, elementals, fey, fiends, and undead can't enter the area, nor can such creatures charm, frighten, or possess creatures within it. Any creature charmed, frightened, or possessed by such a creature is no longer charmed, frightened, or possessed upon entering the area. You can exclude one or more of those types of creatures from this effect. Second, you can bind an extra effect to the area. Choose the effect from the following list, or choose an effect offered by the DM. Some of these effects apply to creatures in the area; you can designate whether the effect applies to all creatures, creatures that follow a specific deity or leader, or creatures of a specific sort, such as ores or trolls. When a creature that would be affected enters the spell's area for the first time on a turn or starts its turn there, it can make a charisma saving throw. On a success, the creature ignores the extra effect until it leaves the area.\n\n**Courage.** Affected creatures can't be frightened while in the area.\n\n**Darkness.** Darkness fills the area. Normal light, as well as magical light created by spells of a lower level than the slot you used to cast this spell, can't illuminate the area\n\n **Daylight.** Bright light fills the area. Magical darkness created by spells of a lower level than the slot you used to cast this spell can't extinguish the light.\n\n**Energy Protection.** Affected creatures in the area have resistance to one damage type of your choice, except for bludgeoning, piercing, or slashing\n\n **Energy Vulnerability.** Affected creatures in the area have vulnerability to one damage type of your choice, except for bludgeoning, piercing, or slashing.\n\n**Everlasting Rest.** Dead bodies interred in the area can't be turned into undead.\n\n**Extradimensional Interference.** Affected creatures can't move or travel using teleportation or by extradimensional or interplanar means.\n\n**Fear.** Affected creatures are frightened while in the area.\n\n**Silence.** No sound can emanate from within the area, and no sound can reach into it.\n\n**Tongues.** Affected creatures can communicate with any other creature in the area, even if they don't share a common language.",
+      "name": "Hallow",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 5-го уровня (Жрец)*\n\n**Время накладывания:** 24 часов\n\n**Дистанция:** Касание\n\n**Компоненты:** В, С, М (травы, масла и благовоние стоимостью не менее 1 000 зм, расходуемые заклинанием)\n\n**Длительность:** Пока не будет рассеяно\n\nВы касаетесь точки и наполняете область вокруг неё святой (или нечестивой) силой. Область может иметь радиус до 60 футов, и заклинание проваливается, если радиус включает область, уже находящуюся под действием заклинания *святилище*. На затронутую область распространяются следующие эффекты.\n\nВо-первых, небожители, элементали, феи, исчадия и нежить не могут входить в область, и такие существа не могут очаровывать, пугать или одержимо овладевать существами внутри неё. Любое существо, очарованное, испуганное или одержимое таким существом, более не очаровано, не испугано и не одержимо при входе в область. Вы можете исключить один или несколько видов таких существ из этого эффекта.\n\nВо-вторых, вы можете привязать дополнительный эффект к области. Выберите эффект из следующего списка или выберите эффект, предложенный Мастером. Некоторые из этих эффектов действуют на существ в области; вы можете указать, действует ли эффект на всех существ, на существ, следующих за определённым божеством или лидером, или на существ определённого вида, таких как орки или тролли. Когда существо, которое подверглось бы воздействию, впервые за ход входит в область заклинания или начинает в ней свой ход, оно может совершить спасбросок Харизмы. При успехе существо игнорирует дополнительный эффект, пока не покинет область.\n\n**_Храбрость._** Затронутые существа не могут быть испуганы, находясь в области.\n\n**_Тьма._** Тьма заполняет область. Обычный свет, а также магический свет, созданный заклинаниями более низкого уровня, чем ячейка, использованная для сотворения этого заклинания, не могут осветить область.\n\n**_Дневной свет._** Яркий свет заполняет область. Магическая тьма, созданная заклинаниями более низкого уровня, чем ячейка, использованная для сотворения этого заклинания, не может погасить свет.\n\n**_Защита от энергии._** Затронутые существа в области получают сопротивление к одному виду урона по вашему выбору, кроме дробящего, колющего или рубящего.\n\n**_Уязвимость к энергии._** Затронутые существа в области получают уязвимость к одному виду урона по вашему выбору, кроме дробящего, колющего или рубящего.\n\n**_Вечный покой._** Мёртвые тела, погребённые в области, не могут быть превращены в нежить.\n\n**_Внемерное вмешательство._** Затронутые существа не могут перемещаться или путешествовать с помощью телепортации или внемерных и межпланарных средств.\n\n**_Страх._** Затронутые существа испуганы, находясь в области.\n\n**_Тишина._** Никакой звук не может исходить из области и проникать в неё.\n\n**_Языки._** Затронутые существа могут общаться с любым другим существом в области, даже если у них нет общего языка.",
+      "glossary_version": "v1",
+      "name": "Освящение",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

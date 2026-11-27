@@ -1,0 +1,180 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_legionary",
+  "id": "o5e:toh:characterclass:toh-legionary",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-legionary"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c03fc0eb62347187f8332645cd5b5feddace39a029a52342dd90b5fbcf73756d",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_fighter"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "c03fc0eb62347187f8332645cd5b5feddace39a029a52342dd90b5fbcf73756d",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-legionary",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_fighter",
+        "type": "subclass_of",
+        "value": "srd_fighter"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "A legionary follows the techniques of close-quarters combat developed by soldiers fighting shoulder to shoulder with their allies. This style of fighting spread far and wide, finding an honored place among the armies and mercenary companies of other races. True legionaries scoff at the image of the storybook hero standing alone against impossible odds, knowing together they can face any danger and emerge victorious.",
+      "document": "toh",
+      "name": "Legionary",
+      "subclass_of": "srd_fighter"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you choose this archetype at 3rd level, you gain proficiency in the Insight, Nature, or Survival skill (your choice).",
+          "desc_ru": "Когда вы выбираете этот архетип на 3-м уровне, вы получаете владение навыком Проницательность, Природа или Выживание (на ваш выбор).",
+          "document": "toh",
+          "external_id": "toh_legionary_bonus-proficiency",
+          "level": 3,
+          "name": "Bonus Proficiency",
+          "name_ru": "Дополнительное владение",
+          "parent": "toh_legionary",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 3rd level, you learn techniques and strategies for close-quarter combat. On your first attack each round, you gain a +1 bonus to the attack and damage rolls if at least one friendly creature is within 5 feet of you.",
+          "desc_ru": "Начиная с 3-го уровня вы изучаете техники и стратегии ближнего боя. При вашей первой атаке в каждом раунде вы получаете бонус +1 к броскам атаки и урона, если как минимум одно дружественное существо находится в пределах 5 футов от вас.",
+          "document": "toh",
+          "external_id": "toh_legionary_coordinated-fighting",
+          "level": 3,
+          "name": "Coordinated Fighting",
+          "name_ru": "Скоординированный бой",
+          "parent": "toh_legionary",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 3rd level, at any point while moving on your turn, you can command a number of willing, friendly creatures within 5 feet of you up to your proficiency bonus to move with you. Each creature that chooses to move with you can use a reaction to move up to its speed alongside you, remaining within 5 feet of you while moving. This movement doesn't provoke opportunity attacks. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of it when you finish a long rest.",
+          "desc_ru": "На 3-м уровне в любой точке при перемещении в ваш ход вы можете приказать количеству согласных дружественных существ в пределах 5 футов от вас, до вашего бонуса мастерства, перемещаться с вами. Каждое существо, которое выбирает перемещаться с вами, может реакцией переместиться на расстояние до его скорости рядом с вами, оставаясь в пределах 5 футов от вас при перемещении. Это перемещение не провоцирует внеочередные атаки. Вы можете использовать эту особенность количество раз, равное вашему бонусу мастерства. Вы восстанавливаете все потраченные использования её, когда заканчиваете продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_legionary_move-as-one",
+          "level": 3,
+          "name": "Move As One",
+          "name_ru": "Двигаться как один",
+          "parent": "toh_legionary",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 7th level, you learn better techniques and strategies for fighting closely alongside your allies. On your first attack each round, you gain a +1 bonus to the attack and damage rolls for each friendly creature within 5 feet of you, up to a maximum bonus equal to your proficiency bonus.\n  In addition, when you use your Action Surge feature, each friendly creature within 15 feet of you (except you) gains a +2 bonus to AC and to Dexterity saving throws for 1 minute.",
+          "desc_ru": "Начиная с 7-го уровня вы изучаете лучшие техники и стратегии для боя близко рядом с вашими союзниками. При вашей первой атаке в каждом раунде вы получаете бонус +1 к броскам атаки и урона за каждое дружественное существо в пределах 5 футов от вас, вплоть до максимального бонуса, равного вашему бонусу мастерства.\nКроме того, когда вы используете вашу особенность Всплеск действий, каждое дружественное существо в пределах 15 футов от вас (кроме вас) получает бонус +2 к КД и к спасброскам Ловкости на 1 минуту.",
+          "document": "toh",
+          "external_id": "toh_legionary_massed-fighting",
+          "level": 7,
+          "name": "Massed Fighting",
+          "name_ru": "Массовый бой",
+          "parent": "toh_legionary",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 10th level, when a friendly creature you can see is reduced to 0 hit points, you can use your reaction to move up to your speed toward it. This movement doesn't provoke opportunity attacks.",
+          "desc_ru": "На 10-м уровне, когда дружественное существо, которое вы можете видеть, уменьшается до 0 очков хитов, вы можете реакцией переместиться на расстояние до вашей скорости к нему. Это перемещение не провоцирует внеочередные атаки.",
+          "document": "toh",
+          "external_id": "toh_legionary_vigilance",
+          "level": 10,
+          "name": "Vigilance",
+          "name_ru": "Бдительность",
+          "parent": "toh_legionary",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 15th level, moving through a hostile creature's space is not difficult terrain for you, and you can move through a hostile creature's space even if it is only one size larger or smaller than you. As normal, you can't end your move in a hostile creature's space.",
+          "desc_ru": "На 15-м уровне перемещение через пространство враждебного существа не является для вас труднопроходимой местностью, и вы можете перемещаться через пространство враждебного существа, даже если оно только на один размер больше или меньше вас. Как обычно, вы не можете закончить ваше перемещение в пространстве враждебного существа.",
+          "document": "toh",
+          "external_id": "toh_legionary_tactical-positioning",
+          "level": 15,
+          "name": "Tactical Positioning",
+          "name_ru": "Тактическое позиционирование",
+          "parent": "toh_legionary",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 18th level, when you use the Attack action and attack with a weapon while at least one friendly creature is within 5 feet of you, you can use a bonus action to make one additional attack with that weapon.",
+          "desc_ru": "Начиная с 18-го уровня, когда вы выполняете действие Атака и атакуете оружием, пока как минимум одно дружественное существо находится в пределах 5 футов от вас, вы можете бонусным действием совершить одну дополнительную атаку этим оружием.",
+          "document": "toh",
+          "external_id": "toh_legionary_cooperative-strike",
+          "level": 18,
+          "name": "Cooperative Strike",
+          "name_ru": "Совместный удар",
+          "parent": "toh_legionary",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Legionary",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "A legionary follows the techniques of close-quarters combat developed by soldiers fighting shoulder to shoulder with their allies. This style of fighting spread far and wide, finding an honored place among the armies and mercenary companies of other races. True legionaries scoff at the image of the storybook hero standing alone against impossible odds, knowing together they can face any danger and emerge victorious.",
+      "name": "Legionary",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Легионер следует техникам ближнего боя, разработанным солдатами, сражающимися плечом к плечу со своими союзниками. Этот стиль боя распространился далеко и широко, найдя почётное место среди армий и наёмных рот других рас. Истинные легионеры насмехаются над образом героя из сказки, стоящего в одиночестве против невозможных шансов, зная, что вместе они могут столкнуться с любой опасностью и выйти победителями.",
+      "glossary_version": "v1",
+      "name": "Легионер",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

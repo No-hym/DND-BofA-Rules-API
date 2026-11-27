@@ -1,0 +1,190 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_command",
+  "id": "o5e:srd-2024:spell:srd-2024-command",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "c247a6d738e4b15ca4c6175a62fb2559dce619df7669885c427116157561f763",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_cleric",
+        "srd-2024_paladin"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_bard",
+        "type": "classes",
+        "value": [
+          "srd-2024_bard",
+          "srd-2024_cleric",
+          "srd-2024_paladin"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_cleric",
+        "srd-2024_paladin"
+      ],
+      "concentration": false,
+      "desc": "You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. Choose the command from these options:\n\n- **Approach.** The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.\n- **Drop.** The target drops whatever it is holding and then ends its turn.\n- **Flee.** The target spends its turn moving away from you by the fastest available means.\n- **Grovel.** The target has the Prone condition and then ends its turn.\n- **Halt.** On its turn, the target doesn't move and takes no action or Bonus Action.",
+      "document": "srd-2024",
+      "duration": "instantaneous",
+      "higher_level": "You can affect one additional creature for each spell slot level above 1.",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Command",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "10108",
+          "parent": "srd-2024_command",
+          "target_count": 2,
+          "type": "slot_level_2"
+        },
+        {
+          "external_id": "10109",
+          "parent": "srd-2024_command",
+          "target_count": 3,
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "10110",
+          "parent": "srd-2024_command",
+          "target_count": 4,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "10111",
+          "parent": "srd-2024_command",
+          "target_count": 5,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "10112",
+          "parent": "srd-2024_command",
+          "target_count": 6,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "10113",
+          "parent": "srd-2024_command",
+          "target_count": 7,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "10114",
+          "parent": "srd-2024_command",
+          "target_count": 8,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "10115",
+          "parent": "srd-2024_command",
+          "target_count": 9,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Command",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. Choose the command from these options:\n\n- **Approach.** The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.\n- **Drop.** The target drops whatever it is holding and then ends its turn.\n- **Flee.** The target spends its turn moving away from you by the fastest available means.\n- **Grovel.** The target has the Prone condition and then ends its turn.\n- **Halt.** On its turn, the target doesn't move and takes no action or Bonus Action.",
+      "name": "Command",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Очарование 1-го уровня (Жрец, Паладин)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В\n\n**Длительность:** 1 раунд\n\nВы произносите однословную команду существу, которое видите в пределах дистанции. Цель должна преуспеть в спасброске Мудрости, иначе последует команде в свой следующий ход. Заклинание не действует, если цель — нежить, если она не понимает ваш язык или если ваша команда причинит ей прямой вред.\n\nНиже приведены типичные команды и их эффекты. Вы можете отдать команду, не описанную здесь. В этом случае Мастер определяет поведение цели. Если цель не может выполнить вашу команду, заклинание оканчивается.\n\n**_Подойди._** Цель движется к вам кратчайшим и наиболее прямым путём и заканчивает свой ход, если оказывается в пределах 5 футов от вас.\n\n**_Брось._** Цель роняет то, что держит, и затем заканчивает свой ход.\n\n**_Беги._** Цель тратит свой ход на то, чтобы удалиться от вас максимально быстрым доступным способом.\n\n**_Падай._** Цель получает состояние «лежащий» и затем заканчивает свой ход.\n\n**_Стой._** Цель не перемещается и не совершает действий.\n\nЛетающее существо остаётся в воздухе, если способно это делать. Если оно должно двигаться, чтобы оставаться в воздухе, оно пролетает минимальное расстояние, необходимое для этого.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 2-го уровня или выше, вы можете подействовать на одно дополнительное существо за каждый уровень ячейки выше 1-го. Существа должны находиться в пределах 30 футов друг от друга, когда вы нацеливаетесь на них.",
+      "glossary_version": "v1",
+      "name": "Приказ",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

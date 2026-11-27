@@ -1,0 +1,196 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_shadow-trove",
+  "id": "o5e:deepm:spell:deepm-shadow-trove",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-shadow-trove",
+      "o5e:dmag:spell:shadow-trove"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b125a8f2c872fe1e86c9507e38801e8c1d5ee6466524d59735eff1e325b54f42",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "ritual",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 hour",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "ink made from the blood of a raven",
+      "range": 5,
+      "range_text": "5 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "b125a8f2c872fe1e86c9507e38801e8c1d5ee6466524d59735eff1e325b54f42",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-shadow-trove",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "54e9ef44a3560e641034ec11fd07bf967b8ec39db73b7ba3d4d9b4c18b8b6d14",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:shadow-trove",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "concentration": false,
+      "desc": "You paint a small door approximately 2 feet square on a hard surface to create a portal into the void of space. The portal “peels off” the surface you painted it on and follows you when you move, always floating in the air within 5 feet of you. An icy chill flows out from the portal. You can place up to 750 pounds of nonliving matter in the portal, where it stays suspended in the frigid void until you withdraw it. Items that are still inside the shadow trove when the duration ends spill out onto the ground. You can designate a number of creatures up to your Intelligence modifier who have access to the shadow trove; only you and those creatures can move objects into the portal.\n",
+      "document": "deepm",
+      "duration": "1 hour",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the duration increases by 2 hours for each slot level above 3rd.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "ink made from the blood of a raven",
+      "name": "Shadow Trove",
+      "range": 5,
+      "range_text": "5 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4120",
+          "parent": "deepm_shadow-trove",
+          "type": "default"
+        },
+        {
+          "external_id": "4121",
+          "parent": "deepm_shadow-trove",
+          "type": "ritual"
+        },
+        {
+          "duration": "3 hours",
+          "external_id": "4123",
+          "parent": "deepm_shadow-trove",
+          "type": "slot_level_4"
+        },
+        {
+          "duration": "5 hours",
+          "external_id": "4124",
+          "parent": "deepm_shadow-trove",
+          "type": "slot_level_5"
+        },
+        {
+          "duration": "7 hours",
+          "external_id": "4125",
+          "parent": "deepm_shadow-trove",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "9 hours",
+          "external_id": "4126",
+          "parent": "deepm_shadow-trove",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "11 hours",
+          "external_id": "4127",
+          "parent": "deepm_shadow-trove",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "13 hours",
+          "external_id": "4128",
+          "parent": "deepm_shadow-trove",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Shadow Trove",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You paint a small door approximately 2 feet square on a hard surface to create a portal into the void of space. The portal “peels off” the surface you painted it on and follows you when you move, always floating in the air within 5 feet of you. An icy chill flows out from the portal. You can place up to 750 pounds of nonliving matter in the portal, where it stays suspended in the frigid void until you withdraw it. Items that are still inside the shadow trove when the duration ends spill out onto the ground. You can designate a number of creatures up to your Intelligence modifier who have access to the shadow trove; only you and those creatures can move objects into the portal.",
+      "name": "Shadow Trove",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы рисуете небольшую дверь примерно 2 фута квадрат на жесткой поверхности для создания портала в пустоту пространства. Портал «очищает от кожуры»» поверхность ты нарисовал её на и следует за вами, когда вы переезжаете, всегда паря в воздухе в пределах 5 футов от вас. Ледяной холод вытекает из портала. Вы можете разместить до 750 фунтов неживой материи в портале, где он остаётся приостановленным в холодную пустоту, пока вы не заберёте его. Предметы, которые все ещё находятся внутри сокровищницы Тень, когда длительность заканчивается вытекают на землю. Вы можете назначить количество существ до вашего модификатора Интеллекта, имеющих доступ к сокровищнице Тень; Только вы и те существа могут перемещать предметы в портал.",
+      "glossary_version": "v1",
+      "name": "Сокровищница Тень",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

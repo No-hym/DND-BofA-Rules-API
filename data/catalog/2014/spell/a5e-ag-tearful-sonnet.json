@@ -1,0 +1,195 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_tearful-sonnet",
+  "id": "o5e:a5e-ag:spell:a5e-ag-tearful-sonnet",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-tearful-sonnet",
+      "o5e:a5e:spell:tearful-sonnet-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "02f9826902a7e0f60d9d3af8891b3230dab3f5a75b9a9a110e1d5d80267272c8",
+    "formulas": [
+      {
+        "expression": "2d4",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "2d4",
+      "damage_types": [
+        "psychic"
+      ],
+      "duration": "3 rounds",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0.0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "02f9826902a7e0f60d9d3af8891b3230dab3f5a75b9a9a110e1d5d80267272c8",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-tearful-sonnet",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "70a8eedf1cff5c67b44e36763a5a115f61731d70e7ead68f38685168ad6dabe6",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:tearful-sonnet-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "2d4",
+      "damage_types": [
+        "psychic"
+      ],
+      "desc": "You quietly play a tragedy, a song that fills those around you with magical sorrow. Each creature in the area makes a Charisma saving throw at the start of its turn. On a failed save, a creature takes 2d4 psychic damage, it spends its action that turn crying, and it can't take reactions until the start of its next turn. Creatures that are immune to the charmed condition automatically succeed on this saving throw.\n\nIf a creature other than you hears the entire song (remaining within the spell's area from the casting through the duration) it is so wracked with sadness that it is stunned for 1d4 rounds.\n\nYou cannot cast another spell through your spellcasting focus while concentrating on this spell.",
+      "document": "a5e-ag",
+      "duration": "3 rounds",
+      "higher_level": "The damage increases by 2d4 for each slot level above 4th.",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "name": "Tearful Sonnet",
+      "range": 0.0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "enchantment",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2063",
+          "parent": "a5e-ag_tearful-sonnet",
+          "type": "default"
+        },
+        {
+          "damage_roll": "4d4",
+          "external_id": "2065",
+          "parent": "a5e-ag_tearful-sonnet",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "6d4",
+          "external_id": "2066",
+          "parent": "a5e-ag_tearful-sonnet",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "8d4",
+          "external_id": "2067",
+          "parent": "a5e-ag_tearful-sonnet",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "10d4",
+          "external_id": "2068",
+          "parent": "a5e-ag_tearful-sonnet",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "12d4",
+          "external_id": "2069",
+          "parent": "a5e-ag_tearful-sonnet",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Tearful Sonnet",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "You quietly play a tragedy, a song that fills those around you with magical sorrow. Each creature in the area makes a Charisma saving throw at the start of its turn. On a failed save, a creature takes 2d4 psychic damage, it spends its action that turn crying, and it can't take reactions until the start of its next turn. Creatures that are immune to the charmed condition automatically succeed on this saving throw.\n\nIf a creature other than you hears the entire song (remaining within the spell's area from the casting through the duration) it is so wracked with sadness that it is stunned for 1d4 rounds.\n\nYou cannot cast another spell through your spellcasting focus while concentrating on this spell.",
+      "name": "Tearful Sonnet",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы тихо исполняете трагедию, песню, наполняющую окружающих магической печалью. Каждое существо в области совершает спасбросок Харизмы в начале своего хода. При провале существо получает 2к4 психического урона, тратит своё действие в этот ход на рыдания и не может совершать реакции до начала своего следующего хода. Существа, невосприимчивые к состоянию очарования, автоматически преуспевают в этом спасброске.\n\nЕсли существо, кроме вас, слышит всю песню целиком (оставаясь в области заклинания от творения до конца действия), оно настолько измучено печалью, что оглушено на 1к4 раундов.\n\nПока вы концентрируетесь на этом заклинании, вы не можете творить другое заклинание через свою заклинательную фокусировку.",
+      "glossary_version": "v1",
+      "name": "Слёзный сонет",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

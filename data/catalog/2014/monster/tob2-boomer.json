@@ -1,0 +1,218 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_boomer",
+  "id": "o5e:tob2:creature:tob2-boomer",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-boomer"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "36bfeea0554e3cb10204c1bc9d60178e444a2f1d1d4315233401830ac18f87c7",
+    "formulas": [
+      {
+        "expression": "4d8+4",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 1,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 1,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 1,
+      "ability_score_wisdom": 3,
+      "alignment": "unaligned",
+      "armor_class": 7,
+      "armor_detail": "natural armor",
+      "blindsight_range": 30,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "climb": null,
+      "condition_immunities": [
+        "blinded",
+        "deafened",
+        "frightened"
+      ],
+      "damage_immunities": [
+        "thunder"
+      ],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "4d8+4",
+      "hit_points": 22,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": null,
+      "passive_perception": 6,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 0
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "36bfeea0554e3cb10204c1bc9d60178e444a2f1d1d4315233401830ac18f87c7",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-boomer",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 1,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 1,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 1,
+      "ability_score_wisdom": 3,
+      "alignment": "unaligned",
+      "armor_class": 7,
+      "armor_detail": "natural armor",
+      "blindsight_range": 30,
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "condition_immunities": [
+        "blinded",
+        "deafened",
+        "frightened"
+      ],
+      "condition_immunities_display": "blinded, deafened, frightened",
+      "damage_immunities": [
+        "thunder"
+      ],
+      "damage_immunities_display": "thunder",
+      "document": "tob2",
+      "hit_dice": "4d8+4",
+      "hit_points": 22,
+      "hover": false,
+      "name": "Boomer",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "passive_perception": 6,
+      "size": "medium",
+      "type": "plant",
+      "walk": 0,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "REACTION",
+          "desc": "If bright light or a creature is within 30 feet of the boomer, it emits a shriek audible within 300 feet of it. The boomer continues to shriek until the disturbance moves out of range and for 1d4 of the boomer's turns afterward.",
+          "desc_ru": "Действие «Шриек»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_boomer_shriek",
+          "name": "Shriek",
+          "name_ru": "Шриек",
+          "order_in_statblock": 0,
+          "parent": "tob2_boomer",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "When a creature hits the boomer with a melee attack, the boomer releases a blast of sound. Each creature within 10 feet of the boomer that can hear it must make a DC 12 Constitution saving throw. On a failure, a creature takes 5 (2d4) thunder damage and is incapacitated until the end of its next turn. On a success, a creature takes half the damage and isn’t incapacitated.",
+          "desc_ru": "Особенность «Деафенинг Боом». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_boomer_deafening-boom",
+          "name": "Deafening Boom",
+          "name_ru": "Деафенинг Боом",
+          "parent": "tob2_boomer",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "When it dies, the boomer explodes in a cacophonous burst. Each creature within 30 feet of the boomer that can hear it must make a DC 12 Constitution saving throw. On a failure, a creature takes 7 (2d6) thunder damage and is deafened for 1 minute. On a success, a creature takes half the damage and isn’t deafened.",
+          "desc_ru": "Особенность «Смерти Бурст». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_boomer_death-burst",
+          "name": "Death Burst",
+          "name_ru": "Смерти Бурст",
+          "parent": "tob2_boomer",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "While the boomer remains motionless, it is indistinguishable from an ordinary fungus.",
+          "desc_ru": "Особенность «Фалсе Аппеаранке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_boomer_false-appearance",
+          "name": "False Appearance",
+          "name_ru": "Фалсе Аппеаранке",
+          "parent": "tob2_boomer",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Boomer",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Boomer",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Пронзительный вопль эхом разносится в пещере. Звук исходит от гриба размером с человека, чья ножка постоянно раздувается воздухом, когда он вопит.",
+      "glossary_version": "v1",
+      "name": "Крикун",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

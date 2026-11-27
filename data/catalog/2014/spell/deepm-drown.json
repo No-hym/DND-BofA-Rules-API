@@ -1,0 +1,187 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_drown",
+  "id": "o5e:deepm:spell:deepm-drown",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-drown",
+      "o5e:dmag:spell:drown"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "516808a4a828a780c187b83ea9929d7b6f7be31e8994f8d3c1d6c176e287fb6e",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a small piece of flotsam or seaweed",
+      "range": 90,
+      "range_text": "90 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "516808a4a828a780c187b83ea9929d7b6f7be31e8994f8d3c1d6c176e287fb6e",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-drown",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "74d91bfd0184c5ce75e3f640ba7ff03ee38b64859fa3ab8892736c8c3f9b9000",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:drown",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "You cause a creature's lungs to fill with seawater. Unless the target makes a successful Constitution saving throw, it immediately begins suffocating. A suffocating creature can’t speak or perform verbal spell components. It can hold its breath, and thereafter can survive for a number of rounds equal to its Constitution modifier (minimum of 1 round), after which it drops to 0 hit points and is dying. Huge or larger creatures are unaffected, as are creatures that can breathe water or that don’t require air.\n\nA suffocating (not dying) creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.\n",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.\n\nNOTE: Midgard Heroes Handbook has a very different [drown-heroes-handbook/drown](https://api.open5e.com/spells/drown) spell.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a small piece of flotsam or seaweed",
+      "name": "Drown",
+      "range": 90,
+      "range_text": "90 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3132",
+          "parent": "deepm_drown",
+          "type": "default"
+        },
+        {
+          "external_id": "3134",
+          "parent": "deepm_drown",
+          "target_count": 2,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "3135",
+          "parent": "deepm_drown",
+          "target_count": 3,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "3136",
+          "parent": "deepm_drown",
+          "target_count": 4,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3137",
+          "parent": "deepm_drown",
+          "target_count": 5,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3138",
+          "parent": "deepm_drown",
+          "target_count": 6,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3139",
+          "parent": "deepm_drown",
+          "target_count": 7,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Drown",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You cause a creature's lungs to fill with seawater. Unless the target makes a successful Constitution saving throw, it immediately begins suffocating. A suffocating creature can’t speak or perform verbal spell components. It can hold its breath, and thereafter can survive for a number of rounds equal to its Constitution modifier (minimum of 1 round), after which it drops to 0 hit points and is dying. Huge or larger creatures are unaffected, as are creatures that can breathe water or that don’t require air.\n\nA suffocating (not dying) creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.",
+      "name": "Drown",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы вызываете лёгкие существа, чтобы заполнить морской водой. Если цель не сделает успешный спасбросок Телосложения, он немедленно начинает задыхаться. Удушающее существо не может говорить или выполнять вербальные компоненты заклинаний. Он может задержать дыхание, и после этого может выжить в течение количества раундов, равных его модификатору Телосложения (минимум 1 раунд), после чего он опускается до 0 поражает точек и умирают. Огромные или более крупные существа не пострадают, как и существа, которые могут дышать водой или не требуют воздуха.\n\nУдушающее (не умирающее) существо может повторить спасбросок в конце каждого его хода, заканчивая эффект на успех.",
+      "glossary_version": "v1",
+      "name": "Утопить",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,135 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "vengeful-ghost-a5e",
+  "id": "o5e:menagerie:monster:vengeful-ghost-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:vengeful-ghost-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "13e0f2aa36374178681277b1f5a7b615cdca2985deea0d82ce2fb30673089512",
+    "formulas": [
+      {
+        "expression": "13d8",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 11,
+      "challenge_rating": "8",
+      "condition_immunities": "charmed, fatigue, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+      "damage_immunities": "cold, necrotic, poison",
+      "damage_resistances": "acid, fire, lightning, thunder; damage from nonmagical weapons",
+      "damage_vulnerabilities": "",
+      "hit_dice": "13d8",
+      "hit_points": 58,
+      "languages": "the languages it spoke in life",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "13e0f2aa36374178681277b1f5a7b615cdca2985deea0d82ce2fb30673089512",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:vengeful-ghost-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Withering Touch\", \"desc\": \"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 17 (4d6 + 3) necrotic damage. If the target is frightened  it is magically aged 1d4 x 10 years. The aging effect can be reversed with a greater restoration spell.\"}, {\"name\": \"Ethereal Jaunt\", \"desc\": \"The ghost magically shifts from the Material Plane to the Ethereal Plane or vice versa. If it wishes  it can be visible to creatures on one plane while on the other.\"}, {\"name\": \"Horrifying Visage\", \"desc\": \"Each non-undead creature within 60 feet and on the same plane of existence that can see the ghost makes a DC 13 Wisdom saving throw. On a failure  a creature is frightened for 1 minute. A frightened creature repeats the saving throw at the end of each of its turns  ending the effect on itself on a success. If a creatures saving throw is successful or the effect ends for it  it is immune to this ghosts Horrifying Visage for 24 hours.\"}, {\"name\": \"Possession (Recharge 6)\", \"desc\": \"One humanoid within 5 feet makes a DC 13 Charisma saving throw. On a failure  it is possessed by the ghost. The possessed creature is unconscious. The ghost enters the creatures body and takes control of it. The ghost can be targeted only by effects that turn undead  and it retains its Intelligence  Wisdom  and Charisma. It grants its host body immunity to being charmed and frightened. It otherwise uses the possessed creatures statistics and actions instead of its own. It doesnt gain access to the creatures memories but does gain access to proficiencies  nonmagical class features and traits  and nonmagical actions. It can't use limited-used abilities or class traits that require spending a resource. The possession ends after 24 hours  when the body drops to 0 hit points  when the ghost ends it as a bonus action  or when the ghost is turned or affected by dispel evil and good or a similar effect. Additionally  the possessed creature repeats its saving throw whenever it takes damage. When the possession ends  the ghost reappears in a space within 5 feet of the body. A creature is immune to this ghosts Possession for 24 hours after succeeding on its saving throw or after the possession ends.\"}]",
+      "armor_class": 11,
+      "bonus_actions_json": "null",
+      "challenge_rating": "8",
+      "charisma": 16,
+      "condition_immunities": "charmed, fatigue, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+      "constitution": 10,
+      "cr": 8.0,
+      "damage_immunities": "cold, necrotic, poison",
+      "damage_resistances": "acid, fire, lightning, thunder; damage from nonmagical weapons",
+      "dexterity": 12,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "13d8",
+      "hit_points": 58,
+      "intelligence": 10,
+      "languages": "the languages it spoke in life",
+      "legendary_actions_json": "null",
+      "name": "Vengeful Ghost",
+      "page_no": 227,
+      "reactions_json": "[{\"name\": \"Horrifying Visage\", \"desc\": \"If the ghost takes damage from an attack or spell, it uses Horrifying Visage.\"}]",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 11",
+      "size": "Medium",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Ethereal Sight\", \"desc\": \"The ghost can see into both the Material and Ethereal Plane.\"}, {\"name\": \"Incorporeal\", \"desc\": \"The ghost can move through creatures and objects. It takes 5 (1d10) force damage if it ends its turn inside an object.\"}, {\"name\": \"Undead Nature\", \"desc\": \"A ghost doesnt require air, sustenance, or sleep.\"}, {\"name\": \"Unquiet Spirit\", \"desc\": \"If defeated in combat, the ghost returns in 24 hours. It can be put to rest permanently only by finding and casting remove curse on its remains or by resolving the unfinished business that keeps it from journeying to the afterlife.\"}, {\"name\": \"Graveborn Strength\", \"desc\": \"When not in sunlight, creatures make their saving throws against the ghosts Horrifying Visage and Possession abilities with disadvantage.\"}]",
+      "speed_json": "{\"walk\": 0, \"fly\": 40}",
+      "spells_json": "null",
+      "strength": 8,
+      "type": "Undead",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Vengeful Ghost",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-vengeful-ghost"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Vengeful Ghost",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Средняя нежить. Класс доспеха: 11. Хиты: 58 (13к8). Сопротивление урону: кислотой, огнём, электричеством, звуком, damage from nonmagical weapons. Иммунитет к урону: холодом, некротической энергией, ядом. Иммунитет к состояниям: очарование, fatigue, испуг, захват, паралич, окаменение, отравление, положение ничком, удержание. Показатель опасности: 8.",
+      "glossary_version": "derived-v1",
+      "name": "Венгефул призрак",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

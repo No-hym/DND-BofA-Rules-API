@@ -1,0 +1,281 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_chill-touch",
+  "id": "o5e:a5e-ag:spell:a5e-ag-chill-touch-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-chill-touch",
+      "o5e:a5e:spell:chill-touch-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "9caec81282dbe8f9819b7a6c3901b5d1d37999c2f2d11314fd6336b9839a0220",
+    "formulas": [
+      {
+        "expression": "1d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "necrotic"
+      ],
+      "duration": "1 round",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "9caec81282dbe8f9819b7a6c3901b5d1d37999c2f2d11314fd6336b9839a0220",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-chill-touch",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "559b9011c14750bb656a620995dc20ccf959e4c76391c9aa52616ba3b31807a2",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:chill-touch-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "necrotic"
+      ],
+      "desc": "You reach out with a spectral hand that carries the chill of death. Make a ranged spell attack. On a hit, the target takes 1d8 necrotic damage, and it cannot regain hit points until the start of your next turn. The hand remains visibly clutching onto the target for the duration. If the target you hit is undead, it makes attack rolls against you with disadvantage until the end of your next turn.",
+      "document": "a5e-ag",
+      "duration": "1 round",
+      "higher_level": "The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "name": "Chill Touch",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "750",
+          "parent": "a5e-ag_chill-touch",
+          "type": "default"
+        },
+        {
+          "damage_roll": "1d8",
+          "external_id": "751",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_1"
+        },
+        {
+          "damage_roll": "1d8",
+          "external_id": "752",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_2"
+        },
+        {
+          "damage_roll": "1d8",
+          "external_id": "753",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_3"
+        },
+        {
+          "damage_roll": "1d8",
+          "external_id": "754",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_4"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "755",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_5"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "756",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_6"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "757",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_7"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "758",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_8"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "759",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_9"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "760",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_10"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "761",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_11"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "762",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_12"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "763",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_13"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "764",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_14"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "765",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_15"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "766",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_16"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "767",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_17"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "768",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_18"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "769",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_19"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "770",
+          "parent": "a5e-ag_chill-touch",
+          "type": "player_level_20"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Chill Touch",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:srd-2014:spell:srd-chill-touch"
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "You reach out with a spectral hand that carries the chill of death. Make a ranged spell attack. On a hit, the target takes 1d8 necrotic damage, and it cannot regain hit points until the start of your next turn. The hand remains visibly clutching onto the target for the duration. If the target you hit is undead, it makes attack rolls against you with disadvantage until the end of your next turn.",
+      "name": "Chill Touch",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Заговор Некромантии (Чародей, Колдун, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 120 футов\n\n**Компоненты:** В, С\n\n**Длительность:** 1 раунд\n\nВы создаёте призрачную скелетную руку в пространстве существа в пределах дистанции. Совершите дальнобойную атаку заклинанием по этому существу, чтобы поразить его могильным холодом. При попадании цель получает 1к8 некротического урона и не может восстанавливать хиты до начала вашего следующего хода. До этого момента рука цепляется за цель.\n\nЕсли вы попадёте по нежити, она также совершает броски атаки по вам с помехой до конца вашего следующего хода.\n\n**_Усиление заговора._** Урон этого заклинания увеличивается на 1к8, когда вы достигаете 5-го уровня (2к8), 11-го уровня (3к8) и 17-го уровня (4к8).",
+      "glossary_version": "v1",
+      "name": "Могильный холод",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

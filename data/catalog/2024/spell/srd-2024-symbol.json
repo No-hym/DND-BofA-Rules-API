@@ -1,0 +1,154 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_symbol",
+  "id": "o5e:srd-2024:spell:srd-2024-symbol",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "5f4636b36821e2c096ad12ffdfb959889ff4fb97b0157dc9f6d66cc20353da8d",
+    "formulas": [
+      {
+        "expression": "10d10",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_cleric",
+        "srd-2024_druid",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "10d10",
+      "damage_types": [
+        "necrotic"
+      ],
+      "duration": "until dispelled or triggered",
+      "level": 7,
+      "material": true,
+      "material_consumed": true,
+      "material_cost": null,
+      "material_specified": "powdered diamond worth 1,000+ GP, which the spell consumes",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "abjuration",
+      "shape_size": 60,
+      "shape_size_unit": "feet",
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_bard",
+        "type": "classes",
+        "value": [
+          "srd-2024_bard",
+          "srd-2024_cleric",
+          "srd-2024_druid",
+          "srd-2024_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_cleric",
+        "srd-2024_druid",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "10d10",
+      "damage_types": [
+        "necrotic"
+      ],
+      "desc": "You inscribe a harmful glyph either on a surface (such as a section of floor or wall) or within an object that can be closed (such as a book or chest). The glyph can cover an area no larger than 10 feet in diameter. If you choose an object, it must remain in place; if it is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.\n\nThe glyph is nearly imperceptible and requires a successful Wisdom (Perception) check against your spell save DC to notice.\n\nWhen you inscribe the glyph, you set its trigger and choose which effect the symbol bears: Death, Discord, Fear, Pain, Sleep, or Stunning. Each one is explained below.\n\n**_Set the Trigger._** You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, common triggers include touching or stepping on the glyph, removing another object covering it, or approaching within a certain distance of it. For glyphs inscribed within an object, common triggers include opening that object or seeing the glyph.\n\nYou can refine the trigger so that only creatures of certain types activate it (for example, the glyph could be set to affect Aberrations). You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.\n\nOnce triggered, the glyph glows, filling a 60-foot-radius Sphere with Dim Light for 10 minutes, after which time the spell ends. Each creature in the Sphere when the glyph activates is targeted by its effect, as is a creature that enters the Sphere for the first time on a turn or ends its turn there. A creature is targeted only once per turn.\n\n**_Death._** Each target makes a Constitution saving throw, taking 10d10 Necrotic damage on a failed save or half as much damage on a successful save.\n\n**_Discord._** Each target makes a Wisdom saving throw. On a failed save, a target argues with other creatures for 1 minute. During this time, it is incapable of meaningful communication and has Disadvantage on attack rolls and ability checks.\n\n**_Fear._** Each target must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute. While Frightened, the target must move at least 30 feet away from the glyph on each of its turns, if able.\n\n**_Pain._** Each target must succeed on a Constitution saving throw or have the Incapacitated condition for 1 minute.\n\n**_Sleep._** Each target must succeed on a Wisdom saving throw or have the Unconscious condition for 10 minutes. A creature awakens if it takes damage or if someone takes an action to shake it awake.\n\n**_Stunning._** Each target must succeed on a Wisdom saving throw or have the Stunned condition for 1 minute.",
+      "document": "srd-2024",
+      "duration": "until dispelled or triggered",
+      "level": 7,
+      "material": true,
+      "material_consumed": true,
+      "material_specified": "powdered diamond worth 1,000+ GP, which the spell consumes",
+      "name": "Symbol",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "abjuration",
+      "shape_size": 60,
+      "shape_size_unit": "feet",
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Symbol",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "You inscribe a harmful glyph either on a surface (such as a section of floor or wall) or within an object that can be closed (such as a book or chest). The glyph can cover an area no larger than 10 feet in diameter. If you choose an object, it must remain in place; if it is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.\n\nThe glyph is nearly imperceptible and requires a successful Wisdom (Perception) check against your spell save DC to notice.\n\nWhen you inscribe the glyph, you set its trigger and choose which effect the symbol bears: Death, Discord, Fear, Pain, Sleep, or Stunning. Each one is explained below.\n\n**_Set the Trigger._** You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, common triggers include touching or stepping on the glyph, removing another object covering it, or approaching within a certain distance of it. For glyphs inscribed within an object, common triggers include opening that object or seeing the glyph.\n\nYou can refine the trigger so that only creatures of certain types activate it (for example, the glyph could be set to affect Aberrations). You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.\n\nOnce triggered, the glyph glows, filling a 60-foot-radius Sphere with Dim Light for 10 minutes, after which time the spell ends. Each creature in the Sphere when the glyph activates is targeted by its effect, as is a creature that enters the Sphere for the first time on a turn or ends its turn there. A creature is targeted only once per turn.\n\n**_Death._** Each target makes a Constitution saving throw, taking 10d10 Necrotic damage on a failed save or half as much damage on a successful save.\n\n**_Discord._** Each target makes a Wisdom saving throw. On a failed save, a target argues with other creatures for 1 minute. During this time, it is incapable of meaningful communication and has Disadvantage on attack rolls and ability checks.\n\n**_Fear._** Each target must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute. While Frightened, the target must move at least 30 feet away from the glyph on each of its turns, if able.\n\n**_Pain._** Each target must succeed on a Constitution saving throw or have the Incapacitated condition for 1 minute.\n\n**_Sleep._** Each target must succeed on a Wisdom saving throw or have the Unconscious condition for 10 minutes. A creature awakens if it takes damage or if someone takes an action to shake it awake.\n\n**_Stunning._** Each target must succeed on a Wisdom saving throw or have the Stunned condition for 1 minute.",
+      "name": "Symbol",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Ограждение 7-го уровня (Бард, Жрец, Волшебник)*\n\n**Время накладывания:** 1 минута\n\n**Дистанция:** Касание\n\n**Компоненты:** В, С, М (ртуть, фосфор и алмазный и опаловый порошок общей стоимостью не менее 1 000 зм, расходуемые заклинанием)\n\n**Длительность:** Пока не будет рассеяно или активировано\n\nКогда вы сотворяете это заклинание, вы вписываете вредоносный глиф либо на поверхность (такую как участок пола, стену или стол), либо внутрь предмета, который можно закрыть, чтобы скрыть глиф (такого как книга, свиток или сундук с сокровищами). Если вы выбираете поверхность, глиф может занимать область поверхности диаметром не более 10 футов. Если вы выбираете предмет, этот предмет должен оставаться на месте; если предмет перемещён более чем на 10 футов от того места, где вы сотворили заклинание, глиф разрушается, и заклинание оканчивается без срабатывания.\n\nГлиф почти невидим, и для его обнаружения требуется проверка Интеллекта (Расследование) против СЛ спасброска от ваших заклинаний.\n\nВы определяете, что вызывает срабатывание глифа, при сотворении заклинания. Для глифов, вписанных на поверхность, наиболее типичные триггеры включают прикосновение или наступание на глиф, снятие другого предмета, прикрывающего его, приближение на определённое расстояние к нему или манипуляцию с предметом, на котором он находится. Для глифов, вписанных внутрь предмета, наиболее распространённые триггеры — открытие предмета, приближение на определённое расстояние к нему или рассматривание или чтение глифа.\n\nВы можете дополнительно уточнить триггер, чтобы заклинание срабатывало только при определённых обстоятельствах или в зависимости от физических характеристик существа (таких как рост или вес) или физического вида (например, оберег можно настроить на воздействие на карг или перевёртышей). Вы также можете указать существ, которые не активируют глиф, например тех, кто произносит определённый пароль.\n\nКогда вы вписываете глиф, выберите один из приведённых ниже вариантов его эффекта. Сработав, глиф начинает светиться, заполняя сферу радиусом 60 футов тусклым светом на 10 минут, после чего заклинание оканчивается. Каждое существо в сфере при срабатывании глифа подвергается его эффекту, так же как и существо, впервые за ход входящее в сферу или оканчивающее в ней свой ход.\n\n**_Смерть._** Каждая цель должна совершить спасбросок Телосложения, получая 10к10 некротического урона при провале или половину этого урона при успехе.\n\n**_Раздор._** Каждая цель должна совершить спасбросок Телосложения. При провале цель спорит и ссорится с другими существами в течение 1 минуты. В это время она неспособна к осмысленному общению и совершает с помехой броски атаки и проверки характеристик.\n\n**_Страх._** Каждая цель должна совершить спасбросок Мудрости и при провале становится испуганной на 1 минуту. Будучи испуганной, цель бросает всё, что держит, и должна перемещаться как минимум на 30 футов от глифа в каждый свой ход, если способна.\n\n**_Безнадёжность._** Каждая цель должна совершить спасбросок Харизмы. При провале цель охвачена отчаянием на 1 минуту. В это время она не может атаковать или нацеливать на существ вредоносные способности, заклинания или другие магические эффекты.\n\n**_Безумие._** Каждая цель должна совершить спасбросок Интеллекта. При провале цель сходит с ума на 1 минуту. Безумное существо не может совершать действия, не может понимать, что говорят другие существа, не может читать и говорит лишь бессвязно. Мастер контролирует его перемещение, которое хаотично.\n\n**_Боль._** Каждая цель должна совершить спасбросок Телосложения и при провале становится недееспособной от нестерпимой боли на 1 минуту.\n\n**_Сон._** Каждая цель должна совершить спасбросок Мудрости и при провале теряет сознание на 10 минут. Существо просыпается, если получает урон или если кто-то действием трясёт или бьёт его по щекам.\n\n**_Ошеломление._** Каждая цель должна совершить спасбросок Мудрости и при провале становится ошеломлённой на 1 минуту.",
+      "glossary_version": "v1",
+      "name": "Символ",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

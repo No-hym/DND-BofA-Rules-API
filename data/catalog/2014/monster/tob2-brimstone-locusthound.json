@@ -1,0 +1,218 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_brimstone-locusthound",
+  "id": "o5e:tob2:creature:tob2-brimstone-locusthound",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-brimstone-locusthound"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "509a886cf2b1342e25a966816bc4377d96be4184aa049b18f630bd22bc1231f1",
+    "formulas": [
+      {
+        "expression": "8d8+24",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 17,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 9,
+      "alignment": "neutral",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "blindsight_range": 10,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "3.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": 60,
+      "hit_dice": "8d8+24",
+      "hit_points": 60,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 9,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "509a886cf2b1342e25a966816bc4377d96be4184aa049b18f630bd22bc1231f1",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-brimstone-locusthound",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 17,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 9,
+      "alignment": "neutral",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "blindsight_range": 10,
+      "category": "Monsters",
+      "challenge_rating": "3.000",
+      "darkvision_range": 60,
+      "document": "tob2",
+      "fly": 60,
+      "hit_dice": "8d8+24",
+      "hit_points": 60,
+      "hover": false,
+      "name": "Brimstone Locusthound",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 9,
+      "size": "medium",
+      "type": "monstrosity",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 4) slashing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +6 к попаданию, досягаемость 5 фт., одна цель. Попадание: 9 (1к8+4) рубящего урона.",
+          "external_id": "tob2_brimstone-locusthound_claw",
+          "name": "Claw",
+          "name_ru": "Коготь",
+          "order_in_statblock": 1,
+          "parent": "tob2_brimstone-locusthound",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The brimstone locusthound makes two claw attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_brimstone-locusthound_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_brimstone-locusthound",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 9 (2d6 + 2) acid damage, and the target must succeed on a DC 13 Dexterity saving throw or be restrained until the end of its next turn.",
+          "desc_ru": "Действие «Стикй Спиттле»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_brimstone-locusthound_sticky-spittle",
+          "name": "Sticky Spittle",
+          "name_ru": "Стикй Спиттле",
+          "order_in_statblock": 2,
+          "parent": "tob2_brimstone-locusthound",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The brimstone locusthound emits a dense, choking smoke within 10 feet of itself. Each non-brimstone locusthound creature that enters the smoke or starts its turn in the smoke must succeed on a DC 13 Constitution saving throw or be blinded until the end of its turn. On a successful saving throw, the creature is immune to the locusthound’s Smoky Aura for 24 hours. At the start of each of its turns, the locusthound chooses whether this aura is active. The smoke is nonmagical and can be dispersed by a wind of moderate or greater speed (at least 10 miles per hour).",
+          "desc_ru": "Особенность «Смокй Аура». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_brimstone-locusthound_smoky-aura",
+          "name": "Smoky Aura",
+          "name_ru": "Смокй Аура",
+          "parent": "tob2_brimstone-locusthound",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "When the brimstone locusthound is targeted by a ranged weapon attack or a spell that requires a ranged attack roll, roll a d6. On a 4 or 5, the attacker has disadvantage on the attack roll. On a 6, the attack misses the locusthound, disappearing into the smoke surrounding it.",
+          "desc_ru": "Особенность «Смокй Хазе». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_brimstone-locusthound_smoky-haze",
+          "name": "Smoky Haze",
+          "name_ru": "Смокй Хазе",
+          "parent": "tob2_brimstone-locusthound",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Brimstone Locusthound",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Brimstone Locusthound",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Это существо — тревожное сочетание волка и саранчи, и дым, который она выдыхает, густо висит вокруг неё. Мех окружает ее голову саранчи и длинные насекомые ноги тянутся от её собачьего тела.\n\n**Неестественное происхождение.** Серные саранчовые гончие — результат магических экспериментов. Учёные не уверены, пошёл ли эксперимент ужасно неправильно или существа получились такими, как изначально предполагалось. Волшебники, создавшие их, мертвы уже тысячи лет, позволяя теориям — и созданиям волшебников — с тех пор бушевать на воле.\n\n**Мигрирующие стаи.** Серные саранчовые гончие строят свои гнёзда под землёй, в пещерах или в погребённых руинах. Они мигрирующие всеядные и предпочитают местности, где в изобилии грибы и мелкая добыча. Хотя они менее заботливы друг о дружке, чем большинство собак, серные саранчовые гончие часто образуют стаи, чтобы выращивать молодняк, и когда пищи в изобилии. Однако, когда пища становится скудной, стая саранчовых гончих разрывает себя на части, пожирая самых слабых своих членов и выжившие разбегаются.",
+      "glossary_version": "v1",
+      "name": "Серная саранчовая гончая",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

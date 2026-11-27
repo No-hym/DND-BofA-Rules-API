@@ -1,0 +1,140 @@
+{
+  "attribution": "Title: Critical Role: Tal’Dorei Campaign Setting; Author: Matthew Mercer with James Haeck; Publisher: taldorei; Source: https://https://greenronin.com/blog/2017/09/25/ronin-round-table-integrating-wizards-5e-adventures-with-the-taldorei-campaign-setting/; License: OGL-1.0a (https://open5e.com/legal); Critical Role: Tal’Dorei Campaign Setting is ©2017 Green Ronin Publishing, LLC. All rights reserved.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "taldorei",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "waverider",
+  "id": "o5e:taldorei:monster:waverider-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:taldorei:monster:waverider"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "732c4f3e39c646118439a15e62b0f8a5782cdc4927989ea289119cd2258e1e43",
+    "formulas": [
+      {
+        "expression": "14d8+14",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral good",
+      "armor_class": 14,
+      "challenge_rating": "4",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "cold",
+      "damage_vulnerabilities": "",
+      "hit_dice": "14d8+14",
+      "hit_points": 77,
+      "languages": "Common, Druidic, Primordial (Aquan)",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "taldorei",
+        "content_hash": "732c4f3e39c646118439a15e62b0f8a5782cdc4927989ea289119cd2258e1e43",
+        "edition": "2014",
+        "id": "o5e:taldorei:monster:waverider",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:taldorei"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Harpoon\", \"desc\": \"Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft., range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage. Attacks with this weapon while underwater are not made with disadvantage.\", \"attack_bonus\": 5, \"damage_dice\": \"1d6\", \"damage_bonus\": 2}]",
+      "alignment": "neutral good",
+      "armor_class": 14,
+      "armor_desc": "hide armor of cold resistance",
+      "bonus_actions_json": "null",
+      "challenge_rating": "4",
+      "charisma": 13,
+      "constitution": 12,
+      "constitution_save": 4,
+      "cr": 4.0,
+      "damage_resistances": "cold",
+      "desc": "The waveriders know firsthand the dangers of the open ocean, and dedicate their lives to protecting seafarers from storms, pirates, and sea monsters. Though they are not warriors, they are accomplished healers and aquatic empaths, using their powers to seek out and rescue survivors of marine disasters, sometimes returning critically wounded survivors to the tribe of elemental wardens itself. The isolationists among the water wardens condemn this practice, fearing that the refugees threaten their way of life. The waveriders take their peers’ scorn in stride, for they would rather be righteous than popular.\nA waverider turns to violence only as a last resort, and prefer to fight in fishform than with their fishing harpoon, using hit-and-run tactics as a shark or their octopus form’s natural camouflage to harry opponents. When patrolling the open seas, waveriders skim across the water on personal waveboards with folding sails, similar in function to the _skysails_ of the wind wardens.",
+      "dexterity": 14,
+      "document": 45,
+      "environments_json": "[]",
+      "group": "Elemental Wardens",
+      "hit_dice": "14d8+14",
+      "hit_points": 77,
+      "intelligence": 10,
+      "languages": "Common, Druidic, Primordial (Aquan)",
+      "legendary_actions_json": "null",
+      "name": "Waverider",
+      "page_no": 129,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "passive Perception 13",
+      "size": "Medium",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Fishform\", \"desc\": \"As a bonus action, the waverider can transform into a **hunter shark** or **giant octopus**. While in this form, the waverider cannot cast spells, but can expend a spell slot as a bonus action to regain 1d8 hit points per level of the spell slot expended. When the waverider is reduced to 0 hit points, falls unconscious, or dies in this form, it reverts to its humanoid form. It can remain in fishform for up to 3 hours, and can enter fishform twice, regaining expended uses after completing a short or long rest.\"}, {\"name\": \"Healing Tides\", \"desc\": \"Whenever the waverider casts a spell of 1st level or higher that affects a nonhostile creature, that creature regains 3 hit points (in addition to any healing the spell may provide).\"}, {\"name\": \"Marine Empathy\", \"desc\": \"The waverider can speak with and understand aquatic plants and animals.\"}, {\"name\": \"Spellcasting\", \"desc\": \"The waverider is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It has the following druid spells prepared:\\n\\n* Cantrips (at will): druidcraft, poison spray, resistance\\n* 1st level (4 slots): cure wounds, create or destroy water, healing word\\n* 2nd level (3 slots): animal messenger, enhance ability, lesser restoration\\n* 3rd level (3 slots): conjure animals (aquatic beasts only), water walk, water breathing\\n* 4th level (1 slots): control water\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "[\"druidcraft\", \"poison spray\", \"resistance\", \"cure wounds\", \"create or destroy water\", \"healing word\", \"animal messenger\", \"enhance ability\", \"lesser restoration\", \"conjure animals\", \"water walk\", \"water breathing\", \"control water\"]",
+      "strength": 15,
+      "subtype": "any race",
+      "type": "Humanoid",
+      "wisdom": 16,
+      "wisdom_save": 6
+    },
+    "source_document": {
+      "author": "Matthew Mercer with James Haeck",
+      "key": "taldorei",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://https://greenronin.com/blog/2017/09/25/ronin-round-table-integrating-wizards-5e-adventures-with-the-taldorei-campaign-setting/",
+      "publication_date": "",
+      "publisher": "taldorei",
+      "title": "Critical Role: Tal’Dorei Campaign Setting"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Waverider",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tdcs:creature:tdcs-waverider"
+  },
+  "publisher_id": "taldorei",
+  "source": "open5e:v1:taldorei",
+  "translations": {
+    "en": {
+      "description": "The waveriders know firsthand the dangers of the open ocean, and dedicate their lives to protecting seafarers from storms, pirates, and sea monsters. Though they are not warriors, they are accomplished healers and aquatic empaths, using their powers to seek out and rescue survivors of marine disasters, sometimes returning critically wounded survivors to the tribe of elemental wardens itself. The isolationists among the water wardens condemn this practice, fearing that the refugees threaten their way of life. The waveriders take their peers’ scorn in stride, for they would rather be righteous than popular.\nA waverider turns to violence only as a last resort, and prefer to fight in fishform than with their fishing harpoon, using hit-and-run tactics as a shark or their octopus form’s natural camouflage to harry opponents. When patrolling the open seas, waveriders skim across the water on personal waveboards with folding sails, similar in function to the _skysails_ of the wind wardens.",
+      "name": "Waverider",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Наездники волн не понаслышке знают об опасностях открытого океана и посвящают свои жизни защите моряков от штормов, пиратов и морских чудовищ. Хотя они не воины, они опытные целители и водные эмпаты, использующие свои силы, чтобы выслеживать и спасать выживших в морских бедствиях, иногда возвращая критически раненных выживших самому племени стихийных стражей. Изолиционисты среди водных стражей осуждают эту практику, опасаясь, что беженцы угрожают их образу жизни. Наездники волн спокойно принимают презрение своих коллег, поскольку предпочитают быть праведными, чем популярными.\n\nНаездник волн обращается к насилию только в крайнем случае и предпочитает сражаться в рыбьей форме, а не своим рыболовным гарпуном, используя тактику ударов с наскока в облике акулы или природный камуфляж своей формы осьминога, чтобы беспокоить противников. Патрулируя открытые моря, наездники волн скользят по воде на персональных досках для волн со складными парусами, по функции похожих на небесные паруса стражей ветра.",
+      "glossary_version": "v1",
+      "name": "Наездник волн",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

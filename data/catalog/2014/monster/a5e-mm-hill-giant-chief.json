@@ -1,0 +1,275 @@
+{
+  "attribution": "Title: Monstrous Menagerie; Author: Paul Hughes; Publisher: en-publishing; Source: https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "a5e-mm",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "a5e-mm_hill-giant-chief",
+  "id": "o5e:a5e-mm:creature:a5e-mm-hill-giant-chief",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-mm:creature:a5e-mm-hill-giant-chief"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "583ce01d598666e7840a0e59e31f78207453afb8964a0d56f4e73fb936b49188",
+    "formulas": [
+      {
+        "expression": "12d12+48",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 8,
+      "ability_score_intelligence": 6,
+      "ability_score_strength": 20,
+      "ability_score_wisdom": 10,
+      "alignment": "chaotic evil",
+      "armor_class": 13,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "8.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "12d12+48",
+      "hit_points": 126,
+      "initiative_bonus": null,
+      "languages": [
+        "giant"
+      ],
+      "languages_desc": "Giant",
+      "normal_sight_range": 10560.0,
+      "passive_perception": 10,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": 7,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": 8,
+      "saving_throw_wisdom": null,
+      "size": "huge",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 40.0
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-mm",
+        "content_hash": "583ce01d598666e7840a0e59e31f78207453afb8964a0d56f4e73fb936b49188",
+        "edition": "2014",
+        "id": "o5e:a5e-mm:creature:a5e-mm-hill-giant-chief",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:a5e-mm"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 8,
+      "ability_score_intelligence": 6,
+      "ability_score_strength": 20,
+      "ability_score_wisdom": 10,
+      "alignment": "chaotic evil",
+      "armor_class": 13,
+      "category": "Monsters",
+      "challenge_rating": "8.000",
+      "document": "a5e-mm",
+      "hit_dice": "12d12+48",
+      "hit_points": 126,
+      "hover": false,
+      "languages": [
+        "giant"
+      ],
+      "languages_desc": "Giant",
+      "name": "Hill Giant Chief",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560.0,
+      "passive_perception": 10,
+      "saving_throw_constitution": 7,
+      "saving_throw_strength": 8,
+      "size": "huge",
+      "type": "giant",
+      "walk": 40.0,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "a5e-mm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e",
+      "publication_date": "2021-12-12T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Monstrous Menagerie"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "The giant jumps up to 15 feet horizontally without provoking opportunity attacks and falls prone in a space containing one or more creatures. Each creature in its space when it lands makes a DC 15 Dexterity saving throw, taking 19 (3d8 + 6) bludgeoning damage and falling prone on a failure. On a success, the creature takes half damage and is pushed 5 feet to an unoccupied space of its choice. If that space is occupied, the creature falls prone.",
+          "desc_ru": "Действие «Бодй Удар»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_hill-giant-chief_body-slam",
+          "name": "Body Slam",
+          "name_ru": "Бодй Удар",
+          "order_in_statblock": 1,
+          "parent": "a5e-mm_hill-giant-chief",
+          "ru_source": "derived",
+          "uses_param": 1,
+          "uses_type": "PER_DAY"
+        },
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "One creature within 5 feet makes a DC 10 Dexterity saving throw. On a failure, it is grappled (escape DC 16). Until this grapple ends, the giant can't grab another target, and it makes greatclub attacks with advantage against the grappled target.",
+          "desc_ru": "Действие «Граб»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_hill-giant-chief_grab",
+          "name": "Grab",
+          "name_ru": "Граб",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_hill-giant-chief",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage. If the target is a Medium or smaller creature  it makes a DC 16 Strength saving throw  falling prone on a failure.",
+          "desc_ru": "Действие «Большая дубинка»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_hill-giant-chief_greatclub",
+          "name": "Greatclub",
+          "name_ru": "Большая дубинка",
+          "order_in_statblock": 1,
+          "parent": "a5e-mm_hill-giant-chief",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Each creature within 10 feet makes a DC 16 Dexterity saving throw. On a failure  a creature takes 18 (3d8 + 5) bludgeoning damage  is pushed 10 feet away from the giant  and falls prone.",
+          "desc_ru": "Действие «Большая дубинка Свееп»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_hill-giant-chief_greatclub-sweep",
+          "name": "Greatclub Sweep",
+          "name_ru": "Большая дубинка Свееп",
+          "order_in_statblock": 3,
+          "parent": "a5e-mm_hill-giant-chief",
+          "ru_source": "derived",
+          "uses_param": 1,
+          "uses_type": "PER_DAY"
+        },
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "Areas of unworked earth within 60 feet magically become swampy mud for 1 minute or until the giant dies. These areas become difficult terrain. Prone creatures in the area when the mud appears or that fall prone in the area make a DC 15 Strength saving throw. On a failure, the creatures Speed drops to 0 as it becomes stuck in the mud. A creature can use its action to make a DC 15 Strength check, freeing itself on a success.",
+          "desc_ru": "Действие «Муддй Гроунд»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_hill-giant-chief_muddy-ground",
+          "name": "Muddy Ground",
+          "name_ru": "Муддй Гроунд",
+          "order_in_statblock": 2,
+          "parent": "a5e-mm_hill-giant-chief",
+          "ru_source": "derived",
+          "uses_param": 1,
+          "uses_type": "PER_DAY"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The giant attacks twice with its greatclub.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_hill-giant-chief_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_hill-giant-chief",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Ranged Weapon Attack: +8 to hit, range 60/240 ft., one target. Hit: 26 (6d6 + 5) bludgeoning damage. If the target is a Medium or smaller creature  it makes a DC 16 Strength saving throw  falling prone on a failure. In lieu of a rock  the giant can throw a grappled Medium or smaller creature up to 30 feet. On a hit  the target and the thrown creature both take 15 (3d6 + 5) bludgeoning damage. On a miss  only the thrown creature takes the damage. The thrown creature falls prone in an unoccupied space 5 feet from the target.",
+          "desc_ru": "Действие «Рок»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_hill-giant-chief_rock",
+          "name": "Rock",
+          "name_ru": "Рок",
+          "order_in_statblock": 2,
+          "parent": "a5e-mm_hill-giant-chief",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "The giant stamps its foot, causing the ground to tremble. Each creature within 60 feet makes a DC 15 Dexterity saving throw. On a failure, it falls prone.",
+          "desc_ru": "Действие «Стомп»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_hill-giant-chief_stomp",
+          "name": "Stomp",
+          "name_ru": "Стомп",
+          "order_in_statblock": 3,
+          "parent": "a5e-mm_hill-giant-chief",
+          "ru_source": "derived",
+          "uses_param": 1,
+          "uses_type": "PER_DAY"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The giant makes Insight checks with disadvantage.",
+          "desc_ru": "Особенность «Гуллибле». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_hill-giant-chief_gullible",
+          "name": "Gullible",
+          "name_ru": "Гуллибле",
+          "parent": "a5e-mm_hill-giant-chief",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Hill Giant Chief",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-mm",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Hill Giant Chief",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Огромный великан, мировоззрение: хаотично-злое. Класс доспеха: 13. Хиты: 126 (12к12+48). Скорость: ходьба 40 фт.. Характеристики: СИЛ 20, ЛОВ 8, ТЕЛ 18, ИНТ 6, МУД 10, ХАР 6. Чувства: пассивное Восприятие 10. Показатель опасности: 8. Структурированные механики записи: особенностей: 1, действий: 8.",
+      "glossary_version": "derived-v1",
+      "name": "Хилл великан Чиеф",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

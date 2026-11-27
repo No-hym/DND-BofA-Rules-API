@@ -1,0 +1,179 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_reposition",
+  "id": "o5e:deepm:spell:deepm-reposition",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-reposition",
+      "o5e:dmag:spell:reposition"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "2063a077203cde0d4e77bbf558b4d322c2fbce286aa50e2b77ddd47b2bf10071",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 4,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "2063a077203cde0d4e77bbf558b4d322c2fbce286aa50e2b77ddd47b2bf10071",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-reposition",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "92a46e0f35fb79015f44ed57c7840f4d6289e26ee076681c1a407effb1db3ab1",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:reposition",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "concentration": false,
+      "desc": "You designate up to three friendly creatures (one of which can be yourself) within range. Each target teleports to an unoccupied space of its choosing that it can see within 30 feet of itself.",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 5th level or higher, the spell targets one additional friendly creature for each slot level above 4th.",
+      "level": 4,
+      "material": false,
+      "material_consumed": false,
+      "name": "Reposition",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "conjuration",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3964",
+          "parent": "deepm_reposition",
+          "type": "default"
+        },
+        {
+          "external_id": "3966",
+          "parent": "deepm_reposition",
+          "target_count": 2,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "3967",
+          "parent": "deepm_reposition",
+          "target_count": 3,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3968",
+          "parent": "deepm_reposition",
+          "target_count": 4,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3969",
+          "parent": "deepm_reposition",
+          "target_count": 5,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3970",
+          "parent": "deepm_reposition",
+          "target_count": 6,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Reposition",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You designate up to three friendly creatures (one of which can be yourself) within range. Each target teleports to an unoccupied space of its choosing that it can see within 30 feet of itself.",
+      "name": "Reposition",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы назначаете до трёх дружественных существ (одним из которых можете быть вы сами) в пределах дистанции. Каждая цель телепортируется в незанятое пространство по её выбору, которое она может видеть в пределах 30 футов от себя.",
+      "glossary_version": "v1",
+      "name": "Перестановка",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

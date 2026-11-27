@@ -1,0 +1,198 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_ire-of-the-mountain",
+  "id": "o5e:deepm:spell:deepm-ire-of-the-mountain",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-ire-of-the-mountain",
+      "o5e:dmag:spell:ire-of-the-mountain"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "1a019f40a4b71ec5a89def8ed20ab3f37e99e32a22c9c8f881255af617dc34af",
+    "formulas": [
+      {
+        "expression": "1d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "fire"
+      ],
+      "duration": "instantaneous",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a piece of coal",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "1a019f40a4b71ec5a89def8ed20ab3f37e99e32a22c9c8f881255af617dc34af",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-ire-of-the-mountain",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "9d69a45ffe74bf422a66e843ffc05602c7dc5daf26d79d26456cea74c586e47a",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:ire-of-the-mountain",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "fire"
+      ],
+      "desc": "An **ire of the mountain** spell melts nonmagical objects that are made primarily of metal. Choose one metal object weighing 10 pounds or less that you can see within range. Tendrils of blistering air writhe toward the target. A creature holding or wearing the item must make a Dexterity saving throw. On a successful save, the creature takes 1d8 fire damage and the spell has no further effect. On a failed save, the targeted object melts and is destroyed, and the creature takes 4d8 fire damage if it is wearing the object, or 2d8 fire damage if it is holding the object. If the object is not being held or worn by a creature, it is automatically melted and rendered useless. This spell cannot affect magic items.\n",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, you can target one additional object for each slot level above 3rd.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a piece of coal",
+      "name": "Ire of the Mountain",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3625",
+          "parent": "deepm_ire-of-the-mountain",
+          "type": "default"
+        },
+        {
+          "external_id": "3627",
+          "parent": "deepm_ire-of-the-mountain",
+          "target_count": 2,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "3628",
+          "parent": "deepm_ire-of-the-mountain",
+          "target_count": 3,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "3629",
+          "parent": "deepm_ire-of-the-mountain",
+          "target_count": 4,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3630",
+          "parent": "deepm_ire-of-the-mountain",
+          "target_count": 5,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3631",
+          "parent": "deepm_ire-of-the-mountain",
+          "target_count": 6,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3632",
+          "parent": "deepm_ire-of-the-mountain",
+          "target_count": 7,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Ire of the Mountain",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "An **ire of the mountain** spell melts nonmagical objects that are made primarily of metal. Choose one metal object weighing 10 pounds or less that you can see within range. Tendrils of blistering air writhe toward the target. A creature holding or wearing the item must make a Dexterity saving throw. On a successful save, the creature takes 1d8 fire damage and the spell has no further effect. On a failed save, the targeted object melts and is destroyed, and the creature takes 4d8 fire damage if it is wearing the object, or 2d8 fire damage if it is holding the object. If the object is not being held or worn by a creature, it is automatically melted and rendered useless. This spell cannot affect magic items.",
+      "name": "Ire of the Mountain",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Это заклинание плавит немагические предметы, сделанные в основном из металла. Выберите один металлический предмет весом 10 фунтов или меньше, который видите в пределах дистанции. Щупальца обжигающего воздуха извиваются к цели. Существо, держащее или носящее предмет, должно совершить спасбросок Ловкости. При успехе существо получает 1к8 урона огнём, и заклинание не имеет дальнейшего эффекта. При провале указанный предмет плавится и уничтожается, а существо получает 4к8 урона огнём, если носит предмет, или 2к8 урона огнём, если держит предмет. Если предмет не держит и не носит существо, он автоматически плавится и становится бесполезным. Это заклинание не может воздействовать на магические предметы.",
+      "glossary_version": "v1",
+      "name": "Гнев горы",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

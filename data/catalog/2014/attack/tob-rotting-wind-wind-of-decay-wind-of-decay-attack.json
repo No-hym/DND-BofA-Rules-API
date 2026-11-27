@@ -1,0 +1,126 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "tob_rotting-wind_wind-of-decay_wind-of-decay-attack",
+  "id": "o5e:tob:creatureactionattack:tob-rotting-wind-wind-of-decay-wind-of-decay-attack",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creatureactionattack:tob-2023-rotting-wind-wind-of-decay-wind-of-decay-attack",
+      "o5e:tob:creatureactionattack:tob-rotting-wind-wind-of-decay-wind-of-decay-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "09925adf0f1a79af5b020886475634532e44374e5b0a7f241ec63fa2024b3de7",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "WEAPON",
+      "damage_bonus": null,
+      "damage_die_count": 2,
+      "damage_die_type": "D6",
+      "damage_type": "bludgeoning",
+      "extra_damage_bonus": null,
+      "extra_damage_die_count": null,
+      "extra_damage_die_type": null,
+      "extra_damage_type": "necrotic",
+      "long_range": null,
+      "range": null,
+      "reach": 0,
+      "to_hit_mod": 8
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "09925adf0f1a79af5b020886475634532e44374e5b0a7f241ec63fa2024b3de7",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-rotting-wind-wind-of-decay-wind-of-decay-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "8821405a8d3aff05c5ebdddcc1bbf56322f4025908e0a35dad817ad11db05c93",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-rotting-wind-wind-of-decay-wind-of-decay-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "tob_rotting-wind_wind-of-decay",
+        "type": "parent",
+        "value": "tob_rotting-wind_wind-of-decay"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "WEAPON",
+      "damage_die_count": 2,
+      "damage_die_type": "D6",
+      "damage_type": "bludgeoning",
+      "extra_damage_type": "necrotic",
+      "name": "Wind of Decay attack",
+      "parent": "tob_rotting-wind_wind-of-decay",
+      "reach": 0,
+      "target_creature_only": false,
+      "to_hit_mod": 8
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Wind of Decay attack",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Wind of Decay attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака оружием: +8 к попаданию. Зона: досягаемость 0 фт., одна цель. Попадание: 2к6 дробящего урона.",
+      "glossary_version": "derived-v1",
+      "name": "Винд Декай",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

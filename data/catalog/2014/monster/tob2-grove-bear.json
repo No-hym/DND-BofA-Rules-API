@@ -1,0 +1,197 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_grove-bear",
+  "id": "o5e:tob2:creature:tob2-grove-bear",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-grove-bear"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f53aef8002cac0701a7d8c88b7ae2627aa5b19e9934a543cfc2cd93def7efab3",
+    "formulas": [
+      {
+        "expression": "2d8+4",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 16,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": 30,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "2d8+4",
+      "hit_points": 13,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": 4,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": 5,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 40
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "f53aef8002cac0701a7d8c88b7ae2627aa5b19e9934a543cfc2cd93def7efab3",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-grove-bear",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 3,
+      "ability_score_strength": 16,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": 30,
+      "document": "tob2",
+      "hit_dice": "2d8+4",
+      "hit_points": 13,
+      "hover": false,
+      "name": "Grove Bear",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "saving_throw_constitution": 4,
+      "saving_throw_strength": 5,
+      "size": "medium",
+      "skill_bonus_perception": 3,
+      "type": "beast",
+      "walk": 40,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage and the target is grappled (escape DC 13). Until this grapple ends, the bear can't use its claws on another target.",
+          "desc_ru": "Действие «Когти»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_grove-bear_claws",
+          "name": "Claws",
+          "name_ru": "Когти",
+          "order_in_statblock": 0,
+          "parent": "tob2_grove-bear",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The bear has advantage on attack rolls against any creature grappled by it.",
+          "desc_ru": "Особенность «Грапплер». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_grove-bear_grappler",
+          "name": "Grappler",
+          "name_ru": "Грапплер",
+          "parent": "tob2_grove-bear",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The bear has advantage on Wisdom (Perception) checks that rely on smell.",
+          "desc_ru": "Совершает проверки Мудрости (Восприятие) с преимуществом, если они полагаются на обоняние.",
+          "external_id": "tob2_grove-bear_keen-smell",
+          "name": "Keen Smell",
+          "name_ru": "Кеен Смелл",
+          "parent": "tob2_grove-bear",
+          "ru_source": "template"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Grove Bear",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Grove Bear",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Рощевые медведи напоминают чёрных медведей со светлыми мордами, но они немного меньше и заметно быстрее. Когда рощевые медведи сталкиваются, чтобы защитить территорию или соревноваться за партнёров, они вступают в жестокие борцовские матчи, каждый пытаясь прижать другого, пока один медведь не потеряет нервы и не сбежит.",
+      "glossary_version": "v1",
+      "name": "Рощевой медведь",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

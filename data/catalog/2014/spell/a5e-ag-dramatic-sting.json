@@ -1,0 +1,214 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_dramatic-sting",
+  "id": "o5e:a5e-ag:spell:a5e-ag-dramatic-sting",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-dramatic-sting",
+      "o5e:a5e:spell:dramatic-sting-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "acef0975f7127b9c22ff50b86c7d3934e9005b508ab87f98f88150c778873cb4",
+    "formulas": [
+      {
+        "expression": "1d4",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "1d4",
+      "damage_types": [
+        "psychic"
+      ],
+      "duration": "1 minute",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "acef0975f7127b9c22ff50b86c7d3934e9005b508ab87f98f88150c778873cb4",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-dramatic-sting",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "e7eea06d2c45acc693e3805d0802a5ad66870dfa0dbd6214602696e1930e7bab",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:dramatic-sting-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "concentration": true,
+      "damage_roll": "1d4",
+      "damage_types": [
+        "psychic"
+      ],
+      "desc": "You frighten the target by echoing its movements with ominous music and terrifying sound effects. It takes 1d4 psychic damage and becomes frightened of you until the spell ends.\n\nAt the end of each of the creature's turns, it can make another Wisdom saving throw, ending the effect on itself on a success. On a failed save, the creature takes 1d4 psychic damage.\n\nYou cannot cast another spell through your spellcasting focus while concentrating on this spell.",
+      "document": "a5e-ag",
+      "duration": "1 minute",
+      "higher_level": "The damage increases by 1d4 for each slot level above 1st.",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "name": "Dramatic Sting",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "1063",
+          "parent": "a5e-ag_dramatic-sting",
+          "type": "default"
+        },
+        {
+          "damage_roll": "2d4",
+          "external_id": "1065",
+          "parent": "a5e-ag_dramatic-sting",
+          "type": "slot_level_2"
+        },
+        {
+          "damage_roll": "3d4",
+          "external_id": "1066",
+          "parent": "a5e-ag_dramatic-sting",
+          "type": "slot_level_3"
+        },
+        {
+          "damage_roll": "4d4",
+          "external_id": "1067",
+          "parent": "a5e-ag_dramatic-sting",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "5d4",
+          "external_id": "1068",
+          "parent": "a5e-ag_dramatic-sting",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "6d4",
+          "external_id": "1069",
+          "parent": "a5e-ag_dramatic-sting",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "7d4",
+          "external_id": "1070",
+          "parent": "a5e-ag_dramatic-sting",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "8d4",
+          "external_id": "1071",
+          "parent": "a5e-ag_dramatic-sting",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "9d4",
+          "external_id": "1072",
+          "parent": "a5e-ag_dramatic-sting",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Dramatic Sting",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "You frighten the target by echoing its movements with ominous music and terrifying sound effects. It takes 1d4 psychic damage and becomes frightened of you until the spell ends.\n\nAt the end of each of the creature's turns, it can make another Wisdom saving throw, ending the effect on itself on a success. On a failed save, the creature takes 1d4 psychic damage.\n\nYou cannot cast another spell through your spellcasting focus while concentrating on this spell.",
+      "name": "Dramatic Sting",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы пугаете цель, эхом повторяя её движения зловещей музыкой и ужасающими звуковыми эффектами. Она получает 1к4 психического урона и становится испуганной вами до конца заклинания.\n\nВ конце каждого хода существа оно может совершить ещё один спасбросок Мудрости, прекращая эффект на себе при успехе. При проваленном спасброске существо получает 1к4 психического урона.\n\nВы не можете творить другое заклинание через вашу заклинательную фокусировку, пока концентрируетесь на этом заклинании.",
+      "glossary_version": "v1",
+      "name": "Драматическое жало",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,201 @@
+{
+  "attribution": "Title: Spells That Don't Suck; Author: Ben Somers / somanyrobots, Omega Ankh; Publisher: somanyrobots; Source: https://www.somanyrobots.com/s/Spells-That-Dont-Suck-compressed.pdf; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "spells-that-dont-suck",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "spells-that-dont-suck_arctic-breath",
+  "id": "o5e:spells-that-dont-suck:spell:spells-that-dont-suck-arctic-breath",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "8900503d13bd3bfcc23a1167f8c5e5612b1205e31ceb55c95d1b32ef3d22b835",
+    "formulas": [
+      {
+        "expression": "2d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "casting_time": "action",
+      "classes": [
+        "srd_druid",
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "2d8",
+      "damage_types": [
+        "cold"
+      ],
+      "duration": "instantaneous",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": null,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_druid",
+        "type": "classes",
+        "value": [
+          "srd_druid",
+          "srd_sorcerer",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "casting_time": "action",
+      "classes": [
+        "srd_druid",
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "2d8",
+      "damage_types": [
+        "cold"
+      ],
+      "desc": "A line of freezing arctic wind 30 feet long and 5 feet wide blasts out from you in a direction of your choice. Each creature in the line must make a Dexterity saving throw.\n\nOn a failure, a creature takes 2d8 cold damage and its speed is reduced by 10 feet until the end of its next turn. On a success, a creature takes half as much damage and isn’t slowed.",
+      "document": "spells-that-dont-suck",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Arctic Breath",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "somatic": true,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Ben Somers / somanyrobots, Omega Ankh",
+      "key": "spells-that-dont-suck",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://www.somanyrobots.com/s/Spells-That-Dont-Suck-compressed.pdf",
+      "publication_date": "2025-03-30T00:00:00",
+      "publisher": "somanyrobots",
+      "title": "Spells That Don't Suck"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "damage_roll": "2d8",
+          "external_id": "10694",
+          "parent": "spells-that-dont-suck_arctic-breath",
+          "type": "default"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "10695",
+          "parent": "spells-that-dont-suck_arctic-breath",
+          "type": "slot_level_2"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "10696",
+          "parent": "spells-that-dont-suck_arctic-breath",
+          "type": "slot_level_3"
+        },
+        {
+          "damage_roll": "5d8",
+          "external_id": "10697",
+          "parent": "spells-that-dont-suck_arctic-breath",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "6d8",
+          "external_id": "10698",
+          "parent": "spells-that-dont-suck_arctic-breath",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "7d8",
+          "external_id": "10699",
+          "parent": "spells-that-dont-suck_arctic-breath",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "8d8",
+          "external_id": "10700",
+          "parent": "spells-that-dont-suck_arctic-breath",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "9d8",
+          "external_id": "10701",
+          "parent": "spells-that-dont-suck_arctic-breath",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "10d8",
+          "external_id": "10702",
+          "parent": "spells-that-dont-suck_arctic-breath",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Arctic Breath",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "somanyrobots",
+  "source": "open5e:v2:spells-that-dont-suck",
+  "translations": {
+    "en": {
+      "description": "A line of freezing arctic wind 30 feet long and 5 feet wide blasts out from you in a direction of your choice. Each creature in the line must make a Dexterity saving throw.\n\nOn a failure, a creature takes 2d8 cold damage and its speed is reduced by 10 feet until the end of its next turn. On a success, a creature takes half as much damage and isn’t slowed.",
+      "name": "Arctic Breath",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Линия замораживающего арктического ветра 30 футов длиной и 5 футов шириной выстреливает из вас в направлении по вашему выбору. Каждое существо в линии должно совершить спасбросок Ловкости.\n\nПри провале существо получает 2к8 урона холодом, и его скорость уменьшена на 10 футов до конца его следующего хода. При успехе существо получает половину урона и не замедлено.",
+      "glossary_version": "v1",
+      "name": "Арктическое дыхание",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

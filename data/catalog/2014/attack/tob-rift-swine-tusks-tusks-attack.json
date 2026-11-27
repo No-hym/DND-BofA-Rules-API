@@ -1,0 +1,143 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "tob_rift-swine_tusks_tusks-attack",
+  "id": "o5e:tob:creatureactionattack:tob-rift-swine-tusks-tusks-attack",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:ccdx:creatureactionattack:ccdx-cave-giant-tusks-tusks-attack",
+      "o5e:srd-2014:creatureactionattack:srd-wereboar-tusks-tusks-attack",
+      "o5e:tob2:creatureactionattack:tob2-cave-giant-shaman-tusks-tusks-attack",
+      "o5e:tob:creatureactionattack:tob-rift-swine-tusks-tusks-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "3d88855fbe00ea45d7cd24b68bbb782521188ca10bf9918341d3b80ab443151f",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "WEAPON",
+      "damage_bonus": null,
+      "damage_die_count": 2,
+      "damage_die_type": "D8",
+      "damage_type": "slashing",
+      "extra_damage_bonus": null,
+      "extra_damage_die_count": null,
+      "extra_damage_die_type": null,
+      "extra_damage_type": null,
+      "long_range": null,
+      "range": null,
+      "reach": 5,
+      "to_hit_mod": 7
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "3d88855fbe00ea45d7cd24b68bbb782521188ca10bf9918341d3b80ab443151f",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-rift-swine-tusks-tusks-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "97086f0234f10915e762008e3e56e1892efa0332e5774deab99052941c15c7a0",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-cave-giant-tusks-tusks-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "1c7cc61fbdb8acc3858e8922045068447725274f5a8b0b72b12bbbf3b0cbfe9b",
+        "edition": "2014",
+        "id": "o5e:srd-2014:creatureactionattack:srd-wereboar-tusks-tusks-attack",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "tob2",
+        "content_hash": "cdef8f48ce0061b8c58110f5a4528b8bd83e3eb4f00e35a05c74d9da7de0b4ac",
+        "edition": "2014",
+        "id": "o5e:tob2:creatureactionattack:tob2-cave-giant-shaman-tusks-tusks-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "tob_rift-swine_tusks",
+        "type": "parent",
+        "value": "tob_rift-swine_tusks"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "WEAPON",
+      "damage_die_count": 2,
+      "damage_die_type": "D8",
+      "damage_type": "slashing",
+      "name": "Tusks attack",
+      "parent": "tob_rift-swine_tusks",
+      "reach": 5,
+      "target_creature_only": false,
+      "to_hit_mod": 7
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Tusks attack",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Tusks attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака оружием: +7 к попаданию. Зона: досягаемость 5 фт., одна цель. Попадание: 2к8 рубящего урона.",
+      "glossary_version": "derived-v1",
+      "name": "Тускс",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

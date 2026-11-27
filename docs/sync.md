@@ -25,7 +25,7 @@
 
 1. Скачать ассет_release: `https://github.com/No-hym/DND-BofA-Rules-API/releases/download/catalog-v<version>/catalog-v<version>.tar.gz`.
 2. Прочитать `catalog-release.json` (версия, основная редакция, точка входа).
-3. Загрузить `catalog/<edition>/<category>.json` в поисковую проекцию/БД сайта; `releases/v<version>.json` использовать для статистики и аудита, `releases/aliases.json` — для миграции старых ID.
+3. Загрузить карточки `catalog/<edition>/<category>/<card>.json` (одна запись — один файл) в поисковую проекцию/БД сайта; `releases/v<version>.json` использовать для статистики и аудита, `releases/aliases.json` — для миграции старых ID.
 4. Никаких обращений к Open5e/5esrd/A5ESRD с сайта не требуется.
 
 ## Обнаружение изменений и безопасное обновление

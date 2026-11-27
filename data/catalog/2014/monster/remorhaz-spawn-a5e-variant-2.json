@@ -1,0 +1,134 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "remorhaz-spawn-a5e",
+  "id": "o5e:menagerie:monster:remorhaz-spawn-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:remorhaz-spawn-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f8d0633edc3caaa37fe36aa2bf61e33bef8e429981182119f3f8b80e2f972a99",
+    "formulas": [
+      {
+        "expression": "10d10+40",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 14,
+      "challenge_rating": "5",
+      "condition_immunities": "",
+      "damage_immunities": "cold, fire",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "10d10+40",
+      "hit_points": 95,
+      "languages": "",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "f8d0633edc3caaa37fe36aa2bf61e33bef8e429981182119f3f8b80e2f972a99",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:remorhaz-spawn-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The remorhaz makes a bite attack and then a constrict attack.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 3 (1d6) fire damage.\"}, {\"name\": \"Constrict\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage  and the target is subjected to the remorhazs Heated Body trait. The target is grappled (escape DC 15) and restrained while grappled. Until this grapple ends  the remorhaz can't grapple another creature.\"}]",
+      "armor_class": 14,
+      "bonus_actions_json": "null",
+      "challenge_rating": "5",
+      "charisma": 5,
+      "constitution": 18,
+      "cr": 5.0,
+      "damage_immunities": "cold, fire",
+      "dexterity": 14,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "10d10+40",
+      "hit_points": 95,
+      "intelligence": 4,
+      "intelligence_save": 0,
+      "legendary_actions_json": "null",
+      "name": "Remorhaz Spawn",
+      "page_no": 369,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 11",
+      "size": "Large",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Heated Body\", \"desc\": \"A creature that starts its turn grappled by the remorhaz, touches it, or hits it with a melee attack while within 5 feet takes 3 (1d6) fire damage. A creature can take this damage only once on a turn. If the remorhaz has taken cold damage since the end of its last turn, this trait doesnt function.\"}]",
+      "speed_json": "{\"walk\": 30, \"burrow\": 20}",
+      "spells_json": "null",
+      "strength": 18,
+      "type": "Monstrosity",
+      "wisdom": 12,
+      "wisdom_save": 4
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Remorhaz Spawn",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-remorhaz-spawn"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Remorhaz Spawn",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крупное чудовище. Класс доспеха: 14. Хиты: 95 (10к10+40). Иммунитет к урону: холодом, огнём. Показатель опасности: 5.",
+      "glossary_version": "derived-v1",
+      "name": "Реморхаз Спавн",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

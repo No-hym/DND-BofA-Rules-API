@@ -1,0 +1,137 @@
+{
+  "attribution": "Title: 5e Core Rules; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wotc-srd; Source: http://dnd.wizards.com/articles/features/systems-reference-document-srd; License: OGL-1.0a (https://open5e.com/legal); System Reference Document 5.1 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "wotc-srd",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "giant-elk",
+  "id": "o5e:wotc-srd:monster:giant-elk-variant-3",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:wotc-srd:monster:giant-elk"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "addc8d68da8907d8a0ad624b76fe7c264a2fa872f3ba5e53f03ff8cc79963806",
+    "formulas": [
+      {
+        "expression": "5d12+10",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "challenge_rating": "2",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "5d12+10",
+      "hit_points": 42,
+      "languages": "Giant Elk, understands Common, Elvish, and Sylvan but can't speak",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "wotc-srd",
+        "content_hash": "addc8d68da8907d8a0ad624b76fe7c264a2fa872f3ba5e53f03ff8cc79963806",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:monster:giant-elk",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Ram\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.\", \"attack_bonus\": 6, \"damage_dice\": \"2d6\", \"damage_bonus\": 4}, {\"name\": \"Hooves\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one prone creature. Hit: 22 (4d8 + 4) bludgeoning damage.\", \"attack_bonus\": 6, \"damage_dice\": \"4d8\", \"damage_bonus\": 4}]",
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "2",
+      "charisma": 10,
+      "constitution": 14,
+      "cr": 2.0,
+      "desc": "The majestic **giant elk** is rare to the point that its appearance is often taken as a foreshadowing of an important event, such as the birth of a king. Legends tell of gods that take the form of giant elk when visiting the Material Plane. Many cultures therefore believe that to hunt these creatures is to invite divine wrath.",
+      "dexterity": 16,
+      "document": 32,
+      "environments_json": "[\"Hill\", \"Grassland\", \"Mountain\", \"Tundra\", \"Forest\"]",
+      "group": "Miscellaneous Creatures",
+      "hit_dice": "5d12+10",
+      "hit_points": 42,
+      "intelligence": 7,
+      "languages": "Giant Elk, understands Common, Elvish, and Sylvan but can't speak",
+      "legendary_actions_json": "null",
+      "name": "Giant Elk",
+      "page_no": 375,
+      "perception": 4,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "passive Perception 14",
+      "size": "Huge",
+      "skills_json": "{\"perception\": 4}",
+      "special_abilities_json": "[{\"name\": \"Charge\", \"desc\": \"If the elk moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.\", \"attack_bonus\": 0, \"damage_dice\": \"2d6\"}]",
+      "speed_json": "{\"walk\": 60}",
+      "spells_json": "null",
+      "strength": 19,
+      "type": "Beast",
+      "wisdom": 14
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "wotc-srd",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+      "publication_date": "",
+      "publisher": "wotc-srd",
+      "title": "5e Core Rules"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Giant Elk",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:srd-2014:creature:srd-giant-elk"
+  },
+  "publisher_id": "wotc-srd",
+  "source": "open5e:v1:wotc-srd",
+  "translations": {
+    "en": {
+      "description": "The majestic **giant elk** is rare to the point that its appearance is often taken as a foreshadowing of an important event, such as the birth of a king. Legends tell of gods that take the form of giant elk when visiting the Material Plane. Many cultures therefore believe that to hunt these creatures is to invite divine wrath.",
+      "name": "Giant Elk",
+      "source_version": "5.1",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Огромный Зверь, Без мировоззрения*\n\n- **Класс Доспеха:** 14 (природный доспех)\n- **Хиты:** 42 (5к12 + 10)\n- **Скорость:** 60 фт.\n\n| СИЛ      | ЛОВ      | ТЕЛ      | ИНТ      | МДР      | ХАР      |\n|:---:|:---:|:---:|:---:|:---:|:---:|\n| 19 (+4)  | 16 (+3)  | 14 (+2)  | 7 (-2)   | 14 (+2)  | 10 (+0)  |\n\n- **Навыки:** Внимательность +4\n- **Чувства:** Пассивная Внимательность 14\n- **Языки:** Язык гигантских лосей, понимает Общий, Эльфийский и Сильван, но не может говорить на них\n- **Показатель опасности:** 2 (450 ОО)",
+      "glossary_version": "v1",
+      "name": "Гигантский лось",
+      "source_version": "5.1",
+      "status": "source"
+    }
+  },
+  "version": "5.1"
+}

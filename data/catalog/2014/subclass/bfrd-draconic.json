@@ -1,0 +1,156 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "bfrd_draconic",
+  "id": "o5e:bfrd:characterclass:bfrd-draconic",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "ba723e4f6f11f9ed3cb79a5f68ac5d1a123cfd1ac806633b533178b33b3384ba",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "bfrd_sorcerer"
+    },
+    "original_system": "5e-2014",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "bfrd_sorcerer",
+        "type": "subclass_of",
+        "value": "bfrd_sorcerer"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Through lineage, bargain, or unrequited gift, the origins of your magic lie in the preternatural power of dragons. These beings, monumental in their age, power, and size, possess unshakeable bearing, unstoppable might, and mastery over the elements of the natural world.",
+      "document": "bfrd",
+      "name": "Draconic",
+      "subclass_of": "bfrd_sorcerer"
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "You gain origin spells at the sorcerer levels listed in the Draconic Origin Spells table. See the Sorcerer Subclass class feature for how these spells work.\n\nNote that one of the spells you gain at each listed sorcerer level is determined by the type of dragon you select as your ancestor (see Dragon Ancestor).\n\n|Sorcerer Level|Spells|\n|---|---|\n|3rd|*elemental blade*, dragon ancestor spell|\n|5th|*fear*, dragon ancestor spell|\n|7th|*elemental shield*, dragon ancestor spell|\n|9th|*dominate*, dragon ancestor spell|\n|11th|*mass suggestion*, dragon ancestor spell|",
+          "desc_ru": "Вы получаете заклинания происхождения на уровнях чародея, перечисленных в соответствующей таблице. См. классовую особенность «Подкласс чародея» о том, как эти заклинания работают.\n\nОтметьте, что одно из заклинаний, которые вы получаете на каждом перечисленном уровне чародея, определяется типом дракона, которого вы выбираете как вашего предка (см. Драконий предок).\n\n| Уровень чародея | Заклинания |\n|---|---|\n| 3-й | Элементальный клинок, заклинание драконьего предка |\n| 5-й | Страх, заклинание драконьего предка |\n| 7-й | Элементальный щит, заклинание драконьего предка |\n| 9-й | Подчинение, заклинание драконьего предка |\n| 11-й | Массовое внушение, заклинание драконьего предка |",
+          "document": "bfrd",
+          "external_id": "bfrd_draconic_draconic-origin-spells",
+          "level": 3,
+          "name": "Draconic Origin Spells",
+          "name_ru": "Заклинания драконьего происхождения",
+          "parent": "bfrd_draconic",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. Your hit point maximum increases immediately by 1 and by an additional 1 when you gain a level of sorcerer.\n\nIn addition, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your DEX modifier.",
+          "desc_ru": "Магия в вашем теле проявляет физические черты вашего драконьего дара. Ваш максимум хитов увеличивается на 3 и увеличивается на 1 каждый раз, когда вы получаете ещё один уровень чародея.\n\nЧасти вашего тела также покрыты чешуёй, похожей на драконью. Пока вы не носите доспехи, ваш базовый Класс Доспеха равен 10 + ваш модификатор Ловкости + ваш модификатор Харизмы.",
+          "document": "bfrd",
+          "external_id": "bfrd_draconic_draconic-resilience",
+          "level": 3,
+          "name": "Draconic Resilience",
+          "name_ru": "Драконья стойкость",
+          "parent": "bfrd_draconic",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You begin to manifest traits of the type of dragon that instilled you with power. Choose that dragon's type now. This choice also dictates some of your spells gained with your Draconic Origin Spells feature, and the damage type associated with each dragon is used by additional features you gain later.\n\nYou can now speak, read, and write Draconic. In addition, when you make an ability check when interacting with or recalling information about dragons, treat any d20 roll less than your sorcerer level as if you rolled a number equal to your sorcerer level.\n\n|Dragon Ancestor|Damage Type|3rd Level|5th Level|7th Level|9th Level|11th Level|\n|---|---|\n|Black or Copper|Acid|*grease*|*acid arrow*|*stinking cloud*|*stone shape*|*cloudkill*|\n|Blue or Bronze|Lightning|*thunderwave*|*invisibility*|*lightning bolt*|*greater invisibility*|*conjure elemental (air)*|\n|Brass, Gold, or Red|Fire|*burning hands*|*heat metal*|*fireball*|*wall of fire*|*flame strike*|\n|Green|Poison|*entangle*|*barkskin*|*stinking cloud*|*blight*|*contagion*|\n|Silver or White|Cold|*fog cloud*|*hold*|*sleet storm*|*ice storm*|*cone of cold*|",
+          "desc_ru": "Вы начинаете манифестировать черты типа дракона, который наделил вас силой. Выберите тип этого дракона сейчас. Этот выбор также диктует некоторые из ваших заклинаний, полученных с вашей особенностью Заклинания драконьего происхождения, и тип урона, связанный с каждым драконом, используется дополнительными особенностями, которые вы получаете позже.\n\nВы теперь можете говорить, читать и писать на драконьем. Кроме того, когда вы совершаете проверку характеристики при взаимодействии с или вспоминании информации о драконах, считайте любой бросок к20 меньше вашего уровня чародея, как если бы вы бросили число, равное вашему уровню чародея.\n\n|Драконий предок|Тип урона|3-й уровень|5-й уровень|7-й уровень|9-й уровень|11-й уровень|\n|---|---|---|---|---|---|---|\n|Чёрный или Медный|Кислота|Смазка|Кислотная стрела|Смердящее облако|Форма камня|Ядовитое облако|\n|Синий или Бронзовый|Молния|Волна грома|Невидимость|Удар молнии|Большая невидимость|Призыв элементаля (воздух)|\n|Латунный, Золотой или Красный|Огонь|Огненные ладони|Раскалённый металл|Огненный шар|Стена огня|Столп пламени|\n|Зелёный|Яд|Опутывание|Дубовая кожа|Смердящее облако|Увядание|Зараза|\n|Серебряный или Белый|Холод|Туманное облако|Удержание|Снежная буря|Ледяная буря|Конус холода|",
+          "document": "bfrd",
+          "external_id": "bfrd_draconic_dragon-ancestor",
+          "level": 3,
+          "name": "Dragon Ancestor",
+          "name_ru": "Драконий предок",
+          "parent": "bfrd_draconic",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you cast a spell that deals damage of the type associated with your draconic ancestry (including spells with a damage type modified by features such as your Flexible Spell metamagic option), you can spend 1 sorcery point to gain one of the following benefits:\n\n- Each target takes additional damage equal to your PB.\n- You gain resistance to that damage type for 1 minute.",
+          "desc_ru": "Когда вы творите заклинание, которое наносит урон типа, связанного с вашим драконьим происхождением (включая заклинания с типом урона, изменённым особенностями, такими как ваш вариант метамагии Гибкое заклинание), вы можете потратить 1 очко чародейства, чтобы получить одно из следующих преимуществ:\n\n- Каждая цель получает дополнительный урон, равный вашему бонусу мастерства.\n- Вы получаете сопротивление этому типу урона на 1 минуту.",
+          "document": "bfrd",
+          "external_id": "bfrd_draconic_elemental-affinity",
+          "level": 7,
+          "name": "Elemental Affinity",
+          "name_ru": "Стихийная близость",
+          "parent": "bfrd_draconic",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You gain the ability to sprout a pair of dragon wings from your back, gaining a fly speed equal to your walking speed. You can create these wings as a bonus action on your turn, and they last until you dismiss them (also as a bonus action on your turn). While the wings are manifested creatures that can see you have disadvantage on checks and saves to avoid being frightened or intimidated by you.\n\nYou can’t manifest your wings while wearing armor.",
+          "desc_ru": "Вы получаете способность отращивать пару драконьих крыльев из вашей спины, получая скорость полёта, равную вашей скорости ходьбы. Вы можете создать эти крылья бонусным действием в ваш ход, и они длятся, пока вы не отпустите их (также бонусным действием в ваш ход). Пока крылья проявлены, существа, которые могут видеть вас, совершают с помехой проверки и спасброски, чтобы избежать состояния напуганности или запуганности вами.\n\nВы не можете проявлять ваши крылья, нося доспех.",
+          "document": "bfrd",
+          "external_id": "bfrd_draconic_imperious-wings",
+          "level": 11,
+          "name": "Imperious Wings",
+          "name_ru": "Властные крылья",
+          "parent": "bfrd_draconic",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "As an action, you can target one creature within 60 feet of you that you can see to brand it with your draconic element. The target must succeed on a CHA save against your spell save DC or become vulnerable to the damage type associated with your draconic ancestry until the end of your next turn. A target resistant to that damage type loses that resistance for the duration, but a target immune to the damage type is still immune to it, even if the target fails the save.\n\nOnce used, you can't use this feature again until you finish a long rest, unless you spend 4 sorcery points to do so.",
+          "desc_ru": "Действием вы можете нацелить одно существо в пределах 60 футов от вас, которое вы можете видеть, чтобы заклеймить его вашим драконьим элементом. Цель должна успешно пройти спасбросок Харизмы против вашей Сл спасбросков от заклинаний или стать уязвимой к типу урона, связанному с вашим драконьим происхождением, до конца вашего следующего хода. Цель, устойчивая к этому типу урона, теряет это сопротивление на время длительности, но цель, иммунная к типу урона, всё ещё иммунна к нему, даже если цель проваливает спасбросок.\n\nИспользовав, вы не можете использовать эту особенность снова, пока не закончите продолжительный отдых, если не потратите 4 очка чародейства, чтобы сделать это.",
+          "document": "bfrd",
+          "external_id": "bfrd_draconic_draconian-vengeance",
+          "level": 15,
+          "name": "Draconian Vengeance",
+          "name_ru": "Драконья месть",
+          "parent": "bfrd_draconic",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Draconic",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "Through lineage, bargain, or unrequited gift, the origins of your magic lie in the preternatural power of dragons. These beings, monumental in their age, power, and size, possess unshakeable bearing, unstoppable might, and mastery over the elements of the natural world.",
+      "name": "Draconic",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Через родословную, сделку или безответный дар истоки вашей магии лежат в сверхъестественной силе драконов. Эти существа, монументальные по своему возрасту, силе и размеру, обладают непоколебимой осанкой, неудержимой мощью и мастерством над стихиями природного мира.",
+      "glossary_version": "v1",
+      "name": "Драконий",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

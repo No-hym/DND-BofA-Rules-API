@@ -1,0 +1,174 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_conjure-minor-voidborn",
+  "id": "o5e:deepm:spell:deepm-conjure-minor-voidborn",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-conjure-minor-voidborn",
+      "o5e:dmag:spell:conjure-minor-voidborn"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "ec4f590262936f701ae082f3fe3406111eda4709cfb4ec6833656714a053441d",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 hour",
+      "level": 5,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 90,
+      "range_text": "90 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "ec4f590262936f701ae082f3fe3406111eda4709cfb4ec6833656714a053441d",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-conjure-minor-voidborn",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "bc3b5d6ba03c197016ffa2836d087f0f3c90bccba3724d53182735cfb9aed5db",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:conjure-minor-voidborn",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "concentration": true,
+      "desc": "You summon fiends or aberrations that appear in unoccupied spaces you can see within range. You choose one of the following options:\n* One creature of challenge rating 2 or lower\n* Two creatures of challenge rating 1 or lower\n* Four creatures of challenge rating 1/2 or lower\n* Eight creatures of challenge rating 1/4 or lower\nSummoned creatures disappear when they drop to 0 hit points or when the spell ends.\n\nThe summoned creatures do not directly attack you or your companions. Roll initiative for the summoned creatures as a group; they take their own turns on their initiative result. They attack your enemies and try to stay within 90 feet of you, but they control their own actions. The summoned creatures despise being bound, so they might harm or impede you and your companions with secondary effects (but not direct attacks) if the opportunity arises. At the beginning of the creatures’ turn, you can use your reaction to verbally command them. They obey your commands on that turn, and you take 1d6 psychic damage at the end of the turn.\n\nIf your concentration is broken, the spell ends but the creatures don’t disappear. Instead, you can no longer command them, and they become hostile to you and your companions. They will attack you and your allies if they believe they have a chance to win the fight or to inflict meaningful harm, but they won’t fight if they fear it would mean their own death. You can’t dismiss the creatures, but they disappear 1 hour after being summoned.\n",
+      "document": "deepm",
+      "duration": "1 hour",
+      "higher_level": "When you cast this spell using a 7th‑or 9th-level spell slot, you choose one of the summoning options above, and more creatures appear­—twice as many with a 7th-level spell slot and three times as many with a 9th-level spell slot.",
+      "level": 5,
+      "material": false,
+      "material_consumed": false,
+      "name": "Conjure Minor Voidborn",
+      "range": 90,
+      "range_text": "90 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2832",
+          "parent": "deepm_conjure-minor-voidborn",
+          "type": "default"
+        },
+        {
+          "external_id": "2834",
+          "parent": "deepm_conjure-minor-voidborn",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "2835",
+          "parent": "deepm_conjure-minor-voidborn",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "2836",
+          "parent": "deepm_conjure-minor-voidborn",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2837",
+          "parent": "deepm_conjure-minor-voidborn",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Conjure Minor Voidborn",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You summon fiends or aberrations that appear in unoccupied spaces you can see within range. You choose one of the following options:\n* One creature of challenge rating 2 or lower\n* Two creatures of challenge rating 1 or lower\n* Four creatures of challenge rating 1/2 or lower\n* Eight creatures of challenge rating 1/4 or lower\nSummoned creatures disappear when they drop to 0 hit points or when the spell ends.\n\nThe summoned creatures do not directly attack you or your companions. Roll initiative for the summoned creatures as a group; they take their own turns on their initiative result. They attack your enemies and try to stay within 90 feet of you, but they control their own actions. The summoned creatures despise being bound, so they might harm or impede you and your companions with secondary effects (but not direct attacks) if the opportunity arises. At the beginning of the creatures’ turn, you can use your reaction to verbally command them. They obey your commands on that turn, and you take 1d6 psychic damage at the end of the turn.\n\nIf your concentration is broken, the spell ends but the creatures don’t disappear. Instead, you can no longer command them, and they become hostile to you and your companions. They will attack you and your allies if they believe they have a chance to win the fight or to inflict meaningful harm, but they won’t fight if they fear it would mean their own death. You can’t dismiss the creatures, but they disappear 1 hour after being summoned.",
+      "name": "Conjure Minor Voidborn",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы вызываете злодеев или искажений, которые появляются в неоккупированных пространствах, которые вы можете видеть внутри диапазона. Вы выбираете один из следующих вариантов:\n\n* Одно существо с рейтингом вызова 2 или ниже\n* Два существа с рейтингом проблемы 1 или ниже\n* Четыре существа с рейтингом вызова 1/2 или ниже\n* Восемь существ с рейтингом вызова 1/4 или ниже\n\nПризванные существа исчезают, когда они понижаются до 0 попаданий или, когда заклинание закончено.\n\nПризванные существа не прямо нападают на вас или ваших спутников. Бросьте инициативу для призванных существ группой; у них есть собственные витки на их результат инициативы. Они атакуют ваших врагов и стараются оставаться в пределах 90 футов от вас, но они контролируют свои действия. Призванные существа презирают быть связанными, поэтому они могут нанести вред или помешать вам и вашим компаньонам вторичными эффектами (но не прямыми атаками) если представится возможность. В начале хода существ, вы можете использовать вашу реакцию на устное командование им. Они подчиняются вашим командам на этом повороте, и вы принимаете 1d6 психического урона в конце поворота.\n\nЕсли ваша концентрация нарушена, заклинание заканчивается, но существа не исчезнут. Вместо этого вы больше не можете командовать им, и они становятся враждебными по отношению к вам и вашим спутникам. Они будут нападать на вас и ваших союзников, если они думают, что у них есть шанс выиграть в бой или нанести значимый урон, но они не будут сражаться, если боятся, что это означает их собственную смерть. Вы не можете отклонить существ, но они исчезнут через час после того, как будут призваны.",
+      "glossary_version": "v1",
+      "name": "Призвать младшего пустотнорождённого",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

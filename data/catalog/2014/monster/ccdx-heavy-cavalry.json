@@ -1,0 +1,261 @@
+{
+  "attribution": "Title: Creature Codex; Author: Wolfgang Baur, Dan Dillon, Richard Green, James Haeck, Chris Harris, Jeremy Hochhalter, James Introcaso, Chris Lockey, Shawn Merwin, and Jon Sawatsky; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/creature-codex-for-5th-edition-dnd/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "ccdx",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "ccdx_heavy-cavalry",
+  "id": "o5e:ccdx:creature:ccdx-heavy-cavalry",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:cc:monster:heavy-cavalry",
+      "o5e:ccdx:creature:ccdx-heavy-cavalry"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "4457312ff3cef394448fbb8b79d06ac3f5e3c16314feeb75ddbe8e0336dcba7c",
+    "formulas": [
+      {
+        "expression": "10d8+30",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 17,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 15,
+      "ability_score_wisdom": 14,
+      "alignment": "lawful neutral",
+      "armor_class": 19,
+      "armor_detail": "splint, shield",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "2.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [
+        "fire"
+      ],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "10d8+30",
+      "hit_points": 75,
+      "initiative_bonus": null,
+      "languages": [
+        "common",
+        "draconic"
+      ],
+      "languages_desc": "Common, Draconic",
+      "normal_sight_range": 10560,
+      "passive_perception": 12,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "ccdx",
+        "content_hash": "4457312ff3cef394448fbb8b79d06ac3f5e3c16314feeb75ddbe8e0336dcba7c",
+        "edition": "2014",
+        "id": "o5e:ccdx:creature:ccdx-heavy-cavalry",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "cc",
+        "content_hash": "9307379552c7a6cc5cad6143399cfb99cb86941becf924108578def4be43ac0e",
+        "edition": "2014",
+        "id": "o5e:cc:monster:heavy-cavalry",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:cc"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 17,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 15,
+      "ability_score_wisdom": 14,
+      "alignment": "lawful neutral",
+      "armor_class": 19,
+      "armor_detail": "splint, shield",
+      "category": "Monsters",
+      "challenge_rating": "2.000",
+      "damage_resistances": [
+        "fire"
+      ],
+      "damage_resistances_display": "fire",
+      "document": "ccdx",
+      "hit_dice": "10d8+30",
+      "hit_points": 75,
+      "hover": false,
+      "languages": [
+        "common",
+        "draconic"
+      ],
+      "languages_desc": "Common, Draconic",
+      "name": "Heavy Cavalry",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 12,
+      "size": "medium",
+      "skill_bonus_athletics": 4,
+      "type": "humanoid",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Dan Dillon, Richard Green, James Haeck, Chris Harris, Jeremy Hochhalter, James Introcaso, Chris Lockey, Shawn Merwin, and Jon Sawatsky",
+      "key": "ccdx",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/creature-codex-for-5th-edition-dnd/",
+      "publication_date": "2018-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Creature Codex"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "The dragonborn breathes fire in a 15-foot cone. All creatures in that area must make a DC 13 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one.",
+          "desc_ru": "Действие «Огненный Бреат»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "ccdx_heavy-cavalry_fire-breath",
+          "name": "Fire Breath",
+          "name_ru": "Огненный Бреат",
+          "order_in_statblock": 3,
+          "parent": "ccdx_heavy-cavalry",
+          "ru_source": "derived",
+          "uses_type": "RECHARGE_AFTER_REST"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage.",
+          "desc_ru": "Атака оружием дальнего боя: +3 к попаданию, дистанция 100/400 фт., одна цель. Попадание: 6 (1к10+1) колющего урона.",
+          "external_id": "ccdx_heavy-cavalry_heavy-crossbow",
+          "name": "Heavy Crossbow",
+          "name_ru": "Хеавй арбалет",
+          "order_in_statblock": 1,
+          "parent": "ccdx_heavy-cavalry",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 8 (1d12 + 2) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +4 к попаданию, досягаемость 10 фт., одна цель. Попадание: 8 (1к12+2) колющего урона.",
+          "external_id": "ccdx_heavy-cavalry_lance",
+          "name": "Lance",
+          "name_ru": "Рыцарское копьё",
+          "order_in_statblock": 0,
+          "parent": "ccdx_heavy-cavalry",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage and the target must succeed on a DC 13 Strength saving throw or be knocked prone.",
+          "desc_ru": "Действие «Трампле»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "ccdx_heavy-cavalry_trample",
+          "limited_to_form": "Mounted Only",
+          "name": "Trample",
+          "name_ru": "Трампле",
+          "order_in_statblock": 2,
+          "parent": "ccdx_heavy-cavalry",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "If the dragonborn moves at least 20 feet straight toward a creature while mounted and then hits with a lance attack on the same turn, it can make a trample attack against that creature as a bonus action.",
+          "desc_ru": "Особенность «Кавалрй Чарге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "ccdx_heavy-cavalry_cavalry-charge",
+          "name": "Cavalry Charge",
+          "name_ru": "Кавалрй Чарге",
+          "parent": "ccdx_heavy-cavalry",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The dragonborn can't be knocked prone, dismounted, or moved against its will while mounted.",
+          "desc_ru": "Особенность «Локед Саддле». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "ccdx_heavy-cavalry_locked-saddle",
+          "name": "Locked Saddle",
+          "name_ru": "Локед Саддле",
+          "parent": "ccdx_heavy-cavalry",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The dragonborn is rarely seen without its giant lizard mount. The lizard wears custom scale mail that raises its Armor Class to 15. While the dragonborn is mounted, the giant lizard can't be charmed or frightened.",
+          "desc_ru": "Особенность «Моунтед воин». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "ccdx_heavy-cavalry_mounted-warrior",
+          "name": "Mounted Warrior",
+          "name_ru": "Моунтед воин",
+          "parent": "ccdx_heavy-cavalry",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Heavy Cavalry",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:ccdx",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Heavy Cavalry",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Средний гуманоид, мировоззрение: законно-нейтральное. Класс доспеха: 19. Хиты: 75 (10к8+30). Скорость: ходьба 30 фт.. Характеристики: СИЛ 15, ЛОВ 12, ТЕЛ 17, ИНТ 10, МУД 14, ХАР 8. Сопротивление урону: огнём. Чувства: пассивное Восприятие 12. Показатель опасности: 2. Структурированные механики записи: особенностей: 3, действий: 4.",
+      "glossary_version": "derived-v1",
+      "name": "Хеавй Кавалрй",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

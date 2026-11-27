@@ -1,0 +1,191 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_ally-aegis",
+  "id": "o5e:deepm:spell:deepm-ally-aegis",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-ally-aegis",
+      "o5e:dmag:spell:ally-aegis"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "adec5864b262ff0654dc429923738b972afd6fcce161fcc490a70f11581275c0",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "reaction",
+      "classes": [
+        "srd_bard",
+        "srd_cleric",
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 round",
+      "level": 6,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "adec5864b262ff0654dc429923738b972afd6fcce161fcc490a70f11581275c0",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-ally-aegis",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "b930b1dcc1e095bd1828e4dc87d32e89d36d058789554e937e58988c5cd9d3d8",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:ally-aegis",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "classes",
+        "value": [
+          "srd_bard",
+          "srd_cleric",
+          "srd_sorcerer",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "reaction",
+      "classes": [
+        "srd_bard",
+        "srd_cleric",
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "desc": "When you see an ally within range in imminent danger, you can use your reaction to protect that creature with a shield of magical force. Until the start of your next turn, your ally has a +5 bonus to AC and is immune to force damage. In addition, if your ally must make a saving throw against an enemy’s spell that deals damage, the ally takes half as much damage on a failed saving throw and no damage on a successful save. Ally aegis offers no protection, however, against psychic damage from any source.\n",
+      "document": "deepm",
+      "duration": "1 round",
+      "higher_level": "When you cast this spell using a spell slot of 7th level or higher, you can target one additional ally for each slot level above 6th.",
+      "level": 6,
+      "material": false,
+      "material_consumed": false,
+      "name": "Ally Aegis",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "reaction_condition": "which you take when your ally is hit by an attack or is targeted by a spell that deals damage other than psychic damage",
+      "ritual": false,
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2306",
+          "parent": "deepm_ally-aegis",
+          "type": "default"
+        },
+        {
+          "external_id": "2308",
+          "parent": "deepm_ally-aegis",
+          "target_count": 2,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "2309",
+          "parent": "deepm_ally-aegis",
+          "target_count": 3,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2310",
+          "parent": "deepm_ally-aegis",
+          "target_count": 4,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Ally Aegis",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "When you see an ally within range in imminent danger, you can use your reaction to protect that creature with a shield of magical force. Until the start of your next turn, your ally has a +5 bonus to AC and is immune to force damage. In addition, if your ally must make a saving throw against an enemy’s spell that deals damage, the ally takes half as much damage on a failed saving throw and no damage on a successful save. Ally aegis offers no protection, however, against psychic damage from any source.",
+      "name": "Ally Aegis",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Когда вы видите союзника в пределах дистанции в неминуемой опасности, вы можете использовать вашу реакцию, чтобы защитить это существо щитом магической силы. До начала вашего следующего хода ваш союзник имеет бонус +5 к КД и невосприимчив к урону силой. Кроме того, если ваш союзник должен совершить спасбросок против заклинания врага, которое наносит урон, союзник получает половину урона при проваленном спасброске и не получает урона при успешном спасброске. Эгида союзника не предоставляет защиты, однако, против психического урона из любого источника.",
+      "glossary_version": "v1",
+      "name": "Эгида союзника",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

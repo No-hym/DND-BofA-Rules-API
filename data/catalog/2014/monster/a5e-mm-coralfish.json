@@ -1,0 +1,197 @@
+{
+  "attribution": "Title: Monstrous Menagerie; Author: Paul Hughes; Publisher: en-publishing; Source: https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "a5e-mm",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "a5e-mm_coralfish",
+  "id": "o5e:a5e-mm:creature:a5e-mm-coralfish",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-mm:creature:a5e-mm-coralfish"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "f071e875ca2b6126ad9a8f392cc6d289c2aa7246391e79444e53c54db45adab7",
+    "formulas": [
+      {
+        "expression": "6d6+6",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 5,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 6,
+      "ability_score_wisdom": 12,
+      "alignment": "chaotic evil",
+      "armor_class": 12,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60.0,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "6d6+6",
+      "hit_points": 27,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560.0,
+      "passive_perception": 11,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "small",
+      "skill_bonus_acrobatics": null,
+      "swim": 40.0,
+      "walk": 20.0
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-mm",
+        "content_hash": "f071e875ca2b6126ad9a8f392cc6d289c2aa7246391e79444e53c54db45adab7",
+        "edition": "2014",
+        "id": "o5e:a5e-mm:creature:a5e-mm-coralfish",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:a5e-mm"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 5,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 6,
+      "ability_score_wisdom": 12,
+      "alignment": "chaotic evil",
+      "armor_class": 12,
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "darkvision_range": 60.0,
+      "document": "a5e-mm",
+      "hit_dice": "6d6+6",
+      "hit_points": 27,
+      "hover": false,
+      "name": "Coralfish",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560.0,
+      "passive_perception": 11,
+      "size": "small",
+      "swim": 40.0,
+      "type": "monstrosity",
+      "walk": 20.0,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "a5e-mm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e",
+      "publication_date": "2021-12-12T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Monstrous Menagerie"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage  and the target makes a DC 11 Constitution saving throw against being petrified. On a failure  the target is restrained as it begins to turn to a brightly colored statue. A lesser restoration spell ends this effect. If still restrained  the creature must repeat the saving throw at the end of its next turn. On a success  the effect ends. On a failure  the creature is petrified for 24 hours.",
+          "desc_ru": "Действие «Укус»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_coralfish_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_coralfish",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "REACTION",
+          "desc": "When attacked by a creature it can see within 20 feet, the cockatrice moves up to half its Speed and makes a bite attack against that creature.",
+          "desc_ru": "Действие «Френзй»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_coralfish_frenzy",
+          "name": "Frenzy",
+          "name_ru": "Френзй",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_coralfish",
+          "ru_source": "derived",
+          "uses_param": 1,
+          "uses_type": "PER_DAY"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The coralfish can only breathe underwater.",
+          "desc_ru": "Особенность «Акватик». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_coralfish_aquatic",
+          "name": "Aquatic",
+          "name_ru": "Акватик",
+          "parent": "a5e-mm_coralfish",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Coralfish",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-mm",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Coralfish",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Маленькое чудовище, мировоззрение: хаотично-злое. Класс доспеха: 12. Хиты: 27 (6к6+6). Скорость: ходьба 20 фт., плавание 40 фт.. Характеристики: СИЛ 6, ЛОВ 14, ТЕЛ 12, ИНТ 2, МУД 12, ХАР 5. Чувства: тёмное зрение 60 фт., пассивное Восприятие 11. Показатель опасности: 0.5. Структурированные механики записи: особенностей: 1, действий: 2.",
+      "glossary_version": "derived-v1",
+      "name": "Коралфиш",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

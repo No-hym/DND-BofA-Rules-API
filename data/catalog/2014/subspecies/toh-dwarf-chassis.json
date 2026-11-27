@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subspecies",
+  "edition": "2014",
+  "external_id": "toh_dwarf-chassis",
+  "id": "o5e:toh:species:toh-dwarf-chassis",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:species:toh-dwarf-chassis",
+      "o5e:toh:subrace:dwarf-chassis"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f847dac388a9855eeef30acabe1e3d355ee76f909c43d8ca6a547fd3e3549106",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "subspecies_of": "toh_gearforged"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "f847dac388a9855eeef30acabe1e3d355ee76f909c43d8ca6a547fd3e3549106",
+        "edition": "2014",
+        "id": "o5e:toh:species:toh-dwarf-chassis",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "88ed45d0cc1a6230d1383f2fd51ce9f46027f484db361b8fa199d915dbe1a6f5",
+        "edition": "2014",
+        "id": "o5e:toh:subrace:dwarf-chassis",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "toh_gearforged",
+        "type": "subspecies_of",
+        "value": "toh_gearforged"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "The original dwarven gearforged engineers valued function over form, eschewing aesthetics in favor of instilling their chassis with toughness and strength. The chassis' metal face is clearly crafted to look dwarven, but its countenance is entirely unactuated and forged of a dark metal—often brass—sometimes with a lighter-colored mane of hair and a braided beard and mustaches made of fine metal strands. The gearforged's eyes glow a dark turquoise, staring dispassionately with a seemingly blank expression. Armor and helms worn by the gearforged are often styled to appear as if they were integrated into its chassis, making it all-but-impossible to tell where the armor ends and the gearforged begins.",
+      "document": "toh",
+      "name": "Dwarf Chassis",
+      "subspecies_of": "toh_gearforged"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "traits": [
+        {
+          "desc": "Your Constitution score increases by 1.",
+          "desc_ru": "Каждая раса увеличивает одну или несколько характеристик персонажа.",
+          "external_id": "toh_dwarf-chassis_ability-score-increase",
+          "name": "Ability Score Increase",
+          "name_ru": "Увеличение характеристик",
+          "parent": "toh_dwarf-chassis",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Every dwarf knows that it's better to leave home without pants than without your weapon. Choose a weapon with which you are proficient and that doesn't have the two-handed property. You can integrate this weapon into one of your arms. While the weapon is integrated, you can't be disarmed of it by any means, though you can use an action to remove the weapon. You can draw or sheathe the weapon as normal, the weapon folding into or springing from your arm instead of a sheath. While the integrated weapon is drawn in this way, it is considered held in that arm's hand, which can't be used for other actions such as casting spells. You can integrate a new weapon or replace an integrated weapon as part of a short or long rest. You can have up to two weapons integrated at a time, one per arm. You have advantage on Dexterity (Sleight of Hand) checks to conceal an integrated weapon.",
+          "desc_ru": "Особенность «Алвайс Армед». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_dwarf-chassis_always-armed",
+          "name": "Always Armed",
+          "name_ru": "Алвайс Армед",
+          "parent": "toh_dwarf-chassis",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "You remember some of your combat training from your previous life. You have proficiency with two martial weapons of your choice and with light and medium armor.",
+          "desc_ru": "Особенность «Ремемберед Траининг». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_dwarf-chassis_remembered-training",
+          "name": "Remembered Training",
+          "name_ru": "Ремемберед Траининг",
+          "parent": "toh_dwarf-chassis",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Dwarf Chassis",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "The original dwarven gearforged engineers valued function over form, eschewing aesthetics in favor of instilling their chassis with toughness and strength. The chassis' metal face is clearly crafted to look dwarven, but its countenance is entirely unactuated and forged of a dark metal—often brass—sometimes with a lighter-colored mane of hair and a braided beard and mustaches made of fine metal strands. The gearforged's eyes glow a dark turquoise, staring dispassionately with a seemingly blank expression. Armor and helms worn by the gearforged are often styled to appear as if they were integrated into its chassis, making it all-but-impossible to tell where the armor ends and the gearforged begins.",
+      "name": "Dwarf Chassis",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Первоначальные дворфийские инженеры шестерённокованных ценили функцию выше формы, избегая эстетики в пользу придания их корпусам прочности и силы. Металлическое лицо корпуса явно изготовлено так, чтобы выглядеть дворфийским, но его выражение полностью неподвижно и выковано из тёмного металла — часто латуни — иногда с более светлой гривой волос и заплетённой бородой и усами из тонких металлических прядей. Глаза шестерённокованного светятся тёмной бирюзой, бесстрастно глядя с казалось бы пустым выражением. Доспехи и шлемы, носимые шестерённокованными, часто стилизованы так, чтобы казаться интегрированными в его корпус, что делает почти невозможным определить, где заканчивается доспех и начинается шестерённокованный.",
+      "glossary_version": "v1",
+      "name": "Дворфийский корпус",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

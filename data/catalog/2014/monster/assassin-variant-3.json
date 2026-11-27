@@ -1,0 +1,141 @@
+{
+  "attribution": "Title: 5e Core Rules; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wotc-srd; Source: http://dnd.wizards.com/articles/features/systems-reference-document-srd; License: OGL-1.0a (https://open5e.com/legal); System Reference Document 5.1 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "wotc-srd",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "assassin",
+  "id": "o5e:wotc-srd:monster:assassin-variant-3",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:wotc-srd:monster:assassin"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5e7b75cf1b07d20dbd2b3499e6a7c796569dac526aa70ad185ac446654390daa",
+    "formulas": [
+      {
+        "expression": "12d8+24",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "any non-good alignment",
+      "armor_class": 15,
+      "challenge_rating": "8",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "poison",
+      "damage_vulnerabilities": "",
+      "hit_dice": "12d8+24",
+      "hit_points": 78,
+      "languages": "Thieves' cant plus any two languages",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "wotc-srd",
+        "content_hash": "5e7b75cf1b07d20dbd2b3499e6a7c796569dac526aa70ad185ac446654390daa",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:monster:assassin",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The assassin makes two shortsword attacks.\"}, {\"name\": \"Shortsword\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.\", \"attack_bonus\": 6, \"damage_dice\": \"1d6\", \"damage_bonus\": 3}, {\"name\": \"Light Crossbow\", \"desc\": \"Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.\", \"attack_bonus\": 6, \"damage_dice\": \"1d8\", \"damage_bonus\": 3}]",
+      "alignment": "any non-good alignment",
+      "armor_class": 15,
+      "armor_desc": "studded leather",
+      "bonus_actions_json": "null",
+      "challenge_rating": "8",
+      "charisma": 10,
+      "constitution": 14,
+      "cr": 8.0,
+      "damage_resistances": "poison",
+      "desc": "Trained in the use of poison, **assassins** are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them.",
+      "dexterity": 16,
+      "dexterity_save": 6,
+      "document": 32,
+      "environments_json": "[\"Urban\", \"Desert\", \"Sewer\", \"Forest\", \"Settlement\"]",
+      "group": "NPCs",
+      "hit_dice": "12d8+24",
+      "hit_points": 78,
+      "intelligence": 13,
+      "intelligence_save": 4,
+      "languages": "Thieves' cant plus any two languages",
+      "legendary_actions_json": "null",
+      "name": "Assassin",
+      "page_no": 396,
+      "perception": 3,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "passive Perception 13",
+      "size": "Medium",
+      "skills_json": "{\"acrobatics\": 6, \"deception\": 3, \"perception\": 3, \"stealth\": 9}",
+      "special_abilities_json": "[{\"name\": \"Assassinate\", \"desc\": \"During its first turn, the assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a surprised creature is a critical hit.\"}, {\"name\": \"Evasion\", \"desc\": \"If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.\"}, {\"name\": \"Sneak Attack (1/Turn)\", \"desc\": \"The assassin deals an extra 13 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the assassin that isn't incapacitated and the assassin doesn't have disadvantage on the attack roll.\", \"attack_bonus\": 0, \"damage_dice\": \"4d6\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 11,
+      "subtype": "any race",
+      "type": "Humanoid",
+      "wisdom": 11
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "wotc-srd",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+      "publication_date": "",
+      "publisher": "wotc-srd",
+      "title": "5e Core Rules"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Assassin",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:bfrd:creature:bfrd-assassin"
+  },
+  "publisher_id": "wotc-srd",
+  "source": "open5e:v1:wotc-srd",
+  "translations": {
+    "en": {
+      "description": "Trained in the use of poison, **assassins** are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them.",
+      "name": "Assassin",
+      "source_version": "5.1",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Средний Гуманоид (любая раса), Любое не-доброе мировоззрение*\n\n- **Класс Доспеха:** 15 (проклёпанная кожа)\n- **Хиты:** 78 (12к8 + 24)\n- **Скорость:** 30 фт.\n\n| СИЛ      | ЛОВ      | ТЕЛ      | ИНТ      | МДР      | ХАР      |\n|:---:|:---:|:---:|:---:|:---:|:---:|\n| 11 (+0)  | 16 (+3)  | 14 (+2)  | 13 (+1)  | 11 (+0)  | 10 (+0)  |\n\n- **Спасброски:** Лов +6, Инт +4\n- **Навыки:** Акробатика +6, Обман +3, Внимательность +3, Скрытность +9\n- **Сопротивление к урону:** Яд\n- **Чувства:** Пассивная Внимательность 13\n- **Языки:** Воровской жаргон плюс любые два языка\n- **Показатель опасности:** 8 (3 900 ОО)",
+      "glossary_version": "v1",
+      "name": "Убийца",
+      "source_version": "5.1",
+      "status": "source"
+    }
+  },
+  "version": "5.1"
+}

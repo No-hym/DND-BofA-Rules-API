@@ -1,0 +1,143 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "bonepowder-ghoul",
+  "id": "o5e:tob:monster:bonepowder-ghoul-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:bonepowder-ghoul"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "05ac38478303b6d11479d465fc701984ccec9309d6c4a65031a02fa0c239f764",
+    "formulas": [
+      {
+        "expression": "26d6+104",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral evil",
+      "armor_class": 18,
+      "challenge_rating": "12",
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+      "damage_immunities": "necrotic, poison",
+      "damage_resistances": "cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "",
+      "hit_dice": "26d6+104",
+      "hit_points": 195,
+      "languages": "Common, Darakhul, Draconic, Dwarvish",
+      "size": "Small"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "05ac38478303b6d11479d465fc701984ccec9309d6c4a65031a02fa0c239f764",
+        "edition": "2014",
+        "id": "o5e:tob:monster:bonepowder-ghoul",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) plus 1d4 Strength damage, and the target must succeed on a DC 17 Constitution saving throw or be paralyzed for 1d4 + 1 rounds. If the target creature is humanoid, it must succeed on a second DC 19 Constitution saving throw or contract darakhul fever.\", \"attack_bonus\": 9, \"damage_dice\": \"3d8\"}, {\"name\": \"Gravedust\", \"desc\": \"A bonepowder ghoul can project a 40-ft. cone of grave dust. All targets within the area must make a DC 19 Dexterity saving throw to avoid taking 4d8 necrotic damage, and must make a second DC 17 Constitution saving throw to avoid being infected with darakhul fever.\"}, {\"name\": \"Whirlwind (Recharge 5-6)\", \"desc\": \"A bonepowder ghoul can generate a whirlwind of bones and teeth. All creatures within a 20-foot cube take 66 (12d10) slashing damage and are drained of 1d6 Strength; a successful DC 17 Dexterity saving throw reduces damage to half and negates the Strength loss. The whirlwind dissipates after one round.\"}]",
+      "alignment": "neutral evil",
+      "armor_class": 18,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "12",
+      "charisma": 18,
+      "charisma_save": 8,
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+      "constitution": 18,
+      "constitution_save": 8,
+      "cr": 12.0,
+      "damage_immunities": "necrotic, poison",
+      "damage_resistances": "cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "desc": "_Distilled to nothing but dry, whispering sand and a full set of teeth, a bonepowder ghoul still hungers for flesh and blood. Its dusty mass is perfected corruption, entirely animated by foul energy._  \n**Starved Into Dust.** The bonepowder ghoul is small and unassuming, a pile of dust and bone fragments that resemble a pile of mummy dust or the remnants of a vampire burned by sunlight. Ghouls can achieve this powdery form through long starvation. The process invariably takes decades, which is why so few bonepowder ghouls exist—few ghouls can show such self-restraint. Even among imperial ghouls, using hunger as a form of torture is considered offensive and is quite rare. A bonepowder ghoul may rise from the remnants of a starved prisoner or a ghoul trapped in a sealed-off cavern, leaving behind its remnant flesh and becoming animated almost purely by hunger, hatred, and the bitter wisdom of long centuries.  \n**Mocking and Hateful.** Bonepowder ghouls are creatures of pure evil, seeking to devour, corrupt, and destroy all living things. The only creatures they treat with some affinity are ghouls. Even in that case, their attitude is often mocking, hateful, or condescending. They have some mild respect for darakhul nobles.  \n**Whispering Voices.** Most bonepowder ghouls speak at least 4 languages, but their voices are very faint. Just to hear one speaking normally requires a DC 15 Perception check. Undead gain a +8 competence bonus to this check.",
+      "dexterity": 20,
+      "dexterity_save": 9,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "26d6+104",
+      "hit_points": 195,
+      "intelligence": 19,
+      "languages": "Common, Darakhul, Draconic, Dwarvish",
+      "legendary_actions_json": "null",
+      "name": "Bonepowder Ghoul",
+      "page_no": 221,
+      "perception": 6,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 16",
+      "size": "Small",
+      "skills_json": "{\"perception\": 6, \"stealth\": 9}",
+      "special_abilities_json": "[{\"name\": \"Amorphous\", \"desc\": \"The bonepowder ghoul can move through a space as narrow as 1 inch wide without squeezing.\"}, {\"name\": \"Coalesce\", \"desc\": \"Whenever a bonepowder ghoul drains life force from victims with Gravedust, it can use that energy transform its shape into a more solid form and maintain it. The new form is Small and semi-transparent but roughly the shape of a normal ghoul. In this form, the ghoul isn't amorphous and can't form a whirlwind, but it can speak normally and manipulate objects. The altered form lasts for 1 minute for every point of necrotic damage it delivered against living foes.\"}, {\"name\": \"Turning Defiance\", \"desc\": \"The bonepowder ghoul and any other ghouls within 30 feet of it have advantage on saving throws against effects that turn undead.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"the bonepowder ghoul's innate spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\\n\\nat will: chill touch, darkness, dispel magic, ray of enfeeblement\\n\\n3/day: blindness/deafness, circle of death (7th level; 10d6)\\n\\n1/day: finger of death\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 10,
+      "type": "Undead",
+      "wisdom": 15,
+      "wisdom_save": 6
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Bonepowder Ghoul",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-bonepowder-ghoul"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_Distilled to nothing but dry, whispering sand and a full set of teeth, a bonepowder ghoul still hungers for flesh and blood. Its dusty mass is perfected corruption, entirely animated by foul energy._  \n**Starved Into Dust.** The bonepowder ghoul is small and unassuming, a pile of dust and bone fragments that resemble a pile of mummy dust or the remnants of a vampire burned by sunlight. Ghouls can achieve this powdery form through long starvation. The process invariably takes decades, which is why so few bonepowder ghouls exist—few ghouls can show such self-restraint. Even among imperial ghouls, using hunger as a form of torture is considered offensive and is quite rare. A bonepowder ghoul may rise from the remnants of a starved prisoner or a ghoul trapped in a sealed-off cavern, leaving behind its remnant flesh and becoming animated almost purely by hunger, hatred, and the bitter wisdom of long centuries.  \n**Mocking and Hateful.** Bonepowder ghouls are creatures of pure evil, seeking to devour, corrupt, and destroy all living things. The only creatures they treat with some affinity are ghouls. Even in that case, their attitude is often mocking, hateful, or condescending. They have some mild respect for darakhul nobles.  \n**Whispering Voices.** Most bonepowder ghouls speak at least 4 languages, but their voices are very faint. Just to hear one speaking normally requires a DC 15 Perception check. Undead gain a +8 competence bonus to this check.",
+      "name": "Bonepowder Ghoul",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Дистиллированная до ничего, кроме сухого шепчущего песка и полного набора зубов, костяной прах гуль всё ещё жаждет мяса и крови. Его пыльная масса - совершенная коррупция, полностью оживлена злой энергией.\n\n**Заморён до пыли.** Костяной прах Гуль мал и-стесняется, груда пыли и фрагментов костей, напоминающие кучу мумийной пыли или останки вампира, сожжённого солнечным светом. Гули могут достичь этой порошкообразной формы через долгое голодание. Процесс неизменно занимает десятилетия, и именно поэтому существует так мало костяных гулов- немногие Гюли могут проявить такое самоограничение. Даже среди императорских гулей, использование голода как формы пыток считается оскорбительным и весьма редко. Костяной прах гуль может возвышаться от останков замощённого заключённого или гуля, запертого в запечатанной пещере, оставляя позади его оставшуюся плоть и становясь оживлёнными почти чисто голодом, ненавистью и горькой мудростью долгих веков.\n\n**Насмешливый и ненавистный.** Гули из костяного порошка - существа чистого зла, стремясь поглотить, испортить и уничтожить все живые существа. Единственные существа, с которыми они обращаются с некоторым родством - это гули. Даже в этом случае их отношение часто насмешливо, ненавистно или пренебрежительно. У них есть определённое уважение к дарахульским дворянам.\n\n**Шепчущие голоса.** Большинство костяных гулей говорят как минимум на 4 языках, но их голоса очень слабы. Чтобы услышать нормальную речь, требуется проверка восприятия СЛ 15. Мертвецы получают бонус компетентности +8 к этой проверке.",
+      "glossary_version": "v1",
+      "name": "Костяной прах-гуль",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

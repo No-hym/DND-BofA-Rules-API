@@ -1,0 +1,164 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_freeze-blood",
+  "id": "o5e:deepm:spell:deepm-freeze-blood",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-freeze-blood",
+      "o5e:dmag:spell:freeze-blood"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e45e4991901e7944367fbbbea4d3acd8a6013292e7d0d5848800df01e3bb8d22",
+    "formulas": [
+      {
+        "expression": "2d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "cold"
+      ],
+      "duration": "1 minute",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "e45e4991901e7944367fbbbea4d3acd8a6013292e7d0d5848800df01e3bb8d22",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-freeze-blood",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "1d61eeef585e4984ab6db37e60c3078acb528669d161f13f57bb538e392e0097",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:freeze-blood",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "cold"
+      ],
+      "desc": "When you cast **freeze blood** as a successful melee spell attack against a living creature with a circulatory system, the creature’s blood freezes. For the spell’s duration, the affected creature’s speed is halved and it takes 2d6 cold damage at the start of each of its turns. If the creature takes bludgeoning damage from a critical hit, the attack’s damage dice are rolled three times instead of twice. At the end of each of its turns, the creature can make a Constitution saving throw, ending the effect on a success.\n\nNOTE: This was previously a 5th-level spell that did 4d10 cold damage.",
+      "document": "deepm",
+      "duration": "1 minute",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "name": "Freeze Blood",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3307",
+          "parent": "deepm_freeze-blood",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Freeze Blood",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "When you cast **freeze blood** as a successful melee spell attack against a living creature with a circulatory system, the creature’s blood freezes. For the spell’s duration, the affected creature’s speed is halved and it takes 2d6 cold damage at the start of each of its turns. If the creature takes bludgeoning damage from a critical hit, the attack’s damage dice are rolled three times instead of twice. At the end of each of its turns, the creature can make a Constitution saving throw, ending the effect on a success.\n\nNOTE: This was previously a 5th-level spell that did 4d10 cold damage.",
+      "name": "Freeze Blood",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Когда вы творите **заморозить кровь** как успешную атаку заклинанием ближнего боя против живого существа с циркуляторной системой, кровь существа замораживается. На длительность заклинания скорость поражённого существа уменьшена вдвое, и оно получает 2к6 урона холодом в начале каждого её хода. Если существо получает дробящий урон от критического попадания, кости урона атаки бросаются три раза вместо дважды. В конце каждого её хода существо может совершить спасбросок Телосложения, прекращая эффект при успехе.\n\nПРИМЕЧАНИЕ: Это было ранее заклинанием 5-го уровня, которое делало 4к10 урона холодом.",
+      "glossary_version": "v1",
+      "name": "Заморозить кровь",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

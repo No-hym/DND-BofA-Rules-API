@@ -1,0 +1,169 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_vermin-domain",
+  "id": "o5e:toh:characterclass:toh-vermin-domain",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-vermin-domain"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "655d6d2b4c093ea67b2ea47bc578c4c086c34f5f1084e10567824e1381fab653",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_cleric"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "655d6d2b4c093ea67b2ea47bc578c4c086c34f5f1084e10567824e1381fab653",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-vermin-domain",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "subclass_of",
+        "value": "srd_cleric"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "You exemplify the cunning, stealth, and invasiveness of vermin (rodents, scorpions, spiders, ants, and other insects). As your dedication to this domain grows in strength, you realize a simple truth: vermin are everywhere, and you are legion.",
+      "document": "toh",
+      "name": "Vermin Domain",
+      "subclass_of": "srd_cleric"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you choose this domain at 1st level, you gain proficiency with shortswords and hand crossbows. You also gain proficiency in Stealth and Survival. You can communicate simple ideas telepathically with vermin, such as mice, spiders, and ants, within 100 feet of you. A vermin's responses, if any, are limited by its intelligence and typically convey the creature's current or most recent state, such as “hungry” or “in danger.”",
+          "desc_ru": "Когда вы выбираете этот домен на 1-м уровне, вы получаете владение короткими мечами и ручными арбалетами. Вы также получаете владение навыками Скрытность и Выживание. Вы можете общаться простые идеи телепатически с паразитами, такими как мыши, пауки и муравьи, в пределах 100 футов от вас. Ответы паразита, если есть, ограничены его интеллектом и обычно передают текущее или самое недавнее состояние существа, такое как «голодный» или «в опасности».",
+          "document": "toh",
+          "external_id": "toh_vermin-domain_the-unseen",
+          "level": 1,
+          "name": "The Unseen",
+          "name_ru": "Невидимое",
+          "parent": "toh_vermin-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Cleric Level | Spells  |\r\n|--------------|---------|\r\n| 1st          | *detect poison and disease*, *speak with animals* (vermin only)  |\r\n| 3rd          | *spider climb*, *web*  |\r\n| 5th          | *conjure animals* (vermin only), *fear*  |\r\n| 7th          | *dominate beast* (vermin only), *giant insect*  |\r\n| 9th          | *contagion*, *insect plague*  |",
+          "desc_ru": "| Уровень жреца | Заклинания |\n|--------------|---------|\n| 1-й | *Обнаружение яда и болезни*, *Разговор с животными* (только паразиты) |\n| 3-й | *Паучье лазание*, *Паутина* |\n| 5-й | *Призыв животных* (только паразиты), *Страх* |\n| 7-й | *Подчинение зверя* (только паразиты), *Гигантское насекомое* |\n| 9-й | *Заражение*, *Нашествие насекомых* |",
+          "document": "toh",
+          "external_id": "toh_vermin-domain_vermin-domain-spells",
+          "level": 1,
+          "name": "Vermin Domain Spells",
+          "name_ru": "Заклинания домена паразитов",
+          "parent": "toh_vermin-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 2nd level, you can use your Channel Divinity to evade attackers. As a bonus action, or as reaction when you are attacked, you transform into a swarm of vermin and move up to 30 feet to an unoccupied space that you can see. This movement doesn't provoke opportunity attacks. When you arrive at your destination, you revert to your normal form.",
+          "desc_ru": "Начиная со 2-го уровня вы можете использовать ваш Божественный канал, чтобы уклоняться от атакующих. бонусным действием или реакцией, когда вас атакуют, вы трансформируетесь в рой паразитов и перемещаетесь до 30 футов в незанятое пространство, которое вы можете видеть. Это перемещение не провоцирует внеочередные атаки. Когда вы прибываете в пункт назначения, вы возвращаетесь к вашей обычной форме.",
+          "document": "toh",
+          "external_id": "toh_vermin-domain_channel-divinity-swarm-step",
+          "level": 2,
+          "name": "Channel Divinity: Swarm Step",
+          "name_ru": "Божественный канал: шаг роя",
+          "parent": "toh_vermin-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 6th level, you can send hundreds of spectral vermin to assail an enemy and aid your allies. As an action, choose a creature you can see within 30 feet of you. That creature must succeed on a Constitution saving throw against your spell save DC or be covered in spectral vermin for 1 minute. Each time one of your allies hits the target with a weapon attack, the target takes an extra 1d4 poison damage. A creature that is immune to disease is immune to this feature.\n  You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest.",
+          "desc_ru": "На 6-м уровне вы можете послать сотни призрачных паразитов, чтобы атаковать врага и помогать вашим союзникам. Действием выберите существо, которое вы можете видеть в пределах 30 футов от вас. Это существо должно успешно пройти спасбросок Телосложения против вашей Сл спасбросков от заклинаний или быть покрыто призрачными паразитами на 1 минуту. Каждый раз, когда один из ваших союзников попадает по цели атакой оружием, цель получает дополнительные 1к4 урона ядом. Существо, иммунное к болезни, иммунно к этой особенности.\nВы можете использовать эту особенность количество раз, равное вашему модификатору Мудрости (минимум один раз). Вы восстанавливаете все потраченные использования, когда заканчиваете продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_vermin-domain_legion-of-bites",
+          "level": 6,
+          "name": "Legion of Bites",
+          "name_ru": "Легион укусов",
+          "parent": "toh_vermin-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 poison damage to the target. When you reach 14th level, the extra damage increases to 2d8.",
+          "desc_ru": "На 8-м уровне вы получаете способность наполнять удары оружием божественной энергией. Один раз в каждый ваш ход, когда вы попадаете по существу атакой оружием, вы можете причинить цели дополнительно 1к8 урона излучением. Когда вы достигаете 14-го уровня, дополнительный урон увеличивается до 2к8.",
+          "document": "toh",
+          "external_id": "toh_vermin-domain_divine-strike",
+          "level": 8,
+          "name": "Divine Strike",
+          "name_ru": "Божественный удар",
+          "parent": "toh_vermin-domain",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "At 17th level, you become a natural lycanthrope. You use the statistics of a wererat, though your form can take on insectoid aspects, such as mandibles, compound eyes, or antennae, instead of rat aspects; whichever aspects are most appropriate for your deity. Your alignment doesn't change as a result of this lycanthropy, and you can't spread the disease of lycanthropy.",
+          "desc_ru": "На 17-м уровне вы становитесь естественным ликантропом. Вы используете статистику крысооборотня, хотя ваша форма может принимать насекомоподобные аспекты, такие как жвалы, сложные глаза или антенны, вместо крысиных аспектов; в зависимости от того, какие аспекты наиболее подходят вашему божеству. Ваше мировоззрение не изменяется в результате этой ликантропии, и вы не можете распространять болезнь ликантропии.",
+          "document": "toh",
+          "external_id": "toh_vermin-domain_verminform-blessing",
+          "level": 17,
+          "name": "Verminform Blessing",
+          "name_ru": "Благословение формы паразита",
+          "parent": "toh_vermin-domain",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Vermin Domain",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You exemplify the cunning, stealth, and invasiveness of vermin (rodents, scorpions, spiders, ants, and other insects). As your dedication to this domain grows in strength, you realize a simple truth: vermin are everywhere, and you are legion.",
+      "name": "Vermin Domain",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы воплощаете хитрость, скрытность и инвазивность вредителей (грызунов, скорпионов, пауков, муравьёв и других насекомых). По мере того как ваша преданность этому домену растёт в силе, вы понимаете простую истину: вредители везде, и вы — легион.",
+      "glossary_version": "v1",
+      "name": "Домен вредителей",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

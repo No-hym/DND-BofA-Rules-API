@@ -1,0 +1,245 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_vangsluagh",
+  "id": "o5e:tob2:creature:tob2-vangsluagh",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-vangsluagh"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "097a9930677b8648c22367aa3ff9ac0da40f8f64916204bfe6d6059741f49917",
+    "formulas": [
+      {
+        "expression": "10d8+40",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 16,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 17,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 12,
+      "ability_score_wisdom": 10,
+      "alignment": "chaotic evil",
+      "armor_class": 13,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "4.000",
+      "climb": null,
+      "condition_immunities": [
+        "deafened"
+      ],
+      "damage_immunities": [
+        "thunder"
+      ],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "10d8+40",
+      "hit_points": 85,
+      "initiative_bonus": null,
+      "languages": [
+        "void-speech"
+      ],
+      "languages_desc": "Void Speech",
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "097a9930677b8648c22367aa3ff9ac0da40f8f64916204bfe6d6059741f49917",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-vangsluagh",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 16,
+      "ability_score_constitution": 18,
+      "ability_score_dexterity": 17,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 12,
+      "ability_score_wisdom": 10,
+      "alignment": "chaotic evil",
+      "armor_class": 13,
+      "category": "Monsters",
+      "challenge_rating": "4.000",
+      "condition_immunities": [
+        "deafened"
+      ],
+      "condition_immunities_display": "deafened",
+      "damage_immunities": [
+        "thunder"
+      ],
+      "damage_immunities_display": "thunder",
+      "darkvision_range": 60,
+      "document": "tob2",
+      "hit_dice": "10d8+40",
+      "hit_points": 85,
+      "hover": false,
+      "languages": [
+        "void-speech"
+      ],
+      "languages_desc": "Void Speech",
+      "name": "Vangsluagh",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "size": "medium",
+      "type": "aberration",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "The vangsluagh increases the pitch of its cacophony to deadly levels. Each creature within 30 feet of the vangsluagh must make a DC 13 Constitution saving throw. On a failure, a creature takes 10 (3d6) thunder damage and is stunned for 1 minute. On a success, a creature takes half the damage and isn't stunned. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+          "desc_ru": "Действие «Агонизинг Трилл»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_vangsluagh_agonizing-trill",
+          "name": "Agonizing Trill",
+          "name_ru": "Агонизинг Трилл",
+          "order_in_statblock": 3,
+          "parent": "tob2_vangsluagh",
+          "ru_source": "derived",
+          "uses_type": "RECHARGE_AFTER_REST"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The vangsluagh makes two tentacle lash attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_vangsluagh_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_vangsluagh",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit: 10 (3d6) thunder damage, and the target must make a DC 13 Constitution saving throw or be deafened until the end of its next turn.",
+          "desc_ru": "Действие «Соник Буллет»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_vangsluagh_sonic-bullet",
+          "name": "Sonic Bullet",
+          "name_ru": "Соник Буллет",
+          "order_in_statblock": 2,
+          "parent": "tob2_vangsluagh",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 12 (2d8 + 3) bludgeoning damage.",
+          "desc_ru": "Атака оружием ближнего боя: +5 к попаданию, досягаемость 10 фт., одна цель. Попадание: 12 (2к8+3) дробящего урона.",
+          "external_id": "tob2_vangsluagh_tentacle-lash",
+          "name": "Tentacle Lash",
+          "name_ru": "Щупальце Лаш",
+          "order_in_statblock": 1,
+          "parent": "tob2_vangsluagh",
+          "ru_source": "template"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The vangsluagh has disadvantage on Dexterity (Stealth) checks.",
+          "desc_ru": "Особенность «Констант Ракет». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_vangsluagh_constant-racket",
+          "name": "Constant Racket",
+          "name_ru": "Констант Ракет",
+          "parent": "tob2_vangsluagh",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The vangsluagh constantly emits a din of bleats, trills, and trumpets. A creature that casts a spell while it is within 30 feet of the vangsluagh must make a DC 13 Intelligence, Wisdom, or Charisma saving throw. (The type of saving throw required is dependent on the spellcasting creature’s spellcasting ability score.) On a failed save, the spell isn’t cast, and the spell slot isn’t expended. In addition, a creature that starts its turn within 30 feet of the vangsluagh and is maintaining concentration on a spell must succeed on a DC 13 Constitution saving throw or it loses concentration on the spell.",
+          "desc_ru": "Особенность «Дистрактинг Какофонй». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_vangsluagh_distracting-cacophony",
+          "name": "Distracting Cacophony",
+          "name_ru": "Дистрактинг Какофонй",
+          "parent": "tob2_vangsluagh",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Vangsluagh",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Vangsluagh",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Извивающаяся масса сотен резиновых, сине серых щупалец поднимается из человеческих ног, оканчивающихся слоновыми стопами. Каждое щупальце заканчивается устрашающе человеческим ртом.\n\n**Проклятые волынщики.** Вангслуаг создаёт шум везде, куда они идут; рты на их щупальцах вечно кричат, свистят, блеют, рычат и плачут. Даже в тех случаях, когда вангслуаг может хотеть тихий вход или скрытую засаду, их собственные тела предают их. Истории появились из их выжженной магией родины вангслуа, которые способны заглушить шум, окружающий их.\n\n**Осквернители красоты.** Вангслуаг ненавидит красивые вещи, будь то существо, объект или строение. Получив возможность, вангслуаг предпочитает тратить своё время, разбивая красивые вещи на куски. Отсутствие красоты не всегда успокоит этих существ, однако. Они рассмотрят живых существ в качестве приоритета в таких случаях.",
+      "glossary_version": "v1",
+      "name": "Вангслуаг",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

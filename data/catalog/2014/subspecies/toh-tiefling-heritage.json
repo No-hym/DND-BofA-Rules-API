@@ -1,0 +1,129 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subspecies",
+  "edition": "2014",
+  "external_id": "toh_tiefling-heritage",
+  "id": "o5e:toh:species:toh-tiefling-heritage",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:species:toh-tiefling-heritage",
+      "o5e:toh:subrace:tiefling-heritage"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b869eeb1ee9c720e9a4a377872a74627ffd21505f25c9c1d8b0d222d25f33cce",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "subspecies_of": "toh_darakhul"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "b869eeb1ee9c720e9a4a377872a74627ffd21505f25c9c1d8b0d222d25f33cce",
+        "edition": "2014",
+        "id": "o5e:toh:species:toh-tiefling-heritage",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "da0e22bb4fc9cb1e76d38e89def6f154f16119f51620f62d399b1a14851747e6",
+        "edition": "2014",
+        "id": "o5e:toh:subrace:tiefling-heritage",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "toh_darakhul",
+        "type": "subspecies_of",
+        "value": "toh_darakhul"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Your darakhul character was a tiefling before transforming into a darakhul. You are no stranger to the pull of powerful forces raging through your blood. You have traded one dark pull for another, and this one seems much stronger. Is that a good feeling, or do you miss your old one?",
+      "document": "toh",
+      "name": "Tiefling Heritage",
+      "subspecies_of": "toh_darakhul"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "traits": [
+        {
+          "desc": "Your Charisma score increases by 1.",
+          "desc_ru": "Каждая раса увеличивает одну или несколько характеристик персонажа.",
+          "external_id": "toh_tiefling-heritage_ability-score-increase",
+          "name": "Ability Score Increase",
+          "name_ru": "Увеличение характеристик",
+          "parent": "toh_tiefling-heritage",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "When you are hit by a weapon attack, you can use a reaction to envelop the attacker in shadowy flames. The attacker takes necrotic damage equal to your Charisma modifier (minimum of 1), and it has disadvantage on attack rolls until the end of its next turn. You must finish a long rest before you can use this feature again.",
+          "desc_ru": "Особенность «Некротический Ребуке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_tiefling-heritage_necrotic-rebuke",
+          "name": "Necrotic Rebuke",
+          "name_ru": "Некротический Ребуке",
+          "parent": "toh_tiefling-heritage",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Tiefling Heritage",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "Your darakhul character was a tiefling before transforming into a darakhul. You are no stranger to the pull of powerful forces raging through your blood. You have traded one dark pull for another, and this one seems much stronger. Is that a good feeling, or do you miss your old one?",
+      "name": "Tiefling Heritage",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Ваш персонаж-дарахул был тифлингом до превращения в дарахула. Вам не чуждо притяжение мощных сил, бушующих в вашей крови. Вы обменяли одно тёмное притяжение на другое, и это кажется намного сильнее. Это хорошее чувство, или вы скучаете по старому?",
+      "glossary_version": "v1",
+      "name": "Наследие тифлинга",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

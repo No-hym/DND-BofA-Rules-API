@@ -1,0 +1,221 @@
+{
+  "attribution": "Title: Creature Codex; Author: Wolfgang Baur, Dan Dillon, Richard Green, James Haeck, Chris Harris, Jeremy Hochhalter, James Introcaso, Chris Lockey, Shawn Merwin, and Jon Sawatsky; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/creature-codex-for-5th-edition-dnd/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "ccdx",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "ccdx_acid-ant",
+  "id": "o5e:ccdx:creature:ccdx-acid-ant",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:cc:monster:acid-ant",
+      "o5e:ccdx:creature:ccdx-acid-ant"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "338f5d8cc17a10de5a15c0056e32d2481a3668e2f5c8d1e6c41413a9a316ef8a",
+    "formulas": [
+      {
+        "expression": "3d6+3",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 3,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 13,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 8,
+      "ability_score_wisdom": 7,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "armor_detail": "natural armor",
+      "blindsight_range": 60,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [
+        "acid"
+      ],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "3d6+3",
+      "hit_points": 13,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": 10560,
+      "passive_perception": 8,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "small",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "ccdx",
+        "content_hash": "338f5d8cc17a10de5a15c0056e32d2481a3668e2f5c8d1e6c41413a9a316ef8a",
+        "edition": "2014",
+        "id": "o5e:ccdx:creature:ccdx-acid-ant",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "cc",
+        "content_hash": "9ee957f0964b55dc1484d2ad08b30aa425bbbe67688dd205f4d36d7ad5da25fe",
+        "edition": "2014",
+        "id": "o5e:cc:monster:acid-ant",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:cc"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 3,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 13,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 8,
+      "ability_score_wisdom": 7,
+      "alignment": "unaligned",
+      "armor_class": 13,
+      "armor_detail": "natural armor",
+      "blindsight_range": 60,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "damage_immunities": [
+        "acid"
+      ],
+      "damage_immunities_display": "acid",
+      "document": "ccdx",
+      "hit_dice": "3d6+3",
+      "hit_points": 13,
+      "hover": false,
+      "languages_desc": "-",
+      "name": "Acid Ant",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 8,
+      "size": "small",
+      "type": "monstrosity",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Dan Dillon, Richard Green, James Haeck, Chris Harris, Jeremy Hochhalter, James Introcaso, Chris Lockey, Shawn Merwin, and Jon Sawatsky",
+      "key": "ccdx",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/creature-codex-for-5th-edition-dnd/",
+      "publication_date": "2018-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Creature Codex"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Ranged Weapon Attack: +3 to hit, range 20/60 ft., one target. Hit: 5 (2d4) acid damage and the target takes 1 acid damage at the start of its next turn unless the target immediately uses its reaction to wipe off the spit.",
+          "desc_ru": "Действие «Кислотный Спит»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "ccdx_acid-ant_acid-spit",
+          "name": "Acid Spit",
+          "name_ru": "Кислотный Спит",
+          "order_in_statblock": 0,
+          "parent": "ccdx_acid-ant",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage plus 2 (1d4) acid damage.",
+          "desc_ru": "Атака оружием ближнего боя: +3 к попаданию, досягаемость 5 фт., одна цель. Попадание: 3 (1к4+1) колющего урона плюс 2 (1к4) кислотного урона.",
+          "external_id": "ccdx_acid-ant_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "ccdx_acid-ant",
+          "ru_source": "template"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "When the ant is reduced to 0 hp, it explodes in a burst of acid. Each creature within 5 feet of the ant must succeed on a DC 11 Dexterity saving throw or take 5 (2d4) acid damage.",
+          "desc_ru": "Особенность «Експлосиве смерти». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "ccdx_acid-ant_explosive-death",
+          "name": "Explosive Death",
+          "name_ru": "Експлосиве смерти",
+          "parent": "ccdx_acid-ant",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The ant has advantage on Wisdom (Perception) checks that rely on smell.",
+          "desc_ru": "Совершает проверки Мудрости (Восприятие) с преимуществом, если они полагаются на обоняние.",
+          "external_id": "ccdx_acid-ant_keen-smell",
+          "name": "Keen Smell",
+          "name_ru": "Кеен Смелл",
+          "parent": "ccdx_acid-ant",
+          "ru_source": "template"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Acid Ant",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:ccdx",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Acid Ant",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Маленькое чудовище, мировоззрение: без мировоззрения. Класс доспеха: 13 (природный доспех). Хиты: 13 (3к6+3). Скорость: ходьба 30 фт.. Характеристики: СИЛ 8, ЛОВ 13, ТЕЛ 12, ИНТ 1, МУД 7, ХАР 3. Иммунитет к урону: кислотой. Чувства: слепое зрение 60 фт., пассивное Восприятие 8. Показатель опасности: 0.25. Структурированные механики записи: особенностей: 2, действий: 2.",
+      "glossary_version": "derived-v1",
+      "name": "Кислотный Ант",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

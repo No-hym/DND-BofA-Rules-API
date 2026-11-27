@@ -1,0 +1,309 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "class",
+  "edition": "2014",
+  "external_id": "bfrd_rogue",
+  "id": "o5e:bfrd:characterclass:bfrd-rogue",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:characterclass:bfrd-rogue",
+      "o5e:srd-2014:characterclass:srd-rogue"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e86ad4d732e479c17d217cb9ead94de1bb4e552edc5ace8fc74430fab8d64c9f",
+    "formulas": [
+      {
+        "expression": "D8",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "NONE",
+      "hit_dice": "D8",
+      "primary_abilities": [],
+      "saving_throws": [
+        "dex",
+        "int"
+      ],
+      "subclass_of": null
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "e86ad4d732e479c17d217cb9ead94de1bb4e552edc5ace8fc74430fab8d64c9f",
+        "edition": "2014",
+        "id": "o5e:bfrd:characterclass:bfrd-rogue",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "94e2305f1774299e8306262cfbab46503976bfae91f75e899ab1c8ed8c92ffc3",
+        "edition": "2014",
+        "id": "o5e:srd-2014:characterclass:srd-rogue",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "NONE",
+      "document": "bfrd",
+      "hit_dice": "D8",
+      "name": "Rogue",
+      "saving_throws": [
+        "dex",
+        "int"
+      ]
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "Choose two of your skill proficiencies, or one skill proficiency and one tool proficiency. Double your PB for any ability check you make that uses either of the chosen proficiencies.\n\nAt 6th level, choose two more of your proficiencies (any combination of skills or tools) to gain this benefit.",
+          "desc_ru": "На 1-м уровне выберите два ваших владения навыками или одно владение навыком и владение воровскими инструментами. Ваш бонус мастерства удваивается для любой проверки характеристики, использующей любое из выбранных владений.\n\nНа 6-м уровне вы можете выбрать ещё два владения (навыками или воровскими инструментами), чтобы получить это преимущество.",
+          "document": "bfrd",
+          "external_id": "bfrd_rogue_expertise",
+          "level": 1,
+          "name": "Expertise",
+          "name_ru": "Экспертиза",
+          "parent": "bfrd_rogue",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_rogue_proficiency-bonus",
+          "feature_type": "PROFICIENCY_BONUS",
+          "level": 1,
+          "name": "Proficiency Bonus",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_rogue",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You know how to strike subtly and exploit a foe's distraction. Once on your turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The weapon you use must have the Finesse property or be a ranged weapon.\n\nYou don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.\n\nThe amount of your extra damage you deal increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue Progression table.",
+          "desc_ru": "Вы знаете, как наносить скрытные удары и использовать отвлечённость врага. Один раз в ход вы можете нанести дополнительно 1d6 урона одному существу, по которому вы попали броском атаки, если у вас есть преимущество на бросок и атака использует фехтовальное или дальнобойное оружие. Тип дополнительного урона совпадает с типом урона оружия.\n\nВам не нужно преимущество на бросок атаки, если хотя бы один из ваших союзников находится в пределах 5 футов от цели, союзник не находится в состоянии Недееспособный, и у вас нет помехи на бросок атаки.\n\nДополнительный урон увеличивается по мере получения уровней плута, как показано в столбце Скрытая атака таблицы Умения плута.",
+          "document": "bfrd",
+          "external_id": "bfrd_rogue_sneak-attack",
+          "level": 1,
+          "name": "Sneak Attack",
+          "name_ru": "Скрытая атака",
+          "parent": "bfrd_rogue",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_rogue_sneak-attack-die",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Sneak Attack",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_rogue",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "During your rogue training, you learned Thieves' Cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature who knows Thieves' Cant understands such messages. It takes four times longer to convey a message in Thieves' Cant than it does to speak the same idea plainly.\n\nIn addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether people in an area are easy marks or will provide a safe house for thieves on the run.",
+          "desc_ru": "В ходе обучения на плута вы выучили воровской жаргон — тайную смесь диалекта, жаргонных выражений и шифров, позволяющую скрывать сообщения в обычном разговоре. Только другое существо, знающее воровской жаргон, понимает такие сообщения. Передача такого сообщения занимает в четыре раза больше времени, чем если бы вы говорили то же самое открыто.\n\nКроме того, вы понимаете набор тайных знаков и символов, используемых для передачи коротких, простых сообщений, например, является ли область опасной или территорией воровской гильдии, есть ли поблизости добыча, или являются ли люди в этом районе лёгкой добычей или предоставят убежище ворам в бегах.",
+          "document": "bfrd",
+          "external_id": "bfrd_rogue_thieves-cant",
+          "level": 1,
+          "name": "Thieves' Cant",
+          "name_ru": "Воровской жаргон",
+          "parent": "bfrd_rogue",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your quick thinking and agility allow you to move and act quickly. You can use a bonus action to take the Dash, Disengage, or Hide action.",
+          "desc_ru": "Начиная со 2-го уровня, ваше быстрое мышление и ловкость позволяют вам двигаться и действовать стремительно. Вы можете совершить бонусное действие в каждый свой ход в бою. Это действие может быть использовано только для совершения действия Рывок, Отход или Скрыться.",
+          "document": "bfrd",
+          "external_id": "bfrd_rogue_cunning-action",
+          "level": 2,
+          "name": "Cunning Action",
+          "name_ru": "Хитрое действие",
+          "parent": "bfrd_rogue",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Choose a subclass that represents your specialized set of skills, either Enforcer or Thief (detailed at the end of this class). Your choice grants you features at 3rd, 7th, 11th, and 15th level.",
+          "desc_ru": "Вы получаете подкласс плута на свой выбор. Подкласс Вор описан после описания этого класса. Подкласс — это специализация, которая даёт вам умения на определённых уровнях плута. До конца вашей карьеры вы получаете каждое умение своего подкласса, которое соответствует вашему уровню плута или ниже.",
+          "document": "bfrd",
+          "external_id": "bfrd_rogue_rogue-subclass",
+          "level": 3,
+          "name": "Rogue Subclass",
+          "name_ru": "Подкласс плута",
+          "parent": "bfrd_rogue",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Choose one of the following improvements (ability scores can't be raised above 20 with this feature):\n- Increase a single ability score by 2.\n- Increase two different ability scores by 1 each.\n- Increase one ability score by 1 and select a talent from the technical talents list.",
+          "desc_ru": "Выберите одно из следующих улучшений (этой особенностью показатели характеристик нельзя поднять выше 20):\n- Увеличить один показатель характеристики на 2.\n- Увеличить два разных показателя характеристик на 1 каждый.\n- Увеличить один показатель характеристики на 1 и выбрать талант из списка технических талантов.",
+          "document": "bfrd",
+          "external_id": "bfrd_rogue_improvement",
+          "level": 4,
+          "name": "Improvement",
+          "name_ru": "Улучшение",
+          "parent": "bfrd_rogue",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When an attacker that you can see hits you with an attack, you can use your reaction to reduce the attack's damage against you by half.",
+          "desc_ru": "Когда атакующий, которого вы видите, попадает по вам броском атаки, вы можете использовать Реакцию, чтобы уменьшить урон атаки по вам вдвое (с округлением вниз).",
+          "document": "bfrd",
+          "external_id": "bfrd_rogue_uncanny-dodge",
+          "level": 5,
+          "name": "Uncanny Dodge",
+          "name_ru": "Уворот",
+          "parent": "bfrd_rogue",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You can dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a DEX save to take only half damage, you instead take no damage if you succeed on the save and only half damage if you fail.",
+          "desc_ru": "Вы можете уворачиваться от некоторых эффектов по площади, таких как дыхание молний синего дракона или заклинание огненный шар. Когда вы подвергаетесь эффекту, который позволяет совершить спасбросок Ловкости, чтобы получить только половину урона, вместо этого вы не получаете урона при успехе спасброска и только половину урона при провале.",
+          "document": "bfrd",
+          "external_id": "bfrd_rogue_evasion",
+          "level": 6,
+          "name": "Evasion",
+          "name_ru": "Уклонение",
+          "parent": "bfrd_rogue",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You have refined your chosen skills until they approach perfection. When you make an ability check with a skill, tool, or vehicle that you have proficiency with, treat a d20 roll of 9 or lower as if you rolled a 10.",
+          "desc_ru": "Вы отточили ваши выбранные навыки почти до совершенства. Когда вы совершаете проверку характеристики навыком, инструментом или транспортом, которым владеете, считайте бросок к20, равный 9 или ниже, как если бы вы выбросили 10.",
+          "document": "bfrd",
+          "external_id": "bfrd_rogue_reliable-talent",
+          "level": 9,
+          "name": "Reliable Talent",
+          "name_ru": "Надёжный талант",
+          "parent": "bfrd_rogue",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your commitment to the rogue's path grants you a powerful new ability. Choose one of the following heroic boons:\n- **Escape Artist.** When you are subjected to an effect that allows you to make any kind of save (including DEX saves) to take only half damage, you instead take no damage if you succeed on the save and only half damage if you fail.\n- **Jack of All Trades.** When you gain a new talent, you can choose it from any talent list. Immediately gain one talent of your choice (that you meet the prerequisites for) when you gain this feature.",
+          "desc_ru": "Ваша приверженность пути вора даёт вам мощную новую способность. Выберите один из следующих героических даров:\n- Мастер побега. Когда вы подвергаетесь эффекту, который позволяет вам совершить спасбросок любого вида (включая спасброски Ловкости), чтобы получить только половину урона, вы вместо этого не получаете урона, если успешно проходите спасбросок, и только половину урона, если проваливаете.\n- Мастер на все руки. Когда вы получаете новый талант, вы можете выбрать его из любого списка талантов. Немедленно получите один талант на ваш выбор (предпосылки которого вы выполняете), когда вы получаете эту особенность.",
+          "document": "bfrd",
+          "external_id": "bfrd_rogue_heroic-boon",
+          "level": 10,
+          "name": "Heroic Boon",
+          "name_ru": "Героический дар",
+          "parent": "bfrd_rogue",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You score a critical hit on a d20 roll of 19 or 20 with ranged weapons and weapons with the Finesse property. In addition, you can roll one additional weapon damage die (not an additional Sneak Attack die) when determining the extra damage for a critical hit with a ranged weapon attack or attack made with a Finesse weapon.\n\nThis extra damage increases to two additional dice at 17th level.",
+          "desc_ru": "Вы получаете критическое попадание при броске к20, равном 19 или 20, оружием дальнего боя и оружием со свойством Фехтовальное. Кроме того, вы можете бросить одну дополнительную кость урона оружия (не дополнительную кость Скрытой атаки) при определении дополнительного урона за критическое попадание атакой оружием дальнего боя или атакой оружием со свойством Фехтовальное.\n\nЭтот дополнительный урон увеличивается до двух дополнительных костей на 17-м уровне.",
+          "document": "bfrd",
+          "external_id": "bfrd_rogue_precise-critical",
+          "level": 13,
+          "name": "Precise Critical",
+          "name_ru": "Точный критический удар",
+          "parent": "bfrd_rogue",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You have keensense to a range of 10 feet. Your keensense ceases to function while you are deafened or otherwise deprived of hearing.",
+          "desc_ru": "У вас острое чутьё на дистанции 10 футов. Острое чутьё перестаёт действовать, пока вы оглушены или иным образом лишены слуха.",
+          "document": "bfrd",
+          "external_id": "bfrd_rogue_keensense",
+          "level": 14,
+          "name": "Keensense",
+          "name_ru": "Острое чутьё",
+          "parent": "bfrd_rogue",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You are so evasive that attackers rarely gain the upper hand against you. While you aren't incapacitated, attack rolls can't have advantage against you, regardless of the source of advantage.",
+          "desc_ru": "Вы настолько уклончивы, что атакующие редко получают преимущество против вас. Никакой бросок атаки не может иметь преимущество против вас, если вы не находитесь в состоянии Недееспособный.",
+          "document": "bfrd",
+          "external_id": "bfrd_rogue_elusive",
+          "level": 18,
+          "name": "Elusive",
+          "name_ru": "Неуловимый",
+          "parent": "bfrd_rogue",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your commitment to the rogue's path grants you a powerful new ability. You gain the following epic boon:\n- **Stroke of Luck.** You have got it when it counts. If your attack misses a target within normal range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20. Once you use this feature, you can't use it again until you finish a short or long rest.",
+          "desc_ru": "Ваша приверженность пути плута дарует вам мощную новую способность. Вы получаете следующий эпический дар:\n- **Удар удачи.** У вас получается, когда это важно. Если ваша атака промахивается по цели в пределах обычной дистанции, вы можете превратить промах в попадание. В качестве альтернативы, если вы проваливаете проверку характеристики, вы можете считать бросок к20 как 20. Использовав эту особенность, вы не можете использовать её снова, пока не закончите короткий или продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_rogue_epic-boon",
+          "level": 20,
+          "name": "Epic Boon",
+          "name_ru": "Эпический дар",
+          "parent": "bfrd_rogue",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "|||\n|---|---|\n|Hit Point Die|D8 per Rogue level|\n|Saving Throw Proficiencies|Dexterity and Intelligence|\n|Skill Proficiencies|Choose 4: Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, Stealth|\n|Weapon Proficiencies|Simple weapons, martial weapons with the Finesse property|\n|Tool Proficiencies|Thieves' tools|\n|Armor Training|Light armor|\n|Starting Equipment|Choose A or B for each: (A) a rapier or (B) a shortsword; (A) a shortbow and quiver of 20 arrows or (B) a shortsword; (A) a burglar's pack, (B) a dungeoneer's pack, or (C) an explorer's pack; plus Leather armor, two daggers, and a set of thieves' tools|",
+          "desc_ru": "|||\n|---|---|\n|Кость хитов|К8 за уровень вора|\n|Владение спасбросками|Ловкость и Интеллект|\n|Владение навыками|Выберите 4: Акробатика, Атлетика, Обман, Проницательность, Запугивание, Расследование, Восприятие, Выступление, Убеждение, Ловкость рук, Скрытность|\n|Владение оружием|Простое оружие, боевое оружие со свойством Фехтовальное|\n|Владение инструментами|Воровские инструменты|\n|Тренировка доспехов|Лёгкие доспехи|\n|Начальное снаряжение|Выберите А или Б для каждого: (А) рапира или (Б) короткий меч; (А) короткий лук и колчан с 20 стрелами или (Б) короткий меч; (А) набор взломщика, (Б) набор исследователя подземелий или (В) набор путешественника; плюс Кожаный доспех, два кинжала и набор воровских инструментов|",
+          "document": "bfrd",
+          "external_id": "bfrd_rogue_core-traits",
+          "feature_type": "CORE_TRAITS_TABLE",
+          "name": "Core Rogue Traits",
+          "name_ru": "Основные черты вора",
+          "parent": "bfrd_rogue",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Rogue",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Rogue",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Таблица: Основные черты плута\n\n|                               |                                                                                                                                    |\n|---|---|\n| Кость Хитов                  | 1к8 за каждый уровень плута                                                                                                        |\n| Хиты на 1-м уровне           | 8 + модификатор Телосложения                                                                                                       |\n| Хиты на более высоких уровнях | 1к8 (или 5) + модификатор Телосложения за каждый уровень плута после 1-го                                                          |\n| Владение спасбросками         | Ловкость и Интеллект                                                                                                               |\n| Владение навыками             | Выберите 4: Акробатика, Атлетика, Обман, Проницательность, Запугивание, Анализ, Внимательность, Выступление, Убеждение, Ловкость рук или Скрытность |\n| Владение оружием              | Простое оружие, Ручные арбалеты, Длинные мечи, Рапиры, Короткие мечи                                                              |\n| Владение инструментами        | Воровские инструменты                                                                                                              |\n| Ношение доспехов              | Лёгкие доспехи                                                                                                                     |",
+      "glossary_version": "v1",
+      "name": "Плут",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

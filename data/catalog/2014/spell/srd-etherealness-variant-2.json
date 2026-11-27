@@ -1,0 +1,193 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_etherealness",
+  "id": "o5e:srd-2014:spell:srd-etherealness-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-etherealness",
+      "o5e:wotc-srd:spell:etherealness"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7a458a4c0e6f21b72bfdbf2f2e5e401eca4aa5b5b44679a9de926c9f470c95f3",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_cleric",
+        "srd_sorcerer",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [
+        "force"
+      ],
+      "duration": "8 hours",
+      "level": 7,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0.0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "7a458a4c0e6f21b72bfdbf2f2e5e401eca4aa5b5b44679a9de926c9f470c95f3",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-etherealness",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "f0214fa03290d94e8ada17ffb82479e55c62de102fb2f121015a4e608c629af9",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:etherealness",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "classes",
+        "value": [
+          "srd_bard",
+          "srd_cleric",
+          "srd_sorcerer",
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_cleric",
+        "srd_sorcerer",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_types": [
+        "force"
+      ],
+      "desc": "You step into the border regions of the Ethereal Plane, in the area where it overlaps with your current plane. You remain in the Border Ethereal for the duration or until you use your action to dismiss the spell. During this time, you can move in any direction. If you move up or down, every foot of movement costs an extra foot. You can see and hear the plane you originated from, but everything there looks gray, and you can't see anything more than 60 feet away. While on the Ethereal Plane, you can only affect and be affected by other creatures on that plane. Creatures that aren't on the Ethereal Plane can't perceive you and can't interact with you, unless a special ability or magic has given them the ability to do so. You ignore all objects and effects that aren't on the Ethereal Plane, allowing you to move through objects you perceive on the plane you originated from. When the spell ends, you immediately return to the plane you originated from in the spot you currently occupy. If you occupy the same spot as a solid object or creature when this happens, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are moved. This spell has no effect if you cast it while you are on the Ethereal Plane or a plane that doesn't border it, such as one of the Outer Planes.",
+      "document": "srd-2014",
+      "duration": "8 hours",
+      "higher_level": "When you cast this spell using a spell slot of 8th level or higher, you can target up to three willing creatures (including you) for each slot level above 7th. The creatures must be within 10 feet of you when you cast the spell.",
+      "level": 7,
+      "material": false,
+      "material_consumed": false,
+      "name": "Etherealness",
+      "range": 0.0,
+      "range_text": "Self",
+      "ritual": false,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5425",
+          "parent": "srd_etherealness",
+          "type": "default"
+        },
+        {
+          "external_id": "10811",
+          "parent": "srd_etherealness",
+          "target_count": 3,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "10812",
+          "parent": "srd_etherealness",
+          "target_count": 6,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Etherealness",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:a5e-ag:spell:a5e-ag-etherealness"
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You step into the border regions of the Ethereal Plane, in the area where it overlaps with your current plane. You remain in the Border Ethereal for the duration or until you use your action to dismiss the spell. During this time, you can move in any direction. If you move up or down, every foot of movement costs an extra foot. You can see and hear the plane you originated from, but everything there looks gray, and you can't see anything more than 60 feet away. While on the Ethereal Plane, you can only affect and be affected by other creatures on that plane. Creatures that aren't on the Ethereal Plane can't perceive you and can't interact with you, unless a special ability or magic has given them the ability to do so. You ignore all objects and effects that aren't on the Ethereal Plane, allowing you to move through objects you perceive on the plane you originated from. When the spell ends, you immediately return to the plane you originated from in the spot you currently occupy. If you occupy the same spot as a solid object or creature when this happens, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are moved. This spell has no effect if you cast it while you are on the Ethereal Plane or a plane that doesn't border it, such as one of the Outer Planes.",
+      "name": "Etherealness",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Преобразование 7-го уровня (Бард, Жрец, Чародей, Колдун, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** На себя\n\n**Компоненты:** В, С\n\n**Длительность:** Вплоть до 8 часов\n\nВы переходите в пограничные области Эфирного Плана, в зону, где он накладывается на ваш текущий план. Вы остаётесь в Пограничном Эфире на время действия заклинания или пока не используете действие, чтобы отменить заклинание. В это время вы можете перемещаться в любом направлении. Если вы перемещаетесь вверх или вниз, каждый фут перемещения стоит дополнительный фут. Вы можете видеть и слышать план, с которого пришли, но всё там выглядит серым, и вы не можете видеть дальше 60 футов.\n\nНаходясь на Эфирном Плане, вы можете воздействовать и подвергаться воздействию только других существ на этом плане. Существа, не находящиеся на Эфирном Плане, не могут воспринимать вас и не могут взаимодействовать с вами, если только особая способность или магия не дала им такую возможность.\n\nВы игнорируете все предметы и эффекты, которые не находятся на Эфирном Плане, что позволяет вам проходить сквозь предметы, которые вы воспринимаете на плане, с которого пришли.\n\nКогда заклинание оканчивается, вы немедленно возвращаетесь на план, с которого пришли, в то место, которое сейчас занимаете. Если вы занимаете то же место, что и твёрдый предмет или существо, вас мгновенно выталкивает в ближайшее свободное пространство, которое вы можете занять, и вы получаете урон силовым полем, равный удвоенному количеству футов, на которое вас переместили.\n\nЭто заклинание не имеет эффекта, если вы сотворяете его, находясь на Эфирном Плане или плане, который с ним не граничит, например на одном из Внешних Планов.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 8-го уровня или выше, вы можете нацелиться на до трёх согласных существ (включая вас) за каждый уровень ячейки выше 7-го. Существа должны находиться в пределах 10 футов от вас при сотворении заклинания.",
+      "glossary_version": "v1",
+      "name": "Эфирность",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

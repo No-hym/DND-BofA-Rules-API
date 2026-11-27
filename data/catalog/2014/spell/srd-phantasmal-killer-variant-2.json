@@ -1,0 +1,212 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_phantasmal-killer",
+  "id": "o5e:srd-2014:spell:srd-phantasmal-killer-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-phantasmal-killer",
+      "o5e:wotc-srd:spell:phantasmal-killer"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b939d0b2a9f341f926328016710b0278e8f259ea0ad4f2bd377cdcce898cad7c",
+    "formulas": [
+      {
+        "expression": "4d10",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "4d10",
+      "damage_types": [
+        "psychic"
+      ],
+      "duration": "1 minute",
+      "level": 4,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "illusion",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "b939d0b2a9f341f926328016710b0278e8f259ea0ad4f2bd377cdcce898cad7c",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-phantasmal-killer",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "43605cafe058c4b80115212e4cc246fd26ed439e3da6e09f303d5599df40ec5f",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:phantasmal-killer",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_wizard",
+        "type": "classes",
+        "value": [
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "4d10",
+      "damage_types": [
+        "psychic"
+      ],
+      "desc": "You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a wisdom saving throw. On a failed save, the target becomes frightened for the duration. At the start of each of the target's turns before the spell ends, the target must succeed on a wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends.",
+      "document": "srd-2014",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.",
+      "level": 4,
+      "material": false,
+      "material_consumed": false,
+      "name": "Phantasmal Killer",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "illusion",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5811",
+          "parent": "srd_phantasmal-killer",
+          "type": "default"
+        },
+        {
+          "damage_roll": "5d10",
+          "external_id": "10860",
+          "parent": "srd_phantasmal-killer",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "6d10",
+          "external_id": "10861",
+          "parent": "srd_phantasmal-killer",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "7d10",
+          "external_id": "10862",
+          "parent": "srd_phantasmal-killer",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "8d10",
+          "external_id": "10863",
+          "parent": "srd_phantasmal-killer",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "9d10",
+          "external_id": "10864",
+          "parent": "srd_phantasmal-killer",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Phantasmal Killer",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:a5e-ag:spell:a5e-ag-phantasmal-killer"
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a wisdom saving throw. On a failed save, the target becomes frightened for the duration. At the start of each of the target's turns before the spell ends, the target must succeed on a wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends.",
+      "name": "Phantasmal Killer",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Иллюзия 4-го уровня (Бард, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 120 футов\n\n**Компоненты:** В, С\n\n**Длительность:** Концентрация, до 1 минуты\n\nВы проникаете в кошмары существа, которое видите в пределах дистанции, и создаёте иллюзию его глубочайших страхов, видимую только этому существу. Цель совершает спасбросок Мудрости. При провале цель получает 4d10 урона психической энергией и совершает с помехой проверки характеристик и броски атаки на время действия заклинания. При успехе цель получает половину этого урона, и заклинание заканчивается.\n\nНа время действия заклинания цель совершает спасбросок Мудрости в конце каждого своего хода. При провале она снова получает урон психической энергией. При успехе заклинание заканчивается.\n\n**_Использование ячейки более высокого уровня._** Урон увеличивается на 1d10 за каждый уровень ячейки выше 4-го.",
+      "glossary_version": "v1",
+      "name": "Призрачный убийца",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

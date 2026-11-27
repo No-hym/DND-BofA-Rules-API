@@ -1,0 +1,186 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_spiteful-weapon",
+  "id": "o5e:deepm:spell:deepm-spiteful-weapon",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-spiteful-weapon",
+      "o5e:dmag:spell:spiteful-weapon"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "462ba05e1c0aabc1ab67b3d94f94662a84eab85dc435fdd47e92d6919ccefa33",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "5 rounds",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a melee weapon that has been used to injure the target",
+      "range": 25,
+      "range_text": "25 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "462ba05e1c0aabc1ab67b3d94f94662a84eab85dc435fdd47e92d6919ccefa33",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-spiteful-weapon",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "afb937505e1759a4d8600abe10e35b2a3bd3ae030c2c919719ca902c96573634",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:spiteful-weapon",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "You create a connection between the target of the spell, an attacker that injured the target during the last 24 hours, and the melee weapon that caused the injury, all of which must be within range when the spell is cast.\n\nFor the duration of the spell, whenever the attacker takes damage while holding the weapon, the target must make a Charisma saving throw. On a failed save, the target takes the same amount and type of damage, or half as much damage on a successful one. The attacker can use the weapon on itself and thus cause the target to take identical damage. A self-inflicted wound hits automatically, but damage is still rolled randomly.\n\nOnce the connection is established, it lasts for the duration of the spell regardless of range, so long as all three elements remain on the same plane. The spell ends immediately if the attacker receives any healing.\n",
+      "document": "deepm",
+      "duration": "5 rounds",
+      "higher_level": "The target has disadvantage on its Charisma saving throws if **spiteful weapon** is cast using a spell slot of 5th level or higher.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a melee weapon that has been used to injure the target",
+      "name": "Spiteful Weapon",
+      "range": 25,
+      "range_text": "25 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4215",
+          "parent": "deepm_spiteful-weapon",
+          "type": "default"
+        },
+        {
+          "external_id": "4217",
+          "parent": "deepm_spiteful-weapon",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "4218",
+          "parent": "deepm_spiteful-weapon",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "4219",
+          "parent": "deepm_spiteful-weapon",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "4220",
+          "parent": "deepm_spiteful-weapon",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "4221",
+          "parent": "deepm_spiteful-weapon",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "4222",
+          "parent": "deepm_spiteful-weapon",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Spiteful Weapon",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You create a connection between the target of the spell, an attacker that injured the target during the last 24 hours, and the melee weapon that caused the injury, all of which must be within range when the spell is cast.\n\nFor the duration of the spell, whenever the attacker takes damage while holding the weapon, the target must make a Charisma saving throw. On a failed save, the target takes the same amount and type of damage, or half as much damage on a successful one. The attacker can use the weapon on itself and thus cause the target to take identical damage. A self-inflicted wound hits automatically, but damage is still rolled randomly.\n\nOnce the connection is established, it lasts for the duration of the spell regardless of range, so long as all three elements remain on the same plane. The spell ends immediately if the attacker receives any healing.",
+      "name": "Spiteful Weapon",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы создаёте связь между целью заклинания, атакующим, который ранил цель в последние 24 часа, и рукопашным оружием, которое причинило ранение, все из которых должны быть в пределах дистанции, когда заклинание творится.\n\nНа время действия заклинания, всякий раз, когда атакующий получает урон, держа оружие, цель должна совершить спасбросок Харизмы. При провале цель получает то же количество и тип урона, а при успехе — половину урона. Атакующий может использовать оружие на себе и таким образом заставить цель получить идентичный урон. Самопричинённая рана попадает автоматически, но урон всё равно бросается случайно.\n\nКак только связь установлена, она длится время действия заклинания независимо от дистанции, пока все три элемента остаются на том же плане. Заклинание немедленно заканчивается, если атакующий получает любое лечение.",
+      "glossary_version": "v1",
+      "name": "Злобное оружие",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

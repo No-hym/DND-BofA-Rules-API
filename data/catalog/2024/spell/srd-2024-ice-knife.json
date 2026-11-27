@@ -1,0 +1,220 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_ice-knife",
+  "id": "o5e:srd-2024:spell:srd-2024-ice-knife",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "f64cbdec1334e908ae636ea44df9d53b6c5d60fe3039bf8492bc242f0a938071",
+    "formulas": [
+      {
+        "expression": "1d10",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_druid",
+        "srd-2024_sorcerer",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "1d10",
+      "damage_types": [
+        "piercing",
+        "cold"
+      ],
+      "duration": "instantaneous",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a drop of water or a piece of ice",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": false
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_druid",
+        "type": "classes",
+        "value": [
+          "srd-2024_druid",
+          "srd-2024_sorcerer",
+          "srd-2024_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_druid",
+        "srd-2024_sorcerer",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "1d10",
+      "damage_types": [
+        "piercing",
+        "cold"
+      ],
+      "desc": "You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 Cold damage.",
+      "document": "srd-2024",
+      "duration": "instantaneous",
+      "higher_level": "The Cold damage increases by 1d6 for each spell slot level above 1.",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a drop of water or a piece of ice",
+      "name": "Ice Knife",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": false
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "desc": "The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 3d6 Cold damage.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10351",
+          "parent": "srd-2024_ice-knife",
+          "ru_source": "derived",
+          "type": "slot_level_2"
+        },
+        {
+          "desc": "The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 4d6 Cold damage.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10352",
+          "parent": "srd-2024_ice-knife",
+          "ru_source": "derived",
+          "type": "slot_level_3"
+        },
+        {
+          "desc": "The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 5d6 Cold damage.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10353",
+          "parent": "srd-2024_ice-knife",
+          "ru_source": "derived",
+          "type": "slot_level_4"
+        },
+        {
+          "desc": "The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 6d6 Cold damage.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10354",
+          "parent": "srd-2024_ice-knife",
+          "ru_source": "derived",
+          "type": "slot_level_5"
+        },
+        {
+          "desc": "The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 7d6 Cold damage.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10355",
+          "parent": "srd-2024_ice-knife",
+          "ru_source": "derived",
+          "type": "slot_level_6"
+        },
+        {
+          "desc": "The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 8d6 Cold damage.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10356",
+          "parent": "srd-2024_ice-knife",
+          "ru_source": "derived",
+          "type": "slot_level_7"
+        },
+        {
+          "desc": "The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 9d6 Cold damage.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10357",
+          "parent": "srd-2024_ice-knife",
+          "ru_source": "derived",
+          "type": "slot_level_8"
+        },
+        {
+          "desc": "The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 10d6 Cold damage.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10358",
+          "parent": "srd-2024_ice-knife",
+          "ru_source": "derived",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Ice Knife",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 Cold damage.",
+      "name": "Ice Knife",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Вызов 1-го уровня (Друид, Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** С, М (капля воды или кусочек льда)\n\n**Длительность:** Мгновенная\n\nВы создаёте осколок льда и бросаете его в одно существо в пределах дистанции. Совершите дальнобойную атаку заклинанием по цели. При попадании цель получает 1d10 колющего урона. Попадание или промах, осколок затем взрывается. Цель и каждое существо в пределах 5 футов от неё должны преуспеть в спасброске Ловкости, иначе получают 2d6 урона холодом.\n\n**_Использование ячейки более высокого уровня._** Урон холодом увеличивается на 1d6 за каждый уровень ячейки выше 1-го.",
+      "glossary_version": "v1",
+      "name": "Ледяной нож",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

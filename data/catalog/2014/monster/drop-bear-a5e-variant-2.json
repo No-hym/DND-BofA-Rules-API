@@ -1,0 +1,131 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "drop-bear-a5e",
+  "id": "o5e:menagerie:monster:drop-bear-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:drop-bear-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e1198dfdba6617e76e158da1328346f43a6a7f35bdfb87c1627709d0ab8ed181",
+    "formulas": [
+      {
+        "expression": "5d10+15",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 12,
+      "challenge_rating": "3",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "5d10+15",
+      "hit_points": 42,
+      "languages": "",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "e1198dfdba6617e76e158da1328346f43a6a7f35bdfb87c1627709d0ab8ed181",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:drop-bear-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The bear makes two melee attacks.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8+5) piercing damage.\"}, {\"name\": \"Claws\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d4+5) slashing damage. If the target is a Medium or smaller creature  it is grappled (escape DC 15). Until this grapple ends  the bear can't attack a different target with its claws.\"}]",
+      "armor_class": 12,
+      "bonus_actions_json": "null",
+      "challenge_rating": "3",
+      "charisma": 4,
+      "constitution": 16,
+      "cr": 3.0,
+      "dexterity": 10,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "5d10+15",
+      "hit_points": 42,
+      "intelligence": 2,
+      "legendary_actions_json": "null",
+      "name": "Drop Bear",
+      "page_no": 456,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "passive Perception 13",
+      "size": "Large",
+      "skills_json": "{\"perception\": 3}",
+      "special_abilities_json": "[{\"name\": \"Keen Smell\", \"desc\": \"The bear has advantage on Perception checks that rely on smell.\"}, {\"name\": \"Stealthy\", \"desc\": \"The drop bear has advantage on Stealth checks in forested areas.\"}, {\"name\": \"Drop\", \"desc\": \"The drop bear takes no damage from falling 40 feet or fewer and deals an extra 7 (2d6) damage when it hits with an attack after falling at least 20 feet. A creature that takes this extra damage is knocked prone.\"}]",
+      "speed_json": "{\"walk\": 40, \"climb\": 40}",
+      "spells_json": "null",
+      "strength": 20,
+      "type": "Beast",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Drop Bear",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-drop-bear"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Drop Bear",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крупный зверь. Класс доспеха: 12. Хиты: 42 (5к10+15). Показатель опасности: 3.",
+      "glossary_version": "derived-v1",
+      "name": "Дроп медведь",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

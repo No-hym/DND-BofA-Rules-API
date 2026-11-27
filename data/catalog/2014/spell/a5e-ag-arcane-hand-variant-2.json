@@ -1,0 +1,156 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_arcane-hand",
+  "id": "o5e:a5e-ag:spell:a5e-ag-arcane-hand-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-arcane-hand",
+      "o5e:a5e:spell:arcane-hand-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "81fa0bf6c4b56e1e7c115aae67303ba16712cbfc55aa49dde979e12f4e516333",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "strength",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "81fa0bf6c4b56e1e7c115aae67303ba16712cbfc55aa49dde979e12f4e516333",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-arcane-hand",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "110d876f71594772e5bf9200e00ceb90d46a80f1ac0dac9de2b8be64c20cf97f",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:arcane-hand-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "You create a Large hand of shimmering, translucent force that mimics the appearance and movements of your own hand.\n\nThe hand doesn't fill its space and has AC 20, Strength 26 (+8), Dexterity 10 (+0), maneuver DC 18, and hit points equal to your hit point maximum. The spell ends early if it is dropped to 0 hit points.\n\nWhen you cast the spell and as a bonus action on subsequent turns, you can move the hand up to 60 feet and then choose one of the following.\n\n* **_Shove:_** The hand makes a Strength saving throw against the maneuver DC of a creature within 5 feet of it, with advantage if the creature is Medium or smaller. On a success, the hand pushes the creature in a direction of your choosing for up to 5 feet plus a number of feet equal to 5 times your spellcasting ability modifier, and remains within 5 feet of it.\n* **_Smash:_** Make a melee spell attack against a creature or object within 5 feet of the hand. On a hit, the hand deals 4d8 force damage.\n* **_Snatch:_** The hand makes a Strength saving throw against the maneuver DC of a creature within 5 feet of it, with advantage if the creature is Medium or smaller. On a success, the creature is grappled by the hand. You can use a bonus action to crush a creature grappled by the hand, dealing bludgeoning damage equal to 2d6 + your spellcasting ability modifier.\n* **_Stop:_** Until the hand is given another command it moves to stay between you and a creature of your choice, providing you with three-quarters cover against the chosen creature. A creature with a Strength score of 26 or less cannot move through the hand's space, and stronger creatures treat the hand as difficult terrain.",
+      "document": "a5e-ag",
+      "duration": "1 minute",
+      "higher_level": "The damage from Smash increases by 2d8 and the damage from Snatch increases by 2d6 for each slot level above 5th.",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "name": "Arcane Hand",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "strength",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "543",
+          "parent": "a5e-ag_arcane-hand",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Arcane Hand",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:srd-2014:spell:srd-arcane-hand"
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "You create a Large hand of shimmering, translucent force that mimics the appearance and movements of your own hand.\n\nThe hand doesn't fill its space and has AC 20, Strength 26 (+8), Dexterity 10 (+0), maneuver DC 18, and hit points equal to your hit point maximum. The spell ends early if it is dropped to 0 hit points.\n\nWhen you cast the spell and as a bonus action on subsequent turns, you can move the hand up to 60 feet and then choose one of the following.\n\n* **_Shove:_** The hand makes a Strength saving throw against the maneuver DC of a creature within 5 feet of it, with advantage if the creature is Medium or smaller. On a success, the hand pushes the creature in a direction of your choosing for up to 5 feet plus a number of feet equal to 5 times your spellcasting ability modifier, and remains within 5 feet of it.\n* **_Smash:_** Make a melee spell attack against a creature or object within 5 feet of the hand. On a hit, the hand deals 4d8 force damage.\n* **_Snatch:_** The hand makes a Strength saving throw against the maneuver DC of a creature within 5 feet of it, with advantage if the creature is Medium or smaller. On a success, the creature is grappled by the hand. You can use a bonus action to crush a creature grappled by the hand, dealing bludgeoning damage equal to 2d6 + your spellcasting ability modifier.\n* **_Stop:_** Until the hand is given another command it moves to stay between you and a creature of your choice, providing you with three-quarters cover against the chosen creature. A creature with a Strength score of 26 or less cannot move through the hand's space, and stronger creatures treat the hand as difficult terrain.",
+      "name": "Arcane Hand",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 5-го уровня (Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 120 футов\n\n**Компоненты:** В, С, М (яичная скорлупа и перчатка из змеиной кожи)\n\n**Длительность:** Концентрация, вплоть до 1 минуту\n\nВы создаёте Большую руку из мерцающей полупрозрачной силы в свободном пространстве, которое видите в пределах дистанции. Рука существует на время действия заклинания и перемещается по вашей команде, повторяя движения вашей собственной руки.\n\nРука — это предмет с КД 20 и хитами, равными вашему максимуму хитов. Если хиты руки опускаются до 0, заклинание оканчивается. У неё Сила 26 (+8) и Ловкость 10 (+0). Рука не заполняет своё пространство.\n\nПри сотворении заклинания и бонусным действием в последующие ходы вы можете переместить руку на расстояние до 60 футов, а затем вызвать один из следующих эффектов.\n\n**_Сжатый кулак._** Рука наносит удар одному существу или предмету в пределах 5 футов от неё. Совершите рукопашную атаку заклинанием за руку, используя ваши игровые параметры. При попадании цель получает 4к8 урона силовым полем.\n\n**_Мощная ладонь._** Рука пытается толкнуть существо в пределах 5 футов от неё в выбранном вами направлении.\n\nСовершите проверку Силы руки в состязании с проверкой Силы (Атлетика) цели. Если цель Средняя или меньше, вы совершаете проверку с преимуществом. При успехе рука толкает цель на расстояние до 5 футов плюс число футов, равное пятикратному модификатору вашей характеристики заклинателя. Рука перемещается вместе с целью, чтобы оставаться в пределах 5 футов от неё.\n\n**_Хватающая ладонь._** Рука пытается схватить Огромное или меньшее существо в пределах 5 футов от неё. Вы используете значение Силы руки для разрешения захвата. Если цель Средняя или меньше, вы совершаете проверку с преимуществом. Пока рука удерживает цель в захвате, вы можете бонусным действием заставить руку сдавить её. При этом цель получает дробящий урон, равный 2к6 + модификатор вашей характеристики заклинателя.\n\n**_Заграждающая ладонь._** Рука встаёт между вами и выбранным вами существом, пока вы не отдадите руке другую команду. Рука перемещается, чтобы оставаться между вами и целью, предоставляя вам укрытие на половину от цели. Цель не может перемещаться через пространство руки, если её значение Силы меньше или равно значению Силы руки. Если значение Силы цели выше, чем у руки, цель может перемещаться к вам через пространство руки, но это пространство является для неё труднопроходимой местностью.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 6-го уровня или выше, урон от сжатого кулака увеличивается на 2к8, а урон от хватающей ладони увеличивается на 2к6 за каждый уровень ячейки выше 5-го.",
+      "glossary_version": "v1",
+      "name": "Арканная рука",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,195 @@
+{
+  "attribution": "Title: Deep Magic Extended; Author: Not sure.; Publisher: kobold-press; Source: https://koboldpress.com/deepmagic; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepmx",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepmx_imbue-spell",
+  "id": "o5e:deepmx:spell:deepmx-imbue-spell",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepmx:spell:deepmx-imbue-spell",
+      "o5e:dmag-e:spell:imbue-spell"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "d251a5a64d1b87989bec1ba5c1f6f4c9baf41800fca415440f30f528e0f69783",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "ritual",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1hour",
+      "classes": [
+        "srd_cleric",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": true,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepmx",
+        "content_hash": "d251a5a64d1b87989bec1ba5c1f6f4c9baf41800fca415440f30f528e0f69783",
+        "edition": "2014",
+        "id": "o5e:deepmx:spell:deepmx-imbue-spell",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepmx"
+      },
+      {
+        "book": "dmag-e",
+        "content_hash": "35aff2a5af3d1c8003e385819b2e3916ae44e15b30665653629f06c9056ce9ee",
+        "edition": "2014",
+        "id": "o5e:dmag-e:spell:imbue-spell",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag-e"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1hour",
+      "classes": [
+        "srd_cleric",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "desc": "Deep Magic: clockwork You imbue a spell of 1st thru 3rd level that has a casting time of instantaneous onto a gear worth 100 gp per level of spell you are imbuing. At the end of the ritual, the gear is placed into a piece of clockwork that includes a timer or trigger mechanism. When the timer or trigger goes off, the spell is cast. If the range of the spell was Touch, it effects only a target touching the device. If the spell had a range in feet, the spell is cast on the closest viable target within range, based on the nature of the spell. Spells with a range of Self or Sight can't be imbued. If the gear is placed with a timer, it activates when the time elapses regardless of whether a legitimate target is available.",
+      "document": "deepmx",
+      "duration": "instantaneous",
+      "higher_level": "You can perform this ritual as a 7th-level spell to imbue a spell of 4th or 5th level.",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "name": "Imbue Spell",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": true,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Not sure.",
+      "key": "deepmx",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/deepmagic",
+      "publication_date": "2024-02-14T19:02:02",
+      "publisher": "kobold-press",
+      "title": "Deep Magic Extended"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4824",
+          "parent": "deepmx_imbue-spell",
+          "type": "default"
+        },
+        {
+          "external_id": "4825",
+          "parent": "deepmx_imbue-spell",
+          "type": "ritual"
+        },
+        {
+          "external_id": "4827",
+          "parent": "deepmx_imbue-spell",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "4828",
+          "parent": "deepmx_imbue-spell",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "4829",
+          "parent": "deepmx_imbue-spell",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "4830",
+          "parent": "deepmx_imbue-spell",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Imbue Spell",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepmx",
+  "translations": {
+    "en": {
+      "description": "Deep Magic: clockwork You imbue a spell of 1st thru 3rd level that has a casting time of instantaneous onto a gear worth 100 gp per level of spell you are imbuing. At the end of the ritual, the gear is placed into a piece of clockwork that includes a timer or trigger mechanism. When the timer or trigger goes off, the spell is cast. If the range of the spell was Touch, it effects only a target touching the device. If the spell had a range in feet, the spell is cast on the closest viable target within range, based on the nature of the spell. Spells with a range of Self or Sight can't be imbued. If the gear is placed with a timer, it activates when the time elapses regardless of whether a legitimate target is available.",
+      "name": "Imbue Spell",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы внушаете заклинание с 1-го по 3-й уровень со временем творения «мгновенное» в шестерню стоимостью 100 зм за уровень внушаемого заклинания. В конце ритуала шестерня помещается в заводной механизм, включающий таймер или спусковой механизм. Когда таймер или спуск срабатывает, заклинание творится. Если дистанцией заклинания было Касание, оно воздействует только на цель, касающуюся устройства. Если у заклинания была дистанция в футах, заклинание творится на ближайшую жизнеспособную цель в пределах дистанции, исходя из природы заклинания. Заклинания с дистанцией На себя или В пределах видимости внушить нельзя. Если шестерня помещена с таймером, она активируется, когда истекает время, независимо от того, доступна ли законная цель.",
+      "glossary_version": "v1",
+      "name": "Внушение заклинания",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

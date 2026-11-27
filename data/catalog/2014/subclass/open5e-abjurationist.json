@@ -1,0 +1,145 @@
+{
+  "attribution": "Title: Open5e Originals; Author: Ean Moody, Various; Publisher: open5e; Source: https://open5e.com/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "open5e",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "open5e_abjurationist",
+  "id": "o5e:open5e:characterclass:open5e-abjurationist",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "ab1e3b94e86a08ee4258304947cc46c7e8c406afcd912651d9b30007df6c9a9c",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd-2024_wizard"
+    },
+    "original_system": "5e-2014",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_wizard",
+        "type": "subclass_of",
+        "value": "srd-2024_wizard"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "*Defend Allies and Disable Enemy Magic. Compare to the core book’s Abjurer.*\n\nCommon folk often distrust wizards as reckless due to their penchant for exploring matters that mortals should best leave alone. Rogues and warriors may cause trouble now and again, but it takes a spellcaster to summon rampaging fiends from another dimension. Practitioners of the school of abjuring and warding can be called many things, but reckless is not one of them. Known as Abjurationists, these wizards pride themselves on preparing for the worst case in any magical situation, and they wouldn’t dare summon an extraplanar horror until they have triple checked their salt circles and set up various contingencies to banish the beast before it can go on a rampage. When a baleful spirit needs exorcizing or a vault needs protection from sorcerous snooping, an Abjurationist will be at the ready to proclaim: \"But this rough magic I here abjure!\"",
+      "document": "open5e",
+      "name": "Abjurationist",
+      "subclass_of": "srd-2024_wizard"
+    },
+    "source_document": {
+      "author": "Ean Moody, Various",
+      "key": "open5e",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://open5e.com/",
+      "publication_date": "2024-02-15T02:15:19",
+      "publisher": "open5e",
+      "title": "Open5e Originals"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "You can use the power of your school’s spells to ward yourself against damage. When you cast an Abjuration spell of at least 1st level, you may siphon a portion of the spell’s magic to create an Arcane Aegis. The aegis lasts until the next time you finish a Long Rest and takes damage that would be directed at you. The aegis has a Hit Point maximum of two times your Wizard level + your Intelligence modifier; if the damage sustained exceeds the current Hit Points of the aegis, then you suffer any further damage once the aegis reaches 0 Hit Points, but the aegis still exists. If you have Vulnerabilities or Resistances to the type of damage being taken, apply these when calculating the damage taken by the aegis.\n\nAny time you use a spell slot to cast another Abjuration spell of at least 1st level, the aegis regains Hit Points equal to the spell’s level times two, up to its Hit Point maximum. You may also use a Bonus Action to expend a spell slot and your aegis regains Hit Points equal to twice the level of the slot, up to its Hit Point maximum.\n\nOnce it has been created, you cannot create a new aegis until after you finish a Long Rest.",
+          "desc_ru": "Вы можете использовать силу заклинаний вашей школы, чтобы оберегать себя от урона. Когда вы творите заклинание ограждения как минимум 1-го уровня, вы можете отвести часть магии заклинания, чтобы создать Мистическую эгиду. Эгида длится до вашего следующего продолжительного отдыха и принимает урон, который был бы направлен на вас. Максимум очков хитов эгиды равен двум вашим уровням волшебника + ваш модификатор Интеллекта; если полученный урон превышает текущие очки хитов эгиды, вы получаете остальной урон, когда эгида достигает 0 очков хитов, но сама эгида по-прежнему существует. Если у вас есть уязвимости или сопротивления к типу получаемого урона, применяйте их при расчёте урона, получаемого эгидой.\n\nКаждый раз, когда вы используете ячейку заклинаний, чтобы сотворить другое заклинание ограждения как минимум 1-го уровня, эгида восстанавливает очки хитов в количестве, равном уровню заклинания, умноженному на два, до её максимума очков хитов. Вы также можете бонусным действием потратить ячейку заклинаний, и ваша эгида восстановит очки хитов в количестве, равном удвоенному уровню ячейки, до её максимума очков хитов.\n\nОднажды созданную эгиду нельзя создать заново, пока вы не закончите продолжительный отдых.",
+          "document": "open5e",
+          "external_id": "open5e_abjurationist_arcane-aegis",
+          "level": 3,
+          "name": "Arcane Aegis",
+          "name_ru": "Мистическая эгида",
+          "parent": "open5e_abjurationist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you choose this subclass at 3rd level, add two Abjuration spells from the Wizard spell list to your spellbook for free. Both spells must be level 2 or lower.\n\nAt every level thereafter in this class when you gain a new level of spell slots, you may add one more Abjuration spell from the Wizard spell list to your spellbook for free. You may not choose a spell of a level for which you do not have spell slots.",
+          "desc_ru": "Когда вы выбираете этот подкласс на 3-м уровне, бесплатно добавьте два заклинания Ограждения из списка заклинаний Волшебника в вашу книгу заклинаний. Оба заклинания должны быть 2-го уровня или ниже.\n\nНа каждом последующем уровне в этом классе, когда вы получаете новый уровень ячеек заклинаний, вы можете бесплатно добавить ещё одно заклинание Ограждения из списка заклинаний Волшебника в вашу книгу заклинаний. Вы не можете выбрать заклинание уровня, для которого у вас нет ячеек заклинаний.",
+          "document": "open5e",
+          "external_id": "open5e_abjurationist_expert-abjurer",
+          "level": 3,
+          "name": "Expert Abjurer",
+          "name_ru": "Опытный оградитель",
+          "parent": "open5e_abjurationist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You may use your Reaction to have your Arcane Aegis take the damage dealt to a creature up to 30 feet from you that you can see. If the damage sustained exceeds the current Hit Points of the aegis, the creature takes any further damage once the aegis reaches 0 hit points.  If the creature has Vulnerabilities or Resistances to the type of damage being taken, apply these when calculating the damage taken by the aegis.",
+          "desc_ru": "Вы можете реакцией сделать так, чтобы ваша Мистическая эгида приняла урон, нанесённый существу в пределах 30 футов от вас, которое вы можете видеть. Если полученный урон превышает текущие очки хитов эгиды, существо получает остальной урон, когда эгида достигает 0 очков хитов. Если у существа есть уязвимости или сопротивления к типу получаемого урона, применяйте их при расчёте урона, получаемого эгидой.",
+          "document": "open5e",
+          "external_id": "open5e_abjurationist_aegis-extension",
+          "level": 6,
+          "name": "Aegis Extension",
+          "name_ru": "Расширение эгиды",
+          "parent": "open5e_abjurationist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You always have the spells *Dispel Magic* and *Counterspell* prepared. When you use a spell slot to cast one of these spells, if you fail to stop an opposing spell, then you do not expend the spell slot.\n\nYou can also cast *Dispel Magic* as a Bonus Action, adding your Proficiency Bonus to the spell’s ability check.",
+          "desc_ru": "У вас всегда подготовлены заклинания рассеивание магии и контрзаклинание. Когда вы используете ячейку заклинаний, чтобы сотворить одно из этих заклинаний, и вам не удаётся остановить враждебное заклинание, вы не тратите ячейку заклинаний.\n\nВы также можете сотворить рассеивание магии бонусным действием, добавляя ваш бонус мастерства к проверке характеристики заклинания.",
+          "document": "open5e",
+          "external_id": "open5e_abjurationist_anti-magician",
+          "level": 10,
+          "name": "Anti-Magician",
+          "name_ru": "Антимаг",
+          "parent": "open5e_abjurationist",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You have Resistance to all damage from spells and you gain Advantage on any saving throw to resist a spell’s effects.",
+          "desc_ru": "У вас сопротивление всему урону от заклинаний, и вы совершаете с преимуществом любой спасбросок, чтобы сопротивляться эффектам заклинания.",
+          "document": "open5e",
+          "external_id": "open5e_abjurationist_resistance-to-magic",
+          "level": 14,
+          "name": "Resistance to Magic",
+          "name_ru": "Сопротивление магии",
+          "parent": "open5e_abjurationist",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Abjurationist",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "open5e",
+  "source": "open5e:v2:open5e",
+  "translations": {
+    "en": {
+      "description": "*Defend Allies and Disable Enemy Magic. Compare to the core book’s Abjurer.*\n\nCommon folk often distrust wizards as reckless due to their penchant for exploring matters that mortals should best leave alone. Rogues and warriors may cause trouble now and again, but it takes a spellcaster to summon rampaging fiends from another dimension. Practitioners of the school of abjuring and warding can be called many things, but reckless is not one of them. Known as Abjurationists, these wizards pride themselves on preparing for the worst case in any magical situation, and they wouldn’t dare summon an extraplanar horror until they have triple checked their salt circles and set up various contingencies to banish the beast before it can go on a rampage. When a baleful spirit needs exorcizing or a vault needs protection from sorcerous snooping, an Abjurationist will be at the ready to proclaim: \"But this rough magic I here abjure!\"",
+      "name": "Abjurationist",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Защищайте союзников и подавляйте вражескую магию. Сравните с Оградителем из основной книги.*\n\nПростой люд часто не доверяет волшебникам и считает их безрассудными из-за склонности исследовать вопросы, которые смертным лучше не трогать. Плуты и воины время от времени могут создавать неприятности, но лишь заклинатель способен призвать буйствующее исчадие из другого измерения. Практиков школы ограждения и защиты можно назвать как угодно, но только не безрассудными. Эти волшебники, известные как Оградители, гордятся тем, что готовятся к худшему исходу любой магической ситуации, и не осмелятся призвать внепланарный ужас, пока трижды не проверят соляные круги и не подготовят различные меры, чтобы изгнать тварь прежде, чем она устроит погром. Когда злобный дух нуждается в изгнании или хранилище — в защите от магического любопытства, Оградитель всегда готов провозгласить: «Но эту грубую магию я здесь отрекаю!»",
+      "glossary_version": "v1",
+      "name": "Оградитель",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

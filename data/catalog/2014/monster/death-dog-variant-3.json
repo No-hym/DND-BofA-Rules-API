@@ -1,0 +1,135 @@
+{
+  "attribution": "Title: 5e Core Rules; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wotc-srd; Source: http://dnd.wizards.com/articles/features/systems-reference-document-srd; License: OGL-1.0a (https://open5e.com/legal); System Reference Document 5.1 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "wotc-srd",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "death-dog",
+  "id": "o5e:wotc-srd:monster:death-dog-variant-3",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:wotc-srd:monster:death-dog"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e93958d030828d662df4ef1a3a9dfea0b53d990812bfa6f4e1eec41a3f7ded57",
+    "formulas": [
+      {
+        "expression": "6d8+12",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral evil",
+      "armor_class": 12,
+      "challenge_rating": "1",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "6d8+12",
+      "hit_points": 39,
+      "languages": "",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "wotc-srd",
+        "content_hash": "e93958d030828d662df4ef1a3a9dfea0b53d990812bfa6f4e1eec41a3f7ded57",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:monster:death-dog",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The dog makes two bite attacks.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the creature must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. This reduction lasts until the disease is cured. The creature dies if the disease reduces its hit point maximum to 0.\", \"attack_bonus\": 4, \"damage_dice\": \"1d6\", \"damage_bonus\": 2}]",
+      "alignment": "neutral evil",
+      "armor_class": 12,
+      "bonus_actions_json": "null",
+      "challenge_rating": "1",
+      "charisma": 6,
+      "constitution": 14,
+      "cr": 1.0,
+      "desc": "A **death dog** is an ugly two-headed hound that roams plains, and deserts. Hate burns in a death dog's heart, and a taste for humanoid flesh drives it to attack travelers and explorers. Death dog saliva carries a foul disease that causes a victim's flesh to slowly rot off the bone.",
+      "dexterity": 14,
+      "document": 32,
+      "environments_json": "[\"Desert\", \"Abyss\", \"Shadowfell\", \"Grassland\", \"Hell\"]",
+      "group": "Miscellaneous Creatures",
+      "hit_dice": "6d8+12",
+      "hit_points": 39,
+      "intelligence": 3,
+      "legendary_actions_json": "null",
+      "name": "Death Dog",
+      "page_no": 370,
+      "perception": 5,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 120 ft., passive Perception 15",
+      "size": "Medium",
+      "skills_json": "{\"perception\": 5, \"stealth\": 4}",
+      "special_abilities_json": "[{\"name\": \"Two-Headed\", \"desc\": \"The dog has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious.\"}]",
+      "speed_json": "{\"walk\": 40}",
+      "spells_json": "null",
+      "strength": 15,
+      "type": "Monstrosity",
+      "wisdom": 13
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "wotc-srd",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+      "publication_date": "",
+      "publisher": "wotc-srd",
+      "title": "5e Core Rules"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Death Dog",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:bfrd:creature:bfrd-death-dog"
+  },
+  "publisher_id": "wotc-srd",
+  "source": "open5e:v1:wotc-srd",
+  "translations": {
+    "en": {
+      "description": "A **death dog** is an ugly two-headed hound that roams plains, and deserts. Hate burns in a death dog's heart, and a taste for humanoid flesh drives it to attack travelers and explorers. Death dog saliva carries a foul disease that causes a victim's flesh to slowly rot off the bone.",
+      "name": "Death Dog",
+      "source_version": "5.1",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Среднее Чудовище, Нейтрально-злой*\n\n- **Класс Доспеха:** 12\n- **Хиты:** 39 (6к8 + 12)\n- **Скорость:** 40 фт.\n\n| СИЛ      | ЛОВ      | ТЕЛ      | ИНТ      | МДР      | ХАР      |\n|:---:|:---:|:---:|:---:|:---:|:---:|\n| 15 (+2)  | 14 (+2)  | 14 (+2)  | 3 (-4)   | 13 (+1)  | 6 (-2)   |\n\n- **Навыки:** Внимательность +5, Скрытность +4\n- **Чувства:** тёмное зрение 120 фт.; Пассивная Внимательность 15\n- **Языки:** —\n- **Показатель опасности:** 1 (200 ОО)",
+      "glossary_version": "v1",
+      "name": "Пёс смерти",
+      "source_version": "5.1",
+      "status": "source"
+    }
+  },
+  "version": "5.1"
+}

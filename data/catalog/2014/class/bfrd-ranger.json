@@ -1,0 +1,358 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "class",
+  "edition": "2014",
+  "external_id": "bfrd_ranger",
+  "id": "o5e:bfrd:characterclass:bfrd-ranger",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:characterclass:bfrd-ranger",
+      "o5e:srd-2014:characterclass:srd-ranger"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c3ab23ff1dd7f847e87d17d7abcaa9343f7a53eaf9ddeedb3fc4316972401913",
+    "formulas": [
+      {
+        "expression": "D10",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "HALF",
+      "hit_dice": "D10",
+      "primary_abilities": [],
+      "saving_throws": [
+        "str",
+        "dex"
+      ],
+      "subclass_of": null
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "c3ab23ff1dd7f847e87d17d7abcaa9343f7a53eaf9ddeedb3fc4316972401913",
+        "edition": "2014",
+        "id": "o5e:bfrd:characterclass:bfrd-ranger",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "srd-2014",
+        "content_hash": "d650d80e2e14bbaabdb0e5e1a1b80ace117c54e81808c76d7e50b3a646a2eda9",
+        "edition": "2014",
+        "id": "o5e:srd-2014:characterclass:srd-ranger",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "HALF",
+      "document": "bfrd",
+      "hit_dice": "D10",
+      "name": "Ranger",
+      "saving_throws": [
+        "str",
+        "dex"
+      ]
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "Your ability to deal with environmental challenges is unmatched. You gain the following benefits:\n- You gain either a climbing speed or swimming speed equal to your base movement speed.\n- You have advantage on checks to track a creature.\n- Your speed isn't halved when you move through nonmagical or magical difficult terrain. You suffer other penalties caused by moving through difficult terrain as normal.",
+          "desc_ru": "Ваша способность справляться с вызовами окружающей среды не имеет равных. Вы получаете следующие преимущества:\n- Вы получаете либо скорость лазания, либо скорость плавания, равную вашей базовой скорости перемещения.\n- Вы совершаете с преимуществом проверки, чтобы выследить существо.\n- Ваша скорость не уменьшается вдвое, когда вы перемещаетесь через немагическую или магическую труднопроходимую местность. Вы страдаете другие штрафы, вызванные перемещением через труднопроходимую местность, как обычно.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_explorer",
+          "level": 1,
+          "name": "Explorer",
+          "name_ru": "Исследователь",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you hit a creature with an attack roll, you can mystically mark it as your favored quarry. The creature remains marked for 1 minute, until you use this feature to mark a different creature, or until you become incapacitated.\n\nWhile a creature is marked (including for the attack that triggered the mark), you deal an extra 1d4 damage to it (of the same damage type as the weapon) each time you successfully hit it with a weapon attack.\n\nYou can use this feature a number of times equal to your PB. You regain all uses when you finish a long rest.\n\nThis extra damage increases as you gain ranger levels, becoming 1d6 at 6th level, 1d8 at 13th, and 1d10 at 17th.",
+          "desc_ru": "Когда вы попадаете по существу броском атаки, вы можете мистически отметить его как вашу избранную добычу. Существо остаётся отмеченным на 1 минуту, пока вы не используете эту особенность, чтобы отметить другое существо, или пока вы не станете недееспособным.\n\nПока существо отмечено (включая атаку, вызвавшую метку), вы наносите ему дополнительные 1к4 урона (того же типа урона, что и оружие) каждый раз, когда успешно попадаете по нему атакой оружием.\n\nВы можете использовать эту особенность количество раз, равное вашему бонусу мастерства. Вы восстанавливаете все использования, когда заканчиваете продолжительный отдых.\n\nЭтот дополнительный урон увеличивается по мере получения вами уровней следопыта, становясь 1к6 на 6-м уровне, 1к8 на 13-м и 1к10 на 17-м.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_mystic-mark",
+          "level": 1,
+          "name": "Mystic Mark",
+          "name_ru": "Мистическая метка",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_proficiency-bonus",
+          "feature_type": "PROFICIENCY_BONUS",
+          "level": 1,
+          "name": "Proficiency Bonus",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_slots-1st",
+          "feature_type": "SPELL_SLOTS",
+          "level": 2,
+          "name": "1st",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your tactical expertise allows you to act quickly on the battlefield. You can take a bonus action on each of your turns in combat to perform a weapon option or one of the martial actions granted by this feature.\n\nChoose one of the following martial actions that you know.\n\n## Aim\n\n*Requires Wielding a Ranged or Thrown Weapon*\n\nAs a bonus action, you take the time to increase the effectiveness of your next ranged weapon attack. Select one target you can see. If you make a ranged weapon attack against that target before the end of your turn, double your PB for the first attack roll.\n\n## Quick Strike\n\n*Requires Wielding Two Light Weapons*\n\nAfter you take the Attack action on your turn and attack with a Light melee weapon that you're holding in one hand, you can use a bonus action to make two attacks with a different Light melee weapon that you're holding in the other hand—instead of the one attack typically granted by two-weapon fighting. Don't add your ability modifier to the damage of these additional attacks unless the modifier is negative.",
+          "desc_ru": "Ваш тактический опыт позволяет вам быстро действовать на поле боя. Вы можете совершать бонусное действие в каждый ваш ход в бою, чтобы выполнить вариант оружия или одно из воинских действий, дарованных этой особенностью.\n\nВыберите одно из следующих воинских действий, которое вы знаете.\n\n## Прицеливание\n\nТребуется владение оружием дальнего боя или метательным оружием\n\nбонусным действием вы уделяете время, чтобы повысить эффективность вашей следующей атаки оружием дальнего боя. Выберите одну цель, которую вы можете видеть. Если вы совершите атаку оружием дальнего боя против этой цели до конца вашего хода, удвойте ваш бонус мастерства для первого броска атаки.\n\n## Быстрый удар\n\nТребуется владение двумя лёгкими оружиями\n\nПосле того как вы выполняете действие Атака в ваш ход и атакуете лёгким оружием ближнего боя, которое вы держите в одной руке, вы можете бонусным действием совершить две атаки другим лёгким оружием ближнего боя, которое вы держите в другой руке, — вместо одной атаки, обычно даруемой боем двумя оружиями. Не добавляйте ваш модификатор характеристики к урону этих дополнительных атак, если модификатор не отрицательный.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_martial-action",
+          "level": 2,
+          "name": "Martial Action",
+          "name_ru": "Воинское действие",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 2nd level, you enhance your martial prowess with the ability to cast Primordial spells.\n\n**Casting Spells.** You know a small number of spells and can cast any of them by using a Primordial spell slot of the spell's circle or higher. You don't need to prepare spells ahead of time.\n\nThe Ranger Progression table shows how many spells you know and how many Primordial spell slots you have at a given level. For example, at 5th level, you have four 1st-circle slots and two 2nd-circle slots. If you know the 1st-circle spell animal friendship and have a 1st-circle and a 2nd-circle spell slot available, you can cast animal friendship using either slot. If you use a 1st-circle slot, you have three 1st-circle slots remaining.\n\nYou regain all used spell slots when you finish a long rest.\n\n**Spells Known of 1st Circle and Higher.** At 2nd level, choose two 1st-circle spells from the Primordial spell list that you know.\n\nThe Spells Known column of the Ranger Progression table shows when you learn additional Primordial spells. Each spell you choose must be from a circle for which you have Primordial spell slots. For instance, when you reach 5th level as a ranger, you can learn one new Primordial spell from the 1st or 2nd circle.\n\nIn addition, when you gain a level of ranger, you can choose one Primordial spell you know and replace it with another spell of your choice from the Primordial spell list. The replacement spell must be of a circle for which you have Primordial spell slots.\n\n**Spellcasting Ability.** Wisdom (WIS) is your spellcasting ability. Your WIS modifier determines the save DC or the attack modifier for certain spells you cast:\n- Spell save DC = 8 + your proficiency bonus (PB) + your WIS modifier\n- Spell attack modifier = your proficiency bonus (PB) + your WIS modifier\n\n**Spellcasting Focus.** You can use a druidic focus as a spellcasting focus for your Primordial spells.",
+          "desc_ru": "К тому моменту, как вы достигнете 2-го уровня, вы научились использовать магическую сущность природы для сотворения заклинаний, подобно друиду. Смотрите общие правила сотворения заклинаний и список заклинаний следопыта.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_spellcasting",
+          "level": 2,
+          "name": "Spellcasting",
+          "name_ru": "Сотворение заклинаний",
+          "parent": "bfrd_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_spells-known",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 2,
+          "name": "Spells Known",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Choose a subclass that reflects your connection to the natural world, either Hunter or Pack Master (detailed at the end of this class). Your choice grants you spells and other features at 3rd, 7th, 11th, and 15th level.\n\n**Calling Spells.** Each ranger subclass has a list of calling spells that you can access as soon as you can cast spells of that circle (as shown in the Ranger Progression table). Once you gain such a spell, it is always on your list of known spells, and it doesn't count against the number of spells you know. However, casting a calling spell still expends a Primordial spell slot as normal.\n\nIf one of these spells isn't on the Primordial spell list, it still counts as a Primordial spell for you. You can't replace calling spells when you gain a level of ranger.",
+          "desc_ru": "Вы получаете подкласс следопыта на свой выбор. Подкласс Охотник описан после описания этого класса. Подкласс — это специализация, которая даёт вам умения на определённых уровнях следопыта. До конца вашей карьеры вы получаете каждое умение своего подкласса, которое соответствует вашему уровню следопыта или ниже.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_ranger-subclass",
+          "level": 3,
+          "name": "Ranger Subclass",
+          "name_ru": "Подкласс следопыта",
+          "parent": "bfrd_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Choose one of the following improvements (ability scores can't be raised above 20 with this feature):\n- Increase a single ability score by 2.\n- Increase two different ability scores by 1 each.\n- Increase one ability score by 1 and select a talent from either the martial or the technical talents list.",
+          "desc_ru": "Выберите одно из следующих улучшений (этой особенностью показатели характеристик нельзя поднять выше 20):\n- Увеличить один показатель характеристики на 2.\n- Увеличить два разных показателя характеристик на 1 каждый.\n- Увеличить один показатель характеристики на 1 и выбрать талант из списка боевых или технических талантов.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_improvement",
+          "level": 4,
+          "name": "Improvement",
+          "name_ru": "Улучшение",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_slots-2nd",
+          "feature_type": "SPELL_SLOTS",
+          "level": 5,
+          "name": "2nd",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your physical prowess has grown. On your turn, you can make two attacks when you take the Attack action.",
+          "desc_ru": "Ваша физическая мощь выросла. В свой ход вы можете совершить две атаки, когда выполняете действие Атака.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_multiattack",
+          "level": 5,
+          "name": "Multiattack",
+          "name_ru": "Мультиатака",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your instincts have sharpened, granting you supernatural awareness of your quarry. While a creature marked by your Mystic Mark feature is within 60 feet of you, you know its exact location, and it can't gain advantage on attacks against you as a result of being invisible or otherwise unseen. In addition, when you attack a marked creature within 60 feet of you, an inability to see it doesn't impose disadvantage on your attack rolls against it.",
+          "desc_ru": "Ваши инстинкты обострились, даруя вам сверхъестественную осведомлённость о вашей добыче. Пока существо, отмеченное вашей особенностью Мистическая метка, находится в пределах 60 футов от вас, вы знаете его точное местоположение, и оно не может получить преимущество на атаки против вас из-за невидимости или иной невидимости. Кроме того, когда вы атакуете отмеченное существо в пределах 60 футов от вас, неспособность его видеть не навязывает помеху на ваши броски атаки против него.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_empowered-mark",
+          "level": 6,
+          "name": "Empowered Mark",
+          "name_ru": "Усиленная метка",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_slots-3rd",
+          "feature_type": "SPELL_SLOTS",
+          "level": 9,
+          "name": "3rd",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "While you are in dim light, darkness, or are lightly obscured or heavily obscured by foliage, mist, or some other natural phenomenon, you can use a bonus action to magically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn. This invisibility ends early if you attack or cast a spell.\n\nYou can use this feature a number of times equal to your PB and regain all uses when you complete a long rest.",
+          "desc_ru": "Пока вы в тусклом свете, тьме или слегка или сильно заслонены листвой, туманом или другим природным явлением, вы можете бонусным действием магически стать невидимым, вместе с любым снаряжением, которое носите или несёте, до начала вашего следующего хода. Эта невидимость заканчивается досрочно, если вы атакуете или творите заклинание.\n\nВы можете использовать эту особенность количество раз, равное вашему бонусу мастерства, и восстанавливаете все использования, когда заканчиваете продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_stalkers-step",
+          "level": 9,
+          "name": "Stalker's Step",
+          "name_ru": "шаг охотника",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your commitment to the ranger's path grants you a powerful new ability. Choose one of the following heroic boons:\n- **Path of the Predator.** When you roll initiative, you can expend a use of Mystic Mark to automatically mark one creature you can see, no attack required. In addition, if a marked creature is reduced to 0 HP, you can use your reaction to transfer the mark to a different creature you can see within 60 feet of the original target.\n- **Path of the Sage.** You learn two cantrips of your choice from the Primordial spell list. You also learn two ritual spells of your choice from the Primordial spell list. Both ritual spells must be from circles you have spell slots for, as shown on the Ranger Progression table. Ritual spells learned this way don't count against your total number of spells known. WIS is your spellcasting ability for cantrips and ritual spells learned in this way. When you gain a level of ranger, you can replace one of these cantrips and one of these rituals with another cantrip or ritual spell from the Primordial spell list, as long as the replacement ritual spell is still of a circle you have spell slots for.",
+          "desc_ru": "Ваша приверженность пути следопыта даёт вам мощную новую способность. Выберите один из следующих героических даров:\n- Путь хищника. Когда вы бросаете инициативу, вы можете потратить использование Мистической метки, чтобы автоматически отметить одно существо, которое вы можете видеть, атака не требуется. Кроме того, если отмеченное существо уменьшено до 0 очков хитов, вы можете реакцией перенести метку на другое существо, которое вы можете видеть в пределах 60 футов от исходной цели.\n- Путь мудреца. Вы изучаете два заговора на ваш выбор из списка Изначальных заклинаний. Вы также изучаете два ритуальных заклинания на ваш выбор из списка Изначальных заклинаний. Оба ритуальных заклинания должны быть кругов, для которых у вас есть ячейки заклинаний, как показано в таблице Прогрессии следопыта. Ритуальные заклинания, изученные этим способом, не учитываются в вашем общем количестве известных заклинаний. Мудрость — ваша заклинательная характеристика для заговоров и ритуальных заклинаний, изученных этим способом. Когда вы получаете уровень следопыта, вы можете заменить один из этих заговоров и один из этих ритуалов другим заговором или ритуальным заклинанием из списка Изначальных заклинаний, пока заменяющее ритуальное заклинание всё ещё круга, для которого у вас есть ячейки заклинаний.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_heroic-boon",
+          "level": 10,
+          "name": "Heroic Boon",
+          "name_ru": "Героический дар",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_slots-4th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 13,
+          "name": "4th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You have keensense to a range of 10 feet. Your keensense ceases to function while you are deafened or otherwise deprived of hearing.",
+          "desc_ru": "У вас острое чутьё на дистанции 10 футов. Острое чутьё перестаёт действовать, пока вы оглушены или иным образом лишены слуха.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_keensense",
+          "level": 14,
+          "name": "Keensense",
+          "name_ru": "Острое чутьё",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_slots-5th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 17,
+          "name": "5th",
+          "name_ru": "Бонус мастерства",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your movement never provokes opportunity attacks, and you have advantage on any check made to resist an effect that would cause you to become grappled, restrained, or paralyzed or that would otherwise reduce your movement speed to 0 feet.",
+          "desc_ru": "Ваше перемещение никогда не провоцирует внеочередные атаки, и вы совершаете с преимуществом любую проверку, чтобы сопротивляться эффекту, который сделал бы вас схваченным, сдержанным или парализованным либо иным образом уменьшил вашу скорость перемещения до 0 футов.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_strider",
+          "level": 18,
+          "name": "Strider",
+          "name_ru": "Странник",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Your commitment to the ranger's path grants you a powerful new ability. You gain the following epic boon:\n- **Foe Slayer.** You can add your WIS modifier to either the attack roll or the damage roll of each attack you make against a creature marked by your Mystic Mark on your turn.",
+          "desc_ru": "Ваша приверженность пути следопыта дарует вам мощную новую способность. Вы получаете следующий эпический дар:\n- **Убийца врагов.** Вы можете добавить ваш модификатор Мудрости либо к броску атаки, либо к броску урона каждой атаки, которую вы совершаете против существа, отмеченного вашей Мистической меткой, в свой ход.",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_epic-boon",
+          "level": 20,
+          "name": "Epic Boon",
+          "name_ru": "Эпический дар",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "|||\n|---|---|\n|Hit Point Die|D10 per Ranger level|\n|Saving Throw Proficiencies|Strength and Dexterity|\n|Skill Proficiencies|Choose 3: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, Survival|\n|Weapon Proficiencies|Simple weapons, martial weapons|\n|Tool Proficiencies|Choose herbalist tools, navigator tools, or trapper tools|\n|Armor Training|Light armor, medium armor, and shields|\n|Starting Equipment|Choose A or B for each: (A) scale mail or (B) leather armor; (A) two shortswords or (B) two simple weapons; (A) a dungeoneer's pack or (B) an explorer's pack; plus a longbow and quiver of 20 arrows|",
+          "desc_ru": "|||\n|---|---|\n|Кость хитов|К10 за уровень следопыта|\n|Владение спасбросками|Сила и Ловкость|\n|Владение навыками|Выберите 3: Уход за животными, Атлетика, Проницательность, Расследование, Природа, Восприятие, Скрытность, Выживание|\n|Владение оружием|Простое оружие, боевое оружие|\n|Владение инструментами|Выберите инструменты травника, инструменты навигатора или инструменты траппера|\n|Тренировка доспехов|Лёгкие доспехи, средние доспехи и щиты|\n|Начальное снаряжение|Выберите А или Б для каждого: (А) чешуйчатый доспех или (Б) кожаный доспех; (А) два коротких меча или (Б) два простых оружия; (А) набор исследователя подземелий или (Б) набор путешественника; плюс длинный лук и колчан с 20 стрелами|",
+          "document": "bfrd",
+          "external_id": "bfrd_ranger_core-traits",
+          "feature_type": "CORE_TRAITS_TABLE",
+          "name": "Core Ranger Traits",
+          "name_ru": "Основные черты следопыта",
+          "parent": "bfrd_ranger",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Ranger",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Ranger",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Таблица: Основные черты следопыта\n\n|                               |                                                                                                      |\n|---|---|\n| Кость Хитов                  | 1к10 за каждый уровень следопыта                                                                     |\n| Хиты на 1-м уровне           | 10 + модификатор Телосложения                                                                        |\n| Хиты на более высоких уровнях | 1к10 (или 6) + модификатор Телосложения за каждый уровень следопыта после 1-го                       |\n| Владение спасбросками         | Сила и Ловкость                                                                                      |\n| Владение навыками             | Выберите 3: Уход за животными, Атлетика, Проницательность, Анализ, Природа, Внимательность, Скрытность или Выживание |\n| Владение оружием              | Простое и воинское оружие                                                                            |\n| Владение инструментами        | Нет                                                                                                  |\n| Ношение доспехов              | Лёгкие доспехи, средние доспехи и щиты                                                               |",
+      "glossary_version": "v1",
+      "name": "Следопыт",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

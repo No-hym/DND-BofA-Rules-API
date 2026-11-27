@@ -1,0 +1,201 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_ring-strike",
+  "id": "o5e:deepm:spell:deepm-ring-strike",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-ring-strike",
+      "o5e:dmag:spell:ring-strike"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7b60fd2b51a28c1f93f939f03fa446ac59d82531cd6baad2272f3af51f21a0fb",
+    "formulas": [
+      {
+        "expression": "1d10",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "1d10",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "duration": "1 hour",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "two metal rings",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "strength",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "7b60fd2b51a28c1f93f939f03fa446ac59d82531cd6baad2272f3af51f21a0fb",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-ring-strike",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "c532f9e8c0e6892e0c6f9d98d182e6a69cf9c06afebf1e5845f00b9538195b53",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:ring-strike",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "1d10",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "desc": "You infuse two metal rings with magic, causing them to revolve in a slow orbit around your head or hand. For the duration, when you hit a target within 60 feet of you with an attack, you can launch one of the rings to strike the target as well. The target takes 1d10 bludgeoning damage and must succeed on a Strength saving throw or be pushed 5 feet directly away from you. The ring is destroyed when it strikes.\n",
+      "document": "deepm",
+      "duration": "1 hour",
+      "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, you can affect up to two additional rings for each spell slot level above 1st.",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "two metal rings",
+      "name": "Ring Strike",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "strength",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3989",
+          "parent": "deepm_ring-strike",
+          "type": "default"
+        },
+        {
+          "external_id": "3991",
+          "parent": "deepm_ring-strike",
+          "type": "slot_level_2"
+        },
+        {
+          "external_id": "3992",
+          "parent": "deepm_ring-strike",
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "3993",
+          "parent": "deepm_ring-strike",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "3994",
+          "parent": "deepm_ring-strike",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "3995",
+          "parent": "deepm_ring-strike",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3996",
+          "parent": "deepm_ring-strike",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3997",
+          "parent": "deepm_ring-strike",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3998",
+          "parent": "deepm_ring-strike",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Ring Strike",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You infuse two metal rings with magic, causing them to revolve in a slow orbit around your head or hand. For the duration, when you hit a target within 60 feet of you with an attack, you can launch one of the rings to strike the target as well. The target takes 1d10 bludgeoning damage and must succeed on a Strength saving throw or be pushed 5 feet directly away from you. The ring is destroyed when it strikes.",
+      "name": "Ring Strike",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы наполняете два металлических кольца магией, заставляя их вращаться в медленной орбите вокруг вашей головы или руки. На длительность, когда вы попадаете по цели в пределах 60 футов от вас атакой, вы можете запустить одно из колец, чтобы также ударить цель. Цель получает 1к10 дробящего урона и должна преуспеть в спасброске Силы или быть оттолкнутой на 5 футов прямо от вас. Кольцо уничтожено, когда оно ударяет.",
+      "glossary_version": "v1",
+      "name": "Удар кольцом",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

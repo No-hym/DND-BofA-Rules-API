@@ -1,0 +1,221 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_bolster-undead",
+  "id": "o5e:deepm:spell:deepm-bolster-undead",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-bolster-undead",
+      "o5e:dmag:spell:bolster-undead"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "80402d9a261c24ce445c71cecbd067062a9d7a019a8e6a4c71080d335514a881",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_sorcerer",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 hour",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a sprinkle of unholy water",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "80402d9a261c24ce445c71cecbd067062a9d7a019a8e6a4c71080d335514a881",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-bolster-undead",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "1375ededf746483bdbf7295721d9ba9cb435adaa27470ef6a74465ed2403bf02",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:bolster-undead",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric",
+          "srd_sorcerer",
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_sorcerer",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "desc": "You suffuse an area with negative energy to increase the difficulty of harming or affecting undead creatures.\n\nChoose up to three undead creatures within range. When a targeted creature makes a saving throw against being turned or against spells or effects that deal radiant damage, the target has advantage on the saving throw.\n",
+      "document": "deepm",
+      "duration": "1 hour",
+      "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional undead creature for each slot level above 1st.",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a sprinkle of unholy water",
+      "name": "Bolster Undead",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2571",
+          "parent": "deepm_bolster-undead",
+          "type": "default"
+        },
+        {
+          "external_id": "2573",
+          "parent": "deepm_bolster-undead",
+          "target_count": 2,
+          "type": "slot_level_2"
+        },
+        {
+          "external_id": "2574",
+          "parent": "deepm_bolster-undead",
+          "target_count": 3,
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "2575",
+          "parent": "deepm_bolster-undead",
+          "target_count": 4,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "2576",
+          "parent": "deepm_bolster-undead",
+          "target_count": 5,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "2577",
+          "parent": "deepm_bolster-undead",
+          "target_count": 6,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "2578",
+          "parent": "deepm_bolster-undead",
+          "target_count": 7,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "2579",
+          "parent": "deepm_bolster-undead",
+          "target_count": 8,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2580",
+          "parent": "deepm_bolster-undead",
+          "target_count": 9,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Bolster Undead",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You suffuse an area with negative energy to increase the difficulty of harming or affecting undead creatures.\n\nChoose up to three undead creatures within range. When a targeted creature makes a saving throw against being turned or against spells or effects that deal radiant damage, the target has advantage on the saving throw.",
+      "name": "Bolster Undead",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы наполняете область негативной энергией, чтобы увеличить трудность причинения вреда или воздействия на неживых существ.\n\nВыберите до трёх неживых существ в пределах дистанции. Когда целевое существо совершает спасбросок против изгнания или против заклинаний или эффектов, которые наносят урон излучением, цель имеет преимущество на спасбросок.",
+      "glossary_version": "v1",
+      "name": "Укрепить нежить",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

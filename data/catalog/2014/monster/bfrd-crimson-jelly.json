@@ -1,0 +1,259 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode)",
+  "book_id": "bfrd",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "bfrd_crimson-jelly",
+  "id": "o5e:bfrd:creature:bfrd-crimson-jelly",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:creature:bfrd-crimson-jelly",
+      "o5e:blackflag:monster:crimson-jelly-bf"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "51779a457dc1d0bad5d42f0dccdf6aae642704068c7f8fd024a9642d9b02c5e5",
+    "formulas": [
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 18,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 2,
+      "ability_score_wisdom": 10,
+      "alignment": "chaotic evil",
+      "armor_class": 12,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [
+        "necrotic"
+      ],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": 60,
+      "hit_dice": null,
+      "hit_points": 20,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": -1,
+      "saving_throw_constitution": 0,
+      "saving_throw_dexterity": 4,
+      "saving_throw_intelligence": -5,
+      "saving_throw_strength": -4,
+      "saving_throw_wisdom": 0,
+      "size": "tiny",
+      "skill_bonus_acrobatics": null,
+      "swim": 30,
+      "walk": 0
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "51779a457dc1d0bad5d42f0dccdf6aae642704068c7f8fd024a9642d9b02c5e5",
+        "edition": "2014",
+        "id": "o5e:bfrd:creature:bfrd-crimson-jelly",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "blackflag",
+        "content_hash": "99397659ff107ece9f711c2ea47d5c091f1a300e682a3c92e03d914f963db3c5",
+        "edition": "2014",
+        "id": "o5e:blackflag:monster:crimson-jelly-bf",
+        "license": "ORC-1.0",
+        "source": "open5e:v1:blackflag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 18,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 2,
+      "ability_score_wisdom": 10,
+      "alignment": "chaotic evil",
+      "armor_class": 12,
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "damage_immunities": [
+        "necrotic"
+      ],
+      "damage_immunities_display": "necrotic,grappled,Ooze Resilience",
+      "damage_resistances_display": "Ooze Resilience",
+      "document": "bfrd",
+      "fly": 60,
+      "hit_points": 20,
+      "hover": true,
+      "languages_desc": "-",
+      "name": "Crimson Jelly",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "saving_throw_charisma": -1,
+      "saving_throw_constitution": 0,
+      "saving_throw_dexterity": 4,
+      "saving_throw_intelligence": -5,
+      "saving_throw_strength": -4,
+      "saving_throw_wisdom": 0,
+      "size": "tiny",
+      "swim": 30,
+      "type": "ooze",
+      "walk": 0,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one creature. _Hit:_ 5 (1d6+2) necrotic damage. The crimson jelly gains temporary HP equal to the necrotic damage dealt, and it attaches to the target. If the jelly had advantage on this attack, it attaches to the target's face, leaving the target unable to breathe or speak while the jelly is attached.<br>While attached, the crimson jelly can use only the Feeding Paddles action, and it moves with the target whenever the target moves, requiring none of the jelly's movement. The Crimson jelly can detach itself by spending 5 feet of its movement. A creature, including the target, can take its action to detach the jelly by succeeding on a DC 12 STR check.",
+          "desc_ru": "Действие «Феединг Паддлес»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_crimson-jelly_feeding-paddles",
+          "name": "Feeding Paddles",
+          "name_ru": "Феединг Паддлес",
+          "order_in_statblock": 0,
+          "parent": "bfrd_crimson-jelly",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "While the crimson jelly has 1 or more temporary HP, it can split part of itself off into a new crimson jelly with HP equal to the original crimson jelly's temporary HP. The original crimson jelly then loses any temporary HP it has. The new crimson jelly otherwise has all the same statistics as its parent, except the new jelly can't gain temporary HP from Feeding Paddles attacks until it finishes a long rest.",
+          "desc_ru": "Действие «Репродуке»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_crimson-jelly_reproduce",
+          "name": "Reproduce",
+          "name_ru": "Репродуке",
+          "order_in_statblock": 0,
+          "parent": "bfrd_crimson-jelly",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The crimson jelly can move through space as narrow as 1 inch wide without squeezing.",
+          "desc_ru": "Особенность «Аморфоус». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_crimson-jelly_amorphous",
+          "name": "Amorphous",
+          "name_ru": "Аморфоус",
+          "parent": "bfrd_crimson-jelly",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The crimson jelly can pinpoint, by scent, the location of creatures that aren't Constructs or Undead and that don't have all of their HP within 60 feet of it and can sense the general direction of such creatures within 1 mile of it.",
+          "desc_ru": "Особенность «Крови Сенсе». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_crimson-jelly_blood-sense",
+          "name": "Blood Sense",
+          "name_ru": "Крови Сенсе",
+          "parent": "bfrd_crimson-jelly",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The crimson jelly doesn't require sleep.",
+          "desc_ru": "Особенность «Слизь Натуре». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_crimson-jelly_ooze-nature",
+          "name": "Ooze Nature",
+          "name_ru": "Слизь Натуре",
+          "parent": "bfrd_crimson-jelly",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The crimson jelly is resistant to the restrained condition, and it is immune to exhaustion and to the blinded, charmed, deafened, frightened, and prone conditions.",
+          "desc_ru": "Особенность «Слизь Ресилиенке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_crimson-jelly_ooze-resilience",
+          "name": "Ooze Resilience",
+          "name_ru": "Слизь Ресилиенке",
+          "parent": "bfrd_crimson-jelly",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "A creature that is reduced to 0 HP by a crimson jelly must succeed on a DC 9 CHA save or suffer one level of exhaustion. While a creature suffers from this exhaustion, it loses most of its memories aside from basic information about itself, such as its name and its capabilities, and it is wracked with nightmarish visions that include a crimson rune.",
+          "desc_ru": "Особенность «Таинтед Аттакс». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_crimson-jelly_tainted-attacks",
+          "name": "Tainted Attacks",
+          "name_ru": "Таинтед Аттакс",
+          "parent": "bfrd_crimson-jelly",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "While in an area of dim or bright light, the crimson jelly is invisible. While in darkness, creatures without darkvision can see the jelly's faint crimson glow.",
+          "desc_ru": "Особенность «Транспарент». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_crimson-jelly_transparent",
+          "name": "Transparent",
+          "name_ru": "Транспарент",
+          "parent": "bfrd_crimson-jelly",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Crimson Jelly",
+      "license": "CC-BY-4.0",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Crimson Jelly",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крошечная слизь, мировоззрение: хаотично-злое. Класс доспеха: 12. Хиты: 20. Скорость: полёт 60 фт., плавание 30 фт.. Характеристики: СИЛ 2, ЛОВ 18, ТЕЛ 10, ИНТ 1, МУД 10, ХАР 8. Иммунитет к урону: некротической энергией. Чувства: пассивное Восприятие 10. Показатель опасности: 0.5. Структурированные механики записи: особенностей: 6, действий: 2.",
+      "glossary_version": "derived-v1",
+      "name": "Кримсон Джеллй",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

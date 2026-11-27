@@ -1,0 +1,173 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_levitate",
+  "id": "o5e:a5e-ag:spell:a5e-ag-levitate-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-levitate",
+      "o5e:a5e:spell:levitate-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "af0e751ebeb5ae1d15fd9ca294a876cd16ca6847da6b9033e1b469bc0cfe867f",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "10 minutes",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "af0e751ebeb5ae1d15fd9ca294a876cd16ca6847da6b9033e1b469bc0cfe867f",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-levitate",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "0bc7adbcd06f8ed4d325b732faf6fa1b5a8299ed370bc152869b81fa7f2fc415",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:levitate-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "Until the spell ends, the target rises vertically in the air up to 20 feet and remains floating there, able to move only by pushing or pulling on fixed objects or surfaces within its reach. This allows the target to move as if it was climbing.\n\nOn subsequent turns, you can use your action to alter the target's altitude by up to 20 feet in either direction so long as it remains within range. If you have targeted yourself you may move up or down as part of your movement.\n\nThe target floats gently to the ground if it is still in the air when the spell ends.",
+      "document": "a5e-ag",
+      "duration": "10 minutes",
+      "higher_level": "When using a 5th-level spell slot the target can levitate or come to the ground at will. When using a 7th-level spell slot its duration increases to 1 hour and it no longer requires concentration.",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "name": "Levitate",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "1547",
+          "parent": "a5e-ag_levitate",
+          "type": "default"
+        },
+        {
+          "duration": "1 hour",
+          "external_id": "1553",
+          "parent": "a5e-ag_levitate",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "1 hour",
+          "external_id": "1554",
+          "parent": "a5e-ag_levitate",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "1 hour",
+          "external_id": "1555",
+          "parent": "a5e-ag_levitate",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Levitate",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:srd-2014:spell:srd-levitate"
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "Until the spell ends, the target rises vertically in the air up to 20 feet and remains floating there, able to move only by pushing or pulling on fixed objects or surfaces within its reach. This allows the target to move as if it was climbing.\n\nOn subsequent turns, you can use your action to alter the target's altitude by up to 20 feet in either direction so long as it remains within range. If you have targeted yourself you may move up or down as part of your movement.\n\nThe target floats gently to the ground if it is still in the air when the spell ends.",
+      "name": "Levitate",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Преобразование 2-го уровня (Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В, С, М (либо маленькая кожаная петля, либо кусок золотой проволоки, согнутый в форме чаши с длинным стержнем на одном конце)\n\n**Длительность:** Концентрация, вплоть до 10 минут\n\nОдно существо или свободный предмет по вашему выбору, который вы видите в пределах дистанции, поднимается вертикально на высоту до 20 футов и остаётся подвешенным на время действия заклинания. Заклинание может поднять цель весом до 500 фунтов. Несогласное существо, преуспевшее в спасброске Телосложения, не подвержено действию.\n\nЦель может перемещаться, только отталкиваясь или подтягиваясь за неподвижный объект или поверхность в пределах досягаемости (например, стену или потолок), что позволяет ей перемещаться, как при лазании. В свой ход вы можете изменить высоту цели на расстояние до 20 футов в любом направлении. Если целью являетесь вы, вы можете перемещаться вверх или вниз как часть своего перемещения. В противном случае вы можете действием переместить цель, которая должна оставаться в пределах дистанции заклинания.\n\nКогда заклинание оканчивается, цель плавно опускается на землю, если всё ещё находится в воздухе.",
+      "glossary_version": "v1",
+      "name": "Левитация",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

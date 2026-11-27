@@ -1,0 +1,154 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_prismatic-wall",
+  "id": "o5e:srd-2024:spell:srd-2024-prismatic-wall",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "fd7a23f2c1a19e9b1bf1c10d3bc770771c4d6b6f1a0e5fe946f8d5ca17812bca",
+    "formulas": [
+      {
+        "expression": "12d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "12d6",
+      "damage_types": [
+        "lightning",
+        "fire",
+        "poison",
+        "acid",
+        "cold"
+      ],
+      "duration": "10 minutes",
+      "level": 9,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_bard",
+        "type": "classes",
+        "value": [
+          "srd-2024_bard",
+          "srd-2024_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "12d6",
+      "damage_types": [
+        "lightning",
+        "fire",
+        "poison",
+        "acid",
+        "cold"
+      ],
+      "desc": "A shimmering, multicolored plane of light forms a vertical opaque wall—up to 90 feet long, 30 feet high, and 1 inch thick—centered on a point within range. Alternatively, you shape the wall into a globe up to 30 feet in diameter centered on a point within range. The wall lasts for the duration. If you position the wall in a space occupied by a creature, the spell ends instantly without effect.\n\nThe wall sheds Bright Light within 100 feet and Dim Light for an additional 100 feet. You and creatures you designate when you cast the spell can pass through and be near the wall without harm. If another creature that can see the wall moves within 20 feet of it or starts its turn there, the creature must succeed on a Constitution saving throw or have the Blinded condition for 1 minute.\n\nThe wall consists of seven layers, each with a different color. When a creature reaches into or passes through the wall, it does so one layer at a time through all the layers. Each layer forces the creature to make a Dexterity saving throw or be affected by that layer's properties as described in the Prismatic Layers table.\n\nThe wall, which has AC 10, can be destroyed one layer at a time, in order from red to violet, by means specific to each layer. If a layer is destroyed, it is gone for the duration. Antimagic Field has no effect on the wall, and Dispel Magic can affect only the violet layer.\n\n| Order | Effects |\n|---|---|\n| 1 | **Red.** *Failed Save:* 12d6 Fire damage. *Successful Save:* Half as much damage. Additional Effects: Nonmagical ranged attacks can't pass through this layer, which is destroyed if it takes at least 25 Cold damage. |\n| 2 | **Orange.** *Failed Save:* 12d6 Acid damage. *Successful Save:* Half as much damage. Additional Effects: Magical ranged attacks can't pass through this layer, which is destroyed by a strong wind (such as the one created by Gust of Wind). |\n| 3 | **Yellow.** *Failed Save:* 12d6 Lightning damage. *Successful Save:* Half as much damage. Additional Effects: The layer is destroyed if it takes at least 60 Force damage. |\n| 4 | **Green.** *Failed Save:* 12d6 Poison damage. *Successful Save:* Half as much damage. Additional Effects: A Passwall spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer. |\n| 5 | **Blue.** *Failed Save:* 12d6 Cold damage. *Successful Save:* Half as much damage. Additional Effects: The layer is destroyed if it takes at least 25 Fire damage. |\n| 6 | **Indigo.** *Failed Save:* The target has the Restrained condition and makes a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the Petrified condition until it is freed by an effect like the Greater Restoration spell. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind. Additional Effects: Spells can't be cast through this layer, which is destroyed by Bright Light shed by the Daylight spell. |\n| 7 | **Violet.** *Failed Save:* The target has the Blinded condition and makes a Wisdom saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (GM's choice). Additional Effects: This layer is destroyed by Dispel Magic. |",
+      "document": "srd-2024",
+      "duration": "10 minutes",
+      "level": 9,
+      "material": false,
+      "material_consumed": false,
+      "name": "Prismatic Wall",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Prismatic Wall",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "A shimmering, multicolored plane of light forms a vertical opaque wall—up to 90 feet long, 30 feet high, and 1 inch thick—centered on a point within range. Alternatively, you shape the wall into a globe up to 30 feet in diameter centered on a point within range. The wall lasts for the duration. If you position the wall in a space occupied by a creature, the spell ends instantly without effect.\n\nThe wall sheds Bright Light within 100 feet and Dim Light for an additional 100 feet. You and creatures you designate when you cast the spell can pass through and be near the wall without harm. If another creature that can see the wall moves within 20 feet of it or starts its turn there, the creature must succeed on a Constitution saving throw or have the Blinded condition for 1 minute.\n\nThe wall consists of seven layers, each with a different color. When a creature reaches into or passes through the wall, it does so one layer at a time through all the layers. Each layer forces the creature to make a Dexterity saving throw or be affected by that layer's properties as described in the Prismatic Layers table.\n\nThe wall, which has AC 10, can be destroyed one layer at a time, in order from red to violet, by means specific to each layer. If a layer is destroyed, it is gone for the duration. Antimagic Field has no effect on the wall, and Dispel Magic can affect only the violet layer.\n\n| Order | Effects |\n|---|---|\n| 1 | **Red.** *Failed Save:* 12d6 Fire damage. *Successful Save:* Half as much damage. Additional Effects: Nonmagical ranged attacks can't pass through this layer, which is destroyed if it takes at least 25 Cold damage. |\n| 2 | **Orange.** *Failed Save:* 12d6 Acid damage. *Successful Save:* Half as much damage. Additional Effects: Magical ranged attacks can't pass through this layer, which is destroyed by a strong wind (such as the one created by Gust of Wind). |\n| 3 | **Yellow.** *Failed Save:* 12d6 Lightning damage. *Successful Save:* Half as much damage. Additional Effects: The layer is destroyed if it takes at least 60 Force damage. |\n| 4 | **Green.** *Failed Save:* 12d6 Poison damage. *Successful Save:* Half as much damage. Additional Effects: A Passwall spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer. |\n| 5 | **Blue.** *Failed Save:* 12d6 Cold damage. *Successful Save:* Half as much damage. Additional Effects: The layer is destroyed if it takes at least 25 Fire damage. |\n| 6 | **Indigo.** *Failed Save:* The target has the Restrained condition and makes a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the Petrified condition until it is freed by an effect like the Greater Restoration spell. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind. Additional Effects: Spells can't be cast through this layer, which is destroyed by Bright Light shed by the Daylight spell. |\n| 7 | **Violet.** *Failed Save:* The target has the Blinded condition and makes a Wisdom saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (GM's choice). Additional Effects: This layer is destroyed by Dispel Magic. |",
+      "name": "Prismatic Wall",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Ограждение 9-го уровня (Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В, С\n\n**Длительность:** 10 минут\n\nЗаклинание больше не ссылается на жезл аннулирования, и текст уточняет, что *рассеивание магии* работает только против фиолетового слоя.\n\nМерцающая, многоцветная плоскость света формирует вертикальную непрозрачную стену — длиной до 90 футов, высотой 30 футов и толщиной 1 дюйм — с центром в точке, которую вы видите в пределах дистанции. В качестве альтернативы вы можете придать стене форму сферы диаметром до 30 футов с центром в выбранной вами точке в пределах дистанции. Стена остаётся на месте на время действия заклинания. Если вы расположите стену так, что она проходит через пространство, занятое существом, заклинание проваливается, и ваше действие и ячейка заклинания тратятся впустую.\n\nСтена излучает яркий свет на расстояние 100 футов и тусклый свет ещё на 100 футов. Вы и существа, которых вы укажете при сотворении заклинания, можете проходить сквозь стену и находиться рядом с ней без вреда. Если другое существо, которое может видеть стену, перемещается в пределы 20 футов от неё или начинает там свой ход, оно должно преуспеть в спасброске Телосложения, иначе оно будет ослеплено на 1 минуту.\n\nСтена состоит из семи слоёв, каждый из которых имеет свой цвет. Когда существо пытается дотянуться до стены или пройти сквозь неё, оно делает это по одному слою за раз через все слои стены. При прохождении через каждый слой существо должно совершить спасбросок Ловкости, иначе оно подвергнется воздействию свойств этого слоя, описанных ниже.\n\nСтену можно уничтожить, также по одному слою за раз, в порядке от красного до фиолетового, средствами, специфичными для каждого слоя. Когда слой уничтожен, он остаётся уничтоженным на время действия заклинания. *Преграда магии* не оказывает на стену никакого эффекта.\n\n- **_Красный._** Существо получает 10к6 урона огнём при провале спасброска или половину этого урона при успехе. Пока этот слой на месте, немагические дальнобойные атаки не могут пройти сквозь стену. Слой можно уничтожить, нанеся ему не менее 25 урона холодом.\n- **_Оранжевый._** Существо получает 10к6 урона кислотой при провале спасброска или половину этого урона при успехе. Пока этот слой на месте, магические дальнобойные атаки не могут пройти сквозь стену. Слой уничтожается сильным ветром.\n- **_Жёлтый._** Существо получает 10к6 урона электричеством при провале спасброска или половину этого урона при успехе. Этот слой можно уничтожить, нанеся ему не менее 60 урона силовым полем.\n- **_Зелёный._** Существо получает 10к6 урона ядом при провале спасброска или половину этого урона при успехе. Заклинание *проход сквозь стену* или другое заклинание такого же или более высокого уровня, способное открыть портал в твёрдой поверхности, уничтожает этот слой.\n- **_Синий._** Существо получает 10к6 урона холодом при провале спасброска или половину этого урона при успехе. Этот слой можно уничтожить, нанеся ему не менее 25 урона огнём.\n- **_Индиго._** При провале спасброска существо становится опутанным. Оно должно совершать спасбросок Телосложения в конце каждого своего хода. Если оно успешно совершит спасбросок три раза, заклинание оканчивается. Если оно провалит спасбросок три раза, оно навсегда превращается в камень и получает состояние окаменевшей. Успехи и провалы не обязаны следовать подряд; отслеживайте и те, и другие, пока существо не наберёт три одного вида. Пока этот слой на месте, заклинания не могут быть сотворены сквозь стену. Слой уничтожается ярким светом от заклинания *дневной свет* или подобного заклинания такого же или более высокого уровня.\n- **_Фиолетовый._** При провале спасброска существо становится ослеплённым. Оно должно совершить спасбросок Мудрости в начале вашего следующего хода. Успешный спасбросок оканчивает ослепление. При провале этого спасброска существо переносится на другой план по выбору Мастера и перестаёт быть ослеплённым. (Обычно существо, находящееся на плане, который не является его домашним планом, изгоняется домой, а прочие существа обычно попадают на Астральный или Эфирный планы.) Этот слой уничтожается заклинанием *рассеивание магии* или подобным заклинанием такого же или более высокого уровня, способным окончить заклинания и магические эффекты.",
+      "glossary_version": "v1",
+      "name": "Радужная стена",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

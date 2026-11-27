@@ -1,0 +1,141 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "subclass",
+  "edition": "2024",
+  "external_id": "srd-2024_college-of-lore",
+  "id": "o5e:srd-2024:characterclass:srd-2024-college-of-lore",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "5c26da0c0a75ffd4f5bb1b3587d471e7d671a71232e6d3e0f5eb2128e85f453d",
+    "formulas": [
+      {
+        "expression": "D8",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "FULL",
+      "subclass_of": "srd-2024_bard"
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_bard",
+        "type": "subclass_of",
+        "value": "srd-2024_bard"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "FULL",
+      "desc": "*Plumb the Depths of Magical Knowledge*\n\nBards of the College of Lore collect spells and secrets from diverse sources, such as scholarly tomes, mystical rites, and peasant tales. The college's members gather in libraries and universities to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.",
+      "document": "srd-2024",
+      "hit_dice": "D8",
+      "name": "College of Lore",
+      "subclass_of": "srd-2024_bard"
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "You gain proficiency with three skills of your choice.",
+          "desc_ru": "Когда вы присоединяетесь к Коллегии знаний на 3-м уровне, вы получаете владение тремя навыками по вашему выбору.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_college-of-lore_bonus-proficiencies",
+          "level": 3,
+          "name": "Bonus Proficiencies",
+          "name_ru": "Дополнительные владения",
+          "parent": "srd-2024_college-of-lore",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You learn to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of yourself makes a damage roll or succeeds on an ability check or attack roll, you can take a Reaction to expend one use of your Bardic Inspiration; roll your Bardic Inspiration die, and subtract the number rolled from the creature's roll, reducing the damage or potentially turning the success into a failure.",
+          "desc_ru": "Также на 3-м уровне вы учитесь использовать своё остроумие, чтобы отвлекать, сбивать с толку и иным образом подрывать уверенность и компетентность других. Когда существо, которое вы можете видеть в пределах 60 футов от вас, совершает бросок атаки, проверку характеристики или бросок урона, вы можете реакцией потратить одно использование Вдохновения барда, бросив кость Вдохновения барда и вычтя выпавшее число из броска существа. Вы можете решить использовать это умение после того, как существо совершит свой бросок, но до того, как МИ определит, успешен ли бросок атаки или проверка характеристики, или до того, как существо нанесёт урон. Существо имеет иммунитет, если не может вас слышать или имеет иммунитет к очарованию.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_college-of-lore_cutting-words",
+          "level": 3,
+          "name": "Cutting Words",
+          "name_ru": "Злые насмешки",
+          "parent": "srd-2024_college-of-lore",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You learn two spells of your choice. These spells can come from the Cleric, Druid, or Wizard spell list or any combination thereof (see a class's section for its spell list). A spell you choose must be a cantrip or a spell for which you have spell slots, as shown in the Bard Features table.\n\nYou always have the chosen spells prepared, and whenever you gain a Bard level, you can replace one of the spells with another spell that meets these requirements.",
+          "desc_ru": "Вы изучаете два заклинания по вашему выбору. Эти заклинания могут быть из списка заклинаний Жреца, Друида или Волшебника или любой их комбинации (см. раздел класса для его списка заклинаний). Выбранное заклинание должно быть заговором или заклинанием, для которого у вас есть ячейки, как показано в таблице Умения Барда.\n\nВы всегда держите выбранные заклинания подготовленными, и при получении уровня Барда вы можете заменить одно из заклинаний другим заклинанием, соответствующим этим требованиям.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_college-of-lore_magical-discoveries",
+          "level": 6,
+          "name": "Magical Discoveries",
+          "name_ru": "Магические открытия",
+          "parent": "srd-2024_college-of-lore",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "When you make an ability check or attack roll and fail, you can expend one use of Bardic Inspiration; roll the Bardic Inspiration die, and add the number rolled to the d20, potentially turning a failure into a success. On a failure, the Bardic Inspiration isn't expended.",
+          "desc_ru": "Начиная с 14-го уровня, когда вы совершаете проверку характеристики, вы можете потратить одно использование Вдохновения барда. Бросьте кость Вдохновения барда и прибавьте выпавшее число к вашей проверке характеристики. Вы можете сделать это после броска кости проверки характеристики, но до того, как МИ сообщит, успешны ли вы.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_college-of-lore_peerless-skill",
+          "level": 14,
+          "name": "Peerless Skill",
+          "name_ru": "Непревзойдённое мастерство",
+          "parent": "srd-2024_college-of-lore",
+          "ru_source": "memory"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "assembled_features": 4,
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "College of Lore",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "*Plumb the Depths of Magical Knowledge*\n\nBards of the College of Lore collect spells and secrets from diverse sources, such as scholarly tomes, mystical rites, and peasant tales. The college's members gather in libraries and universities to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority.",
+      "name": "College of Lore",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Барды Коллегии знаний знают понемногу обо всём, собирая крупицы знаний из самых разных источников — от учёных томов до крестьянских сказок. Будь то народные баллады в тавернах или изысканные композиции при королевских дворах, эти барды используют свои дары, чтобы держать публику зачарованной. Когда аплодисменты стихают, слушатели могут обнаружить, что подвергают сомнению всё, что считали истиной — от веры в жречество местного храма до преданности королю.\n\nПреданность этих бардов лежит в стремлении к красоте и истине, а не в верности монарху или следовании заповедям божества. Дворянин, держащий такого барда в качестве глашатая или советника, знает, что бард скорее будет честен, чем дипломатичен.\n\nЧлены коллегии собираются в библиотеках, а иногда и в настоящих учебных заведениях с аудиториями и общежитиями, чтобы делиться друг с другом своими знаниями. Они также встречаются на фестивалях или государственных мероприятиях, где могут разоблачать коррупцию, распутывать ложь и высмеивать напыщенных властей предержащих.\n\n### Уровень 3: Дополнительные владения\n\nКогда вы присоединяетесь к Коллегии знаний на 3-м уровне, вы получаете владение тремя навыками по вашему выбору.\n\n### Уровень 3: Злые насмешки\n\nТакже на 3-м уровне вы учитесь использовать своё остроумие, чтобы отвлекать, сбивать с толку и иным образом подрывать уверенность и компетентность других. Когда существо, которое вы можете видеть в пределах 60 футов от вас, совершает бросок атаки, проверку характеристики или бросок урона, вы можете реакцией потратить одно использование Вдохновения барда, бросив кость Вдохновения барда и вычтя выпавшее число из броска существа. Вы можете решить использовать это умение после того, как существо совершит свой бросок, но до того, как МИ определит, успешен ли бросок атаки или проверка характеристики, или до того, как существо нанесёт урон. Существо имеет иммунитет, если не может вас слышать или имеет иммунитет к очарованию.\n\n### Уровень 6: Магические открытия\n\nВы изучаете два заклинания по вашему выбору. Эти заклинания могут быть из списка заклинаний Жреца, Друида или Волшебника или любой их комбинации (см. раздел класса для его списка заклинаний). Выбранное заклинание должно быть заговором или заклинанием, для которого у вас есть ячейки, как показано в таблице Умения Барда.\n\nВы всегда держите выбранные заклинания подготовленными, и при получении уровня Барда вы можете заменить одно из заклинаний другим заклинанием, соответствующим этим требованиям.\n\n### Уровень 14: Непревзойдённое мастерство\n\nНачиная с 14-го уровня, когда вы совершаете проверку характеристики, вы можете потратить одно использование Вдохновения барда. Бросьте кость Вдохновения барда и прибавьте выпавшее число к вашей проверке характеристики. Вы можете сделать это после броска кости проверки характеристики, но до того, как МИ сообщит, успешны ли вы.",
+      "glossary_version": "v1",
+      "name": "Коллегия знаний",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

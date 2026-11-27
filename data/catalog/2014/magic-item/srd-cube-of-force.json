@@ -1,0 +1,134 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "magic-item",
+  "edition": "2014",
+  "external_id": "srd_cube-of-force",
+  "id": "o5e:srd-2014:magicitem:srd-cube-of-force",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:magicitem:srd-cube-of-force",
+      "o5e:wotc-srd:magicitem:cube-of-force"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "d23a4a72fcadd548a2120db4450dd6770d4bf6d23c39fd446afbde6f9b304e94",
+    "formulas": [
+      {
+        "expression": "0.00",
+        "type": "cost"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "category": "wondrous-item",
+      "cost": "0.00",
+      "rarity": "rare",
+      "requires_attunement": true,
+      "size": "tiny",
+      "weight": "0.000"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "d23a4a72fcadd548a2120db4450dd6770d4bf6d23c39fd446afbde6f9b304e94",
+        "edition": "2014",
+        "id": "o5e:srd-2014:magicitem:srd-cube-of-force",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "2674dd952b6079d4eb85ab73278c82ecbfcfc17ee209f6ba3684d41cc6532213",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:magicitem:cube-of-force",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [],
+    "requirements": [
+      {
+        "type": "requires_attunement",
+        "value": true
+      }
+    ],
+    "resources": [],
+    "source_data": {
+      "armor_class": 0,
+      "category": "wondrous-item",
+      "cost": "0.00",
+      "damage_immunities": [
+        "poison",
+        "psychic"
+      ],
+      "desc": "This cube is about an inch across. Each face has a distinct marking on it that can be pressed. The cube starts with 36 charges, and it regains 1d20 expended charges daily at dawn.\r\n\r\nYou can use an action to press one of the cube's faces, expending a number of charges based on the chosen face, as shown in the Cube of Force Faces table. Each face has a different effect. If the cube has insufficient charges remaining, nothing happens. Otherwise, a barrier of invisible force springs into existence, forming a cube 15 feet on a side. The barrier is centered on you, moves with you, and lasts for 1 minute, until you use an action to press the cube's sixth face, or the cube runs out of charges. You can change the barrier's effect by pressing a different face of the cube and expending the requisite number of charges, resetting the duration.\r\n\r\nIf your movement causes the barrier to come into contact with a solid object that can't pass through the cube, you can't move any closer to that object as long as the barrier remains.\r\n\r\n**Cube of Force Faces (table)**\r\n\r\n| Face | Charges | Effect                                                                                                            |\r\n|------|---------|-------------------------------------------------------------------------------------------------------------------|\r\n| 1    | 1       | Gases, wind, and fog can't pass through the barrier.                                                              |\r\n| 2    | 2       | Nonliving matter can't pass through the barrier. Walls, floors, and ceilings can pass through at your discretion. |\r\n| 3    | 3       | Living matter can't pass through the barrier.                                                                     |\r\n| 4    | 4       | Spell effects can't pass through the barrier.                                                                     |\r\n| 5    | 5       | Nothing can pass through the barrier. Walls, floors, and ceilings can pass through at your discretion.            |\r\n| 6    | 0       | The barrier deactivates.                                                                                          |\r\n\r\nThe cube loses charges when the barrier is targeted by certain spells or comes into contact with certain spell or magic item effects, as shown in the table below.\r\n\r\n| Spell or Item    | Charges Lost |\r\n|------------------|--------------|\r\n| Disintegrate     | 1d12         |\r\n| Horn of blasting | 1d10         |\r\n| Passwall         | 1d6          |\r\n| Prismatic spray  | 1d20         |\r\n| Wall of fire     | 1d4          |",
+      "document": "srd-2014",
+      "hit_points": 0,
+      "name": "Cube of Force",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "rarity": "rare",
+      "requires_attunement": true,
+      "size": "tiny",
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Cube of Force",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "This cube is about an inch across. Each face has a distinct marking on it that can be pressed. The cube starts with 36 charges, and it regains 1d20 expended charges daily at dawn.\r\n\r\nYou can use an action to press one of the cube's faces, expending a number of charges based on the chosen face, as shown in the Cube of Force Faces table. Each face has a different effect. If the cube has insufficient charges remaining, nothing happens. Otherwise, a barrier of invisible force springs into existence, forming a cube 15 feet on a side. The barrier is centered on you, moves with you, and lasts for 1 minute, until you use an action to press the cube's sixth face, or the cube runs out of charges. You can change the barrier's effect by pressing a different face of the cube and expending the requisite number of charges, resetting the duration.\r\n\r\nIf your movement causes the barrier to come into contact with a solid object that can't pass through the cube, you can't move any closer to that object as long as the barrier remains.\r\n\r\n**Cube of Force Faces (table)**\r\n\r\n| Face | Charges | Effect                                                                                                            |\r\n|------|---------|-------------------------------------------------------------------------------------------------------------------|\r\n| 1    | 1       | Gases, wind, and fog can't pass through the barrier.                                                              |\r\n| 2    | 2       | Nonliving matter can't pass through the barrier. Walls, floors, and ceilings can pass through at your discretion. |\r\n| 3    | 3       | Living matter can't pass through the barrier.                                                                     |\r\n| 4    | 4       | Spell effects can't pass through the barrier.                                                                     |\r\n| 5    | 5       | Nothing can pass through the barrier. Walls, floors, and ceilings can pass through at your discretion.            |\r\n| 6    | 0       | The barrier deactivates.                                                                                          |\r\n\r\nThe cube loses charges when the barrier is targeted by certain spells or comes into contact with certain spell or magic item effects, as shown in the table below.\r\n\r\n| Spell or Item    | Charges Lost |\r\n|------------------|--------------|\r\n| Disintegrate     | 1d12         |\r\n| Horn of blasting | 1d10         |\r\n| Passwall         | 1d6          |\r\n| Prismatic spray  | 1d20         |\r\n| Wall of fire     | 1d4          |",
+      "name": "Cube of Force",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Чудесный предмет, редкий (требуется настройка)*\n\nЭтот куб имеет размер около дюйма. Каждая грань имеет отличительную отметку, на которую можно нажать. Куб начинает с 36 зарядами и восстанавливает 1к20 потраченных зарядов ежедневно на рассвете.\n\nВы можете действием нажать одну из граней куба, расходуя количество зарядов, зависящее от выбранной грани, как показано в таблице граней силового куба. Каждая грань имеет свой эффект. Если у куба недостаточно оставшихся зарядов, ничего не происходит. В противном случае возникает барьер из невидимой силы, образуя куб со стороной 15 футов. Барьер центрирован на вас, перемещается вместе с вами и длится 1 минуту, пока вы не нажмёте действием шестую грань куба или куб не исчерпает заряды. Вы можете изменить эффект барьера, нажав другую грань куба и потратив необходимое количество зарядов, сбросив длительность.\n\nЕсли ваше перемещение приводит барьер к контакту с твёрдым объектом, который не может пройти сквозь куб, вы не можете приблизиться к этому объекту, пока барьер действует.\n\nТаблица: Силовой куб: Эффекты\n\n| Грань | Заряды | Эффект                                                                                                            |\n|---|---|---|\n| 1    | 1       | Газы, ветер и туман не могут проходить сквозь барьер.                                                              |\n| 2    | 2       | Неживая материя не может проходить сквозь барьер. Стены, полы и потолки могут проходить по вашему усмотрению. |\n| 3    | 3       | Живая материя не может проходить сквозь барьер.                                                                     |\n| 4    | 4       | Эффекты заклинаний не могут проходить сквозь барьер.                                                                     |\n| 5    | 5       | Ничто не может проходить сквозь барьер. Стены, полы и потолки могут проходить по вашему усмотрению.            |\n| 6    | 0       | Барьер деактивируется.                                                                                          |\n\nКуб теряет заряды, когда барьер становится целью определённых заклинаний или вступает в контакт с определёнными эффектами заклинаний или магических предметов, как показано в таблице ниже.\n\nТаблица: Силовой куб: Потерянные заряды\n\n| Заклинание или предмет    | Потеря зарядов |\n|---|---|\n| Распыление     | 1к12         |\n| Рог взрыва | 1к10         |\n| Проход         | 1к6          |\n| Радужные брызги  | 1к20         |\n| Стена огня     | 1к4          |",
+      "glossary_version": "v1",
+      "name": "Силовой куб",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,146 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "subclass",
+  "edition": "2024",
+  "external_id": "srd-2024_thief",
+  "id": "o5e:srd-2024:characterclass:srd-2024-thief",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "3cf085aeda1effaf9f4f7dc27fa6ed0f116e2fcf63e4747c8ab97a9644f37bf0",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "NONE",
+      "subclass_of": "srd-2024_rogue"
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_rogue",
+        "type": "subclass_of",
+        "value": "srd-2024_rogue"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "NONE",
+      "desc": "*Hunt for Treasure as a Classic Adventurer*\n\nA mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.",
+      "document": "srd-2024",
+      "name": "Thief",
+      "subclass_of": "srd-2024_rogue"
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "As a Bonus Action, you can do one of the following.\n\n**Sleight of Hand.** Make a Dexterity (Sleight of Hand) check to pick a lock or disarm a trap with Thieves' Tools or to pick a pocket.\n\n**Use an Object.** Take the Utilize action, or take the Magic action to use a magic item that requires that action.",
+          "desc_ru": "Как Бонусное действие, вы можете сделать одно из следующего.\n\n**Ловкость рук.** Совершите проверку Ловкости (Ловкость рук), чтобы вскрыть замок или обезвредить ловушку с помощью воровских инструментов или чтобы залезть в карман.\n\n**Использовать предмет.** Совершите действие Использование или действие «Магия», чтобы использовать магический предмет, требующий этого действия.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_rogue_thief_fast-hands",
+          "level": 3,
+          "name": "Fast Hands",
+          "name_ru": "Ловкие руки",
+          "parent": "srd-2024_thief",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You've trained to get into especially hard-to-reach places, granting you these benefits.\n\n**Climber.** You gain a Climb Speed equal to your Speed.\n\n**Jumper.** You can determine your jump distance using your Dexterity rather than your Strength.",
+          "desc_ru": "Когда вы выбираете этот архетип на 3-м уровне, вы получаете способность лазать быстрее обычного; лазание больше не требует от вас дополнительного перемещения.\n\nКроме того, когда вы совершаете прыжок с разбега, расстояние, которое вы преодолеваете, увеличивается на количество футов, равное вашему модификатору Ловкости.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_rogue_thief_second-story-work",
+          "level": 3,
+          "name": "Second-Story Work",
+          "name_ru": "Работа на высоте",
+          "parent": "srd-2024_thief",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain the following Cunning Strike option. *Stealth Attack (Cost: 1d6).* If you have the Hide action's Invisible condition, this attack doesn't end that condition on you if you end the turn behind Three-Quarters Cover or Total Cover.",
+          "desc_ru": "Вы получаете следующую опцию Хитрого удара. *Скрытная атака (Стоимость: 1d6).* Если у вас есть состояние Невидимый от действия Скрыться, эта атака не прекращает это состояние на вас, если вы заканчиваете ход за укрытием на три четверти или полным укрытием.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_rogue_thief_supreme-sneak",
+          "level": 9,
+          "name": "Supreme Sneak",
+          "name_ru": "Превосходная скрытность",
+          "parent": "srd-2024_thief",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You've learned how to maximize use of magic items, granting you the following benefits.\n\n**Attunement.** You can attune to up to four magic items at once.\n\n**Charges.** Whenever you use a magic item property that expends charges, roll 1d6. On a roll of 6, you use the property without expending the charges.\n\n**Scrolls.** You can use any *Spell Scroll*, using Intelligence as your spellcasting ability for the spell. If the spell is a cantrip or a level 1 spell, you can cast it reliably. If the scroll contains a higher-level spell, you must first succeed on an Intelligence (Arcana) check (DC 10 plus the spell's level). On a successful check, you cast the spell from the scroll. On a failed check, the scroll disintegrates.",
+          "desc_ru": "Вы научились максимально использовать магические предметы, получая следующие преимущества.\n\n**Настройка.** Вы можете настроиться на четыре магических предмета одновременно.\n\n**Заряды.** Каждый раз, когда вы используете свойство магического предмета, расходующее заряды, бросьте 1d6. При результате 6 вы используете свойство без траты зарядов.\n\n**Свитки.** Вы можете использовать любой *Свиток заклинания*, используя Интеллект как базовую характеристику для заклинания. Если заклинание является заговором или заклинанием 1-го уровня, вы можете сотворить его надёжно. Если свиток содержит заклинание более высокого уровня, вы должны сначала преуспеть в проверке Интеллекта (Магия) (СЛ 10 + уровень заклинания). При успехе вы творите заклинание со свитка. При провале свиток рассыпается.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_rogue_thief_use-magic-device",
+          "level": 13,
+          "name": "Use Magic Device",
+          "name_ru": "Использование магических устройств",
+          "parent": "srd-2024_thief",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You are adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal Initiative and your second turn at your Initiative minus 10.",
+          "desc_ru": "Когда вы достигаете 17-го уровня, вы становитесь мастером засад и быстрого ухода от опасности. Вы можете совершить два хода в течение первого раунда любого боя. Вы совершаете первый ход при вашей обычной инициативе, а второй — при вашей инициативе минус 10. Вы не можете использовать это умение, если вы застигнуты врасплох.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_rogue_thief_thiefs-reflexes",
+          "level": 17,
+          "name": "Thief's Reflexes",
+          "name_ru": "Рефлексы вора",
+          "parent": "srd-2024_thief",
+          "ru_source": "memory"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "assembled_features": 5,
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Thief",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy+omnigm"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "*Hunt for Treasure as a Classic Adventurer*\n\nA mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.",
+      "name": "Thief",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "**Оригинал:** Thief\n**Основные:** ЛОВ + ИНТ\n\n| Навык | Оригинал | Базовый | Роль |\n|---|---|---|---|\n| Внимательность | Spot | 25% | Поиск ценностей, ловушек и систем безопасности |\n| Убалтывание | Fast Talk | 05% | Отговорки и увёртки при поимке |\n| Лазание | Climb | 40% | Карабканье по стенам и проникновение через верхние окна |\n| Ловкость рук | Sleight of Hand | 05% | Карманные кражи и прятание мелких предметов |\n| Прятки | Hide | 10% | Укрытие во время взломов |\n| Скрытность | Stealth | 10% | Бесшумное передвижение по зданиям мимо охраны |\n| Слух | Listen | 25% | Слышать приближение охраны или обитателей |\n| Точная работа | Fine Manipulation | 05% | Взлом замков, отключение сигнализации и вскрытие сейфов |\n| Уклонение | Dodge | ЛОВ x2% | Уклонение от охраны и физического столкновения |\n| Оценка | Appraise | 15% | Оценка краденого и потенциальных целей |\n\n### Уровень 3: Ловкие руки\n\nКак Бонусное действие, вы можете сделать одно из следующего.\n\n**Ловкость рук.** Совершите проверку Ловкости (Ловкость рук), чтобы вскрыть замок или обезвредить ловушку с помощью воровских инструментов или чтобы залезть в карман.\n\n**Использовать предмет.** Совершите действие Использование или действие «Магия», чтобы использовать магический предмет, требующий этого действия.\n\n### Уровень 3: Работа на высоте\n\nКогда вы выбираете этот архетип на 3-м уровне, вы получаете способность лазать быстрее обычного; лазание больше не требует от вас дополнительного перемещения.\n\nКроме того, когда вы совершаете прыжок с разбега, расстояние, которое вы преодолеваете, увеличивается на количество футов, равное вашему модификатору Ловкости.\n\n### Уровень 9: Превосходная скрытность\n\nВы получаете следующую опцию Хитрого удара. *Скрытная атака (Стоимость: 1d6).* Если у вас есть состояние Невидимый от действия Скрыться, эта атака не прекращает это состояние на вас, если вы заканчиваете ход за укрытием на три четверти или полным укрытием.\n\n### Уровень 13: Использование магических устройств\n\nВы научились максимально использовать магические предметы, получая следующие преимущества.\n\n**Настройка.** Вы можете настроиться на четыре магических предмета одновременно.\n\n**Заряды.** Каждый раз, когда вы используете свойство магического предмета, расходующее заряды, бросьте 1d6. При результате 6 вы используете свойство без траты зарядов.\n\n**Свитки.** Вы можете использовать любой *Свиток заклинания*, используя Интеллект как базовую характеристику для заклинания. Если заклинание является заговором или заклинанием 1-го уровня, вы можете сотворить его надёжно. Если свиток содержит заклинание более высокого уровня, вы должны сначала преуспеть в проверке Интеллекта (Магия) (СЛ 10 + уровень заклинания). При успехе вы творите заклинание со свитка. При провале свиток рассыпается.\n\n### Уровень 17: Рефлексы вора\n\nКогда вы достигаете 17-го уровня, вы становитесь мастером засад и быстрого ухода от опасности. Вы можете совершить два хода в течение первого раунда любого боя. Вы совершаете первый ход при вашей обычной инициативе, а второй — при вашей инициативе минус 10. Вы не можете использовать это умение, если вы застигнуты врасплох.",
+      "glossary_version": "v1",
+      "name": "Вор",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,174 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_angel-paradox",
+  "id": "o5e:a5e-ag:spell:a5e-ag-angel-paradox",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-angel-paradox",
+      "o5e:a5e:spell:angel-paradox-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "5b7e478abb0aa6c0fceedd559fbdc94013f4c692d4b69eeeb3578199f4641880",
+    "formulas": [
+      {
+        "expression": "40",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "40",
+      "damage_types": [
+        "radiant"
+      ],
+      "duration": "7 days",
+      "level": 7,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "5b7e478abb0aa6c0fceedd559fbdc94013f4c692d4b69eeeb3578199f4641880",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-angel-paradox",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "03bb08e562211c235622b3259139df4da73f79e9cc8fae2a71a01debfc4e6997",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:angel-paradox-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "40",
+      "damage_types": [
+        "radiant"
+      ],
+      "desc": "The target is bombarded with a fraction of energy stolen from some slumbering, deific source, immediately taking 40 radiant damage. This spell ignores resistances but does not ignore immunities. A creature killed by this spell does not decay and cannot become undead for the spell's duration. Days spent under the influence of this spell don't count against the time limit of spells such as _raise dead_. This effect ends early if the corpse takes necrotic damage.",
+      "document": "a5e-ag",
+      "duration": "7 days",
+      "higher_level": "The damage and duration increase to 45 radiant damage and 1 year when using an 8th-level spell slot, or 50 damage and until dispelled when using a 9th-level spell slot.",
+      "level": 7,
+      "material": false,
+      "material_consumed": false,
+      "name": "Angel Paradox",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "evocation",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "500",
+          "parent": "a5e-ag_angel-paradox",
+          "type": "default"
+        },
+        {
+          "damage_roll": "45",
+          "duration": "1 year",
+          "external_id": "502",
+          "parent": "a5e-ag_angel-paradox",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "50",
+          "duration": "Until dispelled",
+          "external_id": "503",
+          "parent": "a5e-ag_angel-paradox",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Angel Paradox",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "The target is bombarded with a fraction of energy stolen from some slumbering, deific source, immediately taking 40 radiant damage. This spell ignores resistances but does not ignore immunities. A creature killed by this spell does not decay and cannot become undead for the spell's duration. Days spent under the influence of this spell don't count against the time limit of spells such as _raise dead_. This effect ends early if the corpse takes necrotic damage.",
+      "name": "Angel Paradox",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Цель бомбардируется фракцией энергии, украденной из какого-то дремлющего, божественного источника, немедленно получая 40 урона излучением. Это заклинание игнорирует сопротивления, но не игнорирует невосприимчивости. Существо, убитое этим заклинанием, не гниёт и не может стать нежитью на длительность заклинания. Дни, проведённые под влиянием этого заклинания, не считаются против лимита времени заклинаний, таких как воскрешение мёртвых. Этот эффект заканчивается рано, если труп получает некротический урон.",
+      "glossary_version": "v1",
+      "name": "Парадокс ангела",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

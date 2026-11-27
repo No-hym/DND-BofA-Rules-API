@@ -1,0 +1,207 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_conjure-elemental",
+  "id": "o5e:srd-2014:spell:srd-conjure-elemental",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-conjure-elemental",
+      "o5e:wotc-srd:spell:conjure-elemental"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "d1a34bfb838c2bdc185d59a3a25e8f729e2b079617f10a4bb0678c2809549596",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [
+        "srd_druid",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 hour",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "Burning incense for air, soft clay for earth, sulfur and phosphorus for fire, or water and sand for water.",
+      "range": 90.0,
+      "range_text": "90 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "conjuration",
+      "shape_size": 10.0,
+      "shape_size_unit": null,
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "d1a34bfb838c2bdc185d59a3a25e8f729e2b079617f10a4bb0678c2809549596",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-conjure-elemental",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "87cdc80cbf1b5dcd1d8f11f48c39ce5547f98bb430493699a8ecc2385a541978",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:conjure-elemental",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_druid",
+        "type": "classes",
+        "value": [
+          "srd_druid",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [
+        "srd_druid",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "desc": "You call forth an elemental servant. Choose an area of air, earth, fire, or water that fills a 10-foot cube within range. An elemental of challenge rating 5 or lower appropriate to the area you chose appears in an unoccupied space within 10 feet of it. For example, a fire elemental emerges from a bonfire, and an earth elemental rises up from the ground. The elemental disappears when it drops to 0 hit points or when the spell ends. The elemental is friendly to you and your companions for the duration. Roll initiative for the elemental, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don't issue any commands to the elemental, it defends itself from hostile creatures but otherwise takes no actions. If your concentration is broken, the elemental doesn't disappear. Instead, you lose control of the elemental, it becomes hostile toward you and your companions, and it might attack. An uncontrolled elemental can't be dismissed by you, and it disappears 1 hour after you summoned it. The DM has the elemental's statistics.",
+      "document": "srd-2014",
+      "duration": "1 hour",
+      "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th.",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "Burning incense for air, soft clay for earth, sulfur and phosphorus for fire, or water and sand for water.",
+      "name": "Conjure Elemental",
+      "range": 90.0,
+      "range_text": "90 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "conjuration",
+      "shape_size": 10.0,
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5285",
+          "parent": "srd_conjure-elemental",
+          "type": "default"
+        },
+        {
+          "desc": "The challenge rating increases by 1.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10937",
+          "parent": "srd_conjure-elemental",
+          "ru_source": "derived",
+          "type": "slot_level_6"
+        },
+        {
+          "desc": "The challenge rating increases by 2.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10938",
+          "parent": "srd_conjure-elemental",
+          "ru_source": "derived",
+          "type": "slot_level_7"
+        },
+        {
+          "desc": "The challenge rating increases by 3.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10939",
+          "parent": "srd_conjure-elemental",
+          "ru_source": "derived",
+          "type": "slot_level_8"
+        },
+        {
+          "desc": "The challenge rating increases by 4.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10940",
+          "parent": "srd_conjure-elemental",
+          "ru_source": "derived",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Conjure Elemental",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You call forth an elemental servant. Choose an area of air, earth, fire, or water that fills a 10-foot cube within range. An elemental of challenge rating 5 or lower appropriate to the area you chose appears in an unoccupied space within 10 feet of it. For example, a fire elemental emerges from a bonfire, and an earth elemental rises up from the ground. The elemental disappears when it drops to 0 hit points or when the spell ends. The elemental is friendly to you and your companions for the duration. Roll initiative for the elemental, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don't issue any commands to the elemental, it defends itself from hostile creatures but otherwise takes no actions. If your concentration is broken, the elemental doesn't disappear. Instead, you lose control of the elemental, it becomes hostile toward you and your companions, and it might attack. An uncontrolled elemental can't be dismissed by you, and it disappears 1 hour after you summoned it. The DM has the elemental's statistics.",
+      "name": "Conjure Elemental",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Вызов 5-го уровня (Друид, Волшебник)*\n\n**Время накладывания:** 1 минута\n\n**Дистанция:** 90 футов\n\n**Компоненты:** В, С, М (горящее благовоние для воздуха, мягкая глина для земли, сера и фосфор для огня или вода и песок для воды)\n\n**Длительность:** Концентрация, вплоть до 1 час\n\nВы призываете слугу-элементаля. Выберите область воздуха, земли, огня или воды, заполняющую 10-футовый куб в пределах дистанции. Элементаль с показателем опасности 5 или ниже, соответствующий выбранной области, появляется в свободном пространстве в пределах 10 футов от неё. Например, огненный элементаль выходит из костра, а земляной элементаль поднимается из земли. Элементаль исчезает, когда его хиты опускаются до 0 или когда заклинание оканчивается.\n\nЭлементаль дружественен к вам и вашим спутникам на время действия заклинания. Бросьте инициативу за элементаля, который действует в свои ходы. Он подчиняется любым вашим словесным командам (не требует действия). Если вы не отдаёте элементалю никаких команд, он защищается от враждебных существ, но в остальном не предпринимает никаких действий.\n\nЕсли ваша концентрация нарушена, элементаль не исчезает. Вместо этого вы теряете контроль над элементалем, он становится враждебным к вам и вашим спутникам и может атаковать. Неконтролируемый элементаль не может быть отпущен вами и исчезает через 1 час после призыва.\n\nМастер располагает параметрами элементаля.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 6-го уровня или выше, показатель опасности увеличивается на 1 за каждый уровень ячейки выше 5-го.",
+      "glossary_version": "v1",
+      "name": "Сотворение элементаля",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

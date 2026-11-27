@@ -1,0 +1,141 @@
+{
+  "attribution": "Title: Tome of Beasts 2023; Author: Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur; Publisher: tob-2023; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. 2023 Open Design LLC. All rights reserved.",
+  "book_id": "tob-2023",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "kishi-tob1-2023",
+  "id": "o5e:tob-2023:monster:kishi-tob1-2023-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:monster:kishi-tob1-2023"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "659b083edaf97008ee8f9cbe94af1c0222010f9fad9451df78cd58a6090e6aea",
+    "formulas": [
+      {
+        "expression": "14d8 + 56",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "Chaotic Evil",
+      "armor_class": 18,
+      "challenge_rating": "8",
+      "condition_immunities": "poisoned",
+      "damage_immunities": "poison",
+      "damage_resistances": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "False",
+      "hit_dice": "14d8 + 56",
+      "hit_points": 119,
+      "languages": "Abyssal, Celestial, Common, Draconic, telepathy 120 ft.",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob-2023",
+        "content_hash": "659b083edaf97008ee8f9cbe94af1c0222010f9fad9451df78cd58a6090e6aea",
+        "edition": "2014",
+        "id": "o5e:tob-2023:monster:kishi-tob1-2023",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The kishi makes one Bite attack and two Spear attacks.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 11 (2d6 + 4) piercing damage plus 9 (2d8) cold damage.\"}, {\"name\": \"Spear\", \"desc\": \"Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage if used with two hands to make a melee attack, plus 9 (2d8) cold damage.\"}, {\"name\": \"Spellcasting\", \"desc\": \"The kishi casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 17):\\nAt will: detect evil and good, detect magic, suggestion\\n3/day: glibness\\n1/day: dominate person\"}]",
+      "alignment": "Chaotic Evil",
+      "armor_class": 18,
+      "armor_desc": "natural armor, shield",
+      "bonus_actions_json": "[{\"name\": \"Trophy Shield\", \"desc\": \"The kishi absorbs some of the essence of a creature it killed since the end of its previous turn and magically creates a grisly trophy of the creature on its shield or spear. For 1 hour, its Armor Class becomes 20, and creatures of the same type as the slain creature have disadvantage on attack rolls against the kishi.\"}, {\"name\": \"Summon Demon (1/Day)\", \"desc\": \"The kishi demon magically calls 1d4 giant hyenas that are Fiends with the kishi's damage resistances and immunities. It has a 50 percent chance of calling one kishi demon instead. The called creatures arrive in 1d4 rounds, acting as allies of the kishi and obeying its telepathic commands. The creatures remain for 1 hour, until the kishi dies, or until the kishi dismisses them as a bonus action.\"}]",
+      "challenge_rating": "8",
+      "charisma": 22,
+      "condition_immunities": "poisoned",
+      "constitution": 19,
+      "constitution_save": 7,
+      "cr": 8.0,
+      "damage_immunities": "poison",
+      "damage_resistances": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "False",
+      "desc": "False",
+      "dexterity": 20,
+      "dexterity_save": 8,
+      "document": 47,
+      "group": "null",
+      "hit_dice": "14d8 + 56",
+      "hit_points": 119,
+      "intelligence": 15,
+      "languages": "Abyssal, Celestial, Common, Draconic, telepathy 120 ft.",
+      "name": "Kishi",
+      "page_no": 84,
+      "perception": 13,
+      "route": "monsters/",
+      "senses": "darkvision 120 ft., passive Perception 13",
+      "size": "Medium",
+      "skills_json": "{\"Deception\": 9, \"Perception\": 3, \"Performance\": 9}",
+      "special_abilities_json": "[{\"name\": \"Fiendish Weapons\", \"desc\": \"The kishi's weapon attacks are magical. When the kishi hits with any weapon, the weapon deals an extra 2d8 cold damage (included in the attack).\"}, {\"name\": \"Two Heads\", \"desc\": \"The kishi has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The kishi has advantage on saving throws against spells and other magical effects.\"}]",
+      "speed_json": "{\"walk\": 50}",
+      "spells_json": "null",
+      "strength": 19,
+      "type": "Fiend",
+      "wisdom": 11,
+      "wisdom_save": 3
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur",
+      "key": "tob-2023",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+      "publication_date": "",
+      "publisher": "tob-2023",
+      "title": "Tome of Beasts 2023"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Kishi",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:tob-2023:creature:tob-2023-kishi"
+  },
+  "publisher_id": "tob-2023",
+  "source": "open5e:v1:tob-2023",
+  "translations": {
+    "en": {
+      "description": "False",
+      "name": "Kishi",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Среднее исчадие, мировоззрение: хаотично-злое. Класс доспеха: 18. Хиты: 119 (14к8 + 56). Сопротивление урону: холодом, огнём, электричеством, дробящего, колющего, and slashing от немагических атак. Иммунитет к урону: ядом. Иммунитет к состояниям: отравление. Показатель опасности: 8.",
+      "glossary_version": "derived-v1",
+      "name": "Киши",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,200 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_life-from-death",
+  "id": "o5e:deepm:spell:deepm-life-from-death",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-life-from-death",
+      "o5e:dmag:spell:life-from-death"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "bdafa2f42e5b00eb238d2628a394ba4275f7b17ff2deb167556e1c1f7b3545a3",
+    "formulas": [
+      {
+        "expression": "2d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "radiant"
+      ],
+      "duration": "1 minute",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "bdafa2f42e5b00eb238d2628a394ba4275f7b17ff2deb167556e1c1f7b3545a3",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-life-from-death",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "0b959c919c59cae14ca770e65e0edc1822895e22d4908295770c823b5079b4df",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:life-from-death",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "radiant"
+      ],
+      "desc": "Your touch can siphon energy from undead to heal your wounds. Make a melee spell attack against an undead creature within your reach. On a hit, the target takes 2d6 radiant damage, and you or an ally within 30 feet of you regains hit points equal to half the amount of radiant damage dealt. If used on an ally, this effect can restore the ally to no more than half of the ally's hit point maximum. This effect can't heal an undead or a construct. Until the spell ends, you can make the attack again on each of your turns as an action.",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "name": "Life from Death",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3707",
+          "parent": "deepm_life-from-death",
+          "type": "default"
+        },
+        {
+          "damage_roll": "3d6",
+          "external_id": "3709",
+          "parent": "deepm_life-from-death",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "4d6",
+          "external_id": "3710",
+          "parent": "deepm_life-from-death",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "5d6",
+          "external_id": "3711",
+          "parent": "deepm_life-from-death",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "6d6",
+          "external_id": "3712",
+          "parent": "deepm_life-from-death",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "7d6",
+          "external_id": "3713",
+          "parent": "deepm_life-from-death",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "8d6",
+          "external_id": "3714",
+          "parent": "deepm_life-from-death",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Life from Death",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "Your touch can siphon energy from undead to heal your wounds. Make a melee spell attack against an undead creature within your reach. On a hit, the target takes 2d6 radiant damage, and you or an ally within 30 feet of you regains hit points equal to half the amount of radiant damage dealt. If used on an ally, this effect can restore the ally to no more than half of the ally's hit point maximum. This effect can't heal an undead or a construct. Until the spell ends, you can make the attack again on each of your turns as an action.",
+      "name": "Life from Death",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Ваше касание может выкачивать энергию из нежити, чтобы лечить ваши раны. Совершите атаку заклинанием ближнего боя против неживого существа в пределах вашей досягаемости. При попадании цель получает 2к6 урона излучением, и вы или союзник в пределах 30 футов от вас восстанавливаете хиты, равные половине количества нанесённого урона излучением. Если используется на союзника, этот эффект может восстановить союзника не более чем до половины максимума хитов союзника. Этот эффект не может лечить нежить или конструкта. До конца заклинания вы можете совершать атаку снова в каждый из ваших ходов как действие.",
+      "glossary_version": "v1",
+      "name": "Жизнь из смерти",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,198 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_bless",
+  "id": "o5e:srd-2024:spell:srd-2024-bless",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "1051c674247d97cd064e91b2530b22cd045abe17196b17abdb7e9ed13dede18b",
+    "formulas": [
+      {
+        "expression": "1d4",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_cleric",
+        "srd-2024_paladin"
+      ],
+      "concentration": true,
+      "damage_roll": "1d4",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 1,
+      "material": true,
+      "material_consumed": true,
+      "material_cost": null,
+      "material_specified": "a Holy Symbol worth 5+ GP",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_cleric",
+        "type": "classes",
+        "value": [
+          "srd-2024_cleric",
+          "srd-2024_paladin"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_cleric",
+        "srd-2024_paladin"
+      ],
+      "concentration": true,
+      "damage_roll": "1d4",
+      "desc": "You bless up to three creatures within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the attack roll or save.",
+      "document": "srd-2024",
+      "duration": "1 minute",
+      "higher_level": "You can target one additional creature for each spell slot level above 1.",
+      "level": 1,
+      "material": true,
+      "material_consumed": true,
+      "material_specified": "a Holy Symbol worth 5+ GP",
+      "name": "Bless",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "enchantment",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "10045",
+          "parent": "srd-2024_bless",
+          "target_count": 2,
+          "type": "slot_level_2"
+        },
+        {
+          "external_id": "10046",
+          "parent": "srd-2024_bless",
+          "target_count": 3,
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "10047",
+          "parent": "srd-2024_bless",
+          "target_count": 4,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "10048",
+          "parent": "srd-2024_bless",
+          "target_count": 5,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "10049",
+          "parent": "srd-2024_bless",
+          "target_count": 6,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "10050",
+          "parent": "srd-2024_bless",
+          "target_count": 7,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "10051",
+          "parent": "srd-2024_bless",
+          "target_count": 8,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "10052",
+          "parent": "srd-2024_bless",
+          "target_count": 9,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Bless",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "You bless up to three creatures within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the attack roll or save.",
+      "name": "Bless",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Очарование 1-го уровня (Жрец, Паладин)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 30 футов\n\n**Компоненты:** В, С, М (капля святой воды)\n\n**Длительность:** Концентрация, вплоть до 1 минуту\n\nВы благословляете до трёх существ по вашему выбору в пределах дистанции. Каждый раз, когда цель совершает бросок атаки или спасбросок до окончания заклинания, она может бросить к4 и добавить результат к броску атаки или спасброску.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 2-го уровня или выше, вы можете нацелиться на одно дополнительное существо за каждый уровень ячейки выше 1-го.",
+      "glossary_version": "v1",
+      "name": "Благословение",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

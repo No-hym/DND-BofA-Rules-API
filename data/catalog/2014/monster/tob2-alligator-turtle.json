@@ -1,0 +1,188 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_alligator-turtle",
+  "id": "o5e:tob2:creature:tob2-alligator-turtle",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-alligator-turtle"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e15f52e265d0d28bb488e3baac24fbef77964b8f16a2599123900220535fb86f",
+    "formulas": [
+      {
+        "expression": "2d8+2",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 13,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 15,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "2d8+2",
+      "hit_points": 11,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": 3,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": 4,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": 30,
+      "walk": 20
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "e15f52e265d0d28bb488e3baac24fbef77964b8f16a2599123900220535fb86f",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-alligator-turtle",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 13,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 15,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "document": "tob2",
+      "hit_dice": "2d8+2",
+      "hit_points": 11,
+      "hover": false,
+      "name": "Alligator Turtle",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "saving_throw_constitution": 3,
+      "saving_throw_strength": 4,
+      "size": "medium",
+      "skill_bonus_stealth": 3,
+      "swim": 30,
+      "type": "beast",
+      "walk": 20,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 5 (1d6 + 2) slashing damage and the target is grappled (escape DC 12). Until this grapple ends, the turtle can't bite another target.",
+          "desc_ru": "Действие «Укус»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_alligator-turtle_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 0,
+          "parent": "tob2_alligator-turtle",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The turtle can hold its breath for 1 hour.",
+          "desc_ru": "Может задерживать дыхание на 1 час.",
+          "external_id": "tob2_alligator-turtle_hold-breath",
+          "name": "Hold Breath",
+          "name_ru": "Холд Бреат",
+          "parent": "tob2_alligator-turtle",
+          "ru_source": "template"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Alligator Turtle",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Alligator Turtle",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Аллигаторовые черепахи — сварливые рептилии, известные своим воинственным нравом, находясь на суше. Их шеи обманчиво длинные и гибкие, позволяя им наносить удары на поразительно большое расстояние своими клювовидными челюстями.",
+      "glossary_version": "v1",
+      "name": "Аллигаторовая черепаха",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

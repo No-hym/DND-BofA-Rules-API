@@ -1,0 +1,204 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_dispel-magic",
+  "id": "o5e:srd-2024:spell:srd-2024-dispel-magic",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "01bae74dd001e5eca2ad10271d85ba2503464a937ecdda0651066cf1d308dcff",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_cleric",
+        "srd-2024_druid",
+        "srd-2024_paladin",
+        "srd-2024_ranger",
+        "srd-2024_sorcerer",
+        "srd-2024_warlock",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_bard",
+        "type": "classes",
+        "value": [
+          "srd-2024_bard",
+          "srd-2024_cleric",
+          "srd-2024_druid",
+          "srd-2024_paladin",
+          "srd-2024_ranger",
+          "srd-2024_sorcerer",
+          "srd-2024_warlock",
+          "srd-2024_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_cleric",
+        "srd-2024_druid",
+        "srd-2024_paladin",
+        "srd-2024_ranger",
+        "srd-2024_sorcerer",
+        "srd-2024_warlock",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "desc": "Choose one creature, object, or magical effect within range. Any ongoing spell of level 3 or lower on the target ends. For each ongoing spell of level 4 or higher on the target, make an ability check using your spellcasting ability (DC 10 plus that spell's level). On a successful check, the spell ends.",
+      "document": "srd-2024",
+      "duration": "instantaneous",
+      "higher_level": "You automatically end a spell on the target if the spell's level is equal to or less than the level of the spell slot you use.",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "name": "Dispel Magic",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "desc": "automatically dispels spells of 4th level or lower",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10177",
+          "parent": "srd-2024_dispel-magic",
+          "ru_source": "derived",
+          "type": "slot_level_4"
+        },
+        {
+          "desc": "automatically dispels spells of 5th level or lower",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10178",
+          "parent": "srd-2024_dispel-magic",
+          "ru_source": "derived",
+          "type": "slot_level_5"
+        },
+        {
+          "desc": "automatically dispels spells of 6th level or lower",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10179",
+          "parent": "srd-2024_dispel-magic",
+          "ru_source": "derived",
+          "type": "slot_level_6"
+        },
+        {
+          "desc": "automatically dispels spells of 7th level or lower",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10180",
+          "parent": "srd-2024_dispel-magic",
+          "ru_source": "derived",
+          "type": "slot_level_7"
+        },
+        {
+          "desc": "automatically dispels spells of 8th level or lower",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10181",
+          "parent": "srd-2024_dispel-magic",
+          "ru_source": "derived",
+          "type": "slot_level_8"
+        },
+        {
+          "desc": "automatically dispels spells of 9th level or lower",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10182",
+          "parent": "srd-2024_dispel-magic",
+          "ru_source": "derived",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Dispel Magic",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "Choose one creature, object, or magical effect within range. Any ongoing spell of level 3 or lower on the target ends. For each ongoing spell of level 4 or higher on the target, make an ability check using your spellcasting ability (DC 10 plus that spell's level). On a successful check, the spell ends.",
+      "name": "Dispel Magic",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Ограждение 3-го уровня (Бард, Жрец, Друид, Паладин, Чародей, Колдун, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 120 футов\n\n**Компоненты:** В, С\n\n**Длительность:** Мгновенная\n\nВыберите одно существо, предмет или магический эффект в пределах дистанции. Любое заклинание 3-го уровня или ниже на цели оканчивается. Для каждого заклинания 4-го уровня или выше на цели совершите проверку характеристики, используя свою характеристику заклинателя. СЛ равна 10 + уровень заклинания. При успехе заклинание оканчивается.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 4-го уровня или выше, вы автоматически оканчиваете эффекты заклинания на цели, если уровень заклинания равен или меньше уровня использованной вами ячейки.",
+      "glossary_version": "v1",
+      "name": "Рассеивание магии",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,156 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "bfrd_shifter",
+  "id": "o5e:bfrd:characterclass:bfrd-shifter",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "bb06eadc91174543d1b94b328be4e6254fd6c7baf6bde00ca63d78c33db11422",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "bfrd_druid"
+    },
+    "original_system": "5e-2014",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "bfrd_druid",
+        "type": "subclass_of",
+        "value": "bfrd_druid"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Druids that align with the ring of the Shifter feel a deep connection to the animals that walk the world. Shifters delve into the mysteries of transformation, spending much of their time in the forms of the beasts they so admire. To you, there is no greater joy than feeling wind beneath your wings, stalking prey on padded paws, or swimming through crystalline depths.",
+      "document": "bfrd",
+      "name": "Shifter",
+      "subclass_of": "bfrd_druid"
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "You can select more powerful creatures for the known forms used with the Beast Form effect of your Wild Shape feature. When you gain this feature, you can choose any Beast or creature with the Animal tag with a CR of 1 or lower as a known form, and you use the hit points of the creature when you use Beast Form, not the Hit Points by Form Size table.\n\nIn addition, you can now speak any language you know while in beast form—even if your chosen form would not typically allow you to do so. However, you still can't cast spells while transformed, even if a spell requires only a verbal component.\n\nAt higher druid levels, you can choose beast forms with a CR as high as your druid level divided by 3, rounded down (ignoring CR limitations in your Improved Beast Form feature). For example, upon achieving 6th level of druid, you can choose any Beast of CR 2 or lower as a known form, CR 3 or lower at 9th level, and so on—as shown in the Potent Forms table.\n\n|Druid Level|Max CR|Example|\n|---|---|---|\n|3rd|1|Wolf|\n|5th|1|Hippogriff|\n|6th|2|Pegasus|\n|9th|3|Owlbear|\n|12th|4|Elephant|\n|15th|5|Triceratops|\n|18th|6|Mammoth|",
+          "desc_ru": "Вы можете выбирать более мощных существ для известных форм, используемых с эффектом Форма зверя вашей особенности Дикий облик. Когда вы получаете эту особенность, вы можете выбрать любого Зверя или существо с тегом Животное с ПО 1 или ниже как известную форму, и вы используете очки хитов существа, когда вы используете Форму зверя, а не таблицу Очки хитов по размеру формы.\n\nКроме того, вы теперь можете говорить на любом языке, который вы знаете, находясь в форме зверя, — даже если ваша выбранная форма обычно не позволила бы вам сделать это. Однако вы всё ещё не можете творить заклинания, будучи трансформированным, даже если заклинание требует только вербальный компонент.\n\nНа более высоких уровнях друида вы можете выбирать формы зверей с ПО вплоть до вашего уровня друида, делённого на 3, округлённого вниз (игнорируя ограничения ПО в вашей особенности Улучшенная форма зверя). Например, по достижении 6-го уровня друида вы можете выбрать любого Зверя ПО 2 или ниже как известную форму, ПО 3 или ниже на 9-м уровне, и так далее — как показано в таблице Мощных форм.\n\n|Уровень друида|Макс. ПО|Пример|\n|---|---|---|\n|3-й|1|Волк|\n|5-й|1|Гиппогриф|\n|6-й|2|Пегас|\n|9-й|3|Совомед|\n|12-й|4|Слон|\n|15-й|5|Трицератопс|\n|18-й|6|Мамонт|",
+          "document": "bfrd",
+          "external_id": "bfrd_druid-shifter_potent-forms",
+          "level": 3,
+          "name": "Potent Forms",
+          "name_ru": "Мощные формы",
+          "parent": "bfrd_shifter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "By delving into the mysteries of the shifters, you have learned to change form more rapidly. When you use the Beast Form effect of your Wild Shape feature, you can transform as a bonus action instead of as an action.",
+          "desc_ru": "Погрузившись в тайны перевертышей, вы научились менять форму быстрее. Когда вы используете эффект Форма зверя вашей особенности Дикий облик, вы можете превращаться бонусным действием вместо действия.",
+          "document": "bfrd",
+          "external_id": "bfrd_druid-shifter_quick-shift",
+          "level": 3,
+          "name": "Quick Shift",
+          "name_ru": "Быстрый сдвиг",
+          "parent": "bfrd_shifter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You gain ring spells at the druid levels listed in the Shifter Ring Spells table. See the Druid Subclass class feature for how these spells work.\n\n|Druid Level|Spells|\n|---|---|\n|3rd|alter self, animal friendship, speak with animals|\n|5th|conjure animals, water breathing|\n|7th|giant insect, polymorph|\n|9th|dominate, insect plague|",
+          "desc_ru": "Вы получаете заклинания кольца на уровнях друида, перечисленных в соответствующей таблице. См. классовую особенность «Подкласс друида» о том, как эти заклинания работают.\n\n| Уровень друида | Заклинания |\n|---|---|\n| 3-й | Изменение себя, Дружба с животными, Разговор с животными |\n| 5-й | Призыв животных, Подводное дыхание |\n| 7-й | Гигантское насекомое, Полиморф |\n| 9-й | Подчинение, Нашествие насекомых |",
+          "document": "bfrd",
+          "external_id": "bfrd_druid-shifter_shifter-ring-spells",
+          "level": 3,
+          "name": "Shifter Ring Spells",
+          "name_ru": "Заклинания кольца перевертыша",
+          "parent": "bfrd_shifter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Immediately after you take the Attack action on your turn while in beast form, you can use your bonus action to make a single unarmed strike with your claws, hooves, fangs, or whatever natural weapon suits your chosen form. This attack deals 1d6 + your PB damage, and you are considered proficient with it. You decide if this attack deals bludgeoning, piercing, or slashing damage when you first assume your beast form.\n\nIn addition, all damage you deal with melee weapon attacks while in beast form now counts as magical damage for the purposes of overcoming resistance or immunity to nonmagical damage.",
+          "desc_ru": "Сразу после того как вы выполняете действие Атака в ваш ход, находясь в форме зверя, вы можете бонусным действием совершить одиночный безоружный удар вашими когтями, копытами, клыками или любым естественным оружием, подходящим вашей выбранной форме. Эта атака наносит 1к6 + ваш бонус мастерства урона, и вы считаетесь владеющим ей. Вы решаете, наносит ли эта атака дробящий, колющий или рубящий урон, когда вы впервые принимаете вашу форму зверя.\n\nКроме того, весь урон, который вы наносите атаками оружием ближнего боя, находясь в форме зверя, теперь считается магическим уроном для целей преодоления сопротивления или иммунитета к немагическому урону.",
+          "document": "bfrd",
+          "external_id": "bfrd_druid-shifter_beasts-fury",
+          "level": 7,
+          "name": "Beast's Fury",
+          "name_ru": "Ярость зверя",
+          "parent": "bfrd_shifter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "By expending two uses of the Beast Form effect of your Wild Shape feature, you can infuse your chosen form with one of the four elemental powers described here. Alternatively, you can use your reaction to spend one use of Wild Shape while already transformed by the Beast Form effect, either infusing yourself with one of the following powers or changing which power is active.\n\n**Air.** You gain a 90-foot flying (hover) speed and are resistant to lightning and thunder damage. You gain the following action:\n- Whirl (Recharge 4–6). Each Large or smaller creature within 5 feet of you must make a STR save (DC 10 + your PB). On a failure, a target takes 3d8 + your PB bludgeoning damage and is flung up to 20 feet away from you in a random direction and knocked prone. If a thrown target strikes a solid surface, it takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target lands in the same space as another creature, that creature must succeed on a DC 13 DEX save or take the same damage and be knocked prone. The target is then prone in an adjacent unoccupied space. If the target's STR save is successful, a target takes half damage and isn't flung or knocked prone.\n\n**Earth.** You gain a 30-foot burrowing speed and can burrow through nonmagical, unworked earth and stone without disturbing the material you move through. You gain tremorsense to a range of 60 feet and are resistant to bludgeoning, piercing, and slashing damage. Melee attacks you make deal double damage to objects and structures.\n\n**Fire.** You shed bright light in a 30-foot-radius and dim light for an additional 30 feet. You are immune to fire damage. Melee attacks you make deal an additional 1d8 fire damage. When you deal fire damage to a flammable creature or object, you can choose whether it ignites—an ignited target takes 5 (1d10) fire damage at the start of each of its turns until a creature uses an action to douse it. Your GM determines what constitutes a flammable creature or object.\n\n**Water.** You gain a 90-foot swimming speed and can breathe underwater. You are resistant to cold and poison damage. You gain the following action:\n- Wave (Recharge 4–6). Each creature within 5 feet of you must make a STR save (DC 10 + your PB). On a failure, a target takes 2d8 + your PB bludgeoning damage. If a target is Large or smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe in water. On a successful STR save, a creature takes half damage and isn't grappled. At the start of each of your turns, each target grappled by you takes 2d8 + your PB bludgeoning damage. A creature within 5 feet of a grappled target can pull it out of the grapple if it expends an action to attempt a DC 14 STR (Athletics) check—freeing the target on a success.",
+          "desc_ru": "Потратив два использования эффекта Форма зверя вашей особенности Дикий облик, вы можете наполнить вашу выбранную форму одной из четырёх стихийных сил, описанных здесь. В качестве альтернативы вы можете реакцией потратить одно использование Дикого облика, уже будучи трансформированным эффектом Форма зверя, либо наполняя себя одной из следующих сил, либо изменяя, какая сила активна.\n\nВоздух. Вы получаете скорость полёта 90 футов (парение) и сопротивляетесь урону молнией и громом. Вы получаете следующее действие:\n- Вихрь (Перезарядка 4–6). Каждое Большое или меньшее существо в пределах 5 футов от вас должно совершить спасбросок Силы (Сл 10 + ваш БМ). При провале цель получает 3к8 + ваш БМ дробящего урона и отбрасывается до 20 футов от вас в случайном направлении и сбивается с ног. Если отброшенная цель ударяется о твёрдую поверхность, она получает 3 (1к6) дробящего урона за каждые 10 футов, которые она была отброшена. Если цель приземляется в том же пространстве, что и другое существо, это существо должно успешно пройти спасбросок Ловкости со Сл 13 или получить тот же урон и быть сбито с ног. Затем цель ничком в соседнем незанятом пространстве. Если спасбросок Силы цели успешен, цель получает половину урона и не отбрасывается и не сбивается с ног.\n\nЗемля. Вы получаете скорость рытья 30 футов и можете рыть через немагическую необработанную землю и камень, не беспокоя материал, через который вы движетесь. Вы получаете чувство вибрации на дистанции 60 футов и сопротивляетесь дробящему, колющему и рубящему урону. Атаки ближнего боя, которые вы совершаете, наносят удвоенный урон предметам и сооружениям.\n\nОгонь. Вы излучаете яркий свет радиусом 30 футов и тусклый свет ещё на 30 футов. Вы иммунны к урону огнём. Атаки ближнего боя, которые вы совершаете, наносят дополнительные 1к8 урона огнём. Когда вы наносите урон огнём воспламеняемому существу или предмету, вы можете выбрать, воспламеняется ли оно, — воспламенённая цель получает 5 (1к10) урона огнём в начале каждого её хода, пока существо не использует действие, чтобы погасить её. Ваш Мастер определяет, что составляет воспламеняемое существо или предмет.\n\nВода. Вы получаете скорость плавания 90 футов и можете дышать под водой. Вы сопротивляетесь урону холодом и ядом. Вы получаете следующее действие:\n- Волна (Перезарядка 4–6). Каждое существо в пределах 5 футов от вас должно совершить спасбросок Силы (Сл 10 + ваш БМ). При провале цель получает 2к8 + ваш БМ дробящего урона. Если цель Большая или меньше, она также схвачена (Сл побега 14). Пока этот захват не закончится, цель сдерживается и неспособна дышать, если она не может дышать в воде. При успешном спасброске Силы существо получает половину урона и не схвачено. В начале каждого вашего хода каждая цель, схваченная вами, получает 2к8 + ваш БМ дробящего урона. Существо в пределах 5 футов от схваченной цели может вытащить её из захвата, если оно потратит действие, чтобы попытаться проверку Силы (Атлетика) со Сл 14, — освобождая цель при успехе.",
+          "document": "bfrd",
+          "external_id": "bfrd_druid-shifter_elemental-infusion",
+          "level": 11,
+          "name": "Elemental Infusion",
+          "name_ru": "Стихийное наполнение",
+          "parent": "bfrd_shifter",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You can now cast Primordial spells while in beast form, and your form doesn't hinder performing the somatic and verbal components of spells. You must still provide any required material components as normal.",
+          "desc_ru": "Теперь вы можете творить изначальные заклинания, находясь в форме зверя, и ваша форма не мешает выполнению соматических и вербальных компонентов заклинаний. Вы по-прежнему должны предоставлять любые требуемые материальные компоненты как обычно.",
+          "document": "bfrd",
+          "external_id": "bfrd_druid-shifter_manifold-mind",
+          "level": 15,
+          "name": "Manifold Mind",
+          "name_ru": "Многообразный разум",
+          "parent": "bfrd_shifter",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Shifter",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "Druids that align with the ring of the Shifter feel a deep connection to the animals that walk the world. Shifters delve into the mysteries of transformation, spending much of their time in the forms of the beasts they so admire. To you, there is no greater joy than feeling wind beneath your wings, stalking prey on padded paws, or swimming through crystalline depths.",
+      "name": "Shifter",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Друиды, которые выравниваются с кругом Оборотня, чувствуют глубокую связь с животными, которые ходят по миру. Оборотни погружаются в тайны трансформации, проводя большую часть своего времени в формах зверей, которыми они так восхищаются. Для вас нет большей радости, чем чувствовать ветер под крыльями, преследовать добычу на мягких лапах или плавать в кристальных глубинах.",
+      "glossary_version": "v1",
+      "name": "Оборотень",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

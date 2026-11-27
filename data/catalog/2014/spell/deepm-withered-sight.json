@@ -1,0 +1,204 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_withered-sight",
+  "id": "o5e:deepm:spell:deepm-withered-sight",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-withered-sight",
+      "o5e:dmag:spell:withered-sight"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "84264285ea790d65e40ffba8c1c90ee370711fe26aca29f8b1fc7a7e5d7b5000",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a dried lizard's eye",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "84264285ea790d65e40ffba8c1c90ee370711fe26aca29f8b1fc7a7e5d7b5000",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-withered-sight",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "94b78da3637cf075c55fcf55985ff4c1eea23527ab2f0830085d4cf0e0a0790e",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:withered-sight",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "You cause the eyes of a creature you can see within range to lose acuity. The target must make a Constitution saving throw. On a failed save, the creature has disadvantage on Wisdom (Perception) checks and all attack rolls for the duration of the spell. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. This spell has no effect on a creature that is blind or that doesn’t use its eyes to see.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a dried lizard's eye",
+      "name": "Withered Sight",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4518",
+          "parent": "deepm_withered-sight",
+          "type": "default"
+        },
+        {
+          "external_id": "4520",
+          "parent": "deepm_withered-sight",
+          "target_count": 2,
+          "type": "slot_level_2"
+        },
+        {
+          "external_id": "4521",
+          "parent": "deepm_withered-sight",
+          "target_count": 3,
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "4522",
+          "parent": "deepm_withered-sight",
+          "target_count": 4,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "4523",
+          "parent": "deepm_withered-sight",
+          "target_count": 5,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "4524",
+          "parent": "deepm_withered-sight",
+          "target_count": 6,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "4525",
+          "parent": "deepm_withered-sight",
+          "target_count": 7,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "4526",
+          "parent": "deepm_withered-sight",
+          "target_count": 8,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "4527",
+          "parent": "deepm_withered-sight",
+          "target_count": 9,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Withered Sight",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You cause the eyes of a creature you can see within range to lose acuity. The target must make a Constitution saving throw. On a failed save, the creature has disadvantage on Wisdom (Perception) checks and all attack rolls for the duration of the spell. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. This spell has no effect on a creature that is blind or that doesn’t use its eyes to see.",
+      "name": "Withered Sight",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы заставляете глаза существа, которое вы можете видеть в пределах дистанции, потерять остроту. Цель должна совершить спасбросок Телосложения. При проваленном спасброске существо имеет помеху на проверки Мудрости (Восприятие) и все броски атаки на длительность заклинания. Поражённое существо может повторять спасбросок в конце каждого своего хода, прекращая эффект на себе при успехе. Это заклинание не оказывает эффекта на существо, которое слепо или которое не использует свои глаза, чтобы видеть.",
+      "glossary_version": "v1",
+      "name": "Иссохшее зрение",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

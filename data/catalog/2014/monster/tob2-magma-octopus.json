@@ -1,0 +1,226 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_magma-octopus",
+  "id": "o5e:tob2:creature:tob2-magma-octopus",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-magma-octopus"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "af229a8eca17e140911824cfba04d26d3619a025695f9384fed33ca9f18858ac",
+    "formulas": [
+      {
+        "expression": "14d10+70",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 21,
+      "ability_score_dexterity": 17,
+      "ability_score_intelligence": 5,
+      "ability_score_strength": 21,
+      "ability_score_wisdom": 8,
+      "alignment": "neutral",
+      "armor_class": 16,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "8.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [
+        "fire"
+      ],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "14d10+70",
+      "hit_points": 147,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 9,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 40
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "af229a8eca17e140911824cfba04d26d3619a025695f9384fed33ca9f18858ac",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-magma-octopus",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 21,
+      "ability_score_dexterity": 17,
+      "ability_score_intelligence": 5,
+      "ability_score_strength": 21,
+      "ability_score_wisdom": 8,
+      "alignment": "neutral",
+      "armor_class": 16,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "8.000",
+      "damage_immunities": [
+        "fire"
+      ],
+      "damage_immunities_display": "fire",
+      "darkvision_range": 60,
+      "document": "tob2",
+      "hit_dice": "14d10+70",
+      "hit_points": 147,
+      "hover": false,
+      "name": "Magma Octopus",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 9,
+      "size": "large",
+      "skill_bonus_athletics": 8,
+      "skill_bonus_stealth": 6,
+      "type": "elemental",
+      "walk": 40,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "The magma octopus sprays magma in a 30-foot cone. Each creature in that area must make a DC 16 Dexterity saving throw, taking 28 (8d6) fire damage on a failed save, or half as much damage on a successful one. If a creature fails the saving throw by 5 or more, it catches fire. Until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns.",
+          "desc_ru": "Действие «Магма Бласт»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_magma-octopus_magma-blast",
+          "name": "Magma Blast",
+          "name_ru": "Магма Бласт",
+          "order_in_statblock": 2,
+          "parent": "tob2_magma-octopus",
+          "ru_source": "derived",
+          "uses_param": 6,
+          "uses_type": "RECHARGE_ON_ROLL"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The magma octopus makes four attacks with its tentacles.",
+          "desc_ru": "Мультиатака. Существо совершает 4 атаки: четыре — атака «Тентаклес».",
+          "external_id": "tob2_magma-octopus_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_magma-octopus",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit: 8 (1d6 + 5) bludgeoning damage plus 2 (1d4) fire damage. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and it takes 2 (1d4) fire damage at the start of each of its turns. The magma octopus can grapple up to two targets at a time.",
+          "desc_ru": "Действие «Щупальце»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_magma-octopus_tentacle",
+          "name": "Tentacle",
+          "name_ru": "Щупальце",
+          "order_in_statblock": 1,
+          "parent": "tob2_magma-octopus",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The magma octopus can exist outside of lava for up to 1 hour each day. If it remains outside of lava for 1 minute or longer, its skin begins to dry and harden like rapidly-cooled magma. While its skin is hardened, it has a walking speed of 20 feet, an Armor Class of 18, and vulnerability to cold damage. If it remains outside of lava for 1 hour or longer, it becomes petrified, transforming into basalt. Its body returns to normal if it is submerged in lava for 1 round.",
+          "desc_ru": "Особенность «Лава Боунд». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_magma-octopus_lava-bound",
+          "name": "Lava Bound",
+          "name_ru": "Лава Боунд",
+          "parent": "tob2_magma-octopus",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "While in lava, the magma octopus has a swimming speed of 60 feet and can move through the lava as if it were water.",
+          "desc_ru": "Особенность «Лава Свиммер». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_magma-octopus_lava-swimmer",
+          "name": "Lava Swimmer",
+          "name_ru": "Лава Свиммер",
+          "parent": "tob2_magma-octopus",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Magma Octopus",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Magma Octopus",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Восемь щупалец тянутся из обгоревшего тела этого необычного осьминога. Светящиеся жёлтые, оранжевые и красные пятна тлеют на её коже, словно угли вспыхивают жизнью.\n\n**Стихийные тела.** Магмовые осьминоги — существа, физически напоминающие морских животных, по которым они названы, но они делают свои дома в лаве, плавая по ней так же легко, как водные осьминоги плавают по воде. Родившиеся в огненных морях Плана Огня давным-давно, многие магмовые осьминоги забрели на Материальный План через различные порталы и истощённые барьеры между планами. Они существуют по всему миру, особенно в подземных пещерах с открытыми потоками лавы, внутри кратеров некоторых вулканов и плавая через подземные сети магмы.\n\n**Разумные.** Магмовые осьминоги живут простой жизнью с тихим разумом, который слегка превосходит разум водных осьминогов. У них нет языка, и они не могут общаться устно. Известно, что они узнают индивидов из других видов и помнят индивидов, которые могли причинить им боль или помогли им выбраться из плохой ситуации. Магмовые осьминоги сражаются с другими, только если они атакованы первыми, но они могут стать чрезвычайно территориальными, если нарушители наступят слишком близко к дому. У них слабость к магии, основанной на огне, и иногда могут быть набраны служить стражами для волшебников, ифритов и других могущественных огненных существ.\n\n**Стихийная природа.** Магмовому осьминогу не требуются воздух, пища, питьё или сон.",
+      "glossary_version": "v1",
+      "name": "Магмовый осьминог",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

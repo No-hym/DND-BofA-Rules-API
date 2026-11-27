@@ -1,0 +1,159 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "srd_champion",
+  "id": "o5e:srd-2014:characterclass:srd-champion",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:characterclass:srd-champion"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "341cebcd1a5d22fe78752fff57f7f6d0f6f4335a39a68247bfd4bd79726e030d",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_fighter"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "341cebcd1a5d22fe78752fff57f7f6d0f6f4335a39a68247bfd4bd79726e030d",
+        "edition": "2014",
+        "id": "o5e:srd-2014:characterclass:srd-champion",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_fighter",
+        "type": "subclass_of",
+        "value": "srd_fighter"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "document": "srd-2014",
+      "name": "Champion",
+      "subclass_of": "srd_fighter"
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.",
+          "desc_ru": "Начиная с выбора этого архетипа на 3-м уровне, ваши атаки оружием наносят критическое попадание при выпадении 19 или 20.",
+          "document": "srd-2014",
+          "external_id": "srd_champion_improved-critical",
+          "level": 3,
+          "name": "Improved Critical",
+          "name_ru": "Улучшенный критический удар",
+          "parent": "srd_champion",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus.\r\n\r\nIn addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.",
+          "desc_ru": "Начиная с 7-го уровня, вы можете добавить половину бонуса мастерства (округлённую вверх) к любой проверке Силы, Ловкости или Телосложения, которая ещё не использует ваш бонус мастерства.\n\nКроме того, когда вы совершаете прыжок в длину с разбега, расстояние, которое вы можете преодолеть, увеличивается на количество футов, равное вашему модификатору Силы.",
+          "document": "srd-2014",
+          "external_id": "srd_champion_remarkable-athlete",
+          "level": 7,
+          "name": "Remarkable Athlete",
+          "name_ru": "Замечательный атлет",
+          "parent": "srd_champion",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "At 10th level, you can choose a second option from the Fighting Style class feature.",
+          "desc_ru": "На 10-м уровне вы можете выбрать второй вариант из умения класса «Боевой стиль».",
+          "document": "srd-2014",
+          "external_id": "srd_champion_additional-fighting-style",
+          "level": 10,
+          "name": "Additional Fighting Style",
+          "name_ru": "Дополнительный боевой стиль",
+          "parent": "srd_champion",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Starting at 15th level, your weapon attacks score a critical hit on a roll of 18-20.",
+          "desc_ru": "Ваши броски атаки оружием и безоружными ударами теперь могут нанести критическое попадание при результате 18–20 на d20.",
+          "document": "srd-2014",
+          "external_id": "srd_champion_superior-critical",
+          "level": 15,
+          "name": "Superior Critical",
+          "name_ru": "Превосходный критический удар",
+          "parent": "srd_champion",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.",
+          "desc_ru": "Вы достигли вершины стойкости в бою, получая следующие преимущества.\n\n**Противостояние смерти.** Вы получаете преимущество на спасброски от смерти. Более того, когда вы выбрасываете 18–20 на спасброске от смерти, вы получаете преимущество, как если бы выбросили 20.\n\n**Героическое восстановление.** В начале каждого вашего хода вы восстанавливаете количество хитов, равное 5 + ваш модификатор Телосложения, если вы окровавлены и имеете как минимум 1 хит.",
+          "document": "srd-2014",
+          "external_id": "srd_champion_survivor",
+          "level": 18,
+          "name": "Survivor",
+          "name_ru": "Выживший",
+          "parent": "srd_champion",
+          "ru_source": "memory"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "assembled_features": 5,
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "Champion",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Champion",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Разные воины выбирают разные подходы к совершенствованию своего боевого мастерства. Выбранный вами воинский архетип отражает ваш подход.\n\nАрхетипичный Чемпион сосредоточен на развитии чистой физической мощи, отточенной до смертоносного совершенства. Те, кто следует этому архетипу, сочетают строгие тренировки с физическим совершенством, чтобы наносить разрушительные удары.\n\n### Уровень 3: Улучшенный критический удар\n\nНачиная с выбора этого архетипа на 3-м уровне, ваши атаки оружием наносят критическое попадание при выпадении 19 или 20.\n\n### Уровень 7: Замечательный атлет\n\nНачиная с 7-го уровня, вы можете добавить половину бонуса мастерства (округлённую вверх) к любой проверке Силы, Ловкости или Телосложения, которая ещё не использует ваш бонус мастерства.\n\nКроме того, когда вы совершаете прыжок в длину с разбега, расстояние, которое вы можете преодолеть, увеличивается на количество футов, равное вашему модификатору Силы.\n\n### Уровень 10: Дополнительный боевой стиль\n\nНа 10-м уровне вы можете выбрать второй вариант из умения класса «Боевой стиль».\n\n### Уровень 15: Превосходный критический удар\n\nВаши броски атаки оружием и безоружными ударами теперь могут нанести критическое попадание при результате 18–20 на d20.\n\n### Уровень 18: Выживший\n\nВы достигли вершины стойкости в бою, получая следующие преимущества.\n\n**Противостояние смерти.** Вы получаете преимущество на спасброски от смерти. Более того, когда вы выбрасываете 18–20 на спасброске от смерти, вы получаете преимущество, как если бы выбросили 20.\n\n**Героическое восстановление.** В начале каждого вашего хода вы восстанавливаете количество хитов, равное 5 + ваш модификатор Телосложения, если вы окровавлены и имеете как минимум 1 хит.",
+      "glossary_version": "v1",
+      "name": "Чемпион",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,179 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_bloom",
+  "id": "o5e:deepm:spell:deepm-bloom",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-bloom",
+      "o5e:dmag:spell:bloom"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "d45a83f45cbf79adf5997609539a5510815a57cff8753d4702e3c3c2972d4ef8",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "ritual",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1hour",
+      "classes": [
+        "srd_cleric",
+        "srd_druid",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 year",
+      "level": 8,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a silver acorn worth 500 gp, which is consumed in the casting",
+      "range": 1,
+      "range_text": "1 mile",
+      "range_unit": "miles",
+      "ritual": true,
+      "saving_throw_ability": "",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "d45a83f45cbf79adf5997609539a5510815a57cff8753d4702e3c3c2972d4ef8",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-bloom",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "86769c71f8ae115e2c60630d3a0eabfb737d5f66ed9300942d73ac282fd10717",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:bloom",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric",
+          "srd_druid",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1hour",
+      "classes": [
+        "srd_cleric",
+        "srd_druid",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "desc": "You plant a silver acorn in solid ground and spend an hour chanting a litany of praises to the natural world, after which the land within 1 mile of the acorn becomes extremely fertile, regardless of its previous state. Any seeds planted in the area grow at twice the natural rate. Food harvested regrows within a week. After one year, the land slowly reverts to its normal fertility, unable to stave off the march of nature.\n\nChoose one of the following effects, which appears and grows immediately:\n* A field planted with vegetables of your choice, ready for harvest.\n* A thick forest of stout trees and ample undergrowth.\n* A grassland with wildflowers and fodder for grazing.\n* An orchard of fruit trees of your choice, growing in orderly rows and ready for harvest.\nLiving creatures that take a short rest within the area of a bloom spell receive the maximum hit points for Hit Dice expended. **Bloom** counters the effects of a [desolation](https://api.open5e.com/spells/desolation) spell.\n\n***Ritual Focus.*** If you expend your ritual focus, the duration becomes permanent.",
+      "document": "deepm",
+      "duration": "1 year",
+      "level": 8,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a silver acorn worth 500 gp, which is consumed in the casting",
+      "name": "Bloom",
+      "range": 1,
+      "range_text": "1 mile",
+      "range_unit": "miles",
+      "ritual": true,
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2553",
+          "parent": "deepm_bloom",
+          "type": "default"
+        },
+        {
+          "external_id": "2554",
+          "parent": "deepm_bloom",
+          "type": "ritual"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Bloom",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You plant a silver acorn in solid ground and spend an hour chanting a litany of praises to the natural world, after which the land within 1 mile of the acorn becomes extremely fertile, regardless of its previous state. Any seeds planted in the area grow at twice the natural rate. Food harvested regrows within a week. After one year, the land slowly reverts to its normal fertility, unable to stave off the march of nature.\n\nChoose one of the following effects, which appears and grows immediately:\n* A field planted with vegetables of your choice, ready for harvest.\n* A thick forest of stout trees and ample undergrowth.\n* A grassland with wildflowers and fodder for grazing.\n* An orchard of fruit trees of your choice, growing in orderly rows and ready for harvest.\nLiving creatures that take a short rest within the area of a bloom spell receive the maximum hit points for Hit Dice expended. **Bloom** counters the effects of a [desolation](https://api.open5e.com/spells/desolation) spell.\n\n***Ritual Focus.*** If you expend your ritual focus, the duration becomes permanent.",
+      "name": "Bloom",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы сажаете серебряный жёлудь в твёрдую землю и проводите час, напевая литанию восхвалений естественному миру, после чего земля в пределах 1 мили от жёлудя становится чрезвычайно плодородной, независимо от её предыдущего состояния. Любые семена, посаженные в области, растут в два раза быстрее естественной скорости. Собранная пища вырастает заново в течение недели. Через один год земля медленно возвращается к своей нормальной плодородности, неспособная противостоять маршу природы.\n\nВыберите один из следующих эффектов, который появляется и растёт немедленно:\n\n* Поле, засаженное овощами по вашему выбору, готовое к сбору.\n* Густой лес крепких деревьев и обильного подлеска.\n* Луг с дикими цветами и кормом для выпаса.\n* Фруктовый сад фруктовых деревьев по вашему выбору, растущих в аккуратных рядах и готовых к сбору.\n\nЖивые существа, которые совершают короткий отдых в области этого заклинания, получают максимальное количество хитов за потраченные Кости Хитов. Это заклинание противодействует эффектам заклинания опустошения.\n\n**Ритуальный фокус.** Если вы потратите ваш ритуальный фокус, продолжительность становится постоянной.",
+      "glossary_version": "v1",
+      "name": "Цветение",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,136 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "sand-hag",
+  "id": "o5e:tob:monster:sand-hag-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:sand-hag"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "a42c2dfad37330120c2607c662547d46d18792b911b36aa01ad829b9ac7ece34",
+    "formulas": [
+      {
+        "expression": "15d8+45",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic evil",
+      "armor_class": 17,
+      "challenge_rating": "5",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "15d8+45",
+      "hit_points": 112,
+      "languages": "Common, Dwarvish, Giant, Gnomish",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "a42c2dfad37330120c2607c662547d46d18792b911b36aa01ad829b9ac7ece34",
+        "edition": "2014",
+        "id": "o5e:tob:monster:sand-hag",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The sand hag makes two claw attacks.\"}, {\"name\": \"Claw\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage. If the target is a creature, it must make a successful DC 12 Constitution saving throw or gain one level of exhaustion.\", \"attack_bonus\": 7, \"damage_dice\": \"1d8\"}, {\"name\": \"Scouring Sirocco (Recharge 5-6)\", \"desc\": \"The sand hag generates a blast of hot wind in a 30-foot line or a 15-foot cone. Creatures inside it take 14 (4d6) slashing damage plus 7 (2d6) fire damage and are blinded for 1 minute; a successful DC 14 Constitution saving throw halves the damage and negates the blindness. A blinded creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. The affected area (line or cone) is heavily obscured until the end of the sand hag's next turn.\"}, {\"name\": \"Change Shape\", \"desc\": \"The hag polymorphs into a Small or Medium female humanoid, or back into her true form. Her statistics are the same in each form. Any equipment she is wearing or carrying isn't transformed. She reverts to her true form if she dies.\"}]",
+      "alignment": "chaotic evil",
+      "armor_class": 17,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "5",
+      "charisma": 16,
+      "constitution": 16,
+      "cr": 5.0,
+      "desc": "_This withered crone glares malevolently, her face framed by lank gray hair. Her malicious grin is filled with shark teeth, and drool trickles from her lips._  \n**Hatred of Beauty.** Sand hags are terrifying crones that haunt desert ruins and forgotten oases. Their hatred for things of beauty and peace is terrible to behold. A sand hag uses her illusions and mimicry to lure travelers into an ambush.  \n**False Oasis.** They delight in tricking a caravan into an illusory oasis, killing all the riding animals and pack animals so the travelers can’t flee, and then terrifying and slaughtering them one by one.  \n**Drain Bodies.** For the slaughter of animals or humanoids, a sand hag prefers to rely on her claws, which drain the moisture from their victims. They leave the mummified remnants in postures of life—tied to a saddle, or atop a guard tower—to terrify others.  \nSand hags stand 6 to 7 feet tall, weigh less than 150 lb., and dress in torn and tattered robes. Although skeletally thin, a sand hag’s apparent frailty belies her prodigious strength.",
+      "dexterity": 15,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "15d8+45",
+      "hit_points": 112,
+      "intelligence": 16,
+      "languages": "Common, Dwarvish, Giant, Gnomish",
+      "legendary_actions_json": "null",
+      "name": "Sand Hag",
+      "page_no": 245,
+      "perception": 5,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 120 ft., passive Perception 15",
+      "size": "Medium",
+      "skills_json": "{\"deception\": 6, \"perception\": 5, \"stealth\": 5}",
+      "special_abilities_json": "[{\"name\": \"Magic Resistance\", \"desc\": \"The sand hag has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"the sand hag's innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no material components:\\n\\nat will: invisibility\\n\\n2/day each: hallucinatory terrain, major image\"}, {\"name\": \"Mimicry\", \"desc\": \"The sand hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations only with a successful DC 14 Wisdom (Insight) check.\"}, {\"name\": \"Scorpion Step\", \"desc\": \"The sand hag walks lightly across sandy surfaces, never sinking into soft sand or leaving tracks. When in sand terrain, the sand hag ignores difficult terrain, doesn't leave tracks, and gains tremorsense 30 ft.\"}]",
+      "speed_json": "{\"walk\": 30, \"burrow\": 30}",
+      "spells_json": "null",
+      "strength": 18,
+      "type": "Monstrosity",
+      "wisdom": 14
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Sand Hag",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-sand-hag"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_This withered crone glares malevolently, her face framed by lank gray hair. Her malicious grin is filled with shark teeth, and drool trickles from her lips._  \n**Hatred of Beauty.** Sand hags are terrifying crones that haunt desert ruins and forgotten oases. Their hatred for things of beauty and peace is terrible to behold. A sand hag uses her illusions and mimicry to lure travelers into an ambush.  \n**False Oasis.** They delight in tricking a caravan into an illusory oasis, killing all the riding animals and pack animals so the travelers can’t flee, and then terrifying and slaughtering them one by one.  \n**Drain Bodies.** For the slaughter of animals or humanoids, a sand hag prefers to rely on her claws, which drain the moisture from their victims. They leave the mummified remnants in postures of life—tied to a saddle, or atop a guard tower—to terrify others.  \nSand hags stand 6 to 7 feet tall, weigh less than 150 lb., and dress in torn and tattered robes. Although skeletally thin, a sand hag’s apparent frailty belies her prodigious strength.",
+      "name": "Sand Hag",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Эта высохшая старуха злобно сверкает, её лицо обрамлено сальными седыми волосами. Её злобная улыбка полна акульих зубов и слюна сочиться из её губ.\n\n**Ненависть к красоте.** Песочные ведьмы ужасные старухи, которые преследуют пустынные руины и забытые оазисы. Их ненависть к вещам красоты и покоя страшна. Песчаная ведьма использует свои иллюзии и мимикрию, чтобы вовлечь путешественников в засаду.\n\n**Ложный оазис.** Они наслаждаются в обманывает караван в иллюзорный оазис, убивая всех верховых и вьючных животных, поэтому путешественники не могут бежать, а потом ужасающих и убивать их одного за другим.\n\n**Слив тел.** Для забоя животных или гуманоиды, а песчаная ведьма предпочитает полагаться на свои когти, которые поглощают влагу от своих жертв. Они оставляют мумифицированных остатков в позах жизни — привязаны к седлу, или на вершине сторожевой башни — чтобы запугать других.\n\nПесочные ведьмы стоять от 6 до 7 футов ростом, весят менее 150 фунтов., и платье в оторвал и драный одежды. Хотя скелетно худой, кажущаяся хрупкость песчаной ведьмы опровергает её огромную силу.",
+      "glossary_version": "v1",
+      "name": "Песчаная ведьма",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

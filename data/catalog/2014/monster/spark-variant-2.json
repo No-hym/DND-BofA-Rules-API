@@ -1,0 +1,139 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "spark",
+  "id": "o5e:tob:monster:spark-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:spark"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "45bb0b068611a38941b5b7cfed0f769879e59d4a3aab0e544ae3d0e18ee5ca56",
+    "formulas": [
+      {
+        "expression": "13d4+52",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic neutral",
+      "armor_class": 16,
+      "challenge_rating": "7",
+      "condition_immunities": "exhaustion, grappled, paralyzed, poisoned, prone, restrained, unconscious",
+      "damage_immunities": "lightning",
+      "damage_resistances": "acid, fire, force, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "",
+      "hit_dice": "13d4+52",
+      "hit_points": 84,
+      "languages": "Common, Primordial",
+      "size": "Tiny"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "45bb0b068611a38941b5b7cfed0f769879e59d4a3aab0e544ae3d0e18ee5ca56",
+        "edition": "2014",
+        "id": "o5e:tob:monster:spark",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Inhabit\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: The target must succeed on a DC 14 Charisma saving throw or become dominated by the spark, as the dominate person spell. The spark instantly enters the target's space and merges into the target's physical form. While inhabiting a creature, a spark takes no damage from physical attacks. The target creature receives a +4 bonus to its Dexterity and Charisma scores while it's inhabited. The speech and actions of an inhabited creature are noticeably jerky and erratic to any creature with passive Perception 14 or higher. Each time the spark uses innate spellcasting, the host can attempt another DC 14 Charisma saving throw. A successful save expels the spark, which appears in an unoccupied space within 5 feet of the former host. The inhabiting spark slowly burns out its host's nervous system. The inhabited creature must make a successful DC 15 Constitution saving throw at the end of each 24 hour-period or take 2d6 lightning damage and have its maximum hit points reduced by the same amount. The creature dies if this damage reduces its hit point maximum to 0. The reduction lasts until the inhabited creature completes a long rest after the spark is expelled.\"}]",
+      "alignment": "chaotic neutral",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "7",
+      "charisma": 17,
+      "condition_immunities": "exhaustion, grappled, paralyzed, poisoned, prone, restrained, unconscious",
+      "constitution": 18,
+      "cr": 7.0,
+      "damage_immunities": "lightning",
+      "damage_resistances": "acid, fire, force, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "desc": "_This mote of electrical energy floats menacingly, erupting in a shower of sparks and tendrils of lightning. When it disappears, it leaves only the whiff of ozone._  \n**Born in Storms.** When a great storm rips across a world in the Material Plane, it sometimes tears loose the fabric of reality, releasing sentient creatures composed entirely of elemental energy. Fueled by its frenetic thought patterns and erratic actions, a spark jolts through its new world to find a physical body, drawn by an urge to know form.  \n**Symbionts and Twins.** Some spellcasters deliberately seek out sparks for symbiosis. Sorcerers or clerics devoted to deities of the elements may reach an agreement with these creatures, allowing them to ride within their bodies for their entire lifetime.  \nOccasionally when a spark forms, an oppositely charged mate is created at the same time. When this happens, the two always stay within 300 feet of one another. Sparks rarely survive longer than a year, even within a symbiotic relationship with a mortal form. When they expire, they simply wink out and return to the elemental planes.  \n**Seek Strong Hosts.** When a formless spark senses a potential body approaching, it dims its light or enters a metallic object. Sparks prefer to inhabit creatures with high Strength over other possible targets. Once in control of a body, the spark uses the new vessel to deliver shocking grasp attacks or to cast lightning bolt or call lightning against distant enemies. If ejected from a creature, a spark immediately tries to inhabit another.  \n**Elemental Nature.** A spark doesn’t require air, food, drink, or sleep.",
+      "dexterity": 20,
+      "dexterity_save": 8,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "13d4+52",
+      "hit_points": 84,
+      "intelligence": 10,
+      "languages": "Common, Primordial",
+      "legendary_actions_json": "null",
+      "name": "Spark",
+      "page_no": 357,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 11",
+      "size": "Tiny",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Innate Spellcasting\", \"desc\": \"the spark's innate casting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\\n\\nat will: shocking grasp\\n\\n3/day: lightning bolt\\n\\n1/day: call lightning\"}]",
+      "speed_json": "{\"hover\": true, \"walk\": 10, \"fly\": 60}",
+      "spells_json": "null",
+      "strength": 4,
+      "type": "Elemental",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Spark",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-spark"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_This mote of electrical energy floats menacingly, erupting in a shower of sparks and tendrils of lightning. When it disappears, it leaves only the whiff of ozone._  \n**Born in Storms.** When a great storm rips across a world in the Material Plane, it sometimes tears loose the fabric of reality, releasing sentient creatures composed entirely of elemental energy. Fueled by its frenetic thought patterns and erratic actions, a spark jolts through its new world to find a physical body, drawn by an urge to know form.  \n**Symbionts and Twins.** Some spellcasters deliberately seek out sparks for symbiosis. Sorcerers or clerics devoted to deities of the elements may reach an agreement with these creatures, allowing them to ride within their bodies for their entire lifetime.  \nOccasionally when a spark forms, an oppositely charged mate is created at the same time. When this happens, the two always stay within 300 feet of one another. Sparks rarely survive longer than a year, even within a symbiotic relationship with a mortal form. When they expire, they simply wink out and return to the elemental planes.  \n**Seek Strong Hosts.** When a formless spark senses a potential body approaching, it dims its light or enters a metallic object. Sparks prefer to inhabit creatures with high Strength over other possible targets. Once in control of a body, the spark uses the new vessel to deliver shocking grasp attacks or to cast lightning bolt or call lightning against distant enemies. If ejected from a creature, a spark immediately tries to inhabit another.  \n**Elemental Nature.** A spark doesn’t require air, food, drink, or sleep.",
+      "name": "Spark",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Эта частица электрической энергии парит угрожающе, извергаясь в душе искр и щупалец молнии. Когда она исчезает, она оставляет только запах озона.\n\n**Рождённые в бурях.** Когда великая буря проносится через мир на Материальном Плане, она иногда срывает ткань реальности, выпуская разумных существ, состоящих полностью из элементальной энергии. Питаемая её бешеными мыслительными паттернами и беспорядочными действиями, искра проносится через её новый мир, чтобы найти физическое тело, притягиваемая побуждением знать форму.\n\n**Симбионты и близнецы.** Некоторые заклинатели умышленно ищут искры для симбиоза. Волшебники или жрецы, посвящённые божествам элементов, могут достичь соглашения с этими существами, позволяя им ездить внутри их тел всю их жизнь. Изредка, когда искра формируется, противоположно заряженная пара создаётся в то же время. Когда это происходит, двое всегда остаются в пределах 300 футов друг от друга. Искры редко выживают дольше года, даже внутри симбиотических отношений со смертной формой. Когда они истекают, они просто гаснут и возвращаются на элементальные планы.\n\n**Ищут сильных хозяев.** Когда бесформенная искра чувствует потенциальное тело, приближающееся, она приглушает её свет или входит в металлический предмет. Искры предпочитают населять существ с высокой Силой над другими возможными целями. Как только под контролем тела, искра использует новый сосуд, чтобы доставлять атаки шокирующего захвата или творить молнию или призыв молнии против далёких врагов. Если изгнана из существа, искра немедленно пытается населить другое.\n\n**Стихийная природа.** Искре не требуются воздух, пища, питьё или сон.",
+      "glossary_version": "v1",
+      "name": "Искра",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

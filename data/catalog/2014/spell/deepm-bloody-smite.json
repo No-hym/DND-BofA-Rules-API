@@ -1,0 +1,187 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_bloody-smite",
+  "id": "o5e:deepm:spell:deepm-bloody-smite",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-bloody-smite",
+      "o5e:dmag:spell:bloody-smite"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "fd3f171bf40da40e0c9d1196a1d130434b9c67f1944052a7534ea8d3346bfd0a",
+    "formulas": [
+      {
+        "expression": "1d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "classes": [
+        "srd_cleric",
+        "srd_druid",
+        "srd_ranger",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "necrotic"
+      ],
+      "duration": "1 minute",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "fd3f171bf40da40e0c9d1196a1d130434b9c67f1944052a7534ea8d3346bfd0a",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-bloody-smite",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "60e6b34d29f7b20752bbd572801715143a8f94cc1e10c9c8e9a3c8181ece8b33",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:bloody-smite",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric",
+          "srd_druid",
+          "srd_ranger",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "classes": [
+        "srd_cleric",
+        "srd_druid",
+        "srd_ranger",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "necrotic"
+      ],
+      "desc": "The next time during the spell’s duration that you hit a creature with a melee weapon attack, your weapon pulses with a dull red light, and the attack deals an extra 1d6 necrotic damage to the target. Until the spell ends, the target must make a Constitution saving throw at the start of each of its turns. On a failed save, it takes 1d6 necrotic damage, it bleeds profusely from the mouth, and it can’t speak intelligibly or cast spells that have a verbal component. On a successful save, the spell ends. If the target or an ally within 5 feet of it uses an action to tend the wound and makes a successful Wisdom (Medicine) check against your spell save DC, or if the target receives magical healing, the spell ends.",
+      "document": "deepm",
+      "duration": "1 minute",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Bloody Smite",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "necromancy",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2552",
+          "parent": "deepm_bloody-smite",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Bloody Smite",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "The next time during the spell’s duration that you hit a creature with a melee weapon attack, your weapon pulses with a dull red light, and the attack deals an extra 1d6 necrotic damage to the target. Until the spell ends, the target must make a Constitution saving throw at the start of each of its turns. On a failed save, it takes 1d6 necrotic damage, it bleeds profusely from the mouth, and it can’t speak intelligibly or cast spells that have a verbal component. On a successful save, the spell ends. If the target or an ally within 5 feet of it uses an action to tend the wound and makes a successful Wisdom (Medicine) check against your spell save DC, or if the target receives magical healing, the spell ends.",
+      "name": "Bloody Smite",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "В следующий раз во время действия заклинания, когда вы попадаете по существу рукопашной атакой оружием, ваше оружие пульсирует тусклым красным светом, и атака наносит цели дополнительно 1к6 некротического урона. Пока заклинание не закончится, цель должна совершать спасбросок Телосложения в начале каждого своего хода. При провале она получает 1к6 некротического урона, обильно кровоточит изо рта и не может разборчиво говорить или творить заклинания с вербальным компонентом. При успехе заклинание заканчивается. Если цель или союзник в пределах 5 футов от неё действием ухаживает за раной и преуспевает в проверке Мудрости (Медицина) против Сл ваших спасбросков от заклинаний, или если цель получает магическое лечение, заклинание заканчивается.",
+      "glossary_version": "v1",
+      "name": "Кровавая кара",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

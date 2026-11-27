@@ -1,0 +1,139 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "shoggoth",
+  "id": "o5e:tob:monster:shoggoth-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:shoggoth"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "52ebfdf67f1681900f8223335cab65f2a5c5e8d95c625b396ad2ea2043042fd7",
+    "formulas": [
+      {
+        "expression": "25d12+225",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic neutral",
+      "armor_class": 18,
+      "challenge_rating": "19",
+      "condition_immunities": "blinded, deafened, prone, stunned, unconscious",
+      "damage_immunities": "cold, thunder, slashing",
+      "damage_resistances": "fire, bludgeoning, piercing",
+      "damage_vulnerabilities": "",
+      "hit_dice": "25d12+225",
+      "hit_points": 387,
+      "languages": "Void Speech",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "52ebfdf67f1681900f8223335cab65f2a5c5e8d95c625b396ad2ea2043042fd7",
+        "edition": "2014",
+        "id": "o5e:tob:monster:shoggoth",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The shoggoth makes 1d4 + 1 slam attacks. Reroll the number of attacks at the start of each of the shoggoth's turns.\"}, {\"name\": \"Slam\", \"desc\": \"Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 30 (4d10 + 8) bludgeoning damage, and the target is grappled (escape DC 18) and restrained. The shoggoth can grapple any number of creatures simultaneously, and this has no effect on its number of attacks.\", \"attack_bonus\": 14, \"damage_dice\": \"4d10\"}]",
+      "alignment": "chaotic neutral",
+      "armor_class": 18,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "19",
+      "charisma": 13,
+      "condition_immunities": "blinded, deafened, prone, stunned, unconscious",
+      "constitution": 28,
+      "cr": 19.0,
+      "damage_immunities": "cold, thunder, slashing",
+      "damage_resistances": "fire, bludgeoning, piercing",
+      "desc": "_A shoggoth is an intelligent, gelatinous blob that can reshape itself at will. Created by an elder race as servants, the shoggoths rebelled long ago and slew their masters without pity. Since that time, they’ve lived in isolated or desolate regions, devouring whatever they encounter and absorbing its flesh into their own amorphous, shifting forms._  \n**Constant Growth.** When in a spherical form, a shoggoth’s mass is enough to have a 10- to 15-foot diameter, though this is just an average size. Shoggoths continue growing throughout their lives, though the eldest among them grow very slowly indeed, and some shoggoths may shrink from starvation if they deplete a territory of resources.  \n**Mutable Form.** A shoggoth can form eyes, mouths, tentacles, and other appendages as needed, though it lacks the control to truly polymorph into another creature’s shape and hold it.",
+      "dexterity": 14,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "25d12+225",
+      "hit_points": 387,
+      "intelligence": 12,
+      "languages": "Void Speech",
+      "legendary_actions_json": "null",
+      "name": "Shoggoth",
+      "page_no": 347,
+      "perception": 9,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 120 ft., tremorsense 60 ft., passive Perception 19",
+      "size": "Huge",
+      "skills_json": "{\"perception\": 9}",
+      "special_abilities_json": "[{\"name\": \"Anaerobic\", \"desc\": \"A shoggoth doesn't need oxygen to live. It can exist with equal comfort at the bottom of the ocean or in the vacuum of outer space.\"}, {\"name\": \"Absorb Flesh\", \"desc\": \"The body of a creature that dies while grappled by a shoggoth is completely absorbed into the shoggoth's mass. No portion of it remains to be used in raise dead, reincarnate, and comparable spells that require touching the dead person's body.\"}, {\"name\": \"Amorphous\", \"desc\": \"A shoggoth can move through a space as small as 1 foot wide. It must spend 1 extra foot of movement for every foot it moves through a space smaller than itself, but it isn't subject to any other penalties for squeezing.\"}, {\"name\": \"Hideous Piping\", \"desc\": \"The fluting noises made by a shoggoth are otherworldly and mind-shattering. A creature that can hear this cacophony at the start of its turn and is within 120 feet of a shoggoth must succeed on a DC 15 Wisdom saving throw or be confused (as the spell confusion) for 1d4 rounds. Creatures that roll a natural 20 on this saving throw become immune to the Hideous Piping for 24 hours. Otherwise, characters who meet the conditions must repeat the saving throw every round.\"}, {\"name\": \"Keen Senses\", \"desc\": \"A shoggoth has advantage on Wisdom (Perception) checks that rely on hearing or smell.\"}, {\"name\": \"Rolling Charge\", \"desc\": \"If the shoggoth moves at least 20 feet straight toward a creature and hits it with a slam attack on the same turn, that creature must succeed on a DC 20 Dexterity saving throw or be knocked prone. If the creature is knocked prone, the shoggoth immediately moves into the creature's space as a bonus action and crushes the creature beneath its bulk. The crushed creature can't breathe, is restrained, and takes 11 (2d10) bludgeoning damage at the start of each of the shoggoth's turns. A crushed creature remains in its space and does not move with the shoggoth. A crushed creature can escape by using an action and making a successful DC 19 Strength check. On a success, the creature crawls into an empty space within 5 feet of the shoggoth.\"}]",
+      "speed_json": "{\"walk\": 50, \"climb\": 30, \"swim\": 30}",
+      "spells_json": "null",
+      "strength": 26,
+      "type": "Aberration",
+      "wisdom": 16
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Shoggoth",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-shoggoth"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_A shoggoth is an intelligent, gelatinous blob that can reshape itself at will. Created by an elder race as servants, the shoggoths rebelled long ago and slew their masters without pity. Since that time, they’ve lived in isolated or desolate regions, devouring whatever they encounter and absorbing its flesh into their own amorphous, shifting forms._  \n**Constant Growth.** When in a spherical form, a shoggoth’s mass is enough to have a 10- to 15-foot diameter, though this is just an average size. Shoggoths continue growing throughout their lives, though the eldest among them grow very slowly indeed, and some shoggoths may shrink from starvation if they deplete a territory of resources.  \n**Mutable Form.** A shoggoth can form eyes, mouths, tentacles, and other appendages as needed, though it lacks the control to truly polymorph into another creature’s shape and hold it.",
+      "name": "Shoggoth",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Шоггот — интеллектуальная, желатиновая капля, которая может изменить форму по своему желанию. Созданные древней расой как слуги, шогготы давно восстали и убили своих хозяев без жалости. С того времени они живёт в изолированных или пустынных регионах, пожирая всё, с чем они сталкиваются и поглощая его плоть в свои собственные аморфные, смещающиеся формы.\n\n**Постоянный рост.** Когда в сферической форме, масса шоггота достаточна, чтобы иметь диаметр от 10 до 15 футов, хотя это всего лишь средний размер. Шогготы продолжают расти на протяжении всей своей жизни, хотя старший из них растёт очень медленно, а некоторые шогготы могут сжиматься от голода, если они истощают территорию ресурсов.\n\n**Изменчивая форма.** Шоггот может образовывать глаза, рты, щупальца и другие придатки при необходимости, хотя ему не хватает контроля, чтобы по-настоящему полиморфироваться в форму другого существа и удерживать его.",
+      "glossary_version": "v1",
+      "name": "Шоггот",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

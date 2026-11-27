@@ -1,0 +1,214 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob_nkosi-war-ostrich",
+  "id": "o5e:tob:creature:tob-nkosi-war-ostrich",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:creature:tob-nkosi-war-ostrich",
+      "o5e:tob:monster:nkosi-war-ostrich"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "54c74f365ee9287b04cfe9434467ad83c797d12fb751bdac296b616ab4c315a6",
+    "formulas": [
+      {
+        "expression": "5d10+15",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 5,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 15,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 11,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "5d10+15",
+      "hit_points": 42,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 60
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "54c74f365ee9287b04cfe9434467ad83c797d12fb751bdac296b616ab4c315a6",
+        "edition": "2014",
+        "id": "o5e:tob:creature:tob-nkosi-war-ostrich",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob",
+        "content_hash": "5ec4483d9c3ec2a437a0e051ac223e085bd2dffcda48d1958b8d64e0f16cec02",
+        "edition": "2014",
+        "id": "o5e:tob:monster:nkosi-war-ostrich",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 5,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 15,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 11,
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "darkvision_range": 60,
+      "document": "tob",
+      "hit_dice": "5d10+15",
+      "hit_points": 42,
+      "hover": false,
+      "languages_desc": "-",
+      "name": "Nkosi War Ostrich",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "size": "large",
+      "type": "beast",
+      "walk": 60,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage.",
+          "desc_ru": "Атака оружием ближнего боя: +4 к попаданию, досягаемость 5 фт., одна цель. Попадание: 6 (1к8+2) дробящего урона.",
+          "external_id": "tob_nkosi-war-ostrich_claw",
+          "name": "Claw",
+          "name_ru": "Коготь",
+          "order_in_statblock": 1,
+          "parent": "tob_nkosi-war-ostrich",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The ostrich makes two kicking claw attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_nkosi-war-ostrich_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob_nkosi-war-ostrich",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "If a riderless ostrich jumps at least 10 feet and lands within 5 feet of a creature, it has advantage on attacks against that creature this turn.",
+          "desc_ru": "Особенность «Баттле Леапер». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_nkosi-war-ostrich_battle-leaper",
+          "name": "Battle Leaper",
+          "name_ru": "Баттле Леапер",
+          "parent": "tob_nkosi-war-ostrich",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The ostrich can jump horizontally up to 20 feet and vertically up to 10 feet, with or without a running start.",
+          "desc_ru": "Особенность «Стандинг Леап». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_nkosi-war-ostrich_standing-leap",
+          "name": "Standing Leap",
+          "name_ru": "Стандинг Леап",
+          "parent": "tob_nkosi-war-ostrich",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Nkosi War Ostrich",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Nkosi War Ostrich",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крупный зверь, мировоззрение: без мировоззрения. Класс доспеха: 11. Хиты: 42 (5к10+15). Скорость: ходьба 60 фт.. Характеристики: СИЛ 15, ЛОВ 12, ТЕЛ 16, ИНТ 2, МУД 10, ХАР 5. Чувства: тёмное зрение 60 фт., пассивное Восприятие 10. Показатель опасности: 0.5. Структурированные механики записи: особенностей: 2, действий: 2.",
+      "glossary_version": "derived-v1",
+      "name": "Нкоси Вар Острич",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

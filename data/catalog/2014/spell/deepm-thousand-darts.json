@@ -1,0 +1,197 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_thousand-darts",
+  "id": "o5e:deepm:spell:deepm-thousand-darts",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-thousand-darts",
+      "o5e:dmag:spell:thousand-darts"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "9b34984cdb6eb02b6aea3bd88d72cf62df1056493e38761e25264e7e7ef7e28a",
+    "formulas": [
+      {
+        "expression": "6d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "6d6",
+      "damage_types": [
+        "piercing"
+      ],
+      "duration": "instantaneous",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a set of mithral darts worth 25 gp",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "9b34984cdb6eb02b6aea3bd88d72cf62df1056493e38761e25264e7e7ef7e28a",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-thousand-darts",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "f749827c5d8a84dd3675cb2c719e231644e159fbeedf97ccefd6aa43f1051df1",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:thousand-darts",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "6d6",
+      "damage_types": [
+        "piercing"
+      ],
+      "desc": "You launch thousands of needlelike darts in a 5-foot‐wide line that is 120 feet long. Each creature in the line takes 6d6 piercing damage, or half as much damage if it makes a successful Dexterity saving throw. The first creature struck by the darts makes the saving throw with disadvantage.\n",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a set of mithral darts worth 25 gp",
+      "name": "Thousand Darts",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4310",
+          "parent": "deepm_thousand-darts",
+          "type": "default"
+        },
+        {
+          "damage_roll": "7d6",
+          "external_id": "4312",
+          "parent": "deepm_thousand-darts",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "8d6",
+          "external_id": "4313",
+          "parent": "deepm_thousand-darts",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "9d6",
+          "external_id": "4314",
+          "parent": "deepm_thousand-darts",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "10d6",
+          "external_id": "4315",
+          "parent": "deepm_thousand-darts",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "11d6",
+          "external_id": "4316",
+          "parent": "deepm_thousand-darts",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "12d6",
+          "external_id": "4317",
+          "parent": "deepm_thousand-darts",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Thousand Darts",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You launch thousands of needlelike darts in a 5-foot‐wide line that is 120 feet long. Each creature in the line takes 6d6 piercing damage, or half as much damage if it makes a successful Dexterity saving throw. The first creature struck by the darts makes the saving throw with disadvantage.",
+      "name": "Thousand Darts",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы запускаете тысячи иглообразных дротиков в линии шириной 5 футов, которая имеет длину 120 футов. Каждое существо в линии получает 6к6 колющего урона, или половину урона, если оно совершает успешный спасбросок Ловкости. Первое существо, поражённое дротиками, совершает спасбросок с помехой.",
+      "glossary_version": "v1",
+      "name": "Тысяча дротиков",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

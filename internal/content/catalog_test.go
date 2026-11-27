@@ -69,6 +69,30 @@ func TestBundledCatalogSchemaAndCoverage(t *testing.T) {
 	}
 }
 
+func TestLoadDirReadsSingleRecordCards(t *testing.T) {
+	dir := t.TempDir()
+	cards := filepath.Join(dir, "2024", "weapon")
+	if err := os.MkdirAll(cards, 0o755); err != nil {
+		t.Fatal(err)
+	}
+	card := `{"id":"srd-2024:weapon:longsword","category":"weapon","edition":"2024","publisher_id":"wizards-of-the-coast","book_id":"srd-2024","source":"open5e:srd-2024","license":"CC-BY-4.0","version":"5.2.1","external_id":"longsword","translations":{"en":{"name":"Longsword"}},"mechanics":{},"attribution":"Wizards of the Coast, CC BY 4.0"}`
+	if err := os.WriteFile(filepath.Join(cards, "longsword.json"), []byte(card), 0o600); err != nil {
+		t.Fatal(err)
+	}
+	// Legacy aggregated arrays must keep loading alongside card files.
+	legacy := `[{"id":"srd-2024:weapon:shortsword","category":"weapon","edition":"2024","publisher_id":"wizards-of-the-coast","book_id":"srd-2024","source":"open5e:srd-2024","license":"CC-BY-4.0","version":"5.2.1","external_id":"shortsword","translations":{"en":{"name":"Shortsword"}},"mechanics":{},"attribution":"Wizards of the Coast, CC BY 4.0"}]`
+	if err := os.WriteFile(filepath.Join(dir, "legacy.json"), []byte(legacy), 0o600); err != nil {
+		t.Fatal(err)
+	}
+	records, err := LoadDir(dir)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(records) != 2 {
+		t.Fatalf("expected 2 records (1 card + 1 legacy array), got %d", len(records))
+	}
+}
+
 func TestLoadDirRejectsTrailingJSON(t *testing.T) {
 	dir := t.TempDir()
 	data := `[] []`

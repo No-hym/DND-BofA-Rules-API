@@ -1,0 +1,149 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_prismatic-ray",
+  "id": "o5e:deepm:spell:deepm-prismatic-ray",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-prismatic-ray",
+      "o5e:dmag:spell:prismatic-ray"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5a088072fc1cddbf0b2c6752cd7b2b7faa710e49a2858f2b61a42a3d3370d0ed",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 5,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 100,
+      "range_text": "100 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "5a088072fc1cddbf0b2c6752cd7b2b7faa710e49a2858f2b61a42a3d3370d0ed",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-prismatic-ray",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "e04ae7292c51fabf7902d59fa25ec5ae365bb7e26708b54fac696298b68b3d9f",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:prismatic-ray",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "A ray of shifting color springs from your hand. Make a ranged spell attack against a single creature you can see within range. The ray’s effect and the saving throw that applies to it depend on which color is dominant when the beam strikes its target, determined by rolling a d8.\n\n| d8 | Color | Effect | Saving Throw |\n|---|---|---|---|\n| 1 | Red | 8d10 fire damage | Dexterity |\n| 2 | Orange | 8d10 acid damage | Dexterity |\n| 3 | Yellow | 8d10 lightning damage | Dexterity |\n| 4 | Green | Target Poisoned | Constitution |\n| 5 | Blue | Target Deafened | Constitution |\n| 6 | Indigo | Target Frightened | Wisdom |\n| 7 | Violet | Target Stunned | Constitution |\n| 8 | Shifting Ray | Target Blinded | Constitution |\n\nA target takes half as much damage on a successful Dexterity saving throw. A successful Constitution or Wisdom saving throw negates the effect of a ray that inflicts a condition on the target; on a failed save, the target is affected for 5 rounds or until the effect is negated. If the result of your attack roll is a critical hit, you can choose the color of the beam that hits the target, but the attack does not deal additional damage.",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "level": 5,
+      "material": false,
+      "material_consumed": false,
+      "name": "Prismatic Ray",
+      "range": 100,
+      "range_text": "100 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3904",
+          "parent": "deepm_prismatic-ray",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Prismatic Ray",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "A ray of shifting color springs from your hand. Make a ranged spell attack against a single creature you can see within range. The ray’s effect and the saving throw that applies to it depend on which color is dominant when the beam strikes its target, determined by rolling a d8.\n\n| d8 | Color | Effect | Saving Throw |\n|---|---|---|---|\n| 1 | Red | 8d10 fire damage | Dexterity |\n| 2 | Orange | 8d10 acid damage | Dexterity |\n| 3 | Yellow | 8d10 lightning damage | Dexterity |\n| 4 | Green | Target Poisoned | Constitution |\n| 5 | Blue | Target Deafened | Constitution |\n| 6 | Indigo | Target Frightened | Wisdom |\n| 7 | Violet | Target Stunned | Constitution |\n| 8 | Shifting Ray | Target Blinded | Constitution |\n\nA target takes half as much damage on a successful Dexterity saving throw. A successful Constitution or Wisdom saving throw negates the effect of a ray that inflicts a condition on the target; on a failed save, the target is affected for 5 rounds or until the effect is negated. If the result of your attack roll is a critical hit, you can choose the color of the beam that hits the target, but the attack does not deal additional damage.",
+      "name": "Prismatic Ray",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Луч меняющегося цвета вырывается из вашей руки. Совершите дальнобойную атаку заклинанием против одного видимого существа в пределах дистанции. Эффект луча и спасбросок, который к нему применяется, зависят от того, какой цвет доминирует, когда луч ударяет его цель, определяется бросанием к8.\n\n1 — Красный: 8к10 урона огнём, спасбросок Ловкости.\n2 — Оранжевый: 8к10 урона кислотой, спасбросок Ловкости.\n3 — Жёлтый: 8к10 урона молнией, спасбросок Ловкости.\n4 — Зелёный: цель отравлена, спасбросок Телосложения.\n5 — Синий: цель оглушена в смысле глухоты, спасбросок Телосложения.\n6 — Индиго: цель испугана, спасбросок Мудрости.\n7 — Фиолетовый: цель оглушена, спасбросок Телосложения.\n8 — Меняющийся луч: цель ослеплена, спасбросок Телосложения.\n\nЦель получает половину урона при успешном спасброске Ловкости. Успешный спасбросок Телосложения или Мудрости отменяет эффект луча, который налагает состояние на цель; при провале цель затронута на 5 раундов или пока эффект не будет отменён. Если результат вашего броска атаки — критическое попадание, вы можете выбрать цвет луча, который попадает в цель, но атака не наносит дополнительного урона.",
+      "glossary_version": "v1",
+      "name": "Призматический луч",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

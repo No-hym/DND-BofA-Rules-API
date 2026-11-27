@@ -1,0 +1,206 @@
+{
+  "attribution": "Title: Creature Codex; Author: Wolfgang Baur, Dan Dillon, Richard Green, James Haeck, Chris Harris, Jeremy Hochhalter, James Introcaso, Chris Lockey, Shawn Merwin, and Jon Sawatsky; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/creature-codex-for-5th-edition-dnd/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "ccdx",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "ccdx_necrotic-tick",
+  "id": "o5e:ccdx:creature:ccdx-necrotic-tick",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:cc:monster:necrotic-tick",
+      "o5e:ccdx:creature:ccdx-necrotic-tick"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "f2bd0bc08a6189b48f94928c97355d86716c888fb8bd492b6af176a1da0d0028",
+    "formulas": [
+      {
+        "expression": "1d4+1",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 2,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": 10,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "1d4+1",
+      "hit_points": 3,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": 3,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "tiny",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 10
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "ccdx",
+        "content_hash": "f2bd0bc08a6189b48f94928c97355d86716c888fb8bd492b6af176a1da0d0028",
+        "edition": "2014",
+        "id": "o5e:ccdx:creature:ccdx-necrotic-tick",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "cc",
+        "content_hash": "c2bc938204504cff1e909750d9346b88430fc9edaa21d9bbce2a0cf982ca6980",
+        "edition": "2014",
+        "id": "o5e:cc:monster:necrotic-tick",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:cc"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 2,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": 10,
+      "darkvision_range": 60,
+      "document": "ccdx",
+      "hit_dice": "1d4+1",
+      "hit_points": 3,
+      "hover": false,
+      "languages_desc": "-",
+      "name": "Necrotic Tick",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "saving_throw_constitution": 3,
+      "size": "tiny",
+      "type": "beast",
+      "walk": 10,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Dan Dillon, Richard Green, James Haeck, Chris Harris, Jeremy Hochhalter, James Introcaso, Chris Lockey, Shawn Merwin, and Jon Sawatsky",
+      "key": "ccdx",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/creature-codex-for-5th-edition-dnd/",
+      "publication_date": "2018-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Creature Codex"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the tick attaches to the target. While attached, the necrotic tick doesn't attack. Instead, at the start of each of the tick's turns, the target loses 5 (1d4 + 3) hp due to blood loss. The target must make a DC 13 Wisdom saving throw. If it fails, it is affected by the tick's toxins and doesn't attempt to remove the tick. The host will even replace a dislodged tick unless prevented from doing so for 1 minute, after which the tick's influence fades. \n\nThe tick can detach itself by spending 5 feet of its movement. It does so when seeking a new host or if the target dies. A creature, including the target, can use its action to detach the tick. When a necrotic tick detaches, voluntarily or otherwise, its host takes 1 necrotic damage.",
+          "desc_ru": "Действие «Крови Драин»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "ccdx_necrotic-tick_blood-drain",
+          "name": "Blood Drain",
+          "name_ru": "Крови Драин",
+          "order_in_statblock": 0,
+          "parent": "ccdx_necrotic-tick",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "While attached to a living host, a necrotic tick leaks negative energy into the host's bloodstream, quickly closing over the creature's wounds with scabrous, necrotic flesh. If the host doesn't already have regeneration, it regains 2 hp at the start of its turn if it has at least 1 hit point. Track how many “necrotic hp” a host recovers via Necrotic Regeneration. Magical healing reverses the necrosis and subtracts an equal number of necrotic hp from those accumulated. When the necrotic hp equal the host's hit point maximum, the host becomes a zombie.",
+          "desc_ru": "Особенность «Некротический Регенератион». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "ccdx_necrotic-tick_necrotic-regeneration",
+          "name": "Necrotic Regeneration",
+          "name_ru": "Некротический Регенератион",
+          "parent": "ccdx_necrotic-tick",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "When a necrotic tick's living host has lost three-quarters of its maximum hp from Blood Drain, the tick's toxins fill the host with an unnatural desire to approach other living beings. When a suitable creature is within 5 feet, the tick incites a sudden rage in the host, riding the current host to a new host. The current host must succeed on a DC 13 Wisdom saving throw or it attempts to grapple a living creature within 5 feet of it as a reaction. The host can re-attempt this saving throw at the end of each turn that it suffers damage from the necrotic tick's Blood Drain.",
+          "desc_ru": "Особенность «Риде Хост». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "ccdx_necrotic-tick_ride-host",
+          "name": "Ride Host",
+          "name_ru": "Риде Хост",
+          "parent": "ccdx_necrotic-tick",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Necrotic Tick",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:ccdx",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Necrotic Tick",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крошечный зверь, мировоззрение: без мировоззрения. Класс доспеха: 15 (природный доспех). Хиты: 3 (1к4+1). Скорость: ходьба 10 фт., лазание 10 фт.. Характеристики: СИЛ 2, ЛОВ 14, ТЕЛ 12, ИНТ 1, МУД 12, ХАР 8. Чувства: тёмное зрение 60 фт., пассивное Восприятие 11. Показатель опасности: 0.25. Структурированные механики записи: особенностей: 2, действий: 1.",
+      "glossary_version": "derived-v1",
+      "name": "Некротический Тик",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

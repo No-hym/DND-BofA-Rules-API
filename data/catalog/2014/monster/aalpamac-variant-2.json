@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "aalpamac",
+  "id": "o5e:tob2:monster:aalpamac-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:aalpamac"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7514cc507625594f5492ef8943aa022b3845bcb7bf0ae54a24e6f669b8bd0509",
+    "formulas": [
+      {
+        "expression": "13d12+52",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "unaligned",
+      "armor_class": 16,
+      "challenge_rating": "7",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "cold",
+      "damage_vulnerabilities": "",
+      "hit_dice": "13d12+52",
+      "hit_points": 136,
+      "languages": "—",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "7514cc507625594f5492ef8943aa022b3845bcb7bf0ae54a24e6f669b8bd0509",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:aalpamac",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The aalpamac makes three attacks: one with its bite and two with its claws.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) piercing damage.\", \"attack_bonus\": 8, \"damage_dice\": \"2d10+5\"}, {\"name\": \"Claws\", \"desc\": \"Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.\", \"attack_bonus\": 8, \"damage_dice\": \"2d6+5\"}]",
+      "alignment": "unaligned",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "7",
+      "charisma": 10,
+      "constitution": 19,
+      "constitution_save": 7,
+      "cr": 7.0,
+      "damage_resistances": "cold",
+      "desc": "A chimeric beast with the body of a massive trout and the front claws and head of a fierce wolverine bursts up from the icy water. Its eyes glow with a lambent green light, and the air around it bends and distorts as if viewed through a thick lens._  \n**Hungry Lake Monsters.** The aalpamac is a dangerous freshwater predator native to lakes and rivers. While primarily a water-dwelling monster, the aalpamac can haul itself onto shore with its front claws and does so to attack prey drinking or moving at the water’s edge. While not evil, the aalpamac is a ravenous and territorial creature, ranging over an area of up to a dozen miles in search of fresh meat. Aalpamacs are not picky about what they consume and even attack large boats if sufficiently hungry. They are solitary creatures and tolerate others of their own kind only during mating seasons.  \n**Local Legends.** An aalpamac that terrorizes the same lake or river for many years often develops a reputation among the locals of the area, particularly those living along the body of water in question. Inevitably, this gives rise to a number of stories exaggerating the size, ferocity, disposition, or powers of the aalpamac. The stories often give aalpamacs names that highlight their most prominent features or are specific to the area in which they live, such as “Chompo” or “the Heron Lake Monster.” These stories also make the aalpamac the target of adventurers and trophy hunters, most of whom either do not locate the beast or fall victim to it.",
+      "dexterity": 10,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "13d12+52",
+      "hit_points": 136,
+      "intelligence": 2,
+      "languages": "—",
+      "legendary_actions_json": "null",
+      "name": "Aalpamac",
+      "page_no": 8,
+      "perception": 6,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 16",
+      "size": "Huge",
+      "skills_json": "{\"perception\": 6}",
+      "special_abilities_json": "[{\"name\": \"Amphibious\", \"desc\": \"The aalpamac can breathe air and water.\"}, {\"name\": \"Distance Distortion Aura\", \"desc\": \"The presence of an aalpamac distorts the vision of creatures within 60 feet of it. Each creature that starts its turn in that area must succeed on a DC 15 Wisdom saving throw or be unable to correctly judge the distance between itself and its surroundings until the start of its next turn. An affected creature has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight, and it can't move more than half its speed on its turn. On a successful saving throw, the creature is immune to the aalpamac's Distance Distortion Aura for the next 24 hours. Creatures with blindsight, tremorsense, or truesight are unaffected by this trait.\"}]",
+      "speed_json": "{\"walk\": 15, \"swim\": 50}",
+      "spells_json": "null",
+      "strength": 21,
+      "type": "Monstrosity",
+      "wisdom": 16
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Aalpamac",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-aalpamac"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "A chimeric beast with the body of a massive trout and the front claws and head of a fierce wolverine bursts up from the icy water. Its eyes glow with a lambent green light, and the air around it bends and distorts as if viewed through a thick lens._  \n**Hungry Lake Monsters.** The aalpamac is a dangerous freshwater predator native to lakes and rivers. While primarily a water-dwelling monster, the aalpamac can haul itself onto shore with its front claws and does so to attack prey drinking or moving at the water’s edge. While not evil, the aalpamac is a ravenous and territorial creature, ranging over an area of up to a dozen miles in search of fresh meat. Aalpamacs are not picky about what they consume and even attack large boats if sufficiently hungry. They are solitary creatures and tolerate others of their own kind only during mating seasons.  \n**Local Legends.** An aalpamac that terrorizes the same lake or river for many years often develops a reputation among the locals of the area, particularly those living along the body of water in question. Inevitably, this gives rise to a number of stories exaggerating the size, ferocity, disposition, or powers of the aalpamac. The stories often give aalpamacs names that highlight their most prominent features or are specific to the area in which they live, such as “Chompo” or “the Heron Lake Monster.” These stories also make the aalpamac the target of adventurers and trophy hunters, most of whom either do not locate the beast or fall victim to it.",
+      "name": "Aalpamac",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Химерный зверь с телом массивной форели и передними когтями и головой свирепого росомахи вырывается из ледяной воды. Её глаза светятся лёгким зелёным светом, и воздух вокруг неё изгибается и искажается, как если бы был виден сквозь толстую линзу.\n\n**Голодные озерные монстры.** Аальпамак - опасный пресноводный хищник, обитающий в озерах и реках. Хотя в первую очередь водоплавающий монстр, аалпамак может вытащить себя на берег передними когтями и делает это, чтобы атаковать добычу питьё или перемещение у берега воды. Хотя не зло, аалпамак - хищное и территориальное существо, охватывающие территорию до дюжины миль в поисках свежего мяса. Аалпамаки не придирчивы к тому, что они потребляют, и даже нападают на большие лодки, если они достаточно голодны. Это одиночные существа и терпят других своём роде только во время брачных сезонов.\n\n**Местные легенды.** Аалпамак, терроризирующий то же озеро или реку в течение многих лет, часто развивает репутацию среди местных жителей местности, особенно тех, кто живёт вдоль тела воды, о котором идет речь. Неизбежно, это приводит к ряду рассказов, преувеличивающих размер, свирепость, характер или способности аалпамак. Истории часто дают названия аалпамакам, которые подчеркивают их наиболее заметные черты или относятся к конкретной области, в которой они живут, такие как «Чомпо» или «Чайное Озерное Чудовище.« Эти истории также делают аалпамак мишенью искателей приключений и охотников за трофеями, большинство из которых либо не находят зверя, либо становится его жертвой.",
+      "glossary_version": "v1",
+      "name": "Аальпамак",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

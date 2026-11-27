@@ -1,0 +1,135 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "bastet-temple-cat",
+  "id": "o5e:tob:monster:bastet-temple-cat-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:bastet-temple-cat"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "d286e0810281f3d5c94cc5d2ef5258bbffb8e8a4b486ec145e43cee4d500828c",
+    "formulas": [
+      {
+        "expression": "9d6+9",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic neutral",
+      "armor_class": 14,
+      "challenge_rating": "1",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "9d6+9",
+      "hit_points": 40,
+      "languages": "Common, Nurian, and Sylvan",
+      "size": "Small"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "d286e0810281f3d5c94cc5d2ef5258bbffb8e8a4b486ec145e43cee4d500828c",
+        "edition": "2014",
+        "id": "o5e:tob:monster:bastet-temple-cat",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The temple cat makes one bite attack and one claws attack.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 6 (1d4 + 4) piercing damage.\", \"attack_bonus\": 6, \"damage_dice\": \"1d4\"}, {\"name\": \"Claws\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) slashing damage.\", \"attack_bonus\": 6, \"damage_dice\": \"2d4\"}, {\"name\": \"Fascinating Lure\", \"desc\": \"The temple cat purrs loudly, targeting a humanoid it can see within 30 feet that can hear the temple cat. The target must succeed on a DC 14 Wisdom saving throw or be charmed. While charmed by the temple cat, the target must move toward the cat at normal speed and try to pet it or pick it up. A charmed target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful, the creature is immune to the temple cat's Fascinating Lure for the next 24 hours. The temple cat has advantage on attack rolls against any creature petting or holding it.\"}]",
+      "alignment": "chaotic neutral",
+      "armor_class": 14,
+      "bonus_actions_json": "null",
+      "challenge_rating": "1",
+      "charisma": 18,
+      "constitution": 12,
+      "cr": 1.0,
+      "desc": "_A slim feline far larger than any house cat slips from the shadows. Its coat glistens like ink as it chirps, and its tail flicks teasingly as its golden eyes observe the doings in its temple._  \n**Bred for Magic.** Temple cats of Bastet are thought by some to be celestials, but they are a terrestrial breed, created by the priesthood through generations of enchantment.  \n**Lazy Temple Pets.** By day, temple cats laze about their shrines and porticos, searching out attention from the faithful and occasionally granting boons when it suits then.  \n**Fierce Shrine Guardians.** By night, they serve as guardians in their temples, inciting would-be thieves to come close before viciously mauling them. More than one would-be rogue has met his or her fate at the claws and teeth of these slim, black-furred beasts. Bastet temple cats are fierce enemies of temple dogs.",
+      "dexterity": 19,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "9d6+9",
+      "hit_points": 40,
+      "intelligence": 12,
+      "languages": "Common, Nurian, and Sylvan",
+      "legendary_actions_json": "null",
+      "name": "Bastet Temple Cat",
+      "page_no": 32,
+      "perception": 5,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 15",
+      "size": "Small",
+      "skills_json": "{\"perception\": 5, \"stealth\": 6}",
+      "special_abilities_json": "[{\"name\": \"Keen Smell\", \"desc\": \"The temple cat has advantage on Wisdom (Perception) checks that rely on smell.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"the temple cat's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). The temple cat can innately cast the following spells, requiring no material components:\\n\\nat will: guidance\\n\\n3/day each: charm person, cure wounds\\n\\n1/day: enhance ability (only Cat's Grace)\"}, {\"name\": \"Priestly Purr\", \"desc\": \"When a cleric or paladin who worships Bastet spends an hour preparing spells while a Bastet temple cat is within 5 feet, that spellcaster can choose two 1st-level spells and one 2nd-level spell that they are able to cast and imbue them into the temple cat. The temple cat can cast these spells 1/day each without a verbal component. These spells are cast as if they were included in the temple cat's Innate Spellcasting trait.\"}]",
+      "speed_json": "{\"walk\": 40, \"climb\": 30}",
+      "spells_json": "null",
+      "strength": 8,
+      "type": "Monstrosity",
+      "wisdom": 16
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Bastet Temple Cat",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-bastet-temple-cat"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_A slim feline far larger than any house cat slips from the shadows. Its coat glistens like ink as it chirps, and its tail flicks teasingly as its golden eyes observe the doings in its temple._  \n**Bred for Magic.** Temple cats of Bastet are thought by some to be celestials, but they are a terrestrial breed, created by the priesthood through generations of enchantment.  \n**Lazy Temple Pets.** By day, temple cats laze about their shrines and porticos, searching out attention from the faithful and occasionally granting boons when it suits then.  \n**Fierce Shrine Guardians.** By night, they serve as guardians in their temples, inciting would-be thieves to come close before viciously mauling them. More than one would-be rogue has met his or her fate at the claws and teeth of these slim, black-furred beasts. Bastet temple cats are fierce enemies of temple dogs.",
+      "name": "Bastet Temple Cat",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Стройный кот, намного больший, чем любой домашний кот, выскальзывает от теней. Его шерсть блестит как чернила, так как он щебечет, а его хвост дёргается издевательски, как его золотые глаза наблюдают за происходящим в его храме.\n\n**Выведен для магии.** Храмовые коты Бастет некоторые считают селестиалами, но они имеют земную породу, созданную священством через поколения очарования.\n\n**Ленивые храмовые питомцы.** Днем храмовые коты кипятят вокруг своих храмовых мест и портиков, ищут внимания от верующих и иногда предоставляют благосклонности, когда это им подходит.\n\n**Свирепые стражи храма.** Ночью они служат в качестве охранников в своих храмах, привлекая потенциальных воров, чтобы прийти близко, прежде чем жестоко изувечить их. Более одного потенциального преступника встретил свою судьбу в когтях и зубах этих стройных животных с чёрным мехом. Храмовый кот Бастет являются заклятыми врагами храмовых собак.",
+      "glossary_version": "v1",
+      "name": "Храмовый кот Бастет",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

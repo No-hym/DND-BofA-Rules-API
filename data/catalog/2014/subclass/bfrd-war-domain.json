@@ -1,0 +1,167 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "bfrd",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "bfrd_war-domain",
+  "id": "o5e:bfrd:characterclass:bfrd-war-domain",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "03518a616fde68da4e5c8a9b72df47fcacf43a36779fd23076cf34b8cec55ad0",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "bfrd_cleric"
+    },
+    "original_system": "5e-2014",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "bfrd_cleric",
+        "type": "subclass_of",
+        "value": "bfrd_cleric"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Gods of the War domain celebrate strength, the glory of victory, and the thrill of competition. Those gods with evil or chaotic proclivities emphasize destruction and violence, but most societies and heroic characters worship war gods who honor courage and excellence in battle and cherish those who fight when the need is great.",
+      "document": "bfrd",
+      "name": "War Domain",
+      "subclass_of": "bfrd_cleric"
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "You gain the following Channel Divinity option.\n\n**Channel Divinity: Mark of Triumph.** As a bonus action, you present your holy symbol and mystically mark one creature within 60 feet of you that you can see. Until the start of your next turn, all creatures who attack a marked creature have advantage on the first attack roll they make against it.",
+          "desc_ru": "Вы получаете следующий вариант Божественного канала.\n\nБожественный канал: Метка триумфа. бонусным действием вы предъявляете ваш священный символ и мистически отмечаете одно существо в пределах 60 футов от вас, которое вы можете видеть. До начала вашего следующего хода все существа, которые атакуют отмеченное существо, совершают с преимуществом первый бросок атаки, который они совершают против него.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric-war-domain_channel-divinity-mark-of-triumph",
+          "level": 3,
+          "name": "Channel Divinity: Mark of Triumph",
+          "name_ru": "Божественный канал: метка триумфа",
+          "parent": "bfrd_war-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Victory brings you closer to the divine, inspiring you to press beyond your normal limits. Once per turn, when you successfully hit a creature with an attack while using the Attack action, you can choose to make an additional weapon attack as part of that same action. You can use this feature a number of times equal to your PB. You regain all expended uses when you finish a short or long rest.",
+          "desc_ru": "Победа приближает вас к божественному, вдохновляя вас выходить за ваши обычные пределы. Один раз за ход, когда вы успешно попадаете по существу атакой, используя действие Атака, вы можете выбрать совершить дополнительную атаку оружием как часть того же действия. Вы можете использовать эту особенность количество раз, равное вашему бонусу мастерства. Вы восстанавливаете все потраченные использования, когда заканчиваете короткий или продолжительный отдых.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric-war-domain_disciple-of-war",
+          "level": 3,
+          "name": "Disciple of War",
+          "name_ru": "Ученик войны",
+          "parent": "bfrd_war-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you gain a new talent, you can select that talent from the magic or martial talent list.",
+          "desc_ru": "Когда вы получаете новый талант, вы можете выбрать его из списка магических или боевых талантов.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric-war-domain_expanded-talent-list",
+          "level": 3,
+          "name": "Expanded Talent List",
+          "name_ru": "Расширенный список талантов",
+          "parent": "bfrd_war-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You gain domain spells at the cleric levels listed in the War Domain Spells table. See the Cleric Subclass class feature for how these spells work.\n\n|Cleric Level|Spells|\n|---|---|\n|3rd|command, magic weapon, shield of faith, warding bond|\n|5th|fear, spirit guardians|\n|7th|death ward, guardian of faith|\n|9th|antilife shell, flame strike|",
+          "desc_ru": "Вы получаете заклинания домена на уровнях жреца, перечисленных в соответствующей таблице. См. классовую особенность «Подкласс жреца» о том, как эти заклинания работают.\n\n| Уровень жреца | Заклинания |\n|---|---|\n| 3-й | Приказ, Волшебное оружие, Щит веры, Защитные узы |\n| 5-й | Страх, Духовные стражи |\n| 7-й | Защита от смерти, Страж веры |\n| 9-й | Барьер жизни, Небесный огонь |",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric-war-domain_war-domain-spells",
+          "level": 3,
+          "name": "War Domain Spells",
+          "name_ru": "Заклинания домена войны",
+          "parent": "bfrd_war-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Attacks you make are particularly potent. When you deal damage with a weapon or spell attack made with a Divine spell, you can reroll any 1s you roll on the damage dice. You must take the new result for any dice rerolled in this way.",
+          "desc_ru": "Совершаемые вами атаки особенно мощны. Когда вы наносите урон атакой оружием или заклинанием, совершённой божественным заклинанием, вы можете перебросить любые 1, которые вы выбрасываете на костях урона. Вы должны принять новый результат для любых костей, переброшенных этим способом.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric-war-domain_blessed-warrior",
+          "level": 7,
+          "name": "Blessed Warrior",
+          "name_ru": "Благословенный воин",
+          "parent": "bfrd_war-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "When you use the Mark of Triumph effect of your Channel Divinity feature, you can mystically mark a number of creatures equal to your PB. All targets must be within 60 feet of you.\n\nIn addition, when a creature marked by your Mark of Triumph feature is reduced to 0 HP, you can use your reaction to move the mark to a different target within 60 feet of you that you can see. A mark moved in this way still disappears at the start of your next turn, as normal.",
+          "desc_ru": "Когда вы используете эффект Метка триумфа вашей особенности Божественный канал, вы можете мистически отметить количество существ, равное вашему бонусу мастерства. Все цели должны быть в пределах 60 футов от вас.\n\nКроме того, когда существо, отмеченное вашей особенностью Метка триумфа, уменьшено до 0 очков хитов, вы можете реакцией переместить метку на другую цель в пределах 60 футов от вас, которую вы можете видеть. Метка, перемещённая этим способом, всё равно исчезает в начале вашего следующего хода, как обычно.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric-war-domain_greater-triumph",
+          "level": 11,
+          "name": "Greater Triumph",
+          "name_ru": "Больший триумф",
+          "parent": "bfrd_war-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Once per turn, when you successfully hit a creature with a weapon or spell attack made with a Divine spell, you can treat the attack as if you rolled a critical hit.",
+          "desc_ru": "Один раз за ход, когда вы успешно попадаете по существу атакой оружием или заклинанием, совершённой божественным заклинанием, вы можете считать атаку, как если бы вы выбросили критическое попадание.",
+          "document": "bfrd",
+          "external_id": "bfrd_cleric-war-domain_holy-strike",
+          "level": 15,
+          "name": "Holy Strike",
+          "name_ru": "Святой удар",
+          "parent": "bfrd_war-domain",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "War Domain",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "Gods of the War domain celebrate strength, the glory of victory, and the thrill of competition. Those gods with evil or chaotic proclivities emphasize destruction and violence, but most societies and heroic characters worship war gods who honor courage and excellence in battle and cherish those who fight when the need is great.",
+      "name": "War Domain",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Боги домена Войны празднуют силу, славу победы и острые ощущения соревнования. Те боги со злыми или хаотическими склонностями подчёркивают разрушение и насилие, но большинство обществ и героических персонажей поклоняются богам войны, которые почитают мужество и превосходство в бою и лелеют тех, кто сражается, когда нужда велика.",
+      "glossary_version": "v1",
+      "name": "Домен войны",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,180 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_instant-fortification",
+  "id": "o5e:deepm:spell:deepm-instant-fortification",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-instant-fortification",
+      "o5e:dmag:spell:instant-fortification"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "76848191ef24c4d5ad611596b4f9b1e556bf69e4dc63255d0f8374f1235e696e",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "ritual",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "permanent",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a statuette of a keep worth 250 gp, which is consumed in the casting",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "76848191ef24c4d5ad611596b4f9b1e556bf69e4dc63255d0f8374f1235e696e",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-instant-fortification",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "a972d44cdbb463a9c67d9da05991ad71b53a733d4624c21c1f261c0b3f0fab11",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:instant-fortification",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "Through this spell, you transform a miniature statuette of a keep into an actual fort. The fortification springs from the ground in an unoccupied space within range. It is a 10- foot cube (including floor and roof).\n\nEach wall has two arrow slits. One wall also includes a metal door with an [arcane lock](https://api.open5e.com/spells/arcane-lock) effect on it. You designate at the time of the fort’s creation which creatures can ignore the lock and enter the fortification. The door has AC 20 and 60 hit points, and it can be broken open with a successful DC 25 Strength (Athletics) check. The walls are made of stone (AC 15) and are immune to necrotic, poison, and psychic damage. Each 5-foot-square section of wall has 90 hit points. Reducing a section of wall to 0 hit points destroys it, allowing access to the inside of the fortification.\n",
+      "document": "deepm",
+      "duration": "permanent",
+      "higher_level": "When you cast this spell using a spell slot of 6th level or higher, you can increase the length or width of the fortification by 5 feet for each slot level above 5th. You can make a different choice (width or length) for each slot level above 5th.",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a statuette of a keep worth 250 gp, which is consumed in the casting",
+      "name": "Instant Fortification",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3601",
+          "parent": "deepm_instant-fortification",
+          "type": "default"
+        },
+        {
+          "external_id": "3602",
+          "parent": "deepm_instant-fortification",
+          "type": "ritual"
+        },
+        {
+          "external_id": "3604",
+          "parent": "deepm_instant-fortification",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3605",
+          "parent": "deepm_instant-fortification",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3606",
+          "parent": "deepm_instant-fortification",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3607",
+          "parent": "deepm_instant-fortification",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Instant Fortification",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "Through this spell, you transform a miniature statuette of a keep into an actual fort. The fortification springs from the ground in an unoccupied space within range. It is a 10- foot cube (including floor and roof).\n\nEach wall has two arrow slits. One wall also includes a metal door with an [arcane lock](https://api.open5e.com/spells/arcane-lock) effect on it. You designate at the time of the fort’s creation which creatures can ignore the lock and enter the fortification. The door has AC 20 and 60 hit points, and it can be broken open with a successful DC 25 Strength (Athletics) check. The walls are made of stone (AC 15) and are immune to necrotic, poison, and psychic damage. Each 5-foot-square section of wall has 90 hit points. Reducing a section of wall to 0 hit points destroys it, allowing access to the inside of the fortification.",
+      "name": "Instant Fortification",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Этим заклинанием вы превращаете миниатюрную статуэтку крепости в настоящий форт. Укрепление вырастает из земли в незанятом пространстве в пределах дистанции. Это куб в 10 футов (включая пол и крышу).\n\nУ каждой стены две бойницы для стрел. Одна стена также включает металлическую дверь с эффектом волшебного замка на ней. Во время создания форта вы указываете, какие существа могут игнорировать замок и входить в укрепление. У двери КД 20 и 60 хитов, и её можно взломать успешной проверкой Силы (Атлетика) Сл 25. Стены сделаны из камня (КД 15) и невосприимчивы к некротическому урону, яду и психическому урону. У каждой секции стены размером 5 на 5 футов 90 хитов. Уменьшение секции стены до 0 хитов уничтожает её, позволяя доступ внутрь укрепления.",
+      "glossary_version": "v1",
+      "name": "Мгновенное укрепление",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

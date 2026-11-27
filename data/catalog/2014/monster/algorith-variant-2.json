@@ -1,0 +1,143 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "algorith",
+  "id": "o5e:tob:monster:algorith-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:algorith"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "2f5fa1878590031c31543a06a6d9bb5ef5c9c2ba5a0599b92da87e7a8dfeeb90",
+    "formulas": [
+      {
+        "expression": "16d8+64",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "lawful neutral",
+      "armor_class": 18,
+      "challenge_rating": "10",
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "damage_immunities": "poison",
+      "damage_resistances": "acid, cold, lightning",
+      "damage_vulnerabilities": "",
+      "hit_dice": "16d8+64",
+      "hit_points": 136,
+      "languages": "Common, Celestial, Draconic, Infernal",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "2f5fa1878590031c31543a06a6d9bb5ef5c9c2ba5a0599b92da87e7a8dfeeb90",
+        "edition": "2014",
+        "id": "o5e:tob:monster:algorith",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The algorith makes two logic razor attacks.\"}, {\"name\": \"Logic Razor\", \"desc\": \"Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 31 (4d12 + 5) force damage.\", \"attack_bonus\": 9, \"damage_dice\": \"4d12\"}, {\"name\": \"Cone of Negation (Recharge 5-6)\", \"desc\": \"An algorith can project a cone of null energy. Targets inside the 30 foot cone take 42 (12d6) force damage and suffer the effect of a dispel magic spell. A successful DC 16 Dexterity saving throw reduces the damage to half and negates the dispel magic effect on that target.\"}, {\"name\": \"Reality Bomb (5/Day)\", \"desc\": \"The algorith can summon forth a tiny rune of law and throw it as a weapon. Any creature within 30 feet of the square where the reality bomb lands takes 21 (6d6) force damage and is stunned until the start of the algorith's next turn. A target that makes a successful DC 16 Dexterity saving throw takes half damage and isn't stunned.\"}]",
+      "alignment": "lawful neutral",
+      "armor_class": 18,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "10",
+      "charisma": 18,
+      "charisma_save": 8,
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "constitution": 19,
+      "constitution_save": 8,
+      "cr": 10.0,
+      "damage_immunities": "poison",
+      "damage_resistances": "acid, cold, lightning",
+      "desc": "_Sometimes called folding angels, algoriths are lawful beings made from sheer force, pure math, and universal physical laws._  \n**Creatures of Pure Reason.**They are the border guards of the Conceptual Realms, warding subjective beings from the Realms of the Absolute. Eternal, remorseless, and unceasingly vigilant, they guard against the monstrosities that lurk in the multiverse’s most obscure dimensions, and seek out and eliminate chaos even from the abodes of the gods.  \n**Foes of Chaos.**They visit mortal realms when chaos threatens to unravel a location, or when the skeins of fate are tangled. On some occasions, an algorith will serve a god of Law or answer the summons of a skein witch.  \nAlgoriths fight with conjured blades of force, and they can also summon universal energy that deconstructs randomness, weakening enemies or reducing them to finely ordered crystalline dust.  \n**Social but Mysterious.** In groups, they move and fight in silent coordination. Only tiny variations in the formulas etched into their skins identify one algorith from another. Five is a number of extreme importance to all algoriths, but few are willing (or able) to explain why to anyone who isn’t an algorith. Algoriths may have castes, ranks, or commanders, but no mortal has decoded the mathematical blazons adorning their flesh.The algoriths themselves refuse to discuss these formulas with those who do not comprehend them.  \n**Constructed Nature.** An algorith doesn’t require air, food, drink, or sleep.",
+      "dexterity": 14,
+      "dexterity_save": 6,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "16d8+64",
+      "hit_points": 136,
+      "intelligence": 13,
+      "languages": "Common, Celestial, Draconic, Infernal",
+      "legendary_actions_json": "null",
+      "name": "Algorith",
+      "page_no": 14,
+      "perception": 7,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 17",
+      "size": "Medium",
+      "skills_json": "{\"athletics\": 9, \"insight\": 7, \"investigation\": 5, \"perception\": 7}",
+      "special_abilities_json": "[{\"name\": \"Immutable Form\", \"desc\": \"The algorith is immune to any spell or effect that would alter its form.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"The algorith's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:\\n\\nat will: aid, blur, detect magic, dimension door\\n\\n5/day each: dispel magic\\n\\n1/day: commune (5 questions), wall of force\"}]",
+      "speed_json": "{\"walk\": 40, \"fly\": 40}",
+      "spells_json": "null",
+      "strength": 21,
+      "type": "Construct",
+      "wisdom": 16,
+      "wisdom_save": 7
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Algorith",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-algorith"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_Sometimes called folding angels, algoriths are lawful beings made from sheer force, pure math, and universal physical laws._  \n**Creatures of Pure Reason.**They are the border guards of the Conceptual Realms, warding subjective beings from the Realms of the Absolute. Eternal, remorseless, and unceasingly vigilant, they guard against the monstrosities that lurk in the multiverse’s most obscure dimensions, and seek out and eliminate chaos even from the abodes of the gods.  \n**Foes of Chaos.**They visit mortal realms when chaos threatens to unravel a location, or when the skeins of fate are tangled. On some occasions, an algorith will serve a god of Law or answer the summons of a skein witch.  \nAlgoriths fight with conjured blades of force, and they can also summon universal energy that deconstructs randomness, weakening enemies or reducing them to finely ordered crystalline dust.  \n**Social but Mysterious.** In groups, they move and fight in silent coordination. Only tiny variations in the formulas etched into their skins identify one algorith from another. Five is a number of extreme importance to all algoriths, but few are willing (or able) to explain why to anyone who isn’t an algorith. Algoriths may have castes, ranks, or commanders, but no mortal has decoded the mathematical blazons adorning their flesh.The algoriths themselves refuse to discuss these formulas with those who do not comprehend them.  \n**Constructed Nature.** An algorith doesn’t require air, food, drink, or sleep.",
+      "name": "Algorith",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Иногда называемые складными ангелами, алгоритмы - законные существа, созданные из чистой силы, чистой математики и универсальных физических законов.\n\n**Существа чистого разума.** Они - пограничные стражи Концептуальных Сфер, предохраняющие субъективных существ от Царств Абсолюта. Вечные, безрассудные и безжалостно бдительные, они охраняют от чудовищ, скрывающихся в самых туманных измерениях мультивселенной, и ищут и устраняют хаос даже из обители богов.\n\n**Враги Хаоса.** Они посещают Смертные Царства, когда хаос угрожает рассыпать место, или когда клубки судьбы запутаны. В некоторых случаях, алгорит будет служить богом Закона или отвечать на вызов ведьмы мотка.\n\nАлгоритмы сражаются с заколдованными лезвиями силы, и они также могут вызывать универсальную энергию, которая разбирает случайность, ослабляя врагов или сокращая их до тонко упорядоченной кристаллической пыли.\n\n**Социальные, но загадочные.** В группах они двигаются и сражаются в безмолвной координации. Только крошечные вариации в формулах, выгравированных на их шкурах, идентифицируют один алгоритм от другого. Пять - это число крайней важности для всех алгоритмов, но мало кто готов (или способен) объяснить, почему это происходит с кем-то, кто не является алгоритмом. Алгоритмы могут иметь касты, чины или командиров, но ни один смертный не расшифровал математические гербы, украшающие их плоть. Сами алгоритмы отказываются обсуждать эти формулы с теми, кто их не понимает.\n\n**Конструированная природа.** Алгоритм не требует воздуха, пищи, напитков или сна.",
+      "glossary_version": "v1",
+      "name": "Алгорит",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

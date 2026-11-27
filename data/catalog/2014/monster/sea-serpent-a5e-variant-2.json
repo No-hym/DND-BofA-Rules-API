@@ -1,0 +1,136 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "sea-serpent-a5e",
+  "id": "o5e:menagerie:monster:sea-serpent-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:sea-serpent-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "d9f06cce3ec8bd95d2cc3b6ee751bacb59228ff54717356423583c946b2d7a46",
+    "formulas": [
+      {
+        "expression": "15d20+90",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 17,
+      "challenge_rating": "16",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "15d20+90",
+      "hit_points": 247,
+      "languages": "",
+      "size": "Gargantuan"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "d9f06cce3ec8bd95d2cc3b6ee751bacb59228ff54717356423583c946b2d7a46",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:sea-serpent-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Coils\", \"desc\": \"Melee Weapon Attack: +14 to hit, reach 5 ft., one Large or larger target in its space. Hit: 51 (4d20 + 9) bludgeoning damage. If the target is a creature  it is grappled (escape DC 22). If the target is an object  it is held. Until the grapple or hold ends  the targets speed is reduced to 0  and the sea serpents coils attack automatically hits the target. If an attacker subjects the serpent to a critical hit  this grapple or hold ends.\"}, {\"name\": \"Tail\", \"desc\": \"Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 27 (4d8 + 9) bludgeoning damage. If the target is a creature  it makes a DC 22 Strength saving throw. On a failure  it is pushed up to 15 feet away from the serpent and knocked prone.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 31 (4d10 + 9) piercing damage.\"}, {\"name\": \"Thrash (While Bloodied)\", \"desc\": \"The serpent moves up to its speed and then attacks with its tail and its bite.\"}, {\"name\": \"Recover (1/Day, While Bloodied)\", \"desc\": \"The serpent ends one condition or effect on itself.\"}]",
+      "armor_class": 17,
+      "bonus_actions_json": "null",
+      "challenge_rating": "16",
+      "charisma": 8,
+      "charisma_save": 4,
+      "constitution": 22,
+      "constitution_save": 11,
+      "cr": 16.0,
+      "dexterity": 10,
+      "dexterity_save": 5,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "15d20+90",
+      "hit_points": 247,
+      "intelligence": 4,
+      "intelligence_save": 2,
+      "legendary_actions_json": "null",
+      "name": "Sea Serpent",
+      "page_no": 386,
+      "reactions_json": "[{\"name\": \"Reactive Bite\", \"desc\": \"If the serpent takes 15 damage or more from a melee attack made by a creature it can see, it bites the attacker.\"}, {\"name\": \"Reactive Tail\", \"desc\": \"If the serpent takes 15 damage or more from an attack made by a creature or object it can see, it makes a tail attack against the attacker.\"}]",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 12",
+      "size": "Gargantuan",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Amphibious\", \"desc\": \"The serpent can breathe air and water.\"}, {\"name\": \"Reactive\", \"desc\": \"The serpent can take two reactions per round, one with its tail and one with its bite. It can't take two reactions on the same turn.\"}, {\"name\": \"Sinuous\", \"desc\": \"The serpent can share the space of other creatures and objects.\"}]",
+      "speed_json": "{\"walk\": 10, \"swim\": 50}",
+      "spells_json": "null",
+      "strength": 28,
+      "type": "Monstrosity",
+      "wisdom": 14,
+      "wisdom_save": 7
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Sea Serpent",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-sea-serpent"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Sea Serpent",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Гигантское чудовище. Класс доспеха: 17. Хиты: 247 (15к20+90). Показатель опасности: 16.",
+      "glossary_version": "derived-v1",
+      "name": "Сеа Серпент",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

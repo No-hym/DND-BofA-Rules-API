@@ -1,0 +1,194 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_bull",
+  "id": "o5e:tob2:creature:tob2-bull",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-bull"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e922e7ad2da15d262b7d5e470a25152dbe61d030dff546fd277faa3f39697cf4",
+    "formulas": [
+      {
+        "expression": "3d10+9",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 9,
+      "alignment": "unaligned",
+      "armor_class": 11,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "3d10+9",
+      "hit_points": 25,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 9,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 40
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "e922e7ad2da15d262b7d5e470a25152dbe61d030dff546fd277faa3f39697cf4",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-bull",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 12,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 9,
+      "alignment": "unaligned",
+      "armor_class": 11,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "document": "tob2",
+      "hit_dice": "3d10+9",
+      "hit_points": 25,
+      "hover": false,
+      "name": "Bull",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 9,
+      "size": "large",
+      "type": "beast",
+      "walk": 40,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +4 к попаданию, досягаемость 5 фт., одна цель. Попадание: 11 (2к6+4) колющего урона.",
+          "external_id": "tob2_bull_gore",
+          "name": "Gore",
+          "name_ru": "Горе",
+          "order_in_statblock": 1,
+          "parent": "tob2_bull",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) bludgeoning damage.",
+          "desc_ru": "Атака оружием ближнего боя: +4 к попаданию, досягаемость 5 фт., одна цель. Попадание: 9 (2к4+4) дробящего урона.",
+          "external_id": "tob2_bull_hooves",
+          "name": "Hooves",
+          "name_ru": "Хоовес",
+          "order_in_statblock": 0,
+          "parent": "tob2_bull",
+          "ru_source": "template"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "If the bull moves at least 30 feet in a straight line toward a target and then hits it with a gore attack on the same turn, the target takes an extra 3 (1d6) piercing damage.",
+          "desc_ru": "Особенность «Чарге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_bull_charge",
+          "name": "Charge",
+          "name_ru": "Чарге",
+          "parent": "tob2_bull",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Bull",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Bull",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Массивные четвероногие с жестокими рогами, быки — территориальные звери, известные тем, что атакуют существ, которых они воспринимают как вызов.",
+      "glossary_version": "v1",
+      "name": "Бык",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

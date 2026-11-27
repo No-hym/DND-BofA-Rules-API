@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "fallen-solar-a5e",
+  "id": "o5e:menagerie:monster:fallen-solar-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:fallen-solar-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "eb3be258873c83d647279f2e548a5eaec96bbc47a434ca8ee74b188a88df51d4",
+    "formulas": [
+      {
+        "expression": "22d10+198",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 21,
+      "challenge_rating": "21",
+      "condition_immunities": "charmed, exhaustion, frightened, poisoned",
+      "damage_immunities": "necrotic, poison",
+      "damage_resistances": "radiant; damage from nonmagical weapons",
+      "damage_vulnerabilities": "radiant",
+      "hit_dice": "22d10+198",
+      "hit_points": 319,
+      "languages": "all, telepathy 120 ft.",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "eb3be258873c83d647279f2e548a5eaec96bbc47a434ca8ee74b188a88df51d4",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:fallen-solar-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The solar attacks twice with its holy sword.\"}, {\"name\": \"Holy Sword\", \"desc\": \"Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 23 (4d6 + 9) slashing damage plus 21 (6d6) radiant damage.\"}, {\"name\": \"Column of Flame\", \"desc\": \"Flame erupts in a 10-foot-radius  30-foot-tall cylinder centered on a point the solar can see within 60 feet of it. Each creature in the area makes a DC 21 Dexterity saving throw  taking 21 (6d6) fire damage and 21 (6d6) radiant damage of a failure  or half as much damage on a success.\"}, {\"name\": \"Consume Life Energy (1/Day)\", \"desc\": \"The angel feasts on the departing life energy of a humanoid within 5 feet. The target must have been slain within the last hour. The angel magically gains temporary hit points equal to half the dead creatures maximum hit points. These hit points last until depleted. Only a spell cast with a 9th-level slot can raise the corpse from the dead.\"}]",
+      "armor_class": 21,
+      "bonus_actions_json": "null",
+      "challenge_rating": "21",
+      "charisma": 30,
+      "charisma_save": 17,
+      "condition_immunities": "charmed, exhaustion, frightened, poisoned",
+      "constitution": 28,
+      "cr": 21.0,
+      "damage_immunities": "necrotic, poison",
+      "damage_resistances": "radiant; damage from nonmagical weapons",
+      "damage_vulnerabilities": "radiant",
+      "dexterity": 22,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "22d10+198",
+      "hit_points": 319,
+      "intelligence": 22,
+      "languages": "all, telepathy 120 ft.",
+      "legendary_actions_json": "[{\"name\": \"The solar can take 3 legendary actions\", \"desc\": \"Only one legendary action can be used at a time and only at the end of another creatures turn. The solar regains spent legendary actions at the start of its turn.\"}, {\"name\": \"Teleport\", \"desc\": \"The solar magically teleports up to 120 feet to an empty space it can see.\"}, {\"name\": \"Heal (3/Day)\", \"desc\": \"The solar touches a creature other than itself, magically healing 60 hit points of damage and ending any blindness, curse, deafness, disease, or poison on the target.\"}, {\"name\": \"Deafening Command (Costs 2 Actions)\", \"desc\": \"The solar speaks an echoing command. Each creature of the solars choice within 30 feet that can hear the solar and understands a language makes a DC 24 Charisma saving throw. Each creature that succeeds on the saving throw takes 21 (6d6) thunder damage. Each creature that fails its saving throw immediately takes a certain action, depending on the solars command. This is a magical charm effect.\"}, {\"name\": \"Abase yourself! The creature falls prone\", \"desc\": \"\"}, {\"name\": \"Approach! The creature must use its reaction\", \"desc\": \"\"}, {\"name\": \"Flee! The creature must use its reaction\", \"desc\": \"\"}, {\"name\": \"Surrender! The creature drops anything it is holding\", \"desc\": \"\"}]",
+      "name": "Fallen Solar",
+      "page_no": 19,
+      "reactions_json": "[{\"name\": \"Forceful Parry (While Bloodied)\", \"desc\": \"When a creature misses the solar with a melee attack, the solars parrying sword sparks with energy. The attacker takes 21 (6d6) lightning damage and makes a DC 24 Constitution saving throw. On a failure, it is pushed 10 feet away and falls prone.\"}]",
+      "route": "monsters/",
+      "senses": "truesight 120 ft., Passive Perception 27",
+      "size": "Large",
+      "skills_json": "{\"athletics\": 16, \"history\": 16, \"insight\": 17, \"perception\": 17, \"religion\": 17}",
+      "special_abilities_json": "[{\"name\": \"Champion of Truth\", \"desc\": \"The solar automatically detects lies. Additionally, it cannot lie.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"The solars spellcasting ability is Charisma (spell save DC 25). The solar can innately cast the following spells, requiring no material components: 1/day each: commune, control weather, resurrection\"}]",
+      "speed_json": "{\"walk\": 50, \"fly\": 150}",
+      "spells_json": "null",
+      "strength": 28,
+      "type": "Celestial",
+      "wisdom": 30,
+      "wisdom_save": 0
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Fallen Solar",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-fallen-solar"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Fallen Solar",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крупный небожитель. Класс доспеха: 21. Хиты: 319 (22к10+198). Уязвимость к урону: излучением. Сопротивление урону: излучением, damage from nonmagical weapons. Иммунитет к урону: некротической энергией, ядом. Иммунитет к состояниям: очарование, истощение, испуг, отравление. Показатель опасности: 21.",
+      "glossary_version": "derived-v1",
+      "name": "Фаллен Солар",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

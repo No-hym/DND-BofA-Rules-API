@@ -1,0 +1,132 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "merclops-a5e",
+  "id": "o5e:menagerie:monster:merclops-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:merclops-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7a192ad7c49b83e6375fe9a52daccd53a80da7ed333579166d157b20ad16fb39",
+    "formulas": [
+      {
+        "expression": "11d12+55",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 13,
+      "challenge_rating": "7",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "11d12+55",
+      "hit_points": 126,
+      "languages": "Giant",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "7a192ad7c49b83e6375fe9a52daccd53a80da7ed333579166d157b20ad16fb39",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:merclops-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The merclops makes two melee attacks.\"}, {\"name\": \"Club\", \"desc\": \"Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage.\"}, {\"name\": \"Harpoon\", \"desc\": \"Melee or Ranged Weapon Attack: +8 to hit, reach 10 ft. or range 90 ft. (see Poor Depth Perception)  one target. Hit: 27 (4d10 + 5) piercing damage. The target makes a DC 16 Strength saving throw. On a failure  the merclops pulls the target up to 30 feet toward the merclops.\"}]",
+      "armor_class": 13,
+      "bonus_actions_json": "[{\"name\": \"Thick Skulled (1/Day)\", \"desc\": \"The merclops can end one condition on itself that was imposed through a failed Wisdom saving throw.\"}]",
+      "challenge_rating": "7",
+      "charisma": 10,
+      "constitution": 20,
+      "cr": 7.0,
+      "dexterity": 10,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "11d12+55",
+      "hit_points": 126,
+      "intelligence": 8,
+      "languages": "Giant",
+      "legendary_actions_json": "null",
+      "name": "Merclops",
+      "page_no": 58,
+      "reactions_json": "[{\"name\": \"Big Windup\", \"desc\": \"When a creature hits the merclops with a melee attack, the merclops readies a powerful strike against its attacker. The merclops has advantage on the next club attack it makes against the attacker before the end of its next turn.\"}]",
+      "route": "monsters/",
+      "senses": "passive Perception 10",
+      "size": "Huge",
+      "skills_json": "{\"animal\": 0, \"survival\": 3}",
+      "special_abilities_json": "[{\"name\": \"Panicked Rage\", \"desc\": \"While a merclops is frightened and the source of its fear is in sight, it makes attack rolls with advantage instead of disadvantage.\"}, {\"name\": \"Poor Depth Perception\", \"desc\": \"The merclops makes all ranged attacks with disadvantage.\"}, {\"name\": \"Aquatic\", \"desc\": \"The merclops can breathe underwater.\"}]",
+      "speed_json": "{\"swim\": 60}",
+      "spells_json": "null",
+      "strength": 20,
+      "type": "Giant",
+      "wisdom": 10
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Merclops",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-merclops"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Merclops",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Огромный великан. Класс доспеха: 13. Хиты: 126 (11к12+55). Показатель опасности: 7.",
+      "glossary_version": "derived-v1",
+      "name": "Мерклопс",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

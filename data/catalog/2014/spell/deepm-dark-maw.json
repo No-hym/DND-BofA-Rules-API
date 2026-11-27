@@ -1,0 +1,279 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_dark-maw",
+  "id": "o5e:deepm:spell:deepm-dark-maw",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-dark-maw",
+      "o5e:dmag:spell:dark-maw"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "cf73c4f5e7501dcbc0cce07e4eef02980d00ede6646b6527fcf6cad2aaaae057",
+    "formulas": [
+      {
+        "expression": "1d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "necrotic"
+      ],
+      "duration": "1 round",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "cf73c4f5e7501dcbc0cce07e4eef02980d00ede6646b6527fcf6cad2aaaae057",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-dark-maw",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "b8f0c57689adfc9dfa795fc06759c5841a5278fd12bffe401ae55b83c2c0349c",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:dark-maw",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "necrotic"
+      ],
+      "desc": "Thick, penumbral ichor drips from your shadow-stained mouth, filling your mouth with giant shadow fangs. Make a melee spell attack against the target. On a hit, the target takes 1d8 necrotic damage as your shadowy fangs sink into it. If you have a bite attack (such as from a racial trait or a spell like [alter self](https://api.open5e.com/spells/after-self)), you can add your spellcasting ability modifier to the damage roll but not to your temporary hit points.\n\nIf you hit a humanoid target, you gain 1d4 temporary hit points until the start of your next turn.",
+      "document": "deepm",
+      "duration": "1 round",
+      "higher_level": "This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "name": "Dark Maw",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2945",
+          "parent": "deepm_dark-maw",
+          "type": "default"
+        },
+        {
+          "damage_roll": "1d8",
+          "external_id": "2946",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_1"
+        },
+        {
+          "damage_roll": "1d8",
+          "external_id": "2947",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_2"
+        },
+        {
+          "damage_roll": "1d8",
+          "external_id": "2948",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_3"
+        },
+        {
+          "damage_roll": "1d8",
+          "external_id": "2949",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_4"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "2950",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_5"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "2951",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_6"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "2952",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_7"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "2953",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_8"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "2954",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_9"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "2955",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_10"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "2956",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_11"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "2957",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_12"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "2958",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_13"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "2959",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_14"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "2960",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_15"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "2961",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_16"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "2962",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_17"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "2963",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_18"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "2964",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_19"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "2965",
+          "parent": "deepm_dark-maw",
+          "type": "player_level_20"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Dark Maw",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "Thick, penumbral ichor drips from your shadow-stained mouth, filling your mouth with giant shadow fangs. Make a melee spell attack against the target. On a hit, the target takes 1d8 necrotic damage as your shadowy fangs sink into it. If you have a bite attack (such as from a racial trait or a spell like [alter self](https://api.open5e.com/spells/after-self)), you can add your spellcasting ability modifier to the damage roll but not to your temporary hit points.\n\nIf you hit a humanoid target, you gain 1d4 temporary hit points until the start of your next turn.",
+      "name": "Dark Maw",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Густой, сумеречный ихор капает из вашего рта, окрашенного тенью, заполняя ваш рот гигантскими теневыми клыками. Совершите атаку заклинанием ближнего боя против цели. При попадании цель получает 1к8 некротического урона, когда ваши теневые клыки вонзаются в него. Если у вас есть атака укусом (например, от расовой черты или заклинания, такого как смена облика), вы можете добавить ваш модификатор характеристики заклинаний к броску урона, но не к вашим временным хитам.\n\nЕсли вы попадаете по гуманоидной цели, вы получаете 1к4 временных хита до начала вашего следующего хода.",
+      "glossary_version": "v1",
+      "name": "Тёмная пасть",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

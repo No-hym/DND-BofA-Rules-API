@@ -1,0 +1,173 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_planar-binding",
+  "id": "o5e:srd-2024:spell:srd-2024-planar-binding",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "ed7a5399692831aaacb6f4aa8246f09886fc3c797d96a97657b1954aa874f2bd",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1hour",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_cleric",
+        "srd-2024_druid",
+        "srd-2024_warlock",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "24 hours",
+      "level": 5,
+      "material": true,
+      "material_consumed": true,
+      "material_cost": null,
+      "material_specified": "a jewel worth 1,000+ GP, which the spell consumes",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_bard",
+        "type": "classes",
+        "value": [
+          "srd-2024_bard",
+          "srd-2024_cleric",
+          "srd-2024_druid",
+          "srd-2024_warlock",
+          "srd-2024_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1hour",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_cleric",
+        "srd-2024_druid",
+        "srd-2024_warlock",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "desc": "You attempt to bind a Celestial, an Elemental, a Fey, or a Fiend to your service. The creature must be within range for the entire casting of the spell. (Typically, the creature is first summoned into the center of the inverted version of the Magic Circle spell to trap it while this spell is cast.) At the completion of the casting, the target must succeed on a Charisma saving throw or be bound to serve you for the duration. If the creature was summoned or created by another spell, that spell's duration is extended to match the duration of this spell. A bound creature must follow your commands to the best of its ability. You might command the creature to accompany you on an adventure, to guard a location, or to deliver a message. If the creature is Hostile, it strives to twist your commands to achieve its own objectives. If the creature carries out your commands completely before the spell ends, it travels to you to report this fact if you are on the same plane of existence. If you are on a different plane, it returns to the place where you bound it and remains there until the spell ends.",
+      "document": "srd-2024",
+      "duration": "24 hours",
+      "higher_level": "The duration increases with a spell slot of level 6 (10 days), 7 (30 days), 8 (180 days), and 9 (366 days).",
+      "level": 5,
+      "material": true,
+      "material_consumed": true,
+      "material_specified": "a jewel worth 1,000+ GP, which the spell consumes",
+      "name": "Planar Binding",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "duration": "10 days",
+          "external_id": "10468",
+          "parent": "srd-2024_planar-binding",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "30 days",
+          "external_id": "10469",
+          "parent": "srd-2024_planar-binding",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "180 days",
+          "external_id": "10470",
+          "parent": "srd-2024_planar-binding",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "366 days",
+          "external_id": "10471",
+          "parent": "srd-2024_planar-binding",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Planar Binding",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "You attempt to bind a Celestial, an Elemental, a Fey, or a Fiend to your service. The creature must be within range for the entire casting of the spell. (Typically, the creature is first summoned into the center of the inverted version of the Magic Circle spell to trap it while this spell is cast.) At the completion of the casting, the target must succeed on a Charisma saving throw or be bound to serve you for the duration. If the creature was summoned or created by another spell, that spell's duration is extended to match the duration of this spell. A bound creature must follow your commands to the best of its ability. You might command the creature to accompany you on an adventure, to guard a location, or to deliver a message. If the creature is Hostile, it strives to twist your commands to achieve its own objectives. If the creature carries out your commands completely before the spell ends, it travels to you to report this fact if you are on the same plane of existence. If you are on a different plane, it returns to the place where you bound it and remains there until the spell ends.",
+      "name": "Planar Binding",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Ограждение 5-го уровня (Бард, Жрец, Друид, Волшебник)*\n\n**Время накладывания:** 1 час\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В, С, М (драгоценный камень стоимостью не менее 1 000 зм, расходуемый заклинанием)\n\n**Длительность:** 24 часов\n\nЭтим заклинанием вы пытаетесь привязать небожителя, элементаля, фею или исчадие к своей службе. Существо должно находиться в пределах дистанции на протяжении всего сотворения заклинания. (Обычно существо сначала призывается в центр перевёрнутого *магического круга*, чтобы удерживать его в ловушке, пока сотворяется это заклинание.) По завершении сотворения цель должна совершить спасбросок Харизмы. При провале она привязана служить вам на время действия заклинания. Если существо было призвано или создано другим заклинанием, длительность того заклинания продлевается, чтобы соответствовать длительности этого заклинания.\n\nПривязанное существо должно следовать вашим указаниям по мере своих способностей. Вы можете приказать существу сопровождать вас в приключении, охранять место или доставить послание. Существо подчиняется букве ваших указаний, но если оно враждебно к вам, оно стремится извратить ваши слова, чтобы достичь собственных целей. Если существо полностью выполняет ваши указания до окончания заклинания, оно отправляется к вам, чтобы сообщить об этом, если вы находитесь на одном плане существования. Если вы на другом плане существования, оно возвращается в место, где вы его привязали, и остаётся там до окончания заклинания.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания более высокого уровня, длительность увеличивается до 10 дней с ячейкой 6-го уровня, до 30 дней с ячейкой 7-го уровня, до 180 дней с ячейкой 8-го уровня и до года и одного дня с ячейкой 9-го уровня.",
+      "glossary_version": "v1",
+      "name": "Планарные узы",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

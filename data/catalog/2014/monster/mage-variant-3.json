@@ -1,0 +1,139 @@
+{
+  "attribution": "Title: 5e Core Rules; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wotc-srd; Source: http://dnd.wizards.com/articles/features/systems-reference-document-srd; License: OGL-1.0a (https://open5e.com/legal); System Reference Document 5.1 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "wotc-srd",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "mage",
+  "id": "o5e:wotc-srd:monster:mage-variant-3",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:wotc-srd:monster:mage"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "9aaec8382fbc9d0bce7c95d16272e5875254453bb3f00045fb81a1ffd3ceeba7",
+    "formulas": [
+      {
+        "expression": "9d8",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "any alignment",
+      "armor_class": 12,
+      "challenge_rating": "6",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "9d8",
+      "hit_points": 40,
+      "languages": "any four languages",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "wotc-srd",
+        "content_hash": "9aaec8382fbc9d0bce7c95d16272e5875254453bb3f00045fb81a1ffd3ceeba7",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:monster:mage",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Dagger\", \"desc\": \"Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.\", \"attack_bonus\": 5, \"damage_dice\": \"1d4\", \"damage_bonus\": 2}]",
+      "alignment": "any alignment",
+      "armor_class": 12,
+      "armor_desc": "15 with _mage armor_",
+      "bonus_actions_json": "null",
+      "challenge_rating": "6",
+      "charisma": 11,
+      "constitution": 11,
+      "cr": 6.0,
+      "desc": "**Mages** spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference.",
+      "dexterity": 14,
+      "document": 32,
+      "environments_json": "[\"Urban\", \"Desert\", \"Mountains\", \"Forest\", \"Ruin\", \"Laboratory\", \"Jungle\", \"Hills\", \"Feywild\", \"Shadowfell\", \"Swamp\", \"Settlement\"]",
+      "group": "NPCs",
+      "hit_dice": "9d8",
+      "hit_points": 40,
+      "intelligence": 17,
+      "intelligence_save": 6,
+      "languages": "any four languages",
+      "legendary_actions_json": "null",
+      "name": "Mage",
+      "page_no": 400,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "passive Perception 11",
+      "size": "Medium",
+      "skills_json": "{\"arcana\": 6, \"history\": 6}",
+      "special_abilities_json": "[{\"name\": \"Spellcasting\", \"desc\": \"The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The mage has the following wizard spells prepared:\\n\\n* Cantrips (at will): fire bolt, light, mage hand, prestidigitation\\n* 1st level (4 slots): detect magic, mage armor, magic missile, shield\\n* 2nd level (3 slots): misty step, suggestion\\n* 3rd level (3 slots): counterspell, fireball, fly\\n* 4th level (3 slots): greater invisibility, ice storm\\n* 5th level (1 slot): cone of cold\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "[\"fire bolt\", \"light\", \"mage hand\", \"prestidigitation\", \"detect magic\", \"mage armor\", \"magic missile\", \"shield\", \"misty step\", \"suggestion\", \"counterspell\", \"fireball\", \"fly\", \"greater invisibility\", \"ice storm\", \"cone of cold\"]",
+      "strength": 9,
+      "subtype": "any race",
+      "type": "Humanoid",
+      "wisdom": 12,
+      "wisdom_save": 4
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "wotc-srd",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+      "publication_date": "",
+      "publisher": "wotc-srd",
+      "title": "5e Core Rules"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Mage",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:bfrd:creature:bfrd-mage"
+  },
+  "publisher_id": "wotc-srd",
+  "source": "open5e:v1:wotc-srd",
+  "translations": {
+    "en": {
+      "description": "**Mages** spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference.",
+      "name": "Mage",
+      "source_version": "5.1",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Средний Гуманоид (любая раса), Любое мировоззрение*\n\n- **Класс Доспеха:** 12 (15 с *Доспехами мага*)\n- **Хиты:** 40 (9к8)\n- **Скорость:** 30 фт.\n\n| СИЛ      | ЛОВ      | ТЕЛ      | ИНТ      | МДР      | ХАР      |\n|:---:|:---:|:---:|:---:|:---:|:---:|\n| 9 (-1)   | 14 (+2)  | 11 (+0)  | 17 (+3)  | 12 (+1)  | 11 (+0)  |\n\n- **Спасброски:** Инт +6, Мдр +4\n- **Навыки:** Магия +6, История +6\n- **Чувства:** Пассивная Внимательность 11\n- **Языки:** любые четыре языка\n- **Показатель опасности:** 6 (2 300 ОО)",
+      "glossary_version": "v1",
+      "name": "Маг",
+      "source_version": "5.1",
+      "status": "source"
+    }
+  },
+  "version": "5.1"
+}

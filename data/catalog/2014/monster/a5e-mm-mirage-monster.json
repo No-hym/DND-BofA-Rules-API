@@ -1,0 +1,307 @@
+{
+  "attribution": "Title: Monstrous Menagerie; Author: Paul Hughes; Publisher: en-publishing; Source: https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "a5e-mm",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "a5e-mm_mirage-monster",
+  "id": "o5e:a5e-mm:creature:a5e-mm-mirage-monster",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-mm:creature:a5e-mm-mirage-monster"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "c5a7eaba4cf817efdebbf2195b2ba7e31547a41c3be6b6fce493e492bcb5dc7f",
+    "formulas": [
+      {
+        "expression": "9d12+18",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 6,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 14,
+      "alignment": "chaotic evil",
+      "armor_class": 12,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "4.000",
+      "climb": null,
+      "condition_immunities": [
+        "grappled",
+        "prone"
+      ],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60.0,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "9d12+18",
+      "hit_points": 76,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560.0,
+      "passive_perception": 12,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "huge",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30.0
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-mm",
+        "content_hash": "c5a7eaba4cf817efdebbf2195b2ba7e31547a41c3be6b6fce493e492bcb5dc7f",
+        "edition": "2014",
+        "id": "o5e:a5e-mm:creature:a5e-mm-mirage-monster",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:a5e-mm"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 6,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 14,
+      "alignment": "chaotic evil",
+      "armor_class": 12,
+      "category": "Monsters",
+      "challenge_rating": "4.000",
+      "condition_immunities": [
+        "grappled",
+        "prone"
+      ],
+      "condition_immunities_display": "grappled, prone",
+      "darkvision_range": 60.0,
+      "document": "a5e-mm",
+      "hit_dice": "9d12+18",
+      "hit_points": 76,
+      "hover": false,
+      "name": "Mirage Monster",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560.0,
+      "passive_perception": 12,
+      "size": "huge",
+      "skill_bonus_stealth": 4,
+      "type": "monstrosity",
+      "walk": 30.0,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "a5e-mm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://enpublishingrpg.com/collections/level-up-advanced-5th-edition-a5e/products/level-up-monstrous-menagerie-a5e",
+      "publication_date": "2021-12-12T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Monstrous Menagerie"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "LEGENDARY_ACTION",
+          "desc": "The mirage monster attacks with its bite.",
+          "desc_ru": "Действие «Укус»; тип: legendary_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_mirage-monster_bite",
+          "legendary_action_cost": 2,
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 2,
+          "parent": "a5e-mm_mirage-monster",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "LEGENDARY_ACTION",
+          "desc": "The mirage monster makes a pseudopod attack with a range of 15 feet. On a hit, the target makes a DC 14 Strength saving throw. On a failure, the target is pulled up to 15 feet towards the mirage monster.",
+          "desc_ru": "Действие «Граспинг Псеудопод»; тип: legendary_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_mirage-monster_grasping-pseudopod",
+          "legendary_action_cost": 1,
+          "name": "Grasping Pseudopod",
+          "name_ru": "Граспинг Псеудопод",
+          "order_in_statblock": 1,
+          "parent": "a5e-mm_mirage-monster",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc_ru": "Действие «Иф А Свалловед Креатуре Деалс 10 или Море Дамаге То Мимик Ин А Сингле Турн или Иф Мимик Диес Таргет Фаллс Проне Ин Ан Уноккупиед Спаке Иц Чоике Витин 5 Феет Мимик и Ис Но Лонгер Свалловед»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_mirage-monster_if-a-swallowed-creature-deals-10-or-more-damage-to-the-mimic-in-a-single-turn-or-if-the-mimic-dies-the-target-falls-prone-in-an-unoccupied-space-of-its-choice-within-5-feet-of-the-mimic-and-is-no-longer-swallowed",
+          "name": "If a swallowed creature deals 10 or more damage to the mimic in a single turn, or if the mimic dies, the target falls prone in an unoccupied space of its choice within 5 feet of the mimic and is no longer swallowed",
+          "name_ru": "Иф А Свалловед Креатуре Деалс 10 или Море Дамаге То Мимик Ин А Сингле Турн или Иф Мимик Диес Таргет Фаллс Проне Ин Ан Уноккупиед Спаке Иц Чоике Витин 5 Феет Мимик и Ис Но Лонгер Свалловед",
+          "order_in_statblock": 4,
+          "parent": "a5e-mm_mirage-monster",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The mimic makes a bite attack and a pseudopod attack.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_mirage-monster_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_mirage-monster",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) bludgeoning damage  and the target is subjected to the mimics Sticky trait.",
+          "desc_ru": "Действие «Псеудопод»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_mirage-monster_pseudopod",
+          "name": "Pseudopod",
+          "name_ru": "Псеудопод",
+          "order_in_statblock": 1,
+          "parent": "a5e-mm_mirage-monster",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "The mimic changes its form to resemble an inanimate object of its approximate size or changes into its true form, which is an amorphous blob. Objects it is carrying or stuck to are not transformed. While shapeshifted, its statistics are unchanged. It reverts to its true form if it dies.",
+          "desc_ru": "Действие «Шапешифт»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_mirage-monster_shapeshift",
+          "name": "Shapeshift",
+          "name_ru": "Шапешифт",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_mirage-monster",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The mimic makes a bite attack against a Medium or smaller creature restrained by it. If the attack hits and the mimic has not swallowed another creature  the target is swallowed and no longer stuck to the mimic. A swallowed creature has total cover from attacks from outside the mimic  is blinded and restrained  and takes 5 (2d4) acid damage at the start of each of the mimics turns.",
+          "desc_ru": "Действие «Сваллов»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_mirage-monster_swallow",
+          "name": "Swallow",
+          "name_ru": "Сваллов",
+          "order_in_statblock": 3,
+          "parent": "a5e-mm_mirage-monster",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "LEGENDARY_ACTION",
+          "desc": "Only one legendary action can be used at a time and only at the end of another creatures turn. It regains spent legendary actions at the start of its turn.",
+          "desc_ru": "Действие «Мираге Монстер Кан Таке 2 Легендарй Актионс»; тип: legendary_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_mirage-monster_the-mirage-monster-can-take-2-legendary-actions",
+          "legendary_action_cost": 1,
+          "name": "The mirage monster can take 2 legendary actions",
+          "name_ru": "Мираге Монстер Кан Таке 2 Легендарй Актионс",
+          "order_in_statblock": 0,
+          "parent": "a5e-mm_mirage-monster",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "While the mimic is motionless, it is indistinguishable from an inanimate object.",
+          "desc_ru": "Особенность «Фалсе Аппеаранке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_mirage-monster_false-appearance",
+          "name": "False Appearance",
+          "name_ru": "Фалсе Аппеаранке",
+          "parent": "a5e-mm_mirage-monster",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "If the mirage monster fails a saving throw, it can choose to succeed instead. When it does so, it immediately shapeshifts into its true form if it has not already done so.",
+          "desc_ru": "Особенность «Легендарй Ресистанке (1/дай)». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_mirage-monster_legendary-resistance-1day",
+          "name": "Legendary Resistance (1/Day)",
+          "name_ru": "Легендарй Ресистанке (1/дай)",
+          "parent": "a5e-mm_mirage-monster",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "A creature, object, or weapon that touches the mimic is stuck to the mimic. A creature can use an action to make a DC 14 Strength check, freeing itself or an object or creature within reach on a success. The effect also ends when the mimic chooses to end it or when the mimic dies.",
+          "desc_ru": "Особенность «Стикй». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_mirage-monster_sticky",
+          "name": "Sticky",
+          "name_ru": "Стикй",
+          "parent": "a5e-mm_mirage-monster",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "A mimic telepathically senses the presence of humanoids within 120 feet and gains a mental image of any inanimate object desired by any of the creatures it senses. This ability is blocked by 3 feet of wood or dirt, 1 foot of stone, 1 inch of common metal, or a thin sheet of lead.",
+          "desc_ru": "Особенность «Телепатик Сенсе». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_mirage-monster_telepathic-sense",
+          "name": "Telepathic Sense",
+          "name_ru": "Телепатик Сенсе",
+          "parent": "a5e-mm_mirage-monster",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "If the mimic is splashed with at least 1 gallon of water, it assumes its true form and the DC to escape its Sticky trait is reduced to 10 until the end of its next turn.",
+          "desc_ru": "Особенность «Ватер Солубле». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "a5e-mm_mirage-monster_water-soluble",
+          "name": "Water Soluble",
+          "name_ru": "Ватер Солубле",
+          "parent": "a5e-mm_mirage-monster",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Mirage Monster",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-mm",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Mirage Monster",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Огромное чудовище, мировоззрение: хаотично-злое. Класс доспеха: 12. Хиты: 76 (9к12+18). Скорость: ходьба 30 фт.. Характеристики: СИЛ 18, ЛОВ 14, ТЕЛ 14, ИНТ 6, МУД 14, ХАР 8. Иммунитет к состояниям: захват, положение ничком. Чувства: тёмное зрение 60 фт., пассивное Восприятие 12. Показатель опасности: 4. Структурированные механики записи: особенностей: 5, действий: 8.",
+      "glossary_version": "derived-v1",
+      "name": "Мираге Монстер",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

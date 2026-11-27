@@ -1,0 +1,136 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "runeswarm",
+  "id": "o5e:tob2:monster:runeswarm-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:runeswarm"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "9539adb07f7c72f82e68404814ab9542f5a27cd8301d0f593cfbf1e55b427ec0",
+    "formulas": [
+      {
+        "expression": "20d10+40",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "challenge_rating": "10",
+      "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
+      "damage_immunities": "",
+      "damage_resistances": "bludgeoning, piercing, slashing",
+      "damage_vulnerabilities": "",
+      "hit_dice": "20d10+40",
+      "hit_points": 150,
+      "languages": "—",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "9539adb07f7c72f82e68404814ab9542f5a27cd8301d0f593cfbf1e55b427ec0",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:runeswarm",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The runeswarm can use Runecast. It then makes two cutting runes attacks.\"}, {\"name\": \"Cutting Runes\", \"desc\": \"Melee Weapon Attack: +11 to hit, reach 0 ft., one creature in the swarm's space. Hit: 15 (6d4) slashing damage, or 7 (3d4) slashing damage if the swarm has half of its hp or fewer.\", \"attack_bonus\": 11, \"damage_dice\": \"6d4\"}, {\"name\": \"Runecast\", \"desc\": \"The runes swirling within the swarm form into the shape of a random rune, causing one of the following magical effects. Roll a d6 to determine the effect.\\n1. Algiz. The runeswarm magically calls 2d4 elk or 1 megaloceros. The called creatures arrive on initiative count 20 of the next round and defend the runeswarm. The beasts remain for 1 minute or until the runeswarm dies.\\n2. Dagaz. The runeswarm emits a burst of blinding light. Each creature within 20-feet of the swarm must succeed on a DC 16 Constitution saving throw or be blinded until the end of its next turn.\\n3. Ehwaz, Raido. A random willing target within 20 feet of the runeswarm gains the benefits of the expeditious retreat and freedom of movement spells for 1 minute.\\n4. Ingwaz. A random willing target within 20 feet of the runeswarm receives a brief glimpse of the immediate future and has advantage on its next ability check, attack roll, or saving throw.\\n5. Isaz, Kaunen, Sowilo, Turisaz. Fire, lightning, radiance, or cold winds swirl around the runeswarm. Each creature within 20 feet of the swarm must make a DC 16 Dexterity saving throw, taking 14 (4d6) cold (isaz), fire (kaunen), radiant (sowilo) or lightning (turisaz) damage on a failed save, or half as much damage on a successful one. Roll a d4 to determine the rune: isaz (1), kaunen (2), sowilo (3), turisaz (4).\\n6. Tewaz. The runeswarm glows with a baleful light. Each creature within 20 feet of the swarm must succeed on a DC 16 Wisdom saving throw or be frightened until the end of its next turn.\"}]",
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "bonus_actions_json": "null",
+      "challenge_rating": "10",
+      "charisma": 18,
+      "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
+      "constitution": 15,
+      "cr": 10.0,
+      "damage_resistances": "bludgeoning, piercing, slashing",
+      "desc": "A cloud of inky runes churns as some of the markings illuminate briefly._  \n**Untended Runes.** Runes that have gone unused for years or those created on ley lines sometimes gain a modicum of sentience and coalesce into a gestalt known as a runeswarm. The mix of runes flits about in random directions and remains inert except when it encounters living beings.  \n**Early Warning.** Runeswarms trigger their rune randomly, but the runes creating an effect light up moments before the swarms invoke the runes, giving canny observers the chance to prepare for the runeswarms’ effects.",
+      "dexterity": 20,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "20d10+40",
+      "hit_points": 150,
+      "intelligence": 2,
+      "languages": "—",
+      "legendary_actions_json": "null",
+      "name": "Runeswarm",
+      "page_no": 310,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 11",
+      "size": "Large",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Magic Resistance\", \"desc\": \"The runeswarm has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Swarm\", \"desc\": \"The runeswarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny creature. The swarm can't regain hp or gain temporary hp.\"}]",
+      "speed_json": "{\"walk\": 0, \"fly\": 60}",
+      "spells_json": "null",
+      "strength": 3,
+      "type": "Construct",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Runeswarm",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-runeswarm"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "A cloud of inky runes churns as some of the markings illuminate briefly._  \n**Untended Runes.** Runes that have gone unused for years or those created on ley lines sometimes gain a modicum of sentience and coalesce into a gestalt known as a runeswarm. The mix of runes flits about in random directions and remains inert except when it encounters living beings.  \n**Early Warning.** Runeswarms trigger their rune randomly, but the runes creating an effect light up moments before the swarms invoke the runes, giving canny observers the chance to prepare for the runeswarms’ effects.",
+      "name": "Runeswarm",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Облако чернильных рун кружит, когда некоторые из меток кратко освещаются.\n\n**Неухоженные руны.** Руны, которые годами не использовались, или те, что созданы на лей-линиях, иногда получают толику разума и сливаются в гештальт, известный как рой рун. Смесь рун порхает в случайных направлениях и остаётся инертной, за исключением когда она встречает живых существ.\n\n**Раннее предупреждение.** Рои рун активируют свою руну случайно, но руны, создающие эффект, загораются за мгновения до того, как рои вызовут руны, давая проницательным наблюдателям шанс подготовиться к эффектам роёв рун.",
+      "glossary_version": "v1",
+      "name": "Рой рун",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

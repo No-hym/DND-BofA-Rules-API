@@ -1,0 +1,209 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob_gbahali-postosuchus",
+  "id": "o5e:tob:creature:tob-gbahali-postosuchus",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:creature:tob-gbahali-postosuchus"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "af44bd53f74fe7b41056118ac786a282994afec34fa89386d9e8e199701107f6",
+    "formulas": [
+      {
+        "expression": "12d12+48",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 19,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 21,
+      "ability_score_wisdom": 13,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "6.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "12d12+48",
+      "hit_points": 126,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": 10560,
+      "passive_perception": 14,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "huge",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 50
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "af44bd53f74fe7b41056118ac786a282994afec34fa89386d9e8e199701107f6",
+        "edition": "2014",
+        "id": "o5e:tob:creature:tob-gbahali-postosuchus",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 19,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 21,
+      "ability_score_wisdom": 13,
+      "alignment": "unaligned",
+      "armor_class": 15,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "6.000",
+      "document": "tob",
+      "hit_dice": "12d12+48",
+      "hit_points": 126,
+      "hover": false,
+      "languages_desc": "-",
+      "name": "Gbahali (Postosuchus)",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 14,
+      "size": "huge",
+      "skill_bonus_perception": 4,
+      "skill_bonus_stealth": 8,
+      "type": "beast",
+      "walk": 50,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 24 (3d12 + 5) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the gbahali can't bite another target.",
+          "desc_ru": "Действие «Укус»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_gbahali-postosuchus_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "tob_gbahali-postosuchus",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +8 к попаданию, досягаемость 5 фт., одна цель. Попадание: 14 (2к8+5) рубящего урона.",
+          "external_id": "tob_gbahali-postosuchus_claw",
+          "name": "Claw",
+          "name_ru": "Коготь",
+          "order_in_statblock": 2,
+          "parent": "tob_gbahali-postosuchus",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The gbahali makes one bite attack and two claw attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_gbahali-postosuchus_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob_gbahali-postosuchus",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The gbahali has advantage on Dexterity (Stealth) checks. If the gbahali moves one-half its speed or less, attacks made against it before the start of the gbahali's next turn have disadvantage.",
+          "desc_ru": "Особенность «Чамелеон Хиде». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_gbahali-postosuchus_chameleon-hide",
+          "name": "Chameleon Hide",
+          "name_ru": "Чамелеон Хиде",
+          "parent": "tob_gbahali-postosuchus",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Gbahali (Postosuchus)",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Gbahali (Postosuchus)",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Большая рептилия с похожими на кинжал зубами и чешуйчатой шкурой меняющихся цветов, гбахали часто бьёт с близкого расстояния.\n\n**Крокодилы-хамелеоны.** Хотя связаны далёко с крокодилами, гбахали приспособились к жизни вдали от воды. Чтобы компенсировать отсутствие укрытия, гбахали развили способности хамелеона. Шкура меняет цвет, чтобы соответствовать своему окружению так идеально, что становится почти невидимым. Любой одинокий камень на лугах может оказаться гбахали, ожидающий вдоль тропы, маршруту каравана или водопоя. Их толстая кожа может быть сделана в коже или кожаной броне, и с помощью химических методов она сохраняет некоторые из её свойств изменения цвета.\n\n**Сильные охотники.** Гбахали - мощные хищники, оспариваемые только соперниками, слишком большими для гбахали, чтобы схватилась или хищники, которые охотятся в пакетах и гордостях, например, львы и гноллы. Гбахали живут одиночной жизнью, за вычетом осени, когда самцы ищут самок на своей территории. Самки откладывают яйца весной и охраняют гнездо до вылупления яиц, но молодые гбахали брошены на свои устройства. Убийство взрослого гбахали - знак храбрости и мастерства для охотников на равнинах.\n\n**Часовые и отстающие.** В бою гбахали полагается на свою хамелеоновую силу, чтобы заставить жертву попасть в засаду. Оно может спокойно ждать часами, но её скорость и скрытность означает, что оно быстро наносит удары, особенно против слабых или одиночных жертв. Её натиск достаточно силен, чтобы разбросать стадо и оставить позади самых медленных для гбахали, чтобы завершить.",
+      "glossary_version": "v1",
+      "name": "Гбахали (постозух)",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

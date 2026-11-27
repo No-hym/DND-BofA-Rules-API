@@ -1,0 +1,178 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_blood-to-acid",
+  "id": "o5e:deepm:spell:deepm-blood-to-acid",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-blood-to-acid",
+      "o5e:dmag:spell:blood-to-acid"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "a121383c4bb6bd96eb4786c46335cb9bdd696fd16138e92e10ad1a38ad7eb61f",
+    "formulas": [
+      {
+        "expression": "10d12",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "10d12",
+      "damage_types": [
+        "acid"
+      ],
+      "duration": "instantaneous",
+      "level": 9,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "a121383c4bb6bd96eb4786c46335cb9bdd696fd16138e92e10ad1a38ad7eb61f",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-blood-to-acid",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "92d56846c37d662d1572001e5973e0e9f0804b37a216ac0cebbfd3c414f50cb3",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:blood-to-acid",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "10d12",
+      "damage_types": [
+        "acid"
+      ],
+      "desc": "When you cast this spell, you designate a creature within range and convert its blood into virulent acid. The target must make a Constitution saving throw. On a failed save, it takes 10d12 acid damage and is stunned by the pain for 1d4 rounds. On a successful save, it takes half the damage and isn’t stunned.\n\nCreatures without blood, such as constructs and plants, are not affected by this spell. If **blood to acid** is cast on a creature composed mainly of blood, such as a [blood elemental](https://api.open5e.com/monsters/blood-elemental) or a [blood zombie](https://api.open5e.com/monsters/blood-zombie), the creature is slain by the spell if its saving throw fails.",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "level": 9,
+      "material": false,
+      "material_consumed": false,
+      "name": "Blood to Acid",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2531",
+          "parent": "deepm_blood-to-acid",
+          "type": "default"
+        }
+      ],
+      "descriptions": [
+        {
+          "desc": "The corrosive spray of a black dragon’s breath and the dissolving enzymes secreted by a black pudding deal acid damage.",
+          "desc_ru": "Описание. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "describes": "acid",
+          "document": "srd-2014",
+          "external_id": "srd-2014_acid",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Corrosive liquids, digestive enzymes",
+          "desc_ru": "Описание. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "describes": "acid",
+          "document": "srd-2024",
+          "external_id": "srd-2024_acid",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Blood to Acid",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "When you cast this spell, you designate a creature within range and convert its blood into virulent acid. The target must make a Constitution saving throw. On a failed save, it takes 10d12 acid damage and is stunned by the pain for 1d4 rounds. On a successful save, it takes half the damage and isn’t stunned.\n\nCreatures without blood, such as constructs and plants, are not affected by this spell. If **blood to acid** is cast on a creature composed mainly of blood, such as a [blood elemental](https://api.open5e.com/monsters/blood-elemental) or a [blood zombie](https://api.open5e.com/monsters/blood-zombie), the creature is slain by the spell if its saving throw fails.",
+      "name": "Blood to Acid",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Когда вы произносите это заклинание, вы обозначили существо в пределах дистанции и превратили его кровь в вирулентную кислоту. Цель должна совершить спасбросок Телосложения. При неудачном спасении, она получает 10к12 урона кислотой и ошеломлена болью в течение 1к4 раундов. При успешном спасении, он получает половину урона и не оглушён.\n\nСущества без крови, такие как конструкты и растения, не пострадал от этого заклинания. Если **Кровь в кислоту** накладывается на существо, состоящее в основном из крови, такую как элементаль крови или зомби крови, существо убивают заклинанием, если его спасбросок не удаётся.",
+      "glossary_version": "v1",
+      "name": "Кровь в кислоту",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

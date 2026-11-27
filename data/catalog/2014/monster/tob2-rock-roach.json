@@ -1,0 +1,214 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_rock-roach",
+  "id": "o5e:tob2:creature:tob2-rock-roach",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-rock-roach"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "1c168b4f676f38827eae362d97744e8e2f749665b6014575edb85aef42de09ea",
+    "formulas": [
+      {
+        "expression": "9d8+27",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 1,
+      "ability_score_constitution": 17,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 15,
+      "ability_score_wisdom": 6,
+      "alignment": "unaligned",
+      "armor_class": 16,
+      "armor_detail": "natural armor",
+      "blindsight_range": 60,
+      "burrow": 20,
+      "category": "Monsters",
+      "challenge_rating": "2.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [
+        "bludgeoning"
+      ],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "9d8+27",
+      "hit_points": 67,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 8,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "1c168b4f676f38827eae362d97744e8e2f749665b6014575edb85aef42de09ea",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-rock-roach",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 1,
+      "ability_score_constitution": 17,
+      "ability_score_dexterity": 14,
+      "ability_score_intelligence": 1,
+      "ability_score_strength": 15,
+      "ability_score_wisdom": 6,
+      "alignment": "unaligned",
+      "armor_class": 16,
+      "armor_detail": "natural armor",
+      "blindsight_range": 60,
+      "burrow": 20,
+      "category": "Monsters",
+      "challenge_rating": "2.000",
+      "damage_resistances": [
+        "bludgeoning"
+      ],
+      "damage_resistances_display": "bludgeoning",
+      "document": "tob2",
+      "hit_dice": "9d8+27",
+      "hit_points": 67,
+      "hover": false,
+      "name": "Rock Roach",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 8,
+      "size": "medium",
+      "type": "beast",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 5 (1d6 + 2) acid damage, and the target takes 3 (1d6) acid damage at the start of its next turn unless the target immediately uses its reaction to wipe off the spit.",
+          "desc_ru": "Действие «Кислотный Спит»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_rock-roach_acid-spit",
+          "name": "Acid Spit",
+          "name_ru": "Кислотный Спит",
+          "order_in_statblock": 1,
+          "parent": "tob2_rock-roach",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +4 к попаданию, досягаемость 5 фт., одно существо. Попадание: 9 (2к6+2) колющего урона.",
+          "external_id": "tob2_rock-roach_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 2,
+          "parent": "tob2_rock-roach",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The rock roach makes two bite attacks. Alternatively, it can use Acid Spit twice.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_rock-roach_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_rock-roach",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The rock roach has two brains: one in its head and one in its abdomen. It can continue functioning normally, even if its head is removed or destroyed. While both its brains are intact, the rock roach uses its Constitution modifier instead of its Intelligence modifier when making Intelligence saving throws.",
+          "desc_ru": "Особенность «Дуал Браин». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_rock-roach_dual-brain",
+          "name": "Dual Brain",
+          "name_ru": "Дуал Браин",
+          "parent": "tob2_rock-roach",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Rock Roach",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Rock Roach",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Насекомое цепляется к большой скале и капает слюну на неё. Клуб пара поднимается из скалы, а существо лижет жидкие останки, оставляя оспину в камне.\n\n**Пожиратели скал.** Скальный таракан — гигантский кузен таракана, и он питается скалами глубоко под землёй. Он использует свой хоботок, чтобы откладывать кислотную слюну на скалу, разрушая её и поглощая сжиженные минералы. Метаболизм скального таракана медленный, чтобы соответствовать его утомительному процессу поедания. Даже всё равно, группа скальных тараканов может быстро справиться со скальной стеной, открывая маршруты между пещерами. Тараканы не озабочены структурной целостностью, и их привычки поедания, если оставлены без препятствий, часто приводят к обвалам.\n\n**Естественно враждебные.** Скальные тараканы инстинктивно враждебны ко всему, что бродит недавно от них, включая друг друга. Тараканы спариваются ежегодно, и родители бросают яйца вскоре после их откладывания. Молодые скальные тараканы объединяются вместе на первые несколько месяцев жизни, защищая друг друга, когда они пожирают скалу, где они вылупились, затем рассеиваются, как только они достаточно большие, чтобы защищаться.",
+      "glossary_version": "v1",
+      "name": "Скальный таракан",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

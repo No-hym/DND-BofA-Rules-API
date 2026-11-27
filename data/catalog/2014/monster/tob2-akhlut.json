@@ -1,0 +1,243 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_akhlut",
+  "id": "o5e:tob2:creature:tob2-akhlut",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-akhlut"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7048768c03297a6d55da20c24cdd5e629680a5a66e9579aa4f40fdbc57960ede",
+    "formulas": [
+      {
+        "expression": "16d10+32",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 10,
+      "ability_score_constitution": 15,
+      "ability_score_dexterity": 15,
+      "ability_score_intelligence": 4,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "blindsight_range": 120,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "6.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [
+        "cold"
+      ],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "16d10+32",
+      "hit_points": 120,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 14,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": 60,
+      "walk": 40
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "7048768c03297a6d55da20c24cdd5e629680a5a66e9579aa4f40fdbc57960ede",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-akhlut",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 10,
+      "ability_score_constitution": 15,
+      "ability_score_dexterity": 15,
+      "ability_score_intelligence": 4,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 12,
+      "alignment": "unaligned",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "blindsight_range": 120,
+      "category": "Monsters",
+      "challenge_rating": "6.000",
+      "damage_resistances": [
+        "cold"
+      ],
+      "damage_resistances_display": "cold",
+      "document": "tob2",
+      "hit_dice": "16d10+32",
+      "hit_points": 120,
+      "hover": false,
+      "name": "Akhlut",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 14,
+      "size": "large",
+      "skill_bonus_perception": 4,
+      "skill_bonus_stealth": 5,
+      "swim": 60,
+      "type": "beast",
+      "walk": 40,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 18 (4d6 + 4) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +7 к попаданию, досягаемость 5 фт., одна цель. Попадание: 18 (4к6+4) колющего урона.",
+          "external_id": "tob2_akhlut_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "tob2_akhlut",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The akhlut makes two attacks: one with its bite and one with its tail slam. It can't make both attacks against the same target.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_akhlut_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_akhlut",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 22 (4d8 +4) bludgeoning damage.",
+          "desc_ru": "Атака оружием ближнего боя: +7 к попаданию, досягаемость 10 фт., одна цель. Попадание: 22 (4к8+4) дробящего урона.",
+          "external_id": "tob2_akhlut_tail-slam",
+          "name": "Tail Slam",
+          "name_ru": "Хвост Удар",
+          "order_in_statblock": 2,
+          "parent": "tob2_akhlut",
+          "ru_source": "template"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The akhlut can’t use its blindsight while deafened.",
+          "desc_ru": "Особенность «Ечолокатион». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_akhlut_echolocation",
+          "name": "Echolocation",
+          "name_ru": "Ечолокатион",
+          "parent": "tob2_akhlut",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The akhlut can hold its breath for 30 minutes.",
+          "desc_ru": "Может задерживать дыхание на 30 минут.",
+          "external_id": "tob2_akhlut_hold-breath",
+          "name": "Hold Breath",
+          "name_ru": "Холд Бреат",
+          "parent": "tob2_akhlut",
+          "ru_source": "template"
+        },
+        {
+          "desc": "The akhlut has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+          "desc_ru": "Особенность «Кеен Хеаринг и Смелл». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_akhlut_keen-hearing-and-smell",
+          "name": "Keen Hearing and Smell",
+          "name_ru": "Кеен Хеаринг и Смелл",
+          "parent": "tob2_akhlut",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The akhlut has advantage on attack rolls against a creature if at least one of the akhlut’s allies is within 5 feet of the creature and the ally isn’t incapacitated.",
+          "desc_ru": "Особенность «Пак Тактикс». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_akhlut_pack-tactics",
+          "name": "Pack Tactics",
+          "name_ru": "Пак Тактикс",
+          "parent": "tob2_akhlut",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Akhlut",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Akhlut",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Обладая телом, головой и хвостом касатки и могущественными ногами огромного волка, ахлут — альфа-хищник полярного ландшафта. По-настоящему олицетворяя термин «морской волк», эти разумные и выносливые существа свободно путешествуют между землёй и морем в поисках добычи.\n\nАхлуты — хозяева их владения. Хотя они были замечены по всем океанам мира и многим его побережьям, ахлуты наиболее удобны в холодных регионах с лёгким доступом к морю. Поскольку их стаи могут достигать почти дюжины членов, всё честная игра от оленей и тюленей до мамонтов и китов. Единственные существа, достаточно могущественные или достаточно безрассудные, чтобы выселить стаю ахлутов с их территории, — драконы и другие ахлуты.\n\n**Игривые хищники.** Ахлуты обладают неоспоримым коварством и любознательностью, без двух стай, использующих те же стратегии, чтобы решать проблемы или охотиться на добычу. Легко скучающие, ахлуты жаждут стимуляции и, как известно, следуют за кораблями и караванами мили в надеждах, что кто-то может предоставить что-то новое или захватывающее испытать. Они могут быть особенно озорными, освобождая рыбу и дичь из ловушек чисто чтобы охотиться на существ самим.\n\n**Опасные кони.** Естественная сила, разум и универсальность ахлута делают их невероятно желанными конями, но усилие приручить одно из этих существ опасно и не должно предприниматься легкомысленно. Даже ахлуты, которые были конями годами, достаточно своевольны, чтобы утверждать себя время от времени. С большим терпением и небольшой удачей ахлуты могут стать яростно лояльными и защищающими спутниками.",
+      "glossary_version": "v1",
+      "name": "Ахлут",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

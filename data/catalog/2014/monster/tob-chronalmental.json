@@ -1,0 +1,343 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob_chronalmental",
+  "id": "o5e:tob:creature:tob-chronalmental",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creature:tob-2023-chronalmental",
+      "o5e:tob:creature:tob-chronalmental"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5ce879ae917b6b0a53d98dfd80955d61e1fed4d33e8c579cfee866a0b6660490",
+    "formulas": [
+      {
+        "expression": "16d10+64",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 19,
+      "ability_score_dexterity": 20,
+      "ability_score_intelligence": 9,
+      "ability_score_strength": 1,
+      "ability_score_wisdom": 13,
+      "alignment": "unaligned",
+      "armor_class": 17,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "8.000",
+      "climb": null,
+      "condition_immunities": [
+        "exhaustion",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "unconscious"
+      ],
+      "damage_immunities": [
+        "bludgeoning",
+        "piercing",
+        "poison",
+        "slashing"
+      ],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [
+        "arctic",
+        "caves",
+        "coast",
+        "desert",
+        "forest",
+        "grassland",
+        "hills",
+        "laboratory",
+        "lake",
+        "mountain",
+        "ocean",
+        "ruins",
+        "sewer",
+        "shadowfell",
+        "srd_abyss",
+        "srd_astral-plane",
+        "srd_elysium",
+        "srd_ethereal-plane",
+        "srd_feywild",
+        "srd_hell",
+        "srd_material-plane",
+        "srd_plane-of-air",
+        "srd_plane-of-earth",
+        "srd_plane-of-fire",
+        "srd_plane-of-water",
+        "swamp",
+        "temple",
+        "tob_badlands",
+        "tomb",
+        "underworld",
+        "urban"
+      ],
+      "fly": null,
+      "hit_dice": "16d10+64",
+      "hit_points": 152,
+      "initiative_bonus": null,
+      "languages": [
+        "celestial",
+        "infernal"
+      ],
+      "languages_desc": "Celestial, Infernal",
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "5ce879ae917b6b0a53d98dfd80955d61e1fed4d33e8c579cfee866a0b6660490",
+        "edition": "2014",
+        "id": "o5e:tob:creature:tob-chronalmental",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "1c86b22e580fe0d3f88f346f73f9f54db22b04c55de62cbe6378a508d5b1934c",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creature:tob-2023-chronalmental",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 19,
+      "ability_score_dexterity": 20,
+      "ability_score_intelligence": 9,
+      "ability_score_strength": 1,
+      "ability_score_wisdom": 13,
+      "alignment": "unaligned",
+      "armor_class": 17,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "8.000",
+      "condition_immunities": [
+        "exhaustion",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "unconscious"
+      ],
+      "condition_immunities_display": "exhaustion, paralyzed, petrified, poisoned, unconscious",
+      "damage_immunities": [
+        "bludgeoning",
+        "piercing",
+        "poison",
+        "slashing"
+      ],
+      "damage_immunities_display": "poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "darkvision_range": 60,
+      "document": "tob",
+      "environments": [
+        "arctic",
+        "caves",
+        "coast",
+        "desert",
+        "forest",
+        "grassland",
+        "hills",
+        "laboratory",
+        "lake",
+        "mountain",
+        "ocean",
+        "ruins",
+        "sewer",
+        "shadowfell",
+        "srd_abyss",
+        "srd_astral-plane",
+        "srd_elysium",
+        "srd_ethereal-plane",
+        "srd_feywild",
+        "srd_hell",
+        "srd_material-plane",
+        "srd_plane-of-air",
+        "srd_plane-of-earth",
+        "srd_plane-of-fire",
+        "srd_plane-of-water",
+        "swamp",
+        "temple",
+        "tob_badlands",
+        "tomb",
+        "underworld",
+        "urban"
+      ],
+      "hit_dice": "16d10+64",
+      "hit_points": 152,
+      "hover": false,
+      "languages": [
+        "celestial",
+        "infernal"
+      ],
+      "languages_desc": "Celestial, Infernal",
+      "name": "Chronalmental",
+      "nonmagical_attack_immunity": true,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "size": "large",
+      "type": "elemental",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "The chronalmental targets one creature it can see within 30 feet of it. The target must succeed on a DC 16 Wisdom saving throw or be magically shunted outside of time. The creature disappears for 1 minute. As an action, the displaced creature can repeat the saving throw. On a success, the target returns to its previously occupied space, or the nearest unoccupied space.",
+          "desc_ru": "Действие «Дисплаке»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_chronalmental_displace",
+          "name": "Displace",
+          "name_ru": "Дисплаке",
+          "order_in_statblock": 3,
+          "parent": "tob_chronalmental",
+          "ru_source": "derived",
+          "uses_param": 5,
+          "uses_type": "RECHARGE_ON_ROLL"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The chronalmental makes 1d4 + 1 slam attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_chronalmental_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob_chronalmental",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage.",
+          "desc_ru": "Атака оружием ближнего боя: +8 к попаданию, досягаемость 5 фт., одна цель. Попадание: 16 (2к10+5) дробящего урона.",
+          "external_id": "tob_chronalmental_slam",
+          "name": "Slam",
+          "name_ru": "Удар",
+          "order_in_statblock": 1,
+          "parent": "tob_chronalmental",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The chronalmental targets one creature it can see within 30 feet of it. The targeted creature must make a DC 16 Wisdom saving throw. On a failed saving throw, the chronalmental draws some of the creature's time into itself and gains +10 to its position in initiative order. In addition, the target's speed is reduced by half, it can't take reactions, and it can take either an action or a bonus action on its turn, but not both. While it is stealing time, the chronalmental's speed increases by 30 feet, and when it takes the multiattack action, it can make an additional slam attack. The targeted creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.",
+          "desc_ru": "Действие «Стеал Тиме»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_chronalmental_steal-time",
+          "name": "Steal Time",
+          "name_ru": "Стеал Тиме",
+          "order_in_statblock": 2,
+          "parent": "tob_chronalmental",
+          "ru_source": "derived",
+          "uses_param": 1,
+          "uses_type": "PER_DAY"
+        },
+        {
+          "action_type": "REACTION",
+          "desc": "When a creature the chronalmental can see moves within 5 feet of it, the chronalmental can shift itself to a place it occupied in the past, teleporting up to 60 feet to an unoccupied space, along with any equipment it is wearing or carrying.",
+          "desc_ru": "Действие «Степ Бетвеен Секондс»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_chronalmental_step-between-seconds",
+          "name": "Step Between Seconds",
+          "name_ru": "Степ Бетвеен Секондс",
+          "order_in_statblock": 0,
+          "parent": "tob_chronalmental",
+          "ru_source": "derived",
+          "uses_param": 4,
+          "uses_type": "RECHARGE_ON_ROLL"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "When a chronalmental is subjected to a slow spell, haste spell, or similar effect, it automatically succeeds on the saving throw and regains 13 (3d8) hit points.",
+          "desc_ru": "Особенность «Темпорал Бодй». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_chronalmental_temporal-body",
+          "name": "Temporal Body",
+          "name_ru": "Темпорал Бодй",
+          "parent": "tob_chronalmental",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Chronalmental",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Chronalmental",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Хрональменталя трудно прижать, и он может казаться большим человекообразным отсутствием в воздухе, которое раскрывает сначала поле звёзд, затем искривлённую радугу цветных полос, затем блестящий белый свет, мерцая в существовании и из него.\n\n**Текучие как время.** Сдвигаясь между прошлым, настоящим и будущим, хрональментали сформированы из временной энергии. Они текут как песок в песочных часах и существуют между тиканьями часов.\n\nПервые хрональментали были выкованы из лишнего времени, оставшегося от начала вселенной. Многие служили ударными войсками в непостижимых войнах между ангелами и исчадиями или богами и древними титанами. Большинство были потеряны между секундами или покинуты дрейфовать бесцельно на Астральном Плане или в пустоте между звёздами.\n\n**Стюарды бедствия.** Местоположения исторической значимости — и прошлого, и будущего — привлекают хрональменталей. У них слабость к полям сражений и другим местам распрей. Поскольку они притянуты к примечательным местам, хрональментали имеют репутацию предвестников бедствия, и их присутствие может вызвать панику среди учёных, жрецов и мудрецов.\n\n**Экологический хаос.** Неважно, какая местность, окружающая среда ведёт себя странно вокруг хрональменталя. Рухнувшие стены могут внезапно подняться, саженцы становятся массивными деревьями, и павшие солдаты переживают их умирающие моменты. Эти изменения происходят случайно, побочный эффект присутствия хрональменталя, и вещи возвращаются в норму, когда они уходят.\n\n**Стихийная природа.** Хрональменталю не требуются воздух, пища, питьё или сон.",
+      "glossary_version": "v1",
+      "name": "Хрональменталь",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

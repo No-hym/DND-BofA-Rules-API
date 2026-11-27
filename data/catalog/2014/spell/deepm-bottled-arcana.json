@@ -1,0 +1,169 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_bottled-arcana",
+  "id": "o5e:deepm:spell:deepm-bottled-arcana",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-bottled-arcana",
+      "o5e:dmag:spell:bottled-arcana"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5157aec06ac0e6fd316b9331a6a5d78f8acd01523738c66ec0ec8cb7a48fa557",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "24 hours",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "an empty glass container",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "5157aec06ac0e6fd316b9331a6a5d78f8acd01523738c66ec0ec8cb7a48fa557",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-bottled-arcana",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "593a12a5c9f40c470381544405ff9ca59af0acdeb920736b2929a95ee34e2131",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:bottled-arcana",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "By touching an empty, stoppered glass container such as a vial or flask, you magically enable it to hold a single spell. To be captured, the spell must be cast within 1 round of casting **bottled arcana** and it must be intentionally cast into the container. The container can hold one spell of 3rd level or lower. The spell can be held in the container for as much as 24 hours, after which the container reverts to a mundane vessel and any magic inside it dissipates harmlessly.\n\nAs an action, any creature can unstop the container, thereby releasing the spell. If the spell has a range of self, the creature opening the container is affected; otherwise, the creature opening the container designates the target according to the captured spell’s description. If a creature opens the container unwittingly (not knowing that the container holds a spell), the spell targets the creature opening the container or is centered on its space instead (whichever is more appropriate). [Dispel magic](https://api.open5e.com/spells/dispel-magic) cast on the container targets **bottled arcana**, not the spell inside. If **bottled arcana** is dispelled, the container becomes mundane and the spell inside dissipates harmlessly.\n\nUntil the spell in the container is released, its caster can’t regain the spell slot used to cast that spell. Once the spell is released, its caster regains the use of that slot normally.\n",
+      "document": "deepm",
+      "duration": "24 hours",
+      "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the level of the spell the container can hold increases by one for every slot level above 5th.",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "an empty glass container",
+      "name": "Bottled Arcana",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2599",
+          "parent": "deepm_bottled-arcana",
+          "type": "default"
+        },
+        {
+          "external_id": "2601",
+          "parent": "deepm_bottled-arcana",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "2602",
+          "parent": "deepm_bottled-arcana",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "2603",
+          "parent": "deepm_bottled-arcana",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2604",
+          "parent": "deepm_bottled-arcana",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Bottled Arcana",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "By touching an empty, stoppered glass container such as a vial or flask, you magically enable it to hold a single spell. To be captured, the spell must be cast within 1 round of casting **bottled arcana** and it must be intentionally cast into the container. The container can hold one spell of 3rd level or lower. The spell can be held in the container for as much as 24 hours, after which the container reverts to a mundane vessel and any magic inside it dissipates harmlessly.\n\nAs an action, any creature can unstop the container, thereby releasing the spell. If the spell has a range of self, the creature opening the container is affected; otherwise, the creature opening the container designates the target according to the captured spell’s description. If a creature opens the container unwittingly (not knowing that the container holds a spell), the spell targets the creature opening the container or is centered on its space instead (whichever is more appropriate). [Dispel magic](https://api.open5e.com/spells/dispel-magic) cast on the container targets **bottled arcana**, not the spell inside. If **bottled arcana** is dispelled, the container becomes mundane and the spell inside dissipates harmlessly.\n\nUntil the spell in the container is released, its caster can’t regain the spell slot used to cast that spell. Once the spell is released, its caster regains the use of that slot normally.",
+      "name": "Bottled Arcana",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Касаясь пустого закупоренного стеклянного контейнера, такого как флакон или колба, вы магически позволяете ему держать одно заклинание. Чтобы быть захваченным, заклинание должно быть сотворено в пределах 1 раунда сотворения этого заклинания, и оно должно быть умышленно сотворено в контейнер. Контейнер может держать одно заклинание 3-го уровня или ниже. Заклинание может держаться в контейнере до 24 часов, после чего контейнер возвращается в обыденный сосуд, и любая магия внутри неё рассеивается безвредно.\n\nДействием любое существо может откупорить контейнер, таким образом выпуская заклинание. Если заклинание имеет дистанцию на себя, существо, открывшее контейнер, затронуто; иначе существо, открывающее контейнер, указывает цель в соответствии с описанием захваченного заклинания. Если существо открывает контейнер неосознанно (не зная, что контейнер держит заклинание), заклинание целится в существо, открывающее контейнер, или центрировано на его пространстве вместо этого (какое бы ни было более подходящим). Рассеивание магии, сотворённое на контейнер, целится в это заклинание, а не заклинание внутри. Если это заклинание рассеяно, контейнер становится обыденным и заклинание внутри рассеивается безвредно.\n\nПока заклинание в контейнере не выпущено, его заклинатель не может восстановить ячейку заклинания, использованный, чтобы сотворить это заклинание. Как только заклинание выпущено, его заклинатель восстанавливает использование этой ячейки как обычно.",
+      "glossary_version": "v1",
+      "name": "Аркана в бутылке",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

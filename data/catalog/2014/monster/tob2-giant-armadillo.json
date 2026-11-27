@@ -1,0 +1,186 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_giant-armadillo",
+  "id": "o5e:tob2:creature:tob2-giant-armadillo",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-giant-armadillo"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "447829e15ab9e6b8cbf78fe57418b2424958a037fda815fa4c898d16d9d6c403",
+    "formulas": [
+      {
+        "expression": "3d6",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 8,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 12,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 12,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": 15,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "3d6",
+      "hit_points": 10,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "",
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "small",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 25
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "447829e15ab9e6b8cbf78fe57418b2424958a037fda815fa4c898d16d9d6c403",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-giant-armadillo",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 6,
+      "ability_score_constitution": 10,
+      "ability_score_dexterity": 8,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 12,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 12,
+      "armor_detail": "natural armor",
+      "burrow": 15,
+      "category": "Monsters",
+      "challenge_rating": "0.250",
+      "darkvision_range": 60,
+      "document": "tob2",
+      "hit_dice": "3d6",
+      "hit_points": 10,
+      "hover": false,
+      "name": "Giant Armadillo",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "size": "small",
+      "type": "beast",
+      "walk": 25,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +3 к попаданию, досягаемость 5 фт., одна цель. Попадание: 4 (1к6+1) рубящего урона.",
+          "external_id": "tob2_giant-armadillo_claws",
+          "name": "Claws",
+          "name_ru": "Когти",
+          "order_in_statblock": 0,
+          "parent": "tob2_giant-armadillo",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The giant armadillo tucks its entire body into its shell, forming an armored ball. While in this form, it moves by rolling around, it has resistance to bludgeoning, piercing, and slashing damage, and it can't take the Attack action or burrow. The giant armadillo can return to its true form as a bonus action.",
+          "desc_ru": "Действие «Тук Ин»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_giant-armadillo_tuck-in",
+          "name": "Tuck In",
+          "name_ru": "Тук Ин",
+          "order_in_statblock": 1,
+          "parent": "tob2_giant-armadillo",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Giant Armadillo",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Giant Armadillo",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Гигантские броненосцы выглядят как гибрид трубкозуба, носорога и черепахи с грозно выглядящими когтями, используемыми в основном для рытья. Эти существа обычно мирны и стремятся избегать конфликта, когда это возможно.",
+      "glossary_version": "v1",
+      "name": "Гигантский броненосец",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

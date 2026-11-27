@@ -1,0 +1,180 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_alarm",
+  "id": "o5e:srd-2014:spell:srd-alarm-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-alarm",
+      "o5e:wotc-srd:spell:alarm"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c795cf5b4f696f9f4b53ece000e9320a63116e3e4668cf60661af8685e490951",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "ritual",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [
+        "srd_ranger",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "8 hours",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "A tiny bell and a piece of fine silver wire.",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "saving_throw_ability": "",
+      "school": "abjuration",
+      "shape_size": 20.0,
+      "shape_size_unit": null,
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "c795cf5b4f696f9f4b53ece000e9320a63116e3e4668cf60661af8685e490951",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-alarm",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "fced6fa951d95446bde4e6d973a952e80c2b4ac300aef443d367b42b47c08531",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:alarm",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_ranger",
+        "type": "classes",
+        "value": [
+          "srd_ranger",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [
+        "srd_ranger",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "desc": "You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. \n\nWhen you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible. A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping. An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.",
+      "document": "srd-2014",
+      "duration": "8 hours",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "A tiny bell and a piece of fine silver wire.",
+      "name": "Alarm",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": true,
+      "school": "abjuration",
+      "shape_size": 20.0,
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "area",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5044",
+          "parent": "srd_alarm",
+          "type": "default"
+        },
+        {
+          "external_id": "5045",
+          "parent": "srd_alarm",
+          "type": "ritual"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Alarm",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:a5e-ag:spell:a5e-ag-alarm"
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. \n\nWhen you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible. A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping. An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.",
+      "name": "Alarm",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Ограждение 1-го уровня (Следопыт, Волшебник)*\n\n**Время накладывания:** 1 минута или Ритуал\n\n**Дистанция:** 30 футов\n\n**Компоненты:** В, С, М (крошечный колокольчик и кусочек тонкой серебряной проволоки)\n\n**Длительность:** 8 часов\n\nВы устанавливаете сигнализацию против нежелательного вторжения. Выберите дверь, окно или область в пределах дистанции, не превышающую 20-футовый куб. Пока заклинание не закончится, сигнализация предупреждает вас, когда Крошечное или большее существо касается защищённой области или входит в неё. При сотворении заклинания вы можете указать существ, которые не будут активировать сигнализацию. Вы также выбираете, будет ли сигнализация мысленной или звуковой.\n\nМысленная сигнализация оповещает вас мысленным звоном, если вы находитесь в пределах 1 мили от защищённой области. Этот звон пробуждает вас, если вы спите.\n\nЗвуковая сигнализация издаёт звук ручного колокольчика в течение 10 секунд в радиусе 60 футов.",
+      "glossary_version": "v1",
+      "name": "Тревога",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

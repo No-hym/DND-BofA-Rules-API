@@ -1,0 +1,143 @@
+{
+  "attribution": "Title: Tome of Beasts 2023; Author: Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur; Publisher: tob-2023; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. 2023 Open Design LLC. All rights reserved.",
+  "book_id": "tob-2023",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "queenofwitches-tob1-2023",
+  "id": "o5e:tob-2023:monster:queenofwitches-tob1-2023-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:monster:queenofwitches-tob1-2023"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "400ce8bb98102271513be4cda7a300c2fbe9bc79e6ad4ac003d66dfe8b553ce9",
+    "formulas": [
+      {
+        "expression": "23d10 + 92",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "Neutral",
+      "armor_class": 18,
+      "challenge_rating": "17",
+      "condition_immunities": "blinded, charmed, frightened",
+      "damage_immunities": "radiant",
+      "damage_resistances": "cold, fire; bludgeoning, piercing, and slashing from nonmagical attacks not made with cold iron weapons",
+      "damage_vulnerabilities": "False",
+      "hit_dice": "23d10 + 92",
+      "hit_points": 218,
+      "languages": "Celestial, Common, Draconic, Elvish, Sylvan, Umbral",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob-2023",
+        "content_hash": "400ce8bb98102271513be4cda7a300c2fbe9bc79e6ad4ac003d66dfe8b553ce9",
+        "edition": "2014",
+        "id": "o5e:tob-2023:monster:queenofwitches-tob1-2023",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The Queen of Witches makes three Moonsilver Ring attacks or four Mystical Blast attacks. She can replace one attack with a use of spellcasting. If she hits one creature with two Mystical Blast attacks, the target must succeed on a DC 20 Strength saving throw or be pushed up to 10 feet away from her.\"}, {\"name\": \"Moonsilver Ring\", \"desc\": \"Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) slashing damage plus 7 (2d6) radiant damage.\"}, {\"name\": \"Mystical Blast\", \"desc\": \"Melee or Ranged Spell Attack: +12 to hit, reach 5 ft. or range 120 ft., one target. Hit: 16 (3d6 + 6) force damage.\"}, {\"name\": \"Spray of Moonlight (Recharge 5-6)\", \"desc\": \"The Queen of Witches sends moonlight flooding out from her. Each creature within 15 feet of her must make a DC 20 Dexterity saving throw, taking 42 (12d6) radiant damage on a failed save, or half as much damage on a successful one. If the Queen is standing in an area of moonlight when she uses this action, each creature in the area has disadvantage on the saving throw. A creature that fails the saving throw by 5 or more is blinded until the end of its next turn.\"}, {\"name\": \"Spellcasting\", \"desc\": \"The Queen of Witches casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (save DC 20):\\nAt will: faerie fire, silent image, tongues\\n3/day each: dispel magic, hypnotic pattern, teleportation circle (as an action)\\n2/day each: bestow curse, mass suggestion, flesh to stone\\n1/day each: power word kill, sleep (as a 9th level spell), true polymorph\"}]",
+      "alignment": "Neutral",
+      "armor_class": 18,
+      "armor_desc": "natural armor",
+      "challenge_rating": "17",
+      "charisma": 22,
+      "charisma_save": 12,
+      "condition_immunities": "blinded, charmed, frightened",
+      "constitution": 19,
+      "cr": 17.0,
+      "damage_immunities": "radiant",
+      "damage_resistances": "cold, fire; bludgeoning, piercing, and slashing from nonmagical attacks not made with cold iron weapons",
+      "damage_vulnerabilities": "False",
+      "desc": "False",
+      "dexterity": 10,
+      "dexterity_save": 6,
+      "document": 47,
+      "group": "null",
+      "hit_dice": "23d10 + 92",
+      "hit_points": 218,
+      "intelligence": 16,
+      "languages": "Celestial, Common, Draconic, Elvish, Sylvan, Umbral",
+      "legendary_actions_json": "[{\"name\": \"Mystical Blast\", \"desc\": \"The Queen makes one Mystical Blast attack.\"}, {\"name\": \"Teleport\", \"desc\": \"The Queen magically teleports, along with any equipment she is wearing or carrying, to an unoccupied space she can see within 60 feet.\"}, {\"name\": \"Cast a Spell (Costs 2 Actions)\", \"desc\": \"The Queen of Witches uses Spellcasting.\"}]",
+      "legendary_desc": "The Queen of Witches can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The Queen regains spent legendary actions at the start of her turn.",
+      "name": "Queen of Witches",
+      "page_no": 180,
+      "perception": 20,
+      "reactions_json": "[{\"name\": \"Absorb Spell\", \"desc\": \"When a creature the Queen of Witches can see within 30 feet of her casts a spell, the Queen can absorb the spell's energy, countering it. This works like the counterspell spell, except the Queen must always make a spellcasting ability check, no matter the spell's level. Her ability check for this is +10. If she successfully counters the spell, she regains 5 hp for each level of the spell.\"}]",
+      "route": "monsters/",
+      "senses": "darkvision 120 ft., truesight 60 ft., passive Perception 20",
+      "size": "Large",
+      "skills_json": "{\"Arcana\": 15, \"Deception\": 12, \"History\": 9, \"Insight\": 10, \"Perception\": 10}",
+      "special_abilities_json": "[{\"name\": \"Magic Resistance\", \"desc\": \"The Queen of Witches has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Moonlit Weapons\", \"desc\": \"The Queen of Witches's weapon attacks are magical. When she hits with any weapon, the weapon deals an extra 7 (2d6) radiant damage (included in the attack).\"}, {\"name\": \"Legendary Resistance (3/Day)\", \"desc\": \"If the Queen of Witches fails a saving throw, she can choose to succeed instead.\"}, {\"name\": \"Token of Favor\", \"desc\": \"The Queen of Witches can spend 1 minute cutting and tying a lock of her hair into a small token of her favor. A creature that is wearing or carrying the favor gains the benefits of the Magic Resistance trait. The Queen can revoke this magic at any time (no action required). If she does so, the creature has disadvantage on saving throws against spells and other magical effects for 24 hours.\"}]",
+      "speed_json": "{\"walk\": 50, \"fly\": 40}",
+      "spells_json": "null",
+      "strength": 22,
+      "type": "Fey",
+      "wisdom": 18,
+      "wisdom_save": 10
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur",
+      "key": "tob-2023",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+      "publication_date": "",
+      "publisher": "tob-2023",
+      "title": "Tome of Beasts 2023"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Queen of Witches",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:tob-2023:creature:tob-2023-queen-of-witches"
+  },
+  "publisher_id": "tob-2023",
+  "source": "open5e:v1:tob-2023",
+  "translations": {
+    "en": {
+      "description": "False",
+      "name": "Queen of Witches",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Крупная фея, мировоззрение: нейтральное. Класс доспеха: 18. Хиты: 218 (23к10 + 92). Сопротивление урону: холодом, огнём, дробящего, колющего, and slashing from nonmagical attacks not made with cold iron weapons. Иммунитет к урону: излучением. Иммунитет к состояниям: ослепление, очарование, испуг. Показатель опасности: 17.",
+      "glossary_version": "derived-v1",
+      "name": "Королева Витчес",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

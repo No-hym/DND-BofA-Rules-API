@@ -1,0 +1,194 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_draconic-smite",
+  "id": "o5e:deepm:spell:deepm-draconic-smite",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-draconic-smite",
+      "o5e:dmag:spell:draconic-smite"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "949c946522e1296643f325e260fb36705d2a6272fe54a79079597133e61a4c50",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "949c946522e1296643f325e260fb36705d2a6272fe54a79079597133e61a4c50",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-draconic-smite",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "61c2d1408646134eda448986f3ec159fa2d1e6a3ae4c10440af9409cf16b0702",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:draconic-smite",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "concentration": true,
+      "desc": "The next time you hit a creature with a melee weapon attack during the spell’s duration, your weapon takes on the form of a silver dragon’s head. Your attack deals an extra 1d6 cold damage, and up to four other creatures of your choosing within 30 feet of the attack’s target must each make a successful Constitution saving throw or take 1d6 cold damage.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, the extra cold damage and the cold damage dealt to the secondary creatures increases by 1d6 for each slot level above 1st.",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Draconic Smite",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3095",
+          "parent": "deepm_draconic-smite",
+          "type": "default"
+        },
+        {
+          "external_id": "3097",
+          "parent": "deepm_draconic-smite",
+          "type": "slot_level_2"
+        },
+        {
+          "external_id": "3098",
+          "parent": "deepm_draconic-smite",
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "3099",
+          "parent": "deepm_draconic-smite",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "3100",
+          "parent": "deepm_draconic-smite",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "3101",
+          "parent": "deepm_draconic-smite",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3102",
+          "parent": "deepm_draconic-smite",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3103",
+          "parent": "deepm_draconic-smite",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3104",
+          "parent": "deepm_draconic-smite",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Draconic Smite",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "The next time you hit a creature with a melee weapon attack during the spell’s duration, your weapon takes on the form of a silver dragon’s head. Your attack deals an extra 1d6 cold damage, and up to four other creatures of your choosing within 30 feet of the attack’s target must each make a successful Constitution saving throw or take 1d6 cold damage.",
+      "name": "Draconic Smite",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "В следующий раз, когда вы попадаете по существу рукопашной атакой оружием во время длительности заклинания, ваше оружие принимает форму головы серебряного дракона. Ваша атака наносит дополнительные 1к6 урона холодом, и до четырёх других существ по вашему выбору в пределах 30 футов от цели атаки должны каждое совершить успешный спасбросок Телосложения или получить 1к6 урона холодом.",
+      "glossary_version": "v1",
+      "name": "Драконья кара",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

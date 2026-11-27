@@ -1,0 +1,227 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_abbanith-giant",
+  "id": "o5e:tob2:creature:tob2-abbanith-giant",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-abbanith-giant"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "5b5dbc1a0c4b0a511f58dd8c3644e65b9308b1129f1356ac1d590de41c75fafe",
+    "formulas": [
+      {
+        "expression": "9d10+27",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 11,
+      "ability_score_constitution": 17,
+      "ability_score_dexterity": 9,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 20,
+      "ability_score_wisdom": 13,
+      "alignment": "neutral",
+      "armor_class": 13,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": 30,
+      "category": "Monsters",
+      "challenge_rating": "3.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "9d10+27",
+      "hit_points": 76,
+      "initiative_bonus": null,
+      "languages": [
+        "giant"
+      ],
+      "languages_desc": "Giant, Terran",
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": 5,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": 7,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 40
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "5b5dbc1a0c4b0a511f58dd8c3644e65b9308b1129f1356ac1d590de41c75fafe",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-abbanith-giant",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 11,
+      "ability_score_constitution": 17,
+      "ability_score_dexterity": 9,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 20,
+      "ability_score_wisdom": 13,
+      "alignment": "neutral",
+      "armor_class": 13,
+      "armor_detail": "natural armor",
+      "burrow": 30,
+      "category": "Monsters",
+      "challenge_rating": "3.000",
+      "document": "tob2",
+      "hit_dice": "9d10+27",
+      "hit_points": 76,
+      "hover": false,
+      "languages": [
+        "giant"
+      ],
+      "languages_desc": "Giant, Terran",
+      "name": "Abbanith Giant",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "saving_throw_constitution": 5,
+      "saving_throw_strength": 7,
+      "size": "large",
+      "tremorsense_range": 120,
+      "type": "giant",
+      "walk": 40,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "REACTION",
+          "desc": "When a creature the abbanith can see within 30 feet of it casts a spell, the abbanith counters it. This reaction works like the counterspell spell, except the abbanith can only counter spells that directly affect or create earth or stone, such as stone shape, wall of stone, or move earth, and it doesn't need to make a spellcasting ability check, regardless of the spell's level.",
+          "desc_ru": "Действие «Еарт Коунтер»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_abbanith-giant_earth-counter",
+          "name": "Earth Counter",
+          "name_ru": "Еарт Коунтер",
+          "order_in_statblock": 0,
+          "parent": "tob2_abbanith-giant",
+          "ru_source": "derived",
+          "uses_param": 6,
+          "uses_type": "RECHARGE_ON_ROLL"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The abbanith giant makes two thumb claw attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_abbanith-giant_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_abbanith-giant",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) piercing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +7 к попаданию, досягаемость 5 фт., одна цель. Попадание: 12 (2к6+5) колющего урона.",
+          "external_id": "tob2_abbanith-giant_thumb-claw",
+          "name": "Thumb Claw",
+          "name_ru": "Тумб Коготь",
+          "order_in_statblock": 1,
+          "parent": "tob2_abbanith-giant",
+          "ru_source": "template"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The abbanith giant can detect the flows and rhythms of the earth—including things that interfere with these rhythms, such as earthquakes and magical anomalies. As a result, the abbanith giant can’t be surprised by an opponent that is touching the ground. In addition, the giant has advantage on attack rolls against constructs and elementals made of earth or stone.",
+          "desc_ru": "Особенность «Оне Вит Еарт». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_abbanith-giant_one-with-the-earth",
+          "name": "One with the Earth",
+          "name_ru": "Оне Вит Еарт",
+          "parent": "tob2_abbanith-giant",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The giant deals double damage to objects and structures and triple damage to objects and structures made of earth or stone.",
+          "desc_ru": "Особенность «Сиеге Монстер». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_abbanith-giant_siege-monster",
+          "name": "Siege Monster",
+          "name_ru": "Сиеге Монстер",
+          "parent": "tob2_abbanith-giant",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Abbanith Giant",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Abbanith Giant",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Этот великан имеет крупное мускулистое тело и маленькие глаза на его широком плоском лице. Большие пальцы великана заканчиваются большими чёрными когтями.\n\n**Древние великаны глубин.** Великаны аббаниты — одни из самых старых рас великанов, известных, и, как говорят, существовали с тех пор, как мир был впервые сформирован. Многие учёные обращаются к глубокой связи великанов с землёй как доказательству этого факта, и сами великаны не прилагают усилий, чтобы отрицать это. Действительно, устная традиция великанов аббанитов восходит тысячелетиями, к времени, когда боги ходили по земле, эльфы впервые изучали секреты магии, а люди всё ещё жили в пещерах. Большинство великанов аббанитов носят простые туники или шорты, сотканные из странного подземного гриба, хотя лидеры изредка носят доспех.\n\n**Совершенные копатели.** Великаны аббаниты обитают почти исключительно под землёй и искусны в использовании своих невероятно твёрдых когтей больших пальцев, чтобы копать массивные туннели сквозь землю. Друиды и волшебники, изучающие уникальную биологию великанов, выяснили, что материалы на минеральной основе действительно смягчаются, когда их бьют их когти. Эта особенность также сделала их целью дерро и дуэргаров-работорговцев, желающих использовать их навыки, чтобы добывать драгоценные камни или строить их укрепления, что великаны яростно противостоят, несмотря на их обычно мирный характер.",
+      "glossary_version": "v1",
+      "name": "Великан аббанит",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

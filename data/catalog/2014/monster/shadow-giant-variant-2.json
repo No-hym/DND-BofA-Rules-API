@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "shadow-giant",
+  "id": "o5e:tob2:monster:shadow-giant-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:shadow-giant"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "be777c057d4024a645eeeebdf7f76381d4377c266a20a5fc9887908ee1caa845",
+    "formulas": [
+      {
+        "expression": "22d20+66",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic evil",
+      "armor_class": 17,
+      "challenge_rating": "15",
+      "condition_immunities": "exhaustion",
+      "damage_immunities": "",
+      "damage_resistances": "cold, necrotic",
+      "damage_vulnerabilities": "",
+      "hit_dice": "22d20+66",
+      "hit_points": 209,
+      "languages": "Common, Elvish, Giant, Umbral",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "be777c057d4024a645eeeebdf7f76381d4377c266a20a5fc9887908ee1caa845",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:shadow-giant",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The shadow giant makes three attacks with its tenebrous talons.\"}, {\"name\": \"Tenebrous Talons\", \"desc\": \"Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 14 (2d6 + 7) slashing damage plus 18 (4d8) necrotic damage.\", \"attack_bonus\": 12, \"damage_dice\": \"2d6+7\"}, {\"name\": \"Cold Shadow (Recharge 5-6)\", \"desc\": \"The shadow giant directs its shadow to stretch out in a 60-foot cone. Each creature in that area must make a DC 18 Constitution saving throw. On a failure, a creature takes 52 (15d6) cold damage and has disadvantage on attack rolls and saving throws until the end of its next turn. On a success, a creature takes half the damage and doesn't have disadvantage.\"}]",
+      "alignment": "chaotic evil",
+      "armor_class": 17,
+      "bonus_actions_json": "null",
+      "challenge_rating": "15",
+      "charisma": 21,
+      "condition_immunities": "exhaustion",
+      "constitution": 17,
+      "cr": 15.0,
+      "damage_resistances": "cold, necrotic",
+      "desc": "If not for the horns curling from its brow and the long, bestial talons erupting from its fingers, the creature would look like a grim-faced, ashen-skinned elf of monstrous height._  \n**Cast into Darkness.** In ages past, shadow giants were called hjartakinde, and they dwelt in the lands of the fey. When the giants declined to go to war with the shadow fey, the fey exiled them to the Shadow  \n**Realm.** When they refused to serve the dark fey courts, the queen cursed them into their current form.  \n**Of Two Worlds.** Shadow giants are cursed to exist simultaneously on the Shadow Realm and the Material Plane. Unable to properly live in either world, they have become embittered and indignant. Shadow giants desire to end their cursed existence but lash out against anyone who shows them pity or mercy.  \n**Undying.** When a shadow giant is killed, its spirit roils in the Shadow Realm for a century before it is reborn to its cursed fate.",
+      "dexterity": 25,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "22d20+66",
+      "hit_points": 209,
+      "intelligence": 12,
+      "languages": "Common, Elvish, Giant, Umbral",
+      "legendary_actions_json": "null",
+      "name": "Shadow Giant",
+      "page_no": 173,
+      "perception": 6,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 120 ft., passive Perception 16",
+      "size": "Huge",
+      "skills_json": "{\"perception\": 6}",
+      "special_abilities_json": "[{\"name\": \"Blacklight Strobe\", \"desc\": \"The visual flicker of the shadow giant moving between the Material Plane and the Shadow Realm has a physical effect on viewers. A creature that starts its turn within 30 feet of the shadow giant and that can see it must succeed on a DC 18 Wisdom saving throw or be unable make more than one melee or ranged attack on its turn and unable to use bonus actions or reactions until the start of its next turn.\"}, {\"name\": \"Distracting Flicker\", \"desc\": \"A creature that starts its turn within 30 feet of the shadow giant and that is maintaining concentration on a spell must succeed on a DC 18 Constitution saving throw or lose concentration.\"}, {\"name\": \"Shadow Sight\", \"desc\": \"Magical darkness doesn't impede the shadow giant's darkvision.\"}, {\"name\": \"Umbral Glimmer\", \"desc\": \"At the end of each of the shadow giant's turns, it must roll a d20. On a roll of 11 or higher, it enters the Plane of\"}, {\"name\": \"Shadow from the Material Plane\", \"desc\": \"At the start of its next turn, it returns to the Material Plane in an unoccupied space of its choice that it can see within 40 feet of the space where it vanished. If no unoccupied space is available within that range, it appears in the nearest unoccupied space.\\n\\nWhile in the Plane of Shadow, the shadow giant can see and hear 120 feet into the Material\"}, {\"name\": \"Plane\", \"desc\": \"It can't affect or be affected by anything on the Material Plane while in the Plane of Shadow.\"}]",
+      "speed_json": "{\"walk\": 40}",
+      "spells_json": "null",
+      "strength": 18,
+      "type": "Giant",
+      "wisdom": 13,
+      "wisdom_save": 6
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Shadow Giant",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-shadow-giant"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "If not for the horns curling from its brow and the long, bestial talons erupting from its fingers, the creature would look like a grim-faced, ashen-skinned elf of monstrous height._  \n**Cast into Darkness.** In ages past, shadow giants were called hjartakinde, and they dwelt in the lands of the fey. When the giants declined to go to war with the shadow fey, the fey exiled them to the Shadow  \n**Realm.** When they refused to serve the dark fey courts, the queen cursed them into their current form.  \n**Of Two Worlds.** Shadow giants are cursed to exist simultaneously on the Shadow Realm and the Material Plane. Unable to properly live in either world, they have become embittered and indignant. Shadow giants desire to end their cursed existence but lash out against anyone who shows them pity or mercy.  \n**Undying.** When a shadow giant is killed, its spirit roils in the Shadow Realm for a century before it is reborn to its cursed fate.",
+      "name": "Shadow Giant",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Если бы не рога завивались от его лба и длинные звериные когти, извергающиеся из его пальцев, существо было бы похоже на мрачного, пепельным кожей эльфы огромной высоты.\n\n**Отлитый во тьму.** В прошедших веках гигантов Тенью называли хьяртакинде, и они жили в землях фей. Когда гиганты отказался идти на войну с теневыми феями, Феи изгнали их в Тень\n\n**Царство.** Когда они отказались служить кортам тёмных фей, Королева прокляла их в их нынешнем виде.\n\n**Из двух миров.** Гиганты Тени прокляты существовать одновременно на области Тени и материальном плане. Не в состоянии нормально жить в любом мире, они становятся озлобленными и возмущённо. Гиганты Тени хотят завершить своё проклятое существование, но они набрасываются на тех, кто покажет им жалость или милосердие.\n\n**Бессмертная.** Когда гигант Тенью убит, его дух бурлит в Теневом Царстве в течение столетия, пока он не возродится к своей проклятой судьбе.",
+      "glossary_version": "v1",
+      "name": "Гигант Тени",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

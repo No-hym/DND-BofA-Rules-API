@@ -1,0 +1,147 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_college-of-tactics",
+  "id": "o5e:toh:characterclass:toh-college-of-tactics",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-college-of-tactics"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "775ceb427b8b04eae46ce3a386db5f81954545105b25296e1a0e6766dd79c453",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_bard"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "775ceb427b8b04eae46ce3a386db5f81954545105b25296e1a0e6766dd79c453",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-college-of-tactics",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "subclass_of",
+        "value": "srd_bard"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Bards of the College of Tactics are calculating strategists who scour historical records of famous battles for tricks they can use to give their own troops, and those of their patrons, an edge on the battlefield. Members of this college travel from war zone to combat site and interview the veterans of those engagements, trying to discern how the victors won the day and leveraging that information for their personal glory.",
+      "document": "toh",
+      "name": "College of Tactics",
+      "subclass_of": "srd_bard"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you join the College of Tactics at 3rd level, you gain proficiency with medium armor, shields, and one martial weapon of your choice. In addition, you can use Bardic Inspiration a number of times equal to your Charisma modifier (a minimum of 1) + your proficiency bonus. You regain expended uses when you finish a long rest (or short rest if you have the Font of Inspiration feature), as normal.",
+          "desc_ru": "Когда вы присоединяетесь к Коллегии тактики на 3-м уровне, вы получаете владение средними доспехами, щитами и одним боевым оружием на ваш выбор. Кроме того, вы можете использовать Вдохновение барда количество раз, равное вашему модификатору Харизмы (минимум 1) + ваш бонус мастерства. Вы восстанавливаете потраченные использования, когда заканчиваете продолжительный отдых (или короткий отдых, если у вас есть особенность Источник вдохновения), как обычно.",
+          "document": "toh",
+          "external_id": "toh_college-of-tactics_combat-tactician",
+          "level": 3,
+          "name": "Combat Tactician",
+          "name_ru": "Боевой тактик",
+          "parent": "toh_college-of-tactics",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Also at 3rd level, you can move your allies into more advantageous positions, just as a general moves troop markers on a map. As a bonus action, you can command up to three willing allies who can see or hear you to use a reaction to move. Each target can move up to half its speed. This movement doesn't provoke opportunity attacks.\n  You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.",
+          "desc_ru": "Также на 3-м уровне вы можете перемещать ваших союзников в более выгодные позиции, подобно тому, как генерал перемещает маркеры войск на карте. бонусным действием вы можете приказать до трём согласным союзникам, которые могут видеть или слышать вас, использовать реакцию для перемещения. Каждая цель может переместиться до половины её скорости. Это перемещение не провоцирует внеочередные атаки.\nВы можете использовать эту особенность количество раз, равное вашему бонусу мастерства. Вы восстанавливаете все потраченные использования, когда заканчиваете продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_college-of-tactics_setting-the-board",
+          "level": 3,
+          "name": "Setting the Board",
+          "name_ru": "Расстановка доски",
+          "parent": "toh_college-of-tactics",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Beginning at 6th level, you can share your tactical knowledge with your allies in the heat of battle. A creature that has a Bardic Inspiration die from you can roll that die and perform one of the following strategies. For the purpose of these strategies, “you” refers to the creature with the Bardic Inspiration die.\n\n***Bait and Bleed.*** If you take the Dodge action, you can make one melee attack against a creature that is within 5 feet of you, adding the number rolled to your attack roll.\n\n***Counter Offensive.*** If you take damage from a creature, you can use your reaction to make one attack against your attacker, adding the number rolled to your attack roll. You can't use this strategy if the attacker is outside your weapon's normal range or reach.\n\n***Distraction.*** You can take the Disengage action as a bonus action, increasing your speed by 5 feet *x* the number rolled.\n\n***Frightening Charge.*** If you take the Dash action, you can make one melee attack at the end of the movement, adding the number rolled to your attack roll. If the attack is a critical hit, the target is frightened until the start of your next turn.\n\n***Hold Steady.*** If you take the Ready action and the trigger for the readied action doesn't occur, you can make one weapon or spell attack roll after all other creatures have acted in the round, adding the number rolled to the attack roll.\n\n***Indirect Approach.*** If you take the Help action to aid a friendly creature in attacking a creature within 5 feet of you, the friendly creature can add the number rolled to their attack roll against the target, and each other friendly creature within 5 feet of you has advantage on its first attack roll against the target.",
+          "desc_ru": "Начиная с 6-го уровня вы можете разделять ваше тактическое знание с вашими союзниками в разгар битвы. Существо, которое имеет кость Вдохновения барда от вас, может бросить эту кость и выполнить одну из следующих стратегий. Для цели этих стратегий «вы» относится к существу с костью Вдохновения барда.\n\nПриманка и кровопускание. Если вы совершаете действие Уклонение, вы можете совершить одну атаку ближнего боя против существа, которое в пределах 5 футов от вас, добавляя выпавшее число к вашему броску атаки.\n\nКонтрнаступление. Если вы получаете урон от существа, вы можете реакцией совершить одну атаку против вашего атакующего, добавляя выпавшее число к вашему броску атаки. Вы не можете использовать эту стратегию, если атакующий вне обычной дистанции или досягаемости вашего оружия.\n\nОтвлечение. Вы можете совершить действие Отход бонусным действием, увеличивая вашу скорость на 5 футов × выпавшее число.\n\nПугающий рывок. Если вы совершаете действие Рывок, вы можете совершить одну атаку ближнего боя в конце перемещения, добавляя выпавшее число к вашему броску атаки. Если атака — критическое попадание, цель напугана до начала вашего следующего хода.\n\nДержаться твёрдо. Если вы совершаете действие Подготовка и триггер для подготовленного действия не происходит, вы можете совершить один бросок атаки оружием или заклинанием после того, как все другие существа действовали в раунде, добавляя выпавшее число к броску атаки.\n\nКосвенный подход. Если вы совершаете действие Помощь, чтобы помочь дружественному существу в атаке существа в пределах 5 футов от вас, дружественное существо может добавить выпавшее число к их броску атаки против цели, и каждое другое дружественное существо в пределах 5 футов от вас совершает с преимуществом его первый бросок атаки против цели.",
+          "document": "toh",
+          "external_id": "toh_college-of-tactics_song-of-strategy",
+          "level": 6,
+          "name": "Song of Strategy",
+          "name_ru": "Песня стратегии",
+          "parent": "toh_college-of-tactics",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 14th level, when you take damage from a spell or effect that affects an area, such as the *fireball* spell or a dragon's breath weapon, you can expend one use of your Bardic Inspiration as a reaction to redirect and dissipate some of the spell's power. Roll the Bardic Inspiration die and add the number rolled to your saving throw against the spell. If you succeed on the saving throw, each friendly creature within 10 feet of you is also treated as if it succeeded on the saving throw.",
+          "desc_ru": "Начиная с 14-го уровня, когда вы получаете урон от заклинания или эффекта, который воздействует на область, такого как заклинание огненный шар или дыхательное оружие дракона, вы можете потратить одно использование вашего Вдохновения барда реакцией, чтобы перенаправить и рассеять часть силы заклинания. Бросьте кость Вдохновения барда и добавьте выпавшее число к вашему спасброску против заклинания. Если вы успешно проходите спасбросок, каждое дружественное существо в пределах 10 футов от вас также считается, как если бы оно успешно прошло спасбросок.",
+          "document": "toh",
+          "external_id": "toh_college-of-tactics_ablative-inspiration",
+          "level": 14,
+          "name": "Ablative Inspiration",
+          "name_ru": "Абляционное вдохновение",
+          "parent": "toh_college-of-tactics",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "College of Tactics",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "Bards of the College of Tactics are calculating strategists who scour historical records of famous battles for tricks they can use to give their own troops, and those of their patrons, an edge on the battlefield. Members of this college travel from war zone to combat site and interview the veterans of those engagements, trying to discern how the victors won the day and leveraging that information for their personal glory.",
+      "name": "College of Tactics",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Барды Коллегии Тактики — расчётливые стратеги, которые изучают исторические записи о знаменитых сражениях в поисках уловок, которые они могут использовать, чтобы дать своим собственным войскам и войскам своих покровителей преимущество на поле боя. Члены этой коллегии путешествуют от зоны боевых действий к месту сражения и интервьюируют ветеранов этих сражений, пытаясь понять, как победители выиграли день, и использовать эту информацию для своей личной славы.",
+      "glossary_version": "v1",
+      "name": "Коллегия тактики",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

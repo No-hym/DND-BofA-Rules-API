@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "primal-oozer",
+  "id": "o5e:tob2:monster:primal-oozer-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:primal-oozer"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "08a3a63197a35627302d4298f144034352fca2bc40870ed87b1bc4e59056da80",
+    "formulas": [
+      {
+        "expression": "15d8+45",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral evil",
+      "armor_class": 14,
+      "challenge_rating": "6",
+      "condition_immunities": "",
+      "damage_immunities": "acid",
+      "damage_resistances": "piercing",
+      "damage_vulnerabilities": "",
+      "hit_dice": "15d8+45",
+      "hit_points": 112,
+      "languages": "understands Common but can’t speak",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "08a3a63197a35627302d4298f144034352fca2bc40870ed87b1bc4e59056da80",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:primal-oozer",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The primal oozer makes two bite attacks. If both attacks hit the same target, the target must make a DC 15 Constitution saving throw. On a failure, the target takes 7 (2d6) acid damage and contracts a disease (see the Ooze Plague trait). On a success, the target takes half the damage and doesn't contract a disease.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.\", \"attack_bonus\": 7, \"damage_dice\": \"2d6+4\"}]",
+      "alignment": "neutral evil",
+      "armor_class": 14,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "6",
+      "charisma": 5,
+      "constitution": 16,
+      "cr": 6.0,
+      "damage_immunities": "acid",
+      "damage_resistances": "piercing",
+      "desc": "This nightmarish quadruped has many wolf-like features—including its physique, its powerful claws, and its lupine countenance—but its hairless skin is a thick layer of bluish-white slime. Four tentacles ending in barbed tips protrude from its jawline, and its eyes glow red. It makes a sickening gurgling sound when it growls._  \n**Natives of the Swamp.** Primal oozers are amphibious natives to swamps and wetlands. They often make their lairs in the root systems of massive trees where the soil beneath has been washed away. They can also be found in flooded ruins, wet riversides, or in the water itself. They are savage, deadly, and delight in killing.  \n**Kinship with Mydnari.** Primal oozers have a natural kinship with Open Game License",
+      "dexterity": 13,
+      "dexterity_save": 4,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "15d8+45",
+      "hit_points": 112,
+      "intelligence": 6,
+      "languages": "understands Common but can’t speak",
+      "legendary_actions_json": "null",
+      "name": "Primal Oozer",
+      "page_no": 297,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 12",
+      "size": "Medium",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Acidic Slime\", \"desc\": \"A creature that touches the primal oozer or hits it with a melee attack while within 5 feet of it takes 3 (1d6) acid damage.\"}, {\"name\": \"Ooze Plague\", \"desc\": \"The primal oozer's barbed tentacles inject the ooze plague disease into a creature if the creature fails its saving throw after being bitten twice in a row by the oozer. Until the disease is cured, the infected creature's skin slowly becomes more ooze-like, and its hp maximum decreases by 5 (2d4) for every 24 hours that elapse. This reduction lasts until the disease is cured. The creature dies if the disease reduces its hp maximum to 0. A humanoid slain by this disease rises 24 hours later as an ochre jelly. The jelly isn't under the primal oozer's control, but it views the primal oozer as an ally.\"}, {\"name\": \"Pack Tactics\", \"desc\": \"The primal oozer has advantage on attack rolls against a creature if at least one of the primal oozer's allies is within 5 feet of the creature and the ally isn't incapacitated.\"}, {\"name\": \"Slimy Body\", \"desc\": \"The primal oozer has advantage on ability checks and saving throws made to escape a grapple.\"}]",
+      "speed_json": "{\"walk\": 30, \"climb\": 10, \"swim\": 20}",
+      "spells_json": "null",
+      "strength": 18,
+      "type": "Aberration",
+      "wisdom": 15
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Primal Oozer",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-primal-oozer"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "This nightmarish quadruped has many wolf-like features—including its physique, its powerful claws, and its lupine countenance—but its hairless skin is a thick layer of bluish-white slime. Four tentacles ending in barbed tips protrude from its jawline, and its eyes glow red. It makes a sickening gurgling sound when it growls._  \n**Natives of the Swamp.** Primal oozers are amphibious natives to swamps and wetlands. They often make their lairs in the root systems of massive trees where the soil beneath has been washed away. They can also be found in flooded ruins, wet riversides, or in the water itself. They are savage, deadly, and delight in killing.  \n**Kinship with Mydnari.** Primal oozers have a natural kinship with Open Game License",
+      "name": "Primal Oozer",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "У этого кошмарного четвероногого есть много волко-подобных черт — включая его телосложение, его мощные когти и его волчью морду — но его безволосая кожа — густой слой синевато-белой слизи. Четыре щупальца, заканчивающиеся колючими кончиками, выступают из его линии челюсти, и его глаза светятся красным. Оно делает болезненное булькающее звучание, когда оно рычит.\n\n**Уроженцы болота.** Первобытные слизни — амфибийные уроженцы болот и заболоченных мест. Они часто делают их логова в корневых системах массивных деревьев, где почва подмыта. Они также могут быть найдены в затопленных руинах, в влажных берегах рек или в самой воде. Они дикие, смертоносные и наслаждаются убийством.",
+      "glossary_version": "v1",
+      "name": "Первобытный слизень",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,215 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode)",
+  "book_id": "bfrd",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "bfrd_wild-warrior",
+  "id": "o5e:bfrd:creature:bfrd-wild-warrior",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:creature:bfrd-wild-warrior",
+      "o5e:blackflag:monster:wild-warrior-bf"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "efdad7330f915147df616dd518ee8a053e2f42969bd0b3691f33a32eb5560a28",
+    "formulas": [
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 10,
+      "ability_score_intelligence": 8,
+      "ability_score_strength": 12,
+      "ability_score_wisdom": 10,
+      "alignment": "chaotic evil",
+      "armor_class": 12,
+      "armor_detail": "hide armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.125",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [],
+      "fly": null,
+      "hit_dice": null,
+      "hit_points": 9,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "any one language",
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": -1,
+      "saving_throw_constitution": 1,
+      "saving_throw_dexterity": 0,
+      "saving_throw_intelligence": -1,
+      "saving_throw_strength": 1,
+      "saving_throw_wisdom": 0,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "efdad7330f915147df616dd518ee8a053e2f42969bd0b3691f33a32eb5560a28",
+        "edition": "2014",
+        "id": "o5e:bfrd:creature:bfrd-wild-warrior",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "blackflag",
+        "content_hash": "f659200f9ba438ea35c6169e3eda9f08156ab774400597d1e2aed71d088ec8cc",
+        "edition": "2014",
+        "id": "o5e:blackflag:monster:wild-warrior-bf",
+        "license": "ORC-1.0",
+        "source": "open5e:v1:blackflag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 10,
+      "ability_score_intelligence": 8,
+      "ability_score_strength": 12,
+      "ability_score_wisdom": 10,
+      "alignment": "chaotic evil",
+      "armor_class": 12,
+      "armor_detail": "hide armor",
+      "category": "Monsters",
+      "challenge_rating": "0.125",
+      "document": "bfrd",
+      "hit_points": 9,
+      "hover": false,
+      "languages_desc": "any one language",
+      "name": "Wild Warrior",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 10,
+      "saving_throw_charisma": -1,
+      "saving_throw_constitution": 1,
+      "saving_throw_dexterity": 0,
+      "saving_throw_intelligence": -1,
+      "saving_throw_strength": 1,
+      "saving_throw_wisdom": 0,
+      "size": "medium",
+      "type": "humanoid",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "The wild warrior cobbles together a makeshift trap with materials at hand and throws the trap at a creature it can see within 15 feet of it. The target must succeed on a DC 11 DEX save or be restrained until the end of its next turn.",
+          "desc_ru": "Действие «Квик Трап»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_wild-warrior_quick-trap",
+          "name": "Quick Trap",
+          "name_ru": "Квик Трап",
+          "order_in_statblock": 0,
+          "parent": "bfrd_wild-warrior",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "_Melee or Ranged Weapon Attack:_ +3 to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ 4 (1d6+1) piercing damage, or 5 (1d8+1) piercing damage if used with two hands to make a melee attack.",
+          "desc_ru": "Действие «Копьё»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_wild-warrior_spear",
+          "name": "Spear",
+          "name_ru": "Копьё",
+          "order_in_statblock": 0,
+          "parent": "bfrd_wild-warrior",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The wild warrior automatically discerns true north when outside, and checks to follow its tracks in forest, grassland, hills, or mountain terrain have disadvantage, unless the wild warrior chooses to leave obvious signs of its passage.",
+          "desc_ru": "Особенность «Хоме Ин Вилдс». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_wild-warrior_home-in-the-wilds",
+          "name": "Home in the Wilds",
+          "name_ru": "Хоме Ин Вилдс",
+          "parent": "bfrd_wild-warrior",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The wild warrior has advantage on attack rolls against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+          "desc_ru": "Совершает броски атаки по существу с преимуществом, если хотя бы один его союзник находится в пределах 5 футов от существа и этот союзник не выведен из строя.",
+          "external_id": "bfrd_wild-warrior_pack-tactics",
+          "name": "Pack Tactics",
+          "name_ru": "Пак Тактикс",
+          "parent": "bfrd_wild-warrior",
+          "ru_source": "template"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Wild Warrior",
+      "license": "CC-BY-4.0",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Wild Warrior",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Средний гуманоид, мировоззрение: хаотично-злое. Класс доспеха: 12. Хиты: 9. Скорость: ходьба 30 фт.. Характеристики: СИЛ 12, ЛОВ 10, ТЕЛ 12, ИНТ 8, МУД 10, ХАР 8. Чувства: пассивное Восприятие 10. Показатель опасности: 0.125. Структурированные механики записи: особенностей: 2, действий: 2.",
+      "glossary_version": "derived-v1",
+      "name": "Вилд воин",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

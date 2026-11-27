@@ -1,0 +1,89 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "rule",
+  "edition": "2024",
+  "external_id": "srd-2024_damage-and-healing_hit-points",
+  "id": "o5e:srd-2024:rule:srd-2024-damage-and-healing-hit-points",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "5b25b7e6ebaefeb9a076531f59f18960ee8c0e86e5079c88d109ce2fc38b90a8",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "index": 1,
+      "initialHeaderLevel": 2,
+      "ruleset": "srd-2024_damage-and-healing"
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_damage-and-healing",
+        "type": "ruleset",
+        "value": "srd-2024_damage-and-healing"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Hit Points represent durability and the will to live. Creatures with more Hit Points are more difficult to kill. Your Hit Point maximum is the number of Hit Points you have when uninjured. Your current Hit Points can be any number from that maximum down to 0, which is the lowest Hit Points can go.\n\nWhenever you take damage, subtract it from your Hit Points. Hit Point loss has no effect on your capabilities until you reach 0 Hit Points.\n\nIf you have half your Hit Points or fewer, you’re Bloodied, which has no game effect on its own but which might trigger other game effects.",
+      "document": "srd-2024",
+      "index": 1,
+      "initialHeaderLevel": 2,
+      "name": "Hit Points",
+      "ruleset": "srd-2024_damage-and-healing"
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Hit Points",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "Hit Points represent durability and the will to live. Creatures with more Hit Points are more difficult to kill. Your Hit Point maximum is the number of Hit Points you have when uninjured. Your current Hit Points can be any number from that maximum down to 0, which is the lowest Hit Points can go.\n\nWhenever you take damage, subtract it from your Hit Points. Hit Point loss has no effect on your capabilities until you reach 0 Hit Points.\n\nIf you have half your Hit Points or fewer, you’re Bloodied, which has no game effect on its own but which might trigger other game effects.",
+      "name": "Hit Points",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Монстр обычно погибает или уничтожается, когда его хиты опускаются до 0. Подробнее о хитах см. *Книгу игрока*.\n\nХиты монстра представлены как в виде выражения костей, так и в виде среднего числа. Например, монстр с 2к8 хитами имеет в среднем 9 хитов (2 × 4,5).\n\nРазмер монстра определяет кость, используемую для расчёта его хитов, как показано в таблице «Кости Хитов по размеру».\n\nТаблица: Кости Хитов по размеру\n\n| Размер монстра | Кость Хитов | Средние хиты за кость |\n|---|---|---|\n| Крошечный       | к4          | 2,5                   |\n| Маленький       | к6          | 3,5                   |\n| Средний         | к8          | 4,5                   |\n| Большой         | к10         | 5,5                   |\n| Огромный        | к12         | 6,5                   |\n| Громадный       | к20         | 10,5                  |\n\nМодификатор Телосложения монстра также влияет на количество его хитов. Его модификатор Телосложения умножается на количество имеющихся у него Костей Хитов, и результат добавляется к хитам. Например, если у монстра Телосложение 12 (модификатор +1) и 2к8 Костей Хитов, он имеет 2к8+2 хитов (в среднем 11).",
+      "glossary_version": "v1",
+      "name": "Хиты",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

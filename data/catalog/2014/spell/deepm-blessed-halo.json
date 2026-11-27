@@ -1,0 +1,208 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_blessed-halo",
+  "id": "o5e:deepm:spell:deepm-blessed-halo",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-blessed-halo",
+      "o5e:dmag:spell:blessed-halo"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "2db2645745fb68569e50a2d4288466b338444d3ad48f58a7bd107ca55abbd4da",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "2db2645745fb68569e50a2d4288466b338444d3ad48f58a7bd107ca55abbd4da",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-blessed-halo",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "3ddeecfbc7982e49ff56d85f730eddb324ee603a2aa4357f48969fa7bfa2ff8d",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:blessed-halo",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric",
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "desc": "A nimbus of golden light surrounds your head for the duration. The halo sheds bright light in a 20-foot radius and dim light for an additional 20 feet.\n\nThis spell grants you a pool of 10 points of healing. When you cast the spell and as an action on subsequent turns during the spell’s duration, you can expend points from this pool to restore an equal number of hit points to one creature within 20 feet that you can see.\n\nAdditionally, you have advantage on Charisma checks made against good creatures within 20 feet.\n\nIf any of the light created by this spell overlaps an area of magical darkness created by a spell of 2nd level or lower, the spell that created the darkness is dispelled.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the spell’s pool of healing points increases by 5 for each spell slot above 2nd, and the spell dispels magical darkness created by a spell of a level equal to the slot used to cast this spell.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Blessed Halo",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2478",
+          "parent": "deepm_blessed-halo",
+          "type": "default"
+        },
+        {
+          "external_id": "2480",
+          "parent": "deepm_blessed-halo",
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "2481",
+          "parent": "deepm_blessed-halo",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "2482",
+          "parent": "deepm_blessed-halo",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "2483",
+          "parent": "deepm_blessed-halo",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "2484",
+          "parent": "deepm_blessed-halo",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "2485",
+          "parent": "deepm_blessed-halo",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2486",
+          "parent": "deepm_blessed-halo",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Blessed Halo",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "A nimbus of golden light surrounds your head for the duration. The halo sheds bright light in a 20-foot radius and dim light for an additional 20 feet.\n\nThis spell grants you a pool of 10 points of healing. When you cast the spell and as an action on subsequent turns during the spell’s duration, you can expend points from this pool to restore an equal number of hit points to one creature within 20 feet that you can see.\n\nAdditionally, you have advantage on Charisma checks made against good creatures within 20 feet.\n\nIf any of the light created by this spell overlaps an area of magical darkness created by a spell of 2nd level or lower, the spell that created the darkness is dispelled.",
+      "name": "Blessed Halo",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "На время действия вокруг вашей головы сияет нимб золотого света. Нимб излучает яркий свет в радиусе 20 футов и тусклый свет ещё на 20 футов.\n\nЭто заклинание даёт вам запас из 10 очков лечения. Когда вы творите заклинание и действием в последующие ходы во время его действия, вы можете потратить очки из этого запаса, чтобы восстановить равное количество хитов одному видимому существу в пределах 20 футов.\n\nКроме того, вы совершаете с преимуществом проверки Харизмы против добрых существ в пределах 20 футов.\n\nЕсли свет этого заклинания перекрывает область магической тьмы, созданной заклинанием 2-го уровня или ниже, заклинание, создавшее тьму, рассеивается.",
+      "glossary_version": "v1",
+      "name": "Благословенный нимб",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

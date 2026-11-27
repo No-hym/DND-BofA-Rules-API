@@ -1,0 +1,186 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_cynophobia",
+  "id": "o5e:deepm:spell:deepm-cynophobia",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-cynophobia",
+      "o5e:dmag:spell:cynophobia"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "49bfb51c611dc643c741e9f4f2473e6bbdc9408a475d9daa4923daf793383f4b",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "8 hours",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a dog’s tooth",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "49bfb51c611dc643c741e9f4f2473e6bbdc9408a475d9daa4923daf793383f4b",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-cynophobia",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "872e52c17cc5f45a5ae25019076086b29cce8dbd1c8cc4e0fdcc53e6bc8aba38",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:cynophobia",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or develop an overriding fear of canids, such as dogs, wolves, foxes, and worgs. For the duration, the first time the target sees a canid, the target must succeed on a Wisdom saving throw or become frightened of that canid until the end of its next turn. Each time the target sees a different canid, it must make the saving throw. In addition, the target has disadvantage on ability checks and attack rolls while a canid is within 10 feet of it.\n",
+      "document": "deepm",
+      "duration": "8 hours",
+      "higher_level": "When you cast this spell using a 5th-level spell slot, the duration is 24 hours. When you use a 7th-level spell slot, the duration is 1 month. When you use a spell slot of 8th or 9th level, the spell lasts until it is dispelled.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a dog’s tooth",
+      "name": "Cynophobia",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2927",
+          "parent": "deepm_cynophobia",
+          "type": "default"
+        },
+        {
+          "external_id": "2929",
+          "parent": "deepm_cynophobia",
+          "type": "slot_level_4"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "2930",
+          "parent": "deepm_cynophobia",
+          "type": "slot_level_5"
+        },
+        {
+          "duration": "24 hours",
+          "external_id": "2931",
+          "parent": "deepm_cynophobia",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "1 month",
+          "external_id": "2932",
+          "parent": "deepm_cynophobia",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "1 month",
+          "external_id": "2933",
+          "parent": "deepm_cynophobia",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "Until dispelled",
+          "external_id": "2934",
+          "parent": "deepm_cynophobia",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Cynophobia",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or develop an overriding fear of canids, such as dogs, wolves, foxes, and worgs. For the duration, the first time the target sees a canid, the target must succeed on a Wisdom saving throw or become frightened of that canid until the end of its next turn. Each time the target sees a different canid, it must make the saving throw. In addition, the target has disadvantage on ability checks and attack rolls while a canid is within 10 feet of it.",
+      "name": "Cynophobia",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Выберите существо, которое вы можете видеть в пределах дистанции. Цель должна преуспеть в спасброске Мудрости или развить первостепенный страх псовых, такие как собаки, волки, лисицы и ворги. На длительность в первый раз, когда цель видит псовое, цель должна преуспеть в спасброске Мудрости или стать испуганным этого канд до конца его следующего хода. Каждый раз, когда цель видит другой канд, оно должен совершить спасбросок. Кроме того, цель имеет помеху на проверки характеристик и броски атаки, пока псовое в пределах 10 футов от него.",
+      "glossary_version": "v1",
+      "name": "Кинофобия",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

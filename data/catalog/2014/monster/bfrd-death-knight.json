@@ -1,0 +1,295 @@
+{
+  "attribution": "Title: Black Flag SRD; Author: Open Design LLC d/b/a Kobold Press; Publisher: kobold-press; Source: https://koboldpress.com/black-flag-reference-document/; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode)",
+  "book_id": "bfrd",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "bfrd_death-knight",
+  "id": "o5e:bfrd:creature:bfrd-death-knight",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:bfrd:creature:bfrd-death-knight",
+      "o5e:blackflag:monster:death-knight-bf"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "0a22910068b80d8d14330153d32df8ae71fb46b1de76566c92ba7c8ac67cf9b3",
+    "formulas": [
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 18,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 10,
+      "ability_score_intelligence": 12,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 20,
+      "alignment": "chaotic evil",
+      "armor_class": 18,
+      "armor_detail": "plate",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "8.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [
+        "necrotic"
+      ],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [
+        "radiant"
+      ],
+      "darkvision_range": 90,
+      "environments": [],
+      "fly": null,
+      "hit_dice": null,
+      "hit_points": 140,
+      "initiative_bonus": null,
+      "languages": [
+        "common"
+      ],
+      "languages_desc": "Common",
+      "normal_sight_range": 10560,
+      "passive_perception": 15,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": 4,
+      "saving_throw_constitution": 3,
+      "saving_throw_dexterity": 0,
+      "saving_throw_intelligence": 1,
+      "saving_throw_strength": 4,
+      "saving_throw_wisdom": 5,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "bfrd",
+        "content_hash": "0a22910068b80d8d14330153d32df8ae71fb46b1de76566c92ba7c8ac67cf9b3",
+        "edition": "2014",
+        "id": "o5e:bfrd:creature:bfrd-death-knight",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:bfrd"
+      },
+      {
+        "book": "blackflag",
+        "content_hash": "b40ed6445b3d0a9f6c7eb10c0696b135ac0a185f2b0324e857ae14b679561c51",
+        "edition": "2014",
+        "id": "o5e:blackflag:monster:death-knight-bf",
+        "license": "ORC-1.0",
+        "source": "open5e:v1:blackflag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 18,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 10,
+      "ability_score_intelligence": 12,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 20,
+      "alignment": "chaotic evil",
+      "armor_class": 18,
+      "armor_detail": "plate",
+      "category": "Monsters",
+      "challenge_rating": "8.000",
+      "damage_immunities": [
+        "necrotic"
+      ],
+      "damage_immunities_display": "necrotic,frightened,Undead Resilience",
+      "damage_vulnerabilities": [
+        "radiant"
+      ],
+      "damage_vulnerabilities_display": "radiant",
+      "darkvision_range": 90,
+      "document": "bfrd",
+      "hit_points": 140,
+      "hover": false,
+      "languages": [
+        "common"
+      ],
+      "languages_desc": "Common",
+      "name": "Death Knight",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 15,
+      "saving_throw_charisma": 4,
+      "saving_throw_constitution": 3,
+      "saving_throw_dexterity": 0,
+      "saving_throw_intelligence": 1,
+      "saving_throw_strength": 4,
+      "saving_throw_wisdom": 5,
+      "size": "medium",
+      "type": "undead",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Open Design LLC d/b/a Kobold Press",
+      "key": "bfrd",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://koboldpress.com/black-flag-reference-document/",
+      "publication_date": "2023-10-16T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Black Flag SRD"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "The death knight challenges one creature it can see within 30 feet of it. The target must succeed on a DC 15 CHA save or have disadvantage on attack rolls against creatures that aren't the knight until the end of its next turn.",
+          "desc_ru": "Действие «Чампион'с Чалленге»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_death-knight_champions-challenge",
+          "name": "Champion's Challenge",
+          "name_ru": "Чампион'с Чалленге",
+          "order_in_statblock": 0,
+          "parent": "bfrd_death-knight",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 11 (2d6+4) slashing damage and 7 (2d6) necrotic damage.",
+          "desc_ru": "Атака оружием ближнего боя: +7 к попаданию, досягаемость 5 фт., одна цель. Попадание: 11 (2к6+4) рубящего урона плюс 7 (2к6) некротического урона.",
+          "external_id": "bfrd_death-knight_greatsword",
+          "name": "Greatsword",
+          "name_ru": "Двуручный меч",
+          "order_in_statblock": 1,
+          "parent": "bfrd_death-knight",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The death knight makes three Greatsword or Necrotic Bolt attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_death-knight_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "bfrd_death-knight",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "_Ranged Spell Attack:_ +7 to hit, range 60 ft., one target. _Hit:_ 18 (4d6+4) necrotic damage.",
+          "desc_ru": "Атака заклинанием дальнего боя: +7 к попаданию, дистанция 60 фт., одна цель. Попадание: 18 (4к6+4) некротического урона.",
+          "external_id": "bfrd_death-knight_necrotic-bolt",
+          "name": "Necrotic Bolt",
+          "name_ru": "Некротический Болт",
+          "order_in_statblock": 2,
+          "parent": "bfrd_death-knight",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "REACTION",
+          "desc": "The death knight adds 3 to its AC against one melee attack that would hit it. To do so, the death knight must see the attacker and be wielding a melee weapon.",
+          "desc_ru": "Действие «Паррй»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_death-knight_parry",
+          "name": "Parry",
+          "name_ru": "Паррй",
+          "order_in_statblock": 0,
+          "parent": "bfrd_death-knight",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "REACTION",
+          "desc": "When the death knight reduces a Humanoid to 0 HP, it can absorb the creature's soul. The target must succeed on a DC 15 WIS save or immediately die, its soul becoming trapped in the death knight's sword. The death knight has advantage on attack rolls for 1 minute after absorbing a soul.<br>The creature can't be restored to life until the death knight is permanently destroyed.",
+          "desc_ru": "Действие «Соул Драин»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_death-knight_soul-drain",
+          "name": "Soul Drain",
+          "name_ru": "Соул Драин",
+          "order_in_statblock": 1,
+          "parent": "bfrd_death-knight",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "Unless redeemed, a destroyed death knight returns in 1d4 days, regaining all its HP and becoming active again within 10 feet of where it died.",
+          "desc_ru": "Особенность «Дисгракед Реджувенатион». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_death-knight_disgraced-rejuvenation",
+          "name": "Disgraced Rejuvenation",
+          "name_ru": "Дисгракед Реджувенатион",
+          "parent": "bfrd_death-knight",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The death knight has advantage on saves against spells and other magical effects.",
+          "desc_ru": "Особенность «Магик Ресистанке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_death-knight_magic-resistance",
+          "name": "Magic Resistance",
+          "name_ru": "Магик Ресистанке",
+          "parent": "bfrd_death-knight",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The death knight doesn't require air, food, drink, or sleep.",
+          "desc_ru": "Особенность «Нежить Натуре». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_death-knight_undead-nature",
+          "name": "Undead Nature",
+          "name_ru": "Нежить Натуре",
+          "parent": "bfrd_death-knight",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The death knight is immune to poison damage, to exhaustion, and to the poisoned condition.",
+          "desc_ru": "Особенность «Нежить Ресилиенке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "bfrd_death-knight_undead-resilience",
+          "name": "Undead Resilience",
+          "name_ru": "Нежить Ресилиенке",
+          "parent": "bfrd_death-knight",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Death Knight",
+      "license": "CC-BY-4.0",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:bfrd",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Death Knight",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Средняя нежить, мировоззрение: хаотично-злое. Класс доспеха: 18. Хиты: 140. Скорость: ходьба 30 фт.. Характеристики: СИЛ 18, ЛОВ 10, ТЕЛ 16, ИНТ 12, МУД 20, ХАР 18. Уязвимость к урону: излучением. Иммунитет к урону: некротической энергией. Чувства: тёмное зрение 90 фт., пассивное Восприятие 15. Показатель опасности: 8. Структурированные механики записи: особенностей: 4, действий: 6.",
+      "glossary_version": "derived-v1",
+      "name": "Смерти рыцарь",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

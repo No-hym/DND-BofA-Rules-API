@@ -1,0 +1,137 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "steam-golem",
+  "id": "o5e:tob:monster:steam-golem-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:steam-golem"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "a9c1d512d209b04c3664f77f6846c5bb21c34251f65dca54e98343e553471574",
+    "formulas": [
+      {
+        "expression": "18d10+72",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "unaligned",
+      "armor_class": 18,
+      "challenge_rating": "13",
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "damage_immunities": "fire, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "18d10+72",
+      "hit_points": 171,
+      "languages": "understands its creator's languages but can't speak",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "a9c1d512d209b04c3664f77f6846c5bb21c34251f65dca54e98343e553471574",
+        "edition": "2014",
+        "id": "o5e:tob:monster:steam-golem",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The steam golem makes two ax arm attacks, or one long axe attack.\"}, {\"name\": \"Ax Arm\", \"desc\": \"Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 22 (4d6 + 8) slashing damage.\", \"attack_bonus\": 13, \"damage_dice\": \"4d6\"}, {\"name\": \"Long Axe\", \"desc\": \"Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 40 (5d12 + 8) slashing damage.\", \"attack_bonus\": 13, \"damage_dice\": \"5d12\"}, {\"name\": \"Steam Blast (Recharge 5-6)\", \"desc\": \"A steam golem can release a blast of steam. The golem chooses whether to affect a 5-foot radius around itself or a 20-foot cube adjacent to itself. Creatures in the affected area take 38 (7d10) fire damage, or half damage with a successful DC 17 Constitution saving throw.\"}]",
+      "alignment": "unaligned",
+      "armor_class": 18,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "13",
+      "charisma": 1,
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "constitution": 18,
+      "cr": 13.0,
+      "damage_immunities": "fire, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
+      "desc": "_With wicked axe blades fastened along its arms and bronze runes inlaid on its armored torso, a steam golem is a smooth-running machine of death._  \n**Magic Weapons.** The golem’s weapon attacks are magical.  \n**Boilers and Hydraulics.** A steam golem is built around a central boiler with clockwork gears and hydraulic cylinders powering its legs and arms. Most steam golems have axe blades welded onto each of their arms, and many can extend one arm into a single, long-hafted axe for additional reach. They tower 10 feet tall, and their legs are often built with reversed knee joints for greater leverage when they move. The eyes of a steam golem glow orange or red from its internal fires.  \n**Steam Whistle.** A steam golem has four to six vents for releasing steam. These whistles are mounted over the shoulders and can be heard at distances up to a mile in open terrain.  \n**Fuel Required.** A steam golem’s machinery consumes 30 lb. of coal and 100 gallons of water per day if it engages in more than brief combat. When resting or standing guard, a steam golem needs just one third of those amounts.  \n**Constructed Nature.** A golem doesn’t require air, food, drink, or sleep.",
+      "dexterity": 12,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "18d10+72",
+      "hit_points": 171,
+      "intelligence": 3,
+      "languages": "understands its creator's languages but can't speak",
+      "legendary_actions_json": "null",
+      "name": "Steam Golem",
+      "page_no": 237,
+      "reactions_json": "[{\"name\": \"Whistle\", \"desc\": \"When an opponent within 30 feet of the golem tries to cast a spell, the steam golem can emit a shriek from its twin steam whistles. The spellcaster must make a DC 17 Constitution saving throw. If the save succeeds, the spell is cast normally. If it fails, the spell is not cast; the spell slot is not used, but the caster's action is.\"}]",
+      "route": "monsters/",
+      "senses": "darkvision 120 ft., passive Perception 10",
+      "size": "Large",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Boiler Weakness\", \"desc\": \"A steam golem that's immersed in water or whose boiler is soaked with at least 20 gallons of water (such as from a water elemental) may be stopped in its tracks by the loss of steam pressure in the boiler. In the case of a water elemental, dousing a steam golem destroys the elemental and the golem must make a DC 20 Constitution saving throw. If it succeeds, the water instantly evaporates and the golem continues functioning normally. If it fails, the golem's fire is extinguished and the boiler loses pressure. The steam golem acts as if affected by a slow spell for 1d3 rounds, then becomes paralyzed until its fire is relit and it spends 15 minutes building up pressure.\"}, {\"name\": \"Immutable Form\", \"desc\": \"The golem is immune to any spell or effect that would alter its form.\"}, {\"name\": \"Extend Long Ax\", \"desc\": \"A steam golem can extend or retract one arm into long ax form as a bonus action.\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The golem has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Magic Weapons\", \"desc\": \"The golem's weapon attacks are magical.\"}]",
+      "speed_json": "{\"walk\": 40}",
+      "spells_json": "null",
+      "strength": 26,
+      "type": "Construct",
+      "wisdom": 10
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Steam Golem",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-steam-golem"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_With wicked axe blades fastened along its arms and bronze runes inlaid on its armored torso, a steam golem is a smooth-running machine of death._  \n**Magic Weapons.** The golem’s weapon attacks are magical.  \n**Boilers and Hydraulics.** A steam golem is built around a central boiler with clockwork gears and hydraulic cylinders powering its legs and arms. Most steam golems have axe blades welded onto each of their arms, and many can extend one arm into a single, long-hafted axe for additional reach. They tower 10 feet tall, and their legs are often built with reversed knee joints for greater leverage when they move. The eyes of a steam golem glow orange or red from its internal fires.  \n**Steam Whistle.** A steam golem has four to six vents for releasing steam. These whistles are mounted over the shoulders and can be heard at distances up to a mile in open terrain.  \n**Fuel Required.** A steam golem’s machinery consumes 30 lb. of coal and 100 gallons of water per day if it engages in more than brief combat. When resting or standing guard, a steam golem needs just one third of those amounts.  \n**Constructed Nature.** A golem doesn’t require air, food, drink, or sleep.",
+      "name": "Steam Golem",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "С злыми топора лезвиями, прикреплёнными вдоль её рук и бронзовыми рунами, инкрустированными на его бронированных торса, паровой голем машина смерти, работающая гладко.\n\n**Волшебное оружие.** Оружие голем атак является волшебным.\n\n**Котлы и гидравлики.** Паровой голем построен вокруг центрального котла с заводными шестернями и гидравлическими цилиндрами, питающими ноги и руками. Большинство паровых големов имеют топоровые клинки, приваренные на каждой из их руки и много может продлить одну руку в один топор с длинной ручкой для дополнительного охвата. Они возвышаются на 10 футов роста, а их ноги часто построены с обращёнными коленями суставов для большего рычагов, когда они двигаются. Глаза парового голема светятся оранжевым или красным от своих внутренних огней.\n\n**Паровой свисток.** У парового голема имеет четыре-шесть отверстий для выхода пара. Эти свистки установленные через плечи их можно услышать на расстоянии до мили в открытой местности.\n\n**Топлива, необходимого.** Махины из парового голема потребляет 30 фунтов. каменного угля и 100 литров воды в день при этом участвует в течение более краткой боя. Когда отдыхаете или стоит на страже, паровой голем нуждается именно в одной трети из этих сумм.\n\n**Сконструированный характер.** голем не требует воздуха, продуктов питания, напитков, или спать.",
+      "glossary_version": "v1",
+      "name": "Паровой голем",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

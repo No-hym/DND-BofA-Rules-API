@@ -1,0 +1,243 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob_kongamato",
+  "id": "o5e:tob:creature:tob-kongamato",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creature:tob-2023-kongamato",
+      "o5e:tob:creature:tob-kongamato"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "3d8074e4e9e8dd4d7e553bd6f5a73ddcd0e4c283357c1511c23195659fde8885",
+    "formulas": [
+      {
+        "expression": "15d10+30",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 18,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 16,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "5.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": null,
+      "environments": [
+        "grassland",
+        "swamp"
+      ],
+      "fly": 60,
+      "hit_dice": "15d10+30",
+      "hit_points": 112,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "-",
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "large",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 10
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "3d8074e4e9e8dd4d7e553bd6f5a73ddcd0e4c283357c1511c23195659fde8885",
+        "edition": "2014",
+        "id": "o5e:tob:creature:tob-kongamato",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "ffed9363bc382173f35cc8b001d25bfd3ef9af0edd17277a80a4b003e53bd436",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creature:tob-2023-kongamato",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 7,
+      "ability_score_constitution": 14,
+      "ability_score_dexterity": 18,
+      "ability_score_intelligence": 2,
+      "ability_score_strength": 19,
+      "ability_score_wisdom": 10,
+      "alignment": "unaligned",
+      "armor_class": 16,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "5.000",
+      "document": "tob",
+      "environments": [
+        "grassland",
+        "swamp"
+      ],
+      "fly": 60,
+      "hit_dice": "15d10+30",
+      "hit_points": 112,
+      "hover": false,
+      "languages_desc": "-",
+      "name": "Kongamato",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "size": "large",
+      "skill_bonus_perception": 3,
+      "type": "beast",
+      "walk": 10,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 14). Until this grapple ends, the target is restrained and the kongamato can't bite another target. When the kongamato moves, any target it is grappling moves with it.",
+          "desc_ru": "Действие «Укус»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_kongamato_bite",
+          "name": "Bite",
+          "name_ru": "Укус",
+          "order_in_statblock": 1,
+          "parent": "tob_kongamato",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) slashing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +7 к попаданию, досягаемость 5 фт., одна цель. Попадание: 14 (3к6+4) рубящего урона.",
+          "external_id": "tob_kongamato_claw",
+          "name": "Claw",
+          "name_ru": "Коготь",
+          "order_in_statblock": 2,
+          "parent": "tob_kongamato",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The kongamato makes one bite attack and two claw attacks.",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_kongamato_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob_kongamato",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The kongamato deals double damage to objects and structures made of wood or lighter materials.",
+          "desc_ru": "Особенность «Бреакер Боац». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_kongamato_breaker-of-boats",
+          "name": "Breaker of Boats",
+          "name_ru": "Бреакер Боац",
+          "parent": "tob_kongamato",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "A single kongamato can carry away prey up to 50 lbs, or a single rider under that weight. A grouo of them can carry up to 100 lbs.",
+          "desc_ru": "Особенность «Каррй Офф». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_kongamato_carry-off",
+          "name": "Carry Off",
+          "name_ru": "Каррй Офф",
+          "parent": "tob_kongamato",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The kongamato doesn't provoke an opportunity attacks when it flies out of an enemy's reach.",
+          "desc_ru": "Особенность «Флйбй». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob_kongamato_flyby",
+          "name": "Flyby",
+          "name_ru": "Флйбй",
+          "parent": "tob_kongamato",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Kongamato",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Kongamato",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Конгамато представляет собой эволюционный пережитком, большой птеродактиль с птичьими чертами, такими, как возникающими перья и длинные, клюв челюсти.\n\n**Ломатель лодок.** Её имя означает «разрушитель лодок», и как следует из этого, это существо систематически уничтожает малые суда тех, кто подходит слишком близко к его насесте. Никто не знает, что мотивирует такую форму атаки, хотя некоторые мудрецы предполагают, что Конгамато ошибочно принимают за каноэ для большой добычи, как гиппопотамы или крокодилы.\n\n**Разговор шёпотом.** Для некоторых племён, Конгамато представляют страшную угрозу, и они говорят шёпотом о них, боясь, что упоминание о животных может привлечь их гнев. В некоторых случаях злые жрецы и культисты призывают этих зверей как своих слуг и используют их, чтобы запугать жителей.\n\n**Людоедами.** Конгамато, которые ели человеческое мясо развивается предпочтение к нему. Эти людоеды совершает ночные набеги на малых городах, выхватывать детей и мелких гуманоидов своими когтями и улетать.",
+      "glossary_version": "v1",
+      "name": "Конгамато",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,202 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_ectoplasm",
+  "id": "o5e:deepm:spell:deepm-ectoplasm",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-ectoplasm",
+      "o5e:dmag:spell:ectoplasm"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "97db2254c1c97d7e15727394c00a7319d52d77b7f09ec49eb202af0fa6882b7a",
+    "formulas": [
+      {
+        "expression": "2d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "psychic"
+      ],
+      "duration": "1 minute",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a pinch of bone dust",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "97db2254c1c97d7e15727394c00a7319d52d77b7f09ec49eb202af0fa6882b7a",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-ectoplasm",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "6aa5272c2022541a980c2a8e0b61bf2116d6ab6177300971f8911c9f1acf21f9",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:ectoplasm",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "psychic"
+      ],
+      "desc": "You call forth an ectoplasmic manifestation of Medium size that appears in an unoccupied space of your choice within range that you can see. The manifestation lasts for the spell’s duration. Any creature that ends its turn within 5 feet of the manifestation takes 2d6 psychic damage, or half the damage with a successful Wisdom saving throw.\n\nAs a bonus action, you can move the manifestation up to 30 feet. It can move through a creature’s space but can’t remain in the same space as that creature. If it enters a creature’s space, that creature takes 2d6 psychic damage, or half the damage with a successful Wisdom saving throw. On a failed save, the creature also has disadvantage on Dexterity checks until the end of its next turn.\n\nWhen you move the manifestation, it can flow through a gap as small as 1 square inch, over barriers up to 5 feet tall, and across pits up to 10 feet wide. The manifestation sheds dim light in a 10-foot radius. It also leaves a thin film of ectoplasmic residue on everything it touches or moves through. This residue doesn’t illuminate the surroundings but does glow dimly enough to show the manifestation’s path. The residue dissipates 1 round after it is deposited.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a pinch of bone dust",
+      "name": "Ectoplasm",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "necromancy",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3160",
+          "parent": "deepm_ectoplasm",
+          "type": "default"
+        },
+        {
+          "external_id": "3162",
+          "parent": "deepm_ectoplasm",
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "3163",
+          "parent": "deepm_ectoplasm",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "3164",
+          "parent": "deepm_ectoplasm",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "3165",
+          "parent": "deepm_ectoplasm",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3166",
+          "parent": "deepm_ectoplasm",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3167",
+          "parent": "deepm_ectoplasm",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3168",
+          "parent": "deepm_ectoplasm",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Ectoplasm",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You call forth an ectoplasmic manifestation of Medium size that appears in an unoccupied space of your choice within range that you can see. The manifestation lasts for the spell’s duration. Any creature that ends its turn within 5 feet of the manifestation takes 2d6 psychic damage, or half the damage with a successful Wisdom saving throw.\n\nAs a bonus action, you can move the manifestation up to 30 feet. It can move through a creature’s space but can’t remain in the same space as that creature. If it enters a creature’s space, that creature takes 2d6 psychic damage, or half the damage with a successful Wisdom saving throw. On a failed save, the creature also has disadvantage on Dexterity checks until the end of its next turn.\n\nWhen you move the manifestation, it can flow through a gap as small as 1 square inch, over barriers up to 5 feet tall, and across pits up to 10 feet wide. The manifestation sheds dim light in a 10-foot radius. It also leaves a thin film of ectoplasmic residue on everything it touches or moves through. This residue doesn’t illuminate the surroundings but does glow dimly enough to show the manifestation’s path. The residue dissipates 1 round after it is deposited.",
+      "name": "Ectoplasm",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы вызываете эктоплазменное проявление Среднего размера, которое появляется в незанятом пространстве по вашему выбору в пределах дистанции, которое вы видите. Проявление длится срок действия заклинания. Любое существо, которое заканчивает свой ход в пределах 5 футов от проявления, получает 2к6 психического урона, или половину урона при успешном спасброске Мудрости.\n\nБонусным действием вы можете переместить проявление на расстояние до 30 футов. Оно может перемещаться через пространство существа, но не может оставаться в том же пространстве, что и это существо. Если оно входит в пространство существа, это существо получает 2к6 психического урона, или половину урона при успешном спасброске Мудрости. При провале существо также совершает с помехой проверки Ловкости до конца его следующего хода.\n\nКогда вы перемещаете проявление, оно может течь через зазор столь же маленький, как 1 квадратный дюйм, над барьерами до 5 футов в высоту и через ямы до 10 футов в ширину. Проявление излучает тусклый свет в радиусе 10 футов. Оно также оставляет тонкую плёнку эктоплазменного осадка на всём, к чему оно прикасается или через что перемещается. Этот осадок не освещает окружение, но светится достаточно тускло, чтобы показать путь проявления. Осадок рассеивается через 1 раунд после того, как он отложен.",
+      "glossary_version": "v1",
+      "name": "Эктоплазма",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,170 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_essence-instability",
+  "id": "o5e:deepm:spell:deepm-essence-instability",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-essence-instability",
+      "o5e:dmag:spell:essence-instability"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "497bdc6054ca0d7ebf301b97150ba07093cec20208234ed25665fb5161fbbfb5",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 5,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "497bdc6054ca0d7ebf301b97150ba07093cec20208234ed25665fb5161fbbfb5",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-essence-instability",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "d560435748a6293fd726bc9b084198aa2399996f8eb57e2425d906023341d6eb",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:essence-instability",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "You cause the target to radiate a harmful aura. Both the target and every creature beginning or ending its turn within 20 feet of the target suffer 2d6 poison damage per round. The target can make a Constitution saving throw each round to negate the damage and end the affliction. Success means the target no longer takes damage from the aura, but the aura still persists around the target for the full duration.\n\nCreatures affected by the aura must make a successful Constitution saving throw each round to negate the damage. The aura moves with the original target and is unaffected by [gust of wind](https://api.open5e.com/spells/gust-of-wind) and similar spells.\n\nThe aura does not detect as magical or poison, and is invisible, odorless, and intangible (though the spell’s presence can be detected on the original target). [Protection from poison](https://api.open5e.com/spells/protection-from-poison) negates the spell’s effects on targets but will not dispel the aura. A foot of metal or stone, two inches of lead, or a force effect such as [mage armor](https://api.open5e.com/spells/mage-armor) or [wall of force](https://api.open5e.com/spells/wall-of-force) will block it.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the aura lasts 1 minute longer and the poison damage increases by 1d6 for each slot level above 5th.",
+      "level": 5,
+      "material": false,
+      "material_consumed": false,
+      "name": "Essence Instability",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3225",
+          "parent": "deepm_essence-instability",
+          "type": "default"
+        },
+        {
+          "external_id": "3227",
+          "parent": "deepm_essence-instability",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3228",
+          "parent": "deepm_essence-instability",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3229",
+          "parent": "deepm_essence-instability",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3230",
+          "parent": "deepm_essence-instability",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Essence Instability",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You cause the target to radiate a harmful aura. Both the target and every creature beginning or ending its turn within 20 feet of the target suffer 2d6 poison damage per round. The target can make a Constitution saving throw each round to negate the damage and end the affliction. Success means the target no longer takes damage from the aura, but the aura still persists around the target for the full duration.\n\nCreatures affected by the aura must make a successful Constitution saving throw each round to negate the damage. The aura moves with the original target and is unaffected by [gust of wind](https://api.open5e.com/spells/gust-of-wind) and similar spells.\n\nThe aura does not detect as magical or poison, and is invisible, odorless, and intangible (though the spell’s presence can be detected on the original target). [Protection from poison](https://api.open5e.com/spells/protection-from-poison) negates the spell’s effects on targets but will not dispel the aura. A foot of metal or stone, two inches of lead, or a force effect such as [mage armor](https://api.open5e.com/spells/mage-armor) or [wall of force](https://api.open5e.com/spells/wall-of-force) will block it.",
+      "name": "Essence Instability",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы заставляете цель излучать вредную ауру. И цель, и каждое существо, начинающее или заканчивающее свой ход в пределах 20 футов от цели, страдают 2к6 урона ядом за раунд. Цель может совершать спасбросок Телосложения каждый раунд, чтобы отменить урон и завершить недуг. Успех означает, что цель больше не получает урон от ауры, но аура всё равно сохраняется вокруг цели полную продолжительность.\n\nСущества, затронутые аурой, должны совершать успешный спасбросок Телосложения каждый раунд, чтобы отменить урон. Аура перемещается вместе с первоначальной целью и не затронута порывом ветра и подобными заклинаниями.\n\nАура не обнаруживается как магическая или как яд и невидима, без запаха и неосязаема (хотя присутствие заклинания может быть обнаружено на первоначальной цели). Защита от яда отменяет эффекты заклинания на цели, но не рассеет ауру. Фут металла или камня, два дюйма свинца или эффект силы, такой как доспех мага или стена силы, заблокирует её.",
+      "glossary_version": "v1",
+      "name": "Нестабильность сущности",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

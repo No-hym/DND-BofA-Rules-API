@@ -1,0 +1,182 @@
+{
+  "attribution": "Title: Deep Magic Extended; Author: Not sure.; Publisher: kobold-press; Source: https://koboldpress.com/deepmagic; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepmx",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepmx_ley-surge",
+  "id": "o5e:deepmx:spell:deepmx-ley-surge",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepmx:spell:deepmx-ley-surge",
+      "o5e:dmag-e:spell:ley-surge"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "684c8518ba0c7ae5c56cada3ae5353c3af5cf1f68528616b09db13d2a444c37f",
+    "formulas": [
+      {
+        "expression": "14d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_druid",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "14d6",
+      "damage_types": [
+        "force"
+      ],
+      "duration": "instantaneous",
+      "level": 9,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 150,
+      "range_text": "150 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "shape_size": 30,
+      "shape_size_unit": null,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepmx",
+        "content_hash": "684c8518ba0c7ae5c56cada3ae5353c3af5cf1f68528616b09db13d2a444c37f",
+        "edition": "2014",
+        "id": "o5e:deepmx:spell:deepmx-ley-surge",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepmx"
+      },
+      {
+        "book": "dmag-e",
+        "content_hash": "99f8fb8d6eec4cc577595ccc809370da624a8cab029baaa99c7b9fdce91bee80",
+        "edition": "2014",
+        "id": "o5e:dmag-e:spell:ley-surge",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag-e"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_druid",
+        "type": "classes",
+        "value": [
+          "srd_druid",
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_druid",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "14d6",
+      "damage_types": [
+        "force"
+      ],
+      "desc": "You unleash the power of a ley line within 5 miles, releasing a spark that flares into a 30-foot sphere centered around a point within 150 feet of you. Each creature in the sphere takes 14d6 force damage and is stunned for 1 minute; a successful Constitution saving throw halves the damage and negates the stun. A stunned creature repeats the saving throw at the end of its turn, ending the effect on itself on a success. Special. A geomancer with a bound ley line can cast this spell as long as he or she is on the same plane as the bound line.",
+      "document": "deepmx",
+      "duration": "instantaneous",
+      "level": 9,
+      "material": false,
+      "material_consumed": false,
+      "name": "Ley Surge",
+      "range": 150,
+      "range_text": "150 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "shape_size": 30,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Not sure.",
+      "key": "deepmx",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/deepmagic",
+      "publication_date": "2024-02-14T19:02:02",
+      "publisher": "kobold-press",
+      "title": "Deep Magic Extended"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4856",
+          "parent": "deepmx_ley-surge",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Ley Surge",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepmx",
+  "translations": {
+    "en": {
+      "description": "You unleash the power of a ley line within 5 miles, releasing a spark that flares into a 30-foot sphere centered around a point within 150 feet of you. Each creature in the sphere takes 14d6 force damage and is stunned for 1 minute; a successful Constitution saving throw halves the damage and negates the stun. A stunned creature repeats the saving throw at the end of its turn, ending the effect on itself on a success. Special. A geomancer with a bound ley line can cast this spell as long as he or she is on the same plane as the bound line.",
+      "name": "Ley Surge",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы выпускаете силу лей-линии в пределах 5 миль, освобождая искру, которая вспыхивает в сферу 30 футов, центрированную вокруг точки в пределах 150 футов от вас. Каждое существо в сфере получает 14к6 урона силой и ошеломлено на 1 минуту; успешный спасбросок Телосложения вдвое уменьшает урон и отрицает ошеломление. Ошеломлённое существо повторяет спасбросок в конце его хода, заканчивая эффект на себе при успехе. Особое. Геомант со связанной лей-линией может сотворить это заклинание, пока он или она находится на том же плане, что и связанная линия.",
+      "glossary_version": "v1",
+      "name": "Всплеск лей",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

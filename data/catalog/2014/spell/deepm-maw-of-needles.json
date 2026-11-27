@@ -1,0 +1,200 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_maw-of-needles",
+  "id": "o5e:deepm:spell:deepm-maw-of-needles",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-maw-of-needles",
+      "o5e:dmag:spell:maw-of-needles"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "c2c74879a980a763ef449be274ac04fa7c1961e0811616b60784c83b124fb22c",
+    "formulas": [
+      {
+        "expression": "2d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "bonus-action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "piercing"
+      ],
+      "duration": "1 minute",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "c2c74879a980a763ef449be274ac04fa7c1961e0811616b60784c83b124fb22c",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-maw-of-needles",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "0ad24670059871c8a0ef27278785afb171554e08ad816ed1b7c31cd8ae715cde",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:maw-of-needles",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "bonus-action",
+      "concentration": false,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "piercing"
+      ],
+      "desc": "A spiny array of needle-like fangs protrudes from your gums, giving you a spiny bite. For the duration, you can use your action to make a melee spell attack with the bite. On a hit, the target takes 2d6 piercing damage and must succeed on a Dexterity saving throw or some of the spines in your mouth break off, sticking in the target. Until this spell ends, the target must succeed on a Constitution saving throw at the start of each of its turns or take 1d6 piercing damage from the spines. If you hit a target that has your spines stuck in it, your attack deals extra damage equal to your spellcasting ability modifier, and more spines don’t break off in the target. Your spines can stick in only one target at a time. If your spines stick into another target, the spines on the previous target crumble to dust, ending the effect on that target.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage of the spiny bite and the spines increases by 1d6 for every two slot levels above 1st.",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Maw of Needles",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3770",
+          "parent": "deepm_maw-of-needles",
+          "type": "default"
+        },
+        {
+          "external_id": "3772",
+          "parent": "deepm_maw-of-needles",
+          "type": "slot_level_2"
+        },
+        {
+          "external_id": "3773",
+          "parent": "deepm_maw-of-needles",
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "3774",
+          "parent": "deepm_maw-of-needles",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "3775",
+          "parent": "deepm_maw-of-needles",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "3776",
+          "parent": "deepm_maw-of-needles",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3777",
+          "parent": "deepm_maw-of-needles",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3778",
+          "parent": "deepm_maw-of-needles",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3779",
+          "parent": "deepm_maw-of-needles",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Maw of Needles",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "A spiny array of needle-like fangs protrudes from your gums, giving you a spiny bite. For the duration, you can use your action to make a melee spell attack with the bite. On a hit, the target takes 2d6 piercing damage and must succeed on a Dexterity saving throw or some of the spines in your mouth break off, sticking in the target. Until this spell ends, the target must succeed on a Constitution saving throw at the start of each of its turns or take 1d6 piercing damage from the spines. If you hit a target that has your spines stuck in it, your attack deals extra damage equal to your spellcasting ability modifier, and more spines don’t break off in the target. Your spines can stick in only one target at a time. If your spines stick into another target, the spines on the previous target crumble to dust, ending the effect on that target.",
+      "name": "Maw of Needles",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Колючий ряд иглоподобных клыков выступает из ваших дёсен, давая вам колючий укус. На время действия вы можете действием совершить рукопашную атаку заклинанием укусом. При попадании цель получает 2к6 колющего урона и должна преуспеть в спасброске Ловкости, иначе часть шипов в вашем рту отломится, застряв в цели. Пока это заклинание не закончится, цель должна преуспевать в спасброске Телосложения в начале каждого своего хода, иначе получит 1к6 колющего урона от шипов. Если вы попадаете по цели, в которой застряли ваши шипы, ваша атака наносит дополнительный урон, равный вашему модификатору базовой характеристики заклинаний, и больше шипов в цели не отламывается. Ваши шипы могут застрять только в одной цели за раз. Если ваши шипы вонзятся в другую цель, шипы на предыдущей цели рассыплются в пыль, завершая эффект на этой цели.",
+      "glossary_version": "v1",
+      "name": "Пасть игл",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

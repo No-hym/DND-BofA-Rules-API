@@ -1,0 +1,137 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "aviere",
+  "id": "o5e:tob2:monster:aviere-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:aviere"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "39439bed58816522ceab8e95d5ffbf2cc3e21fa682e245b8d5ad48b7ae078168",
+    "formulas": [
+      {
+        "expression": "5d4+5",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "any good",
+      "armor_class": 12,
+      "challenge_rating": "1/2",
+      "condition_immunities": "poisoned",
+      "damage_immunities": "fire, poison",
+      "damage_resistances": "radiant",
+      "damage_vulnerabilities": "",
+      "hit_dice": "5d4+5",
+      "hit_points": 17,
+      "languages": "Celestial, Common, telepathy 60 ft.",
+      "size": "Tiny"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "39439bed58816522ceab8e95d5ffbf2cc3e21fa682e245b8d5ad48b7ae078168",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:aviere",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Claw\", \"desc\": \"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage plus 4 (1d8) fire damage.\", \"attack_bonus\": 4, \"damage_dice\": \"1d4+2\"}, {\"name\": \"Song of Life\", \"desc\": \"The aviere sings a song against death. The aviere chooses one creature it can see within 30 feet of it that has 0 hp and isn't an undead or a construct. The creature becomes stable.\"}, {\"name\": \"Song of Healing (1/Day)\", \"desc\": \"The aviere sings a song of healing. The aviere chooses one creature within 60 feet of it. If the creature can hear the aviere's song and isn't an undead or a construct, it regains 1d4 hp.\"}]",
+      "alignment": "any good",
+      "armor_class": 12,
+      "bonus_actions_json": "null",
+      "challenge_rating": "1/2",
+      "charisma": 14,
+      "condition_immunities": "poisoned",
+      "constitution": 13,
+      "cr": 0.5,
+      "damage_immunities": "fire, poison",
+      "damage_resistances": "radiant",
+      "desc": "A small bird with a fiery belly perches on the shoulder of the temple’s acolyte, singing a divine song._  \nAvieres are fiery songbirds created by good deities and sent to holy sites on the Material Plane as protectors and teachers. They innately know the tenets of their deities and encourage those around them to uphold the tenets. They dislike leaving the area they were sent to tend, but they sometimes venture out to heal or evangelize passersby.  \n**Songbirds.** Locations containing avieres are always filled with beautiful music, as they sing the hymns of their deities at all hours of the day. In doing so, they heal and uplift their surroundings, leading to healthier flora and fauna and calmer weather in the area.  \n**Temple Assistants.** Avieres in temples spend most days aiding the temple’s priests and priestesses, especially in coaching acolytes or those new to the faith. They take great pleasure in assisting scribes who are writing their deity’s teachings, acting as a light source while singing the teachings to the scribes.",
+      "dexterity": 14,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "5d4+5",
+      "hit_points": 17,
+      "intelligence": 10,
+      "languages": "Celestial, Common, telepathy 60 ft.",
+      "legendary_actions_json": "null",
+      "name": "Aviere",
+      "page_no": 36,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "passive Perception 11",
+      "size": "Tiny",
+      "skills_json": "{\"performance\": 6, \"religion\": 4}",
+      "special_abilities_json": "[{\"name\": \"Divine Rejuvenation\", \"desc\": \"An aviere that dies collapses into a pile of ash. Each day the pile of ash is within 1 mile of a holy site of its deity or a worshiper of its deity, it has a 75 percent chance of returning to life, regaining all its hit points and becoming active again. This chance increases to 100 percent if a worshiper of the aviere's deity prays over the aviere's ashes at dawn. If unholy water is sprinkled on the aviere's ashes, the aviere can't return to life, except through a wish spell or divine will.\"}, {\"name\": \"Illumination\", \"desc\": \"The aviere sheds bright light in a 10-foot radius and dim light for an additional 10 feet.\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The aviere has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Magic Weapons\", \"desc\": \"The aviere's weapon attacks are magical.\"}]",
+      "speed_json": "{\"fly\": 30, \"walk\": 10}",
+      "spells_json": "null",
+      "strength": 7,
+      "type": "Celestial",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Aviere",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-aviere"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "A small bird with a fiery belly perches on the shoulder of the temple’s acolyte, singing a divine song._  \nAvieres are fiery songbirds created by good deities and sent to holy sites on the Material Plane as protectors and teachers. They innately know the tenets of their deities and encourage those around them to uphold the tenets. They dislike leaving the area they were sent to tend, but they sometimes venture out to heal or evangelize passersby.  \n**Songbirds.** Locations containing avieres are always filled with beautiful music, as they sing the hymns of their deities at all hours of the day. In doing so, they heal and uplift their surroundings, leading to healthier flora and fauna and calmer weather in the area.  \n**Temple Assistants.** Avieres in temples spend most days aiding the temple’s priests and priestesses, especially in coaching acolytes or those new to the faith. They take great pleasure in assisting scribes who are writing their deity’s teachings, acting as a light source while singing the teachings to the scribes.",
+      "name": "Aviere",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Маленькая птичка с огненной животик сидит на плече послушника храма, напевая божественные песни.\n\nАвиеры — это огненные певчие птицы, созданные добрыми божествами и посланные к святым местам на Материальном Плане в качестве защитников и учителей. Они врождённо знают догматы своих божеств и поощряют окружающих соблюдать догматы. Они не любят покидать области, в которые они были направлены, но иногда они отправляются на улицу, чтобы исцелять прохожих или проповедовать им.\n\n**Певчие птицы.** Места, содержащие авиер, всегда наполняется прекрасной музыкой, так как они поют гимны своих божеств во все часы дня. При этом они исцеляют и поднимают своё окружение, что приводит к более здоровой флоре и фауне и более спокойной погоде в этом районе.\n\n**Помощники по храму.** Авиеры в храмах проводят большую часть дней помогая священникам и жрицам храма, особенно в обучении послушников или тех, кто не знаком с верой. Они получают большое удовольствие от помощи писцам, которые пишут учение своего божества, выступая в качестве источника света при пении учения писцам.",
+      "glossary_version": "v1",
+      "name": "Авиера",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,138 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "magnetic-elemental",
+  "id": "o5e:tob2:monster:magnetic-elemental-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:magnetic-elemental"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b092021188106363730ad8768ab0dd6a2b479c2d881549152f052d58c24b2a64",
+    "formulas": [
+      {
+        "expression": "10d10+40",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral",
+      "armor_class": 16,
+      "challenge_rating": "6",
+      "condition_immunities": "exhaustion, paralyzed, petrified, poisoned, prone, unconscious",
+      "damage_immunities": "lightning, poison",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "",
+      "hit_dice": "10d10+40",
+      "hit_points": 95,
+      "languages": "Terran",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "b092021188106363730ad8768ab0dd6a2b479c2d881549152f052d58c24b2a64",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:magnetic-elemental",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The magnetic elemental makes two slam attacks.\"}, {\"name\": \"Slam\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.\", \"attack_bonus\": 7, \"damage_dice\": \"2d8+4\"}, {\"name\": \"Magnetic Pulse (Recharge 4-6)\", \"desc\": \"The magnetic elemental releases a magnetic pulse, choosing to pull or push nearby metal objects. Objects made of gold or silver are unaffected by the elemental's Pulse. \\n* Pull. Each creature that is wearing metal armor or holding a metal weapon within 5 feet of the magnetic elemental must succeed on a DC 15 Strength saving throw or the metal items worn or carried by it stick to the magnetic elemental. A creature that is made of metal or is wearing metal armor and that fails the saving throw is stuck to the elemental and grappled (escape DC 15). If the item is a weapon and the wielder can't or won't let go of the weapon, the wielder is stuck to the elemental and grappled (escape DC 15). A stuck object can't be used. Grappled and stuck creatures and objects move with the elemental when it moves. A creature can take its action to remove one creature or object from the elemental by succeeding on a DC 15 Strength check. The magnetic elemental's Armor Class increases by 1 for each creature grappled in this way. \\n* Push. Each creature that is wearing metal armor or holding a metal weapon within 10 feet of the elemental must make a DC 15 Strength saving throw. On a failure, a target takes 21 (6d6) force damage and is pushed up to 10 feet away from the elemental. On a success, a target takes half the damage and isn't pushed. A creature grappled by the elemental has disadvantage on this saving throw.\"}]",
+      "alignment": "neutral",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "6",
+      "charisma": 6,
+      "condition_immunities": "exhaustion, paralyzed, petrified, poisoned, prone, unconscious",
+      "constitution": 18,
+      "cr": 6.0,
+      "damage_immunities": "lightning, poison",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "desc": "The large, smooth rock stands, the air around it humming with energy. As it walks, nearby daggers, lanterns, and buckled boots move to follow it._  \nMagnetic elementals spontaneously appear where the Plane of Earth meets the Plane of Air. They are magnetized, rocky creatures capable of switching their polarity to repel attacks and pull enemies closer.  \n**Smooth Stone.** Magnetic elementals are worn smooth by the elemental air that creates them. They are able to harness this air to fly, and, when on the Material Plane, they occupy areas where vast swaths of stone are exposed to the sky, such as mountain peaks and deep canyons.  \n**Iron Summons.** Spellcasters who want to conjure a magnetic elemental must mix iron shavings into the soft clay. Such spellcasters must take caution, however, as the elementals often inadvertently attract the armor and weapons of those nearby.  \n**Elemental Nature.** The magnetic elemental doesn’t require air, food, drink, or sleep.",
+      "dexterity": 12,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "10d10+40",
+      "hit_points": 95,
+      "intelligence": 6,
+      "languages": "Terran",
+      "legendary_actions_json": "null",
+      "name": "Magnetic Elemental",
+      "page_no": 133,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., tremorsense 30 ft., passive Perception 10",
+      "size": "Large",
+      "skills_json": "{}",
+      "special_abilities_json": "[{\"name\": \"Controlled Polarity\", \"desc\": \"The magnetic elemental has advantage on attack rolls against a creature if the creature is wearing metal armor. A creature attacking the magnetic elemental with a metal weapon while within 10 feet of it has disadvantage on the attack roll.\"}, {\"name\": \"Magnetism\", \"desc\": \"When the magnetic elemental moves, Medium and smaller metal objects that aren't being worn or carried are pulled up to 5 feet closer to the magnetic elemental. If this movement pulls the object into the elemental's space, the item sticks to the elemental. A successful DC 15 Strength check removes a stuck item from the elemental. Objects made of gold and silver are unaffected by this trait.\"}]",
+      "speed_json": "{\"burrow\": 20, \"fly\": 20, \"hover\": true, \"walk\": 30}",
+      "spells_json": "null",
+      "strength": 18,
+      "type": "Elemental",
+      "wisdom": 10
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Magnetic Elemental",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-magnetic-elemental"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "The large, smooth rock stands, the air around it humming with energy. As it walks, nearby daggers, lanterns, and buckled boots move to follow it._  \nMagnetic elementals spontaneously appear where the Plane of Earth meets the Plane of Air. They are magnetized, rocky creatures capable of switching their polarity to repel attacks and pull enemies closer.  \n**Smooth Stone.** Magnetic elementals are worn smooth by the elemental air that creates them. They are able to harness this air to fly, and, when on the Material Plane, they occupy areas where vast swaths of stone are exposed to the sky, such as mountain peaks and deep canyons.  \n**Iron Summons.** Spellcasters who want to conjure a magnetic elemental must mix iron shavings into the soft clay. Such spellcasters must take caution, however, as the elementals often inadvertently attract the armor and weapons of those nearby.  \n**Elemental Nature.** The magnetic elemental doesn’t require air, food, drink, or sleep.",
+      "name": "Magnetic Elemental",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Большая, гладкой рок-стоит, воздух вокруг неё гудит энергией. Как он идёт, поблизости кинжалы, фонари и пряжка сапоги движутся за ним.\n\nМагнитные элементали спонтанно там, где Плоскость Земли встречается с Плоскостью Воздуха. Они намагниченные, скалистой существа, способные переключать их полярность отталкивать атаки и тянуть врагов ближе.\n\n**Гладкий камень.** Магнитные элементалы носятся гладкие к стихии воздуха, который создаёт их. Они способны обуздать этот воздух лететь, и, когда на материальной плоскости, они занимают районы, где огромные полосы камня подвергаются на небо, например горных вершин и глубокие каньоны.\n\n**Железный призыв.** Заклинатели, которые хотят заклинать магнитного элементаля, должны смешать опилки в мягкой глине. Такие заклинатели должны принимать осторожность, однако, как элементалы часто непреднамеренно привлекают броню и оружие из тех, кто рядом.\n\n**Стихийная природа.** Магнитный элементаль не требует воздуха, пищи, питья или сон.",
+      "glossary_version": "v1",
+      "name": "Магнитный Элементаль",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

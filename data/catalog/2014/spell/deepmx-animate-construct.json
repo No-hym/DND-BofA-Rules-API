@@ -1,0 +1,229 @@
+{
+  "attribution": "Title: Deep Magic Extended; Author: Not sure.; Publisher: kobold-press; Source: https://koboldpress.com/deepmagic; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepmx",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepmx_animate-construct",
+  "id": "o5e:deepmx:spell:deepmx-animate-construct",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepmx:spell:deepmx-animate-construct",
+      "o5e:dmag-e:spell:animate-construct"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b79d8a24b7ef48d35b79a8a2a58e214ce4c4708ab2e96f1579513f23ccaeef0e",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "10 minutes",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepmx",
+        "content_hash": "b79d8a24b7ef48d35b79a8a2a58e214ce4c4708ab2e96f1579513f23ccaeef0e",
+        "edition": "2014",
+        "id": "o5e:deepmx:spell:deepmx-animate-construct",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepmx"
+      },
+      {
+        "book": "dmag-e",
+        "content_hash": "42d19a8608f101312e94656d09be033e8b07f460dd7f82a392e835fae2c439de",
+        "edition": "2014",
+        "id": "o5e:dmag-e:spell:animate-construct",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag-e"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_wizard",
+        "type": "classes",
+        "value": [
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "desc": "Deep Magic: clockwork This spell animates a carefully prepared construct of Tiny size. The object acts immediately, on your turn, and can attack your opponents to the best of its ability. You can direct it not to attack, to attack particular enemies, or to perform other actions. You choose the object to animate, and you can change that choice each time you cast the spell. The cost of the body to be animated is 10 gp x its hit points. The body can be reused any number of times, provided it isn't severely damaged or destroyed. If no prepared construct body is available, you can animate a mass of loose metal or stone instead. Before casting, the loose objects must be arranged in a suitable shape (taking up to a minute), and the construct's hit points are halved. An animated construct has a Constitution of 10, Intelligence and Wisdom 3, and Charisma 1. Other characteristics are determined by the construct's size as follows. Size HP AC Attack STR DEX Spell Slot Tiny 15 12 +3, 1d4+4 4 16 1st Small 25 13 +4, 1d8+2 6 14 2nd Medium 40 14 +5, 2d6+1 10 12 3rd Large 50 15 +6, 2d10+2 14 10 4th Huge 80 16 +8, 2d12+4 18 8 5th Gargantuan 100 17 +10, 4d8+6 20 6 6th",
+      "document": "deepmx",
+      "duration": "10 minutes",
+      "higher_level": "Casting this spell using higher level spell slots allows you to increase the size of the construct animated, as shown on the table.",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "name": "Animate Construct",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Not sure.",
+      "key": "deepmx",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/deepmagic",
+      "publication_date": "2024-02-14T19:02:02",
+      "publisher": "kobold-press",
+      "title": "Deep Magic Extended"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4734",
+          "parent": "deepmx_animate-construct",
+          "type": "default"
+        },
+        {
+          "external_id": "4736",
+          "parent": "deepmx_animate-construct",
+          "type": "slot_level_2"
+        },
+        {
+          "external_id": "4737",
+          "parent": "deepmx_animate-construct",
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "4738",
+          "parent": "deepmx_animate-construct",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "4739",
+          "parent": "deepmx_animate-construct",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "4740",
+          "parent": "deepmx_animate-construct",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "4741",
+          "parent": "deepmx_animate-construct",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "4742",
+          "parent": "deepmx_animate-construct",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "4743",
+          "parent": "deepmx_animate-construct",
+          "type": "slot_level_9"
+        }
+      ],
+      "descriptions": [
+        {
+          "desc": "Constructs are beings that were built or made. Some are mindless machines, while others have some form of intelligence. Guardians are constructs.",
+          "desc_ru": "Описание. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "describes": "construct",
+          "document": "a5e-mm",
+          "external_id": "a5e-mm_construct",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Constructs are made, not born. Some are programmed by their creators to follow a simple set of instructions, while others are imbued with sentience and capable of independent thought. Golems are the iconic constructs. Many creatures native to the outer plane of Mechanus, such as modrons, are constructs shaped from the raw material of the plane by the will of more powerful creatures.",
+          "desc_ru": "Описание. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "describes": "construct",
+          "document": "srd-2014",
+          "external_id": "srd-2014_construct",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Constructs are magically created creatures such as homunculi and shield guardians.",
+          "desc_ru": "Описание. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "describes": "construct",
+          "document": "srd-2024",
+          "external_id": "srd-2024_construct",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Animate Construct",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepmx",
+  "translations": {
+    "en": {
+      "description": "Deep Magic: clockwork This spell animates a carefully prepared construct of Tiny size. The object acts immediately, on your turn, and can attack your opponents to the best of its ability. You can direct it not to attack, to attack particular enemies, or to perform other actions. You choose the object to animate, and you can change that choice each time you cast the spell. The cost of the body to be animated is 10 gp x its hit points. The body can be reused any number of times, provided it isn't severely damaged or destroyed. If no prepared construct body is available, you can animate a mass of loose metal or stone instead. Before casting, the loose objects must be arranged in a suitable shape (taking up to a minute), and the construct's hit points are halved. An animated construct has a Constitution of 10, Intelligence and Wisdom 3, and Charisma 1. Other characteristics are determined by the construct's size as follows. Size HP AC Attack STR DEX Spell Slot Tiny 15 12 +3, 1d4+4 4 16 1st Small 25 13 +4, 1d8+2 6 14 2nd Medium 40 14 +5, 2d6+1 10 12 3rd Large 50 15 +6, 2d10+2 14 10 4th Huge 80 16 +8, 2d12+4 18 8 5th Gargantuan 100 17 +10, 4d8+6 20 6 6th",
+      "name": "Animate Construct",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Это заклинание оживляет тщательно подготовленный конструкт Крошечного размера. Предмет действует немедленно, в ваш ход, и может атаковать ваших оппонентов в меру своих способностей. Вы можете направить его не атаковать, атаковать конкретных врагов или выполнять другие действия. Вы выбираете предмет для оживления, и вы можете изменить этот выбор каждый раз, когда вы творите заклинание. Стоимость тела, которое будет оживлено, составляет 10 зм × его хиты. Тело может быть повторно использовано любое количество раз, при условии, что оно не сильно повреждено или не уничтожено. Если подготовленное тело конструкта недоступно, вы можете оживить массу рыхлого металла или камня вместо этого. Перед сотворением рыхлые предметы должны быть расположены в подходящей форме (занимая до минуты), а хиты конструкта уменьшены вдвое. У оживлённого конструкта Телосложение 10, Интеллект и Мудрость 3, а Харизма 1. Другие характеристики определяются размером конструкта следующим образом:\n\nКрошечный: хиты 15, КД 12, атака +3, 1к4+4, Сила 4, Ловкость 16, ячейка 1-го уровня.\nМалый: хиты 25, КД 13, атака +4, 1к8+2, Сила 6, Ловкость 14, ячейка 2-го уровня.\nСредний: хиты 40, КД 14, атака +5, 2к6+1, Сила 10, Ловкость 12, ячейка 3-го уровня.\nБольшой: хиты 50, КД 15, атака +6, 2к10+2, Сила 14, Ловкость 10, ячейка 4-го уровня.\nОгромный: хиты 80, КД 16, атака +8, 2к12+4, Сила 18, Ловкость 8, ячейка 5-го уровня.\nГигантский: хиты 100, КД 17, атака +10, 4к8+6, Сила 20, Ловкость 6, ячейка 6-го уровня.",
+      "glossary_version": "v1",
+      "name": "Оживление конструкта",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

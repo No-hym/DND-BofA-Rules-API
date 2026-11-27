@@ -1,0 +1,160 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_sign-of-koth",
+  "id": "o5e:deepm:spell:deepm-sign-of-koth",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-sign-of-koth",
+      "o5e:dmag:spell:sign-of-koth"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "4ad18d419b7b24ab9dd18fd4110e37b25087a6ec6ee70087bb343c1527f16b9c",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "turn",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "until dispelled",
+      "level": 7,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a platinum dagger and a powdered black pearl worth 500 gp, which the spell consumes",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "4ad18d419b7b24ab9dd18fd4110e37b25087a6ec6ee70087bb343c1527f16b9c",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-sign-of-koth",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "480905dc977104030542954fbdecb3be467523581980b6b294b52c3596a1871f",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:sign-of-koth",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "turn",
+      "concentration": false,
+      "desc": "You invoke the twilight citadels of Koth to create a field of magical energy in the shape of a 60-foot-radius, 60-foot‑tall cylinder centered on you. The only visible evidence of this field is a black rune that appears on every doorway, window, or other portal inside the area.\n\nChoose one of the following creature types: aberration, beast, celestial, dragon, elemental, fey, fiend, giant, humanoid, monstrosity, ooze, plant, or undead. The sign affects creatures of the chosen type (including you, if applicable) in the following ways:\n* The creatures can’t willingly enter the cylinder’s area by nonmagical means; the cylinder acts as an invisible, impenetrable wall of force. If an affected creature tries to enter the cylinder’s area by using teleportation, a dimensional shortcut, or other magical means, it must make a successful Charisma saving throw or the attempt fails.\n* They cannot hear any sounds that originate inside the cylinder.\n* They have disadvantage on attack rolls against targets inside the cylinder.\n* They can’t charm, frighten, or possess creatures inside the cylinder.\nCreatures that aren’t affected by the field and that take a short rest inside it regain twice the usual number of hit points for each Hit Die spent at the end of the rest.\n\nWhen you cast this spell, you can choose to reverse its magic; doing this will prevent affected creatures from leaving the area instead of from entering it, make them unable to hear sounds that originate outside the cylinder, and so forth. In this case, the field provides no benefit for taking a short rest.\n",
+      "document": "deepm",
+      "duration": "until dispelled",
+      "higher_level": "When you cast this spell using a spell slot of 8th level or higher, the radius increases by 30 feet for each slot level above 7th.",
+      "level": 7,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a platinum dagger and a powdered black pearl worth 500 gp, which the spell consumes",
+      "name": "Sign of Koth",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4165",
+          "parent": "deepm_sign-of-koth",
+          "type": "default"
+        },
+        {
+          "external_id": "4167",
+          "parent": "deepm_sign-of-koth",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "4168",
+          "parent": "deepm_sign-of-koth",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Sign of Koth",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You invoke the twilight citadels of Koth to create a field of magical energy in the shape of a 60-foot-radius, 60-foot‑tall cylinder centered on you. The only visible evidence of this field is a black rune that appears on every doorway, window, or other portal inside the area.\n\nChoose one of the following creature types: aberration, beast, celestial, dragon, elemental, fey, fiend, giant, humanoid, monstrosity, ooze, plant, or undead. The sign affects creatures of the chosen type (including you, if applicable) in the following ways:\n* The creatures can’t willingly enter the cylinder’s area by nonmagical means; the cylinder acts as an invisible, impenetrable wall of force. If an affected creature tries to enter the cylinder’s area by using teleportation, a dimensional shortcut, or other magical means, it must make a successful Charisma saving throw or the attempt fails.\n* They cannot hear any sounds that originate inside the cylinder.\n* They have disadvantage on attack rolls against targets inside the cylinder.\n* They can’t charm, frighten, or possess creatures inside the cylinder.\nCreatures that aren’t affected by the field and that take a short rest inside it regain twice the usual number of hit points for each Hit Die spent at the end of the rest.\n\nWhen you cast this spell, you can choose to reverse its magic; doing this will prevent affected creatures from leaving the area instead of from entering it, make them unable to hear sounds that originate outside the cylinder, and so forth. In this case, the field provides no benefit for taking a short rest.",
+      "name": "Sign of Koth",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы вызываете цитадель сумерек Кота, чтобы создать поле магической энергии в форме 60-футового радиуса, 60-футового цилиндра, сконцентрированного на вас. Единственное видимое доказательство этого поля - черная руна, которая появляется на каждой двери, окне или другом портале внутри района.\n\nВыберите один из следующих типов существ: отклонение, зверь, небесное, дракон, элементал, фея, бес, гигант, человекообразное, чудовище, грязь, растение или мертвец. Знак влияет на существа выбранного типа (включая вас, если применимо) следующими способами:\n\n* Существа не могут добровольно войти в область цилиндра немагическими средствами; цилиндр выступает в качестве невидимой, непроницаемой стены силы. Если пораженные существо пытается войти в область цилиндра с помощью телепортации, размерного ярлыка или других магических средств, он должен успешно спасбросок Харизмы, иначе попытка проваливается.\n* Они не могут слышать звуки, которые происходят внутри цилиндра.\n* У них есть недостаток при бросках атаки против целей внутри цилиндра.\n* Они не могут очаровывать, отпугивать или владеть существами внутри цилиндра.\n\nСущества, которые не пострадали от поля и которые делают короткий отдых внутри него, восстанавливают в два раза обычного номера пунктов для каждого попадания кости, проведённого в конце отдыха.\n\nКогда вы создаете это заклинание, вы можете выбрать обратить его магию; делая это предотвратит пораженные существа от ухода из области вместо входа в нее, делают их неспособными слышать звуки, которые происходят за пределами цилиндра, и так далее. В этом случае, поле не предоставляет никакой выгоды для короткого отдыха.",
+      "glossary_version": "v1",
+      "name": "Знак Кота",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

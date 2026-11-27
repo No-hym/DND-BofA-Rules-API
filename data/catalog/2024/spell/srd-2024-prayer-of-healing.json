@@ -1,0 +1,186 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_prayer-of-healing",
+  "id": "o5e:srd-2024:spell:srd-2024-prayer-of-healing",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "a824edbe85e352ef1cb738a15a5c7961bc0b787e7a325b18a5a8bdb5df90ec1f",
+    "formulas": [
+      {
+        "expression": "2d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [
+        "srd-2024_cleric",
+        "srd-2024_paladin"
+      ],
+      "concentration": false,
+      "damage_roll": "2d8",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_cleric",
+        "type": "classes",
+        "value": [
+          "srd-2024_cleric",
+          "srd-2024_paladin"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1minute",
+      "classes": [
+        "srd-2024_cleric",
+        "srd-2024_paladin"
+      ],
+      "concentration": false,
+      "damage_roll": "2d8",
+      "desc": "Up to five creatures of your choice who remain within range for the spell's entire casting gain the benefits of a Short Rest and also regain 2d8 Hit Points. A creature can't be affected by this spell again until that creature finishes a Long Rest.",
+      "document": "srd-2024",
+      "duration": "instantaneous",
+      "higher_level": "The healing increases by 1d8 for each spell slot level above 2.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Prayer of Healing",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "abjuration",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "damage_roll": "3d8",
+          "external_id": "10473",
+          "parent": "srd-2024_prayer-of-healing",
+          "type": "slot_level_3"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "10474",
+          "parent": "srd-2024_prayer-of-healing",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "5d8",
+          "external_id": "10475",
+          "parent": "srd-2024_prayer-of-healing",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "6d8",
+          "external_id": "10476",
+          "parent": "srd-2024_prayer-of-healing",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "7d8",
+          "external_id": "10477",
+          "parent": "srd-2024_prayer-of-healing",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "8d8",
+          "external_id": "10478",
+          "parent": "srd-2024_prayer-of-healing",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "9d8",
+          "external_id": "10479",
+          "parent": "srd-2024_prayer-of-healing",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Prayer of Healing",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "Up to five creatures of your choice who remain within range for the spell's entire casting gain the benefits of a Short Rest and also regain 2d8 Hit Points. A creature can't be affected by this spell again until that creature finishes a Long Rest.",
+      "name": "Prayer of Healing",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 2-го уровня (Жрец)*\n\n**Время накладывания:** 10 минут\n\n**Дистанция:** 30 футов\n\n**Компоненты:** В\n\n**Длительность:** Мгновенная\n\nДо шести существ по вашему выбору, которых вы видите в пределах дистанции, восстанавливают количество хитов, равное 2к8 + ваш модификатор базовой характеристики заклинателя. Это заклинание не действует на нежить и конструктов.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 3-го уровня или выше, исцеление увеличивается на 1к8 за каждый уровень ячейки выше 2-го.",
+      "glossary_version": "v1",
+      "name": "Молитва исцеления",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

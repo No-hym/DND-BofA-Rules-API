@@ -1,0 +1,181 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_freezing-sphere",
+  "id": "o5e:srd-2024:spell:srd-2024-freezing-sphere",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "08e98936c5f12955cd587e64e740979808c759615e30a7da333324165dd64788",
+    "formulas": [
+      {
+        "expression": "10d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_sorcerer",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "10d6",
+      "damage_types": [
+        "cold"
+      ],
+      "duration": "instantaneous",
+      "level": 6,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a miniature crystal sphere",
+      "range": 300,
+      "range_text": "300 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "shape_size": 60,
+      "shape_size_unit": "feet",
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_sorcerer",
+        "type": "classes",
+        "value": [
+          "srd-2024_sorcerer",
+          "srd-2024_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_sorcerer",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "10d6",
+      "damage_types": [
+        "cold"
+      ],
+      "desc": "A frigid globe streaks from you to a point of your choice within range, where it explodes in a 60-foot-radius Sphere. Each creature in that area makes a Constitution saving throw, taking 10d6 Cold damage on failed save or half as much damage on a successful one.\n\nIf the globe strikes a body of water, it freezes the water to a depth of 6 inches over an area 30 feet square. This ice lasts for 1 minute. Creatures that were swimming on the surface of frozen water are trapped in the ice and have the Restrained condition. A trapped creature can take an action to make a Strength (Athletics) check against your spell save DC to break free.\n\nYou can refrain from firing the globe after completing the spell's casting. If you do so, a globe about the size of a sling bullet, cool to the touch, appears in your hand. At any time, you or a creature you give the globe to can throw the globe (to a range of 40 feet) or hurl it with a sling (to the sling's normal range). It shatters on impact, with the same effect as a normal casting of the spell. You can also set the globe down without shattering it. After 1 minute, if the globe hasn't already shattered, it explodes.",
+      "document": "srd-2024",
+      "duration": "instantaneous",
+      "higher_level": "The damage increases by 1d6 for each spell slot level above 6.",
+      "level": 6,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a miniature crystal sphere",
+      "name": "Freezing Sphere",
+      "range": 300,
+      "range_text": "300 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "shape_size": 60,
+      "shape_size_unit": "feet",
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "damage_roll": "11d6",
+          "desc": "The damage increases by 1d6.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10979",
+          "parent": "srd-2024_freezing-sphere",
+          "ru_source": "derived",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "12d6",
+          "desc": "The damage increases by 2d6.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10980",
+          "parent": "srd-2024_freezing-sphere",
+          "ru_source": "derived",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "13d6",
+          "desc": "The damage increases by 3d6.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10981",
+          "parent": "srd-2024_freezing-sphere",
+          "ru_source": "derived",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Freezing Sphere",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "A frigid globe streaks from you to a point of your choice within range, where it explodes in a 60-foot-radius Sphere. Each creature in that area makes a Constitution saving throw, taking 10d6 Cold damage on failed save or half as much damage on a successful one.\n\nIf the globe strikes a body of water, it freezes the water to a depth of 6 inches over an area 30 feet square. This ice lasts for 1 minute. Creatures that were swimming on the surface of frozen water are trapped in the ice and have the Restrained condition. A trapped creature can take an action to make a Strength (Athletics) check against your spell save DC to break free.\n\nYou can refrain from firing the globe after completing the spell's casting. If you do so, a globe about the size of a sling bullet, cool to the touch, appears in your hand. At any time, you or a creature you give the globe to can throw the globe (to a range of 40 feet) or hurl it with a sling (to the sling's normal range). It shatters on impact, with the same effect as a normal casting of the spell. You can also set the globe down without shattering it. After 1 minute, if the globe hasn't already shattered, it explodes.",
+      "name": "Freezing Sphere",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 6-го уровня (Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 300 футов\n\n**Компоненты:** В, С, М (маленькая хрустальная сфера)\n\n**Длительность:** Мгновенная\n\nЛедяная сфера холодной энергии срывается с ваших пальцев к выбранной вами точке в пределах дистанции, где взрывается в сфере радиусом 60 футов. Каждое существо в области должно совершить спасбросок Телосложения. При провале существо получает 10к6 урона холодом. При успехе оно получает половину этого урона.\n\nЕсли сфера попадает в водоём или жидкость, которая преимущественно является водой (не включая водяных существ), она замораживает жидкость на глубину 6 дюймов на площади 30 футов. Этот лёд существует 1 минуту. Существа, плавающие на поверхности замёрзшей воды, оказываются запертыми во льду. Запертое существо может действием совершить проверку Силы против СЛ спасброска от ваших заклинаний, чтобы высвободиться.\n\nЕсли хотите, вы можете не выпускать сферу после завершения заклинания. Маленькая сфера размером с камень для пращи, холодная на ощупь, появляется в вашей руке. В любой момент вы или существо, которому вы отдадите сферу, можете бросить её (на дистанцию 40 футов) или метнуть пращой (на нормальную дистанцию пращи). Она разбивается при ударе с тем же эффектом, что и при обычном сотворении заклинания. Вы также можете положить сферу, не разбивая её. Через 1 минуту, если сфера ещё не разбилась, она взрывается.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 7-го уровня или выше, урон увеличивается на 1к6 за каждый уровень ячейки выше 6-го.",
+      "glossary_version": "v1",
+      "name": "Морозная сфера",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

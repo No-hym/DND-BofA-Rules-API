@@ -1,0 +1,177 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_animal-lords",
+  "id": "o5e:toh:characterclass:toh-animal-lords",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:archetype:animal-lords",
+      "o5e:toh:characterclass:toh-animal-lords"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "e4406cfb8fc6edcb10cebded564d7d37d489bb11e9bb593d487bbca6a49073fd",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_warlock"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "e4406cfb8fc6edcb10cebded564d7d37d489bb11e9bb593d487bbca6a49073fd",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-animal-lords",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "d92550af6f105a856a913c22ab7464dd11c2c332aa09ac3f38c58d20f22316c5",
+        "edition": "2014",
+        "id": "o5e:toh:archetype:animal-lords",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_warlock",
+        "type": "subclass_of",
+        "value": "srd_warlock"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "While humanoids have vast pantheons and divine figures of every stripe, the animals of the world have much simpler forms of faith. Among each species there is always one paragon that embodies the animal spirit in a humanoid form, the better to speak to others and represent the animals in the fey courts and the Upper Planes. These timeless entities are connected to every animal of the kind they represent, and their primary concerns are for the well-being of these animals and the natural world as a whole.\n  Your patron is one such animal lord. Animal lords are varied in their motivations and often come into conflict with each other. They each command legions of animal followers and gather information from all of them. Unlike many other patrons, animal lords often have close relationships with those they bind with pacts, some to control, others to guide and advise. You are your animal lord's hand in the affairs of humanoids, and your allies are as numerous as the spiders in the corner or the birds in the sky.\n  You choose a specific animal lord to be your patron using the Animal Lord table. Each type of animal in the world can potentially have an animal lord. If you want to follow a specific type of animal lord, work with your GM to determine the animal lord's affinity and beast type and where that animal lord fits in the world. For a deeper dive on specific animal lords and for their game statistics, see *Creature Codex* and *Tome of Beasts 2*. These books aren't required to choose an animal lord as your patron or to play this class option.\n\n**Animal Lords (table)**\n\n| Animal Lord        | Affinity | Beast Type              |\r\n|--------------------|----------|-------------------------|\r\n| Bat King           | Air      | Bats                    |\r\n| Brother Ox         | Earth    | Hooved mammals          |\r\n| Lord of Vultures   | Air      | Vultures, birds of prey |\r\n| Mouse King         | Earth    | Rodents                 |\r\n| Queen of Birds     | Air      | Birds                   |\r\n| Queen of Cats      | Earth    | Felines                 |\r\n| Queen of Serpents  | Earth    | Reptiles                |\r\n| Queen of Scorpions | Earth    | Arachnids               |\r\n| Toad King          | Water    | Amphibians              |",
+      "document": "toh",
+      "name": "Animal Lords",
+      "subclass_of": "srd_warlock"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "At 1st level, your patron bestows upon you the ability to discern your foe's flaws to aid in its downfall. You can use an action to analyze one creature you can see within 30 feet of you and impart this information to your companions. You and a number of creatures within 30 feet of you equal to your proficiency bonus each gain one of the following benefits (your choice). This benefit lasts for 1 minute or until the analyzed creature dies. \n* You gain a +1 bonus to attack rolls against the analyzed creature. \n* You gain a +1 bonus to the damage roll when you hit the analyzed creature with an attack. \n* You have advantage on saving throws against the spells and effects of the analyzed creature. \n* When the analyzed creature attacks you, you gain a +1 bonus to Armor Class.\nOnce you use this feature, you can't use it again until you finish a short or long rest. When you reach 10th level in this class, each +1 bonus increases to +2.",
+          "desc_ru": "На 1-м уровне ваш покровитель дарует вам способность различать недостатки вашего врага, чтобы помочь его падению. Вы можете действием проанализировать одно существо, которое вы можете видеть в пределах 30 футов от вас, и передать эту информацию вашим товарищам. Вы и количество существ в пределах 30 футов от вас, равное вашему бонусу мастерства, каждое получает одно из следующих преимуществ (на ваш выбор). Это преимущество длится 1 минуту или пока проанализированное существо не умрёт. \n* Вы получаете бонус +1 к броскам атаки против проанализированного существа. \n* Вы получаете бонус +1 к броску урона, когда вы попадаете по проанализированному существу атакой. \n* Вы совершаете с преимуществом спасброски против заклинаний и эффектов проанализированного существа. \n* Когда проанализированное существо атакует вас, вы получаете бонус +1 к Классу доспеха.\nИспользовав эту особенность, вы не можете использовать её снова, пока не закончите короткий или продолжительный отдых. Когда вы достигаете 10-го уровня в этом классе, каждый бонус +1 увеличивается до +2.",
+          "document": "toh",
+          "external_id": "toh_animal-lords_animalistic-insight",
+          "level": 1,
+          "name": "Animalistic Insight",
+          "name_ru": "Животная проницательность",
+          "parent": "toh_animal-lords",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 1st level, you learn the *druidcraft* cantrip, and you gain proficiency in the Animal Handling skill.",
+          "desc_ru": "Начиная с 1-го уровня вы изучаете заговор друидическое ремесло и получаете владение навыком Уход за животными.",
+          "document": "toh",
+          "external_id": "toh_animal-lords_natural-blessing",
+          "level": 1,
+          "name": "Natural Blessing",
+          "name_ru": "Благословение природы",
+          "parent": "toh_animal-lords",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 6th level, your patron sends you a beast companion that accompanies you on your adventures and is trained to fight alongside you. The companion acts as the animal lord's eyes and ears, allowing your patron to watch over you, and, at times, advise, warn, or otherwise communicate with you.\n  Choose a beast that relates to your patron (as shown in the Beast Type column in the Animal Lords table) that has a challenge rating of 1/4 or lower. If you have the Pact of the Chain Pact Boon, this beast becomes your familiar.\n  Your patron companion is friendly to you and your companions, and you can speak with it as if you shared a language. It obeys your commands and, in combat, it shares your initiative and takes its turn immediately after yours. Your patron companion can move and use its reaction on its own, but, if you don't issue any commands to it, the only action it takes is the Dodge action. You can use a bonus action to direct it to take the Attack, Dash, Disengage, Help, Hide, or Search action or an action listed in its statistics. If you are incapacitated, the companion can take any action of its choice, not just Dodge.\n  If your companion dies, your patron sends a new one to you after 24 hours. If your patron companions die too often, your patron might be reluctant to send a new one or might reprimand you in other ways.",
+          "desc_ru": "На 6-м уровне ваш покровитель посылает вам спутника-зверя, который сопровождает вас в ваших приключениях и обучен сражаться рядом с вами. Спутник действует как глаза и уши владыки животных, позволяя вашему покровителю наблюдать за вами и временами советовать, предупреждать или иначе общаться с вами.\nВыберите зверя, который относится к вашему покровителю (как показано в колонке Тип зверя в таблице Владык животных), который имеет показатель опасности 1/4 или ниже. Если у вас есть Дар договора Договор цепи, этот зверь становится вашим фамильяром.\nВаш спутник покровителя дружествен вам и вашим товарищам, и вы можете говорить с ним, как если бы вы разделяли язык. Он подчиняется вашим командам и, в бою, он разделяет вашу инициативу и совершает его ход немедленно после вашего. Ваш спутник покровителя может перемещаться и использовать его реакцию сам по себе, но, если вы не издаёте ему никаких команд, единственное действие, которое он совершает, — действие Уклонение. Вы можете бонусным действием направить его совершить действие Атака, Рывок, Отход, Помощь, Скрыться или Поиск или действие, перечисленное в его статистике. Если вы недееспособны, спутник может совершить любое действие на его выбор, не только Уклонение.\nЕсли ваш спутник умирает, ваш покровитель посылает вам нового через 24 часа. Если ваши спутники покровителя умирают слишком часто, ваш покровитель может быть неохотен посылать нового или может упрекнуть вас другими способами.",
+          "document": "toh",
+          "external_id": "toh_animal-lords_patron-companion",
+          "level": 6,
+          "name": "Patron Companion",
+          "name_ru": "Спутник покровителя",
+          "parent": "toh_animal-lords",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 10th level, you can use your bond to your patron to tap into the innate connection between all animals. At the end of each short or long rest, choose one of the following benefits. The benefit lasts until you finish a short or long rest. \n* **Cat Eyes.** You have darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet. \n* **Chameleonic.** You have advantage on Dexterity (Stealth) checks. \n* **Fangs.** You grow fangs. The fangs are a natural melee weapon, which you can use to make unarmed strikes. When you hit with your fangs, you can use Charisma instead of Strength for the attack, and your fangs deal piercing damage equal to 1d6 + your Charisma modifier, instead of the bludgeoning damage normal for an unarmed strike. \n* **Hold Breath.** You can hold your breath for 10 minutes. \n* **Keen Senses.** You have advantage on Wisdom (Perception) checks that rely on hearing or smell. \n* **Leap.** Your jump distance is doubled. \n* **Spry.** You have advantage on Dexterity (Acrobatics) checks. \n* **Swift.** Your speed increases by 10 feet. \n* **Thick Hide.** You gain a +1 bonus to your Armor Class. \n* **Webbed Limbs.** You have a swimming speed of 20 feet.",
+          "desc_ru": "На 10-м уровне вы можете использовать вашу связь с вашим покровителем, чтобы подключиться к врождённой связи между всеми животными. В конце каждого короткого или продолжительного отдыха выберите одно из следующих преимуществ. Преимущество длится, пока вы не закончите короткий или продолжительный отдых. \n* Глаза кошки. У вас есть тёмное зрение на дистанции 60 футов. Если у вас уже есть тёмное зрение, его дистанция увеличивается на 30 футов. \n* Хамелеон. Вы совершаете с преимуществом проверки Ловкости (Скрытность). \n* Клыки. У вас вырастают клыки. Клыки — естественное оружие ближнего боя, которое вы можете использовать для совершения безоружных ударов. Когда вы попадаете вашими клыками, вы можете использовать Харизму вместо Силы для атаки, и ваши клыки наносят колющий урон, равный 1к6 + ваш модификатор Харизмы, вместо дробящего урона, обычного для безоружного удара. \n* Задержать дыхание. Вы можете задержать ваше дыхание на 10 минут. \n* Острые чувства. Вы совершаете с преимуществом проверки Мудрости (Восприятие), которые полагаются на слух или нюх. \n* Прыжок. Ваша дистанция прыжка удвоена. \n* Проворный. Вы совершаете с преимуществом проверки Ловкости (Акробатика). \n* Быстрый. Ваша скорость увеличивается на 10 футов. \n* Толстая шкура. Вы получаете бонус +1 к вашему Классу доспеха. \n* Перепончатые конечности. У вас есть скорость плавания 20 футов.",
+          "document": "toh",
+          "external_id": "toh_animal-lords_primal-mastery",
+          "level": 10,
+          "name": "Primal Mastery",
+          "name_ru": "Первобытное мастерство",
+          "parent": "toh_animal-lords",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 14th level, you can summon a horde of beasts to come to your aid. As an action, you call upon your animal lord, and several beasts of your patron's type appear in unoccupied spaces that you can see within 60 feet of you. This works like a 7th-level *conjure* animals spell, except you don't need to maintain concentration. Once you use this feature, you can't use it again until you finish a short or long rest.",
+          "desc_ru": "На 14-м уровне вы можете призвать орду зверей прийти вам на помощь. Действием вы призываете вашего животного лорда, и несколько зверей типа вашего покровителя появляются в незанятых пространствах, которые вы можете видеть, в пределах 60 футов от вас. Это работает как заклинание призыв животных 7-го уровня, за исключением того, что вам не нужно поддерживать концентрацию. Использовав эту особенность, вы не можете использовать её снова, пока не закончите короткий или продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_animal-lords_call-the-legions",
+          "level": 14,
+          "name": "Call the Legions",
+          "name_ru": "Призвать легионы",
+          "parent": "toh_animal-lords",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Animal Lords let you choose from an expanded list of spells when you learn a warlock spell. The Animal Lord Expanded Spells table shows the animal lord spells that are added to the warlock spell list for you, along with the spells associated with your patron's affinity: air, earth, or water.\n\n**Animal Lords Expanded Spells (table)**\n| Spell Level | Animal Lord Spells    | Air Spells       | Earth Spells         | Water Spells      | \n|-------------|-----------------------|------------------|----------------------|-------------------| \n| 1st         | *Speak with Animals*  | *thunderwave*    | *longstrider*        | *fog cloud*       | \n| 2nd         | *mark prey*           | *gust of wind*   | *pass without trace* | *misty step*      | \n| 3rd         | *conjure animals*     | *fly*            | *phantom seed*       | *water breathing* | \n| 4th         | *polymorph*           | *storm of wings* | *sudden stampede*    | *control water*   | \n| 5th         | *commune with nature* | *insect plague*  | *hold monster*       | *cloudkill*       |",
+          "desc_ru": "Владыки животных позволяют вам выбирать из расширенного списка заклинаний, когда вы изучаете заклинание чернокнижника. Таблица Расширенных заклинаний владыки животных показывает заклинания владыки животных, которые добавляются в список заклинаний чернокнижника для вас, вместе с заклинаниями, связанными с близостью вашего покровителя: воздух, земля или вода.\n\nРасширенные заклинания владыки животных (таблица)\n| Уровень заклинания | Заклинания владыки животных | Заклинания воздуха | Заклинания земли | Заклинания воды |\n|---|---|---|---|---|\n| 1-й | Разговор с животными | Волна грома | Долгий шаг | Туманное облако |\n| 2-й | Метка добычи | Порыв ветра | бесследное движение | Туманный шаг |\n| 3-й | Призыв животных | Полёт | Призрачное семя | Дыхание под водой |\n| 4-й | Превращение | Буря крыльев | Внезапное стадо | Контроль воды |\n| 5-й | Общение с природой | Нашествие насекомых | Удержание чудовища | Ядовитое облако |",
+          "document": "toh",
+          "external_id": "toh_animal-lords_expanded-spell-list",
+          "name": "Expanded Spell List",
+          "name_ru": "Расширенный список заклинаний",
+          "parent": "toh_animal-lords",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Animal Lords",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "While humanoids have vast pantheons and divine figures of every stripe, the animals of the world have much simpler forms of faith. Among each species there is always one paragon that embodies the animal spirit in a humanoid form, the better to speak to others and represent the animals in the fey courts and the Upper Planes. These timeless entities are connected to every animal of the kind they represent, and their primary concerns are for the well-being of these animals and the natural world as a whole.\n  Your patron is one such animal lord. Animal lords are varied in their motivations and often come into conflict with each other. They each command legions of animal followers and gather information from all of them. Unlike many other patrons, animal lords often have close relationships with those they bind with pacts, some to control, others to guide and advise. You are your animal lord's hand in the affairs of humanoids, and your allies are as numerous as the spiders in the corner or the birds in the sky.\n  You choose a specific animal lord to be your patron using the Animal Lord table. Each type of animal in the world can potentially have an animal lord. If you want to follow a specific type of animal lord, work with your GM to determine the animal lord's affinity and beast type and where that animal lord fits in the world. For a deeper dive on specific animal lords and for their game statistics, see *Creature Codex* and *Tome of Beasts 2*. These books aren't required to choose an animal lord as your patron or to play this class option.\n\n**Animal Lords (table)**\n\n| Animal Lord        | Affinity | Beast Type              |\r\n|--------------------|----------|-------------------------|\r\n| Bat King           | Air      | Bats                    |\r\n| Brother Ox         | Earth    | Hooved mammals          |\r\n| Lord of Vultures   | Air      | Vultures, birds of prey |\r\n| Mouse King         | Earth    | Rodents                 |\r\n| Queen of Birds     | Air      | Birds                   |\r\n| Queen of Cats      | Earth    | Felines                 |\r\n| Queen of Serpents  | Earth    | Reptiles                |\r\n| Queen of Scorpions | Earth    | Arachnids               |\r\n| Toad King          | Water    | Amphibians              |",
+      "name": "Animal Lords",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Если у гуманоидов есть обширные пантеоны и божественные фигуры на любой вкус, то у животных мира формы веры куда проще. Среди каждого вида зверей всегда есть один идеал, воплощающий звериный дух в гуманоидной форме, чтобы лучше говорить с другими и представлять животных при дворах фей и на Верхних Планах. Эти вечные сущности связаны с каждым животным вида, который они представляют, и их главная забота — благополучие этих животных и природного мира в целом.\n  Ваш покровитель — один из таких владык животных. Владыки животных различаются побуждениями и часто конфликтуют друг с другом. Каждый из них командует легионами звериных последователей и собирает сведения от всех них. В отличие от многих других покровителей, владыки животных часто поддерживают тесные отношения с теми, кого связывают договорами: одни — чтобы контролировать, другие — чтобы направлять и советовать. Вы — рука вашего владыки животных в делах гуманоидов, и ваши союзники столь же многочисленны, как пауки в углу или птицы в небе.\n  Вы выбираете конкретного владыку животных себе в покровители по таблице «Владыки животных». У каждого вида животных в мире потенциально может быть свой владыка. Если вы хотите следовать за владыкой определённого вида, обсудите с Мастером его стихийную близость и тип зверей, а также место этого владыки в мире. Подробнее о конкретных владыках животных и их игровых характеристиках см. *Creature Codex* и *Tome of Beasts 2*. Эти книги не требуются, чтобы выбрать владыку животных покровителем или играть этим вариантом класса.\n\n**Владыки животных (таблица)**\n\n| Владыка животных | Стихийная близость | Тип зверей |\n|---|---|---|\n| Король летучих мышей | Воздух | Летучие мыши |\n| Брат Бык | Земля | Копытные млекопитающие |\n| Владыка стервятников | Воздух | Стервятники, хищные птицы |\n| Мышиный король | Земля | Грызуны |\n| Королева птиц | Воздух | Птицы |\n| Королева кошек | Земля | Кошачьи |\n| Королева змей | Земля | Рептилии |\n| Королева скорпионов | Земля | Паукообразные |\n| Король жаб | Вода | Земноводные |",
+      "glossary_version": "v1",
+      "name": "Владыки животных",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

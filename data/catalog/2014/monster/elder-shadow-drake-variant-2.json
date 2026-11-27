@@ -1,0 +1,142 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "elder-shadow-drake",
+  "id": "o5e:tob:monster:elder-shadow-drake-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:elder-shadow-drake"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "7fd7239f1f25121701abd2664b41cd8a403cbf1086f6542968cf17b4600d8ce9",
+    "formulas": [
+      {
+        "expression": "12d10+48",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic evil",
+      "armor_class": 16,
+      "challenge_rating": "7",
+      "condition_immunities": "paralyzed, unconscious",
+      "damage_immunities": "cold",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "radiant",
+      "hit_dice": "12d10+48",
+      "hit_points": 114,
+      "languages": "Common, Draconic, Umbral",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "7fd7239f1f25121701abd2664b41cd8a403cbf1086f6542968cf17b4600d8ce9",
+        "edition": "2014",
+        "id": "o5e:tob:monster:elder-shadow-drake",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The drake makes one bite attack and one tail slap attack.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) piercing damage.\", \"attack_bonus\": 9, \"damage_dice\": \"3d10\"}, {\"name\": \"Tail Slap\", \"desc\": \"Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage.\", \"attack_bonus\": 9, \"damage_dice\": \"3d8\"}, {\"name\": \"Stygian Breath (Recharge 5-6)\", \"desc\": \"The elder shadow drake exhales a ball of black liquid that travels up to 60 feet before exploding into a cloud of frigid black mist with a 20-foot radius. Each creature in that sphere takes 42 (12d6) cold damage, or half damage with a successful DC 15 Constitution saving throw. Within the area of effect, the mist snuffs out nonmagical light sources and dispels magical light of 1st level or lower.\"}]",
+      "alignment": "chaotic evil",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "7",
+      "charisma": 13,
+      "charisma_save": 4,
+      "condition_immunities": "paralyzed, unconscious",
+      "constitution": 18,
+      "constitution_save": 7,
+      "cr": 7.0,
+      "damage_immunities": "cold",
+      "damage_vulnerabilities": "radiant",
+      "desc": "_A large dragon-like creature with black scales and shadowy wings emerges suddenly from the darkness. Its red eyes glare bright as coals, and it speaks in a deep monotone._  \n**Strange Humor.** Elder shadow drakes are mischievous and greedy. They devour entire goats and sheep and sometimes spell out messages with their bones. They make surprisingly good bandits, and sometimes ally themselves with bands of humanoids—their own share of plunder must always be clearly the largest share of any such arrangement.  \n**Solitary Lairs.** They haunt dark and lonely places, such as deep caves, dense forests, and shadowy ruins. They are longlived for drakes, often reaching 250 years of age, and mate rarely, abandoning their eggs shortly before hatching.  \n**Fade Into Shadows.** An elder shadow drake naturally fades from view in areas of dim light or darkness. Darkvision doesn’t overcome this, because the shadow drake doesn’t simply blend into shadows; it magically becomes invisible in them.",
+      "dexterity": 13,
+      "dexterity_save": 4,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "12d10+48",
+      "hit_points": 114,
+      "intelligence": 8,
+      "languages": "Common, Draconic, Umbral",
+      "legendary_actions_json": "null",
+      "name": "Elder Shadow Drake",
+      "page_no": 153,
+      "perception": 5,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 120 ft., passive Perception 15",
+      "size": "Large",
+      "skills_json": "{\"perception\": 5, \"stealth\": 7}",
+      "special_abilities_json": "[{\"name\": \"Shadow Blend\", \"desc\": \"In areas of dim light or darkness, an elder shadow drake is treated as invisible. Artificial illumination, such as a lantern or a light or continual flame spell, does not negate this ability; nothing less than true sunlight or a daylight spell does. The drake cannot use its Speed Surge or its Stygian Breath while invisible. An elder shadow drake can suspend or resume this ability at will, so long as the drake is in dim light or darkness.\"}, {\"name\": \"Shadow Jump (3/Day)\", \"desc\": \"An elder shadow drake can travel between shadows as if by means of a dimension door spell. This magical transport must begin and end in an area of dim light or darkness, and the distance must be no more than 60 feet.\"}, {\"name\": \"Speed Surge (3/Day)\", \"desc\": \"The elder shadow drake takes one additional move action on its turn. It can use only one speed surge per round.\"}]",
+      "speed_json": "{\"walk\": 20, \"fly\": 60}",
+      "spells_json": "null",
+      "strength": 22,
+      "type": "Dragon",
+      "wisdom": 9
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Elder Shadow Drake",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-elder-shadow-drake"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_A large dragon-like creature with black scales and shadowy wings emerges suddenly from the darkness. Its red eyes glare bright as coals, and it speaks in a deep monotone._  \n**Strange Humor.** Elder shadow drakes are mischievous and greedy. They devour entire goats and sheep and sometimes spell out messages with their bones. They make surprisingly good bandits, and sometimes ally themselves with bands of humanoids—their own share of plunder must always be clearly the largest share of any such arrangement.  \n**Solitary Lairs.** They haunt dark and lonely places, such as deep caves, dense forests, and shadowy ruins. They are longlived for drakes, often reaching 250 years of age, and mate rarely, abandoning their eggs shortly before hatching.  \n**Fade Into Shadows.** An elder shadow drake naturally fades from view in areas of dim light or darkness. Darkvision doesn’t overcome this, because the shadow drake doesn’t simply blend into shadows; it magically becomes invisible in them.",
+      "name": "Elder Shadow Drake",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Большое драконоподобное существо с чёрной чешуёй и теневыми крыльями внезапно выходит из темноты. Его красные глаза ярко сияют, как угли, и он говорит низким монотонным голосом.\n\n**Странный юмор.** Старшие теневые дрейки озорны и жадны. Они пожирают целых коз и овец и иногда выкладывают сообщения их костями. Из них получаются удивительно хорошие бандиты, и иногда они объединяются с группами гуманоидов — их собственная доля добычи всегда должна быть явно самой большой долей в любом подобном соглашении.\n\n**Уединённые логова.** Они преследуют тёмные и одинокие места, такие как глубокие пещеры, густые леса и теневые руины. Для дрейков они долгоживущи, часто достигают 250 лет, и спариваются редко, бросая яйца незадолго до вылупления.\n\n**Растворение в тенях.** Старший теневой дрейк естественно исчезает из поля зрения в областях тусклого света или темноты. Тёмное зрение это не преодолевает, потому что теневой дрейк не просто сливается с тенями; он магически становится в них невидимым.",
+      "glossary_version": "v1",
+      "name": "Старший теневой дрейк",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

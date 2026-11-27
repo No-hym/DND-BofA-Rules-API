@@ -1,0 +1,201 @@
+{
+  "attribution": "Title: Tome of Beasts 3; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-3/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob3",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob3_moon-weaver",
+  "id": "o5e:tob3:creature:tob3-moon-weaver",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob3:creature:tob3-moon-weaver",
+      "o5e:tob3:monster:moon-weaver"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "262eb2400557dd6f1aaf99581e4ecdbdf8d924f7901f57b0577b3f0eaea63f1c",
+    "formulas": [
+      {
+        "expression": "8d6+8",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 14,
+      "ability_score_constitution": 13,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 11,
+      "ability_score_wisdom": 13,
+      "alignment": "neutral",
+      "armor_class": 13,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "climb": 20,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": 40,
+      "hit_dice": "8d6+8",
+      "hit_points": 36,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "Moonsong",
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": 5,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": 3,
+      "size": "small",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 20
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob3",
+        "content_hash": "262eb2400557dd6f1aaf99581e4ecdbdf8d924f7901f57b0577b3f0eaea63f1c",
+        "edition": "2014",
+        "id": "o5e:tob3:creature:tob3-moon-weaver",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob3"
+      },
+      {
+        "book": "tob3",
+        "content_hash": "b099b4496fc8b4f650c745935412b51b1b7b8b653612f7b5ef9585d6d8e679fe",
+        "edition": "2014",
+        "id": "o5e:tob3:monster:moon-weaver",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob3"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 14,
+      "ability_score_constitution": 13,
+      "ability_score_dexterity": 16,
+      "ability_score_intelligence": 10,
+      "ability_score_strength": 11,
+      "ability_score_wisdom": 13,
+      "alignment": "neutral",
+      "armor_class": 13,
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "climb": 20,
+      "darkvision_range": 60,
+      "document": "tob3",
+      "fly": 40,
+      "hit_dice": "8d6+8",
+      "hit_points": 36,
+      "hover": false,
+      "languages_desc": "Moonsong",
+      "name": "Moon Weaver",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 13,
+      "saving_throw_dexterity": 5,
+      "saving_throw_wisdom": 3,
+      "size": "small",
+      "skill_bonus_perception": 1,
+      "type": "beast",
+      "walk": 20,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob3",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-3/",
+      "publication_date": "2022-01-10T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 3"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "Delivers a burst of beautiful song that motivates and emboldens one friendly creature the moon weaver can see within 60' of it. If the target can hear the song it gains one Embolden die a d6. Once within the next 10 min the target can roll the die and add the number rolled to one ability check attack roll or save it makes.",
+          "desc_ru": "Действие «Емболденинг Сонг»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_moon-weaver_emboldening-song",
+          "name": "Emboldening Song",
+          "name_ru": "Емболденинг Сонг",
+          "order_in_statblock": 0,
+          "parent": "tob3_moon-weaver",
+          "ru_source": "derived",
+          "uses_param": 2,
+          "uses_type": "PER_DAY"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "Its skin exudes an oil that permeates its plumage. The moon weaver can’t be restrained by magical or nonmagical webbing and it ignores all movement restrictions caused by webbing.",
+          "desc_ru": "Особенность «Лубрикиоус Плумаге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_moon-weaver_lubricious-plumage",
+          "name": "Lubricious Plumage",
+          "name_ru": "Лубрикиоус Плумаге",
+          "parent": "tob3_moon-weaver",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Moon Weaver",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob3",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Moon Weaver",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Маленький зверь, мировоззрение: нейтральное. Класс доспеха: 13. Хиты: 36 (8к6+8). Скорость: ходьба 20 фт., полёт 40 фт., лазание 20 фт.. Характеристики: СИЛ 11, ЛОВ 16, ТЕЛ 13, ИНТ 10, МУД 13, ХАР 14. Чувства: тёмное зрение 60 фт., пассивное Восприятие 13. Показатель опасности: 0.5. Структурированные механики записи: особенностей: 1, действий: 1.",
+      "glossary_version": "derived-v1",
+      "name": "Моон Веавер",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

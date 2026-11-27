@@ -1,0 +1,167 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "toh_eruption",
+  "id": "o5e:toh:spell:toh-eruption",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:spell:eruption",
+      "o5e:toh:spell:toh-eruption"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "2144dbf8d2e3b5391e5a3aabac29f228befd274324c3396490df8d46cd0f6666",
+    "formulas": [
+      {
+        "expression": "8d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "8d6",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "duration": "1 minute",
+      "level": 9,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "strength",
+      "school": "conjuration",
+      "shape_size": 20,
+      "shape_size_unit": null,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "2144dbf8d2e3b5391e5a3aabac29f228befd274324c3396490df8d46cd0f6666",
+        "edition": "2014",
+        "id": "o5e:toh:spell:toh-eruption",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "f123780e78352673811581604bb455eafc1a2d6ff2abbf5ab448d133f7063b77",
+        "edition": "2014",
+        "id": "o5e:toh:spell:eruption",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "8d6",
+      "damage_types": [
+        "bludgeoning"
+      ],
+      "desc": "You create a furiously erupting volcano centered on a point you can see within range. The ground heaves violently as a cinder cone that is 2 feet wide and 5 feet tall bursts up from it. Each creature within 30 feet of the cinder cone when it appears must make a Strength saving throw. On a failed save, a creature takes 8d6 bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone.\n  Each round you maintain concentration on this spell, the cinder cone produces additional effects on your turn.\n  ***Round 2.*** Smoke pours from the cinder cone. Each creature within 10 feet of the cinder cone when the smoke appears takes 4d6 poison damage. Afterwards, each creature that enters the smoky area for the first time on a turn or starts its turn there takes 2d6 poison damage. The smoke spreads around corners, and its area is heavily obscured. A wind of moderate or greater speed (at least 10 miles per hour) disperses the smoke until the start of your next turn, when the smoke reforms.\n  ***Round 3.*** Lava bubbles out from the cinder cone, spreading out to cover the ground within 20 feet of the cinder cone. Each creature and object in the area when the lava appears takes 10d10 fire damage and is on fire. Afterwards, each creature that enters the lava for the first time on a turn or starts its turn there takes 5d10 fire damage. In addition, the smoke spreads to fill a 20-foot-radius sphere centered on the cinder cone.\n  ***Round 4.*** The lava continues spreading and covers the ground within 30 feet of the cinder cone in lava that is 1-foot-deep. The lava-covered ground becomes difficult terrain. In addition, the smoke fills a 30-footradius sphere centered on the cinder cone.\n  ***Round 5.*** The lava expands to cover the ground within 40 feet of the cinder cone, and the smoke fills a 40-foot radius sphere centered on the cinder cone. In addition, the cinder cone begins spewing hot rocks. Choose up to three creatures within 90 feet of the cinder cone. Each target must succeed on a Dexterity saving throw or take 3d6 bludgeoning damage and 3d6 fire damage.\n  ***Rounds 6-10.*** The lava and smoke continue to expand in size by 10 feet each round. In addition, each round you can direct the cinder cone to spew hot rocks at three targets, as described in Round 5.\n  When the spell ends, the volcano ceases erupting, but the smoke and lava remain for 1 minute before cooling and dispersing. The landscape is permanently altered by the spell.",
+      "document": "toh",
+      "duration": "1 minute",
+      "level": 9,
+      "material": false,
+      "material_consumed": false,
+      "name": "Eruption",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "strength",
+      "school": "conjuration",
+      "shape_size": 20,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "103",
+          "parent": "toh_eruption",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Eruption",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You create a furiously erupting volcano centered on a point you can see within range. The ground heaves violently as a cinder cone that is 2 feet wide and 5 feet tall bursts up from it. Each creature within 30 feet of the cinder cone when it appears must make a Strength saving throw. On a failed save, a creature takes 8d6 bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone.\n  Each round you maintain concentration on this spell, the cinder cone produces additional effects on your turn.\n  ***Round 2.*** Smoke pours from the cinder cone. Each creature within 10 feet of the cinder cone when the smoke appears takes 4d6 poison damage. Afterwards, each creature that enters the smoky area for the first time on a turn or starts its turn there takes 2d6 poison damage. The smoke spreads around corners, and its area is heavily obscured. A wind of moderate or greater speed (at least 10 miles per hour) disperses the smoke until the start of your next turn, when the smoke reforms.\n  ***Round 3.*** Lava bubbles out from the cinder cone, spreading out to cover the ground within 20 feet of the cinder cone. Each creature and object in the area when the lava appears takes 10d10 fire damage and is on fire. Afterwards, each creature that enters the lava for the first time on a turn or starts its turn there takes 5d10 fire damage. In addition, the smoke spreads to fill a 20-foot-radius sphere centered on the cinder cone.\n  ***Round 4.*** The lava continues spreading and covers the ground within 30 feet of the cinder cone in lava that is 1-foot-deep. The lava-covered ground becomes difficult terrain. In addition, the smoke fills a 30-footradius sphere centered on the cinder cone.\n  ***Round 5.*** The lava expands to cover the ground within 40 feet of the cinder cone, and the smoke fills a 40-foot radius sphere centered on the cinder cone. In addition, the cinder cone begins spewing hot rocks. Choose up to three creatures within 90 feet of the cinder cone. Each target must succeed on a Dexterity saving throw or take 3d6 bludgeoning damage and 3d6 fire damage.\n  ***Rounds 6-10.*** The lava and smoke continue to expand in size by 10 feet each round. In addition, each round you can direct the cinder cone to spew hot rocks at three targets, as described in Round 5.\n  When the spell ends, the volcano ceases erupting, but the smoke and lava remain for 1 minute before cooling and dispersing. The landscape is permanently altered by the spell.",
+      "name": "Eruption",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы создаёте яростно извергающийся вулкан с центром в точке, которую вы видите в пределах дистанции. Земля яростно вздымается, когда шлаковый конус шириной 2 фута и высотой 5 футов вырывается из неё. Каждое существо в пределах 30 футов от шлакового конуса, когда он появляется, должно совершить спасбросок Силы. При провале спасброска существо получает 8к6 дробящего урона и сбито ничком. При успешном спасброске существо получает половину урона и не сбито ничком.\n\nКаждый раунд, когда вы поддерживаете концентрацию на этом заклинании, шлаковый конус производит дополнительные эффекты в ваш ход.\n\n**Раунд 2.** Дым льётся из шлакового конуса. Каждое существо в пределах 10 футов от шлакового конуса, когда дым появляется, получает 4к6 урона ядом. После этого каждое существо, которое входит в дымную область в первый раз за ход или начинает свой ход там, получает 2к6 урона ядом. Дым распространяется за углы, и его область сильно затемнена. Ветер умеренной или большей скорости (как минимум 10 миль в час) рассеивает дым до начала вашего следующего хода, когда дым реформируется.\n\n**Раунд 3.** Лава пузырится из шлакового конуса, распространяясь, чтобы покрыть землю в пределах 20 футов от шлакового конуса. Каждое существо и предмет в области, когда лава появляется, получает 10к10 урона огнём и горит. После этого каждое существо, которое входит в лаву в первый раз за ход или начинает свой ход там, получает 5к10 урона огнём. Кроме того, дым распространяется, чтобы заполнить сферу радиусом 20 футов с центром на шлаковом конусе.\n\n**Раунд 4.** Лава продолжает распространяться и покрывает землю в пределах 30 футов от шлакового конуса лавой глубиной 1 фут. Земля, покрытая лавой, становится труднопроходимой местностью. Кроме того, дым заполняет сферу радиусом 30 футов с центром на шлаковом конусе.\n\n**Раунд 5.** Лава расширяется, чтобы покрыть землю в пределах 40 футов от шлакового конуса, и дым заполняет сферу радиусом 40 футов с центром на шлаковом конусе. Кроме того, шлаковый конус начинает извергать горячие скалы. Выберите до трёх существ в пределах 90 футов от шлакового конуса. Каждая цель должна преуспеть в спасброске Ловкости, иначе получит 3к6 дробящего урона и 3к6 урона огнём.\n\n**Раунды 6–10.** Лава и дым продолжают расширяться в размере на 10 футов каждый раунд. Кроме того, каждый раунд вы можете направить шлаковый конус извергать горячие скалы в три цели, как описано в Раунде 5.\n\nКогда заклинание заканчивается, вулкан перестаёт извергаться, но дым и лава остаются в течение 1 минуты перед тем, как остыть и рассеяться. Ландшафт навсегда изменён заклинанием.",
+      "glossary_version": "v1",
+      "name": "Извержение",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

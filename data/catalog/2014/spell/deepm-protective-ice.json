@@ -1,0 +1,195 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_protective-ice",
+  "id": "o5e:deepm:spell:deepm-protective-ice",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-protective-ice",
+      "o5e:dmag:spell:protective-ice"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "54bc2f3d8a90b190767d8917698b92c4d4708e6b29d8d9f6fb1015ab67b41a57",
+    "formulas": [
+      {
+        "expression": "1d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "cold"
+      ],
+      "duration": "1 hour",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a seed encased in ice or glass",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "54bc2f3d8a90b190767d8917698b92c4d4708e6b29d8d9f6fb1015ab67b41a57",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-protective-ice",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "77b527b84199fb384538c63300524044a0c5c0d558294a285970974ff4141607",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:protective-ice",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "1d6",
+      "damage_types": [
+        "cold"
+      ],
+      "desc": "When you cast **protective ice**, you encase a willing target in icy, medium armor equivalent to a breastplate (AC 14). A creature without the appropriate armor proficiency has the usual penalties. If the target is already wearing armor, it only uses the better of the two armor classes.\n\nA creature striking a target encased in **protective ice** with a melee attack while within 5 feet of it takes 1d6 cold damage.\n\nIf the armor’s wearer takes fire damage, an equal amount of damage is done to the armor, which has 30 hit points and is damaged only when its wearer takes fire damage. Damaged ice can be repaired by casting a spell that deals cold damage on it, on a point-for-point basis, but the armor can’t have more than 30 points repaired.\n",
+      "document": "deepm",
+      "duration": "1 hour",
+      "higher_level": "When you cast this spell using a 4th-level spell slot, it creates splint armor (AC 17, 40 hit points). If you cast this spell using a 5th-level spell slot, it creates plate armor (AC 18, 50 hit points). The armor’s hit points increase by 10 for each spell slot above 5th, but the AC remains 18. Additionally, if you cast this spell using a spell slot of 4th level or higher, the armor deals an extra +2 cold damage for each spell slot above 3rd.",
+      "level": 3,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a seed encased in ice or glass",
+      "name": "Protective Ice",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3906",
+          "parent": "deepm_protective-ice",
+          "type": "default"
+        },
+        {
+          "external_id": "3908",
+          "parent": "deepm_protective-ice",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "3909",
+          "parent": "deepm_protective-ice",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "3910",
+          "parent": "deepm_protective-ice",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3911",
+          "parent": "deepm_protective-ice",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3912",
+          "parent": "deepm_protective-ice",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3913",
+          "parent": "deepm_protective-ice",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Protective Ice",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "When you cast **protective ice**, you encase a willing target in icy, medium armor equivalent to a breastplate (AC 14). A creature without the appropriate armor proficiency has the usual penalties. If the target is already wearing armor, it only uses the better of the two armor classes.\n\nA creature striking a target encased in **protective ice** with a melee attack while within 5 feet of it takes 1d6 cold damage.\n\nIf the armor’s wearer takes fire damage, an equal amount of damage is done to the armor, which has 30 hit points and is damaged only when its wearer takes fire damage. Damaged ice can be repaired by casting a spell that deals cold damage on it, on a point-for-point basis, but the armor can’t have more than 30 points repaired.",
+      "name": "Protective Ice",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Когда вы творите это заклинание, вы заключаете согласную цель в ледяной средний доспех, эквивалентный нагруднику (КД 14). Существо без соответствующего владения доспехом имеет обычные штрафы. Если цель уже носит доспех, она использует только лучший из двух классов доспеха.\n\nСущество, ударяющее цель, заключённую в защитный лёд, рукопашной атакой, находясь в пределах 5 футов от неё, получает 1к6 урона холодом.\n\nЕсли носящий доспех получает урон огнём, доспех получает равное количество урона; у доспеха 30 хитов, и он повреждается только, когда его носитель получает урон огнём. Повреждённый лёд можно починить заклинанием, наносящим урон холодом, очко за очко, но доспеху нельзя починить более 30 очков.",
+      "glossary_version": "v1",
+      "name": "Защитный лёд",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

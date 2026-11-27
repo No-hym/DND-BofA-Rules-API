@@ -1,0 +1,141 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "mountain-dryad",
+  "id": "o5e:tob2:monster:mountain-dryad-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:mountain-dryad"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "4bffd84dc65068ade51b456342a2e8d3602121f0fb6d1d6ba85c8ebceef488e1",
+    "formulas": [
+      {
+        "expression": "15d12+75",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral",
+      "armor_class": 17,
+      "challenge_rating": "11",
+      "condition_immunities": "charmed, exhaustion, paralyzed, petrified, poisoned, unconscious",
+      "damage_immunities": "cold, poison",
+      "damage_resistances": "lightning",
+      "damage_vulnerabilities": "",
+      "hit_dice": "15d12+75",
+      "hit_points": 172,
+      "languages": "Sylvan, Terran",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "4bffd84dc65068ade51b456342a2e8d3602121f0fb6d1d6ba85c8ebceef488e1",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:mountain-dryad",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The mountain dryad makes two slam attacks.\"}, {\"name\": \"Slam\", \"desc\": \"Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 27 (4d8 + 9) bludgeoning damage.\", \"attack_bonus\": 13, \"damage_dice\": \"4d8+9\"}, {\"name\": \"Rock\", \"desc\": \"Ranged Weapon Attack: +13 to hit, range 60/240 ft., one target. Hit: 31 (4d10 + 9) bludgeoning damage.\", \"attack_bonus\": 13, \"damage_dice\": \"4d10+9\"}, {\"name\": \"Mountain's Awe (1/Day)\", \"desc\": \"The mountain dryad emits a magical aura that radiates out from it for 1 minute. Each creature that starts its turn within 30 feet of the dryad must succeed on a DC 16 Charisma saving throw or be charmed for 1 minute. A charmed creature is incapacitated and, if it is more than 5 feet away from the mountain dryad, it must move on its turn toward the dryad by the most direct route, trying to get within 5 feet. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the dryad, it can repeat the saving throw. While charmed within 5 feet of the dryad, a Medium or smaller creature must climb the dryad, no check required. After climbing 20 feet, the charmed creature throws itself off the mountain dryad, taking falling damage and landing prone in an unoccupied space within 5 feet of the mountain dryad. A charmed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\"}]",
+      "alignment": "neutral",
+      "armor_class": 17,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "11",
+      "charisma": 18,
+      "charisma_save": 8,
+      "condition_immunities": "charmed, exhaustion, paralyzed, petrified, poisoned, unconscious",
+      "constitution": 20,
+      "constitution_save": 9,
+      "cr": 11.0,
+      "damage_immunities": "cold, poison",
+      "damage_resistances": "lightning",
+      "desc": "An enormous woman covered in rocky formations accented with crystals emerges from the mountainside._  \nOften mistaken for giants, mountain dryads are huge fey who are tied to primal mountains.  \n**Like the Mountain.** Mountain dryads are sturdier than their smaller, frailer sisters. Their beauty is more rugged, with hair the color of lichen and skin the shade of their mountain’s stone.  \n**Despise Mining.** Mountain dryads tend to spend long stretches of time sleeping deep within their mountains, and they do not take kindly to the scarring of their homes. The dryads have a particular dislike for dwarves, kobolds, and others who make their living mining mountains.",
+      "dexterity": 12,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "15d12+75",
+      "hit_points": 172,
+      "intelligence": 14,
+      "languages": "Sylvan, Terran",
+      "legendary_actions_json": "null",
+      "name": "Mountain Dryad",
+      "page_no": 261,
+      "perception": 8,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., tremorsense 60 ft; passive Perception 18",
+      "size": "Huge",
+      "skills_json": "{\"athletics\": 13, \"intimidation\": 8, \"perception\": 8, \"stealth\": 5}",
+      "special_abilities_json": "[{\"name\": \"Earth Glide\", \"desc\": \"The mountain dryad can burrow through nonmagical, unworked earth and stone. While doing so, the dryad doesn't disturb the material it moves through.\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The mountain dryad has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Mountain's Aspect\", \"desc\": \"Each day at sunrise, the mountain dryad chooses one of the following: \\n* Hardened Face. The mountain dryad chooses one of bludgeoning, piercing, or slashing damage types. The mountain dryad has resistance to the chosen damage type until the next sunrise. \\n* Vaunted Peaks. The mountain dryad has advantage on Wisdom (Perception) checks until the next sunrise. \\n* Rockslider. As a bonus action once before the next sunrise, the mountain dryad can make the ground within 30 feet of it difficult terrain. This difficult terrain doesn't cost the dryad extra movement.\"}, {\"name\": \"Siege Monster\", \"desc\": \"The mountain dryad deals double damage to objects and structures.\"}]",
+      "speed_json": "{\"walk\": 40, \"burrow\": 30}",
+      "spells_json": "null",
+      "strength": 29,
+      "type": "Fey",
+      "wisdom": 18
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Mountain Dryad",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-mountain-dryad"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "An enormous woman covered in rocky formations accented with crystals emerges from the mountainside._  \nOften mistaken for giants, mountain dryads are huge fey who are tied to primal mountains.  \n**Like the Mountain.** Mountain dryads are sturdier than their smaller, frailer sisters. Their beauty is more rugged, with hair the color of lichen and skin the shade of their mountain’s stone.  \n**Despise Mining.** Mountain dryads tend to spend long stretches of time sleeping deep within their mountains, and they do not take kindly to the scarring of their homes. The dryads have a particular dislike for dwarves, kobolds, and others who make their living mining mountains.",
+      "name": "Mountain Dryad",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Огромная женщина, покрытая скалистыми образованиями, акцентированными кристаллами, выходит из склона горы.\n\nЧасто ошибочно принимаемые за гигантов, горные дриады — огромные фей, привязанные к первобытным горам.\n\n**Как гора.** Горные дриады крепче своих меньших, хрупких сестёр. Их красота более сурова, с волосами цвета лишайника и кожей оттенка камня их горы.\n\n**Презирают добычу полезных ископаемых.** Горные дриады склонны проводить длинные участки времени, спя глубоко внутри их гор, и они не любезно относятся к шрамам их домов. Дриады имеют особую неприязнь к дварфам, кобольдам и другим, кто зарабатывает на жизнь добычей в горах.",
+      "glossary_version": "v1",
+      "name": "Горная дриада",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

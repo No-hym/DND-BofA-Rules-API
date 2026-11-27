@@ -1,0 +1,209 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-2/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob2_gaunt-one",
+  "id": "o5e:tob2:creature:tob2-gaunt-one",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:creature:tob2-gaunt-one"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "2bb970b0a3dd39010ee77d2324ce524789fb6848ec546a18585fc595e64695e8",
+    "formulas": [
+      {
+        "expression": "10d8+30",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 4,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 15,
+      "ability_score_intelligence": 15,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 12,
+      "alignment": "neutral evil",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "3.000",
+      "climb": null,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 60,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "10d8+30",
+      "hit_points": 75,
+      "initiative_bonus": null,
+      "languages": [],
+      "languages_desc": "understands Undercommon but can't speak",
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "medium",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "2bb970b0a3dd39010ee77d2324ce524789fb6848ec546a18585fc595e64695e8",
+        "edition": "2014",
+        "id": "o5e:tob2:creature:tob2-gaunt-one",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 4,
+      "ability_score_constitution": 16,
+      "ability_score_dexterity": 15,
+      "ability_score_intelligence": 15,
+      "ability_score_strength": 18,
+      "ability_score_wisdom": 12,
+      "alignment": "neutral evil",
+      "armor_class": 14,
+      "armor_detail": "natural armor",
+      "category": "Monsters",
+      "challenge_rating": "3.000",
+      "darkvision_range": 60,
+      "document": "tob2",
+      "hit_dice": "10d8+30",
+      "hit_points": 75,
+      "hover": false,
+      "languages_desc": "understands Undercommon but can't speak",
+      "name": "Gaunt One",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 11,
+      "size": "medium",
+      "skill_bonus_stealth": 4,
+      "type": "aberration",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-2/",
+      "publication_date": "2020-10-20T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 11 (2d6 + 4) slashing damage.",
+          "desc_ru": "Атака оружием ближнего боя: +6 к попаданию, досягаемость 5 фт., одно существо. Попадание: 11 (2к6+4) рубящего урона.",
+          "external_id": "tob2_gaunt-one_claw",
+          "name": "Claw",
+          "name_ru": "Коготь",
+          "order_in_statblock": 1,
+          "parent": "tob2_gaunt-one",
+          "ru_source": "template"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one humanoid grappled by the gaunt one. Hit: The target must make a DC 13 Constitution saving throw, taking 22 (5d8) piercing damage on a failed save, or half as much damage on a successful one. If this damage reduces the target to 0 hp, the gaunt one kills the target by extracting and devouring its heart.",
+          "desc_ru": "Действие «Екстракт Хеарт»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_gaunt-one_extract-heart",
+          "name": "Extract Heart",
+          "name_ru": "Екстракт Хеарт",
+          "order_in_statblock": 2,
+          "parent": "tob2_gaunt-one",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "ACTION",
+          "desc": "The gaunt one makes two claw attacks. If both attacks hit a Medium or smaller target, the target is grappled (escape DC 14).",
+          "desc_ru": "Действие «Мултиаттак»; тип: action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob2_gaunt-one_multiattack",
+          "name": "Multiattack",
+          "name_ru": "Мултиаттак",
+          "order_in_statblock": 0,
+          "parent": "tob2_gaunt-one",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "The gaunt one has advantage on Wisdom (Perception) checks that rely on hearing.",
+          "desc_ru": "Совершает проверки Мудрости (Восприятие) с преимуществом, если они полагаются на слух.",
+          "external_id": "tob2_gaunt-one_keen-hearing",
+          "name": "Keen Hearing",
+          "name_ru": "Кеен Хеаринг",
+          "parent": "tob2_gaunt-one",
+          "ru_source": "template"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Gaunt One",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob2",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Gaunt One",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Плоть этого существа подобно трупу серая, тело истощено, а кожа крепко натянута через его скелет. Странный извивающийся щупалец слегка выступает из его разинутой пасти.\n\n**Неестественное происхождение.** Век назад орден волшебников, известный как Ковенант Инфинума, обнаружил, что нуждается в рабах и спустился на ближайшую человеческую поселность. Орден закабалит каждого деревенского жителя и проведёте магические эксперименты над ними в отдаленной горной башне волшебников. Волшебники пытались создать идеальную расу слуг, используя жителей деревни как базовую форму жизни. Эксперимент с треском провалился, выпустив магическую трансформирующую волну на башню. Многим волшебникам удалось сбежать, но все человеческие рабы оказались в магическом хаосе и были навсегда изменены в истощённых.\n\n**Вид нежити.** На первый взгляд истощённые кажутся какой-то формой неживого существа, что заставляет многих недооценивать их. Их кожа бледная, высохшая и иссушённая, а зубы жёлтые и рядом с отступающими десной.\n\n**Голод по сердцам.** Истощённые имеют свойственный голод по сердцам и часто сидят спокойно часами, слушая сердцебиение ближайших существ. Истощённый хватает свою жертву и прокрадывает свой щупальцеобразный язык в пасть существа, чтобы извлечь сердце существа. Ненасытный, истощённый продолжает есть сердца существ, которые он находит, пока не остаётся ничего, чтобы собрать. Отсутствие легко доступной пищи, он движется дальше.",
+      "glossary_version": "v1",
+      "name": "Истощённый",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

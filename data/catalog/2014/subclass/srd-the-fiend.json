@@ -1,0 +1,159 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "srd_the-fiend",
+  "id": "o5e:srd-2014:characterclass:srd-the-fiend",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:characterclass:srd-the-fiend"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "130947084939500bea0e87733eaff1445e4b07d93455c5afce3ddae71078a04d",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_warlock"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "130947084939500bea0e87733eaff1445e4b07d93455c5afce3ddae71078a04d",
+        "edition": "2014",
+        "id": "o5e:srd-2014:characterclass:srd-the-fiend",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_warlock",
+        "type": "subclass_of",
+        "value": "srd_warlock"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "document": "srd-2014",
+      "name": "The Fiend",
+      "subclass_of": "srd_warlock"
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier + your warlock level (minimum of 1).",
+          "desc_ru": "Начиная с 1-го уровня, когда вы уменьшаете хиты враждебного существа до 0, вы получаете временные хиты, равные вашему модификатору Харизмы + ваш уровень колдуна (минимум 1).",
+          "document": "srd-2014",
+          "external_id": "srd_the-fiend_dark-ones-blessing",
+          "level": 1,
+          "name": "Dark One's Blessing",
+          "name_ru": "Благословение Тёмного",
+          "parent": "srd_the-fiend",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\r\n\r\n### Fiend Expanded Spells (table)\r\n| Spell Level | Spells |\r\n| --- | --- |\r\n| 1st | burning hands, command |\r\n| 2nd | blindness/deafness, scorching ray |\r\n| 3rd | fireball, stinking cloud |\r\n| 4th | fire shield, wall of fire |\r\n| 5th | flame strike, hallow |",
+          "desc_ru": "Исчадие позволяет вам выбирать из расширенного списка заклинаний, когда вы изучаете заклинание колдуна. Следующие заклинания добавляются в список заклинаний колдуна для вас.\n\nТаблица: Расширенные заклинания Исчадия\n\n| Уровень заклинания | Заклинания                              |\n|---|---|\n| 1                   | огненные руки, приказ                 |\n| 2                   | слепота/глухота, палящий луч            |\n| 3                   | огненный шар, удушающее облако          |\n| 4                   | огненный щит, стена огня            |\n| 5                   | небесный огонь, освящение               |",
+          "document": "srd-2014",
+          "external_id": "srd_the-fiend_expanded-spell-list",
+          "level": 1,
+          "name": "Expanded Spell List",
+          "name_ru": "Расширенный список заклинаний",
+          "parent": "srd_the-fiend",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Starting at 6th level, you can call on your patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll's effects occur.\r\n\r\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+          "desc_ru": "Вы можете призвать своего дьявольского покровителя изменить судьбу в вашу пользу. Когда вы совершаете проверку характеристики или спасбросок, вы можете использовать это умение, чтобы добавить 1d10 к броску. Вы можете сделать это после того, как увидите результат броска, но до того, как проявятся какие-либо его последствия.\n\nВы можете использовать это умение количество раз, равное вашему модификатору Харизмы (минимум один раз), но не более одного раза за бросок. Вы восстанавливаете все потраченные использования, когда заканчиваете долгий отдых.",
+          "document": "srd-2014",
+          "external_id": "srd_the-fiend_dark-ones-own-luck",
+          "level": 6,
+          "name": "Dark One's Own Luck",
+          "name_ru": "Собственная удача тёмного",
+          "parent": "srd_the-fiend",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Starting at 10th level, you can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance.",
+          "desc_ru": "Начиная с 10-го уровня, вы можете выбрать один тип урона после завершения короткого или долгого отдыха. Вы получаете сопротивление этому типу урона, пока не выберете другой тип с помощью этого умения. Урон от магического оружия или серебряного оружия игнорирует это сопротивление.",
+          "document": "srd-2014",
+          "external_id": "srd_the-fiend_fiendish-resilience",
+          "level": 10,
+          "name": "Fiendish Resilience",
+          "name_ru": "Дьявольская стойкость",
+          "parent": "srd_the-fiend",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Starting at 14th level, when you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears and hurtles through a nightmare landscape.\r\n\r\nAt the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage as it reels from its horrific experience.\r\n\r\nOnce you use this feature, you can't use it again until you finish a long rest.",
+          "desc_ru": "Начиная с 14-го уровня, когда вы попадаете по существу атакой, вы можете использовать это умение, чтобы мгновенно перенести цель через нижние планы. Существо исчезает и несётся сквозь кошмарный пейзаж.\n\nВ конце вашего следующего хода цель возвращается в пространство, которое занимала ранее, или в ближайшее свободное пространство. Если цель не является исчадием, она получает 10к10 урона психической энергией, потрясённая своим ужасным опытом.\n\nИспользовав это умение, вы не можете использовать его снова, пока не завершите долгий отдых.\n\n>**Ваш дар договора**\n>\n>Каждый вариант дара договора создаёт особое существо или предмет, отражающий природу вашего покровителя.\n>\n>**_Договор цепи._** Ваш фамильяр хитрее обычного фамильяра. Его стандартная форма может отражать вашего покровителя: спрайты и псевдодраконы связаны с Архифеей, а бесы и квазиты — с Исчадием. Поскольку природа Великого Древнего непостижима, для него подойдёт любая форма фамильяра.\n>\n>**_Договор клинка._** Если ваш покровитель — Архифея, ваше оружие может быть тонким клинком, обвитым лиственными лозами. Если вы служите Исчадию, ваше оружие может быть топором из чёрного металла, украшенным декоративным пламенем. Если ваш покровитель — Великий Древний, ваше оружие может быть древним на вид копьём с драгоценным камнем, вделанным в наконечник и вырезанным в форме ужасного немигающего глаза.\n>\n>**_Договор книги._** Ваша Книга Теней может быть изящным томом с золочёным обрезом, содержащим заклинания очарования и иллюзии, подаренным вам величественной Архифеей. Это может быть тяжёлый том в переплёте из шкуры демона с железными заклёпками, хранящий заклинания вызова и множество запретных знаний о зловещих уголках космоса — дар Исчадия. Или это может быть потрёпанный дневник безумца, сошедшего с ума от контакта с Великим Древним, содержащий обрывки заклинаний, которые лишь ваше собственное растущее безумие позволяет вам понять и сотворить.",
+          "document": "srd-2014",
+          "external_id": "srd_the-fiend_hurl-through-hell",
+          "level": 14,
+          "name": "Hurl Through Hell",
+          "name_ru": "Низвергнуть в ад",
+          "parent": "srd_the-fiend",
+          "ru_source": "memory"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "assembled_features": 5,
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "The Fiend",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "The Fiend",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Существа, которые служат покровителями колдунов, — могущественные обитатели иных планов существования — не боги, но почти богоподобные в своей силе. Различные покровители дают своим колдунам доступ к разным силам и воззваниям и ожидают значительных услуг взамен.\n\nНекоторые покровители собирают колдунов, раздавая мистическое знание относительно свободно или хвастаясь своей способностью привязывать смертных к своей воле. Другие покровители даруют свою силу лишь неохотно и могут заключить договор лишь с одним колдуном. Колдуны, служащие одному покровителю, могут считать друг друга союзниками, братьями или соперниками.\n\nВы заключили договор с исчадием из нижних планов существования — существом, чьи цели злы, даже если вы противитесь этим целям. Такие существа жаждут порчи или уничтожения всего сущего, в конечном счёте включая и вас. Исчадия, достаточно могущественные, чтобы заключить договор, включают повелителей демонов, таких как Демогоргон, Оркус, Фраз-Урб'луу и Бафомет; архидьяволов, таких как Асмодей, Диспатер, Мефистофель и Велиал; особенно могущественных ямных исчадий и балоров; а также ультролотов и других повелителей юголотов.\n\n### Уровень 1: Благословение Тёмного\n\nНачиная с 1-го уровня, когда вы уменьшаете хиты враждебного существа до 0, вы получаете временные хиты, равные вашему модификатору Харизмы + ваш уровень колдуна (минимум 1).\n\n### Уровень 1: Расширенный список заклинаний\n\nИсчадие позволяет вам выбирать из расширенного списка заклинаний, когда вы изучаете заклинание колдуна. Следующие заклинания добавляются в список заклинаний колдуна для вас.\n\nТаблица: Расширенные заклинания Исчадия\n\n| Уровень заклинания | Заклинания                              |\n|---|---|\n| 1                   | огненные руки, приказ                 |\n| 2                   | слепота/глухота, палящий луч            |\n| 3                   | огненный шар, удушающее облако          |\n| 4                   | огненный щит, стена огня            |\n| 5                   | небесный огонь, освящение               |\n\n### Уровень 6: Собственная удача тёмного\n\nВы можете призвать своего дьявольского покровителя изменить судьбу в вашу пользу. Когда вы совершаете проверку характеристики или спасбросок, вы можете использовать это умение, чтобы добавить 1d10 к броску. Вы можете сделать это после того, как увидите результат броска, но до того, как проявятся какие-либо его последствия.\n\nВы можете использовать это умение количество раз, равное вашему модификатору Харизмы (минимум один раз), но не более одного раза за бросок. Вы восстанавливаете все потраченные использования, когда заканчиваете долгий отдых.\n\n### Уровень 10: Дьявольская стойкость\n\nНачиная с 10-го уровня, вы можете выбрать один тип урона после завершения короткого или долгого отдыха. Вы получаете сопротивление этому типу урона, пока не выберете другой тип с помощью этого умения. Урон от магического оружия или серебряного оружия игнорирует это сопротивление.\n\n### Уровень 14: Низвергнуть в ад\n\nНачиная с 14-го уровня, когда вы попадаете по существу атакой, вы можете использовать это умение, чтобы мгновенно перенести цель через нижние планы. Существо исчезает и несётся сквозь кошмарный пейзаж.\n\nВ конце вашего следующего хода цель возвращается в пространство, которое занимала ранее, или в ближайшее свободное пространство. Если цель не является исчадием, она получает 10к10 урона психической энергией, потрясённая своим ужасным опытом.\n\nИспользовав это умение, вы не можете использовать его снова, пока не завершите долгий отдых.\n\n>**Ваш дар договора**\n>\n>Каждый вариант дара договора создаёт особое существо или предмет, отражающий природу вашего покровителя.\n>\n>**_Договор цепи._** Ваш фамильяр хитрее обычного фамильяра. Его стандартная форма может отражать вашего покровителя: спрайты и псевдодраконы связаны с Архифеей, а бесы и квазиты — с Исчадием. Поскольку природа Великого Древнего непостижима, для него подойдёт любая форма фамильяра.\n>\n>**_Договор клинка._** Если ваш покровитель — Архифея, ваше оружие может быть тонким клинком, обвитым лиственными лозами. Если вы служите Исчадию, ваше оружие может быть топором из чёрного металла, украшенным декоративным пламенем. Если ваш покровитель — Великий Древний, ваше оружие может быть древним на вид копьём с драгоценным камнем, вделанным в наконечник и вырезанным в форме ужасного немигающего глаза.\n>\n>**_Договор книги._** Ваша Книга Теней может быть изящным томом с золочёным обрезом, содержащим заклинания очарования и иллюзии, подаренным вам величественной Архифеей. Это может быть тяжёлый том в переплёте из шкуры демона с железными заклёпками, хранящий заклинания вызова и множество запретных знаний о зловещих уголках космоса — дар Исчадия. Или это может быть потрёпанный дневник безумца, сошедшего с ума от контакта с Великим Древним, содержащий обрывки заклинаний, которые лишь ваше собственное растущее безумие позволяет вам понять и сотворить.",
+      "glossary_version": "v1",
+      "name": "Исчадие",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

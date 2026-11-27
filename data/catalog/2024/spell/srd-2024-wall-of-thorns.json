@@ -1,0 +1,173 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_wall-of-thorns",
+  "id": "o5e:srd-2024:spell:srd-2024-wall-of-thorns",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "bb108d0505d7263816c0279ba0446f50022e4f930e7effa9a2a351a6eca93f93",
+    "formulas": [
+      {
+        "expression": "7d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_druid"
+      ],
+      "concentration": true,
+      "damage_roll": "7d8",
+      "damage_types": [
+        "slashing",
+        "piercing"
+      ],
+      "duration": "10 minutes",
+      "level": 6,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a handful of thorns",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_druid",
+        "type": "classes",
+        "value": [
+          "srd-2024_druid"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_druid"
+      ],
+      "concentration": true,
+      "damage_roll": "7d8",
+      "damage_types": [
+        "slashing",
+        "piercing"
+      ],
+      "desc": "You create a wall of tangled brush bristling with needle-sharp thorns. The wall appears within range on a solid surface and lasts for the duration. You choose to make the wall up to 60 feet long, 10 feet high, and 5 feet thick or a circle that has a 20-foot diameter and is up to 20 feet high and 5 feet thick. The wall blocks line of sight. When the wall appears, each creature in its area makes a Dexterity saving throw, taking 7d8 Piercing damage on a failed save or half as much damage on a successful one. A creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature moves through the wall, it must spend 4 feet of movement. Furthermore, the first time a creature enters a space in the wall on a turn or ends its turn there, the creature makes a Dexterity saving throw, taking 7d8 Slashing damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.",
+      "document": "srd-2024",
+      "duration": "10 minutes",
+      "higher_level": "Both types of damage increase by 1d8 for each spell slot level above 6.",
+      "level": 6,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a handful of thorns",
+      "name": "Wall of Thorns",
+      "range": 120,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "damage_roll": "8d8",
+          "external_id": "10582",
+          "parent": "srd-2024_wall-of-thorns",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "9d8",
+          "external_id": "10583",
+          "parent": "srd-2024_wall-of-thorns",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "10d8",
+          "external_id": "10584",
+          "parent": "srd-2024_wall-of-thorns",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Wall of Thorns",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "You create a wall of tangled brush bristling with needle-sharp thorns. The wall appears within range on a solid surface and lasts for the duration. You choose to make the wall up to 60 feet long, 10 feet high, and 5 feet thick or a circle that has a 20-foot diameter and is up to 20 feet high and 5 feet thick. The wall blocks line of sight. When the wall appears, each creature in its area makes a Dexterity saving throw, taking 7d8 Piercing damage on a failed save or half as much damage on a successful one. A creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature moves through the wall, it must spend 4 feet of movement. Furthermore, the first time a creature enters a space in the wall on a turn or ends its turn there, the creature makes a Dexterity saving throw, taking 7d8 Slashing damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.",
+      "name": "Wall of Thorns",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Вызов 6-го уровня (Друид)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 120 футов\n\n**Компоненты:** В, С, М (горсть шипов)\n\n**Длительность:** Концентрация, вплоть до 10 минут\n\nВы создаёте стену из жёстких, гибких, переплетённых кустов, ощетинившихся иглообразными шипами. Стена появляется в пределах дистанции на твёрдой поверхности и существует на время действия заклинания. Вы можете сделать стену длиной до 60 футов, высотой 10 футов и толщиной 5 футов, или круг диаметром 20 футов, высотой до 20 футов и толщиной 5 футов. Стена блокирует линию обзора.\n\nКогда стена появляется, каждое существо в её области должно совершить спасбросок Ловкости. При провале существо получает 7к8 колющего урона или половину этого урона при успехе.\n\nСущество может пройти сквозь стену, хотя медленно и болезненно. На каждый 1 фут, который существо проходит сквозь стену, оно должно потратить 4 фута перемещения. Кроме того, когда существо впервые за ход входит в стену или оканчивает в ней свой ход, оно должно совершить спасбросок Ловкости. Оно получает 7к8 рубящего урона при провале или половину этого урона при успехе.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 7-го уровня или выше, оба вида урона увеличиваются на 1к8 за каждый уровень ячейки выше 6-го.",
+      "glossary_version": "v1",
+      "name": "Стена тернов",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

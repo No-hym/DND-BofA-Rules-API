@@ -1,0 +1,198 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_freezing-fog",
+  "id": "o5e:deepm:spell:deepm-freezing-fog",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-freezing-fog",
+      "o5e:dmag:spell:freezing-fog"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "6d8830984e3f180ecf067b121b4bdbe8104794b4855eddfe0c9ca011303a7750",
+    "formulas": [
+      {
+        "expression": "2d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "cold"
+      ],
+      "duration": "5 minutes",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 100,
+      "range_text": "100 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "conjuration",
+      "shape_size": 20,
+      "shape_size_unit": null,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "6d8830984e3f180ecf067b121b4bdbe8104794b4855eddfe0c9ca011303a7750",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-freezing-fog",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "759df4081993804f26e3c4702bea7d0af210c8964563605090110362b34c745d",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:freezing-fog",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "2d6",
+      "damage_types": [
+        "cold"
+      ],
+      "desc": "The spell creates a 20-foot-radius sphere of mist similar to a [fog cloud](https://api.open5e.com/spells/fog-cloud) spell centered on a point you can see within range. The cloud spreads around corners, and the area it occupies is heavily obscured. A wind of moderate or greater velocity (at least 10 miles per hour) disperses it in 1 round. The fog is freezing cold; any creature that ends its turn in the area must make a Constitution saving throw. It takes 2d6 cold damage and gains one level of exhaustion on a failed save, or takes half as much damage and no exhaustion on a successful one.\n",
+      "document": "deepm",
+      "duration": "5 minutes",
+      "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
+      "level": 3,
+      "material": false,
+      "material_consumed": false,
+      "name": "Freezing Fog",
+      "range": 100,
+      "range_text": "100 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "conjuration",
+      "shape_size": 20,
+      "shape_type": "sphere",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "point",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3318",
+          "parent": "deepm_freezing-fog",
+          "type": "default"
+        },
+        {
+          "external_id": "3320",
+          "parent": "deepm_freezing-fog",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "3321",
+          "parent": "deepm_freezing-fog",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "3322",
+          "parent": "deepm_freezing-fog",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3323",
+          "parent": "deepm_freezing-fog",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3324",
+          "parent": "deepm_freezing-fog",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3325",
+          "parent": "deepm_freezing-fog",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Freezing Fog",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "The spell creates a 20-foot-radius sphere of mist similar to a [fog cloud](https://api.open5e.com/spells/fog-cloud) spell centered on a point you can see within range. The cloud spreads around corners, and the area it occupies is heavily obscured. A wind of moderate or greater velocity (at least 10 miles per hour) disperses it in 1 round. The fog is freezing cold; any creature that ends its turn in the area must make a Constitution saving throw. It takes 2d6 cold damage and gains one level of exhaustion on a failed save, or takes half as much damage and no exhaustion on a successful one.",
+      "name": "Freezing Fog",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Заклинание создаёт сферу тумана радиусом 20 футов, похожую на заклинание туманное облако, центрированную на точке, которую вы можете видеть в пределах дистанции. Облако распространяется вокруг углов, и область, которую оно занимает, сильно затемнена. Ветер умеренной или большей скорости (по крайней мере 10 миль в час) рассеивает её за 1 раунд. Туман замораживающе холоден; любое существо, которое заканчивает свой ход в области, должно совершить спасбросок Телосложения. Оно получает 2к6 урона холодом и получает один уровень истощения при проваленном спасброске, или получает половину урона и никакого истощения при успешном.",
+      "glossary_version": "v1",
+      "name": "Замораживающий туман",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

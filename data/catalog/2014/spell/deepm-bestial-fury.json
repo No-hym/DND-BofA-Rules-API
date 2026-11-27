@@ -1,0 +1,197 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_bestial-fury",
+  "id": "o5e:deepm:spell:deepm-bestial-fury",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-bestial-fury",
+      "o5e:dmag:spell:bestial-fury"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "60b7ae401f4d157701f75abee3db43e1b172dcdc4290047cb279eee002ec042a",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "60b7ae401f4d157701f75abee3db43e1b172dcdc4290047cb279eee002ec042a",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-bestial-fury",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "999aa305135b028d20dfbd8a215fbe6b0384b590fdc0c951a565682e365a676d",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:bestial-fury",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "You instill primal fury into a creature you can see within range. The target must make a Charisma saving throw; a creature can choose to fail this saving throw. On a failure, the target must use its action to attack its nearest enemy it can see with unarmed strikes or natural weapons. For the duration, the target’s attacks deal an extra 1d6 damage of the same type dealt by its weapon, and the target can’t be charmed or frightened. If there are no enemies within reach, the target can use its action to repeat the saving throw, ending the effect on a success.\n\nThis spell has no effect on undead or constructs.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Bestial Fury",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "charisma",
+      "school": "enchantment",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2415",
+          "parent": "deepm_bestial-fury",
+          "type": "default"
+        },
+        {
+          "external_id": "2417",
+          "parent": "deepm_bestial-fury",
+          "target_count": 2,
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "2418",
+          "parent": "deepm_bestial-fury",
+          "target_count": 3,
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "2419",
+          "parent": "deepm_bestial-fury",
+          "target_count": 4,
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "2420",
+          "parent": "deepm_bestial-fury",
+          "target_count": 5,
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "2421",
+          "parent": "deepm_bestial-fury",
+          "target_count": 6,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "2422",
+          "parent": "deepm_bestial-fury",
+          "target_count": 7,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2423",
+          "parent": "deepm_bestial-fury",
+          "target_count": 8,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Bestial Fury",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You instill primal fury into a creature you can see within range. The target must make a Charisma saving throw; a creature can choose to fail this saving throw. On a failure, the target must use its action to attack its nearest enemy it can see with unarmed strikes or natural weapons. For the duration, the target’s attacks deal an extra 1d6 damage of the same type dealt by its weapon, and the target can’t be charmed or frightened. If there are no enemies within reach, the target can use its action to repeat the saving throw, ending the effect on a success.\n\nThis spell has no effect on undead or constructs.",
+      "name": "Bestial Fury",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы вселяете первобытную ярость в существо, которое вы можете видеть в пределах дистанции. Цель должна совершить спасбросок харизмы; существо может выбрать проваливать этот спасбросок. При провале цель должна использовать её действие, чтобы атаковать её ближайшего врага, который она может видеть, безоружными ударами или природным оружием. На длительность, атаки цели наносят дополнительные 1к6 урона одного и того же типа, нанесённого её оружием, и цель не может быть очарованной или испуганной. Если не будет врагов в пределах досягаемости, цель может использовать её действие, чтобы повторить спасбросок, прекращая эффект при успехе.\n\nЭто заклинание не оказывает эффекта на нежить или конструктов.",
+      "glossary_version": "v1",
+      "name": "Звериная ярость",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

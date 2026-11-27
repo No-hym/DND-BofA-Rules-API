@@ -1,0 +1,137 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "deathweaver",
+  "id": "o5e:tob2:monster:deathweaver-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:deathweaver"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "76771da6430db1b3a0071ffca6440b82aecd6cdb28eac12d498195c761e89b49",
+    "formulas": [
+      {
+        "expression": "10d12+30",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral evil",
+      "armor_class": 16,
+      "challenge_rating": "5",
+      "condition_immunities": "",
+      "damage_immunities": "",
+      "damage_resistances": "necrotic",
+      "damage_vulnerabilities": "",
+      "hit_dice": "10d12+30",
+      "hit_points": 95,
+      "languages": "Deep Speech",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "76771da6430db1b3a0071ffca6440b82aecd6cdb28eac12d498195c761e89b49",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:deathweaver",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The deathweaver makes two bite attacks.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) piercing damage, and the target must make a DC 14 Constitution saving throw, taking 9 (2d8) necrotic damage on a failed save, or half as much damage on a successful one. If the necrotic damage reduces the target to 0 hp, the target is stable but poisoned for 1 hour, even after regaining hp, and is paralyzed while poisoned this way.\", \"attack_bonus\": 6, \"damage_dice\": \"2d6+3\"}, {\"name\": \"Web (Recharge 5-6)\", \"desc\": \"Ranged Weapon Attack: +5 to hit, range 40/80 ft., one creature. Hit: The target is restrained by webbing and takes 3 (1d6) necrotic damage each round. As an action, the restrained target can make a DC 14 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, necrotic, poison, and psychic damage). A humanoid slain by this attack rises 24 hours later as a web zombie under the deathweaver's control, unless the humanoid is restored to life or its body is destroyed. The deathweaver can have no more than twelve web zombies under its control at one time.\"}]",
+      "alignment": "neutral evil",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "5",
+      "charisma": 15,
+      "constitution": 17,
+      "cr": 5.0,
+      "damage_resistances": "necrotic",
+      "desc": "The black and crimson spider, its fangs dripping a dark poison, uses the two arms beside its fangs to pull a corpse from its tainted web._  \nDeathweavers are spiders who were once subjected to dark rituals and are now infused with necrotic energies. Their carapaces are mottled patterns of black, crimson, and ivory, and two arms flank their fangs.  \n**Allied Evil.** Deathweavers are often found in league with other intelligent, evil creatures. A powerful necromancer or an evil cult might ally with one, using the undead it spawns to bolster their strength in exchange for treasure or favors.  \n**Web Spawn.** The deathweaver’s webs infuse corpses left in them with necrotic energy. A humanoid corpse cocooned in the webbing for 24 hours has a 50 percent chance of rising as a Open Game License",
+      "dexterity": 14,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "10d12+30",
+      "hit_points": 95,
+      "intelligence": 7,
+      "languages": "Deep Speech",
+      "legendary_actions_json": "null",
+      "name": "Deathweaver",
+      "page_no": 83,
+      "perception": 4,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "blindsight 20 ft., darkvision 60 ft., passive Perception 14",
+      "size": "Huge",
+      "skills_json": "{\"perception\": 4, \"stealth\": 5}",
+      "special_abilities_json": "[{\"name\": \"Spider Climb\", \"desc\": \"The deathweaver can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.\"}, {\"name\": \"Web Sense\", \"desc\": \"While in contact with a web, the deathweaver knows the exact location of any other creature in contact with the same web.\"}, {\"name\": \"Web Walker\", \"desc\": \"The deathweaver ignores movement restrictions caused by webbing.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"The deathweaver's innate spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\\nAt will: chill touch\\n3/day each: darkness, ray of enfeeblement\\n1/day: vampiric touch\"}]",
+      "speed_json": "{\"walk\": 40, \"climb\": 40}",
+      "spells_json": "null",
+      "strength": 16,
+      "type": "Monstrosity",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Deathweaver",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-deathweaver"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "The black and crimson spider, its fangs dripping a dark poison, uses the two arms beside its fangs to pull a corpse from its tainted web._  \nDeathweavers are spiders who were once subjected to dark rituals and are now infused with necrotic energies. Their carapaces are mottled patterns of black, crimson, and ivory, and two arms flank their fangs.  \n**Allied Evil.** Deathweavers are often found in league with other intelligent, evil creatures. A powerful necromancer or an evil cult might ally with one, using the undead it spawns to bolster their strength in exchange for treasure or favors.  \n**Web Spawn.** The deathweaver’s webs infuse corpses left in them with necrotic energy. A humanoid corpse cocooned in the webbing for 24 hours has a 50 percent chance of rising as a Open Game License",
+      "name": "Deathweaver",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Чёрный и малиновый паук, его клыки капают тёмным ядом, использует две руки рядом с его клыками, чтобы тянуть труп из его испорченной паутины.\n\nСмертоплёты — пауки, которые когда-то подвергались тёмным ритуалам и теперь пропитаны некротическими энергиями. Их панцири — пятнистые узоры чёрного, малинового и слоновой кости, и две руки обрамляют их клыки.\n\n**Союзное зло.** Смертоплёты часто находятся в союзе с другими умными, злыми существами. Могучий некромант или злой культ может соединиться с одним, используя нежить, которую он порождает, чтобы укреплять их силу в обмен на сокровища или услуги.",
+      "glossary_version": "v1",
+      "name": "Смертоплёт",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

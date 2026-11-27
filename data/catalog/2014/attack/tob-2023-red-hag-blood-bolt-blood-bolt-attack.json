@@ -1,0 +1,135 @@
+{
+  "attribution": "Title: Tome of Beasts 1 (2023 Edition); Author: Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob-2023",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "tob-2023_red-hag_blood-bolt_blood-bolt-attack",
+  "id": "o5e:tob-2023:creatureactionattack:tob-2023-red-hag-blood-bolt-blood-bolt-attack",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creatureactionattack:tob-2023-blood-hag-blood-bolt-blood-bolt-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-herald-of-blood-blood-bolt-blood-bolt-attack",
+      "o5e:tob-2023:creatureactionattack:tob-2023-red-hag-blood-bolt-blood-bolt-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "1d526b0daf83ddd410814e30d35d75b3aff20a0554d4938333c93db227fd0fd6",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "SPELL",
+      "damage_bonus": 5,
+      "damage_die_count": 2,
+      "damage_die_type": "D8",
+      "damage_type": "necrotic",
+      "extra_damage_bonus": null,
+      "extra_damage_die_count": null,
+      "extra_damage_die_type": null,
+      "extra_damage_type": null,
+      "long_range": null,
+      "range": 60,
+      "reach": null,
+      "to_hit_mod": 8
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob-2023",
+        "content_hash": "1d526b0daf83ddd410814e30d35d75b3aff20a0554d4938333c93db227fd0fd6",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-red-hag-blood-bolt-blood-bolt-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "c25e8681770ffd3da1751bc8d59497bdcba221debdd29f88779aea7844a8c80a",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-blood-hag-blood-bolt-blood-bolt-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "235d0b95e7ecb7ae3a725789a6b9120bca3b6ff6b7efba3c4c8eae9c1248f9ae",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-herald-of-blood-blood-bolt-blood-bolt-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "tob-2023_red-hag_blood-bolt",
+        "type": "parent",
+        "value": "tob-2023_red-hag_blood-bolt"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "SPELL",
+      "damage_bonus": 5,
+      "damage_die_count": 2,
+      "damage_die_type": "D8",
+      "damage_type": "necrotic",
+      "name": "Blood Bolt attack",
+      "parent": "tob-2023_red-hag_blood-bolt",
+      "range": 60,
+      "target_creature_only": false,
+      "to_hit_mod": 8
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur",
+      "key": "tob-2023",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition-hardcover/",
+      "publication_date": "2024-03-22T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 1 (2023 Edition)"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Blood Bolt attack",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob-2023",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Blood Bolt attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака заклинанием: +8 к попаданию. Зона: дистанция 60 фт., одна цель. Попадание: 2к8 + 5 некротической энергией урона.",
+      "glossary_version": "derived-v1",
+      "name": "Крови Болт",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

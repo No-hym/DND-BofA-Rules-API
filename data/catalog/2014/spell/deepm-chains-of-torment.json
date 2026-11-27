@@ -1,0 +1,191 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_chains-of-torment",
+  "id": "o5e:deepm:spell:deepm-chains-of-torment",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-chains-of-torment",
+      "o5e:dmag:spell:chains-of-torment"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "a9599e860193c23470527311ce7091c38e25978cbb20ae149c8ce790204d41a8",
+    "formulas": [
+      {
+        "expression": "4d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "4d6",
+      "damage_types": [
+        "psychic"
+      ],
+      "duration": "1 minute",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "an iron chain link dipped in blood",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "a9599e860193c23470527311ce7091c38e25978cbb20ae149c8ce790204d41a8",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-chains-of-torment",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "1f204794edfcdbe1814d6300d74e6eaf0c08681e343a5c42ae6cc2153417ca7c",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:chains-of-torment",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "4d6",
+      "damage_types": [
+        "psychic"
+      ],
+      "desc": "You are surrounded by an aura of dim light in a 10-foot radius as you conjure an iron chain that extends out to a creature you can see within 30 feet. The creature must make a successful Dexterity saving throw or be grappled (escape DC equal to your spell save DC). While grappled in this way, the creature is also restrained. A creature that’s restrained at the start of its turn takes 4d6 psychic damage. You can have only one creature restrained in this way at a time.\n\nAs an action, you can scan the mind of the creature that’s restrained by your chain. If the creature gets a failure on a Wisdom saving throw, you learn one discrete piece of information of your choosing known by the creature (such as a name, a password, or an important number). The effect is otherwise harmless.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 5th level or higher, the psychic damage increases by 1d6 for each slot level above 4th.",
+      "level": 4,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "an iron chain link dipped in blood",
+      "name": "Chains of Torment",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "conjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2683",
+          "parent": "deepm_chains-of-torment",
+          "type": "default"
+        },
+        {
+          "external_id": "2685",
+          "parent": "deepm_chains-of-torment",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "2686",
+          "parent": "deepm_chains-of-torment",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "2687",
+          "parent": "deepm_chains-of-torment",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "2688",
+          "parent": "deepm_chains-of-torment",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "2689",
+          "parent": "deepm_chains-of-torment",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Chains of Torment",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You are surrounded by an aura of dim light in a 10-foot radius as you conjure an iron chain that extends out to a creature you can see within 30 feet. The creature must make a successful Dexterity saving throw or be grappled (escape DC equal to your spell save DC). While grappled in this way, the creature is also restrained. A creature that’s restrained at the start of its turn takes 4d6 psychic damage. You can have only one creature restrained in this way at a time.\n\nAs an action, you can scan the mind of the creature that’s restrained by your chain. If the creature gets a failure on a Wisdom saving throw, you learn one discrete piece of information of your choosing known by the creature (such as a name, a password, or an important number). The effect is otherwise harmless.",
+      "name": "Chains of Torment",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы окружены аурой тусклого света в радиусе 10 футов, когда вы вызываете железную цепь, которая простирается к видимому существу в пределах 30 футов. Существо должно совершить успешный спасбросок Ловкости, иначе станет схваченным (Сл освобождения равен Сл ваших спасбросков от заклинаний). Будучи схваченным таким образом, существо также опутано. Существо, которое опутано в начале своего хода, получает 4к6 психического урона. За раз таким образом у вас может быть опутано только одно существо.\n\nДействием вы можете сканировать разум существа, опутанного вашей цепью. Если существо проваливает спасбросок Мудрости, вы узнаете одну отдельную часть информации по вашему выбору, известную существу (например, имя, пароль или важное число). В остальном эффект безвреден.",
+      "glossary_version": "v1",
+      "name": "Цепи мучений",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

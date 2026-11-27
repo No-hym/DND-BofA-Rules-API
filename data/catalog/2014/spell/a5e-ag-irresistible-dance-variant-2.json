@@ -1,0 +1,173 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_irresistible-dance",
+  "id": "o5e:a5e-ag:spell:a5e-ag-irresistible-dance-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-irresistible-dance",
+      "o5e:a5e:spell:irresistible-dance-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "bf0f13319350a579335950c90e60cad0a6f4940a1206f0effc5b8b6855b985c2",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 6,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "bf0f13319350a579335950c90e60cad0a6f4940a1206f0effc5b8b6855b985c2",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-irresistible-dance",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "751727bfce8111d7291fea480ed6aa2acc82aea2a607c656aaf806557477d4d8",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:irresistible-dance-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": true,
+      "desc": "You murmur a tune that takes root in the target's mind until the spell ends, forcing it to caper, dance, and shuffle. At the start of each of its turns, the dancing target must use all of its movement to dance in its space, and it has disadvantage on attack rolls and saving throws. Attacks made against the target have advantage. On each of its turns, the target can use an action to repeat the saving throw, ending the spell on a successful save.",
+      "document": "a5e-ag",
+      "duration": "1 minute",
+      "higher_level": "Target one additional creature within 30 feet for each slot level above 6th.",
+      "level": 6,
+      "material": false,
+      "material_consumed": false,
+      "name": "Irresistible Dance",
+      "range": 30.0,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "enchantment",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "1515",
+          "parent": "a5e-ag_irresistible-dance",
+          "type": "default"
+        },
+        {
+          "external_id": "1517",
+          "parent": "a5e-ag_irresistible-dance",
+          "target_count": 2,
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "1518",
+          "parent": "a5e-ag_irresistible-dance",
+          "target_count": 3,
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "1519",
+          "parent": "a5e-ag_irresistible-dance",
+          "target_count": 4,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Irresistible Dance",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:srd-2014:spell:srd-irresistible-dance"
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "You murmur a tune that takes root in the target's mind until the spell ends, forcing it to caper, dance, and shuffle. At the start of each of its turns, the dancing target must use all of its movement to dance in its space, and it has disadvantage on attack rolls and saving throws. Attacks made against the target have advantage. On each of its turns, the target can use an action to repeat the saving throw, ending the spell on a successful save.",
+      "name": "Irresistible Dance",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Очарование 6-го уровня (Бард, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 30 футов\n\n**Компоненты:** В\n\n**Длительность:** Концентрация, до 1 минуты\n\nОдно существо, которое вы видите в пределах дистанции, должно совершить спасбросок Мудрости. При успехе цель комично танцует до конца своего следующего хода, в течение которого она должна потратить всё своё перемещение на танец на месте.\n\nПри провале цель получает состояние «Очарованный» на время действия заклинания. Пока существо Очаровано, оно комично танцует, должно использовать всё своё перемещение на танец на месте и совершает с помехой спасброски Ловкости и броски атаки, и другие существа совершают с преимуществом броски атаки против него. В каждый свой ход цель может совершить действие, чтобы собраться и повторить спасбросок, заканчивая заклинание на себе при успехе.",
+      "glossary_version": "v1",
+      "name": "Непреодолимый танец",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

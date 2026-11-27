@@ -1,0 +1,283 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_blood-tide",
+  "id": "o5e:deepm:spell:deepm-blood-tide",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-blood-tide",
+      "o5e:dmag:spell:blood-tide"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "74ab83ea2d342249c7be9d5a93e259118d53637639880bf75514db935fab8489",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "4 rounds",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 25,
+      "range_text": "25 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "necromancy",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "74ab83ea2d342249c7be9d5a93e259118d53637639880bf75514db935fab8489",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-blood-tide",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "10f145e59d0a1305627ba456bfd0b20f31b641f88509c0d2ac5e3a0d74eee5b2",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:blood-tide",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_sorcerer",
+        "type": "classes",
+        "value": [
+          "srd_sorcerer",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "desc": "When you cast this spell, a creature you designate within range must succeed on a Constitution saving throw or bleed from its nose, eyes, ears, and mouth. This bleeding deals no damage but imposes a –2 penalty on the creature’s Intelligence, Charisma, and Wisdom checks. **Blood tide** has no effect on undead or constructs.\n\nA bleeding creature might attract the attention of creatures such as stirges, sharks, or giant mosquitoes, depending on the circumstances.\n\nA [cure wounds](https://api.open5e.com/spells/cure-wounds) spell stops the bleeding before the duration of blood tide expires, as does a successful DC 10 Wisdom (Medicine) check.",
+      "document": "deepm",
+      "duration": "4 rounds",
+      "higher_level": "The spell’s duration increases to 2 minutes when you reach 5th level, to 10 minutes when you reach 11th level, and to 1 hour when you reach 17th level.",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "name": "Blood Tide",
+      "range": 25,
+      "range_text": "25 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "necromancy",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2510",
+          "parent": "deepm_blood-tide",
+          "type": "default"
+        },
+        {
+          "external_id": "2511",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_1"
+        },
+        {
+          "external_id": "2512",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_2"
+        },
+        {
+          "external_id": "2513",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_3"
+        },
+        {
+          "external_id": "2514",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_4"
+        },
+        {
+          "duration": "2 minutes",
+          "external_id": "2515",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_5"
+        },
+        {
+          "duration": "2 minutes",
+          "external_id": "2516",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_6"
+        },
+        {
+          "duration": "2 minutes",
+          "external_id": "2517",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_7"
+        },
+        {
+          "duration": "2 minutes",
+          "external_id": "2518",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_8"
+        },
+        {
+          "duration": "2 minutes",
+          "external_id": "2519",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_9"
+        },
+        {
+          "duration": "2 minutes",
+          "external_id": "2520",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_10"
+        },
+        {
+          "duration": "10 minutes",
+          "external_id": "2521",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_11"
+        },
+        {
+          "duration": "10 minutes",
+          "external_id": "2522",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_12"
+        },
+        {
+          "duration": "10 minutes",
+          "external_id": "2523",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_13"
+        },
+        {
+          "duration": "10 minutes",
+          "external_id": "2524",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_14"
+        },
+        {
+          "duration": "10 minutes",
+          "external_id": "2525",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_15"
+        },
+        {
+          "duration": "10 minutes",
+          "external_id": "2526",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_16"
+        },
+        {
+          "duration": "1 hour",
+          "external_id": "2527",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_17"
+        },
+        {
+          "duration": "1 hour",
+          "external_id": "2528",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_18"
+        },
+        {
+          "duration": "1 hour",
+          "external_id": "2529",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_19"
+        },
+        {
+          "duration": "1 hour",
+          "external_id": "2530",
+          "parent": "deepm_blood-tide",
+          "type": "player_level_20"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Blood Tide",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "When you cast this spell, a creature you designate within range must succeed on a Constitution saving throw or bleed from its nose, eyes, ears, and mouth. This bleeding deals no damage but imposes a –2 penalty on the creature’s Intelligence, Charisma, and Wisdom checks. **Blood tide** has no effect on undead or constructs.\n\nA bleeding creature might attract the attention of creatures such as stirges, sharks, or giant mosquitoes, depending on the circumstances.\n\nA [cure wounds](https://api.open5e.com/spells/cure-wounds) spell stops the bleeding before the duration of blood tide expires, as does a successful DC 10 Wisdom (Medicine) check.",
+      "name": "Blood Tide",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Когда вы произносите это заклинание, существо, которое вы выбираете в пределах дистанции, должно преуспеть в спасброске Телосложения или кровоточить из носа, глаз, ушей и рта. Это кровотечение не наносит урона, но налагает –2 штраф в Интеллекте существа, Харизмы и Мудрости проверках. **Прилив крови** не воздействует на нежить или конструктов.\n\nКровоточащее существо может привлечь внимание таких существ, как стирж, акулы, или гигантские комары, в зависимости от обстоятельств.\n\nзаклинание лечения останавливает кровотечение до истечения срока действия прилива крови, так же как и успешная проверка Мудрости (Медицина) Сл 10.",
+      "glossary_version": "v1",
+      "name": "Прилив крови",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

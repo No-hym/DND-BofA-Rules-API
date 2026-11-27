@@ -1,0 +1,265 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_hoarfrost",
+  "id": "o5e:deepm:spell:deepm-hoarfrost",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-hoarfrost",
+      "o5e:dmag:spell:hoarfrost"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "1b91d1c1504df04a0ed877b52b662c87286727480c89c70536def8a20bfd03b1",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 0,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a melee weapon",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "1b91d1c1504df04a0ed877b52b662c87286727480c89c70536def8a20bfd03b1",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-hoarfrost",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "e0cfe065ed7c86df29fbb0931cd579a7acfd3f77a1a6ebc91923966badc3314c",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:hoarfrost",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "bonus-action",
+      "concentration": false,
+      "desc": "A melee weapon you are holding is imbued with cold. For the duration, a rime of frost covers the weapon and light vapor rises from it if the temperature is above freezing. The weapon becomes magical and deals an extra 1d4 cold damage on a successful hit. The spell ends after 1 minute, or earlier if you make a successful attack with the weapon or let go of it.",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "The spell’s damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).",
+      "level": 0,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a melee weapon",
+      "name": "Hoarfrost",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3506",
+          "parent": "deepm_hoarfrost",
+          "type": "default"
+        },
+        {
+          "external_id": "3507",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_1"
+        },
+        {
+          "external_id": "3508",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_2"
+        },
+        {
+          "external_id": "3509",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_3"
+        },
+        {
+          "external_id": "3510",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_4"
+        },
+        {
+          "damage_roll": "2d4",
+          "external_id": "3511",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_5"
+        },
+        {
+          "damage_roll": "2d4",
+          "external_id": "3512",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_6"
+        },
+        {
+          "damage_roll": "2d4",
+          "external_id": "3513",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_7"
+        },
+        {
+          "damage_roll": "2d4",
+          "external_id": "3514",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_8"
+        },
+        {
+          "damage_roll": "2d4",
+          "external_id": "3515",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_9"
+        },
+        {
+          "damage_roll": "2d4",
+          "external_id": "3516",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_10"
+        },
+        {
+          "damage_roll": "3d4",
+          "external_id": "3517",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_11"
+        },
+        {
+          "damage_roll": "3d4",
+          "external_id": "3518",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_12"
+        },
+        {
+          "damage_roll": "3d4",
+          "external_id": "3519",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_13"
+        },
+        {
+          "damage_roll": "3d4",
+          "external_id": "3520",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_14"
+        },
+        {
+          "damage_roll": "3d4",
+          "external_id": "3521",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_15"
+        },
+        {
+          "damage_roll": "3d4",
+          "external_id": "3522",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_16"
+        },
+        {
+          "damage_roll": "4d4",
+          "external_id": "3523",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_17"
+        },
+        {
+          "damage_roll": "4d4",
+          "external_id": "3524",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_18"
+        },
+        {
+          "damage_roll": "4d4",
+          "external_id": "3525",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_19"
+        },
+        {
+          "damage_roll": "4d4",
+          "external_id": "3526",
+          "parent": "deepm_hoarfrost",
+          "type": "player_level_20"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Hoarfrost",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "A melee weapon you are holding is imbued with cold. For the duration, a rime of frost covers the weapon and light vapor rises from it if the temperature is above freezing. The weapon becomes magical and deals an extra 1d4 cold damage on a successful hit. The spell ends after 1 minute, or earlier if you make a successful attack with the weapon or let go of it.",
+      "name": "Hoarfrost",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Рукопашное оружие, которое вы держите, наполнено холодом. На длительность иней мороза покрывает оружие, и лёгкий пар поднимается от него, если температура выше замерзания. Оружие становится магическим и наносит дополнительные 1к4 урона холодом при успешном попадании. Заклинание заканчивается через 1 минуту, или раньше, если вы совершаете успешную атаку оружием или отпускаете его.",
+      "glossary_version": "v1",
+      "name": "Иней",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

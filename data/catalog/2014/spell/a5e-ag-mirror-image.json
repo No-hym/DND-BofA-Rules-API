@@ -1,0 +1,178 @@
+{
+  "attribution": "Title: Adventurer's Guide; Author: EN Publishing; Publisher: en-publishing; Source: https://a5esrd.com/a5esrd; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "a5e-ag",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "a5e-ag_mirror-image",
+  "id": "o5e:a5e-ag:spell:a5e-ag-mirror-image",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:a5e-ag:spell:a5e-ag-mirror-image",
+      "o5e:a5e:spell:mirror-image-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "a5e"
+      ]
+    },
+    "content_hash": "15ea94324e4c0ec3b0fb8065f783963b8878d550c045e94feb3750e692d283b7",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 0.0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "illusion",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "a5e",
+    "provenance": [
+      {
+        "book": "a5e-ag",
+        "content_hash": "15ea94324e4c0ec3b0fb8065f783963b8878d550c045e94feb3750e692d283b7",
+        "edition": "2014",
+        "id": "o5e:a5e-ag:spell:a5e-ag-mirror-image",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:a5e-ag"
+      },
+      {
+        "book": "a5e",
+        "content_hash": "457dfd6892005e79ca0800ef78de455635fd4443d4a0efebceb1e4a451819126",
+        "edition": "2014",
+        "id": "o5e:a5e:spell:mirror-image-a5e",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v1:a5e"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "A total of 3 illusory copies of yourself appear in your space. For the duration, these copies move with you and mimic your actions, creating confusion as to which is real.\n\nYou can use an action to dismiss them.\n\nEach time you're targeted by a creature's attack, roll a d20 to see if it targets you or one of your copies.\n\nWith 3 copies, a roll of 6 or higher means a copy is targeted. With two copies, a roll of 8 or higher targets a copy, and with 1 copy a roll of 11 or higher targets the copy.\n\nA copy's AC is 10 + your Dexterity modifier, and when it is hit by an attack a copy is destroyed.\n\nIt may be destroyed only by an attack that hits it.\n\nAll other damage and effects have no impact.\n\nAttacking creatures that have truesight, cannot see, have blindsight, or rely on other nonvisual senses are unaffected by this spell.",
+      "document": "a5e-ag",
+      "duration": "1 minute",
+      "higher_level": "When using a 5th-level spell slot, the duration increases to concentration (1 hour).",
+      "level": 2,
+      "material": false,
+      "material_consumed": false,
+      "name": "Mirror Image",
+      "range": 0.0,
+      "range_text": "Self",
+      "ritual": false,
+      "school": "illusion",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "EN Publishing",
+      "key": "a5e-ag",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://a5esrd.com/a5esrd",
+      "publication_date": "2021-11-01T00:00:00",
+      "publisher": "en-publishing",
+      "title": "Adventurer's Guide"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "1666",
+          "parent": "a5e-ag_mirror-image",
+          "type": "default"
+        },
+        {
+          "duration": "1 hour",
+          "external_id": "1670",
+          "parent": "a5e-ag_mirror-image",
+          "type": "slot_level_5"
+        },
+        {
+          "duration": "1 hour",
+          "external_id": "1671",
+          "parent": "a5e-ag_mirror-image",
+          "type": "slot_level_6"
+        },
+        {
+          "duration": "1 hour",
+          "external_id": "1672",
+          "parent": "a5e-ag_mirror-image",
+          "type": "slot_level_7"
+        },
+        {
+          "duration": "1 hour",
+          "external_id": "1673",
+          "parent": "a5e-ag_mirror-image",
+          "type": "slot_level_8"
+        },
+        {
+          "duration": "1 hour",
+          "external_id": "1674",
+          "parent": "a5e-ag_mirror-image",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Mirror Image",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "en-publishing",
+  "source": "open5e:v2:a5e-ag",
+  "translations": {
+    "en": {
+      "description": "A total of 3 illusory copies of yourself appear in your space. For the duration, these copies move with you and mimic your actions, creating confusion as to which is real.\n\nYou can use an action to dismiss them.\n\nEach time you're targeted by a creature's attack, roll a d20 to see if it targets you or one of your copies.\n\nWith 3 copies, a roll of 6 or higher means a copy is targeted. With two copies, a roll of 8 or higher targets a copy, and with 1 copy a roll of 11 or higher targets the copy.\n\nA copy's AC is 10 + your Dexterity modifier, and when it is hit by an attack a copy is destroyed.\n\nIt may be destroyed only by an attack that hits it.\n\nAll other damage and effects have no impact.\n\nAttacking creatures that have truesight, cannot see, have blindsight, or rely on other nonvisual senses are unaffected by this spell.",
+      "name": "Mirror Image",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Иллюзия 2-го уровня (Чародей, Колдун, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** На себя\n\n**Компоненты:** В, С\n\n**Длительность:** 1 минуту\n\nВ вашем пространстве появляются три иллюзорных копии вас. Пока заклинание не закончится, копии перемещаются вместе с вами и повторяют ваши действия, меняя положение так, что невозможно определить, какой образ настоящий. Вы можете действием рассеять иллюзорные копии.\n\nКаждый раз, когда существо нацеливает на вас атаку во время действия заклинания, бросьте к20, чтобы определить, попадёт ли атака по одной из ваших копий.\n\nЕсли у вас три копии, вы должны выбросить 6 или больше, чтобы атака была перенаправлена на копию. С двумя копиями нужно выбросить 8 или больше. С одной копией нужно выбросить 11 или больше.\n\nКД копии равен 10 + ваш модификатор Ловкости. Если атака попадает по копии, копия уничтожается. Копия может быть уничтожена только атакой, попавшей по ней. Она игнорирует весь остальной урон и эффекты. Заклинание оканчивается, когда все три копии уничтожены.\n\nСущество не подвержено действию этого заклинания, если не может видеть, полагается на чувства, отличные от зрения (например, слепое зрение), или может распознавать иллюзии (например, истинное зрение).",
+      "glossary_version": "v1",
+      "name": "Отражения",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

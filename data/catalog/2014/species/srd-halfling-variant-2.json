@@ -1,0 +1,177 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "species",
+  "edition": "2014",
+  "external_id": "srd_halfling",
+  "id": "o5e:srd-2014:species:srd-halfling-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:species:srd-halfling"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "2526d26955a17511376324d1fea1c20af430bdb58e81c96d30bc08d3a8dd3115",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "subspecies_of": null
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "2526d26955a17511376324d1fea1c20af430bdb58e81c96d30bc08d3a8dd3115",
+        "edition": "2014",
+        "id": "o5e:srd-2014:species:srd-halfling",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Your halfling character has a number of traits in common with all other halflings.",
+      "document": "srd-2014",
+      "name": "Halfling"
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "traits": [
+        {
+          "desc": "Your Dexterity score increases by 2.",
+          "desc_ru": "Каждая раса увеличивает одну или несколько характеристик персонажа.",
+          "external_id": "srd_halfling_ability-score-increase",
+          "name": "Ability Score Increase",
+          "name_ru": "Увеличение характеристик",
+          "parent": "srd_halfling",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your base walking speed is 25 feet.",
+          "desc_ru": "Особенность «Спеед». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_halfling_speed",
+          "name": "Speed",
+          "name_ru": "Спеед",
+          "parent": "srd_halfling",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.",
+          "desc_ru": "Особенность «Аге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_halfling_age",
+          "name": "Age",
+          "name_ru": "Аге",
+          "parent": "srd_halfling",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.",
+          "desc_ru": "Особенность «Алигнмент». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_halfling_alignment",
+          "name": "Alignment",
+          "name_ru": "Алигнмент",
+          "parent": "srd_halfling",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.",
+          "desc_ru": "Особенность «Сизе». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_halfling_size",
+          "name": "Size",
+          "name_ru": "Сизе",
+          "parent": "srd_halfling",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.",
+          "desc_ru": "Особенность «Лангуагес». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_halfling_languages",
+          "name": "Languages",
+          "name_ru": "Лангуагес",
+          "parent": "srd_halfling",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.",
+          "desc_ru": "Особенность «Лукй». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_halfling_lucky",
+          "name": "Lucky",
+          "name_ru": "Лукй",
+          "parent": "srd_halfling",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "You have advantage on saving throws against being frightened.",
+          "desc_ru": "Особенность «Браве». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_halfling_brave",
+          "name": "Brave",
+          "name_ru": "Браве",
+          "parent": "srd_halfling",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "You can move through the space of any creature that is of a size larger than yours.",
+          "desc_ru": "Особенность «Халфлинг Нимбленесс». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "srd_halfling_halfling-nimbleness",
+          "name": "Halfling Nimbleness",
+          "name_ru": "Халфлинг Нимбленесс",
+          "parent": "srd_halfling",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Halfling",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:wotc-srd:race:halfling"
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "Your halfling character has a number of traits in common with all other halflings.",
+      "name": "Halfling",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "**Тип существа:** Гуманоид\n\n**Размер:** Маленький (около 2–3 футов ростом)\n\n**Скорость:** 30 футов\n\nКак полурослик, вы обладаете следующими особыми чертами.\n\n**Храбрость.** Вы совершаете с преимуществом спасброски, чтобы избежать или прекратить состояние «Испуганный».\n\n**Проворство полурослика.** Вы можете перемещаться сквозь пространство любого существа, размер которого больше вашего, но не можете останавливаться в том же пространстве.\n\n**Удача.** Когда вы выбрасываете 1 на d20 при проверке d20, вы можете перебросить кость и должны использовать новый результат.\n\n**Природная скрытность.** Вы можете совершить действие Скрыться, даже если вас заслоняет только существо, размер которого как минимум на один больше вашего.",
+      "glossary_version": "v1",
+      "name": "Полурослик",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,193 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "species",
+  "edition": "2014",
+  "external_id": "toh_mushroomfolk",
+  "id": "o5e:toh:species:toh-mushroomfolk",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:race:mushroomfolk",
+      "o5e:toh:species:toh-mushroomfolk"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "584574d5599e5b6526daf05f2cfeaee5db92b1d5c320a874c9528edf68398a37",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "subspecies_of": null
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "584574d5599e5b6526daf05f2cfeaee5db92b1d5c320a874c9528edf68398a37",
+        "edition": "2014",
+        "id": "o5e:toh:species:toh-mushroomfolk",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      },
+      {
+        "book": "toh",
+        "content_hash": "17a8c133d0570d7db58e4201ac9d12d6155b68e76bb591215d778da160757836",
+        "edition": "2014",
+        "id": "o5e:toh:race:mushroomfolk",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:toh"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Your mushroomfolk character has characteristics in common with all other mushroomfolk.",
+      "document": "toh",
+      "name": "Mushroomfolk"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "traits": [
+        {
+          "desc": "Your Wisdom score increases by 2.",
+          "desc_ru": "Каждая раса увеличивает одну или несколько характеристик персонажа.",
+          "external_id": "toh_mushroomfolk_ability-score-increase",
+          "name": "Ability Score Increase",
+          "name_ru": "Увеличение характеристик",
+          "parent": "toh_mushroomfolk",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your base walking speed is 30 feet.",
+          "desc_ru": "Особенность «Спеед». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_mushroomfolk_speed",
+          "name": "Speed",
+          "name_ru": "Спеед",
+          "parent": "toh_mushroomfolk",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Accustomed to life underground, you can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+          "desc_ru": "*Преобразование 2-го уровня (Друид, Следопыт, Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** Касание\n\n**Компоненты:** В, С, М (либо щепотка сушёной моркови, либо агат)\n\n**Длительность:** 8 часов\n\nВы касаетесь согласного существа, чтобы дать ему способность видеть в темноте. На время действия заклинания это существо получает тёмное зрение на расстояние до 60 футов.",
+          "external_id": "toh_mushroomfolk_darkvision",
+          "name": "Darkvision",
+          "name_ru": "Тёмное зрение",
+          "parent": "toh_mushroomfolk",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Mushroomfolk reach maturity by the age of 5 and rarely live longer than 50 years.",
+          "desc_ru": "Особенность «Аге». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_mushroomfolk_age",
+          "name": "Age",
+          "name_ru": "Аге",
+          "parent": "toh_mushroomfolk",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "The limited interaction mushroomfolk have with other creatures leaves them with a fairly neutral view of the world in terms of good and evil, while their societal structure makes them more prone to law than chaos.",
+          "desc_ru": "Особенность «Алигнмент». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_mushroomfolk_alignment",
+          "name": "Alignment",
+          "name_ru": "Алигнмент",
+          "parent": "toh_mushroomfolk",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "A mushroomfolk's size is determined by its subrace.",
+          "desc_ru": "Особенность «Сизе». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_mushroomfolk_size",
+          "name": "Size",
+          "name_ru": "Сизе",
+          "parent": "toh_mushroomfolk",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "You can speak, read, and write Mushroomfolk and your choice of Common or Undercommon.",
+          "desc_ru": "Особенность «Лангуагес». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_mushroomfolk_languages",
+          "name": "Languages",
+          "name_ru": "Лангуагес",
+          "parent": "toh_mushroomfolk",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "You are a humanoid, though the fungal nature of your body and your unique diet of decayed vegetable and animal matter marks you with some plant-like characteristics. You have advantage on saving throws against poison, and you have resistance to poison damage. In addition, you are immune to disease.",
+          "desc_ru": "Особенность «Фунгоид форме». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_mushroomfolk_fungoid-form",
+          "name": "Fungoid Form",
+          "name_ru": "Фунгоид форме",
+          "parent": "toh_mushroomfolk",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Your upbringing in mushroomfolk society has taught you how to defend yourself and find food. You have proficiency in the Survival skill.",
+          "desc_ru": "Особенность «Хардй Сурвивор». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_mushroomfolk_hardy-survivor",
+          "name": "Hardy Survivor",
+          "name_ru": "Хардй Сурвивор",
+          "parent": "toh_mushroomfolk",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Three subraces of mushroomfolk are known to wander the world: acid cap, favored, and morel. Choose one of these subraces.",
+          "desc_ru": "Особенность «Субраке». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "toh_mushroomfolk_subrace",
+          "name": "Subrace",
+          "name_ru": "Субраке",
+          "parent": "toh_mushroomfolk",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Mushroomfolk",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "Your mushroomfolk character has characteristics in common with all other mushroomfolk.",
+      "name": "Mushroomfolk",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "У вашего персонажа из грибного народа есть характеристики, общие со всеми другими представителями грибного народа.",
+      "glossary_version": "v1",
+      "name": "Грибной народ",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

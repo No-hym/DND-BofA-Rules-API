@@ -1,0 +1,224 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_guiding-bolt",
+  "id": "o5e:srd-2014:spell:srd-guiding-bolt-variant-2",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-guiding-bolt",
+      "o5e:wotc-srd:spell:guiding-bolt"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "808ef8606ab28cc34db2c2a484297799578efa7edb7f5d186bd204df525a5906",
+    "formulas": [
+      {
+        "expression": "4d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric"
+      ],
+      "concentration": false,
+      "damage_roll": "4d6",
+      "damage_types": [
+        "radiant"
+      ],
+      "duration": "1 round",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "808ef8606ab28cc34db2c2a484297799578efa7edb7f5d186bd204df525a5906",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-guiding-bolt",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "abc9cfc24fd6fc7825c81fb7a8059d8729fb054fcf9dc11443f85e95e006616d",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:guiding-bolt",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric"
+      ],
+      "concentration": false,
+      "damage_roll": "4d6",
+      "damage_types": [
+        "radiant"
+      ],
+      "desc": "A flash of light streaks toward a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 radiant damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.",
+      "document": "srd-2014",
+      "duration": "1 round",
+      "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Guiding Bolt",
+      "range": 120.0,
+      "range_text": "120 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5571",
+          "parent": "srd_guiding-bolt",
+          "type": "default"
+        },
+        {
+          "damage_roll": "5d6",
+          "external_id": "5573",
+          "parent": "srd_guiding-bolt",
+          "type": "slot_level_2"
+        },
+        {
+          "damage_roll": "6d6",
+          "external_id": "5574",
+          "parent": "srd_guiding-bolt",
+          "type": "slot_level_3"
+        },
+        {
+          "damage_roll": "7d6",
+          "external_id": "5575",
+          "parent": "srd_guiding-bolt",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "8d6",
+          "external_id": "5576",
+          "parent": "srd_guiding-bolt",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "9d6",
+          "external_id": "5577",
+          "parent": "srd_guiding-bolt",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "10d6",
+          "external_id": "5578",
+          "parent": "srd_guiding-bolt",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "11d6",
+          "external_id": "5579",
+          "parent": "srd_guiding-bolt",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "12d6",
+          "external_id": "5580",
+          "parent": "srd_guiding-bolt",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Guiding Bolt",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    },
+    "variant_of": "o5e:a5e-ag:spell:a5e-ag-guiding-bolt"
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "A flash of light streaks toward a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 radiant damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.",
+      "name": "Guiding Bolt",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Воплощение 1-го уровня (Жрец)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 120 футов\n\n**Компоненты:** В, С\n\n**Длительность:** 1 раунд\n\nВспышка света устремляется к существу по вашему выбору в пределах дистанции. Совершите дальнобойную атаку заклинанием по цели. При попадании цель получает 4к6 урона излучением, и следующий бросок атаки по этой цели до конца вашего следующего хода совершается с преимуществом благодаря мистическому тусклому свету, мерцающему на цели до этого момента.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 2-го уровня или выше, урон увеличивается на 1к6 за каждый уровень ячейки выше 1-го.",
+      "glossary_version": "v1",
+      "name": "Направляющий снаряд",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

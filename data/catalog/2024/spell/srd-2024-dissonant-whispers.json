@@ -1,0 +1,195 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_dissonant-whispers",
+  "id": "o5e:srd-2024:spell:srd-2024-dissonant-whispers",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "bbc78f04be5c80477613a5f513d30ffb1b29fed85d0420be864c56afc78dbac6",
+    "formulas": [
+      {
+        "expression": "3d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_bard"
+      ],
+      "concentration": false,
+      "damage_roll": "3d6",
+      "damage_types": [
+        "psychic"
+      ],
+      "duration": "instantaneous",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_bard",
+        "type": "classes",
+        "value": [
+          "srd-2024_bard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_bard"
+      ],
+      "concentration": false,
+      "damage_roll": "3d6",
+      "damage_types": [
+        "psychic"
+      ],
+      "desc": "One creature of your choice that you can see within range hears a discordant melody in its mind. The target makes a Wisdom saving throw. On a failed save, it takes 3d6 Psychic damage and must immediately use its Reaction, if available, to move as far away from you as it can, using the safest route. On a successful save, the target takes half as much damage only.",
+      "document": "srd-2024",
+      "duration": "instantaneous",
+      "higher_level": "The damage increases by 1d6 for each spell slot level above 1.",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Dissonant Whispers",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "enchantment",
+      "somatic": false,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "damage_roll": "4d6",
+          "external_id": "10745",
+          "parent": "srd-2024_dissonant-whispers",
+          "type": "slot_level_2"
+        },
+        {
+          "damage_roll": "5d6",
+          "external_id": "10746",
+          "parent": "srd-2024_dissonant-whispers",
+          "type": "slot_level_3"
+        },
+        {
+          "damage_roll": "6d6",
+          "external_id": "10747",
+          "parent": "srd-2024_dissonant-whispers",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "7d6",
+          "external_id": "10748",
+          "parent": "srd-2024_dissonant-whispers",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "8d6",
+          "external_id": "10749",
+          "parent": "srd-2024_dissonant-whispers",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "9d6",
+          "external_id": "10750",
+          "parent": "srd-2024_dissonant-whispers",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "10d6",
+          "external_id": "10751",
+          "parent": "srd-2024_dissonant-whispers",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "11d6",
+          "external_id": "10752",
+          "parent": "srd-2024_dissonant-whispers",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: This work includes material from the System Reference Document 5.2.1 (\"SRD 5.2.1\") by Wizards of the Coast LLC, https://www.dndbeyond.com/srd, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/legalcode. Structured data adapted from https://github.com/bankenichi/5etools-srd/tree/3b26955ea5394fde43a1e33b2a878b42cebbe51c (CC BY 4.0). Russian translation source: OmnisGM Rules, Petr Radilov, CC BY 4.0, https://github.com/OmnisGM-App/OmnisGM-Rules/tree/1f7192be159e84f2db7212565866747094e3b9de/src/dnd/srd-5.2/ru. Russian text is source-attributed and has not been independently proofread in this project. (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Dissonant Whispers",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "One creature of your choice that you can see within range hears a discordant melody in its mind. The target makes a Wisdom saving throw. On a failed save, it takes 3d6 Psychic damage and must immediately use its Reaction, if available, to move as far away from you as it can, using the safest route. On a successful save, the target takes half as much damage only.",
+      "name": "Dissonant Whispers",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Очарование 1-го уровня (Бард)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В\n\n**Длительность:** Мгновенная\n\nОдно существо на ваш выбор, которое вы видите в пределах дистанции, слышит диссонирующую мелодию в своём разуме. Цель совершает спасбросок Мудрости. При провале она получает 3d6 урона психической энергией и должна немедленно использовать свою реакцию, если она доступна, чтобы переместиться как можно дальше от вас, используя самый безопасный маршрут. При успехе цель получает только половину урона.\n\n**_Использование ячейки более высокого уровня._** Урон увеличивается на 1d6 за каждый уровень ячейки выше 1-го.",
+      "glossary_version": "v1",
+      "name": "Диссонирующий шёпот",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

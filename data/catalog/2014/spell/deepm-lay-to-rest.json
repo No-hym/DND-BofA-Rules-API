@@ -1,0 +1,160 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_lay-to-rest",
+  "id": "o5e:deepm:spell:deepm-lay-to-rest",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-lay-to-rest",
+      "o5e:dmag:spell:lay-to-rest"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "9237aae86c4f41cca4c9218293f76511bf3896f9508b7eb6481657e65ddd8bf1",
+    "formulas": [
+      {
+        "expression": "8d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "8d6",
+      "damage_types": [
+        "radiant"
+      ],
+      "duration": "instantaneous",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a pinch of grave dirt",
+      "range": 0,
+      "range_text": "Self",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "9237aae86c4f41cca4c9218293f76511bf3896f9508b7eb6481657e65ddd8bf1",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-lay-to-rest",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "77820403a0b49ba7927fbc25f022028239cfc320612c1d1229e69518a46a20be",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:lay-to-rest",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "damage_roll": "8d6",
+      "damage_types": [
+        "radiant"
+      ],
+      "desc": "A pulse of searing light rushes out from you. Each undead creature within 15 feet of you must make a Constitution saving throw. A target takes 8d6 radiant damage on a failed save, or half as much damage on a successful one.\n  An undead creature reduced to 0 hit points by this spell disintegrates in a burst of radiant motes, leaving anything it was wearing or carrying in a space it formerly occupied.",
+      "document": "deepm",
+      "duration": "instantaneous",
+      "level": 5,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a pinch of grave dirt",
+      "name": "Lay to Rest",
+      "range": 0,
+      "range_text": "Self",
+      "ritual": false,
+      "saving_throw_ability": "constitution",
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3690",
+          "parent": "deepm_lay-to-rest",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Lay to Rest",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "A pulse of searing light rushes out from you. Each undead creature within 15 feet of you must make a Constitution saving throw. A target takes 8d6 radiant damage on a failed save, or half as much damage on a successful one.\n  An undead creature reduced to 0 hit points by this spell disintegrates in a burst of radiant motes, leaving anything it was wearing or carrying in a space it formerly occupied.",
+      "name": "Lay to Rest",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Пульс обжигающего света вырывается из вас. Каждое неживое существо в пределах 15 футов от вас должно совершить спасбросок Телосложения. Цель получает 8к6 урона излучением при проваленном спасброске, или половину урона при успешном.\n  Неживое существо, чьи хиты уменьшены до 0 этим заклинанием, дезинтегрируется во всплеске излучающих частиц, оставляя всё, что оно носило или несло, в пространстве, которое оно раньше занимало.",
+      "glossary_version": "v1",
+      "name": "Упокоить",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

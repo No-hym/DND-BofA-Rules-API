@@ -1,0 +1,186 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_decelerate",
+  "id": "o5e:deepm:spell:deepm-decelerate",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-decelerate",
+      "o5e:dmag:spell:decelerate"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "6707e7bd8e7e8c8af8f614c703ea67b2bb00598313fd7232c846707f4e83e73e",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 minute",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a toy top",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "6707e7bd8e7e8c8af8f614c703ea67b2bb00598313fd7232c846707f4e83e73e",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-decelerate",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "7997f0ef4795af6bdfd4a05c98ceffbcd1108283b28d49621ac3703a64ef7980",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:decelerate",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "You slow the flow of time around a creature within range that you can see. The creature must make a successful Wisdom saving throw, or its walking speed is halved (round up to the nearest 5-foot increment). The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. Until the spell ends, on a failed save the target’s speed is halved again at the start of each of your turns. For example, if a creature with a speed of 30 feet fails its initial saving throw, its speed drops to 15 feet. At the start of your next turn, the creature’s speed drops to 10 feet on a failed save, then to 5 feet on the following round on another failed save. **Decelerate** can’t reduce a creature’s speed to less than 5 feet.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, you can affect an additional creature for each slot level above 2nd.",
+      "level": 2,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a toy top",
+      "name": "Decelerate",
+      "range": 60,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "wisdom",
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "3011",
+          "parent": "deepm_decelerate",
+          "type": "default"
+        },
+        {
+          "external_id": "3013",
+          "parent": "deepm_decelerate",
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "3014",
+          "parent": "deepm_decelerate",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "3015",
+          "parent": "deepm_decelerate",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "3016",
+          "parent": "deepm_decelerate",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "3017",
+          "parent": "deepm_decelerate",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "3018",
+          "parent": "deepm_decelerate",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "3019",
+          "parent": "deepm_decelerate",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Decelerate",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "You slow the flow of time around a creature within range that you can see. The creature must make a successful Wisdom saving throw, or its walking speed is halved (round up to the nearest 5-foot increment). The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. Until the spell ends, on a failed save the target’s speed is halved again at the start of each of your turns. For example, if a creature with a speed of 30 feet fails its initial saving throw, its speed drops to 15 feet. At the start of your next turn, the creature’s speed drops to 10 feet on a failed save, then to 5 feet on the following round on another failed save. **Decelerate** can’t reduce a creature’s speed to less than 5 feet.",
+      "name": "Decelerate",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы замедляете поток времени вокруг существа в пределах дистанции, которого видите. Существо должно преуспеть в спасброске Мудрости, иначе его скорость ходьбы будет уменьшена вдвое (округление вверх до ближайшего приращения в 5 футов). Существо может повторять спасбросок в конце каждого своего хода, при успехе завершая эффект. Пока заклинание не закончится, при проваленном спасброске скорость цели снова уменьшается вдвое в начале каждого вашего хода. Например, если существо со скоростью 30 футов проваливает свой первоначальный спасбросок, его скорость падает до 15 футов. В начале вашего следующего хода скорость существа падает до 10 футов при проваленном спасброске, затем до 5 футов в следующем раунде при ещё одном проваленном спасброске. Это заклинание не может уменьшать скорость существа менее чем до 5 футов.",
+      "glossary_version": "v1",
+      "name": "Замедление времени",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

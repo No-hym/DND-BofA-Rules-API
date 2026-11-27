@@ -1,0 +1,134 @@
+{
+  "attribution": "Title: Spells That Don't Suck; Author: Ben Somers / somanyrobots, Omega Ankh; Publisher: somanyrobots; Source: https://www.somanyrobots.com/s/Spells-That-Dont-Suck-compressed.pdf; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: DND-BofA curated translation (machine translation, editorial review required) (CC-BY-4.0)",
+  "book_id": "spells-that-dont-suck",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "spells-that-dont-suck_alter-weather",
+  "id": "o5e:spells-that-dont-suck:spell:spells-that-dont-suck-alter-weather",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "bfb131078317068ceb3cb8ba782a9d47a7d842a2bbe42f7e6e66384389606b78",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_druid",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "1 hour",
+      "level": 6,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": 0,
+      "material_specified": "a silver dish and a glass tube filled with quicksilver",
+      "range": 0,
+      "range_text": "Self (1-mile radius)",
+      "range_unit": null,
+      "ritual": false,
+      "school": "transmutation",
+      "somatic": true,
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "classes",
+        "value": [
+          "srd_cleric",
+          "srd_druid",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "casting_time": "action",
+      "classes": [
+        "srd_cleric",
+        "srd_druid",
+        "srd_wizard"
+      ],
+      "concentration": true,
+      "desc": "You seize the air currents above you, taking control of the local weather. You must have clear sight of the sky to cast this spell, and the spell ends early if you end your turn unable to see it.\n\nWhen you cast the spell, you can choose to shift the precipitation, temperature, and wind each by one stage on the charts below. It takes 30 minutes for the conditions to change, after which you can change them again. The charts suggest weather effects, and your GM may determine any additional effects resulting from the change in weather. Your GM may rule that fire or cold resistance, hot or cold weather gear, or other measures partly or completely protect a creature against the effects. After the spell ends, the weather returns to its original state, changing at the same rate. The spell ends if you cast it again or dismiss it as an action.\n\n##### Precipitation\n\nHigher stages include all the effects of lower stages.\n<table>\n<thead><tr>\n<th>Stage</th>\n<th>Condition</th>\n<th>Effects</th>\n</tr></thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Clear</td>\n<td>—</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Light clouds</td>\n<td>—</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Overcast or ground fog</td>\n<td>The area lacks sunlight, for effects or traits dependent on it.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Rain, hail, or snow</td>\n<td>Objects and creatures are lightly obscured more than 60 feet away.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Torrential rain, driving hail, or blizzard</td>\n<td>Objects and creatures are heavily obscured more than 30 feet away, and all terrain is difficult terrain.</td>\n</tr>\n</tbody>\n</table>\n<h5>Temperature</h5>\nStage 1 includes the effects of stage 2, and stage 7 includes the effects of stage 6.\n<table>\n<thead><tr>\n<th>Stage</th>\n<th>Condition</th>\n<th>Effects</th>\n</tr></thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Unbearable heat</td>\n<td>All creatures must make a DC 10 Constitution saving throw every hour or suffer one level of exhaustion.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Hot</td>\n<td>All creatures suffer disadvantage on all Constitution saves except against weather effects.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Warm</td>\n<td>—</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Pleasant</td>\n<td>—</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Cool</td>\n<td>—</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Cold</td>\n<td>All creatures suffer disadvantage on Dexterity checks.</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Bitter cold</td>\n<td>All creatures must make a DC 10 Constitution saving throw every hour or suffer one level of exhaustion.</td>\n</tr>\n</tbody>\n</table>\n<h5>Wind</h5>\nHigher stages include all the effects of lower stages.\n<table>\n<thead><tr>\n<th>Stage</th>\n<th>Condition</th>\n<th>Effects</th>\n</tr></thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Calm</td>\n<td>—</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Moderate wind</td>\n<td>—</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Strong wind</td>\n<td>Ranged attacks are made at disadvantage.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Gale</td>\n<td>All creatures have resistance to damage from ranged attacks.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Hurricane</td>\n<td>Ranged attacks are impossible, and all movement against the wind costs twice as much.</td>\n</tr>\n</tbody>\n</table>\n<em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 7th level, the duration is 8 hours, and the area increases to a 5-mile radius. When you cast this spell using a spell slot of 8th level, the duration is 24 hours, and the area increases to a 10-mile radius. When you cast this spell using a spell slot of 9th level, the duration is 7 days, and the area increases to a 25-mile radius.",
+      "document": "spells-that-dont-suck",
+      "duration": "1 hour",
+      "level": 6,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": 0,
+      "material_specified": "a silver dish and a glass tube filled with quicksilver",
+      "name": "Alter Weather",
+      "range": 0,
+      "range_text": "Self (1-mile radius)",
+      "ritual": false,
+      "school": "transmutation",
+      "somatic": true,
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Ben Somers / somanyrobots, Omega Ankh",
+      "key": "spells-that-dont-suck",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://www.somanyrobots.com/s/Spells-That-Dont-Suck-compressed.pdf",
+      "publication_date": "2025-03-30T00:00:00",
+      "publisher": "somanyrobots",
+      "title": "Spells That Don't Suck"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Alter Weather",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "somanyrobots",
+  "source": "open5e:v2:spells-that-dont-suck",
+  "translations": {
+    "en": {
+      "description": "You seize the air currents above you, taking control of the local weather. You must have clear sight of the sky to cast this spell, and the spell ends early if you end your turn unable to see it.\n\nWhen you cast the spell, you can choose to shift the precipitation, temperature, and wind each by one stage on the charts below. It takes 30 minutes for the conditions to change, after which you can change them again. The charts suggest weather effects, and your GM may determine any additional effects resulting from the change in weather. Your GM may rule that fire or cold resistance, hot or cold weather gear, or other measures partly or completely protect a creature against the effects. After the spell ends, the weather returns to its original state, changing at the same rate. The spell ends if you cast it again or dismiss it as an action.\n\n##### Precipitation\n\nHigher stages include all the effects of lower stages.\n<table>\n<thead><tr>\n<th>Stage</th>\n<th>Condition</th>\n<th>Effects</th>\n</tr></thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Clear</td>\n<td>—</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Light clouds</td>\n<td>—</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Overcast or ground fog</td>\n<td>The area lacks sunlight, for effects or traits dependent on it.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Rain, hail, or snow</td>\n<td>Objects and creatures are lightly obscured more than 60 feet away.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Torrential rain, driving hail, or blizzard</td>\n<td>Objects and creatures are heavily obscured more than 30 feet away, and all terrain is difficult terrain.</td>\n</tr>\n</tbody>\n</table>\n<h5>Temperature</h5>\nStage 1 includes the effects of stage 2, and stage 7 includes the effects of stage 6.\n<table>\n<thead><tr>\n<th>Stage</th>\n<th>Condition</th>\n<th>Effects</th>\n</tr></thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Unbearable heat</td>\n<td>All creatures must make a DC 10 Constitution saving throw every hour or suffer one level of exhaustion.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Hot</td>\n<td>All creatures suffer disadvantage on all Constitution saves except against weather effects.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Warm</td>\n<td>—</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Pleasant</td>\n<td>—</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Cool</td>\n<td>—</td>\n</tr>\n<tr>\n<td>6</td>\n<td>Cold</td>\n<td>All creatures suffer disadvantage on Dexterity checks.</td>\n</tr>\n<tr>\n<td>7</td>\n<td>Bitter cold</td>\n<td>All creatures must make a DC 10 Constitution saving throw every hour or suffer one level of exhaustion.</td>\n</tr>\n</tbody>\n</table>\n<h5>Wind</h5>\nHigher stages include all the effects of lower stages.\n<table>\n<thead><tr>\n<th>Stage</th>\n<th>Condition</th>\n<th>Effects</th>\n</tr></thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>Calm</td>\n<td>—</td>\n</tr>\n<tr>\n<td>2</td>\n<td>Moderate wind</td>\n<td>—</td>\n</tr>\n<tr>\n<td>3</td>\n<td>Strong wind</td>\n<td>Ranged attacks are made at disadvantage.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>Gale</td>\n<td>All creatures have resistance to damage from ranged attacks.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>Hurricane</td>\n<td>Ranged attacks are impossible, and all movement against the wind costs twice as much.</td>\n</tr>\n</tbody>\n</table>\n<em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 7th level, the duration is 8 hours, and the area increases to a 5-mile radius. When you cast this spell using a spell slot of 8th level, the duration is 24 hours, and the area increases to a 10-mile radius. When you cast this spell using a spell slot of 9th level, the duration is 7 days, and the area increases to a 25-mile radius.",
+      "name": "Alter Weather",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы захватываете воздушные течения над вами, беря контроль над местной погодой. Вы должны иметь ясную видимость неба, чтобы сотворить это заклинание, и заклинание заканчивается досрочно, если вы завершаете ваш ход неспособным видеть его.\n\nКогда вы творите заклинание, вы можете выбрать сдвинуть осадки, температуру и ветер каждый на одну стадию на таблицах ниже. Требуется 30 минут, чтобы условия изменились, после чего вы можете изменить их снова. Таблицы предполагают погодные эффекты, и ваш Мастер может определить любые дополнительные эффекты, вытекающие из изменения погоды. Ваш Мастер может постановить, что сопротивление огню или холоду, снаряжение для горячей или холодной погоды или другие меры частично или полностью защищают существо против эффектов. После окончания заклинания погода возвращается в её первоначальное состояние, изменяясь с той же скоростью. Заклинание заканчивается, если вы творите его снова или отпускаете его действием.\n\n**Осадки.** Более высокие стадии включают все эффекты более низких стадий. Стадия 1: Ясно — без эффектов. Стадия 2: Лёгкие облака — без эффектов. Стадия 3: Пасмурно или наземный туман — область лишена солнечного света для эффектов или черт, зависящих от него. Стадия 4: Дождь, град или снег — предметы и существа слегка затемнены более чем в 60 футах. Стадия 5: Проливной дождь, гонящий град или метель — предметы и существа сильно затемнены более чем в 30 футах, и вся местность — труднопроходимая местность.\n\n**Температура.** Стадия 1 включает эффекты стадии 2, а стадия 7 включает эффекты стадии 6. Стадия 1: Невыносимая жара — все существа должны совершать спасбросок Телосложения Сл 10 каждый час, иначе страдать один уровень истощения. Стадия 2: Жарко — все существа совершают с помехой все спасброски Телосложения, за исключением против погодных эффектов. Стадия 3: Тепло — без эффектов. Стадия 4: Приятно — без эффектов. Стадия 5: Прохладно — без эффектов. Стадия 6: Холодно — все существа совершают с помехой проверки Ловкости. Стадия 7: Горький холод — все существа должны совершать спасбросок Телосложения Сл 10 каждый час, иначе страдать один уровень истощения.\n\n**Ветер.** Более высокие стадии включают все эффекты более низких стадий. Стадия 1: Штиль — без эффектов. Стадия 2: Умеренный ветер — без эффектов. Стадия 3: Сильный ветер — дальнобойные атаки совершаются с помехой. Стадия 4: Шторм — все существа имеют сопротивление к урону от дальнобойных атак. Стадия 5: Ураган — дальнобойные атаки невозможны, и всё перемещение против ветра стоит вдвое больше.\n\n**На более высоких уровнях.** Когда вы творите это заклинание, используя ячейку заклинания 7-го уровня, продолжительность 8 часов, и область увеличивается до радиуса 5 миль. Когда вы творите это заклинание, используя ячейку заклинания 8-го уровня, продолжительность 24 часа, и область увеличивается до радиуса 10 миль. Когда вы творите это заклинание, используя ячейку заклинания 9-го уровня, продолжительность 7 дней, и область увеличивается до радиуса 25 миль.",
+      "glossary_version": "v1",
+      "name": "Изменение погоды",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

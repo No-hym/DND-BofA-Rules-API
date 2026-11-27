@@ -1,0 +1,274 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_ray-of-frost",
+  "id": "o5e:srd-2014:spell:srd-ray-of-frost",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-ray-of-frost",
+      "o5e:wotc-srd:spell:ray-of-frost"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "9a73bcc2db707a18ad8d13b2f1b6cea66f5fdee1fe97f350ef34e2bed7c7d4ab",
+    "formulas": [
+      {
+        "expression": "1d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "cold"
+      ],
+      "duration": "instantaneous",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "evocation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "9a73bcc2db707a18ad8d13b2f1b6cea66f5fdee1fe97f350ef34e2bed7c7d4ab",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-ray-of-frost",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "4abc3009ba6348397adcb21996abd833b0b15949fa2853317a8337b95479471f",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:ray-of-frost",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_sorcerer",
+        "type": "classes",
+        "value": [
+          "srd_sorcerer",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [
+        "srd_sorcerer",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "1d8",
+      "damage_types": [
+        "cold"
+      ],
+      "desc": "A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.",
+      "document": "srd-2014",
+      "duration": "instantaneous",
+      "higher_level": "The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+      "level": 0,
+      "material": false,
+      "material_consumed": false,
+      "name": "Ray of Frost",
+      "range": 60.0,
+      "range_text": "60 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "evocation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5902",
+          "parent": "srd_ray-of-frost",
+          "type": "default"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "5907",
+          "parent": "srd_ray-of-frost",
+          "type": "player_level_5"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "5908",
+          "parent": "srd_ray-of-frost",
+          "type": "player_level_6"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "5909",
+          "parent": "srd_ray-of-frost",
+          "type": "player_level_7"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "5910",
+          "parent": "srd_ray-of-frost",
+          "type": "player_level_8"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "5911",
+          "parent": "srd_ray-of-frost",
+          "type": "player_level_9"
+        },
+        {
+          "damage_roll": "2d8",
+          "external_id": "5912",
+          "parent": "srd_ray-of-frost",
+          "type": "player_level_10"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "5913",
+          "parent": "srd_ray-of-frost",
+          "type": "player_level_11"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "5914",
+          "parent": "srd_ray-of-frost",
+          "type": "player_level_12"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "5915",
+          "parent": "srd_ray-of-frost",
+          "type": "player_level_13"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "5916",
+          "parent": "srd_ray-of-frost",
+          "type": "player_level_14"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "5917",
+          "parent": "srd_ray-of-frost",
+          "type": "player_level_15"
+        },
+        {
+          "damage_roll": "3d8",
+          "external_id": "5918",
+          "parent": "srd_ray-of-frost",
+          "type": "player_level_16"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "5919",
+          "parent": "srd_ray-of-frost",
+          "type": "player_level_17"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "5920",
+          "parent": "srd_ray-of-frost",
+          "type": "player_level_18"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "5921",
+          "parent": "srd_ray-of-frost",
+          "type": "player_level_19"
+        },
+        {
+          "damage_roll": "4d8",
+          "external_id": "5922",
+          "parent": "srd_ray-of-frost",
+          "type": "player_level_20"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Ray of Frost",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.",
+      "name": "Ray of Frost",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Заговор Воплощения (Чародей, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 60 футов\n\n**Компоненты:** В, С\n\n**Длительность:** Мгновенная\n\nМорозный луч голубовато-белого света устремляется к существу в пределах дистанции. Совершите дальнобойную атаку заклинанием по цели. При попадании она получает 1к8 урона холодом, и её скорость уменьшается на 10 футов до начала вашего следующего хода.\n\n**_Усиление заговора._** Урон этого заклинания увеличивается на 1к8, когда вы достигаете 5-го уровня (2к8), 11-го уровня (3к8) и 17-го уровня (4к8).",
+      "glossary_version": "v1",
+      "name": "Луч холода",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

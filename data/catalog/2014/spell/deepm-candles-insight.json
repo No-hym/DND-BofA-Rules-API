@@ -1,0 +1,175 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_candles-insight",
+  "id": "o5e:deepm:spell:deepm-candles-insight",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-candles-insight",
+      "o5e:dmag:spell:candles-insight"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "57bc48bfd153342e5f85d1322165af2e9739431ea2f0025faacfbc0afd88600d",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "10 minutes",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a blessed candle",
+      "range": 10,
+      "range_text": "10 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "divination",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "57bc48bfd153342e5f85d1322165af2e9739431ea2f0025faacfbc0afd88600d",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-candles-insight",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "bc86f22118abe9ef62695d174f1fb62fa3de976e52136cada6b6ba6933362276",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:candles-insight",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "concentration": false,
+      "desc": "**Candle’s insight** is cast on its target as the component candle is lit. The candle burns for up to 10 minutes unless it’s extinguished normally or by the spell’s effect. While the candle burns, the caster can question the spell’s target, and the candle reveals whether the target speaks truthfully. An intentionally misleading or partial answer causes the flame to flicker and dim. An outright lie causes the flame to flare and then go out, ending the spell. The candle judges honesty, not absolute truth; the flame burns steadily through even an outrageously false statement, as long as the target believes it’s true.\n\n**Candle’s insight** is used across society: by merchants while negotiating deals, by inquisitors investigating heresy, and by monarchs as they interview foreign diplomats. In some societies, casting candle’s insight without the consent of the spell’s target is considered a serious breach of hospitality.",
+      "document": "deepm",
+      "duration": "10 minutes",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a blessed candle",
+      "name": "Candle’s Insight",
+      "range": 10,
+      "range_text": "10 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "divination",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "2631",
+          "parent": "deepm_candles-insight",
+          "type": "default"
+        }
+      ],
+      "descriptions": [
+        {
+          "desc": "An Insight check can be used for reading a creature's intentions or motives. The most commonly used ability score is Wisdom. A character might use Dexterity to interrupt an enemy's sudden action.\nSpecialties: detecting lies, reading emotions, sensing motives.",
+          "desc_ru": "Описание. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "describes": "insight",
+          "document": "a5e-ag",
+          "external_id": "a5e-ag_insight",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone’s next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.",
+          "desc_ru": "Описание. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "describes": "insight",
+          "document": "srd-2014",
+          "external_id": "srd-2014_insight",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "Discern a person's mood and intentions.",
+          "desc_ru": "Описание. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "describes": "insight",
+          "document": "srd-2024",
+          "external_id": "srd-2024_insight",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Candle’s Insight",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "**Candle’s insight** is cast on its target as the component candle is lit. The candle burns for up to 10 minutes unless it’s extinguished normally or by the spell’s effect. While the candle burns, the caster can question the spell’s target, and the candle reveals whether the target speaks truthfully. An intentionally misleading or partial answer causes the flame to flicker and dim. An outright lie causes the flame to flare and then go out, ending the spell. The candle judges honesty, not absolute truth; the flame burns steadily through even an outrageously false statement, as long as the target believes it’s true.\n\n**Candle’s insight** is used across society: by merchants while negotiating deals, by inquisitors investigating heresy, and by monarchs as they interview foreign diplomats. In some societies, casting candle’s insight without the consent of the spell’s target is considered a serious breach of hospitality.",
+      "name": "Candle’s Insight",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Это заклинание творится на цель, когда зажигается свеча-компонент. Свеча горит до 10 минут, если её не погасят обычным образом или эффектом заклинания. Пока свеча горит, заклинатель может допрашивать цель заклинания, и свеча показывает, говорит ли цель правдиво. Намеренно вводящий в заблуждение или частичный ответ заставляет пламя мерцать и тускнеть. Откровенная ложь заставляет пламя вспыхнуть, а затем погаснуть, завершая заклинание. Свеча судит о честности, а не об абсолютной истине; пламя горит ровно, даже при возмутительно ложном заявлении, пока цель верит, что оно правдиво.\n\nЭто заклинание используется во всём обществе: торговцами при ведении переговоров о сделках, инквизиторами, расследующими ересь, и монархами, когда они интервьюируют иностранных дипломатов. В некоторых обществах сотворение этого заклинания без согласия цели считается серьёзным нарушением гостеприимства.",
+      "glossary_version": "v1",
+      "name": "Проницательность свечи",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

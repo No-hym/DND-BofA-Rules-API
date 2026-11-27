@@ -1,0 +1,137 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "deathspeaker",
+  "id": "o5e:tob2:monster:deathspeaker-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:deathspeaker"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "010a7e3efaa6fe74d625603d4662cebaf7bd1cb34bf4c947b135214e1a5e14ee",
+    "formulas": [
+      {
+        "expression": "13d8+39",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "lawful evil",
+      "armor_class": 14,
+      "challenge_rating": "4",
+      "condition_immunities": "exhaustion, poisoned",
+      "damage_immunities": "poison",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "13d8+39",
+      "hit_points": 97,
+      "languages": "any languages it knew in life",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "010a7e3efaa6fe74d625603d4662cebaf7bd1cb34bf4c947b135214e1a5e14ee",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:deathspeaker",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The deathspeaker makes two rake attacks. Alternatively, it can use Necrotic Ray twice.\"}, {\"name\": \"Rake\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 12 (2d8 + 3) slashing damage.\", \"attack_bonus\": 6, \"damage_dice\": \"2d8+3\"}, {\"name\": \"Necrotic Ray\", \"desc\": \"Ranged Spell Attack: +7 to hit, range 60 ft., one target. Hit: 10 (3d6) necrotic damage.\", \"attack_bonus\": 7, \"damage_dice\": \"3d6\"}, {\"name\": \"Pronounce Death\", \"desc\": \"The deathspeaker chooses a creature it can see within 30 feet of it that has been reduced to 0 hp. The target must succeed on a DC 13 Constitution saving throw or immediately die. Creatures cursed by the Deathspeak trait have disadvantage on this saving throw.\"}]",
+      "alignment": "lawful evil",
+      "armor_class": 14,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "4",
+      "charisma": 15,
+      "condition_immunities": "exhaustion, poisoned",
+      "constitution": 17,
+      "cr": 4.0,
+      "damage_immunities": "poison",
+      "desc": "An ancient man in a tattered cloak with matted hair, cloudy eyes, and a deathly pallor says in a raspy voice, “Come, sit, and listen.”_  \n**Doomsayer.** The deathspeaker appears to be alive, if only barely, but it is an undead menace that attempts to engage people in conversation, eventually cursing the one who listens to it by predicting the listener’s death. The deathspeaker claims to be a seer who is granted glimpses into the future, saying it is there to advise people of the perils they face. Deathspeakers know their appearance can often be unsettling to humanoids, and many use disguises or heavy clothing to obscure their features.  \n**Evil Origins.** Deathspeakers are imparted unlife from gods of trickery and deception. Chosen from people who were charlatans in life, deathspeakers rely on their former tricks to curse the living in the names of their gods.  \n**Cadaver Sprites.** For reasons that aren’t understood, Open Game License",
+      "dexterity": 16,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "13d8+39",
+      "hit_points": 97,
+      "intelligence": 18,
+      "languages": "any languages it knew in life",
+      "legendary_actions_json": "null",
+      "name": "Deathspeaker",
+      "page_no": 82,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 11",
+      "size": "Medium",
+      "skills_json": "{\"deception\": 8, \"persuasion\": 8}",
+      "special_abilities_json": "[{\"name\": \"Deathspeak\", \"desc\": \"If the deathspeaker engages at least one creature in conversation for at least 1 minute, it can perform a prophetic display, reading cards, throwing bones, speaking to a crystal ball, or similar. Each creature that can see or hear the prophetic display must succeed on a DC 15 Intelligence saving throw or be cursed with the belief it will soon die. While cursed, the creature has disadvantage on attack rolls and ability checks. The curse lasts until it is lifted by a remove curse spell or similar magic, or until the deathspeaker dies. The deathspeaker can use this trait only on creatures that share at least one language with it.\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 12,
+      "type": "Undead",
+      "wisdom": 12
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Deathspeaker",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-deathspeaker"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "An ancient man in a tattered cloak with matted hair, cloudy eyes, and a deathly pallor says in a raspy voice, “Come, sit, and listen.”_  \n**Doomsayer.** The deathspeaker appears to be alive, if only barely, but it is an undead menace that attempts to engage people in conversation, eventually cursing the one who listens to it by predicting the listener’s death. The deathspeaker claims to be a seer who is granted glimpses into the future, saying it is there to advise people of the perils they face. Deathspeakers know their appearance can often be unsettling to humanoids, and many use disguises or heavy clothing to obscure their features.  \n**Evil Origins.** Deathspeakers are imparted unlife from gods of trickery and deception. Chosen from people who were charlatans in life, deathspeakers rely on their former tricks to curse the living in the names of their gods.  \n**Cadaver Sprites.** For reasons that aren’t understood, Open Game License",
+      "name": "Deathspeaker",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Древний человек, в рваном плаще, со спутанными волосами, туманными глазами, и смертельной бледностью говорит хриплым голосом: «Приходи, сиди и слушай».\n\n**Предсказатель рока.** Смертеговор, кажется, жив, если только едва, но это нежить угроза, которая пытается привлечь людей в разговор, в конце концов проклиная того, кто слушает его, предсказывая смерть слушателя. Смертеговор утверждает, что является провидцем, который предоставляется проблески в будущее, говоря это там, чтобы посоветовать людям опасностей, которые стоят перед ними. Смертеговоры знают, что их внешний вид часто может не успокоить гуманоидов, и многие используют маскировку или тяжёлую одежду, чтобы скрыть свои особенности.\n\n**Злые истоки.** Смертеговоры получают нежить от богов обмана и обмана. Выбранные из народа, которые были шарлатанами в жизни, смертеговоры опираются на свои прежние уловки, чтобы проклясть живых во имя своих Богов.",
+      "glossary_version": "v1",
+      "name": "Смертеговор",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

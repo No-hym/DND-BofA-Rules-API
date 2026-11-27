@@ -1,0 +1,141 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "bone-colossus",
+  "id": "o5e:tob2:monster:bone-colossus-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:bone-colossus"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "4ff65bf7b8c389ad08d5fe7dee42bd9a3a3552cb982a5485d3b22ab1681a57f5",
+    "formulas": [
+      {
+        "expression": "11d20+66",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "chaotic evil",
+      "armor_class": 16,
+      "challenge_rating": "13",
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+      "damage_immunities": "necrotic, poison",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "",
+      "hit_dice": "11d20+66",
+      "hit_points": 181,
+      "languages": "Common, Darakhul",
+      "size": "Gargantuan"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "4ff65bf7b8c389ad08d5fe7dee42bd9a3a3552cb982a5485d3b22ab1681a57f5",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:bone-colossus",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The bone colossus makes two attacks.\"}, {\"name\": \"Thunderous Slam (Colossus Form Only)\", \"desc\": \"Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 29 (4d10 + 7) bludgeoning damage plus 10 (3d6) thunder damage, and the target must succeed on a DC 18 Strength saving throw or be knocked prone.\", \"attack_bonus\": 12, \"damage_dice\": \"4d10+7\"}, {\"name\": \"Razor Teeth (Swarm Form Only)\", \"desc\": \"Melee Weapon Attack: +12 to hit, reach 0 ft., one target in the swarm's space. Hit: 21 (6d6) piercing damage, or 10 (3d6) piercing damage if the swarm has half its hp or fewer.\", \"attack_bonus\": 12, \"damage_dice\": \"6d6\"}]",
+      "alignment": "chaotic evil",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "13",
+      "charisma": 16,
+      "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+      "constitution": 22,
+      "constitution_save": 11,
+      "cr": 13.0,
+      "damage_immunities": "necrotic, poison",
+      "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "desc": "Necromancers, both living and dead, sometimes come together to make massive undead creatures known collectively as “necrotech”. In nations ruled by undead, these massive creations often act as siege weapons or powerful modes of transportation._  \n**Bone Colossuses.** In a tome of deranged ramblings, the writer theorized how “posthumes”— the tiny skeletal creatures used to make up the bone collectives—might be gathered in even greater numbers to form bigger, stronger creatures. Thus was born the Open Game License",
+      "dexterity": 11,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "11d20+66",
+      "hit_points": 181,
+      "intelligence": 14,
+      "languages": "Common, Darakhul",
+      "legendary_actions_json": "null",
+      "name": "Bone Colossus",
+      "page_no": 267,
+      "perception": 8,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 120 ft., passive Perception 18",
+      "size": "Gargantuan",
+      "skills_json": "{\"intimidation\": 13, \"perception\": 8}",
+      "special_abilities_json": "[{\"name\": \"Collective Mind\", \"desc\": \"The bone colossus' individual posthumes are connected via a hive mind. It can telepathically communicate with any of its individual posthumes within 50 miles of it, and it can't be surprised. If the bone colossus is reduced to half its hp or fewer, its Intelligence score is reduced to 1.\"}, {\"name\": \"Siege Monster\", \"desc\": \"The bone colossus deals double damage to objects and structures.\"}, {\"name\": \"Swarm Form\", \"desc\": \"A bone colossus can use its action to split into four individual swarms of tiny bone posthumes. Each swarm has an hp total equal to the bone colossus' hp divided by 4 (rounded down), and all are affected by any conditions, spells, and other magical effects that affected the bone colossus. The swarms act on the same initiative count as the bone colossus did and occupy any unoccupied space that previously contained the bone colossus. A bone swarm can occupy another creature's space and vice versa, and the swarm can move through a space as narrow as 1 foot wide without squeezing. A swarm can't regain hp or gain temporary hp.\\n\\nAs an action, the swarms can reform into a single bone colossus as long as all surviving swarms are within 5 feet of each other. The reformed bone colossus' hp total is equal to the combined remaining hp of the swarms, and the bone colossus is affected by any conditions, spells, and other magical effects currently affecting any of the swarms. It occupies any unoccupied space that previously contained at least one of the swarms that formed it.\"}, {\"name\": \"Turn Resistance\", \"desc\": \"The bone colossus has advantage on saving throws against any effect that turns undead.\"}]",
+      "speed_json": "{\"walk\": 30}",
+      "spells_json": "null",
+      "strength": 24,
+      "type": "Undead",
+      "wisdom": 16,
+      "wisdom_save": 8
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Bone Colossus",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-bone-colossus"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "Necromancers, both living and dead, sometimes come together to make massive undead creatures known collectively as “necrotech”. In nations ruled by undead, these massive creations often act as siege weapons or powerful modes of transportation._  \n**Bone Colossuses.** In a tome of deranged ramblings, the writer theorized how “posthumes”— the tiny skeletal creatures used to make up the bone collectives—might be gathered in even greater numbers to form bigger, stronger creatures. Thus was born the Open Game License",
+      "name": "Bone Colossus",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Некроманты, как живые, так и мёртвые, иногда собираются вместе, чтобы делать массивных неживых существ, известных коллективно как «некротех». В нациях, управляемых нежитью, эти массивные создания часто действуют как осадные орудия или мощные средства транспортировки.",
+      "glossary_version": "v1",
+      "name": "Костяной колосс",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

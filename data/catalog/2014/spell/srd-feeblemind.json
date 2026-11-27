@@ -1,0 +1,185 @@
+{
+  "attribution": "Title: System Reference Document 5.1; Author: Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0)",
+  "book_id": "srd-2014",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "srd_feeblemind",
+  "id": "o5e:srd-2014:spell:srd-feeblemind",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "aliases": [
+      "o5e:srd-2014:spell:srd-feeblemind",
+      "o5e:wotc-srd:spell:feeblemind"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "67842a9ef0f8a546297eed97decab495d998af58afe77c5ee942d821a96acacb",
+    "formulas": [
+      {
+        "expression": "4d6",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_druid",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "4d6",
+      "damage_types": [
+        "psychic"
+      ],
+      "duration": "instantaneous",
+      "level": 8,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "A handful of clay, crystal, glass, or mineral spheres.",
+      "range": 150.0,
+      "range_text": "150 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "intelligence",
+      "school": "enchantment",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "srd-2014",
+        "content_hash": "67842a9ef0f8a546297eed97decab495d998af58afe77c5ee942d821a96acacb",
+        "edition": "2014",
+        "id": "o5e:srd-2014:spell:srd-feeblemind",
+        "license": "CC-BY-4.0",
+        "source": "open5e:v2:srd-2014"
+      },
+      {
+        "book": "wotc-srd",
+        "content_hash": "5bdbbdef4fd4d8d92f5ecab846524d26c313670fca62c37d89b4b94065eba684",
+        "edition": "2014",
+        "id": "o5e:wotc-srd:spell:feeblemind",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:wotc-srd"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_bard",
+        "type": "classes",
+        "value": [
+          "srd_bard",
+          "srd_druid",
+          "srd_warlock",
+          "srd_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd_bard",
+        "srd_druid",
+        "srd_warlock",
+        "srd_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "4d6",
+      "damage_types": [
+        "psychic"
+      ],
+      "desc": "You blast the mind of a creature that you can see within range, attempting to shatter its intellect and personality. The target takes 4d6 psychic damage and must make an intelligence saving throw. On a failed save, the creature's Intelligence and Charisma scores become 1. The creature can't cast spells, activate magic items, understand language, or communicate in any intelligible way. The creature can, however, identify its friends, follow them, and even protect them. At the end of every 30 days, the creature can repeat its saving throw against this spell. If it succeeds on its saving throw, the spell ends. The spell can also be ended by greater restoration, heal, or wish.",
+      "document": "srd-2014",
+      "duration": "instantaneous",
+      "level": 8,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "A handful of clay, crystal, glass, or mineral spheres.",
+      "name": "Feeblemind",
+      "range": 150.0,
+      "range_text": "150 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "intelligence",
+      "school": "enchantment",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+      "key": "srd-2014",
+      "licenses": [
+        "CC-BY-4.0",
+        "OGL-1.0a"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2023-01-23T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.1"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "5446",
+          "parent": "srd_feeblemind",
+          "type": "default"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules)",
+      "edition": "2024",
+      "exact_match": "Feeblemind",
+      "license": "CC-BY-4.0",
+      "source": "omnigm"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2014",
+  "translations": {
+    "en": {
+      "description": "You blast the mind of a creature that you can see within range, attempting to shatter its intellect and personality. The target takes 4d6 psychic damage and must make an intelligence saving throw. On a failed save, the creature's Intelligence and Charisma scores become 1. The creature can't cast spells, activate magic items, understand language, or communicate in any intelligible way. The creature can, however, identify its friends, follow them, and even protect them. At the end of every 30 days, the creature can repeat its saving throw against this spell. If it succeeds on its saving throw, the spell ends. The spell can also be ended by greater restoration, heal, or wish.",
+      "name": "Feeblemind",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Очарование 8-го уровня (Бард, Друид, Колдун, Волшебник)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 150 футов\n\n**Компоненты:** В, С, М (горсть глиняных, хрустальных, стеклянных или минеральных сфер)\n\n**Длительность:** Мгновенная\n\nВы поражаете разум существа, которое видите в пределах дистанции, пытаясь разрушить его интеллект и личность. Цель получает 4к6 психического урона и должна совершить спасбросок Интеллекта.\n\nПри провале значения Интеллекта и Харизмы существа становятся равными 1. Существо не может сотворять заклинания, активировать магические предметы, понимать язык или общаться каким-либо внятным образом. Однако существо может узнавать своих друзей, следовать за ними и даже защищать их.\n\nВ конце каждых 30 дней существо может повторить спасбросок против этого заклинания. При успехе заклинание оканчивается.\n\nЗаклинание также может быть окончено заклинаниями *высшее восстановление*, *исцеление* или *желание*.",
+      "glossary_version": "v1",
+      "name": "Помрачение",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,214 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_create-or-destroy-water",
+  "id": "o5e:srd-2024:spell:srd-2024-create-or-destroy-water",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "389da0b9d5c7440e5e2e300858cb2301308c31e9fe948d1cfa74faed7f490103",
+    "formulas": [],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_cleric",
+        "srd-2024_druid"
+      ],
+      "concentration": false,
+      "damage_roll": "",
+      "damage_types": [],
+      "duration": "instantaneous",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "a mix of water and sand",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": 30.0,
+      "shape_size_unit": "feet",
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_cleric",
+        "type": "classes",
+        "value": [
+          "srd-2024_cleric",
+          "srd-2024_druid"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "action",
+      "classes": [
+        "srd-2024_cleric",
+        "srd-2024_druid"
+      ],
+      "concentration": false,
+      "desc": "You do one of the following:\n\n**Create Water.** You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot Cube within range, extinguishing exposed flames there.\n\n**Destroy Water.** You destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy fog in a 30-foot Cube within range.",
+      "document": "srd-2024",
+      "duration": "instantaneous",
+      "higher_level": "You create or destroy 10 additional gallons of water, or the size of the Cube increases by 5 feet, for each spell slot level above 1.",
+      "level": 1,
+      "material": true,
+      "material_consumed": false,
+      "material_specified": "a mix of water and sand",
+      "name": "Create or Destroy Water",
+      "range": 30,
+      "range_text": "30 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "transmutation",
+      "shape_size": 30.0,
+      "shape_size_unit": "feet",
+      "shape_type": "cube",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "desc": "create or destroy 20 gallons of water, or affect 35-foot cube",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10148",
+          "parent": "srd-2024_create-or-destroy-water",
+          "ru_source": "derived",
+          "shape_size": 35,
+          "type": "slot_level_2"
+        },
+        {
+          "desc": "create or destroy 30 gallons of water, or affect 40-foot cube",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10149",
+          "parent": "srd-2024_create-or-destroy-water",
+          "ru_source": "derived",
+          "shape_size": 40,
+          "type": "slot_level_3"
+        },
+        {
+          "desc": "create or destroy 40 gallons of water, or affect 45-foot cube",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10150",
+          "parent": "srd-2024_create-or-destroy-water",
+          "ru_source": "derived",
+          "shape_size": 45,
+          "type": "slot_level_4"
+        },
+        {
+          "desc": "create or destroy 50 gallons of water, or affect 50-foot cube",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10151",
+          "parent": "srd-2024_create-or-destroy-water",
+          "ru_source": "derived",
+          "shape_size": 50,
+          "type": "slot_level_5"
+        },
+        {
+          "desc": "create or destroy 60 gallons of water, or affect 55-foot cube",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10152",
+          "parent": "srd-2024_create-or-destroy-water",
+          "ru_source": "derived",
+          "shape_size": 55,
+          "type": "slot_level_6"
+        },
+        {
+          "desc": "create or destroy 70 gallons of water, or affect 60-foot cube",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10153",
+          "parent": "srd-2024_create-or-destroy-water",
+          "ru_source": "derived",
+          "shape_size": 60,
+          "type": "slot_level_7"
+        },
+        {
+          "desc": "create or destroy 80 gallons of water, or affect 65-foot cube",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10154",
+          "parent": "srd-2024_create-or-destroy-water",
+          "ru_source": "derived",
+          "shape_size": 65,
+          "type": "slot_level_8"
+        },
+        {
+          "desc": "create or destroy 90 gallons of water, or affect 70-foot cube",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10155",
+          "parent": "srd-2024_create-or-destroy-water",
+          "ru_source": "derived",
+          "shape_size": 70,
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Create or Destroy Water",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "You do one of the following:\n\n**Create Water.** You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot Cube within range, extinguishing exposed flames there.\n\n**Destroy Water.** You destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy fog in a 30-foot Cube within range.",
+      "name": "Create or Destroy Water",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Преобразование 1-го уровня (Жрец, Друид)*\n\n**Время накладывания:** Действие\n\n**Дистанция:** 30 футов\n\n**Компоненты:** В, С, М (капля воды при создании воды или несколько крупинок песка при уничтожении)\n\n**Длительность:** Мгновенная\n\nВы создаёте или уничтожаете воду.\n\n**_Сотворение воды._** Вы создаёте до 10 галлонов чистой воды в пределах дистанции в открытом сосуде. Либо вода падает в виде дождя в 30-футовом кубе в пределах дистанции, потушив незащищённый огонь в этой области.\n\n**_Уничтожение воды._** Вы уничтожаете до 10 галлонов воды в открытом сосуде в пределах дистанции. Либо вы рассеиваете туман в 30-футовом кубе в пределах дистанции.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 2-го уровня или выше, вы создаёте или уничтожаете 10 дополнительных галлонов воды, или размер куба увеличивается на 5 футов, за каждый уровень ячейки выше 1-го.",
+      "glossary_version": "v1",
+      "name": "Сотворение или уничтожение воды",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

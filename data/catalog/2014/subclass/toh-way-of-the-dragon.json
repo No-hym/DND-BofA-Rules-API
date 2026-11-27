@@ -1,0 +1,158 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_way-of-the-dragon",
+  "id": "o5e:toh:characterclass:toh-way-of-the-dragon",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-way-of-the-dragon"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "8a954add577c4f7c795e03cb9a2c4973a5904c66c28474951d33c14f7135b49a",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_monk"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "8a954add577c4f7c795e03cb9a2c4973a5904c66c28474951d33c14f7135b49a",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-way-of-the-dragon",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_monk",
+        "type": "subclass_of",
+        "value": "srd_monk"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "You have studied at a monastery devoted to dragonkind. Warriors trained in these places adapt their fighting styles to match the dragons they hold in such esteem. They are respected and feared by students of other traditions. Once they are trained, followers of this Way travel far and wide, rarely settling in one place for long.",
+      "document": "toh",
+      "name": "Way of the Dragon",
+      "subclass_of": "srd_monk"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "Starting when you choose this tradition at 3rd level, you feel an affinity for one type of dragon, which you choose from the Draconic Affiliation table. You model your fighting style to match that type of dragon, and some of the features you gain from following this Way depend upon the affiliation you chose.\n\n| Dragon              | Associated Skill  | Damage Type | \n|---------------------|-------------------|-------------| \n| Black or Copper     | Stealth           | Acid        | \n| Blue or Bronze      | Insight           | Lightning   | \n| Brass, Gold, or Red | Intimidation      | Fire        | \n| Green               | Deception         | Poison      | \n| Silver or White     | History           | Cold        |\n\nWhen you make your selection, you gain proficiency in the dragon's associated skill, and you gain resistance to the listed damage type. If you already have this skill proficiency, you double your proficiency bonus with that skill.",
+          "desc_ru": "Начиная с выбора этой традиции на 3-м уровне, вы чувствуете близость к одному типу дракона, который вы выбираете из таблицы Драконьей принадлежности. Вы моделируете ваш стиль боя, чтобы соответствовать этому типу дракона, и некоторые особенности, которые вы получаете от следования этому Пути, зависят от принадлежности, которую вы выбрали.\n\n| Дракон | Связанный навык | Тип урона |\n|---|---|---|\n| Чёрный или Медный | Скрытность | Кислота |\n| Синий или Бронзовый | Проницательность | Молния |\n| Латунный, Золотой или Красный | Запугивание | Огонь |\n| Зелёный | Обман | Яд |\n| Серебряный или Белый | История | Холод |\n\nКогда вы совершаете ваш выбор, вы получаете владение связанным навыком дракона, и вы получаете сопротивление перечисленному типу урона. Если у вас уже есть это владение навыком, вы удваиваете ваш бонус мастерства с этим навыком.",
+          "document": "toh",
+          "external_id": "toh_way-of-the-dragon_draconic-affiliation",
+          "level": 3,
+          "name": "Draconic Affiliation",
+          "name_ru": "Драконья принадлежность",
+          "parent": "toh_way-of-the-dragon",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 3rd level, when you use Step of the Wind then hit with an attack, the attack deals an extra 2d6 damage of the type associated with your Draconic Affiliation.",
+          "desc_ru": "На 3-м уровне, когда вы используете шаг ветра и затем попадаете атакой, атака наносит дополнительные 2к6 урона типа, связанного с вашей Драконьей принадлежностью.",
+          "document": "toh",
+          "external_id": "toh_way-of-the-dragon_draconic-onslaught",
+          "level": 3,
+          "name": "Draconic Onslaught",
+          "name_ru": "Драконий натиск",
+          "parent": "toh_way-of-the-dragon",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 6th level, when you take the Dash action, you can spend 1 ki point to gain a flying speed equal to your walking speed until the end of your turn. While you are flying, a creature that hits you with an opportunity attack takes 2d6 damage of the type associated with your Draconic Affiliation.",
+          "desc_ru": "Начиная с 6-го уровня, когда вы выполняете действие Рывок, вы можете потратить 1 очко ки, чтобы получить скорость полёта, равную вашей скорости ходьбы, до конца вашего хода. Пока вы летите, существо, которое попадает по вам внеочередной атакой, получает 2к6 урона типа, связанного с вашей Драконьей принадлежностью.",
+          "document": "toh",
+          "external_id": "toh_way-of-the-dragon_take-flight",
+          "level": 6,
+          "name": "Take Flight",
+          "name_ru": "Взлететь",
+          "parent": "toh_way-of-the-dragon",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Beginning at 11th level, when you take the Attack action after using Step of the Wind in the same turn, you can spend an extra 2 ki points to replace your first attack with one unarmed strike against each creature within 5 feet of the space in which you end your movement. On a hit, your unarmed strike deals an extra 4d6 of the type associated with your Draconic Affiliation. You can't use this feature and your Draconic Onslaught feature in the same round.",
+          "desc_ru": "Начиная с 11-го уровня, когда вы выполняете действие Атака после использования шага ветра в тот же ход, вы можете потратить дополнительные 2 очка ки, чтобы заменить вашу первую атаку одним безоружным ударом против каждого существа в пределах 5 футов от пространства, в котором вы заканчиваете ваше перемещение. При попадании ваш безоружный удар наносит дополнительные 4к6 типа, связанного с вашей Драконьей принадлежностью. Вы не можете использовать эту особенность и вашу особенность Драконий натиск в тот же раунд.",
+          "document": "toh",
+          "external_id": "toh_way-of-the-dragon_conquering-wyrm",
+          "level": 11,
+          "name": "Conquering Wyrm",
+          "name_ru": "Завоёвывающий змей",
+          "parent": "toh_way-of-the-dragon",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 17th level, you can harden yourself against harm like the eldest of dragons. On your turn, you can spend 4 ki points to increase your Armor Class by 2, gain temporary hit points equal to your monk level, and gain immunity to the frightened condition for 10 minutes. For the duration, when you take damage of the type associated with your Draconic Affiliation, you can use your reaction to reduce the damage you take from that source to 0.",
+          "desc_ru": "На 17-м уровне вы можете укрепить себя против вреда, как старейшие из драконов. В ваш ход вы можете потратить 4 очка ки, чтобы увеличить ваш Класс доспеха на 2, получить временные очки хитов, равные вашему уровню монаха, и получить иммунитет к состоянию напуганности на 10 минут. На время длительности, когда вы получаете урон типа, связанного с вашей Драконьей принадлежностью, вы можете реакцией уменьшить урон, который вы получаете от этого источника, до 0.",
+          "document": "toh",
+          "external_id": "toh_way-of-the-dragon_scales-of-the-wyrm",
+          "level": 17,
+          "name": "Scales of the Wyrm",
+          "name_ru": "Чешуя змея",
+          "parent": "toh_way-of-the-dragon",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Way of the Dragon",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "You have studied at a monastery devoted to dragonkind. Warriors trained in these places adapt their fighting styles to match the dragons they hold in such esteem. They are respected and feared by students of other traditions. Once they are trained, followers of this Way travel far and wide, rarely settling in one place for long.",
+      "name": "Way of the Dragon",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Вы учились в монастыре, посвящённом драконьему роду. Воины, обученные в этих местах, адаптируют свои боевые стили, чтобы соответствовать драконам, которых они держат в таком уважении. Их уважают и боятся студенты других традиций. Как только они обучены, последователи этого Пути путешествуют далеко и широко, редко оседая на одном месте надолго.",
+      "glossary_version": "v1",
+      "name": "Путь дракона",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

@@ -1,0 +1,143 @@
+{
+  "attribution": "Title: Tome of Beasts 2023; Author: Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur; Publisher: tob-2023; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. 2023 Open Design LLC. All rights reserved.",
+  "book_id": "tob-2023",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "fideleangel-tob1-2023",
+  "id": "o5e:tob-2023:monster:fideleangel-tob1-2023-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:monster:fideleangel-tob1-2023"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "8c05ffb09d17800d9270570124f48b3633beb27f39fb627166ae9016045fd436",
+    "formulas": [
+      {
+        "expression": "16d8 + 32",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "Lawful Good",
+      "armor_class": 16,
+      "challenge_rating": "5",
+      "condition_immunities": "charmed, exhaustion, petrified, poisoned",
+      "damage_immunities": "acid, cold",
+      "damage_resistances": "fire, lightning, poison; bludgeoning, piercing, and slashing damage from nonmagical attacks",
+      "damage_vulnerabilities": "False",
+      "hit_dice": "16d8 + 32",
+      "hit_points": 104,
+      "languages": "Celestial, Common, Infernal, telepathy 60 ft.",
+      "size": "Medium"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob-2023",
+        "content_hash": "8c05ffb09d17800d9270570124f48b3633beb27f39fb627166ae9016045fd436",
+        "edition": "2014",
+        "id": "o5e:tob-2023:monster:fideleangel-tob1-2023",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob-2023"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The fidele angel makes three Longsword or Radiant Bolt attacks. Alternatively, it makes one Beak attack and two Talons attacks.\"}, {\"name\": \"Longsword (Humanoid or True Form Only)\", \"desc\": \"Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) slashing damage if used with two hands.\"}, {\"name\": \"Beak (Bird Form Only)\", \"desc\": \"Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) piercing damage.\"}, {\"name\": \"Talons (Bird Form Only)\", \"desc\": \"Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.\"}, {\"name\": \"Radiant Bolt\", \"desc\": \"Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 11 (2d6 + 4) radiant damage.\"}, {\"name\": \"To My Lover's Side\", \"desc\": \"If its mate is more than 1 mile away from it, the fidele angel can magically teleport, along with any equipment it is wearing or carrying, to an unoccupied space within 10 feet of its mate. The angel can use this action even if its mate is on another plane of existence.\"}, {\"name\": \"Spellcasting\", \"desc\": \"The angel casts one of the following spells, requiring no material components and using Charisma as its spellcasting ability (spell save DC 15):\\nAt will: detect evil and good, purify food and drink, spare the dying\\n3/day each: bless, cure wounds, daylight\"}]",
+      "alignment": "Lawful Good",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "[{\"name\": \"Change Shape\", \"desc\": \"The fidele angel transforms into a Medium or smaller Humanoid, a Large or smaller birdlike Beast, or back into its true form, which is a winged Celestial. Without wings, it loses its flying speed. Its statistics, other than its size and speed, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.\"}]",
+      "challenge_rating": "5",
+      "charisma": 18,
+      "charisma_save": 7,
+      "condition_immunities": "charmed, exhaustion, petrified, poisoned",
+      "constitution": 14,
+      "constitution_save": 5,
+      "cr": 5.0,
+      "damage_immunities": "acid, cold",
+      "damage_resistances": "fire, lightning, poison; bludgeoning, piercing, and slashing damage from nonmagical attacks",
+      "damage_vulnerabilities": "False",
+      "desc": "False",
+      "dexterity": 18,
+      "dexterity_save": 7,
+      "document": 47,
+      "group": "null",
+      "hit_dice": "16d8 + 32",
+      "hit_points": 104,
+      "intelligence": 14,
+      "intelligence_save": 5,
+      "languages": "Celestial, Common, Infernal, telepathy 60 ft.",
+      "name": "Fidele Angel",
+      "page_no": 19,
+      "perception": 16,
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 16",
+      "size": "Medium",
+      "skills_json": "{\"Insight\": 6, \"Perception\": 6}",
+      "special_abilities_json": "[{\"name\": \"Ever Connected\", \"desc\": \"Fidele angels are magically connected. Damage taken by the fidele angel is split evenly between the fidele angel and its paired fidele angel. The angel that was the original target of the attack takes any damage that won't divide evenly. All other effects, such as reducing ability scores or being the target of a bless spell, affect only the target.\"}, {\"name\": \"Immortal Nature\", \"desc\": \"The fidele angel doesn't require food, drink, or sleep.\"}, {\"name\": \"Magic Resistance\", \"desc\": \"The angel has advantage on saving throws against spells and other magical effects.\"}, {\"name\": \"Magic Weapons\", \"desc\": \"The angel's weapon attacks are magical.\"}, {\"name\": \"Unshakeable Fidelity\", \"desc\": \"No spell, feature, trait, magic, or other effect can cause a fidele angel to act against or harm its mate or change its love or loyalty toward its mate.\"}]",
+      "speed_json": "{\"walk\": 80, \"fly\": 10}",
+      "spells_json": "null",
+      "strength": 20,
+      "type": "Celestial",
+      "wisdom": 16,
+      "wisdom_save": 6
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, Rodrigo Garcia Carmona, Wolfgang Baur",
+      "key": "tob-2023",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+      "publication_date": "",
+      "publisher": "tob-2023",
+      "title": "Tome of Beasts 2023"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Fidele Angel",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:tob:creature:tob-fidele-angel"
+  },
+  "publisher_id": "tob-2023",
+  "source": "open5e:v1:tob-2023",
+  "translations": {
+    "en": {
+      "description": "False",
+      "name": "Fidele Angel",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Средний небожитель, мировоззрение: законно-доброе. Класс доспеха: 16. Хиты: 104 (16к8 + 32). Сопротивление урону: огнём, электричеством, ядом, дробящего, колющего, and slashing damage от немагических атак. Иммунитет к урону: кислотой, холодом. Иммунитет к состояниям: очарование, истощение, окаменение, отравление. Показатель опасности: 5.",
+      "glossary_version": "derived-v1",
+      "name": "Фиделе ангел",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

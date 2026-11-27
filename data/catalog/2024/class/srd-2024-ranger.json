@@ -1,0 +1,401 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "class",
+  "edition": "2024",
+  "external_id": "srd-2024_ranger",
+  "id": "o5e:srd-2024:characterclass:srd-2024-ranger",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "6e771cf395be7099b162672e1af09bde96e04d7aac0212a18b48067e7113ad0d",
+    "formulas": [
+      {
+        "expression": "D10",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "caster_type": "HALF",
+      "hit_dice": "D10",
+      "primary_abilities": [],
+      "saving_throws": [
+        "dex",
+        "str"
+      ],
+      "subclass_of": null
+    },
+    "original_system": "5e-2024",
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "caster_type": "HALF",
+      "document": "srd-2024",
+      "hit_dice": "D10",
+      "name": "Ranger",
+      "saving_throws": [
+        "dex",
+        "str"
+      ]
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_slots-1st",
+          "feature_type": "SPELL_SLOTS",
+          "level": 1,
+          "name": "1st",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You always have the *Hunter's Mark* spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.\n\nThe number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.",
+          "desc_ru": "Начиная с 1-го уровня, вы обладаете значительным опытом изучения, выслеживания, охоты и даже общения с определённым типом врагов.\n\nВыберите тип избранного врага: аберрации, звери, небожители, конструкты, драконы, элементали, феи, исчадия, великаны, чудовища, слизи, растения или нежить. В качестве альтернативы вы можете выбрать две расы гуманоидов (например, гноллов и орков) в качестве избранных врагов.\n\nВы совершаете с преимуществом проверки Мудрости (Выживание) для выслеживания ваших избранных врагов, а также проверки Интеллекта для вспоминания информации о них.\n\nКогда вы получаете это умение, вы также изучаете один язык по вашему выбору, на котором говорят ваши избранные враги, если они вообще умеют говорить.\n\nВы выбираете одного дополнительного избранного врага, а также связанный с ним язык, на 6-м и 14-м уровнях. По мере роста уровня ваш выбор должен отражать типы чудовищ, с которыми вы сталкивались в своих приключениях.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_favored-enemy",
+          "level": 1,
+          "name": "Favored Enemy",
+          "name_ru": "Избранный враг",
+          "parent": "srd-2024_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_favored-enemy-uses",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Favored Enemy",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_prepared-spells",
+          "feature_type": "CLASS_TABLE_DATA",
+          "level": 1,
+          "name": "Prepared Spells",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_proficiency-bonus",
+          "feature_type": "PROFICIENCY_BONUS",
+          "level": 1,
+          "name": "Proficiency Bonus",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You have learned to channel the magical essence of nature to cast spells. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the Ranger spell list later in the class's description.\n\n**Spell Slots.** The Ranger Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.\n\n**Prepared Spells of Level 1+**. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Ranger spells. *Cure Wounds* and *Ensnaring Strike* are recommended.\n\nThe number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger Features table. Whenever that number increases, choose additional Ranger spells until the number of spells on your list matches the number in the Ranger Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Ranger, your list of prepared spells can include six Ranger spells of level 1 or 2 in any combination.\n\nIf another Ranger feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Ranger spells for you.\n\n**Changing Your Prepared Spells.** Whenever you finish a Long Rest, you can replace one spell on your list with another Ranger spell for which you have spell slots.\n\n**Spellcasting Ability.** Wisdom is your spellcasting ability for your Ranger spells.\n\n**Spellcasting Focus.** You can use a Druidic Focus as a Spellcasting Focus for your Ranger spells.",
+          "desc_ru": "Как ученик тайной магии, вы научились творить заклинания. Смотрите раздел «Заклинания» для правил использования заклинаний. Информация ниже описывает, как вы используете эти правила с заклинаниями волшебника, которые приведены в списке заклинаний волшебника далее в описании класса.\n\n**Заговоры.** Вы знаете три заговора волшебника на свой выбор. Рекомендуются *Свет*, *Волшебная рука* и *Луч холода*. Каждый раз, когда вы заканчиваете долгий отдых, вы можете заменить один из заговоров этого умения другим заговором волшебника на свой выбор.\n\nКогда вы достигаете 4-го и 10-го уровня волшебника, вы узнаёте ещё один заговор волшебника на свой выбор, как показано в столбце Заговоры таблицы Умения волшебника.\n\n**Книга заклинаний.** Ваше обучение волшебству завершилось созданием уникальной книги: вашей книги заклинаний. Это Крошечный предмет весом 3 фунта, содержащий 100 страниц, который может прочитать только вы или тот, кто творит *Опознание*. Вы определяете внешний вид и материалы книги, например том с позолоченными краями или связанный бечёвкой набор листов пергамента.\n\nКнига содержит заклинания 1-го уровня и выше, которые вы знаете. Она начинается с шести заклинаний волшебника 1-го уровня на ваш выбор. Рекомендуются *Обнаружение магии*, *Падение пёрышком*, *Доспехи мага*, *Магическая стрела*, *Усыпление* и *Волна грома*.\n\nКаждый раз, когда вы получаете уровень волшебника после 1-го, добавляйте два заклинания волшебника на свой выбор в книгу заклинаний. Каждое из этих заклинаний должно быть того уровня, для которого у вас есть ячейки заклинаний, как показано в таблице Умения волшебника. Заклинания — результат магических исследований, которые вы регулярно проводите.\n\n**Ячейки заклинаний.** Таблица Умения волшебника показывает, сколько у вас есть ячеек заклинаний для сотворения заклинаний 1-го уровня и выше. Вы восстанавливаете все потраченные ячейки, когда заканчиваете долгий отдых.\n\n**Подготовленные заклинания 1-го уровня и выше.** Вы подготавливаете список заклинаний 1-го уровня и выше, которые доступны вам для сотворения с помощью этого умения. Для этого выберите четыре заклинания из книги заклинаний. Выбранные заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний.\n\nКоличество заклинаний в вашем списке увеличивается по мере получения уровней волшебника, как показано в столбце Подготовленные заклинания таблицы Умения волшебника. Каждый раз, когда это число увеличивается, выбирайте дополнительные заклинания волшебника, пока количество заклинаний в вашем списке не сравняется с числом в таблице. Выбранные заклинания должны быть того уровня, для которого у вас есть ячейки заклинаний. Например, если вы волшебник 3-го уровня, ваш список подготовленных заклинаний может включать шесть заклинаний 1-го и 2-го уровней в любой комбинации, выбранных из вашей книги заклинаний.\n\nЕсли другое умение волшебника даёт вам заклинания, которые вы всегда держите подготовленными, эти заклинания не учитываются в количестве заклинаний, которые вы можете подготовить с помощью этого умения, но в остальном считаются заклинаниями волшебника для вас.\n\n**Изменение подготовленных заклинаний.** Каждый раз, когда вы заканчиваете долгий отдых, вы можете изменить свой список подготовленных заклинаний, заменив любые заклинания заклинаниями из вашей книги заклинаний.\n\n**Базовая характеристика заклинаний.** Интеллект является вашей базовой характеристикой для заклинаний волшебника.\n\n**Заклинательный фокус.** Вы можете использовать магический фокус или книгу заклинаний в качестве заклинательного фокуса для заклинаний волшебника.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_spellcasting",
+          "level": 1,
+          "name": "Spellcasting",
+          "name_ru": "Сотворение заклинаний",
+          "parent": "srd-2024_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longbows and Shortswords.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Longswords.",
+          "desc_ru": "Ваша подготовка с оружием позволяет использовать свойства мастерства двух видов простого или воинского оружия ближнего боя по вашему выбору, таких как секиры и ручные топоры. Каждый раз после долгого отдыха вы можете практиковаться с оружием и изменить один из этих выборов.\n\nПри достижении определённых уровней Варвара вы получаете возможность использовать свойства мастерства большего количества видов оружия, как показано в столбце Мастерство оружия таблицы Умения Варвара.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_weapon-mastery",
+          "level": 1,
+          "name": "Weapon Mastery",
+          "name_ru": "Мастерство оружия",
+          "parent": "srd-2024_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Thanks to your travels, you gain the following benefits.\n\n**Expertise.** Choose one of your skill proficiencies with which you lack Expertise. You gain Expertise in that skill.\n\n**Languages.** You know two languages of your choice from the language tables in \"Character Creation.\"",
+          "desc_ru": "Благодаря вашим путешествиям вы получаете следующие преимущества.\n\n**Экспертиза.** Выберите одно из владений навыками, в котором у вас нет экспертизы. Вы получаете экспертизу в этом навыке.\n\n**Языки.** Вы знаете два языка на свой выбор из таблиц языков в разделе «Создание персонажа».",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_deft-explorer",
+          "level": 2,
+          "name": "Deft Explorer",
+          "name_ru": "Умелый исследователь",
+          "parent": "srd-2024_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain a Fighting Style feat of your choice (see \"Feats\"). Instead of choosing one of those feats, you can choose the option below.\n\n**Druidic Warrior.** You learn two Druid cantrips of your choice (see the Druid class's section for a list of Druid spells). *Guidance* and *Starry Wisp* are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.",
+          "desc_ru": "Вы получаете черту Боевой стиль на свой выбор (смотрите раздел «Черты»). Вместо выбора одной из этих черт вы можете выбрать опцию ниже.\n\n**Благословенный воин.** Вы узнаёте два заговора жреца на свой выбор (смотрите раздел класса Жрец для списка заклинаний жреца). Рекомендуются *Указание* и *Священное пламя*. Выбранные заговоры считаются заклинаниями паладина для вас, и Харизма является вашей базовой характеристикой для них. Каждый раз, когда вы получаете уровень паладина, вы можете заменить один из этих заговоров другим заговором жреца.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_fighting-style",
+          "level": 2,
+          "name": "Fighting Style",
+          "name_ru": "Боевой стиль",
+          "parent": "srd-2024_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain a Ranger subclass of your choice. The Hunter subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level or lower.",
+          "desc_ru": "Вы получаете подкласс следопыта на свой выбор. Подкласс Охотник описан после описания этого класса. Подкласс — это специализация, которая даёт вам умения на определённых уровнях следопыта. До конца вашей карьеры вы получаете каждое умение своего подкласса, которое соответствует вашему уровню следопыта или ниже.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_ranger-subclass",
+          "level": 3,
+          "name": "Ranger Subclass",
+          "name_ru": "Подкласс следопыта",
+          "parent": "srd-2024_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16.",
+          "desc_ru": "Когда вы достигаете 4-го уровня, а также на 6-м, 8-м, 12-м, 14-м, 16-м и 19-м уровне, вы можете увеличить одну характеристику по вашему выбору на 2 или две характеристики по вашему выбору на 1. Как обычно, вы не можете увеличить характеристику выше 20 с помощью этого умения.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_ability-score-improvement",
+          "level": 4,
+          "name": "Ability Score Improvement",
+          "name_ru": "Увеличение характеристик",
+          "parent": "srd-2024_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_slots-2nd",
+          "feature_type": "SPELL_SLOTS",
+          "level": 5,
+          "name": "2nd",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You can attack twice instead of once whenever you take the Attack action on your turn.",
+          "desc_ru": "Начиная с 5-го уровня, вы можете атаковать дважды, а не один раз, каждый раз, когда совершаете действие Атака в свой ход.\n\nКоличество атак увеличивается до трёх при достижении 11-го уровня в этом классе и до четырёх при достижении 20-го уровня в этом классе.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_extra-attack",
+          "level": 5,
+          "name": "Extra Attack",
+          "name_ru": "Дополнительная атака",
+          "parent": "srd-2024_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your Speed increases by 10 feet while you aren't wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed.",
+          "desc_ru": "Ваша скорость увеличивается на 10 футов, пока вы не носите Тяжёлые доспехи. Вы также получаете скорость лазания и скорость плавания, равную вашей скорости.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_roving",
+          "level": 6,
+          "name": "Roving",
+          "name_ru": "Странник",
+          "parent": "srd-2024_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_slots-3rd",
+          "feature_type": "SPELL_SLOTS",
+          "level": 9,
+          "name": "3rd",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Choose two of your skill proficiencies with which you lack Expertise. You gain Expertise in those skills.",
+          "desc_ru": "Выберите два из владений навыками, в которых у вас нет экспертизы. Вы получаете экспертизу в этих навыках.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_expertise",
+          "level": 9,
+          "name": "Expertise",
+          "name_ru": "Экспертиза",
+          "parent": "srd-2024_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Primal forces now help fuel you on your journeys, granting you the following benefits.\n\n**Temporary Hit Points.** As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\n**Decrease Exhaustion.** Whenever you finish a Short Rest, your Exhaustion level, if any, decreases by 1.",
+          "desc_ru": "Первобытные силы теперь помогают питать вас в путешествиях, давая следующие преимущества.\n\n**Временные хиты.** Действием «Магия» вы можете дать себе количество временных хитов, равное 1d8 + ваш модификатор Мудрости (минимум 1). Вы можете использовать это действие количество раз, равное вашему модификатору Мудрости (минимум один раз), и восстанавливаете все потраченные использования, когда заканчиваете долгий отдых.\n\n**Уменьшение Истощения.** Каждый раз, когда вы заканчиваете короткий отдых, ваш уровень Истощения, если он есть, уменьшается на 1.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_tireless",
+          "level": 10,
+          "name": "Tireless",
+          "name_ru": "Неутомимый",
+          "parent": "srd-2024_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_slots-4th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 13,
+          "name": "4th",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Taking damage can't break your Concentration on *Hunter's Mark*.",
+          "desc_ru": "Получение урона не может прервать вашу концентрацию на *Метке охотника*.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_relentless-hunter",
+          "level": 13,
+          "name": "Relentless Hunter",
+          "name_ru": "Неумолимый охотник",
+          "parent": "srd-2024_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You invoke spirits of nature to magically hide yourself. As a Bonus Action, you can give yourself the Invisible condition until the end of your next turn.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+          "desc_ru": "Вы взываете к духам природы, чтобы магически скрыться. Как Бонусное действие, вы можете получить состояние Невидимый до конца вашего следующего хода.\n\nВы можете использовать это умение количество раз, равное вашему модификатору Мудрости (минимум один раз), и восстанавливаете все потраченные использования, когда заканчиваете долгий отдых.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_natures-veil",
+          "level": 14,
+          "name": "Nature's Veil",
+          "name_ru": "Покров природы",
+          "parent": "srd-2024_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "[Column data]",
+          "desc_ru": "[Данные колонки таблицы класса]",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_slots-5th",
+          "feature_type": "SPELL_SLOTS",
+          "level": 17,
+          "name": "5th",
+          "name_ru": "Бонус мастерства",
+          "parent": "srd-2024_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "You have Advantage on attack rolls against the creature currently marked by your *Hunter's Mark*.",
+          "desc_ru": "Вы получаете преимущество на броски атаки по существу, в данный момент отмеченному вашей *Меткой охотника*.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_precise-hunter",
+          "level": 17,
+          "name": "Precise Hunter",
+          "name_ru": "Точный охотник",
+          "parent": "srd-2024_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Your connection to the forces of nature grants you Blindsight with a range of 30 feet.",
+          "desc_ru": "На 18-м уровне вы обретаете сверхъестественные чувства, помогающие вам сражаться с существами, которых вы не видите. Когда вы атакуете существо, которое не видите, ваша неспособность видеть его не накладывает помеху на ваши броски атаки против него.\n\nВы также знаете местоположение любого невидимого существа в пределах 30 фт. от вас, при условии, что существо не скрыто от вас и вы не ослеплённый и не оглохший.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_feral-senses",
+          "level": 18,
+          "name": "Feral Senses",
+          "name_ru": "Дикие чувства",
+          "parent": "srd-2024_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "You gain an Epic Boon feat (see \"Feats\") or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.",
+          "desc_ru": "Вы получаете черту Эпический дар (смотрите раздел «Черты») или другую черту на свой выбор, для которой вы соответствуете требованиям. Рекомендуется Дар межпространственного перемещения.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_epic-boon",
+          "level": 19,
+          "name": "Epic Boon",
+          "name_ru": "Эпический дар",
+          "parent": "srd-2024_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "The damage die of your *Hunter's Mark* is a d10 rather than a d6.",
+          "desc_ru": "На 20-м уровне вы становитесь непревзойдённым охотником на своих врагов. Один раз в каждый свой ход вы можете добавить модификатор Мудрости к броску атаки или броску урона атаки, совершаемой против одного из ваших избранных врагов. Вы можете решить использовать это умение до или после броска, но до применения каких-либо эффектов броска.",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_foe-slayer",
+          "level": 20,
+          "name": "Foe Slayer",
+          "name_ru": "Убийца врагов",
+          "parent": "srd-2024_ranger",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "|||\n|---|---|\n|Primary Ability|Dexterity and Wisdom|\n|Hit Point Die|D10 per Ranger level|\n|Saving Throw Proficiencies|Strength and Dexterity|\n|Skill Proficiencies|Choose 3: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival|\n|Weapon Proficiencies|Simple and Martial weapons|\n|Armor Training|Light and Medium armor and Shields|\n|Starting Equipment|Choose A or B: (A) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Ar rows, Quiver, Druidic Focus (sprig of mistletoe), Explorer's Pack, and 7 GP; or (B) 150 GP|",
+          "desc_ru": "|||\n|---|---|\n|Основная характеристика|Ловкость и Мудрость|\n|Кость хитов|К10 за уровень следопыта|\n|Владение спасбросками|Сила и Ловкость|\n|Владение навыками|Выберите 3: Уход за животными, Атлетика, Проницательность, Расследование, Природа, Восприятие, Скрытность или Выживание|\n|Владение оружием|Простое и боевое оружие|\n|Тренировка доспехов|Лёгкие и средние доспехи и Щиты|\n|Начальное снаряжение|Выберите А или Б: (А) Кожаный доспех с заклёпками, Ятаган, Короткий меч, Длинный лук, 20 стрел, Колчан, Друидическая фокусировка (веточка омелы), Набор путешественника и 7 зм; или (Б) 150 зм|",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_core-traits",
+          "feature_type": "CORE_TRAITS_TABLE",
+          "name": "Core Ranger Traits",
+          "name_ru": "Основные черты следопыта",
+          "parent": "srd-2024_ranger",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "This section presents the Ranger spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, *C* means the spell requires Concentration, *R* means it's a Ritual, and *M* means it requires a specific Material component.\n\nTable: Level 1 Ranger Spells\n\n|Spell|School|Special|\n|---|---|---|\n|Alarm|Abjuration|R|\n|Animal Friendship|Enchantment|—|\n|Cure Wounds|Abjuration|—|\n|Detect Magic|Divination|C, R|\n|Detect Poison and Disease|Divination|C, R|\n|Ensnaring Strike|Conjuration|C|\n|Entangle|Conjuration|C|\n|Fog Cloud|Conjuration|C|\n|Goodberry|Conjuration|—|\n|Hunter's Mark|Divination|C|\n|Jump|Transmutation|—|\n|Longstrider|Transmutation|—|\n|Speak with Animals|Divination|R|\n\nTable: Level 2 Ranger Spells\n\n|Spell|School|Special|\n|---|---|---|\n|Aid|Abjuration|—|\n|Animal Messenger|Enchantment|R|\n|Barkskin|Transmutation|—|\n|Darkvision|Transmutation|—|\n|Enhance Ability|Transmutation|C|\n|Find Traps|Divination|—|\n|Gust of Wind|Evocation|C|\n|Lesser Restoration|Abjuration|—|\n|Locate Animals or Plants|Divination|R|\n|Locate Object|Divination|C|\n|Magic Weapon|Transmutation|—|\n|Pass without Trace|Abjuration|C|\n|Protection from Poison|Abjuration|—|\n|Silence|Illusion|C, R|\n|Spike Growth|Transmutation|C|\n\nTable: Level 3 Ranger Spells\n\n|Spell|School|Special|\n|---|---|---|\n|Conjure Animals|Conjuration|C|\n|Daylight|Evocation|—|\n|Dispel Magic|Abjuration|—|\n|Meld into Stone|Transmutation|R|\n|Nondetection|Abjuration|M|\n|Plant Growth|Transmutation|—|\n|Protection from Energy|Abjuration|C|\n|Revivify|Necromancy|M|\n|Speak with Plants|Transmutation|—|\n|Water Breathing|Transmutation|R|\n|Water Walk|Transmutation|R|\n|Wind Wall|Evocation|C|\n\nTable: Level 4 Ranger Spells\n\n|Spell|School|Special|\n|---|---|---|\n|Conjure Woodland Beings|Conjuration|C|\n|Dominate Beast|Enchantment|C|\n|Freedom of Movement|Abjuration|—|\n|Locate Creature|Divination|C|\n|Stoneskin|Transmutation|C, M|\n\nTable: Level 5 Ranger Spells\n\n|Spell|School|Special|\n|---|---|---|\n|Commune with Nature|Divination|R|\n|Greater Restoration|Abjuration|M|\n|Tree Stride|Conjuration|C|",
+          "desc_ru": "В этом разделе представлен список заклинаний следопыта. Заклинания организованы по уровню заклинания, а затем по алфавиту, и школа магии каждого заклинания указана. В колонке Особое C означает, что заклинание требует Концентрации, R означает, что это Ритуал, а M означает, что оно требует конкретного Материального компонента.\n\nТаблица: Заклинания следопыта 1-го уровня\n\n|Заклинание|Школа|Особое|\n|---|---|---|\n|Тревога|Ограждение|R|\n|Дружба с животными|Очарование|—|\n|Лечение ран|Ограждение|—|\n|Обнаружение магии|Прорицание|C, R|\n|Обнаружение яда и болезни|Прорицание|C, R|\n|Опутывающий удар|Вызов|C|\n|Опутывание|Вызов|C|\n|Туманное облако|Вызов|C|\n|Чудо-ягоды|Вызов|—|\n|Метка охотника|Прорицание|C|\n|Прыжок|Преобразование|—|\n|Скороход|Преобразование|—|\n|Разговор с животными|Прорицание|R|\n\nТаблица: Заклинания следопыта 2-го уровня\n\n|Заклинание|Школа|Особое|\n|---|---|---|\n|Помощь|Ограждение|—|\n|Животный посланник|Очарование|R|\n|Кора|Преобразование|—|\n|Тёмное зрение|Преобразование|—|\n|Улучшение характеристики|Преобразование|C|\n|Поиск ловушек|Прорицание|—|\n|Порыв ветра|Эвокация|C|\n|Малое восстановление|Ограждение|—|\n|Поиск животных или растений|Прорицание|R|\n|Поиск объекта|Прорицание|C|\n|Волшебное оружие|Преобразование|—|\n|Бесследное передвижение|Ограждение|C|\n|Защита от яда|Ограждение|—|\n|Тишина|Иллюзия|C, R|\n|Шипы|Преобразование|C|\n\nТаблица: Заклинания следопыта 3-го уровня\n\n|Заклинание|Школа|Особое|\n|---|---|---|\n|Призыв животных|Вызов|C|\n|Дневной свет|Эвокация|—|\n|Рассеивание магии|Ограждение|—|\n|Слияние с камнем|Преобразование|R|\n|Необнаружимость|Ограждение|M|\n|Рост растений|Преобразование|—|\n|Защита от энергии|Ограждение|C|\n|Возвращение к жизни|Некромантия|M|\n|Разговор с растениями|Преобразование|—|\n|Дыхание под водой|Преобразование|R|\n|Хождение по воде|Преобразование|R|\n|Стена ветра|Эвокация|C|\n\nТаблица: Заклинания следопыта 4-го уровня\n\n|Заклинание|Школа|Особое|\n|---|---|---|\n|Призыв лесных существ|Вызов|C|\n|Подчинение зверя|Очарование|C|\n|Свобода перемещения|Ограждение|—|\n|Поиск существа|Прорицание|C|\n|Каменная кожа|Преобразование|C, M|\n\nТаблица: Заклинания следопыта 5-го уровня\n\n|Заклинание|Школа|Особое|\n|---|---|---|\n|Связь с природой|Прорицание|R|\n|Высшее восстановление|Ограждение|M|\n|Шаг сквозь деревья|Вызов|C|",
+          "document": "srd-2024",
+          "external_id": "srd-2024_ranger_spell-list",
+          "name": "Ranger Spell List",
+          "name_ru": "Список заклинаний следопыта",
+          "parent": "srd-2024_ranger",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Ranger",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Ranger",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Таблица: Основные черты следопыта\n\n|                               |                                                                                                      |\n|---|---|\n| Кость Хитов                  | 1к10 за каждый уровень следопыта                                                                     |\n| Хиты на 1-м уровне           | 10 + модификатор Телосложения                                                                        |\n| Хиты на более высоких уровнях | 1к10 (или 6) + модификатор Телосложения за каждый уровень следопыта после 1-го                       |\n| Владение спасбросками         | Сила и Ловкость                                                                                      |\n| Владение навыками             | Выберите 3: Уход за животными, Атлетика, Проницательность, Анализ, Природа, Внимательность, Скрытность или Выживание |\n| Владение оружием              | Простое и воинское оружие                                                                            |\n| Владение инструментами        | Нет                                                                                                  |\n| Ношение доспехов              | Лёгкие доспехи, средние доспехи и щиты                                                               |",
+      "glossary_version": "v1",
+      "name": "Следопыт",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

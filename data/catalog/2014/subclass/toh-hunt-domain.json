@@ -1,0 +1,180 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_hunt-domain",
+  "id": "o5e:toh:characterclass:toh-hunt-domain",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-hunt-domain"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "3e13bf85790540781367bd1d8967f8164870e963df3edcd63403b9d58a102cf9",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_cleric"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "3e13bf85790540781367bd1d8967f8164870e963df3edcd63403b9d58a102cf9",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-hunt-domain",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "subclass_of",
+        "value": "srd_cleric"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Many terrible creatures prey on the villages, towns, and inns that dot the forests of Midgard. When such creatures become particularly aggressive or can't be dissuaded by local druids, the settlements often call on servants of gods of the hunt to solve the problem.\n  Deities devoted to hunting value champions who aid skillful hunters or who lead hunts themselves. Similarly, deities focused on protecting outlier settlements or who promote strengthening small communities also value such clerics. While these clerics might not have the utmost capability for tracking and killing prey, their gods grant them blessings to ensure successful hunts. These clerics might use their abilities to ensure their friends and communities have sufficient food to survive difficult times, or they might enjoy the sport of pursuing and slaying intelligent prey.",
+      "document": "toh",
+      "name": "Hunt Domain",
+      "subclass_of": "srd_cleric"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "At 1st level, you gain proficiency in Survival. You can use your action to touch a willing creature other than yourself to give it advantage on Wisdom (Survival) checks. This blessing lasts for 1 hour or until you use this feature again.",
+          "desc_ru": "На 1-м уровне вы получаете владение навыком Выживание. Вы можете действием коснуться согласного существа, кроме себя, чтобы дать ему преимущество на проверки Мудрости (Выживание). Это благословение длится 1 час или пока вы не используете эту особенность снова.",
+          "document": "toh",
+          "external_id": "toh_hunt-domain_blessing-of-the-hunter",
+          "level": 1,
+          "name": "Blessing of the Hunter",
+          "name_ru": "Благословение охотника",
+          "parent": "toh_hunt-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 1st level, you gain proficiency with martial weapons.",
+          "desc_ru": "Когда вы выбираете этот домен на 1-м уровне, вы получаете владение тяжёлыми доспехами.",
+          "document": "toh",
+          "external_id": "toh_hunt-domain_bonus-proficiency",
+          "level": 1,
+          "name": "Bonus Proficiency",
+          "name_ru": "Дополнительное владение",
+          "parent": "toh_hunt-domain",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "Cleric Level | Spells                                 |\r\n|--------------|----------------------------------------|\r\n| 1st          | *bloodbound*, *illuminate spoor*       |\r\n| 3rd          | *instant snare*, *mark prey*           |\r\n| 5th          | *going in circles*, *tracer*           |\r\n| 7th          | *heart-seeking arrow*, *hunting stand* |\r\n| 9th          | *harrying hounds*, *maim*              |",
+          "desc_ru": "Уровень жреца | Заклинания |\n|---|---|\n| 1-й | Кровная связь, Осветить след |\n| 3-й | Мгновенная ловушка, Отметить добычу |\n| 5-й | Хождение по кругу, Ищейка |\n| 7-й | Стрела, ищущая сердце, Охотничья вышка |\n| 9-й | Преследующие гончие, Увечье |",
+          "document": "toh",
+          "external_id": "toh_hunt-domain_hunt-domain-spells",
+          "level": 1,
+          "name": "Hunt Domain Spells",
+          "name_ru": "Заклинания домена охоты",
+          "parent": "toh_hunt-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 2nd level, you can use your Channel Divinity to inflict grievous wounds. When you hit a creature with a weapon attack, you can use your Channel Divinity to add +5 to the attack's damage. If you score a critical hit with the attack, add +10 to the attack's damage instead.",
+          "desc_ru": "Начиная со 2-го уровня вы можете использовать ваш Божественный канал, чтобы наносить тяжёлые раны. Когда вы попадаете по существу атакой оружием, вы можете использовать ваш Божественный канал, чтобы добавить +5 к урону атаки. Если вы совершаете критическое попадание атакой, вместо этого добавьте +10 к урону атаки.",
+          "document": "toh",
+          "external_id": "toh_hunt-domain_channel-divinity-heart-strike",
+          "level": 2,
+          "name": "Channel Divinity: Heart Strike",
+          "name_ru": "Божественный канал: удар в сердце",
+          "parent": "toh_hunt-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 6th level, when an ally within 30 feet of you makes a weapon attack roll against a creature you attacked within this round, you can use your reaction to grant that ally advantage on the attack roll.",
+          "desc_ru": "Начиная с 6-го уровня, когда союзник в пределах 30 футов от вас совершает бросок атаки оружием против существа, которое вы атаковали в этом раунде, вы можете реакцией даровать этому союзнику преимущество на бросок атаки.",
+          "document": "toh",
+          "external_id": "toh_hunt-domain_pack-hunter",
+          "level": 6,
+          "name": "Pack Hunter",
+          "name_ru": "Стайный охотник",
+          "parent": "toh_hunt-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8.",
+          "desc_ru": "На 8-м уровне вы получаете способность наполнять удары оружием божественной энергией. Один раз в каждый ваш ход, когда вы попадаете по существу атакой оружием, вы можете причинить цели дополнительно 1к8 урона излучением. Когда вы достигаете 14-го уровня, дополнительный урон увеличивается до 2к8.",
+          "document": "toh",
+          "external_id": "toh_hunt-domain_divine-strike",
+          "level": 8,
+          "name": "Divine Strike",
+          "name_ru": "Божественный удар",
+          "parent": "toh_hunt-domain",
+          "ru_source": "memory"
+        },
+        {
+          "desc": "At 17th level, you can use an action to describe or name a creature that is familiar to you or that you can see within 120 feet. For 24 hours or until the target is dead, whichever occurs first, you have advantage on Wisdom (Survival) checks to track your target and Wisdom (Perception) checks to detect your target. In addition, you have advantage on weapon attack rolls against the target. You can't use this feature again until you finish a short or long rest.",
+          "desc_ru": "На 17-м уровне вы можете действием описать или назвать существо, которое вам знакомо или которое вы можете видеть в пределах 120 футов. На 24 часа или пока цель не умрёт, в зависимости от того, что наступит раньше, вы совершаете с преимуществом проверки Мудрости (Выживание), чтобы выслеживать вашу цель, и проверки Мудрости (Восприятие), чтобы обнаружить вашу цель. Кроме того, вы совершаете с преимуществом броски атаки оружием против цели. Вы не можете использовать эту особенность снова, пока не закончите короткий или продолжительный отдых.",
+          "document": "toh",
+          "external_id": "toh_hunt-domain_deadly-stalker",
+          "level": 17,
+          "name": "Deadly Stalker",
+          "name_ru": "Смертельный преследователь",
+          "parent": "toh_hunt-domain",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Hunt Domain",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "Many terrible creatures prey on the villages, towns, and inns that dot the forests of Midgard. When such creatures become particularly aggressive or can't be dissuaded by local druids, the settlements often call on servants of gods of the hunt to solve the problem.\n  Deities devoted to hunting value champions who aid skillful hunters or who lead hunts themselves. Similarly, deities focused on protecting outlier settlements or who promote strengthening small communities also value such clerics. While these clerics might not have the utmost capability for tracking and killing prey, their gods grant them blessings to ensure successful hunts. These clerics might use their abilities to ensure their friends and communities have sufficient food to survive difficult times, or they might enjoy the sport of pursuing and slaying intelligent prey.",
+      "name": "Hunt Domain",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Многие ужасные существа охотятся на деревни, города и постоялые дворы, которые усеивают леса Мидгарда. Когда такие существа становятся особенно агрессивными или не могут быть отвращены местными друидами, поселения часто обращаются к слугам богов охоты, чтобы решить проблему.\n  Божества, преданные охоте, ценят чемпионов, которые помогают искусным охотникам или сами ведут охоту. Точно так же божества, сосредоточенные на защите отдалённых поселений или которые способствуют укреплению небольших сообществ, также ценят таких жрецов. Хотя эти жрецы могут не иметь максимальной способности выслеживать и убивать добычу, их боги даруют им благословения, чтобы обеспечить успешную охоту. Эти жрецы могут использовать свои способности, чтобы обеспечить своим друзьям и сообществам достаточно пищи для выживания в трудные времена, или они могут наслаждаться спортом преследования и убийства разумной добычи.",
+      "glossary_version": "v1",
+      "name": "Домен охоты",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

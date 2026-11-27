@@ -1,0 +1,140 @@
+{
+  "attribution": "Title: Level Up Advanced 5e Monstrous Menagerie; Author: Paul Hughes; Publisher: menagerie; Source: https://www.levelup5e.com; License: OGL-1.0a (https://open5e.com/legal); Level Up: Advanced 5th Edition Monstrous Menagerie. Copyright 2021, EN Publishing.",
+  "book_id": "menagerie",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "pit-fiend-general-a5e",
+  "id": "o5e:menagerie:monster:pit-fiend-general-a5e-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:menagerie:monster:pit-fiend-general-a5e"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "48f30c74c8f74ffec0682d0debab938c3694783728c1ef154f39923538ba1a70",
+    "formulas": [
+      {
+        "expression": "48d10+336",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "",
+      "armor_class": 19,
+      "challenge_rating": "20",
+      "condition_immunities": "poisoned",
+      "damage_immunities": "fire, poison",
+      "damage_resistances": "cold; damage from nonmagical, non-silvered weapons",
+      "damage_vulnerabilities": "",
+      "hit_dice": "48d10+336",
+      "hit_points": 600,
+      "languages": "Infernal, telepathy 120 ft.",
+      "size": "Huge"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "menagerie",
+        "content_hash": "48f30c74c8f74ffec0682d0debab938c3694783728c1ef154f39923538ba1a70",
+        "edition": "2014",
+        "id": "o5e:menagerie:monster:pit-fiend-general-a5e",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:menagerie"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The pit fiend attacks with its bite and mace.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 22 (4d6 + 8) piercing damage. If the target is a creature  it makes a DC 20 Constitution saving throw. On a failure  it is poisoned for 1 minute. While poisoned in this way  the target can't regain hit points and takes 21 (6d6) ongoing poison damage at the start of each of its turns. The target can repeat this saving throw at the end of each of its turns  ending the effect on a success.\"}, {\"name\": \"Mace\", \"desc\": \"Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 22 (4d6 + 8) bludgeoning damage plus 21 (6d6) fire damage. If the target is a Medium or smaller creature  it makes a DC 22 Strength saving throw. On a failure  it is pushed 15 feet away from the pit fiend and knocked prone.\"}, {\"name\": \"Circle of Fire (1/Day, While Bloodied)\", \"desc\": \"A 15-foot-tall  1-foot-thick  20-foot-diameter ring of fire appears around the pit fiend  with the pit fiend at the center. The fire is opaque to every creature except the pit fiend. When the ring of fire appears  each creature it intersects makes a DC 18 Dexterity saving throw  taking 22 (5d8) fire damage on a failed save or half damage on a successful one. A creature takes 22 (5d8) damage the first time each turn it enters the area or when it ends its turn there. The fire lasts 1 minute or until the pit fiend dismisses it  becomes incapacitated  or leaves its area.\"}, {\"name\": \"Fireball (3rd-Level; V, S)\", \"desc\": \"Fire streaks from the pit fiend to a point within 120 feet and explodes in a 20-foot radius  spreading around corners. Each creature in the area makes a DC 18 Dexterity saving throw  taking 21 (6d6) fire damage on a failed save or half damage on a success.\"}, {\"name\": \"Hold Monster (5th-Level; V, S, Concentration)\", \"desc\": \"A creature within 60 feet that the pit fiend can see makes a DC 18 Wisdom saving throw. On a failure  it is paralyzed for 1 minute. The creature repeats the save at the end of each of its turns  ending the effect on a success.\"}]",
+      "armor_class": 19,
+      "bonus_actions_json": "[{\"name\": \"Claw\", \"desc\": \"Melee Weapon Attack: +14 to hit, reach 10 ft., one creature. Hit: 19 (2d10 + 8) slashing damage, and the target is grappled (escape DC 22). While the target is grappled, the pit fiend can't use its claw against a different creature.\"}, {\"name\": \"Tail\", \"desc\": \"Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 24 (3d10 + 8) bludgeoning damage.\"}]",
+      "challenge_rating": "20",
+      "charisma": 24,
+      "charisma_save": 13,
+      "condition_immunities": "poisoned",
+      "constitution": 24,
+      "constitution_save": 13,
+      "cr": 20.0,
+      "damage_immunities": "fire, poison",
+      "damage_resistances": "cold; damage from nonmagical, non-silvered weapons",
+      "dexterity": 16,
+      "dexterity_save": 9,
+      "document": 37,
+      "environments_json": "[]",
+      "hit_dice": "48d10+336",
+      "hit_points": 600,
+      "intelligence": 22,
+      "intelligence_save": 12,
+      "languages": "Infernal, telepathy 120 ft.",
+      "legendary_actions_json": "null",
+      "name": "Pit Fiend General",
+      "page_no": 88,
+      "reactions_json": "[]",
+      "route": "monsters/",
+      "senses": "truesight 120 ft., passive Perception 21",
+      "size": "Huge",
+      "skills_json": "{\"athletics\": 14, \"insight\": 10, \"perception\": 10}",
+      "special_abilities_json": "[{\"name\": \"Fear Aura\", \"desc\": \"A creature hostile to the pit fiend that starts its turn within 20 feet of it makes a DC 18 Wisdom saving throw. On a failure, it is frightened until the start of its next turn. On a success, it is immune to this pit fiends Fear Aura for 24 hours.\"}, {\"name\": \"Innate Spellcasting\", \"desc\": \"The pit fiends spellcasting ability is Wisdom (spell save DC 18). It can innately cast the following spells, requiring no material components: At will: detect magic, fireball, 3/day each: hold monster, sending\"}]",
+      "speed_json": "{\"walk\": 30, \"fly\": 60}",
+      "spells_json": "null",
+      "strength": 26,
+      "type": "Fiend",
+      "wisdom": 18,
+      "wisdom_save": 10
+    },
+    "source_document": {
+      "author": "Paul Hughes",
+      "key": "menagerie",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://www.levelup5e.com",
+      "publication_date": "",
+      "publisher": "menagerie",
+      "title": "Level Up Advanced 5e Monstrous Menagerie"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Pit Fiend General",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    },
+    "variant_of": "o5e:a5e-mm:creature:a5e-mm-pit-fiend-general"
+  },
+  "publisher_id": "menagerie",
+  "source": "open5e:v1:menagerie",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Pit Fiend General",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Огромное исчадие. Класс доспеха: 19. Хиты: 600 (48к10+336). Сопротивление урону: холодом, damage from nonmagical, non-silvered weapons. Иммунитет к урону: огнём, ядом. Иммунитет к состояниям: отравление. Показатель опасности: 20.",
+      "glossary_version": "derived-v1",
+      "name": "Пит исчадие Генерал",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

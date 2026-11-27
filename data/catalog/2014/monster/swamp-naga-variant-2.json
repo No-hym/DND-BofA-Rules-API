@@ -1,0 +1,139 @@
+{
+  "attribution": "Title: Tome of Beasts 2; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: tob2; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts 2. Copyright 2020 Open Design LLC; Authors Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob2",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "swamp-naga",
+  "id": "o5e:tob2:monster:swamp-naga-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob2:monster:swamp-naga"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "a044f5eeff5f396136c254649d9cd9f1b94d710b02dbc073a2cb9a7b493d647a",
+    "formulas": [
+      {
+        "expression": "12d10+36",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "lawful evil",
+      "armor_class": 15,
+      "challenge_rating": "6",
+      "condition_immunities": "charmed, poisoned",
+      "damage_immunities": "poison",
+      "damage_resistances": "",
+      "damage_vulnerabilities": "",
+      "hit_dice": "12d10+36",
+      "hit_points": 102,
+      "languages": "Common",
+      "size": "Large"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob2",
+        "content_hash": "a044f5eeff5f396136c254649d9cd9f1b94d710b02dbc073a2cb9a7b493d647a",
+        "edition": "2014",
+        "id": "o5e:tob2:monster:swamp-naga",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob2"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 17 (3d8 + 4) piercing damage plus 13 (3d8) poison damage.\", \"attack_bonus\": 7, \"damage_dice\": \"3d8+4\"}, {\"name\": \"Constrict\", \"desc\": \"Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 14 (3d6 + 4) bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the naga can't constrict another target.\", \"attack_bonus\": 7, \"damage_dice\": \"3d6+4\"}]",
+      "alignment": "lawful evil",
+      "armor_class": 15,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "6",
+      "charisma": 17,
+      "condition_immunities": "charmed, poisoned",
+      "constitution": 17,
+      "constitution_save": 6,
+      "cr": 6.0,
+      "damage_immunities": "poison",
+      "desc": "A human head tops this green-and-brown constrictor. Vines protrude from its scalp and writhe in unison to the serpent’s swaying motion. Mosquitos, gnats, and other flying insects form a cloud around it._  \n**Self-Proclaimed Ruler and Protector.** The swamp naga is a manifestation of the swamp it inhabits. Its physical form is reminiscent of snakes, and marsh plants grow from its head. The naga’s strong tie to the swamp provides an impetus to protect its home and to believe it is the swamp’s sovereign. Because of this strong link, a swamp rarely hosts more than one naga, unless it covers vast territory.  \n**Insect and Serpent Friend.** The swamp naga’s link to the swamp extends to many creatures within it. Humanoids and mammalian animals that share the swamp with the naga recognize it as a protector and rarely trouble it, though the naga exerts no control over them. A cloud of poisonous biting and stinging insects accompanies the naga, endangering those who draw close to it.  \n**Necessarily Ruthless.** Scholars who have studied the connection between swamp nagas and their domains postulate the nagas’ malevolence is an outgrowth of swamplands’ inherent evil. However, the nagas only use force when trespassers actively harm the swamp or refuse to leave after the nagas attempt to reason with them. Nagas typically encourage those they enthrall to either leave or repair damages. They prefer not to take slaves, since this encourages more intruders and likely further havoc.",
+      "dexterity": 16,
+      "document": 35,
+      "environments_json": "[]",
+      "hit_dice": "12d10+36",
+      "hit_points": 102,
+      "intelligence": 11,
+      "languages": "Common",
+      "legendary_actions_json": "null",
+      "name": "Swamp Naga",
+      "page_no": 342,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "darkvision 60 ft., passive Perception 12",
+      "size": "Large",
+      "skills_json": "{\"nature\": 3, \"persuasion\": 6}",
+      "special_abilities_json": "[{\"name\": \"Cloud of Insects\", \"desc\": \"A cloud of biting and stinging insects surrounds the swamp naga. A creature that starts its turn within 5 feet of the naga must make a DC 14 Constitution saving throw. On a failure, a creature takes 9 (2d8) poison damage and is poisoned for 1 minute. On a success, it takes half the damage and isn't poisoned. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A wind of moderate or greater speed (at least 10 miles per hour) disperses the insect cloud for 1 minute. As a bonus action, the naga can disperse the cloud for 1 minute.\"}, {\"name\": \"Rejuvenation\", \"desc\": \"If it dies, the swamp naga returns to life in 1d6 days and regains all its hp. Only a wish spell or removing the naga from its swamp for 1 year can prevent this trait from functioning.\"}, {\"name\": \"Insect and Serpent Passivism\", \"desc\": \"No insects or serpents can willingly attack the swamp naga. They can be forced to do so through magical means.\"}, {\"name\": \"Spellcasting\", \"desc\": \"The swamp naga is an 8th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It knows the following sorcerer spells:\\nCantrips (at will): dancing lights, mage hand, message, poison spray\\n1st level (4 slots): charm person, fog cloud, silent image, sleep\\n2nd level (3 slots): blindness/deafness, hold person, suggestion\\n3rd level (3 slots): hypnotic pattern, stinking cloud, water breathing\\n4th level (2 slots): blight\"}]",
+      "speed_json": "{\"walk\": 30, \"swim\": 40}",
+      "spells_json": "null",
+      "strength": 18,
+      "type": "Monstrosity",
+      "wisdom": 14,
+      "wisdom_save": 5
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob2",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+      "publication_date": "",
+      "publisher": "tob2",
+      "title": "Tome of Beasts 2"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Swamp Naga",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob2:creature:tob2-swamp-naga"
+  },
+  "publisher_id": "tob2",
+  "source": "open5e:v1:tob2",
+  "translations": {
+    "en": {
+      "description": "A human head tops this green-and-brown constrictor. Vines protrude from its scalp and writhe in unison to the serpent’s swaying motion. Mosquitos, gnats, and other flying insects form a cloud around it._  \n**Self-Proclaimed Ruler and Protector.** The swamp naga is a manifestation of the swamp it inhabits. Its physical form is reminiscent of snakes, and marsh plants grow from its head. The naga’s strong tie to the swamp provides an impetus to protect its home and to believe it is the swamp’s sovereign. Because of this strong link, a swamp rarely hosts more than one naga, unless it covers vast territory.  \n**Insect and Serpent Friend.** The swamp naga’s link to the swamp extends to many creatures within it. Humanoids and mammalian animals that share the swamp with the naga recognize it as a protector and rarely trouble it, though the naga exerts no control over them. A cloud of poisonous biting and stinging insects accompanies the naga, endangering those who draw close to it.  \n**Necessarily Ruthless.** Scholars who have studied the connection between swamp nagas and their domains postulate the nagas’ malevolence is an outgrowth of swamplands’ inherent evil. However, the nagas only use force when trespassers actively harm the swamp or refuse to leave after the nagas attempt to reason with them. Nagas typically encourage those they enthrall to either leave or repair damages. They prefer not to take slaves, since this encourages more intruders and likely further havoc.",
+      "name": "Swamp Naga",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Человеческая голова увенчивает этого зелёного и коричневого констритора. Лозы выступают из её головы и извиваются в унисон к качающемуся движению змеи. Москиты, мошки и другие летящие насекомые формируют облако вокруг него.\n\n**Самопровозглашённый правитель и защитник.** Болотная Нага - это проявление болота, которое она населяет. Его физическая форма напоминает змей, и болотные растения растут из его головы. Сильная связь Наги до болота даёт толчок защитить свой дом и верить ей, что это суверен болота. Из-за этой прочной связи болото редко вмещает более одной наги, если только она не занимает огромную территорию.\n\n**Друг насекомых и змей.** Связь болотной Наги с болотом распространяется на многих существ внутри него. Гуманоиды и млекопитающие животные, которые разделяют болото с нагой, признают его защитником и редко беспокоят его, хотя Нага не контролирует их. Облако ядовитых кусучих и жалющих насекомых сопровождает Нагу, подвергая опасности тех, кто приближается к ней.\n\n**Обязательно безжалостный.** Учёные, которые изучали связь между болотными Нагами и их владениями, постулируют, что злоба наг является продуктом врождённого зла болот. Однако, Наги лишь используют силу, когда нарушители активно наносят ущерб болотной местности или отказываются уходить после того, как Наги пытаются урезонить их. Наги обычно поощряют тех, кого они ограничат, либо уходить, либо репарировать ущерб. Они предпочитают не брать рабов, так как это поощряет больше злоумышленников и, вероятно, еще больше сеет хаос.",
+      "glossary_version": "v1",
+      "name": "Болотная нага",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

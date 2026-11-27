@@ -1,0 +1,144 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: tob; Source: https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/; License: OGL-1.0a (https://open5e.com/legal); Tome of Beasts. Copyright 2016, Open Design; Authors Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur.; RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "tob",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "firebird",
+  "id": "o5e:tob:monster:firebird-variant-2",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob:monster:firebird"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "b57ea13d17343972cd36f60f184dbd49808118aeb18f2321fa202591cbaf0ea3",
+    "formulas": [
+      {
+        "expression": "18d6+36",
+        "type": "hit_dice"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "alignment": "neutral good",
+      "armor_class": 16,
+      "challenge_rating": "4",
+      "condition_immunities": "charmed, frightened, invisible",
+      "damage_immunities": "fire",
+      "damage_resistances": "lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "damage_vulnerabilities": "",
+      "hit_dice": "18d6+36",
+      "hit_points": 99,
+      "languages": "Celestial, Common, Elvish, Primordial, Sylvan",
+      "size": "Small"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "b57ea13d17343972cd36f60f184dbd49808118aeb18f2321fa202591cbaf0ea3",
+        "edition": "2014",
+        "id": "o5e:tob:monster:firebird",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The firebird makes one bite attack and two claw attacks.\"}, {\"name\": \"Bite\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 4) piercing damage.\", \"attack_bonus\": 6, \"damage_dice\": \"1d8\"}, {\"name\": \"Claw\", \"desc\": \"Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d8 + 4) slashing damage.\", \"attack_bonus\": 6, \"damage_dice\": \"2d8\"}, {\"name\": \"Blinding Ray (Recharge 5-6)\", \"desc\": \"The firebird can fire a burning ray of light from its tail feathers in a line 5 feet wide and up to 50 feet long. Targets in the line must succeed on a DC 15 Dexterity saving throw or take 24 (7d6) fire damage and become blinded for 1d4 rounds. A successful saving throw negates the blindness and reduces the damage by half.\"}]",
+      "alignment": "neutral good",
+      "armor_class": 16,
+      "armor_desc": "natural armor",
+      "bonus_actions_json": "null",
+      "challenge_rating": "4",
+      "charisma": 21,
+      "charisma_save": 7,
+      "condition_immunities": "charmed, frightened, invisible",
+      "constitution": 14,
+      "constitution_save": 4,
+      "cr": 4.0,
+      "damage_immunities": "fire",
+      "damage_resistances": "lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "desc": "_This proud bird struts like a peacock, made all the more majestic by its flaming fan of feathers, which shift through the color spectrum._  \n**Guides and Helpers.** Firebirds are welcome sights to those in need of warmth and safety. They primarily work at night or in underground areas, where their abilities are most needed. Friendly to all creatures, they become aggressive only upon witnessing obviously evil acts.  \nFirebirds enjoy working with good adventuring parties, providing light and healing, though their wanderlust prevents them from staying for long. Well-traveled parties may encounter the same firebird more than once, however.  \n**Redeemers.** Firebirds enjoy acting as reformers. They find mercenary creatures they perceive as potential “light bringers” to whom they grant boons in exchange for a geas to perform a specific good deed, in the hope such acts will redeem them.  \n**Magical Feathers.** Firebird feathers are prized throughout the mortal world; occasionally, the creatures bestow feathers upon those they favor. Firebirds also seed hidden locations with specialized feathers, which burst into full-grown firebirds after a year. As the creatures age, their feathers’ light dims, but this occurs gradually, as the creatures live over 100 years. Firebirds stand three feet tall and weigh 20 lb.",
+      "dexterity": 19,
+      "dexterity_save": 6,
+      "document": 33,
+      "environments_json": "[]",
+      "hit_dice": "18d6+36",
+      "hit_points": 99,
+      "intelligence": 16,
+      "intelligence_save": 5,
+      "languages": "Celestial, Common, Elvish, Primordial, Sylvan",
+      "legendary_actions_json": "null",
+      "name": "Firebird",
+      "page_no": 201,
+      "perception": 7,
+      "reactions_json": "null",
+      "route": "monsters/",
+      "senses": "truesight 60 ft., passive Perception 17",
+      "size": "Small",
+      "skills_json": "{\"acrobatics\": 6, \"arcana\": 5, \"insight\": 4, \"medicine\": 4, \"nature\": 5, \"perception\": 7, \"religion\": 5}",
+      "special_abilities_json": "[{\"name\": \"Innate Spellcasting\", \"desc\": \"the firebird's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:\\n\\nat will: guidance, purify food and drink, speak with animals\\n\\n3/day each: charm person, cure wounds (2d8 + 5), daylight, faerie fire, heat metal, hypnotic pattern, tongues\\n\\n1/day each: geas, heal, reincarnate\"}, {\"name\": \"Light of the World\", \"desc\": \"The firebird's feathers glow with a warm light. The creature sheds light as dim as a candle or as bright as a lantern. It always sheds light, and any feathers plucked from the creature continue to shed light as a torch.\"}, {\"name\": \"Warming Presence\", \"desc\": \"The firebird and any creatures within a 5-foot radius are immune to the effects of natural, environmental cold. Invited into a home or building, a firebird can expand this warming presence to its inhabitants no matter how close they are to the creature.\"}]",
+      "speed_json": "{\"walk\": 20, \"fly\": 100}",
+      "spells_json": "null",
+      "strength": 12,
+      "type": "Celestial",
+      "wisdom": 15,
+      "wisdom_save": 4
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+      "publication_date": "",
+      "publisher": "tob",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Firebird",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    },
+    "variant_of": "o5e:tob:creature:tob-firebird"
+  },
+  "publisher_id": "tob",
+  "source": "open5e:v1:tob",
+  "translations": {
+    "en": {
+      "description": "_This proud bird struts like a peacock, made all the more majestic by its flaming fan of feathers, which shift through the color spectrum._  \n**Guides and Helpers.** Firebirds are welcome sights to those in need of warmth and safety. They primarily work at night or in underground areas, where their abilities are most needed. Friendly to all creatures, they become aggressive only upon witnessing obviously evil acts.  \nFirebirds enjoy working with good adventuring parties, providing light and healing, though their wanderlust prevents them from staying for long. Well-traveled parties may encounter the same firebird more than once, however.  \n**Redeemers.** Firebirds enjoy acting as reformers. They find mercenary creatures they perceive as potential “light bringers” to whom they grant boons in exchange for a geas to perform a specific good deed, in the hope such acts will redeem them.  \n**Magical Feathers.** Firebird feathers are prized throughout the mortal world; occasionally, the creatures bestow feathers upon those they favor. Firebirds also seed hidden locations with specialized feathers, which burst into full-grown firebirds after a year. As the creatures age, their feathers’ light dims, but this occurs gradually, as the creatures live over 100 years. Firebirds stand three feet tall and weigh 20 lb.",
+      "name": "Firebird",
+      "source_version": "1.0",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Эта гордая птица выступает как павлин, сделанная ещё более величественной её пылающим веером перьев, которые меняются через цветовой спектр.\n\n**Проводники и помощники.** Жар-птицы — желанные зрелища для тех, кто нуждается в тепле и безопасности. Они в первую очередь работают ночью или в подземных областях, где их способности наиболее нужны. Дружелюбные ко всем существам, они становятся агрессивными только при свидетельстве очевидно злых актов.\n\nЖар-птицы наслаждаются работой с добрыми группами авантюристов, предоставляя свет и исцеление, хотя их страсть к странствиям препятствует им оставаться надолго. Однако хорошо путешествующие группы могут столкнуться с той же жар-птицей более одного раза.\n\n**Искупители.** Жар-птицы наслаждаются действовать как реформаторы. Они находят наёмных существ, которые они воспринимают как потенциальных «несущих свет», которым они даруют дары в обмен на задание выполнить конкретное доброе дело, в надежде, что такие акты искупят их.\n\n**Магические перья.** Перья жар-птицы ценятся во всём смертном мире; иногда существа даруют перья тем, кому они благоволят. Жар-птицы также засевают скрытые местоположения специализированными перьями, которые разрываются в полностью выросших жар-птиц через год. По мере старения существ свет их перьев тускнеет, но это происходит постепенно, поскольку существа живут более 100 лет. Жар-птицы стоят три фута в высоту и весят 20 фунтов.",
+      "glossary_version": "v1",
+      "name": "Жар-птица",
+      "source_version": "1.0",
+      "status": "machine"
+    }
+  },
+  "version": "1.0"
+}

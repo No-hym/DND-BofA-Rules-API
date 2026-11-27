@@ -1,0 +1,232 @@
+{
+  "attribution": "Title: Tome of Beasts 3; Author: Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts-3/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob3",
+  "category": "monster",
+  "edition": "2014",
+  "external_id": "tob3_rochade",
+  "id": "o5e:tob3:creature:tob3-rochade",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob3:creature:tob3-rochade",
+      "o5e:tob3:monster:rochade"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "3c437fa1c208a319c7cefda48f0be0639c70fb49acd43be8d2085296d442d35c",
+    "formulas": [
+      {
+        "expression": "6d6+6",
+        "type": "hit_dice"
+      },
+      {
+        "expression": "0.000",
+        "type": "weight"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 18,
+      "ability_score_intelligence": 6,
+      "ability_score_strength": 10,
+      "ability_score_wisdom": 10,
+      "alignment": "neutral",
+      "armor_class": 14,
+      "armor_detail": "",
+      "blindsight_range": null,
+      "burrow": null,
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "climb": 20,
+      "condition_immunities": [],
+      "damage_immunities": [],
+      "damage_resistances": [],
+      "damage_vulnerabilities": [],
+      "darkvision_range": 120,
+      "environments": [],
+      "fly": null,
+      "hit_dice": "6d6+6",
+      "hit_points": 27,
+      "initiative_bonus": null,
+      "languages": [
+        "undercommon"
+      ],
+      "languages_desc": "Undercommon",
+      "normal_sight_range": 10560,
+      "passive_perception": 12,
+      "proficiency_bonus": null,
+      "saving_throw_charisma": null,
+      "saving_throw_constitution": null,
+      "saving_throw_dexterity": null,
+      "saving_throw_intelligence": null,
+      "saving_throw_strength": null,
+      "saving_throw_wisdom": null,
+      "size": "small",
+      "skill_bonus_acrobatics": null,
+      "swim": null,
+      "walk": 30
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob3",
+        "content_hash": "3c437fa1c208a319c7cefda48f0be0639c70fb49acd43be8d2085296d442d35c",
+        "edition": "2014",
+        "id": "o5e:tob3:creature:tob3-rochade",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob3"
+      },
+      {
+        "book": "tob3",
+        "content_hash": "2d463c06298fce7344a0f4df6b4debf16b763b815c4c09947754e27bb5ead81e",
+        "edition": "2014",
+        "id": "o5e:tob3:monster:rochade",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:tob3"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "ability_score_charisma": 8,
+      "ability_score_constitution": 12,
+      "ability_score_dexterity": 18,
+      "ability_score_intelligence": 6,
+      "ability_score_strength": 10,
+      "ability_score_wisdom": 10,
+      "alignment": "neutral",
+      "armor_class": 14,
+      "category": "Monsters",
+      "challenge_rating": "0.500",
+      "climb": 20,
+      "darkvision_range": 120,
+      "document": "tob3",
+      "hit_dice": "6d6+6",
+      "hit_points": 27,
+      "hover": false,
+      "languages": [
+        "undercommon"
+      ],
+      "languages_desc": "Undercommon",
+      "name": "Rochade",
+      "nonmagical_attack_immunity": false,
+      "nonmagical_attack_resistance": false,
+      "normal_sight_range": 10560,
+      "passive_perception": 12,
+      "size": "small",
+      "skill_bonus_perception": 0,
+      "type": "fey",
+      "walk": 30,
+      "weight": "0.000"
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Celeste Conowitch, Darrin Drader, James Introcaso, Philip Larwood, Jeff Lee, Kelly Pawlik, Brian Suskind, Mike Welham",
+      "key": "tob3",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts-3/",
+      "publication_date": "2022-01-10T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts 3"
+    },
+    "subentities": {
+      "actions": [
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "Teleports one object it is holding that weighs up to 10 pounds into empty hand of one friendly creature it can see within 30' of it. If target isn't a rochade it must make DC 14 Dex save to catch the object otherwise object falls to the ground in a space within 5 ft. of target.",
+          "desc_ru": "Действие «Релай»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_rochade_relay",
+          "name": "Relay",
+          "name_ru": "Релай",
+          "order_in_statblock": 0,
+          "parent": "tob3_rochade",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "BONUS_ACTION",
+          "desc": "Teleports to unoccupied space it can see within 15 ft..",
+          "desc_ru": "Действие «Шорт Степ»; тип: bonus_action. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_rochade_short-step",
+          "name": "Short Step",
+          "name_ru": "Шорт Степ",
+          "order_in_statblock": 1,
+          "parent": "tob3_rochade",
+          "ru_source": "derived"
+        },
+        {
+          "action_type": "REACTION",
+          "desc": "When a creature rochade can see targets it with attack rochade can switch places with any creature it can see within 15 ft. of it. An unwilling creature must make DC 14 Dex save to avoid the switch. If the switch is successful switched creature becomes attack's target instead.",
+          "desc_ru": "Действие «Свитч»; тип: reaction. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_rochade_switch",
+          "name": "Switch",
+          "name_ru": "Свитч",
+          "order_in_statblock": 0,
+          "parent": "tob3_rochade",
+          "ru_source": "derived"
+        }
+      ],
+      "traits": [
+        {
+          "desc": "Advantage on saves and ability checks to avoid or escape effect that would reduce its speed. Also nonmagical difficult terrain composed of natural rocks or cavernous terrain doesn’t cost it extra movement.",
+          "desc_ru": "Особенность «Елусиве». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_rochade_elusive",
+          "name": "Elusive",
+          "name_ru": "Елусиве",
+          "parent": "tob3_rochade",
+          "ru_source": "derived"
+        },
+        {
+          "desc": "In sunlight disadvantage on attacks and Wis (Perception) checks that use sight.",
+          "desc_ru": "Особенность «Сунлигхт Сенситивитй». Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "tob3_rochade_sunlight-sensitivity",
+          "name": "Sunlight Sensitivity",
+          "name_ru": "Сунлигхт Сенситивитй",
+          "parent": "tob3_rochade",
+          "ru_source": "derived"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Rochade",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob3",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Rochade",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Маленькая фея, мировоззрение: нейтральное. Класс доспеха: 14. Хиты: 27 (6к6+6). Скорость: ходьба 30 фт., лазание 20 фт.. Характеристики: СИЛ 10, ЛОВ 18, ТЕЛ 12, ИНТ 6, МУД 10, ХАР 8. Чувства: тёмное зрение 120 фт., пассивное Восприятие 12. Показатель опасности: 0.5. Структурированные механики записи: особенностей: 2, действий: 3.",
+      "glossary_version": "derived-v1",
+      "name": "Рочаде",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

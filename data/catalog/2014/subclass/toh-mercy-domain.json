@@ -1,0 +1,180 @@
+{
+  "attribution": "Title: Tome of Heroes; Author: Kelly Pawlik, Ben Mcfarland, and Briand Suskind; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "toh",
+  "category": "subclass",
+  "edition": "2014",
+  "external_id": "toh_mercy-domain",
+  "id": "o5e:toh:characterclass:toh-mercy-domain",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:toh:characterclass:toh-mercy-domain"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "fb9f870024ba48c57c19966bc8f2834b715965b1ff5bb631e7c9d245462942de",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "caster_type": null,
+      "subclass_of": "srd_cleric"
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "toh",
+        "content_hash": "fb9f870024ba48c57c19966bc8f2834b715965b1ff5bb631e7c9d245462942de",
+        "edition": "2014",
+        "id": "o5e:toh:characterclass:toh-mercy-domain",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:toh"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd_cleric",
+        "type": "subclass_of",
+        "value": "srd_cleric"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "desc": "Mercy can mean promoting healing instead of harm, but it can also mean ending suffering with a quick death. These often-contradictory ideals are the two sides of mercy. The tenets of deities who embody mercy promote ways to end bloody conflicts or deliver healing magics to those in need. While mercy for some may be benevolent, for others it is decidedly not so. More pragmatic mercy gods teach the best method to relieve the agony and torment brought on by monsters and the forces of evil is to bring about the end of that evil.",
+      "document": "toh",
+      "name": "Mercy Domain",
+      "subclass_of": "srd_cleric"
+    },
+    "source_document": {
+      "author": "Kelly Pawlik, Ben Mcfarland, and Briand Suskind",
+      "key": "toh",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+      "publication_date": "2022-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Heroes"
+    },
+    "subentities": {
+      "features": [
+        {
+          "desc": "When you choose this domain at 1st level, you take your place on the line between the two aspects of mercy: healing and killing. You gain proficiency in the Medicine skill and with the poisoner's kit. In addition, you gain proficiency with heavy armor and martial weapons.",
+          "desc_ru": "Когда вы выбираете этот домен на 1-м уровне, вы занимаете ваше место на линии между двумя аспектами милосердия: исцелением и убийством. Вы получаете владение навыком Медицина и набором отравителя. Кроме того, вы получаете владение тяжёлыми доспехами и боевым оружием.",
+          "document": "toh",
+          "external_id": "toh_mercy-domain_bonus-proficiencies",
+          "level": 1,
+          "name": "Bonus Proficiencies",
+          "name_ru": "Дополнительные владения",
+          "parent": "toh_mercy-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Cleric Level | Spells                              |\r\n|--------------|-------------------------------------|\r\n| 1st          | *divine favor*, *healing word*      |\r\n| 3rd          | *aid*, *ray of enfeeblement*        |\r\n| 5th          | *bardo*, *revivify*                 |\r\n| 7th          | *death ward*, *sacrificial healing* |\r\n| 9th          | *antilife shell*, *raise dead*      |",
+          "desc_ru": "| Уровень жреца | Заклинания |\n|--------------|-------------------------------------|\n| 1-й | *Божественное благоволение*, *Целебное слово* |\n| 3-й | *Помощь*, *Луч ослабления* |\n| 5-й | *Бардо*, *Возвращение к жизни* |\n| 7-й | *Защита от смерти*, *Жертвенное исцеление* |\n| 9-й | *Барьер жизни*, *Воскрешение мёртвых* |",
+          "document": "toh",
+          "external_id": "toh_mercy-domain_mercy-domain-spells",
+          "level": 1,
+          "name": "Mercy Domain Spells",
+          "name_ru": "Заклинания домена милосердия",
+          "parent": "toh_mercy-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Also at 1st level, when you hit a creature that doesn't have all of its hit points with a melee weapon attack, the weapon deals extra radiant or necrotic damage (your choice) equal to half your proficiency bonus.",
+          "desc_ru": "Также на 1-м уровне, когда вы попадаете по существу, у которого не все очки хитов, атакой оружием ближнего боя, оружие наносит дополнительный урон излучением или некротический (на ваш выбор), равный половине вашего бонуса мастерства.",
+          "document": "toh",
+          "external_id": "toh_mercy-domain_threshold-guardian",
+          "level": 1,
+          "name": "Threshold Guardian",
+          "name_ru": "Страж порога",
+          "parent": "toh_mercy-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "Starting at 2nd level, you can use your Channel Divinity to wrest the lifeforce from an injured creature and use it to heal allies. As an action, you present your holy symbol to one creature you can see within 30 feet of you that doesn't have all of its hit points. The target must make a Wisdom saving throw, taking radiant or necrotic damage (your choice) equal to three times your cleric level on a failed save, or half as much damage on a successful one. Then, one friendly creature you can see within 30 feet of you regains a number of hit points equal to the amount of damage dealt to the target.",
+          "desc_ru": "Начиная со 2-го уровня вы можете использовать ваш Божественный канал, чтобы вырвать жизненную силу из раненого существа и использовать её, чтобы исцелить союзников. Действием вы предъявляете ваш священный символ одному существу, которое вы можете видеть в пределах 30 футов от вас и у которого не все его очки хитов. Цель должна совершить спасбросок Мудрости, получая урон излучением или некротический (на ваш выбор), равный утроенному вашему уровню жреца, при проваленном спасброске, или половину урона при успешном. Затем одно дружественное существо, которое вы можете видеть в пределах 30 футов от вас, восстанавливает количество очков хитов, равное количеству урона, нанесённого цели.",
+          "document": "toh",
+          "external_id": "toh_mercy-domain_channel-divinity-involuntary-aid",
+          "level": 2,
+          "name": "Channel Divinity: Involuntary Aid",
+          "name_ru": "Божественный канал: невольная помощь",
+          "parent": "toh_mercy-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 6th level, you gain the ability to manipulate a portion of the lifeforce that escapes a creature as it perishes. When a creature you can see dies within 30 feet of you, you can use your reaction to channel a portion of that energy into a friendly creature you can see within 30 feet of you. The friendly creature gains a bonus to attack and damage rolls equal to half your proficiency bonus until the end of its next turn.",
+          "desc_ru": "На 6-м уровне вы получаете способность манипулировать частью жизненной силы, которая ускользает от существа, когда оно погибает. Когда существо, которое вы можете видеть, умирает в пределах 30 футов от вас, вы можете реакцией направить часть этой энергии в дружественное существо, которое вы можете видеть, в пределах 30 футов от вас. Дружественное существо получает бонус к броскам атаки и урона, равный половине вашего бонуса мастерства, до конца его следующего хода.",
+          "document": "toh",
+          "external_id": "toh_mercy-domain_bolster-the-living",
+          "level": 6,
+          "name": "Bolster the Living",
+          "name_ru": "Укрепить живых",
+          "parent": "toh_mercy-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 8th level, you gain the ability to infuse your weapon strikes with the dual nature of mercy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d6 radiant or necrotic damage (your choice) to the target. If the target dies from this attack, a friendly creature you can see within 5 feet of you regains hit points equal to half the damage dealt. If no friendly creature is within 5 feet of you, you regain the hit points instead. When you reach 14th level, the extra damage increases to 2d6.",
+          "desc_ru": "На 8-м уровне вы получаете способность наполнять ваши удары оружием двойной природой милосердия. Один раз в каждый ваш ход, когда вы попадаете по существу атакой оружием, вы можете заставить атаку нанести дополнительные 1к6 урона излучением или некротического (на ваш выбор) цели. Если цель умирает от этой атаки, дружественное существо, которое вы можете видеть в пределах 5 футов от вас, восстанавливает очки хитов, равные половине нанесённого урона. Если ни одно дружественное существо не в пределах 5 футов от вас, вы восстанавливаете очки хитов вместо этого. Когда вы достигаете 14-го уровня, дополнительный урон увеличивается до 2к6.",
+          "document": "toh",
+          "external_id": "toh_mercy-domain_divine-strike-of-mercy",
+          "level": 8,
+          "name": "Divine Strike of Mercy",
+          "name_ru": "Божественный удар милосердия",
+          "parent": "toh_mercy-domain",
+          "ru_source": "curated"
+        },
+        {
+          "desc": "At 17th level, you imbue the two sides of mercy into your spellcasting. Once on each of your turns, if you cast a spell that restores hit points to one creature or deals damage to one creature, you can add your proficiency bonus to the amount of hit points restored or damage dealt.",
+          "desc_ru": "На 17-м уровне вы наполняете две стороны милосердия в ваше сотворение заклинаний. Один раз в каждый ваш ход, если вы творите заклинание, которое восстанавливает очки хитов одному существу или наносит урон одному существу, вы можете добавить ваш бонус мастерства к количеству восстановленных очков хитов или нанесённого урона.",
+          "document": "toh",
+          "external_id": "toh_mercy-domain_hand-of-grace-and-execution",
+          "level": 17,
+          "name": "Hand of Grace and Execution",
+          "name_ru": "Рука милости и казни",
+          "parent": "toh_mercy-domain",
+          "ru_source": "curated"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Mercy Domain",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:toh",
+  "translations": {
+    "en": {
+      "description": "Mercy can mean promoting healing instead of harm, but it can also mean ending suffering with a quick death. These often-contradictory ideals are the two sides of mercy. The tenets of deities who embody mercy promote ways to end bloody conflicts or deliver healing magics to those in need. While mercy for some may be benevolent, for others it is decidedly not so. More pragmatic mercy gods teach the best method to relieve the agony and torment brought on by monsters and the forces of evil is to bring about the end of that evil.",
+      "name": "Mercy Domain",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Милосердие может означать продвижение исцеления вместо вреда, но оно также может означать прекращение страданий быстрой смертью. Эти часто противоречивые идеалы — две стороны милосердия. Постулаты божеств, воплощающих милосердие, продвигают способы прекратить кровавые конфликты или доставить исцеляющую магию нуждающимся. Хотя милосердие для одних может быть доброжелательным, для других оно решительно не таково. Более прагматичные боги милосердия учат, что лучший метод облегчить агонию и мучения, принесённые монстрами и силами зла, — это положить конец этому злу.",
+      "glossary_version": "v1",
+      "name": "Домен милосердия",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

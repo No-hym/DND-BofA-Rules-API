@@ -1,0 +1,126 @@
+{
+  "attribution": "Title: Creature Codex; Author: Wolfgang Baur, Dan Dillon, Richard Green, James Haeck, Chris Harris, Jeremy Hochhalter, James Introcaso, Chris Lockey, Shawn Merwin, and Jon Sawatsky; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/creature-codex-for-5th-edition-dnd/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "ccdx",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "ccdx_mandriano_swipe_swipe-attack",
+  "id": "o5e:ccdx:creatureactionattack:ccdx-mandriano-swipe-swipe-attack",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:ccdx:creatureactionattack:ccdx-ancient-mandriano-swipe-swipe-attack",
+      "o5e:ccdx:creatureactionattack:ccdx-mandriano-swipe-swipe-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "0298ff8ec6ba125d6af71568dd998d5bed64d21483879072dfba18111a399b39",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "WEAPON",
+      "damage_bonus": 4,
+      "damage_die_count": 2,
+      "damage_die_type": "D6",
+      "damage_type": "slashing",
+      "extra_damage_bonus": null,
+      "extra_damage_die_count": null,
+      "extra_damage_die_type": null,
+      "extra_damage_type": null,
+      "long_range": null,
+      "range": null,
+      "reach": 10,
+      "to_hit_mod": 5
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "ccdx",
+        "content_hash": "0298ff8ec6ba125d6af71568dd998d5bed64d21483879072dfba18111a399b39",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-mandriano-swipe-swipe-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      },
+      {
+        "book": "ccdx",
+        "content_hash": "2b1004be04bb85a9ca7c08d0becd054d9e0a4fa3e6311a9aefe8b7f679d49c21",
+        "edition": "2014",
+        "id": "o5e:ccdx:creatureactionattack:ccdx-ancient-mandriano-swipe-swipe-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:ccdx"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "ccdx_mandriano_swipe",
+        "type": "parent",
+        "value": "ccdx_mandriano_swipe"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "WEAPON",
+      "damage_bonus": 4,
+      "damage_die_count": 2,
+      "damage_die_type": "D6",
+      "damage_type": "slashing",
+      "name": "Swipe attack",
+      "parent": "ccdx_mandriano_swipe",
+      "reach": 10,
+      "target_creature_only": false,
+      "to_hit_mod": 5
+    },
+    "source_document": {
+      "author": "Wolfgang Baur, Dan Dillon, Richard Green, James Haeck, Chris Harris, Jeremy Hochhalter, James Introcaso, Chris Lockey, Shawn Merwin, and Jon Sawatsky",
+      "key": "ccdx",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/creature-codex-for-5th-edition-dnd/",
+      "publication_date": "2018-06-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Creature Codex"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Swipe attack",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:ccdx",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Swipe attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака оружием: +5 к попаданию. Зона: досягаемость 10 фт., одна цель. Попадание: 2к6 + 4 рубящего урона.",
+      "glossary_version": "derived-v1",
+      "name": "Свипе",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

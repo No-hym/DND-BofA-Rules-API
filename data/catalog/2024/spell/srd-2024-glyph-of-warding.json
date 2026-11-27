@@ -1,0 +1,215 @@
+{
+  "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0) (CC-BY-4.0)",
+  "book_id": "srd-2024",
+  "category": "spell",
+  "edition": "2024",
+  "external_id": "srd-2024_glyph-of-warding",
+  "id": "o5e:srd-2024:spell:srd-2024-glyph-of-warding",
+  "license": "CC-BY-4.0",
+  "mechanics": {
+    "choices": [],
+    "compatibility": {
+      "adapted": false,
+      "adapted_for_primary": false,
+      "editions": [
+        "2024"
+      ],
+      "notes": "Advanced 5e material kept with its original mechanics; mapped to the closest primary edition for catalog filtering.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2024"
+      ]
+    },
+    "content_hash": "c9542ea0529a3078f9200a9274a6d15f390886447efb57c088dc225c37a5fbbe",
+    "formulas": [
+      {
+        "expression": "5d8",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+    "limitations": [],
+    "normalized": {
+      "attack_roll": false,
+      "casting_time": "1hour",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_cleric",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "5d8",
+      "damage_types": [
+        "acid",
+        "cold",
+        "fire",
+        "lightning",
+        "thunder"
+      ],
+      "duration": "until dispelled or triggered",
+      "level": 3,
+      "material": true,
+      "material_consumed": true,
+      "material_cost": null,
+      "material_specified": "powdered diamond worth 200+ GP, which the spell consumes",
+      "range": 0,
+      "range_text": "Touch",
+      "range_unit": null,
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "abjuration",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "original_system": "5e-2024",
+    "relations": [
+      {
+        "required": false,
+        "target_id": "srd-2024_bard",
+        "type": "classes",
+        "value": [
+          "srd-2024_bard",
+          "srd-2024_cleric",
+          "srd-2024_wizard"
+        ]
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": false,
+      "casting_time": "1hour",
+      "classes": [
+        "srd-2024_bard",
+        "srd-2024_cleric",
+        "srd-2024_wizard"
+      ],
+      "concentration": false,
+      "damage_roll": "5d8",
+      "damage_types": [
+        "acid",
+        "cold",
+        "fire",
+        "lightning",
+        "thunder"
+      ],
+      "desc": "You inscribe a glyph that later unleashes a magical effect. You inscribe it either on a surface (such as a table or a section of floor) or within an object that can be closed (such as a book or chest) to conceal the glyph. The glyph can cover an area no larger than 10 feet in diameter. If the surface or object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.\n\nThe glyph is nearly imperceptible and requires a successful Wisdom (Perception) check against your spell save DC to notice.\n\nWhen you inscribe the glyph, you set its trigger and choose whether it's an explosive rune or a spell glyph, as explained below.\n\n**_Set the Trigger._** You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, common triggers include touching or stepping on the glyph, removing another object covering it, or approaching within a certain distance of it. For glyphs inscribed within an object, common triggers include opening that object or seeing the glyph. Once a glyph is triggered, this spell ends.\n\nYou can refine the trigger so that only creatures of certain types activate it (for example, the glyph could be set to affect Aberrations). You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.\n\n**_Explosive Rune._** When triggered, the glyph erupts with magical energy in a 20-foot-radius Sphere centered on the glyph. Each creature in the area makes a Dexterity saving throw. A creature takes 5d8 Acid, Cold, Fire, Lightning, or Thunder damage (your choice when you create the glyph) on a failed save or half as much damage on a successful one.\n\n**_Spell Glyph._** You can store a prepared spell of level 3 or lower in the glyph by casting it as part of creating the glyph. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way.\n\nWhen the glyph is triggered, the stored spell takes effect. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons Hostile creatures or creates harmful objects or traps, they appear as close as possible to the intruder and attack it. If the spell requires Concentration, it lasts until the end of its full duration.",
+      "document": "srd-2024",
+      "duration": "until dispelled or triggered",
+      "higher_level": "The damage of an explosive rune increases by 1d8 for each spell slot level above 3. If you create a spell glyph, you can store any spell of up to the same level as the spell slot you use for the Glyph of Warding.",
+      "level": 3,
+      "material": true,
+      "material_consumed": true,
+      "material_specified": "powdered diamond worth 200+ GP, which the spell consumes",
+      "name": "Glyph of Warding",
+      "range": 0,
+      "range_text": "Touch",
+      "ritual": false,
+      "saving_throw_ability": "dexterity",
+      "school": "abjuration",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "creature",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Wizards of the Coast",
+      "key": "srd-2024",
+      "licenses": [
+        "CC-BY-4.0"
+      ],
+      "permalink": "https://dnd.wizards.com/resources/systems-reference-document",
+      "publication_date": "2024-01-01T00:00:00",
+      "publisher": "wizards-of-the-coast",
+      "title": "System Reference Document 5.2"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "damage_roll": "6d8",
+          "desc": "Explosive rune deals 6d8 damage. Spell glyph can store up to level 4 spell.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10604",
+          "parent": "srd-2024_glyph-of-warding",
+          "ru_source": "derived",
+          "type": "slot_level_4"
+        },
+        {
+          "damage_roll": "7d8",
+          "desc": "Explosive rune deals 7d8 damage. Spell glyph can store up to level 5 spell.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10605",
+          "parent": "srd-2024_glyph-of-warding",
+          "ru_source": "derived",
+          "type": "slot_level_5"
+        },
+        {
+          "damage_roll": "8d8",
+          "desc": "Explosive rune deals 8d8 damage. Spell glyph can store up to level 6 spell.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10606",
+          "parent": "srd-2024_glyph-of-warding",
+          "ru_source": "derived",
+          "type": "slot_level_6"
+        },
+        {
+          "damage_roll": "9d8",
+          "desc": "Explosive rune deals 9d8 damage. Spell glyph can store up to level 7 spell.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10607",
+          "parent": "srd-2024_glyph-of-warding",
+          "ru_source": "derived",
+          "type": "slot_level_7"
+        },
+        {
+          "damage_roll": "10d8",
+          "desc": "Explosive rune deals 10d8 damage. Spell glyph can store up to level 8 spell.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10608",
+          "parent": "srd-2024_glyph-of-warding",
+          "ru_source": "derived",
+          "type": "slot_level_8"
+        },
+        {
+          "damage_roll": "11d8",
+          "desc": "Explosive rune deals 11d8 damage. Spell glyph can store up to level 9 spell.",
+          "desc_ru": "Вариант сотворения. Производный машинный текст из структурированных полей записи; полный исходный текст — в поле desc (требуется перевод и редакторская вычитка).",
+          "external_id": "10609",
+          "parent": "srd-2024_glyph-of-warding",
+          "ru_source": "derived",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Title: System Reference Document 5.2; Author: Wizards of the Coast; Publisher: wizards-of-the-coast; Source: https://dnd.wizards.com/resources/systems-reference-document; License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/legalcode); RU translation: Petr Radilov (https://github.com/OmnisGM-App/OmnisGM-Rules) (CC-BY-4.0) (CC-BY-4.0)",
+      "edition": "2024",
+      "exact_match": "Glyph of Warding",
+      "license": "CC-BY-4.0",
+      "source": "dnd-bofa-legacy"
+    }
+  },
+  "publisher_id": "wizards-of-the-coast",
+  "source": "open5e:v2:srd-2024",
+  "translations": {
+    "en": {
+      "description": "You inscribe a glyph that later unleashes a magical effect. You inscribe it either on a surface (such as a table or a section of floor) or within an object that can be closed (such as a book or chest) to conceal the glyph. The glyph can cover an area no larger than 10 feet in diameter. If the surface or object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.\n\nThe glyph is nearly imperceptible and requires a successful Wisdom (Perception) check against your spell save DC to notice.\n\nWhen you inscribe the glyph, you set its trigger and choose whether it's an explosive rune or a spell glyph, as explained below.\n\n**_Set the Trigger._** You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, common triggers include touching or stepping on the glyph, removing another object covering it, or approaching within a certain distance of it. For glyphs inscribed within an object, common triggers include opening that object or seeing the glyph. Once a glyph is triggered, this spell ends.\n\nYou can refine the trigger so that only creatures of certain types activate it (for example, the glyph could be set to affect Aberrations). You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.\n\n**_Explosive Rune._** When triggered, the glyph erupts with magical energy in a 20-foot-radius Sphere centered on the glyph. Each creature in the area makes a Dexterity saving throw. A creature takes 5d8 Acid, Cold, Fire, Lightning, or Thunder damage (your choice when you create the glyph) on a failed save or half as much damage on a successful one.\n\n**_Spell Glyph._** You can store a prepared spell of level 3 or lower in the glyph by casting it as part of creating the glyph. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way.\n\nWhen the glyph is triggered, the stored spell takes effect. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons Hostile creatures or creates harmful objects or traps, they appear as close as possible to the intruder and attack it. If the spell requires Concentration, it lasts until the end of its full duration.",
+      "name": "Glyph of Warding",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "*Ограждение 3-го уровня (Бард, Жрец, Волшебник)*\n\n**Время накладывания:** 1 час\n\n**Дистанция:** Касание\n\n**Компоненты:** В, С, М (благовоние и алмазный порошок стоимостью не менее 200 зм, расходуемые заклинанием)\n\n**Длительность:** Пока не будет рассеяно или активировано\n\nСотворяя это заклинание, вы начертываете причиняющий вред глиф на поверхности (например, на столе, участке пола или стены) или внутри предмета, который можно закрыть (например, книги, свитка или сундука с сокровищами), чтобы скрыть глиф. Глиф может покрывать область диаметром не более 10 футов. Если поверхность или предмет переместится более чем на 10 футов от места, где вы сотворили заклинание, глиф разрушается, и заклинание оканчивается, не сработав.\n\nГлиф почти невидим и требует успешной проверки Интеллекта (Расследование) против СЛ спасброска от ваших заклинаний, чтобы быть обнаруженным.\n\nВы определяете, что активирует глиф, при сотворении заклинания. Для глифов, начертанных на поверхности, наиболее типичные условия срабатывания включают прикосновение или стояние на глифе, снятие другого предмета, покрывающего глиф, приближение на определённое расстояние к глифу или манипуляцию с предметом, на котором начертан глиф. Для глифов, начертанных внутри предмета, наиболее распространённые условия включают открытие этого предмета, приближение на определённое расстояние к предмету или осмотр или прочтение глифа. Как только глиф срабатывает, это заклинание оканчивается.\n\nВы можете дополнительно уточнить условие срабатывания, чтобы заклинание активировалось только при определённых обстоятельствах или в зависимости от физических характеристик (таких как рост или вес), вида существа (например, защита может быть настроена на аберрации или дроу) или мировоззрения. Вы также можете задать условия для существ, которые не активируют глиф, например тех, кто произносит определённый пароль.\n\nНачертывая глиф, выберите *взрывные руны* или *глиф заклинания*.\n\n**_Взрывные руны._** При срабатывании глиф извергает магическую энергию в сфере радиусом 20 футов с центром на глифе. Сфера огибает углы. Каждое существо в области должно совершить спасбросок Ловкости. Существо получает 5к8 урона кислотой, холодом, огнём, электричеством или громом (на ваш выбор при создании глифа) при провале или половину этого урона при успехе.\n\n**_Глиф заклинания._** Вы можете сохранить подготовленное заклинание 3-го уровня или ниже в глифе, сотворив его как часть создания глифа. Заклинание должно быть нацелено на одно существо или на область. Сохранённое заклинание не оказывает немедленного эффекта при таком сотворении. Когда глиф срабатывает, сохранённое заклинание сотворяется. Если заклинание нацелено на цель, оно нацеливается на существо, активировавшее глиф. Если заклинание действует на область, область центрируется на этом существе. Если заклинание призывает враждебных существ или создаёт опасные предметы или ловушки, они появляются как можно ближе к нарушителю и атакуют его. Если заклинание требует концентрации, оно длится до конца своей полной длительности.\n\n**_Использование ячейки более высокого уровня._** Если вы сотворяете это заклинание, используя ячейку заклинания 4-го уровня или выше, урон *взрывных рун* увеличивается на 1к8 за каждый уровень ячейки выше 3-го. Если вы создаёте *глиф заклинания*, можете сохранить любое заклинание уровня, равного уровню использованной ячейки для *охранных рун*.",
+      "glossary_version": "v1",
+      "name": "Охранные руны",
+      "source_version": "snapshot",
+      "status": "source"
+    }
+  },
+  "version": "snapshot"
+}

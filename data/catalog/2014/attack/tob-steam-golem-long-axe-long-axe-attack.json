@@ -1,0 +1,125 @@
+{
+  "attribution": "Title: Tome of Beasts; Author: Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur; Publisher: kobold-press; Source: https://koboldpress.com/tome-of-beasts/; License: OGL-1.0a (https://open5e.com/legal)",
+  "book_id": "tob",
+  "category": "attack",
+  "edition": "2014",
+  "external_id": "tob_steam-golem_long-axe_long-axe-attack",
+  "id": "o5e:tob:creatureactionattack:tob-steam-golem-long-axe-long-axe-attack",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:tob-2023:creatureactionattack:tob-2023-steam-golem-long-axe-long-axe-attack",
+      "o5e:tob:creatureactionattack:tob-steam-golem-long-axe-long-axe-attack"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "79a5042b97fa870b567ec9a39db3ed1ae224146226933ddd678033332fee2efa",
+    "formulas": [],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [],
+    "normalized": {
+      "attack_type": "WEAPON",
+      "damage_bonus": null,
+      "damage_die_count": 5,
+      "damage_die_type": "D12",
+      "damage_type": "slashing",
+      "extra_damage_bonus": null,
+      "extra_damage_die_count": null,
+      "extra_damage_die_type": null,
+      "extra_damage_type": null,
+      "long_range": null,
+      "range": null,
+      "reach": 10,
+      "to_hit_mod": 13
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "tob",
+        "content_hash": "79a5042b97fa870b567ec9a39db3ed1ae224146226933ddd678033332fee2efa",
+        "edition": "2014",
+        "id": "o5e:tob:creatureactionattack:tob-steam-golem-long-axe-long-axe-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob"
+      },
+      {
+        "book": "tob-2023",
+        "content_hash": "680d66b4a1e0d362f9051c428a95ffac054452c876087b1b81c677a49286b06d",
+        "edition": "2014",
+        "id": "o5e:tob-2023:creatureactionattack:tob-2023-steam-golem-long-axe-long-axe-attack",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:tob-2023"
+      }
+    ],
+    "relations": [
+      {
+        "required": false,
+        "target_id": "tob_steam-golem_long-axe",
+        "type": "parent",
+        "value": "tob_steam-golem_long-axe"
+      }
+    ],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_type": "WEAPON",
+      "damage_die_count": 5,
+      "damage_die_type": "D12",
+      "damage_type": "slashing",
+      "name": "Long Axe attack",
+      "parent": "tob_steam-golem_long-axe",
+      "reach": 10,
+      "target_creature_only": false,
+      "to_hit_mod": 13
+    },
+    "source_document": {
+      "author": "Chris Harris, Dan Dillon, Rodrigo Garcia Carmona, and Wolfgang Baur",
+      "key": "tob",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/tome-of-beasts/",
+      "publication_date": "2016-01-01T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Tome of Beasts"
+    },
+    "subentities": {},
+    "translation_provenance": {
+      "attribution": "Derived from the record's own structured mechanics; machine rendering, review required",
+      "edition": "2014",
+      "exact_match": "Long Axe attack",
+      "license": "OGL-1.0a",
+      "source": "derived-from-structured-mechanics"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:tob",
+  "translations": {
+    "en": {
+      "description": "",
+      "name": "Long Axe attack",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Атака оружием: +13 к попаданию. Зона: досягаемость 10 фт., одна цель. Попадание: 5к12 рубящего урона.",
+      "glossary_version": "derived-v1",
+      "name": "Лонг топор",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}

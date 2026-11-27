@@ -1,0 +1,205 @@
+{
+  "attribution": "Title: Deep Magic for 5th Edition; Author: Dan Dillon, Chris Harris, and Jeff Lee; Publisher: kobold-press; Source: https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/; License: OGL-1.0a (https://open5e.com/legal); RU translation: DND-BofA curated translation (machine translation, editorial review required) (OGL-1.0a)",
+  "book_id": "deepm",
+  "category": "spell",
+  "edition": "2014",
+  "external_id": "deepm_writhing-arms",
+  "id": "o5e:deepm:spell:deepm-writhing-arms",
+  "license": "OGL-1.0a",
+  "mechanics": {
+    "aliases": [
+      "o5e:deepm:spell:deepm-writhing-arms",
+      "o5e:dmag:spell:writhing-arms"
+    ],
+    "choices": [],
+    "compatibility": {
+      "adapted": true,
+      "adapted_for_primary": true,
+      "editions": [
+        "2014",
+        "2024"
+      ],
+      "notes": "Original 5e 2014 mechanics preserved in source_data; usable with the 2024 primary edition subject to the rules difference notes.",
+      "primary_edition": "2024",
+      "systems": [
+        "5e-2014"
+      ]
+    },
+    "content_hash": "84c105301b212e36a0a6494bd6e85513bd514af342d58c4742b9e268c41d14e7",
+    "formulas": [
+      {
+        "expression": "1d10",
+        "type": "damage_roll"
+      }
+    ],
+    "license_url": "https://open5e.com/legal",
+    "limitations": [
+      {
+        "type": "concentration",
+        "value": true
+      }
+    ],
+    "normalized": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "classes": [],
+      "concentration": true,
+      "damage_roll": "1d10",
+      "damage_types": [
+        "necrotic"
+      ],
+      "duration": "1 minute",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "material_cost": null,
+      "material_specified": "",
+      "range": 10,
+      "range_text": "10 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "saving_throw_ability": "",
+      "school": "transmutation",
+      "shape_size": null,
+      "shape_size_unit": null,
+      "shape_type": null,
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "original_system": "5e-2014",
+    "provenance": [
+      {
+        "book": "deepm",
+        "content_hash": "84c105301b212e36a0a6494bd6e85513bd514af342d58c4742b9e268c41d14e7",
+        "edition": "2014",
+        "id": "o5e:deepm:spell:deepm-writhing-arms",
+        "license": "OGL-1.0a",
+        "source": "open5e:v2:deepm"
+      },
+      {
+        "book": "dmag",
+        "content_hash": "6faaf141846ad1a305417c2eee0e76871c951629d94c1e80b58789d250dde26d",
+        "edition": "2014",
+        "id": "o5e:dmag:spell:writhing-arms",
+        "license": "OGL-1.0a",
+        "source": "open5e:v1:dmag"
+      }
+    ],
+    "relations": [],
+    "requirements": [],
+    "resources": [],
+    "source_data": {
+      "attack_roll": true,
+      "casting_time": "action",
+      "concentration": true,
+      "damage_roll": "1d10",
+      "damage_types": [
+        "necrotic"
+      ],
+      "desc": "Your arms become constantly writhing tentacles. You can use your action to make a melee spell attack against any target within range. The target takes 1d10 necrotic damage and is grappled (escape DC is your spell save DC). If the target does not escape your grapple, you can use your action on each subsequent turn to deal 1d10 necrotic damage to the target automatically.\n\nAlthough you control the tentacles, they make it difficult to manipulate items. You cannot wield weapons or hold objects, including material components, while under the effects of this spell.\n",
+      "document": "deepm",
+      "duration": "1 minute",
+      "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, the damage you deal with your tentacle attack increases by 1d10 for each slot level above 1st.",
+      "level": 1,
+      "material": false,
+      "material_consumed": false,
+      "name": "Writhing Arms",
+      "range": 10,
+      "range_text": "10 feet",
+      "range_unit": "feet",
+      "ritual": false,
+      "school": "transmutation",
+      "somatic": true,
+      "target_count": 1,
+      "target_type": "object",
+      "verbal": true
+    },
+    "source_document": {
+      "author": "Dan Dillon, Chris Harris, and Jeff Lee",
+      "key": "deepm",
+      "licenses": [
+        "OGL-1.0a"
+      ],
+      "permalink": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+      "publication_date": "2020-02-13T00:00:00",
+      "publisher": "kobold-press",
+      "title": "Deep Magic for 5th Edition"
+    },
+    "subentities": {
+      "casting_options": [
+        {
+          "external_id": "4540",
+          "parent": "deepm_writhing-arms",
+          "type": "default"
+        },
+        {
+          "external_id": "4542",
+          "parent": "deepm_writhing-arms",
+          "type": "slot_level_2"
+        },
+        {
+          "external_id": "4543",
+          "parent": "deepm_writhing-arms",
+          "type": "slot_level_3"
+        },
+        {
+          "external_id": "4544",
+          "parent": "deepm_writhing-arms",
+          "type": "slot_level_4"
+        },
+        {
+          "external_id": "4545",
+          "parent": "deepm_writhing-arms",
+          "type": "slot_level_5"
+        },
+        {
+          "external_id": "4546",
+          "parent": "deepm_writhing-arms",
+          "type": "slot_level_6"
+        },
+        {
+          "external_id": "4547",
+          "parent": "deepm_writhing-arms",
+          "type": "slot_level_7"
+        },
+        {
+          "external_id": "4548",
+          "parent": "deepm_writhing-arms",
+          "type": "slot_level_8"
+        },
+        {
+          "external_id": "4549",
+          "parent": "deepm_writhing-arms",
+          "type": "slot_level_9"
+        }
+      ]
+    },
+    "translation_provenance": {
+      "attribution": "DND-BofA curated translation (machine translation, editorial review required)",
+      "edition": "2014",
+      "exact_match": "Writhing Arms",
+      "license": "OGL-1.0a",
+      "source": "dnd-bofa-curated"
+    }
+  },
+  "publisher_id": "kobold-press",
+  "source": "open5e:v2:deepm",
+  "translations": {
+    "en": {
+      "description": "Your arms become constantly writhing tentacles. You can use your action to make a melee spell attack against any target within range. The target takes 1d10 necrotic damage and is grappled (escape DC is your spell save DC). If the target does not escape your grapple, you can use your action on each subsequent turn to deal 1d10 necrotic damage to the target automatically.\n\nAlthough you control the tentacles, they make it difficult to manipulate items. You cannot wield weapons or hold objects, including material components, while under the effects of this spell.",
+      "name": "Writhing Arms",
+      "source_version": "snapshot",
+      "status": "source"
+    },
+    "ru": {
+      "description": "Ваши руки становятся постоянно извивающимися щупальцами. Вы можете использовать ваше действие, чтобы совершить атаку заклинанием ближнего боя против любой цели в пределах дистанции. Цель получает 1к10 некротического урона и схвачена (Сл спасброска побега — ваша Сл спасброска заклинаний). Если цель не сбежит из вашего захвата, вы можете использовать ваше действие в каждый последующий ход, чтобы наносить 1к10 некротического урона цели автоматически.\n\nХотя вы контролируете щупальца, они затрудняют манипулировать предметами. Вы не можете держать оружие или держать объекты, включая материальные компоненты, пока под эффектами этого заклинания.",
+      "glossary_version": "v1",
+      "name": "Извивающиеся руки",
+      "source_version": "snapshot",
+      "status": "machine"
+    }
+  },
+  "version": "snapshot"
+}
