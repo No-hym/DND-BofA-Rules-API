@@ -31,7 +31,7 @@ def write_report(manifest: dict[str, Any]) -> Path:
         "",
         f"- Записей в опубликованном каталоге: **{counts['entities']}** "
         f"(2024: {counts['by_edition'].get('2024', 0)}, 2014: {counts['by_edition'].get('2014', 0)}).",
-        f"- Записей с проверенным русским текстом: **{counts['translated']}**. "
+        f"- Записей с русским текстом: **{counts['translated']}**. "
         "Непереведённые записи не маскируются: RU-поле отсутствует, API отдает en с `language: en`.",
         f"- Адаптировано из других систем/редакций: "
         f"**{sum(row['adapted'] for row in manifest.get('matrix', []))}** "
@@ -49,6 +49,36 @@ def write_report(manifest: dict[str, Any]) -> Path:
         [[row["source"], row["category"], row["imported"], row["translated"],
           row["adapted"], row["duplicates"], row["skipped"]] for row in matrix],
     )
+    lines += ["", "## Подклассы", ""]
+    subclass_rows: list[list[Any]] = []
+    subclass_total = subclass_ru = 0
+    for edition in ("2024", "2014"):
+        path = REPO / "data" / "catalog" / edition / "subclass.json"
+        if not path.is_file():
+            continue
+        import json as _json
+        records = _json.loads(path.read_text(encoding="utf-8"))
+        by_parent: dict[str, list[dict[str, Any]]] = {}
+        for record in records:
+            parent = str(record.get("mechanics", {}).get("normalized", {}).get("subclass_of")
+                         or record.get("mechanics", {}).get("source_data", {}).get("char_class") or "—")
+            by_parent.setdefault(parent, []).append(record)
+        for parent, subset in sorted(by_parent.items()):
+            translated_count = sum(1 for record in subset
+                                   if record.get("translations", {}).get("ru", {}).get("description", "").strip())
+            subclass_total += len(subset)
+            subclass_ru += translated_count
+            subclass_rows.append([edition, parent, len(subset), translated_count,
+                                  ", ".join(sorted({record.get("book_id", "") for record in subset}))])
+    if subclass_rows:
+        lines.append(f"Всего записей подклассов: **{subclass_total}**, с русским текстом: **{subclass_ru}**. "
+                     "Подклассы Open5e v2 хранятся как `CharacterClass` с `subclass_of` и публикуются "
+                     "категорией `subclass`; архетипы v1 сохранены как варианты с полным текстом. "
+                     "Непереведёнными остаются только v1-варианты, для которых русский текст был бы частичным, "
+                     "и подклассы с пустым описанием у источника.")
+        lines.append("")
+        lines += _table(["Редакция", "Родительский класс (subclass_of)", "Записей", "С RU", "Книги"],
+                        subclass_rows)
     lines += ["", "## По издательству и книге", ""]
     lines += _table(["Издательство/книга", "Записей"],
                     [[key, value] for key, value in sorted(counts.get("by_book", {}).items())])
