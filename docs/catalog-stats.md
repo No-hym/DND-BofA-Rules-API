@@ -1,11 +1,11 @@
 # Составкаталог: покрытие источников
 
-Версия каталога: `20261128`; собрано 2026-11-27T01:50:46+00:00. Основная редакция — D&D 5e 2024 (SRD 5.2.1); https://api.open5e.com/v2/ и дополнительные книги импортируются из зафиксированного репозитория open5e-api. Отчёт создаётся автоматически `python3 scripts/sync_sources.py build && python3 scripts/sync_sources.py verify`.
+Версия каталога: `20261128`; собрано 2026-11-27T12:16:50+00:00. Основная редакция — D&D 5e 2024 (SRD 5.2.1); https://api.open5e.com/v2/ и дополнительные книги импортируются из зафиксированного репозитория open5e-api. Отчёт создаётся автоматически `python3 scripts/sync_sources.py build && python3 scripts/sync_sources.py verify`.
 
 ## Итого
 
 - Записей в опубликованном каталоге: **12703** (2024: 2047, 2014: 10656).
-- Записей с русским текстом: **9853**. Непереведённые записи не маскируются: RU-поле отсутствует, API отдает en с `language: en`.
+- Записей с русским текстом: **12609**. Непереведённые записи не маскируются: RU-поле отсутствует, API отдает en с `language: en`.
 - Адаптировано из других систем/редакций: **10656** (оригинальные механики сохранены в `mechanics.source_data`).
 - Устранено дубликатов: **8908**, сохранено уникальных вариантов с разными механиками: **2771**.
 
@@ -33,26 +33,26 @@
 | open5e | item-rarity | 6 | 6 | 6 | 0 | 0 |
 | open5e | item-set | 20 | 20 | 20 | 0 | 0 |
 | open5e | language | 19 | 19 | 19 | 0 | 0 |
-| open5e | magic-item | 2978 | 1699 | 2218 | 962 | 0 |
-| open5e | monster | 4408 | 3681 | 4077 | 2340 | 0 |
+| open5e | magic-item | 2978 | 2978 | 2218 | 962 | 0 |
+| open5e | monster | 4408 | 4407 | 4077 | 2340 | 0 |
 | open5e | plane | 8 | 8 | 8 | 0 | 0 |
-| open5e | rule | 341 | 330 | 285 | 0 | 0 |
+| open5e | rule | 341 | 341 | 285 | 0 | 0 |
 | open5e | ruleset | 54 | 54 | 43 | 0 | 0 |
 | open5e | service | 30 | 30 | 0 | 0 | 0 |
 | open5e | size | 7 | 7 | 7 | 0 | 0 |
 | open5e | skill | 61 | 61 | 48 | 0 | 0 |
 | open5e | species | 45 | 45 | 36 | 4 | 0 |
-| open5e | spell | 1967 | 1239 | 1628 | 1423 | 0 |
+| open5e | spell | 1967 | 1967 | 1628 | 1423 | 0 |
 | open5e | spell-list | 7 | 7 | 7 | 0 | 0 |
 | open5e | spell-school | 9 | 9 | 9 | 0 | 0 |
-| open5e | subclass | 247 | 145 | 235 | 1 | 0 |
+| open5e | subclass | 247 | 157 | 235 | 1 | 0 |
 | open5e | subspecies | 37 | 37 | 37 | 31 | 0 |
 | open5e | weapon | 106 | 103 | 68 | 37 | 0 |
 | open5e | weapon-property | 29 | 29 | 12 | 0 | 0 |
 
 ## Подклассы
 
-Всего записей подклассов: **247**, с русским текстом: **145**. Подклассы Open5e v2 хранятся как `CharacterClass` с `subclass_of` и публикуются категорией `subclass`; архетипы v1 сохранены как варианты с полным текстом. Непереведёнными остаются только v1-варианты, для которых русский текст был бы частичным, и подклассы с пустым описанием у источника.
+Всего записей подклассов: **247**, с русским текстом: **157**. Подклассы Open5e v2 хранятся как `CharacterClass` с `subclass_of` и публикуются категорией `subclass`; архетипы v1 сохранены как варианты с полным текстом. Непереведёнными остаются только v1-варианты, для которых русский текст был бы частичным, и подклассы с пустым описанием у источника.
 
 | Редакция | Родительский класс (subclass_of) | Записей | С RU | Книги |
 |---|---|---|---|---|
@@ -69,8 +69,8 @@
 | 2024 | srd-2024_warlock | 1 | 1 | srd-2024 |
 | 2024 | srd-2024_wizard | 1 | 1 | srd-2024 |
 | 2014 | a5e_marshal | 3 | 0 | a5e-ag |
-| 2014 | barbarian | 9 | 0 | taldorei, toh, wotc-srd |
-| 2014 | bard | 8 | 1 | o5e, toh, wotc-srd |
+| 2014 | barbarian | 9 | 4 | taldorei, toh, wotc-srd |
+| 2014 | bard | 8 | 2 | o5e, toh, wotc-srd |
 | 2014 | bfrd_barbarian | 1 | 1 | bfrd |
 | 2014 | bfrd_bard | 1 | 1 | bfrd |
 | 2014 | bfrd_cleric | 2 | 2 | bfrd |
@@ -89,12 +89,12 @@
 | 2014 | bfrd_wizard | 1 | 1 | bfrd |
 | 2014 | cleric | 12 | 2 | o5e, taldorei, toh, wotc-srd |
 | 2014 | druid | 9 | 0 | o5e, toh, wotc-srd |
-| 2014 | fighter | 8 | 0 | o5e, toh, wotc-srd |
-| 2014 | monk | 10 | 0 | o5e, taldorei, toh, wotc-srd |
+| 2014 | fighter | 8 | 1 | o5e, toh, wotc-srd |
+| 2014 | monk | 10 | 2 | o5e, taldorei, toh, wotc-srd |
 | 2014 | paladin | 8 | 0 | o5e, toh, wotc-srd |
 | 2014 | ranger | 7 | 0 | toh, wotc-srd |
-| 2014 | rogue | 8 | 1 | o5e, toh, wotc-srd |
-| 2014 | sorcerer | 9 | 1 | o5e, taldorei, toh, wotc-srd |
+| 2014 | rogue | 8 | 2 | o5e, toh, wotc-srd |
+| 2014 | sorcerer | 9 | 2 | o5e, taldorei, toh, wotc-srd |
 | 2014 | srd-2024_wizard | 1 | 1 | open5e |
 | 2014 | srd_barbarian | 9 | 9 | srd-2014, tdcs, toh |
 | 2014 | srd_bard | 8 | 8 | open5e, srd-2014, toh |
@@ -109,7 +109,7 @@
 | 2014 | srd_warlock | 9 | 9 | open5e, srd-2014, toh |
 | 2014 | srd_wizard | 11 | 11 | open5e, srd-2014, toh |
 | 2014 | warlock | 8 | 1 | o5e, toh, wotc-srd |
-| 2014 | wizard | 10 | 1 | o5e, toh, wotc-srd |
+| 2014 | wizard | 10 | 3 | o5e, toh, wotc-srd |
 
 ## По издательству и книге
 

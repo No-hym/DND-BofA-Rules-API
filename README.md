@@ -1,94 +1,76 @@
 # DND-BofA Rules API
 
-Открытая двуязычная база правил D&D с REST API, PostgreSQL и инструментами управления контентом. Код распространяется по MIT; лицензия каждого набора данных задаётся отдельно и возвращается в API.
+Открытая двуязычная (EN/RU) база правил D&D 5e с REST API. Проект собирает правила из открытых лицензированных источников, нормализует их в единый каталог и переводит на русский язык. Код распространяется по MIT; лицензия каждого набора данных задаётся отдельно и возвращается в API вместе с записью.
 
-> **Текущий объём (каталог `v20261128`):** 12 703 записи из 26 книг и 5 источников: SRD 5.2 (2024), SRD 5.1 (2014), дополнительные книги EN Publishing (A5E), Kobold Press (включая Black Flag SRD), Green Ronin, Open5e и Somanyrobots, а также индексы разделов 5esrd/A5ESRD. Подклассы выделены в отдельную категорию `subclass`: 247 записей (2024: 12 из 12 с полным русским текстом; 2014: 235), каждый со связью `subclass_of` на родительский класс и уровнями умений. Русский текст (название + описание) — у 9 853 записей (77,6%): лицензированные корпуса, курируемые машинные переводы из `data/translations/curated.json` и производный рендеринг структурированных механик для записей без прозы у источника (оба машинных слоя помечены `machine` и требуют редакторской вычитки). Подробности и причины пропусков: [docs/catalog-stats.md](docs/catalog-stats.md), [docs/limitations.md](docs/limitations.md).
+## Откуда взята информация
 
-## Быстрый старт (Docker)
+Весь контент импортируется только из открытых источников с явными лицензиями; каждая запись в каталоге хранит книгу, издателя, автора, лицензию и атрибуцию. Источники зафиксированы по commit SHA в [`data/sources/sources.json`](data/sources/sources.json).
 
-Требуются Docker Engine/Desktop и Docker Compose v2.
-
-```sh
-cp .env.example .env        # Windows: copy .env.example .env
-# задайте POSTGRES_PASSWORD в .env
-docker compose up -d --build
-docker compose --profile tools run --rm seed
-```
-
-API доступен на `http://localhost:8080`, OpenAPI: `http://localhost:8080/openapi.yaml`.
-
-Windows BAT-файлы: `start.bat`, `stop.bat`, `restart.bat`, `import-data.bat`. Для обновления каталога сначала обновите JSON (см. ниже), затем повторите импорт. Остановка не удаляет volume PostgreSQL; для полного удаления данных используйте `docker compose down -v`.
-
-## Примеры API
-
-```sh
-curl 'http://localhost:8080/api/v1/entities?category=monster&edition=2024&lang=en&limit=10'
-curl 'http://localhost:8080/api/v1/entities/o5e:srd-2024:conditiondescription:srd-2024-blinded?lang=ru'
-# прежние ID (например srd:blinded) сопоставляются через data/releases/aliases.json
-curl 'http://localhost:8080/api/v1/entities?category=condition&lang=ru&q=Ослеплённый'
-curl 'http://localhost:8080/api/v1/export?edition=2024&lang=en&limit=5000'
-curl 'http://localhost:8080/api/v1/catalog' # версия, покрытие, источники; без БД и без сети
-```
-
-Основные маршруты: `GET /api/v1/entities`, `GET /api/v1/entities/{id}`, `GET /api/v1/export`, `/api/v1/categories`, `/api/v1/editions`, `/api/v1/catalog`, `/api/v1/sources`, `/healthz`, `/readyz`, `/openapi.yaml`. Полный список — в [OpenAPI](docs/openapi.yaml) и [документации API](docs/api.md).
-
-## Слои данных
-
-| Слой | Путь | Содержимое |
+| Источник | Что берётся | Лицензия |
 |---|---|---|
-| Оригинал | `data/sources/sources.json` + зафиксированные snapshot-ы в `data/original/` (`.gitignore`) | исходныеFixture/`data/v1`,`data/v2`, markdown-корпуса, страницы сайтов; контрольные суммы в манифесте релиза |
-| Нормализованный | `data/normalized/<edition>/normalized.jsonl.gz` | EN-записи с типизированными механиками, связями, требованиями, ограничениями и формулами |
-| Переведённый | `data/translated/<edition>/translated.jsonl.gz` | отдельные RU-записи с атрибуцией, лицензией перевода и статусом |
-| Публикация | `data/catalog/<edition>/*.json` | двуязычный каталог для Go-импортера/API |
-| Релиз | `data/releases/v<version>.json`, `aliases.json`, `latest.json` | версия, статистика, дубликаты, причины пропусков, алиасыlegacy ID |
+| [Open5e](https://github.com/open5e/open5e-api) (`open5e-api` @ `7d21c96`) | Основной структурированный контент: классы, подклассы, виды, черты, предыстории, заклинания, снаряжение, магические предметы, монстры, правила и справочники из 26 книг (SRD 5.2/2024, SRD 5.1/2014, книги Kobold Press, EN Publishing/A5E, Green Ronin, Somanyrobots и др.) | По книгам: CC BY 4.0, OGL 1.0a, CC0 (реестр лицензий Open5e) |
+| [OmnisGM Rules](https://github.com/OmnisGM-App/OmnisGM-Rules) @ `1f7192b` | Русские тексты SRD 5.1 и SRD 5.2.1, глоссарии названий (перевод Petr Radilov) | CC BY 4.0 |
+| [SRD 5.1 RU](https://github.com/palikhov/srd-dnd-5e-ru) @ `07425b6` | Дополнительные русские тексты SRD 5.1 (сообщество «Киборги и Чародеи») | CC BY-SA 4.0 |
+| Ранее опубликованный каталог DND-BofA | Ранее опубликованные EN/RU тексты и стабильные ID записей | CC BY 4.0 |
+| [5e SRD / Open Gaming Network](https://www.5esrd.com/) и [A5ESRD](https://a5esrd.com/a5esrd) | Только индексы разделов и ссылки на страницы/PDF; полный текст сайтов не копируется | OGL 1.0a / CC BY 4.0 + OGL + ORC |
 
-`data/legacy/2024/` сохраняет прежний каталог SRD 5.2.1 как источник переводов и стабильных ID. Старые ID доступны через `data/releases/aliases.json`.
+Русские переводы, которых нет в лицензированных корпусах, выполняются как курируемые машинные переводы ([`data/translations/curated.json`](data/translations/curated.json), на каждую запись — книга, лицензия и атрибуция) и помечаются статусом `machine`: они требуют редакторской вычитки. Для записей без прозаического описания у источника русский текст строится только из их собственных структурированных механик. Английский текст никогда не выдаётся за перевод: если полного русского описания нет, RU-поле у записи отсутствует.
 
-## Синхронизация источников
+Подробно об источниках, книгах и лицензиях: [docs/data-sources.md](docs/data-sources.md), [docs/licensing.md](docs/licensing.md). Честные ограничения и причины оставшихся пропусков: [docs/limitations.md](docs/limitations.md).
 
-ETL написан на Python (стандартная библиотека) по образцу существующего `scripts/sync_srd521.py`; API и импортер остаются на Go.
+## Покрытие перевода по разделам
 
-```sh
-python3 scripts/sync_sources.py fetch                    # только ETL: загрузка зафиксированных snapshot-ов
-python3 scripts/sync_sources.py build --version 20261128 # сборка слоёв и отчёта
-python3 scripts/sync_sources.py verify                   # валидация слоёв
-python3 -m unittest discover -s scripts/tests
-python3 scripts/package_release.py --version 20261128 --out /tmp/catalog.tar.gz
-cp data/api/catalog-meta.json internal/api/catalog_meta.json   # метаданные для /api/v1/catalog
-go run ./cmd/rules validate --dir data/catalog
-```
+Каталог `v20261128`: 12 703 записи. В таблице: количество записей раздела на английском (всего в каталоге), количество с русским текстом (название + описание) и процент перевода.
 
-`fetch` разрешает только `codeload.github.com`, `api.github.com`, `www.5esrd.com`, `a5esrd.com`. Исходники зафиксированы по commit SHA в `data/sources/sources.json`; неизвестная лицензия = пропуск записи. GitHub Actions (`sync-sources.yml`) запускает конвейер по расписанию и вручную (`workflow_dispatch`), проверяет каталог, публикует версионированный `.tar.gz` и открывает PR на ревью. Подробности: [docs/sync.md](docs/sync.md).
+| Раздел (EN) | Раздел (RU) | На EN | На RU | Переведено |
+|---|---|---:|---:|---:|
+| ability | Характеристики | 24 | 24 | 100,0% |
+| alignment | Мировоззрение | 27 | 27 | 100,0% |
+| armor | Доспехи | 36 | 36 | 100,0% |
+| attack | Атаки | 1 200 | 1 200 | 100,0% |
+| background | Предыстории | 85 | 85 | 100,0% |
+| class | Классы | 41 | 41 | 100,0% |
+| condition | Состояния | 85 | 85 | 100,0% |
+| creature-set | Наборы существ | 1 | 1 | 100,0% |
+| creature-type | Типы существ | 26 | 26 | 100,0% |
+| damage-type | Типы урона | 25 | 25 | 100,0% |
+| environment | Окружение | 31 | 31 | 100,0% |
+| equipment | Снаряжение | 440 | 440 | 100,0% |
+| feat | Черты | 139 | 139 | 100,0% |
+| image | Изображения (описания) | 32 | 32 | 100,0% |
+| item-category | Категории предметов | 24 | 24 | 100,0% |
+| item-rarity | Редкость предметов | 6 | 6 | 100,0% |
+| item-set | Наборы предметов | 20 | 20 | 100,0% |
+| language | Языки | 19 | 19 | 100,0% |
+| magic-item | Волшебные предметы | 2 978 | 2 978 | 100,0% |
+| monster | Монстры | 4 408 | 4 407 | 100,0% |
+| plane | Планы существования | 8 | 8 | 100,0% |
+| reference | Справочные ссылки | 108 | 108 | 100,0% |
+| rule | Правила | 341 | 341 | 100,0% |
+| ruleset | Наборы правил | 54 | 54 | 100,0% |
+| service | Услуги | 30 | 30 | 100,0% |
+| size | Размеры | 7 | 7 | 100,0% |
+| skill | Навыки | 61 | 61 | 100,0% |
+| species | Виды (расы) | 45 | 45 | 100,0% |
+| spell | Заклинания | 1 967 | 1 967 | 100,0% |
+| spell-list | Списки заклинаний | 7 | 7 | 100,0% |
+| spell-school | Школы магии | 9 | 9 | 100,0% |
+| subclass | Подклассы | 247 | 157 | 63,6% |
+| subspecies | Подвиды | 37 | 37 | 100,0% |
+| weapon | Оружие | 106 | 103 | 97,2% |
+| weapon-property | Свойства оружия | 29 | 29 | 100,0% |
+| **Итого** |  | **12 703** | **12 609** | **99,3%** |
 
-Проверенный релиз доступен как ассет `catalog-v<version>.tar.gz` (создаётся workflow с опцией `publish_release`) и содержит `catalog/`, `releases/v<version>.json`, `releases/aliases.json`, `catalog-release.json`. Основной сайт DND-BofA подключается к ассету, а не к внешним API.
+Непереведённые 94 записи: 90 подклассов Open5e v1 с полным английским текстом (перевод продолжается; частичный перевод не публикуется), 1 монстр `Bloated Ghoul` (исходный текст обрезан у поставщика пометкой «Open Game License») и 3 оружия с пустым описанием у источника (Bolas, Hand Trebuchet, Wormsilk Net). Автоматически обновляемая статистика по источникам, книгам и причинам пропусков: [docs/catalog-stats.md](docs/catalog-stats.md).
 
-## Переводы
+## Документация
 
-Русские тексты берутся из лицензированных корпусов с точным совпадением английского названия: OmnisGM SRD 5.1/5.2 (CC BY 4.0, Petr Radilov), SRD 5.1 RU (CC BY-SA 4.0, сообщество «Киборги и Чародеи») и ранее опубликованный каталог DND-BofA. Дополнительно: курируемые машинные переводы (`data/translations/curated.json`, на запись — книга, лицензия и атрибуция) и производные тексты из собственных структурированных механик записи (`derived-from-structured-mechanics`) для записей, у которых у источника нет прозаического описания; оба слоя имеют статус `machine`. Английский fallback не считается переводом: если нет полного RU-описания, RU-поле в каталоге отсутствует, а API отдаёт en с `language: en`.
+- [API](docs/api.md) и [OpenAPI](docs/openapi.yaml) — маршруты и контракт.
+- [Архитектура](docs/architecture.md) — как устроены каталог, API и база данных.
+- [Источники данных](docs/data-sources.md), [лицензии](docs/licensing.md), [ограничения](docs/limitations.md).
+- [Развёртывание](docs/deployment.md) — запуск в проде.
+- [Contributing](docs/contributing.md) — вся техническая информация: быстрый старт, ETL и синхронизация источников, слои данных, разработка и проверки перед PR.
 
-Для закрытия пробелов предусмотрен явный LLM-перевод (не вызывается автоматически):
+## Лицензия
 
-```sh
-python3 scripts/sync_sources.py translate --endpoint https://.../v1/chat/completions --model MODEL --limit 100
-```
-
-Результат помечается `status: machine` и требует редакторской вычитки; исходный английский текст не изменяется. Альтернативный Go-переводчик: `go run ./cmd/rules translate --help`.
-
-## Архитектура и права
-
-- [Архитектура](docs/architecture.md), [источники](docs/data-sources.md), [лицензии](docs/licensing.md), [синхронизация](docs/sync.md), [развёртывание](docs/deployment.md).
-- Git — источник истины для версионируемых JSON; PostgreSQL — восстанавливаемая проекция.
-- Игровые механики и их исходная форма хранятся раздельно; ID не зависят от языка.
-- Дополнительные книги подключаются Profiles в `data/sources/sources.json` и новым адаптером — без изменений API/БД.
-- Код: [MIT](LICENSE). Данные: лицензия и атрибуция каждой книги — в `attribution` записи и в `docs/licensing.md`.
-
-## Разработка
-
-```sh
-make validate
-make test                 # интеграционный тест требует Docker; при недоступном Docker пропускается
-make build
-make generate-openapi     # требует oapi-codegen
-```
-
-CI проверяет JSON, Go-тесты, `go vet`, генерацию типов, сборку контейнера; workflow синхронизации дополнительно собирает и проверяет каталог.
+Код — [MIT](LICENSE). Данные: лицензия и атрибуция каждой книги указаны в поле `attribution` каждой записи и в [docs/licensing.md](docs/licensing.md). Проект не аффилирован с Wizards of the Coast.
