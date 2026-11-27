@@ -393,6 +393,14 @@ def apply(memory: TranslationMemory, entity: Entity, glossary_version: str) -> b
             if feature_text and feature_text.description:
                 parts.append(f"### {feature_text.name}\n\n{feature_text.description}")
                 assembled_features += 1
+                # The same licensed text also translates the structured
+                # payload itself, so clients rendering features separately
+                # do not fall back to English.
+                if isinstance(feature, dict) and not feature.get("desc_ru"):
+                    feature["name_ru"] = re.sub(
+                        r"^(Уровень|Level)\s+\d+:\s*", "", feature_text.name).strip()
+                    feature["desc_ru"] = feature_text.description
+                    feature["ru_source"] = "memory"
         if assembled_features:
             description = "\n\n".join(parts)
         elif description and len(description) < 0.4 * len(entity.description):
