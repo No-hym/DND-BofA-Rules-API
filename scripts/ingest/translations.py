@@ -334,6 +334,27 @@ def apply(memory: TranslationMemory, entity: Entity, glossary_version: str) -> b
     description = entry.description
     assembled_features = 0
     complete_curated = False
+    if entity.category == "subclass" and not entity.description and entry.source == "dnd-bofa-curated":
+        # A record without its own EN prose (e.g. an SRD book record whose RU
+        # text is assembled from licensed corpus sections) must not be taken
+        # over by a curated full-text translation of a namesake record from
+        # another book. Prefer the corpus entries for the assembly instead.
+        other = "2014" if entity.edition == "2024" else "2024"
+        name_slug = slug(entity.name.lower())
+        corpus = [
+            candidate
+            for key in ((entity.edition, entity.category, name_slug),
+                        (entity.edition, "", name_slug),
+                        (other, entity.category, name_slug),
+                        (other, "", name_slug),
+                        ("", entity.category, name_slug),
+                        ("", "", name_slug))
+            for candidate in memory.by_key.get(key, [])
+            if candidate.source != "dnd-bofa-curated"
+        ]
+        if corpus:
+            entry = max(corpus, key=lambda candidate: (bool(candidate.description), len(candidate.description)))
+            description = entry.description
     if entity.category == "subclass" and entity.description:
         # A curated entry may hold a complete translation of a long full-text
         # record (e.g. an Open5e v1 archetype) next to a short intro entry for
